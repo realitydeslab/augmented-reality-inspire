@@ -189,7 +189,7 @@ def load_i18n() -> tuple[dict, dict]:
 def load_salient() -> dict:
     """work_id -> {why_en, why_zh}. manual.json is applied last; a null value removes a work."""
     out: dict = {}
-    files = sorted(f for f in SALIENT.glob("*.json") if f.name != "manual.json")
+    files = sorted(f for f in SALIENT.glob("*.json") if f.name not in ("manual.json", "reviewed.json"))
     if (SALIENT / "manual.json").exists():
         files.append(SALIENT / "manual.json")
     for f in files:
