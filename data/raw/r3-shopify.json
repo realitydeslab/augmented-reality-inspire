@@ -1,0 +1,982 @@
+{
+  "batch": "r3-shopify",
+  "creators": [
+    {
+      "id": "russ-maschmeyer",
+      "name": "Russ Maschmeyer",
+      "role": "Designer and product lead; ex-lead of Shopify's Spatial Commerce lab, Primer co-founder",
+      "based": "San Francisco Bay Area, US",
+      "bio": "Interaction designer who turned a hacked Kinect into a musical instrument for his SVA thesis, led search design at Facebook, co-founded the AR home-design app Primer, and ran Shopify's Spatial Commerce lab (2021-2024) before leading GenAI design at Meta and moving to Stripe in 2026.",
+      "why": "His lab turned each new API or headset (RoomPlan, Quest Pro eye tracking, Vision Pro) into a public 'what if' prototype within weeks and explained how every one was built.",
+      "links": {
+        "site": "https://russmaschmeyer.com",
+        "x": "https://x.com/russ_maschmeyer",
+        "instagram": "https://www.instagram.com/russ_maschmeyer/",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "role_zh": "设计师、产品负责人；Shopify Spatial Commerce 实验室前负责人，Primer 联合创始人",
+      "based_zh": "美国旧金山湾区",
+      "bio_zh": "交互设计师。在 SVA 读研时把破解的 Kinect 做成音乐乐器，之后在 Facebook 主导搜索设计，联合创办 AR 家装应用 Primer，2021–2024 年带领 Shopify 的 Spatial Commerce 实验室，随后去 Meta 负责生成式 AI 设计，2026 年加入 Stripe。",
+      "why_zh": "他的团队总能在新 API 或新头显（RoomPlan、Quest Pro 眼动、Vision Pro）发布后几周内，做出一个公开的“如果……会怎样”原型，并把做法完整讲清楚。",
+      "connected_to": [
+        "shopify-spatial-commerce",
+        "mikko-haapoja",
+        "daniel-beauchamp"
+      ],
+      "discovered_via": "daniel-beauchamp"
+    },
+    {
+      "id": "mikko-haapoja",
+      "name": "Mikko Haapoja",
+      "role": "Developer; former AR/VR development manager at Shopify",
+      "based": "Toronto, Canada",
+      "bio": "Toronto developer who spent almost ten years at Shopify on 3D/AR/VR product media, the BFCM live globe and Sidekick, contributed to google/model-viewer, and joined Opendoor in 2026.",
+      "why": "His daily phone-scanning diary shows that capturing reality, including its glitches, is itself a creative AR skill.",
+      "links": {
+        "site": "http://mikkoh.com",
+        "x": "https://x.com/MikkoH",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/mikkoh"
+      },
+      "role_zh": "开发者；Shopify 前 AR/VR 开发经理",
+      "based_zh": "加拿大多伦多",
+      "bio_zh": "多伦多开发者，在 Shopify 工作近十年，参与 3D/AR/VR 商品媒体、BFCM 实时地球和 Sidekick 等项目，也为 google/model-viewer 贡献过代码，2026 年加入 Opendoor。",
+      "why_zh": "他坚持每天用手机扫描一件东西，证明“捕捉现实”（连同它的故障）本身就是一种有创造力的 AR 能力。",
+      "connected_to": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce",
+        "daniel-beauchamp"
+      ],
+      "discovered_via": "daniel-beauchamp"
+    },
+    {
+      "id": "shopify-spatial-commerce",
+      "name": "Shopify Spatial Commerce Team",
+      "role": "Shopify's AR/VR and spatial-commerce prototyping lab",
+      "based": "Canada and US (distributed team)",
+      "bio": "A rapid-prototyping crew of engineers, designers and artists at Shopify (growing out of the earlier Shopify AR/VR team) that explored AR, VR and AI for shopping and published its prototypes and open-source tools such as Tracky and Handy.",
+      "why": "Each prototype is framed as one public question, such as 'What if your room had a reset button?', which makes their work a ready-made set of classroom briefs.",
+      "links": {
+        "site": "https://shopify.github.io/spatial-commerce-projects/",
+        "x": "https://x.com/russ_maschmeyer",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/Shopify/spatial-commerce-projects"
+      },
+      "role_zh": "Shopify 的 AR/VR 与空间商务原型实验室",
+      "based_zh": "加拿大与美国（分布式团队）",
+      "bio_zh": "Shopify 内部由工程师、设计师和艺术家组成的快速原型小组（前身是 Shopify AR/VR 团队），探索 AR、VR 与 AI 如何改变购物，并公开发布原型和 Tracky、Handy 等开源工具。",
+      "why_zh": "他们把每个原型都写成一个公开的问题，比如“如果你的房间有一个重置键会怎样？”，本身就是现成的课堂命题。",
+      "connected_to": [
+        "russ-maschmeyer",
+        "mikko-haapoja",
+        "daniel-beauchamp"
+      ],
+      "discovered_via": "daniel-beauchamp"
+    }
+  ],
+  "works": [
+    {
+      "id": "russ-maschmeyer--motiv",
+      "creator_ids": [
+        "russ-maschmeyer"
+      ],
+      "title": "MOTIV",
+      "year": 2011,
+      "description": "Russ's SVA MFA thesis: a hacked Kinect follows a performer's body so that gestures shape the velocity and tempo of a playing song, while on-screen graphics mirror and guide the moves.",
+      "description_zh": "Russ 在 SVA 的硕士毕业设计：破解的 Kinect 追踪表演者的身体，用手势实时控制正在播放的乐曲的力度和速度，屏幕上的图形同步反馈并引导动作。",
+      "idea_en": "Let the body, not an instrument, control the emotion of music.",
+      "idea_zh": "不用学乐器，用身体动作直接控制音乐的情绪。",
+      "technique": "A Kinect depth camera tracks the performer's movement and maps it in real time to expression parameters such as note velocity and tempo of a multi-track MIDI sequence.",
+      "technique_zh": "Kinect 深度相机追踪表演者的动作，实时映射到多轨 MIDI 序列的表情参数上，例如音符力度和速度。",
+      "exercise_en": "Map one tracked body feature (hand height or arm spread) to the volume and tempo of a looping track with a webcam pose tracker, then perform a 30-second piece. Twist: map two performers to different instruments so they must play together.",
+      "exercise_zh": "用摄像头姿态识别，把一个身体特征（手的高度或双臂张开程度）映射到循环音轨的音量和速度上，然后表演 30 秒；变体：让两位表演者各控制一种乐器，必须配合演奏。",
+      "interaction": [
+        "hand-body",
+        "voice-sound",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Kinect",
+        "MIDI"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "nKl2Wjto4zI",
+        "url": "https://www.youtube.com/watch?v=nKl2Wjto4zI"
+      },
+      "source_url": "https://russmaschmeyer.com/projects/2011_motiv.html"
+    },
+    {
+      "id": "russ-maschmeyer--shop-app-home-goods-ar",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Home Goods in AR (Shop app)",
+      "year": 2022,
+      "description": "After Shopify brought on the Primer team (whose app previewed paint, tile and wallpaper on real walls), they shipped a 'Visualize before you buy' section in the Shop app where shoppers drop furniture and lamps into their own room.",
+      "description_zh": "Shopify 收购 Primer 团队（其应用能在真实墙面上预览油漆、瓷砖和墙纸）后，团队在 Shop 应用里上线了“买之前先看看”板块，购物者可以把家具和灯具直接放进自己的房间。",
+      "idea_en": "Put AR one tap away inside everyday shopping instead of in a separate app.",
+      "idea_zh": "把 AR 放进日常购物流程里，点一下就能用，而不是另开一个应用。",
+      "technique": "Likely built on ARKit and AR Quick Look with USDZ product models, so any listing with a 3D model opens a true-scale preview in the shopper's room.",
+      "technique_zh": "很可能基于 ARKit 和 AR Quick Look，商品配有 USDZ 模型，任何带 3D 模型的商品都能一键以真实尺寸放进房间预览。",
+      "exercise_en": "Build a three-product mini store page where each product opens a 1:1 AR preview (model-viewer or Quick Look), then run a quick 'which would you buy' test with classmates. Twist: add a 'will it fit?' check that warns when the model is larger than a measured spot.",
+      "exercise_zh": "做一个只有三件商品的迷你商店页面，每件商品都能打开 1:1 的 AR 预览（model-viewer 或 Quick Look），再让同学投票选出最想买的；变体：加一个“放得下吗？”检测，模型比量好的空位大时给出提醒。",
+      "interaction": [
+        "spatial-mapping",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "AR Quick Look",
+        "USDZ"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1483577639356960769",
+        "url": "https://x.com/russ_maschmeyer/status/1483577639356960769"
+      },
+      "source_url": "https://russmaschmeyer.com/projects/2019_primer.html"
+    },
+    {
+      "id": "russ-maschmeyer--space-eraser",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Space Eraser",
+      "year": 2022,
+      "description": "An iPhone scans a room with Apple's RoomPlan, textures the scanned boxes with live camera pixels and lays this digital twin 1:1 over the room, so you can erase the sofa, the dog or everything and then swipe through new furniture sets.",
+      "description_zh": "iPhone 用苹果的 RoomPlan 扫描房间，用实时画面给扫描出的方块贴图，再把这个数字孪生 1:1 叠回真实房间；你可以擦掉沙发、狗甚至所有家具，再滑动切换整套新家具。",
+      "idea_en": "Give your room a reset button before you shop for furniture.",
+      "idea_zh": "买家具之前，先给房间按一下“重置键”。",
+      "technique": "RoomPlan's semantically labelled USDZ boxes are realigned to the room with ARWorldMap, textured from live camera frames plus LiDAR depth, and the hidden areas are likely filled with ML inpainting.",
+      "technique_zh": "RoomPlan 输出带语义标签的 USDZ 方块，用 ARWorldMap 与真实房间对齐，再结合实时画面和 LiDAR 深度贴图；被擦除区域很可能用机器学习补全（inpainting）。",
+      "exercise_en": "Scan one corner of the classroom (RoomPlan, Polycam or a hand-built box model), overlay it in AR, and let users tap an object to hide it behind a painted wall texture. Twist: instead of erasing, swap the object for a funny replacement of the same size.",
+      "exercise_zh": "扫描教室的一个角落（RoomPlan、Polycam 或手工搭的方块模型），在 AR 中叠回原位，让用户点一下某个物体就用墙面贴图把它“藏起来”；变体：不擦除，而是换成一个同尺寸的搞笑替代物。",
+      "interaction": [
+        "spatial-mapping",
+        "portal-world"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "RoomPlan",
+        "LiDAR",
+        "ARWorldMap"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1544666221181734912",
+        "url": "https://x.com/russ_maschmeyer/status/1544666221181734912"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/Space-Eraser/"
+    },
+    {
+      "id": "russ-maschmeyer--reverse-ar",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Reverse AR",
+      "year": 2022,
+      "description": "Instead of placing a virtual sofa in a real room, a shopper sits on a real sofa in the store while the phone wraps a 3D scan of their own living room around it; two shoppers can share the view and spin the room with gestures.",
+      "description_zh": "不是把虚拟沙发放进真实房间，而是让顾客在店里坐上真沙发，手机把他家客厅的 3D 扫描包裹在沙发周围；两位顾客可以共享画面，并用手势旋转整个房间。",
+      "idea_en": "Flip AR: keep the product real and make the room virtual.",
+      "idea_zh": "把 AR 反过来：商品是真的，房间是虚拟的。",
+      "technique": "The home is captured with RoomPlan or photogrammetry, and in the store the real furniture is cut out of the camera feed with LiDAR depth-based segmentation inside a bounding box, then composited into the virtual room in Unity with AR Foundation.",
+      "technique_zh": "先用 RoomPlan 或摄影测量扫描家里；到了店里，用 LiDAR 深度在包围盒内把真实家具从画面中分割出来，再在 Unity + AR Foundation 中合成进虚拟房间。",
+      "exercise_en": "Scan a room at home with a free photogrammetry app, bring it to class, and composite a real chair (cut out with a depth or person mask) into it on a phone. Twist: place the real object in an impossible room, such as underwater or on the Moon.",
+      "exercise_zh": "用免费摄影测量应用扫描家里的一个房间带到课堂，在手机上把一把真实椅子（用深度或人像蒙版抠出）合成进去；变体：把真实物体放进一个不可能的房间，比如海底或月球。",
+      "interaction": [
+        "portal-world",
+        "spatial-mapping",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "AR Foundation",
+        "LiDAR",
+        "RoomPlan",
+        "Polycam"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1562450155080597505",
+        "url": "https://x.com/russ_maschmeyer/status/1562450155080597505"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/Reverse-AR/"
+    },
+    {
+      "id": "russ-maschmeyer--ai-product-genie",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "AI Product Genie",
+      "year": 2022,
+      "description": "Built right after Stable Diffusion came out: you speak a wish to a genie, it generates a custom product design such as a printed shirt or a plush toy, previews it in AR, and sends it to on-demand production.",
+      "description_zh": "Stable Diffusion 一发布团队就做了这个“精灵”：你对它说出愿望，它生成定制商品图案（比如印花衬衫或毛绒玩具），在 AR 中预览，然后直接下单按需生产。",
+      "idea_en": "Speak a wish, see the custom product in your room, buy it instantly.",
+      "idea_zh": "说出一个愿望，就能在房间里看到为你定制的商品并立刻买下。",
+      "technique": "Speech becomes a Stable Diffusion prompt, the generated image is applied as a texture to a 3D product template shown in AR, and print-on-demand fulfilment likely sits behind the buy button.",
+      "technique_zh": "语音被转成 Stable Diffusion 提示词，生成的图像贴到 3D 商品模板上在 AR 中展示，购买按钮背后很可能接入按需印制。",
+      "exercise_en": "Build a pipeline where a spoken prompt generates an image (any text-to-image API) that is wrapped onto a 3D mug or T-shirt and placed in AR. Twist: let a second student remix the wish by voice before it is placed.",
+      "exercise_zh": "搭一条流程：用语音提示生成图片（任意文生图 API），贴到 3D 马克杯或 T 恤上并放进 AR；变体：放置前让另一位同学用语音“改写”这个愿望。",
+      "interaction": [
+        "voice-sound",
+        "drawing-creation"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Stable Diffusion",
+        "ARKit"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1569700294673702912",
+        "url": "https://x.com/russ_maschmeyer/status/1569700294673702912"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/AI-Product-Genie/"
+    },
+    {
+      "id": "russ-maschmeyer--spatial-admin",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Spatial Admin",
+      "year": 2022,
+      "description": "A Quest Pro prototype for merchants: open a virtual photo studio on your desk, arrange and light a 3D product, and capture product shots through a floating live-camera viewfinder controlled by hand pinches.",
+      "description_zh": "面向商家的 Quest Pro 原型：在桌面上打开一个虚拟摄影棚，摆放 3D 商品、调整灯光，再用捏合手势操作一个悬浮的实时取景器拍摄商品图。",
+      "idea_en": "Let AR glasses turn any table into a product-photo studio.",
+      "idea_zh": "让 AR 眼镜把任何桌面变成商品摄影棚。",
+      "technique": "Built in Unity with Meta's Interaction SDK hand tracking in Quest Pro passthrough; the team tested several capture metaphors (instant camera, reaching into a photo, live camera preview) before choosing the live cam.",
+      "technique_zh": "在 Unity 中用 Meta Interaction SDK 的手部追踪和 Quest Pro 透视画面实现；团队试过多种拍照隐喻（拍立得、伸手进照片、实时取景），最后选定实时取景器。",
+      "exercise_en": "Prototype two different 'take a photo' gestures for a virtual camera in a headset or phone AR scene and have classmates rate which is faster and clearer. Twist: the photo must be taken with no buttons, only with the body.",
+      "exercise_zh": "在头显或手机 AR 场景里为虚拟相机设计两种不同的“拍照”手势，让同学评价哪种更快、更清楚；变体：不能用任何按钮，只能用身体动作拍照。",
+      "interaction": [
+        "hand-body",
+        "drawing-creation",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest Pro",
+        "Unity",
+        "Meta Interaction SDK",
+        "passthrough"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1578022121883676673",
+        "url": "https://x.com/russ_maschmeyer/status/1578022121883676673"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/Spatial-Admin/"
+    },
+    {
+      "id": "russ-maschmeyer--retail-research-kit",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Retail Research Kit",
+      "year": 2022,
+      "description": "Volunteers wore a Quest Pro while shopping in Paxton Gate, a San Francisco curiosity shop; their gaze and touches were replayed on a 3D scan of the store as heatmaps so a small merchant can see what draws attention.",
+      "description_zh": "志愿者戴着 Quest Pro 在旧金山的奇物店 Paxton Gate 购物，他们的视线和触摸被映射到店铺 3D 扫描上生成热力图，让小商家看清顾客被什么吸引。",
+      "idea_en": "Turn a headset's eye tracking into affordable shopper research for small shops.",
+      "idea_zh": "把头显的眼动追踪变成小店也用得起的顾客研究工具。",
+      "technique": "The shop was scanned with Polycam and aligned in Unity; Quest Pro eye-tracking rays and hand-tracking contacts are painted onto the mesh with a texture-painting shader to build 3D gaze and touch heatmaps.",
+      "technique_zh": "用 Polycam 扫描店铺并在 Unity 中对齐，再把 Quest Pro 的眼动射线和手部接触点用纹理绘制着色器画到网格上，形成 3D 注视与触摸热力图。",
+      "exercise_en": "Scan a classroom shelf, log where testers look or point (head direction in phone AR is fine), and paint the hits onto the scan as a heatmap. Twist: compare heatmaps for two different product arrangements.",
+      "exercise_zh": "扫描教室的一个书架，记录测试者看向或指向的位置（手机 AR 用头部朝向即可），把命中点画到扫描模型上形成热力图；变体：对比两种商品摆放方式的热力图。",
+      "interaction": [
+        "gaze-attention",
+        "spatial-mapping",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest Pro",
+        "eye tracking",
+        "Unity",
+        "Polycam"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1592554373519142913",
+        "url": "https://x.com/russ_maschmeyer/status/1592554373519142913"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/Retail-Research-Kit/"
+    },
+    {
+      "id": "russ-maschmeyer--instructional-ar",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Instructional AR",
+      "year": 2022,
+      "description": "Hands-free assembly with a Quest Pro: parts laid out on the floor are identified, wobbly guide lines show which pieces connect, tracked parts snap together with playful effects, and voice commands move between steps.",
+      "description_zh": "戴着 Quest Pro 免手持组装：地上摆好的零件被一一标出，弹性的引导线告诉你哪两个零件相连，被追踪的零件拼上时有俏皮的动效，用语音切换步骤。",
+      "idea_en": "Replace a 15-page manual with instructions that live on the parts themselves.",
+      "idea_zh": "用长在零件上的指引，取代 15 页的说明书。",
+      "technique": "Quest Pro controllers attached to physical parts give inside-out 6DoF tracking of the pieces, so Unity can draw 3D connection guides in passthrough while voice commands advance the steps.",
+      "technique_zh": "把 Quest Pro 手柄固定在实物零件上，利用手柄自带的 inside-out 六自由度追踪定位零件，Unity 在透视画面中绘制 3D 连接引导，语音指令切换步骤。",
+      "exercise_en": "Pick a simple 3-5 step build (LEGO or a paper model) and make an AR guide that anchors each step's arrow or ghost part on the real pieces, with a voice command for 'next'. Twist: make the guide react when a step is done wrong.",
+      "exercise_zh": "选一个 3–5 步的简单拼装（乐高或纸模型），做一个 AR 指引，把每一步的箭头或半透明零件锚定在真实零件上，并用语音说“下一步”；变体：装错时让指引做出反应。",
+      "interaction": [
+        "tangible-object",
+        "voice-sound",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest Pro",
+        "passthrough",
+        "Unity",
+        "voice commands"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1602706821403361282",
+        "url": "https://x.com/russ_maschmeyer/status/1602706821403361282"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/Instructional-AR/"
+    },
+    {
+      "id": "russ-maschmeyer--matrix-stockroom",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Matrix Stockroom",
+      "year": 2023,
+      "description": "A VR concept inspired by the infinite gun rack in The Matrix: a search spawns endless shelves of products around you, voice commands narrow them down, and any item can be pulled out for AR try-on.",
+      "description_zh": "向《黑客帝国》无限货架致敬的 VR 概念：一次搜索会在你周围生成无尽的商品货架，用语音指令逐步筛选，任何商品都能拿出来做 AR 试用。",
+      "idea_en": "Show search results as an infinite room you walk through, then talk to narrow it down.",
+      "idea_zh": "把搜索结果变成一个可以走进去的无限房间，再用说话来筛选。",
+      "technique": "A concept film combining Meta's Voice SDK with a large language model as the filter; the hands were motion-captured on a Quest with the team's open-source Handy tool and rendered in Blender (the filtering pipeline is likely simulated).",
+      "technique_zh": "概念影片设想用 Meta Voice SDK 加大语言模型做筛选；片中的手部动作由团队开源工具 Handy 在 Quest 上动捕后用 Blender 渲染（筛选流程很可能是模拟的）。",
+      "exercise_en": "Build a VR or phone-AR scene that spawns a grid of 50 objects from a search word, then add two spoken filters ('only red', 'smaller') that remove items. Twist: sort the room by a feeling ('cozy', 'loud') instead of a category.",
+      "exercise_zh": "做一个 VR 或手机 AR 场景：输入一个搜索词就生成 50 个物体的阵列，再加两个语音筛选（“只要红色”“更小的”）去掉不符合的物体；变体：按感觉（“温馨”“吵闹”）而不是类别来整理房间。",
+      "interaction": [
+        "voice-sound",
+        "data-information",
+        "portal-world"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Voice SDK",
+        "LLM",
+        "Handy",
+        "Blender"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1613218237969494017",
+        "url": "https://x.com/russ_maschmeyer/status/1613218237969494017"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/Matrix-Stockroom/"
+    },
+    {
+      "id": "russ-maschmeyer--product-as-platform",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Product as Platform",
+      "year": 2023,
+      "description": "A concept for AR glasses in which physical objects carry their own apps: pick up a film camera and its controls and tips appear anchored to it, selected by gaze-and-pinch or by virtual buttons on the object's hard surfaces.",
+      "description_zh": "AR 眼镜概念：实体物品自带“应用”。拿起一台胶片相机，它的控制项和使用提示就锚定在机身上，用“注视+捏合”或贴在物体硬表面上的虚拟按钮来操作。",
+      "idea_en": "Every object you own could have an app living inside it.",
+      "idea_zh": "你拥有的每件物品，都可以住着一个自己的应用。",
+      "technique": "Likely a passthrough prototype in which each product is recognised and tracked so a small UI stays attached to it, using pinch-and-gaze selection or virtual buttons backed by the object's real surfaces.",
+      "technique_zh": "很可能是透视式原型：识别并追踪每件商品，让小界面始终附着在物体上，通过注视+捏合或以物体真实表面为依托的虚拟按钮来选择。",
+      "exercise_en": "Choose one classroom object and design its 'app': anchor three AR controls to it with an image marker that only appear when the user touches or looks at it. Twist: give the object a personality so its app is quirky rather than useful.",
+      "exercise_zh": "选一件教室里的物品，为它设计“应用”：用图像标记把三个 AR 控件锚定在物品上，只有被触摸或注视时才出现；变体：给物品一个性格，让它的应用古灵精怪而不是实用。",
+      "interaction": [
+        "tangible-object",
+        "gaze-attention",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "mixed reality passthrough",
+        "hand tracking",
+        "eye tracking"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1622969682516123648",
+        "url": "https://x.com/russ_maschmeyer/status/1622969682516123648"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/Product-As-Platform/"
+    },
+    {
+      "id": "russ-maschmeyer--wonkavision",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "WonkaVision",
+      "year": 2023,
+      "description": "Johnny Lee's 2007 Wii head-tracking trick revived in Chrome with a normal webcam: as you move your head, a miniature 3D storefront shifts in perspective as if behind a window, and objects appear to pop out of the screen.",
+      "description_zh": "在 Chrome 里用普通摄像头复活 Johnny Lee 2007 年的 Wii 头部追踪技巧：头一动，屏幕里的迷你 3D 店铺就像窗外的景物一样改变透视，物体甚至像要跳出屏幕。",
+      "idea_en": "Turn a flat screen into a window with nothing but a webcam.",
+      "idea_zh": "只靠一个摄像头，把平面屏幕变成一扇窗。",
+      "technique": "MediaPipe Face Mesh iris landmarks estimate the eye's 3D position from the near-constant iris diameter (about 11.7 mm), and the scene is rendered with an off-axis perspective projection from that eye, all in the browser via WebAssembly.",
+      "technique_zh": "利用 MediaPipe Face Mesh 的虹膜关键点，根据人眼虹膜直径几乎恒定（约 11.7 毫米）推算眼睛的 3D 位置，再以该位置做离轴透视投影渲染，全部通过 WebAssembly 在浏览器中运行。",
+      "exercise_en": "Use a browser face tracker to move a three.js camera with the viewer's head so a box scene behind the screen feels deep. Twist: make one object escape through the screen when the viewer leans in.",
+      "exercise_zh": "用浏览器人脸追踪让 three.js 相机跟随观众头部移动，让屏幕后面的盒子场景产生纵深感；变体：观众凑近时，让一个物体“钻出”屏幕。",
+      "interaction": [
+        "face",
+        "perception-art",
+        "gaze-attention"
+      ],
+      "platform": [
+        "web"
+      ],
+      "tech": [
+        "MediaPipe Face Mesh",
+        "WebAssembly",
+        "WebGL"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1631350356058726411",
+        "url": "https://x.com/russ_maschmeyer/status/1631350356058726411"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/WonkaVision/"
+    },
+    {
+      "id": "russ-maschmeyer--tracky",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Tracky",
+      "year": 2023,
+      "description": "An open-source iOS app and Blender plugin: film a clip while the phone records camera pose, focal length, LiDAR depth, planes, anchors and a person mask, then import it into Blender to add AR effects that stay locked to the scene.",
+      "description_zh": "开源的 iOS 应用加 Blender 插件：拍视频时手机同时记录相机位姿、焦距、LiDAR 深度、平面、锚点和人像蒙版，导入 Blender 后加上的 AR 效果会稳稳贴合场景。",
+      "idea_en": "Sketch AR ideas as believable videos without building the real app.",
+      "idea_zh": "不用先开发应用，也能把 AR 创意做成可信的概念视频。",
+      "technique": "ARKit logs per-frame camera transforms, intrinsics, depth maps, segmentation masks and planes into a JSON-based .bren file, which the Blender add-on turns into an animated camera and aligned scene.",
+      "technique_zh": "ARKit 逐帧记录相机变换、内参、深度图、分割蒙版和平面，存成基于 JSON 的 .bren 文件，Blender 插件据此还原动画相机和对齐的场景。",
+      "exercise_en": "Record a 10-second phone clip with a camera-tracking tool (Tracky or Blender motion tracking), add one fake AR object in Blender, and render a concept video. Twist: the object must interact with something real in the shot, such as hiding behind it or bouncing on it.",
+      "exercise_zh": "用相机追踪工具（Tracky 或 Blender 运动追踪）拍一段 10 秒的手机视频，在 Blender 里加一个假的 AR 物体并渲染成概念视频；变体：这个物体必须和画面里的真实物体互动，比如躲到它后面或在上面弹跳。",
+      "interaction": [
+        "drawing-creation",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone",
+        "desktop"
+      ],
+      "tech": [
+        "ARKit",
+        "LiDAR",
+        "Blender"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1633899092861652994",
+        "url": "https://x.com/russ_maschmeyer/status/1633899092861652994"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/Tracky/"
+    },
+    {
+      "id": "russ-maschmeyer--ai-ar-shopping-concept",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "AI + AR Shopping Concept",
+      "year": 2023,
+      "description": "A concept that takes the Shop app's ChatGPT-powered search into AR: in a real kitchen, the espresso machine and cups glow as the assistant responds, and a suggested lever espresso maker appears on the counter.",
+      "description_zh": "把 Shop 应用中接入 ChatGPT 的搜索延伸到 AR 的概念：在真实厨房里，助手回应时咖啡机和杯子会发光，一台推荐的手压意式咖啡机随即出现在台面上。",
+      "idea_en": "Let AI answer shopping questions by lighting up the real world instead of a chat window.",
+      "idea_zh": "让 AI 通过点亮真实世界来回答购物问题，而不是在聊天框里回答。",
+      "technique": "Likely a concept composite: a conversational AI interprets the request, object recognition picks out related items in the camera view, and glow shaders plus a placed 3D product visualise the answer.",
+      "technique_zh": "很可能是合成的概念视频：对话式 AI 理解需求，物体识别找出画面中的相关物品，再用发光着色器和放置的 3D 商品把答案呈现出来。",
+      "exercise_en": "Build a phone AR demo where a typed or spoken question ('what do I need for tea?') highlights two or three recognised objects on a table and places one suggested product. Twist: the AI may only light things up, with no text at all.",
+      "exercise_zh": "做一个手机 AR 演示：输入或说出一个问题（“泡茶需要什么？”），桌上两三件被识别的物品高亮，并放置一件推荐商品；变体：AI 只能用发光来回答，完全不许出现文字。",
+      "interaction": [
+        "data-information",
+        "voice-sound",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone",
+        "headset"
+      ],
+      "tech": [
+        "ChatGPT",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1640741787105984512",
+        "url": "https://x.com/russ_maschmeyer/status/1640741787105984512"
+      }
+    },
+    {
+      "id": "russ-maschmeyer--clueless-closet",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Clueless Closet",
+      "year": 2023,
+      "description": "A real version of Cher's computerised closet from Clueless: photos of two fashionable friends and their clothes were used to teach an AI to render them wearing new outfit combinations in chosen poses and scenes.",
+      "description_zh": "把电影《独领风骚》（Clueless）里 Cher 的电脑衣橱做成真的：用两位时髦朋友和他们衣服的照片训练 AI，生成他们以指定姿势、在指定场景里穿上新搭配的样子。",
+      "idea_en": "Movie-magic try-on: see yourself in any outfit combination instantly.",
+      "idea_zh": "电影般的试衣：瞬间看到自己穿上任意搭配。",
+      "technique": "A LoRA is trained on Stable Diffusion 1.5 for each person, face and garment, then ControlNet pose detection and Segment Anything masks guide the generation, with a lot of manual prompting and editing.",
+      "technique_zh": "在 Stable Diffusion 1.5 上为每个人、每张脸、每件衣服分别训练 LoRA，再用 ControlNet 姿态检测和 Segment Anything 蒙版引导生成，过程中需要大量人工调整提示词和修图。",
+      "exercise_en": "Build a webcam 'magic mirror' that segments the student's body and overlays a chosen garment image that follows their pose. Twist: let a classmate pick the outfit remotely from a phone.",
+      "exercise_zh": "做一面摄像头“魔镜”：分割出学生的身体，把选中的服装图片按姿态叠加上去；变体：让另一位同学用手机远程替他挑衣服。",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Stable Diffusion",
+        "LoRA",
+        "ControlNet",
+        "Segment Anything"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1650892732611858434",
+        "url": "https://x.com/russ_maschmeyer/status/1650892732611858434"
+      },
+      "source_url": "https://shopify.github.io/spatial-commerce-projects/Clueless-Closet/"
+    },
+    {
+      "id": "russ-maschmeyer--waking-products",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Waking Products (Vision Pro concept)",
+      "year": 2023,
+      "description": "A spatial-computing concept released after Vision Pro was announced: a physical indoor herb garden on a kitchen counter is 'woken up' by the user, revealing a layer of digital functionality around the real product.",
+      "description_zh": "Vision Pro 发布后推出的空间计算概念：厨房台面上的一台室内种植机被用户“唤醒”，真实商品周围随即展开一层数字功能。",
+      "idea_en": "Buying a physical product could also unlock a digital layer attached to it.",
+      "idea_zh": "买下一件实体商品，也同时解锁附着在它身上的数字层。",
+      "technique": "Likely a mixed-reality concept in which the product is recognised and a UI is anchored to it, triggered by gaze and pinch.",
+      "technique_zh": "很可能是混合现实概念：识别出商品并把界面锚定在它身上，通过注视和捏合手势触发。",
+      "exercise_en": "Pick a household product and design its 'awake' AR state: an image marker or object tracker opens a panel with one useful function and one playful one. Twist: the product falls asleep again when it is ignored.",
+      "exercise_zh": "选一件家用品，设计它被“唤醒”后的 AR 状态：用图像标记或物体追踪打开一个面板，包含一个实用功能和一个好玩的功能；变体：被冷落一段时间后，它会重新“睡着”。",
+      "interaction": [
+        "tangible-object",
+        "gaze-attention",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Apple Vision Pro (concept)",
+        "object tracking"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1671189665867776000",
+        "url": "https://x.com/russ_maschmeyer/status/1671189665867776000"
+      }
+    },
+    {
+      "id": "russ-maschmeyer--pull-products-off-the-web",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Pulling Products off the Web (Spatial Commerce)",
+      "year": 2023,
+      "description": "A Vision Pro spatial-commerce concept: while browsing a store's web page, the shopper pinches a product and pulls a full-size 3D demo out of the page into the room.",
+      "description_zh": "Vision Pro 空间商务概念：浏览店铺网页时，购物者捏住一件商品，把全尺寸的 3D 演示直接从网页里拉进房间。",
+      "idea_en": "The web page becomes a doorway that products can be pulled through.",
+      "idea_zh": "网页变成一道门，商品可以从里面被拉出来。",
+      "technique": "A concept video likely simulating visionOS, where a 3D model embedded in the page is grabbed with a look-and-pinch gesture and dropped as a world-anchored object.",
+      "technique_zh": "很可能是模拟 visionOS 的概念视频：网页中嵌入的 3D 模型被“注视+捏合”抓起，放到房间里成为锚定在空间中的物体。",
+      "exercise_en": "Make a web page with a 3D product that jumps into WebXR AR when the user drags it off the page. Twist: products can be pushed back into the page to 'return' them.",
+      "exercise_zh": "做一个带 3D 商品的网页，用户把商品拖出页面时就进入 WebXR AR 模式；变体：把商品推回网页就算“退货”。",
+      "interaction": [
+        "hand-body",
+        "portal-world"
+      ],
+      "platform": [
+        "headset",
+        "web"
+      ],
+      "tech": [
+        "Apple Vision Pro (concept)",
+        "visionOS",
+        "USDZ"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1691447651445940225",
+        "url": "https://x.com/russ_maschmeyer/status/1691447651445940225"
+      }
+    },
+    {
+      "id": "russ-maschmeyer--shareplay-shopping",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Shopping with Friends (SharePlay concept)",
+      "year": 2023,
+      "description": "A Vision Pro concept in which a friend joins via FaceTime as a floating video tile and both see the same miniature tent and campsite on the coffee table while deciding what to buy.",
+      "description_zh": "Vision Pro 概念：朋友通过 FaceTime 以悬浮视频窗口加入，两人同时看到茶几上同一个迷你帐篷和露营场景，一起商量买什么。",
+      "idea_en": "Bring the fun of shopping with friends into shared AR.",
+      "idea_zh": "把和朋友一起逛街的乐趣带进共享 AR。",
+      "technique": "Likely built on visionOS SharePlay, which syncs the same 3D product scene between participants while the FaceTime call runs beside it.",
+      "technique_zh": "很可能基于 visionOS 的 SharePlay，在参与者之间同步同一个 3D 商品场景，旁边同时进行 FaceTime 通话。",
+      "exercise_en": "Build a two-phone shared AR scene where both users see and rotate the same product and then vote on it. Twist: one user can only point and the other can only speak.",
+      "exercise_zh": "做一个双手机共享 AR 场景，两人看到并能旋转同一件商品，最后投票决定；变体：一个人只能指，另一个人只能说。",
+      "interaction": [
+        "multiplayer-social",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "visionOS",
+        "SharePlay",
+        "FaceTime"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1692171419944165387",
+        "url": "https://x.com/russ_maschmeyer/status/1692171419944165387"
+      }
+    },
+    {
+      "id": "russ-maschmeyer--immersive-product-story",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Immersive Product Story (WebXR concept)",
+      "year": 2023,
+      "description": "Starting from a tent on a web storefront, a full-size tent appears in the living room and the scene grows into an immersive camping experience, delivered through WebXR in Vision Pro's browser.",
+      "description_zh": "从网店里的一顶帐篷开始，一顶全尺寸帐篷出现在客厅，随后整个场景扩展成沉浸式露营体验，通过 Vision Pro 浏览器中的 WebXR 实现。",
+      "idea_en": "Let a product bring its own world with it.",
+      "idea_zh": "让商品把它自己的世界一起带来。",
+      "technique": "A concept for WebXR in Safari on Vision Pro: the storefront launches an immersive session that places the product at full scale and then replaces the room with a matching environment.",
+      "technique_zh": "设想在 Vision Pro 的 Safari 中使用 WebXR：网店启动沉浸式会话，先以真实尺寸放置商品，再用匹配的环境逐步替换房间。",
+      "exercise_en": "Make a WebXR AR scene where one product (lamp, tent or drink) changes the room's mood as lighting, sound and a surrounding environment fade in around it. Twist: the transition only starts when the user walks up to the product.",
+      "exercise_zh": "做一个 WebXR AR 场景：一件商品（台灯、帐篷或饮料）出现后，灯光、声音和周围环境逐渐浮现，改变房间氛围；变体：只有用户走近商品时才开始转换。",
+      "interaction": [
+        "portal-world",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset",
+        "web"
+      ],
+      "tech": [
+        "WebXR",
+        "Apple Vision Pro (concept)"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1693984617580187914",
+        "url": "https://x.com/russ_maschmeyer/status/1693984617580187914"
+      }
+    },
+    {
+      "id": "russ-maschmeyer--look-pinch-ask",
+      "creator_ids": [
+        "russ-maschmeyer",
+        "shopify-spatial-commerce"
+      ],
+      "title": "Look, Pinch, Ask (Vision Pro concept)",
+      "year": 2023,
+      "description": "A Vision Pro concept that pairs eye, hand and voice input with conversational AI: a shopper sitting on a velvet sofa looks, pinches and asks, and instant personalised product insights appear.",
+      "description_zh": "Vision Pro 概念：把眼、手、语音输入与对话式 AI 结合。坐在丝绒沙发上的购物者看一眼、捏一下、问一句，个性化的商品信息立刻出现。",
+      "idea_en": "Ask about the thing you are looking at, the moment you are curious.",
+      "idea_zh": "好奇的那一刻，就问眼前这件东西。",
+      "technique": "Likely a concept video: gaze selects the product, a pinch confirms, speech goes to a conversational AI, and the answer is shown as a floating panel next to the object.",
+      "technique_zh": "很可能是概念视频：视线选中商品，捏合确认，语音发送给对话式 AI，答案以悬浮面板显示在物体旁边。",
+      "exercise_en": "Prototype a 'look and ask' interaction in phone AR: the object at the screen centre is selected, a tap records a question, and a short AI answer is pinned beside it. Twist: the answer must be spoken back in the object's own voice.",
+      "exercise_zh": "在手机 AR 中做一个“看了就问”的交互：屏幕中心对准的物体被选中，点一下录下问题，AI 的简短回答钉在物体旁边；变体：让物体用“自己的声音”把答案说出来。",
+      "interaction": [
+        "gaze-attention",
+        "voice-sound",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Apple Vision Pro (concept)",
+        "conversational AI"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1696520326266634557",
+        "url": "https://x.com/russ_maschmeyer/status/1696520326266634557"
+      }
+    },
+    {
+      "id": "shopify-spatial-commerce--ar-stroller",
+      "creator_ids": [
+        "shopify-spatial-commerce",
+        "daniel-beauchamp"
+      ],
+      "title": "3D & AR on Shopify: Stroller Demo",
+      "year": 2020,
+      "description": "A demo shown in Daniel Beauchamp's ShipIt! talk: a double stroller on a Shopify product page can be spun in 3D and then placed at real size on the street in AR.",
+      "description_zh": "Daniel Beauchamp 在 ShipIt! 分享中展示的演示：Shopify 商品页上的双人婴儿车可以 3D 旋转查看，再以真实尺寸放到街道上进行 AR 预览。",
+      "idea_en": "Let shoppers check a bulky product's real size in the place they will use it.",
+      "idea_zh": "让购物者在真正使用的地方确认大件商品的实际尺寸。",
+      "technique": "Merchants upload a 3D model with the product; the storefront shows it in a web 3D viewer and hands a USDZ file to AR Quick Look on iPhone for true-scale placement.",
+      "technique_zh": "商家随商品上传 3D 模型，店铺用网页 3D 查看器展示，并在 iPhone 上把 USDZ 文件交给 AR Quick Look 进行真实比例放置。",
+      "exercise_en": "Pick one bulky object (bike, stroller, instrument case), get or make its 3D model, and publish a page with a 3D viewer and an AR button; test it where the object would really be used. Twist: add a path animation showing it moving through a doorway.",
+      "exercise_zh": "选一件大件物品（自行车、婴儿车或琴盒），获取或制作 3D 模型，发布一个带 3D 查看器和 AR 按钮的页面，并在它真正的使用场所测试；变体：加一段它穿过门口的路径动画。",
+      "interaction": [
+        "spatial-mapping",
+        "data-information"
+      ],
+      "platform": [
+        "phone",
+        "web"
+      ],
+      "tech": [
+        "AR Quick Look",
+        "USDZ",
+        "model-viewer"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ntX0cOr4r08",
+        "url": "https://www.youtube.com/watch?v=ntX0cOr4r08"
+      },
+      "source_url": "https://www.youtube.com/watch?v=ajF5Rasyq3o"
+    },
+    {
+      "id": "mikko-haapoja--1scanaday",
+      "creator_ids": [
+        "mikko-haapoja"
+      ],
+      "title": "#1scanaday",
+      "year": 2021,
+      "description": "Starting on New Year 2021, Mikko posted one 3D scan a day made with iPhone LiDAR and photogrammetry apps; day 100 was this bronze lion, and every scan was published on Sketchfab.",
+      "description_zh": "从 2021 年元旦起，Mikko 每天发布一个用 iPhone LiDAR 或摄影测量应用做的 3D 扫描，第 100 天是这只青铜狮子，所有扫描都公开在 Sketchfab 上。",
+      "idea_en": "A daily capture habit teaches you what reality can and cannot be scanned.",
+      "idea_zh": "每天扫描一次，慢慢就知道现实中什么能扫、什么扫不了。",
+      "technique": "Each object or space is captured with a LiDAR iPhone or with photo-based photogrammetry apps (3d Scanner App, Polycam, Trnio) and uploaded as a textured mesh to Sketchfab for web and AR viewing.",
+      "technique_zh": "每件物体或空间都用带 LiDAR 的 iPhone 或基于照片的摄影测量应用（3d Scanner App、Polycam、Trnio）捕捉，生成带纹理的网格上传到 Sketchfab，供网页和 AR 查看。",
+      "exercise_en": "Scan one object a day for a week with a free phone scanner, log what failed (shiny, thin, dark), and place the best scan in AR. Twist: scan the same object with two different apps and compare.",
+      "exercise_zh": "一周内每天用免费手机扫描应用扫一个物体，记录失败原因（反光、太薄、太暗），把最好的扫描放进 AR；变体：用两个不同应用扫描同一物体并比较。",
+      "interaction": [
+        "spatial-mapping",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "LiDAR",
+        "photogrammetry",
+        "Polycam",
+        "3d Scanner App",
+        "Sketchfab"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1380712221240594432",
+        "url": "https://x.com/MikkoH/status/1380712221240594432"
+      },
+      "source_url": "https://sketchfab.com/mikkoh"
+    },
+    {
+      "id": "mikko-haapoja--mirror-self-portraits",
+      "creator_ids": [
+        "mikko-haapoja"
+      ],
+      "title": "Mirror Self-Portraits",
+      "year": 2021,
+      "description": "Mirrors break LiDAR and photogrammetry, so Mikko turned the failure into an effect: the scanner reconstructs the reflection as a warped room behind the glass, creating trippy 3D self-portraits.",
+      "description_zh": "镜子会让 LiDAR 和摄影测量失效，Mikko 干脆把这个失败变成效果：扫描器把镜中倒影当成真实空间，重建出镜子后面一个扭曲的房间，形成迷幻的 3D 自画像。",
+      "idea_en": "Use a scanner's failure mode as a creative effect.",
+      "idea_zh": "把扫描器的失败模式当作创作手法。",
+      "technique": "LiDAR and photogrammetry assume opaque surfaces, so a mirror's reflection is reconstructed as extra geometry behind the glass, yielding mirrored self-portrait meshes.",
+      "technique_zh": "LiDAR 和摄影测量都假设表面不透明，于是镜中倒影被重建成玻璃后方多出来的几何体，得到镜像式的自画像网格。",
+      "exercise_en": "Deliberately scan 'unscannable' things (mirror, glass, water, a moving person) and curate the most beautiful failures into an AR glitch gallery. Twist: design a scene that only makes sense because of the scanning error.",
+      "exercise_zh": "故意去扫描“扫不了”的东西（镜子、玻璃、水、移动的人），把最美的失败挑出来办一个 AR 故障画廊；变体：设计一个只有依靠扫描错误才成立的场景。",
+      "interaction": [
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "LiDAR",
+        "3D scanning",
+        "Sketchfab"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1347920408033562624",
+        "url": "https://x.com/MikkoH/status/1347920408033562624"
+      }
+    },
+    {
+      "id": "mikko-haapoja--four-scanner-apps",
+      "creator_ids": [
+        "mikko-haapoja"
+      ],
+      "title": "Four Scanner Apps, One Object",
+      "year": 2021,
+      "description": "On day 88 of his scan diary, Mikko captured the same object with four iPhone scanner apps and showed the results side by side: LiDAR had improved on small objects, but photogrammetry still won on detail.",
+      "description_zh": "在扫描日记的第 88 天，Mikko 用四款 iPhone 扫描应用扫描同一个物体并并排比较：LiDAR 在小物体上进步明显，但细节上摄影测量仍然更胜一筹。",
+      "idea_en": "Compare tools on one subject to understand what each is good at.",
+      "idea_zh": "用同一个对象比较不同工具，看清各自擅长什么。",
+      "technique": "The same subject is captured with LiDAR-based and photogrammetry-based apps and the meshes are compared for geometry and texture quality.",
+      "technique_zh": "用基于 LiDAR 和基于摄影测量的应用分别捕捉同一对象，再比较网格的几何精度和纹理质量。",
+      "exercise_en": "In teams, scan the same classroom object with two to four capture methods and present a side-by-side AR comparison. Twist: pick the object that makes the methods disagree the most.",
+      "exercise_zh": "分组用两到四种捕捉方式扫描教室里的同一物体，做一个并排对比的 AR 展示；变体：专门挑一个让各种方法结果差异最大的物体。",
+      "interaction": [
+        "spatial-mapping",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "LiDAR",
+        "photogrammetry",
+        "iPhone"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1377062209164079107",
+        "url": "https://x.com/MikkoH/status/1377062209164079107"
+      }
+    },
+    {
+      "id": "mikko-haapoja--sleeping-son-scan",
+      "creator_ids": [
+        "mikko-haapoja"
+      ],
+      "title": "Scanning My Son While He Slept",
+      "year": 2022,
+      "description": "Mikko used Apple's Object Capture to scan his two-year-old son while he slept, imagining a future where he can put on a headset and see him at that age in perfect scale.",
+      "description_zh": "Mikko 用苹果的 Object Capture 扫描了熟睡中两岁的儿子，想象将来戴上头显，就能以真实比例看到孩子这个年纪的样子。",
+      "idea_en": "3D scans as next-level family portraits and time capsules.",
+      "idea_zh": "把 3D 扫描当作升级版的全家福和时间胶囊。",
+      "technique": "Photos taken around the still subject are processed by Apple's Object Capture photogrammetry API on a Mac into a textured USDZ model that can be viewed at 1:1 scale in AR.",
+      "technique_zh": "围绕静止的对象拍摄照片，在 Mac 上用苹果 Object Capture 摄影测量 API 生成带纹理的 USDZ 模型，可在 AR 中以 1:1 比例查看。",
+      "exercise_en": "Make a 1:1 AR time capsule: scan a meaningful object or a very still classmate and attach a short note that appears next to it in AR. Twist: design how and when the capsule may be opened in ten years.",
+      "exercise_zh": "做一个 1:1 的 AR 时间胶囊：扫描一件有意义的物品或一位保持不动的同学，并附上一段在 AR 中出现在旁边的留言；变体：设计十年后这个胶囊该如何、何时被打开。",
+      "interaction": [
+        "tangible-object",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone",
+        "desktop"
+      ],
+      "tech": [
+        "Object Capture",
+        "RealityKit",
+        "USDZ"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1534246133362577409",
+        "url": "https://x.com/MikkoH/status/1534246133362577409"
+      }
+    },
+    {
+      "id": "mikko-haapoja--model-element-safari",
+      "creator_ids": [
+        "mikko-haapoja"
+      ],
+      "title": "The <model> Element in iOS Safari",
+      "year": 2022,
+      "description": "A quick test of WebKit's experimental HTML model element on iOS Safari: a Converse sneaker hosted on Shopify's CDN spins as a native 3D object inside an ordinary web page.",
+      "description_zh": "在 iOS Safari 上试用 WebKit 实验性的 HTML model 元素：一只托管在 Shopify CDN 上的 Converse 球鞋，作为原生 3D 对象在普通网页里旋转。",
+      "idea_en": "Treat 3D objects as first-class web content, just like images.",
+      "idea_zh": "让 3D 物体像图片一样成为网页的一等公民。",
+      "technique": "WebKit's experimental model tag embeds a USDZ file directly in HTML so the browser renders it and handles rotation without WebGL code, hinting at pages that can hand 3D straight to AR.",
+      "technique_zh": "WebKit 实验性的 model 标签可以把 USDZ 文件直接嵌入 HTML，由浏览器负责渲染和旋转，无需写 WebGL 代码，也预示着网页能把 3D 内容直接交给 AR。",
+      "exercise_en": "Build a product page that shows a 3D model with model-viewer (or the model element where supported) plus a 'view in your space' AR button. Twist: make the 3D model react to page scrolling.",
+      "exercise_zh": "做一个商品页面，用 model-viewer（或在支持的浏览器中用 model 元素）展示 3D 模型，并加一个“在你的空间中查看”的 AR 按钮；变体：让 3D 模型随页面滚动做出反应。",
+      "interaction": [
+        "data-information",
+        "tangible-object"
+      ],
+      "platform": [
+        "web",
+        "phone"
+      ],
+      "tech": [
+        "WebKit model element",
+        "USDZ",
+        "Safari"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1541529590652456964",
+        "url": "https://x.com/MikkoH/status/1541529590652456964"
+      }
+    }
+  ],
+  "leads": [
+    {
+      "name": "Diego Macario",
+      "why": "Senior engineer on Shopify's Spatial Commerce team; builds web hand-tracking and mesh-painting experiments (Hands-In-The-Web, Mesh Painter) behind lab projects like Handy and Retail Research Kit.",
+      "link": "https://diegomacario.github.io/Hands-In-The-Web/public/index.html",
+      "found_via": "russ-maschmeyer",
+      "status": "open"
+    },
+    {
+      "name": "Jon Wade",
+      "why": "Early Shopify VR developer who wrote about Expo, an Unreal template for rapid VR prototyping, and a year of motion-control experiments.",
+      "link": "https://medium.com/shopify-vr/expo-towards-rapid-vr-prototyping-15356d53ea71",
+      "found_via": "shopify-spatial-commerce",
+      "status": "open"
+    }
+  ]
+}

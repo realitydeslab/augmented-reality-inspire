@@ -278,6 +278,8 @@ def main() -> None:
         w.update({k: v for k, v in tw.get(w["id"], {}).items() if v})
     for c in out_creators:
         c.update({k: v for k, v in tc.get(c["id"], {}).items() if v})
+    for w in kept:  # manual patches win over teach/i18n files
+        w.update(patches.get(w["id"], {}))
     missing_tr = [w["id"] for w in kept if not all(w.get(f) for f in ("description_zh", "idea_en", "technique_zh", "exercise_en"))]
     if missing_tr:
         logger.warning("works missing translations: %d (e.g. %s)", len(missing_tr), missing_tr[:5])

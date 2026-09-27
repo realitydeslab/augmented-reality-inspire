@@ -1,0 +1,1305 @@
+{
+  "batch": "r3-games",
+  "creators": [
+    {
+      "id": "supermassive-games",
+      "name": "Supermassive Games",
+      "role": "Game studio; developer of Wonderbook: Walking with Dinosaurs and Start the Party!",
+      "based": "Guildford, UK",
+      "based_zh": "吉尔福德，英国",
+      "bio": "British studio best known for Until Dawn; for Sony it built camera-based PlayStation Move and Wonderbook titles that put players and paper books inside the game image.",
+      "why": "It turned the living-room camera feed into a stage where a paper book or a motion controller becomes a dinosaur dig site or a party prop.",
+      "role_zh": "游戏工作室；Wonderbook: Walking with Dinosaurs 与 Start the Party! 的开发商",
+      "bio_zh": "以《直到黎明》闻名的英国工作室，曾为索尼开发多款基于摄像头的 PlayStation Move 和 Wonderbook 游戏，让玩家本人和纸质书直接出现在游戏画面里。",
+      "why_zh": "它把客厅摄像头画面变成舞台：一本纸书可以变成恐龙挖掘现场，一根体感手柄可以变成派对道具。",
+      "links": {
+        "site": "https://www.supermassivegames.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "sce-london-studio",
+        "moonbot-studios"
+      ],
+      "discovered_via": "sce-london-studio"
+    },
+    {
+      "id": "moonbot-studios",
+      "name": "Moonbot Studios (William Joyce, Brandon Oldenburg)",
+      "role": "Storytelling studio; makers of Wonderbook: Diggs Nightcrawler and the IMAG-N-O-TRON AR book apps",
+      "based": "Shreveport, Louisiana, US",
+      "based_zh": "什里夫波特，美国路易斯安那州",
+      "bio": "Oscar-winning studio behind The Fantastic Flying Books of Mr. Morris Lessmore; it built interactive picture-book apps and a film-noir Wonderbook game that treat printed pages as windows into animated worlds.",
+      "why": "Moonbot showed how a picture book can stay a real book while its pages open into animated scenes through a camera.",
+      "role_zh": "叙事工作室；Wonderbook: Diggs Nightcrawler 与 IMAG-N-O-TRON AR 绘本应用的创作者",
+      "bio_zh": "凭《神奇飞书》获得奥斯卡的工作室，做过多款互动绘本应用和一部黑色电影风格的 Wonderbook 游戏，把印刷书页当作通往动画世界的窗口。",
+      "why_zh": "Moonbot 证明了绘本可以保持纸书的样子，同时透过摄像头在书页上展开动画场景。",
+      "links": {
+        "site": "https://moonbotstudios.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "sce-london-studio",
+        "supermassive-games"
+      ],
+      "discovered_via": "sce-london-studio"
+    },
+    {
+      "id": "wingnut-ar",
+      "name": "Wingnut AR (Peter Jackson, Alasdair Coull)",
+      "role": "AR studio founded by Peter Jackson and Fran Walsh",
+      "based": "Wellington, New Zealand",
+      "based_zh": "惠灵顿，新西兰",
+      "bio": "Wellington studio staffed largely by former Weta Digital artists; creative director Alasdair Coull premiered its Unreal Engine tabletop battle on stage when Apple launched ARKit at WWDC 2017.",
+      "why": "Its WWDC demo showed film-grade, cinematic tabletop AR on an ordinary iPad on the first day ARKit existed.",
+      "role_zh": "由 Peter Jackson 与 Fran Walsh 创立的 AR 工作室",
+      "bio_zh": "位于惠灵顿、成员多来自 Weta Digital 的工作室；创意总监 Alasdair Coull 在 2017 年 WWDC 苹果发布 ARKit 时，现场首演了用 Unreal Engine 制作的桌面战斗演示。",
+      "why_zh": "它的 WWDC 演示在 ARKit 诞生当天，就在普通 iPad 上呈现了电影级的桌面 AR 画面。",
+      "links": {
+        "site": "https://www.wingnutar.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "apple",
+        "greg-broadmore",
+        "directive-games"
+      ],
+      "discovered_via": "apple"
+    },
+    {
+      "id": "halfbrick-studios",
+      "name": "Halfbrick Studios",
+      "role": "Game studio; creator of Fruit Ninja",
+      "based": "Brisbane, Australia",
+      "based_zh": "布里斯班，澳大利亚",
+      "bio": "Australian studio whose swipe-to-slice Fruit Ninja moved from phone touchscreens to Kinect body tracking and then to hand-tracked play in the Apple Vision Pro living room.",
+      "why": "Halfbrick keeps re-mapping one simple verb, slicing, onto each new body interface, a clean case study in porting a mechanic across realities.",
+      "role_zh": "游戏工作室；《水果忍者》的开发商",
+      "bio_zh": "澳大利亚工作室，其招牌作《水果忍者》从手机触屏的划切，一路走到 Kinect 全身追踪，再到 Apple Vision Pro 在客厅里的手势游玩。",
+      "why_zh": "Halfbrick 把“切”这一个简单动作不断移植到新的身体交互方式上，是跨现实移植玩法的清晰案例。",
+      "links": {
+        "site": "https://www.halfbrick.com",
+        "x": "",
+        "instagram": "https://instagram.com/halfbrick/",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@HalfbrickStudios",
+        "github": ""
+      },
+      "connected_to": [
+        "apple"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "loona-inc",
+      "name": "Loóna (Sergey Gonchar, Andrew Yanchurevich, Dmitry Doryn, Eugene Nevgen)",
+      "role": "App studio from the MSQRD founders; makers of Loóna",
+      "based": "London, UK / Warsaw, Poland",
+      "based_zh": "伦敦，英国 / 华沙，波兰",
+      "bio": "Founded by the team behind the MSQRD face-filter app, Loóna began as a calming bedtime app and was rebuilt for Apple Vision Pro as a spatial puzzle game with an AI creature.",
+      "why": "Loóna shows how calm, tactile assembly of small 3D dioramas can make mixed reality feel cozy.",
+      "role_zh": "由 MSQRD 创始团队组建的应用工作室；Loóna 的开发者",
+      "bio_zh": "由人脸滤镜应用 MSQRD 的创始团队创办，Loóna 最初是一款睡前放松应用，后来为 Apple Vision Pro 重新打造成带有 AI 小生物的空间拼图游戏。",
+      "why_zh": "Loóna 证明了在混合现实里慢慢拼装小型立体场景，也能带来安静、治愈的触感体验。",
+      "links": {
+        "site": "https://loona.vision",
+        "x": "https://twitter.com/loona_app",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@loona_app",
+        "github": ""
+      },
+      "connected_to": [
+        "apple"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "kluge-interactive",
+      "name": "Kluge Interactive (Synth Riders)",
+      "role": "Immersive game studio; developer of Synth Riders",
+      "based": "Los Angeles, US",
+      "based_zh": "洛杉矶，美国",
+      "bio": "Studio founded in 2008 that makes the VR rhythm game Synth Riders, which added a free passthrough mixed-reality mode for the Meta Quest 3 launch.",
+      "why": "Its mixed-reality update lets a dance-rhythm game spill notes and rails into the player's own room.",
+      "role_zh": "沉浸式游戏工作室；Synth Riders 的开发商",
+      "bio_zh": "成立于 2008 年的工作室，开发了 VR 节奏游戏 Synth Riders，并在 Meta Quest 3 发布时加入了免费的透视混合现实模式。",
+      "why_zh": "它的混合现实更新让节奏舞蹈游戏的音符和轨道直接涌进玩家自己的房间。",
+      "links": {
+        "site": "https://klugeinteractive.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@SynthRiders",
+        "github": ""
+      },
+      "connected_to": [
+        "meta-reality-labs"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "onix-systems",
+      "name": "Onix-Systems",
+      "role": "Software studio; Unity AR/VR development team",
+      "based": "Kropyvnytskyi, Ukraine",
+      "based_zh": "克罗皮夫尼茨基，乌克兰",
+      "bio": "Ukrainian software company founded in 2000 whose Unity team built early HoloKit X co-located duel demos plus object-recognition and indoor-navigation AR prototypes.",
+      "why": "Its HoloKit X duels are compact, teachable examples of two people fighting in the same room through shared ARKit sessions.",
+      "role_zh": "软件公司；Unity AR/VR 开发团队",
+      "bio_zh": "成立于 2000 年的乌克兰软件公司，其 Unity 团队为 HoloKit X 做了早期的同场对战演示，也做过物体识别和室内导航类 AR 原型。",
+      "why_zh": "它的 HoloKit X 对战演示短小精悍，清楚展示了两个人如何通过共享 ARKit 会话在同一房间里对战。",
+      "links": {
+        "site": "https://onix-systems.com/vr-ar",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@OnixSystemsTeam",
+        "github": ""
+      },
+      "connected_to": [
+        "botao-amber-hu",
+        "vitukhin-serhii"
+      ],
+      "discovered_via": "vitukhin-serhii"
+    },
+    {
+      "id": "kasimir-lehto",
+      "name": "Kasimir Lehto (Reality Crisis)",
+      "role": "Co-founder and game director, Reality Crisis (Skatrix)",
+      "based": "Helsinki, Finland",
+      "based_zh": "赫尔辛基，芬兰",
+      "bio": "Former pro snowboarder turned filmmaker and game designer; in 2018 he co-founded Reality Crisis, which makes the AR skateboarding game Skatrix with skate legend Rodney Mullen and is co-published by Niantic.",
+      "why": "Skatrix turns any curb, bench or sofa into a skate spot for a finger-controlled virtual skater.",
+      "role_zh": "Reality Crisis 联合创始人兼游戏总监（Skatrix）",
+      "bio_zh": "从职业单板滑雪运动员转型为电影人和游戏设计师；2018 年联合创办 Reality Crisis，与滑板传奇 Rodney Mullen 一起开发 AR 滑板游戏 Skatrix，并由 Niantic 联合发行。",
+      "why_zh": "Skatrix 让任何路沿、长椅或沙发都变成滑板场地，由手指操控的虚拟滑手在上面做动作。",
+      "links": {
+        "site": "https://realitycrisis.io",
+        "x": "https://x.com/KasimirLehto",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@kasimirlehto33",
+        "github": ""
+      },
+      "connected_to": [
+        "niantic",
+        "aidan-wolf"
+      ],
+      "discovered_via": "aidan-wolf"
+    },
+    {
+      "id": "zappar",
+      "name": "Zappar (Caspar Thykier & team)",
+      "role": "AR platform company; makers of ZapWorks and ZapBox",
+      "based": "London, UK",
+      "based_zh": "伦敦，英国",
+      "bio": "London company founded in 2011 that runs the ZapWorks/Mattercraft WebAR tools and made ZapBox, a cardboard mixed-reality headset that uses printed markers and a phone camera.",
+      "why": "ZapBox proved that room-scale mixed reality with tracked controllers could be built from a phone, cardboard and printed codes.",
+      "role_zh": "AR 平台公司；ZapWorks 与 ZapBox 的开发者",
+      "bio_zh": "成立于 2011 年的伦敦公司，运营 ZapWorks/Mattercraft 网页 AR 工具，并推出 ZapBox——一款用手机摄像头识别打印标记的纸板混合现实头显。",
+      "why_zh": "ZapBox 证明了只用手机、纸板和打印出来的码，也能做出带追踪手柄的房间级混合现实。",
+      "links": {
+        "site": "https://www.zappar.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@ZapparApp",
+        "github": ""
+      },
+      "connected_to": [
+        "8th-wall",
+        "layar"
+      ],
+      "discovered_via": "8th-wall"
+    },
+    {
+      "id": "metaio",
+      "name": "Metaio (Thomas Alt & Peter Meier)",
+      "role": "AR software company; makers of the Metaio SDK and junaio browser",
+      "based": "Munich, Germany",
+      "based_zh": "慕尼黑，德国",
+      "bio": "Munich company founded in 2003 whose tracking SDK, Creator tools and junaio AR browser powered much pre-ARKit phone and kiosk AR; Apple acquired it in 2015.",
+      "why": "Metaio prototyped ideas years early, from the LEGO box kiosk to heat-trace touch on any surface.",
+      "role_zh": "AR 软件公司；Metaio SDK 与 junaio 浏览器的开发者",
+      "bio_zh": "成立于 2003 年的慕尼黑公司，其追踪 SDK、Creator 工具和 junaio AR 浏览器支撑了 ARKit 之前的大量手机和展台 AR 应用；2015 年被苹果收购。",
+      "why_zh": "Metaio 常常提前多年做出原型，从乐高包装盒展台到用指尖余温把任何表面变成触摸屏。",
+      "links": {
+        "site": "https://en.wikipedia.org/wiki/Metaio",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "apple",
+        "lego",
+        "layar"
+      ],
+      "discovered_via": "layar"
+    },
+    {
+      "id": "ogmento",
+      "name": "Ogmento (Ori Inbar, Oriel Bergig, Nate Hagbi)",
+      "role": "AR games developer and publisher (later Flyby Media)",
+      "based": "New York, US",
+      "based_zh": "纽约，美国",
+      "bio": "Co-founded by Ori Inbar in 2009, Ogmento published location-based AR games and demoed hand-sketch and SLAM tech from its Israeli R&D team; it became Flyby Media, which Apple acquired in 2016.",
+      "why": "Ogmento let players draw a track or a machine on paper and play it instantly in AR, years before phone SLAM was common.",
+      "role_zh": "AR 游戏开发与发行商（后更名为 Flyby Media）",
+      "bio_zh": "由 Ori Inbar 于 2009 年联合创办，Ogmento 发行基于地理位置的 AR 游戏，并展示了其以色列研发团队的手绘识别和 SLAM 技术；后更名为 Flyby Media，2016 年被苹果收购。",
+      "why_zh": "早在手机 SLAM 普及之前，Ogmento 就让玩家在纸上画出赛道或机械装置，立刻在 AR 里玩起来。",
+      "links": {
+        "site": "",
+        "x": "https://www.twitter.com/Ogmento",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@Ogmento",
+        "github": ""
+      },
+      "connected_to": [
+        "mark-billinghurst",
+        "apple",
+        "layar"
+      ],
+      "discovered_via": "layar"
+    },
+    {
+      "id": "ryan-hickman",
+      "name": "Ryan Hickman",
+      "role": "Robotics and AR product lead; co-founder of TickTock AI",
+      "based": "San Francisco Bay Area, US",
+      "based_zh": "旧金山湾区，美国",
+      "bio": "Co-founded Google's Cloud Robotics group and worked on Project Tango before co-founding TickTock AI in 2017, where phone SLAM and AR became the brain and remote control of a home robot.",
+      "why": "TickTock treated the AR view as a map you can tap to send a real robot somewhere.",
+      "role_zh": "机器人与 AR 产品负责人；TickTock AI 联合创始人",
+      "bio_zh": "曾联合创立谷歌云机器人小组并参与 Project Tango，2017 年联合创办 TickTock AI，用手机的 SLAM 和 AR 作为家用机器人的大脑和遥控器。",
+      "why_zh": "TickTock 把 AR 画面当成一张可以点按的地图，点一下就把真实机器人派到那个位置。",
+      "links": {
+        "site": "https://medium.com/@ryanhickman",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCv_EHFzWgOHqARYBjd-U9eA",
+        "github": ""
+      },
+      "connected_to": [
+        "laan-labs"
+      ],
+      "discovered_via": "laan-labs"
+    }
+  ],
+  "works": [
+    {
+      "id": "supermassive-games--wonderbook-walking-with-dinosaurs",
+      "creator_ids": [
+        "supermassive-games"
+      ],
+      "title": "Wonderbook: Walking with Dinosaurs",
+      "year": 2013,
+      "description": "A BBC-licensed Wonderbook title: players dig fossils out of the pages of a physical marker book, then rebuild and feed dinosaurs that stomp out of the book into the living-room camera image.",
+      "description_zh": "BBC 授权的 Wonderbook 游戏：玩家从实体标记书的书页里挖出化石，再把恐龙拼装复原、喂养，看着它们从书中走进电视画面里的客厅。",
+      "idea_en": "A paper book becomes an excavation site, and each page turn advances a natural-history lesson.",
+      "idea_zh": "一本纸书变成考古挖掘现场，每翻一页，自然史课程就往前推进一步。",
+      "technique": "The PlayStation Eye tracks printed patterns on each Wonderbook page to anchor 3D scenes to the book, while the Move controller acts as brush, hand or food.",
+      "technique_zh": "PlayStation Eye 识别 Wonderbook 每页上的印刷图案，把 3D 场景锚定在书上；Move 手柄则充当刷子、手或食物。",
+      "exercise_en": "Print four image-target pages and staple them into a booklet; in Unity with Vuforia or AR Foundation image tracking, make each page reveal one stage of a fossil dig (buried, brushed, assembled, alive). Twist: require the reader to tilt or shake the book to uncover the next layer.",
+      "exercise_zh": "打印四页图像识别标记并装订成小册子；在 Unity 中用 Vuforia 或 AR Foundation 图像追踪，让每一页依次呈现化石挖掘的一个阶段（掩埋、清理、拼装、复活）。变体：要求读者倾斜或摇晃书本才能露出下一层。",
+      "interaction": [
+        "tangible-object",
+        "data-information",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Wonderbook",
+        "PlayStation Eye",
+        "PlayStation Move"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "-XQ4EJjyVXI",
+        "url": "https://www.youtube.com/watch?v=-XQ4EJjyVXI"
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Wonderbook"
+    },
+    {
+      "id": "supermassive-games--start-the-party",
+      "creator_ids": [
+        "supermassive-games"
+      ],
+      "title": "Start the Party!",
+      "year": 2010,
+      "description": "A PlayStation Move party game in which players see themselves on the TV and the glowing controller in their hand becomes a hair dryer, a fly swatter, a paintbrush or a sword inside the camera image.",
+      "description_zh": "一款 PlayStation Move 派对游戏：玩家在电视里看到自己，手中发光的手柄在摄像头画面里变成吹风机、苍蝇拍、画笔或宝剑。",
+      "idea_en": "Your own mirror image is the game board, and one tracked stick turns into whatever tool each minigame needs.",
+      "idea_zh": "自己的镜像就是游戏棋盘，一根被追踪的手柄随小游戏变成需要的任何工具。",
+      "technique": "The PlayStation Eye tracks the glowing Move sphere in 3D and the game replaces it with a virtual prop composited over the live mirrored video.",
+      "technique_zh": "PlayStation Eye 在三维空间中追踪 Move 手柄顶端的发光球，游戏用虚拟道具替换它，并叠加在实时镜像视频上。",
+      "exercise_en": "Build a webcam mirror game in p5.js or Unity: track a bright-colored object by color and replace it with a virtual tool that pops balloons drifting across the video. Twist: switch the tool every 15 seconds so players must change how they move.",
+      "exercise_zh": "用 p5.js 或 Unity 做一个摄像头镜像游戏：按颜色追踪一个鲜艳物体，把它替换成虚拟工具，去戳破在画面上飘过的气球。变体：每 15 秒切换一次工具，逼玩家改变动作方式。",
+      "interaction": [
+        "hand-body",
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "PlayStation Move",
+        "PlayStation Eye",
+        "PS3"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "TEveLTmqDng",
+        "url": "https://www.youtube.com/watch?v=TEveLTmqDng"
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Start_the_Party!"
+    },
+    {
+      "id": "moonbot-studios--wonderbook-diggs-nightcrawler",
+      "creator_ids": [
+        "moonbot-studios"
+      ],
+      "title": "Wonderbook: Diggs Nightcrawler",
+      "year": 2013,
+      "description": "A film-noir detective story for Wonderbook: turning the pages of the physical book opens pop-up scenes of Library City, where players help bookworm detective Diggs investigate Humpty Dumpty's fall.",
+      "description_zh": "一部为 Wonderbook 打造的黑色电影风格侦探故事：翻动实体书页，Library City 的立体场景就从书中弹出，玩家帮助书虫侦探 Diggs 调查 Humpty Dumpty 摔落之谜。",
+      "idea_en": "Turning a real page works like a camera cut in a detective movie.",
+      "idea_zh": "翻动真实的书页，就像侦探电影里的一次镜头切换。",
+      "technique": "Page patterns printed in the Wonderbook are tracked by the PlayStation Eye so pop-up dioramas and characters stay glued to the open spread as it moves.",
+      "technique_zh": "PlayStation Eye 追踪 Wonderbook 书页上印刷的图案，让立体布景和角色在书本移动时仍牢牢贴在翻开的书页上。",
+      "exercise_en": "Write a three-page mystery and make each page an AR image target that shows one pop-up diorama with a hidden clue; readers must tilt the phone around the book to spot it. Twist: make the final page show a different culprit depending on which clues were tapped.",
+      "exercise_zh": "写一个三页的小悬疑故事，把每页做成 AR 图像标记，各呈现一个藏有线索的立体场景，读者必须绕着书移动手机才能发现线索。变体：根据读者点中了哪些线索，让最后一页揭示不同的凶手。",
+      "interaction": [
+        "tangible-object",
+        "game-play",
+        "portal-world"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Wonderbook",
+        "PlayStation Eye",
+        "PlayStation Move"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "dVnkwYGQ6OI",
+        "url": "https://www.youtube.com/watch?v=dVnkwYGQ6OI"
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Wonderbook"
+    },
+    {
+      "id": "moonbot-studios--numberlys-imag-n-o-tron",
+      "creator_ids": [
+        "moonbot-studios"
+      ],
+      "title": "The Numberlys IMAG-N-O-TRON",
+      "year": 2014,
+      "description": "A companion app for the printed picture book The Numberlys: pointing an iPad at the pages makes the art-deco number characters and the letters they invent spring off the paper as animated 3D scenes with sound.",
+      "description_zh": "印刷绘本 The Numberlys 的配套应用：把 iPad 对准书页，装饰艺术风格的数字角色和它们发明的字母就从纸上跃出，变成带声音的 3D 动画场景。",
+      "idea_en": "The printed book stays the main object; the tablet is a lens that animates what is already on the page.",
+      "idea_zh": "纸书始终是主角，平板只是一片让书页内容动起来的镜片。",
+      "technique": "Likely natural-feature image tracking of each illustrated spread, with pre-authored 3D animation anchored to the page.",
+      "technique_zh": "很可能是对每一跨页插图做自然特征图像追踪，再把预先制作的 3D 动画锚定到书页上。",
+      "exercise_en": "Pick a favorite children's book page, scan it as an image target, and animate one character stepping out of the illustration with a sound effect. Twist: the character should only appear when a second reader covers a specific word with a finger.",
+      "exercise_zh": "挑一页喜欢的儿童绘本，把它设为图像标记，让其中一个角色伴随音效从插画里走出来。变体：只有当另一位读者用手指盖住某个特定单词时，角色才会出现。",
+      "interaction": [
+        "tangible-object",
+        "data-information",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iPad",
+        "image tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "hqplgV3_EsQ",
+        "url": "https://www.youtube.com/watch?v=hqplgV3_EsQ"
+      },
+      "source_url": "https://books.simonandschuster.com/The-Numberlys/William-Joyce/9781442473430"
+    },
+    {
+      "id": "wingnut-ar--wwdc-2017-arkit-demo",
+      "creator_ids": [
+        "wingnut-ar"
+      ],
+      "title": "Wingnut AR WWDC 2017 ARKit demo",
+      "year": 2017,
+      "description": "On the WWDC 2017 stage, an iPad placed a desolate outpost on a real table; as the presenter walked around it, airships arrived, bombed the base and exploded into debris, all in Unreal Engine.",
+      "description_zh": "在 2017 年 WWDC 舞台上，一台 iPad 把一个荒凉的前哨基地放在真实桌面上；演示者绕着桌子走动时，飞艇飞来轰炸基地并炸出满地碎片，全部由 Unreal Engine 渲染。",
+      "idea_en": "A tabletop becomes a cinematic miniature battlefield you can walk around like a film set.",
+      "idea_zh": "一张桌面变成可以绕着走的电影级微缩战场，像在片场里看戏。",
+      "technique": "ARKit world tracking and horizontal plane detection anchor an Unreal Engine 4 scene to the table, with real-time lighting estimation and particle effects.",
+      "technique_zh": "ARKit 的世界追踪和水平面检测把 Unreal Engine 4 场景锚定到桌面上，并配合实时光照估计和粒子特效。",
+      "exercise_en": "Place a miniature diorama on a detected table plane and script a 30-second cinematic event (arrival, conflict, aftermath) that plays when the viewer walks to a marked viewpoint. Twist: let the viewer's distance to the table control the time scale.",
+      "exercise_zh": "在检测到的桌面平面上放置一个微缩场景，编排一段 30 秒的电影式事件（到来、冲突、余波），当观众走到指定观察点时触发播放。变体：让观众与桌子的距离控制时间流速。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play",
+        "performance-stage"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unreal Engine 4",
+        "iPad"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "S14AVwaBF-Y",
+        "url": "https://www.youtube.com/watch?v=S14AVwaBF-Y"
+      },
+      "source_url": "https://venturebeat.com/2017/06/05/peter-jacksons-wingnut-ar-demos-augmented-reality-game-at-wwdc/"
+    },
+    {
+      "id": "halfbrick-studios--super-fruit-ninja-vision-pro",
+      "creator_ids": [
+        "halfbrick-studios"
+      ],
+      "title": "Super Fruit Ninja (Apple Vision Pro)",
+      "year": 2024,
+      "description": "Fruit flies up around the player's real room, and they slice it with their bare hands; juice splatters on the surroundings and a sensei character guides minigames in the space.",
+      "description_zh": "水果在玩家真实的房间里飞起，玩家直接用双手切开它们；果汁溅满四周，还有一位忍者师父角色在空间里引导各种小游戏。",
+      "idea_en": "The oldest touchscreen swipe becomes a full-arm slice through the air of your own room.",
+      "idea_zh": "最经典的触屏划切，变成在自己房间里挥动整条手臂的空中劈砍。",
+      "technique": "visionOS hand tracking provides hand joint velocities that are tested against fruit colliders, with splatter decals placed in the passthrough space.",
+      "technique_zh": "visionOS 手部追踪提供手部关节的速度，与水果碰撞体做检测，并在透视画面的空间中贴上果汁飞溅的贴花。",
+      "exercise_en": "Spawn objects that arc through the room and slice them with a tracked hand, scoring only swings above a velocity threshold. Twist: let sliced halves stick to real walls and stay there for the rest of the session.",
+      "exercise_zh": "在房间里生成沿抛物线飞行的物体，用追踪到的手去切，只有挥动速度超过阈值才得分。变体：让切开的两半粘在真实墙面上，在整个体验中一直留着。",
+      "interaction": [
+        "hand-body",
+        "game-play",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Apple Vision Pro",
+        "visionOS",
+        "hand tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "3WhgGopEE44",
+        "url": "https://www.youtube.com/watch?v=3WhgGopEE44"
+      },
+      "source_url": "https://apple.co/super-fruit-ninja"
+    },
+    {
+      "id": "halfbrick-studios--fruit-ninja-kinect",
+      "creator_ids": [
+        "halfbrick-studios"
+      ],
+      "title": "Fruit Ninja Kinect",
+      "year": 2011,
+      "description": "Players stand in front of the TV and see their own silhouette among flying fruit; any fast sweep of an arm or leg slices the fruit, so whole-body flailing becomes the controller.",
+      "description_zh": "玩家站在电视前，看到自己的身体剪影混在飞舞的水果中；手臂或腿的任何快速挥动都能切开水果，全身乱舞就是控制器。",
+      "idea_en": "Your full-body silhouette is the blade.",
+      "idea_zh": "你的全身剪影就是刀刃。",
+      "technique": "Kinect depth sensing segments the player's silhouette and skeleton; fast-moving limb joints generate slicing trails that hit fruit.",
+      "technique_zh": "Kinect 深度感应分割出玩家的剪影和骨架，快速移动的肢体关节生成切割轨迹去击中水果。",
+      "exercise_en": "Use a webcam with MediaPipe Pose to draw the player's silhouette and make wrists and ankles leave slicing trails that cut falling shapes. Twist: allow two players and give points only when both slice the same object at once.",
+      "exercise_zh": "用摄像头加 MediaPipe Pose 绘制玩家剪影，让手腕和脚踝留下切割轨迹，切开下落的图形。变体：允许两名玩家同时参与，只有两人同时切中同一个物体才得分。",
+      "interaction": [
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Kinect",
+        "Xbox 360"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "xYbj9ZNqFIQ",
+        "url": "https://www.youtube.com/watch?v=xYbj9ZNqFIQ"
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Fruit_Ninja"
+    },
+    {
+      "id": "loona-inc--loona-vision-pro",
+      "creator_ids": [
+        "loona-inc"
+      ],
+      "title": "Loóna: Cozy Puzzle Games (Apple Vision Pro)",
+      "year": 2024,
+      "description": "Floating 3D dioramas hover in the player's room; pinching and placing their pieces with the hands completes each little world, which then comes alive with sound and a friendly AI creature called Lumo.",
+      "description_zh": "立体小场景漂浮在玩家的房间里；用手捏取并放置零件拼好每个小世界后，它便伴随声音活起来，还有一只名叫 Lumo 的友善 AI 小生物陪伴。",
+      "idea_en": "Puzzle solving as a calm ritual that rewards you by animating the finished world.",
+      "idea_zh": "把解谜变成一种安静的仪式，完成后整个小世界动起来作为奖励。",
+      "technique": "visionOS gaze-and-pinch plus direct hand manipulation snap pieces into RealityKit scenes, with spatial audio layered as each part locks in.",
+      "technique_zh": "用 visionOS 的注视加捏合以及直接手部操作，把零件吸附进 RealityKit 场景，每拼好一块就叠加一层空间音频。",
+      "exercise_en": "Build a five-piece 3D jigsaw that floats at chest height; each correctly placed piece adds one audio loop and one animation. Twist: hide one piece somewhere in the real room so the player must look around to find it.",
+      "exercise_zh": "做一个由五块零件组成、漂浮在胸口高度的 3D 拼图；每放对一块就加入一段循环音效和一段动画。变体：把其中一块藏在真实房间的某处，玩家必须四处寻找。",
+      "interaction": [
+        "hand-body",
+        "game-play",
+        "voice-sound"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Apple Vision Pro",
+        "visionOS",
+        "RealityKit"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "SqEGR3XDSFE",
+        "url": "https://www.youtube.com/watch?v=SqEGR3XDSFE"
+      },
+      "source_url": "https://loona.vision"
+    },
+    {
+      "id": "kluge-interactive--synth-riders-mixed-reality",
+      "creator_ids": [
+        "kluge-interactive"
+      ],
+      "title": "Synth Riders Mixed Reality mode",
+      "year": 2023,
+      "description": "The rhythm game's notes, rails and obstacles fly out of a portal into the player's passthrough living room, so dancing along the rails happens among their own furniture.",
+      "description_zh": "这款节奏游戏的音符、轨道和障碍物从一个传送门飞进玩家透视画面中的客厅，让人在自家家具之间顺着轨道起舞。",
+      "idea_en": "Turn your living room into the dance floor by letting the level pour in through a portal.",
+      "idea_zh": "让关卡从传送门里倾泻而出，把客厅变成舞池。",
+      "technique": "Quest passthrough replaces the virtual stage, with a stencil-masked portal where notes spawn and colour-tinted effects blended over the camera feed.",
+      "technique_zh": "用 Quest 透视画面替代虚拟舞台，在一个用模板遮罩做成的传送门里生成音符，并把着色特效叠加在摄像头画面上。",
+      "exercise_en": "Make a passthrough rhythm prototype where beat-synced orbs emerge from a portal on a real wall and must be touched with the hands on the beat. Twist: let the song's intensity grow the portal until the virtual world covers the whole wall.",
+      "exercise_zh": "做一个透视节奏原型：随节拍生成的光球从真实墙面上的传送门里飞出，玩家必须踩着节拍用手去触碰。变体：让歌曲强度控制传送门大小，直到虚拟世界铺满整面墙。",
+      "interaction": [
+        "voice-sound",
+        "hand-body",
+        "portal-world"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "passthrough",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "YzjiSRi28wU",
+        "url": "https://www.youtube.com/watch?v=YzjiSRi28wU"
+      },
+      "source_url": "https://klugeinteractive.com/case-studies/synth-riders/"
+    },
+    {
+      "id": "onix-systems--holokit-duel-of-wizards",
+      "creator_ids": [
+        "onix-systems"
+      ],
+      "title": "Duel of Wizards (HoloKit X demo)",
+      "year": 2021,
+      "description": "Two players wearing HoloKit X face each other in the same room and aim their controllers like wands; spells fly across the real space and hit the opponent's shared-anchored avatar.",
+      "description_zh": "两名戴着 HoloKit X 的玩家在同一房间面对面，把手柄当魔杖瞄准对方；法术穿过真实空间，击中共享锚点上的对手化身。",
+      "idea_en": "A wand duel where the opponent is a real person across the room, not a computer character.",
+      "idea_zh": "一场魔杖决斗，对手是房间另一头的真人，而不是电脑角色。",
+      "technique": "Players join an ARKit Collaboration session over Apple Multipeer Connectivity to share one coordinate frame, while game logic syncs over UNET.",
+      "technique_zh": "玩家通过 Apple Multipeer Connectivity 加入 ARKit 协作会话来共享同一坐标系，游戏逻辑则通过 UNET 同步。",
+      "exercise_en": "Build a two-phone AR duel where both devices share an anchor and a tap fires a projectile from one phone's position toward the other's. Twist: make projectiles bounce off real walls detected by plane detection.",
+      "exercise_zh": "做一个双手机 AR 对决：两台设备共享同一锚点，点击屏幕就从一台手机的位置朝另一台发射投射物。变体：让投射物在平面检测到的真实墙面上反弹。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play",
+        "hand-body"
+      ],
+      "platform": [
+        "headset",
+        "phone"
+      ],
+      "tech": [
+        "HoloKit X",
+        "ARKit Collaboration",
+        "Multipeer Connectivity",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "xr0T2z9WPJc",
+        "url": "https://www.youtube.com/watch?v=xr0T2z9WPJc"
+      },
+      "source_url": "https://holokit.io"
+    },
+    {
+      "id": "onix-systems--holokit-dragon-duel",
+      "creator_ids": [
+        "onix-systems"
+      ],
+      "title": "Dragon Duel (HoloKit X demo)",
+      "year": 2021,
+      "description": "A player in a HoloKit X headset battles a dragon that flies around the real room, dodging its fire and casting spells back at it.",
+      "description_zh": "戴着 HoloKit X 头显的玩家与一条在真实房间里盘旋的巨龙对战，一边躲避龙焰，一边向它施放法术。",
+      "idea_en": "A boss fight staged in your own room, with you moving your whole body to dodge.",
+      "idea_zh": "在自己房间里上演一场首领战，要靠整个身体移动来躲闪。",
+      "technique": "ARKit world tracking renders a stereo view on the iPhone inside the HoloKit X, and the dragon's flight path is likely scripted around the user's tracked head position.",
+      "technique_zh": "ARKit 世界追踪在 HoloKit X 内的 iPhone 上渲染双目画面，巨龙的飞行路径很可能围绕用户被追踪的头部位置编排。",
+      "exercise_en": "Script a flying creature that circles the player's head position in AR and periodically fires a slow projectile the player must physically sidestep. Twist: the creature lands on the largest detected horizontal surface when it gets tired.",
+      "exercise_zh": "编写一只在 AR 中围绕玩家头部位置盘旋的飞行生物，它会定期发射慢速投射物，玩家必须真实侧身躲开。变体：当它累了，就降落在检测到的最大水平面上。",
+      "interaction": [
+        "hand-body",
+        "game-play",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset",
+        "phone"
+      ],
+      "tech": [
+        "HoloKit X",
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "jwX5b-6chVI",
+        "url": "https://www.youtube.com/watch?v=jwX5b-6chVI"
+      },
+      "source_url": "https://holokit.io"
+    },
+    {
+      "id": "onix-systems--spy-car-ar",
+      "creator_ids": [
+        "onix-systems"
+      ],
+      "title": "Spy Car (AR object recognition demo)",
+      "year": 2019,
+      "description": "Pointing an Android phone at a toy spy car recognizes the physical object and layers labels, gadget descriptions and animations onto its real body.",
+      "description_zh": "把 Android 手机对准一辆玩具特工车，应用识别出这件实物，并在车身上叠加标注、装备说明和动画。",
+      "idea_en": "A toy becomes its own interactive manual once the camera recognizes its 3D shape.",
+      "idea_zh": "摄像头一旦认出玩具的立体形状，玩具就变成了自己的互动说明书。",
+      "technique": "Vuforia or VisionLib model-target tracking matches the toy against its 3D model, so annotations stay registered to the object as it is turned.",
+      "technique_zh": "用 Vuforia 或 VisionLib 的模型目标追踪，把玩具与其 3D 模型匹配，使标注在物体转动时依然贴合。",
+      "exercise_en": "Scan a small physical object as an object target and attach three tappable hotspots that explain its hidden parts. Twist: reveal an animated X-ray view of the inside when the object is turned upside down.",
+      "exercise_zh": "把一个小实物扫描成物体识别目标，给它加上三个可点击的热点，解释其内部的隐藏部件。变体：当物体被倒过来时，显示内部结构的动画透视图。",
+      "interaction": [
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Vuforia",
+        "VisionLib",
+        "Unity",
+        "Android"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "MEfE7v7twsg",
+        "url": "https://www.youtube.com/watch?v=MEfE7v7twsg"
+      }
+    },
+    {
+      "id": "onix-systems--supermarket-ar-navigation",
+      "creator_ids": [
+        "onix-systems"
+      ],
+      "title": "Supermarket AR Navigation (QR anchor)",
+      "year": 2023,
+      "description": "A shopper scans a QR code on a supermarket shelf and an AR path appears on the floor, guiding them aisle by aisle to the product on their list.",
+      "description_zh": "顾客扫一下超市货架上的二维码，地面上便出现一条 AR 路线，一排排货架地把人引到购物清单上的商品前。",
+      "idea_en": "A printed QR code works as a cheap indoor GPS fix that re-anchors an AR route inside a store.",
+      "idea_zh": "一张打印的二维码就是廉价的室内定位点，能在商店里重新锚定 AR 路线。",
+      "technique": "The QR code gives a known pose that aligns a pre-authored store map with the AR session, after which world tracking keeps the floor arrows in place.",
+      "technique_zh": "二维码提供一个已知位姿，把预先制作的商店地图与 AR 会话对齐，之后由世界追踪让地面箭头保持在原位。",
+      "exercise_en": "Map a corridor of your school with three QR codes as anchors and draw an AR arrow path from the entrance to a classroom. Twist: when two users' routes cross, show each of them the other's arrow in a different colour.",
+      "exercise_zh": "用三个二维码作为锚点，给学校的一段走廊建图，并画出一条从入口到某间教室的 AR 箭头路线。变体：当两名用户的路线交叉时，用不同颜色让双方看到对方的箭头。",
+      "interaction": [
+        "data-information",
+        "location-geo",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "AR Foundation",
+        "QR code anchors"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "AtCkMlrbiHk",
+        "url": "https://www.youtube.com/watch?v=AtCkMlrbiHk"
+      }
+    },
+    {
+      "id": "kasimir-lehto--skatrix",
+      "creator_ids": [
+        "kasimir-lehto"
+      ],
+      "title": "Skatrix",
+      "year": 2020,
+      "description": "Players scan a real curb, ledge, stair or table with their phone, and a small virtual skater grinds, flips and jumps across it under finger control; replays can be filmed from any angle.",
+      "description_zh": "玩家用手机扫描真实的路沿、台阶、楼梯或桌子，一个小小的虚拟滑手在手指操控下在上面滑杆、翻板、跳跃；还能从任意角度录制回放。",
+      "idea_en": "Anything in the world can become a skate spot once the phone understands its edges.",
+      "idea_zh": "只要手机理解了物体的边缘，世界上任何东西都能变成滑板场地。",
+      "technique": "Scene meshing and plane detection (later Niantic Lightship) convert real surfaces into colliders and grind rails for a physics-driven skater avatar.",
+      "technique_zh": "用场景网格化和平面检测（后来采用 Niantic Lightship）把真实表面转成碰撞体和可滑的杆，供物理驱动的滑手化身使用。",
+      "exercise_en": "Build a small character that detects edges of real surfaces from the AR mesh and slides along them when it reaches one. Twist: record the run and replay it from a camera that orbits the real object.",
+      "exercise_zh": "做一个小角色，能从 AR 网格中识别真实表面的边缘，到达边缘时就沿着它滑行。变体：把这段滑行录下来，用一个绕着真实物体旋转的镜头回放。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore",
+        "Niantic Lightship",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "BJjWhWfSc84",
+        "url": "https://www.youtube.com/watch?v=BJjWhWfSc84"
+      },
+      "source_url": "https://realitycrisis.io"
+    },
+    {
+      "id": "kasimir-lehto--skatrix-pro-vision-pro",
+      "creator_ids": [
+        "kasimir-lehto",
+        "niantic"
+      ],
+      "title": "Rodney Mullen's Skatrix Pro (Apple Vision Pro)",
+      "year": 2024,
+      "description": "A launch title for Apple Vision Pro, co-published by Niantic: a Rodney Mullen-inspired skater rides over the player's sofa, tables and floor, which the headset scans and turns into a skate park.",
+      "description_zh": "Apple Vision Pro 首发作品之一，由 Niantic 联合发行：一个受 Rodney Mullen 启发的滑手在玩家的沙发、桌子和地板上滑行，头显把这些扫描下来变成滑板公园。",
+      "idea_en": "Your living room furniture becomes a miniature skate park you watch from above like a god.",
+      "idea_zh": "客厅家具变成一座迷你滑板公园，你像上帝一样俯瞰。",
+      "technique": "visionOS scene reconstruction provides a room mesh used as physics geometry, and gaze-and-pinch or a game controller steers the skater.",
+      "technique_zh": "visionOS 场景重建提供房间网格作为物理几何体，玩家用注视加捏合或游戏手柄操控滑手。",
+      "exercise_en": "Use a headset or LiDAR phone mesh to find the three highest flat surfaces in a room and link them with a virtual ramp route. Twist: award extra points for routes that cross between two different pieces of furniture.",
+      "exercise_zh": "用头显或带 LiDAR 手机的网格找出房间里最高的三个平面，并用一条虚拟坡道路线把它们连起来。变体：跨越两件不同家具的路线获得额外加分。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Apple Vision Pro",
+        "visionOS",
+        "Niantic Lightship"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1753158831558025589",
+        "url": "https://x.com/Aidan_Wolf/status/1753158831558025589"
+      },
+      "source_url": "https://nianticlabs.com/news/skatrixavp"
+    },
+    {
+      "id": "zappar--zapbox",
+      "creator_ids": [
+        "zappar"
+      ],
+      "title": "ZapBox",
+      "year": 2017,
+      "description": "A $30 cardboard headset turns a phone into a room-scale mixed-reality device: printed pointcode markers scattered on the floor map the room, and two cardboard controllers with codes act as tracked hands.",
+      "description_zh": "一个 30 美元的纸板头显把手机变成房间级混合现实设备：散放在地上的打印点码标记用于给房间建图，两个贴着码的纸板手柄充当被追踪的双手。",
+      "idea_en": "Room-scale MR with tracked controllers, built from paper, cardboard and a phone camera.",
+      "idea_zh": "用纸、纸板和手机摄像头搭出带追踪手柄的房间级混合现实。",
+      "technique": "The phone camera detects printed circular pointcodes to build a map of the room and track handheld cardboard controllers in 6DoF, with a fisheye lens widening the view.",
+      "technique_zh": "手机摄像头识别打印的圆形点码，建立房间地图并以六自由度追踪手持纸板手柄，同时用鱼眼镜头扩大视野。",
+      "exercise_en": "Print six ArUco markers, tape two onto cardboard paddles, and build a phone AR scene where the paddles become tools that hit a floating ball. Twist: use a marker taped to the floor as a portal that swaps the ball into another world.",
+      "exercise_zh": "打印六个 ArUco 标记，把其中两个贴在纸板球拍上，做一个手机 AR 场景，让球拍变成击打漂浮小球的工具。变体：把一个贴在地上的标记当作传送门，让小球穿越到另一个世界。",
+      "interaction": [
+        "tangible-object",
+        "hand-body",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset",
+        "phone"
+      ],
+      "tech": [
+        "ZapBox",
+        "pointcodes",
+        "cardboard headset"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "RnnZ3YQD4ig",
+        "url": "https://www.youtube.com/watch?v=RnnZ3YQD4ig"
+      },
+      "source_url": "https://www.zappar.com/zapbox/"
+    },
+    {
+      "id": "metaio--thermal-touch",
+      "creator_ids": [
+        "metaio"
+      ],
+      "title": "Thermal Touch",
+      "year": 2014,
+      "description": "A prototype for smart glasses in which any surface, such as a poster, wall or car, becomes a touchscreen: an infrared camera sees the warm spot a finger leaves and triggers the AR content there.",
+      "description_zh": "一个为智能眼镜设计的原型：海报、墙面或汽车等任何表面都能变成触摸屏——红外摄像头看到手指留下的余温点，就在那里触发 AR 内容。",
+      "idea_en": "The heat your fingertip leaves behind is the click.",
+      "idea_zh": "指尖留下的余温，就是一次点击。",
+      "technique": "A thermal camera and a standard camera are calibrated together; residual heat from a touch is detected in the infrared image and mapped onto the tracked surface's AR coordinates.",
+      "technique_zh": "把热成像摄像头与普通摄像头联合标定；从红外图像中检测触摸后残留的热量，再映射到被追踪表面的 AR 坐标上。",
+      "exercise_en": "Fake Thermal Touch with a normal camera: track a printed poster, detect a finger dwell on it via hand tracking, and leave a slowly fading glow at each touch point. Twist: make the glow fade at a rate based on how long the finger stayed.",
+      "exercise_zh": "用普通摄像头模拟 Thermal Touch：追踪一张打印海报，通过手部追踪检测手指在上面的停留，并在每个触点留下慢慢消退的光晕。变体：让光晕的消退速度取决于手指停留的时长。",
+      "interaction": [
+        "hand-body",
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "wearable",
+        "desktop"
+      ],
+      "tech": [
+        "thermal camera",
+        "Metaio SDK",
+        "tablet PC"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "K2XL0qnu4Z4",
+        "url": "https://www.youtube.com/watch?v=K2XL0qnu4Z4"
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Metaio"
+    },
+    {
+      "id": "metaio--augmented-city",
+      "creator_ids": [
+        "metaio"
+      ],
+      "title": "Augmented City",
+      "year": 2012,
+      "description": "A vision video in which a phone and glasses recognize buildings, shop fronts and objects in a city block and layer navigation, offers and interactive content directly onto them.",
+      "description_zh": "一段愿景视频：手机和眼镜识别街区里的建筑、店面和物体，并直接在它们上面叠加导航、优惠和互动内容。",
+      "idea_en": "Every surface of a city is a potential screen once the camera recognizes it.",
+      "idea_zh": "只要摄像头能认出来，城市里的每个表面都可能成为屏幕。",
+      "technique": "Metaio's markerless 3D tracking and junaio channels recognize building facades and objects from edge and feature models to anchor content without GPS drift.",
+      "technique_zh": "Metaio 的无标记 3D 追踪和 junaio 频道，通过边缘和特征模型识别建筑立面与物体，在不受 GPS 漂移影响的情况下锚定内容。",
+      "exercise_en": "Photograph three storefronts or building entrances near campus, turn them into image targets, and attach one useful piece of information to each. Twist: make the information change with the time of day.",
+      "exercise_zh": "拍下校园附近的三个店面或建筑入口，把它们设为图像标记，给每个附上一条有用信息。变体：让信息随一天中的时间变化。",
+      "interaction": [
+        "location-geo",
+        "data-information"
+      ],
+      "platform": [
+        "phone",
+        "wearable"
+      ],
+      "tech": [
+        "Metaio SDK",
+        "junaio",
+        "3D tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Sp1X0Q_GzZk",
+        "url": "https://www.youtube.com/watch?v=Sp1X0Q_GzZk"
+      }
+    },
+    {
+      "id": "metaio--lego-digital-box",
+      "creator_ids": [
+        "metaio",
+        "lego"
+      ],
+      "title": "LEGO Digital Box kiosk",
+      "year": 2009,
+      "description": "In LEGO stores, a child holds a sealed LEGO box up to a screen-and-camera kiosk and sees the finished model built and animated on top of the box.",
+      "description_zh": "在乐高门店里，孩子把一个未拆封的乐高盒子举到带摄像头的展台屏幕前，就能看到拼好的模型在盒子上方组装完成并动起来。",
+      "idea_en": "A closed package previews its own contents in 3D before purchase.",
+      "idea_zh": "未拆封的包装盒在购买前就能用 3D 展示里面的内容。",
+      "technique": "The kiosk camera recognizes printed box art as a natural-feature target and renders the assembled 3D set on top of it, mirrored on a large screen.",
+      "technique_zh": "展台摄像头把印刷的包装图案识别为自然特征目标，在其上渲染拼好的 3D 套装，并在大屏上镜像显示。",
+      "exercise_en": "Use a cereal or product box as an image target and show an animated 3D preview of what could be inside. Twist: reveal a different surprise when the box is shaken.",
+      "exercise_zh": "拿一个麦片盒或商品盒当图像标记，展示盒内可能内容的 3D 动画预览。变体：摇一摇盒子就揭晓一个不同的惊喜。",
+      "interaction": [
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Metaio Unifeye",
+        "kiosk camera"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "CNkilCYnmoY",
+        "url": "https://www.youtube.com/watch?v=CNkilCYnmoY"
+      }
+    },
+    {
+      "id": "ogmento--put-a-spell",
+      "creator_ids": [
+        "ogmento"
+      ],
+      "title": "Put a Spell",
+      "year": 2009,
+      "description": "A spelling game for children: a 3D panda appears on the iPhone screen above a table, and kids drop real letter cards into blank spaces to spell the word it asks for; the app recognizes and pronounces the letters.",
+      "description_zh": "一款儿童拼写游戏：iPhone 屏幕里的桌面上出现一只 3D 熊猫，孩子把真实的字母卡片放进空格里拼出它要求的单词，应用会识别并读出这些字母。",
+      "idea_en": "Physical letter cards become the game controller for learning to spell.",
+      "idea_zh": "实体字母卡片变成学拼写的游戏手柄。",
+      "technique": "Likely marker or card-art recognition identifies each letter card and its slot, while a 3D character is anchored to the table.",
+      "technique_zh": "很可能通过标记或卡面图案识别每张字母卡及其位置，同时把一个 3D 角色锚定在桌面上。",
+      "exercise_en": "Print letter cards as image targets and make a phone AR scene where a creature appears only when the cards on the table spell its name. Twist: let the creature mispronounce misspelled words so children can hear the mistake.",
+      "exercise_zh": "把字母卡片打印成图像标记，做一个手机 AR 场景：只有当桌上的卡片拼出某个生物的名字时，它才会出现。变体：拼错时让生物读出错误的发音，让孩子听出哪里错了。",
+      "interaction": [
+        "tangible-object",
+        "data-information",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iPhone",
+        "card recognition"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "EB45O7-6Xrg",
+        "url": "https://www.youtube.com/watch?v=EB45O7-6Xrg"
+      }
+    },
+    {
+      "id": "ogmento--sketch-a-race",
+      "creator_ids": [
+        "ogmento"
+      ],
+      "title": "Sketch-a-race",
+      "year": 2011,
+      "description": "Draw any line on paper, point an iPad at it, and the sketch becomes a race track with cars driving along it; players race using only stop-and-go controls and can switch to a first-person view.",
+      "description_zh": "在纸上随手画一条线，用 iPad 对准它，草图就变成一条赛道，小车沿着它行驶；玩家只用“走/停”控制比赛，还能切换到第一人称视角。",
+      "idea_en": "Your own doodle is the level design.",
+      "idea_zh": "你自己的涂鸦就是关卡设计。",
+      "technique": "The camera extracts the drawn stroke from the paper, converts it into a path spline and tracks the page so the 3D track stays registered in real time.",
+      "technique_zh": "摄像头从纸上提取手绘笔画，转换成路径样条，并追踪纸张，使 3D 赛道实时贴合。",
+      "exercise_en": "Use OpenCV or an AR image tracker to detect a dark hand-drawn line on white paper and send a small car along it in AR. Twist: let line thickness control speed.",
+      "exercise_zh": "用 OpenCV 或 AR 图像追踪器检测白纸上的深色手绘线条，让一辆小车在 AR 中沿线行驶。变体：让线条粗细控制车速。",
+      "interaction": [
+        "drawing-creation",
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iPad 2",
+        "computer vision",
+        "sketch recognition"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "b5Mq5yzUMKg",
+        "url": "https://www.youtube.com/watch?v=b5Mq5yzUMKg"
+      }
+    },
+    {
+      "id": "ogmento--in-place-sketching-games",
+      "creator_ids": [
+        "ogmento"
+      ],
+      "title": "In-Place Sketching AR Games",
+      "year": 2010,
+      "description": "Prototype games in which players draw walls, holes and characters on paper, and the camera turns the drawing into a playable AR level that updates as they keep sketching.",
+      "description_zh": "几款原型游戏：玩家在纸上画出墙、洞和角色，摄像头把画作变成可玩的 AR 关卡，而且随着继续作画实时更新。",
+      "idea_en": "Drawing and playing happen on the same sheet at the same time.",
+      "idea_zh": "画画和玩游戏在同一张纸上同时发生。",
+      "technique": "Sketch recognition classifies hand-drawn symbols into game elements and tracks the paper itself, based on research by Nate Hagbi, Raphael Grasset, Oriel Bergig, Mark Billinghurst and Jihad El-Sana (IEEE VR 2010).",
+      "technique_zh": "草图识别把手绘符号分类为游戏元素，同时追踪纸张本身；技术源自 Nate Hagbi、Raphael Grasset、Oriel Bergig、Mark Billinghurst 和 Jihad El-Sana 的研究（IEEE VR 2010）。",
+      "exercise_en": "Define three drawn symbols (circle = hole, line = wall, X = goal) and build an AR ball-rolling game whose level is read from a photo of the paper. Twist: let a second player sabotage by drawing during play.",
+      "exercise_zh": "定义三种手绘符号（圆 = 洞，线 = 墙，X = 终点），做一个 AR 滚球游戏，关卡从纸张照片中读取。变体：允许第二位玩家在游戏过程中动笔搞破坏。",
+      "interaction": [
+        "drawing-creation",
+        "game-play",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "sketch recognition",
+        "paper tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "cuVKMHeWq9U",
+        "url": "https://www.youtube.com/watch?v=cuVKMHeWq9U"
+      }
+    },
+    {
+      "id": "ogmento--in-place-3d-sketching-mechanical",
+      "creator_ids": [
+        "ogmento"
+      ],
+      "title": "In-Place AR 3D Sketching of Mechanical Systems",
+      "year": 2011,
+      "description": "Students sketch simple physics setups such as springs, masses and slopes on paper; the camera recognizes the diagram and runs a 3D simulation on top of it, which changes as the sketch is edited.",
+      "description_zh": "学生在纸上画出弹簧、质量块和斜面等简单物理装置；摄像头识别出示意图，并在上面运行 3D 模拟，修改草图时模拟也随之改变。",
+      "idea_en": "A physics textbook diagram you draw yourself becomes a live experiment.",
+      "idea_zh": "自己画的物理课本示意图变成一场实时实验。",
+      "technique": "Sketch parsing turns diagram symbols into rigid bodies and constraints for a physics engine, rendered in 3D over the tracked paper.",
+      "technique_zh": "草图解析把示意图符号转成物理引擎中的刚体和约束，并在被追踪的纸面上以 3D 渲染。",
+      "exercise_en": "Let students draw a slope and a circle on paper, detect them, and simulate a ball rolling down in AR with adjustable gravity. Twist: add a spring symbol that bounces the ball back.",
+      "exercise_zh": "让学生在纸上画一个斜面和一个圆，识别后在 AR 中模拟小球沿斜面滚下，并可调节重力。变体：加入一个弹簧符号，把小球弹回去。",
+      "interaction": [
+        "drawing-creation",
+        "data-information",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone",
+        "desktop"
+      ],
+      "tech": [
+        "sketch recognition",
+        "physics simulation"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "TLiS7JrpRvs",
+        "url": "https://www.youtube.com/watch?v=TLiS7JrpRvs"
+      }
+    },
+    {
+      "id": "ogmento--paranormal-activity-sanctuary",
+      "creator_ids": [
+        "ogmento"
+      ],
+      "title": "Paranormal Activity: Sanctuary",
+      "year": 2011,
+      "description": "A location-based multiplayer horror game tied to the film franchise: players see demons in the camera view around real places, exorcise them, and build safe-haven sanctuaries on the city map, while risking possession that turns them against allies.",
+      "description_zh": "一款与同名电影系列联动的基于地理位置的多人恐怖游戏：玩家在真实地点的摄像头画面中看到恶灵，驱除它们，并在城市地图上建立避难所，同时冒着被附身、反过来对付盟友的风险。",
+      "idea_en": "A haunting that spreads across real city blocks, with players as exorcists or the possessed.",
+      "idea_zh": "闹鬼事件在真实街区蔓延，玩家要么是驱魔人，要么被附身。",
+      "technique": "GPS and compass place spirits and sanctuaries at real locations and overlay them on the camera view, with shared server state for territory and possession.",
+      "technique_zh": "用 GPS 和指南针把灵体和避难所放在真实位置并叠加到摄像头画面上，服务器共享领地与附身状态。",
+      "exercise_en": "Place five geolocated 'haunted' points around campus and make a phone AR view that shows a ghost when a player is within 20 m. Twist: players who fail to banish a ghost become visible as ghosts to other players.",
+      "exercise_zh": "在校园里放置五个带地理坐标的“闹鬼”点，做一个手机 AR 视图：玩家走到 20 米以内时显示幽灵。变体：没能驱走幽灵的玩家，会在其他玩家眼中变成幽灵。",
+      "interaction": [
+        "location-geo",
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iPhone",
+        "GPS",
+        "compass"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "9mVmw3ltFYA",
+        "url": "https://www.youtube.com/watch?v=9mVmw3ltFYA"
+      }
+    },
+    {
+      "id": "ogmento--slam-tank-see-through-walls",
+      "creator_ids": [
+        "ogmento"
+      ],
+      "title": "SLAM Computer Vision Tank: See Through Walls",
+      "year": 2012,
+      "description": "At Augmented Reality Event 2012, an iPhone mapped a real wall and street with markerless SLAM, and a virtual tank blasted holes through it that revealed a virtual world behind.",
+      "description_zh": "在 2012 年 Augmented Reality Event 上，一部 iPhone 用无标记 SLAM 建立了真实墙面和街道的地图，一辆虚拟坦克在墙上炸出洞，露出墙后的虚拟世界。",
+      "idea_en": "Blast a hole in a real wall and peek into the world behind it.",
+      "idea_zh": "在真实墙上炸出一个洞，窥看墙后的世界。",
+      "technique": "Markerless monocular SLAM (credited to Robert Castle's PTAM-style work) estimates the wall plane, and depth-masked holes render the virtual scene behind it.",
+      "technique_zh": "无标记单目 SLAM（致谢 Robert Castle 的 PTAM 类工作）估计墙面平面，再用深度遮罩的洞口渲染墙后的虚拟场景。",
+      "exercise_en": "Detect a vertical plane and let each tap punch a circular hole that reveals a different virtual room behind the wall. Twist: holes slowly heal over unless the player keeps looking at them.",
+      "exercise_zh": "检测一个竖直平面，每次点击就打出一个圆洞，露出墙后不同的虚拟房间。变体：除非玩家一直盯着看，否则洞会慢慢愈合。",
+      "interaction": [
+        "portal-world",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iPhone",
+        "SLAM",
+        "PTAM"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ZWfKWg1UuQ0",
+        "url": "https://www.youtube.com/watch?v=ZWfKWg1UuQ0"
+      }
+    },
+    {
+      "id": "ogmento--bubblewhere",
+      "creator_ids": [
+        "ogmento"
+      ],
+      "title": "BubbleWhere",
+      "year": 2012,
+      "description": "A proof of concept in which the phone finds any round object in view, such as a plate, coaster or logo, grabs its texture on the fly, and turns it into a trackable AR bubble.",
+      "description_zh": "一个概念验证：手机在画面里找到任何圆形物体，比如盘子、杯垫或标志，即时截取它的纹理，把它变成可追踪的 AR 气泡。",
+      "idea_en": "Any circle in the world can become an instant AR marker.",
+      "idea_zh": "世界上的任何圆形都能瞬间变成 AR 标记。",
+      "technique": "Real-time ellipse detection finds circles, rectifies and captures their texture, and then tracks the circle's pose as a new target without prior training.",
+      "technique_zh": "实时椭圆检测找出圆形，校正并截取其纹理，然后在无需事先训练的情况下把该圆作为新目标追踪其位姿。",
+      "exercise_en": "Use OpenCV Hough circles on a phone camera feed to find round objects and pin a small animated creature onto each one. Twist: creatures jump between circles when two are close together.",
+      "exercise_zh": "在手机摄像头画面上用 OpenCV 霍夫圆检测找出圆形物体，在每个圆上放一只小动画生物。变体：当两个圆靠得很近时，小生物会在它们之间跳来跳去。",
+      "interaction": [
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "circle detection",
+        "texture capture",
+        "mobile AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "8GcQ89x4AsQ",
+        "url": "https://www.youtube.com/watch?v=8GcQ89x4AsQ"
+      }
+    },
+    {
+      "id": "ryan-hickman--ticktock-ar-robot",
+      "creator_ids": [
+        "ryan-hickman"
+      ],
+      "title": "TickTock AR-controlled home robot",
+      "year": 2018,
+      "description": "A phone running TickTock's software rides on a small mobile robot as its brain; in the AR app, users tap a spot on the floor and the real robot plans a path and drives there, also responding to Google Assistant voice commands.",
+      "description_zh": "一部运行 TickTock 软件的手机装在小型移动机器人上充当大脑；在 AR 应用里点一下地面上的某个位置，真实机器人就规划路径开过去，还能响应 Google Assistant 的语音指令。",
+      "idea_en": "Tap a point in AR and a real robot goes there.",
+      "idea_zh": "在 AR 里点一个位置，真实机器人就开过去。",
+      "technique": "Project Tango SLAM on an Asus Zenfone AR localizes the robot and maps the room, and taps on the AR view are raycast to floor coordinates for the path planner.",
+      "technique_zh": "Asus Zenfone AR 上的 Project Tango SLAM 负责机器人定位和房间建图，在 AR 画面上的点击通过射线投射转换为地面坐标，交给路径规划器。",
+      "exercise_en": "Mount a phone on a Bluetooth toy car, raycast taps in AR to floor points, and drive the car toward the tapped point. Twist: let a second phone see the car's planned path as a glowing line in AR.",
+      "exercise_zh": "把手机装在蓝牙玩具车上，在 AR 中通过射线投射把点击转换为地面坐标，让小车开向被点中的位置。变体：让第二部手机在 AR 中以发光线条看到小车规划的路线。",
+      "interaction": [
+        "tangible-object",
+        "spatial-mapping",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Project Tango",
+        "Asus Zenfone AR",
+        "Kobuki",
+        "Google Assistant"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "qAIdzAF_-Hc",
+        "url": "https://www.youtube.com/watch?v=qAIdzAF_-Hc"
+      },
+      "source_url": "https://medium.com/@ryanhickman/augmented-reality-robotics-bb6db40ab754"
+    }
+  ],
+  "leads": [
+    {
+      "name": "Koei Tecmo (Spirit Camera co-developer)",
+      "why": "Spirit Camera: The Cursed Memoir is already in the gallery under nintendo; no separate AR work found.",
+      "link": "https://www.youtube.com/watch?v=d6s4AXx0A7Q",
+      "found_via": "nintendo",
+      "status": "duplicate"
+    },
+    {
+      "name": "Normal (normalvr)",
+      "why": "The 2017 ARKit + Vive mixed-reality rig is by Normal co-founder Max Weisel, whose similar AR-into-VR works are already in the gallery.",
+      "link": "https://twitter.com/normalvr/status/884480805652791297",
+      "found_via": "max-weisel",
+      "status": "duplicate"
+    },
+    {
+      "name": "Runze Zhang",
+      "why": "Co-developer of Games of Deletion, already in the gallery under alessio-grancini; his only other video is a portfolio reel.",
+      "link": "https://www.youtube.com/watch?v=9EPPUQA_wGw",
+      "found_via": "alessio-grancini",
+      "status": "duplicate"
+    },
+    {
+      "name": "Gravity Lab (Mark Schramm)",
+      "why": "Physics puzzle game on the Moon; it is VR-only on Quest, Rift, SteamVR and WMR with no passthrough mode.",
+      "link": "https://gravlab-game.com/",
+      "found_via": "seed",
+      "status": "not_ar"
+    },
+    {
+      "name": "Ori Inbar",
+      "why": "Ogmento co-founder and AWE founder; covered by the ogmento creator record.",
+      "link": "https://www.awexr.com",
+      "found_via": "ogmento",
+      "status": "duplicate"
+    },
+    {
+      "name": "Junaio (Metaio AR browser)",
+      "why": "Covered by the metaio creator record; surviving junaio videos are generic third-party clips.",
+      "link": "https://en.wikipedia.org/wiki/Metaio",
+      "found_via": "metaio",
+      "status": "duplicate"
+    },
+    {
+      "name": "MSQRD (Masquerade Technologies)",
+      "why": "Face-filter app (2015-16, acquired by Facebook) by the founders of Loóna; a pioneer of phone face AR.",
+      "link": "https://en.wikipedia.org/wiki/MSQRD",
+      "found_via": "loona-inc",
+      "status": "open"
+    },
+    {
+      "name": "Arballoon",
+      "why": "Israeli studio that produced Put a Spell (2009) for Ogmento.",
+      "link": "https://www.youtube.com/watch?v=EB45O7-6Xrg",
+      "found_via": "ogmento",
+      "status": "open"
+    },
+    {
+      "name": "Daniel Kurz (Metaio research)",
+      "why": "Researcher behind Metaio's Thermal Touch; later at Apple.",
+      "link": "https://www.youtube.com/watch?v=H0b4KZEuhfo",
+      "found_via": "metaio",
+      "status": "open"
+    }
+  ]
+}

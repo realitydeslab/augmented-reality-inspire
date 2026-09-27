@@ -1,0 +1,2944 @@
+{
+ "batch": "r3-lab",
+ "creators": [
+  {
+   "id": "jun-nishida",
+   "name": "Jun Nishida",
+   "role": "Assistant Professor, University of Maryland; director of the Embodied Dynamics Lab",
+   "based": "College Park, Maryland, US",
+   "bio": "Designs wearables that let people borrow each other's bodies: EMS suits that share muscle activity, exoskeletons that shrink your hands, and head-mounted rigs that give you a child's eye height. Previously at the University of Tsukuba, Sony CSL and Pedro Lopes's lab in Chicago.",
+   "why": "He augments the body instead of the view, turning perspective, grip and muscle tone into shareable, remixable media.",
+   "links": {
+    "site": "https://junis.sakura.ne.jp/wp/",
+    "x": "https://x.com/umd_emd",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCwr2h9AprkCNP9BdVc8q-BA",
+    "github": ""
+   },
+   "connected_to": [
+    "pedro-lopes",
+    "shunichi-kasahara"
+   ],
+   "discovered_via": "pedro-lopes",
+   "role_zh": "马里兰大学助理教授，Embodied Dynamics Lab 负责人",
+   "based_zh": "马里兰州College Park，美国",
+   "bio_zh": "他做的可穿戴设备让人可以“借用”别人的身体：用肌电刺激共享肌肉动作的装置、把手“缩小”的外骨骼、把视线降到孩子高度的头戴设备。曾在筑波大学、Sony CSL 以及 Pedro Lopes 的芝加哥实验室工作。",
+   "why_zh": "他增强的不是画面而是身体，把视角、握力和肌肉状态变成可以分享、可以混编的媒介。"
+  },
+  {
+   "id": "jason-orlosky",
+   "name": "Jason Orlosky",
+   "role": "Associate Professor, Augusta University; director of the AR/VR lab; runs the JEOresearch channel",
+   "based": "Augusta, Georgia, US",
+   "bio": "Did his PhD with Kiyoshi Kiyokawa at Osaka University on head-mounted text and vision augmentation (Fisheye Vision, ModulAR, Halo Content). Now builds eye-tracked AR tools, open-source eye trackers and accessibility demos.",
+   "why": "He treats AR glasses as a new pair of eyes: wider, zoomable, predictive and polite about where text should go.",
+   "links": {
+    "site": "https://www.jeoresearch.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@JEOresearch",
+    "github": "https://github.com/JEOresearch"
+   },
+   "connected_to": [
+    "kiyoshi-kiyokawa",
+    "yuta-itoh"
+   ],
+   "discovered_via": "yuta-itoh",
+   "role_zh": "奥古斯塔大学副教授，AR/VR 实验室负责人，运营 JEOresearch 频道",
+   "based_zh": "佐治亚州奥古斯塔，美国",
+   "bio_zh": "在大阪大学师从清川清，博士研究头戴显示中的文字布局与视觉增强（Fisheye Vision、ModulAR、Halo Content）。现在开发基于眼动追踪的 AR 工具、开源眼动仪和无障碍演示。",
+   "why_zh": "他把 AR 眼镜当成一双新眼睛：视野更宽、可以变焦、能预测运动，还懂得把文字放在不打扰人的位置。"
+  },
+  {
+   "id": "kiyoshi-kiyokawa",
+   "name": "Kiyoshi Kiyokawa",
+   "role": "Professor, Nara Institute of Science and Technology (NAIST); head of the Cybernetics and Reality Engineering Laboratory (CARE Lab)",
+   "based": "Nara, Japan",
+   "bio": "Pioneer of occlusion-capable optical see-through displays (ELMO) and long-time ISMAR leader. His CARE Lab explores 'reality modulation': changing what you eat, see and feel with video see-through headsets.",
+   "why": "His lab treats the headset as a tool to rewrite everyday perception, from turning somen into ramen to muting visual noise.",
+   "links": {
+    "site": "https://carelab.info/en/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCt30q7DinQAv83_HBdiJJmA",
+    "github": ""
+   },
+   "connected_to": [
+    "jason-orlosky",
+    "yuta-itoh",
+    "hirokazu-kato"
+   ],
+   "discovered_via": "yuta-itoh",
+   "role_zh": "奈良先端科学技术大学院大学（NAIST）教授，Cybernetics and Reality Engineering Laboratory（CARE Lab）负责人",
+   "based_zh": "奈良，日本",
+   "bio_zh": "可遮挡光学透视显示器（ELMO）的先驱，长期参与 ISMAR 的组织工作。他的 CARE Lab 研究“现实调制”：用视频透视头显改变人吃到、看到和感受到的东西。",
+   "why_zh": "他的实验室把头显当作改写日常感知的工具，从把素面“变成”拉面，到给视觉噪声降噪。"
+  },
+  {
+   "id": "balasaravanan-thoravi-kumaravel",
+   "name": "Balasaravanan Thoravi Kumaravel",
+   "role": "Researcher, Microsoft Research (Redmond); HCI researcher on mixed-reality collaboration",
+   "based": "Redmond, Washington, US",
+   "bio": "Built Loki, TutoriVR, TransceiVR and DreamStream during his PhD at UC Berkeley with Björn Hartmann, all about bridging people inside and outside headsets. At Microsoft Research he works on generative and NeRF-based spaces for remote collaboration.",
+   "why": "He keeps asking how someone outside the headset can see, point and teach inside it, and builds a working bridge each time.",
+   "links": {
+    "site": "https://www.tkbala.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC5GYCl7tciPuDtJUVy96ObA",
+    "github": ""
+   },
+   "connected_to": [
+    "autodesk-research"
+   ],
+   "discovered_via": "autodesk-research",
+   "role_zh": "微软研究院（雷德蒙德）研究员，研究混合现实协作的 HCI 学者",
+   "based_zh": "华盛顿州雷德蒙德，美国",
+   "bio_zh": "在加州大学伯克利分校随 Björn Hartmann 读博期间做了 Loki、TutoriVR、TransceiVR 和 DreamStream，都在解决头显内外的人如何沟通。在微软研究院，他研究用生成式 AI 和 NeRF 搭建远程协作空间。",
+   "why_zh": "他一直在追问：头显外的人怎样看到、指向并教会头显里的人，而且每次都做出了能用的桥梁。"
+  },
+  {
+   "id": "peter-mohr",
+   "name": "Peter Mohr",
+   "role": "Researcher, Institute of Visual Computing, Graz University of Technology",
+   "based": "Graz, Austria",
+   "bio": "Works with Denis Kalkofen and Dieter Schmalstieg on turning existing manuals and how-to videos into 3D AR instructions, and on using a phone as a tracked controller for headsets.",
+   "why": "He shows that the world's pile of paper manuals and YouTube tutorials can be recycled into spatial AR guidance.",
+   "links": {
+    "site": "https://www.tugraz.at/institute/ivc/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCCH8K14ogod9-QaeXwlVnUA",
+    "github": ""
+   },
+   "connected_to": [
+    "denis-kalkofen",
+    "tu-graz-wagner-schmalstieg",
+    "tobias-langlotz"
+   ],
+   "discovered_via": "denis-kalkofen",
+   "role_zh": "格拉茨工业大学视觉计算研究所研究员",
+   "based_zh": "格拉茨，奥地利",
+   "bio_zh": "与 Denis Kalkofen、Dieter Schmalstieg 合作，把现有的说明书和教学视频自动转成三维 AR 指引，还研究把手机变成头显的追踪控制器。",
+   "why_zh": "他证明了成堆的纸质说明书和 YouTube 教程都可以被“回收”，变成空间化的 AR 指导。"
+  },
+  {
+   "id": "stefanie-zollmann",
+   "name": "Stefanie Zollmann",
+   "role": "Professor of Computer Science, University of Otago; co-leads the Visual Computing Otago group",
+   "based": "Dunedin, New Zealand",
+   "bio": "Began with X-ray visualization and drone flight planning in AR at TU Graz, then built AR for stadium spectators, historical rephotography and sports coaching in Otago.",
+   "why": "She takes AR outdoors at real scale: construction sites, drones in the sky and rugby matches seen from the stands.",
+   "links": {
+    "site": "https://www.otago.ac.nz/computer-science/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCVdHJnnfRjldP0IbgidHXdA",
+    "github": ""
+   },
+   "connected_to": [
+    "tobias-langlotz",
+    "denis-kalkofen",
+    "tu-graz-wagner-schmalstieg"
+   ],
+   "discovered_via": "denis-kalkofen",
+   "role_zh": "奥塔哥大学计算机科学教授，Visual Computing Otago 小组联合负责人",
+   "based_zh": "达尼丁，新西兰",
+   "bio_zh": "在格拉茨工业大学时研究 AR 中的透视（X-ray）可视化和无人机航线规划，之后在奥塔哥大学做体育场观赛 AR、历史照片重摄和运动训练。",
+   "why_zh": "她把 AR 带到户外的真实尺度：工地、空中的无人机，还有看台上看到的橄榄球比赛。"
+  },
+  {
+   "id": "tobias-langlotz",
+   "name": "Tobias Langlotz",
+   "role": "Professor, University of Otago (Human-Computer Interaction / Computational Glasses)",
+   "based": "Dunedin, New Zealand",
+   "bio": "Former TU Graz researcher who co-built early smartphone AR authoring and browsers, now works on 'computational glasses' that correct color vision, guide gaze by modulating saliency, and render virtual objects with a real camera's quirks.",
+   "why": "He pushes AR from adding stickers to editing human vision itself, pixel by pixel.",
+   "links": {
+    "site": "https://www.otago.ac.nz/computer-science/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCITNajcLvkzk0nGx-DLMmFg",
+    "github": ""
+   },
+   "connected_to": [
+    "stefanie-zollmann",
+    "yuta-itoh",
+    "peter-mohr",
+    "tu-graz-wagner-schmalstieg"
+   ],
+   "discovered_via": "stefanie-zollmann",
+   "role_zh": "奥塔哥大学教授（人机交互 / 计算眼镜方向）",
+   "based_zh": "达尼丁，新西兰",
+   "bio_zh": "曾在格拉茨工业大学参与早期手机 AR 创作工具和 AR 浏览器的研发，现在研究“计算眼镜”：矫正色觉、通过调节显著性引导视线，以及按真实相机的特性渲染虚拟物体。",
+   "why_zh": "他让 AR 从“贴贴纸”走向逐像素地编辑人的视觉本身。"
+  },
+  {
+   "id": "carmine-elvezio",
+   "name": "Carmine Elvezio",
+   "role": "Researcher and developer, Columbia University Computer Graphics and User Interfaces Lab",
+   "based": "New York, US",
+   "bio": "Long-time engineer and researcher in Steven Feiner's lab, behind virtual-replica remote assistance, NASA stowage guidance, hybrid AR sheet music and urban-data tabletops for HoloLens-era AR.",
+   "why": "He turns AR task guidance into working systems that mix headsets, phones and tablets in one workflow.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCDFRIEaANNR3b8NDipTigaQ",
+    "github": ""
+   },
+   "connected_to": [
+    "columbia-feiner"
+   ],
+   "discovered_via": "columbia-feiner",
+   "role_zh": "哥伦比亚大学计算机图形与用户界面实验室研究员兼开发者",
+   "based_zh": "纽约，美国",
+   "bio_zh": "长期在 Steven Feiner 实验室担任工程师和研究者，参与了虚拟复制品远程协助、NASA 空间站物资收纳指引、混合式 AR 乐谱以及城市数据沙盘等 HoloLens 时代的 AR 项目。",
+   "why_zh": "他把 AR 任务指导做成真正能跑的系统，让头显、手机和平板在同一流程里协作。"
+  },
+  {
+   "id": "preloaded",
+   "name": "PRELOADED",
+   "role": "Games studio (London) making games with purpose, including AR and VR for museums and broadcasters",
+   "based": "London, UK",
+   "bio": "Independent studio known for educational and cultural games. With BBC Studios it made BBC Earth - Micro Kingdoms: Senses for Magic Leap, narrated by Stephen Fry.",
+   "why": "Micro Kingdoms lets you switch into an ant's or spider's senses inside your own living room, a model for sensory storytelling in AR.",
+   "links": {
+    "site": "https://preloaded.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCGN6dZRoaAtGVO0XlQfmgTw",
+    "github": ""
+   },
+   "connected_to": [
+    "magic-leap-studios"
+   ],
+   "discovered_via": "magic-leap-studios",
+   "role_zh": "伦敦游戏工作室，专做有目的性的游戏，包括为博物馆和广播机构制作的 AR/VR 作品",
+   "based_zh": "伦敦，英国",
+   "bio_zh": "以教育类和文化类游戏著称的独立工作室。与 BBC Studios 合作为 Magic Leap 制作了由 Stephen Fry 旁白的 BBC Earth - Micro Kingdoms: Senses。",
+   "why_zh": "Micro Kingdoms 让你在自家客厅里切换成蚂蚁或蜘蛛的感官，是 AR 感官叙事的范例。"
+  },
+  {
+   "id": "sean-follmer",
+   "name": "Sean Follmer",
+   "role": "Associate Professor of Mechanical Engineering, Stanford University; director of the SHAPE Lab",
+   "based": "Stanford, California, US",
+   "bio": "Co-created inFORM at the MIT Media Lab, then founded Stanford's SHAPE Lab, which builds mobile shape displays, tabletop swarm robots and, more recently, body-anchored audio augmentation.",
+   "why": "He makes the physical world itself programmable, so pixels can become pins, robots or sounds attached to people.",
+   "links": {
+    "site": "https://shape.stanford.edu",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCb8V-231O9j13doktq_zU0g",
+    "github": ""
+   },
+   "connected_to": [
+    "mit-tangible-media",
+    "ken-nakagaki"
+   ],
+   "discovered_via": "ken-nakagaki",
+   "role_zh": "斯坦福大学机械工程系副教授，SHAPE Lab 负责人",
+   "based_zh": "斯坦福，加利福尼亚州，美国",
+   "bio_zh": "在 MIT Media Lab 参与创作 inFORM，之后创立斯坦福 SHAPE Lab，研发可移动形状显示器、桌面群体机器人，近年还做附着在人身上的声音增强。",
+   "why_zh": "他让物理世界本身变得可编程：像素可以变成针阵、机器人，或是跟着人移动的声音。"
+  },
+  {
+   "id": "hirokazu-kato",
+   "name": "Hirokazu Kato",
+   "role": "Professor, NAIST; head of the Interactive Media Design Laboratory; creator of ARToolKit",
+   "based": "Nara, Japan",
+   "bio": "Wrote ARToolKit with Mark Billinghurst in 1999, the marker tracker that seeded a generation of AR. His NAIST lab later built AR pop-up books, wearable projection surfaces and, with Christian Sandor, the HoloLens game HoloRoyale.",
+   "why": "His free tracking library put AR into thousands of hands, and his lab kept testing what those markers could become.",
+   "links": {
+    "site": "https://imd.naist.jp/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCLsSL5PKJyA3T8nR-H-shAA",
+    "github": ""
+   },
+   "connected_to": [
+    "mark-billinghurst",
+    "christian-sandor",
+    "kiyoshi-kiyokawa"
+   ],
+   "discovered_via": "mark-billinghurst",
+   "role_zh": "NAIST 教授，Interactive Media Design Laboratory 负责人，ARToolKit 作者",
+   "based_zh": "奈良，日本",
+   "bio_zh": "1999 年与 Mark Billinghurst 一起写出 ARToolKit，这个标记追踪库带动了整整一代 AR 开发。他在 NAIST 的实验室后来做了 AR 立体书、可穿戴投影交互面，并与 Christian Sandor 合作开发了 HoloLens 游戏 HoloRoyale。",
+   "why_zh": "他的免费追踪库把 AR 交到成千上万人手里，他的实验室也一直在探索这些标记还能变成什么。"
+  },
+  {
+   "id": "christian-sandor",
+   "name": "Christian Sandor",
+   "role": "Professor, Université Paris-Saclay; formerly led the Magic Vision Lab (UniSA), NAIST and the XR Lab at City University of Hong Kong",
+   "based": "Paris, France",
+   "bio": "Trained at TU Munich, he built the Magic Vision Lab in Adelaide (BurnAR, AR X-ray, space-distorting AR), then co-directed AR research at NAIST and CityU Hong Kong. He calls the goal 'indistinguishable AR'.",
+   "why": "His demos make AR feel physical: hands that seem to burn, walls you can see through, and space that bends to show what is behind you.",
+   "links": {
+    "site": "https://www.xr-lab.org",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UClcHTdvRNQaxDCT4Z6GrKFg",
+    "github": ""
+   },
+   "connected_to": [
+    "hirokazu-kato",
+    "wayne-piekarski",
+    "mark-billinghurst"
+   ],
+   "discovered_via": "hirokazu-kato",
+   "role_zh": "巴黎-萨克雷大学教授；曾领导南澳大学 Magic Vision Lab、NAIST 研究组及香港城市大学 XR Lab",
+   "based_zh": "巴黎，法国",
+   "bio_zh": "在慕尼黑工业大学接受训练，之后在阿德莱德创建 Magic Vision Lab（BurnAR、AR 透视、空间扭曲 AR），又先后在 NAIST 和香港城市大学主持 AR 研究。他把目标称为“无法分辨的 AR”。",
+   "why_zh": "他的演示让 AR 有了身体感：看起来着火的手、能看穿的墙，以及弯折过来让你看到身后的空间。"
+  },
+  {
+   "id": "wayne-piekarski",
+   "name": "Wayne Piekarski",
+   "role": "Creator of the Tinmith outdoor AR backpack and co-creator of ARQuake (Wearable Computer Lab, University of South Australia); later developer advocate at Google",
+   "based": "Adelaide, Australia / San Francisco, US",
+   "bio": "With Bruce Thomas at the University of South Australia he built Tinmith (1998-2006), a backpack computer with a head-mounted display and pinch gloves, used for ARQuake and for modelling buildings outdoors in AR.",
+   "why": "Twenty years before Pokemon Go, he was walking campus lawns shooting AR monsters and sculpting buildings with gloves.",
+   "links": {
+    "site": "https://www.tinmith.net",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCx0NQg5vGxOkLaE9d8yiEaw",
+    "github": ""
+   },
+   "connected_to": [
+    "christian-sandor",
+    "mark-billinghurst"
+   ],
+   "discovered_via": "christian-sandor",
+   "role_zh": "Tinmith 户外 AR 背包系统作者、ARQuake 联合作者（南澳大学可穿戴计算实验室），后任 Google 开发者布道师",
+   "based_zh": "阿德莱德，澳大利亚 / 旧金山，美国",
+   "bio_zh": "1998–2006 年间与 Bruce Thomas 在南澳大学打造了 Tinmith：一套带头戴显示器和捏合手套的背包电脑，被用于 ARQuake，以及在户外用 AR 直接为建筑建模。",
+   "why_zh": "比 Pokémon Go 早二十年，他已经在校园草坪上射击 AR 怪物，并戴着手套“雕刻”建筑了。"
+  }
+ ],
+ "works": [
+  {
+   "id": "jun-nishida--smaller-person-experience",
+   "creator_ids": [
+    "jun-nishida"
+   ],
+   "title": "CHILDHOOD: Egocentric Smaller-person Experience",
+   "year": 2015,
+   "description": "An adult wears a head-mounted display fed by a camera at child eye height plus passive hand exoskeletons, and suddenly sees furniture, doors and people from a small child's point of view while grasping with small hands.",
+   "description_zh": "成年人戴上头显，画面来自装在孩子眼睛高度的摄像头，手上再套一副被动外骨骼，于是家具、门和身边的人都变成了小孩子视角里的样子，连抓东西的手也变小了。",
+   "idea_en": "Lower the camera and shrink the hands, and an adult can briefly live inside a child's body.",
+   "idea_zh": "把摄像头放低、把手“缩小”，成年人就能短暂地住进孩子的身体里。",
+   "technique": "Streams a waist-mounted stereo camera to a video see-through HMD so eye height drops by about half, while linkage exoskeletons map the wearer's finger motion onto smaller hands.",
+   "technique_zh": "腰部的双目摄像头把画面实时送进视频透视头显，使视线高度下降约一半，同时连杆外骨骼把佩戴者的手指动作映射到更小的“手”上。",
+   "exercise_en": "Strap a phone at waist height, stream its camera to a second phone in a cardboard viewer, and walk around the classroom for ten minutes; list what feels dangerous, huge or unreachable. Twist: mount the camera at a dog's or a giant's height and redesign one object for that body.",
+   "exercise_zh": "把一部手机绑在腰部高度，把它的摄像头画面实时传到另一部装在纸盒眼镜里的手机上，在教室里走十分钟，记录哪些东西显得危险、巨大或够不着；变体：把摄像头装到狗或巨人的视线高度，再为那个身体重新设计一件物品。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "headset",
+    "wearable"
+   ],
+   "tech": [
+    "video see-through HMD",
+    "stereo camera",
+    "passive exoskeleton"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "120369920",
+    "url": "https://vimeo.com/120369920"
+   },
+   "source_url": "https://junis.sakura.ne.jp/wp/"
+  },
+  {
+   "id": "jun-nishida--biosync",
+   "creator_ids": [
+    "jun-nishida"
+   ],
+   "title": "bioSync",
+   "year": 2017,
+   "description": "Two people wear paired EMG/EMS armbands: when one tenses or relaxes a muscle, the other person's arm stiffens or loosens in sync, so a teacher can literally pass on a movement or a tremor.",
+   "description_zh": "两个人戴上成对的肌电感应/电刺激臂带：一个人绷紧或放松肌肉，另一个人的手臂就同步变硬或变软，老师可以把动作甚至手抖“传”给学生。",
+   "idea_en": "Share muscle tension between two bodies as if it were a live video stream.",
+   "idea_zh": "像直播视频一样，在两具身体之间实时共享肌肉张力。",
+   "technique": "Measures muscle activity with electromyography on one wearer and replays it as electrical muscle stimulation on the partner through the same electrodes, in both directions.",
+   "technique_zh": "在一位佩戴者身上用肌电图测量肌肉活动，再通过同一组电极以电刺激的形式在搭档身上回放，而且是双向的。",
+   "exercise_en": "Pair students and have one guide the other's wrist with a light string and a phone vibration cue whenever the leader's phone accelerometer detects a flick; practise a drum pattern this way. Twist: swap roles mid-rhythm without stopping and see who is really leading.",
+   "exercise_zh": "让学生两两一组，一人手机的加速度计检测到甩腕时，就通过细绳牵引和另一部手机的震动提示带动搭档的手腕，用这种方式练一段鼓点；变体：节奏不停，中途交换角色，看看到底是谁在带谁。",
+   "interaction": [
+    "hand-body",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "EMG",
+    "EMS",
+    "wearable electrodes"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "155394019",
+    "url": "https://vimeo.com/155394019"
+   },
+   "source_url": "https://junis.sakura.ne.jp/wp/"
+  },
+  {
+   "id": "jun-nishida--handmorph",
+   "creator_ids": [
+    "jun-nishida",
+    "pedro-lopes"
+   ],
+   "title": "HandMorph",
+   "year": 2020,
+   "description": "A passive exoskeleton puts a child-sized mechanical hand in front of the wearer's own; grasping real toys and tools through it makes everything feel bigger, with no headset involved.",
+   "description_zh": "一副被动外骨骼在佩戴者的手前面装了一只儿童尺寸的机械手；通过它去抓真实的玩具和工具，所有东西都显得更大，而且完全不需要头显。",
+   "idea_en": "Change your body, not the picture: a mechanical small hand makes the real world feel oversized.",
+   "idea_zh": "改的不是画面而是身体：一只机械小手让真实世界显得巨大。",
+   "technique": "Uses four-bar linkages to transmit each finger's motion and force to an anatomically scaled smaller hand, so haptic feedback stays congruent in the real environment.",
+   "technique_zh": "用四连杆机构把每根手指的动作和力量传到按比例缩小的仿生小手上，让触觉反馈在真实环境里保持一致。",
+   "exercise_en": "Build a cardboard 'hand extender' with straws and string that mirrors finger bends onto a smaller cardboard hand, then try picking up objects of different sizes and rate how big they feel. Twist: make the hand larger instead and redesign a door handle for it.",
+   "exercise_zh": "用纸板、吸管和绳子做一个“手部延伸器”，把手指弯曲映射到一只更小的纸板手上，然后去拿不同大小的物体，给它们“感觉上的大小”打分；变体：把手做大，再为它重新设计一个门把手。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "passive exoskeleton",
+    "linkage mechanism"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "5o2wPy5hl0w",
+    "url": "https://www.youtube.com/watch?v=5o2wPy5hl0w"
+   },
+   "source_url": "https://lab.plopes.org/"
+  },
+  {
+   "id": "jun-nishida--digitusync",
+   "creator_ids": [
+    "jun-nishida",
+    "pedro-lopes"
+   ],
+   "title": "DigituSync",
+   "year": 2022,
+   "description": "Two people wear gloves linked by adjustable mechanical bars, so when a piano teacher curls a finger the learner's finger curls too, and both still feel the real keys.",
+   "description_zh": "两个人戴上由可调机械杆相连的手套：钢琴老师弯一下手指，学生的手指也跟着弯，而且两个人都还能感受到真实的琴键。",
+   "idea_en": "Physically couple two hands so skills transfer by touch rather than by watching.",
+   "idea_zh": "把两只手在物理上连起来，让技能靠触觉而不是靠观看来传递。",
+   "technique": "Uses passive four-bar linkages with a variable-length link to transmit finger motion and force between users and tune how strongly the leader intervenes.",
+   "technique_zh": "利用带可变长度连杆的被动四连杆机构，在两人之间传递手指的动作和力量，并调节引导者的干预强度。",
+   "exercise_en": "Tie two students' index fingers together with elastic bands and a ruler splint, then play a simple phone piano app together; compare accuracy with watching a video tutorial. Twist: loosen the band halfway through to fade out the teacher.",
+   "exercise_zh": "用橡皮筋和尺子做成夹板，把两名学生的食指连在一起，用手机钢琴 App 合弹一首简单的曲子，并与看视频教程的准确率比较；变体：弹到一半把橡皮筋放松，让“老师”逐渐退出。",
+   "interaction": [
+    "hand-body",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "passive exoskeleton glove",
+    "linkage mechanism"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XpOKhXOXnt8",
+    "url": "https://www.youtube.com/watch?v=XpOKhXOXnt8"
+   },
+   "source_url": "https://lab.plopes.org/"
+  },
+  {
+   "id": "jun-nishida--electrical-head-actuation",
+   "creator_ids": [
+    "jun-nishida",
+    "pedro-lopes"
+   ],
+   "title": "Electrical Head Actuation",
+   "year": 2022,
+   "description": "Electrodes on the neck gently turn the wearer's head left, right, up or down, so a system can direct attention toward something in mixed reality without any arrow on screen.",
+   "description_zh": "贴在脖子上的电极能轻轻地把佩戴者的头转向左、右、上、下，系统无需在屏幕上画箭头，就能把注意力引向混合现实中的某个目标。",
+   "idea_en": "Instead of drawing an arrow, the interface turns your head for you.",
+   "idea_zh": "界面不画箭头，而是直接帮你转头。",
+   "technique": "Applies electrical muscle stimulation to specific neck muscles to actuate head yaw and pitch, calibrated per user for direction and strength.",
+   "technique_zh": "对特定的颈部肌肉施加电刺激来驱动头部的偏航和俯仰，并针对每个用户校准方向和强度。",
+   "exercise_en": "Design a phone AR scene with a hidden object and compare three guidance cues: an arrow, spatial audio, and a partner gently tapping one shoulder; time how fast people find it. Twist: try the tap cue with eyes closed and describe how it feels to be steered.",
+   "exercise_zh": "用手机 AR 做一个藏着物体的场景，比较三种引导方式：箭头、空间音效、以及同伴轻拍一侧肩膀，记录找到目标所需时间；变体：闭上眼睛只用拍肩引导，描述“被操控”是什么感觉。",
+   "interaction": [
+    "hand-body",
+    "gaze-attention"
+   ],
+   "platform": [
+    "wearable",
+    "headset"
+   ],
+   "tech": [
+    "EMS",
+    "neck muscle stimulation",
+    "mixed reality"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "vqpH9gNGpts",
+    "url": "https://www.youtube.com/watch?v=vqpH9gNGpts"
+   },
+   "source_url": "https://lab.plopes.org/#electrical-head-actuation"
+  },
+  {
+   "id": "jun-nishida--dexterisync",
+   "creator_ids": [
+    "jun-nishida"
+   ],
+   "title": "DexteriSync",
+   "year": 2024,
+   "description": "A water-cooled exoskeleton chills or warms the fingers so the wearer's dexterity drops or recovers on demand, letting a designer feel what fine tasks are like for an older person or a cold hand.",
+   "description_zh": "一副通水冷却的外骨骼可以按需冷却或加温手指，让佩戴者的灵巧度下降或恢复，设计师因此能亲身体会老人或冻僵的手做精细动作的感觉。",
+   "idea_en": "Temperature is a dial for dexterity: cool the fingers to borrow someone else's hands.",
+   "idea_zh": "温度是灵巧度的旋钮：把手指冷下来，就能“借用”别人的手。",
+   "technique": "Circulates temperature-controlled water through silicone-copper tubes along each finger to change skin temperature and thus finger dexterity and thermal perception.",
+   "technique_zh": "让温控水流经沿手指布置的硅胶铜管，改变皮肤温度，从而改变手指的灵巧度和冷热感受。",
+   "exercise_en": "Have students button a shirt and type on a phone after holding an ice pack for one minute, then redesign one app screen for cold, clumsy fingers. Twist: add gloves of different thickness and chart the error rate.",
+   "exercise_zh": "让学生握冰袋一分钟后去扣衬衫、在手机上打字，再为冻僵、笨拙的手指重新设计一个 App 界面；变体：戴上不同厚度的手套，画出错误率变化曲线。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "thermal exoskeleton",
+    "water cooling"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "3Jn3m8z0vac",
+    "url": "https://www.youtube.com/watch?v=3Jn3m8z0vac"
+   },
+   "source_url": "https://junis.sakura.ne.jp/wp/"
+  },
+  {
+   "id": "jun-nishida--wiredrum",
+   "creator_ids": [
+    "jun-nishida"
+   ],
+   "title": "WireDrum",
+   "year": 2026,
+   "description": "Several instructors' muscle signals are routed into one visitor's arms through EMS, so a novice can play a demanding drum rhythm by sharing their body with other people.",
+   "description_zh": "几位指导者的肌肉信号经电刺激汇入一位访客的手臂，让新手在与他人“共享身体”的状态下打出高难度的鼓点。",
+   "idea_en": "Split a hard skill across several people and merge it inside one body.",
+   "idea_zh": "把一项难的技能拆给几个人，再在一具身体里合成。",
+   "technique": "Combines custom biosignal sensing modules, a multi-channel electrical muscle stimulator, a visual-tactile tempo indicator and software that maps instructors' muscles onto the learner's.",
+   "technique_zh": "结合定制的生物信号采集模块、多通道肌肉电刺激器、视觉与触觉节拍提示，以及把指导者肌肉映射到学习者身上的软件。",
+   "exercise_en": "Split a two-hand drum pattern among three students: two tap cues on the drummer's shoulders while a phone metronome flashes, and the drummer only follows touches. Twist: record it with a phone and overlay each person's contribution in a different colour.",
+   "exercise_zh": "把一段双手鼓点拆给三名学生：两人随着手机节拍器的闪光在鼓手肩上点拍，鼓手只按触觉提示击鼓；变体：用手机录下来，用不同颜色标出每个人的贡献。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "EMS",
+    "EMG",
+    "biosignal sensing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "i0oJNk8W3DU",
+    "url": "https://www.youtube.com/watch?v=i0oJNk8W3DU"
+   },
+   "source_url": "https://www.youtube.com/channel/UCwr2h9AprkCNP9BdVc8q-BA"
+  },
+  {
+   "id": "jason-orlosky--intelligent-view-management",
+   "creator_ids": [
+    "jason-orlosky",
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "Towards Intelligent View Management",
+   "year": 2013,
+   "description": "While walking through streets with a video see-through display, users drag text panels where they prefer them; the recordings reveal clusters of 'safe' places that an automatic system can learn.",
+   "description_zh": "用户戴着视频透视显示器走在街上，把文字面板拖到自己喜欢的位置；记录显示出一些“安全区域”的聚集规律，可供自动系统学习。",
+   "idea_en": "Learn where people want text to sit in their view before letting software place it.",
+   "idea_zh": "先弄清人们希望文字待在视野哪里，再让软件去自动摆放。",
+   "technique": "Records manual placements of text overlays in mobile video see-through AR and clusters them against image features such as dark, uniform regions to derive placement rules.",
+   "technique_zh": "记录移动视频透视 AR 中用户手动放置文字的位置，并结合图像特征（如较暗、均匀的区域）做聚类，归纳出摆放规则。",
+   "exercise_en": "Walk a route with a phone camera app and a sticky note on the screen; at ten stops move the note to where it bothers you least and screenshot it, then map the patterns as a class. Twist: repeat while talking to a partner and see where the note moves.",
+   "exercise_zh": "拿着开着相机的手机沿一条路线走，屏幕上贴一张便利贴；在十个停留点把便利贴移到最不碍事的位置并截图，全班一起总结规律；变体：边和同伴聊天边做一遍，看便利贴会被移到哪里。",
+   "interaction": [
+    "data-information",
+    "gaze-attention"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "video see-through HMD",
+    "view management"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "T8SzuLh0eYg",
+    "url": "https://www.youtube.com/watch?v=T8SzuLh0eYg"
+   },
+   "source_url": "https://dl.acm.org/citation.cfm?id=2636246"
+  },
+  {
+   "id": "jason-orlosky--fisheye-vision",
+   "creator_ids": [
+    "jason-orlosky",
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "Fisheye Vision",
+   "year": 2014,
+   "description": "A modified Oculus Rift with a fisheye camera gives the wearer about 180 degrees of vision while keeping the center undistorted, plus a 'Matrix mode' that shows the world in green code.",
+   "description_zh": "改装的 Oculus Rift 配上鱼眼摄像头，让佩戴者拥有约 180 度的视野，同时中央区域不变形；还有一个把世界显示成绿色代码的“Matrix 模式”。",
+   "idea_en": "Give people a wider-than-human field of view and let them keep a normal center.",
+   "idea_zh": "给人超过人类极限的视野，同时保留正常的中央视觉。",
+   "technique": "Warps a fisheye video feed so the central region keeps natural magnification while the periphery is compressed into the display edges of a video see-through Rift.",
+   "technique_zh": "对鱼眼视频做变形：中央区域保持自然放大率，周边被压缩到视频透视 Rift 的显示边缘。",
+   "exercise_en": "Clip a cheap fisheye lens onto a phone in a cardboard viewer and play catch or navigate a hallway for five minutes. Twist: compress only the left and right edges and test whether people notice someone approaching from the side sooner.",
+   "exercise_zh": "把廉价鱼眼镜头夹在放进纸盒眼镜的手机上，玩五分钟接球或走走廊；变体：只压缩左右边缘，测试大家能否更早发现从侧面走来的人。",
+   "interaction": [
+    "perception-art",
+    "gaze-attention"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Oculus Rift",
+    "fisheye camera",
+    "video see-through"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Twowop1Xf2E",
+    "url": "https://www.youtube.com/watch?v=Twowop1Xf2E"
+   },
+   "source_url": "http://tinyurl.com/fisheyevision"
+  },
+  {
+   "id": "jason-orlosky--halo-content",
+   "creator_ids": [
+    "jason-orlosky",
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "Halo Content",
+   "year": 2015,
+   "description": "Emails, messages and notifications in a head-worn display drift out of the way whenever a person walks into view, forming a halo around their face instead of covering it.",
+   "description_zh": "头戴显示中的邮件、消息和通知在有人走进视野时自动让开，在对方脸部周围形成一圈“光环”，而不是挡住它。",
+   "idea_en": "AR notifications should politely step aside when a real person appears.",
+   "idea_zh": "当真实的人出现时，AR 通知应该礼貌地让开。",
+   "technique": "Detects faces and bodies in the camera feed and moves overlay elements with a simple force-directed layout so they orbit around, rather than occlude, the conversation partner.",
+   "technique_zh": "在摄像头画面中检测人脸和人体，用简单的力导向布局移动叠加元素，让它们绕着对话对象排布而不是遮挡。",
+   "exercise_en": "Use a phone face-tracking AR app to attach three floating notification cards that orbit a detected face without covering it, then hold a two-minute conversation through the phone. Twist: make urgent cards come closer and quiet ones fade out.",
+   "exercise_zh": "用手机的人脸追踪 AR 做三张悬浮通知卡片，让它们绕着识别到的人脸转而不遮挡，然后透过手机进行两分钟对话；变体：让紧急的卡片靠得更近，不重要的逐渐淡出。",
+   "interaction": [
+    "face",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "face detection",
+    "view management",
+    "HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "9Vbs1oLpk38",
+    "url": "https://www.youtube.com/watch?v=9Vbs1oLpk38"
+   },
+   "source_url": "http://dl.acm.org/citation.cfm?id=2701375"
+  },
+  {
+   "id": "jason-orlosky--modular",
+   "creator_ids": [
+    "jason-orlosky",
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "ModulAR",
+   "year": 2015,
+   "description": "A video see-through headset with swappable camera-lens modules lets the wearer switch between telescopic zoom and wide-angle vision just by where they look, using built-in eye tracking.",
+   "description_zh": "一款视频透视头显配有可更换的摄像头镜头模块，佩戴者只需通过注视方式，就能在望远变焦和广角视野之间切换，靠的是内置眼动追踪。",
+   "idea_en": "Vision superpowers as plug-in lenses you switch on with your eyes.",
+   "idea_zh": "把视觉超能力做成可插拔的镜头，用眼睛来开启。",
+   "technique": "Combines interchangeable camera-lens modules on an HMD with eye tracking, so gaze gestures trigger on-demand zoom or field-of-view expansion in the video feed.",
+   "technique_zh": "在头显上组合可互换的摄像头镜头模块与眼动追踪，用注视手势按需触发视频画面的变焦或视野扩展。",
+   "exercise_en": "Build a phone 'binocular' mode in a cardboard viewer that zooms the camera when you tilt your head up and returns to normal when you tilt down; test it on a board at the back of the room. Twist: trigger the zoom by blinking twice using front-camera face tracking.",
+   "exercise_zh": "在纸盒眼镜中的手机上做一个“望远镜”模式：抬头时相机放大，低头时恢复正常，用教室后面的黑板测试；变体：借助前置摄像头的人脸追踪，眨两下眼触发放大。",
+   "interaction": [
+    "gaze-attention",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "eye tracking",
+    "video see-through HMD",
+    "camera modules"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nrCALSZQhzk",
+    "url": "https://www.youtube.com/watch?v=nrCALSZQhzk"
+   },
+   "source_url": "https://www.jeoresearch.com/research"
+  },
+  {
+   "id": "jason-orlosky--ar-language-learning",
+   "creator_ids": [
+    "jason-orlosky"
+   ],
+   "title": "Augmented Reality Language Learning",
+   "year": 2019,
+   "description": "Walking through a room with a headset, the learner sees everyday objects automatically recognised and labelled with their foreign-language words, anchored in place.",
+   "description_zh": "戴着头显在房间里走动时，日常物品被自动识别，并在原地贴上对应的外语单词标签。",
+   "idea_en": "Turn your own home into a vocabulary flashcard deck.",
+   "idea_zh": "把自己的家变成一套单词卡片。",
+   "technique": "Runs object detection on camera frames and registers each detected label to 3D positions in the headset's spatial map so labels stay attached to objects.",
+   "technique_zh": "对摄像头画面做物体检测，并把每个检测结果配准到头显空间地图中的三维位置，让标签始终贴在物体上。",
+   "exercise_en": "Use a phone object-detection or image-tracking AR tool to label ten classroom objects in a second language, then quiz a partner by hiding the labels. Twist: show only the first letter and reveal the word when the learner says it aloud.",
+   "exercise_zh": "用手机的物体识别或图像追踪 AR 工具，给教室里十件物品贴上第二语言的标签，然后隐藏标签考同伴；变体：只显示首字母，学生大声说出单词后再揭晓。",
+   "interaction": [
+    "data-information",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "object detection",
+    "HoloLens",
+    "semantic labeling"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "4SkkWc396J4",
+    "url": "https://www.youtube.com/watch?v=4SkkWc396J4"
+   },
+   "source_url": "https://sites.cs.ucsb.edu/~holl/pubs/Huynh-2019-IEEEVRPoster.pdf"
+  },
+  {
+   "id": "jason-orlosky--ar-air-conditioning",
+   "creator_ids": [
+    "jason-orlosky"
+   ],
+   "title": "Controlling Air Conditioning via Augmented Reality",
+   "year": 2021,
+   "description": "The invisible airflow of a directional air conditioner is drawn as streams in AR, and the user steers it with touch gestures to aim cool air where people sit.",
+   "description_zh": "定向空调原本看不见的气流在 AR 中被画成一道道流线，用户用触控手势调整方向，把冷风送到有人坐的地方。",
+   "idea_en": "Make invisible airflow visible, then let people grab and steer it.",
+   "idea_zh": "把看不见的气流显示出来，再让人伸手去“抓”和引导它。",
+   "technique": "Likely simulates the AC's flow field from vane angles and renders it as animated particle streams registered to the unit, sending gesture edits back as control commands.",
+   "technique_zh": "很可能根据导风板角度模拟空调的气流场，把它渲染成与空调位置对齐的动画粒子流，再把手势修改转成控制指令发送回去。",
+   "exercise_en": "Hang ribbons in front of a desk fan, film them, then build a phone AR scene that draws matching animated particle streams from the fan; let classmates 'drag' the stream to aim it. Twist: visualise Wi-Fi strength or sound instead of air.",
+   "exercise_zh": "在台扇前挂几条丝带并拍下来，然后做一个手机 AR 场景，从风扇处画出对应的动画粒子流，让同学“拖动”气流改变方向；变体：把可视化对象换成 Wi-Fi 信号强度或声音。",
+   "interaction": [
+    "data-information",
+    "hand-body",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "flow visualization",
+    "gesture control",
+    "IoT"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "i3OctJhaXKI",
+    "url": "https://www.youtube.com/watch?v=i3OctJhaXKI"
+   },
+   "source_url": "https://www.youtube.com/@JEOresearch"
+  },
+  {
+   "id": "jason-orlosky--hazardsnap",
+   "creator_ids": [
+    "jason-orlosky",
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "HazARdSnap (AR Cyclocomputers)",
+   "year": 2023,
+   "description": "A cyclist glances at the rider ahead and speed and route data snap onto that rider's back, so the eyes never leave the road and a sudden stop is still visible.",
+   "description_zh": "骑车人看向前面的骑手，速度和路线数据就“吸附”到对方后背上，眼睛不必离开路面，前车急停也能第一时间看到。",
+   "idea_en": "Attach your dashboard to the thing you should be watching anyway.",
+   "idea_zh": "把仪表盘贴在你本来就该盯着的东西上。",
+   "technique": "Uses eye gaze in a head-mounted display to decide when to show data and anchors it to the tracked cyclist in front instead of a fixed screen position.",
+   "technique_zh": "借助头显中的眼动注视判断何时显示数据，并把数据锚定在被追踪的前方骑手身上，而不是固定在屏幕某处。",
+   "exercise_en": "Build a phone AR prototype that pins a speed readout to a person or object tracked in the camera view, then walk behind a classmate and compare with reading a phone held at waist height. Twist: show the data only while you look at the target for more than one second.",
+   "exercise_zh": "做一个手机 AR 原型，把速度读数钉在相机画面中被追踪的人或物体上，跟在同学后面走，与低头看腰间手机对比；变体：只有注视目标超过一秒时才显示数据。",
+   "interaction": [
+    "gaze-attention",
+    "data-information",
+    "location-geo"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "eye tracking",
+    "object tracking",
+    "HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "34BXp95wq3g",
+    "url": "https://www.youtube.com/watch?v=34BXp95wq3g"
+   },
+   "source_url": "https://www.youtube.com/@JEOresearch"
+  },
+  {
+   "id": "jason-orlosky--eyeshadows",
+   "creator_ids": [
+    "jason-orlosky"
+   ],
+   "title": "EyeShadows",
+   "year": 2024,
+   "description": "Glance at an object and a 'shadow' copy of it appears in the periphery; looking at the copy selects it or opens its settings, making eye-only interaction fast and less error-prone.",
+   "description_zh": "瞥一眼某个物体，它的“影子”副本就出现在视野边缘；再看向副本即可选中它或打开设置，让纯眼动交互又快又不易出错。",
+   "idea_en": "Pull a copy of what you looked at into your periphery so selecting by eye is easy.",
+   "idea_zh": "把你看过的东西复制到视野边缘，让用眼睛选择变得轻松。",
+   "technique": "Spawns peripheral virtual copies of gazed objects and uses a gaze transition onto the copy as a confirm action, avoiding accidental 'Midas touch' selections.",
+   "technique_zh": "为被注视的物体在周边视野生成虚拟副本，把视线移到副本上作为确认动作，避免误选的“点石成金”问题。",
+   "exercise_en": "Using phone face or eye tracking in a web AR demo, show a small copy of a gazed icon in a screen corner and select it by looking there for half a second. Twist: let the copy offer three options placed in different corners.",
+   "exercise_zh": "在网页 AR 演示中借助手机的人脸或眼动追踪，把被注视的图标在屏幕角落显示一个小副本，注视那里半秒即可选中；变体：让副本在不同角落给出三个选项。",
+   "interaction": [
+    "gaze-attention",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "eye tracking",
+    "Unity",
+    "open source"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "WoGK_Xf9cdU",
+    "url": "https://www.youtube.com/watch?v=WoGK_Xf9cdU"
+   },
+   "source_url": "https://github.com/JEOresearch/EyeShadows"
+  },
+  {
+   "id": "jason-orlosky--gaze-swipe-keyboard",
+   "creator_ids": [
+    "jason-orlosky"
+   ],
+   "title": "Eye-tracked Swipe Keyboard",
+   "year": 2023,
+   "description": "A keyboard floats in video see-through AR and the user types whole words by sweeping their gaze across the letters, like swiping on a phone, with no hands at all.",
+   "description_zh": "一个键盘悬浮在视频透视 AR 中，用户用视线扫过字母就能输入整个单词，像在手机上滑动输入一样，完全不用手。",
+   "idea_en": "Swipe-typing, but the finger is your gaze.",
+   "idea_zh": "滑动输入法，只是手指换成了视线。",
+   "technique": "Records the gaze path over a virtual keyboard on a Varjo XR-3 and matches it against word templates with approximate path matching.",
+   "technique_zh": "在 Varjo XR-3 上记录视线扫过虚拟键盘的轨迹，用近似路径匹配与单词模板比对。",
+   "exercise_en": "Print a large keyboard, have one student trace words with their eyes while a partner films their face with a phone, then try to decode the words from the video. Twist: design a shorter layout that makes gaze paths less ambiguous.",
+   "exercise_zh": "打印一张大键盘，一名学生用眼睛“描”出单词，同伴用手机拍下他的脸，再尝试从视频中解读出单词；变体：设计一个更紧凑的布局，让视线轨迹更不容易混淆。",
+   "interaction": [
+    "gaze-attention",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Varjo XR-3",
+    "eye tracking",
+    "video see-through"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "I4Oj4WavKO8",
+    "url": "https://www.youtube.com/watch?v=I4Oj4WavKO8"
+   },
+   "source_url": "https://www.youtube.com/@JEOresearch"
+  },
+  {
+   "id": "jason-orlosky--head-tracked-subtitles",
+   "creator_ids": [
+    "jason-orlosky"
+   ],
+   "title": "Head-tracked Subtitles",
+   "year": 2024,
+   "description": "Everything people around you say appears as live subtitles in a video see-through headset, following your head so conversation stays readable in noise or for hard-of-hearing users.",
+   "description_zh": "周围人说的话都以实时字幕出现在视频透视头显里，并随头部移动，让人在嘈杂环境或听力不佳时也能看懂对话。",
+   "idea_en": "Caption the real world the way films are captioned.",
+   "idea_zh": "像给电影配字幕一样，给真实世界配字幕。",
+   "technique": "Transcribes speech locally with Vosk, tidies it with the Llama 3 language model, and renders the text in Unity on a modified video see-through HTC Vive Pro.",
+   "technique_zh": "用 Vosk 在本地做语音转写，用 Llama 3 语言模型整理文本，再在 Unity 中渲染到改装为视频透视的 HTC Vive Pro 上。",
+   "exercise_en": "Use a phone's live-caption or speech API in a web AR page to float captions under a detected face, then test it in a noisy hallway. Twist: colour each speaker differently and add live translation.",
+   "exercise_zh": "在网页 AR 页面中调用手机的实时字幕或语音识别接口，把字幕悬浮在识别到的人脸下方，然后到嘈杂的走廊测试；变体：用不同颜色区分说话人，并加上实时翻译。",
+   "interaction": [
+    "voice-sound",
+    "data-information",
+    "face"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "Vosk",
+    "Llama 3",
+    "HTC Vive Pro"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Oc91ouDpgio",
+    "url": "https://www.youtube.com/watch?v=Oc91ouDpgio"
+   },
+   "source_url": "https://www.youtube.com/@JEOresearch"
+  },
+  {
+   "id": "kiyoshi-kiyokawa--ukemochi",
+   "creator_ids": [
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "Ukemochi",
+   "year": 2022,
+   "description": "A person in a social VR world can eat real food: the headset cuts out just the plate, food and hands from the passthrough camera and pastes them seamlessly into the virtual scene.",
+   "description_zh": "在社交 VR 世界里的人也能吃真实的饭：头显只从透视摄像头画面中抠出餐盘、食物和手，无缝贴进虚拟场景。",
+   "idea_en": "Let only the food cross the boundary between the real and the virtual world.",
+   "idea_zh": "只让食物穿过现实与虚拟之间的边界。",
+   "technique": "Segments food, dishes and hands from the video see-through feed with a neural network and composites that region into the rendered VR environment in real time.",
+   "technique_zh": "用神经网络从视频透视画面中分割出食物、餐具和手，并实时把该区域合成到渲染出的 VR 环境里。",
+   "exercise_en": "Build a phone AR portal that shows a virtual scene everywhere except a colour-keyed placemat area where the real camera image shows through, then eat a snack through it. Twist: swap roles and show only people's hands from reality.",
+   "exercise_zh": "做一个手机 AR 场景：除了一块用颜色抠像的餐垫区域透出真实画面外，其他地方都显示虚拟场景，然后透过它吃一份零食；变体：反过来，只让现实中人的手透进来。",
+   "interaction": [
+    "portal-world",
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "video see-through",
+    "semantic segmentation",
+    "social VR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "dFAB1Uxz3zU",
+    "url": "https://www.youtube.com/watch?v=dFAB1Uxz3zU"
+   },
+   "source_url": "https://carelab.info/en/"
+  },
+  {
+   "id": "kiyoshi-kiyokawa--somen-to-ramen",
+   "creator_ids": [
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "Somen-to-Ramen Taste Modulation",
+   "year": 2018,
+   "description": "Diners eating plain somen noodles see them rendered as rich ramen in their headset, and many report that the taste itself shifts toward ramen.",
+   "description_zh": "吃清淡素面的人在头显里看到的是浓郁的拉面，不少人反映连味道都变得更像拉面。",
+   "idea_en": "Change what food looks like and you partly change what it tastes like.",
+   "idea_zh": "改变食物的样子，就能部分改变它的味道。",
+   "technique": "Overlays a 3D model of a different dish onto the tracked bowl in video see-through AR, exploiting cross-modal interaction between vision and taste.",
+   "technique_zh": "在视频透视 AR 中把另一道菜的三维模型叠加到被追踪的碗上，利用视觉与味觉之间的跨感官作用。",
+   "exercise_en": "Run a blind taste test: students taste plain crackers while looking through a phone AR filter that recolours them as chocolate or cheese, then rate flavour. Twist: add matching sound effects and see if crunch changes the rating.",
+   "exercise_zh": "做一次盲测：学生一边透过把饼干“染成”巧克力或奶酪的手机 AR 滤镜看，一边品尝原味饼干，再给味道打分；变体：加入相应的咀嚼音效，看脆感是否改变评分。",
+   "interaction": [
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "video see-through",
+    "cross-modal perception",
+    "3D overlay"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "z53xW_BIaZE",
+    "url": "https://www.youtube.com/watch?v=z53xW_BIaZE"
+   },
+   "source_url": "http://conference.vrsj.org/ac2018/program2018/pdf/21B-1.pdf"
+  },
+  {
+   "id": "kiyoshi-kiyokawa--third-person-avatar-ar",
+   "creator_ids": [
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "Third-Person Perspective Avatar Embodiment in AR",
+   "year": 2022,
+   "description": "Users see themselves from behind as a muscular avatar standing in the real room and moving with their body; after controlling it, their actual physical performance improves.",
+   "description_zh": "用户从身后以第三人称视角看到自己化身为一个肌肉发达的虚拟形象，站在真实房间里随身体一起动；操控它之后，他们真实的体能表现也有所提升。",
+   "idea_en": "Wearing a stronger body in AR can make you physically stronger (the Proteus effect).",
+   "idea_zh": "在 AR 中“穿上”更强壮的身体，真的会让你更有力气（普罗透斯效应）。",
+   "technique": "Tracks the user's body and drives a full-body avatar rendered from a third-person viewpoint in an AR headset.",
+   "technique_zh": "追踪用户身体，驱动一个在 AR 头显中以第三人称视角渲染的全身虚拟形象。",
+   "exercise_en": "Film a classmate from behind with a phone running a body-tracking AR effect that swaps them for a superhero, show them the live feed while they do squats, and count reps against a normal-mirror round. Twist: try a tired, elderly avatar instead.",
+   "exercise_zh": "用运行人体追踪 AR 特效的手机从背后拍同学，把他换成超级英雄形象，让他一边看实时画面一边做深蹲，与照普通镜子时的次数比较；变体：换成一个疲惫的老人形象再试一次。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "body tracking",
+    "avatar",
+    "AR HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "RBcTPqbDxhs",
+    "url": "https://www.youtube.com/watch?v=RBcTPqbDxhs"
+   },
+   "source_url": "https://carelab.info/en/"
+  },
+  {
+   "id": "kiyoshi-kiyokawa--visual-noise-reduction",
+   "creator_ids": [
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "Visual Noise Reduction HMD",
+   "year": 2019,
+   "description": "Like noise-cancelling headphones for the eyes: a video see-through headset greys out and blurs moving distractions around your work area so you can concentrate.",
+   "description_zh": "就像给眼睛用的降噪耳机：视频透视头显把工作区域周围移动的干扰变灰、变模糊，让你更专注。",
+   "idea_en": "Apply noise cancellation to vision instead of sound.",
+   "idea_zh": "把降噪用在视觉上，而不是声音上。",
+   "technique": "Keeps a user-specified work area untouched and applies grayscale and blur in real time to the surrounding video to lower its visual saliency.",
+   "technique_zh": "保留用户指定的工作区域不变，对周围视频实时做灰度化和模糊处理，降低其视觉显著性。",
+   "exercise_en": "Make a phone camera filter that keeps a central rectangle sharp and colourful while blurring and desaturating the rest, then read a page in a busy room with and without it. Twist: auto-detect motion and blur only moving regions.",
+   "exercise_zh": "做一个手机相机滤镜：中间的矩形保持清晰和彩色，其余部分模糊并去色，在热闹的房间里分别开关滤镜读一页书；变体：自动检测运动，只模糊移动的区域。",
+   "interaction": [
+    "perception-art",
+    "gaze-attention",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "video see-through",
+    "saliency reduction",
+    "image filtering"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "vIKYG9NIeIU",
+    "url": "https://www.youtube.com/watch?v=vIKYG9NIeIU"
+   },
+   "source_url": "https://carelab.info/en/"
+  },
+  {
+   "id": "kiyoshi-kiyokawa--modular-hmd",
+   "creator_ids": [
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "ModularHMD",
+   "year": 2021,
+   "description": "A VR headset with three removable side displays: pop a module off to see the real person next to you or your phone, snap it back for full immersion.",
+   "description_zh": "一款带三个可拆卸侧面显示模块的 VR 头显：拔掉一个模块就能看到身边的人或手机，插回去又恢复完全沉浸。",
+   "idea_en": "Make the headset's walls physically removable so reality can be let in piece by piece.",
+   "idea_zh": "让头显的“墙”可以物理拆卸，一块一块地放现实进来。",
+   "technique": "Mounts three removable display modules in the periphery of a commercial HMD cowl, reconfigured by hand to switch between immersion and peripheral real-world awareness.",
+   "technique_zh": "在商用头显外壳周边安装三个可拆卸显示模块，手动重组即可在沉浸和感知周围现实之间切换。",
+   "exercise_en": "Build a cardboard viewer with three flaps that fold open to reveal the real room, then play a phone VR game and note when you open each flap. Twist: let a partner open the flaps for you as a social signal.",
+   "exercise_zh": "做一个带三块可翻开挡板的纸盒眼镜，翻开挡板即可看到真实房间，玩一款手机 VR 游戏并记录何时打开哪块挡板；变体：让同伴替你打开挡板，把它当成一种社交信号。",
+   "interaction": [
+    "portal-world",
+    "tangible-object",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "modular HMD",
+    "peripheral display"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xMjJayBQeFs",
+    "url": "https://www.youtube.com/watch?v=xMjJayBQeFs"
+   },
+   "source_url": "https://carelab.info/en/"
+  },
+  {
+   "id": "kiyoshi-kiyokawa--ar-co2-visualization",
+   "creator_ids": [
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "AR CO2 Visualization System",
+   "year": 2023,
+   "description": "Carbon dioxide levels in a room are shown as a 3D colour field in an AR headset, combining fixed sensors with a mobile sensor carried around, so stale corners become visible.",
+   "description_zh": "房间里的二氧化碳浓度在 AR 头显中显示为三维彩色场，把固定传感器和随身携带的移动传感器数据结合起来，让空气不流通的角落一目了然。",
+   "idea_en": "See the air you share: invisible CO2 becomes a coloured cloud in the room.",
+   "idea_zh": "看见你们共享的空气：无形的二氧化碳变成屋里的一团彩色云。",
+   "technique": "Interpolates readings from fixed and mobile CO2 sensors into a 3D concentration volume registered to the room and renders it as coloured voxels in AR.",
+   "technique_zh": "把固定和移动 CO2 传感器的读数插值成与房间配准的三维浓度体，并在 AR 中渲染为彩色体素。",
+   "exercise_en": "Carry a phone around the classroom logging noise level or light level at marked spots, then place coloured AR spheres at those spots to reveal the field. Twist: repeat after opening the windows and compare.",
+   "exercise_zh": "拿着手机在教室里走动，在标记点记录噪声或光照强度，再在这些位置放上彩色 AR 球体，呈现出整个分布；变体：开窗后再测一次并对比。",
+   "interaction": [
+    "data-information",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "CO2 sensors",
+    "volumetric visualization",
+    "AR HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "zsOv6N_jAXU",
+    "url": "https://www.youtube.com/watch?v=zsOv6N_jAXU"
+   },
+   "source_url": "https://carelab.info/en/"
+  },
+  {
+   "id": "kiyoshi-kiyokawa--palm-through",
+   "creator_ids": [
+    "kiyoshi-kiyokawa"
+   ],
+   "title": "Palm-Through Interaction",
+   "year": 2023,
+   "description": "Wearing an AR headset, you hold up your palm so a distant lamp or fan appears through it, then tap your own palm like a phone screen to control that device.",
+   "description_zh": "戴着 AR 头显举起手掌，让远处的台灯或风扇“透过”掌心出现，再像点手机屏幕一样点自己的掌心来控制它。",
+   "idea_en": "Your palm becomes a remote touchscreen aimed at whatever you look at through it.",
+   "idea_zh": "手掌变成一块遥控触摸屏，对准的就是你透过它看到的东西。",
+   "technique": "Tracks the hand in the AR headset, casts a ray through the palm to select the IoT device behind it, and maps touches on the palm to that device's UI, giving natural haptic feedback.",
+   "technique_zh": "在 AR 头显中追踪手部，从掌心发出射线选中其后的物联网设备，并把在掌心的触碰映射为该设备的界面操作，从而获得自然的触觉反馈。",
+   "exercise_en": "Prototype with a phone: when the camera sees a printed marker on a lamp, show that lamp's controls; students then 'press' the buttons drawn on their own palm while a partner switches the lamp. Twist: use the back of the hand for a second device.",
+   "exercise_zh": "用手机做原型：相机识别到台灯上的打印标记时显示它的控制按钮，学生在自己掌心画出的按钮上“按下”，同伴负责开关台灯；变体：用手背控制第二个设备。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "hand tracking",
+    "IoT",
+    "AR HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "BSMTqQMACiY",
+    "url": "https://www.youtube.com/watch?v=BSMTqQMACiY"
+   },
+   "source_url": "https://ieeexplore.ieee.org/abstract/document/10108632/"
+  },
+  {
+   "id": "balasaravanan-thoravi-kumaravel--tutorivr",
+   "creator_ids": [
+    "balasaravanan-thoravi-kumaravel"
+   ],
+   "title": "TutoriVR",
+   "year": 2019,
+   "description": "While painting in Tilt Brush, a learner opens a tutorial video that lives inside VR, with the teacher's controllers and brush strokes replayed in 3D next to their own canvas.",
+   "description_zh": "学习者在 Tilt Brush 里作画时，可以在 VR 中打开教程视频，老师的手柄动作和笔触会以三维形式在自己的画布旁回放。",
+   "idea_en": "A tutorial should live in the same space as the work, not on a flat screen outside it.",
+   "idea_zh": "教程应该和作品待在同一个空间里，而不是在外面的平面屏幕上。",
+   "technique": "Pairs a recorded 360 video tutorial with logged controller poses and tool states, so steps can be replayed as spatial ghosts and navigated by timeline.",
+   "technique_zh": "把录制好的 360 度视频教程与记录的手柄位姿和工具状态结合，让每一步都能以空间“幽灵”形式重放，并可按时间轴跳转。",
+   "exercise_en": "Record a short origami or LEGO build with a phone, then place the video as a floating AR panel beside the real workspace and compare with watching on a laptop. Twist: add 3D arrows at the moments hands move out of frame.",
+   "exercise_zh": "用手机录一段折纸或拼乐高的过程，把视频作为悬浮 AR 面板放在真实工作台旁边，与在笔记本电脑上看教程作对比；变体：在手部移出画面的时刻加上三维箭头。",
+   "interaction": [
+    "drawing-creation",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR",
+    "Tilt Brush",
+    "360 video"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "10DofnNl3Qg",
+    "url": "https://www.youtube.com/watch?v=10DofnNl3Qg"
+   },
+   "source_url": "https://www.tkbala.com/tutorivr"
+  },
+  {
+   "id": "balasaravanan-thoravi-kumaravel--transceivr",
+   "creator_ids": [
+    "balasaravanan-thoravi-kumaravel"
+   ],
+   "title": "TransceiVR",
+   "year": 2020,
+   "description": "A person outside VR taps and draws on a tablet view of the virtual scene, and their annotations appear in the headset user's world, while they can also rewind or look around independently.",
+   "description_zh": "VR 外的人在平板上的虚拟场景视图里点击和绘制，标注就出现在头显用户的世界中；外部用户还能独立回放或环顾场景。",
+   "idea_en": "Give the people watching a headset user a real voice inside the virtual world.",
+   "idea_zh": "让旁观头显用户的人在虚拟世界里拥有真正的话语权。",
+   "technique": "Hooks into VR platform APIs to capture scene views and poses for third-party apps without source code, streaming them to a tablet and projecting tablet annotations back into VR.",
+   "technique_zh": "借助 VR 平台接口，在无需源代码的情况下为第三方应用捕获场景画面与位姿，传到平板上，再把平板上的标注投射回 VR。",
+   "exercise_en": "Pair a student wearing a phone VR viewer with a partner holding a second phone that mirrors the scene; the partner guides by drawing on their screen while the viewer finds objects. Twist: forbid speaking so all help must be drawn.",
+   "exercise_zh": "让一名戴手机 VR 眼镜的学生与拿着另一部镜像画面手机的同伴配对，同伴通过在屏幕上绘制来引导对方找东西；变体：禁止说话，所有帮助都只能画出来。",
+   "interaction": [
+    "multiplayer-social",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "VR",
+    "tablet",
+    "asymmetric collaboration"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "cwnGvUfYWws",
+    "url": "https://www.youtube.com/watch?v=cwnGvUfYWws"
+   },
+   "source_url": "https://www.tkbala.com"
+  },
+  {
+   "id": "balasaravanan-thoravi-kumaravel--dreamstream",
+   "creator_ids": [
+    "balasaravanan-thoravi-kumaravel"
+   ],
+   "title": "DreamStream",
+   "year": 2022,
+   "description": "Instead of watching a flat Twitch stream, spectators step into the streamer's VR world, look over their shoulder, wander off to explore and chat with the player in 3D.",
+   "description_zh": "观众不再看平面的 Twitch 直播，而是走进主播的 VR 世界，从主播肩后观看、独自走开探索，并在三维空间里和玩家交流。",
+   "idea_en": "Stream the whole world, not just the player's window into it.",
+   "idea_zh": "直播整个世界，而不只是玩家看世界的那扇窗。",
+   "technique": "Streams 3D scene state and player poses from existing VR apps to remote spectators who render the environment locally with free viewpoints.",
+   "technique_zh": "从现有 VR 应用中把三维场景状态和玩家位姿流式传给远程观众，观众在本地渲染环境，可自由选择视角。",
+   "exercise_en": "Run a tabletop AR game on one phone and let three spectator phones join the same shared AR anchor so they can walk around the table independently. Twist: give spectators one ability, like dropping a hint marker.",
+   "exercise_zh": "在一部手机上运行桌面 AR 游戏，让另外三部“观众”手机加入同一个共享 AR 锚点，自由绕着桌子观看；变体：给观众一个能力，比如放下一个提示标记。",
+   "interaction": [
+    "multiplayer-social",
+    "game-play"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR streaming",
+    "spectating",
+    "multi-user"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "TX-nTcRY7gE",
+    "url": "https://www.youtube.com/watch?v=TX-nTcRY7gE"
+   },
+   "source_url": "https://www.tkbala.com"
+  },
+  {
+   "id": "balasaravanan-thoravi-kumaravel--sharednerf",
+   "creator_ids": [
+    "balasaravanan-thoravi-kumaravel"
+   ],
+   "title": "SharedNeRF",
+   "year": 2024,
+   "description": "A remote collaborator inspects a physical prototype in photorealistic 3D from any angle, while a live point cloud shows the local person's hands and moving parts as they change.",
+   "description_zh": "远程协作者可以从任意角度以照片级三维效果查看实体原型，同时实时点云会显示本地人员的手和正在移动的部件。",
+   "idea_en": "Blend a slow but beautiful NeRF with a fast but rough point cloud to share a real workbench.",
+   "idea_zh": "把慢而精美的 NeRF 与快而粗糙的点云混合起来，共享一张真实的工作台。",
+   "technique": "Renders a Neural Radiance Field of the static workspace and overlays a real-time RGB-D point cloud for dynamic elements, with the remote viewpoint driven by a head-mounted camera.",
+   "technique_zh": "为静态工作区渲染神经辐射场（NeRF），并叠加实时 RGB-D 点云表现动态元素，远程视角由头戴相机驱动。",
+   "exercise_en": "Capture a desk with a phone 3D-scan app, share the model with a remote partner, then add a live phone video window for hands; have the partner guide an assembly. Twist: rescan only the part that changed.",
+   "exercise_zh": "用手机三维扫描 App 扫一张书桌，把模型分享给远程同伴，再加一个实时手机视频窗口拍手部，让同伴远程指导装配；变体：只重新扫描发生变化的部分。",
+   "interaction": [
+    "multiplayer-social",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset",
+    "desktop"
+   ],
+   "tech": [
+    "NeRF",
+    "point cloud",
+    "RGB-D"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "M6UB_7Cp9Lc",
+    "url": "https://www.youtube.com/watch?v=M6UB_7Cp9Lc"
+   },
+   "source_url": "https://www.tkbala.com"
+  },
+  {
+   "id": "balasaravanan-thoravi-kumaravel--spaceblender",
+   "creator_ids": [
+    "balasaravanan-thoravi-kumaravel"
+   ],
+   "title": "SpaceBlender",
+   "year": 2024,
+   "description": "Two remote people each snap a photo of their room, and generative AI stitches both into one coherent 3D space where their avatars meet for a VR brainstorming session.",
+   "description_zh": "两位远程参与者各拍一张自己房间的照片，生成式 AI 把两个房间缝合成一个连贯的三维空间，他们的虚拟化身在其中开 VR 头脑风暴会。",
+   "idea_en": "Merge everyone's real rooms into one imagined shared room.",
+   "idea_zh": "把每个人的真实房间融合成一个想象出来的共享房间。",
+   "technique": "Estimates depth from user photos, aligns the meshes, and completes the gaps with diffusion-based inpainting guided by geometric priors and adaptive prompts.",
+   "technique_zh": "从用户照片估计深度，对齐网格，再用基于几何先验和自适应提示词引导的扩散模型补全空缺。",
+   "exercise_en": "Have two groups photograph their corners of the school, then collage them in an image editor into one 'impossible room' and view it as a 360 image in a phone viewer. Twist: let an image generator fill the seams and discuss what it invented.",
+   "exercise_zh": "让两组学生分别拍下学校里的某个角落，在图像编辑器里拼成一个“不可能的房间”，再用手机以 360 度图片观看；变体：让图像生成模型填补接缝，讨论它“编造”了什么。",
+   "interaction": [
+    "multiplayer-social",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "generative AI",
+    "diffusion",
+    "depth estimation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "wQqJHcrOado",
+    "url": "https://www.youtube.com/watch?v=wQqJHcrOado"
+   },
+   "source_url": "https://www.tkbala.com"
+  },
+  {
+   "id": "balasaravanan-thoravi-kumaravel--blendscape",
+   "creator_ids": [
+    "balasaravanan-thoravi-kumaravel"
+   ],
+   "title": "BlendScape",
+   "year": 2024,
+   "description": "Video-call participants type or speak a theme and their separate backgrounds are blended by AI into one shared scene, like a single cafe or classroom that everyone appears to sit in.",
+   "description_zh": "视频通话的参与者输入或说出一个主题，AI 就把各自的背景融合成一个共享场景，比如大家仿佛坐在同一间咖啡馆或教室里。",
+   "idea_en": "Let meeting participants generate the shared place they meet in.",
+   "idea_zh": "让开会的人自己生成他们见面的地点。",
+   "technique": "Composites segmented participants into AI-generated environments that blend their physical or digital backgrounds, steered with multimodal prompts and direct manipulation.",
+   "technique_zh": "把分割出来的参与者合成进 AI 生成的环境，这些环境融合了他们的实体或数字背景，并可通过多模态提示和直接操作来调整。",
+   "exercise_en": "Run a class video call where each student picks a virtual background that continues a shared panorama, so together the tiles form one scene. Twist: change the scene in the middle of a story each student tells.",
+   "exercise_zh": "开一次班级视频通话，每个学生选择一张能接续共享全景图的虚拟背景，让所有画面拼成一个完整场景；变体：在每个学生讲故事的过程中切换场景。",
+   "interaction": [
+    "multiplayer-social",
+    "portal-world"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "generative AI",
+    "video conferencing",
+    "segmentation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "maqZbVyuGBA",
+    "url": "https://www.youtube.com/watch?v=maqZbVyuGBA"
+   },
+   "source_url": "https://www.tkbala.com"
+  },
+  {
+   "id": "peter-mohr--video-annotated-ar-tutorials",
+   "creator_ids": [
+    "peter-mohr",
+    "denis-kalkofen"
+   ],
+   "title": "Video-Annotated AR Assembly Tutorials",
+   "year": 2020,
+   "description": "A normal 2D how-to video of assembling a toy is analysed automatically and turned into a 3D AR tutorial on the real object, with the original video clips pinned to each step.",
+   "description_zh": "一段组装玩具的普通二维教学视频被自动分析，变成叠加在真实物体上的三维 AR 教程，每一步还附上原视频片段。",
+   "idea_en": "Convert any existing assembly video into step-by-step AR, keeping the video as backup.",
+   "idea_zh": "把任何现成的装配视频变成分步 AR 教程，同时保留视频作为参考。",
+   "technique": "Tracks parts in the input video using a CAD model and an assembly graph of blocking relationships, then renders the detected steps in AR with the matching video snippets attached.",
+   "technique_zh": "借助 CAD 模型和记录部件遮挡关系的装配图在输入视频中追踪部件，再把识别出的步骤在 AR 中渲染出来，并附上对应的视频片段。",
+   "exercise_en": "Pick a five-step LEGO model, film it, and build a phone AR guide that shows a 3D arrow and the matching video clip over each step on the real bricks. Twist: let the guide skip steps that the camera sees are already done.",
+   "exercise_zh": "选一个五步完成的乐高模型并拍下来，做一个手机 AR 指南，在真实积木上为每一步显示三维箭头和对应的视频片段；变体：当相机看到某步已完成时自动跳过。",
+   "interaction": [
+    "data-information",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone",
+    "headset"
+   ],
+   "tech": [
+    "CAD tracking",
+    "assembly graph",
+    "video analysis"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "m8uUDR8DERY",
+    "url": "https://www.youtube.com/watch?v=m8uUDR8DERY"
+   }
+  },
+  {
+   "id": "peter-mohr--trackcap",
+   "creator_ids": [
+    "peter-mohr",
+    "tobias-langlotz",
+    "denis-kalkofen"
+   ],
+   "title": "TrackCap",
+   "year": 2019,
+   "description": "A small cap with a marker on the headset lets an ordinary smartphone track itself relative to the head, turning the phone into a precise 6DoF controller and second screen for mobile headsets.",
+   "description_zh": "在头显上加一个带标记的小帽子，普通智能手机就能相对头部追踪自身位置，变成移动头显的高精度六自由度控制器和第二块屏幕。",
+   "idea_en": "Flip the tracking: the phone watches the headset, not the other way round.",
+   "idea_zh": "反转追踪关系：由手机看头显，而不是头显看手机。",
+   "technique": "The phone's camera tracks a marker cap mounted on the HMD, and the inverse pose gives the phone's 6DoF position in the headset's frame, even outside the headset's field of view.",
+   "technique_zh": "手机摄像头追踪装在头显上的标记帽，反算位姿即得到手机在头显坐标系中的六自由度位置，即使手机在头显视野外也能工作。",
+   "exercise_en": "Tape a printed marker to a cardboard viewer and use a second phone's image tracking to follow it, then use that phone as a pointer in a shared scene. Twist: turn the second phone's screen into a paint palette.",
+   "exercise_zh": "把打印好的标记贴在纸盒眼镜上，用第二部手机的图像追踪跟随它，再把这部手机当作共享场景里的指针；变体：把第二部手机的屏幕变成调色板。",
+   "interaction": [
+    "hand-body",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "marker tracking",
+    "smartphone controller",
+    "6DoF"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "2fspIrY3TXg",
+    "url": "https://www.youtube.com/watch?v=2fspIrY3TXg"
+   }
+  },
+  {
+   "id": "stefanie-zollmann--flyar",
+   "creator_ids": [
+    "stefanie-zollmann"
+   ],
+   "title": "FlyAR",
+   "year": 2014,
+   "description": "A drone operator plans and watches a flight path on a tablet held up to the sky: planned waypoints and the live drone position appear directly over the real landscape and buildings.",
+   "description_zh": "无人机操作员把平板举向天空规划和监控航线：计划的航点和无人机的实时位置直接叠加在真实的地形和建筑上。",
+   "idea_en": "Plan where a drone will fly by drawing in the actual sky, not on a 2D map.",
+   "idea_zh": "在真实的天空中画出无人机的航线，而不是在二维地图上。",
+   "technique": "Registers the planned flight path and live telemetry of a micro aerial vehicle to the environment using GPS/INS plus a 3D model, rendered with depth cues on a handheld AR device.",
+   "technique_zh": "借助 GPS/惯导和三维模型，把微型飞行器的计划航线和实时遥测配准到环境中，并在手持 AR 设备上以深度线索渲染。",
+   "exercise_en": "Use a phone AR app to place a chain of floating waypoints around the schoolyard, then have a classmate walk the path as the 'drone' while you check for collisions. Twist: add a no-fly zone that turns red when crossed.",
+   "exercise_zh": "用手机 AR 在校园里放一串悬浮航点，让同学扮演“无人机”沿路线行走，你来检查是否会撞上东西；变体：加一个禁飞区，被穿越时变红。",
+   "interaction": [
+    "location-geo",
+    "data-information",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "drone",
+    "GPS",
+    "tablet AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "C2Er9RUgh8E",
+    "url": "https://www.youtube.com/watch?v=C2Er9RUgh8E"
+   },
+   "source_url": "https://www.otago.ac.nz/computer-science/"
+  },
+  {
+   "id": "stefanie-zollmann--indirect-ar-gis-browser",
+   "creator_ids": [
+    "stefanie-zollmann"
+   ],
+   "title": "Indirect AR Browser for GIS Data",
+   "year": 2018,
+   "description": "Pointing a phone at a street shows a pre-captured street-level panorama aligned to the view, with buildings and landmarks labelled perfectly because the labels live on the stored image.",
+   "description_zh": "把手机对准街道，屏幕显示与视角对齐的预采集街景全景图，建筑和地标的标签贴合得非常准确，因为标签是贴在存储图像上的。",
+   "idea_en": "When live tracking is unreliable, augment a stored photo of the scene instead of the camera feed.",
+   "idea_zh": "实时追踪不可靠时，就去增强场景的存储照片，而不是摄像头画面。",
+   "technique": "Replaces the live camera with crowd-sourced street-level imagery oriented by the phone's sensors and overlays geospatial data registered to that imagery.",
+   "technique_zh": "用手机传感器定向的众包街景图像替代实时摄像头画面，再把与图像配准的地理数据叠加上去。",
+   "exercise_en": "Take a 360 photo of the school entrance, add labels on it in an editor, then show it on a phone that rotates with your gaze while standing at the same spot. Twist: switch between today's photo and an old photo of the same place.",
+   "exercise_zh": "在学校门口拍一张 360 度照片，在编辑器里加上标签，然后站在同一位置用会随视线转动的手机观看；变体：在今天的照片和同一地点的老照片之间切换。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "indirect AR",
+    "street-level imagery",
+    "GIS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "0WiskPTmUQg",
+    "url": "https://www.youtube.com/watch?v=0WiskPTmUQg"
+   },
+   "source_url": "https://www.otago.ac.nz/computer-science/"
+  },
+  {
+   "id": "stefanie-zollmann--is-that-me",
+   "creator_ids": [
+    "stefanie-zollmann"
+   ],
+   "title": "Is that me? AR Mirror",
+   "year": 2019,
+   "description": "People look into an AR mirror that shows a captured 3D version of their own body moving in real time, and researchers test whether they feel that reconstructed body is really theirs.",
+   "description_zh": "人们看向一面 AR 镜子，镜中显示的是自己身体实时捕捉的三维版本，研究者测试他们是否觉得这个重建的身体真的属于自己。",
+   "idea_en": "An AR mirror can test how far your reflection can change before it stops being you.",
+   "idea_zh": "AR 镜子可以测试：你的镜像改变到什么程度，就不再是“你”了。",
+   "technique": "Captures the user with depth cameras into a live 3D representation and renders it in an AR mirror setup to measure ownership, agency and self-location.",
+   "technique_zh": "用深度相机把用户实时捕捉成三维形象，在 AR 镜子装置中渲染，以测量身体所有感、能动感和自我定位感。",
+   "exercise_en": "Use a phone's front camera with a body-tracking effect as a mirror, gradually delaying or distorting the image, and ask classmates when it stops feeling like them. Twist: swap two students' bodies in the mirror.",
+   "exercise_zh": "把带人体追踪特效的手机前置摄像头当镜子，逐渐增加延迟或变形，问同学从什么时候开始觉得那不再是自己；变体：在镜子里交换两名学生的身体。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "depth camera",
+    "3D capture",
+    "AR mirror"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Y65DPFWu5y8",
+    "url": "https://www.youtube.com/watch?v=Y65DPFWu5y8"
+   },
+   "source_url": "https://www.otago.ac.nz/computer-science/"
+  },
+  {
+   "id": "stefanie-zollmann--ar-sports-prototypes",
+   "creator_ids": [
+    "stefanie-zollmann"
+   ],
+   "title": "ARSpectator: MR Prototypes for Augmented Sports",
+   "year": 2019,
+   "description": "Spectators in a rugby stadium hold up a phone and see player names, statistics and game information placed on the real pitch, prototyped first in the lab with a scale model.",
+   "description_zh": "橄榄球场的观众举起手机，就能看到球员姓名、统计数据和比赛信息摆放在真实的球场上；这些功能先在实验室里用缩比模型做了原型。",
+   "idea_en": "Bring broadcast-style graphics to the fans actually sitting in the stadium.",
+   "idea_zh": "把转播画面里的图形信息带给真正坐在体育场里的观众。",
+   "technique": "Localizes the phone against a prebuilt stadium model and overlays situated infographics, with lab prototypes simulating the field to test visualisations before live games.",
+   "technique_zh": "把手机定位到预先建好的体育场模型中并叠加情境化信息图，实验室原型会模拟球场，在正式比赛前测试可视化效果。",
+   "exercise_en": "Print a mini football pitch, track it with a phone AR image target, and overlay live 'stats' for toy players moved by classmates. Twist: show different stats to home and away fans.",
+   "exercise_zh": "打印一个迷你足球场，用手机 AR 图像追踪识别它，为同学移动的玩具球员叠加实时“数据”；变体：给主队和客队球迷显示不同的数据。",
+   "interaction": [
+    "data-information",
+    "location-geo",
+    "performance-stage"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR",
+    "localization",
+    "sports visualization"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "LOskhPgXV2c",
+    "url": "https://www.youtube.com/watch?v=LOskhPgXV2c"
+   },
+   "source_url": "https://www.otago.ac.nz/computer-science/"
+  },
+  {
+   "id": "stefanie-zollmann--xrspectator",
+   "creator_ids": [
+    "stefanie-zollmann"
+   ],
+   "title": "XRSpectator",
+   "year": 2021,
+   "description": "Fans who cannot attend a match put on a VR headset and sit inside a 360 recording of the stadium, with the same AR stats and replays floating over the field as if they were there.",
+   "description_zh": "无法到场的球迷戴上 VR 头显，坐进体育场的 360 度录像里，同样的 AR 数据和回放漂浮在球场上方，仿佛身临其境。",
+   "idea_en": "Recreate the in-stadium AR experience at home by augmenting a 360 video instead of reality.",
+   "idea_zh": "通过增强 360 度视频而不是现实，在家复现场内 AR 观赛体验。",
+   "technique": "Wraps a 360 video of the live stadium around the user and registers the ARSpectator overlays to it, turning on-site AR into indirect AR on a VR HMD.",
+   "technique_zh": "把现场体育场的 360 度视频包裹在用户周围，并将 ARSpectator 的叠加内容配准到视频上，把现场 AR 变成 VR 头显中的间接 AR。",
+   "exercise_en": "Film a school match with a 360 camera or phone panorama, then add floating labels to the panorama and watch it in a cardboard viewer. Twist: let viewers switch seats between two recording positions.",
+   "exercise_zh": "用 360 度相机或手机全景拍一场校内比赛，在全景画面中加入悬浮标签，然后用纸盒眼镜观看；变体：让观众在两个录制位置之间“换座位”。",
+   "interaction": [
+    "data-information",
+    "performance-stage",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "360 video",
+    "indirect AR",
+    "VR HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "TR27sWmCMwk",
+    "url": "https://www.youtube.com/watch?v=TR27sWmCMwk"
+   },
+   "source_url": "https://www.otago.ac.nz/computer-science/"
+  },
+  {
+   "id": "stefanie-zollmann--hybrid-xrspectator",
+   "creator_ids": [
+    "stefanie-zollmann"
+   ],
+   "title": "Hybrid XRSpectator",
+   "year": 2024,
+   "description": "At home, a fan watches a miniature stadium on the coffee table in AR, then dives into a surrounding 360 view of the real stadium with integrated stats and replays.",
+   "description_zh": "在家里，球迷先在茶几上用 AR 看一个微缩体育场，然后“潜入”环绕式的真实体育场 360 度画面，里面整合了数据和回放。",
+   "idea_en": "Zoom between a toy-sized stadium on your table and being inside the crowd.",
+   "idea_zh": "在桌上玩具大小的体育场和置身人群之间自由缩放。",
+   "technique": "Combines a tabletop AR stadium model with a transition into an indirect AR mode built on 360 video of the match.",
+   "technique_zh": "把桌面 AR 体育场模型与基于比赛 360 度视频的间接 AR 模式结合起来，并在两者之间过渡。",
+   "exercise_en": "Build a tabletop AR mini-arena from a paper model and add a button that switches to a 360 photo taken from inside the real venue. Twist: let a tap on a tiny player open that player's first-person view.",
+   "exercise_zh": "用纸模型做一个桌面 AR 小场馆，再加一个按钮切换到在真实场馆内拍的 360 度照片；变体：点击一个小球员就进入他的第一人称视角。",
+   "interaction": [
+    "data-information",
+    "performance-stage",
+    "portal-world"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "tabletop AR",
+    "360 video",
+    "indirect AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "N3THcfiXN_w",
+    "url": "https://www.youtube.com/watch?v=N3THcfiXN_w"
+   },
+   "source_url": "https://www.otago.ac.nz/computer-science/"
+  },
+  {
+   "id": "stefanie-zollmann--train-me",
+   "creator_ids": [
+    "stefanie-zollmann"
+   ],
+   "title": "Train Me",
+   "year": 2024,
+   "description": "A coach records a movement with a phone or egocentric camera, and the trainee later replays it as a life-size 3D figure in an AR headset to copy it on the spot.",
+   "description_zh": "教练用手机或第一人称相机录下一个动作，学员之后在 AR 头显中以真人大小的三维形象回放，就地模仿。",
+   "idea_en": "Record a coach once and replay them life-size wherever the athlete trains.",
+   "idea_zh": "教练只需录一次，就能在运动员训练的任何地方以真人大小回放。",
+   "technique": "Captures sports movements with mobile or egocentric cameras, reconstructs them in 3D and visualises the instruction in an AR head-mounted display.",
+   "technique_zh": "用移动或第一人称相机捕捉运动动作，进行三维重建，并在 AR 头显中可视化动作指导。",
+   "exercise_en": "Film a classmate's basketball free throw with a phone, place the video as a life-size AR billboard on the court, and have others mimic it side by side. Twist: slow the replay to half speed.",
+   "exercise_zh": "用手机拍下同学的罚球动作，把视频作为真人大小的 AR 画板放在球场上，让其他人并排模仿；变体：把回放放慢到一半速度。",
+   "interaction": [
+    "hand-body",
+    "data-information",
+    "performance-stage"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "motion capture",
+    "3D reconstruction",
+    "AR HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xWKT-_ijJj0",
+    "url": "https://www.youtube.com/watch?v=xWKT-_ijJj0"
+   },
+   "source_url": "https://www.otago.ac.nz/computer-science/"
+  },
+  {
+   "id": "stefanie-zollmann--arephotography",
+   "creator_ids": [
+    "stefanie-zollmann"
+   ],
+   "title": "ARephotography",
+   "year": 2023,
+   "description": "Standing in front of a campus building, a phone shows how it looked in a historical photograph, with the old facade rebuilt as a textured 3D model sitting exactly over today's walls.",
+   "description_zh": "站在校园建筑前，手机就会显示它在历史照片中的样子：旧立面被重建成带纹理的三维模型，精确地覆盖在今天的墙面上。",
+   "idea_en": "Turn an old photograph into a 3D time window placed on the same spot today.",
+   "idea_zh": "把一张老照片变成放在原地的三维时光之窗。",
+   "technique": "Uses a machine-learning pipeline to turn a single historical photo into a textured 3D model and registers it over the current building in mobile AR.",
+   "technique_zh": "用机器学习流程把一张历史照片转成带纹理的三维模型，并在手机 AR 中把它配准到现有建筑上。",
+   "exercise_en": "Find an old photo of your school, stand where it was taken, and overlay it semi-transparently on the live phone camera to align past and present. Twist: add a slider that wipes between the eras.",
+   "exercise_zh": "找一张学校的老照片，站到当年的拍摄位置，把它半透明地叠加到手机实时画面上，对齐过去和现在；变体：加一个滑块，在两个年代之间来回擦除切换。",
+   "interaction": [
+    "location-geo",
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "machine learning",
+    "3D reconstruction",
+    "rephotography"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nGZBKTKC1us",
+    "url": "https://www.youtube.com/watch?v=nGZBKTKC1us"
+   },
+   "source_url": "https://www.otago.ac.nz/computer-science/"
+  },
+  {
+   "id": "tobias-langlotz--sketching-up-the-world",
+   "creator_ids": [
+    "tobias-langlotz",
+    "stefanie-zollmann"
+   ],
+   "title": "Sketching up the World",
+   "year": 2011,
+   "description": "On an early smartphone, a user sketches and places 3D content directly onto buildings in an unprepared outdoor scene, leaving annotations that others can find later.",
+   "description_zh": "在早期智能手机上，用户直接在未经预处理的户外场景中给建筑绘制草图、放置三维内容，留下可供他人日后查看的注释。",
+   "idea_en": "Anyone should be able to author AR content on the spot, with just a phone.",
+   "idea_zh": "任何人都应该能拿着手机，当场创作 AR 内容。",
+   "technique": "Uses panoramic tracking with sensor fusion on the phone to register sketched and extruded content to the surroundings without a prior model.",
+   "technique_zh": "在手机上结合全景追踪与传感器融合，把绘制和挤出的内容配准到周围环境，无需预先建模。",
+   "exercise_en": "Walk around campus with a phone AR drawing app and leave three spatial doodles that explain something about each place, then swap phones and hunt for each other's notes. Twist: allow only arrows and one word.",
+   "exercise_zh": "拿着手机 AR 绘画 App 在校园里走，给三个地点各留下一幅解释该地的空间涂鸦，然后交换手机寻找彼此的留言；变体：只允许画箭头并写一个词。",
+   "interaction": [
+    "drawing-creation",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "panoramic tracking",
+    "mobile AR authoring"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "TjUwRIRzCus",
+    "url": "https://www.youtube.com/watch?v=TjUwRIRzCus"
+   },
+   "source_url": "https://www.youtube.com/channel/UCVdHJnnfRjldP0IbgidHXdA"
+  },
+  {
+   "id": "tobias-langlotz--panovc",
+   "creator_ids": [
+    "tobias-langlotz"
+   ],
+   "title": "PanoVC",
+   "year": 2016,
+   "description": "A video call where the caller's phone continuously builds a panorama of their surroundings, so the remote person can look around the other place freely instead of seeing a single camera frame.",
+   "description_zh": "在视频通话中，呼叫方的手机持续拼接周围环境的全景，远程用户可以自由环顾对方所在的地方，而不是只看到单个摄像头画面。",
+   "idea_en": "Share your whole surroundings on a call, not just where your camera points.",
+   "idea_zh": "通话时分享你的整个周遭环境，而不只是摄像头对着的地方。",
+   "technique": "Incrementally stitches and streams a panoramic map from the sender's phone camera while live frames update the part currently in view.",
+   "technique_zh": "从发送方的手机摄像头逐步拼接并传输全景图，同时用实时帧更新当前视野中的那部分。",
+   "exercise_en": "Take a phone panorama of the classroom, send it to a partner in another room, and keep sending live photos of the spot they ask to see; let them guide you to find an object. Twist: mark where the remote person is looking with a sticky note.",
+   "exercise_zh": "用手机拍一张教室全景发给另一个房间的同伴，再根据对方的要求不断发送所指位置的实时照片，让对方引导你找到一件物品；变体：用便利贴标出远程者正在看的位置。",
+   "interaction": [
+    "multiplayer-social",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "panorama stitching",
+    "mobile telepresence"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "s-Z17uOdfJc",
+    "url": "https://www.youtube.com/watch?v=s-Z17uOdfJc"
+   },
+   "source_url": "https://www.youtube.com/channel/UCVdHJnnfRjldP0IbgidHXdA"
+  },
+  {
+   "id": "tobias-langlotz--chromaglasses",
+   "creator_ids": [
+    "tobias-langlotz",
+    "stefanie-zollmann"
+   ],
+   "title": "ChromaGlasses",
+   "year": 2018,
+   "description": "Glasses with an optical see-through display analyse the scene and shift the colours of the world, pixel by pixel, so people with colour vision deficiency can tell apart colours they normally confuse.",
+   "description_zh": "配有光学透视显示的眼镜分析场景，逐像素地调整现实世界的颜色，让色觉障碍者能分辨平时容易混淆的颜色。",
+   "idea_en": "Glasses that correct not focus but colour, by editing reality in real time.",
+   "idea_zh": "这副眼镜矫正的不是焦距而是颜色，方法是实时编辑现实。",
+   "technique": "Captures the scene with a camera aligned to the eye, computes a compensation for the user's colour deficiency, and overlays it with pixel precision on an optical see-through HMD.",
+   "technique_zh": "用与眼睛对齐的摄像头拍摄场景，针对用户的色觉缺陷计算补偿，再在光学透视头显上以像素精度叠加。",
+   "exercise_en": "Make a phone camera filter that pushes reds toward orange and greens toward blue, then test it on colour-blindness plates viewed through a colour-blindness simulator. Twist: design a filter that helps people spot ripe fruit.",
+   "exercise_zh": "做一个手机相机滤镜，把红色推向橙色、绿色推向蓝色，再透过色盲模拟器观看色盲测试图来验证效果；变体：设计一个帮助人辨认熟透水果的滤镜。",
+   "interaction": [
+    "perception-art",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "optical see-through HMD",
+    "colour compensation",
+    "computational glasses"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "kBe-pfc7PrY",
+    "url": "https://www.youtube.com/watch?v=kBe-pfc7PrY"
+   },
+   "source_url": "https://www.youtube.com/channel/UCVdHJnnfRjldP0IbgidHXdA"
+  },
+  {
+   "id": "tobias-langlotz--neural-cameras",
+   "creator_ids": [
+    "tobias-langlotz",
+    "stefanie-zollmann"
+   ],
+   "title": "Neural Cameras",
+   "year": 2021,
+   "description": "Virtual objects inserted into a phone video pick up the same noise, blur, colour and lens quirks as the real camera, so they stop looking pasted on.",
+   "description_zh": "插入手机视频的虚拟物体会带上与真实相机相同的噪点、模糊、色彩和镜头特征，不再显得像贴上去的。",
+   "idea_en": "Make virtual objects look filmed by the same imperfect camera as everything else.",
+   "idea_zh": "让虚拟物体看起来是被同一台不完美的相机拍下来的。",
+   "technique": "Trains neural networks on image databases from a physical camera to jointly simulate its imaging pipeline and applies them to rendered objects before compositing.",
+   "technique_zh": "用某台实体相机拍摄的图像数据库训练神经网络，联合模拟其成像流程，并在合成前作用于渲染出的物体。",
+   "exercise_en": "Place a 3D model into a phone AR scene, then add grain, slight blur and a colour tint until classmates can no longer tell which object is real. Twist: match a vintage camera look instead.",
+   "exercise_zh": "在手机 AR 场景中放入一个三维模型，然后加上颗粒、轻微模糊和色调，直到同学分辨不出哪个物体是真的；变体：改为模仿复古相机的风格。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "neural networks",
+    "camera simulation",
+    "coherent rendering"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "cGc8vBVbIvI",
+    "url": "https://www.youtube.com/watch?v=cGc8vBVbIvI"
+   },
+   "source_url": "https://www.youtube.com/channel/UCVdHJnnfRjldP0IbgidHXdA"
+  },
+  {
+   "id": "tobias-langlotz--saliency-modulation",
+   "creator_ids": [
+    "tobias-langlotz",
+    "stefanie-zollmann",
+    "yuta-itoh"
+   ],
+   "title": "Look over there! Saliency Modulation",
+   "year": 2022,
+   "description": "Instead of arrows or outlines, AR glasses subtly boost the target object and dampen its surroundings, so your eyes drift to the right place without any visible marker.",
+   "description_zh": "AR 眼镜不用箭头或轮廓线，而是悄悄增强目标物体、弱化其周围，让你的视线在没有任何可见标记的情况下自然移向正确的位置。",
+   "idea_en": "Guide attention by editing how noticeable reality is, not by adding more graphics.",
+   "idea_zh": "通过编辑现实的“显眼程度”来引导注意力，而不是再加更多图形。",
+   "technique": "Computes a saliency map of the scene and applies local contrast and colour changes through the display to raise the target's saliency relative to distractors.",
+   "technique_zh": "计算场景的显著性图，并通过显示器施加局部对比度和色彩变化，提高目标相对于干扰物的显著性。",
+   "exercise_en": "Build a phone camera filter that slightly desaturates everything except one tracked object, then ask classmates to name the first thing they notice. Twist: make the effect so subtle that people cannot say why they looked there.",
+   "exercise_zh": "做一个手机相机滤镜，除一个被追踪的物体外，其余一切都轻微去色，然后问同学最先注意到的是什么；变体：让效果细微到大家说不出自己为什么会看那里。",
+   "interaction": [
+    "gaze-attention",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "saliency modulation",
+    "optical see-through",
+    "visual guidance"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "oBp1wZAA8io",
+    "url": "https://www.youtube.com/watch?v=oBp1wZAA8io"
+   },
+   "source_url": "https://www.youtube.com/channel/UCITNajcLvkzk0nGx-DLMmFg"
+  },
+  {
+   "id": "carmine-elvezio--virtual-replicas",
+   "creator_ids": [
+    "carmine-elvezio",
+    "columbia-feiner"
+   ],
+   "title": "Virtual Replicas for Remote Assistance",
+   "year": 2015,
+   "description": "A remote expert grabs a virtual copy of a part in the local worker's room and shows exactly where and how it should go; the local worker sees the ghost replica move into place through their AR headset.",
+   "description_zh": "远程专家抓起本地工人房间里某个部件的虚拟复制品，演示它应该放在哪里、怎样放；本地工人通过 AR 头显看到这个“幽灵”复制品移动到位。",
+   "idea_en": "Point and demonstrate with a copy of the real object instead of with words or arrows.",
+   "idea_zh": "用真实物体的复制品来指示和示范，而不是靠语言或箭头。",
+   "technique": "Tracks the physical objects and gives the remote VR or AR expert manipulable 3D replicas whose poses are mirrored as guidance in the local user's stereo head-worn display.",
+   "technique_zh": "追踪实体物体，为身处 VR 或 AR 的远程专家提供可操作的三维复制品，其位姿会作为指导同步显示在本地用户的立体头戴显示器中。",
+   "exercise_en": "Put a printed marker on a toy part; a remote partner moves a virtual copy of it in a shared phone AR scene to show where it goes, and the local student assembles it. Twist: allow the expert only one gesture and no voice.",
+   "exercise_zh": "在玩具零件上贴一个打印标记，远程同伴在共享的手机 AR 场景中移动它的虚拟复制品来示范位置，本地学生照着组装；变体：专家只能用一个手势，不能说话。",
+   "interaction": [
+    "multiplayer-social",
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "remote assistance",
+    "stereo HMD",
+    "object tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "eMWdgB6upeU",
+    "url": "https://www.youtube.com/watch?v=eMWdgB6upeU"
+   }
+  },
+  {
+   "id": "carmine-elvezio--hybrid-music-uis",
+   "creator_ids": [
+    "carmine-elvezio",
+    "columbia-feiner"
+   ],
+   "title": "Hybrid UIs for Music Exploration in AR and VR",
+   "year": 2018,
+   "description": "People browse an online music library together: some wear AR or VR headsets and grab genres and albums floating in 3D, others flick through the same collection on touch screens.",
+   "description_zh": "大家一起浏览在线音乐库：有人戴着 AR 或 VR 头显抓取悬浮在三维空间里的流派和专辑，有人在触摸屏上翻看同一个曲库。",
+   "idea_en": "Let 2D touch screens and 3D headsets share one music collection in the same room.",
+   "idea_zh": "让二维触摸屏和三维头显在同一房间里共享同一个音乐库。",
+   "technique": "Synchronises a 3D music-library visualisation across head-worn displays and multi-touch tablets, combining 3D hand tracking with 2D touch input.",
+   "technique_zh": "在头戴显示器和多点触控平板之间同步三维音乐库可视化，结合三维手部追踪和二维触控输入。",
+   "exercise_en": "Lay out album covers as AR cards floating around the classroom and let students on laptops add songs to a shared playlist that phone users see appear in space. Twist: place songs by tempo from floor to ceiling.",
+   "exercise_zh": "把专辑封面做成漂浮在教室各处的 AR 卡片，让用笔记本电脑的学生往共享歌单里加歌，手机用户会看到新歌出现在空间中；变体：按节奏快慢把歌曲从地面排到天花板。",
+   "interaction": [
+    "voice-sound",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "hand tracking",
+    "multi-touch",
+    "hybrid UI"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "-rtaJAc_0Ys",
+    "url": "https://www.youtube.com/watch?v=-rtaJAc_0Ys"
+   },
+   "source_url": "https://ieeexplore.ieee.org/abstract/document/8699278"
+  },
+  {
+   "id": "carmine-elvezio--urban-data-collab",
+   "creator_ids": [
+    "carmine-elvezio",
+    "columbia-feiner"
+   ],
+   "title": "Collaborative Exploration of Urban Data in VR and AR",
+   "year": 2018,
+   "description": "Several users gather around an immersive scale model of a city block and explore live datasets such as traffic or building information together, some in VR and some in AR.",
+   "description_zh": "几名用户围着一个沉浸式的城市街区缩比模型，一起探索交通、建筑信息等实时数据，有人在 VR 中，有人在 AR 中。",
+   "idea_en": "Turn city data into a shared tabletop model people can walk around and point at.",
+   "idea_zh": "把城市数据变成可以绕着走、可以指指点点的共享桌面模型。",
+   "technique": "Renders a scale model of the urban environment in shared VR and AR sessions and binds live datasets to its buildings and streets.",
+   "technique_zh": "在共享的 VR 与 AR 会话中渲染城市环境缩比模型，并把实时数据绑定到建筑和街道上。",
+   "exercise_en": "Print a map of your neighbourhood, track it with phone AR and raise bars over each block for data the class collects, like number of trees. Twist: let two phones see the same bars and argue for one change to the street.",
+   "exercise_zh": "打印一张社区地图，用手机 AR 追踪，在每个街区上方升起柱状图表示全班收集的数据，比如树的数量；变体：让两部手机看到同样的柱状图，讨论出一项街道改造建议。",
+   "interaction": [
+    "data-information",
+    "multiplayer-social",
+    "location-geo"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "VR",
+    "urban visualization"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "fgm_plH4qxc",
+    "url": "https://www.youtube.com/watch?v=fgm_plH4qxc"
+   },
+   "source_url": "https://www.youtube.com/channel/UCDFRIEaANNR3b8NDipTigaQ"
+  },
+  {
+   "id": "carmine-elvezio--hands-free-anatomic-models",
+   "creator_ids": [
+    "carmine-elvezio",
+    "columbia-feiner"
+   ],
+   "title": "Manipulating 3D Anatomic Models in AR",
+   "year": 2019,
+   "description": "A clinician whose hands are busy rotates and scales a 3D anatomy model in an AR headset using only head movement, compared with the usual hand-gesture approach.",
+   "description_zh": "双手正忙的临床医生仅靠头部动作，就能在 AR 头显中旋转和缩放三维解剖模型，研究将其与常规手势操作进行了比较。",
+   "idea_en": "When your hands are busy, let your head drive the 3D model.",
+   "idea_zh": "双手没空的时候，就让头来操控三维模型。",
+   "technique": "Maps head orientation and small head motions to rotation and scaling of a HoloLens hologram, with a hands-free mode switch.",
+   "technique_zh": "把头部朝向和细微的头部动作映射为 HoloLens 全息影像的旋转和缩放，并提供免手操作的模式切换。",
+   "exercise_en": "Build a phone AR viewer where tilting the phone or your head rotates a 3D skull while you hold a pen in each hand, then time a labelling task. Twist: use voice to switch between rotate and zoom.",
+   "exercise_zh": "做一个手机 AR 查看器，双手各拿一支笔时，通过倾斜手机或头部来旋转一个三维头骨，并记录完成标注任务的时间；变体：用语音在旋转和缩放之间切换。",
+   "interaction": [
+    "gaze-attention",
+    "data-information",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "head gestures",
+    "medical visualization"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "eK42UEbMQvw",
+    "url": "https://www.youtube.com/watch?v=eK42UEbMQvw"
+   },
+   "source_url": "https://ieeexplore.ieee.org/abstract/document/8943734"
+  },
+  {
+   "id": "carmine-elvezio--rtk-gnss-slam-ar",
+   "creator_ids": [
+    "carmine-elvezio",
+    "columbia-feiner"
+   ],
+   "title": "Hybrid RTK GNSS and SLAM Outdoor AR",
+   "year": 2019,
+   "description": "A wearable AR user walks a wide outdoor area and sees markers for assets given only by latitude and longitude, placed accurately over the real terrain.",
+   "description_zh": "佩戴 AR 设备的用户在大片户外区域行走，能看到仅以经纬度给出的目标标记精准地出现在真实地形上。",
+   "idea_en": "Stitch small SLAM maps together with centimetre GPS to make city-scale AR.",
+   "idea_zh": "用厘米级 GPS 把一个个小 SLAM 地图缝合起来，实现城市尺度的 AR。",
+   "technique": "Uses RTK GNSS positions to georegister and chain multiple local SLAM maps from the headset's tracker into one wide-area coordinate frame.",
+   "technique_zh": "利用 RTK GNSS 定位对头显追踪器生成的多个局部 SLAM 地图进行地理配准，并把它们串联成一个大范围坐标系。",
+   "exercise_en": "Collect GPS coordinates of five spots around school with a phone, then place location-based AR markers at them and walk the route checking how far off each one appears. Twist: add a hidden treasure only visible within two metres.",
+   "exercise_zh": "用手机采集学校周围五个地点的 GPS 坐标，在这些位置放置基于位置的 AR 标记，沿路线走并检查每个标记偏差多少；变体：加一个只有走到两米内才看得见的隐藏宝物。",
+   "interaction": [
+    "location-geo",
+    "spatial-mapping",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "RTK GNSS",
+    "SLAM",
+    "HoloLens"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hDvQJrtHfmo",
+    "url": "https://www.youtube.com/watch?v=hDvQJrtHfmo"
+   },
+   "source_url": "https://ieeexplore.ieee.org/abstract/document/8798315"
+  },
+  {
+   "id": "carmine-elvezio--mixr",
+   "creator_ids": [
+    "carmine-elvezio",
+    "columbia-feiner"
+   ],
+   "title": "MiXR: Hybrid AR Sheet Music",
+   "year": 2020,
+   "description": "A performer sees virtual sheet music floating on the music stand through an AR headset, turns pages and annotates bars from a phone and tablet without taking hands off the instrument for long.",
+   "description_zh": "演奏者通过 AR 头显看到悬浮在谱架上的虚拟乐谱，可以用手机和平板翻页、在小节上做批注，而不必长时间离开乐器。",
+   "idea_en": "Sheet music that floats where you need it and can be marked up by anyone in the ensemble.",
+   "idea_zh": "乐谱漂浮在需要的地方，乐团里的任何人都能在上面做标记。",
+   "technique": "Combines an AR headset, a smartphone and a tablet in one networked system to place, page and annotate virtual scores in the physical environment.",
+   "technique_zh": "把 AR 头显、智能手机和平板组成一个联网系统，在实体环境中放置、翻页和批注虚拟乐谱。",
+   "exercise_en": "Place a song's lyrics or chords as an AR panel beside a real instrument and let a second phone act as a page-turn pedal. Twist: let the 'conductor' phone highlight the bar everyone should be on.",
+   "exercise_zh": "把一首歌的歌词或和弦做成 AR 面板放在真实乐器旁，再用第二部手机当翻页踏板；变体：让“指挥”的手机高亮大家当前应该演奏的小节。",
+   "interaction": [
+    "performance-stage",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "AR headset",
+    "cross-device",
+    "annotation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "tGW9pbQU8cY",
+    "url": "https://www.youtube.com/watch?v=tGW9pbQU8cY"
+   },
+   "source_url": "https://www.youtube.com/channel/UCDFRIEaANNR3b8NDipTigaQ"
+  },
+  {
+   "id": "preloaded--micro-kingdoms-senses",
+   "creator_ids": [
+    "preloaded"
+   ],
+   "title": "BBC Earth - Micro Kingdoms: Senses",
+   "year": 2020,
+   "description": "A leafcutter ant colony and a wandering spider appear on your floor at giant scale; narrated by Stephen Fry, you switch into their senses to perceive vibrations and smells as they do.",
+   "description_zh": "巨大的切叶蚁群落和游走蛛出现在你家地板上；在 Stephen Fry 的旁白中，你切换到它们的感官，像它们一样感知震动和气味。",
+   "idea_en": "Put tiny creatures in your room at your size, then let you borrow their senses.",
+   "idea_zh": "把微小的生物放大到与你同等尺寸放进房间，再让你借用它们的感官。",
+   "technique": "Places high-detail animated creatures on the mapped room surfaces of Magic Leap 1 and switches rendering modes to visualise non-human senses.",
+   "technique_zh": "在 Magic Leap 1 扫描出的房间表面上放置高精度的动画生物，并切换渲染模式来可视化非人类的感官。",
+   "exercise_en": "Make a phone AR scene where a scaled-up insect walks on the table, then add a 'sense mode' button that turns vibrations from a tapped table into visible ripples. Twist: design a mode for a bat's echolocation using the microphone.",
+   "exercise_zh": "做一个手机 AR 场景，让一只放大的昆虫在桌上行走，再加一个“感官模式”按钮，把敲桌子产生的震动显示成可见的涟漪；变体：用麦克风为蝙蝠的回声定位设计一种模式。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Magic Leap",
+    "Unity",
+    "spatial mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "8HHL9S_vhZM",
+    "url": "https://www.youtube.com/watch?v=8HHL9S_vhZM"
+   },
+   "source_url": "http://microkingdoms.com"
+  },
+  {
+   "id": "sean-follmer--zooids",
+   "creator_ids": [
+    "sean-follmer"
+   ],
+   "title": "Zooids",
+   "year": 2016,
+   "description": "Dozens of small tabletop robots act like physical pixels, arranging themselves into charts, shapes and handles that users can push, drag and grab.",
+   "description_zh": "几十个桌面小机器人像实体像素一样，排列成图表、形状和把手，用户可以推、拖、抓。",
+   "idea_en": "A display made of many tiny robots that you can touch, rearrange and hold.",
+   "idea_zh": "由许多小机器人组成、可以触摸、重新排列和握住的显示器。",
+   "technique": "Tracks each robot with a projector-based optical system and drives them with collision-free motion planning so the swarm forms target layouts and responds to touch.",
+   "technique_zh": "用基于投影仪的光学系统追踪每个机器人，并通过无碰撞运动规划驱动它们，使群体排出目标布局并对触摸作出反应。",
+   "exercise_en": "Have ten students act as 'pixels' on a gridded floor and follow phone instructions to form a bar chart of class data, then let a volunteer push one to change the data. Twist: use projection to show each pixel's target spot.",
+   "exercise_zh": "让十名学生在画好格子的地板上充当“像素”，按手机上的指令排成反映班级数据的柱状图，再让一位志愿者推动其中一个来改变数据；变体：用投影显示每个“像素”的目标位置。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "swarm robots",
+    "optical tracking",
+    "swarm UI"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ahHjSY_GLDg",
+    "url": "https://www.youtube.com/watch?v=ahHjSY_GLDg"
+   },
+   "source_url": "https://shape.stanford.edu"
+  },
+  {
+   "id": "sean-follmer--shapeshift",
+   "creator_ids": [
+    "sean-follmer"
+   ],
+   "title": "shapeShift",
+   "year": 2017,
+   "description": "A compact pin-based shape display rides on a small robot across the table, rendering moving shapes you can feel and, paired with a headset, standing in physically for virtual objects.",
+   "description_zh": "一个紧凑的针阵形状显示器装在小机器人上在桌面移动，渲染出可以触摸的动态形状；配合头显使用时，它能充当虚拟物体的实体替身。",
+   "idea_en": "Put a shape display on wheels so physical pixels can follow virtual objects around.",
+   "idea_zh": "给形状显示器装上轮子，让实体像素跟着虚拟物体走。",
+   "technique": "Moves a 7 mm pitch actuated pin array on an omnidirectional robot base and synchronises its position and height map with tracked virtual content in a head-mounted display.",
+   "technique_zh": "把 7 毫米间距的驱动针阵装在全向机器人底座上，并将其位置和高度图与头显中被追踪的虚拟内容同步。",
+   "exercise_en": "Stick a printed marker on a toy car or robot and anchor a virtual object to it in phone AR, so touching the real toy lets you 'touch' the virtual one. Twist: swap the virtual object while keeping the same physical proxy and discuss which feels right.",
+   "exercise_zh": "在玩具车或机器人上贴一个打印标记，在手机 AR 中把一个虚拟物体锚定在上面，这样触摸真实玩具就像“摸到”了虚拟物体；变体：保持同一个实体替身，更换虚拟物体，讨论哪种感觉最对。",
+   "interaction": [
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "desktop",
+    "headset"
+   ],
+   "tech": [
+    "shape display",
+    "robot",
+    "haptics"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Z6LSsJoDdtY",
+    "url": "https://www.youtube.com/watch?v=Z6LSsJoDdtY"
+   },
+   "source_url": "http://shape.stanford.edu/research/shapeShift/"
+  },
+  {
+   "id": "sean-follmer--audio-personas",
+   "creator_ids": [
+    "sean-follmer"
+   ],
+   "title": "Audio Personas",
+   "year": 2025,
+   "description": "Each person in a room carries a personal sound, a short audio cue anchored to their body, so as you walk around you hear who is nearby and what they are like before you even look.",
+   "description_zh": "房间里的每个人都带着一段专属声音，这段简短的音频线索锚定在他们身上；你四处走动时，还没抬头就能听出谁在附近、对方是什么样的人。",
+   "idea_en": "Give people an audible aura that others hear in space, a sound-based profile picture.",
+   "idea_zh": "给每个人一个能在空间中被听见的“声音光环”，就像用声音做的头像。",
+   "technique": "Tracks people's positions and renders body-anchored spatial audio cues to each listener through headphones, studied for how they shape social perception.",
+   "technique_zh": "追踪人们的位置，通过耳机向每位听者渲染锚定在他人身上的空间音频线索，并研究其如何影响社交感知。",
+   "exercise_en": "Give each student a phone playing a chosen looped sound in a pocket and walk around blindfolded partners who guess who is approaching. Twist: let the sound change with the person's mood or walking speed.",
+   "exercise_zh": "让每个学生在口袋里放一部循环播放自选声音的手机，在蒙眼的同伴周围走动，让他们猜是谁在靠近；变体：让声音随这个人的情绪或步速变化。",
+   "interaction": [
+    "voice-sound",
+    "multiplayer-social",
+    "hand-body"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "spatial audio",
+    "body tracking",
+    "headphones"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "l8lis-JPIzA",
+    "url": "https://www.youtube.com/watch?v=l8lis-JPIzA"
+   },
+   "source_url": "https://dl.acm.org/doi/abs/10.1145/3762814"
+  },
+  {
+   "id": "sean-follmer--audio-augmentation-mindfulness",
+   "creator_ids": [
+    "sean-follmer"
+   ],
+   "title": "Audio Augmentation of Manual Interactions for Mindfulness",
+   "year": 2025,
+   "description": "Ordinary actions like pouring water or folding cloth are paired with gentle, responsive sounds, turning chores into a mindful audio experience.",
+   "description_zh": "倒水、叠衣服这样的日常动作被配上轻柔、随动作变化的声音，让家务变成一种正念的听觉体验。",
+   "idea_en": "Add sound to everyday hand actions so people slow down and notice them.",
+   "idea_zh": "给日常的手部动作配上声音，让人放慢脚步、留意当下。",
+   "technique": "Senses hand and object manipulation and maps motion features to real-time generated audio feedback delivered to the user.",
+   "technique_zh": "感知手部与物体的操作，把动作特征实时映射为生成的音频反馈传给用户。",
+   "exercise_en": "Use a phone's accelerometer in a web page to play a soft tone whose pitch follows how slowly you pour a glass of water, then try the chore with and without it. Twist: map a different sound to washing hands.",
+   "exercise_zh": "在网页里调用手机加速度计，倒水时播放一段柔和的音调，音高随倒水的快慢变化，然后比较有无声音时做这件事的感受；变体：为洗手配上另一种声音。",
+   "interaction": [
+    "voice-sound",
+    "hand-body",
+    "tangible-object"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "motion sensing",
+    "sonification",
+    "audio AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "4UD07rFtuTw",
+    "url": "https://www.youtube.com/watch?v=4UD07rFtuTw"
+   },
+   "source_url": "https://dl.acm.org/doi/10.1145/3770706"
+  },
+  {
+   "id": "hirokazu-kato--ar-popup-book",
+   "creator_ids": [
+    "hirokazu-kato"
+   ],
+   "title": "AR Pop-up Book",
+   "year": 2011,
+   "description": "Opening an ordinary picture book in front of a camera makes 3D characters and scenes pop out of its pages, tracked from the printed illustrations themselves rather than black markers.",
+   "description_zh": "在摄像头前打开一本普通图画书，三维角色和场景就从书页里“弹”出来；追踪依据的是印刷插图本身，而不是黑色标记。",
+   "idea_en": "Any printed page can become a pop-up book when the picture itself is the tracker.",
+   "idea_zh": "只要图片本身就是追踪目标，任何印刷页面都能变成立体书。",
+   "technique": "Uses natural-feature texture tracking on the page images to estimate camera pose and render 3D content registered to each page.",
+   "technique_zh": "对页面图像做自然特征纹理追踪来估计相机位姿，并渲染与每一页配准的三维内容。",
+   "exercise_en": "Pick a children's book page, set it as an image target in a phone AR tool, and make one character jump out when the page is opened. Twist: make characters from two pages talk to each other when both are visible.",
+   "exercise_zh": "选一页儿童读物，把它设为手机 AR 工具中的图像目标，让一个角色在翻开这页时跳出来；变体：当两页同时可见时，让两页的角色互相对话。",
+   "interaction": [
+    "tangible-object",
+    "game-play"
+   ],
+   "platform": [
+    "desktop",
+    "phone"
+   ],
+   "tech": [
+    "texture tracking",
+    "natural feature tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "D2PF-r_XOX0",
+    "url": "https://www.youtube.com/watch?v=D2PF-r_XOX0"
+   },
+   "source_url": "http://imd.naist.jp/index_e.html"
+  },
+  {
+   "id": "hirokazu-kato--projection-wearable-surface",
+   "creator_ids": [
+    "hirokazu-kato"
+   ],
+   "title": "Interactive Surface with Projection-based Wearable System",
+   "year": 2011,
+   "description": "A wearable projector and camera turn nearby surfaces into touch interfaces: menus are projected onto a wall or table and the user taps them with a finger.",
+   "description_zh": "可穿戴的投影仪和摄像头把附近的表面变成触控界面：菜单被投射到墙面或桌面上，用户用手指点击即可操作。",
+   "idea_en": "Carry your interface with you and project it onto whatever surface is nearby.",
+   "idea_zh": "把界面随身带着，投射到身边任何表面上。",
+   "technique": "Likely calibrates a body-worn projector-camera pair so the camera detects fingertip contact on the projected image.",
+   "technique_zh": "很可能对佩戴在身上的投影仪与摄像头进行标定，让摄像头检测指尖在投影画面上的触碰。",
+   "exercise_en": "Mount a pico projector or a phone projector on a strap, project three buttons on a desk, and use a second phone's camera to detect which one a finger covers. Twist: project on your own forearm.",
+   "exercise_zh": "把微型投影仪或手机投影绑在带子上，在桌面上投出三个按钮，用第二部手机的摄像头检测手指遮住了哪个；变体：投射到自己的前臂上。",
+   "interaction": [
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "wearable",
+    "projection"
+   ],
+   "tech": [
+    "wearable projector",
+    "camera",
+    "touch detection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "RnupWPW1LeU",
+    "url": "https://www.youtube.com/watch?v=RnupWPW1LeU"
+   },
+   "source_url": "http://imd.naist.jp/index_e.html"
+  },
+  {
+   "id": "hirokazu-kato--ar-3d-media-production",
+   "creator_ids": [
+    "hirokazu-kato",
+    "christian-sandor"
+   ],
+   "title": "Towards AR User Interfaces in 3D Media Production",
+   "year": 2014,
+   "description": "A 3D artist models and animates with virtual objects floating over the real desk, using hand gestures in a headset instead of mouse and keyboard.",
+   "description_zh": "三维艺术家在头显中用手势对漂浮在真实桌面上方的虚拟物体进行建模和动画制作，而不是用鼠标和键盘。",
+   "idea_en": "Bring professional 3D modelling off the monitor and into the space above your desk.",
+   "idea_zh": "把专业三维建模从显示器上搬到桌面上方的空间里。",
+   "technique": "Likely combines a stereo HMD with 3D hand tracking to map familiar content-creation commands onto direct spatial manipulation.",
+   "technique_zh": "很可能把立体头显与三维手部追踪结合，把熟悉的内容创作命令映射为直接的空间操作。",
+   "exercise_en": "Use a phone AR sculpting or drawing app to model a simple object above your desk, then time the same task in a desktop 3D tool. Twist: work in pairs where one person only moves the camera.",
+   "exercise_zh": "用手机 AR 雕刻或绘画 App 在桌面上方建一个简单模型，再用桌面三维软件完成同样任务并计时对比；变体：两人合作，其中一人只负责移动相机。",
+   "interaction": [
+    "drawing-creation",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "stereo HMD",
+    "hand tracking",
+    "3D modelling"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "7_1LXbbS43s",
+    "url": "https://www.youtube.com/watch?v=7_1LXbbS43s"
+   },
+   "source_url": "https://ieeexplore.ieee.org/document/6948405"
+  },
+  {
+   "id": "hirokazu-kato--holoroyale",
+   "creator_ids": [
+    "hirokazu-kato",
+    "christian-sandor"
+   ],
+   "title": "HoloRoyale",
+   "year": 2018,
+   "description": "Teams of players in HoloLens headsets battle across a large real space, with virtual robots and projectiles that hide behind, bounce off and collide with the actual walls and furniture.",
+   "description_zh": "戴着 HoloLens 的多支队伍在大片真实空间中对战，虚拟机器人和子弹会躲在真实墙壁和家具后面，也会从上面弹开或撞上它们。",
+   "idea_en": "A multiplayer AR game at building scale where virtual action respects real architecture.",
+   "idea_zh": "一款建筑尺度的多人 AR 游戏，虚拟动作遵守真实的建筑结构。",
+   "technique": "Maps a large venue in advance and shares a common coordinate frame across HoloLens devices so virtual elements get occlusion and physics against the real geometry.",
+   "technique_zh": "预先扫描大型场地，并在多台 HoloLens 之间共享坐标系，让虚拟元素相对真实几何体产生遮挡和物理效果。",
+   "exercise_en": "Design a shared phone AR capture-the-flag game for the school hall where flags hide behind real pillars, using a common anchor on the floor. Twist: add a rule that you can only shoot what the other team cannot see.",
+   "exercise_zh": "为学校礼堂设计一款共享的手机 AR 夺旗游戏，把旗子藏在真实柱子后面，大家使用地面上的同一个锚点；变体：加一条规则，只能射击对方队伍看不到的目标。",
+   "interaction": [
+    "game-play",
+    "multiplayer-social",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "shared anchors",
+    "occlusion"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "8jn9clcNwf8",
+    "url": "https://www.youtube.com/watch?v=8jn9clcNwf8"
+   },
+   "source_url": "https://ismar2018.vgtc.org/papers/ismar2018_demo_06.html"
+  },
+  {
+   "id": "christian-sandor--visuo-haptic-ar",
+   "creator_ids": [
+    "christian-sandor"
+   ],
+   "title": "Visuo-Haptic Augmented Reality",
+   "year": 2007,
+   "description": "Wearing a video see-through headset, a user paints on a virtual object while a haptic stylus lets them feel its surface exactly where they see it.",
+   "description_zh": "戴着视频透视头显的用户在虚拟物体上作画，触觉笔让他在看到的地方准确地摸到物体表面。",
+   "idea_en": "See and touch the same virtual object in the same place.",
+   "idea_zh": "在同一个位置，同时看见并触摸同一个虚拟物体。",
+   "technique": "Co-locates a PHANToM-style haptic device with graphics rendered in a video see-through HMD, which outperformed half-mirror setups in the study.",
+   "technique_zh": "把 PHANToM 类触觉设备与视频透视头显中渲染的图形放在同一位置；实验中，这种方式的表现优于半透镜方案。",
+   "exercise_en": "Anchor a virtual pot in phone AR on top of a real cup, then paint the pot on screen while your other hand feels the cup. Twist: offset the virtual pot by a few centimetres and note when touch and sight stop matching.",
+   "exercise_zh": "在手机 AR 中把一个虚拟陶罐锚定在真实杯子上，一只手在屏幕上给陶罐上色，另一只手摸着杯子；变体：让虚拟陶罐偏离几厘米，记录何时触觉与视觉开始对不上。",
+   "interaction": [
+    "tangible-object",
+    "drawing-creation",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "haptic device",
+    "video see-through HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "63Cn6Te3TgU",
+    "url": "https://www.youtube.com/watch?v=63Cn6Te3TgU"
+   },
+   "source_url": "http://www.magicvisionlab.com"
+  },
+  {
+   "id": "christian-sandor--arweather",
+   "creator_ids": [
+    "christian-sandor"
+   ],
+   "title": "ARWeather",
+   "year": 2008,
+   "description": "A person wearing an outdoor AR backpack walks freely through simulated rain, snow or hail falling over the real campus.",
+   "description_zh": "背着户外 AR 背包的人在真实校园里自由走动，身边落下模拟的雨、雪或冰雹。",
+   "idea_en": "Change the weather around one person, wherever they walk.",
+   "idea_zh": "无论走到哪里，都改变某一个人身边的天气。",
+   "technique": "Renders particle-based precipitation in world coordinates on the Tinmith wearable system, tracked by GPS and head orientation sensors.",
+   "technique_zh": "在 Tinmith 可穿戴系统上以世界坐标渲染基于粒子的降水效果，靠 GPS 和头部朝向传感器追踪。",
+   "exercise_en": "Build a phone AR effect that makes snow fall only inside a two-metre circle around a placed anchor, then walk in and out of it outdoors. Twist: add sound that grows louder as you enter.",
+   "exercise_zh": "做一个手机 AR 效果，只在放置锚点周围两米的圆圈内下雪，然后在户外走进走出；变体：加入走进时逐渐变响的声音。",
+   "interaction": [
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "headset",
+    "wearable"
+   ],
+   "tech": [
+    "Tinmith",
+    "particle system",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "8bkMiXiYUnk",
+    "url": "https://www.youtube.com/watch?v=8bkMiXiYUnk"
+   },
+   "source_url": "http://www.magicvisionlab.com"
+  },
+  {
+   "id": "christian-sandor--space-distorting-ar",
+   "creator_ids": [
+    "christian-sandor"
+   ],
+   "title": "Space-Distorting AR",
+   "year": 2009,
+   "description": "To find points of interest hidden behind buildings or outside the view, the mobile AR scene bends like a fisheye or folds space so distant or occluded places swing into sight.",
+   "description_zh": "为了找到被建筑挡住或在视野外的兴趣点，移动 AR 画面会像鱼眼一样弯曲，或把空间折叠起来，让远处或被遮挡的地方转进视野。",
+   "idea_en": "Bend space in AR to reveal what is behind or beside you.",
+   "idea_zh": "在 AR 中弯折空间，把身后和身旁的东西展示出来。",
+   "technique": "Applies egocentric radial distortion and melting-style deformations to a 3D model of the surroundings and its POIs in mobile mixed reality.",
+   "technique_zh": "在移动混合现实中，对周围环境及兴趣点的三维模型施加以自我为中心的径向变形和“融化”式形变。",
+   "exercise_en": "Take a phone 360 photo of the schoolyard, map it into a tiny-planet view, and mark three hidden spots so classmates can find them faster. Twist: compare with a normal flat map.",
+   "exercise_zh": "用手机拍一张校园 360 度照片，转换成“小行星”视图，标出三个隐藏地点，看同学能否更快找到；变体：与普通平面地图进行对比。",
+   "interaction": [
+    "location-geo",
+    "perception-art",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "mobile mixed reality",
+    "space distortion"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "LoD6vhR3Ff4",
+    "url": "https://www.youtube.com/watch?v=LoD6vhR3Ff4"
+   },
+   "source_url": "http://www.magicvisionlab.com"
+  },
+  {
+   "id": "christian-sandor--ar-xray-saliency",
+   "creator_ids": [
+    "christian-sandor"
+   ],
+   "title": "AR X-Ray Vision Based on Visual Saliency",
+   "year": 2010,
+   "description": "A user looks at a building and sees through its wall into the hidden room behind, while the most noticeable parts of the wall, like edges and signs, stay visible for context.",
+   "description_zh": "用户看向一栋建筑，就能透过墙看到后面隐藏的房间，同时墙面上最显眼的部分（如边缘和标识）仍然保留，提供上下文。",
+   "idea_en": "See through walls, but keep just enough of the wall so your brain believes the depth.",
+   "idea_zh": "透视墙壁，但保留恰好足够的墙面，让大脑相信深度关系。",
+   "technique": "Computes a visual saliency map of the occluding surface and uses it to decide which occluder pixels to keep over the rendered hidden content.",
+   "technique_zh": "计算遮挡表面的视觉显著性图，据此决定在渲染出的隐藏内容上方保留哪些遮挡物像素。",
+   "exercise_en": "Photograph a door and the room behind it, then build a phone AR peephole that blends the hidden room over the live door while keeping the door's edges. Twist: let the hole follow a flashlight app's beam.",
+   "exercise_zh": "拍下一扇门和门后的房间，做一个手机 AR 窥视孔，把隐藏房间融合到实时的门上，同时保留门的边缘；变体：让窥视孔跟随手电筒 App 的光束移动。",
+   "interaction": [
+    "portal-world",
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "visual saliency",
+    "X-ray visualization"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "du72tgJxrPY",
+    "url": "https://www.youtube.com/watch?v=du72tgJxrPY"
+   },
+   "source_url": "http://www.magicvisionlab.com"
+  },
+  {
+   "id": "christian-sandor--burnar",
+   "creator_ids": [
+    "christian-sandor"
+   ],
+   "title": "BurnAR",
+   "year": 2012,
+   "description": "Looking at their own hands through a headset, users see flames and smoke rising from their skin; some report an involuntary feeling of heat although nothing is warm.",
+   "description_zh": "用户通过头显看自己的手，会看到火焰和烟从皮肤上冒出；尽管没有任何东西是热的，有些人仍会不由自主地感到发热。",
+   "idea_en": "Convincing AR on your own body can trigger real bodily sensations.",
+   "idea_zh": "在自己身体上足够逼真的 AR，能引发真实的身体感受。",
+   "technique": "Segments the user's hands in a video see-through HMD and overlays real-time volumetric fire and smoke that follow the hand motion.",
+   "technique_zh": "在视频透视头显中分割出用户的双手，并叠加随手部运动的实时体积火焰和烟雾。",
+   "exercise_en": "Apply a phone hand-tracking AR effect that puts fire or ice on the hands, then ask classmates to rate warmth or cold on a scale while blindfolded partners compare. Twist: add a matching crackling sound and see if ratings rise.",
+   "exercise_zh": "使用手机手部追踪 AR 特效，在手上加火焰或冰霜，请同学按量表评估冷热感，再与蒙眼的对照组比较；变体：加上相应的噼啪声，看评分是否上升。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "video see-through HMD",
+    "hand segmentation",
+    "particle effects"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "1o_t1NnSYp4",
+    "url": "https://www.youtube.com/watch?v=1o_t1NnSYp4"
+   },
+   "source_url": "http://www.magicvisionlab.com"
+  },
+  {
+   "id": "christian-sandor--clonar",
+   "creator_ids": [
+    "christian-sandor"
+   ],
+   "title": "ClonAR",
+   "year": 2012,
+   "description": "A real object is scanned with a Kinect, and its clone appears in AR where the user can feel and sculpt it with a haptic pen before sending it off to be printed.",
+   "description_zh": "用 Kinect 扫描一个真实物体，它的克隆体出现在 AR 中，用户可以用触觉笔触摸并雕刻它，再拿去打印。",
+   "idea_en": "Scan, touch and remix a real object in AR in one continuous loop.",
+   "idea_zh": "在 AR 中扫描、触摸并改造真实物体，一气呵成。",
+   "technique": "Uses KinectFusion signed distance fields directly for both haptic rendering and GPU raymarched visuals, skipping mesh conversion.",
+   "technique_zh": "把 KinectFusion 生成的有符号距离场直接用于触觉渲染和 GPU 光线步进渲染，省去网格转换。",
+   "exercise_en": "Scan a small object with a phone 3D-scan app, place the copy next to the original in AR, and use a sculpting app to redesign it. Twist: print or build the redesigned version from clay and compare.",
+   "exercise_zh": "用手机三维扫描 App 扫描一个小物件，在 AR 中把复制品放在原物旁边，再用雕刻 App 重新设计它；变体：用黏土把新设计做出来并与原物比较。",
+   "interaction": [
+    "drawing-creation",
+    "tangible-object",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset",
+    "desktop"
+   ],
+   "tech": [
+    "KinectFusion",
+    "haptics",
+    "signed distance fields"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Jb2LPB_IPOs",
+    "url": "https://www.youtube.com/watch?v=Jb2LPB_IPOs"
+   },
+   "source_url": "http://www.magicvisionlab.com"
+  },
+  {
+   "id": "christian-sandor--ar-yokai",
+   "creator_ids": [
+    "christian-sandor",
+    "hirokazu-kato"
+   ],
+   "title": "AR Yōkai",
+   "year": 2017,
+   "description": "Visitors wearing HoloLens walk through Shunkoin, an old Kyoto temple, and meet nine yōkai spirits from classical Japanese paintings, placed into the scanned rooms as part of a shared ghost story.",
+   "description_zh": "访客戴着 HoloLens 走进京都古寺春光院，遇见来自日本古画的九种妖怪；它们被安置在扫描过的房间里，构成一段共享的怪谈故事。",
+   "idea_en": "Let historical paintings haunt the very building they belong to.",
+   "idea_zh": "让古画里的妖怪回到它们所属的建筑中“作祟”。",
+   "technique": "3D scans the temple interior to situate animated yōkai models with occlusion and shared placement across multiple HoloLens users.",
+   "technique_zh": "对寺庙内部进行三维扫描，使多台 HoloLens 用户看到的动画妖怪模型具备遮挡效果并处在共享位置上。",
+   "exercise_en": "Pick a local legend, model or collect one creature, and hide it with phone AR in the part of school where the story would happen; guide a small group through it. Twist: make the creature appear only when the lights are dimmed.",
+   "exercise_zh": "挑一个本地传说，制作或收集一个相关生物模型，用手机 AR 把它藏在学校中最适合故事发生的地方，并带一小组人走一遍；变体：只有灯光调暗时生物才会出现。",
+   "interaction": [
+    "location-geo",
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "3D scanning",
+    "situated storytelling"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "sE8V2RdES4A",
+    "url": "https://www.youtube.com/watch?v=sE8V2RdES4A"
+   },
+   "source_url": "http://www.aryoukai.com"
+  },
+  {
+   "id": "wayne-piekarski--arquake",
+   "creator_ids": [
+    "wayne-piekarski"
+   ],
+   "title": "ARQuake",
+   "year": 2000,
+   "description": "A player with a backpack computer, head-mounted display and toy gun walks across the university campus shooting Quake monsters that appear among the real buildings.",
+   "description_zh": "玩家背着背包电脑、戴着头显、手持玩具枪，在大学校园里行走，射击出现在真实建筑之间的 Quake 怪物。",
+   "idea_en": "Turn a real campus into a first-person shooter level.",
+   "idea_zh": "把真实的校园变成第一人称射击游戏的关卡。",
+   "technique": "Modifies the Quake engine to render only monsters and items in see-through view, driven by GPS, a head tracker and a campus model for occlusion.",
+   "technique_zh": "修改 Quake 引擎，在透视视图中只渲染怪物和道具，由 GPS、头部追踪器以及用于遮挡的校园模型驱动。",
+   "exercise_en": "Design a location-based phone AR game where virtual creatures spawn at three GPS points on campus and players must reach them to catch them. Twist: let creatures hide behind real walls using a simple occlusion box.",
+   "exercise_zh": "设计一款基于位置的手机 AR 游戏，虚拟生物在校园三个 GPS 点出现，玩家必须跑到那里去捉；变体：用一个简单的遮挡盒让生物躲在真实墙后。",
+   "interaction": [
+    "game-play",
+    "location-geo"
+   ],
+   "platform": [
+    "headset",
+    "wearable"
+   ],
+   "tech": [
+    "Tinmith",
+    "Quake engine",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "No7QF0MwSjg",
+    "url": "https://www.youtube.com/watch?v=No7QF0MwSjg"
+   },
+   "source_url": "https://www.tinmith.net/arquake/"
+  },
+  {
+   "id": "wayne-piekarski--tinmith-metro",
+   "creator_ids": [
+    "wayne-piekarski"
+   ],
+   "title": "Tinmith-Metro Outdoor AR Modelling",
+   "year": 2001,
+   "description": "Standing outside a building, the user wears pinch gloves and 'captures' its walls by pointing and pinching, building a 3D model of the real building on the spot.",
+   "description_zh": "站在建筑外，用户戴着捏合手套，通过指点和捏合“捕捉”墙面，现场建出真实建筑的三维模型。",
+   "idea_en": "Model architecture by standing in front of it and grabbing its shape with your hands.",
+   "idea_zh": "站在建筑面前，用双手“抓取”它的形状来建模。",
+   "technique": "Uses working-planes projected from the tracked head and gloves to intersect infinite planes into solid building geometry, all on a wearable backpack computer.",
+   "technique_zh": "在可穿戴背包电脑上，由追踪的头部和手套投射出工作平面，让无限平面相交生成实体建筑几何体。",
+   "exercise_en": "Use a phone AR measuring or plane-detection app to trace the walls of a room and export a floor plan, then compare with a tape-measure drawing. Twist: model a building outside using only photos taken from the pavement.",
+   "exercise_zh": "用手机 AR 测量或平面检测 App 描出房间的墙面并导出平面图，再与卷尺手绘的图对比；变体：只用在人行道上拍的照片为室外建筑建模。",
+   "interaction": [
+    "drawing-creation",
+    "spatial-mapping",
+    "location-geo"
+   ],
+   "platform": [
+    "headset",
+    "wearable"
+   ],
+   "tech": [
+    "Tinmith",
+    "pinch gloves",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "7YcycATEs0k",
+    "url": "https://www.youtube.com/watch?v=7YcycATEs0k"
+   },
+   "source_url": "https://www.tinmith.net/demos.htm"
+  },
+  {
+   "id": "wayne-piekarski--tinmith-glove-ui",
+   "creator_ids": [
+    "wayne-piekarski"
+   ],
+   "title": "Tinmith Glove User Interface",
+   "year": 2002,
+   "description": "Menus are mapped onto the fingers of pinch gloves: the user presses thumb to finger to pick commands while walking outdoors in AR, and points with tracked thumbs to place objects.",
+   "description_zh": "菜单被映射到捏合手套的各个手指上：用户在户外 AR 中边走边用拇指碰手指选命令，并用被追踪的拇指指点来放置物体。",
+   "idea_en": "Your fingers become the menu when there is no mouse outdoors.",
+   "idea_zh": "户外没有鼠标时，你的手指就是菜单。",
+   "technique": "Uses conductive pinch gloves for discrete menu selection and fiducial markers on the thumbs for 3D cursor tracking by the head-mounted camera.",
+   "technique_zh": "用导电捏合手套进行离散的菜单选择，并借助拇指上的标记让头戴摄像头追踪三维光标。",
+   "exercise_en": "Write four commands on your fingertips, and build a phone app where a partner triggers the matching AR action when you tap thumb to finger. Twist: design a two-level menu using both hands.",
+   "exercise_zh": "在指尖上写下四个命令，做一个手机应用，你用拇指碰某根手指时，同伴触发对应的 AR 动作；变体：用双手设计一个两级菜单。",
+   "interaction": [
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "headset",
+    "wearable"
+   ],
+   "tech": [
+    "Tinmith",
+    "pinch gloves",
+    "fiducial markers"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "W2MVc-ajD4U",
+    "url": "https://www.youtube.com/watch?v=W2MVc-ajD4U"
+   },
+   "source_url": "https://www.tinmith.net/demos.htm"
+  },
+  {
+   "id": "wayne-piekarski--hand-of-god",
+   "creator_ids": [
+    "wayne-piekarski"
+   ],
+   "title": "Hand of God",
+   "year": 2006,
+   "description": "An indoor commander points at a map on a tabletop, and the outdoor AR user sees a giant 3D hand descend from the sky to show where to go or what to pick up.",
+   "description_zh": "室内指挥者在桌面地图上指点，户外的 AR 用户就会看到一只巨大的三维手从天而降，指示该去哪里或拿什么。",
+   "idea_en": "Remote guidance delivered as a giant hand reaching down from the sky.",
+   "idea_zh": "把远程指导变成一只从天空伸下来的巨手。",
+   "technique": "Captures the indoor user's hand and props on the tabletop as 3D video and renders them geolocated and scaled up in the outdoor user's Tinmith view.",
+   "technique_zh": "把室内用户在桌面上的手和道具捕捉为三维视频，按地理位置放大后渲染到户外用户的 Tinmith 视图中。",
+   "exercise_en": "Have an indoor student point at a printed campus map on a video call, then show a giant hand image anchored above the pointed spot in the outdoor partner's phone AR. Twist: let the indoor student drop small toy props that appear outdoors.",
+   "exercise_zh": "让室内学生在视频通话中指着打印的校园地图，户外同伴的手机 AR 就在被指的位置上方显示一只巨手图像；变体：让室内学生放下小玩具道具，它们会出现在户外。",
+   "interaction": [
+    "multiplayer-social",
+    "location-geo",
+    "hand-body"
+   ],
+   "platform": [
+    "headset",
+    "desktop"
+   ],
+   "tech": [
+    "Tinmith",
+    "tabletop capture",
+    "3D video"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "tVlRwCtWKNM",
+    "url": "https://www.youtube.com/watch?v=tVlRwCtWKNM"
+   },
+   "source_url": "https://www.tinmith.net/hog3d/overview.html"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Jun Nishida",
+   "why": "Added as creator jun-nishida in r3-lab.",
+   "link": "https://junis.sakura.ne.jp/wp/",
+   "found_via": "pedro-lopes",
+   "status": "duplicate"
+  },
+  {
+   "name": "Jason Orlosky",
+   "why": "Added as creator jason-orlosky in r3-lab.",
+   "link": "https://www.youtube.com/@JEOresearch",
+   "found_via": "yuta-itoh",
+   "status": "duplicate"
+  },
+  {
+   "name": "Kiyoshi Kiyokawa",
+   "why": "Added as creator kiyoshi-kiyokawa in r3-lab.",
+   "link": "https://carelab.info/en/",
+   "found_via": "yuta-itoh",
+   "status": "duplicate"
+  },
+  {
+   "name": "Balasaravanan Thoravi Kumaravel",
+   "why": "Added as creator balasaravanan-thoravi-kumaravel in r3-lab (Loki stays under autodesk-research).",
+   "link": "https://www.tkbala.com",
+   "found_via": "autodesk-research",
+   "status": "duplicate"
+  },
+  {
+   "name": "Peter Mohr",
+   "why": "Added as creator peter-mohr in r3-lab; Retargeting works stay under denis-kalkofen.",
+   "link": "https://www.youtube.com/channel/UCCH8K14ogod9-QaeXwlVnUA",
+   "found_via": "denis-kalkofen",
+   "status": "duplicate"
+  },
+  {
+   "name": "Stefanie Zollmann",
+   "why": "Added as creator stefanie-zollmann in r3-lab.",
+   "link": "https://www.youtube.com/channel/UCVdHJnnfRjldP0IbgidHXdA",
+   "found_via": "denis-kalkofen",
+   "status": "duplicate"
+  },
+  {
+   "name": "Carmine Elvezio",
+   "why": "Added as creator carmine-elvezio in r3-lab.",
+   "link": "https://www.youtube.com/channel/UCDFRIEaANNR3b8NDipTigaQ",
+   "found_via": "columbia-feiner",
+   "status": "duplicate"
+  },
+  {
+   "name": "PRELOADED (BBC Earth Micro Kingdoms)",
+   "why": "Added as creator preloaded in r3-lab.",
+   "link": "https://preloaded.com",
+   "found_via": "magic-leap-studios",
+   "status": "duplicate"
+  },
+  {
+   "name": "Sean Follmer",
+   "why": "Added as creator sean-follmer in r3-lab (Zooids, shapeShift, Audio Personas).",
+   "link": "https://shape.stanford.edu",
+   "found_via": "ken-nakagaki",
+   "status": "duplicate"
+  },
+  {
+   "name": "Hirokazu Kato",
+   "why": "Added as creator hirokazu-kato in r3-lab (AR pop-up book, HoloRoyale).",
+   "link": "https://imd.naist.jp/",
+   "found_via": "mark-billinghurst",
+   "status": "duplicate"
+  },
+  {
+   "name": "Daniel Leithinger",
+   "why": "THING Lab (CU Boulder). His AR-relevant shape-display work (inFORM, Sublimate, Physical Telepresence, Materiable) is already under mit-tangible-media; later videos (LiftTiles, Dynablock, talks) are not AR.",
+   "link": "https://www.colorado.edu/atlas/daniel-leithinger",
+   "found_via": "ken-nakagaki",
+   "status": "duplicate"
+  },
+  {
+   "name": "Ke Huang",
+   "why": "Co-author of Body Oracle Translator (danlin-huang, botao-amber-hu). Own channel shows speculative robotics and design (Cybroc, Tuotle, Superdynamics), no further AR work.",
+   "link": "https://www.youtube.com/channel/UCwsyaSTvBYvnYBisjPQ5yYA",
+   "found_via": "danlin-huang",
+   "status": "not_ar"
+  },
+  {
+   "name": "Ruoqi Wang",
+   "why": "Co-author of Body Oracle Translator (danlin-huang, botao-amber-hu); no separate AR portfolio or video found.",
+   "link": "https://www.youtube.com/watch?v=GXeLSfZnXAQ",
+   "found_via": "danlin-huang",
+   "status": "no_video"
+  },
+  {
+   "name": "Shohei Mori",
+   "why": "Diminished reality and AR pseudo-weight researcher (TU Graz / Iwate); co-author of Video-Annotated AR Assembly Tutorials; own YouTube channel with demos.",
+   "link": "https://www.youtube.com/watch?v=5VCDReGcd40",
+   "found_via": "peter-mohr",
+   "status": "open"
+  },
+  {
+   "name": "Bruce Thomas (UniSA Wearable Computer Lab)",
+   "why": "Led the Wearable Computer Lab behind Tinmith and ARQuake; later spatial AR prototyping (Quimo deformable material, SAR rapid prototyping) with lab videos.",
+   "link": "https://www.youtube.com/watch?v=LqsMzRuDZOs",
+   "found_via": "wayne-piekarski",
+   "status": "open"
+  },
+  {
+   "name": "Damien Rompapas",
+   "why": "Lead of HoloRoyale and co-creator of AR Yōkai (with Christian Sandor); now BEER Labs.",
+   "link": "https://www.beerlabs.com.au/holoroyale/",
+   "found_via": "christian-sandor",
+   "status": "open"
+  },
+  {
+   "name": "Yujie Tao",
+   "why": "Lead author of Audio Personas and audio augmentation for mindfulness at Stanford SHAPE Lab; audio AR focus.",
+   "link": "https://www.youtube.com/watch?v=l8lis-JPIzA",
+   "found_via": "sean-follmer",
+   "status": "open"
+  },
+  {
+   "name": "Alexander Plopski",
+   "why": "Otago/TU Graz researcher on eye-aware AR displays; co-author of saliency modulation and HoloRoyale.",
+   "link": "https://www.youtube.com/watch?v=7T55CaIzAGY",
+   "found_via": "tobias-langlotz",
+   "status": "open"
+  }
+ ]
+}

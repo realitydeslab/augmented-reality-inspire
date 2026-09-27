@@ -8459,5 +8459,2344 @@
   "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1762493977280786432/pu/img/WvV3vl7gZJae_WAg.jpg",
   "has_video": true,
   "date": "2024-02-27T15:06:17.000Z"
+ },
+ "youtube:s-NUr2AZ1nA": {
+  "url": "https://www.youtube.com/watch?v=s-NUr2AZ1nA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "s-NUr2AZ1nA",
+  "title": "Affordances for Multi-device Gestural Interaction in Augmented Reality",
+  "author": "sz wu",
+  "thumbnail": "https://i.ytimg.com/vi/s-NUr2AZ1nA/hqdefault.jpg"
+ },
+ "x:1127773999876976640": {
+  "url": "https://x.com/Wu_Shengzhi/status/1127773999876976640",
+  "ok": true,
+  "platform": "x",
+  "id": "1127773999876976640",
+  "author": "WU SHENGZHI",
+  "title": "Draw a sticky note on an iPad and then pull it out into the AR world. I added little spring force and try to make the transition feel like pulling a physical note out of a book. Tested on a 6-year-old",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1127771081933193216/pu/img/27yIQb5yDeqS8N2F.jpg",
+  "has_video": true,
+  "date": "2019-05-13T03:14:09.000Z"
+ },
+ "x:1155725029310521344": {
+  "url": "https://x.com/Wu_Shengzhi/status/1155725029310521344",
+  "ok": true,
+  "platform": "x",
+  "id": "1155725029310521344",
+  "author": "WU SHENGZHI",
+  "title": "Pulling a 3D model from an editor display(e.g. Maya, C4D) to a real-world environment, as if the screen is a drawer. Fun and useful for industrial designers, 3D artists, and architects to quickly view",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1155724874045726720/pu/img/Akti_IVUH6YvU7YZ.jpg",
+  "has_video": true,
+  "date": "2019-07-29T06:21:33.000Z"
+ },
+ "x:1113284624355135489": {
+  "url": "https://x.com/Wu_Shengzhi/status/1113284624355135489",
+  "ok": true,
+  "platform": "x",
+  "id": "1113284624355135489",
+  "author": "WU SHENGZHI",
+  "title": "A virtual eye dropper in AR that can pick up colors from real world and apply it to smart lights. It feels a bit magical so I used the deluminator sound effect in #HarryPotter movie. Prototyping with ",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1113283903178063874/pu/img/ZuHLMjO7jEetqEv_.jpg",
+  "has_video": true,
+  "date": "2019-04-03T03:38:32.000Z"
+ },
+ "x:1096214064873852928": {
+  "url": "https://x.com/Wu_Shengzhi/status/1096214064873852928",
+  "ok": true,
+  "platform": "x",
+  "id": "1096214064873852928",
+  "author": "WU SHENGZHI",
+  "title": "This concept is inspired by an old project from MIT @medialab \"Slurp\", slurping virtual contents from place to place, even the contents that are far away. There would be many interesting possibilities",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1096214026030366728/pu/img/_wLZXJP6lOd2k9iO.jpg",
+  "has_video": true,
+  "date": "2019-02-15T01:06:14.000Z"
+ },
+ "x:1072330175554170880": {
+  "url": "https://x.com/Wu_Shengzhi/status/1072330175554170880",
+  "ok": true,
+  "platform": "x",
+  "id": "1072330175554170880",
+  "author": "WU SHENGZHI",
+  "title": "Make UI panel moves to hand-reached space only when it's needed, and back away when it's done. I am imagining it's used for AR + IoT scenario (e.g. controlling smart light). The handle bar of the slid",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1072328247264886785/pu/img/YOyIb8lCQiHiq9JW.jpg",
+  "has_video": true,
+  "date": "2018-12-11T03:20:11.000Z"
+ },
+ "x:1069317433511591936": {
+  "url": "https://x.com/Wu_Shengzhi/status/1069317433511591936",
+  "ok": true,
+  "platform": "x",
+  "id": "1069317433511591936",
+  "author": "WU SHENGZHI",
+  "title": "Leap motion hand is usually used for arm-reached distance interactions, but I tried to shoot a ray from the index finger, and combining with basic gestures, now we can interact with contents that are ",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1069316322620858369/pu/img/NGOm8VS_9GRfxD8A.jpg",
+  "has_video": true,
+  "date": "2018-12-02T19:48:37.000Z"
+ },
+ "x:1107392653510037505": {
+  "url": "https://x.com/Wu_Shengzhi/status/1107392653510037505",
+  "ok": true,
+  "platform": "x",
+  "id": "1107392653510037505",
+  "author": "WU SHENGZHI",
+  "title": "Experiment with Zed mini + Leap Motion + Oculus Rift @LeapMotion @oculus @Stereolabs3D Please don’t judge on the messy cables 😂 https://t.co/WLcaoei71y",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1107391891283283968/pu/img/YHT4NhijN6uBl2Zm.jpg",
+  "has_video": true,
+  "date": "2019-03-17T21:25:57.000Z"
+ },
+ "x:1062782838314020865": {
+  "url": "https://x.com/Wu_Shengzhi/status/1062782838314020865",
+  "ok": true,
+  "platform": "x",
+  "id": "1062782838314020865",
+  "author": "WU SHENGZHI",
+  "title": "Trigger AR information by leveraging the real world affordances @Vuforia https://t.co/1IQeLl5BwK",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1062782705996316677/pu/img/vmfVQNDMBNbs_lcc.jpg",
+  "has_video": true,
+  "date": "2018-11-14T19:02:28.000Z"
+ },
+ "youtube:N8HpIkYmpmA": {
+  "url": "https://www.youtube.com/watch?v=N8HpIkYmpmA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "N8HpIkYmpmA",
+  "title": "dial",
+  "author": "sz wu",
+  "thumbnail": "https://i.ytimg.com/vi/N8HpIkYmpmA/hqdefault.jpg"
+ },
+ "x:1059281909166104576": {
+  "url": "https://x.com/Wu_Shengzhi/status/1059281909166104576",
+  "ok": true,
+  "platform": "x",
+  "id": "1059281909166104576",
+  "author": "WU SHENGZHI",
+  "title": "One of my internship project prototype @GoogleARVR Daydream, using ARCore to procedurally generate levels in AR. The bridge is totally generated based on physical environment, and the concept might be",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1059281065204944898/pu/img/SwfCOC55fuy-U9dm.jpg",
+  "has_video": true,
+  "date": "2018-11-05T03:11:02.000Z"
+ },
+ "x:1061653324536168449": {
+  "url": "https://x.com/Wu_Shengzhi/status/1061653324536168449",
+  "ok": true,
+  "platform": "x",
+  "id": "1061653324536168449",
+  "author": "WU SHENGZHI",
+  "title": "Another prototype I made @GoogleARVR using #ARCore to procedurally generate AR content based on physical space. The concept can leverage multiple detected surfaces and generates floating islands in be",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1061650385688055809/pu/img/Euk9Ndk059vcxv9w.jpg",
+  "has_video": true,
+  "date": "2018-11-11T16:14:11.000Z"
+ },
+ "x:1059284500159578113": {
+  "url": "https://x.com/Wu_Shengzhi/status/1059284500159578113",
+  "ok": true,
+  "platform": "x",
+  "id": "1059284500159578113",
+  "author": "WU SHENGZHI",
+  "title": "Make an object floating in AR by overlapping shadow. The concept is inspired by Dixon Lo. https://t.co/6KGW8p2K9n",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1059284254268538880/pu/img/sIegBegaioT8SCRQ.jpg",
+  "has_video": true,
+  "date": "2018-11-05T03:21:20.000Z"
+ },
+ "x:1058150946541395969": {
+  "url": "https://x.com/Wu_Shengzhi/status/1058150946541395969",
+  "ok": true,
+  "platform": "x",
+  "id": "1058150946541395969",
+  "author": "WU SHENGZHI",
+  "title": "Using virtual joystick to control a character jump on multiple physical surfaces with ARCore. https://t.co/11og8dDHQH",
+  "thumbnail": "https://pbs.twimg.com/tweet_video_thumb/Dq9NMLKXgAE6nQ2.jpg",
+  "has_video": true,
+  "date": "2018-11-02T00:16:59.000Z"
+ },
+ "x:1098847193283391488": {
+  "url": "https://x.com/Wu_Shengzhi/status/1098847193283391488",
+  "ok": true,
+  "platform": "x",
+  "id": "1098847193283391488",
+  "author": "WU SHENGZHI",
+  "title": "Using @unity3d Visual Effect Graph to dissolve a point-cloud face, and the face is generated from a depth image. #VisualEffectGraph is one of the most incredible tool I've ever used, it's also great f",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1098845820865134592/pu/img/dBiHL3RvxZQ92T9A.jpg",
+  "has_video": true,
+  "date": "2019-02-22T07:29:21.000Z"
+ },
+ "youtube:msQrZAsQUd0": {
+  "url": "https://www.youtube.com/watch?v=msQrZAsQUd0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "msQrZAsQUd0",
+  "title": "Scent Memo",
+  "author": "sz wu",
+  "thumbnail": "https://i.ytimg.com/vi/msQrZAsQUd0/hqdefault.jpg"
+ },
+ "youtube:Z-6CveTUFYY": {
+  "url": "https://www.youtube.com/watch?v=Z-6CveTUFYY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Z-6CveTUFYY",
+  "title": "Dinosaur Passage: A Hololens Museum Experience",
+  "author": "sz wu",
+  "thumbnail": "https://i.ytimg.com/vi/Z-6CveTUFYY/hqdefault.jpg"
+ },
+ "youtube:xcUKUKx6DDo": {
+  "url": "https://www.youtube.com/watch?v=xcUKUKx6DDo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xcUKUKx6DDo",
+  "title": "The Other Way",
+  "author": "sz wu",
+  "thumbnail": "https://i.ytimg.com/vi/xcUKUKx6DDo/hqdefault.jpg"
+ },
+ "youtube:GntDf6c7xsY": {
+  "url": "https://www.youtube.com/watch?v=GntDf6c7xsY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "GntDf6c7xsY",
+  "title": "Aquatic: An augmented reality journey into mysterious deep sea",
+  "author": "sz wu",
+  "thumbnail": "https://i.ytimg.com/vi/GntDf6c7xsY/hqdefault.jpg"
+ },
+ "x:1396120848126210049": {
+  "url": "https://x.com/Wu_Shengzhi/status/1396120848126210049",
+  "ok": true,
+  "platform": "x",
+  "id": "1396120848126210049",
+  "author": "WU SHENGZHI",
+  "title": "Got a robot arm from MyCobot, pretty lightweight and easy to develop. Made a small demo of robot always facing the toio car with no CV tracking, and added some simple AR collision effect. More fun exp",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1396120637324754944/pu/img/go7QHpEQRrfc4z_3.jpg",
+  "has_video": true,
+  "date": "2021-05-22T15:08:43.000Z"
+ },
+ "x:1259007666459774977": {
+  "url": "https://x.com/Wu_Shengzhi/status/1259007666459774977",
+  "ok": true,
+  "platform": "x",
+  "id": "1259007666459774977",
+  "author": "WU SHENGZHI",
+  "title": "Just helped launch new EDU AR content on Google Search. I wish I could have this when I was learning drawings at high school, so I don’t need the plaster statue for anatomy anymore https://t.co/EpftWj",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1259006656194609152/pu/img/ZT8yuMNe4FqUMmFM.jpg",
+  "has_video": true,
+  "date": "2020-05-09T06:29:53.000Z"
+ },
+ "x:1394712843333816324": {
+  "url": "https://x.com/Google/status/1394712843333816324",
+  "ok": true,
+  "platform": "x",
+  "id": "1394712843333816324",
+  "author": "Google",
+  "title": "If you’ve ever wanted to see Megan Rapinoe, Naomi Osaka or Simone Biles perform their impressive feats up close, now you can. We’re bringing some of the world’s best athletes to AR in Search. #GoogleI",
+  "thumbnail": "https://pbs.twimg.com/media/E1sD756WEAoRXVc.jpg",
+  "has_video": true,
+  "date": "2021-05-18T17:53:49.000Z"
+ },
+ "youtube:r3TSYB41RMI": {
+  "url": "https://www.youtube.com/watch?v=r3TSYB41RMI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "r3TSYB41RMI",
+  "title": "[CHI 2022 Interactivity] Opportunistic Interfaces for Augmented Reality (Ad hoc UI preview)",
+  "author": "Ruofei Du",
+  "thumbnail": "https://i.ytimg.com/vi/r3TSYB41RMI/hqdefault.jpg"
+ },
+ "youtube:y0vKO8r2PEc": {
+  "url": "https://www.youtube.com/watch?v=y0vKO8r2PEc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "y0vKO8r2PEc",
+  "title": "RetroSphere: Self-Contained Passive 3D Controller Tracking for Augmented Reality",
+  "author": "Ananta Narayanan Balaji",
+  "thumbnail": "https://i.ytimg.com/vi/y0vKO8r2PEc/hqdefault.jpg"
+ },
+ "vimeo:1200725642": {
+  "url": "https://vimeo.com/1200725642",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "1200725642",
+  "embeddable": true,
+  "title": "Ultrasound VR - virtual embellishment of surfaces",
+  "thumbnail": "https://i.vimeocdn.com/video/2167896471-c4235e4ea84eee67724fe2aaa6be8321183389b55dff78bb8ef211c93457559b-d?f=webp&region=us"
+ },
+ "youtube:S6XKPEexRbU": {
+  "url": "https://www.youtube.com/watch?v=S6XKPEexRbU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "S6XKPEexRbU",
+  "title": "NaviCam hand held AR system (1994-1995)",
+  "author": "rkmt1",
+  "thumbnail": "https://i.ytimg.com/vi/S6XKPEexRbU/hqdefault.jpg"
+ },
+ "youtube:cNFwEMkLK4A": {
+  "url": "https://www.youtube.com/watch?v=cNFwEMkLK4A",
+  "ok": true,
+  "platform": "youtube",
+  "id": "cNFwEMkLK4A",
+  "title": "3D CyberCode 1996 (the origin of PS3 Eye of Judgment)",
+  "author": "rkmt1",
+  "thumbnail": "https://i.ytimg.com/vi/cNFwEMkLK4A/hqdefault.jpg"
+ },
+ "youtube:P9P4Zp8sijk": {
+  "url": "https://www.youtube.com/watch?v=P9P4Zp8sijk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "P9P4Zp8sijk",
+  "title": "TransVision: Shared Hand-held Augmented Reality (1996)",
+  "author": "rkmtlab",
+  "thumbnail": "https://i.ytimg.com/vi/P9P4Zp8sijk/hqdefault.jpg"
+ },
+ "youtube:rFw9aMubL-Y": {
+  "url": "https://www.youtube.com/watch?v=rFw9aMubL-Y",
+  "ok": true,
+  "platform": "youtube",
+  "id": "rFw9aMubL-Y",
+  "title": "Pick-and-Drop (UIST'97, CHI'98)",
+  "author": "rkmtlab",
+  "thumbnail": "https://i.ytimg.com/vi/rFw9aMubL-Y/hqdefault.jpg"
+ },
+ "youtube:r4g_fvnjVCA": {
+  "url": "https://www.youtube.com/watch?v=r4g_fvnjVCA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "r4g_fvnjVCA",
+  "title": "Augmented Surfaces (CHI'99)",
+  "author": "rkmtlab",
+  "thumbnail": "https://i.ytimg.com/vi/r4g_fvnjVCA/hqdefault.jpg"
+ },
+ "youtube:waSXkJBKT1s": {
+  "url": "https://www.youtube.com/watch?v=waSXkJBKT1s",
+  "ok": true,
+  "platform": "youtube",
+  "id": "waSXkJBKT1s",
+  "title": "SmartSkin: An Infrastructure for Freehand Manipulations on Interactive Surfaces (CHI2002)",
+  "author": "RekimotoLab",
+  "thumbnail": "https://i.ytimg.com/vi/waSXkJBKT1s/hqdefault.jpg"
+ },
+ "youtube:9HLyZqhkNKg": {
+  "url": "https://www.youtube.com/watch?v=9HLyZqhkNKg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "9HLyZqhkNKg",
+  "title": "Flying Head: A Head Motion Synchronization Mechanism for Unmanned Aerial Vehicle Control",
+  "author": "keihigumovie",
+  "thumbnail": "https://i.ytimg.com/vi/9HLyZqhkNKg/hqdefault.jpg"
+ },
+ "youtube:eXHUVTp2HNo": {
+  "url": "https://www.youtube.com/watch?v=eXHUVTp2HNo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "eXHUVTp2HNo",
+  "title": "JackIn Space AH2017",
+  "author": "Komy",
+  "thumbnail": "https://i.ytimg.com/vi/eXHUVTp2HNo/hqdefault.jpg"
+ },
+ "youtube:d4DUIeXSEpk": {
+  "url": "https://www.youtube.com/watch?v=d4DUIeXSEpk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "d4DUIeXSEpk",
+  "title": "Videoplace (1985)",
+  "author": "VintageCG",
+  "thumbnail": "https://i.ytimg.com/vi/d4DUIeXSEpk/hqdefault.jpg"
+ },
+ "youtube:VdrujesfIBQ": {
+  "url": "https://www.youtube.com/watch?v=VdrujesfIBQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "VdrujesfIBQ",
+  "title": "Myron Krueger's Critter",
+  "author": "Tom Sherman",
+  "thumbnail": "https://i.ytimg.com/vi/VdrujesfIBQ/hqdefault.jpg"
+ },
+ "youtube:XYih-aS6JK8": {
+  "url": "https://www.youtube.com/watch?v=XYih-aS6JK8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "XYih-aS6JK8",
+  "title": "Krzysztof Wodiczko on his 1988 Hirshhorn Museum projection",
+  "author": "Hirshhorn",
+  "thumbnail": "https://i.ytimg.com/vi/XYih-aS6JK8/hqdefault.jpg"
+ },
+ "youtube:dI_85KyAFWk": {
+  "url": "https://www.youtube.com/watch?v=dI_85KyAFWk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "dI_85KyAFWk",
+  "title": "CLOSEUP Krzysztof Wodiczko, \"Tijuana Projection\", inSITE2000.",
+  "author": "INSITE Art Practices in the Public Sphere",
+  "thumbnail": "https://i.ytimg.com/vi/dI_85KyAFWk/hqdefault.jpg"
+ },
+ "youtube:81nxZhbqv-Y": {
+  "url": "https://www.youtube.com/watch?v=81nxZhbqv-Y",
+  "ok": true,
+  "platform": "youtube",
+  "id": "81nxZhbqv-Y",
+  "title": "Abraham Lincoln: War Veteran Projection, 2012",
+  "author": "MoreArtNYC",
+  "thumbnail": "https://i.ytimg.com/vi/81nxZhbqv-Y/hqdefault.jpg"
+ },
+ "youtube:oRmT13QlY78": {
+  "url": "https://www.youtube.com/watch?v=oRmT13QlY78",
+  "ok": true,
+  "platform": "youtube",
+  "id": "oRmT13QlY78",
+  "title": "Krzysztof Wodizcko and Gary Kirkham: Queen Victoria, Lamees #1",
+  "author": "CAFKATV",
+  "thumbnail": "https://i.ytimg.com/vi/oRmT13QlY78/hqdefault.jpg"
+ },
+ "vimeo:15749093": {
+  "url": "https://vimeo.com/15749093",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "15749093",
+  "embeddable": true,
+  "title": "The 600 Years",
+  "thumbnail": "https://i.vimeocdn.com/video/1793732088-d54cd24d39f0811d3517acbd56cac2e7802bfb7087e5935294b9b93c919358ea-d?f=webp&region=us"
+ },
+ "vimeo:26827092": {
+  "url": "https://vimeo.com/26827092",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "26827092",
+  "embeddable": true,
+  "title": "Luminous Flux",
+  "thumbnail": "https://i.vimeocdn.com/video/177680610-bbe6fb2046bcb1a0d36224812422637346aea96449d5f039d6e51f6f8bd43cef-d?f=webp&region=us"
+ },
+ "youtube:tcq2gG1qxwc": {
+  "url": "https://www.youtube.com/watch?v=tcq2gG1qxwc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "tcq2gG1qxwc",
+  "title": "Bucuresti 555 ani - The Macula Czech Republic",
+  "author": "khalypthor",
+  "thumbnail": "https://i.ytimg.com/vi/tcq2gG1qxwc/hqdefault.jpg"
+ },
+ "vimeo:138894725": {
+  "url": "https://vimeo.com/138894725",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "138894725",
+  "embeddable": true,
+  "title": "SIM / NEBULA",
+  "thumbnail": "https://i.vimeocdn.com/video/536948573-fb8d3af086b1c129c2259a91e6cb99923f67ce69bbd925dbeeed04fa99225020-d?f=webp&region=us"
+ },
+ "vimeo:181344271": {
+  "url": "https://vimeo.com/181344271",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "181344271",
+  "embeddable": true,
+  "title": "Down The Rabbit Hole",
+  "thumbnail": "https://i.vimeocdn.com/video/590119908-5a23bcccb48dfc7ff88eb544255a6f3ab4e0464409d5499108b9964da0324fb6-d?f=webp&region=us"
+ },
+ "vimeo:37920250": {
+  "url": "https://vimeo.com/37920250",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "37920250",
+  "embeddable": true,
+  "title": "Archifon I. - Interactive Installation",
+  "thumbnail": "https://i.vimeocdn.com/video/278272626-a3c0e857807cf02ce1faabec4c3da3f354a20a6e57834809400037f09acd9a54-d?f=webp&region=us"
+ },
+ "vimeo:59839964": {
+  "url": "https://vimeo.com/59839964",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "59839964",
+  "embeddable": true,
+  "title": "The Radar - Interactive mapping installation for public controlled by mobile devices",
+  "thumbnail": "https://i.vimeocdn.com/video/537873007-dd9a645147fff57148e514c3d69f9dbf75341ca70203648ed6f8dcfcdddb2e38-d?f=webp&region=us"
+ },
+ "vimeo:72222918": {
+  "url": "https://vimeo.com/72222918",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "72222918",
+  "embeddable": true,
+  "title": "Netykavka",
+  "thumbnail": "https://i.vimeocdn.com/video/446044882-80cbfbeee934b497b5eb8c3e80e4970ef68289a0d789b5904f31cd265b460358-d?f=webp&region=us"
+ },
+ "vimeo:166247151": {
+  "url": "https://vimeo.com/166247151",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "166247151",
+  "embeddable": true,
+  "title": "Demonz - INITI Playground",
+  "thumbnail": "https://i.vimeocdn.com/video/570397756-a4bfef09147360e4f16628a024006b8a0c56f8554079532b10b877c4c6fce7c2-d?f=webp&region=us"
+ },
+ "vimeo:18888136": {
+  "url": "https://vimeo.com/18888136",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "18888136",
+  "embeddable": true,
+  "title": "PERSPECTIVE LYRIQUE - 1024 architecture",
+  "thumbnail": "https://i.vimeocdn.com/video/119169649-78522dce7660d286e6c5cff23790a035b5b64aef30bf8ace231dd75bb9a79c83-d?f=webp&region=us"
+ },
+ "vimeo:21308228": {
+  "url": "https://vimeo.com/21308228",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "21308228",
+  "embeddable": true,
+  "title": "Make the Line Dance - 1024 architecture",
+  "thumbnail": "https://i.vimeocdn.com/video/136978148-519869dd64176f553b7986752ba05bad64e3d19a1ddfc88099da18e890b3bcbb-d?f=webp&region=us"
+ },
+ "vimeo:19163299": {
+  "url": "https://vimeo.com/19163299",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "19163299",
+  "embeddable": true,
+  "title": "TETRA.TENNIS v3.0 - 1024 architecture",
+  "thumbnail": "https://i.vimeocdn.com/video/121232094-bd0ed78af1f34b0a923489e938b22767f5202532ddc163f1d3a164211e89b9dd-d?f=webp&region=us"
+ },
+ "vimeo:15734398": {
+  "url": "https://vimeo.com/15734398",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "15734398",
+  "embeddable": true,
+  "title": "BOOMBOX - 1024 architecture",
+  "thumbnail": "https://i.vimeocdn.com/video/95264723-3f2e565aed70c9c3f630379bb074c18679219071fd46ddbcc755fb61fd46c557-d?f=webp&region=us"
+ },
+ "vimeo:79702430": {
+  "url": "https://vimeo.com/79702430",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "79702430",
+  "embeddable": true,
+  "title": "TESSERACT aka HyperCube - 1024 architecture",
+  "thumbnail": "https://i.vimeocdn.com/video/455458809-ee7cd600c3d1d9435388299240e659ebe81e4a6ac1d613146304529d75a8cafc-d?f=webp&region=us"
+ },
+ "vimeo:131077465": {
+  "url": "https://vimeo.com/131077465",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "131077465",
+  "embeddable": true,
+  "title": "The Walking Cube - 1024 architecture",
+  "thumbnail": "https://i.vimeocdn.com/video/523197820-bba55b97f9548e07c5f8e8d330e0fd28d0050526c256e4c21283d7204cff6429-d?f=webp&region=us"
+ },
+ "vimeo:1098205588": {
+  "url": "https://vimeo.com/1098205588",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "1098205588",
+  "embeddable": true,
+  "title": "1D ARCADE - 1024 architecture",
+  "thumbnail": "https://i.vimeocdn.com/video/2032751205-49bf0c20f1fa95eb3517ed90e1f1d829ae3ab106e7325dd26ec4b2fa2d5d5a9e-d?f=webp&region=us"
+ },
+ "vimeo:34021153": {
+  "url": "https://vimeo.com/34021153",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "34021153",
+  "embeddable": true,
+  "title": "Sony Realtime Projection Mapping 1",
+  "thumbnail": "https://i.vimeocdn.com/video/231379171-48dcf32369bbf1909f0234268a9b8baa344bcde7f0af6e3fcea66e73d1915a71-d?f=webp&region=us"
+ },
+ "youtube:JLAKXJG1trU": {
+  "url": "https://www.youtube.com/watch?v=JLAKXJG1trU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "JLAKXJG1trU",
+  "title": "MEET YOUR CREATOR   QUADROTOR SHOW",
+  "author": "Marshmallow Laser Feast",
+  "thumbnail": "https://i.ytimg.com/vi/JLAKXJG1trU/hqdefault.jpg"
+ },
+ "youtube:gDZqJ4RPVYc": {
+  "url": "https://www.youtube.com/watch?v=gDZqJ4RPVYc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "gDZqJ4RPVYc",
+  "title": "Laser Forest by Marshmallow Laser Feast",
+  "author": "Marshmallow Laser Feast",
+  "thumbnail": "https://i.ytimg.com/vi/gDZqJ4RPVYc/hqdefault.jpg"
+ },
+ "vimeo:140057053": {
+  "url": "https://vimeo.com/140057053",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "140057053",
+  "embeddable": true,
+  "title": "ITEOTA TEASER",
+  "thumbnail": "https://i.vimeocdn.com/video/536233794-9d1d5ed33941de323bb152c07cd1f6c12cf0db553f70365942c355bbb675e1c8-d?f=webp&region=us"
+ },
+ "youtube:if0wfysmoMU": {
+  "url": "https://www.youtube.com/watch?v=if0wfysmoMU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "if0wfysmoMU",
+  "title": "Treehugger Trailer",
+  "author": "Marshmallow Laser Feast",
+  "thumbnail": "https://i.ytimg.com/vi/if0wfysmoMU/hqdefault.jpg"
+ },
+ "vimeo:244047652": {
+  "url": "https://vimeo.com/244047652",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "244047652",
+  "embeddable": true,
+  "title": "A Colossal Wave!",
+  "thumbnail": "https://i.vimeocdn.com/video/668342500-8d0de246271aff0c2cc33f7a963e714cc85da06ed916cba5c95e452b0021b761-d?f=webp&region=us"
+ },
+ "vimeo:303589503": {
+  "url": "https://vimeo.com/303589503",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "303589503",
+  "embeddable": true,
+  "title": "We Live in an Ocean of Air",
+  "thumbnail": "https://i.vimeocdn.com/video/759651358-5fffffce0afc610e12b0d7a01275d858a4dc8f79a6f27d3d0b291c5ab59cd407-d?f=webp&region=us"
+ },
+ "vimeo:138903302": {
+  "url": "https://vimeo.com/138903302",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "138903302",
+  "embeddable": true,
+  "title": "Projecting West — Launch Trailer",
+  "thumbnail": "https://i.vimeocdn.com/video/534508487-55e730b9bbfdd12b39e745f634bf7c69a1ad86df65a1e4c90ab62ca68808c775-d?f=webp&region=us"
+ },
+ "vimeo:173006252": {
+  "url": "https://vimeo.com/173006252",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "173006252",
+  "embeddable": true,
+  "title": "Light Capsule 004 — Astoria, Oregon",
+  "thumbnail": "https://i.vimeocdn.com/video/579054318-953a168815c203077c602848730927dc605f2c82793816dd160e98dc5ab788df-d?f=webp&region=us"
+ },
+ "vimeo:183522909": {
+  "url": "https://vimeo.com/183522909",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "183522909",
+  "embeddable": true,
+  "title": "Light Capsules — LDF16: Part 1",
+  "thumbnail": "https://i.vimeocdn.com/video/592755681-b4dad9f424f863a5346c660de37662ad0bb3af442a82fcd75a37e399d91d0f46-d?f=webp&region=us"
+ },
+ "vimeo:186274660": {
+  "url": "https://vimeo.com/186274660",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "186274660",
+  "embeddable": true,
+  "title": "Light Capsule 013 — Detroit x Miss Van",
+  "thumbnail": "https://i.vimeocdn.com/video/596277175-cf178fea2434073253709c9ee93020aebc5899ae807bd70d9f9d7463a21510dc-d?f=webp&region=us"
+ },
+ "vimeo:207339810": {
+  "url": "https://vimeo.com/207339810",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "207339810",
+  "embeddable": true,
+  "title": "Light Capsules x Neon Museum",
+  "thumbnail": "https://i.vimeocdn.com/video/625035486-bea1728d064a7a7fb681c931f29df6b03f949d5d5b57b9dff4fe7549f4af9ffc-d?f=webp&region=us"
+ },
+ "vimeo:242350117": {
+  "url": "https://vimeo.com/242350117",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "242350117",
+  "embeddable": true,
+  "title": "Light Sketch — El Cosmico",
+  "thumbnail": "https://i.vimeocdn.com/video/666185253-39b56e52138b4cad002600c734c0da8ba6740b8dc68d0a04618541c6b720e9e4-d?f=webp&region=us"
+ },
+ "youtube:bXeoF4xq9x8": {
+  "url": "https://www.youtube.com/watch?v=bXeoF4xq9x8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "bXeoF4xq9x8",
+  "title": "Radiohead Polyfauna",
+  "author": "Universal Everything",
+  "thumbnail": "https://i.ytimg.com/vi/bXeoF4xq9x8/hqdefault.jpg"
+ },
+ "youtube:AOinMjQ9jo8": {
+  "url": "https://www.youtube.com/watch?v=AOinMjQ9jo8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "AOinMjQ9jo8",
+  "title": "KID A MNESIA EXHIBITION - OFFICIAL TRAILER",
+  "author": "Radiohead",
+  "thumbnail": "https://i.ytimg.com/vi/AOinMjQ9jo8/hqdefault.jpg"
+ },
+ "youtube:Uxc7Um_Lk5c": {
+  "url": "https://www.youtube.com/watch?v=Uxc7Um_Lk5c",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Uxc7Um_Lk5c",
+  "title": "Rendez-vous in Mixed Reality (Tilt Brush)",
+  "author": "Anna dream brush",
+  "thumbnail": "https://i.ytimg.com/vi/Uxc7Um_Lk5c/hqdefault.jpg"
+ },
+ "youtube:rX9G5MOdwSc": {
+  "url": "https://www.youtube.com/watch?v=rX9G5MOdwSc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "rX9G5MOdwSc",
+  "title": "Tilt Brush mixed reality: Medusa",
+  "author": "Anna dream brush",
+  "thumbnail": "https://i.ytimg.com/vi/rX9G5MOdwSc/hqdefault.jpg"
+ },
+ "youtube:Zs3n07Clw7A": {
+  "url": "https://www.youtube.com/watch?v=Zs3n07Clw7A",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Zs3n07Clw7A",
+  "title": "Live performance at the Louvre Museum Paris (virtual reality art)",
+  "author": "Anna dream brush",
+  "thumbnail": "https://i.ytimg.com/vi/Zs3n07Clw7A/hqdefault.jpg"
+ },
+ "youtube:vXLUabAA75c": {
+  "url": "https://www.youtube.com/watch?v=vXLUabAA75c",
+  "ok": true,
+  "platform": "youtube",
+  "id": "vXLUabAA75c",
+  "title": "You are strange... virtual reality painting - Mixed reality",
+  "author": "Anna dream brush",
+  "thumbnail": "https://i.ytimg.com/vi/vXLUabAA75c/hqdefault.jpg"
+ },
+ "youtube:d7Gg_NiWnZk": {
+  "url": "https://www.youtube.com/watch?v=d7Gg_NiWnZk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "d7Gg_NiWnZk",
+  "title": "The Virtual Public Art Project - Christopher Manzione",
+  "author": "VirtualPublicArt",
+  "thumbnail": "https://i.ytimg.com/vi/d7Gg_NiWnZk/hqdefault.jpg"
+ },
+ "youtube:AupAFblRwgY": {
+  "url": "https://www.youtube.com/watch?v=AupAFblRwgY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "AupAFblRwgY",
+  "title": "Shining360°",
+  "author": "Claire Hentschker",
+  "thumbnail": "https://i.ytimg.com/vi/AupAFblRwgY/hqdefault.jpg"
+ },
+ "youtube:QL7JgrXcJHw": {
+  "url": "https://www.youtube.com/watch?v=QL7JgrXcJHw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "QL7JgrXcJHw",
+  "title": "Dead Mall Chunks // Front Entrance",
+  "author": "Claire Hentschker",
+  "thumbnail": "https://i.ytimg.com/vi/QL7JgrXcJHw/hqdefault.jpg"
+ },
+ "vimeo:323247011": {
+  "url": "https://vimeo.com/323247011",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "323247011",
+  "embeddable": true,
+  "title": "GLADES",
+  "thumbnail": "https://i.vimeocdn.com/video/766299679-d3c3005a688c040213ad885a6a28ca222b15b851654f059a4db229ac9ddc8a81-d?f=webp&region=us"
+ },
+ "youtube:NqBdxiWMJEc": {
+  "url": "https://www.youtube.com/watch?v=NqBdxiWMJEc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "NqBdxiWMJEc",
+  "title": "Hussein Chalayan's Video Dress",
+  "author": "Moritz Waldemeyer",
+  "thumbnail": "https://i.ytimg.com/vi/NqBdxiWMJEc/hqdefault.jpg"
+ },
+ "youtube:dxBVrMfJtuM": {
+  "url": "https://www.youtube.com/watch?v=dxBVrMfJtuM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "dxBVrMfJtuM",
+  "title": "Snowflake sculpture at Time Square Seoul 2011",
+  "author": "Moritz Waldemeyer",
+  "thumbnail": "https://i.ytimg.com/vi/dxBVrMfJtuM/hqdefault.jpg"
+ },
+ "youtube:kiTv0UH4rRU": {
+  "url": "https://www.youtube.com/watch?v=kiTv0UH4rRU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "kiTv0UH4rRU",
+  "title": "Journey of Colour",
+  "author": "Moritz Waldemeyer",
+  "thumbnail": "https://i.ytimg.com/vi/kiTv0UH4rRU/hqdefault.jpg"
+ },
+ "youtube:N9BuisYqWZM": {
+  "url": "https://www.youtube.com/watch?v=N9BuisYqWZM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "N9BuisYqWZM",
+  "title": "Mora Constellation — Interactive Light Installation | Studio Waldemeyer",
+  "author": "Moritz Waldemeyer",
+  "thumbnail": "https://i.ytimg.com/vi/N9BuisYqWZM/hqdefault.jpg"
+ },
+ "youtube:0ns8M_J7GdM": {
+  "url": "https://www.youtube.com/watch?v=0ns8M_J7GdM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "0ns8M_J7GdM",
+  "title": "KAGAMI: Ryuichi Sakamoto & Tin Drum | Asia TOPA | 19 February – 16 March 2025",
+  "author": "Arts Centre Melbourne",
+  "thumbnail": "https://i.ytimg.com/vi/0ns8M_J7GdM/hqdefault.jpg"
+ },
+ "youtube:G9gR6JxZafo": {
+  "url": "https://www.youtube.com/watch?v=G9gR6JxZafo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "G9gR6JxZafo",
+  "title": "A Communal Vision for Mixed Reality | AN ARK at THE SHED",
+  "author": "The Shed",
+  "thumbnail": "https://i.ytimg.com/vi/G9gR6JxZafo/hqdefault.jpg"
+ },
+ "youtube:-XQ4EJjyVXI": {
+  "url": "https://www.youtube.com/watch?v=-XQ4EJjyVXI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "-XQ4EJjyVXI",
+  "title": "Wonderbook: Walking with Dinosaurs",
+  "author": "PlayStation",
+  "thumbnail": "https://i.ytimg.com/vi/-XQ4EJjyVXI/hqdefault.jpg"
+ },
+ "youtube:TEveLTmqDng": {
+  "url": "https://www.youtube.com/watch?v=TEveLTmqDng",
+  "ok": true,
+  "platform": "youtube",
+  "id": "TEveLTmqDng",
+  "title": "Start the Party E3 Trailer",
+  "author": "PlayStation",
+  "thumbnail": "https://i.ytimg.com/vi/TEveLTmqDng/hqdefault.jpg"
+ },
+ "youtube:dVnkwYGQ6OI": {
+  "url": "https://www.youtube.com/watch?v=dVnkwYGQ6OI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "dVnkwYGQ6OI",
+  "title": "Wonderbook™: Diggs Nightcrawler™",
+  "author": "PlayStation",
+  "thumbnail": "https://i.ytimg.com/vi/dVnkwYGQ6OI/hqdefault.jpg"
+ },
+ "youtube:hqplgV3_EsQ": {
+  "url": "https://www.youtube.com/watch?v=hqplgV3_EsQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "hqplgV3_EsQ",
+  "title": "THE NUMBERLYS IMAG•N•O•TRON™",
+  "author": "Simon & Schuster Books",
+  "thumbnail": "https://i.ytimg.com/vi/hqplgV3_EsQ/hqdefault.jpg"
+ },
+ "youtube:S14AVwaBF-Y": {
+  "url": "https://www.youtube.com/watch?v=S14AVwaBF-Y",
+  "ok": true,
+  "platform": "youtube",
+  "id": "S14AVwaBF-Y",
+  "title": "Wingnut AR Unreal Engine Demo on iOS | WWDC 2017",
+  "author": "Unreal Engine",
+  "thumbnail": "https://i.ytimg.com/vi/S14AVwaBF-Y/hqdefault.jpg"
+ },
+ "youtube:3WhgGopEE44": {
+  "url": "https://www.youtube.com/watch?v=3WhgGopEE44",
+  "ok": true,
+  "platform": "youtube",
+  "id": "3WhgGopEE44",
+  "title": "Super Fruit Ninja // Apple Vision Pro Launch Trailer",
+  "author": "Halfbrick Studios",
+  "thumbnail": "https://i.ytimg.com/vi/3WhgGopEE44/hqdefault.jpg"
+ },
+ "youtube:xYbj9ZNqFIQ": {
+  "url": "https://www.youtube.com/watch?v=xYbj9ZNqFIQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xYbj9ZNqFIQ",
+  "title": "E3 2011: Fruit Ninja Kinect",
+  "author": "XBOX",
+  "thumbnail": "https://i.ytimg.com/vi/xYbj9ZNqFIQ/hqdefault.jpg"
+ },
+ "youtube:SqEGR3XDSFE": {
+  "url": "https://www.youtube.com/watch?v=SqEGR3XDSFE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "SqEGR3XDSFE",
+  "title": "Introducing Loóna Puzzle Game for Apple Vision Pro",
+  "author": "Loóna app",
+  "thumbnail": "https://i.ytimg.com/vi/SqEGR3XDSFE/hqdefault.jpg"
+ },
+ "youtube:YzjiSRi28wU": {
+  "url": "https://www.youtube.com/watch?v=YzjiSRi28wU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "YzjiSRi28wU",
+  "title": "Meta Quest 3 Mixed Reality Gameplay | Synth Riders",
+  "author": "Synth Riders® VR",
+  "thumbnail": "https://i.ytimg.com/vi/YzjiSRi28wU/hqdefault.jpg"
+ },
+ "youtube:xr0T2z9WPJc": {
+  "url": "https://www.youtube.com/watch?v=xr0T2z9WPJc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xr0T2z9WPJc",
+  "title": "Unity: Duel of wizards (HoloKit X demo, AR Collaboration )",
+  "author": "Onix - Systems",
+  "thumbnail": "https://i.ytimg.com/vi/xr0T2z9WPJc/hqdefault.jpg"
+ },
+ "youtube:jwX5b-6chVI": {
+  "url": "https://www.youtube.com/watch?v=jwX5b-6chVI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "jwX5b-6chVI",
+  "title": "Unity: HoloKit X Dragon duel (Unity demo)",
+  "author": "Onix - Systems",
+  "thumbnail": "https://i.ytimg.com/vi/jwX5b-6chVI/hqdefault.jpg"
+ },
+ "youtube:MEfE7v7twsg": {
+  "url": "https://www.youtube.com/watch?v=MEfE7v7twsg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "MEfE7v7twsg",
+  "title": "Unity: Spy car (AR mode demo)",
+  "author": "Onix - Systems",
+  "thumbnail": "https://i.ytimg.com/vi/MEfE7v7twsg/hqdefault.jpg"
+ },
+ "youtube:AtCkMlrbiHk": {
+  "url": "https://www.youtube.com/watch?v=AtCkMlrbiHk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "AtCkMlrbiHk",
+  "title": "Unity: Supermarket AR Demo. AR Navigation (QR-code as anchor point)",
+  "author": "Onix - Systems",
+  "thumbnail": "https://i.ytimg.com/vi/AtCkMlrbiHk/hqdefault.jpg"
+ },
+ "youtube:BJjWhWfSc84": {
+  "url": "https://www.youtube.com/watch?v=BJjWhWfSc84",
+  "ok": true,
+  "platform": "youtube",
+  "id": "BJjWhWfSc84",
+  "title": "Skatrix - AWE - teaser",
+  "author": "Kasimir Lehto",
+  "thumbnail": "https://i.ytimg.com/vi/BJjWhWfSc84/hqdefault.jpg"
+ },
+ "x:1753158831558025589": {
+  "url": "https://x.com/Aidan_Wolf/status/1753158831558025589",
+  "ok": true,
+  "platform": "x",
+  "id": "1753158831558025589",
+  "author": "aidan",
+  "title": "excited to play Rodney Mullen's Skatrix day one on Vision Pro, congratulations @KasimirLehto &amp; @NianticEng !\nhttps://t.co/34t7CiUJ7v https://t.co/ORxbuzm3aj",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1753158061823606784/pu/img/wNowdshH-KdXJBae.jpg",
+  "has_video": true,
+  "date": "2024-02-01T20:50:12.000Z"
+ },
+ "youtube:RnnZ3YQD4ig": {
+  "url": "https://www.youtube.com/watch?v=RnnZ3YQD4ig",
+  "ok": true,
+  "platform": "youtube",
+  "id": "RnnZ3YQD4ig",
+  "title": "ZapBox: Mixed Reality for Everyone",
+  "author": "Zappar",
+  "thumbnail": "https://i.ytimg.com/vi/RnnZ3YQD4ig/hqdefault.jpg"
+ },
+ "youtube:K2XL0qnu4Z4": {
+  "url": "https://www.youtube.com/watch?v=K2XL0qnu4Z4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "K2XL0qnu4Z4",
+  "title": "Thermal Touch from Metaio  - A New Augmented Reality Interface for Wearables",
+  "author": "iamtechy",
+  "thumbnail": "https://i.ytimg.com/vi/K2XL0qnu4Z4/hqdefault.jpg"
+ },
+ "youtube:Sp1X0Q_GzZk": {
+  "url": "https://www.youtube.com/watch?v=Sp1X0Q_GzZk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Sp1X0Q_GzZk",
+  "title": "Metaio's Augmented City Demo",
+  "author": "TechCrunch",
+  "thumbnail": "https://i.ytimg.com/vi/Sp1X0Q_GzZk/hqdefault.jpg"
+ },
+ "youtube:CNkilCYnmoY": {
+  "url": "https://www.youtube.com/watch?v=CNkilCYnmoY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "CNkilCYnmoY",
+  "title": "Lego AR Kiosk",
+  "author": "Michael Monello",
+  "thumbnail": "https://i.ytimg.com/vi/CNkilCYnmoY/hqdefault.jpg"
+ },
+ "youtube:EB45O7-6Xrg": {
+  "url": "https://www.youtube.com/watch?v=EB45O7-6Xrg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "EB45O7-6Xrg",
+  "title": "Put a Spell: Learn to spell with augmented reality - Teaser#1",
+  "author": "Ogmento",
+  "thumbnail": "https://i.ytimg.com/vi/EB45O7-6Xrg/hqdefault.jpg"
+ },
+ "youtube:b5Mq5yzUMKg": {
+  "url": "https://www.youtube.com/watch?v=b5Mq5yzUMKg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "b5Mq5yzUMKg",
+  "title": "Sketch-a-race iPad2 Augmented Reality demo by Ogmento",
+  "author": "Ogmento",
+  "thumbnail": "https://i.ytimg.com/vi/b5Mq5yzUMKg/hqdefault.jpg"
+ },
+ "youtube:cuVKMHeWq9U": {
+  "url": "https://www.youtube.com/watch?v=cuVKMHeWq9U",
+  "ok": true,
+  "platform": "youtube",
+  "id": "cuVKMHeWq9U",
+  "title": "Augmented Reality Hand Sketching Games",
+  "author": "Ogmento",
+  "thumbnail": "https://i.ytimg.com/vi/cuVKMHeWq9U/hqdefault.jpg"
+ },
+ "youtube:TLiS7JrpRvs": {
+  "url": "https://www.youtube.com/watch?v=TLiS7JrpRvs",
+  "ok": true,
+  "platform": "youtube",
+  "id": "TLiS7JrpRvs",
+  "title": "In-Place Augmented Reality 3D Sketching of Mechanical Systems",
+  "author": "Ogmento",
+  "thumbnail": "https://i.ytimg.com/vi/TLiS7JrpRvs/hqdefault.jpg"
+ },
+ "youtube:9mVmw3ltFYA": {
+  "url": "https://www.youtube.com/watch?v=9mVmw3ltFYA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "9mVmw3ltFYA",
+  "title": "Paranormal Activity: Sanctuary Official Trailer",
+  "author": "Ogmento",
+  "thumbnail": "https://i.ytimg.com/vi/9mVmw3ltFYA/hqdefault.jpg"
+ },
+ "youtube:ZWfKWg1UuQ0": {
+  "url": "https://www.youtube.com/watch?v=ZWfKWg1UuQ0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ZWfKWg1UuQ0",
+  "title": "SLAM Computer Vision Tank: See Through Walls",
+  "author": "Ogmento",
+  "thumbnail": "https://i.ytimg.com/vi/ZWfKWg1UuQ0/hqdefault.jpg"
+ },
+ "youtube:8GcQ89x4AsQ": {
+  "url": "https://www.youtube.com/watch?v=8GcQ89x4AsQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "8GcQ89x4AsQ",
+  "title": "BubbleWhere - Augmented Reality Proof of Concept",
+  "author": "Ogmento",
+  "thumbnail": "https://i.ytimg.com/vi/8GcQ89x4AsQ/hqdefault.jpg"
+ },
+ "youtube:qAIdzAF_-Hc": {
+  "url": "https://www.youtube.com/watch?v=qAIdzAF_-Hc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "qAIdzAF_-Hc",
+  "title": "TickTock's Augmented Reality Powered Robot Platform Highlights",
+  "author": "Ryan Hickman",
+  "thumbnail": "https://i.ytimg.com/vi/qAIdzAF_-Hc/hqdefault.jpg"
+ },
+ "vimeo:120369920": {
+  "url": "https://vimeo.com/120369920",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "120369920",
+  "embeddable": true,
+  "title": "Wearable Device for Shaping Experience into that of a Smaller-person",
+  "thumbnail": "https://i.vimeocdn.com/video/753530477-3f261f09b680b2dbfeb45ebae32db11e95e627eaa9f36291aa33577ab19d8233-d?f=webp&region=us"
+ },
+ "vimeo:155394019": {
+  "url": "https://vimeo.com/155394019",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "155394019",
+  "embeddable": true,
+  "title": "bioSync: Synchronous Kinesthetic Experience among People",
+  "thumbnail": "https://i.vimeocdn.com/video/615734967-870e57c4e1936517509347c6a0d5f5a46be65e75e3226a734fbeae80bdaf3aac-d?f=webp&region=us"
+ },
+ "youtube:5o2wPy5hl0w": {
+  "url": "https://www.youtube.com/watch?v=5o2wPy5hl0w",
+  "ok": true,
+  "platform": "youtube",
+  "id": "5o2wPy5hl0w",
+  "title": "HandMorph: a Passive Exoskeleton that Miniaturizes Grasp (UIST 2020 Best Paper Award)",
+  "author": "HCintegration",
+  "thumbnail": "https://i.ytimg.com/vi/5o2wPy5hl0w/hqdefault.jpg"
+ },
+ "youtube:XpOKhXOXnt8": {
+  "url": "https://www.youtube.com/watch?v=XpOKhXOXnt8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "XpOKhXOXnt8",
+  "title": "DigituSync: A Dual-User Passive Exoskeleton Glove That Adaptively Shares Hand Gestures",
+  "author": "ACM SIGCHI",
+  "thumbnail": "https://i.ytimg.com/vi/XpOKhXOXnt8/hqdefault.jpg"
+ },
+ "youtube:vqpH9gNGpts": {
+  "url": "https://www.youtube.com/watch?v=vqpH9gNGpts",
+  "ok": true,
+  "platform": "youtube",
+  "id": "vqpH9gNGpts",
+  "title": "Electrical Head Actuation: Enabling Interactive Systems to Manipulate Head Orientation (CHI22)",
+  "author": "HCintegration",
+  "thumbnail": "https://i.ytimg.com/vi/vqpH9gNGpts/hqdefault.jpg"
+ },
+ "youtube:3Jn3m8z0vac": {
+  "url": "https://www.youtube.com/watch?v=3Jn3m8z0vac",
+  "ok": true,
+  "platform": "youtube",
+  "id": "3Jn3m8z0vac",
+  "title": "DexteriSync: A Hand Thermal I/O Exoskeleton for Morphing Finger Dexterity Experience",
+  "author": "Embodied Dynamics Lab",
+  "thumbnail": "https://i.ytimg.com/vi/3Jn3m8z0vac/hqdefault.jpg"
+ },
+ "youtube:i0oJNk8W3DU": {
+  "url": "https://www.youtube.com/watch?v=i0oJNk8W3DU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "i0oJNk8W3DU",
+  "title": "WireDrum: An Interpersonal and Multimodal Skill-Sharing System for an Augmented Drumming Experience",
+  "author": "Embodied Dynamics Lab",
+  "thumbnail": "https://i.ytimg.com/vi/i0oJNk8W3DU/hqdefault.jpg"
+ },
+ "youtube:T8SzuLh0eYg": {
+  "url": "https://www.youtube.com/watch?v=T8SzuLh0eYg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "T8SzuLh0eYg",
+  "title": "ISMAR 2013 - Towards Intelligent View Management",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/T8SzuLh0eYg/hqdefault.jpg"
+ },
+ "youtube:Twowop1Xf2E": {
+  "url": "https://www.youtube.com/watch?v=Twowop1Xf2E",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Twowop1Xf2E",
+  "title": "UIST Fisheye Vision ARrift (Augmented Reality Oculus Rift)",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/Twowop1Xf2E/hqdefault.jpg"
+ },
+ "youtube:9Vbs1oLpk38": {
+  "url": "https://www.youtube.com/watch?v=9Vbs1oLpk38",
+  "ok": true,
+  "platform": "youtube",
+  "id": "9Vbs1oLpk38",
+  "title": "Halo Content: Non-invasive Augmented Reality (IUI 2015)",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/9Vbs1oLpk38/hqdefault.jpg"
+ },
+ "youtube:nrCALSZQhzk": {
+  "url": "https://www.youtube.com/watch?v=nrCALSZQhzk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "nrCALSZQhzk",
+  "title": "ISMAR 2015 - ModulAR: The Augmented Reality Vision Augmentation Display",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/nrCALSZQhzk/hqdefault.jpg"
+ },
+ "youtube:4SkkWc396J4": {
+  "url": "https://www.youtube.com/watch?v=4SkkWc396J4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "4SkkWc396J4",
+  "title": "Augmented Reality Language Learning",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/4SkkWc396J4/hqdefault.jpg"
+ },
+ "youtube:i3OctJhaXKI": {
+  "url": "https://www.youtube.com/watch?v=i3OctJhaXKI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "i3OctJhaXKI",
+  "title": "Controlling Air Conditioning via Augmented Reality - IEEEVR 2021",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/i3OctJhaXKI/hqdefault.jpg"
+ },
+ "youtube:34BXp95wq3g": {
+  "url": "https://www.youtube.com/watch?v=34BXp95wq3g",
+  "ok": true,
+  "platform": "youtube",
+  "id": "34BXp95wq3g",
+  "title": "Augmented Reality Cyclocomputers",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/34BXp95wq3g/hqdefault.jpg"
+ },
+ "youtube:WoGK_Xf9cdU": {
+  "url": "https://www.youtube.com/watch?v=WoGK_Xf9cdU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "WoGK_Xf9cdU",
+  "title": "Eye Tracking for Easy Selection in AR and VR: EyeShadows",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/WoGK_Xf9cdU/hqdefault.jpg"
+ },
+ "youtube:I4Oj4WavKO8": {
+  "url": "https://www.youtube.com/watch?v=I4Oj4WavKO8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "I4Oj4WavKO8",
+  "title": "An Eye-tracked Swipe Keyboard for Hands-free Typing in Augmented and Virtual Reality",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/I4Oj4WavKO8/hqdefault.jpg"
+ },
+ "youtube:Oc91ouDpgio": {
+  "url": "https://www.youtube.com/watch?v=Oc91ouDpgio",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Oc91ouDpgio",
+  "title": "Head-tracked Subtitles Using Augmented Reality",
+  "author": "Jason Orlosky",
+  "thumbnail": "https://i.ytimg.com/vi/Oc91ouDpgio/hqdefault.jpg"
+ },
+ "youtube:dFAB1Uxz3zU": {
+  "url": "https://www.youtube.com/watch?v=dFAB1Uxz3zU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "dFAB1Uxz3zU",
+  "title": "Ukemochi: A Video See-through Food Overlay System for Eating Experience in the Metaverse (Video)",
+  "author": "Cybernetics and Reality Engineering Laboratory",
+  "thumbnail": "https://i.ytimg.com/vi/dFAB1Uxz3zU/hqdefault.jpg"
+ },
+ "youtube:z53xW_BIaZE": {
+  "url": "https://www.youtube.com/watch?v=z53xW_BIaZE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "z53xW_BIaZE",
+  "title": "麺類を対象とした視覚変調による 味覚操作インタフェースの有効性評価",
+  "author": "Cybernetics and Reality Engineering Laboratory",
+  "thumbnail": "https://i.ytimg.com/vi/z53xW_BIaZE/hqdefault.jpg"
+ },
+ "youtube:RBcTPqbDxhs": {
+  "url": "https://www.youtube.com/watch?v=RBcTPqbDxhs",
+  "ok": true,
+  "platform": "youtube",
+  "id": "RBcTPqbDxhs",
+  "title": "Third-Person Perspective Avatar Embodiment in Augmented Reality",
+  "author": "Cybernetics and Reality Engineering Laboratory",
+  "thumbnail": "https://i.ytimg.com/vi/RBcTPqbDxhs/hqdefault.jpg"
+ },
+ "youtube:vIKYG9NIeIU": {
+  "url": "https://www.youtube.com/watch?v=vIKYG9NIeIU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "vIKYG9NIeIU",
+  "title": "Concentration Improvement by Visual Noise Reduction with a Video See-Through HMD",
+  "author": "Cybernetics and Reality Engineering Laboratory",
+  "thumbnail": "https://i.ytimg.com/vi/vIKYG9NIeIU/hqdefault.jpg"
+ },
+ "youtube:xMjJayBQeFs": {
+  "url": "https://www.youtube.com/watch?v=xMjJayBQeFs",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xMjJayBQeFs",
+  "title": "A Reconfigurable Mobile Head-Mounted Display Supporting Real World Interactions",
+  "author": "ACM SIGCHI",
+  "thumbnail": "https://i.ytimg.com/vi/xMjJayBQeFs/hqdefault.jpg"
+ },
+ "youtube:zsOv6N_jAXU": {
+  "url": "https://www.youtube.com/watch?v=zsOv6N_jAXU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "zsOv6N_jAXU",
+  "title": "AR CO2 Visualization System",
+  "author": "Cybernetics and Reality Engineering Laboratory",
+  "thumbnail": "https://i.ytimg.com/vi/zsOv6N_jAXU/hqdefault.jpg"
+ },
+ "youtube:BSMTqQMACiY": {
+  "url": "https://www.youtube.com/watch?v=BSMTqQMACiY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "BSMTqQMACiY",
+  "title": "A Palm-Through Interaction Technique",
+  "author": "Cybernetics and Reality Engineering Laboratory",
+  "thumbnail": "https://i.ytimg.com/vi/BSMTqQMACiY/hqdefault.jpg"
+ },
+ "youtube:10DofnNl3Qg": {
+  "url": "https://www.youtube.com/watch?v=10DofnNl3Qg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "10DofnNl3Qg",
+  "title": "TutoriVR: A Video-Based Tutorial System for Design Applications in Virtual Reality",
+  "author": "Bala Kumaravel",
+  "thumbnail": "https://i.ytimg.com/vi/10DofnNl3Qg/hqdefault.jpg"
+ },
+ "youtube:cwnGvUfYWws": {
+  "url": "https://www.youtube.com/watch?v=cwnGvUfYWws",
+  "ok": true,
+  "platform": "youtube",
+  "id": "cwnGvUfYWws",
+  "title": "TransceiVR: Bridging Asymmetrical Communication Between VR Users and External Collaborators",
+  "author": "Bala Kumaravel",
+  "thumbnail": "https://i.ytimg.com/vi/cwnGvUfYWws/hqdefault.jpg"
+ },
+ "youtube:TX-nTcRY7gE": {
+  "url": "https://www.youtube.com/watch?v=TX-nTcRY7gE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "TX-nTcRY7gE",
+  "title": "DreamStream: Immersive and Interactive Spectating in VR",
+  "author": "Bala Kumaravel",
+  "thumbnail": "https://i.ytimg.com/vi/TX-nTcRY7gE/hqdefault.jpg"
+ },
+ "youtube:M6UB_7Cp9Lc": {
+  "url": "https://www.youtube.com/watch?v=M6UB_7Cp9Lc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "M6UB_7Cp9Lc",
+  "title": "SharedNeRF: Leveraging Photorealistic & View-dependent Rendering for Real-time, Remote Collaboration",
+  "author": "Bala Kumaravel",
+  "thumbnail": "https://i.ytimg.com/vi/M6UB_7Cp9Lc/hqdefault.jpg"
+ },
+ "youtube:wQqJHcrOado": {
+  "url": "https://www.youtube.com/watch?v=wQqJHcrOado",
+  "ok": true,
+  "platform": "youtube",
+  "id": "wQqJHcrOado",
+  "title": "SpaceBlender: Creating Context-Rich Collaborative Spaces Through Generative 3D Scene Blending",
+  "author": "Bala Kumaravel",
+  "thumbnail": "https://i.ytimg.com/vi/wQqJHcrOado/hqdefault.jpg"
+ },
+ "youtube:maqZbVyuGBA": {
+  "url": "https://www.youtube.com/watch?v=maqZbVyuGBA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "maqZbVyuGBA",
+  "title": "BlendScape: Enabling End-User Customization of Video-Conferencing Environments through Generative AI",
+  "author": "Bala Kumaravel",
+  "thumbnail": "https://i.ytimg.com/vi/maqZbVyuGBA/hqdefault.jpg"
+ },
+ "youtube:m8uUDR8DERY": {
+  "url": "https://www.youtube.com/watch?v=m8uUDR8DERY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "m8uUDR8DERY",
+  "title": "Video-Annotated Augmented Reality Assembly Tutorials",
+  "author": "ACM SIGCHI",
+  "thumbnail": "https://i.ytimg.com/vi/m8uUDR8DERY/hqdefault.jpg"
+ },
+ "youtube:2fspIrY3TXg": {
+  "url": "https://www.youtube.com/watch?v=2fspIrY3TXg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "2fspIrY3TXg",
+  "title": "TrackCap: Enabling Smartphones for 3D Interaction on Mobile Head-Mounted Displays",
+  "author": "HCI Otago",
+  "thumbnail": "https://i.ytimg.com/vi/2fspIrY3TXg/hqdefault.jpg"
+ },
+ "youtube:C2Er9RUgh8E": {
+  "url": "https://www.youtube.com/watch?v=C2Er9RUgh8E",
+  "ok": true,
+  "platform": "youtube",
+  "id": "C2Er9RUgh8E",
+  "title": "FlyAR: Augmented Reality Supported Micro Aerial Vehicle Navigation",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/C2Er9RUgh8E/hqdefault.jpg"
+ },
+ "youtube:0WiskPTmUQg": {
+  "url": "https://www.youtube.com/watch?v=0WiskPTmUQg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "0WiskPTmUQg",
+  "title": "Indirect Augmented Reality Browser for GIS Data",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/0WiskPTmUQg/hqdefault.jpg"
+ },
+ "youtube:Y65DPFWu5y8": {
+  "url": "https://www.youtube.com/watch?v=Y65DPFWu5y8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Y65DPFWu5y8",
+  "title": "Is that me? - embodiment and body perception with an augmented reality mirror.",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/Y65DPFWu5y8/hqdefault.jpg"
+ },
+ "youtube:LOskhPgXV2c": {
+  "url": "https://www.youtube.com/watch?v=LOskhPgXV2c",
+  "ok": true,
+  "platform": "youtube",
+  "id": "LOskhPgXV2c",
+  "title": "Demonstrating Mixed Reality Prototypes for Augmented Sports Experiences",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/LOskhPgXV2c/hqdefault.jpg"
+ },
+ "youtube:TR27sWmCMwk": {
+  "url": "https://www.youtube.com/watch?v=TR27sWmCMwk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "TR27sWmCMwk",
+  "title": "XRSpectator: Immersive, Augmented Sports Spectating",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/TR27sWmCMwk/hqdefault.jpg"
+ },
+ "youtube:N3THcfiXN_w": {
+  "url": "https://www.youtube.com/watch?v=N3THcfiXN_w",
+  "ok": true,
+  "platform": "youtube",
+  "id": "N3THcfiXN_w",
+  "title": "Hybrid XRSpectator: A Hybrid Tabletop XR Sports Spectating Experience",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/N3THcfiXN_w/hqdefault.jpg"
+ },
+ "youtube:xWKT-_ijJj0": {
+  "url": "https://www.youtube.com/watch?v=xWKT-_ijJj0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "xWKT-_ijJj0",
+  "title": "Train Me: Exploring Mobile Sports Capture and Replay for Immersive Sports Coaching",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/xWKT-_ijJj0/hqdefault.jpg"
+ },
+ "youtube:nGZBKTKC1us": {
+  "url": "https://www.youtube.com/watch?v=nGZBKTKC1us",
+  "ok": true,
+  "platform": "youtube",
+  "id": "nGZBKTKC1us",
+  "title": "ARephotography: Revisiting Historical Photographs using Augmented Reality",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/nGZBKTKC1us/hqdefault.jpg"
+ },
+ "youtube:TjUwRIRzCus": {
+  "url": "https://www.youtube.com/watch?v=TjUwRIRzCus",
+  "ok": true,
+  "platform": "youtube",
+  "id": "TjUwRIRzCus",
+  "title": "Sketching up the world: In situ authoring for mobile Augmented Reality",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/TjUwRIRzCus/hqdefault.jpg"
+ },
+ "youtube:s-Z17uOdfJc": {
+  "url": "https://www.youtube.com/watch?v=s-Z17uOdfJc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "s-Z17uOdfJc",
+  "title": "PanoVC: Pervasive Telepresence using Mobile Phones",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/s-Z17uOdfJc/hqdefault.jpg"
+ },
+ "youtube:kBe-pfc7PrY": {
+  "url": "https://www.youtube.com/watch?v=kBe-pfc7PrY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "kBe-pfc7PrY",
+  "title": "ChromaGlasses: Computational Glasses for Compensating Colour Blindness",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/kBe-pfc7PrY/hqdefault.jpg"
+ },
+ "youtube:cGc8vBVbIvI": {
+  "url": "https://www.youtube.com/watch?v=cGc8vBVbIvI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "cGc8vBVbIvI",
+  "title": "Neural Cameras: Learning Camera Characteristics for Coherent Mixed Reality Rendering",
+  "author": "VisualComputingAarhus",
+  "thumbnail": "https://i.ytimg.com/vi/cGc8vBVbIvI/hqdefault.jpg"
+ },
+ "youtube:oBp1wZAA8io": {
+  "url": "https://www.youtube.com/watch?v=oBp1wZAA8io",
+  "ok": true,
+  "platform": "youtube",
+  "id": "oBp1wZAA8io",
+  "title": "Investigating Saliency Modulation for Visual Guidance with Augmented Reality Glasses",
+  "author": "Tobias Langlotz",
+  "thumbnail": "https://i.ytimg.com/vi/oBp1wZAA8io/hqdefault.jpg"
+ },
+ "youtube:eMWdgB6upeU": {
+  "url": "https://www.youtube.com/watch?v=eMWdgB6upeU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "eMWdgB6upeU",
+  "title": "Virtual Replicas for Remote Assistance in Virtual and Augmented Reality",
+  "author": "Association for Computing Machinery (ACM)",
+  "thumbnail": "https://i.ytimg.com/vi/eMWdgB6upeU/hqdefault.jpg"
+ },
+ "youtube:-rtaJAc_0Ys": {
+  "url": "https://www.youtube.com/watch?v=-rtaJAc_0Ys",
+  "ok": true,
+  "platform": "youtube",
+  "id": "-rtaJAc_0Ys",
+  "title": "Hybrid UIs for Music Exploration in AR and VR",
+  "author": "Carmine Elvezio",
+  "thumbnail": "https://i.ytimg.com/vi/-rtaJAc_0Ys/hqdefault.jpg"
+ },
+ "youtube:fgm_plH4qxc": {
+  "url": "https://www.youtube.com/watch?v=fgm_plH4qxc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "fgm_plH4qxc",
+  "title": "Collaborative exploration of urban data in virtual and augmented reality",
+  "author": "Carmine Elvezio",
+  "thumbnail": "https://i.ytimg.com/vi/fgm_plH4qxc/hqdefault.jpg"
+ },
+ "youtube:eK42UEbMQvw": {
+  "url": "https://www.youtube.com/watch?v=eK42UEbMQvw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "eK42UEbMQvw",
+  "title": "Manipulating 3D Anatomic Models in Augmented Reality",
+  "author": "Carmine Elvezio",
+  "thumbnail": "https://i.ytimg.com/vi/eK42UEbMQvw/hqdefault.jpg"
+ },
+ "youtube:hDvQJrtHfmo": {
+  "url": "https://www.youtube.com/watch?v=hDvQJrtHfmo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "hDvQJrtHfmo",
+  "title": "A Hybrid RTK GNSS and SLAM Outdoor Augmented Reality System",
+  "author": "Carmine Elvezio",
+  "thumbnail": "https://i.ytimg.com/vi/hDvQJrtHfmo/hqdefault.jpg"
+ },
+ "youtube:tGW9pbQU8cY": {
+  "url": "https://www.youtube.com/watch?v=tGW9pbQU8cY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "tGW9pbQU8cY",
+  "title": "MiXR: A Hybrid AR Sheet Music Interface for Live Performance - Demo Video",
+  "author": "Carmine Elvezio",
+  "thumbnail": "https://i.ytimg.com/vi/tGW9pbQU8cY/hqdefault.jpg"
+ },
+ "youtube:8HHL9S_vhZM": {
+  "url": "https://www.youtube.com/watch?v=8HHL9S_vhZM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "8HHL9S_vhZM",
+  "title": "BBC Earth - Micro Kingdoms: Senses on Magic Leap",
+  "author": "PRELOADED",
+  "thumbnail": "https://i.ytimg.com/vi/8HHL9S_vhZM/hqdefault.jpg"
+ },
+ "youtube:ahHjSY_GLDg": {
+  "url": "https://www.youtube.com/watch?v=ahHjSY_GLDg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ahHjSY_GLDg",
+  "title": "Zooids: Building Block for Swarm User Interface",
+  "author": "Stanford SHAPE Lab",
+  "thumbnail": "https://i.ytimg.com/vi/ahHjSY_GLDg/hqdefault.jpg"
+ },
+ "youtube:Z6LSsJoDdtY": {
+  "url": "https://www.youtube.com/watch?v=Z6LSsJoDdtY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Z6LSsJoDdtY",
+  "title": "shapeShift: A Mobile Tabletop Shape Display for Tangible and Haptic Interaction",
+  "author": "Stanford SHAPE Lab",
+  "thumbnail": "https://i.ytimg.com/vi/Z6LSsJoDdtY/hqdefault.jpg"
+ },
+ "youtube:l8lis-JPIzA": {
+  "url": "https://www.youtube.com/watch?v=l8lis-JPIzA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "l8lis-JPIzA",
+  "title": "Audio Personas: Augmenting Social Perception via Body-Anchored Audio Cues",
+  "author": "Stanford SHAPE Lab",
+  "thumbnail": "https://i.ytimg.com/vi/l8lis-JPIzA/hqdefault.jpg"
+ },
+ "youtube:4UD07rFtuTw": {
+  "url": "https://www.youtube.com/watch?v=4UD07rFtuTw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "4UD07rFtuTw",
+  "title": "Audio Augmentation of Manual Interactions to Support Mindfulness",
+  "author": "Stanford SHAPE Lab",
+  "thumbnail": "https://i.ytimg.com/vi/4UD07rFtuTw/hqdefault.jpg"
+ },
+ "youtube:D2PF-r_XOX0": {
+  "url": "https://www.youtube.com/watch?v=D2PF-r_XOX0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "D2PF-r_XOX0",
+  "title": "AR popup book based on texture tracking",
+  "author": "奈良先端大 公式チャンネル・NAIST Official Channel",
+  "thumbnail": "https://i.ytimg.com/vi/D2PF-r_XOX0/hqdefault.jpg"
+ },
+ "youtube:RnupWPW1LeU": {
+  "url": "https://www.youtube.com/watch?v=RnupWPW1LeU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "RnupWPW1LeU",
+  "title": "Interactive surface with projection-based wearable system",
+  "author": "奈良先端大 公式チャンネル・NAIST Official Channel",
+  "thumbnail": "https://i.ytimg.com/vi/RnupWPW1LeU/hqdefault.jpg"
+ },
+ "youtube:7_1LXbbS43s": {
+  "url": "https://www.youtube.com/watch?v=7_1LXbbS43s",
+  "ok": true,
+  "platform": "youtube",
+  "id": "7_1LXbbS43s",
+  "title": "ISMAR 2014Demo Video:\"Towards Augmented Reality user interfaces in 3D media production\"",
+  "author": "Interactive Media Design Lab",
+  "thumbnail": "https://i.ytimg.com/vi/7_1LXbbS43s/hqdefault.jpg"
+ },
+ "youtube:8jn9clcNwf8": {
+  "url": "https://www.youtube.com/watch?v=8jn9clcNwf8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "8jn9clcNwf8",
+  "title": "HoloRoyale: A Large Scale High Fidelity Augmented Reality Game",
+  "author": "Interactive Media Design Lab",
+  "thumbnail": "https://i.ytimg.com/vi/8jn9clcNwf8/hqdefault.jpg"
+ },
+ "youtube:63Cn6Te3TgU": {
+  "url": "https://www.youtube.com/watch?v=63Cn6Te3TgU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "63Cn6Te3TgU",
+  "title": "Visuo-Haptic Augmented Reality",
+  "author": "magicvisionlab",
+  "thumbnail": "https://i.ytimg.com/vi/63Cn6Te3TgU/hqdefault.jpg"
+ },
+ "youtube:8bkMiXiYUnk": {
+  "url": "https://www.youtube.com/watch?v=8bkMiXiYUnk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "8bkMiXiYUnk",
+  "title": "An Augmented Reality Weather System",
+  "author": "magicvisionlab",
+  "thumbnail": "https://i.ytimg.com/vi/8bkMiXiYUnk/hqdefault.jpg"
+ },
+ "youtube:LoD6vhR3Ff4": {
+  "url": "https://www.youtube.com/watch?v=LoD6vhR3Ff4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "LoD6vhR3Ff4",
+  "title": "Space-Distorting Augmented Reality (ISMAR 09)",
+  "author": "magicvisionlab",
+  "thumbnail": "https://i.ytimg.com/vi/LoD6vhR3Ff4/hqdefault.jpg"
+ },
+ "youtube:du72tgJxrPY": {
+  "url": "https://www.youtube.com/watch?v=du72tgJxrPY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "du72tgJxrPY",
+  "title": "An Augmented Reality X-Ray System Based on Visual Saliency (ISMAR 2010)",
+  "author": "magicvisionlab",
+  "thumbnail": "https://i.ytimg.com/vi/du72tgJxrPY/hqdefault.jpg"
+ },
+ "youtube:1o_t1NnSYp4": {
+  "url": "https://www.youtube.com/watch?v=1o_t1NnSYp4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "1o_t1NnSYp4",
+  "title": "BurnAR: Feel the Heat (ISMAR 2012)",
+  "author": "magicvisionlab",
+  "thumbnail": "https://i.ytimg.com/vi/1o_t1NnSYp4/hqdefault.jpg"
+ },
+ "youtube:Jb2LPB_IPOs": {
+  "url": "https://www.youtube.com/watch?v=Jb2LPB_IPOs",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Jb2LPB_IPOs",
+  "title": "ClonAR: Rapid Redesign of Real-World Objects (ISMAR 2012)",
+  "author": "magicvisionlab",
+  "thumbnail": "https://i.ytimg.com/vi/Jb2LPB_IPOs/hqdefault.jpg"
+ },
+ "youtube:sE8V2RdES4A": {
+  "url": "https://www.youtube.com/watch?v=sE8V2RdES4A",
+  "ok": true,
+  "platform": "youtube",
+  "id": "sE8V2RdES4A",
+  "title": "AR Yōkai: A Situated Augmented Reality Ghost Story",
+  "author": "Interactive Media Design Lab",
+  "thumbnail": "https://i.ytimg.com/vi/sE8V2RdES4A/hqdefault.jpg"
+ },
+ "youtube:No7QF0MwSjg": {
+  "url": "https://www.youtube.com/watch?v=No7QF0MwSjg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "No7QF0MwSjg",
+  "title": "ARQuake 2006 - quake1.dv",
+  "author": "Wayne Piekarski (Tinmith)",
+  "thumbnail": "https://i.ytimg.com/vi/No7QF0MwSjg/hqdefault.jpg"
+ },
+ "youtube:7YcycATEs0k": {
+  "url": "https://www.youtube.com/watch?v=7YcycATEs0k",
+  "ok": true,
+  "platform": "youtube",
+  "id": "7YcycATEs0k",
+  "title": "Tinmith Outdoor Augmented Reality Modelling 2001 - building-capture.avi",
+  "author": "Wayne Piekarski (Tinmith)",
+  "thumbnail": "https://i.ytimg.com/vi/7YcycATEs0k/hqdefault.jpg"
+ },
+ "youtube:W2MVc-ajD4U": {
+  "url": "https://www.youtube.com/watch?v=W2MVc-ajD4U",
+  "ok": true,
+  "platform": "youtube",
+  "id": "W2MVc-ajD4U",
+  "title": "Tinmith Outdoor Augmented Reality Modelling 2002 - tinmith-glove-user-interface-oct2002.mpg",
+  "author": "Wayne Piekarski (Tinmith)",
+  "thumbnail": "https://i.ytimg.com/vi/W2MVc-ajD4U/hqdefault.jpg"
+ },
+ "youtube:tVlRwCtWKNM": {
+  "url": "https://www.youtube.com/watch?v=tVlRwCtWKNM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "tVlRwCtWKNM",
+  "title": "HOG-2006-pointing_gesture.mpg",
+  "author": "Wayne Piekarski (Tinmith)",
+  "thumbnail": "https://i.ytimg.com/vi/tVlRwCtWKNM/hqdefault.jpg"
+ },
+ "vimeo:211763949": {
+  "url": "https://vimeo.com/211763949",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "211763949",
+  "embeddable": true,
+  "title": "Extinct Systems",
+  "thumbnail": "https://i.vimeocdn.com/video/645572226-7854d1d7c0c0b4d212b46846955c08e3987915d4077ac35d0b2cf3636b182765-d?f=webp&region=us"
+ },
+ "vimeo:203962961": {
+  "url": "https://vimeo.com/203962961",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "203962961",
+  "embeddable": true,
+  "title": "Binary Garden",
+  "thumbnail": "https://i.vimeocdn.com/video/618515768-401eab93dcf18a7d54c62e2b368566bacae1a9746419723e407dd2daef1968eb-d?f=webp&region=us"
+ },
+ "youtube:tWwvSAxCbSo": {
+  "url": "https://www.youtube.com/watch?v=tWwvSAxCbSo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "tWwvSAxCbSo",
+  "title": "Egypt Augmented",
+  "author": "Lens Studio",
+  "thumbnail": "https://i.ytimg.com/vi/tWwvSAxCbSo/hqdefault.jpg"
+ },
+ "youtube:B--2KoWqBJc": {
+  "url": "https://www.youtube.com/watch?v=B--2KoWqBJc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "B--2KoWqBJc",
+  "title": "Memories Unlocked - Daft Punk x Snapchat",
+  "author": "Tristan Quil",
+  "thumbnail": "https://i.ytimg.com/vi/B--2KoWqBJc/hqdefault.jpg"
+ },
+ "youtube:F0HUDsG6lCI": {
+  "url": "https://www.youtube.com/watch?v=F0HUDsG6lCI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "F0HUDsG6lCI",
+  "title": "The Incredible Unknowns of the Louvre Museum - 6 Masterpieces in Augmented Reality",
+  "author": "Lens Studio",
+  "thumbnail": "https://i.ytimg.com/vi/F0HUDsG6lCI/hqdefault.jpg"
+ },
+ "youtube:9BntUCcWbWQ": {
+  "url": "https://www.youtube.com/watch?v=9BntUCcWbWQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "9BntUCcWbWQ",
+  "title": "Echoes - JR x Snapchat",
+  "author": "Tristan Quil",
+  "thumbnail": "https://i.ytimg.com/vi/9BntUCcWbWQ/hqdefault.jpg"
+ },
+ "youtube:kEoDvmKSR5E": {
+  "url": "https://www.youtube.com/watch?v=kEoDvmKSR5E",
+  "ok": true,
+  "platform": "youtube",
+  "id": "kEoDvmKSR5E",
+  "title": "Spectacular, the Art of Jonathan Yeo in Augmented Reality",
+  "author": "Tristan Quil",
+  "thumbnail": "https://i.ytimg.com/vi/kEoDvmKSR5E/hqdefault.jpg"
+ },
+ "youtube:-E68tunQe0E": {
+  "url": "https://www.youtube.com/watch?v=-E68tunQe0E",
+  "ok": true,
+  "platform": "youtube",
+  "id": "-E68tunQe0E",
+  "title": "Dansez versailles - Chateau de Versailles x Snapchat",
+  "author": "Tristan Quil",
+  "thumbnail": "https://i.ytimg.com/vi/-E68tunQe0E/hqdefault.jpg"
+ },
+ "youtube:QDbd0_9HcmI": {
+  "url": "https://www.youtube.com/watch?v=QDbd0_9HcmI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "QDbd0_9HcmI",
+  "title": "The Colours Of Music",
+  "author": "Lens Studio",
+  "thumbnail": "https://i.ytimg.com/vi/QDbd0_9HcmI/hqdefault.jpg"
+ },
+ "youtube:CmBZcQVAWkE": {
+  "url": "https://www.youtube.com/watch?v=CmBZcQVAWkE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "CmBZcQVAWkE",
+  "title": "Augmented Burtonesque - The Design Museum x Snapchat",
+  "author": "Tristan Quil",
+  "thumbnail": "https://i.ytimg.com/vi/CmBZcQVAWkE/hqdefault.jpg"
+ },
+ "youtube:XqI0etsPbKo": {
+  "url": "https://www.youtube.com/watch?v=XqI0etsPbKo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "XqI0etsPbKo",
+  "title": "Paris 1924 - Snapchat",
+  "author": "Tristan Quil",
+  "thumbnail": "https://i.ytimg.com/vi/XqI0etsPbKo/hqdefault.jpg"
+ },
+ "youtube:OAARNyLOYtA": {
+  "url": "https://www.youtube.com/watch?v=OAARNyLOYtA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "OAARNyLOYtA",
+  "title": "Un banquet augmenté - Château de Chantilly x Snapchat",
+  "author": "Tristan Quil",
+  "thumbnail": "https://i.ytimg.com/vi/OAARNyLOYtA/hqdefault.jpg"
+ },
+ "youtube:d4xsSAjNt70": {
+  "url": "https://www.youtube.com/watch?v=d4xsSAjNt70",
+  "ok": true,
+  "platform": "youtube",
+  "id": "d4xsSAjNt70",
+  "title": "The Fool Tour - Jain x Snapchat",
+  "author": "Tristan Quil",
+  "thumbnail": "https://i.ytimg.com/vi/d4xsSAjNt70/hqdefault.jpg"
+ },
+ "youtube:MZp15N8FcP8": {
+  "url": "https://www.youtube.com/watch?v=MZp15N8FcP8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "MZp15N8FcP8",
+  "title": "INSTAGRAM AR FILTERS🎭",
+  "author": "Anne Horel",
+  "thumbnail": "https://i.ytimg.com/vi/MZp15N8FcP8/hqdefault.jpg"
+ },
+ "youtube:YUGlBTneq0M": {
+  "url": "https://www.youtube.com/watch?v=YUGlBTneq0M",
+  "ok": true,
+  "platform": "youtube",
+  "id": "YUGlBTneq0M",
+  "title": "Intro to Creating Lenses using GenAI Tools by Anne Horel",
+  "author": "Lens Studio",
+  "thumbnail": "https://i.ytimg.com/vi/YUGlBTneq0M/hqdefault.jpg"
+ },
+ "youtube:ENRJpk_CtJ0": {
+  "url": "https://www.youtube.com/watch?v=ENRJpk_CtJ0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ENRJpk_CtJ0",
+  "title": "Become a SURF-AR | Lensathon Submission",
+  "author": "Arthur Bouffard",
+  "thumbnail": "https://i.ytimg.com/vi/ENRJpk_CtJ0/hqdefault.jpg"
+ },
+ "youtube:OBGeIARuRs8": {
+  "url": "https://www.youtube.com/watch?v=OBGeIARuRs8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "OBGeIARuRs8",
+  "title": "Intro to Furniture Madness by Arthur Bouffard",
+  "author": "Lens Studio",
+  "thumbnail": "https://i.ytimg.com/vi/OBGeIARuRs8/hqdefault.jpg"
+ },
+ "youtube:tR1acxdSXmE": {
+  "url": "https://www.youtube.com/watch?v=tR1acxdSXmE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "tR1acxdSXmE",
+  "title": "Building An AR Wizard Duelling Game",
+  "author": "Allan Yde",
+  "thumbnail": "https://i.ytimg.com/vi/tR1acxdSXmE/hqdefault.jpg"
+ },
+ "youtube:pRbeE_P1tdM": {
+  "url": "https://www.youtube.com/watch?v=pRbeE_P1tdM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "pRbeE_P1tdM",
+  "title": "How to Make an AR Lens for Blind People | Lens Studio Tutorial",
+  "author": "Allan Yde",
+  "thumbnail": "https://i.ytimg.com/vi/pRbeE_P1tdM/hqdefault.jpg"
+ },
+ "youtube:_m4zNzKxkxg": {
+  "url": "https://www.youtube.com/watch?v=_m4zNzKxkxg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "_m4zNzKxkxg",
+  "title": "MediaPipe TouchDesigner Transformation matrix example",
+  "author": "Dom Scott",
+  "thumbnail": "https://i.ytimg.com/vi/_m4zNzKxkxg/hqdefault.jpg"
+ },
+ "youtube:VN7wOe7Wvxw": {
+  "url": "https://www.youtube.com/watch?v=VN7wOe7Wvxw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "VN7wOe7Wvxw",
+  "title": "Mushroom Music",
+  "author": "Dom Scott",
+  "thumbnail": "https://i.ytimg.com/vi/VN7wOe7Wvxw/hqdefault.jpg"
+ },
+ "youtube:lGugvHPHUxQ": {
+  "url": "https://www.youtube.com/watch?v=lGugvHPHUxQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "lGugvHPHUxQ",
+  "title": "XRchitects Trailer",
+  "author": "Florencia Raffa",
+  "thumbnail": "https://i.ytimg.com/vi/lGugvHPHUxQ/hqdefault.jpg"
+ },
+ "youtube:MAyJQm34PI4": {
+  "url": "https://www.youtube.com/watch?v=MAyJQm34PI4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "MAyJQm34PI4",
+  "title": "BOULDERVERSE",
+  "author": "Florencia Raffa",
+  "thumbnail": "https://i.ytimg.com/vi/MAyJQm34PI4/hqdefault.jpg"
+ },
+ "youtube:XDcy9xj_BII": {
+  "url": "https://www.youtube.com/watch?v=XDcy9xj_BII",
+  "ok": true,
+  "platform": "youtube",
+  "id": "XDcy9xj_BII",
+  "title": "We Built an AI Storytelling Game for AR Glasses (Snap Spectacles Hackathon)",
+  "author": "Yegor Ryabtsov",
+  "thumbnail": "https://i.ytimg.com/vi/XDcy9xj_BII/hqdefault.jpg"
+ },
+ "youtube:n5buY23vU5Q": {
+  "url": "https://www.youtube.com/watch?v=n5buY23vU5Q",
+  "ok": true,
+  "platform": "youtube",
+  "id": "n5buY23vU5Q",
+  "title": "8th Wall Goes Open Source, So I Built This",
+  "author": "Yegor Ryabtsov",
+  "thumbnail": "https://i.ytimg.com/vi/n5buY23vU5Q/hqdefault.jpg"
+ },
+ "youtube:0rChMGXYRmY": {
+  "url": "https://www.youtube.com/watch?v=0rChMGXYRmY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "0rChMGXYRmY",
+  "title": "DREAM IT BUILD IT: Rift with Don Allen Stevenson III & Paige Piskin",
+  "author": "Lens Studio",
+  "thumbnail": "https://i.ytimg.com/vi/0rChMGXYRmY/hqdefault.jpg"
+ },
+ "youtube:zSeiswhKAjo": {
+  "url": "https://www.youtube.com/watch?v=zSeiswhKAjo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "zSeiswhKAjo",
+  "title": "DOC OCK AR Digital Fashion - wearable Filter",
+  "author": "Don Allen III",
+  "thumbnail": "https://i.ytimg.com/vi/zSeiswhKAjo/hqdefault.jpg"
+ },
+ "youtube:2MfLSKx-6Bo": {
+  "url": "https://www.youtube.com/watch?v=2MfLSKx-6Bo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "2MfLSKx-6Bo",
+  "title": "How to make LilNasX  fashion into an AR filter! In 4 hours Met Gala",
+  "author": "Don Allen III",
+  "thumbnail": "https://i.ytimg.com/vi/2MfLSKx-6Bo/hqdefault.jpg"
+ },
+ "youtube:LIJpe5evVjE": {
+  "url": "https://www.youtube.com/watch?v=LIJpe5evVjE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "LIJpe5evVjE",
+  "title": "Meta Quest 3 & Vision Pro work well together to make a Sandworm #applevisionpro #dune",
+  "author": "Don Allen III",
+  "thumbnail": "https://i.ytimg.com/vi/LIJpe5evVjE/hqdefault.jpg"
+ },
+ "youtube:Hb7EyIwqFaM": {
+  "url": "https://www.youtube.com/watch?v=Hb7EyIwqFaM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Hb7EyIwqFaM",
+  "title": "Math Art Snapchat Lens",
+  "author": "interactivetech1",
+  "thumbnail": "https://i.ytimg.com/vi/Hb7EyIwqFaM/hqdefault.jpg"
+ },
+ "youtube:zowNhRghLqo": {
+  "url": "https://www.youtube.com/watch?v=zowNhRghLqo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "zowNhRghLqo",
+  "title": "Realtime Image Segmentation on iOS, Keras + CoreML",
+  "author": "interactivetech1",
+  "thumbnail": "https://i.ytimg.com/vi/zowNhRghLqo/hqdefault.jpg"
+ },
+ "youtube:nr9tFXYf0Iw": {
+  "url": "https://www.youtube.com/watch?v=nr9tFXYf0Iw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "nr9tFXYf0Iw",
+  "title": "Thutmose IV's Chariot",
+  "author": "ANRK",
+  "thumbnail": "https://i.ytimg.com/vi/nr9tFXYf0Iw/hqdefault.jpg"
+ },
+ "youtube:iznOf-dOIbw": {
+  "url": "https://www.youtube.com/watch?v=iznOf-dOIbw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "iznOf-dOIbw",
+  "title": "Bosch AR // Studio ANRK",
+  "author": "ANRK",
+  "thumbnail": "https://i.ytimg.com/vi/iznOf-dOIbw/hqdefault.jpg"
+ },
+ "youtube:ku8aMvC6bbA": {
+  "url": "https://www.youtube.com/watch?v=ku8aMvC6bbA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ku8aMvC6bbA",
+  "title": "Studio ANRK - playing around with Snap lenses with volograms and superpowers",
+  "author": "Volograms",
+  "thumbnail": "https://i.ytimg.com/vi/ku8aMvC6bbA/hqdefault.jpg"
+ },
+ "youtube:6xTGrRaL66U": {
+  "url": "https://www.youtube.com/watch?v=6xTGrRaL66U",
+  "ok": true,
+  "platform": "youtube",
+  "id": "6xTGrRaL66U",
+  "title": "NormanAR",
+  "author": "Experiments with Google",
+  "thumbnail": "https://i.ytimg.com/vi/6xTGrRaL66U/hqdefault.jpg"
+ },
+ "youtube:JvzkFJW6LIU": {
+  "url": "https://www.youtube.com/watch?v=JvzkFJW6LIU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "JvzkFJW6LIU",
+  "title": "AI Experiments: Move Mirror",
+  "author": "Experiments with Google",
+  "thumbnail": "https://i.ytimg.com/vi/JvzkFJW6LIU/hqdefault.jpg"
+ },
+ "youtube:5KOTJT6A_V0": {
+  "url": "https://www.youtube.com/watch?v=5KOTJT6A_V0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "5KOTJT6A_V0",
+  "title": "Tesla Model3 in AR - Apple ARKit",
+  "author": "Jelmer Verhoog",
+  "thumbnail": "https://i.ytimg.com/vi/5KOTJT6A_V0/hqdefault.jpg"
+ },
+ "youtube:5pI7ejzbQ1k": {
+  "url": "https://www.youtube.com/watch?v=5pI7ejzbQ1k",
+  "ok": true,
+  "platform": "youtube",
+  "id": "5pI7ejzbQ1k",
+  "title": "ARKit AR Airplanes iOS iPhone app",
+  "author": "AR Airplanes",
+  "thumbnail": "https://i.ytimg.com/vi/5pI7ejzbQ1k/hqdefault.jpg"
+ },
+ "youtube:5eUai9bed5Y": {
+  "url": "https://www.youtube.com/watch?v=5eUai9bed5Y",
+  "ok": true,
+  "platform": "youtube",
+  "id": "5eUai9bed5Y",
+  "title": "TweetReality - The First AR Client for Twitter",
+  "author": "Oscar Falmer",
+  "thumbnail": "https://i.ytimg.com/vi/5eUai9bed5Y/hqdefault.jpg"
+ },
+ "youtube:Jq98OEXJSr8": {
+  "url": "https://www.youtube.com/watch?v=Jq98OEXJSr8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Jq98OEXJSr8",
+  "title": "AR Business Card Concept made with ARKit",
+  "author": "Oscar Falmer",
+  "thumbnail": "https://i.ytimg.com/vi/Jq98OEXJSr8/hqdefault.jpg"
+ },
+ "youtube:E2K052WwzpM": {
+  "url": "https://www.youtube.com/watch?v=E2K052WwzpM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "E2K052WwzpM",
+  "title": "AR Restaurant Menu Concept made with ARKit",
+  "author": "Oscar Falmer",
+  "thumbnail": "https://i.ytimg.com/vi/E2K052WwzpM/hqdefault.jpg"
+ },
+ "youtube:OPrTNGddcZ4": {
+  "url": "https://www.youtube.com/watch?v=OPrTNGddcZ4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "OPrTNGddcZ4",
+  "title": "👋 Built a Leap Motion-style hand tracker using my Meta Ray-Ban glasses",
+  "author": "Oscar Falmer",
+  "thumbnail": "https://i.ytimg.com/vi/OPrTNGddcZ4/hqdefault.jpg"
+ },
+ "youtube:LYFk25OQJ_8": {
+  "url": "https://www.youtube.com/watch?v=LYFk25OQJ_8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "LYFk25OQJ_8",
+  "title": "AR Cartoon Prototype by @JonathanForder",
+  "author": "Made With ARKit",
+  "thumbnail": "https://i.ytimg.com/vi/LYFk25OQJ_8/hqdefault.jpg"
+ },
+ "youtube:iGJlroUukaM": {
+  "url": "https://www.youtube.com/watch?v=iGJlroUukaM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "iGJlroUukaM",
+  "title": "NEXTREALITY: Play virtual down ball 🎾 in your living room with #augmentedreality by @bjarnel",
+  "author": "NEXTREALITY",
+  "thumbnail": "https://i.ytimg.com/vi/iGJlroUukaM/hqdefault.jpg"
+ },
+ "youtube:nKl2Wjto4zI": {
+  "url": "https://www.youtube.com/watch?v=nKl2Wjto4zI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "nKl2Wjto4zI",
+  "title": "Russ Maschmeyer presenting MOTIV at SVA's Open IXD",
+  "author": "Daryl Fury",
+  "thumbnail": "https://i.ytimg.com/vi/nKl2Wjto4zI/hqdefault.jpg"
+ },
+ "x:1483577639356960769": {
+  "url": "https://x.com/russ_maschmeyer/status/1483577639356960769",
+  "ok": true,
+  "platform": "x",
+  "id": "1483577639356960769",
+  "author": "Russ Maschmeyer",
+  "title": "Since joining @shopify the @primersupply team has made seamless AR shopping available to millions of merchants and buyers in the Shop app.\n\nWe're democratizing the next major evolution in commerce and",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1483576638218539008/pu/img/IQFtZgB9mQLj6n7g.jpg",
+  "has_video": true,
+  "date": "2022-01-18T23:10:47.000Z"
+ },
+ "x:1544666221181734912": {
+  "url": "https://x.com/russ_maschmeyer/status/1544666221181734912",
+  "ok": true,
+  "platform": "x",
+  "id": "1544666221181734912",
+  "author": "Russ Maschmeyer",
+  "title": "We've had fun playing with @Apple's new #RoomPlan API @Shopify \n\nWhat if your room had a reset button? ✨ https://t.co/H50aROpne7",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1544560414465200131/pu/img/UMda4sp41Zp1qcC7.jpg",
+  "has_video": true,
+  "date": "2022-07-06T12:55:00.000Z"
+ },
+ "x:1562450155080597505": {
+  "url": "https://x.com/russ_maschmeyer/status/1562450155080597505",
+  "ok": true,
+  "platform": "x",
+  "id": "1562450155080597505",
+  "author": "Russ Maschmeyer",
+  "title": "Could you tell which room was virtual? 👀\n\nTraditional AR can’t tell you how a couch feels. Our team @Shopify explored \"Reverse AR\" to wrap a virtual room around a real thing. Sit on a couch in-store w",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1562449451783843848/pu/img/_3_ylbT-8aZwN2Vl.jpg",
+  "has_video": true,
+  "date": "2022-08-24T14:42:00.000Z"
+ },
+ "x:1569700294673702912": {
+  "url": "https://x.com/russ_maschmeyer/status/1569700294673702912",
+  "ok": true,
+  "platform": "x",
+  "id": "1569700294673702912",
+  "author": "Russ Maschmeyer",
+  "title": "1/ As soon as StableDiffusion landed we dropped everything to build a GENIE! 🧞‍♂️\n\n🎙 Voice UI\n🖼 AI Art\n😎 AR previews\n🤑 Instant purchasing\n📦 On-demand production\n\nCould AI make every shopper’s wish com",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1569489871231926275/pu/img/CWfhD3vnLi76goGe.jpg",
+  "has_video": true,
+  "date": "2022-09-13T14:51:28.000Z"
+ },
+ "x:1578022121883676673": {
+  "url": "https://x.com/russ_maschmeyer/status/1578022121883676673",
+  "ok": true,
+  "platform": "x",
+  "id": "1578022121883676673",
+  "author": "Russ Maschmeyer",
+  "title": "Next-gen pro headsets from @Meta and @Apple are dropping soon. Had us curious what the future of work might look like for Shopify merchants. 🤔\n\nCould AR glasses revolutionize product photography? \n\n🧵 ",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1577891965072420865/pu/img/qJllQiWTbVaSuBd7.jpg",
+  "has_video": true,
+  "date": "2022-10-06T13:59:26.000Z"
+ },
+ "x:1592554373519142913": {
+  "url": "https://x.com/russ_maschmeyer/status/1592554373519142913",
+  "ok": true,
+  "platform": "x",
+  "id": "1592554373519142913",
+  "author": "Russ Maschmeyer",
+  "title": "Meta's new #QuestPro tracks your hands and eyes to animate avatars. Our team @Shopify wondered if the same tech could give merchants insight into shopping patterns within their store…\n\nCould VR give r",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1592551252889460736/pu/img/WHoxiyY97-XnmLop.jpg",
+  "has_video": true,
+  "date": "2022-11-15T16:25:25.000Z"
+ },
+ "x:1602706821403361282": {
+  "url": "https://x.com/russ_maschmeyer/status/1602706821403361282",
+  "ok": true,
+  "platform": "x",
+  "id": "1602706821403361282",
+  "author": "Russ Maschmeyer",
+  "title": "Been there—15 pages deep in cryptic instructions, surrounded by scattered parts feeling like 😵‍💫\n\nNow with headsets like Quest Pro enabling hands-free AR, you can see 3D build instructions right in yo",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1602694747021189120/pu/img/PkMHac6cbMPGsa-u.jpg",
+  "has_video": true,
+  "date": "2022-12-13T16:47:37.000Z"
+ },
+ "x:1613218237969494017": {
+  "url": "https://x.com/russ_maschmeyer/status/1613218237969494017",
+  "ok": true,
+  "platform": "x",
+  "id": "1613218237969494017",
+  "author": "Russ Maschmeyer",
+  "title": "Do you love perusing a store, seeing what leaps out as you go? 👀\n\nDo you love the infinite scale of the internet, with powerful filters and categories? 🗂️\n\nWhat if you could have the best of both worl",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1613215486644465664/pu/img/gvN584By_jKmJJZD.jpg",
+  "has_video": true,
+  "date": "2023-01-11T16:56:14.000Z"
+ },
+ "x:1622969682516123648": {
+  "url": "https://x.com/russ_maschmeyer/status/1622969682516123648",
+  "ok": true,
+  "platform": "x",
+  "id": "1622969682516123648",
+  "author": "Russ Maschmeyer",
+  "title": "Could AR glasses let us \"install\" apps onto any object? Hoping those @apple rumors prove true 🤞 https://t.co/KiNGBkCDYS",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1622842093571022848/pu/img/a9HQ4DiURnvXDfpM.jpg",
+  "has_video": true,
+  "date": "2023-02-07T14:45:00.000Z"
+ },
+ "x:1631350356058726411": {
+  "url": "https://x.com/russ_maschmeyer/status/1631350356058726411",
+  "ok": true,
+  "platform": "x",
+  "id": "1631350356058726411",
+  "author": "Russ Maschmeyer",
+  "title": "Johnny Lee famously hacked a Wii Remote to turn a 2D screen into a 3D window. We revived this trick in Chrome using a standard webcam.\n\nHere’s how we did it. 🧵👇 https://t.co/lcKybr3pZD",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1631348480068431874/pu/img/oRp4XEu28-G6QYsN.jpg",
+  "has_video": true,
+  "date": "2023-03-02T17:46:48.000Z"
+ },
+ "x:1633899092861652994": {
+  "url": "https://x.com/russ_maschmeyer/status/1633899092861652994",
+  "ok": true,
+  "platform": "x",
+  "id": "1633899092861652994",
+  "author": "Russ Maschmeyer",
+  "title": "Tracky topped r/Blender yesterday! 🔥 \n\nYou gotta check it out 👇\nblog: https://t.co/rUcE2Uo3Og\ngithub: https://t.co/QWfW6tDluG\ntutorial: https://t.co/WTnSGqpjG9\n\n#mocap #blender #vfx #xr https://t.co/V",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1633885578382184449/pu/img/uHqofI25UPX5ZlUc.jpg",
+  "has_video": true,
+  "date": "2023-03-09T18:34:34.000Z"
+ },
+ "x:1640741787105984512": {
+  "url": "https://x.com/russ_maschmeyer/status/1640741787105984512",
+  "ok": true,
+  "platform": "x",
+  "id": "1640741787105984512",
+  "author": "Russ Maschmeyer",
+  "title": "Every week that goes by we get closer to this. This is where we're is going. AI and AR coming together, not to block out the world, but to light it up 🌟\n\nOur latest concept takes the @shop/@openai sea",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1640511864219262978/pu/img/Oarl_U7AeNUwbejP.jpg",
+  "has_video": true,
+  "date": "2023-03-28T15:45:00.000Z"
+ },
+ "x:1650892732611858434": {
+  "url": "https://x.com/russ_maschmeyer/status/1650892732611858434",
+  "ok": true,
+  "platform": "x",
+  "id": "1650892732611858434",
+  "author": "Russ Maschmeyer",
+  "title": "Remember Cher's high-tech closet from #Clueless? We took this gem of '90s movie magic and made it real with AI and our fashionable friends, @jessiechar and @nhyphenc!  \n\nWe taught AI to recreate our f",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1650891254358761472/pu/img/-dnqRUclg7U20wi4.jpg",
+  "has_video": true,
+  "date": "2023-04-25T16:01:14.000Z"
+ },
+ "x:1671189665867776000": {
+  "url": "https://x.com/russ_maschmeyer/status/1671189665867776000",
+  "ok": true,
+  "platform": "x",
+  "id": "1671189665867776000",
+  "author": "Russ Maschmeyer",
+  "title": "Devices like Vision Pro from @Apple create exciting opportunities for product extensions. Imagine “waking” a physical product to unlock digital functionality. 🤯\n\n#ARShopping #SpatialComputing https://",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1671171710496940034/pu/img/v1B6N3eK0kqOyVCV.jpg",
+  "has_video": true,
+  "date": "2023-06-20T16:14:00.000Z"
+ },
+ "x:1691447651445940225": {
+  "url": "https://x.com/russ_maschmeyer/status/1691447651445940225",
+  "ok": true,
+  "platform": "x",
+  "id": "1691447651445940225",
+  "author": "Russ Maschmeyer",
+  "title": "Exploring Spatial Commerce opportunities @Shopify with Vision Pro on the horizon…\n\nIt's going to be fun pulling product demos right off the webpage and into the room 🤏✨🤯 https://t.co/QbDiCzPfxj",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1691319677707030528/pu/img/_-FnxgIfeTxSWmqe.jpg",
+  "has_video": true,
+  "date": "2023-08-15T13:52:00.000Z"
+ },
+ "x:1692171419944165387": {
+  "url": "https://x.com/russ_maschmeyer/status/1692171419944165387",
+  "ok": true,
+  "platform": "x",
+  "id": "1692171419944165387",
+  "author": "Russ Maschmeyer",
+  "title": "Shopping with friends IRL is a great vibe, but challenging to replicate online. 👯\n\nSpatial Commerce powered by Shopify with VisionOS and SharePlay will enable a new generation of virtual try-on experi",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1691936517898514432/pu/img/09D352SEOqYWjMny.jpg",
+  "has_video": true,
+  "date": "2023-08-17T13:48:00.000Z"
+ },
+ "x:1693984617580187914": {
+  "url": "https://x.com/russ_maschmeyer/status/1693984617580187914",
+  "ok": true,
+  "platform": "x",
+  "id": "1693984617580187914",
+  "author": "Russ Maschmeyer",
+  "title": "Spatial Commerce powered by @Shopify will help brands immerse shoppers in a product story. ⛺🌲\n\nWith support for webXR, Vision Pro will help merchants deliver fully immersive VR experiences right from ",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1693728265146597377/pu/img/ZkeqG9Jf97dmCATv.jpg",
+  "has_video": true,
+  "date": "2023-08-22T13:53:00.000Z"
+ },
+ "x:1696520326266634557": {
+  "url": "https://x.com/russ_maschmeyer/status/1696520326266634557",
+  "ok": true,
+  "platform": "x",
+  "id": "1696520326266634557",
+  "author": "Russ Maschmeyer",
+  "title": "We’re always looking at better ways to shop @Shopify. \n\nVision Pro’s intuitive eye, hand, and voice interactions could unlock instant, personalized insights when combined with the powers of conversati",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1696302096113647616/pu/img/8Nylk5FnZAafBdfj.jpg",
+  "has_video": true,
+  "date": "2023-08-29T13:49:00.000Z"
+ },
+ "youtube:ntX0cOr4r08": {
+  "url": "https://www.youtube.com/watch?v=ntX0cOr4r08",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ntX0cOr4r08",
+  "title": "ShipIt! Presents: AR/VR at Shopify",
+  "author": "Shopify Engineering",
+  "thumbnail": "https://i.ytimg.com/vi/ntX0cOr4r08/hqdefault.jpg"
+ },
+ "x:1380712221240594432": {
+  "url": "https://x.com/MikkoH/status/1380712221240594432",
+  "ok": true,
+  "platform": "x",
+  "id": "1380712221240594432",
+  "author": "Mikko Haapoja",
+  "title": "Boom that's 1️⃣0️⃣0️⃣! 🦁\n\nhttps://t.co/3aQKegBLz4 #1scanaday https://t.co/2GEBy0PB9p",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1380712045646118914/pu/img/F3QRnozOQfS5GKN7.jpg",
+  "has_video": true,
+  "date": "2021-04-10T02:40:20.000Z"
+ },
+ "x:1347920408033562624": {
+  "url": "https://x.com/MikkoH/status/1347920408033562624",
+  "ok": true,
+  "platform": "x",
+  "id": "1347920408033562624",
+  "author": "Mikko Haapoja",
+  "title": "Lidar and Photogrammetry will both fail on reflective surfaces. You can use mirrors to create some pretty trippy self portraits though\n\nhttps://t.co/oTtBbUAUdP\n\n#1scanaday https://t.co/AMP3whMg81",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1347920310960586753/pu/img/0mz04le-F6flLyOX.jpg",
+  "has_video": true,
+  "date": "2021-01-09T14:57:23.000Z"
+ },
+ "x:1377062209164079107": {
+  "url": "https://x.com/MikkoH/status/1377062209164079107",
+  "ok": true,
+  "platform": "x",
+  "id": "1377062209164079107",
+  "author": "Mikko Haapoja",
+  "title": "8️⃣8️⃣ days scanning\n\nToday's scan compares four iPhone scanner apps\n\nSeen improvements for scanning small objects with Lidar in the past 88 days but when photogrammetry works... It's so good\n\nhttps:/",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1377058932565417989/pu/img/yQc4AYWllsemFmvd.jpg",
+  "has_video": true,
+  "date": "2021-03-31T00:56:29.000Z"
+ },
+ "x:1534246133362577409": {
+  "url": "https://x.com/MikkoH/status/1534246133362577409",
+  "ok": true,
+  "platform": "x",
+  "id": "1534246133362577409",
+  "author": "Mikko Haapoja",
+  "title": "Recently I scanned my son using Object Capture while he slept. It's mind blowing that when he's older I'll be able to slide on an AR/VR headset and see what he looked like at age 2 in perfect scale. N",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1534245431181553664/pu/img/PFo9ksfwpwr3NYUi.jpg",
+  "has_video": true,
+  "date": "2022-06-07T18:49:17.000Z"
+ },
+ "x:1541529590652456964": {
+  "url": "https://x.com/MikkoH/status/1541529590652456964",
+  "ok": true,
+  "platform": "x",
+  "id": "1541529590652456964",
+  "author": "Mikko Haapoja",
+  "title": "Interesting times ahead. This is the new &lt;model&gt; running in iOS Safari https://t.co/iaYZHXXSay",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1541529524990509057/pu/img/fPmJswccyAKhcT6b.jpg",
+  "has_video": true,
+  "date": "2022-06-27T21:11:09.000Z"
  }
 }

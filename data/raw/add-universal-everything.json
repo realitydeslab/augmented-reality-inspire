@@ -1,0 +1,41 @@
+{
+ "batch": "add-universal-everything",
+ "creators": [],
+ "leads": [],
+ "works": [
+  {
+   "id": "universal-everything--ultrasound-vr-surfaces",
+   "creator_ids": [
+    "universal-everything"
+   ],
+   "title": "Ultrasound VR — virtual embellishment of surfaces",
+   "year": 2026,
+   "description": "A test from Ultrasound VR in which audio-reactive sound sculptures attach to real walls and floors, embellishing the room's surfaces and pulsing with the music.",
+   "description_zh": "Ultrasound VR 的一段测试：随音频律动的声音雕塑贴附在真实的墙面和地面上，装点房间的各个表面，并随音乐起伏。",
+   "idea_en": "Let music grow on the walls: sound becomes living ornament on real surfaces.",
+   "idea_zh": "让音乐长在墙上：声音变成附着在真实表面上的活装饰。",
+   "technique": "LiDAR scene reconstruction on Apple Vision Pro gives wall and floor planes; generative meshes are anchored to them and deformed by the audio spectrum in real time.",
+   "technique_zh": "Apple Vision Pro 上的 LiDAR 场景重建提供墙面和地面平面，生成式网格锚定在这些平面上，并实时随音频频谱变形。",
+   "exercise_en": "Detect vertical and horizontal planes with AR Foundation or WebXR, grow a pattern on each surface, and drive its scale or colour with an FFT of the microphone or a music track. Twist: give walls and floors different frequency bands, so the room becomes an equalizer.",
+   "exercise_zh": "用 AR Foundation 或 WebXR 检测竖直和水平平面，在每个表面上生长出图案，并用麦克风或音乐的 FFT 频谱驱动它的大小或颜色；变体：让墙面和地面分别响应不同的频段，把整个房间变成一台均衡器。",
+   "interaction": [
+    "spatial-mapping",
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "LiDAR",
+    "Spatial Audio",
+    "audio-reactive"
+   ],
+   "video": {
+    "url": "https://vimeo.com/1200725642"
+   },
+   "source_url": "https://www.universaleverything.com/art/ultrasound-vr"
+  }
+ ]
+}

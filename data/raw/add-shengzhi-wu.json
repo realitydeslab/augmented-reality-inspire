@@ -1,0 +1,889 @@
+{
+  "batch": "add-shengzhi-wu",
+  "creators": [
+    {
+      "id": "shengzhi-wu",
+      "name": "Shengzhi Wu",
+      "role": "Staff product designer for AR and AI (Meta; formerly Google AR and Android XR)",
+      "based": "San Francisco Bay Area, US",
+      "bio": "Interaction designer and creative coder trained at Carnegie Mellon's School of Design and ETC. At Google he designed ARCore, AR in Search, Google Lens and Android XR features; his CMU thesis prototypes on multi-device hand gestures in AR reached over a million views on Twitter and became a CHI 2020 paper.",
+      "why": "His short prototype videos turn abstract AR interaction ideas (slurping, pulling a note out of a tablet, an eyedropper for the real world) into instantly understandable, copyable patterns.",
+      "links": {
+        "site": "http://www.wushengzhi.xyz",
+        "x": "https://x.com/Wu_Shengzhi",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UC2_mCWQ8yk316aiSdwU1f-g",
+        "github": ""
+      },
+      "role_zh": "AR 与 AI 方向的资深产品设计师（Meta；曾任职 Google AR 与 Android XR）",
+      "based_zh": "旧金山湾区，美国",
+      "bio_zh": "交互设计师、创意编程者，毕业于卡内基梅隆大学设计学院，并在 ETC 修读课程。在 Google 期间参与设计 ARCore、Google 搜索 AR、Google Lens 和 Android XR；他在 CMU 的毕业设计探索 AR 中跨设备的手势交互，原型视频在 Twitter 上获得上百万次曝光，并发表为 CHI 2020 论文。",
+      "why_zh": "他用几十秒的原型视频，把抽象的 AR 交互想法（“吸管”式搬运内容、把便签从平板里拉出来、给现实世界用的取色器）变成一看就懂、马上能模仿的交互范式。",
+      "connected_to": [
+        "botao-amber-hu"
+      ],
+      "discovered_via": "botao-amber-hu"
+    }
+  ],
+  "works": [
+    {
+      "id": "shengzhi-wu--mergereality",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Mergereality: multi-device gestural interaction in AR",
+      "year": 2020,
+      "description": "His CMU thesis and CHI 2020 paper: a set of passthrough-AR prototypes where bare hands move content between tablets, monitors, smart lights and the room, each borrowing a physical affordance such as a drawer, a book page or a dropper.",
+      "description_zh": "他在 CMU 的毕业设计与 CHI 2020 论文：一组透视式 AR 原型，用徒手在平板、显示器、智能灯和房间之间搬运内容，每个交互都借用一种现实中的可供性，比如抽屉、书页或滴管。",
+      "idea_en": "Screens and devices become physical containers that your hands can reach into and pull content out of.",
+      "idea_zh": "把屏幕和设备当成可以伸手进去、把内容拉出来的实体容器。",
+      "technique": "A VR headset with a ZED Mini stereo camera provides video passthrough, Leap Motion tracks the hands, and each screen's pose is registered in Unity so that pinches near its edge hand content over between 2D and 3D.",
+      "technique_zh": "在 VR 头显上加装 ZED Mini 双目相机实现视频透视，Leap Motion 追踪双手，并在 Unity 中标定每块屏幕的位置，使手在屏幕边缘捏取时内容能在 2D 与 3D 之间交接。",
+      "exercise_en": "Pick one everyday metaphor (drawer, pocket, envelope) and prototype a phone-AR gesture that moves a photo from a laptop screen into the room using an image marker on the screen. Twist: make the reverse gesture put it back.",
+      "exercise_zh": "选一个日常隐喻（抽屉、口袋、信封），用手机 AR 和贴在笔记本屏幕上的图像标记，做一个把照片从屏幕“拿”到房间里的手势原型。变体：再设计一个反向手势把它放回去。",
+      "interaction": [
+        "hand-body",
+        "data-information",
+        "tangible-object"
+      ],
+      "platform": [
+        "headset",
+        "desktop"
+      ],
+      "tech": [
+        "Oculus Rift",
+        "ZED Mini",
+        "Leap Motion",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "s-NUr2AZ1nA",
+        "url": "https://www.youtube.com/watch?v=s-NUr2AZ1nA"
+      },
+      "source_url": "https://dl.acm.org/doi/10.1145/3334480.3383170"
+    },
+    {
+      "id": "shengzhi-wu--sticky-note-from-ipad",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Pull a sticky note out of an iPad",
+      "year": 2019,
+      "description": "He sketches a sticky note on an iPad, then pinches its edge and pulls it out of the screen into the room, where it springs free like a note slipped out of a book; a six-year-old understood it at once.",
+      "description_zh": "他在 iPad 上画一张便签，然后捏住边缘把它从屏幕里拉出来放进房间，便签像从书页里抽出的纸条一样带着弹性脱离；一个六岁的孩子也一看就会。",
+      "idea_en": "The tablet screen becomes a book you can pull pages out of, bridging 2D creation and 3D placement.",
+      "idea_zh": "把平板屏幕当成一本书，可以把画好的页面直接抽出来放进空间，连接 2D 创作和 3D 摆放。",
+      "technique": "Passthrough AR (ZED Mini on a Rift) plus Leap Motion hand tracking; the iPad's drawing is streamed to Unity and a spring joint animates the note as it leaves the registered screen plane.",
+      "technique_zh": "用 ZED Mini 加 Rift 实现透视 AR，Leap Motion 追踪手势；iPad 上的画面同步到 Unity，便签离开已标定的屏幕平面时由弹簧关节驱动动画。",
+      "exercise_en": "Build a WebAR page where a doodle drawn on the phone screen can be flicked up to become a note pinned in the room. Twist: notes stick only to vertical surfaces and fall off horizontal ones.",
+      "exercise_zh": "做一个 WebAR 页面：在手机屏幕上画的涂鸦，往上一划就变成钉在房间里的便签。变体：便签只能贴在竖直表面，放在水平面上会掉下来。",
+      "interaction": [
+        "hand-body",
+        "drawing-creation",
+        "data-information"
+      ],
+      "platform": [
+        "headset",
+        "desktop"
+      ],
+      "tech": [
+        "ZED Mini",
+        "Leap Motion",
+        "Oculus Rift",
+        "iPad",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1127773999876976640",
+        "url": "https://x.com/Wu_Shengzhi/status/1127773999876976640"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1127773999876976640"
+    },
+    {
+      "id": "shengzhi-wu--model-drawer",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Pull a 3D model out of the monitor like a drawer",
+      "year": 2019,
+      "description": "While modeling on a desktop editor, he reaches toward the monitor and slides the 3D model out as if opening a drawer, so it lands at full size on the real desk for review.",
+      "description_zh": "在桌面 3D 软件里建模时，他把手伸向显示器，像拉开抽屉一样把模型拉出来，模型以真实尺寸落在桌面上供查看。",
+      "idea_en": "A monitor is a drawer: pull to take the 3D model out into the world, push to put it back.",
+      "idea_zh": "显示器就是抽屉：拉一下把 3D 模型拿到现实中，推一下再放回去。",
+      "technique": "The monitor's position is calibrated in passthrough AR, the editor's current mesh is mirrored into Unity, and a hand-tracked pull along the screen normal drives the drawer motion (likely a constrained slider joint).",
+      "technique_zh": "在透视 AR 中标定显示器的位置，把编辑器里的当前网格同步到 Unity，手沿屏幕法线方向的拉动驱动抽屉式运动（可能用了受约束的滑动关节）。",
+      "exercise_en": "Prototype a phone-AR 'drawer' on a laptop: detect the screen with an image marker and let a swipe toward the camera slide a 3D object out onto the table. Twist: the object keeps the scale it had on screen until you let go.",
+      "exercise_zh": "在笔记本电脑上做一个手机 AR“抽屉”：用图像标记识别屏幕，朝镜头方向滑动就把 3D 物体拉到桌面上。变体：松手前物体保持屏幕上的尺寸，松手后才变成真实大小。",
+      "interaction": [
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "headset",
+        "desktop"
+      ],
+      "tech": [
+        "ZED Mini",
+        "Leap Motion",
+        "Oculus Rift",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1155725029310521344",
+        "url": "https://x.com/Wu_Shengzhi/status/1155725029310521344"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1155725029310521344"
+    },
+    {
+      "id": "shengzhi-wu--ar-eyedropper",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "AR eyedropper for smart lights",
+      "year": 2019,
+      "description": "A virtual eyedropper sucks a color from any real object with a pinch and squirts it into a smart lamp, which changes to that color, accompanied by the Deluminator sound from Harry Potter.",
+      "description_zh": "一个虚拟滴管，捏一下就从任何真实物体上吸取颜色，再挤进智能灯里，灯立刻变成同样的颜色，还配上《哈利·波特》熄灯器的音效。",
+      "idea_en": "Treat the whole visible world as a color palette you can sample and pour into connected devices.",
+      "idea_zh": "把整个看得见的世界当成调色盘，取色后倒进联网设备里。",
+      "technique": "A ray from the fingertip hits the passthrough video texture to read the pixel color, and virtual colliders registered to the real lamps send that color to the smart bulbs over their API.",
+      "technique_zh": "从指尖发出的射线命中透视视频纹理并读取像素颜色，再通过与真实灯具对齐的虚拟碰撞体，把颜色经 API 发给智能灯泡。",
+      "exercise_en": "Make a phone app that samples the color at the screen center and sends it to a smart bulb or a web page background. Twist: mix two sampled colors before pouring.",
+      "exercise_zh": "做一个手机应用：取屏幕中心的颜色，发送给智能灯泡或网页背景。变体：先吸两种颜色，混合后再倒出去。",
+      "interaction": [
+        "hand-body",
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "ZED Mini",
+        "Leap Motion",
+        "Oculus Rift",
+        "Philips Hue",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1113284624355135489",
+        "url": "https://x.com/Wu_Shengzhi/status/1113284624355135489"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1113284624355135489"
+    },
+    {
+      "id": "shengzhi-wu--slurp-in-ar",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Slurp in AR",
+      "year": 2019,
+      "description": "Inspired by the MIT Media Lab's 'Slurp' eyedropper, a hand-held virtual dropper sucks up a distant piece of content and squeezes it out somewhere else; he later revisited the idea in the DIS 2022 paper '\"Slurp\" Revisited'.",
+      "description_zh": "受 MIT Media Lab 的“Slurp”滴管启发，手中的虚拟滴管可以把远处的内容吸进来，再挤到别处；之后他在 DIS 2022 论文《“Slurp” Revisited》中重新研究了这个想法。",
+      "idea_en": "Move digital content between places with a single squeeze-and-release gesture, even when it is far away.",
+      "idea_zh": "用一次“挤压—松开”的手势在不同位置之间搬运数字内容，即使内容离得很远。",
+      "technique": "Leap Motion hand tracking drives a virtual dropper; a pinch while pointing at an object 'slurps' it into the bulb, and releasing over a target plays the reverse animation.",
+      "technique_zh": "Leap Motion 手势追踪驱动一个虚拟滴管；指向物体时捏合就把它“吸”进滴管，在目标上方松开则播放反向动画。",
+      "exercise_en": "Build a two-step phone-AR interaction: tap to suck a virtual object into a cursor, walk elsewhere, tap to squirt it out. Twist: the dropper can only hold one thing, so picking up a second swaps them.",
+      "exercise_zh": "做一个两步的手机 AR 交互：点一下把虚拟物体吸进光标，走到别处再点一下挤出来。变体：滴管一次只能装一个东西，吸第二个时会和第一个交换。",
+      "interaction": [
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Leap Motion",
+        "Oculus Rift",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1096214064873852928",
+        "url": "https://x.com/Wu_Shengzhi/status/1096214064873852928"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1096214064873852928"
+    },
+    {
+      "id": "shengzhi-wu--hand-summoned-panel",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Hand-summoned UI panel",
+      "year": 2018,
+      "description": "A floating control panel glides into arm's reach only when the hand reaches for it and drifts back into the world when done; he imagined it for controlling smart lights, with a slider inspired by Leap Motion's Cat Explorer.",
+      "description_zh": "一个悬浮的控制面板只在手伸过去时才滑到手边，用完又退回空间里；他设想用于控制智能灯，滑杆设计参考了 Leap Motion 的 Cat Explorer。",
+      "idea_en": "UI lives in the world but comes to your hand only when you need it.",
+      "idea_zh": "界面留在空间里，只在需要时才来到你手边。",
+      "technique": "A hand-proximity trigger lerps the panel between a world anchor and a hand-relative anchor, with Leap Motion pinch detection driving the slider.",
+      "technique_zh": "通过手部接近触发，让面板在世界锚点和跟随手部的锚点之间插值移动，Leap Motion 的捏合检测驱动滑杆。",
+      "exercise_en": "Create a WebXR or phone-AR panel that stays on a wall but slides toward the camera when you walk closer than one meter. Twist: it retreats faster if you look away.",
+      "exercise_zh": "做一个 WebXR 或手机 AR 面板：平时挂在墙上，你走到一米以内时它会滑向镜头。变体：你把视线移开时它会更快地退回去。",
+      "interaction": [
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Leap Motion",
+        "Oculus Rift",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1072330175554170880",
+        "url": "https://x.com/Wu_Shengzhi/status/1072330175554170880"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1072330175554170880"
+    },
+    {
+      "id": "shengzhi-wu--finger-ray",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Finger ray for far interaction",
+      "year": 2018,
+      "description": "Instead of only touching what is within arm's reach, a ray shoots from the index finger so that simple pinch gestures can select and move posters hanging far away.",
+      "description_zh": "不再只能触碰手臂范围内的东西，而是从食指射出一条射线，用简单的捏合手势选择并移动远处挂着的海报。",
+      "idea_en": "Extend bare-hand input beyond arm's reach with a pointing ray plus a pinch.",
+      "idea_zh": "用指向射线加捏合，把徒手交互扩展到手够不着的距离。",
+      "technique": "A raycast from the camera through the tracked index fingertip picks targets, and Leap Motion pinch state confirms selection and drag.",
+      "technique_zh": "从相机经过被追踪的食指指尖做射线检测来选中目标，再用 Leap Motion 的捏合状态确认选择和拖拽。",
+      "exercise_en": "Using a webcam hand tracker (e.g. MediaPipe), build a pointer that selects items on a far wall projection when you pinch. Twist: the ray bends toward the nearest target like a magnet.",
+      "exercise_zh": "用网络摄像头手部追踪（如 MediaPipe）做一个指针：捏合时选中远处墙面投影上的物体。变体：射线像磁铁一样向最近的目标弯曲。",
+      "interaction": [
+        "hand-body",
+        "gaze-attention"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Leap Motion",
+        "Oculus Rift",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1069317433511591936",
+        "url": "https://x.com/Wu_Shengzhi/status/1069317433511591936"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1069317433511591936"
+    },
+    {
+      "id": "shengzhi-wu--desk-weather-diorama",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Desk weather diorama",
+      "year": 2019,
+      "description": "A small 3D mountain diorama showing Pittsburgh's temperature and a three-day forecast sits on his real desk; he flips through days with his bare hand in passthrough AR.",
+      "description_zh": "一个小小的 3D 山体沙盘放在他真实的书桌上，显示匹兹堡的气温和三天预报；他在透视 AR 里徒手翻看每天的天气。",
+      "idea_en": "Turn a data widget into a tiny physical-feeling landscape on your desk.",
+      "idea_zh": "把数据小组件变成桌面上一块有实体感的小景观。",
+      "technique": "ZED Mini stereo passthrough on an Oculus Rift gives depth-correct AR, with Leap Motion hands pressing the day buttons on a Unity diorama.",
+      "technique_zh": "在 Oculus Rift 上用 ZED Mini 双目透视获得深度正确的 AR，Leap Motion 的手去按 Unity 沙盘上的日期按钮。",
+      "exercise_en": "Design a tabletop AR diorama that visualizes one live data feed (weather, bus times, air quality). Twist: the terrain itself must change shape with the data.",
+      "exercise_zh": "设计一个桌面 AR 沙盘，可视化一条实时数据（天气、公交时刻、空气质量）。变体：地形本身要随着数据改变形状。",
+      "interaction": [
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "ZED Mini",
+        "Leap Motion",
+        "Oculus Rift",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1107392653510037505",
+        "url": "https://x.com/Wu_Shengzhi/status/1107392653510037505"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1107392653510037505"
+    },
+    {
+      "id": "shengzhi-wu--bookmark-trigger",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Pull a bookmark to trigger AR",
+      "year": 2018,
+      "description": "Pulling a printed bookmark out of a book reveals an image target that makes AR information appear, using the book's own affordance as the trigger.",
+      "description_zh": "把一张印刷书签从书里抽出来，露出的图像标记会触发 AR 信息出现，用书本本身的可供性当作开关。",
+      "idea_en": "Use a natural physical action (pulling, opening, sliding) as the switch for AR content.",
+      "idea_zh": "用自然的物理动作（抽出、打开、滑动）作为 AR 内容的开关。",
+      "technique": "Vuforia image tracking only detects the target once it is exposed, so the physical reveal itself acts as the trigger.",
+      "technique_zh": "Vuforia 图像追踪只有在标记露出来之后才能识别，所以“露出”这个物理动作本身就是触发器。",
+      "exercise_en": "Hide an image marker inside an envelope, drawer or book and make AR content appear only when it is revealed. Twist: content changes depending on how far it is pulled out.",
+      "exercise_zh": "把图像标记藏进信封、抽屉或书里，只有被拉出来时才出现 AR 内容。变体：根据拉出的长度显示不同的内容。",
+      "interaction": [
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Vuforia",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1062782838314020865",
+        "url": "https://x.com/Wu_Shengzhi/status/1062782838314020865"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1062782838314020865"
+    },
+    {
+      "id": "shengzhi-wu--ar-dial",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "AR dial on a physical puck",
+      "year": 2018,
+      "description": "Rotating a blank physical puck on the desk turns it into a virtual dial: an AR ring and angle readout follow the real rotation.",
+      "description_zh": "在桌上转动一个空白的实体圆块，它就变成一个虚拟旋钮：AR 光环和角度读数跟着真实旋转变化。",
+      "idea_en": "Give a dumb physical object a digital function by tracking how you turn it.",
+      "idea_zh": "通过追踪你如何转动一个普通物体，赋予它数字功能。",
+      "technique": "Vuforia tracks a marker on the puck; its yaw angle relative to the base drives a ring UI and a numeric value in Unity.",
+      "technique_zh": "Vuforia 追踪圆块上的标记，它相对底座的偏航角驱动 Unity 中的环形界面和数值。",
+      "exercise_en": "Stick an image marker on a bottle cap and use its rotation in phone AR to control music volume or a light. Twist: map rotation to time and scrub through a day in the room.",
+      "exercise_zh": "在瓶盖上贴一个图像标记，用手机 AR 识别它的旋转来控制音量或灯光。变体：把旋转映射为时间，在房间里拖动一天的变化。",
+      "interaction": [
+        "tangible-object",
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Vuforia",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "N8HpIkYmpmA",
+        "url": "https://www.youtube.com/watch?v=N8HpIkYmpmA"
+      },
+      "source_url": "https://www.youtube.com/watch?v=N8HpIkYmpmA"
+    },
+    {
+      "id": "shengzhi-wu--procedural-bridges",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "ARCore procedural bridges",
+      "year": 2018,
+      "description": "An internship prototype for Google Daydream: game levels are generated from the real room, with bridges built automatically between the detected surfaces of furniture and floor.",
+      "description_zh": "他在 Google Daydream 实习时的原型：游戏关卡根据真实房间生成，在家具和地面等检测到的平面之间自动搭起桥梁。",
+      "idea_en": "Let the real room's furniture define the level layout of an AR game.",
+      "idea_zh": "让真实房间里的家具决定 AR 游戏的关卡布局。",
+      "technique": "ARCore plane detection returns surfaces at different heights; a generator connects nearby plane edges with procedurally built bridge meshes.",
+      "technique_zh": "ARCore 的平面检测返回不同高度的平面，生成器在相邻平面的边缘之间程序化地生成桥梁网格。",
+      "exercise_en": "Write a small script that places a path between every pair of detected planes in AR Foundation. Twist: bridges collapse after the player crosses them once.",
+      "exercise_zh": "用 AR Foundation 写个小脚本，在每两个检测到的平面之间生成一条通路。变体：玩家走过一次后桥就会塌掉。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1059281909166104576",
+        "url": "https://x.com/Wu_Shengzhi/status/1059281909166104576"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1059281909166104576"
+    },
+    {
+      "id": "shengzhi-wu--floating-islands",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Floating islands between real surfaces",
+      "year": 2018,
+      "description": "Another Google prototype: low-poly floating islands, towers and trees are generated to fill the gaps between detected surfaces, so the fantasy scene seems to grow out of the room.",
+      "description_zh": "另一个 Google 原型：在检测到的平面之间生成低多边形的浮岛、高塔和树木，让奇幻场景看起来像是从房间里长出来的。",
+      "idea_en": "Fill the empty space between real surfaces with generated content so AR fits the room.",
+      "idea_zh": "用生成的内容填满真实平面之间的空隙，让 AR 与房间契合。",
+      "technique": "Multiple ARCore planes are used as anchors; islands are spawned at heights between them with procedural decoration.",
+      "technique_zh": "以多个 ARCore 平面作为锚点，在它们之间的高度生成浮岛，并程序化地添加装饰。",
+      "exercise_en": "Generate a floating object at the midpoint height between the floor and a table in AR Foundation. Twist: its species depends on the distance between the two surfaces.",
+      "exercise_zh": "在 AR Foundation 中，在地面和桌面之间的中间高度生成一个漂浮物。变体：它的种类取决于两个平面之间的距离。",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1061653324536168449",
+        "url": "https://x.com/Wu_Shengzhi/status/1061653324536168449"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1061653324536168449"
+    },
+    {
+      "id": "shengzhi-wu--shadow-float",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Floating by shadow offset",
+      "year": 2018,
+      "description": "A small study showing that a virtual object reads as floating above a real surface just by separating it from its shadow, an idea inspired by designer Dixon Lo.",
+      "description_zh": "一个小研究：只要让虚拟物体和它的影子分开，看起来就像悬浮在真实桌面上，这个想法受设计师 Dixon Lo 启发。",
+      "idea_en": "Shadows are the cheapest depth cue: move the shadow and the object seems to lift off.",
+      "idea_zh": "影子是最便宜的深度线索：把影子挪开，物体就像飘了起来。",
+      "technique": "A blob shadow stays on the detected plane while the object's height is animated, so the gap between them conveys elevation.",
+      "technique_zh": "一个圆形软阴影固定在检测到的平面上，而物体高度做动画，两者之间的距离传达出高度感。",
+      "exercise_en": "Put one virtual ball on a table in phone AR and test three versions: no shadow, attached shadow, offset shadow; ask classmates which floats. Twist: make the shadow move in the opposite direction of the ball.",
+      "exercise_zh": "在手机 AR 里把一个虚拟球放在桌上，做三个版本：无影子、贴地影子、偏移影子，请同学判断哪个在飘。变体：让影子朝球的反方向移动。",
+      "interaction": [
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1059284500159578113",
+        "url": "https://x.com/Wu_Shengzhi/status/1059284500159578113"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1059284500159578113"
+    },
+    {
+      "id": "shengzhi-wu--joystick-surface-jump",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Jumping across real surfaces",
+      "year": 2018,
+      "description": "A character controlled by an on-screen joystick jumps between several real surfaces detected by ARCore, turning a table and the floor into platforms.",
+      "description_zh": "用屏幕上的虚拟摇杆控制一个角色，在 ARCore 检测到的多个真实平面之间跳跃，把桌子和地面变成平台关卡。",
+      "idea_en": "Real furniture becomes platforms in a platformer game.",
+      "idea_zh": "真实家具变成平台跳跃游戏的平台。",
+      "technique": "ARCore planes get colliders so a physics-driven character controller can land on them.",
+      "technique_zh": "给 ARCore 平面加上碰撞体，让基于物理的角色控制器可以落在上面。",
+      "exercise_en": "Build a one-button jumping game on AR Foundation planes. Twist: the character can only land on surfaces of a certain color.",
+      "exercise_zh": "在 AR Foundation 平面上做一个单键跳跃游戏。变体：角色只能落在某种颜色的表面上。",
+      "interaction": [
+        "game-play",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1058150946541395969",
+        "url": "https://x.com/Wu_Shengzhi/status/1058150946541395969"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1058150946541395969"
+    },
+    {
+      "id": "shengzhi-wu--point-cloud-face",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Dissolving point-cloud face",
+      "year": 2019,
+      "description": "A face captured as a depth image is rebuilt from a million real-time particles that dissolve and drift away.",
+      "description_zh": "用深度图捕捉的人脸由一百万个实时粒子重建，随后溶解飘散。",
+      "idea_en": "Turn a depth scan of a person into living particles.",
+      "idea_zh": "把人的深度扫描变成会流动的粒子。",
+      "technique": "The depth image is sampled into a point cache and fed to Unity's GPU Visual Effect Graph, where noise fields dissolve the particles.",
+      "technique_zh": "把深度图采样成点缓存，送入 Unity 基于 GPU 的 Visual Effect Graph，再用噪声场让粒子溶解。",
+      "exercise_en": "Use a phone's depth or a TrueDepth face capture to spawn particles on a face and blow them away with a voice volume trigger. Twist: the face reforms only when you stay silent.",
+      "exercise_zh": "用手机深度或 TrueDepth 人脸捕捉在脸上生成粒子，用声音音量把它们吹散。变体：只有保持安静时脸才会重新聚合。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Unity",
+        "Visual Effect Graph",
+        "depth camera"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1098847193283391488",
+        "url": "https://x.com/Wu_Shengzhi/status/1098847193283391488"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1098847193283391488"
+    },
+    {
+      "id": "shengzhi-wu--scent-memo",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Scent Memo",
+      "year": 2019,
+      "description": "Pointing a phone at a keepsake shows photos and memories linked to it, while a connected scent diffuser next to it releases a matching smell.",
+      "description_zh": "用手机对准一件纪念物，就会显示与它相关的照片和回忆，同时旁边联网的香氛机释放出相应的气味。",
+      "idea_en": "Objects become keys that unlock memories through images and smell.",
+      "idea_zh": "物件变成钥匙，通过图像和气味打开回忆。",
+      "technique": "Likely object or image recognition in a phone app that looks up linked media and signals a networked diffuser to release a stored scent.",
+      "technique_zh": "很可能是手机应用识别物体或图像，调出关联的媒体，并通知联网香氛机释放预设的气味。",
+      "exercise_en": "Tag three personal objects with image markers and make each one open a photo memory in phone AR. Twist: add a sound or smell cue that plays before the image appears.",
+      "exercise_zh": "给三件个人物品贴上图像标记，让每件在手机 AR 中打开一段照片回忆。变体：在图像出现之前先播放一段声音或气味提示。",
+      "interaction": [
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "image recognition",
+        "scent diffuser"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "msQrZAsQUd0",
+        "url": "https://www.youtube.com/watch?v=msQrZAsQUd0"
+      },
+      "source_url": "https://www.youtube.com/watch?v=msQrZAsQUd0"
+    },
+    {
+      "id": "shengzhi-wu--dinosaur-passage",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Dinosaur Passage: a HoloLens museum experience",
+      "year": 2017,
+      "description": "A mixed-reality museum concept in which visitors wearing HoloLens see a life-size T. rex stride through the museum hall among virtual plants.",
+      "description_zh": "一个混合现实博物馆概念：戴着 HoloLens 的参观者看到一只真实大小的霸王龙在展厅的虚拟植物间走过。",
+      "idea_en": "Bring extinct animals back at life size into the museum hall where their bones are shown.",
+      "idea_zh": "让灭绝的动物以真实大小回到展示它们骨骼的博物馆大厅。",
+      "technique": "HoloLens spatial mapping anchors an animated dinosaur and vegetation to the hall's floor so they stay put as visitors walk around.",
+      "technique_zh": "利用 HoloLens 的空间映射，把带动画的恐龙和植物锚定在大厅地面上，参观者走动时它们保持不动。",
+      "exercise_en": "Place a life-size animal model in a school hallway with phone AR and design a 3-stop guided walk around it. Twist: it reacts when a visitor gets too close.",
+      "exercise_zh": "用手机 AR 在学校走廊放一只真实大小的动物模型，并设计一条三站式导览路线。变体：参观者靠得太近时它会做出反应。",
+      "interaction": [
+        "location-geo",
+        "data-information",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HoloLens",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Z-6CveTUFYY",
+        "url": "https://www.youtube.com/watch?v=Z-6CveTUFYY"
+      },
+      "source_url": "https://www.youtube.com/watch?v=Z-6CveTUFYY"
+    },
+    {
+      "id": "shengzhi-wu--the-other-way",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "The Other Way",
+      "year": 2018,
+      "description": "An interactive VR story built in two weeks at CMU's Entertainment Technology Center: players sit on a real bicycle fitted with a Vive Tracker, so riding it carries them through the story; it was later shown at IEEE VR 2020.",
+      "description_zh": "在卡内基梅隆大学 ETC 两周内完成的互动 VR 故事：玩家骑上一辆装有 Vive Tracker 的真实自行车，骑行动作带着他们穿过故事；作品后来在 IEEE VR 2020 展示。",
+      "idea_en": "Use a real bicycle as the controller so the body feels the journey.",
+      "idea_zh": "用一辆真实的自行车当控制器，让身体感受到旅程。",
+      "technique": "A Vive Tracker on the bike mimics steering and motion in VR, so the physical prop and the virtual path stay in sync.",
+      "technique_zh": "在自行车上安装 Vive Tracker，在 VR 中模拟转向和前进，使实体道具与虚拟路线保持同步。",
+      "exercise_en": "Turn a chair, bike or scooter into a controller by taping a phone to it and reading its motion in a WebXR scene. Twist: the story branches depending on which way you lean.",
+      "exercise_zh": "把手机绑在椅子、自行车或滑板车上，在 WebXR 场景中读取它的运动，把它变成控制器。变体：故事根据你身体倾斜的方向分支。",
+      "interaction": [
+        "tangible-object",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HTC Vive",
+        "Vive Tracker",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "xcUKUKx6DDo",
+        "url": "https://www.youtube.com/watch?v=xcUKUKx6DDo"
+      },
+      "source_url": "https://www.youtube.com/watch?v=xcUKUKx6DDo"
+    },
+    {
+      "id": "shengzhi-wu--aquatic",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Aquatic: an AR journey into the deep sea",
+      "year": 2020,
+      "description": "Wearing an AR headset, a visitor sees glowing deep-sea creatures and sparks of bioluminescence bloom over the coffee table and drift through a sunny office lounge.",
+      "description_zh": "戴上 AR 头显后，参观者看到发光的深海生物和点点生物荧光在咖啡桌上绽放，并飘过阳光充足的办公室休息区。",
+      "idea_en": "Flood an ordinary room with the mysterious life of the deep sea.",
+      "idea_zh": "让普通房间充满深海里神秘的生命。",
+      "technique": "Likely a head-worn AR display anchoring particle-based creatures to a table surface, with VFX for bioluminescent trails.",
+      "technique_zh": "很可能是用头戴式 AR 显示把粒子构成的生物锚定在桌面上，并用视觉特效做出生物荧光的轨迹。",
+      "exercise_en": "Anchor one bioluminescent creature to a real object in phone AR and let it swim around that object. Twist: it only glows when the room lights are off.",
+      "exercise_zh": "在手机 AR 里把一只发光生物锚定在一个真实物体上，让它绕着物体游动。变体：只有关掉房间灯时它才会发光。",
+      "interaction": [
+        "portal-world",
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "AR headset",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "GntDf6c7xsY",
+        "url": "https://www.youtube.com/watch?v=GntDf6c7xsY"
+      },
+      "source_url": "https://www.youtube.com/watch?v=GntDf6c7xsY"
+    },
+    {
+      "id": "shengzhi-wu--robot-arm-toio",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Robot arm follows a toio car",
+      "year": 2021,
+      "description": "A small myCobot robot arm always turns to face a moving toio toy car without any computer vision, and simple AR collision effects burst when the cars meet.",
+      "description_zh": "一个小型 myCobot 机械臂始终转向正在移动的 toio 小车，完全不用计算机视觉；小车相撞时还会出现简单的 AR 碰撞特效。",
+      "idea_en": "Let robots and tiny toy cars share one coordinate system so AR effects can join the physical play.",
+      "idea_zh": "让机械臂和小玩具车共享同一个坐标系，使 AR 特效能加入实体游戏。",
+      "technique": "toio cars report their absolute position from the printed mat, which is sent over Wi-Fi to the arm's board so it computes the facing angle, while an AR layer uses the same positions for collision effects.",
+      "technique_zh": "toio 小车通过印刷底垫读出绝对位置，经 Wi-Fi 发给机械臂的控制板计算朝向角，AR 图层也用这些位置来触发碰撞特效。",
+      "exercise_en": "Use a toio, a robot vacuum or a phone on wheels as a tracked object and make a phone-AR effect follow it. Twist: the effect should predict where it will be in one second.",
+      "exercise_zh": "用 toio、扫地机器人或装在小车上的手机作为被追踪物体，让手机 AR 特效跟随它。变体：特效要预测它一秒后的位置。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone",
+        "desktop"
+      ],
+      "tech": [
+        "myCobot",
+        "toio",
+        "ROS",
+        "Arduino"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1396120848126210049",
+        "url": "https://x.com/Wu_Shengzhi/status/1396120848126210049"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1396120848126210049"
+    },
+    {
+      "id": "shengzhi-wu--google-search-edu-ar",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Google Search EDU AR",
+      "year": 2020,
+      "description": "Searching for a topic such as the muscular or skeletal system on a phone lets students place a life-size 3D anatomy model in their room; he helped launch the content and designed the auto-scale feature used by AR animals and dinosaurs in Search.",
+      "description_zh": "在手机上搜索“肌肉系统”“骨骼系统”等主题，学生就能把真实大小的 3D 解剖模型放进房间；他参与了这批内容的上线，并为搜索中的 AR 动物和恐龙设计了自动缩放功能。",
+      "idea_en": "Every search result can become an object you can walk around in your own room.",
+      "idea_zh": "每一个搜索结果都可以变成一个能在自己房间里绕着看的物体。",
+      "technique": "Search results open Scene Viewer, which places a glTF model on an ARCore plane and auto-scales it to fit the available space.",
+      "technique_zh": "搜索结果打开 Scene Viewer，把 glTF 模型放在 ARCore 平面上，并根据可用空间自动缩放。",
+      "exercise_en": "Build a model-viewer web page that shows a school topic in AR at true scale. Twist: add a button that shrinks it to fit on the desk and label what changes.",
+      "exercise_zh": "用 model-viewer 做一个网页，以真实比例在 AR 中展示一个课程主题。变体：加一个按钮把它缩小到能放在桌上，并标注哪些内容发生了变化。",
+      "interaction": [
+        "data-information",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone",
+        "web"
+      ],
+      "tech": [
+        "ARCore",
+        "Scene Viewer",
+        "Google Search"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1259007666459774977",
+        "url": "https://x.com/Wu_Shengzhi/status/1259007666459774977"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1259007666459774977"
+    },
+    {
+      "id": "shengzhi-wu--ar-athletes-search",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "AR athletes in Google Search",
+      "year": 2021,
+      "description": "Announced at Google I/O 2021: searching for athletes such as Simone Biles, Naomi Osaka or Megan Rapinoe lets you watch a captured 3D performance of their signature moves in your room; he worked on it from the early concept.",
+      "description_zh": "在 Google I/O 2021 上发布：搜索 Simone Biles、大坂直美或 Megan Rapinoe 等运动员，就能在自己的房间里观看他们招牌动作的 3D 捕捉表演；他从最初的概念阶段就参与了这个项目。",
+      "idea_en": "Bring star athletes' movements into your living room at life size.",
+      "idea_zh": "把明星运动员的动作以真实大小带进你的客厅。",
+      "technique": "Likely volumetric or motion-captured animations delivered as 3D assets through Search and placed with ARCore Scene Viewer.",
+      "technique_zh": "很可能是把体积捕捉或动作捕捉的动画作为 3D 资源，经搜索分发，并通过 ARCore Scene Viewer 放置。",
+      "exercise_en": "Record a classmate doing one move with a phone and turn it into an animated 3D figure placed in AR. Twist: let viewers slow it down to study the form.",
+      "exercise_zh": "用手机拍下同学做一个动作，把它变成放在 AR 里的 3D 动画人物。变体：让观众可以放慢速度研究动作细节。",
+      "interaction": [
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "phone",
+        "web"
+      ],
+      "tech": [
+        "ARCore",
+        "Scene Viewer",
+        "volumetric capture"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1394712843333816324",
+        "url": "https://x.com/Google/status/1394712843333816324"
+      },
+      "source_url": "https://x.com/Wu_Shengzhi/status/1394748108202860544"
+    },
+    {
+      "id": "shengzhi-wu--opportunistic-interfaces",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "Opportunistic Interfaces (Ad hoc UI)",
+      "year": 2022,
+      "description": "A CHI 2022 Interactivity with Ruofei Du, Alex Olwal and colleagues at Google: any everyday object picked up from the desk, such as a cup or a marker, instantly becomes a tangible 6DoF controller for AR content.",
+      "description_zh": "与 Google 的 Ruofei Du、Alex Olwal 等人合作的 CHI 2022 互动展示：从桌上随手拿起的任何日常物品，比如杯子或马克笔，立刻就能变成控制 AR 内容的 6DoF 实体控制器。",
+      "idea_en": "Whatever is at hand can become the controller.",
+      "idea_zh": "手边有什么，什么就能变成控制器。",
+      "technique": "Likely real-time 6DoF pose estimation of arbitrary objects from the camera, mapping object translation and rotation to UI parameters on the fly.",
+      "technique_zh": "很可能是从相机实时估计任意物体的 6DoF 位姿，并即时把物体的平移和旋转映射到界面参数上。",
+      "exercise_en": "Use a marker taped to any object and map its tilt and distance to two sliders in phone AR. Twist: let the user choose the mapping by shaking the object.",
+      "exercise_zh": "在任意物体上贴一个标记，把它的倾斜和距离映射到手机 AR 里的两个滑杆。变体：让用户通过摇动物体来选择映射方式。",
+      "interaction": [
+        "tangible-object",
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "phone",
+        "headset"
+      ],
+      "tech": [
+        "6DoF object tracking",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "r3TSYB41RMI",
+        "url": "https://www.youtube.com/watch?v=r3TSYB41RMI"
+      },
+      "source_url": "https://www.youtube.com/watch?v=r3TSYB41RMI"
+    },
+    {
+      "id": "shengzhi-wu--retrosphere",
+      "creator_ids": [
+        "shengzhi-wu"
+      ],
+      "title": "RetroSphere",
+      "year": 2023,
+      "description": "An IMWUT/UbiComp 2023 system with Google researchers: passive, battery-free controllers covered in retroreflective spheres are tracked in 3D by a self-contained AR headset.",
+      "description_zh": "与 Google 研究者合作的 IMWUT/UbiComp 2023 系统：表面覆盖回射小球的无源、无电池控制器，可以被一体式 AR 头显进行 3D 追踪。",
+      "idea_en": "Tracked AR input does not need electronics: shiny passive markers are enough.",
+      "idea_zh": "可追踪的 AR 输入不一定需要电子元件：无源反光标记就够了。",
+      "technique": "Near-infrared illumination makes the retroreflective spheres appear as bright blobs to the headset's cameras, and stereo triangulation recovers their 3D positions.",
+      "technique_zh": "近红外照明让回射小球在头显相机中呈现为亮点，再通过双目三角测量恢复它们的三维位置。",
+      "exercise_en": "Tape retroreflective stickers to a stick and track the bright spots with a phone camera and flashlight in a browser. Twist: turn the stick into a light saber or paintbrush.",
+      "exercise_zh": "在一根棍子上贴回射贴纸，在浏览器里用手机摄像头和闪光灯追踪亮点。变体：把它变成光剑或画笔。",
+      "interaction": [
+        "tangible-object",
+        "hand-body"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "retroreflective markers",
+        "IR cameras"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "y0vKO8r2PEc",
+        "url": "https://www.youtube.com/watch?v=y0vKO8r2PEc"
+      },
+      "source_url": "https://www.youtube.com/watch?v=y0vKO8r2PEc"
+    }
+  ],
+  "leads": [
+    {
+      "name": "Ruofei Du",
+      "why": "Google XR researcher behind DepthLab, Ad hoc UI, XR Blocks and many depth-based AR interaction demos; co-author with Shengzhi Wu.",
+      "link": "https://duruofei.com",
+      "found_via": "shengzhi-wu",
+      "status": "open"
+    },
+    {
+      "name": "Alex Olwal",
+      "why": "Google research lead on AR and wearable interfaces; co-author of Opportunistic Interfaces.",
+      "link": "https://olwal.com",
+      "found_via": "shengzhi-wu",
+      "status": "open"
+    },
+    {
+      "name": "Dixon Lo",
+      "why": "AR designer whose shadow-offset floating trick inspired Shengzhi Wu's prototype.",
+      "link": "https://www.linkedin.com/in/dixonlo/",
+      "found_via": "shengzhi-wu",
+      "status": "open"
+    },
+    {
+      "name": "Steve (@thearperson)",
+      "why": "XR veteran whom Shengzhi recommends; posts VR/AR blending demos such as real sofas mapped into VR.",
+      "link": "https://x.com/thearperson",
+      "found_via": "shengzhi-wu",
+      "status": "open"
+    }
+  ]
+}

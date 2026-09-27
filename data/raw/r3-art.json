@@ -1,0 +1,2499 @@
+{
+ "batch": "r3-art",
+ "creators": [
+  {
+   "id": "jun-rekimoto",
+   "name": "Jun Rekimoto",
+   "role": "HCI researcher; professor at the University of Tokyo and deputy director of Sony CSL",
+   "based": "Tokyo, Japan",
+   "bio": "Interaction researcher who built NaviCam (1995), the first handheld ID-recognition AR system, and the 2D-barcode tracking later known as CyberCode, followed by landmark work on augmented tabletops, multi-touch and telepresence at Sony CSL and the Rekimoto Lab.",
+   "why": "He invented the handheld 'magic lens' form of AR and marker tracking years before ARToolKit, and kept producing inspiring spatial-interaction ideas for three decades.",
+   "links": {
+    "site": "https://lab.rekimoto.org",
+    "x": "https://x.com/rkmt",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@RekimotoLab",
+    "github": ""
+   },
+   "role_zh": "人机交互研究者；东京大学教授、Sony CSL 副所长",
+   "based_zh": "东京，日本",
+   "bio_zh": "交互研究先驱：1995 年做出世界上第一个手持式、可识别物体 ID 的 AR 系统 NaviCam，以及后来被称为 CyberCode 的二维码追踪；之后在 Sony CSL 和暦本实验室持续产出增强桌面、多点触控和远程临场等里程碑式研究。",
+   "why_zh": "他比 ARToolKit 更早发明了“手持魔法透镜”式 AR 和标记追踪，三十年来不断提出启发空间交互的新点子。",
+   "connected_to": [
+    "shunichi-kasahara",
+    "sce-japan-studio"
+   ],
+   "discovered_via": "shunichi-kasahara"
+  },
+  {
+   "id": "myron-krueger",
+   "name": "Myron Krueger",
+   "role": "Computer artist and 'artificial reality' pioneer",
+   "based": "Connecticut, US",
+   "bio": "Computer artist who from 1969 built responsive environments such as GLOWFLOW, METAPLAY and Psychic Space, culminating in VIDEOPLACE, where live video silhouettes of visitors interact with graphic creatures and each other.",
+   "why": "VIDEOPLACE invented full-body, camera-based interaction without gloves or goggles, the direct ancestor of Kinect games, shadow installations and body-tracked AR.",
+   "links": {
+    "site": "https://en.wikipedia.org/wiki/Myron_W._Krueger",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "计算机艺术家；“人工现实”先驱",
+   "based_zh": "康涅狄格州，美国",
+   "bio_zh": "自 1969 年起创作 GLOWFLOW、METAPLAY、Psychic Space 等“会回应的环境”，最终做出 VIDEOPLACE：观众的实时视频剪影可以和图形小生物、也可以和远处的另一个人互动。",
+   "why_zh": "VIDEOPLACE 最早实现了不戴手套、不戴眼镜、只靠摄像头的全身交互，是 Kinect 游戏、影子装置和人体追踪 AR 的直系祖先。",
+   "connected_to": [
+    "scott-snibbe",
+    "camille-utterback",
+    "rafael-lozano-hemmer"
+   ],
+   "discovered_via": "scott-snibbe"
+  },
+  {
+   "id": "krzysztof-wodiczko",
+   "name": "Krzysztof Wodiczko",
+   "role": "Artist; public-projection pioneer; professor at Harvard GSD",
+   "based": "New York, US",
+   "bio": "Polish-born artist who since the early 1980s has projected images onto monuments and façades in more than eighty cities, later animating statues with the faces, hands and voices of veterans, migrants and workers.",
+   "why": "He turned architecture and monuments into speaking bodies long before projection mapping had a name, and pioneered live, wearable-camera input for public projections.",
+   "links": {
+    "site": "https://en.wikipedia.org/wiki/Krzysztof_Wodiczko",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "艺术家；公共投影先驱；哈佛大学设计研究生院教授",
+   "based_zh": "纽约，美国",
+   "bio_zh": "出生于波兰的艺术家，自 1980 年代初在八十多座城市把影像投到纪念碑和建筑立面上，后来更让雕像“借用”退伍军人、移民和工人的脸、手与声音开口说话。",
+   "why_zh": "在“投影映射”这个词出现之前，他就把建筑和雕像变成会说话的身体，并率先把头戴摄像头的实时画面接入公共投影。",
+   "connected_to": [
+    "rafael-lozano-hemmer"
+   ],
+   "discovered_via": "rafael-lozano-hemmer"
+  },
+  {
+   "id": "the-macula",
+   "name": "The Macula",
+   "role": "Projection-mapping collective",
+   "based": "Prague, Czech Republic",
+   "bio": "Czech audiovisual collective (with members such as Michal Kotek, Lukáš Duběda, Dan Gregor and Amar Mulabegović) that made some of the most-watched architectural mappings of the 2010s, from Prague's Astronomical Clock to Liverpool's Liver Building.",
+   "why": "The 600 Years showed the world that a medieval monument could be taken apart, rebuilt and set alive with light, and became a reference piece for every mapping student.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/themacula",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "投影映射艺术团体",
+   "based_zh": "布拉格，捷克",
+   "bio_zh": "捷克视听艺术团体（成员包括 Michal Kotek、Lukáš Duběda、Dan Gregor、Amar Mulabegović 等），2010 年代创作了多件传播极广的建筑投影，从布拉格天文钟到利物浦皇家利物大厦。",
+   "why_zh": "《The 600 Years》让全世界看到：一座中世纪建筑可以被光“拆开”、重建并赋予生命，至今仍是投影映射课程的必看范例。",
+   "connected_to": [
+    "initi",
+    "can-buyukberber",
+    "urbanscreen"
+   ],
+   "discovered_via": "urbanscreen"
+  },
+  {
+   "id": "initi",
+   "name": "INITI (Dan Gregor)",
+   "role": "Interactive projection studio",
+   "based": "Prague, Czech Republic",
+   "bio": "Studio of visual artist Dan Gregor, a founding member of The Macula, making interactive projection works such as the laser-pointer instrument Archifon (with musician Floex), smartphone-controlled mappings and the INITI Playground projection games.",
+   "why": "INITI turns projection mapping from a show you watch into something the crowd plays with, using laser pointers, phones and bodies as controllers.",
+   "links": {
+    "site": "https://www.initi.org",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/initializing",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "互动投影工作室",
+   "based_zh": "布拉格，捷克",
+   "bio_zh": "视觉艺术家 Dan Gregor 的工作室，他也是 The Macula 的创始成员之一；作品包括与音乐人 Floex 合作、用激光笔演奏的建筑乐器 Archifon，由观众手机控制的投影装置，以及 INITI Playground 投影游戏平台。",
+   "why_zh": "INITI 把投影映射从“看的表演”变成“大家一起玩的东西”，激光笔、手机和身体都是控制器。",
+   "connected_to": [
+    "the-macula"
+   ],
+   "discovered_via": "the-macula"
+  },
+  {
+   "id": "1024-architecture",
+   "name": "1024 Architecture (François Wunschel & Pier Schneider)",
+   "role": "Art and architecture studio for light, mapping and stage structures",
+   "based": "Paris, France",
+   "bio": "Studio founded in 2007 by François Wunschel and Pier Schneider that builds scaffold structures, stages and façades animated by projection mapping, LEDs and lasers, and co-developed ideas behind the MadMapper software.",
+   "why": "From the voice-controlled façade of Perspective Lyrique to Kinect-mapped dancers and 1D arcade games, they show how mapping becomes interactive architecture.",
+   "links": {
+    "site": "https://www.1024architecture.net",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/the1024",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "以光、投影映射和舞台结构为媒介的艺术与建筑工作室",
+   "based_zh": "巴黎，法国",
+   "bio_zh": "由 François Wunschel 与 Pier Schneider 于 2007 年创立，用脚手架结构、舞台和建筑立面承载投影映射、LED 与激光，并参与了 MadMapper 软件背后的许多想法。",
+   "why_zh": "从用声音控制建筑表情的《Perspective Lyrique》，到 Kinect 追踪舞者身体的投影、再到一维像素街机，他们展示了投影映射如何变成可互动的建筑。",
+   "connected_to": [
+    "romain-tardy",
+    "yannick-jacquet",
+    "the-macula"
+   ],
+   "discovered_via": "romain-tardy"
+  },
+  {
+   "id": "marshmallow-laser-feast",
+   "name": "Marshmallow Laser Feast",
+   "role": "Immersive art studio (Robin McNicholas, Barney Steel, Ersin Han Ersin)",
+   "based": "London, UK",
+   "bio": "London studio founded in 2011 (with Memo Akten as an early co-founder) that moved from real-time projection mapping, lasers and drone shows to multi-sensory VR and mixed-reality installations about nature, breath and perception.",
+   "why": "Their pieces make invisible systems of nature perceptible, and often mix a headset with physical touch, smell or wind, which is a strong model for embodied spatial design.",
+   "links": {
+    "site": "https://www.marshmallowlaserfeast.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/marshmallowlaserfeast",
+    "youtube": "https://www.youtube.com/@marshmallowlaserfeast",
+    "github": ""
+   },
+   "role_zh": "沉浸式艺术工作室（Robin McNicholas、Barney Steel、Ersin Han Ersin）",
+   "based_zh": "伦敦，英国",
+   "bio_zh": "2011 年成立于伦敦（Memo Akten 是早期联合创始人之一），从实时投影映射、激光和无人机表演，一路走向关于自然、呼吸和感知的多感官 VR 与混合现实装置。",
+   "why_zh": "他们的作品让自然界中看不见的系统变得可感知，并常常把头显与真实的触摸、气味或风结合起来，是具身空间设计的绝佳范例。",
+   "connected_to": [
+    "memo-akten",
+    "universal-everything",
+    "elevenplay-mikiko"
+   ],
+   "discovered_via": "elevenplay-mikiko"
+  },
+  {
+   "id": "craig-winslow",
+   "name": "Craig Winslow",
+   "role": "Light artist and projection designer",
+   "based": "Portland, Oregon, US",
+   "bio": "Designer and light artist known for Light Capsules, a series that uses projection mapping to temporarily restore faded 'ghost sign' advertisements painted on old buildings, made during an Adobe Creative Residency.",
+   "why": "Light Capsules is a perfect small-scale AR idea: point a projector at history and a wall briefly shows what it looked like decades ago.",
+   "links": {
+    "site": "https://craigwinslow.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/craigwinslow",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "光艺术家、投影设计师",
+   "based_zh": "俄勒冈州波特兰，美国",
+   "bio_zh": "设计师与光艺术家，代表作是 Light Capsules 系列：在 Adobe 创意驻留期间，他用投影映射把老建筑外墙上褪色的手绘“幽灵广告”暂时恢复成当年的样子。",
+   "why_zh": "Light Capsules 是一个完美的小尺度 AR 点子：把投影仪对准历史，墙面就短暂地回到几十年前的模样。",
+   "connected_to": [
+    "lightform"
+   ],
+   "discovered_via": "lightform"
+  },
+  {
+   "id": "stanley-donwood",
+   "name": "Stanley Donwood (with Radiohead)",
+   "role": "Artist; Radiohead's long-time visual collaborator",
+   "based": "Bath, UK",
+   "bio": "British artist who has made every Radiohead album cover since 1994 with Thom Yorke, and whose drawings became explorable worlds in the PolyFauna app and the KID A MNESIA EXHIBITION.",
+   "why": "His collaborations show how a band's visual universe can become a space you walk through, look around in and discover, rather than an image you look at.",
+   "links": {
+    "site": "https://slowlydownward.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@radiohead",
+    "github": ""
+   },
+   "role_zh": "艺术家；Radiohead 长期视觉合作者",
+   "based_zh": "巴斯，英国",
+   "bio_zh": "英国艺术家，自 1994 年起与 Thom Yorke 一起设计了 Radiohead 的所有专辑封面，他的绘画后来在 PolyFauna 应用和《KID A MNESIA EXHIBITION》中变成可探索的世界。",
+   "why_zh": "他的合作展示了乐队的视觉宇宙如何从一张被观看的图像，变成一个可以走进去、环顾四周、慢慢发现的空间。",
+   "connected_to": [
+    "universal-everything"
+   ],
+   "discovered_via": "universal-everything"
+  },
+  {
+   "id": "anna-zhilyaeva",
+   "name": "Anna Zhilyaeva (Anna Dream Brush)",
+   "role": "VR painter and live performer",
+   "based": "Paris, France",
+   "bio": "Russian-born, Paris-based artist who paints three-dimensional 'volumist' works in Tilt Brush and Open Brush, often filmed in mixed reality or performed live, including a VR interpretation of Delacroix at the Louvre.",
+   "why": "Her mixed-reality videos show a painter's body and a room filling with brushstrokes that float in real space, a clear picture of what spatial drawing can feel like.",
+   "links": {
+    "site": "https://annadreambrush.com",
+    "x": "https://x.com/AnnaDreamBrush",
+    "instagram": "https://www.instagram.com/annadreambrush/",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@Annadreambrush",
+    "github": ""
+   },
+   "role_zh": "VR 画家、现场表演艺术家",
+   "based_zh": "巴黎，法国",
+   "bio_zh": "出生于俄罗斯、定居巴黎的艺术家，用 Tilt Brush 和 Open Brush 创作三维“体积主义”绘画，常以混合现实方式拍摄或现场表演，曾在卢浮宫用 VR 重新演绎德拉克洛瓦的名作。",
+   "why_zh": "她的混合现实视频把画家的身体和漂浮在真实空间里的笔触同时呈现出来，直观地展示了“在空间中绘画”是什么感觉。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "christopher-manzione",
+   "name": "Christopher Manzione",
+   "role": "Sculptor; founder of the Virtual Public Art Project; Manifest.AR member",
+   "based": "New York, US",
+   "bio": "Sculptor who in 2010 founded the Virtual Public Art Project, one of the first platforms for site-specific AR sculpture on smartphones, and joined the Manifest.AR collective of AR artists.",
+   "why": "Placing a 30-foot virtual sculpture in Prospect Park in 2010 was an early proof that AR could be public art rather than information overlay.",
+   "links": {
+    "site": "http://www.virtualpublicartproject.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@VirtualPublicArt",
+    "github": ""
+   },
+   "role_zh": "雕塑家；Virtual Public Art Project 创始人；Manifest.AR 成员",
+   "based_zh": "纽约，美国",
+   "bio_zh": "雕塑家，2010 年创立 Virtual Public Art Project，这是最早在智能手机上展示特定场地 AR 雕塑的平台之一；他也是 AR 艺术团体 Manifest.AR 的成员。",
+   "why_zh": "2010 年在展望公园放置一座 9 米高的虚拟雕塑，早早证明了 AR 可以是公共艺术，而不只是信息叠加。",
+   "connected_to": [
+    "tamiko-thiel",
+    "will-pappenheimer",
+    "sander-veenhof",
+    "mark-skwarek",
+    "john-craig-freeman"
+   ],
+   "discovered_via": "tamiko-thiel"
+  },
+  {
+   "id": "claire-hentschker",
+   "name": "Claire Hentschker",
+   "role": "Artist working with photogrammetry, VR and found footage",
+   "based": "Pittsburgh, US",
+   "bio": "Carnegie Mellon-trained artist who extracts 3D space from film frames and found videos with photogrammetry, as in Shining360 and Dead Mall Chunks, and co-created an ARKit re-code of Jeffrey Shaw's Golden Calf with Golan Levin.",
+   "why": "She shows that any video already contains a hidden 3D space you can recover and walk through.",
+   "links": {
+    "site": "https://www.clairesophie.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCcCc2frmX0csVCuJzaSJs1Q",
+    "github": ""
+   },
+   "role_zh": "以摄影测量、VR 和现成影像为材料的艺术家",
+   "based_zh": "匹兹堡，美国",
+   "bio_zh": "毕业于卡内基梅隆大学的艺术家，用摄影测量从电影画面和网上找到的视频中提取三维空间，代表作有 Shining360、Dead Mall Chunks，还与 Golan Levin 合作用 ARKit 重新实现了 Jeffrey Shaw 的《Golden Calf》。",
+   "why_zh": "她让人看到：任何一段视频里都藏着一个可以被恢复、可以走进去的三维空间。",
+   "connected_to": [
+    "golan-levin"
+   ],
+   "discovered_via": "golan-levin"
+  },
+  {
+   "id": "nick-hardeman",
+   "name": "Nick Hardeman",
+   "role": "Creative technologist; interactive installation developer",
+   "based": "Miami, US",
+   "bio": "Creative coder and openFrameworks contributor who has worked with Design I/O on Living Library, Studio Play and Elements, and makes body- and voice-driven interactive installations of his own.",
+   "why": "GLADES turns ecological damage into something you feel through your own silhouette, a clear model for body-tracked projection with a message.",
+   "links": {
+    "site": "http://nickhardeman.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/nickhardeman",
+    "youtube": "",
+    "github": "https://github.com/NickHardeman"
+   },
+   "role_zh": "创意技术专家；互动装置开发者",
+   "based_zh": "迈阿密，美国",
+   "bio_zh": "创意编程者、openFrameworks 贡献者，曾与 Design I/O 合作 Living Library、Studio Play、Elements 等项目，也创作自己的身体与声音驱动的互动装置。",
+   "why_zh": "GLADES 让观众通过自己的剪影亲身感受生态破坏，是“带有观点的人体追踪投影”的清晰范例。",
+   "connected_to": [
+    "theo-watson",
+    "emily-gobeille"
+   ],
+   "discovered_via": "theo-watson"
+  },
+  {
+   "id": "moritz-waldemeyer",
+   "name": "Moritz Waldemeyer",
+   "role": "Designer and engineer of light, wearables and interactive installations",
+   "based": "London, UK",
+   "bio": "German-born London designer who engineered Hussein Chalayan's video and laser dresses, stage costumes for U2, OK Go and Rihanna, and interactive light sculptures for brands and galleries.",
+   "why": "He treats the body and architecture as carriers of light, from a dress that becomes a screen to a sculpture that reveals a hidden image from one viewpoint.",
+   "links": {
+    "site": "https://www.waldemeyer.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC5p17Yn9AXs390K7Ehbi65g",
+    "github": ""
+   },
+   "role_zh": "光、可穿戴与互动装置设计师兼工程师",
+   "based_zh": "伦敦，英国",
+   "bio_zh": "出生于德国、工作于伦敦的设计师，为 Hussein Chalayan 设计了视频裙和激光裙，也为 U2、OK Go、Rihanna 打造舞台服装，并为品牌和画廊创作互动光雕塑。",
+   "why_zh": "他把身体和建筑都当作光的载体：从能变成屏幕的裙子，到只有在某个视角才显露隐藏图像的雕塑。",
+   "connected_to": [
+    "chris-oshea"
+   ],
+   "discovered_via": "chris-oshea"
+  },
+  {
+   "id": "tin-drum",
+   "name": "Tin Drum (Todd Eckert)",
+   "role": "Mixed-reality production company",
+   "based": "New York, US",
+   "bio": "Studio founded by Todd Eckert that produces large-scale mixed-reality performances for headsets, including Marina Abramović's The Life, Ryuichi Sakamoto's KAGAMI and the mixed-reality play An Ark.",
+   "why": "Tin Drum proved that a whole audience wearing headsets in one room can share a live-feeling concert or play with a volumetric performer.",
+   "links": {
+    "site": "https://www.tindrum.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "混合现实制作公司",
+   "based_zh": "纽约，美国",
+   "bio_zh": "由 Todd Eckert 创办的工作室，专门为头显制作大型混合现实演出，包括 Marina Abramović 的《The Life》、坂本龙一的《KAGAMI》和混合现实戏剧《An Ark》。",
+   "why_zh": "Tin Drum 证明了：一整场戴着头显的观众可以在同一个房间里，与一位体积捕捉的表演者共享一场仿佛现场的音乐会或戏剧。",
+   "connected_to": [
+    "marina-abramovic",
+    "magic-leap-studios"
+   ],
+   "discovered_via": "marina-abramovic"
+  }
+ ],
+ "works": [
+  {
+   "id": "jun-rekimoto--navicam",
+   "creator_ids": [
+    "jun-rekimoto"
+   ],
+   "title": "NaviCam",
+   "year": 1995,
+   "description": "A palmtop screen with a small camera is held up to the world; when it sees color-coded ID tags on shelves or doors it overlays context information on the live video, like a magnifying glass for hidden data.",
+   "description_zh": "把带小摄像头的掌上屏幕举向周围环境，一旦看到书架或门上的彩色 ID 标签，就在实时画面上叠加相关信息，像一把能看见隐藏数据的放大镜。",
+   "idea_en": "Hold a screen up to the world and it reveals the information attached to things.",
+   "idea_zh": "把屏幕举向世界，它就显示出物体身上“附着”的信息。",
+   "technique": "A camera tethered to a workstation recognizes printed color-code tags in the video stream and draws text labels next to them on a handheld LCD (video see-through).",
+   "technique_zh": "摄像头画面传给工作站识别打印的彩色编码标签，再把文字标签绘制在手持液晶屏的实时视频上（视频透视式 AR）。",
+   "exercise_en": "Print five ArUco markers, stick them on classroom objects and build a phone web page that shows a different 'secret note' next to each marker when the camera sees it. Twist: make the note change depending on how close the phone is to the marker.",
+   "exercise_zh": "打印五个 ArUco 标记贴在教室物品上，做一个手机网页：摄像头看到哪个标记，就在旁边显示一条对应的“秘密便签”；变体：让便签内容随手机与标记的距离远近而变化。",
+   "interaction": [
+    "data-information",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "color-code ID tags",
+    "video see-through",
+    "handheld LCD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "S6XKPEexRbU",
+    "url": "https://www.youtube.com/watch?v=S6XKPEexRbU"
+   },
+   "source_url": "https://lab.rekimoto.org/projects/"
+  },
+  {
+   "id": "jun-rekimoto--3d-cybercode",
+   "creator_ids": [
+    "jun-rekimoto"
+   ],
+   "title": "3D CyberCode",
+   "year": 1996,
+   "description": "Printed 2D barcode cards are placed in front of a camera and each one sprouts a 3D object that stays registered to the card as it is tilted and moved, years before ARToolKit.",
+   "description_zh": "把印有二维条码的卡片放到摄像头前，每张卡片上都会“长出”一个 3D 物体，卡片倾斜移动时物体也紧紧贴合，这比 ARToolKit 还早好几年。",
+   "idea_en": "A printed code can be both an ID and a 3D anchor for virtual objects.",
+   "idea_zh": "一张印刷的码既是身份标识，也是虚拟物体的三维锚点。",
+   "technique": "The system decodes a square 2D matrix code and estimates its 3D pose from the code's corner points, then renders a model on top of the camera image.",
+   "technique_zh": "系统解码方形二维矩阵码，并根据码的四个角点估算其三维姿态，再把模型渲染到摄像头画面上。",
+   "exercise_en": "Make a deck of six marker cards with an AR library (for example AR.js or MindAR) and give each card a 3D creature; when two cards touch, spawn a third creature between them. Twist: let players trade cards so the creatures 'travel' between tables.",
+   "exercise_zh": "用 AR 库（如 AR.js 或 MindAR）做一副六张的标记卡牌，每张卡对应一只 3D 小生物；两张卡靠在一起时，在中间生成第三只；变体：让同学交换卡牌，小生物就在不同桌子之间“旅行”。",
+   "interaction": [
+    "tangible-object",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "2D matrix code",
+    "pose estimation",
+    "CyberCode"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "cNFwEMkLK4A",
+    "url": "https://www.youtube.com/watch?v=cNFwEMkLK4A"
+   },
+   "source_url": "https://lab.rekimoto.org/projects/"
+  },
+  {
+   "id": "jun-rekimoto--transvision",
+   "creator_ids": [
+    "jun-rekimoto"
+   ],
+   "title": "TransVision",
+   "year": 1996,
+   "description": "Several people around a table each hold a small palmtop display and see the same virtual 3D model sitting on the real table, so they can discuss and point at it together.",
+   "description_zh": "几个人围坐在桌边，各自拿着一块掌上屏幕，都能看到桌上“放着”同一个虚拟 3D 模型，于是可以一起讨论、一起指点。",
+   "idea_en": "Shared handheld AR: many small windows onto one virtual object in the middle of a real table.",
+   "idea_zh": "共享手持 AR：多扇小窗口同时看向真实桌面中央的同一个虚拟物体。",
+   "technique": "Each palmtop is a video see-through display whose position is tracked (likely by magnetic sensors), and a shared scene graph keeps the model in the same place for every viewer.",
+   "technique_zh": "每块掌上屏都是视频透视显示器，其位置被追踪（很可能使用电磁传感器），共享场景图保证每个观看者看到的模型位置一致。",
+   "exercise_en": "Build a two-phone shared AR scene (for example with an image target or a shared anchor) where both players see the same virtual building on a desk and can move one block each. Twist: give each phone a different 'lens' that shows a different layer of the same object.",
+   "exercise_zh": "做一个两部手机共享的 AR 场景（可用图像目标或共享锚点），两人都能在桌上看到同一栋虚拟建筑，并各自移动一块积木；变体：给每部手机一个不同的“镜头”，分别看到同一物体的不同层次。",
+   "interaction": [
+    "multiplayer-social",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "palmtop display",
+    "video see-through",
+    "shared scene"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "P9P4Zp8sijk",
+    "url": "https://www.youtube.com/watch?v=P9P4Zp8sijk"
+   },
+   "source_url": "http://lab.rekimoto.org/projects/transvision/"
+  },
+  {
+   "id": "jun-rekimoto--pick-and-drop",
+   "creator_ids": [
+    "jun-rekimoto"
+   ],
+   "title": "Pick-and-Drop",
+   "year": 1997,
+   "description": "A user taps a file on one computer with a pen, physically carries the pen to another screen and taps again to drop it there, as if data were an object you can pick up.",
+   "description_zh": "用户用笔在一台电脑上点一下某个文件，拿着笔走到另一块屏幕前再点一下，文件就被“放”了过去，好像数据是可以拿起来的实物。",
+   "idea_en": "Treat digital data like a physical thing you can pick up with one device and drop into another.",
+   "idea_zh": "把数字数据当成实物：在一个设备上拿起，到另一个设备上放下。",
+   "technique": "Each pen has a unique ID; tapping registers the pen ID and the selected object with a network server, and tapping another screen with the same pen retrieves it.",
+   "technique_zh": "每支笔有唯一 ID；点选时服务器记录“这支笔拿着哪个对象”，用同一支笔点另一块屏幕时再把对象取出来。",
+   "exercise_en": "Make two phones and a laptop share a 'grab' gesture: pinch on one screen to pick an image, then tap another device within five seconds to drop it there. Twist: let the image 'spill' if you walk too slowly.",
+   "exercise_zh": "让两部手机和一台笔记本共享一个“抓取”手势：在一块屏上捏合拿起一张图片，五秒内点另一台设备即可放下；变体：如果走得太慢，图片就会“洒出来”。",
+   "interaction": [
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "pen ID",
+    "networked displays",
+    "ubiquitous computing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "rFw9aMubL-Y",
+    "url": "https://www.youtube.com/watch?v=rFw9aMubL-Y"
+   },
+   "source_url": "http://www.sonycsl.co.jp/person/rekimoto/pickdrop/"
+  },
+  {
+   "id": "jun-rekimoto--augmented-surfaces",
+   "creator_ids": [
+    "jun-rekimoto"
+   ],
+   "title": "Augmented Surfaces",
+   "year": 1999,
+   "description": "Laptops placed on a projected table and wall become part of one continuous workspace: you drag a document off the laptop screen onto the table, and physical objects with tags get digital data attached to them.",
+   "description_zh": "把笔记本电脑放在投影桌面上，笔记本、桌面和墙面就连成一个连续的工作空间：文档可以从笔记本屏幕直接拖到桌面上，贴了标签的实物也能被“挂”上数字数据。",
+   "idea_en": "The whole room becomes one desktop: data flows off screens onto tables, walls and objects.",
+   "idea_zh": "整间屋子变成一个大桌面：数据可以从屏幕流到桌子、墙面和实物上。",
+   "technique": "Ceiling cameras recognize laptops and tagged objects and track their positions, while projectors draw the shared workspace; a 'hyperdragging' cursor crosses from the laptop into the projection.",
+   "technique_zh": "天花板上的摄像头识别并追踪笔记本和带标签的物体，投影仪绘制共享工作区；“超级拖拽”光标可以从笔记本屏幕一路移到投影区域。",
+   "exercise_en": "Point a projector and webcam at a desk and let students drag a picture from a laptop browser onto the projected table, where it sticks to a paper marker. Twist: when two markers touch, merge their pictures.",
+   "exercise_zh": "把投影仪和摄像头对准一张桌子，让学生把浏览器里的图片从笔记本“拖”到投影桌面上，并粘在一张纸质标记上；变体：两个标记碰到一起时，把它们的图片合成一张。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "ceiling camera",
+    "projector",
+    "visual markers"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "r4g_fvnjVCA",
+    "url": "https://www.youtube.com/watch?v=r4g_fvnjVCA"
+   },
+   "source_url": "http://www.sonycsl.co.jp/person/rekimoto/as/"
+  },
+  {
+   "id": "jun-rekimoto--smartskin",
+   "creator_ids": [
+    "jun-rekimoto"
+   ],
+   "title": "SmartSkin",
+   "year": 2002,
+   "description": "A table surface senses several hands and fingers at once, even hovering just above it, so people can knead, spread and push projected shapes with both hands.",
+   "description_zh": "桌面能同时感应多只手、多根手指，甚至能感应悬停在表面上方的手，人们可以用双手揉、拉、推动投影出来的图形。",
+   "idea_en": "Make any surface feel your whole hands, not just one pointer.",
+   "idea_zh": "让任何表面都能感知整只手，而不只是一个光标。",
+   "technique": "A grid of transmitter and receiver electrodes under the surface measures capacitance changes caused by nearby hands, producing a proximity image that is interpreted as touch shapes.",
+   "technique_zh": "表面下方的发射和接收电极网格测量手靠近时引起的电容变化，形成一张“接近度图像”，再解释为触摸形状。",
+   "exercise_en": "Use a webcam under a glass table or a phone multi-touch page to build a 'dough' simulation that you can squeeze with two hands. Twist: make the dough remember where it was touched most and glow there.",
+   "exercise_zh": "用玻璃桌下方的摄像头或手机多点触控网页，做一个可以用双手揉捏的“面团”模拟；变体：让面团记住被触摸最多的地方并在那里发光。",
+   "interaction": [
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "capacitive sensing",
+    "multi-touch",
+    "tabletop projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "waSXkJBKT1s",
+    "url": "https://www.youtube.com/watch?v=waSXkJBKT1s"
+   },
+   "source_url": "https://lab.rekimoto.org/projects/smartskin/"
+  },
+  {
+   "id": "jun-rekimoto--flying-head",
+   "creator_ids": [
+    "jun-rekimoto"
+   ],
+   "title": "Flying Head",
+   "year": 2013,
+   "description": "A person wearing a head-mounted display walks, crouches and turns their head, and a small drone copies the same motion in another space, so flying feels like moving your own head.",
+   "description_zh": "戴着头戴显示器的人走动、蹲下、转头，另一处的小型无人机就同步做出同样的动作，操控飞行就像移动自己的头一样。",
+   "idea_en": "Your head becomes the joystick: body motion drives a flying camera.",
+   "idea_zh": "头就是摇杆：用身体动作驾驶一台会飞的摄像机。",
+   "technique": "Motion capture tracks the user's head position and orientation and maps it one-to-one to the drone's pose, while the drone's camera feed is shown in the HMD.",
+   "technique_zh": "动作捕捉系统追踪用户头部的位置和朝向，一比一映射为无人机的姿态，同时把无人机摄像头画面显示在头显中。",
+   "exercise_en": "Map a phone's head-tracked orientation (in a cardboard viewer) to a webcam on a pan-tilt servo or a virtual camera in another room scene. Twist: scale your movements by 10x and discuss how it changes your sense of body size.",
+   "exercise_zh": "把戴在纸板眼镜里的手机的头部朝向，映射到舵机云台上的摄像头或另一个虚拟房间里的摄像机；变体：把动作放大十倍，讨论这如何改变你对自身尺度的感觉。",
+   "interaction": [
+    "hand-body",
+    "gaze-attention"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "UAV",
+    "motion capture",
+    "head-mounted display"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "9HLyZqhkNKg",
+    "url": "https://www.youtube.com/watch?v=9HLyZqhkNKg"
+   },
+   "source_url": "https://lab.rekimoto.org/projects/"
+  },
+  {
+   "id": "jun-rekimoto--jackin-space",
+   "creator_ids": [
+    "jun-rekimoto"
+   ],
+   "title": "JackIn Space",
+   "year": 2017,
+   "description": "A remote helper in VR can jump into a worker's first-person view and then smoothly fly out into a live 3D reconstruction of the room to look around on their own.",
+   "description_zh": "远程协助者戴上 VR 头显，可以“跳进”现场工作人员的第一人称视角，再平滑地飞出来，在实时重建的 3D 房间里自由查看。",
+   "idea_en": "Blend first-person and third-person telepresence in one continuous camera move.",
+   "idea_zh": "把第一人称和第三人称的远程临场用一个连续的镜头运动融合起来。",
+   "technique": "Several depth cameras reconstruct the room as a live point cloud, and the worker's head camera is placed inside it so the remote viewer can transition between the two views.",
+   "technique_zh": "多台深度摄像头把房间实时重建为点云，现场人员的头戴摄像头画面被放置在点云中，远程观看者可以在两种视角之间过渡。",
+   "exercise_en": "Record a 360 video walking through a room plus a phone photogrammetry scan of the same room, and build a viewer that crossfades between the walker's view and a free-flying view. Twist: add a 'rubber band' that pulls the viewer back to the walker after five seconds.",
+   "exercise_zh": "拍一段在房间里行走的 360 视频，再用手机摄影测量扫描同一个房间，做一个可以在“行走者视角”和“自由飞行视角”之间交叉淡化的查看器；变体：加一根“橡皮筋”，五秒后把观看者拉回行走者身边。",
+   "interaction": [
+    "multiplayer-social",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "depth cameras",
+    "point cloud",
+    "telepresence"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "eXHUVTp2HNo",
+    "url": "https://www.youtube.com/watch?v=eXHUVTp2HNo"
+   },
+   "source_url": "https://lab.rekimoto.org/projects/jackinspace/"
+  },
+  {
+   "id": "myron-krueger--videoplace",
+   "creator_ids": [
+    "myron-krueger"
+   ],
+   "title": "VIDEOPLACE",
+   "year": 1975,
+   "description": "A visitor's live silhouette appears on a large screen and can draw with a finger, juggle graphic objects, or touch the silhouette of another person in a different room.",
+   "description_zh": "观众的实时剪影出现在大屏幕上，可以用手指画线、抛接图形物体，甚至去“触碰”另一个房间里另一个人的剪影。",
+   "idea_en": "Your camera silhouette is your body in the computer world, no gear required.",
+   "idea_zh": "摄像头里的剪影就是你在计算机世界里的身体，不需要任何穿戴设备。",
+   "technique": "A camera against a backlit wall extracts the body outline in real time with custom hardware, and programs test the outline for contact with graphic objects (the video shows the 1985 version).",
+   "technique_zh": "摄像头对着背光墙面，用定制硬件实时提取人体轮廓，程序再判断轮廓是否碰到了图形物体（视频为 1985 年版本）。",
+   "exercise_en": "Use a webcam and body segmentation in p5.js to make five mini VIDEOPLACE scenes: draw with a fingertip, bounce a ball off your arm, hold a creature in your palm. Twist: connect two laptops so two remote silhouettes can 'shake hands'.",
+   "exercise_zh": "用网络摄像头和 p5.js 人体分割做五个迷你 VIDEOPLACE 场景：用指尖画画、用手臂弹球、让小生物站在手心；变体：连接两台笔记本，让两个异地的剪影“握手”。",
+   "interaction": [
+    "hand-body",
+    "multiplayer-social",
+    "projection"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "silhouette tracking",
+    "custom video hardware",
+    "artificial reality"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "d4DUIeXSEpk",
+    "url": "https://www.youtube.com/watch?v=d4DUIeXSEpk"
+   },
+   "source_url": "https://en.wikipedia.org/wiki/Videoplace"
+  },
+  {
+   "id": "myron-krueger--critter",
+   "creator_ids": [
+    "myron-krueger"
+   ],
+   "title": "CRITTER (VIDEOPLACE)",
+   "year": 1984,
+   "description": "A small graphic creature chases a visitor's silhouette, climbs up their arm, dangles from a fingertip and does a little dance when it reaches the top of the head.",
+   "description_zh": "一只小小的图形生物追着观众的剪影跑，顺着手臂往上爬，吊在指尖上晃，爬到头顶时还会跳一段小舞。",
+   "idea_en": "A virtual pet that understands the shape of your body.",
+   "idea_zh": "一只能“读懂”你身体形状的虚拟宠物。",
+   "technique": "The creature's behavior rules react to the tracked silhouette's outline, finding hands and head from extremities of the contour.",
+   "technique_zh": "小生物的行为规则会对追踪到的剪影轮廓做出反应，通过轮廓的端点判断手和头的位置。",
+   "exercise_en": "Build a creature in a webcam sketch that walks along the edge of your body mask, jumps to your highest point and falls if you move too fast. Twist: give it moods so it avoids people who wave aggressively.",
+   "exercise_zh": "在网络摄像头草图里做一只沿着人体轮廓边缘行走的小生物，它会跳到你身体的最高点，动作太快它就会掉下来；变体：给它加上情绪，遇到挥手太猛的人就躲开。",
+   "interaction": [
+    "hand-body",
+    "game-play"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "silhouette tracking",
+    "behavior rules"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "VdrujesfIBQ",
+    "url": "https://www.youtube.com/watch?v=VdrujesfIBQ"
+   },
+   "source_url": "https://en.wikipedia.org/wiki/Videoplace"
+  },
+  {
+   "id": "krzysztof-wodiczko--hirshhorn-projection",
+   "creator_ids": [
+    "krzysztof-wodiczko"
+   ],
+   "title": "Hirshhorn Museum, Washington, D.C.",
+   "year": 1988,
+   "description": "Giant images of hands holding a gun, candles and a bundle of microphones are projected around the drum-shaped Hirshhorn Museum, turning the building into a political body on the National Mall.",
+   "description_zh": "巨大的手握手枪、蜡烛和一束麦克风的影像被投在圆筒形的赫希洪博物馆外墙上，让这座建筑在国家广场上变成一具发表政治宣言的身体。",
+   "idea_en": "Project a body onto a building so the architecture speaks about the power around it.",
+   "idea_zh": "把身体投到建筑上，让建筑对周围的权力发声。",
+   "technique": "Large-format slide projectors throw still images onto the curved façade, with the images composed to wrap around the building's cylinder.",
+   "technique_zh": "大画幅幻灯投影机把静态图像投到弧形立面上，画面经过专门构图，能环绕整个圆柱形建筑。",
+   "exercise_en": "Pick a campus building, photograph its façade, and design three still projection images (drawn over the photo) that make the building 'say' something about what happens inside. Twist: only use hands.",
+   "exercise_zh": "选一栋校园建筑，拍下立面照片，在照片上设计三张投影图像，让建筑“说出”里面正在发生的事情；变体：画面里只能出现手。",
+   "interaction": [
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "slide projection",
+    "architectural projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XYih-aS6JK8",
+    "url": "https://www.youtube.com/watch?v=XYih-aS6JK8"
+   },
+   "source_url": "https://hirshhorn.si.edu"
+  },
+  {
+   "id": "krzysztof-wodiczko--tijuana-projection",
+   "creator_ids": [
+    "krzysztof-wodiczko"
+   ],
+   "title": "Tijuana Projection",
+   "year": 2001,
+   "description": "Women who work in Tijuana's maquiladora factories wear a head-mounted camera and microphone, and their faces and testimonies are projected live onto the huge sphere of the city's Omnimax theater.",
+   "description_zh": "在蒂华纳加工厂工作的女性戴上头戴摄像头和麦克风，她们的脸和讲述被实时投到城市球幕影院巨大的球面外墙上。",
+   "idea_en": "A wearable camera turns a monument-sized building into the live face of one person.",
+   "idea_zh": "一个可穿戴摄像头，就能把纪念碑般的建筑变成一个人的实时面孔。",
+   "technique": "A lightweight headset with a camera fixed on the wearer's face streams video and audio to projectors aimed at the 60-foot dome, mixed with prerecorded segments.",
+   "technique_zh": "固定对准佩戴者面部的轻型头戴摄像头把视频和音频传给对准 18 米球面的投影机，并与预录片段交替播放。",
+   "exercise_en": "Mount a phone on a selfie-stick headband pointing at your face, stream it to a projector and project your talking face onto a round object (a balloon or dome) in class. Twist: let a classmate interview you live while the audience only sees the projected face.",
+   "exercise_zh": "把手机用自拍杆头带固定、镜头对准自己的脸，实时推流到投影仪，把说话的脸投到教室里一个圆形物体（气球或穹顶）上；变体：让同学现场采访你，观众只能看到投影出来的脸。",
+   "interaction": [
+    "projection",
+    "face",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection",
+    "wearable"
+   ],
+   "tech": [
+    "head-mounted camera",
+    "live video projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "dI_85KyAFWk",
+    "url": "https://www.youtube.com/watch?v=dI_85KyAFWk"
+   },
+   "source_url": "https://insiteart.org"
+  },
+  {
+   "id": "krzysztof-wodiczko--abraham-lincoln-war-veteran-projection",
+   "creator_ids": [
+    "krzysztof-wodiczko"
+   ],
+   "title": "Abraham Lincoln: War Veteran Projection",
+   "year": 2012,
+   "description": "For a month, the bronze Abraham Lincoln statue in New York's Union Square speaks with the faces, gestures and voices of veterans of the Vietnam, Iraq and Afghanistan wars, projected precisely onto the statue.",
+   "description_zh": "整整一个月，纽约联合广场上的林肯铜像借用越战、伊拉克和阿富汗战争退伍军人的脸、手势和声音开口说话，影像被精准地投在雕像上。",
+   "idea_en": "Let living people borrow a monument's body to tell the stories it never told.",
+   "idea_zh": "让普通人借用纪念碑的身体，讲出它从未讲过的故事。",
+   "technique": "Veterans were filmed with a camera fixed to their head so the face stays still, then the footage was warped to match the statue's face and hands and projected at night.",
+   "technique_zh": "拍摄时摄像头固定在退伍军人头上，使脸部在画面中保持不动；之后把画面变形对齐到雕像的脸和手上，在夜间投影。",
+   "exercise_en": "Film a classmate's face with a phone rigidly attached to their head, then use MadMapper or a projection-mapping web tool to fit the video onto a bust, mask or plaster head. Twist: let the object answer questions from the audience.",
+   "exercise_zh": "用固定在同学头上的手机拍摄他的脸，再用 MadMapper 或网页投影映射工具把视频贴合到一座胸像、面具或石膏头像上；变体：让这个物体回答观众的提问。",
+   "interaction": [
+    "projection",
+    "face",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "head-mounted camera",
+    "projection mapping onto statue"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "81nxZhbqv-Y",
+    "url": "https://www.youtube.com/watch?v=81nxZhbqv-Y"
+   },
+   "source_url": "https://moreartnyc.org"
+  },
+  {
+   "id": "krzysztof-wodiczko--queen-victoria",
+   "creator_ids": [
+    "krzysztof-wodiczko"
+   ],
+   "title": "Queen Victoria",
+   "year": 2014,
+   "description": "The statue of Queen Victoria in a Kitchener park takes on the face and hands of seven local residents, including refugees, who tell their life stories through her.",
+   "description_zh": "基奇纳市公园里的维多利亚女王雕像换上了七位当地居民（包括难民）的脸和手，由“女王”替他们讲述自己的人生故事。",
+   "idea_en": "A colonial monument becomes a microphone for the community living around it.",
+   "idea_zh": "一座殖民时代的纪念像，变成周围社区居民的扩音器。",
+   "technique": "Two cameras recorded each speaker, one head-mounted for the face and one for the torso, and the merged video was aligned to the statue's face and hands in projection.",
+   "technique_zh": "每位讲述者由两台摄像机拍摄，一台头戴拍脸，一台拍躯干和手，合成后的视频在投影时对齐到雕像的脸和手上。",
+   "exercise_en": "Choose a local statue or portrait, collect three short voice stories from people who live nearby and map their faces onto a printed or 3D-printed copy. Twist: switch stories when someone steps closer.",
+   "exercise_zh": "选一座本地雕像或肖像，收集三位附近居民的简短口述，把他们的脸投影到打印或 3D 打印的复制品上；变体：有人走近时就切换到下一个故事。",
+   "interaction": [
+    "projection",
+    "face",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "dual-camera recording",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "oRmT13QlY78",
+    "url": "https://www.youtube.com/watch?v=oRmT13QlY78"
+   },
+   "source_url": "https://www.cafka.org"
+  },
+  {
+   "id": "the-macula--the-600-years",
+   "creator_ids": [
+    "the-macula"
+   ],
+   "title": "The 600 Years",
+   "year": 2010,
+   "description": "For the 600th anniversary of Prague's Astronomical Clock, the medieval tower seems to crack, fill with gears, burn, rebuild itself and show its own history in a 10-minute mapping watched by thousands in Old Town Square.",
+   "description_zh": "为庆祝布拉格天文钟 600 周年，这座中世纪钟楼在十分钟的投影中仿佛裂开、塞满齿轮、燃烧、再自我重建，把自己的历史讲给老城广场上成千上万的观众。",
+   "idea_en": "Make a monument narrate its own biography by pretending to take it apart.",
+   "idea_zh": "假装把一座建筑拆开，让它亲口讲述自己的一生。",
+   "technique": "A precise 3D model of the tower is used to render animations that align to every ledge and window, projected from multiple overlapping high-lumen projectors.",
+   "technique_zh": "先建立钟楼的精确 3D 模型，依据它渲染与每个檐口和窗户完全对齐的动画，再由多台高亮度投影机重叠投射。",
+   "exercise_en": "Photograph a shoebox 'building' head-on, trace its features in After Effects or p5.js, and make a 30-second mapping in which it breaks apart and reassembles. Twist: tell the building's fictional history in three chapters.",
+   "exercise_zh": "正面拍摄一个鞋盒做的“建筑”，在 After Effects 或 p5.js 中描出它的结构，做一段 30 秒的投影：它碎开又重新拼好；变体：分三个章节讲述这座建筑虚构的历史。",
+   "interaction": [
+    "projection",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "architectural projection mapping",
+    "3D model alignment"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "15749093",
+    "url": "https://vimeo.com/15749093"
+   },
+   "source_url": "http://www.themacula.com"
+  },
+  {
+   "id": "the-macula--luminous-flux",
+   "creator_ids": [
+    "the-macula",
+    "initi"
+   ],
+   "title": "Luminous Flux",
+   "year": 2011,
+   "description": "For the Liver Building's 100th anniversary, Liverpool's waterfront landmark is covered in moving light that makes its clock towers ripple, fold and open up above the crowd.",
+   "description_zh": "为庆祝利物浦皇家利物大厦百年诞辰，这座海滨地标被流动的光覆盖，钟楼在人群头顶起伏、折叠、打开。",
+   "idea_en": "A city celebrates a building by letting light rewrite its stone.",
+   "idea_zh": "一座城市用光改写石头，来为一栋建筑庆生。",
+   "technique": "Animations are rendered against a surveyed model of the façade and played through edge-blended projectors so the illusions of depth line up with real ornaments.",
+   "technique_zh": "动画依据测绘得到的立面模型渲染，经边缘融合的投影机播放，使虚假的纵深感与真实的装饰构件对齐。",
+   "exercise_en": "Map a staircase or doorway on campus and create one illusion that makes the real structure look soft, flexible or hollow. Twist: sync the illusion to a clock so it happens exactly on the hour.",
+   "exercise_zh": "在校园里选一段楼梯或一个门洞做投影，创造一种让真实结构看起来变软、变弯或变空的错觉；变体：把错觉与时钟同步，每到整点准时出现。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "edge blending"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "26827092",
+    "url": "https://vimeo.com/26827092"
+   },
+   "source_url": "http://www.themacula.com"
+  },
+  {
+   "id": "the-macula--bucharest-555",
+   "creator_ids": [
+    "the-macula"
+   ],
+   "title": "iMapp Bucharest 555",
+   "year": 2014,
+   "description": "The vast Palace of the Parliament in Bucharest is mapped for the city's 555th anniversary, with the façade dissolving into particles, mechanisms and flying fragments at enormous scale.",
+   "description_zh": "为庆祝布加勒斯特建城 555 周年，巨大的议会宫整面被投影覆盖，立面在超大尺度上溶解成粒子、机械和飞散的碎片。",
+   "idea_en": "At building scale, a single illusion can make thousands of people feel the ground move.",
+   "idea_zh": "在建筑尺度上，一个错觉就能让成千上万人觉得脚下的地面在动。",
+   "technique": "A large array of projectors covers one of the world's biggest façades, with content rendered to a 3D scan of the building (third-party footage of the show).",
+   "technique_zh": "大量投影机阵列覆盖这座世界上最大的建筑立面之一，内容依据建筑三维扫描渲染（视频为观众拍摄的现场记录）。",
+   "exercise_en": "Design a mapping storyboard for the largest wall you can find, then prototype it at 1:100 on a printed photo with a pico projector. Twist: design one moment that only works from a single viewing spot.",
+   "exercise_zh": "为你能找到的最大一面墙设计投影分镜，再用微型投影仪在 1:100 的打印照片上做原型；变体：设计一个只有站在某个特定位置才能看懂的瞬间。",
+   "interaction": [
+    "projection",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "large-scale projection mapping",
+    "3D scanning"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "tcq2gG1qxwc",
+    "url": "https://www.youtube.com/watch?v=tcq2gG1qxwc"
+   },
+   "source_url": "https://imappbucharest.ro"
+  },
+  {
+   "id": "the-macula--sim-nebula",
+   "creator_ids": [
+    "the-macula",
+    "can-buyukberber"
+   ],
+   "title": "SIM/NEBULA",
+   "year": 2015,
+   "description": "Inside Prague's Rudolfinum concert hall, the Czech Philharmonic plays while the ornate hall itself is mapped with 45 minutes of futuristic visuals about a cybernetic organism being born.",
+   "description_zh": "在布拉格鲁道夫音乐厅里，捷克爱乐乐团现场演奏，华丽的音乐厅内部被 45 分钟的未来感影像覆盖，讲述一个控制论生命体的诞生。",
+   "idea_en": "Map the inside of a concert hall so the architecture performs alongside the orchestra.",
+   "idea_zh": "给音乐厅内部做投影，让建筑与乐团同台演出。",
+   "technique": "Multiple artists created chapters rendered to a 3D model of the hall interior, and projectors covered walls, balconies and organ in sync with the live score.",
+   "technique_zh": "多位艺术家分章节创作，依据音乐厅内部 3D 模型渲染，投影覆盖墙面、包厢和管风琴，并与现场乐谱同步。",
+   "exercise_en": "Pick a piece of classical music and map a classroom corner so that each instrument group 'lives' on a different surface. Twist: let the visuals react to a live microphone instead of a timeline.",
+   "exercise_zh": "选一首古典乐，给教室的一个角落做投影，让不同乐器组“住”在不同的表面上；变体：让画面对现场麦克风做出反应，而不是按时间轴播放。",
+   "interaction": [
+    "projection",
+    "performance-stage",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "interior projection mapping",
+    "live orchestra sync"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "138894725",
+    "url": "https://vimeo.com/138894725"
+   },
+   "source_url": "https://www.signalfestival.com"
+  },
+  {
+   "id": "the-macula--down-the-rabbit-hole",
+   "creator_ids": [
+    "the-macula"
+   ],
+   "title": "Down the Rabbit Hole",
+   "year": 2016,
+   "description": "At Blackpool's Lightpool festival, the Tower Ballroom façade becomes a portal into weightless space inspired by astronaut Tim Peake and Alice in Wonderland.",
+   "description_zh": "在布莱克浦灯光节上，塔楼舞厅的立面变成一个通往失重太空的入口，灵感来自宇航员 Tim Peake 和《爱丽丝梦游仙境》。",
+   "idea_en": "A façade as a rabbit hole: the building opens onto another world.",
+   "idea_zh": "把立面当成兔子洞：建筑打开，通向另一个世界。",
+   "technique": "A projection-mapped narrative renders false perspective 'openings' into the wall so the audience seems to look through it into space.",
+   "technique_zh": "投影叙事在墙面上渲染出假透视的“开口”，让观众仿佛透过墙面看进太空。",
+   "exercise_en": "Create a projected 'hole' in a flat wall using forced perspective, and animate something falling into it. Twist: make the hole follow the position of the nearest viewer using a webcam.",
+   "exercise_zh": "用强制透视在一面平墙上投影出一个“洞”，再做一个物体掉进去的动画；变体：用摄像头让这个洞跟随最近观众的位置变化。",
+   "interaction": [
+    "projection",
+    "portal-world",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "forced perspective"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "181344271",
+    "url": "https://vimeo.com/181344271"
+   },
+   "source_url": "http://www.themacula.com"
+  },
+  {
+   "id": "initi--archifon",
+   "creator_ids": [
+    "initi"
+   ],
+   "title": "Archifon",
+   "year": 2012,
+   "description": "Up to ten visitors aim laser pointers at the columns, arches and statues of a deconsecrated Baroque chapel, and each architectural element they hit lights up with projection and plays a sound, turning the chapel into a giant instrument.",
+   "description_zh": "最多十位观众拿着激光笔对准一座已废弃巴洛克礼拜堂的柱子、拱券和雕像，被照到的建筑构件就会亮起投影并发出声音，整座礼拜堂变成一件巨大的乐器。",
+   "idea_en": "Play architecture like an instrument by pointing at it.",
+   "idea_zh": "用手指（激光笔）点一点，就能把建筑当乐器来演奏。",
+   "technique": "A camera tracks the laser dots on the mapped interior, and each surface of the 3D-mapped chapel is linked to visuals and Max/MSP sound triggers.",
+   "technique_zh": "摄像头追踪投影内部的激光光点，礼拜堂三维映射后的每个表面都与相应的画面和 Max/MSP 声音触发绑定。",
+   "exercise_en": "Point a webcam at a projected wall, detect a red laser dot with OpenCV or p5.js, and divide the wall into six zones that each play a note and flash. Twist: make zones need two lasers at once to sound a chord.",
+   "exercise_zh": "把摄像头对准投影墙面，用 OpenCV 或 p5.js 检测红色激光点，把墙面分成六个区域，每个区域被照到时闪亮并发出一个音；变体：某些区域需要两支激光同时照射才能奏出和弦。",
+   "interaction": [
+    "projection",
+    "voice-sound",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "laser-pointer tracking",
+    "Max/MSP",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "37920250",
+    "url": "https://vimeo.com/37920250"
+   },
+   "source_url": "https://www.archifon.org"
+  },
+  {
+   "id": "initi--the-radar",
+   "creator_ids": [
+    "initi"
+   ],
+   "title": "The Radar",
+   "year": 2013,
+   "description": "Passers-by connect their own smartphones to a local Wi-Fi network and use them as controllers to solve a projected puzzle on a building façade together.",
+   "description_zh": "路人用自己的智能手机连上现场 Wi-Fi，把手机当手柄，一起解开投在建筑立面上的谜题。",
+   "idea_en": "The crowd's phones become game controllers for a building-sized screen.",
+   "idea_zh": "人群手里的手机，变成一面建筑大屏的游戏手柄。",
+   "technique": "A local web server hands each connected phone a control page and relays its inputs to the real-time mapping software, supporting several players at once.",
+   "technique_zh": "本地 Web 服务器给每台连接的手机下发控制页面，并把输入实时转发给投影软件，可同时支持多名玩家。",
+   "exercise_en": "Build a WebSocket page that lets up to five phones steer dots on a projected wall, and design a puzzle that needs all five to cooperate. Twist: give each phone a different, secret ability.",
+   "exercise_zh": "做一个 WebSocket 网页，让最多五部手机操控投影墙上的光点，并设计一个必须五人合作才能完成的谜题；变体：给每部手机一个不同的秘密能力。",
+   "interaction": [
+    "multiplayer-social",
+    "projection",
+    "game-play"
+   ],
+   "platform": [
+    "projection",
+    "phone"
+   ],
+   "tech": [
+    "smartphone web controllers",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "59839964",
+    "url": "https://vimeo.com/59839964"
+   },
+   "source_url": "https://www.initi.org"
+  },
+  {
+   "id": "initi--netykavka",
+   "creator_ids": [
+    "initi"
+   ],
+   "title": "Netykavka",
+   "year": 2013,
+   "description": "A cone of projected light in a hazy dark room, inspired by Anthony McCall's solid-light films, reacts when visitors put their hands into the beam.",
+   "description_zh": "在弥漫薄雾的暗室里，一束受 Anthony McCall“实体光”作品启发的投影光锥，会对观众伸进光束的手做出反应。",
+   "idea_en": "Make a beam of light feel like a solid object you can touch.",
+   "idea_zh": "让一束光感觉像一个可以触摸的实体。",
+   "technique": "Haze makes the projector's beam visible as a 3D volume, and a sensor (likely a depth camera) detects hands intersecting the beam to change the projected line drawing.",
+   "technique_zh": "雾气让投影光束显现为三维体积，传感器（很可能是深度摄像头）检测伸入光束的手，从而改变投影的线条图形。",
+   "exercise_en": "In a dark room with a fog machine or hair spray, project a slowly growing circle outline and use a webcam to detect a hand in the beam so the circle breaks where it is 'touched'. Twist: make two beams that can only be merged by two people.",
+   "exercise_zh": "在暗室里用烟雾机营造雾气，投出一个缓慢生长的圆形轮廓，用摄像头检测伸入光束的手，让圆在被“摸到”的地方断开；变体：做两束光，只有两个人合作才能让它们融合。",
+   "interaction": [
+    "projection",
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "volumetric light",
+    "haze",
+    "hand detection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "72222918",
+    "url": "https://vimeo.com/72222918"
+   },
+   "source_url": "https://www.initi.org"
+  },
+  {
+   "id": "initi--demonz-initi-playground",
+   "creator_ids": [
+    "initi"
+   ],
+   "title": "Demonz (INITI Playground)",
+   "year": 2016,
+   "description": "Kids and adults throw real balls at animated monsters projected on a large floor or wall, playing a digital version of dodgeball in the real space.",
+   "description_zh": "孩子和大人把真实的球扔向投在大面积地面或墙面上的动画怪物，在真实空间里玩数字版躲避球。",
+   "idea_en": "Turn any flat surface into a giant touch screen for physical ball games.",
+   "idea_zh": "把任何平面变成一块巨大的触摸屏，玩真实的投球游戏。",
+   "technique": "Motion tracking detects where balls and bodies hit the surface and the projection-mapped game responds, so the play area can scale to any size and number of players.",
+   "technique_zh": "运动追踪检测球和身体击中表面的位置，投影游戏随之响应，因此场地大小和玩家人数都可以任意扩展。",
+   "exercise_en": "Project a target game on a wall and detect soft-ball hits with a webcam by frame differencing; each hit pops a creature. Twist: make creatures dodge when players aim too long.",
+   "exercise_zh": "在墙上投一个打靶游戏，用摄像头帧差法检测软球击中的位置，每次击中就让一只小怪物爆开；变体：玩家瞄准太久时，怪物会躲开。",
+   "interaction": [
+    "game-play",
+    "projection",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "motion tracking",
+    "projection mapping",
+    "interactive floor"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "166247151",
+    "url": "https://vimeo.com/166247151"
+   },
+   "source_url": "https://www.initiplayground.com"
+  },
+  {
+   "id": "1024-architecture--perspective-lyrique",
+   "creator_ids": [
+    "1024-architecture"
+   ],
+   "title": "Perspective Lyrique",
+   "year": 2010,
+   "description": "At the Fête des Lumières in Lyon, members of the public sing or shout into a microphone and the projected face on the old Célestins theatre façade opens its mouth, stretches and deforms with their voice.",
+   "description_zh": "在里昂灯光节上，观众对着麦克风唱歌或喊叫，投在塞莱斯坦剧院旧立面上的巨大面孔就随着他们的声音张嘴、拉伸、变形。",
+   "idea_en": "Give a building a face and let the crowd's voice control its expression.",
+   "idea_zh": "给建筑一张脸，让人群的声音控制它的表情。",
+   "technique": "An audio-analysis algorithm maps microphone volume and frequency to the deformation of a 3D mesh of the façade, rendered live and projection-mapped back onto it.",
+   "technique_zh": "音频分析算法把麦克风的音量和频率映射为建筑立面三维网格的变形，实时渲染后再投影映射回立面上。",
+   "exercise_en": "Project a simple face onto a box or wall and drive its mouth, eyes and wobble from microphone amplitude and pitch in p5.js. Twist: let two microphones control the left and right halves of the face.",
+   "exercise_zh": "把一张简笔脸投到纸箱或墙面上，用 p5.js 读取麦克风的音量和音高，驱动嘴巴、眼睛和抖动；变体：用两个麦克风分别控制脸的左右两半。",
+   "interaction": [
+    "voice-sound",
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "audio analysis",
+    "real-time mesh deformation",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "18888136",
+    "url": "https://vimeo.com/18888136"
+   },
+   "source_url": "https://www.1024architecture.net/?portfolio=perspective-lyrique"
+  },
+  {
+   "id": "1024-architecture--make-the-line-dance",
+   "creator_ids": [
+    "1024-architecture"
+   ],
+   "title": "Make the Line Dance",
+   "year": 2011,
+   "description": "A dancer moves in front of a projector and a Kinect, and lines of light are mapped onto their moving body, sticking to limbs as they turn and bend.",
+   "description_zh": "舞者在投影仪和 Kinect 前舞动，光线被投影映射到他们移动的身体上，转身、弯腰时依然贴合在四肢上。",
+   "idea_en": "Projection mapping onto a moving body instead of a static building.",
+   "idea_zh": "把投影映射的对象从静止的建筑换成运动的身体。",
+   "technique": "A Kinect tracks the dancer's skeleton, Quartz Composer draws graphics along the bones, and MadMapper aligns the projector view with the camera view.",
+   "technique_zh": "Kinect 追踪舞者骨架，Quartz Composer 沿骨骼绘制图形，MadMapper 将投影视角与摄像头视角对齐。",
+   "exercise_en": "Calibrate a projector to a webcam, run MediaPipe pose tracking and project a glowing line along one arm of a volunteer. Twist: make the line leave a trail that the dancer can 'dance with' a second later.",
+   "exercise_zh": "把投影仪与摄像头标定对齐，运行 MediaPipe 姿态追踪，把一条发光线条投到志愿者的一只手臂上；变体：让线条留下拖影，舞者可以在一秒后与自己的“残影”共舞。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "Quartz Composer",
+    "MadMapper"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "21308228",
+    "url": "https://vimeo.com/21308228"
+   },
+   "source_url": "https://www.1024architecture.net"
+  },
+  {
+   "id": "1024-architecture--tetra-tennis",
+   "creator_ids": [
+    "1024-architecture"
+   ],
+   "title": "TETRA.TENNIS",
+   "year": 2010,
+   "description": "The tennis court of the Paris Masters at Bercy is mapped from above between matches, with lines, grids and 3D illusions that make the flat court fold and break apart.",
+   "description_zh": "巴黎贝尔西大师赛的网球场在比赛间隙被从上方投影，线条、网格和三维错觉让平坦的球场仿佛折叠、碎裂。",
+   "idea_en": "A sports field is a ready-made canvas whose lines can come alive.",
+   "idea_zh": "运动场本身就是现成的画布，场地线可以活过来。",
+   "technique": "Overhead projectors aligned to the court's markings play animations that use the known line layout for perspective illusions visible to the audience in the stands.",
+   "technique_zh": "头顶投影机与球场标线对齐，播放利用已知场地线布局制作的透视错觉动画，供看台观众观看。",
+   "exercise_en": "Map the lines of a basketball or badminton court (or a taped floor plan) from above and animate the lines turning into a maze. Twist: have a player walk the maze while the projection reacts to their position.",
+   "exercise_zh": "从上方投影篮球场或羽毛球场的场地线（或用胶带贴出的平面），让线条变成一座迷宫；变体：让一名玩家走迷宫，投影根据他的位置做出反应。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "floor projection mapping",
+    "anamorphic illusion"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "19163299",
+    "url": "https://vimeo.com/19163299"
+   },
+   "source_url": "https://www.1024architecture.net"
+  },
+  {
+   "id": "1024-architecture--boombox",
+   "creator_ids": [
+    "1024-architecture"
+   ],
+   "title": "BOOMBOX",
+   "year": 2008,
+   "description": "A giant stack of cubes behind a DJ becomes a mapped sculpture whose faces light up, shift and pulse with the music across a worldwide tour of electronic parties.",
+   "description_zh": "DJ 身后巨大的立方体堆叠成为一座投影雕塑，在全球巡演的电子派对上，各个面随音乐亮起、移动、脉动。",
+   "idea_en": "A stage made of simple boxes becomes a musical instrument of light.",
+   "idea_zh": "用简单箱体搭成的舞台，变成一件光的乐器。",
+   "technique": "Pre-built cube geometry is mapped with projectors and animated live, with visuals triggered and modulated by the music.",
+   "technique_zh": "预先搭建的立方体结构由投影机覆盖映射，影像在现场实时演奏，并由音乐触发和调制。",
+   "exercise_en": "Stack six cardboard boxes, map each face in MadMapper or a web mapper, and make a beat-reactive light show where each box is one drum sound. Twist: let the audience rearrange the boxes between songs.",
+   "exercise_zh": "堆六个纸箱，在 MadMapper 或网页映射工具里映射每个面，做一场随节拍变化的灯光秀，每个箱子对应一种鼓声；变体：每首歌之间让观众重新摆放箱子。",
+   "interaction": [
+    "projection",
+    "performance-stage",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "stage projection mapping",
+    "VJ software"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "15734398",
+    "url": "https://vimeo.com/15734398"
+   },
+   "source_url": "https://www.1024architecture.net"
+  },
+  {
+   "id": "1024-architecture--tesseract",
+   "creator_ids": [
+    "1024-architecture"
+   ],
+   "title": "TESSERACT (HyperCube)",
+   "year": 2013,
+   "description": "A scaffolding cube in a public square is covered with projection and light so that, seen from the front, it appears to fold, rotate and unfold like a four-dimensional hypercube.",
+   "description_zh": "广场上的一座脚手架立方体被投影和灯光覆盖，从正面看，它仿佛像四维超立方体一样折叠、旋转、展开。",
+   "idea_en": "Use a real 3D frame to make a fourth dimension feel visible.",
+   "idea_zh": "用真实的三维框架，让第四维度仿佛可见。",
+   "technique": "Projection surfaces stretched inside a scaffold frame receive content rendered for the main viewing angle so layered surfaces create a volumetric illusion.",
+   "technique_zh": "绷在脚手架框架内的多层投影面接收按主要观看角度渲染的内容，层层叠加的表面形成体积错觉。",
+   "exercise_en": "Build a cube frame from sticks and stretch two layers of tulle inside, then project content that seems to rotate a cube inside a cube. Twist: find the one viewing spot where the illusion is perfect and mark it on the floor.",
+   "exercise_zh": "用木条搭一个立方体框架，在里面绷两层薄纱，投影出“立方体套立方体”旋转的画面；变体：找到错觉最完美的那个观看位置，并在地上标出来。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "scaffold structure",
+    "layered projection",
+    "anamorphosis"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "79702430",
+    "url": "https://vimeo.com/79702430"
+   },
+   "source_url": "https://www.1024architecture.net"
+  },
+  {
+   "id": "1024-architecture--the-walking-cube",
+   "creator_ids": [
+    "1024-architecture"
+   ],
+   "title": "The Walking Cube",
+   "year": 2011,
+   "description": "A large cube frame is shaken and tilted by mechanical actuators, and synchronized light and video make it look like a living creature walking, breathing and stumbling.",
+   "description_zh": "一个大型立方体框架被机械装置摇晃和倾斜，同步的灯光与影像让它看起来像一只正在行走、呼吸、踉跄的生物。",
+   "idea_en": "Combine small physical motion with light to give a simple shape a personality.",
+   "idea_zh": "把微小的实体运动和光结合起来，让一个简单几何体拥有性格。",
+   "technique": "Pneumatic or motorized actuators under the legs are sequenced with lighting and video cues from the same timeline.",
+   "technique_zh": "腿部下方的气动或电机执行器与灯光、影像提示在同一条时间轴上编排。",
+   "exercise_en": "Put a cardboard cube on four servo 'legs' controlled by an Arduino and sync LED strips to its movement to make it look scared, happy or tired. Twist: let it react to a clap.",
+   "exercise_zh": "把一个纸板立方体放在四个由 Arduino 控制的舵机“腿”上，用 LED 灯带配合动作，让它看起来害怕、开心或疲惫；变体：让它对拍手声做出反应。",
+   "interaction": [
+    "tangible-object",
+    "perception-art",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "mechanical actuators",
+    "LED",
+    "show control"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "131077465",
+    "url": "https://vimeo.com/131077465"
+   },
+   "source_url": "https://www.1024architecture.net"
+  },
+  {
+   "id": "1024-architecture--1d-arcade",
+   "creator_ids": [
+    "1024-architecture"
+   ],
+   "title": "1D ARCADE",
+   "year": 2025,
+   "description": "Visitors play arcade and pinball-style games made from a single line of light pixels, discovering the rules without instructions by pressing buttons and moving.",
+   "description_zh": "观众在一条由单行像素光组成的装置上玩街机和弹球风格的小游戏，没有说明，靠按按钮和身体移动自己摸索规则。",
+   "idea_en": "A whole video game squeezed into one line of light.",
+   "idea_zh": "把一整个电子游戏压缩进一条光线里。",
+   "technique": "Each game is coded in MadMapper and output to LED pixel strips, reading simple physical controls in real time.",
+   "technique_zh": "每个游戏都在 MadMapper 中编写，输出到 LED 像素灯带，并实时读取简单的实体按钮输入。",
+   "exercise_en": "Program a one-dimensional game on a 60-pixel LED strip (or a 1-pixel-tall canvas) with two buttons, such as tug-of-war or dodge the bullet. Twist: make it a two-player game where players stand at each end of a corridor.",
+   "exercise_zh": "用一条 60 像素的 LED 灯带（或只有一像素高的画布）和两个按钮编一个一维游戏，比如拔河或躲子弹；变体：做成双人游戏，两位玩家分别站在走廊两端。",
+   "interaction": [
+    "game-play",
+    "tangible-object",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "MadMapper",
+    "LED pixel strips"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1098205588",
+    "url": "https://vimeo.com/1098205588"
+   },
+   "source_url": "https://www.1024architecture.net"
+  },
+  {
+   "id": "marshmallow-laser-feast--sony-realtime-projection-mapping",
+   "creator_ids": [
+    "marshmallow-laser-feast",
+    "memo-akten"
+   ],
+   "title": "Sony PlayStation Realtime Projection Mapping",
+   "year": 2011,
+   "description": "A living room is transformed live, in camera, into three famous film scenes: projections track moving furniture and puppets, while pyrotechnics and real objects blend with the projected worlds.",
+   "description_zh": "一间客厅在镜头前被实时改造成三个著名电影场景：投影追踪移动的家具和木偶，烟火和真实物件与投影世界融为一体。",
+   "idea_en": "Projection mapping that follows moving objects turns an ordinary room into a film set.",
+   "idea_zh": "能追踪移动物体的投影映射，把普通房间变成电影片场。",
+   "technique": "Objects and puppets are tracked in 3D in real time and the projection content is re-rendered from the projector's viewpoint every frame, so the mapping stays locked to moving surfaces.",
+   "technique_zh": "物体和木偶被实时三维追踪，投影内容每一帧都从投影机视角重新渲染，从而让映射始终锁定在移动的表面上。",
+   "exercise_en": "Track a white box with an ArUco marker from the projector's camera and keep a texture projected on it while a classmate moves it around. Twist: turn the box into a 'window' onto a movie scene that stays fixed in world space.",
+   "exercise_zh": "用贴了 ArUco 标记的白色纸盒，从投影机旁的摄像头追踪它，同学移动纸盒时让贴图始终投在盒子上；变体：把纸盒变成一扇“窗”，透过它看到一个固定在空间中的电影场景。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "portal-world"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "real-time 3D tracking",
+    "dynamic projection mapping",
+    "live puppetry"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "34021153",
+    "url": "https://vimeo.com/34021153"
+   },
+   "source_url": "https://www.marshmallowlaserfeast.com"
+  },
+  {
+   "id": "marshmallow-laser-feast--meet-your-creator",
+   "creator_ids": [
+    "marshmallow-laser-feast",
+    "memo-akten"
+   ],
+   "title": "Meet Your Creator",
+   "year": 2012,
+   "description": "Sixteen quadrotor drones carrying LEDs and motorized mirrors fly in formation over a theater stage, bouncing beams of light and building glowing sculptures in the air above the audience.",
+   "description_zh": "十六架携带 LED 和电动镜子的四旋翼无人机在剧场舞台上空编队飞行，反射光束，在观众头顶构建出发光的空中雕塑。",
+   "idea_en": "Flying robots as moving light pixels that draw in the air of a theater.",
+   "idea_zh": "让会飞的机器人成为移动的光像素，在剧场空中作画。",
+   "technique": "A motion-capture system tracks each drone and choreography software sends synchronized flight paths, LED colors and mirror angles to bounce stage lights.",
+   "technique_zh": "动作捕捉系统追踪每架无人机，编排软件同步下发飞行路径、LED 颜色和镜面角度，用来反射舞台灯光。",
+   "exercise_en": "Choreograph a 60-second light show for five virtual drones in a 3D web scene (three.js), timing positions and colors to a song. Twist: add one real flashlight and a mirror in the classroom and aim the beam to hit a marked target.",
+   "exercise_zh": "在三维网页场景（three.js）里为五架虚拟无人机编排一段 60 秒的灯光秀，让位置和颜色与一首歌的节拍对应；变体：在教室里加一支真实手电筒和一面镜子，把光束反射到指定目标上。",
+   "interaction": [
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "quadrotor drones",
+    "motion capture",
+    "motorized mirrors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "JLAKXJG1trU",
+    "url": "https://www.youtube.com/watch?v=JLAKXJG1trU"
+   },
+   "source_url": "https://www.marshmallowlaserfeast.com"
+  },
+  {
+   "id": "marshmallow-laser-feast--laser-forest",
+   "creator_ids": [
+    "marshmallow-laser-feast"
+   ],
+   "title": "Laser Forest",
+   "year": 2013,
+   "description": "Visitors walk through a forest of 150 tall rods; tapping or shaking a rod plays a note and fires laser light across the dark hall, so the whole crowd becomes an orchestra.",
+   "description_zh": "观众穿行于由 150 根高杆组成的“森林”中，敲击或摇动一根杆就会发出一个音符并在黑暗大厅中射出激光，整个人群成了一支乐队。",
+   "idea_en": "A walk-through instrument where every touch becomes sound and light in space.",
+   "idea_zh": "一件可以走进去的乐器，每一次触碰都变成空间中的声音和光。",
+   "technique": "Each rod has a motion sensor that triggers synthesized sounds and laser patterns, with lasers and haze making beams visible between the rods.",
+   "technique_zh": "每根杆内都有运动传感器，触发合成声音和激光图案，激光与雾气让光束在杆之间清晰可见。",
+   "exercise_en": "Make three 'trees' from cardboard tubes with a phone or micro:bit accelerometer inside; shaking each one plays a note and flashes a projected beam on the ceiling. Twist: make trees that only sound when shaken together.",
+   "exercise_zh": "用纸筒做三棵“树”，里面放手机或 micro:bit 加速度计，摇动一棵就发出一个音并在天花板上投出一道光；变体：有些树只有同时被摇动时才会发声。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "motion sensors",
+    "lasers",
+    "haze"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "gDZqJ4RPVYc",
+    "url": "https://www.youtube.com/watch?v=gDZqJ4RPVYc"
+   },
+   "source_url": "https://www.marshmallowlaserfeast.com"
+  },
+  {
+   "id": "marshmallow-laser-feast--in-the-eyes-of-the-animal",
+   "creator_ids": [
+    "marshmallow-laser-feast"
+   ],
+   "title": "In the Eyes of the Animal",
+   "year": 2015,
+   "description": "Visitors in a real forest wear headsets and see the same forest as a mosquito, dragonfly, frog or owl might, rendered from LiDAR and CT scans as flowing particles and sound.",
+   "description_zh": "观众置身真实森林，戴上头显，以蚊子、蜻蜓、青蛙或猫头鹰的视角看同一片森林，画面由激光雷达和 CT 扫描数据生成的流动粒子与声音构成。",
+   "idea_en": "Swap human senses for animal senses inside the very place you are standing.",
+   "idea_zh": "就在你站立的地方，把人类的感官换成动物的感官。",
+   "technique": "LiDAR scans of Grizedale Forest and CT scans of animals are turned into point-cloud worlds with spatial binaural audio, experienced in headsets on site.",
+   "technique_zh": "Grizedale 森林的激光雷达扫描与动物 CT 扫描被转化为点云世界，配合空间双耳音频，在现场用头显体验。",
+   "exercise_en": "Scan a corner of the school garden with a phone LiDAR app, import it as a point cloud and render it the way a bee might see it (only moving things and UV-like colors). Twist: shrink the camera to insect height and speed.",
+   "exercise_zh": "用手机激光雷达应用扫描校园花园的一角，以点云导入，并按蜜蜂的视角渲染（只看得见运动的东西和类似紫外线的颜色）；变体：把相机缩小到昆虫的高度和速度。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping",
+    "location-geo"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "LiDAR",
+    "point cloud",
+    "binaural audio"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "140057053",
+    "url": "https://vimeo.com/140057053"
+   },
+   "source_url": "https://iteota.com"
+  },
+  {
+   "id": "marshmallow-laser-feast--treehugger-wawona",
+   "creator_ids": [
+    "marshmallow-laser-feast"
+   ],
+   "title": "Treehugger: Wawona",
+   "year": 2016,
+   "description": "Participants hug a physical sculpture of a giant sequoia and put their head into its knot; in the headset, they see water and nutrients flowing inside the tree, and the longer they hug, the deeper they drift into tree time.",
+   "description_zh": "参与者拥抱一棵巨型红杉的实体雕塑，把头伸进树洞；在头显里，他们看到水分和养分在树体内流动，拥抱得越久，就越深地沉入“树的时间”。",
+   "idea_en": "A physical hug is the interface to the invisible life inside a tree.",
+   "idea_zh": "一个真实的拥抱，就是进入树内部隐秘生命的接口。",
+   "technique": "A headset experience is aligned with a physical tree sculpture so touch matches the virtual trunk, with particle visuals and spatial audio driven by dwell time.",
+   "technique_zh": "头显体验与实体树雕塑对齐，触摸与虚拟树干一致，粒子画面和空间音频随停留时间推进。",
+   "exercise_en": "Wrap a pillar or tree with a cardboard 'bark' and build a phone-in-headset scene that shows flowing particles inside it, advancing only while the user keeps both hands on it. Twist: add a fan or smell cue that appears at the deepest level.",
+   "exercise_zh": "用纸板“树皮”包住一根柱子或一棵树，做一个手机头显场景，显示其内部流动的粒子，只有用户双手一直扶着它时才会推进；变体：在最深的阶段加入风扇或气味提示。",
+   "interaction": [
+    "tangible-object",
+    "perception-art",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR headset",
+    "physical sculpture alignment",
+    "particle systems"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "if0wfysmoMU",
+    "url": "https://www.youtube.com/watch?v=if0wfysmoMU"
+   },
+   "source_url": "https://www.marshmallowlaserfeast.com"
+  },
+  {
+   "id": "marshmallow-laser-feast--a-colossal-wave",
+   "creator_ids": [
+    "marshmallow-laser-feast"
+   ],
+   "title": "A Colossal Wave",
+   "year": 2017,
+   "description": "Visitors stand under VR umbrellas and watch a surreal flood, while a real dropper tower, bowling ball and gong in the gallery make physical impacts and sounds synced to the virtual wave.",
+   "description_zh": "观众站在“VR 雨伞”下观看一场超现实的洪水，同时展厅里真实的落锤塔、保龄球和锣发出与虚拟巨浪同步的撞击和声响。",
+   "idea_en": "Mix a headset vision with real physical impacts so the whole room shakes with the virtual event.",
+   "idea_zh": "把头显中的画面与真实的物理冲击结合，让整个房间随虚拟事件一起震动。",
+   "technique": "Umbrella-mounted displays show the virtual scene while a show-control system triggers the physical mechanisms and sound-reactive gallery lighting in sync.",
+   "technique_zh": "伞形头显展示虚拟场景，演出控制系统同步触发实体机械装置和声音响应的展厅灯光。",
+   "exercise_en": "Build a short phone VR scene of a wave and time three real-world cues in the room (a drum hit, a fan, a dropped object) to match it. Twist: let the person outside the headset perform the cues live.",
+   "exercise_zh": "做一段关于海浪的手机 VR 短场景，并在房间里安排三个与之同步的现实提示（一声鼓、一阵风扇、一个落下的物体）；变体：让头显外的人现场手动制造这些提示。",
+   "interaction": [
+    "perception-art",
+    "tangible-object",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR umbrellas",
+    "show control",
+    "physical effects"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "244047652",
+    "url": "https://vimeo.com/244047652"
+   },
+   "source_url": "http://acolossalwave.com"
+  },
+  {
+   "id": "marshmallow-laser-feast--we-live-in-an-ocean-of-air",
+   "creator_ids": [
+    "marshmallow-laser-feast"
+   ],
+   "title": "We Live in an Ocean of Air",
+   "year": 2018,
+   "description": "Groups of visitors wear headsets and backpacks in a room with a giant sequoia; they see each other as glowing bodies and watch their own breath flow into the tree as it breathes back.",
+   "description_zh": "一组组观众戴着头显、背着背包走进放置巨型红杉的房间，他们看到彼此是发光的身体，并看到自己的呼吸流进树里，而树也在向他们回呼吸。",
+   "idea_en": "Visualize the breath exchange between people and trees in a shared space.",
+   "idea_zh": "在共享空间里把人与树之间的呼吸交换可视化。",
+   "technique": "Multi-user tracked VR with breath sensors and heart-rate input drives particle visuals, combined with scent, wind and a physical tree set.",
+   "technique_zh": "多人追踪 VR 结合呼吸传感器与心率输入驱动粒子画面，并配合气味、风和实体树布景。",
+   "exercise_en": "Use a phone microphone to detect breathing and draw each breath as a particle cloud drifting toward a virtual plant in a shared web AR scene. Twist: the plant only grows when two people breathe in sync.",
+   "exercise_zh": "用手机麦克风检测呼吸，在一个共享的网页 AR 场景中，把每次呼吸画成飘向虚拟植物的粒子云；变体：只有两个人呼吸同步时，植物才会生长。",
+   "interaction": [
+    "multiplayer-social",
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "multi-user VR",
+    "breath sensor",
+    "heart-rate sensor"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "303589503",
+    "url": "https://vimeo.com/303589503"
+   },
+   "source_url": "https://www.marshmallowlaserfeast.com"
+  },
+  {
+   "id": "craig-winslow--projecting-west",
+   "creator_ids": [
+    "craig-winslow"
+   ],
+   "title": "Projecting West",
+   "year": 2015,
+   "description": "On a 15-day road trip from Portland, Oregon to Portland, Maine, the team makes impulsive projection installations each night on barns, motels, rocks and roadside signs.",
+   "description_zh": "在从俄勒冈州波特兰到缅因州波特兰的 15 天公路旅行中，团队每晚在谷仓、汽车旅馆、岩石和路边招牌上即兴创作投影装置。",
+   "idea_en": "A road trip where each stop gets its own site-specific story in light.",
+   "idea_zh": "一场公路旅行，每一站都获得一个属于它自己的光之故事。",
+   "technique": "A portable projector and generator are set up quickly and content is mapped on site to whatever surface each town offers.",
+   "technique_zh": "便携投影机和发电机快速架设，现场把内容映射到每个小镇能提供的任意表面上。",
+   "exercise_en": "In teams, walk around campus for 30 minutes, pick an overlooked surface and make a 20-second projection about it using a laptop and pico projector. Twist: the content must use only what you learned from someone passing by.",
+   "exercise_zh": "分组在校园里走 30 分钟，挑一个被忽视的表面，用笔记本和微型投影仪为它做一段 20 秒的投影；变体：内容只能来自你从路人那里听到的信息。",
+   "interaction": [
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "portable projector",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "138903302",
+    "url": "https://vimeo.com/138903302"
+   },
+   "source_url": "http://projectingwest.com"
+  },
+  {
+   "id": "craig-winslow--light-capsule-004-astoria",
+   "creator_ids": [
+    "craig-winslow"
+   ],
+   "title": "Light Capsule 004 — Astoria, Oregon",
+   "year": 2016,
+   "description": "A faded hand-painted advertisement on an old building in Astoria is brought back to life at night: projection redraws the missing letters and colors exactly on top of the ghost sign.",
+   "description_zh": "阿斯托里亚一栋老建筑上褪色的手绘广告在夜晚复活：投影把缺失的字母和颜色精准地重画在“幽灵招牌”上。",
+   "idea_en": "Use light to temporarily restore a city's forgotten layer of history.",
+   "idea_zh": "用光暂时修复城市被遗忘的历史图层。",
+   "technique": "Archival photos and on-site research are used to redraw the sign as vector artwork, which is then projection-mapped and animated over the remaining paint.",
+   "technique_zh": "借助档案照片和实地考察，把招牌重绘为矢量图形，再投影映射到残存的油漆上并加入动画。",
+   "exercise_en": "Find an old sign, faded poster or worn floor marking, photograph it, redraw what it once looked like, and project it back on site. Twist: animate the moment the sign was first painted.",
+   "exercise_zh": "找一块旧招牌、褪色海报或磨损的地面标识，拍照、重绘它原本的样子，再在现场投回去；变体：做一段动画，重现它当年被画出来的那一刻。",
+   "interaction": [
+    "projection",
+    "location-geo",
+    "portal-world"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "archival research",
+    "vector redrawing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "173006252",
+    "url": "https://vimeo.com/173006252"
+   },
+   "source_url": "https://lightcapsul.es"
+  },
+  {
+   "id": "craig-winslow--light-capsules-london-design-festival",
+   "creator_ids": [
+    "craig-winslow"
+   ],
+   "title": "Light Capsules — London Design Festival",
+   "year": 2016,
+   "description": "During the London Design Festival, five ghost signs across the city are revived with projection, drawing crowds to walls they had walked past for years.",
+   "description_zh": "伦敦设计节期间，全城五处幽灵招牌被投影复活，吸引人们停下来注视这些多年来经过却从未留意的墙面。",
+   "idea_en": "A tour of the city's ghost signs, each lit up for one night.",
+   "idea_zh": "一条城市幽灵招牌之旅，每一块都只亮一个晚上。",
+   "technique": "Each sign is matched with historical sources, redrawn and projection-mapped, with animations that reveal the lettering stroke by stroke.",
+   "technique_zh": "每块招牌都与历史资料比对、重绘并做投影映射，动画一笔一画地揭示字母。",
+   "exercise_en": "Map three locations on a campus walking route and design a projected reveal for each that connects into one story. Twist: publish a map so visitors can find them only at a set time.",
+   "exercise_zh": "在一条校园步行路线上选三个地点，为每个地点设计一段投影揭示，并把它们串成一个故事；变体：发布一张地图，访客只有在指定时间到达才能看到。",
+   "interaction": [
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "sign painting research"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "183522909",
+    "url": "https://vimeo.com/183522909"
+   },
+   "source_url": "https://lightcapsul.es"
+  },
+  {
+   "id": "craig-winslow--light-capsule-013-detroit-miss-van",
+   "creator_ids": [
+    "craig-winslow"
+   ],
+   "title": "Light Capsule 013 — Detroit x Miss Van",
+   "year": 2016,
+   "description": "In Detroit, a painted mural by street artist Miss Van and a neighboring ghost sign are augmented together with animated light that makes the painted figures glow and move.",
+   "description_zh": "在底特律，街头艺术家 Miss Van 的壁画与旁边的一块幽灵招牌一起被动态光影增强，画中的人物仿佛开始发光、移动。",
+   "idea_en": "Add a time layer to a mural: light animates what paint can only freeze.",
+   "idea_zh": "给壁画加上时间维度：颜料只能定格的东西，光可以让它动起来。",
+   "technique": "The mural is photographed straight-on, animation is drawn on top of the photo and projection-mapped back so light hits exactly the painted shapes.",
+   "technique_zh": "正面拍摄壁画，在照片上绘制动画，再投影映射回墙面，使光线精准地落在画中的形状上。",
+   "exercise_en": "Choose a poster or drawing on the classroom wall, trace its shapes and animate one element (hair, water, eyes) with projected light. Twist: make the animation start only when someone stands in front of it.",
+   "exercise_zh": "挑一张教室墙上的海报或画，描出其中的形状，用投影让其中一个元素（头发、水、眼睛）动起来；变体：只有当有人站到它面前时动画才开始。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "mural augmentation"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "186274660",
+    "url": "https://vimeo.com/186274660"
+   },
+   "source_url": "https://lightcapsul.es"
+  },
+  {
+   "id": "craig-winslow--light-capsules-neon-museum",
+   "creator_ids": [
+    "craig-winslow"
+   ],
+   "title": "Light Capsules x Neon Museum",
+   "year": 2017,
+   "description": "At the Neon Museum boneyard in Las Vegas, broken vintage neon signs that no longer work are made to 'light up' again with carefully mapped projection that imitates glowing tubes.",
+   "description_zh": "在拉斯维加斯霓虹博物馆的“霓虹墓地”里，早已损坏、无法点亮的老霓虹招牌，借助精准映射的投影模拟灯管光芒，再次“亮”了起来。",
+   "idea_en": "Fake the light of a dead object so that it looks alive again.",
+   "idea_zh": "伪造一件“死去”物体的光，让它看起来重新活过来。",
+   "technique": "Projection content is drawn to follow each tube path of the neon letters, with glow and flicker animated to mimic real neon.",
+   "technique_zh": "投影内容沿每根霓虹灯管的路径绘制，并加入光晕和闪烁动画来模仿真实霓虹。",
+   "exercise_en": "Bend a word out of white wire or string on a board, then project a glowing, flickering neon animation precisely onto it. Twist: make one letter 'broken' and flicker on a random schedule.",
+   "exercise_zh": "用白色铁丝或绳子在板子上弯出一个单词，再把发光、闪烁的霓虹动画精准投到上面；变体：让其中一个字母“坏掉”，随机闪烁。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "neon simulation"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "207339810",
+    "url": "https://vimeo.com/207339810"
+   },
+   "source_url": "https://www.behance.net/gallery/50428509/Light-Capsules-x-Neon-Museum"
+  },
+  {
+   "id": "craig-winslow--light-sketch-el-cosmico",
+   "creator_ids": [
+    "craig-winslow"
+   ],
+   "title": "Light Sketch — El Cosmico",
+   "year": 2017,
+   "description": "With no generator for the planned piece, the team spontaneously projection-maps their silver Airstream trailer in the Marfa desert, turning it into a glowing, pulsing object under the stars.",
+   "description_zh": "原计划的作品因为没有发电机而无法进行，团队便在马法沙漠里即兴给他们的银色 Airstream 房车做投影映射，让它在星空下发光、脉动。",
+   "idea_en": "When the plan fails, map whatever you have with you.",
+   "idea_zh": "计划落空时，就给身边现有的东西做投影。",
+   "technique": "A quick on-site mapping uses masks traced directly over the trailer's panels and rivet lines, running simple generative animation.",
+   "technique_zh": "现场快速映射，直接沿房车的板块和铆钉线描出遮罩，播放简单的生成式动画。",
+   "exercise_en": "Give teams 45 minutes to map any object they carried to class (a bag, a bike, a helmet) and present it in a dark corner. Twist: the animation must reveal what the object 'dreams about'.",
+   "exercise_zh": "给每组 45 分钟，为自己带到课堂的任何物品（书包、自行车、头盔）做投影映射，并在暗角展示；变体：动画必须揭示这件物品“梦见了什么”。",
+   "interaction": [
+    "projection",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "masking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "242350117",
+    "url": "https://vimeo.com/242350117"
+   },
+   "source_url": "https://vimeo.com/craigwinslow"
+  },
+  {
+   "id": "stanley-donwood--polyfauna",
+   "creator_ids": [
+    "stanley-donwood",
+    "universal-everything"
+   ],
+   "title": "PolyFauna",
+   "year": 2014,
+   "description": "A free app in which you look around a dark, evolving landscape of Stanley Donwood's drawings and creatures by moving your phone, follow a red dot, and hear Radiohead's 'Bloom' fragmented into the space.",
+   "description_zh": "一款免费应用：移动手机就能环顾一片由 Stanley Donwood 的绘画与生物构成、不断演化的黑暗风景，跟随一个红点前进，并听到被拆散到空间中的 Radiohead《Bloom》片段。",
+   "idea_en": "Your phone is a window into a living world built from an album's sketchbook.",
+   "idea_zh": "手机是一扇窗，通向由专辑草图本长出来的活世界。",
+   "technique": "The phone's gyroscope drives a 360-degree camera in a generative 3D environment, and touch spawns creatures whose shapes evolve over time (built by Universal Everything).",
+   "technique_zh": "手机陀螺仪驱动生成式 3D 环境中的 360 度相机，触摸会生成随时间演化形态的生物（由 Universal Everything 开发）。",
+   "exercise_en": "Scan ten of your own sketches, turn them into textured 3D shapes and place them in a gyroscope-controlled web scene that people explore by turning their phones. Twist: let each visitor's touch leave a creature that later visitors meet.",
+   "exercise_zh": "扫描自己的十张草图，把它们变成带纹理的 3D 形体，放进一个由陀螺仪控制的网页场景，让人转动手机来探索；变体：每位访客的触摸会留下一只小生物，后来的访客都能遇见它。",
+   "interaction": [
+    "voice-sound",
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "gyroscope camera",
+    "generative 3D",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "bXeoF4xq9x8",
+    "url": "https://www.youtube.com/watch?v=bXeoF4xq9x8"
+   },
+   "source_url": "https://www.universaleverything.com/design/polyfauna"
+  },
+  {
+   "id": "stanley-donwood--kid-a-mnesia-exhibition",
+   "creator_ids": [
+    "stanley-donwood"
+   ],
+   "title": "KID A MNESIA EXHIBITION",
+   "year": 2021,
+   "description": "A free explorable virtual exhibition where visitors wander an upside-down analogue/digital building made from Thom Yorke's and Stanley Donwood's artwork, with rooms that react to Radiohead's music.",
+   "description_zh": "一座免费的可探索虚拟展馆，观众在一座由 Thom Yorke 和 Stanley Donwood 的作品构成、颠倒的模拟/数字建筑中游荡，每个房间都会对 Radiohead 的音乐做出反应。",
+   "idea_en": "An album becomes architecture: each song is a room you walk through.",
+   "idea_zh": "把专辑变成建筑：每首歌都是一间可以走过的房间。",
+   "technique": "Built in Unreal Engine with Namethemachine and Epic Games, the spaces use original drawings as textures and spatialized stems that respond to the visitor's position.",
+   "technique_zh": "与 Namethemachine 和 Epic Games 合作，用 Unreal Engine 打造，空间以原始绘画为贴图，并使用随观众位置变化的空间化分轨音频。",
+   "exercise_en": "Pick three songs and design a small walkable 3D room for each in a game engine, using your own drawings as textures and placing sounds so they get louder as you approach. Twist: make one room only reachable by walking backwards.",
+   "exercise_zh": "选三首歌，在游戏引擎中为每首歌设计一个可行走的小房间，用自己的绘画做贴图，并摆放越靠近越响的声音；变体：让其中一个房间只能倒着走才能进入。",
+   "interaction": [
+    "voice-sound",
+    "portal-world"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unreal Engine",
+    "spatial audio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "AOinMjQ9jo8",
+    "url": "https://www.youtube.com/watch?v=AOinMjQ9jo8"
+   },
+   "source_url": "https://kida-mnesia.com"
+  },
+  {
+   "id": "anna-zhilyaeva--rendez-vous-in-mixed-reality",
+   "creator_ids": [
+    "anna-zhilyaeva"
+   ],
+   "title": "Rendez-vous in Mixed Reality",
+   "year": 2017,
+   "description": "In a mixed-reality video, the artist paints a glowing cat in the air of her living room while her real cat Mimi watches and tries to catch the virtual one.",
+   "description_zh": "在一段混合现实视频中，艺术家在客厅的空中画出一只发光的猫，她家真实的猫 Mimi 盯着看，还试图去抓那只虚拟的猫。",
+   "idea_en": "A real pet meeting a painted one reveals the magic and absurdity of mixed reality.",
+   "idea_zh": "真实的宠物遇见画出来的宠物，揭示了混合现实的魔力和荒诞。",
+   "technique": "The painting is made in Tilt Brush on a tracked VR headset, and a separately tracked external camera composites the 3D strokes over real room footage.",
+   "technique_zh": "画作在带追踪的 VR 头显中用 Tilt Brush 完成，另一台被追踪的外部摄像机把三维笔触合成到真实房间的画面上。",
+   "exercise_en": "Use Open Brush or an AR drawing app to paint a character that interacts with a real object or person in the frame, and film it from a second camera. Twist: have a real person or pet 'respond' to the drawing on cue.",
+   "exercise_zh": "用 Open Brush 或 AR 绘画应用画一个角色，让它与画面里真实的物体或人互动，并用第二台摄像机拍下来；变体：让一个真人或宠物按提示对这幅画“做出回应”。",
+   "interaction": [
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Tilt Brush",
+    "mixed-reality capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Uxc7Um_Lk5c",
+    "url": "https://www.youtube.com/watch?v=Uxc7Um_Lk5c"
+   },
+   "source_url": "https://www.youtube.com/@Annadreambrush"
+  },
+  {
+   "id": "anna-zhilyaeva--medusa-mixed-reality",
+   "creator_ids": [
+    "anna-zhilyaeva"
+   ],
+   "title": "Medusa (Tilt Brush mixed reality)",
+   "year": 2017,
+   "description": "Filmed in mixed reality, the artist spends two hours painting a life-size Medusa with living snake hair, and the camera circles the sculpture-like painting as she works inside it.",
+   "description_zh": "在混合现实拍摄中，艺术家花两小时画出一座真人大小、头发是活蛇的美杜莎，摄像机环绕这幅像雕塑一样的画作，她则在画中工作。",
+   "idea_en": "Painting becomes sculpture when every brushstroke hangs in space.",
+   "idea_zh": "当每一笔都悬挂在空间中，绘画就变成了雕塑。",
+   "technique": "Tilt Brush strokes are recorded in VR and composited with green-screen footage of the painter from a tracked camera.",
+   "technique_zh": "在 VR 中记录 Tilt Brush 笔触，并与被追踪摄像机拍摄的画家绿幕画面合成。",
+   "exercise_en": "Paint a life-size figure in 3D in 30 minutes, then record a slow orbit around it that reveals something not visible from the front. Twist: paint only with light-emitting brushes in a dark scene.",
+   "exercise_zh": "用 30 分钟在三维空间中画一个真人大小的人物，再录制一段缓慢环绕的镜头，揭示正面看不到的东西；变体：在黑暗场景中只使用发光笔刷作画。",
+   "interaction": [
+    "drawing-creation",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Tilt Brush",
+    "green screen",
+    "mixed-reality capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "rX9G5MOdwSc",
+    "url": "https://www.youtube.com/watch?v=rX9G5MOdwSc"
+   },
+   "source_url": "https://www.youtube.com/@Annadreambrush"
+  },
+  {
+   "id": "anna-zhilyaeva--liberty-at-the-louvre",
+   "creator_ids": [
+    "anna-zhilyaeva"
+   ],
+   "title": "Live VR Painting at the Louvre",
+   "year": 2018,
+   "description": "In a live performance at the Louvre, the artist paints a three-dimensional interpretation of Delacroix's 'Liberty Leading the People' in VR while visitors watch the strokes appear on screens.",
+   "description_zh": "在卢浮宫的一场现场表演中，艺术家用 VR 画出德拉克洛瓦《自由引导人民》的三维诠释，观众通过屏幕看着笔触一笔笔出现。",
+   "idea_en": "Step inside a famous painting and rebuild it as a space.",
+   "idea_zh": "走进一幅名画，把它重建成一个空间。",
+   "technique": "A tracked VR headset with Tilt Brush is mirrored to large displays so the audience sees the 3D painting grow in real time.",
+   "technique_zh": "带追踪的 VR 头显运行 Tilt Brush，画面同步投到大屏上，观众可以实时看到三维画作逐渐生长。",
+   "exercise_en": "Pick a classic painting and rebuild it as a 3D scene in an XR drawing tool, deciding what lies behind each figure. Twist: present it live while a partner narrates the history of the original.",
+   "exercise_zh": "选一幅经典名画，用 XR 绘画工具把它重建成三维场景，决定每个人物身后是什么；变体：现场作画，同时由搭档讲述原作的历史。",
+   "interaction": [
+    "drawing-creation",
+    "performance-stage"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Tilt Brush",
+    "HTC Vive",
+    "live streaming"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Zs3n07Clw7A",
+    "url": "https://www.youtube.com/watch?v=Zs3n07Clw7A"
+   },
+   "source_url": "https://www.youtube.com/@Annadreambrush"
+  },
+  {
+   "id": "anna-zhilyaeva--you-are-strange",
+   "creator_ids": [
+    "anna-zhilyaeva"
+   ],
+   "title": "You Are Strange",
+   "year": 2020,
+   "description": "A short mixed-reality poem in which a dreamy painted figure and floating words appear around the artist in a real room, as if her imagination were leaking into the space.",
+   "description_zh": "一首简短的混合现实诗：一个梦幻的画中人和漂浮的文字出现在真实房间里艺术家的身边，仿佛她的想象力正渗进这个空间。",
+   "idea_en": "Let a drawn daydream share the room with you.",
+   "idea_zh": "让画出来的白日梦与你共处一室。",
+   "technique": "The 3D painting is created in VR and composited over footage of the real room from a tracked camera.",
+   "technique_zh": "三维绘画在 VR 中完成，再与被追踪摄像机拍到的真实房间画面合成。",
+   "exercise_en": "Write a four-line poem and paint each line as a 3D element placed around a real person in a room using an AR drawing app. Twist: film it so the words are only readable from one camera position.",
+   "exercise_zh": "写一首四行小诗，用 AR 绘画应用把每一行画成一个三维元素，摆放在房间里真人的周围；变体：拍摄时让文字只有在某一个机位才能读懂。",
+   "interaction": [
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Tilt Brush",
+    "mixed-reality capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "vXLUabAA75c",
+    "url": "https://www.youtube.com/watch?v=vXLUabAA75c"
+   },
+   "source_url": "https://www.youtube.com/@Annadreambrush"
+  },
+  {
+   "id": "christopher-manzione--growth-virtual-public-art-project",
+   "creator_ids": [
+    "christopher-manzione"
+   ],
+   "title": "Growth (Virtual Public Art Project)",
+   "year": 2010,
+   "description": "Visitors to Prospect Park in Brooklyn point an iPhone or Android phone at a spot in the park and see a 30-foot fractal polygon sculpture standing among the trees.",
+   "description_zh": "来到布鲁克林展望公园的游客把 iPhone 或安卓手机对准公园里某个位置，就能看到一座 9 米高的分形多边形雕塑矗立在树木之间。",
+   "idea_en": "Install a giant public sculpture that costs nothing to build and exists only through phones.",
+   "idea_zh": "安装一座不花建造成本、只在手机中存在的巨型公共雕塑。",
+   "technique": "A hand-made physical form was 3D-scanned and placed at GPS coordinates using an early location-based AR browser (likely Layar), viewable from all sides.",
+   "technique_zh": "先手工制作实体造型并三维扫描，再用早期的基于位置的 AR 浏览器（很可能是 Layar）放置到 GPS 坐标上，可从各个方向观看。",
+   "exercise_en": "Sculpt a small object from clay, scan it with a phone, and place it in a campus square at large scale using a geolocated AR tool. Twist: design it so it only makes sense from one path through the square.",
+   "exercise_zh": "用黏土捏一个小物件，用手机扫描，再用基于地理位置的 AR 工具把它放大放置在校园广场上；变体：把它设计成只有沿着某条路线穿过广场时才能看懂。",
+   "interaction": [
+    "location-geo",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "3D scanning",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "d7Gg_NiWnZk",
+    "url": "https://www.youtube.com/watch?v=d7Gg_NiWnZk"
+   },
+   "source_url": "http://www.virtualpublicartproject.com"
+  },
+  {
+   "id": "claire-hentschker--shining360",
+   "creator_ids": [
+    "claire-hentschker"
+   ],
+   "title": "Shining360",
+   "year": 2016,
+   "description": "A 30-minute 360-degree film that reconstructs the spaces of Kubrick's The Shining as fragmented 3D models, letting viewers look around the hotel while the camera follows the original shots.",
+   "description_zh": "一部 30 分钟的 360 度影片，把库布里克《闪灵》中的空间重建为破碎的三维模型，观众可以环顾酒店，镜头则沿着原片的机位运动。",
+   "idea_en": "Every film shot hides a 3D space that can be reconstructed and walked through.",
+   "idea_zh": "每一个电影镜头里都藏着一个可以被重建、可以走进去的三维空间。",
+   "technique": "The film was split into frames, photogrammetry computed depth and 3D fragments from each scene, and the fragments were stitched along the original camera path for VR.",
+   "technique_zh": "把影片拆成逐帧画面，用摄影测量为每个场景计算深度和三维碎片，再沿原始摄像机路径拼接，供 VR 观看。",
+   "exercise_en": "Take a 10-second tracking shot from a film or your own phone, extract frames and run them through a photogrammetry tool, then fly a virtual camera through the result. Twist: look at what the original camera never showed.",
+   "exercise_zh": "取一段 10 秒的电影跟拍镜头或自己用手机拍的视频，抽帧后用摄影测量工具处理，再让虚拟摄像机在结果中飞行；变体：去看看原来的镜头从未拍到的地方。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "photogrammetry",
+    "360 video",
+    "VR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "AupAFblRwgY",
+    "url": "https://www.youtube.com/watch?v=AupAFblRwgY"
+   },
+   "source_url": "https://studioforcreativeinquiry.org"
+  },
+  {
+   "id": "claire-hentschker--dead-mall-chunks",
+   "creator_ids": [
+    "claire-hentschker"
+   ],
+   "title": "Dead Mall Chunks",
+   "year": 2016,
+   "description": "Point clouds reconstructed from found videos of abandoned shopping malls float as ghostly fragments of storefronts, escalators and arcades.",
+   "description_zh": "从网上找到的废弃购物中心视频中重建出的点云，像幽灵一样漂浮着店面、扶梯和游戏厅的碎片。",
+   "idea_en": "Use other people's videos to archive places that are disappearing.",
+   "idea_zh": "用别人拍下的视频，为正在消失的地方建档。",
+   "technique": "Frames from walk-through videos on YouTube are processed with photogrammetry into point clouds that are then collected and rendered in 3D.",
+   "technique_zh": "把 YouTube 上的漫游视频逐帧提取，用摄影测量处理为点云，再收集起来在三维中渲染。",
+   "exercise_en": "Find a public walk-through video of a place that no longer exists, reconstruct a fragment of it as a point cloud and place it in AR on your desk. Twist: add sound from the original video that plays only when you lean in.",
+   "exercise_zh": "找一段已不复存在的地方的公开漫游视频，把其中一段重建为点云，再以 AR 方式放到桌面上；变体：加入原视频的声音，只有靠近时才会播放。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "photogrammetry",
+    "point cloud",
+    "found footage"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "QL7JgrXcJHw",
+    "url": "https://www.youtube.com/watch?v=QL7JgrXcJHw"
+   },
+   "source_url": "https://www.youtube.com/channel/UCcCc2frmX0csVCuJzaSJs1Q"
+  },
+  {
+   "id": "nick-hardeman--glades",
+   "creator_ids": [
+    "nick-hardeman"
+   ],
+   "title": "GLADES",
+   "year": 2019,
+   "description": "Visitors move in front of two displays: on one their body grows toxic blue algae on a virtual water surface, on the other an invasive python wraps around their silhouette, while a large projection shows an anhinga flying between them.",
+   "description_zh": "观众在两块屏幕前移动：一边他们的身体会在虚拟水面上长出有毒的蓝藻，另一边一条入侵的蟒蛇缠绕住他们的剪影，中间的大投影上一只蛇鹈在两者之间飞行、游动、降落。",
+   "idea_en": "Your own silhouette becomes the source of ecological harm, so the message is felt, not read.",
+   "idea_zh": "你自己的剪影成了生态破坏的来源，信息不再是读到的，而是感受到的。",
+   "technique": "Depth sensors track visitors' bodies without wearables, and openFrameworks (likely) simulates algae growth and a python rig that follows the silhouette.",
+   "technique_zh": "深度传感器在无需穿戴设备的情况下追踪观众身体，（很可能使用）openFrameworks 模拟蓝藻生长和一条跟随剪影的蟒蛇骨骼。",
+   "exercise_en": "Use webcam body segmentation to make your silhouette leave a spreading 'pollution' trail on a projected pond, and a clean-up creature that follows others. Twist: the pond only recovers when everyone stands still.",
+   "exercise_zh": "用网络摄像头人体分割，让你的剪影在投影的池塘上留下不断扩散的“污染”痕迹，再加一只跟随其他人的清理生物；变体：只有所有人都静止不动时，池塘才会恢复。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "data-information"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "depth sensors",
+    "openFrameworks",
+    "body tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "323247011",
+    "url": "https://vimeo.com/323247011"
+   },
+   "source_url": "http://nickhardeman.com"
+  },
+  {
+   "id": "moritz-waldemeyer--hussein-chalayan-video-dress",
+   "creator_ids": [
+    "moritz-waldemeyer"
+   ],
+   "title": "Video Dress (for Hussein Chalayan)",
+   "year": 2007,
+   "description": "A dress embedded with thousands of LEDs plays soft, low-resolution video of sea and flowers across its surface, so the garment becomes a moving screen worn on the body.",
+   "description_zh": "一条嵌入数千颗 LED 的裙子，表面播放柔和的低分辨率海浪和花朵影像，服装成了穿在身上的移动屏幕。",
+   "idea_en": "Clothing as a display: the body carries its own moving image.",
+   "idea_zh": "把衣服当显示屏：身体携带着自己的动态影像。",
+   "technique": "LED matrices sewn under a diffusing fabric layer are driven as a flexible low-resolution display playing prerecorded video.",
+   "technique_zh": "缝在柔光面料下的 LED 矩阵被当作柔性低分辨率显示器，播放预录视频。",
+   "exercise_en": "Tape an LED strip or a phone flashlight array under a piece of translucent fabric and design a 10-second 'video' that suits the garment. Twist: make the pattern react to the wearer's movement with a phone accelerometer.",
+   "exercise_zh": "把 LED 灯带或几部手机的闪光灯贴在半透明布料下，为这件“衣服”设计一段 10 秒的“视频”；变体：用手机加速度计让图案随穿着者的动作变化。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "LED matrix",
+    "diffusing fabric"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "NqBdxiWMJEc",
+    "url": "https://www.youtube.com/watch?v=NqBdxiWMJEc"
+   },
+   "source_url": "https://www.waldemeyer.com"
+  },
+  {
+   "id": "moritz-waldemeyer--snowflake-sculpture-seoul",
+   "creator_ids": [
+    "moritz-waldemeyer"
+   ],
+   "title": "Snowflake Sculpture, Time Square Seoul",
+   "year": 2011,
+   "description": "A huge constellation of suspended snowflake shapes fills a shopping mall atrium; from most balconies it looks abstract, but from one hidden vantage point the pieces line up into a secret image.",
+   "description_zh": "巨大的悬挂雪花形体群填满购物中心中庭；从大多数楼层看它是抽象的，但在一个隐藏的观看点，这些碎片会对齐成一幅秘密图像。",
+   "idea_en": "An anamorphic sculpture rewards the one person who finds the right spot.",
+   "idea_zh": "一座变形透视雕塑，只奖励找到正确位置的那个人。",
+   "technique": "Each element is placed in 3D along lines of sight from a chosen viewpoint so that their projections align into one picture only from there (anamorphosis).",
+   "technique_zh": "每个构件都沿着从某个选定观看点出发的视线放置在三维空间中，只有在那一点看时它们的投影才对齐成一幅画（变形透视）。",
+   "exercise_en": "Hang ten paper shapes at different depths in a room so that from one marked spot they form a letter or face, then build the same illusion in an AR scene. Twist: make two different images visible from two different spots.",
+   "exercise_zh": "在房间里把十个纸片形状挂在不同深度，使它们从一个标记点看过去拼成一个字母或一张脸，再在 AR 场景中实现同样的错觉；变体：从两个不同位置分别能看到两幅不同的图像。",
+   "interaction": [
+    "perception-art",
+    "location-geo",
+    "gaze-attention"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "anamorphosis",
+    "suspended sculpture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "dxBVrMfJtuM",
+    "url": "https://www.youtube.com/watch?v=dxBVrMfJtuM"
+   },
+   "source_url": "https://www.waldemeyer.com"
+  },
+  {
+   "id": "moritz-waldemeyer--journey-of-colour",
+   "creator_ids": [
+    "moritz-waldemeyer"
+   ],
+   "title": "Journey of Colour",
+   "year": 2019,
+   "description": "Visitors hold fabric and paint samples from the design center's showrooms up to a reader, and a long LED wall instantly washes into that exact color.",
+   "description_zh": "观众把设计中心各展厅的布料和油漆样品举到读取器前，一整面 LED 墙立即变成完全相同的颜色。",
+   "idea_en": "Use a physical sample as a remote control for the color of a whole space.",
+   "idea_zh": "用一片实物样本，遥控整个空间的颜色。",
+   "technique": "A camera reads the color of the held sample and maps it to the RGB output of the LEDs on the wall, with animated transitions.",
+   "technique_zh": "摄像头读取样本颜色，映射为墙上 LED 的 RGB 输出，并加入过渡动画。",
+   "exercise_en": "Build a web page that samples the color of any object held in front of the phone camera and floods a projector or second screen with it. Twist: mix the colors of the last three objects into a gradient.",
+   "exercise_zh": "做一个网页，读取手机摄像头前任意物体的颜色，并让投影或第二块屏幕整个铺满这种颜色；变体：把最近三个物体的颜色混合成渐变。",
+   "interaction": [
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "camera color sensing",
+    "LED wall"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "kiTv0UH4rRU",
+    "url": "https://www.youtube.com/watch?v=kiTv0UH4rRU"
+   },
+   "source_url": "https://www.waldemeyer.com"
+  },
+  {
+   "id": "moritz-waldemeyer--mora-constellation",
+   "creator_ids": [
+    "moritz-waldemeyer"
+   ],
+   "title": "The Mora Constellation",
+   "year": 2026,
+   "description": "In Palazzo Mora during the Venice Biennale, a field of slender glowing elements hangs in space and flickers more intensely as visitors walk by, like candle flames disturbed by a passing breath.",
+   "description_zh": "威尼斯双年展期间的莫拉宫里，一片细长的发光元件悬挂在空中，观众走过时它们闪烁得更强烈，像被经过的呼吸扰动的烛火。",
+   "idea_en": "A light field that notices your presence the way a candle does.",
+   "idea_zh": "一片会像烛火一样“察觉”你存在的光场。",
+   "technique": "Presence sensors (likely motion or depth sensors) modulate the brightness and flicker of individually controlled light elements in real time.",
+   "technique_zh": "存在感应器（很可能是运动或深度传感器）实时调节每个可单独控制的发光元件的亮度与闪烁。",
+   "exercise_en": "Hang twelve LEDs at different heights and use a webcam's motion detection so the ones nearest a moving person flicker like candles. Twist: make them calm down only when the room is silent.",
+   "exercise_zh": "在不同高度挂十二颗 LED，用摄像头运动检测，让离移动者最近的几颗像烛火一样闪烁；变体：只有房间完全安静时，它们才会平静下来。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "presence sensing",
+    "addressable LEDs"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "N9BuisYqWZM",
+    "url": "https://www.youtube.com/watch?v=N9BuisYqWZM"
+   },
+   "source_url": "https://www.waldemeyer.com"
+  },
+  {
+   "id": "tin-drum--kagami",
+   "creator_ids": [
+    "tin-drum"
+   ],
+   "title": "KAGAMI",
+   "year": 2023,
+   "description": "Audiences sit in a circle wearing mixed-reality headsets and watch a volumetric recording of Ryuichi Sakamoto playing a grand piano in the middle of the room, surrounded by visual worlds that grow from his music.",
+   "description_zh": "观众围坐成一圈，戴着混合现实头显，看着坂本龙一的体积捕捉影像在房间中央弹奏三角钢琴，周围是从他的音乐中生长出来的视觉世界。",
+   "idea_en": "A concert that can keep happening after the performer is gone, in the same room as you.",
+   "idea_zh": "一场在演奏者离开之后仍能继续、并且就在你身边发生的音乐会。",
+   "technique": "Sakamoto's performance was captured volumetrically and rendered in synchronized mixed-reality headsets (Magic Leap), so every seat sees him from its own angle.",
+   "technique_zh": "坂本龙一的演奏被体积捕捉，在同步的混合现实头显（Magic Leap）中渲染，每个座位都能从自己的角度看到他。",
+   "exercise_en": "Record a classmate playing an instrument with a phone depth or Gaussian-splat capture app and place the result on a real chair in AR for a small audience. Twist: let the room's lights dim as each piece builds.",
+   "exercise_zh": "用手机深度或高斯泼溅采集应用录下一位同学演奏乐器，再以 AR 方式把结果放到一把真实的椅子上给小观众观看；变体：随着每首曲子推进，让房间的灯光逐渐变暗。",
+   "interaction": [
+    "performance-stage",
+    "multiplayer-social",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "volumetric capture",
+    "Magic Leap",
+    "synchronized playback"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "0ns8M_J7GdM",
+    "url": "https://www.youtube.com/watch?v=0ns8M_J7GdM"
+   },
+   "source_url": "https://sakamoto-kagami.com"
+  },
+  {
+   "id": "tin-drum--an-ark",
+   "creator_ids": [
+    "tin-drum"
+   ],
+   "title": "An Ark",
+   "year": 2025,
+   "description": "Billed as the first play written for mixed reality, An Ark seats the audience in a circle while four volumetric actors, including Ian McKellen, appear among them in headsets and speak directly to them.",
+   "description_zh": "《An Ark》被称为第一部为混合现实创作的戏剧：观众围坐成一圈，戴上头显后，包括伊恩·麦克莱恩在内的四位体积捕捉演员出现在他们中间，直接对他们说话。",
+   "idea_en": "Theater where actors sit among you in your own space instead of on a stage.",
+   "idea_zh": "演员不在舞台上，而是坐在你身边、在你的空间里演戏。",
+   "technique": "Actors were captured volumetrically and placed in the shared physical room through synchronized mixed-reality headsets with spatial audio.",
+   "technique_zh": "演员通过体积捕捉录制，再借助同步的混合现实头显和空间音频放置进共享的实体房间中。",
+   "exercise_en": "Write a 2-minute monologue addressed to someone sitting in a specific chair, record it volumetrically or as a cut-out video, and place it in AR facing that chair. Twist: the monologue changes if the listener stands up.",
+   "exercise_zh": "写一段两分钟的独白，对象是坐在某把特定椅子上的人；用体积捕捉或抠像视频录下来，以 AR 方式面向那把椅子放置；变体：如果听者站起来，独白就会改变。",
+   "interaction": [
+    "performance-stage",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "volumetric capture",
+    "mixed-reality headsets",
+    "spatial audio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "G9gR6JxZafo",
+    "url": "https://www.youtube.com/watch?v=G9gR6JxZafo"
+   },
+   "source_url": "https://theshed.org"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Satoru Higa (BACKSPACE Productions)",
+   "why": "Engineer/visual artist on Kasahara's Fragment Shadow and ELEVENPLAY pieces (already in the gallery); his own videos are VJ sets, TouchDesigner sketches and a desktop sonification app, not spatial AR.",
+   "link": "https://www.youtube.com/@satoruhiga",
+   "found_via": "shunichi-kasahara",
+   "status": "not_ar"
+  },
+  {
+   "name": "Gemma O'Brien",
+   "why": "Her only projected-AR piece is the Lightform 'It's Lit' mural collaboration, already in the gallery under lightform; the rest is lettering and murals.",
+   "link": "https://www.youtube.com/watch?v=XTR-NhJ9em8",
+   "found_via": "lightform",
+   "status": "duplicate"
+  },
+  {
+   "name": "Damian Stewart",
+   "why": "His AR/interactive work (The Artvertiser, A Cable Plays, YesYesNo Night Lights) is already in the gallery under julian-oliver, chris-sugrue and zach-lieberman; no standalone videos; now works in ML systems.",
+   "link": "http://www.damianstewart.com",
+   "found_via": "julian-oliver",
+   "status": "duplicate"
+  },
+  {
+   "name": "Danja Vasiliev",
+   "why": "Critical engineer (Newstweek, network interventions with Julian Oliver); available videos are talks, not spatial/AR works.",
+   "link": "https://www.youtube.com/watch?v=C3DhUPT5k1Q",
+   "found_via": "julian-oliver",
+   "status": "not_ar"
+  },
+  {
+   "name": "Lingdong Huang",
+   "why": "Generative artist (Doodle-Place, Emojia, finger segmentation with Golan Levin); screen-based work, no AR or projection pieces with video.",
+   "link": "https://lingdong.works",
+   "found_via": "golan-levin",
+   "status": "not_ar"
+  },
+  {
+   "name": "Matthias Dörfelt & Gordey Chernyy",
+   "why": "Contributors of generative masks and tooling to Más Que la Cara (in the gallery under zach-lieberman); no standalone AR video found.",
+   "link": "https://medium.com/@zachlieberman/m%C3%A1s-que-la-cara-overview-48331a0202c0",
+   "found_via": "zach-lieberman",
+   "status": "no_video"
+  },
+  {
+   "name": "Benjamin Millepied / L.A. Dance Project",
+   "why": "Romeo & Juliet Suite uses live handheld cameras projected on stage, but nothing interactive or AR; motion-capture work with Universal Everything is non-interactive.",
+   "link": "https://www.youtube.com/watch?v=XLlcJe0NJbY",
+   "found_via": "universal-everything",
+   "status": "not_ar"
+  },
+  {
+   "name": "Simon Pyke (Freefarm)",
+   "why": "Sound designer for Universal Everything; showreels only, no spatial/AR works of his own.",
+   "link": "https://www.youtube.com/watch?v=FSDt95vCrGQ",
+   "found_via": "universal-everything",
+   "status": "not_ar"
+  },
+  {
+   "name": "The Designers Republic (Ian Anderson)",
+   "why": "Graphic design studio (Wipeout, Warp records); no AR, projection or interactive spatial works found.",
+   "link": "https://www.thedesignersrepublic.com",
+   "found_via": "universal-everything",
+   "status": "not_ar"
+  },
+  {
+   "name": "Floex (Tomáš Dvořák)",
+   "why": "Composer and co-author of Archifon and Netykavka with INITI; works are already covered under initi.",
+   "link": "https://www.archifon.org",
+   "found_via": "initi",
+   "status": "duplicate"
+  },
+  {
+   "name": "Keita Higuchi",
+   "why": "First author of Flying Head (Rekimoto Lab); drone-telepresence and head-synchronized robot control research.",
+   "link": "https://www.youtube.com/watch?v=9HLyZqhkNKg",
+   "found_via": "jun-rekimoto",
+   "status": "open"
+  },
+  {
+   "name": "Amar Mulabegović",
+   "why": "Visual artist behind The Macula's SIM/NEBULA and Luminous Flux; may have later independent mapping works.",
+   "link": "https://vimeo.com/138894725",
+   "found_via": "the-macula",
+   "status": "open"
+  },
+  {
+   "name": "Presstube (Chris Mullany) & Dpt.",
+   "why": "Montreal collaborators on Marshmallow Laser Feast's mixed-reality A Colossal Wave; Dpt. makes interactive and VR documentaries.",
+   "link": "http://acolossalwave.com",
+   "found_via": "marshmallow-laser-feast",
+   "status": "open"
+  }
+ ]
+}

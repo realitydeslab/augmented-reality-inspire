@@ -3,7 +3,34 @@
  "drop_works": [
   "daito-manabe--perfume-cannes-lions"
  ],
- "patch_works": {},
+ "patch_works": {
+  "universal-everything--ultrasound-vision-pro": {
+   "title": "Ultrasound VR",
+   "year": 2026,
+   "description": "An interactive music ecosystem for Apple Vision Pro: by drawing in the space around you, you place audio-reactive sound sculptures and layer them into compositions, with Spatial Audio putting each sound where its sculpture stands.",
+   "description_zh": "一个为 Apple Vision Pro 打造的交互式音乐生态：你在身边的空间里画画，就会放置随音乐律动的声音雕塑，把它们一层层叠加成乐曲；空间音频让每个声音都从对应雕塑所在的位置传来。",
+   "idea_en": "Draw in the air to compose music: every stroke becomes a sound sculpture that plays from where you drew it.",
+   "idea_zh": "在空中画画就是在作曲：每一笔都会变成一个声音雕塑，并从你画下它的位置发出声音。",
+   "technique": "Hand tracking captures drawing gestures that spawn generative, audio-reactive meshes; each one is bound to a looping sound layer rendered with Spatial Audio at its 3D position, and LiDAR scene understanding lets the sculptures sit on real surfaces.",
+   "technique_zh": "手部追踪捕捉作画手势，生成随音频律动的生成式网格；每个网格都绑定一条循环的声音图层，并用空间音频在它的三维位置播放；LiDAR 场景理解让这些雕塑能贴在真实表面上。",
+   "exercise_en": "Build a WebXR or AR Foundation scene where each tap or drawn stroke places a shape that loops one sound sample from its position (use positional audio), so walking around the room remixes the piece. Twist: make each shape's size pulse with its own sound's volume.",
+   "exercise_zh": "用 WebXR 或 AR Foundation 做一个场景：每次点击或画一笔，就在该位置放置一个形体，并从这个位置循环播放一段声音采样（使用空间化音频），让人在房间里走动时就能重新混音；变体：让每个形体的大小随自身声音的音量跳动。",
+   "interaction": [
+    "drawing-creation",
+    "voice-sound",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "Spatial Audio",
+    "LiDAR",
+    "hand tracking"
+   ]
+  }
+ },
  "merge_creators": {},
  "lead_status": {},
  "audit_ignore": [
@@ -15,6 +42,9 @@
   "niantic--pok-mon-go-ar|niantic--pok-mon-go",
   "ken-nakagaki--lineform|mit-tangible-media--inform",
   "sce-london-studio--wonderbook-book-of-potions|sce-london-studio--wonderbook-book-of-spells",
-  "james-alliban--traces|chris-oshea--traces"
+  "james-alliban--traces|chris-oshea--traces",
+  "snap-inc|paris-ar-studio",
+  "stefanie-zollmann|tobias-langlotz",
+  "russ-maschmeyer|shopify-spatial-commerce"
  ]
 }
