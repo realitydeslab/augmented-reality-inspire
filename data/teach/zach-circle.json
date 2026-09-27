@@ -1,0 +1,330 @@
+{
+  "zach-lieberman--audio-in-ar-space": {
+    "technique": "ARKit world tracking logs the phone's 6-DoF pose each frame alongside microphone buffers, so each audio chunk is stored at a 3D position and replayed when the camera comes back within a distance threshold of that point.",
+    "exercise_zh": "用 Unity AR Foundation 或 WebXR 边走边录音，每 0.5 秒在手机位置放一个随音量缩放的小球并存下对应音频片段，走近小球就播放它；变体：只保留你沉默时的环境声，做一条“别人声音的路径”。"
+  },
+  "zach-lieberman--weird-type": {
+    "technique": "ARKit camera pose supplies a 3D path that glyph outlines are laid along, and the glyph vertices are animated by per-frame noise, time, and microphone amplitude.",
+    "exercise_zh": "在 three.js WebXR 或 Unity 里把一句话的字母沿着手机移动轨迹逐个放进空间，并让字母随麦克风音量抖动或炸开；变体：选一句只有在特定位置倒着走才能读通的话。"
+  },
+  "zach-lieberman--weird-cuts": {
+    "technique": "A user-drawn polygon masks the current camera frame into a textured cut-out, which is placed as a quad at the phone's pose (or a fixed distance in front of it) using ARKit/ARCore world tracking.",
+    "exercise_zh": "做一个 AR 剪刀：手指在屏幕上圈出一块相机画面，把它变成贴图薄片留在空中，拼一件 5 片以上的空间拼贴；变体：只能剪同一种颜色或材质，拼出一只“校园动物”。"
+  },
+  "zach-lieberman--m-s-que-la-cara": {
+    "technique": "A 2D facial landmark tracker (FaceTracker-style) fits dozens of points to each face on a live camera, and vector-illustrated mask parts are skinned to eyebrow, lip and head landmarks so they deform with expression.",
+    "exercise_zh": "用 MediaPipe Face Mesh 加 p5.js 画一个只由几何线条组成的面具，眉毛和嘴巴的关键点驱动图形形变；变体：每个人一靠近就随机换一张面具，做 10 种风格给路人“换脸”。"
+  },
+  "zach-lieberman--drawn": {
+    "technique": "Background subtraction and thresholding segment dark ink blobs from an overhead camera of the paper, converting them into physics bodies that are rendered back over the live video, with the hand tracked as a separate occluding mask.",
+    "exercise_zh": "用摄像头俯拍白纸，在 openFrameworks 或 p5.js 里把墨迹阈值分割成轮廓，变成会掉落、能被手推开的物体；变体：让墨迹根据笔画粗细决定是漂走还是沉下去。"
+  },
+  "zach-lieberman--the-eyewriter": {
+    "technique": "An IR-illuminated camera on glasses tracks the dark pupil and corneal glint, and a calibration grid maps the pupil-glint vector to screen coordinates for drawing, with dwell time used as a click.",
+    "exercise_zh": "用 WebGazer.js 或 MediaPipe 虹膜点做一个只用眼睛画画的网页，用注视停留 1 秒来落笔/抬笔，再投影到墙上；变体：给一位同学设定“不许动手”的限制，让他用眼睛签一个名字。"
+  },
+  "zach-lieberman--night-lights": {
+    "technique": "Cameras segment visitors' silhouettes and hand gestures (background subtraction plus contour analysis), and phone input is received over the network, all mapped to graphics projection-mapped onto the building facade.",
+    "exercise_zh": "用 TouchDesigner 或 p5.js 把摄像头里的人影轮廓放大投到教学楼窗户或走廊墙上，挥手触发灯光扫过；变体：加入手机网页控制，让远处的人也能通过手机在墙上“开灯”。"
+  },
+  "zach-lieberman--face-projection-test": {
+    "technique": "A face tracker on a camera co-located with the projector detects landmarks, and a camera-projector homography (calibrated once) warps the rendered graphics so they land on the moving face.",
+    "exercise_zh": "把投影仪和摄像头并排放置，用 MediaPipe Face Mesh 检测脸，再通过四点标定把图形投到同学脸上（注意亮度和眼睛安全）；变体：只投射在脸上会“流下来”的动态纹理，讲一个关于情绪的小片段。"
+  },
+  "zach-lieberman--chase-no-face-bell": {
+    "technique": "A Kinect provides depth for head pose while a 2D FaceTracker fits landmarks, and a calibrated projector renders textures onto the singer's face in real time; the camera-projector pair is registered so no post-production is needed.",
+    "exercise_zh": "用 MediaPipe Face Mesh 和投影仪给一段 30 秒的歌曲做现场投脸 MV，一镜到底拍下来；变体：每一句歌词换一种脸部“皮肤”，风格由组员抽签决定。"
+  },
+  "zach-lieberman--reflection-study-interactive-edition": {
+    "technique": "A camera under or over the light table extracts the contours of acrylic pieces, and a 2D ray-tracing simulation bounces light rays off those polygon edges, projected back onto the table.",
+    "exercise_zh": "在桌面上俯拍几张彩色卡纸，用 p5.js 提取轮廓后从一个光源发射射线在卡纸边缘反射，投影回桌面；变体：设计一组卡片形状，让光线最终能拼出你的名字首字母。"
+  },
+  "zach-lieberman--hag-seed-interactive": {
+    "technique": "Camera or depth-based body segmentation gives silhouettes and motion, which are used as collision shapes and forces for animated text particles in a projected scene.",
+    "exercise_zh": "选一首诗，把每个词变成投影墙上的物理粒子，用 MediaPipe Selfie Segmentation 的人体轮廓把词推散或接住；变体：只有两个人合作用身体搭出“容器”时，诗句才会按顺序排好。"
+  },
+  "zach-lieberman--hide-yourself": {
+    "technique": "ARKit 3 people segmentation with depth produces a per-pixel human matte, which is used to occlude or replace the person with the reconstructed background behind them.",
+    "exercise_zh": "用 AR Foundation 的 Human Segmentation（或网页端 MediaPipe 分割）把画面里的人替换成先拍好的背景，做一个“隐身术”；变体：不是让人完全消失，而是只留下影子或衣服，讲一个关于存在感的短片。"
+  },
+  "zach-lieberman--ar-wallpaper-lenses-for-snap": {
+    "technique": "Lens Studio world mesh / plane detection supplies wall surfaces, and a generative shader with world-space UVs tiles animated patterns across them.",
+    "exercise_zh": "在 Lens Studio 或 AR Foundation 平面检测上给墙面铺一层会呼吸的程序化花纹（shader 用世界坐标做 UV）；变体：花纹随房间的环境光或声音改变，让宿舍墙变成“情绪壁纸”。"
+  },
+  "molmol-kuo--audio-walking-tour-ar": {
+    "technique": "Image tracking recognises the printed documents as anchors, and ARKit world tracking positions audio clips relative to them so that the listener's movement between spots selects and pans the stories.",
+    "exercise_zh": "采访一位同学的迁徙或搬家故事，把录音分段挂在几张纸质证件/车票的图像锚点上（AR Foundation Image Tracking 或 8th Wall），走到哪张纸前就听哪段；变体：让某一段只有在你蹲下或弯腰时才能听见。"
+  },
+  "golan-levin--scrapple": {
+    "technique": "An overhead camera segments objects on the table (background subtraction and blob detection), treating the x-axis as time and the y-axis as pitch like a spectrogram score, with a scanning playhead that sonifies blobs and projection highlighting them.",
+    "exercise_zh": "俯拍桌面，用 p5.js 检测物体色块，横轴当时间、纵轴当音高，一条播放线扫过时发声并投影高亮；变体：规定只能用厨房用品作曲，给全班演奏一段 30 秒“早餐乐”。"
+  },
+  "golan-levin--messa-di-voce-installation": {
+    "technique": "Camera tracking locates each visitor's head/mouth position, and real-time audio analysis (amplitude, pitch, spectral features) generates projected shapes emitted from that point, which then collide with body silhouettes.",
+    "exercise_zh": "用 MediaPipe 找到嘴的位置，用 p5.sound 分析音量和音高，从嘴里吐出不同形状的泡泡并投到墙上；变体：给元音 a/e/i/o/u 各设计一种形状，让大家用声音“写字”。"
+  },
+  "golan-levin--footfalls": {
+    "technique": "Floor-mounted contact microphones detect stomp onsets and amplitude, spawning physics objects, while camera-based silhouette extraction provides collision boundaries for catching them.",
+    "exercise_zh": "用笔记本麦克风检测跺脚或拍手的音量峰值，每次峰值从投影墙顶部掉下一批物体，人的轮廓能接住它们；变体：不同力度掉下不同东西，比如轻跺落花、重跺落石。"
+  },
+  "golan-levin--reface-portrait-sequencer": {
+    "technique": "Face tracking aligns each visitor's face to a canonical frame, horizontal strips (eyes, nose, mouth) are recorded as video slices, and blink detection triggers recombination of strips from different people.",
+    "exercise_zh": "用 MediaPipe Face Mesh 对齐人脸，把眼、鼻、嘴三条横带分别存下来，眨眼就随机拼一张全班的“合成脸”；变体：拼接规则由情绪决定，比如只拼所有人在笑时的嘴。"
+  },
+  "golan-levin--interstitial-fragment-processor": {
+    "technique": "Silhouettes from background subtraction are analysed for enclosed holes (contour hierarchy / connected components), and those negative-space regions become rigid bodies in a 2D physics engine.",
+    "exercise_zh": "用摄像头抠出人影，找到人影中间“围出来”的空洞（如叉腰时手臂和身体间的洞），把空洞变成掉落碰撞的彩色块并发声；变体：大家合作用身体围出一个指定形状（心、星）才能释放它。"
+  },
+  "golan-levin--ghost-pole-propagator": {
+    "technique": "Binary silhouettes are thinned by morphological skeletonization into centerline pixels, which are vectorized into poles and rendered as calligraphic strokes.",
+    "exercise_zh": "用 OpenCV 骨架化或 MediaPipe Pose 连线，把人的姿势变成书法笔画投到墙上，并保留前几秒的残影；变体：让全班依次摆姿势，拼出一个自己发明的“身体字母表”。"
+  },
+  "golan-levin--ghost-projection-for-richard-iii": {
+    "technique": "Stage cameras (likely IR with background subtraction) segment the actors' bodies, and the resulting matte, warped through a camera-projector calibration, restricts projected video noise to their silhouettes.",
+    "exercise_zh": "用 MediaPipe 人体分割加投影仪，只在同学身上投电视雪花噪点，背景保持全黑；变体：写一段 1 分钟的“鬼魂独白”，让噪点随台词音量变强变弱。"
+  },
+  "golan-levin--eyeshine": {
+    "technique": "An infrared light source placed coaxially with an IR camera produces retroreflection from the retina (the red-eye effect), which is detected as bright pupil blobs and recorded and replayed.",
+    "exercise_zh": "用手机闪光灯贴近镜头在暗处拍人眼，或用红外摄像头，找出瞳孔反光并在 p5.js 里单独保存，排成一面“眼光墙”；变体：只收集对视超过 3 秒的人的眼光，讨论“被看见”的伦理。"
+  },
+  "golan-levin--augmented-hand-series": {
+    "technique": "A Leap Motion (or camera) tracks hand joints, and an image-warping mesh is deformed per joint to add, remove, or stretch fingers on the live hand video.",
+    "exercise_zh": "用 MediaPipe Hands 拿到 21 个关键点，在 p5.js 里对手部视频做网格变形，让手指变长或多出一根；变体：设计一只“会自己动”的手，让某根手指在你不动时悄悄乱跑。"
+  },
+  "golan-levin--arkit-re-code-of-jeffrey-shaw-s-golden-calf": {
+    "technique": "ARKit horizontal plane detection (or an image marker on the plinth) anchors a reflective 3D model, and the environment probe reflects the real room on its gold surface.",
+    "exercise_zh": "用 Unity AR Foundation 把一件经典新媒体作品“重写”成手机 AR：在空台子上放一个带环境反射的金属模型；变体：换成你身边一件被忽视的物品，让它在空底座上被“供起来”。"
+  },
+  "theo-watson--daisies": {
+    "technique": "An overhead camera with background subtraction detects where feet are on the floor projection, and a per-flower state (height, health) decays under occlusion and regrows over time.",
+    "exercise_zh": "用俯拍摄像头和地面投影做一片会被踩倒、离开后慢慢长回来的草地（p5.js 或 TouchDesigner）；变体：每个人踩过后长出的花形状由他停留的时间决定。"
+  },
+  "theo-watson--l-a-s-e-r-tag": {
+    "technique": "A camera watches the building, thresholds for the bright green laser dot, maps its position through a camera-to-projector homography, and draws strokes at that point with the projector.",
+    "exercise_zh": "用摄像头追踪激光笔或手机手电的亮点，经四点标定后在投影墙上画出粗笔触（p5.js/TouchDesigner）；变体：笔触会根据画的速度变成不同笔刷，比如慢写滴墨、快写喷漆。"
+  },
+  "theo-watson--generative-graffiti": {
+    "technique": "A camera image of the facade is thresholded to find lit windows, which act as particle emitters and attractors while dark windows act as repellers, projected back via camera-projector registration.",
+    "exercise_zh": "拍一张晚上教学楼的照片，找出亮着的窗户当粒子源，暗窗做排斥点，把动画投回同一面墙或模型上；变体：粒子代表楼里的人的“熬夜气息”，窗户熄灭后粒子会迁移。"
+  },
+  "theo-watson--fat-tag-meet-projector": {
+    "technique": "Touch strokes from a phone drawing app are streamed (likely over OSC or network) to a laptop that renders them to a pico projector aimed at a wall.",
+    "exercise_zh": "做一个手机网页画板，用 WebSocket 把笔画实时传到连投影仪的电脑并投到墙上；变体：限定只能画一种符号，全班在同一面墙上合作完成一幅“标签地图”。"
+  },
+  "theo-watson--funky-forest": {
+    "technique": "Overhead and frontal cameras segment children's bodies and tracked physical objects, which act as emitters and obstacles in a 2D fluid/particle stream simulation projected onto the floor and walls.",
+    "exercise_zh": "在地面投影一条流动的粒子小溪，用摄像头识别纸箱或书本作为可移动的挡板，引导水流去浇灌屏幕边上的树；变体：树长大的样子取决于它喝到的水来自哪几个同学。"
+  },
+  "theo-watson--terrarium": {
+    "technique": "Microphones feed amplitude and pitch features into an agent-based simulation, where incoming sounds become food particles and creatures grow according to what they consume.",
+    "exercise_zh": "用 p5.sound 把声音转成掉进投影世界里的“食物”粒子，简单的生物吃到后长大、没吃到会饿死；变体：不同音高是不同食物，大家用声音“喂养”一个共同物种。"
+  },
+  "theo-watson--knee-deep": {
+    "technique": "Chroma keying or background subtraction isolates children's feet and legs from an overhead camera, which are then composited at a different scale into pre-rendered or live 3D worlds.",
+    "exercise_zh": "用 MediaPipe 人体分割把同学抠出来，缩放后合成进一张城市航拍或显微镜照片里，投到地上让大家“踩进”画面；变体：每走一步切换一个尺度，从蚂蚁视角到星球视角。"
+  },
+  "theo-watson--filmmuseum-augmented-sand-sculpture": {
+    "technique": "Projection mapping aligns projector output to the physical sculpture using a 3D model or manually warped masks, then reveals textures and animations region by region.",
+    "exercise_zh": "用黏土或纸盒做一个小建筑，用 TouchDesigner 或 MadMapper 的遮罩把投影对准每个面，分阶段“揭幕”；变体：投影讲述这个建筑从建造到废墟的一生。"
+  },
+  "theo-watson--rise-and-fall": {
+    "technique": "Fiducial marker tracking on the printed cover estimates its 6-DoF pose from a webcam, and the cover's rotation angle drives gravity and scene state in a 3D world rendered on top.",
+    "exercise_zh": "用 8th Wall 或 AR Foundation 图像追踪识别一张自己设计的海报，海报倾斜角度决定虚拟小人往哪边滑，正反面各一个世界；变体：翻转海报时两个世界的故事会互相影响。"
+  },
+  "theo-watson--night-bright": {
+    "technique": "Depth or camera-based body tracking positions a light mask on each child, and a projected night scene is revealed only inside those regions, with spatial audio cues pointing to hidden creatures.",
+    "exercise_zh": "做一个全黑的投影场景，用 MediaPipe 追踪人的手或身体，只有被“身体手电筒”照到的地方才显示画面，并用左右声道提示动物位置；变体：找到所有动物后反过来它们会来“照”你。"
+  },
+  "theo-watson--puppet-parade": {
+    "technique": "Kinect skeleton tracking maps the shoulder-elbow-wrist chain to the joints of a projected puppet, with separate body detection for others who walk in to interact.",
+    "exercise_zh": "用 MediaPipe Pose 把手臂的三个关节映射到一个大型投影提线木偶，另一人走进画面可以喂它；变体：两个人各控制木偶的一半身体，必须配合才能让它走路。"
+  },
+  "theo-watson--skataviz": {
+    "technique": "The phone's gyroscope and accelerometer are fused (IMU sensor fusion) into an orientation stream that animates a 3D board model and data traces overlaid on synchronized video.",
+    "exercise_zh": "用手机网页的 DeviceOrientation 接口把手机绑在滑板、自行车或者篮球上，记录转动并在视频上叠加一个 3D 轨迹；变体：把数据可视化成一只动物，让它在做动作时“叫”出来。"
+  },
+  "theo-watson--weather-worlds": {
+    "technique": "Green-screen chroma keying composites children into a 3D weather scene, and gesture detection from the silhouette (arm raise, spin) triggers particle weather systems.",
+    "exercise_zh": "用 MediaPipe 分割把人抠进一个天气场景，举手下雨、转圈起风，投在墙上；变体：天气由情绪触发，比如大笑放晴、捂脸起雾。"
+  },
+  "theo-watson--connected-worlds": {
+    "technique": "Many Kinect depth cameras track the floor to detect physical logs and people, which redirect a projected 2D fluid simulation of water flowing between networked habitat simulations.",
+    "exercise_zh": "在地面投影一条水流，用俯拍摄像头识别几块彩色木板改变水流方向，把水分给墙上两个不同的小生态（沙漠/雨林）；变体：让两个生态之间有资源冲突，全班需要协商水怎么分。"
+  },
+  "theo-watson--elements": {
+    "technique": "Depth cameras track each visitor's body and gesture velocity, which are mapped to element-specific particle and fluid systems (fire, wind, water, earth) in a projected environment.",
+    "exercise_zh": "用 MediaPipe Pose 给四位同学各分配一种元素，手臂的速度生成火、风、水、土的粒子并投影；变体：两种元素相遇时会产生新东西，比如水加火起雾。"
+  },
+  "theo-watson--living-library": {
+    "technique": "A depth camera over a blank physical book detects hand touches and page turns, and a projector calibrated to the book surface projects illustrations aligned to the pages.",
+    "exercise_zh": "做一本白页手工书，用摄像头检测翻到第几页（可在页角贴色块），投影仪把对应动画投到书页上，手指点哪里哪里动；变体：写一个只有翻回上一页才会改变结局的故事。"
+  },
+  "theo-watson--studio-play": {
+    "technique": "Depth cameras estimate each visitor's position and distance from the wall, mapping it to pan and zoom within a high-resolution image of artworks.",
+    "exercise_zh": "用 MediaPipe 估计人离屏幕多远、站在左还是右，据此放大一幅高清名画的对应区域；变体：画作里的人物会转头看向你所站的位置。"
+  },
+  "theo-watson--field": {
+    "technique": "Camera or depth-based body tracking deposits color into a persistent field texture as visitors move, which drives flower spawning and butterfly agents that follow color gradients.",
+    "exercise_zh": "用投影和人体追踪让人走过的地方留下颜色，颜色浓的地方长花、蝴蝶飞过去；变体：场景按真实时间慢慢换季，冬天时只有两个人靠在一起的地方才会开花。"
+  },
+  "theo-watson--remnant": {
+    "technique": "Hand tracking (likely depth camera) detects open-hand gathering gestures, attracting particles to a point whose mass accumulates and triggers staged particle effects for each stellar lifecycle phase.",
+    "exercise_zh": "用 MediaPipe Hands 做“聚拢”手势，把投影里的粒子吸成一颗星，吸满后爆炸成星云；变体：星的颜色和寿命由参与人数决定，一个人只能做出一颗小红矮星。"
+  },
+  "theo-watson--painted-mirror": {
+    "technique": "A depth camera segments the person from the background, and a stroke-based painterly renderer draws the portrait with brush size shrinking the longer the person stands still.",
+    "exercise_zh": "用 MediaPipe 分割加 p5.js 画笔粒子，把人画成油画风格，静止越久笔触越细越清楚，一动就变模糊；变体：背景换成你们学校的某个场景，做一面“毕业照镜子”。"
+  },
+  "chris-sugrue--delicate-boundaries": {
+    "technique": "A camera looking at the screen and arms detects hand contact and arm contours, and a projector calibrated to the same space lets agent-based bugs walk off the screen and follow those contours.",
+    "exercise_zh": "屏幕上养一群小虫，用 MediaPipe Hands 检测手指触碰屏幕边缘后，让虫子“爬”到投影到手臂上的画面中；变体：虫子在你手上待久了会生出你没想到的东西。"
+  },
+  "chris-sugrue--a-cable-plays": {
+    "technique": "A camera over the board detects the yarn lines (likely via color thresholding and Hough line detection), and the resulting polygon regions spawn generative creatures in the augmented video.",
+    "exercise_zh": "俯拍一块钉板，两人轮流拉彩色毛线，用 p5.js 检测线条围出的区域，在区域里生出小生物；变体：把它做成对弈游戏，谁围出的区域里的生物吃掉对方谁赢。"
+  },
+  "chris-sugrue--base-8": {
+    "technique": "A Pepper's ghost setup reflects a screen in angled glass to float graphics in a real volume, while a camera tracks hand positions behind the glass to grow geometry between the fingers.",
+    "exercise_zh": "用手机加一片斜 45 度的透明亚克力做 Pepper's ghost 小盒子，再用 MediaPipe Hands 让几何结构在手指之间生长；变体：结构只在两只手（可以是两个人的）靠近时才连接起来。"
+  },
+  "chris-sugrue--decrypted-reflections": {
+    "technique": "A projected generative image hits an array of physically adjustable mirrors, so rotating mirrors redirects fragments of the projection around the room in an analog, non-computed way.",
+    "exercise_zh": "把投影打到一排可转动的小镜子（或手机屏幕、镜面纸）上，让画面碎片反射到房间各处，大家转镜子重组图像；变体：设计一张只有所有碎片落在同一面墙上时才能读出的秘密信息。"
+  },
+  "chris-sugrue--memory-of-form-and-matter": {
+    "technique": "Projection mapping registers the projector to the 3D-printed sculpture's CAD model, and simulations (flow, displacement) are rendered in model space so light follows the physical geometry.",
+    "exercise_zh": "用 3D 打印或纸雕做一个小结构，用 TouchDesigner 的 Kantan Mapper 或投影映射把呼吸般的明暗动画投上去；变体：让它“呼吸”的节奏跟房间里的噪音同步。"
+  },
+  "kyle-mcdonald--face-substitution": {
+    "technique": "FaceTracker fits a deformable landmark mesh to both the source and live face, the source texture is warped onto the live mesh, and color-transfer plus Poisson-style blending hides the seam.",
+    "exercise_zh": "用 MediaPipe Face Mesh 的三角网格把一张名画人物的脸贴到自己脸上，做简单的颜色匹配后实时换脸；变体：只换半张脸，做一面“一半是你一半是祖先”的镜子。"
+  },
+  "kyle-mcdonald--scramble-suit": {
+    "technique": "The same FaceTracker mesh-warp-and-blend pipeline as Face Substitution, cycling through a large database of source faces every few frames so identity never stabilises.",
+    "exercise_zh": "收集全班 20 张正脸照，用 MediaPipe Face Mesh 每隔半秒给摄像头里的人换一张，做一件“无法被描述的面具”；变体：让换脸速度随周围人数增加而加快，讨论监控与匿名。"
+  },
+  "kyle-mcdonald--sharing-faces": {
+    "technique": "Face tracking extracts head pose and expression parameters, which are used as a nearest-neighbour query into a growing database of photos captured at the remote site.",
+    "exercise_zh": "用 MediaPipe 提取头部朝向和嘴巴张开程度，从另一组同学提前拍好的照片库里找出姿势最像的一张实时显示；变体：两个教室互相连线，你只能用对方过去的照片“回应”对方。"
+  },
+  "kyle-mcdonald--light-leaks": {
+    "technique": "Structured-light (Gray code) scanning maps each projector pixel to where its reflection lands in the room via the mirror balls, and the content is authored in that reflected space so light points move coherently.",
+    "exercise_zh": "把投影仪对准一个迪斯科球或几片镜子，在 TouchDesigner 里逐区域点亮，记录每块区域的光斑落在房间哪里，再编一段光点游走的动画；变体：让光点按一首歌的节奏在墙上“跳舞”。"
+  },
+  "kyle-mcdonald--highsight": {
+    "technique": "A live camera on a cable-guided rig streams low-latency video into a head-mounted display, so the viewer's vision is displaced into a moving remote viewpoint within the same physical space.",
+    "exercise_zh": "把一部手机绑在绳子或杆子上做“飞行摄像头”，用 WebRTC 把画面实时传到戴 HoloKit 的同学眼前，让他从天花板视角看自己；变体：让观看者只能通过这个视角找回房间里某件藏起来的东西。"
+  },
+  "lauren-mccarthy--us": {
+    "technique": "Webcam face tracking and speech-to-text with sentiment/word-count analysis run during the video call, and rule-based triggers overlay text prompts and auto-mute when thresholds are crossed.",
+    "exercise_zh": "用 Web Speech API 和 MediaPipe 做一个视频聊天“教练”网页，统计谁说话多、谁在笑，并弹出提示；变体：加入一条过分的自动干预规则（比如你说“我”太多就被静音），体验被算法管理的对话。"
+  },
+  "lauren-mccarthy--unlearning-language": {
+    "technique": "Machine-learning classifiers (pose estimation, facial expression, speech recognition) detect recognisable human signals, and detection events drive light and sound feedback that participants try to evade.",
+    "exercise_zh": "用 MediaPipe 和 Teachable Machine 做一个会识别点头、挥手、微笑的系统，一识别到就亮灯报警，小组发明一种它识别不出的沟通方式；变体：成功“隐身”交流 1 分钟后，把你们发明的暗号教给另一组。"
+  },
+  "lauren-mccarthy--voice-in-my-head": {
+    "technique": "Speech recognition transcribes the wearer's surroundings, an LLM generates short suggestions conditioned on a personality profile, and text-to-speech delivers them through an earpiece with low latency.",
+    "exercise_zh": "用手机网页的语音识别加一个 LLM API，把对话摘要后生成一句建议，通过耳机用 TTS 悄悄念给你听；变体：给这个声音设定一个与你完全相反的性格，戴着它和同学聊 5 分钟再反思。"
+  },
+  "daito-manabe--perfume-at-cannes-lions": {
+    "technique": "Optical motion capture tracks the moving screens and dancers, and a 3D scan of the venue defines a virtual stage in which projector renders are updated per frame to stay mapped onto moving surfaces.",
+    "exercise_zh": "给一块手持白板贴上 ArUco 或 AR 标记，用摄像头追踪它的位置，投影仪把画面始终投在移动的白板上，编一段 1 分钟的舞；变体：两块板靠近时画面会从一块“流”到另一块。"
+  },
+  "daito-manabe--border": {
+    "technique": "Motion capture tracks both the audience wheelchairs and real dancers in a shared coordinate system, so HMD-rendered virtual dancers and scenery are registered precisely to the physical stage.",
+    "exercise_zh": "用 HoloKit 或手机 AR 在教室里放一个虚拟舞者，让观看者坐在带轮椅子上被同学推着走固定路线，真人舞者和虚拟舞者交替出现；变体：观看者看不到真人舞者什么时候替换了虚拟的，事后让他猜。"
+  },
+  "daito-manabe--dynamic-vr-display": {
+    "technique": "Head tracking feeds an off-axis (asymmetric frustum) projection so each display renders the scene from the viewer's eye position, making flat screens behave like windows into a consistent 3D space.",
+    "exercise_zh": "用 MediaPipe Face Mesh 估计头部位置，在 three.js 里做离轴投影，让笔记本屏幕变成一个有深度的“窗口盒子”；变体：盒子里放一个只有从特定角度看才能拼完整的物体或文字。"
+  },
+  "daito-manabe--nosaj-thing-eclipse-blue": {
+    "technique": "Markerless motion tracking (likely ML pose estimation plus camera tracking) extracts the dancer's pose, which drives generated graphics composited into the scene from the tracked camera's viewpoint.",
+    "exercise_zh": "用 MediaPipe Pose 录一段同学跳舞的视频，把骨骼点变成拖尾线条或粒子，合成回原视频做成 MV；变体：让图形延迟 1 秒跟随，像舞者的“回声分身”。"
+  },
+  "daito-manabe--fencing-tracking-and-visualization-system": {
+    "technique": "High-speed cameras detect the sword tips (first with markers, later with a trained deep-learning keypoint detector), triangulate their 3D positions, and render trajectory trails over the broadcast feed.",
+    "exercise_zh": "用手机慢动作拍一段挥羽毛球拍或擦白板的动作，用颜色追踪或 MediaPipe 手部点画出高速轨迹叠加到视频上；变体：把轨迹变成一种“书法”，比一比谁挥出的线条最好看。"
+  },
+  "daito-manabe--discrete-figures": {
+    "technique": "Motion capture of dancers trains or drives ML-generated virtual dancers, which are rendered into projection mapped onto stage elements and drones whose positions are tracked in the same space.",
+    "exercise_zh": "录下一位同学的舞蹈骨骼数据，在投影里生成一个会“模仿”并逐渐走样的虚拟舞伴，与真人同台；变体：虚拟舞伴每一轮都用上一轮的偏差继续生成，看它离人多远。"
+  },
+  "memo-akten--webcam-piano": {
+    "technique": "Frame differencing or optical flow over a grid of screen cells detects motion per cell, and each active cell triggers a note quantised to a musical scale, visualised with a fluid simulation.",
+    "exercise_zh": "用 p5.js 把摄像头画面切成 8×8 格子，哪格有运动就按五声音阶弹对应音符；变体：换一套音阶和音色，让一种特定动作（如扫地）变成一首歌。"
+  },
+  "memo-akten--body-paint": {
+    "technique": "Optical flow from a camera provides velocity vectors that inject dye and force into a GPU 2D fluid simulation (ofxMSAFluid), projected at wall scale.",
+    "exercise_zh": "用 TouchDesigner 或 p5.js 的光流把身体动作变成往流体里注入颜料的力，投到墙上当画布；变体：每个人穿一种颜色的衣服决定颜料颜色，最后合拍一张“全班身体画”。"
+  },
+  "memo-akten--learning-to-see": {
+    "technique": "An image-to-image network (pix2pix-style GAN) trained on a single domain such as waves or flowers takes the live camera image, edge-processed, as input and outputs a re-rendered frame in real time.",
+    "exercise_zh": "用 Runway 或预训练的 pix2pix/风格迁移模型，把摄像头拍到的桌面杂物实时渲染成云、火或海浪；变体：自己拍 100 张校园某处的照片训练一个小模型，让杂物“看见”那个地方。"
+  },
+  "chris-oshea--out-of-bounds": {
+    "technique": "A camera tracks the position of the handheld torch's light spot on the wall, and the projector reveals a hidden image layer only inside a circular mask at that position.",
+    "exercise_zh": "用摄像头追踪手电筒在墙上的光斑，投影只在光斑处显示一张“墙后面”的图（管道、老鼠、隔壁教室）；变体：墙后的世界会慢慢察觉被照，开始躲避光。"
+  },
+  "chris-oshea--traces": {
+    "technique": "Background subtraction extracts moving bright regions or silhouettes each frame, which are accumulated into a slowly decaying frame buffer to emulate long-exposure light trails.",
+    "exercise_zh": "用 p5.js 或 TouchDesigner 做帧累积加衰减（feedback），让人的动作留下长曝光一样的光轨并投影；变体：光轨只记录最慢的动作，快动作会被抹掉。"
+  },
+  "chris-oshea--hand-from-above": {
+    "technique": "Background subtraction and blob tracking find pedestrians in the live square feed, and a pre-animated giant hand is composited to target a chosen person, warping or removing their pixels.",
+    "exercise_zh": "用 MediaPipe 检测监控视角画面里的人，从画面上方伸下一只动画大手去“戳”其中一个人，把他拉长或挤扁；变体：大手只挑低头看手机的人，做一个关于注意力的小恶作剧。"
+  },
+  "chris-oshea--little-magic-stories": {
+    "technique": "Kinect skeleton and depth tracking follow the children on stage, and colored props are recognised to trigger projected characters and scenery tied to their positions.",
+    "exercise_zh": "给小组发几张画好的纸道具，用颜色识别触发投影背景和角色，用 MediaPipe Pose 让角色跟着表演者走，表演 3 分钟的小故事；变体：观众鼓掌的音量决定下一幕的场景。"
+  },
+  "chris-oshea--body-swap": {
+    "technique": "Kinect skeleton tracking of two players drives two on-screen puppets, with each player's joint data mapped to the other player's avatar.",
+    "exercise_zh": "用 MediaPipe Pose 同时追踪两个人，把 A 的动作渲染在 B 的剪影人偶上，反之亦然；变体：只交换一半身体，比如你控制对方的腿、对方控制你的手，完成一个共同任务。"
+  },
+  "chris-oshea--dash-dodge-dive": {
+    "technique": "Big-screen cameras use motion detection (frame differencing or blob tracking) to measure crowd movement per zone, and scores are synchronised over a network between sites.",
+    "exercise_zh": "用 p5.js 把摄像头画面分成左右两区，统计每区的运动量作为两队的“力气”，玩一场投影拔河；变体：两个教室通过网络对战，赢的一方可以在对方屏幕上留下一句话。"
+  },
+  "chris-oshea--woodland-wiggle": {
+    "technique": "Kinect body tracking maps children's positions and gestures to triggers in a 2D animated scene (painting, playing instruments, calling weather), with large-scale display for full-body play.",
+    "exercise_zh": "为一个儿童候诊区设计一面体感墙：用 MediaPipe Pose 让伸手、跳跃、蹲下分别触发画画、敲鼓、下雪；变体：所有动作都要能在坐着或躺着时完成，适合行动不便的孩子。"
+  },
+  "chris-oshea--wilderness-wiggle": {
+    "technique": "A depth camera tracks body silhouettes and movement, which are mapped to responsive animal and landscape animations on a play wall.",
+    "exercise_zh": "选一个你家乡的自然景观，用摄像头和 p5.js 做一面体感墙，动作让当地动物出现或躲起来；变体：请一位来自不同地方的同学提供动物和声音素材，让墙讲述他的地方。"
+  },
+  "kimchi-and-chips--lit-tree": {
+    "technique": "Structured-light scanning with a projector and Kinect maps every projector pixel to a 3D point on the leaves, turning the tree into a sparse volumetric display that lights voxels inside a scanned hand volume.",
+    "exercise_zh": "把投影仪对着一盆植物，用 TouchDesigner 逐行扫描记录哪些像素打到叶子上，再只点亮叶子画出上下移动的光平面；变体：用 MediaPipe 手的高度控制光平面，像用手抚摸这棵树。"
+  },
+  "kimchi-and-chips--assembly": {
+    "technique": "Projector-camera structured-light scanning locates each suspended block in 3D, so multiple projectors can address the blocks as volumetric pixels for animated forms.",
+    "exercise_zh": "在纸箱里吊 30 个白色小方块，投影仪逐块点亮并记录位置，做一个“体素屏幕”显示一个会游动的形状；变体：用全班每人做的一块方块组成，每块亮起时显示主人的名字。"
+  },
+  "kimchi-and-chips--line-segments-space": {
+    "technique": "Calibrated projection (projector pose solved against the known string geometry) lights only the pixels that fall on each nylon thread, drawing shapes along lines in physical space.",
+    "exercise_zh": "在暗箱里拉几十根白线，投影仪用遮罩只照亮线上的像素，在 TouchDesigner 里让光沿线流动出一个立体轮廓；变体：线的排布由一段文字的笔画决定，让光把字“写”在空中。"
+  },
+  "kimchi-and-chips--light-barrier": {
+    "technique": "Structured-light scanning calibrates each projector pixel's ray after reflection by convex mirrors, and those rays are rendered as volumetric beams that intersect in haze to draw 3D shapes.",
+    "exercise_zh": "在烟雾机或加湿器的雾里打一台投影，用黑底白线图形做出光束扫过的“光膜”，编一段 1 分钟的光雕动画；变体：光束形状由现场音乐的频谱决定。"
+  },
+  "kimchi-and-chips--light-barrier-third-edition": {
+    "technique": "Concave mirror arrays focus calibrated projector rays into haze, and mapping each pixel's reflected ray lets the system draw volumetric light objects at chosen positions in the room.",
+    "exercise_zh": "用一面凹面化妆镜反射投影进雾中，试着把光线汇聚成一个悬浮的光点并让它移动；变体：用这个光点讲一个“萤火虫”的小故事，光点会因观众靠近而逃走。"
+  },
+  "jonas-jongejan--arcore-drawing": {
+    "technique": "ARCore world tracking gives the phone pose each frame, and a point a fixed distance in front of the camera is appended to a line mesh while the screen is touched.",
+    "exercise_zh": "用 AR Foundation 或 WebXR 做一支空中画笔，按住屏幕就在手机前方 20 厘米处留下线条；变体：线条会随时间慢慢下垂或消失，逼人画得快、画得少。"
+  },
+  "jonas-jongejan--ar-wormhole": {
+    "technique": "A fixed 360 camera streams equirectangular video with a 10-second buffer, and an AR portal renders that delayed sphere so that looking through it shows the same place in the past from the phone's orientation.",
+    "exercise_zh": "用 Unity AR Foundation 做一扇传送门，门里贴一段在同一位置提前拍好的 360 视频，走进去看到“过去的这里”；变体：门里的时间差可以调，比如“一年前的这里”，讲这个地方的变化。"
+  },
+  "nicole-he--garden-friends": {
+    "technique": "ARCore plane detection places plants on real surfaces, while speech recognition and an intent-matching dialog system (Dialogflow) map what you say to parameters that grow and style the plants.",
+    "exercise_zh": "用 AR Foundation 平面检测放一个小角色，用语音识别加关键词或 LLM 解析你说的话，决定长出什么花草；变体：角色只对夸奖有反应，骂它会让花园枯萎，体会“对机器说话”的礼貌。"
+  }
+}

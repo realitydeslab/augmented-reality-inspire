@@ -1,0 +1,1069 @@
+{
+ "batch": "ian-curtis",
+ "creators": [
+  {
+   "id": "ian-curtis",
+   "name": "Ian Curtis",
+   "role": "Designer & creative technologist (World Labs; formerly Niantic / 8th Wall)",
+   "based": "San Francisco, US",
+   "bio": "Architecture-trained designer who prototypes AR in public on X: WebAR portals, location-anchored scenes, and, lately, generated Gaussian-splat worlds placed in real rooms.",
+   "why": "Ships a new spatial experiment almost every week and shows exactly how it was built — a living notebook of what AR can do next.",
+   "links": {
+    "site": "https://xrarchitect.xyz",
+    "x": "https://x.com/XRarchitect",
+    "github": "https://github.com/icurtis1"
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "ian-curtis--x795594",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Tap to launch orbs into a generated world",
+   "year": 2026,
+   "description": "A WebAR scene built from a World Labs Gaussian splat of his room; tapping the phone fires glowing orbs that fly through the space.",
+   "idea_zh": "把 AI 生成的 3D 世界叠在真实房间里，点一下就向其中发射光球。",
+   "interaction": [
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall",
+    "three.js",
+    "SparkJS",
+    "World Labs"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2077641433855795594",
+    "url": "https://x.com/XRarchitect/status/2077641433855795594"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2077641433855795594"
+  },
+  {
+   "id": "ian-curtis--x617966",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Living room redesign as WebAR splat",
+   "year": 2026,
+   "description": "A generated interior redesign of his living room rendered as a Gaussian splat and aligned in WebAR, so he can walk through the future room on his phone.",
+   "idea_zh": "把 AI 设计的新客厅以 1:1 叠在旧客厅上，用手机走进“未来的房间”。",
+   "interaction": [
+    "spatial-mapping",
+    "portal-world"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall",
+    "SparkJS",
+    "World Labs"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2076932513822617966",
+    "url": "https://x.com/XRarchitect/status/2076932513822617966"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2076932513822617966"
+  },
+  {
+   "id": "ian-curtis--x471177",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Touching grass: two-prompt WebAR",
+   "year": 2026,
+   "description": "An outdoor WebAR prototype with SLAM tracking, built with two prompts to an AI coding model, where he drags virtual objects across real grass.",
+   "idea_zh": "用两句 prompt 生成一个户外 WebAR 原型：AI 写代码，人直接在草地上摆弄虚拟物体。",
+   "interaction": [
+    "spatial-mapping",
+    "hand-body"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall",
+    "three.js",
+    "LLM coding"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2072573377714471177",
+    "url": "https://x.com/XRarchitect/status/2072573377714471177"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2072573377714471177"
+  },
+  {
+   "id": "ian-curtis--x153797",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Splat worlds as AR camera stand-ins",
+   "year": 2026,
+   "description": "Generated 3DGS environments act as a spatial reference for directing real-time AR camera moves; the capture is then restyled by a video model.",
+   "idea_zh": "用 AR 手机当“虚拟摄影机”，在生成的 3D 场景里走位拍镜头，再交给视频模型出成片。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "3D Gaussian Splatting",
+    "AR camera",
+    "video diffusion"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2072207377106153797",
+    "url": "https://x.com/XRarchitect/status/2072207377106153797"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2072207377106153797"
+  },
+  {
+   "id": "ian-curtis--x194197",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "A 20-million-splat San Francisco on the table",
+   "year": 2026,
+   "description": "A 20M-splat scan of San Francisco runs on a phone in WebAR; moving the phone closer zooms into individual streets.",
+   "idea_zh": "把整座旧金山缩成桌上模型，手机靠近就钻进街道。",
+   "interaction": [
+    "location-geo",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "WebAR",
+    "three.js",
+    "SparkJS"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2071471052086194197",
+    "url": "https://x.com/XRarchitect/status/2071471052086194197"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2071471052086194197"
+  },
+  {
+   "id": "ian-curtis--x468078",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Shrunk to action-figure size on the coffee table",
+   "year": 2026,
+   "description": "In mixed reality he shrinks himself to action-figure scale and explores a tiny generated world sitting on his living-room coffee table.",
+   "idea_zh": "把自己缩小成手办大小，在茶几上的迷你世界里探险。",
+   "interaction": [
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "WebXR",
+    "three.js",
+    "SparkJS",
+    "World Labs"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2053874498630468078",
+    "url": "https://x.com/XRarchitect/status/2053874498630468078"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2053874498630468078"
+  },
+  {
+   "id": "ian-curtis--x170377",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "A picture frame that is a window",
+   "year": 2026,
+   "description": "A WebXR picture frame on the office wall that shows a persistent generated 3D world behind it, like a window into another place.",
+   "idea_zh": "墙上挂一个“相框”，里面其实是通往另一个 3D 世界的窗户。",
+   "interaction": [
+    "portal-world"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "WebXR",
+    "Marble",
+    "Cursor"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2052418499516170377",
+    "url": "https://x.com/XRarchitect/status/2052418499516170377"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2052418499516170377"
+  },
+  {
+   "id": "ian-curtis--x222009",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Coit Tower in the living room",
+   "year": 2026,
+   "description": "A 40M-splat scan of San Francisco's Coit Tower placed in his living room, running fully on-device on Quest 3 through WebXR.",
+   "idea_zh": "把一座真实地标的超大扫描模型搬进客厅，在头显里绕着看。",
+   "interaction": [
+    "spatial-mapping",
+    "location-geo"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "WebXR",
+    "Spark 2.0 LoD",
+    "Quest 3"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2051683566292222009",
+    "url": "https://x.com/XRarchitect/status/2051683566292222009"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2051683566292222009"
+  },
+  {
+   "id": "ian-curtis--x089323",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Gaussian splat capture in Quest mixed reality",
+   "year": 2026,
+   "description": "A friend's Gaussian splat capture viewed in Quest passthrough MR via WebXR and Spark level-of-detail streaming.",
+   "idea_zh": "把真实场景的扫描放进 MR 里，和现实并排对照。",
+   "interaction": [
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "WebXR",
+    "Spark",
+    "Quest"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2056211832613089323",
+    "url": "https://x.com/XRarchitect/status/2056211832613089323"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2056211832613089323"
+  },
+  {
+   "id": "ian-curtis--x580600",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Off-axis projection with face tracking",
+   "year": 2026,
+   "description": "A head-coupled perspective demo: MediaPipe tracks the viewer's face so a 3D scanned shoe on a flat screen shifts perspective like a window.",
+   "idea_zh": "用摄像头追踪人脸，让普通屏幕变成有纵深的“窗口”，头动画面跟着变。",
+   "interaction": [
+    "face",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop",
+    "web"
+   ],
+   "tech": [
+    "MediaPipe",
+    "three.js",
+    "off-axis projection"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2008221154100580600",
+    "url": "https://x.com/XRarchitect/status/2008221154100580600"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2008221154100580600"
+  },
+  {
+   "id": "ian-curtis--x876133",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Off-axis window into a generated world",
+   "year": 2026,
+   "description": "Blender layout turned into a detailed World Labs splat, viewed through a face-tracked off-axis projection so the monitor becomes a window.",
+   "idea_zh": "先用简单体块搭场景，再用 AI 生成细节，最后用人脸追踪把屏幕变成通往世界的窗。",
+   "interaction": [
+    "face",
+    "portal-world"
+   ],
+   "platform": [
+    "desktop",
+    "web"
+   ],
+   "tech": [
+    "MediaPipe",
+    "three.js",
+    "World Labs"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2034675907898876133",
+    "url": "https://x.com/XRarchitect/status/2034675907898876133"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2034675907898876133"
+  },
+  {
+   "id": "ian-curtis--x181253",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "A pocket holodeck in WebAR",
+   "year": 2026,
+   "description": "Gaussian splats of about 5 MB each, generated from single images, placed around him in web AR like a miniature holodeck.",
+   "idea_zh": "每个 AI 生成的场景只有 5MB，放在身边就是随身全息甲板。",
+   "interaction": [
+    "portal-world",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "WebAR",
+    "SparkJS"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2014383901268181253",
+    "url": "https://x.com/XRarchitect/status/2014383901268181253"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2014383901268181253"
+  },
+  {
+   "id": "ian-curtis--x777746",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Game Boy graphics in real life",
+   "year": 2026,
+   "description": "A living-room test that brings chunky Game Boy-style graphics into the real room.",
+   "idea_zh": "把 Game Boy 像素画风搬进真实客厅。",
+   "interaction": [
+    "perception-art",
+    "game-play"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "WebAR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2082706695646777746",
+    "url": "https://x.com/XRarchitect/status/2082706695646777746"
+   },
+   "source_url": "https://x.com/XRarchitect/status/2082706695646777746"
+  },
+  {
+   "id": "ian-curtis--x678801",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Redesigned living room, 1.5 MB per splat",
+   "year": 2025,
+   "description": "Nano Banana image → World Labs world → WebAR: several living-room redesigns as tiny .spz splats he can switch between in place.",
+   "idea_zh": "在原地切换多套 AI 生成的客厅设计方案。",
+   "interaction": [
+    "spatial-mapping",
+    "data-information"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "WebAR",
+    "three.js",
+    "World Labs"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1995541338335678801",
+    "url": "https://x.com/XRarchitect/status/1995541338335678801",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1995541218974203904/img/XeCooDLsFL5dbo6K.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1995541338335678801"
+  },
+  {
+   "id": "ian-curtis--x255906",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Photo to WebAR world in real time",
+   "year": 2025,
+   "description": "A single photo becomes a 5 MB Gaussian splat scene that runs in real time as a WebAR experience.",
+   "idea_zh": "一张照片变成可以走进去的 AR 场景。",
+   "interaction": [
+    "portal-world"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "WebAR",
+    "World Labs"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1980654061323255906",
+    "url": "https://x.com/XRarchitect/status/1980654061323255906",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1980653995896045568/img/2ndP6gMi_ETMTkfP.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1980654061323255906"
+  },
+  {
+   "id": "ian-curtis--x266571",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Desk-side web AR experiment",
+   "year": 2025,
+   "description": "A quick web AR sketch built at his desk.",
+   "idea_zh": "桌面上的即兴 WebAR 小实验。",
+   "interaction": [
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "WebAR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1976297639630266571",
+    "url": "https://x.com/XRarchitect/status/1976297639630266571",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1976297533640228864/img/FL_oDYSjaGE5-jhc.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1976297639630266571"
+  },
+  {
+   "id": "ian-curtis--x051024",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Morning stroll into a portal",
+   "year": 2025,
+   "description": "Walking through a doorway-sized portal into a World Labs-generated environment.",
+   "idea_zh": "走进一扇门，门后是 AI 生成的世界。",
+   "interaction": [
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "WebAR",
+    "World Labs"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1970878813338051024",
+    "url": "https://x.com/XRarchitect/status/1970878813338051024",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1970878746266865664/img/OgZIWwS0Eq3xxO1B.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1970878813338051024"
+  },
+  {
+   "id": "ian-curtis--x823060",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Step into a persistent redesign, 1:1",
+   "year": 2025,
+   "description": "Gemini designs a new living room, World Labs generates it in 3D, and VPS localizes it to his real room at 1:1 scale so he can step into it.",
+   "idea_zh": "AI 设计 + AI 生成 + 定位对齐：在自己家里 1:1 走进重新设计的客厅。",
+   "interaction": [
+    "spatial-mapping",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Niantic VPS",
+    "World Labs",
+    "Gemini"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1968356682888823060",
+    "url": "https://x.com/XRarchitect/status/1968356682888823060",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1967984897685082112/img/4_RMwdOm_8xYs_hk.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1968356682888823060"
+  },
+  {
+   "id": "ian-curtis--x955566",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Location-triggered AR scene",
+   "year": 2025,
+   "description": "An older location-based AR experience: arrive at the spot, open the experience, and the scene comes to life in place.",
+   "idea_zh": "走到特定地点，AR 故事才会出现。",
+   "interaction": [
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "VPS",
+    "WebAR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1955008892443955566",
+    "url": "https://x.com/XRarchitect/status/1955008892443955566",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1955008836731015168/img/beYhqxLBCev1PIom.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1955008892443955566"
+  },
+  {
+   "id": "ian-curtis--x169202",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Mixed Reality Map of San Francisco",
+   "year": 2025,
+   "description": "A web app for discovering location-based AR across San Francisco: open it on a phone, tap a pin, and launch the AR on the spot with no download.",
+   "idea_zh": "一张城市地图，点地图上的针就在原地打开 AR。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "Mapbox",
+    "WebAR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1954989245787169202",
+    "url": "https://x.com/XRarchitect/status/1954989245787169202",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1954987728740945922/img/t4VerbUrPQnPYnqr.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1954989245787169202"
+  },
+  {
+   "id": "ian-curtis--x254569",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Midjourney → splat → AR",
+   "year": 2025,
+   "description": "A generated image turned into an 8 MB Gaussian splat and viewed in web AR.",
+   "idea_zh": "从一张 AI 图片到可以站进去的 AR 场景。",
+   "interaction": [
+    "portal-world"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "Midjourney",
+    "Gaussian Splatting",
+    "WebAR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1954372725667254569",
+    "url": "https://x.com/XRarchitect/status/1954372725667254569",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1954372661142061056/img/CG8Gncn8etTeAvYP.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1954372725667254569"
+  },
+  {
+   "id": "ian-curtis--x512337",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "AI wayfinding companion (Spatial 1)",
+   "year": 2025,
+   "description": "A 3D-printed wearable that sees what you see, localizes with VPS, and speaks directions with Gemini and ElevenLabs.",
+   "idea_zh": "一个挂在胸前、能看路并说话的 AI 导航伙伴。",
+   "interaction": [
+    "location-geo",
+    "voice-sound"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Niantic VPS",
+    "Gemini",
+    "ElevenLabs"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1948817329493512337",
+    "url": "https://x.com/XRarchitect/status/1948817329493512337",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1948817277916512257/img/fZ2R1Hzls-meSiD1.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1948817329493512337"
+  },
+  {
+   "id": "ian-curtis--x633835",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "three.js in real life",
+   "year": 2025,
+   "description": "A three.js scene pulled off the screen and placed in the physical world with AR.",
+   "idea_zh": "把网页 3D 引擎的效果搬到现实里。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "three.js",
+    "WebAR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1940566978185633835",
+    "url": "https://x.com/XRarchitect/status/1940566978185633835",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1940566908090056705/img/hst5DhhvpbzmHl0M.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1940566978185633835"
+  },
+  {
+   "id": "ian-curtis--x996689",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Augmented Reality Portal",
+   "year": 2025,
+   "description": "A walk-in web AR portal that anyone can try from a link.",
+   "idea_zh": "一个打开链接就能走进去的 AR 传送门。",
+   "interaction": [
+    "portal-world"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1922897331461996689",
+    "url": "https://x.com/XRarchitect/status/1922897331461996689",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1922897264600633345/img/cH7T5s-GkS9IJbq0.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1922897331461996689"
+  },
+  {
+   "id": "ian-curtis--x683753",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "VPS-anchored WebAR demo",
+   "year": 2025,
+   "description": "A real-time WebAR experience anchored to a specific real-world location with a visual positioning system.",
+   "idea_zh": "内容钉在真实地点上，谁来都看到同一个位置的同一个东西。",
+   "interaction": [
+    "location-geo"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "Niantic VPS",
+    "WebAR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1922797867514683753",
+    "url": "https://x.com/XRarchitect/status/1922797867514683753",
+    "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1922797799667793921/img/5T9IiEzBQ1QVjEYs.jpg"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1922797867514683753"
+  },
+  {
+   "id": "ian-curtis--2",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Niantic Spatial launch + WebAR portal",
+   "year": 2025,
+   "description": "Brand and product vision for Niantic Spatial's debut, including a working WebAR portal released with the launch film.",
+   "idea_zh": "把公司发布会本身做成一个可以走进去的 WebAR 传送门。",
+   "interaction": [
+    "portal-world",
+    "location-geo"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall",
+    "Niantic Spatial"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "kOyz2pNSPhk",
+    "url": "https://www.youtube.com/watch?v=kOyz2pNSPhk"
+   },
+   "source_url": "https://xrarchitect.xyz/project/2"
+  },
+  {
+   "id": "ian-curtis--3",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Scaniverse Gaussian splat map",
+   "year": 2024,
+   "description": "UX for browsing Gaussian-splat captures of real places on a map, then jumping from map to 3D to AR views.",
+   "idea_zh": "在地图上浏览全世界人们扫描的真实地点，再一键放进 AR。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "Scaniverse",
+    "Gaussian Splatting"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "1LQh_lm0VoM",
+    "url": "https://www.youtube.com/watch?v=1LQh_lm0VoM"
+   },
+   "source_url": "https://xrarchitect.xyz/project/3"
+  },
+  {
+   "id": "ian-curtis--6",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "8th Wall hand tracking UX",
+   "year": 2023,
+   "description": "Gesture patterns, guidelines and demos for hand-tracked interaction in browser-based AR.",
+   "idea_zh": "在网页 AR 里用手直接抓取、捏合虚拟物体的交互规范。",
+   "interaction": [
+    "hand-body"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "i9hpAFDFnQo",
+    "url": "https://www.youtube.com/watch?v=i9hpAFDFnQo"
+   },
+   "source_url": "https://xrarchitect.xyz/project/6"
+  },
+  {
+   "id": "ian-curtis--8",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Wol: AI owl guide to the redwoods",
+   "year": 2023,
+   "description": "An AR owl you talk to about the redwood forest ecosystem, running on phones and MR headsets from one web build.",
+   "idea_zh": "和一只 AR 猫头鹰对话，让它带你认识红杉林。",
+   "interaction": [
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "phone",
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "8th Wall",
+    "LLM",
+    "Metaversal Deployment"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "GUgAw-uU46o",
+    "url": "https://www.youtube.com/watch?v=GUgAw-uU46o"
+   },
+   "source_url": "https://xrarchitect.xyz/project/8"
+  },
+  {
+   "id": "ian-curtis--10",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "8th Wall moon portal",
+   "year": 2023,
+   "description": "Showcase WebAR portal to the moon, built to demonstrate the R17 engine's portal rendering.",
+   "idea_zh": "在街上打开一个通往月球的门。",
+   "interaction": [
+    "portal-world"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall R17"
+   ],
+   "video": {
+    "platform": "mp4",
+    "id": "https://64uauol9km.ufs.sh/f/SNo22QO8bFjm1Y3nWaemQEOeBiztFDvnIw7rqPp4adJoyxKf",
+    "url": "https://64uauol9km.ufs.sh/f/SNo22QO8bFjm1Y3nWaemQEOeBiztFDvnIw7rqPp4adJoyxKf"
+   },
+   "source_url": "https://xrarchitect.xyz/project/10"
+  },
+  {
+   "id": "ian-curtis--12",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Niantic Studio spatial anchoring",
+   "year": 2024,
+   "description": "Developer workflow and demos for placing AR at real-world locations with VPS, including physics-driven content anchored to places.",
+   "idea_zh": "在编辑器里选一个真实地点，把 AR 内容精确钉上去。",
+   "interaction": [
+    "location-geo",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "Niantic Studio",
+    "VPS"
+   ],
+   "video": {
+    "platform": "mp4",
+    "id": "https://64uauol9km.ufs.sh/f/SNo22QO8bFjmPINkCFSvHen4wCFE5MZxyIKhr8BN3u2A7Djs",
+    "url": "https://64uauol9km.ufs.sh/f/SNo22QO8bFjmPINkCFSvHen4wCFE5MZxyIKhr8BN3u2A7Djs"
+   },
+   "source_url": "https://xrarchitect.xyz/project/12"
+  },
+  {
+   "id": "ian-curtis--13",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Simulon AR VFX",
+   "year": 2024,
+   "description": "Blender physics simulations composited into real locations using Simulon's AR capture and real-world lighting.",
+   "idea_zh": "用手机 AR 在现场“拍”特效，光照与真实环境一致。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Simulon",
+    "Blender"
+   ],
+   "video": {
+    "platform": "mp4",
+    "id": "https://64uauol9km.ufs.sh/f/SNo22QO8bFjmnu8NCeEI5SrPLVvJzlUujsQFZmiWyCA3oX6K",
+    "url": "https://64uauol9km.ufs.sh/f/SNo22QO8bFjmnu8NCeEI5SrPLVvJzlUujsQFZmiWyCA3oX6K"
+   },
+   "source_url": "https://xrarchitect.xyz/project/13"
+  },
+  {
+   "id": "ian-curtis--x425957",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Tetris in WebAR, written by ChatGPT",
+   "year": 2023,
+   "description": "A playable Tetris board floating in the room, with the WebAR code generated by ChatGPT.",
+   "idea_zh": "让 AI 写代码，把俄罗斯方块立在客厅里玩。",
+   "interaction": [
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall",
+    "ChatGPT"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1737260350792425957",
+    "url": "https://x.com/XRarchitect/status/1737260350792425957"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1737260350792425957"
+  },
+  {
+   "id": "ian-curtis--x528631",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Augmented Reality 2023 (compilation)",
+   "year": 2023,
+   "description": "A reel of his favourite real-time WebAR experiences built during 2023.",
+   "idea_zh": "一年的 WebAR 实验合集：适合当作“AR 能做什么”的速览。",
+   "interaction": [
+    "spatial-mapping",
+    "portal-world"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1736803320021528631",
+    "url": "https://x.com/XRarchitect/status/1736803320021528631"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1736803320021528631"
+  },
+  {
+   "id": "ian-curtis--x277190",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Candy cane tower vs. robot",
+   "year": 2021,
+   "description": "He stacks a physics-driven candy-cane tower on the floor in WebAR, and a small virtual robot knocks it down.",
+   "idea_zh": "在地板上搭一座会倒的虚拟糖果塔，再放一个捣蛋机器人。",
+   "interaction": [
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall",
+    "A-Frame",
+    "physics"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1476342490349277190",
+    "url": "https://x.com/XRarchitect/status/1476342490349277190"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1476342490349277190"
+  },
+  {
+   "id": "ian-curtis--x951426",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "Resize your present with a photo scan",
+   "year": 2021,
+   "description": "A real gift is photo-scanned into a 3D model and re-imported into AR, where it can be scaled up or down.",
+   "idea_zh": "把真实礼物扫描成 3D 模型，再在 AR 里随意放大缩小。",
+   "interaction": [
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "photogrammetry",
+    "8th Wall",
+    "A-Frame"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1475916160830951426",
+    "url": "https://x.com/XRarchitect/status/1475916160830951426"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1475916160830951426"
+  },
+  {
+   "id": "ian-curtis--x669705",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "title": "A robot that tidies up ornaments",
+   "year": 2021,
+   "description": "A virtual robot rolls around the real floor collecting fallen Christmas ornaments in WebAR.",
+   "idea_zh": "一个在真实地板上帮你收拾圣诞装饰的虚拟机器人。",
+   "interaction": [
+    "spatial-mapping",
+    "game-play"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "8th Wall",
+    "A-Frame"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1474792447712669705",
+    "url": "https://x.com/XRarchitect/status/1474792447712669705"
+   },
+   "source_url": "https://x.com/XRarchitect/status/1474792447712669705"
+  }
+ ],
+ "leads": []
+}

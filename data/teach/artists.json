@@ -1,0 +1,414 @@
+{
+  "keiichi-matsuda--domestic-robocop": {
+    "technique": "Design-fiction compositing: a handheld first-person shot is camera-tracked in post (After Effects / 3D tracker) so UI labels are pinned to kitchen surfaces; a live version can be approximated with AR plane and image anchors.",
+    "exercise_zh": "用 AR Foundation 平面检测或 8th Wall 在厨房/宿舍的桌面、冰箱门上贴满标签、广告和积分弹窗，拍一段 30 秒第一人称视频；变体：让每个标签都要求用户“付费”或“看广告”才能关闭。"
+  },
+  "keiichi-matsuda--augmented-city-3d": {
+    "technique": "Stereoscopic 3D film with camera-tracked CG layers composited onto street footage; in a live build this maps to geolocated or VPS anchors with per-user layer sets.",
+    "exercise_zh": "选一段校园路线，在 WebXR 或 Unity 里做两套不同的 AR 图层（如“商业版”和“社群版”）并用按钮切换；变体：加入一个“被劫持”的图层，由另一名同学远程往你的城市里塞内容。"
+  },
+  "keiichi-matsuda--cell": {
+    "technique": "A Kinect depth camera segments and tracks each visitor's skeleton, and openFrameworks renders text tags that follow the tracked head/torso positions on a mirror-like screen.",
+    "exercise_zh": "用 MediaPipe Pose 在网页摄像头画面里追踪多人，把随机抓取的网络标签（话题、昵称、广告词）贴在每个人头顶；变体：让标签根据人的站姿或停留时长而改变，讨论“算法如何给你贴标签”。"
+  },
+  "keiichi-matsuda--hyper-reality": {
+    "technique": "POV footage camera-tracked and composited with dense 3D UI layers; can be approximated live with phone world tracking plus a large number of world- and screen-space UI elements that collapse on an event.",
+    "exercise_zh": "在手机 AR 里把一条走廊塞满广告、游戏积分和助手提示，拍一段第一人称视频；变体：设计一个“身份被盗”的瞬间，让所有界面同时崩溃或变成陌生人的界面。"
+  },
+  "keiichi-matsuda--merger": {
+    "technique": "360-degree rendered film of a head-centred UI sphere; a live equivalent uses a headset with hand tracking and floating panels arranged on a body-anchored cylinder.",
+    "exercise_zh": "用 HoloKit 或 WebXR 做一个环绕自己的多窗口工作界面，用手势或捏合切换任务；变体：让窗口数量随时间不断增加，直到用户必须“放弃”某些任务才能看清前方。"
+  },
+  "keiichi-matsuda--reality-channels": {
+    "technique": "Shared world-scale AR using Niantic Lightship meshing/VPS so several content layers are anchored to the same street and swapped at runtime like channels.",
+    "exercise_zh": "在同一张桌面或同一面墙上做三个 AR“频道”（如童话、监控、广告），用滑动手势切换；变体：让两台手机看到的频道不同，讨论共同空间里的不同现实。"
+  },
+  "keiichi-matsuda--agents": {
+    "technique": "Design-fiction film where AI agents are rendered as characters composited into glasses POV; a prototype would pair an LLM dialogue loop with world-anchored animated avatars.",
+    "exercise_zh": "为自己的一天设计两三个“AI 代理角色”，用手机 AR 把它们放在房间里，由 LLM 生成对话并互相争夺你的注意力；变体：让其中一个角色代表你拒绝其他角色的请求。"
+  },
+  "keiichi-matsuda--wisp-world": {
+    "technique": "Headset scene understanding (meshing/semantic labels) plus a camera-to-LLM loop lets a small animated character navigate real surfaces and speak about recognised objects.",
+    "exercise_zh": "在 Unity AR 中放一个会沿检测平面移动的小角色，用拍照 + 视觉语言模型让它对房间里的物品发表一句评论；变体：给角色一个固定性格（胆小、傲慢），让它的评论和行走路径都体现这种性格。"
+  },
+  "keiichi-matsuda--project-jade": {
+    "technique": "Egocentric camera frames are sent to a multimodal LLM, and responses are rendered as UI panels anchored near the referenced object using world tracking and raycasts.",
+    "exercise_zh": "做一个手机 AR 原型：拍下当前画面交给视觉语言模型，把回答作为标签钉在画面中对应物体附近；变体：让代理只能用图标和手势回应、不用文字，测试非语言的空间回答是否可理解。"
+  },
+  "julian-oliver--the-artvertiser": {
+    "technique": "Natural-feature (Ferns keypoint) tracking in OpenCV recognises known billboard images and computes a homography so replacement artwork is warped onto the billboard in the video feed.",
+    "exercise_zh": "用 8th Wall / MindAR 图像追踪识别校园里的几张海报，实时替换成同学的作品；变体：把替换内容做成对原广告的回应或反讽，而不是简单覆盖。"
+  },
+  "julian-oliver--levelhead": {
+    "technique": "ARToolKit fiducial markers on each cube face give the cube's 6DoF pose, and the tilt angle drives a physics-based character moving between rooms rendered inside the cube.",
+    "exercise_zh": "打印一个每面贴着不同图像标记的纸盒，用 MindAR 或 AR Foundation 在盒内渲染小房间，倾斜盒子让小球滚到下一个房间；变体：把房间做成自己童年记忆中的空间，走完才能拼出一个故事。"
+  },
+  "nobumichi-asai--omote": {
+    "technique": "Face tracking with markers or landmarks drives a 3D face mesh whose texture is projected by a calibrated projector, with latency kept low so makeup stays registered to the moving face.",
+    "exercise_zh": "用 MediaPipe Face Mesh 生成人脸网格，把一种“数字妆容”投影到白色面具或同学脸上（先用静止面具校准）；变体：让妆容随表情变化，比如张嘴时出现裂纹。"
+  },
+  "nobumichi-asai--connected-colors": {
+    "technique": "Real-time face tracking feeds a projector-camera system that renders animated patterns in the face's UV space, so plants and birds appear to grow on the skin as the head turns.",
+    "exercise_zh": "在 TouchDesigner 里用 MediaPipe 人脸关键点驱动一段花纹生长动画，投影到戴白色面具的同学脸上；变体：让花纹的生长速度随音乐或呼吸声变化。"
+  },
+  "nobumichi-asai--kacho-fugetsu": {
+    "technique": "Likely the same face-tracked projection pipeline: tracked head pose drives a UV-mapped face model whose texture cycles through seasonal motifs, projected from a calibrated projector.",
+    "exercise_zh": "用手机 Lens Studio 或 AR 人脸追踪做四个季节的面部贴图，并在转头时切换季节；变体：把四季换成自己城市的四种典型天气或声音。"
+  },
+  "nobumichi-asai--inori": {
+    "technique": "A 1000 fps high-speed camera and a DynaFlash-type high-frame-rate projector close the tracking-to-projection loop within a few milliseconds, so imagery stays registered on fast-moving faces.",
+    "exercise_zh": "用普通投影仪和网页摄像头做人脸追踪投影，测量并记录延迟造成的“拖影”，再尝试预测运动（速度外推）来减轻它；变体：把拖影本身作为视觉语言，做一段刻意“跟不上”的舞蹈。"
+  },
+  "nobumichi-asai--dockyard-yokohama": {
+    "technique": "Large-scale architectural projection mapping: the dock is surveyed into a 3D model, multiple projectors are aligned and edge-blended, and content is rendered from the model's UV layout.",
+    "exercise_zh": "拿一个纸箱或积木搭成的“建筑”，在 TouchDesigner / MadMapper 里对齐投影，做一段讲述这个场所历史的 2 分钟动画；变体：只用建筑自身的轮廓线作为动画素材。"
+  },
+  "bot-and-dolly--box": {
+    "technique": "Motion-control industrial robots move both the screens and the camera on programmed paths, and projection is rendered from the known poses so the anamorphic imagery stays correct from the camera's viewpoint.",
+    "exercise_zh": "用手动移动的纸板屏幕和固定手机摄像头，在 TouchDesigner 中根据纸板上的 ArUco 标记实时调整投影，使画面始终“贴”在纸板上；变体：设计一个只有从摄像机视角才成立的错觉，现场观众看到的是乱码。"
+  },
+  "daito-manabe--eclipse-blue": {
+    "technique": "Motion capture of the dancer drives real-time openFrameworks graphics that are projected onto the stage and her body, with the projector calibrated to the capture volume.",
+    "exercise_zh": "用 Kinect 或 MediaPipe Pose 追踪一个人，把线条和粒子投影到他身后的墙上并随动作变形；变体：让图形只在人静止时出现，动作越快画面越消散。"
+  },
+  "daito-manabe--perfume-cannes-lions": {
+    "technique": "Tracked projection mapping on white costumes: performer positions are tracked and costume silhouettes are rendered as masks so projected content lands only on bodies and moving panels.",
+    "exercise_zh": "让一名同学穿白衣站在投影前，用摄像头分割人体轮廓，只在身体区域投影图案；变体：投影出“分身”——在身旁再投出一个延迟 1 秒的自己。"
+  },
+  "daito-manabe--seamless-mr": {
+    "technique": "A tracked camera (encoder or optical tracking) supplies real-time pose to a render engine whose virtual camera matches it, so CG is keyed and composited into the live feed without drift.",
+    "exercise_zh": "用手机 ARKit 位姿作为虚拟摄像机，在 Unity 中把一个 CG 物体合成到实景视频里，并对比加与不加阴影、遮挡的真实感差异；变体：让 CG 物体只在画面边缘“偷看”，制造若隐若现的存在感。"
+  },
+  "daito-manabe--border": {
+    "technique": "Motion capture tracks dancers, wheelchairs and headsets in one coordinate space, so virtual dancers rendered in the HMD's passthrough view are spatially registered with the real performers.",
+    "exercise_zh": "用 HoloKit 或手机 AR 在真人同学身边放一个同尺寸的虚拟人（可用 Mixamo 动画），让观众坐在椅子上被推着绕行观看；变体：让虚拟人与真人互换动作，观众需要猜哪个是真的。"
+  },
+  "daito-manabe--drone-ar-test": {
+    "technique": "Optical motion capture (e.g. retroreflective markers on drones) gives each drone's 6DoF pose, which drives CG attached to it and composited into the tracked camera view.",
+    "exercise_zh": "在一个遥控小车或手持物体上贴图像标记，用 AR 图像追踪给它叠加翅膀、尾迹等图形；变体：让尾迹记录它移动的完整路径，最后形成一幅“运动绘画”。"
+  },
+  "daito-manabe--fencing-visualized": {
+    "technique": "Computer vision (likely multi-camera marker-less tracking with deep learning) localises the sword tips in each frame, and their 3D trajectories are rendered as trails over the broadcast camera image.",
+    "exercise_zh": "用 MediaPipe Hands 或颜色追踪记录挥动一支彩色笔的轨迹，在视频上叠加渐隐的光带；变体：选一项你熟悉的快速动作（拍球、打字、翻书）做“可视化转播”。"
+  },
+  "daito-manabe--live-ar-system": {
+    "technique": "A broadcast camera with tracking (encoders or optical) streams its pose and lens data to a real-time engine that renders stage-anchored graphics matched to the camera's view.",
+    "exercise_zh": "用一台手机做“转播机位”，在 Unity AR 中给桌面小舞台加上固定位置的虚拟灯光和布景，另一名同学在舞台上表演；变体：让虚拟布景随表演者的声音大小变化。"
+  },
+  "daito-manabe--discrete-figures": {
+    "technique": "Motion-capture data trains a generative model of dance, and generated figures are rendered and projected (and composited) alongside real dancers whose positions are tracked.",
+    "exercise_zh": "录下自己的一段 MediaPipe 姿态数据，用简单插值或噪声扰动生成一个“机器舞伴”，投影到自己身旁一起跳；变体：让机器舞伴只模仿你的上一秒动作，逐渐偏离直到完全不同。"
+  },
+  "daito-manabe--terminal-slam": {
+    "technique": "Diminished reality: the camera feed is analysed to detect billboard regions, which are masked, inpainted and replaced with music-synced visuals, then re-rendered into the headset view.",
+    "exercise_zh": "用手机相机识别并遮住画面里的文字或 logo（颜色分割或图像追踪），用节奏驱动的故障图形填充；变体：把被遮掉的广告换成空白或天空，体验“没有广告的城市”。"
+  },
+  "universal-everything--1000-hands": {
+    "technique": "Line drawings from a mobile app are sent to a server, converted into procedurally extruded or grown 3D geometry, and added to a shared real-time scene that is projected in the gallery.",
+    "exercise_zh": "用网页表单收集全班的手绘线条，在 three.js 中把每条线挤出成会慢慢生长的 3D 形体并放进同一片投影风景；变体：让每个形体的生长方向由绘制者当时的心情选项决定。"
+  },
+  "universal-everything--future-you": {
+    "technique": "A depth camera tracks the viewer's skeleton and a real-time engine retargets it to a generative robotic figure whose form parameters change with movement speed and energy.",
+    "exercise_zh": "用 MediaPipe Pose 驱动一个由几何体拼成的“机器人分身”，动作越剧烈，分身的形态参数（尺寸、数量、颜色）越离谱；变体：让分身有一秒的“记忆”，逐渐把你过去的动作混进来。"
+  },
+  "universal-everything--super-you": {
+    "technique": "ARKit body tracking (or person segmentation) provides a skeleton and silhouette each frame, which drive particle or ribbon systems that replace the user's body in the camera view.",
+    "exercise_zh": "用 Lens Studio 或 ARKit 人体追踪，把全身替换成跟随关节流动的粒子或丝带；变体：给身体每个部位分配不同的“材料”（烟、水、文字），做一个表达自己性格的数字身体。"
+  },
+  "universal-everything--hyperspace-ar": {
+    "technique": "LiDAR scene reconstruction yields a room mesh, and generative geometry is spawned and grown along the mesh normals with occlusion so forms appear to emerge from walls and furniture.",
+    "exercise_zh": "用 AR Foundation 网格重建（或平面检测）让藤蔓或晶体沿墙面与桌面生长，并开启遮挡；变体：让生长只发生在你长时间注视的表面上。"
+  },
+  "universal-everything--infinity": {
+    "technique": "A crowd of procedurally animated walkers is rendered in real time, and camera-based presence tracking (likely blob or pose detection) modulates their speed, density or appearance.",
+    "exercise_zh": "在 p5.js 或 TouchDesigner 中做一队无限行走的抽象人形，用摄像头检测观众人数和位置来改变队伍节奏；变体：观众离开后，人群保留他们留下的某种痕迹。"
+  },
+  "universal-everything--look-up": {
+    "technique": "Likely geospatial or VPS anchoring (or image tracking of the facade) places animated sculptures on building faces, with scale set so they read correctly from street level.",
+    "exercise_zh": "选一栋校园建筑，用 8th Wall 图像追踪或 ARCore Geospatial 在立面上放一个会动的雕塑；变体：让雕塑只在抬头角度超过 45 度时出现，逼观众真的“抬头看”。"
+  },
+  "universal-everything--chameleon": {
+    "technique": "Camera-based computer vision (pose estimation plus colour sampling) lets a generative creature copy the passer-by's movement and clothing colours on a public screen.",
+    "exercise_zh": "用 MediaPipe Pose 和摄像头取色，做一个模仿观众姿态并采用其衣服颜色的抽象生物；变体：让生物只模仿画面中最安静的那个人。"
+  },
+  "universal-everything--hydrogen-wave": {
+    "technique": "Depth cameras track visitors' positions and velocities, which inject forces into a GPU particle simulation projected across the floor and walls.",
+    "exercise_zh": "在 TouchDesigner 里用 Kinect 或摄像头光流驱动投影粒子场，让人的移动推出波纹；变体：把粒子换成代表一种你关心的看不见的物质（空气污染、Wi-Fi 信号）。"
+  },
+  "universal-everything--someone-random-mirror": {
+    "technique": "Pose estimation extracts the viewer's skeleton, which drives a randomly generated human avatar (or a generative image model conditioned on pose) shown as the reflection.",
+    "exercise_zh": "用 MediaPipe Pose 驱动一个从素材库中随机挑选的 3D 人物模型，做成“镜子”；变体：每次有人进入画面时换一个人物，并让人物外观与观众正好相反。"
+  },
+  "universal-everything--ultrasound-vision-pro": {
+    "technique": "A visionOS immersive space renders pulsing volumetric forms with shaders around the head-tracked viewer; can be approximated with WebXR or HoloKit stereo rendering of animated shader volumes.",
+    "exercise_zh": "用 HoloKit 或 WebXR 在观众周围生成几团随心跳节奏脉动的半透明形体；变体：用手机麦克风采集真实的心跳或呼吸声驱动脉动节奏。"
+  },
+  "acute-art--wunderkammer": {
+    "technique": "Plane detection in the Acute Art app (ARKit/ARCore) places animated models of natural phenomena at real scale in the home, with simple interaction logic such as sun exposure charging a virtual lamp.",
+    "exercise_zh": "用 AR Foundation 做一个“家中自然现象”：在客厅放一朵会下雨的云或一个小太阳，并让它与另一个虚拟物体产生因果关系；变体：让现象只在现实天气相反时出现（外面下雨时室内出太阳）。"
+  },
+  "acute-art--kaws-expanded-holiday": {
+    "technique": "Geolocated AR placement plus user-side plane detection: the same large sculpture model is anchored at fixed city coordinates and can also be placed on any detected ground plane at home.",
+    "exercise_zh": "为你设计的一个角色做一个巨型 AR 雕塑，在校园的三个 GPS 地点同时出现（可用 AR.js location-based）；变体：让雕塑在不同地点做出不同姿态，暗示它在城市中移动。"
+  },
+  "acute-art--unreal-city": {
+    "technique": "GPS/geolocated anchors (refined with local plane detection) place a sequence of sculptures along a walking route, with the app acting as a map-guided exhibition.",
+    "exercise_zh": "全班每人做一件 AR 作品，沿校园一条步道按 GPS 位置布展，用 WebAR 链接串起来；变体：给展览设计一个只有走完全程才能看到的“终点作品”。"
+  },
+  "tamiko-thiel--art-critic-face-matrix": {
+    "technique": "Layar geolocated POIs position billboarded 2D/3D content by GPS coordinates inside the museum, so anyone with the app sees it without the institution's permission.",
+    "exercise_zh": "用 AR.js location-based 或 8th Wall 在学校某个“权威”空间（校长室门口、图书馆）放一组未经许可的虚拟面孔或评论；变体：让面孔的内容来自同学对这个空间的真实评价。"
+  },
+  "tamiko-thiel--shades-of-absence": {
+    "technique": "GPS-anchored Layar content places flat golden silhouette billboards in public squares, relying on coarse geolocation and compass heading.",
+    "exercise_zh": "选一个与“缺席”有关的主题（被遗忘的人、拆掉的建筑），用 WebAR 在对应地点放置金色剪影；变体：剪影只在没有人站在那个位置时才可见。"
+  },
+  "tamiko-thiel--newtown-creek": {
+    "technique": "Geolocated AR places a large semi-transparent model of the underground oil plume at its real coordinates, making hidden environmental data spatially visible.",
+    "exercise_zh": "找一份本地环境数据（地下水、噪声、排水管网），用 AR 把它按真实位置可视化在地面上；变体：让可视化的规模与数据真实数值 1:1 对应，体验“看不见的量”。"
+  },
+  "tamiko-thiel--carnation-rain": {
+    "technique": "A GPS-anchored particle-like object (animated falling flowers) is placed over the historic square, using location as the carrier of historical meaning.",
+    "exercise_zh": "选一个有历史事件的校园或城市地点，用 Unity AR 让与事件相关的物体从天而降；变体：用粒子系统让落下的物体在地面上慢慢堆积成一个符号。"
+  },
+  "tamiko-thiel--gardens-of-the-anthropocene": {
+    "technique": "Geolocated and plane-anchored 3D plant models (built in Unity, shown via Layar) are placed over real harbours and gardens at plausible scale.",
+    "exercise_zh": "为校园里的一种真实植物设计它在 2100 年气候下的“变异版”，用 AR 放在原植物旁边；变体：加一个时间滑块，让植物从现在逐渐变异到未来。"
+  },
+  "tamiko-thiel--evolution-of-fish": {
+    "technique": "An ARKit plane-anchored animated model shows fish morphing into plastic forms (blend shapes or model swaps), and screen recording of a screen within the AR view produces video feedback.",
+    "exercise_zh": "用 Unity AR 做一条鱼逐步变形成塑料袋的动画（blend shape 或模型切换），放在水槽或饮水机旁；变体：用手机对着另一台播放 AR 画面的屏幕拍摄，制造视频反馈循环。"
+  },
+  "tamiko-thiel--enter-the-plastocene": {
+    "technique": "ARKit world tracking places flocking creatures (boids-style steering) that swim through the exhibition volume around visitors.",
+    "exercise_zh": "在 Unity 里用简单 boids 算法让一群塑料瓶生物在房间中游动，并绕开观众（用相机位置作为排斥点）；变体：让生物数量随班级当天产生的塑料垃圾数量变化。"
+  },
+  "john-craig-freeman--border-memorial": {
+    "technique": "GPS-anchored Layar objects place skeletal effigies at the coordinates of recorded migrant deaths, turning a dataset into a geolocated memorial.",
+    "exercise_zh": "用一份与地点相关的公开数据（交通事故点、消失的小店），在 WebAR 中每个数据点放一个小纪念物；变体：让纪念物的形态由该数据点的具体信息生成。"
+  },
+  "john-craig-freeman--orators-rostrums": {
+    "technique": "Geolocated AR podium models are placed in public squares, with the user physically stepping into the virtual rostrum; likely GPS positioning with compass-based orientation.",
+    "exercise_zh": "在校园广场放一个 AR 演讲台，站上去就触发录音，把每个人的发言留在台上供后来者听；变体：演讲台只播放与当前发言相反立场的上一条录音。"
+  },
+  "john-craig-freeman--climate-change-migration-stories": {
+    "technique": "Volumetric video captures of real people are anchored life-size in public space, with ground-plane detection placing them at the viewer's scale.",
+    "exercise_zh": "用手机录一段同学讲自己迁移或搬家故事的视频，抠像后做成真人大小的 AR 视频广告牌放在对应地点；变体：只在观众走近到 2 米内时才开始讲述。"
+  },
+  "mark-skwarek--leak-in-your-hometown": {
+    "technique": "Image (logo) marker tracking in junaio detects any BP logo and anchors an animated broken pipe with an oil particle effect to it.",
+    "exercise_zh": "选一个你想批评的品牌 logo，用 MindAR 或 8th Wall 图像追踪让它“泄漏”出象征其问题的东西；变体：让泄漏量随观众对准的时间增加，最终淹没整个画面。"
+  },
+  "mark-skwarek--warcraft-armor": {
+    "technique": "Printed fiducial markers worn on the body are tracked by a webcam, and armour pieces are rendered at each marker's pose.",
+    "exercise_zh": "在手臂和胸前贴几张打印标记，用 MindAR 给身体“穿”上你设计的盔甲或服装；变体：把盔甲换成代表某种日常压力的装备（作业、通知）。"
+  },
+  "sander-veenhof--we-ar-in-moma": {
+    "technique": "Geolocated Layar layers placed virtual works at GPS coordinates inside MoMA, exploiting the fact that the location-based layer could not be controlled by the institution.",
+    "exercise_zh": "在学校某个正式展厅里用 WebAR 办一场“不请自来”的展览，每人放一件作品并通过二维码传播；变体：作品必须回应展厅中某件真实展品。"
+  },
+  "sander-veenhof--subway-pong": {
+    "technique": "Likely Spectacles world tracking with a shared or co-located session places a Pong field across the carriage, with head or hand pose controlling the paddle.",
+    "exercise_zh": "用两台手机在同一 AR 空间中做一个跨越房间的 Pong 游戏，用手机位置当球拍；变体：把球场设在一个公共场所（电梯、走廊），规则要求不认识的人合作。"
+  },
+  "sander-veenhof--distant-hand": {
+    "technique": "Hand tracking provides the wrist and finger joints, and a non-linear mapping extends the virtual hand far along the arm's ray so it can touch distant objects (akin to the Go-Go interaction technique).",
+    "exercise_zh": "用 MediaPipe Hands 或 HoloKit 手势追踪做一只随手臂伸展而非线性变长的虚拟手，去“碰”远处的虚拟物体；变体：让长手在经过真实物体时留下触碰的痕迹。"
+  },
+  "sander-veenhof--multi-person-ar-fashion": {
+    "technique": "Lens Studio multi-body tracking attaches garment meshes or cloth simulations to several detected skeletons in the same camera frame.",
+    "exercise_zh": "用 Lens Studio 多人体追踪给画面里所有人穿上一套统一的数字服装；变体：让服装的颜色或纹样由两个人之间的距离决定，靠近时融合。"
+  },
+  "sander-veenhof--urban-lasergame": {
+    "technique": "Likely GPS positioning plus camera-based person detection (or shared AR sessions) registers hits when a player aims the phone at another player.",
+    "exercise_zh": "用 WebAR + 人体检测做一个简化激光枪游戏：对准画面中的人并点击即算命中；变体：命中后不是“淘汰”，而是在对方身上留下一件 AR 装饰。"
+  },
+  "sander-veenhof--ai-style-transfer-ar": {
+    "technique": "Camera frames from AR glasses are passed through a neural style-transfer model (on-device or remote) and the stylised frames are displayed back with low latency.",
+    "exercise_zh": "用 ml5.js 或 Lens Studio 的风格迁移把手机相机画面实时变成某位画家的风格；变体：只对画面中的人或只对背景做风格化，比较两种效果的意义。"
+  },
+  "nancy-baker-cahill--4th-wall": {
+    "technique": "Hand drawings are converted into animated 3D line or ribbon geometry in Unity and placed at monumental scale via plane detection or geolocated anchors in the 4th Wall app.",
+    "exercise_zh": "把一张自己的手绘线稿扫描后在 Unity 或 three.js 中挤出成 3D 线条雕塑，以 10 米尺度放在操场上；变体：让线条缓慢地“画出”自己，观众看到的是绘制过程而非成品。"
+  },
+  "nancy-baker-cahill--margin-of-error": {
+    "technique": "GPS-anchored animated line sculptures are placed at specific desert sites, with site choice (a landfill) carrying the meaning; local plane detection fixes the base on the ground.",
+    "exercise_zh": "找一个你认为“被忽视”的校园角落（垃圾站、配电房），用 AR 在上方放一团扭动升起的线条；变体：线条的颜色和扭动幅度由该地点的实时噪声或温度驱动。"
+  },
+  "nancy-baker-cahill--liberty-bell": {
+    "technique": "Geolocated AR places a large animated bell model with spatial audio at historic sites, so the sound source is positioned in the sky above the viewer.",
+    "exercise_zh": "为一个与公共议题相关的地点设计一个悬在空中的 AR 声音物体，用 Unity 空间音频让声音随距离变化；变体：物体只有在多人同时对准时才会响起。"
+  },
+  "nancy-baker-cahill--siren-songs": {
+    "technique": "Geolocated, large-scale animated drawings are anchored in open landscape with a synced spatial soundtrack, using GPS and compass for placement at distance.",
+    "exercise_zh": "选一处开阔景观，用 WebAR 放置随歌声起伏的漂浮线条，并录一段自己的哼唱作为声轨；变体：让线条形态由声音频谱实时生成。"
+  },
+  "jeremy-bailey--video-terraform-dance-party": {
+    "technique": "Webcam-based motion tracking (likely colour or frame-difference tracking) maps body positions to height-field deformations of a 3D terrain rendered live around the performer.",
+    "exercise_zh": "用 MediaPipe Pose 让双手的高度推起或压下一片 three.js 地形网格，自己在画面中“跳出”一座山；变体：把跳舞过程做成一场一本正经的“地形设计软件”产品演示。"
+  },
+  "jeremy-bailey--nail-art-museum": {
+    "technique": "Small printed markers on the fingernails are tracked by the camera, and miniature gallery models are rendered on each nail's pose.",
+    "exercise_zh": "在指甲或指尖贴小图像标记（或用 MediaPipe Hands 指尖位置），在上面放一个迷你美术馆和作品；变体：给这座美术馆写一段夸张的开幕致辞并录成视频。"
+  },
+  "jeremy-bailey--ai-weiwei-urn": {
+    "technique": "A virtual urn is anchored to the tracked hands or a plane and animated with physics to fall and shatter, re-staging a famous photographic sequence in AR.",
+    "exercise_zh": "选一张著名的行为艺术照片，用手机 AR 和物理引擎重演其中的关键物体动作并拍成三联照；变体：把被摔的物体换成一个你自己的“神圣物件”的虚拟版本。"
+  },
+  "jeremy-bailey--art-2019": {
+    "technique": "Face and body tracking attach artworks to the performer in real time, framed as a mock product launch; the technique is ordinary on purpose and the satire carries the piece.",
+    "exercise_zh": "用 Lens Studio 或 Effect House 做一个“艺术平台”滤镜，然后录一段 2 分钟一本正经的产品发布演示；变体：演示中必须有一个功能明显荒谬但被说得很重要。"
+  },
+  "theo-triantafyllidis--studio-visit-portal": {
+    "technique": "An AR portal uses a stencil-buffer mask on a doorway plane so the virtual studio is only visible through the opening, and the scene is registered to the gallery wall.",
+    "exercise_zh": "在 Unity AR 中用 stencil shader 做一扇传送门，门后是你书桌的夸张虚构版本；变体：让门后的世界能“漏”出几个物体到现实这一侧。"
+  },
+  "theo-triantafyllidis--all-my-confusing-pets": {
+    "technique": "Mixed-reality compositing of glitchy AI-driven creatures in Unity into the real space, with the performer's tracked pose used for interaction and collision.",
+    "exercise_zh": "用 HoloKit 或手机 AR 放几只行为规则互相冲突的虚拟宠物（追你、躲你、模仿你），录一段你试图照顾它们的表演；变体：让宠物的故障（抖动、穿模）成为它们性格的一部分。"
+  },
+  "theo-triantafyllidis--anti-gone": {
+    "technique": "Real-time motion capture streams the performer's skeleton into Unity, retargeted to a game avatar in a simulated environment and projected for a live audience.",
+    "exercise_zh": "用 MediaPipe Pose 或手机动捕 App 实时驱动 Unity 里的一个奇怪生物，投影在墙上现场演一段 3 分钟的独白；变体：让观众通过手机投票改变生物所处环境的天气。"
+  },
+  "sutu--modern-polaxis": {
+    "technique": "Vuforia image targets recognise each printed comic page, and Unity renders animated layers, 3D depth and sound anchored to the page.",
+    "exercise_zh": "画一页四格漫画并打印，用 MindAR 或 AR Foundation 图像追踪让其中一格动起来并加声音；变体：让 AR 层讲述与纸面相矛盾的“真相”。"
+  },
+  "james-alliban--ar-business-card": {
+    "technique": "FLARToolKit tracks a square fiducial marker printed on the card in a Flash webcam app, and a video plane of the artist is rendered at the marker's pose with Papervision3D.",
+    "exercise_zh": "设计一张自己的名片，用 MindAR 让名片上弹出一段抠像的自我介绍视频；变体：让视频中的你对着观众的拿法做出反应（倾斜名片就“摔倒”）。"
+  },
+  "james-alliban--augmented-ribbons": {
+    "technique": "A tracked fiducial marker emits procedurally generated ribbon geometry whose points trail the marker's recent positions, with amplitude driven by audio analysis.",
+    "exercise_zh": "用 MindAR 或 AR.js 让图像标记拖出一条记录其移动轨迹的 3D 丝带，并用麦克风音量控制丝带宽度；变体：把丝带换成由你最近聊天记录中的文字组成的“文字带”。"
+  },
+  "james-alliban--wallpaper-ar-issue": {
+    "technique": "Printed magazine pages act as fiducial or natural-feature markers for a Flash webcam app that renders animated 3D pieces on each page.",
+    "exercise_zh": "为一本你喜欢的杂志做一页 AR 版面：用图像追踪让版面上的一个元素长成 3D 作品；变体：只有两页并排时才出现的“跨页”作品。"
+  },
+  "james-alliban--traces": {
+    "technique": "A Kinect depth image is thresholded into a body silhouette, and its contour or motion is accumulated over time in openFrameworks to draw fading light trails.",
+    "exercise_zh": "用 TouchDesigner 的 Kinect 或摄像头人体分割，把人的轮廓做成缓慢消退的光轨投到墙上；变体：让轨迹只记录两个人之间的“空隙”而不是身体本身。"
+  },
+  "nexus-studios--hotstepper": {
+    "technique": "ARKit world tracking combined with Mapbox routing and GPS lets an animated character be placed a few metres ahead of the user along the computed path.",
+    "exercise_zh": "用 AR 在地面放一个会走在你前面的小角色，沿着预先设定的几段路线带路去教室；变体：让角色有自己的想法，偶尔带你绕路去一个它“喜欢”的地方。"
+  },
+  "nexus-studios--new-yorker-ar-cover": {
+    "technique": "Image tracking on the printed cover anchors an animated 3D city model in Unity/ARKit that rises out of the page with depth-consistent perspective.",
+    "exercise_zh": "给一张自己城市的明信片或海报做 AR：让画中的城市从纸面立体地升起；变体：让升起的城市是 50 年前或 50 年后的样子。"
+  },
+  "nexus-studios--bbc-civilisations-ar": {
+    "technique": "Plane detection places photogrammetry scans of artefacts at real scale, with a clipping-plane or shader cross-section for x-ray views and attached audio narration.",
+    "exercise_zh": "用手机摄影测量（Polycam / RealityScan）扫描一件家里的老物件，在 AR 中放大展示并加上剖面或“透视”效果和语音讲解；变体：让讲解者是这件物品本身。"
+  },
+  "nexus-studios--childish-gambino-playmoji": {
+    "technique": "ARCore plane detection anchors an animated character, and person detection or pose estimation in the camera frame lets it react to and dance beside people.",
+    "exercise_zh": "用 Mixamo 动画角色在 AR 中放在同学身边，根据 MediaPipe 检测到的人是否举手来切换舞蹈；变体：让角色学习并模仿人的一个动作，再“教”回给下一个人。"
+  },
+  "nexus-studios--whitehouse-ar": {
+    "technique": "Image tracking recognises the one-dollar bill's engraving as a target and anchors an animated 3D White House model with time-based storytelling.",
+    "exercise_zh": "用一张纸币或票据做图像目标，让上面的建筑或图案立体升起并讲一段短故事；变体：让故事讲的是这张纸币本身的“流通经历”。"
+  },
+  "nexus-studios--changdeok-arirang": {
+    "technique": "Location-based AR with GPS plus local plane detection (and 5G streaming of heavy assets) anchors animated guides and scenes at specific palace locations.",
+    "exercise_zh": "在校园里选三个有故事的地点，用 WebAR 分别放一个讲述该地点过去的动画角色，串成一段导览；变体：导览角色之间互相矛盾，让观众自己判断哪个版本是真的。"
+  },
+  "nexus-studios--notable-women": {
+    "technique": "ARCore augmented images detect banknote designs and replace the printed portrait region with a warped, lit portrait of a historic woman.",
+    "exercise_zh": "用图像追踪识别一张钞票或证件照，替换其中的头像为一位你认为值得纪念但被忽视的人；变体：配一段 15 秒语音讲述这个人为什么应该在这里。"
+  },
+  "nexus-studios--back-to-the-moon-ar": {
+    "technique": "ARCore plane detection places an animated diorama on a tabletop, with the viewer's phone movement acting as the camera for a pre-authored real-time story.",
+    "exercise_zh": "在桌面上用 AR 搭一个 30 秒的小剧场（如一段经典默片场景），观众移动手机当镜头；变体：只有从某个特定角度看，隐藏的情节才会显现。"
+  },
+  "pablo-valbuena--augmented-sculpture": {
+    "technique": "A projector is calibrated to a white polyhedral sculpture whose exact 3D model is known, so rendered light and shadow on each face can simulate edges and planes moving over the static form.",
+    "exercise_zh": "用白色纸板折出两三个几何体，在 MadMapper 或 TouchDesigner 中逐面对齐投影，只用黑白线条让体块看起来在折叠和重组；变体：让一个面“缺失”——投成与背景同色，看它是否消失。"
+  },
+  "pablo-valbuena--augmented-space-hague": {
+    "technique": "Architectural projection mapping from a surveyed facade model: content is authored along the building's own structural lines so animation traces, splits and redraws the real geometry.",
+    "exercise_zh": "拍下教室一面墙或门框的正面照片，描出所有结构线，在投影中让这些线逐条亮起、错位、再复原；变体：只动一条线，其他全部静止，看最小改变能带来多大感知差异。"
+  },
+  "pablo-valbuena--para-site": {
+    "technique": "Site-specific projection mapping onto corners and edges of a room, with a keystone- or mesh-warped projection so thin light lines crawl precisely along architectural edges.",
+    "exercise_zh": "在教室的一个墙角用投影画出沿边缘缓慢爬行的细光线，用 mesh warp 精确贴合；变体：让光线像一只“寄生生物”一样对观众的靠近做出躲避反应（用摄像头检测）。"
+  },
+  "pablo-valbuena--re-flex": {
+    "technique": "Projected light lines calibrated to the room's geometry reveal or contradict its perspective, relying on anamorphic alignment from chosen viewpoints.",
+    "exercise_zh": "在一个小房间里投出一组只有从某个位置看才连成完整图形的线（变形透视），其他位置看是碎片；变体：给观众在地上标一个错误的观看点，让他们自己找到正确位置。"
+  },
+  "joanie-lemercier--antivj-projection-on-building": {
+    "technique": "Early manual projection mapping: live VJ software output is masked and keystoned by hand to fit building features, with visuals designed around the existing architecture.",
+    "exercise_zh": "用一台投影仪和 VJ 软件（Resolume / TouchDesigner），手动遮罩一面有窗户的外墙并现场演一段 3 分钟的视觉；变体：每扇窗户都成为一个独立的“角色”，彼此之间传递图形。"
+  },
+  "joanie-lemercier--antivj-grote-kerk": {
+    "technique": "Interior projection mapping with multiple projectors warped onto vaults and columns, performed live and synced to audio.",
+    "exercise_zh": "选一个有拱顶或柱子的室内空间（楼梯间、走廊），用投影现场配合一段声音演出，强调空间的高度；变体：整场只用一种颜色的光，让结构本身成为主角。"
+  },
+  "joanie-lemercier--antivj-songdo": {
+    "technique": "Architectural projection mapping with content built from the building's surveyed geometry and synced to a live audio performance.",
+    "exercise_zh": "用积木或纸盒搭一个“未来城市”模型，投影一段表现这座城市从空白到建成的视听动画；变体：在动画最后让城市慢慢被自然“收回”。"
+  },
+  "joanie-lemercier--eyjafjallajokull": {
+    "technique": "A projector is aligned to a large hand-drawn wireframe on paper, and projected light and animation reveal, erase and extend the lines to create the illusion of an erupting 3D mountain.",
+    "exercise_zh": "用黑笔在白纸上画一座山的线框，再把投影对齐到线稿上，让光在线条之间流动模拟火山喷发；变体：换成自己家乡的一处地形，并加入一种当地的自然现象。"
+  },
+  "joanie-lemercier--fuji": {
+    "technique": "Projection over a large pencil drawing uses precisely registered light to add clouds, sunrise and geometric overlays, with the drawing serving as a static luminance base.",
+    "exercise_zh": "画一幅简单的铅笔风景，在投影中模拟一天中光线、云影和天气的变化；变体：让天气变化由当天真实的天气 API 数据驱动。"
+  },
+  "joanie-lemercier--blueprint": {
+    "technique": "Projection mapped onto a technical line drawing builds and deconstructs structures with animated line work aligned to the printed lines.",
+    "exercise_zh": "打印一张建筑或机器的线稿，投影一段让它逐步“建造”再“拆解”的线条动画；变体：让建造过程在某一步出错，并从错误中长出另一种结构。"
+  },
+  "teamlab--sketch-aquarium": {
+    "technique": "Coloured template sheets are scanned, the drawing is texture-mapped onto a pre-made 3D fish model via the template's known layout, and the fish joins a projected real-time scene with touch or depth-sensor interaction.",
+    "exercise_zh": "设计一张生物涂色模板，用手机拍照后把纹理贴到 three.js 模型上，让它进入投影的共享水族箱；变体：让每个生物的行为（快慢、群游或独游）由涂色中的主色决定。"
+  },
+  "teamlab--sketch-town": {
+    "technique": "Scanned template drawings are UV-mapped onto 3D vehicle and building models and inserted into a shared projected city, with sensors detecting touch on the projection.",
+    "exercise_zh": "让同学在模板上画房子和车辆，扫描后贴图到简单模型上并放进投影城市；变体：规定每件作品都必须和别人的作品发生一次互动（碰撞、接送、连接）。"
+  },
+  "teamlab--flowers-and-people": {
+    "technique": "A real-time generative flower simulation runs continuously, and depth or proximity sensors detect visitors' position and stillness to trigger blooming or scattering locally.",
+    "exercise_zh": "在 TouchDesigner 中用摄像头检测人的位置，投影花朵在人静止时生长、移动时凋落；变体：让花的种类随一天中的时间或季节改变。"
+  },
+  "teamlab--graffiti-nature": {
+    "technique": "Scanned drawings become agents in a projected ecosystem simulation (predator-prey rules), and floor-facing depth sensors detect footsteps that make creatures flee or die.",
+    "exercise_zh": "用 p5.js 做一个简单的捕食模拟，每个同学画的生物扫描后成为其中一个个体，投影到地面并用摄像头检测脚步；变体：被踩“死”的生物会变成养分，长出新的植物。"
+  },
+  "moment-factory--sagrada-familia": {
+    "technique": "Large-scale multi-projector architectural mapping with edge blending, using a detailed 3D model of the facade to render growth and flooding effects that respect its relief.",
+    "exercise_zh": "用一件有浮雕或复杂表面的物体（石膏像、雕花盒）做投影，让表面看起来在生长、被水淹没或开花；变体：表达这个物体“内心”的一段情绪。"
+  },
+  "moment-factory--foresta-lumina": {
+    "technique": "A network of projectors, lights and speakers distributed along a trail is triggered in sequence (likely show control with sensors), so a narrative unfolds as visitors walk.",
+    "exercise_zh": "在校园一段夜间小路上设置三个“光影节点”（手机投影、灯带、蓝牙音箱），串成一个完整的小故事；变体：让某个节点只有在观众安静时才触发。"
+  },
+  "moment-factory--aura-notre-dame": {
+    "technique": "Interior architectural mapping with many projectors and programmable lighting synchronised by a show-control timeline, following the basilica's surveyed geometry.",
+    "exercise_zh": "为一个你熟悉的室内空间（礼堂、楼梯间）写一段 2 分钟的灯光与投影分镜，用小投影仪在纸模型上预演；变体：只用声音变化来驱动所有光的变化，不做时间线。"
+  },
+  "moment-factory--augmented-games": {
+    "technique": "Overhead cameras or LiDAR track players' positions on the floor, and a game engine renders court graphics and game logic back through calibrated floor and wall projection.",
+    "exercise_zh": "用俯拍摄像头追踪地面上的人，在 TouchDesigner 或 Unity 中做一个投影到地面的小游戏（抢地盘、躲避方块）；变体：规则要求至少两人协作才能得分。"
+  },
+  "heavy-projects--re-public-mural": {
+    "technique": "Image tracking recognises each mural as a target and overlays animated layers registered to the painting in the phone's camera view.",
+    "exercise_zh": "选校园里的一幅壁画或自己画一张海报，用 8th Wall / MindAR 图像追踪让画中元素动起来；变体：让动画只在特定时间段出现，比如只在傍晚“醒来”。"
+  },
+  "studio-drift--concrete-storm": {
+    "technique": "HoloLens spatial mapping and head tracking place world-locked virtual pillars in the room, which animate and shift as the viewer's position changes.",
+    "exercise_zh": "用 HoloKit 或手机 AR 在房间里放一片虚拟柱林，让柱子根据观众距离下沉或升起；变体：让柱子的材质从混凝土慢慢变成另一种材料，暗示城市的另一种可能。"
+  },
+  "marina-abramovic--the-life": {
+    "technique": "Volumetric capture of the performer (multi-camera studio) is played back as a 3D video mesh in a Magic Leap headset, anchored inside a physical circle so viewers walk around her.",
+    "exercise_zh": "用手机 LiDAR 扫描或多视角视频录一段同学的 1 分钟静默表演，在 AR 中放入地上画好的圆圈里供人绕行观看；变体：观众进入圆圈时表演者停下并“注视”他们。"
+  },
+  "kimchi-and-chips--light-barrier": {
+    "technique": "Projectors are calibrated against an array of curved mirrors so each pixel is reflected along a known ray into haze, and a ray-mapping renderer draws volumetric shapes that seem to float in mid-air.",
+    "exercise_zh": "用一台投影仪、几面小镜子（或反光片）和加湿器/烟雾，尝试让一条光线在雾中形成可见的线和面；变体：让光形随一段声音的节奏出现和消失。"
+  }
+}

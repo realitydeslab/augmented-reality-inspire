@@ -1,0 +1,3140 @@
+{
+  "batch": "r2-phone",
+  "creators": [
+    {
+      "id": "keijiro-takahashi",
+      "name": "Keijiro Takahashi",
+      "role": "Creative coder; developer advocate at Unity Technologies Japan",
+      "based": "Tokyo, Japan",
+      "bio": "Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera and ML-tracking experiments on GitHub and uses them in live concert visuals.",
+      "why": "His Rcam/Bibcam/Metavido line turned the iPhone LiDAR into a volumetric AR camera for live VFX, and every experiment ships with source code students can run.",
+      "links": {
+        "site": "https://github.com/keijiro",
+        "x": "https://x.com/_kzr",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/keijiro",
+        "youtube": "",
+        "github": "https://github.com/keijiro"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "trixi-studios",
+      "name": "Trixi Studios (Chip Sineni)",
+      "role": "Chicago VFX / AR studio led by Chip Sineni",
+      "based": "Chicago, US",
+      "bio": "Small animation and VFX studio that built early Project Tango and ARKit experiments, including the viral a-ha 'Take On Me' AR portal.",
+      "why": "Its 'Take On Me' portal (2017) showed that phone AR could reproduce a hand-drawn music-video world you can walk into, live in camera.",
+      "links": {
+        "site": "https://www.trixistudios.com/",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCgbq4MjvrLhq58aXFyptBFA",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "stuart-langfield",
+      "name": "Stuart Langfield",
+      "role": "Director and designer",
+      "based": "Vancouver, Canada / UK",
+      "bio": "Film and motion director whose 2017 Super Mario AR test rethought a side-scroller as a ring-shaped level wrapped around the player.",
+      "why": "His Super Mario AR prototype is a textbook case of redesigning a 2D game format for the space around the player instead of porting it flat.",
+      "links": {
+        "site": "",
+        "x": "https://x.com/stuartlangfield",
+        "instagram": "https://www.instagram.com/stuartlangfield/",
+        "vimeo": "https://vimeo.com/slangfield",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jelle-vermandere",
+      "name": "Jelle Vermandere",
+      "role": "Game developer and YouTuber",
+      "based": "Ghent, Belgium",
+      "bio": "Belgian maker who builds mixed-reality games that use real objects and his body as controllers: a real football, RC cars, a smart Rubik's cube, a heart-rate monitor.",
+      "why": "He shows, step by step on YouTube, how computer vision and cheap hardware turn everyday objects into game controllers for AR-style play.",
+      "links": {
+        "site": "http://www.jellever.be",
+        "x": "",
+        "instagram": "https://www.instagram.com/jellevermandere/",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCTi0V5iwClvjUba6nI2bI3w",
+        "github": "https://github.com/Jellevermandere"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tomas-garcia",
+      "name": "Tomás García",
+      "role": "Animator, character designer and AI artist",
+      "based": "Buenos Aires, Argentina",
+      "bio": "Argentine animator (ex-PepperMelon, MTV redesign) whose June 2017 ARKit tests of a moon landing in his kitchen and a Falcon 9 landing in a pool went viral in the first weeks of ARKit.",
+      "why": "His playful ARKit sketches showed how animation craft plus a correct sense of scale makes phone AR feel magical.",
+      "links": {
+        "site": "https://www.tomasgarcia.tv/",
+        "x": "https://x.com/tomasgarcia",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UColsEN2qxEYSIYkAo2X02UA",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "can-buyukberber",
+      "name": "Can Büyükberber",
+      "role": "Immersive new-media artist",
+      "based": "San Francisco, US / Istanbul, Türkiye",
+      "bio": "Turkish-born artist working with projection mapping, domes, VR and AR; Adobe's immersive artist in residence and an early ARKit experimenter.",
+      "why": "He moves the same generative sculptures across projection, print, dome, VR and AR, a clear model of how one visual idea can live in many realities.",
+      "links": {
+        "site": "https://canbuyukberber.com/",
+        "x": "https://twitter.com/cbuyukberber",
+        "instagram": "https://instagram.com/cbuyukberber/",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCqxzH2GuRARQPZ7EIR_-DCw",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "judith-amores",
+      "name": "Judith Amores",
+      "role": "Researcher (MIT Media Lab PhD; Microsoft Research)",
+      "based": "Cambridge, US",
+      "bio": "HCI researcher who built playful AR prototypes from Barcelona to MIT Media Lab and Google Creative Lab, and multi-person AR at Microsoft Research with Jaron Lanier.",
+      "why": "Co-author of three of Google's 2017 AR Experiments (Draw and Dance, Paper Cubes, Invisible Highway), each a compact, teachable AR interaction idea.",
+      "links": {
+        "site": "https://www.judithamores.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCDTY0gZVvNJ5mSIbMwUXOsA",
+        "github": ""
+      },
+      "connected_to": [
+        "anna-fuste",
+        "mit-fluid-interfaces",
+        "google-creative-lab"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "anna-fuste",
+      "name": "Anna Fusté",
+      "role": "Creative technologist and researcher (MIT Media Lab alumna)",
+      "based": "Cambridge, US / Barcelona, Spain",
+      "bio": "Catalan creative technologist whose AR work uses paper, textiles and robots as tangible interfaces, from Google AR Experiments to MIT Media Lab research on computational thinking.",
+      "why": "She keeps making AR out of cheap physical materials (paper cubes, fabrics, toy robots), which is exactly what classrooms can reproduce.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCODIjE4ZEQIwwKEfXVmN5tg",
+        "github": ""
+      },
+      "connected_to": [
+        "judith-amores",
+        "valentin-heun",
+        "google-creative-lab"
+      ],
+      "discovered_via": "judith-amores"
+    },
+    {
+      "id": "aidan-wolf",
+      "name": "Aidan Wolf",
+      "role": "AR developer; co-founder of Dream Park",
+      "based": "Los Angeles, US",
+      "bio": "Long-time Snap AR developer who made DoodleLens (doodles into AR), multiplayer Snapchat lenses and Spectacles games, and now builds 'downloadable' mixed-reality theme parks with Dream Park.",
+      "why": "He turns every new AR capability into a playful, instantly shareable game, from doodles that come alive to whole streets turned into playgrounds.",
+      "links": {
+        "site": "https://www.linkedin.com/in/aidan-wolf-1a477092/",
+        "x": "https://x.com/Aidan_Wolf",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "lucas-rizzotto",
+        "snap-inc"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "alessio-grancini",
+      "name": "Alessio Grancini",
+      "role": "AR engineer; Snap Spectacles developer relations (ex-Magic Leap, Morphosis)",
+      "based": "Los Angeles / San Francisco, US",
+      "bio": "Italian architect turned AR prototyper: SCI-Arc Gehry Prize thesis on a world-scale AR game, XR lead at Morphosis, prototype engineer at Magic Leap, now building and teaching Spectacles lenses at Snap.",
+      "why": "He carries architectural thinking into AR and ships a constant stream of hackathon prototypes that pair spatial computing with AI.",
+      "links": {
+        "site": "https://www.alessiograncini.com",
+        "x": "https://x.com/alessiograncini",
+        "instagram": "https://www.instagram.com/alessiograncini/",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCeMYb-1oZ0VZPVHWBowIWsQ",
+        "github": "https://github.com/alessiograncini"
+      },
+      "connected_to": [
+        "snap-inc"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "luke-hurd",
+      "name": "Luke Hurd",
+      "role": "AR effects creator and educator (Spark AR, Lens Studio)",
+      "based": "US",
+      "bio": "Early Instagram/Spark AR effect creator and teacher whose YouTube breakdowns explained face-mesh, occlusion and segmentation tricks; later built branded AR for National Geographic/NASA JPL and Coachella.",
+      "why": "He made social-AR craft legible, publishing full breakdowns of how his viral effects actually work.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "https://www.instagram.com/lukehurd/",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCO6QRYjZfbYcdwwHv5vmf3Q",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "torin-blankensmith",
+      "name": "Torin Blankensmith",
+      "role": "Creative technologist, real-time graphics artist, Parsons adjunct",
+      "based": "New York, US",
+      "bio": "Ex-Google Creative Lab technologist (co-built AR Wormhole) and co-creator of Shader Park; his free MediaPipe and body-tracking plugins for TouchDesigner put camera-based body interaction in thousands of students' hands.",
+      "why": "He turns webcam hand and body tracking into open tools and short, remixable mixed-reality sketches that are ideal for teaching.",
+      "links": {
+        "site": "https://www.patreon.com/torinblankensmith",
+        "x": "https://x.com/blankensmithing",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "jonas-jongejan",
+        "google-creative-lab"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "fabin-rasheed",
+      "name": "Fabin Rasheed",
+      "role": "Artist, designer and technologist (Nurecas)",
+      "based": "Kerala, India",
+      "bio": "Indian artist-designer who prototyped ARKit sculpting, multiplayer AR and AR drone control in 2017-18, presented an Adobe MAX Sneak, and now makes generative art.",
+      "why": "His early ARKit tools treated the phone as a sculpting and play space, and he keeps moving between interaction design and art.",
+      "links": {
+        "site": "https://nurecas.com/",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCB5D4-5ksiVAxUHeT04WCrA",
+        "github": ""
+      },
+      "connected_to": [
+        "aidan-wolf"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "hart-woolery",
+      "name": "Hart Woolery (2020CV)",
+      "role": "Founder and CTO, 2020CV",
+      "based": "San Diego, US",
+      "bio": "Computer-vision developer whose company 2020CV trained its own mobile hand, face and pet tracking models to make InstaSaber, YoPuppet, SpeakingPuppy and Snap lenses.",
+      "why": "He built phone hand tracking years before platforms shipped it, and wrapped it in instantly fun ideas like a paper-tube lightsaber and hand puppets.",
+      "links": {
+        "site": "https://www.linkedin.com/in/hartwoolery/",
+        "x": "https://x.com/2020cv_inc",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UCch_aczkFeTt7OS6dzaVRUw",
+        "github": "https://github.com/hartwoolery"
+      },
+      "connected_to": [
+        "snap-inc"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "sallia-goldstein",
+      "name": "Sallia Goldstein",
+      "role": "Technical artist and Snap Lens Creator",
+      "based": "Los Angeles, US",
+      "bio": "LA-based 3D technical artist whose career began with a viral Snapchat lens; she has built lenses for Coachella, UFC and LACMA and teaches in Snap's Lens Academy.",
+      "why": "Her body-tracked VFX lenses show how far simple template tweaks and restraint can go in social AR.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@Salliasnap",
+        "github": ""
+      },
+      "connected_to": [
+        "snap-inc"
+      ],
+      "discovered_via": "aidan-wolf"
+    },
+    {
+      "id": "velvet-spectrum",
+      "name": "Velvet Spectrum (Luke & Morgan Choice)",
+      "role": "3D design and animation studio",
+      "based": "Astoria, Oregon, US",
+      "bio": "Studio of Australian visual artist Luke Choice and Morgan Choice, known for colorful 3D typography, who extended their work into Snapchat lenses and Adobe Aero AR pieces.",
+      "why": "They show how an illustration/motion studio can translate its visual language into playful AR without heavy engineering.",
+      "links": {
+        "site": "https://www.velvetspectrum.com/",
+        "x": "https://twitter.com/velvetspectrum",
+        "instagram": "https://www.instagram.com/velvetspectrum/",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "sallia-goldstein"
+    },
+    {
+      "id": "phil-walton",
+      "name": "Phil Walton",
+      "role": "Official Snap Lens Creator and author",
+      "based": "US",
+      "bio": "Lens creator behind the viral 'Potato Boss' lens and author of The Designer's Guide to Snapchat's Lens Studio.",
+      "why": "His Potato Boss lens proved that the simplest face-AR joke can travel worldwide.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "snap-inc"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "christian-marclay",
+      "name": "Christian Marclay",
+      "role": "Visual artist and composer",
+      "based": "London, UK / New York, US",
+      "bio": "Swiss-American artist known for sound and collage works such as The Clock, who created an audio AR lens for the Centre Pompidou with Snap.",
+      "why": "He used AR not for visuals but to turn a whole museum into a playable musical instrument.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "snap-inc"
+      ],
+      "discovered_via": "sallia-goldstein"
+    }
+  ],
+  "works": [
+    {
+      "id": "keijiro-takahashi--rcam-channel-20",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "Rcam at Channel #20 (live with umio)",
+      "year": 2019,
+      "description": "A depth camera on stage streams a volumetric point cloud of the performer into Unity, where VFX Graph particles dissolve and rebuild her body in real time for a live concert.",
+      "idea_zh": "把舞台上的人实时扫成点云，再让粒子把人拆散、重组，成为现场演出的视觉。",
+      "interaction": [
+        "performance-stage",
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "Unity",
+        "VFX Graph",
+        "Intel RealSense"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "346711967",
+        "url": "https://vimeo.com/346711967"
+      },
+      "technique": "A RealSense depth camera sends color+depth frames to Unity, which converts them into a point cloud that drives VFX Graph particles projected behind the performer.",
+      "exercise_zh": "用 Kinect/手机深度或 MediaPipe 人体分割把一位同学变成粒子剪影投影在墙上；加一个变化：音乐音量越大粒子越散。",
+      "source_url": "https://github.com/keijiro/Rcam"
+    },
+    {
+      "id": "keijiro-takahashi--rcam2",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "Rcam2: Volumetric AR camera rig",
+      "year": 2020,
+      "description": "An iPad Pro LiDAR rig streams color, depth and camera pose to a PC, where Unity wraps the real scene in glowing particle and line effects that stay locked to the room.",
+      "idea_zh": "把 iPad 的 LiDAR 当成可移动的体积摄像机，让特效贴着真实房间长出来。",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art",
+        "performance-stage"
+      ],
+      "platform": [
+        "phone",
+        "desktop"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit",
+        "LiDAR",
+        "VFX Graph",
+        "NDI"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "461782810",
+        "url": "https://vimeo.com/461782810"
+      },
+      "technique": "ARKit on an iPad Pro captures LiDAR depth, color and camera pose, streams them over NDI to a PC, and Unity reprojects the depth into world space to spawn VFX Graph effects.",
+      "exercise_zh": "用 Reality Composer 或 Unity AR Foundation 的 mesh 扫描，让粒子沿着真实墙面和家具流动；加一个变化：只在你指过的物体表面发光。",
+      "source_url": "https://github.com/keijiro/Rcam2"
+    },
+    {
+      "id": "keijiro-takahashi--bibcam-shibuya",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "Bibcam test in Shibuya",
+      "year": 2021,
+      "description": "Street footage shot on an iPhone 13 Pro Max records depth and camera motion inside the video itself, so later the crossing in Shibuya can be re-lit and filled with 3D effects.",
+      "idea_zh": "录像时把深度和相机位姿一起'烙'进视频，之后就能给街景补上贴合空间的特效。",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit",
+        "LiDAR",
+        "VFX Graph"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "651111230",
+        "url": "https://vimeo.com/651111230"
+      },
+      "technique": "Bibcam encodes the LiDAR depth map and camera pose as metadata burned into each recorded video frame, so Unity can later reconstruct the 3D scene for post-processed AR VFX.",
+      "exercise_zh": "用带 LiDAR 的手机录一段校园短片（或用 Record3D 导出），在 Unity/Blender 里给真实空间补上下雪或发光线条；加一个变化：特效只出现在离镜头 2 米之外。",
+      "source_url": "https://github.com/keijiro/Bibcam"
+    },
+    {
+      "id": "keijiro-takahashi--bibcam-vfx",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "Adding VFX to a Bibcam clip",
+      "year": 2021,
+      "description": "A recorded Bibcam walk is post-processed so that particles and light trails wrap around the real buildings and people, with the effect following the real depth of the street.",
+      "idea_zh": "对一段已录好的深度视频做'空间感知'的后期特效。",
+      "interaction": [
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone",
+        "desktop"
+      ],
+      "tech": [
+        "Unity",
+        "VFX Graph",
+        "LiDAR"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1460618910990929926",
+        "url": "https://x.com/_kzr/status/1460618910990929926"
+      },
+      "technique": "Depth and pose embedded in the video let VFX Graph sample the real geometry per frame, so particles can spawn on and collide with surfaces in the footage.",
+      "exercise_zh": "把一段深度视频导入 TouchDesigner，用深度通道控制粒子密度，让近处的人变成光点；加一个变化：粒子颜色随时间从白天过渡到夜晚。",
+      "source_url": "https://github.com/keijiro/BibcamVfx"
+    },
+    {
+      "id": "keijiro-takahashi--ar-foundation-vfx",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "VFX with Unity AR Foundation",
+      "year": 2022,
+      "description": "Live on an iPhone, glowing particles and lines grow over the real room and people in front of the camera, anchored to the LiDAR-scanned environment.",
+      "idea_zh": "直接在手机上实时让光效沿真实环境生长。",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "AR Foundation",
+        "ARKit",
+        "LiDAR",
+        "VFX Graph"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1601509152395706369",
+        "url": "https://x.com/_kzr/status/1601509152395706369"
+      },
+      "technique": "AR Foundation exposes the LiDAR environment depth and human stencil textures, which VFX Graph samples on-device to emit particles from real surfaces.",
+      "exercise_zh": "用 AR Foundation 或 Lens Studio 的深度纹理，让房间表面冒出萤火虫；加一个变化：人走过的地方萤火虫会散开。",
+      "source_url": "https://github.com/keijiro/Rcam2"
+    },
+    {
+      "id": "keijiro-takahashi--lidar-street-walk",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "Walking a Taiwanese street with iPhone LiDAR",
+      "year": 2022,
+      "description": "A night walk through a street in Taiwan is visualized as a sparse point-cloud world built live from the iPhone LiDAR, showing both the magic and the 5-meter range limit of the sensor.",
+      "idea_zh": "用 LiDAR 的'看不远'这一缺陷，本身做成一种梦境般的街景风格。",
+      "interaction": [
+        "spatial-mapping",
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit",
+        "LiDAR"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1607672355710709760",
+        "url": "https://x.com/_kzr/status/1607672355710709760"
+      },
+      "technique": "LiDAR depth samples are reprojected into world-space points each frame and accumulated, so the scene is reconstructed as a trail of colored points around the walker.",
+      "exercise_zh": "用 Polycam/Scaniverse 扫一条走廊，导出点云并用 three.js 只显示离你 5 米内的点；加一个变化：点云随脚步声闪烁。"
+    },
+    {
+      "id": "keijiro-takahashi--rcam3",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "Rcam3 for Masaya Matsuura's concert",
+      "year": 2024,
+      "description": "A fixed iPhone on stage captures the performers' depth, and Unity turns their silhouettes into large-scale VFX shown behind the band during Masaya Matsuura's concert.",
+      "idea_zh": "把手机 LiDAR 当成舞台上的体积摄像头，实时生成演出视觉。",
+      "interaction": [
+        "performance-stage",
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "phone",
+        "projection"
+      ],
+      "tech": [
+        "Unity",
+        "VFX Graph",
+        "ARKit",
+        "LiDAR"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1871169155254435978",
+        "url": "https://x.com/_kzr/status/1871169155254435978"
+      },
+      "technique": "An iPhone controller app streams color and LiDAR depth to a host PC, where the depth is converted to point positions that drive VFX Graph for projection.",
+      "exercise_zh": "用一台手机拍乐手，在 TouchDesigner 里把人体轮廓转成粒子投影到身后；加一个变化：鼓点触发粒子爆开。",
+      "source_url": "https://github.com/keijiro/Rcam3"
+    },
+    {
+      "id": "keijiro-takahashi--metavido-vfx",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "Metavido VFX (WebGPU)",
+      "year": 2024,
+      "description": "Volumetric clips captured with an iPhone Pro play back in a web browser, where the recorded person and space are re-rendered as particles and effects in 3D.",
+      "idea_zh": "把手机拍的'带深度的视频'放进网页，任何人都能在浏览器里围着它看特效。",
+      "interaction": [
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone",
+        "web"
+      ],
+      "tech": [
+        "Unity",
+        "WebGPU",
+        "VFX Graph",
+        "LiDAR"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1828366682689061280",
+        "url": "https://x.com/_kzr/status/1828366682689061280"
+      },
+      "technique": "Metavido stores LiDAR depth and camera metadata inside a standard video stream, which a Unity WebGPU build decodes to reconstruct points for VFX in the browser.",
+      "exercise_zh": "用 Record3D 或手机深度视频导入 three.js，在网页里把一段舞蹈重建成点云；加一个变化：观众点击后切换成'沙子'材质坍塌。",
+      "source_url": "https://github.com/keijiro/MetavidoVFX"
+    },
+    {
+      "id": "keijiro-takahashi--handpose-barracuda",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "HandPoseBarracuda hand tracker",
+      "year": 2021,
+      "description": "A single webcam tracks all finger joints in real time inside Unity, drawing a 3D hand skeleton over the live image as a building block for gesture-driven effects.",
+      "idea_zh": "只用普通摄像头就能在 Unity 里拿到手指关节，做手势特效的基础件。",
+      "interaction": [
+        "hand-body"
+      ],
+      "platform": [
+        "desktop",
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "Barracuda",
+        "MediaPipe"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "545493967",
+        "url": "https://vimeo.com/545493967"
+      },
+      "technique": "MediaPipe palm-detection and hand-landmark neural networks run on the GPU through Unity Barracuda to output 21 3D keypoints per frame.",
+      "exercise_zh": "用 MediaPipe Hands（网页版即可）追踪手指，让指尖在摄像头画面上拖出彩色光带；加一个变化：捏合手指时光带变成可抓的绳子。",
+      "source_url": "https://github.com/keijiro/HandPoseBarracuda"
+    },
+    {
+      "id": "keijiro-takahashi--facemesh-barracuda",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "FaceMeshBarracuda face & eye tracker",
+      "year": 2021,
+      "description": "A webcam face and iris tracker running in Unity overlays a dense face mesh and eye landmarks on the live video, ready for mask and gaze effects.",
+      "idea_zh": "在 Unity 里用一个摄像头实现脸部网格与眼球追踪，做面具和视线特效。",
+      "interaction": [
+        "face",
+        "gaze-attention"
+      ],
+      "platform": [
+        "desktop",
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "Barracuda",
+        "MediaPipe"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "545493860",
+        "url": "https://vimeo.com/545493860"
+      },
+      "technique": "MediaPipe face-mesh and iris models run via Barracuda to return 468 face vertices plus iris landmarks, which are used to texture and deform an overlay mesh.",
+      "exercise_zh": "用 Spark/Lens Studio 或 MediaPipe FaceMesh 做一个跟着眼球转动的'第三只眼'面具；加一个变化：眨眼时面具换一张脸。",
+      "source_url": "https://github.com/keijiro/FaceMeshBarracuda"
+    },
+    {
+      "id": "keijiro-takahashi--bodypix-vfx",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "BodyPix visual effects (NNCam)",
+      "year": 2021,
+      "description": "A webcam segments the person from the background and body parts in real time, so particles, outlines and glitches can wrap only the human body in the live image.",
+      "idea_zh": "实时把人从背景里'抠'出来，特效只作用在人身上。",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Unity",
+        "Barracuda",
+        "BodyPix"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "580670067",
+        "url": "https://vimeo.com/580670067"
+      },
+      "technique": "The BodyPix person-and-part segmentation network runs through Unity Barracuda, and its mask texture is used to emit and confine VFX Graph particles to the body.",
+      "exercise_zh": "用 MediaPipe Selfie Segmentation 或 TouchDesigner 把同学的身体变成流动的墨水而背景保持不动；加一个变化：只有举起的手会燃烧。",
+      "source_url": "https://github.com/keijiro/NNCam"
+    },
+    {
+      "id": "keijiro-takahashi--vrdg-holography",
+      "creator_ids": [
+        "keijiro-takahashi"
+      ],
+      "title": "Holographic ribbons for VRDG+H",
+      "year": 2016,
+      "description": "A floating statue and ribbons appear as virtual images in mid-air using a holographic optical setup, animated to DUB-Russell's music at the VRDG+H show.",
+      "idea_zh": "用光学'虚像'让 Unity 做的雕像和缎带悬浮在空中随音乐舞动。",
+      "interaction": [
+        "projection",
+        "performance-stage",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Unity",
+        "holographic display"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "709712057235406848",
+        "url": "https://x.com/_kzr/status/709712057235406848"
+      },
+      "technique": "Unity renders are shown through a holographic / Pepper's-ghost-style optical element so the image is perceived as a virtual image floating in space (likely a half-mirror or holographic screen).",
+      "exercise_zh": "用一块斜放的透明亚克力和手机屏幕做佩珀尔幻象，让一个 3D 小雕像悬浮；加一个变化：拍手时缎带绕着它旋转。"
+    },
+    {
+      "id": "trixi-studios--take-on-me-ar",
+      "creator_ids": [
+        "trixi-studios"
+      ],
+      "title": "Augmented Reality's A-ha Moment (Take On Me AR portal)",
+      "year": 2017,
+      "description": "A door-sized portal in a real living room opens into the pencil-sketch world of a-ha's 'Take On Me'; stepping inside turns everything, including your own hand, into rotoscoped comic lines while real kids dance outside.",
+      "idea_zh": "穿过一道门就走进 a-ha《Take On Me》的铅笔漫画世界，连自己的手也变成线稿。",
+      "interaction": [
+        "portal-world",
+        "perception-art",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ZBdRAdSosv4",
+        "url": "https://www.youtube.com/watch?v=ZBdRAdSosv4"
+      },
+      "technique": "An ARKit-anchored portal uses a stencil/depth mask so the sketch world renders only through the doorway, and a line-art shader restyles the camera feed once you cross it.",
+      "exercise_zh": "用 Reality Composer/Unity 做一扇传送门，里面是一张手绘线稿全景；加一个变化：进门后给摄像头画面加上描边滤镜，让现实也变成漫画。",
+      "source_url": "https://www.roadtovr.com/take-built-arkit-opens-portal-80s-nostalgia/"
+    },
+    {
+      "id": "trixi-studios--gate-to-the-upside-down",
+      "creator_ids": [
+        "trixi-studios"
+      ],
+      "title": "Gate to the Upside Down",
+      "year": 2017,
+      "description": "A Stranger Things-inspired ARKit test turns an ordinary pharmacy aisle into the dark, spore-filled 'Upside Down', with the real space darkened and overgrown around the camera.",
+      "idea_zh": "把超市货架变成《怪奇物语》的颠倒世界。",
+      "interaction": [
+        "portal-world",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "VQymxwls0m0",
+        "url": "https://www.youtube.com/watch?v=VQymxwls0m0"
+      },
+      "technique": "The camera feed is color-graded dark while floating particles and vine meshes are anchored to ARKit-detected planes to make the real room feel replaced.",
+      "exercise_zh": "选一个熟悉的教室角落，用滤镜+漂浮粒子+贴地藤蔓把它变成'另一个平行世界'；加一个变化：手机靠近某个真实物体时世界切回现实。"
+    },
+    {
+      "id": "trixi-studios--phantogeist",
+      "creator_ids": [
+        "trixi-studios"
+      ],
+      "title": "PHANTOGEIST",
+      "year": 2016,
+      "description": "A first-person shooter on a Project Tango phone spawns ghostly enemies and environments around you anywhere, from a small room to a football field, with no markers.",
+      "idea_zh": "在任何真实场地里打第一人称幽灵射击，场地大小游戏自己适配。",
+      "interaction": [
+        "game-play",
+        "location-geo",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Project Tango",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "1lWZiuGCawc",
+        "url": "https://www.youtube.com/watch?v=1lWZiuGCawc"
+      },
+      "technique": "Tango's inside-out motion tracking gives 6DoF pose so enemies can be placed in world coordinates and the play area scales to the available physical space.",
+      "exercise_zh": "用 AR Foundation 做一个在操场上刷怪的小游戏，敌人从远处走来；加一个变化：只有把手机举高才能看到飞在空中的敌人。",
+      "source_url": "https://www.youtube.com/watch?v=AJkaebhnFr0"
+    },
+    {
+      "id": "trixi-studios--phantogeist-coop",
+      "creator_ids": [
+        "trixi-studios"
+      ],
+      "title": "PHANTOGEIST Co-op 'Automatic Mixed Reality'",
+      "year": 2016,
+      "description": "Two Tango devices share the same ghost battle, so one player can film the other fighting virtual enemies, producing mixed-reality footage automatically.",
+      "idea_zh": "两台设备共享同一场战斗，一人玩、一人当'摄影师'，自动产出混合现实视频。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Project Tango",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "AQdQ93XScEc",
+        "url": "https://www.youtube.com/watch?v=AQdQ93XScEc"
+      },
+      "technique": "Both devices localize into a shared coordinate frame (likely via Tango area learning) so enemies appear in the same physical place for each player.",
+      "exercise_zh": "用 8th Wall/Lens Studio 的多人共享或 ARKit 协作会话做一个双人游戏：一个人打怪，另一个人拍摄；加一个变化：摄影者的镜头可以'冻结'怪物。"
+    },
+    {
+      "id": "trixi-studios--star-wars-mr-test",
+      "creator_ids": [
+        "trixi-studios"
+      ],
+      "title": "Star Wars Mixed Reality Test",
+      "year": 2015,
+      "description": "Recorded live on a Project Tango tablet, Star Wars ships and droids appear in a real room and hold their place as the camera walks around them.",
+      "idea_zh": "在真实房间里让星战机器人和飞船停在原地，你绕着它们走。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Project Tango",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "xK5w7JW0dAg",
+        "url": "https://www.youtube.com/watch?v=xK5w7JW0dAg"
+      },
+      "technique": "Tango motion tracking plus depth sensing anchors 3D models to the room so they keep position and scale while the device moves.",
+      "exercise_zh": "把一个你喜欢的电影道具模型放进教室，绕着它录一段'纪录片'；加一个变化：靠近时模型会转头看你。"
+    },
+    {
+      "id": "stuart-langfield--super-mario-ar",
+      "creator_ids": [
+        "stuart-langfield"
+      ],
+      "title": "Super Mario AR",
+      "year": 2017,
+      "description": "A Super Mario World level is bent into a ring around the player; you turn in place to follow Mario and reach out to grab power-ups floating in real space and drop them onto him.",
+      "idea_zh": "把横版马里奥关卡卷成一圈围着你，你转身跟着跑，还能伸手抓道具丢给马里奥。",
+      "interaction": [
+        "game-play",
+        "hand-body"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "246824152",
+        "url": "https://vimeo.com/246824152"
+      },
+      "technique": "The level geometry is wrapped onto a cylinder centered on the ARKit world origin so rotating the phone scrolls the game, and a raycast pick lets you move items.",
+      "exercise_zh": "把一个 2D 小游戏的关卡'卷'成围着玩家的一圈（在 Unity 或 Reality Composer 里），玩家原地转身来推进；加一个变化：玩家必须蹲下才能看到隐藏关。",
+      "source_url": "https://next.reality.news/news/super-mario-augmented-reality-game-connects-past-with-gamings-future-0181604/"
+    },
+    {
+      "id": "jelle-vermandere--ar-boxing",
+      "creator_ids": [
+        "jelle-vermandere"
+      ],
+      "title": "AR Boxing Game",
+      "year": 2020,
+      "description": "He places virtual opponents in his real living room with AR Foundation and punches at them, turning a fitness routine into an AR boxing match.",
+      "idea_zh": "把陪练对手放进自家客厅，对着空气打拳也能健身。",
+      "interaction": [
+        "game-play",
+        "hand-body"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "AR Foundation"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "AOUaIqQml4g",
+        "url": "https://www.youtube.com/watch?v=AOUaIqQml4g"
+      },
+      "technique": "AR Foundation plane detection places the opponent on the floor and the phone's pose (held or strapped) is used to detect punches and dodges.",
+      "exercise_zh": "用 AR Foundation 在地上放一个会出拳的沙袋人，玩家侧身躲避；加一个变化：心率越高对手越强。",
+      "source_url": "https://jellever.itch.io/ar-boxing"
+    },
+    {
+      "id": "jelle-vermandere--real-ball-soccer",
+      "creator_ids": [
+        "jelle-vermandere"
+      ],
+      "title": "Controlling a Soccer Game with a Real Ball",
+      "year": 2022,
+      "description": "A webcam tracks a real football and his body pose so kicking the actual ball drives a digital football match in Unity.",
+      "idea_zh": "踢真球，屏幕里的比赛跟着动。",
+      "interaction": [
+        "tangible-object",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Python",
+        "OpenCV",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "tB6Ag6VCYFY",
+        "url": "https://www.youtube.com/watch?v=tB6Ag6VCYFY"
+      },
+      "technique": "Python computer vision detects the ball position and the player's pose from a webcam and streams them to Unity, which maps them into the game world.",
+      "exercise_zh": "用网页摄像头+颜色追踪让一个真实的纸团控制屏幕里的弹球；加一个变化：纸团撞到墙上的某块纸板区域时触发进球动画。"
+    },
+    {
+      "id": "jelle-vermandere--hole-in-the-wall",
+      "creator_ids": [
+        "jelle-vermandere"
+      ],
+      "title": "Real Hole in the Wall Game",
+      "year": 2022,
+      "description": "A full-body game based on Japan's Brain Wall: a webcam reads his pose and a heart-rate monitor adds pressure as walls with body-shaped holes rush toward him.",
+      "idea_zh": "根据《墙来了》：用身体摆出墙上洞的形状才能过关。",
+      "interaction": [
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "MoveNet",
+        "Unity",
+        "heart-rate monitor"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "tFIZ23fRHxQ",
+        "url": "https://www.youtube.com/watch?v=tFIZ23fRHxQ"
+      },
+      "technique": "MoveNet pose estimation extracts body keypoints from a webcam, which are compared against the silhouette of each incoming wall hole.",
+      "exercise_zh": "用 Teachable Machine 或 MoveNet 做一个'墙来了'：屏幕上出现姿势轮廓，同学要在 3 秒内摆出来；加一个变化：两个人合体才能过一面墙。"
+    },
+    {
+      "id": "jelle-vermandere--rc-car-pets",
+      "creator_ids": [
+        "jelle-vermandere"
+      ],
+      "title": "Turning RC Cars into Pets",
+      "year": 2023,
+      "description": "Overhead computer vision tracks several Arduino-controlled RC cars in real time and gives each one a personality, so they roam the floor like pets that react to him.",
+      "idea_zh": "给遥控车装上'性格'，让它们像宠物一样在地上游走、回应你。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Arduino",
+        "OpenCV",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "9FBi0qbLiio",
+        "url": "https://www.youtube.com/watch?v=9FBi0qbLiio"
+      },
+      "technique": "A camera tracks each car with CV markers, and a behavior script sends steering commands back over radio so the physical cars act on virtual rules.",
+      "exercise_zh": "用 micro:bit 小车 + 头顶摄像头追踪，让小车'害怕'同学的脚并逃开；加一个变化：给每辆车一个投影在地上的情绪表情。"
+    },
+    {
+      "id": "jelle-vermandere--rubiks-cube-game",
+      "creator_ids": [
+        "jelle-vermandere"
+      ],
+      "title": "A Rubik's Cube Game with a Real Cube",
+      "year": 2024,
+      "description": "A Bluetooth smart Rubik's cube becomes the controller: every real twist rotates and changes a puzzle world he built in Unity.",
+      "idea_zh": "拧真实的魔方来操控游戏世界。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "GAN smart cube",
+        "Bluetooth",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7UXtkvvA0dI",
+        "url": "https://www.youtube.com/watch?v=7UXtkvvA0dI"
+      },
+      "technique": "The GAN smart cube reports each face turn over Bluetooth, and Unity maps those moves to rotations of the in-game level.",
+      "exercise_zh": "用带陀螺仪的手机或 micro:bit 当'魔方'，转动它来旋转屏幕里的迷宫让小球滚到出口；加一个变化：摇一摇会让迷宫重新生成。"
+    },
+    {
+      "id": "tomas-garcia--moon-landing-kitchen",
+      "creator_ids": [
+        "tomas-garcia"
+      ],
+      "title": "Moon Landing @ my Kitchen",
+      "year": 2017,
+      "description": "The Apollo lunar module lands on his kitchen counter and astronauts step out, captured in real time with one of the first ARKit builds.",
+      "idea_zh": "阿波罗登月发生在厨房台面上。",
+      "interaction": [
+        "spatial-mapping",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "6OV2mBbNtVk",
+        "url": "https://www.youtube.com/watch?v=6OV2mBbNtVk"
+      },
+      "technique": "ARKit horizontal plane detection anchors an animated Unity scene to the countertop and keeps it stable as the phone moves.",
+      "exercise_zh": "把一个历史事件做成桌面大小的 AR 动画（Reality Composer 即可）放到课桌上；加一个变化：观众离近时出现解说字幕。",
+      "source_url": "https://x.com/madewitharkit/status/877166304469372929"
+    },
+    {
+      "id": "tomas-garcia--moon-landing-living-room",
+      "creator_ids": [
+        "tomas-garcia"
+      ],
+      "title": "Moon Landing @ Living Room",
+      "year": 2017,
+      "description": "A larger version of the moon-landing test fills the living room floor, with a real dog wandering past the out-of-scale astronauts.",
+      "idea_zh": "登月场景铺满客厅地板，真狗从宇航员身边走过。",
+      "interaction": [
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "HBEQpBdoaj0",
+        "url": "https://www.youtube.com/watch?v=HBEQpBdoaj0"
+      },
+      "technique": "The same ARKit floor anchor is used with a scaled-up scene so real objects and pets walk through the virtual set.",
+      "exercise_zh": "把同一个 AR 场景做三种尺寸（手掌、桌面、房间）对比观感；加一个变化：让场景随真实宠物/同学的位置让路。"
+    },
+    {
+      "id": "tomas-garcia--falcon-9-pool-landing",
+      "creator_ids": [
+        "tomas-garcia"
+      ],
+      "title": "Falcon 9 landing in a swimming pool",
+      "year": 2017,
+      "description": "A SpaceX Falcon 9 booster descends with fire and smoke and lands on a drone ship floating in his real swimming pool.",
+      "idea_zh": "猎鹰 9 号火箭回收降落在自家泳池里的无人船上。",
+      "interaction": [
+        "spatial-mapping",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "NodGjd3C0SQ",
+        "url": "https://www.youtube.com/watch?v=NodGjd3C0SQ"
+      },
+      "technique": "An ARKit plane on the water surface anchors a Unity-animated rocket, drone ship and particle exhaust at a deliberate miniature scale.",
+      "exercise_zh": "找一个校园里的真实平面（水池、操场、台阶），把一段科学新闻做成缩小版 AR 重演；加一个变化：观众可以用手势'倒计时'启动。",
+      "source_url": "https://www.theverge.com/tldr/2017/6/26/15876374/spacex-arkit-falcon-9-landing-apple-iphone"
+    },
+    {
+      "id": "tomas-garcia--dancing-robot-mocap",
+      "creator_ids": [
+        "tomas-garcia"
+      ],
+      "title": "ARKit + Unity + Motion Capture: robot dancing",
+      "year": 2017,
+      "description": "A robot character performs motion-captured dance moves in his living room, showing how real mocap data makes an AR character feel alive.",
+      "idea_zh": "用动捕数据让机器人在客厅里跳舞。",
+      "interaction": [
+        "performance-stage",
+        "hand-body"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity",
+        "motion capture"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "1G2YbQuQHps",
+        "url": "https://www.youtube.com/watch?v=1G2YbQuQHps"
+      },
+      "technique": "A humanoid rig driven by recorded motion-capture clips is placed on an ARKit floor plane so the dance happens at human scale.",
+      "exercise_zh": "用 Mixamo 下载一段舞蹈动作绑到角色上，放进 AR 教室里；加一个变化：用手机麦克风的节拍控制播放速度。"
+    },
+    {
+      "id": "can-buyukberber--de-young-arkit",
+      "creator_ids": [
+        "can-buyukberber"
+      ],
+      "title": "Invisible exhibition at the de Young (ARKit experiment)",
+      "year": 2017,
+      "description": "With Marpi, he placed generative 3D sculptures in the de Young Museum that are only visible through an iPad, an 'invisible exhibition' blurring what is real in the galleries.",
+      "idea_zh": "在美术馆里办一场只有透过手机才看得见的'隐形展览'。",
+      "interaction": [
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "zC3XE6r5l0U",
+        "url": "https://www.youtube.com/watch?v=zC3XE6r5l0U"
+      },
+      "technique": "A custom ARKit/Unity app anchors animated generative meshes to detected floor planes so they appear as sculptures standing in the real gallery.",
+      "exercise_zh": "在学校走廊策划一个'隐形展'：每位同学用 Reality Composer 放一件只能用手机看到的作品；加一个变化：作品只在特定时间段出现。",
+      "source_url": "https://www.youtube.com/watch?v=ph06QzRB9sM"
+    },
+    {
+      "id": "can-buyukberber--metafold-05-ar-print",
+      "creator_ids": [
+        "can-buyukberber"
+      ],
+      "title": "Metafold 05, AR-activated digital print",
+      "year": 2024,
+      "description": "A printed artwork from his Metafold series springs into an animated 3D sculpture when viewed through a phone, extending the static print into motion.",
+      "idea_zh": "一张静态版画，用手机一扫就长出会动的 3D 雕塑。",
+      "interaction": [
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "image tracking AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "cwlwe4YgkuM",
+        "url": "https://www.youtube.com/watch?v=cwlwe4YgkuM"
+      },
+      "technique": "Image-target tracking recognizes the print and overlays a registered animated 3D version on top of it (likely via an image-marker AR app).",
+      "exercise_zh": "把自己的一幅画当成图像识别标记（Artivive/Adobe Aero/8th Wall 都可），让画里的东西飞出来；加一个变化：从侧面看时显示画的'背面世界'。"
+    },
+    {
+      "id": "can-buyukberber--mixed-reality-vs-reality",
+      "creator_ids": [
+        "can-buyukberber"
+      ],
+      "title": "Mixed Reality vs. Reality",
+      "year": 2024,
+      "description": "Side-by-side POV captures compare playing ping-pong in Quest 3 passthrough mixed reality and with Ray-Ban Meta glasses in plain reality, noting how occlusion and gravity feel different.",
+      "idea_zh": "把同一个动作分别在混合现实和真实世界里做，对比两者的'物理感'。",
+      "interaction": [
+        "perception-art",
+        "game-play",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset",
+        "wearable"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "Ray-Ban Meta"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "0qEePYKqr1U",
+        "url": "https://www.youtube.com/watch?v=0qEePYKqr1U"
+      },
+      "technique": "Quest 3 passthrough MR with scene understanding simulates the ball, while the glasses record the real throw for a direct comparison of occlusion and physics.",
+      "exercise_zh": "让同学同一动作（扔纸团进篮筐）在 AR 版本和真实版本里各做一次并并排剪辑；加一个变化：AR 版本里故意改变重力，让观众找不同。"
+    },
+    {
+      "id": "can-buyukberber--unfold-01-projection-on-print",
+      "creator_ids": [
+        "can-buyukberber"
+      ],
+      "title": "Unfold 01 | Projection on Print",
+      "year": 2015,
+      "description": "A morphogenesis-inspired form printed on a large canvas is overlaid with an exactly aligned projection, so the flat print seems to fold and breathe.",
+      "idea_zh": "投影精确叠在印刷画上，让平面图像像生物一样折叠、呼吸。",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "pfeEgUcj0Ds",
+        "url": "https://www.youtube.com/watch?v=pfeEgUcj0Ds"
+      },
+      "technique": "A projector is calibrated to the printed canvas so animated light and shadow are registered on top of the matching printed geometry.",
+      "exercise_zh": "打印一张黑白几何图，用投影仪 + MadMapper/TouchDesigner 精确对位投上动画光影；加一个变化：动画跟随环境音乐节奏。"
+    },
+    {
+      "id": "can-buyukberber--unifield",
+      "creator_ids": [
+        "can-buyukberber"
+      ],
+      "title": "Unifield | Projection on Lasercut Sculpture",
+      "year": 2016,
+      "description": "A laser-cut sculpture based on Coxeter's higher-dimensional geometry is projection-mapped so light seems to reveal a 4D object rotating through it.",
+      "idea_zh": "在激光切割雕塑上做投影映射，像一个四维物体在其中穿行。",
+      "interaction": [
+        "projection",
+        "perception-art",
+        "tangible-object"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping",
+        "laser cutting"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "H8jOvMXsZgc",
+        "url": "https://www.youtube.com/watch?v=H8jOvMXsZgc"
+      },
+      "technique": "Projection mapping aligns rendered animation to the fabricated sculpture's facets so virtual light and motion appear to live on the physical form.",
+      "exercise_zh": "用纸板折一个多面体，投影映射让每个面依次亮起形成'旋转'错觉；加一个变化：观众走动时（用摄像头检测）光的旋转方向改变。"
+    },
+    {
+      "id": "judith-amores--draw-and-dance",
+      "creator_ids": [
+        "judith-amores",
+        "anna-fuste"
+      ],
+      "title": "Draw and Dance",
+      "year": 2017,
+      "description": "You draw a stick figure on your phone and it becomes a dancing AR character that reacts to music and sounds around it, even perching on a Google Home speaker to dance to its output.",
+      "idea_zh": "画一个火柴人，它就在现实中跟着周围的声音和音乐跳舞。",
+      "interaction": [
+        "drawing-creation",
+        "voice-sound",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARCore",
+        "Vuforia",
+        "API.AI"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "q_0HZ14EA_Y",
+        "url": "https://www.youtube.com/watch?v=q_0HZ14EA_Y"
+      },
+      "technique": "A 2D drawing is rigged into a stick-figure skeleton, anchored with ARCore, and animated by microphone amplitude and voice commands via API.AI.",
+      "exercise_zh": "用 Scratch/p5.js 或 Lens Studio 让学生画的角色随麦克风音量跳舞并放到 AR 里；加一个变化：两个角色听到不同音高会跳不同舞步。",
+      "source_url": "https://experiments.withgoogle.com/draw-and-dance"
+    },
+    {
+      "id": "judith-amores--invisible-highway",
+      "creator_ids": [
+        "judith-amores",
+        "anna-fuste"
+      ],
+      "title": "Invisible Highway",
+      "year": 2017,
+      "description": "Draw a path on the floor in AR and a real robot car follows it through the room, while the phone adds a generated highway and scenery along the route.",
+      "idea_zh": "在 AR 里画一条路，真实的小车就沿着它开。",
+      "interaction": [
+        "drawing-creation",
+        "tangible-object",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "Tango",
+        "Arduino"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "9ZhqsuWF96I",
+        "url": "https://www.youtube.com/watch?v=9ZhqsuWF96I"
+      },
+      "technique": "The drawn AR path is converted to world coordinates via Tango tracking and sent as waypoints to a robot car whose position is tracked to follow it.",
+      "exercise_zh": "用平板在地上'画'一条 AR 路线，再让 micro:bit 小车按坐标开过去（可用摄像头俯拍追踪）；加一个变化：路上放虚拟障碍，小车要绕行。",
+      "source_url": "https://experiments.withgoogle.com/invisible-highway"
+    },
+    {
+      "id": "anna-fuste--paper-cubes",
+      "creator_ids": [
+        "anna-fuste",
+        "judith-amores"
+      ],
+      "title": "Paper Cubes",
+      "year": 2017,
+      "description": "Printable paper cubes become physical controllers for a crowd of AR stick figures: show a cube and the figures jump, turn or stop, and an 'AI cube' makes them smarter.",
+      "idea_zh": "用剪纸做的方块当遥控器，指挥 AR 小人跳、转、停。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "Vuforia"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "arOEUVO1rIw",
+        "url": "https://www.youtube.com/watch?v=arOEUVO1rIw"
+      },
+      "technique": "Each cube face is a Vuforia image target; the recognized face and cube pose trigger behaviors for AR characters walking over the table.",
+      "exercise_zh": "打印几个带图案的纸方块，用 8th Wall/Vuforia 识别，每个图案对应一种角色动作；加一个变化：两个方块靠近时组合成新指令。",
+      "source_url": "https://experiments.withgoogle.com/paper-cubes"
+    },
+    {
+      "id": "anna-fuste--hypercubes",
+      "creator_ids": [
+        "anna-fuste"
+      ],
+      "title": "HyperCubes",
+      "year": 2019,
+      "description": "Children arrange paper cubes printed with markers as coding blocks; the phone reads the sequence and an AR character executes it in space, teaching computational thinking.",
+      "idea_zh": "把纸方块排成一串就是'程序'，AR 角色按顺序执行。",
+      "interaction": [
+        "tangible-object",
+        "data-information",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "AR markers",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "GnVp4hrQ7QU",
+        "url": "https://www.youtube.com/watch?v=GnVp4hrQ7QU"
+      },
+      "technique": "Paper cubes act as fiducial markers whose order and spatial arrangement are read as a sequence of instructions, and the result is animated in AR.",
+      "exercise_zh": "做一套纸质'代码积木'（前进/转弯/跳），用手机识别顺序并让 AR 机器人走迷宫；加一个变化：加入'循环'积木。",
+      "source_url": "https://www.media.mit.edu/projects/hypercubes/overview/"
+    },
+    {
+      "id": "anna-fuste--kinetic-ar",
+      "creator_ids": [
+        "anna-fuste"
+      ],
+      "title": "Kinetic AR: robot motion programming in AR",
+      "year": 2020,
+      "description": "Using a phone, you draw and edit a robot's motion path directly on the floor in AR and the physical robot follows it, making robot programming spatial and visual.",
+      "idea_zh": "直接在地上'画'出机器人的运动轨迹来编程。",
+      "interaction": [
+        "tangible-object",
+        "drawing-creation",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Vuforia Spatial Toolbox",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "imirzyrjOu0",
+        "url": "https://www.youtube.com/watch?v=imirzyrjOu0"
+      },
+      "technique": "The AR interface tracks the robot and floor in a shared frame, and user-drawn spline paths are converted into motion commands sent to the robot.",
+      "exercise_zh": "用手机 AR 在地上放几个路径点，让扫地机器人/乐高小车按顺序经过；加一个变化：每个路径点可以设置'停下来跳舞'。"
+    },
+    {
+      "id": "judith-amores--reality-masher",
+      "creator_ids": [
+        "judith-amores"
+      ],
+      "title": "Reality Masher: multi-person AR",
+      "year": 2015,
+      "description": "A Microsoft Research prototype with Jaron Lanier in which several people wearing early HoloLens headsets share and play with the same holograms in one room.",
+      "idea_zh": "多人戴头显，在同一个房间里共享同一批全息物体。",
+      "interaction": [
+        "multiplayer-social",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HoloLens"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "EfxMPXbvCLw",
+        "url": "https://www.youtube.com/watch?v=EfxMPXbvCLw"
+      },
+      "technique": "Multiple HoloLens devices share a common spatial anchor so holograms occupy the same physical location for every participant.",
+      "exercise_zh": "用 Lens Studio Connected Lens 或 8th Wall 共享会话，让两台手机看到同一只虚拟宠物并轮流喂它；加一个变化：一人只能看到、另一人只能听到。",
+      "source_url": "https://www.technologyreview.com/2015/10/12/165815/microsoft-researchers-are-working-on-multi-person-virtual-reality/"
+    },
+    {
+      "id": "judith-amores--qbox",
+      "creator_ids": [
+        "judith-amores"
+      ],
+      "title": "Qbox: AR Magic Toy",
+      "year": 2014,
+      "description": "Put a small toy inside a box and, through an AR interface, it comes to life, interacting with the box, the child and the world around it.",
+      "idea_zh": "把玩具放进魔法盒，透过屏幕它就活了。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "marker-based AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "t3FpKu0xYQI",
+        "url": "https://www.youtube.com/watch?v=t3FpKu0xYQI"
+      },
+      "technique": "Marker tracking on the box registers an animated virtual version of the inserted toy on top of the physical one (likely marker/toy recognition).",
+      "exercise_zh": "做一个贴有识别图的纸盒，放入不同玩具时（换不同卡片）AR 里出现不同动画；加一个变化：摇晃盒子会让角色晕倒。",
+      "source_url": "http://judithamores.com/qbox.html"
+    },
+    {
+      "id": "judith-amores--augmented-menu",
+      "creator_ids": [
+        "judith-amores"
+      ],
+      "title": "Augmented Menu",
+      "year": 2014,
+      "description": "A virtual AR waiter with automatic gestures, facial expressions and lip-sync appears at the table to present the daily menu and talk with diners.",
+      "idea_zh": "一个虚拟服务员出现在餐桌上，为你介绍今日菜单。",
+      "interaction": [
+        "voice-sound",
+        "data-information",
+        "face"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "marker-based AR",
+        "lip sync"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Z5_jopA_rJk",
+        "url": "https://www.youtube.com/watch?v=Z5_jopA_rJk"
+      },
+      "technique": "An avatar anchored on a table marker is animated procedurally with gesture, head-look and lip-sync generated from the audio input.",
+      "exercise_zh": "做一张 AR 菜单卡：扫一下出现一个会说话的 3D 角色介绍菜品（Reality Composer + TTS）；加一个变化：角色会看向离它最近的人。",
+      "source_url": "http://judithamores.com/armenu.html"
+    },
+    {
+      "id": "aidan-wolf--doodlelens",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "DoodleLens",
+      "year": 2019,
+      "description": "Point your phone at a doodle on paper and it is lifted off the page into AR, inspired by an old camcorder chroma feature; later updates animate doodles like flipbooks and turn them into 3D models.",
+      "idea_zh": "对着纸上的涂鸦一拍，它就'撕'下来变成 AR 贴纸活过来。",
+      "interaction": [
+        "drawing-creation",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit",
+        "ARCore"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1124997833159929856",
+        "url": "https://x.com/Aidan_Wolf/status/1124997833159929856"
+      },
+      "technique": "The camera image is thresholded to extract dark ink strokes into a transparent texture, which is placed on a billboard anchored in AR space.",
+      "exercise_zh": "用 p5.js 或 Lens Studio 把白纸上的涂鸦抠成透明贴图并放到 AR 里；加一个变化：连续拍四张涂鸦就组成一段逐帧动画。"
+    },
+    {
+      "id": "aidan-wolf--doodlelens-flipbook",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "DoodleLens flipbook animation",
+      "year": 2019,
+      "description": "A series of doodles captured one after another plays back as a looping flipbook animation standing in the real world.",
+      "idea_zh": "把一叠涂鸦变成站在现实里的翻页动画。",
+      "interaction": [
+        "drawing-creation"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit",
+        "ARCore"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1130730833445314560",
+        "url": "https://x.com/Aidan_Wolf/status/1130730833445314560"
+      },
+      "technique": "Each captured doodle becomes a frame in a sprite sequence that cycles on an AR-anchored quad.",
+      "exercise_zh": "让每位同学画一帧，拼成一段全班的逐帧动画放进 AR 教室；加一个变化：观众走近时播放速度变快。"
+    },
+    {
+      "id": "aidan-wolf--doodle-to-3d",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Doodles into 3D models",
+      "year": 2019,
+      "description": "A flat drawing is extruded into a chunky 3D object that can be placed and walked around in AR.",
+      "idea_zh": "把平面涂鸦'挤出'成可以绕着看的 3D 物体。",
+      "interaction": [
+        "drawing-creation"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1168518755648974849",
+        "url": "https://x.com/Aidan_Wolf/status/1168518755648974849"
+      },
+      "technique": "The extracted doodle outline is triangulated and extruded into a mesh with the drawing as its front texture (likely contour extrusion).",
+      "exercise_zh": "在 Blender 或 three.js 里把一张手绘轮廓 SVG 挤出成 3D 并导入 AR；加一个变化：挤出厚度由画的颜色深浅决定。"
+    },
+    {
+      "id": "aidan-wolf--copy-paste-ar",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Copy and paste into AR",
+      "year": 2020,
+      "description": "Images and art copied on the phone are pasted straight into the surrounding space as AR objects, with no editing step.",
+      "idea_zh": "复制一张图，直接'粘贴'到现实空间里。",
+      "interaction": [
+        "drawing-creation",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1252117262166822912",
+        "url": "https://x.com/Aidan_Wolf/status/1252117262166822912"
+      },
+      "technique": "Clipboard images are background-removed and spawned as textured quads at the AR raycast hit point.",
+      "exercise_zh": "做一个网页 AR（8th Wall/WebXR）：从相册选图后贴到墙上当'虚拟海报'；加一个变化：贴上的图会被其他同学看到并留言。"
+    },
+    {
+      "id": "aidan-wolf--ponk",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "PONK connected lens",
+      "year": 2021,
+      "description": "Two friends play classic Pong in AR, each hitting the ball from their own phone in a shared Snapchat lens.",
+      "idea_zh": "两个人在同一片现实空间里打 AR 版乒乓 Pong。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "Connected Lenses"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1402742233451798529",
+        "url": "https://x.com/Aidan_Wolf/status/1402742233451798529"
+      },
+      "technique": "Snap Connected Lenses sync game state and a shared coordinate frame between devices so both players see the same ball and paddles.",
+      "exercise_zh": "用 Lens Studio Connected Lens 或 Photon 做双人 AR 小游戏；加一个变化：球拍由玩家的脸部位置控制。"
+    },
+    {
+      "id": "aidan-wolf--hot-potato-lens",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Hot Potato multiplayer lens",
+      "year": 2021,
+      "description": "Friends pass a ticking virtual hot potato between their phones in a co-located Snapchat lens until it explodes on someone.",
+      "idea_zh": "在朋友之间传递会爆炸的虚拟土豆。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "Connected Lenses"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1395445443333476352",
+        "url": "https://x.com/Aidan_Wolf/status/1395445443333476352"
+      },
+      "technique": "A connected lens synchronizes ownership of a shared AR object and a countdown timer across participants.",
+      "exercise_zh": "做一个多人共享的'传炸弹' AR 游戏（Lens Studio 或 Unity Netcode）；加一个变化：只有对着对方手机才能把炸弹扔过去。"
+    },
+    {
+      "id": "aidan-wolf--minecraft-ar",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Minecraft remade in AR",
+      "year": 2023,
+      "description": "He rebuilt Minecraft mechanics in AR so you can dig into, fight on and build blocks over the real ground around you.",
+      "idea_zh": "在真实地面上像史蒂夫一样挖、打、建。",
+      "interaction": [
+        "game-play",
+        "spatial-mapping",
+        "drawing-creation"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Niantic Lightship",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1625580832042758144",
+        "url": "https://x.com/Aidan_Wolf/status/1625580832042758144"
+      },
+      "technique": "Real-world meshing aligns a voxel grid to the ground so placed and dug blocks stick to real surfaces (likely Lightship meshing).",
+      "exercise_zh": "用 AR Foundation 做一个在地面网格上放方块的建造玩具；加一个变化：方块会被真实阳光方向投下影子。"
+    },
+    {
+      "id": "aidan-wolf--touch-grass-lens",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Touch Grass lens",
+      "year": 2023,
+      "description": "A tongue-in-cheek AR lens detects when you actually touch grass and rewards you, so you can prove online that you go outside.",
+      "idea_zh": "识别你真的'摸了草'，给你一张出门证明。",
+      "interaction": [
+        "location-geo",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "ML segmentation"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1701565816385179877",
+        "url": "https://x.com/Aidan_Wolf/status/1701565816385179877"
+      },
+      "technique": "Hand tracking combined with a ground/grass segmentation or classification model checks that the hand overlaps real grass (likely Lens Studio ML).",
+      "exercise_zh": "用 Teachable Machine 训练'草地/非草地'分类器，手机拍到手放在草上就发放徽章；加一个变化：换成识别树叶、石头等校园自然物收集图鉴。"
+    },
+    {
+      "id": "aidan-wolf--tony-hawk-ar",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Tony Hawk Pro Skater in AR",
+      "year": 2024,
+      "description": "At Venice Beach Skatepark, skaters see AR score popups, trick names and collectibles over their real runs, remaking the video game on real concrete.",
+      "idea_zh": "把滑板游戏的计分和收集品叠加到真实滑板公园。",
+      "interaction": [
+        "game-play",
+        "location-geo",
+        "hand-body"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "AR",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1752447360867950799",
+        "url": "https://x.com/Aidan_Wolf/status/1752447360867950799"
+      },
+      "technique": "Collectibles and score UI are anchored in the real park while the skater's motion is tracked relative to them (likely body/camera tracking).",
+      "exercise_zh": "在操场用 AR 放一串虚拟金币，同学跑步/骑车穿过它们计分；加一个变化：连续穿过三个金币触发'连击'特效。"
+    },
+    {
+      "id": "aidan-wolf--parking-lot-kart",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Parking-lot kart race",
+      "year": 2024,
+      "description": "A mixed-reality game turns any empty parking lot into a Mario Kart-style race track with virtual boosts and items, playable at Two Bit Circus.",
+      "idea_zh": "把任何停车场变成马里奥赛车跑道。",
+      "interaction": [
+        "game-play",
+        "location-geo",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone",
+        "headset"
+      ],
+      "tech": [
+        "AR",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1762908892311511228",
+        "url": "https://x.com/Aidan_Wolf/status/1762908892311511228"
+      },
+      "technique": "A track, item boxes and boost pads are generated to fit the detected open ground and anchored in world space for players moving through it.",
+      "exercise_zh": "用 AR 在篮球场上画出一条虚拟跑道和加速带，让同学推着椅子比赛；加一个变化：撞到虚拟香蕉皮要原地转一圈。"
+    },
+    {
+      "id": "aidan-wolf--rat-prism-pet",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Eternal rat prism AR pet",
+      "year": 2024,
+      "description": "An internet meme, the spinning rat in a prism, becomes a Snapchat AR pet that follows you around wherever you go.",
+      "idea_zh": "把网络梗'旋转老鼠棱镜'变成一直跟着你走的 AR 宠物。",
+      "interaction": [
+        "game-play",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1784698481518747859",
+        "url": "https://x.com/Aidan_Wolf/status/1784698481518747859"
+      },
+      "technique": "The pet is re-positioned each frame to trail the camera with smoothing so it appears to follow the user around.",
+      "exercise_zh": "把一个班级梗做成跟着你走的 AR 宠物（Lens Studio/Reality Composer）；加一个变化：你停下太久它会睡着。"
+    },
+    {
+      "id": "aidan-wolf--spectacles-walk-rpg",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Spectacles walk RPG",
+      "year": 2024,
+      "description": "A Snap Spectacles game made in a weekend turns an everyday walk into an RPG adventure, with monsters and loot appearing along the real path.",
+      "idea_zh": "戴上眼镜，日常散步变成打怪升级的冒险。",
+      "interaction": [
+        "game-play",
+        "location-geo"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Lens Studio"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1838276874860138706",
+        "url": "https://x.com/Aidan_Wolf/status/1838276874860138706"
+      },
+      "technique": "World tracking on Spectacles places encounters at intervals along the walked path, and hand tracking is used to fight.",
+      "exercise_zh": "用手机 AR 做'上学路 RPG'：每走 50 步刷出一个怪，用手势打败它；加一个变化：怪物种类由天气决定。"
+    },
+    {
+      "id": "aidan-wolf--hand-frame-photos",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Hand-frame photos left in space",
+      "year": 2024,
+      "description": "At a Snap AR hackathon his team built a way to take a photo by framing a scene with your fingers and leave that photo floating in place for others to find.",
+      "idea_zh": "用手指比个取景框拍照，照片就留在原地等别人发现。",
+      "interaction": [
+        "hand-body",
+        "multiplayer-social",
+        "location-geo"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Lens Studio"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1838941247148278146",
+        "url": "https://x.com/Aidan_Wolf/status/1838941247148278146"
+      },
+      "technique": "Hand tracking detects a two-hand frame gesture to crop the camera view, and the image is saved as a persistent anchored object (likely via cloud anchors).",
+      "exercise_zh": "用 MediaPipe 手势识别'双手取景框'来截取摄像头画面；加一个变化：照片被挂在拍摄位置的地图上供全班寻宝。"
+    },
+    {
+      "id": "aidan-wolf--dream-park",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Dream Park street access point",
+      "year": 2025,
+      "description": "A public Dream Park access point on Santa Monica's Third Street Promenade turns the whole street into a mixed-reality game for passers-by.",
+      "idea_zh": "在街上装一个'入口'，整条街就变成可下载的混合现实主题乐园。",
+      "interaction": [
+        "location-geo",
+        "game-play",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "phone",
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "location-based AR"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1919248277792244155",
+        "url": "https://x.com/Aidan_Wolf/status/1919248277792244155"
+      },
+      "technique": "Game content is authored to a specific mapped location so devices localize against it and see the same attractions in the real street.",
+      "exercise_zh": "给校园设计一条'AR 主题乐园'路线，放三处可玩的 AR 小游戏点（Lens Studio/8th Wall）；加一个变化：只有凑齐三人才能开启最后一个景点。",
+      "source_url": "https://www.youtube.com/watch?v=kY_m7_v6jpI"
+    },
+    {
+      "id": "aidan-wolf--dreampark-arcade",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "DreamPark arcade vending machine",
+      "year": 2026,
+      "description": "A DreamPark 'vending machine' installed at Dave & Buster's Hollywood turns the entire arcade floor into a mixed-reality game.",
+      "idea_zh": "一台'售卖机'把整个电玩城变成混合现实游戏场。",
+      "interaction": [
+        "location-geo",
+        "game-play"
+      ],
+      "platform": [
+        "headset",
+        "phone"
+      ],
+      "tech": [
+        "mixed reality"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "2028538481803428094",
+        "url": "https://x.com/Aidan_Wolf/status/2028538481803428094"
+      },
+      "technique": "A fixed physical kiosk serves as the localization anchor and entry point for location-specific MR content laid over the arcade floor.",
+      "exercise_zh": "设计一个实体'入口'（海报或纸箱机器），扫码后进入覆盖整个教室的 AR 游戏；加一个变化：入口每天出售不同的'道具'。"
+    },
+    {
+      "id": "aidan-wolf--project-play-magic-leap",
+      "creator_ids": [
+        "aidan-wolf"
+      ],
+      "title": "Project Play (Magic Leap)",
+      "year": 2019,
+      "description": "A throwback to his Magic Leap app where you could draw, animate and even program objects directly in mixed reality.",
+      "idea_zh": "在头显里直接画、做动画、甚至编程。",
+      "interaction": [
+        "drawing-creation",
+        "hand-body"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Magic Leap One",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1182082317155618816",
+        "url": "https://x.com/Aidan_Wolf/status/1182082317155618816"
+      },
+      "technique": "Controller-driven 3D drawing strokes become objects that can be keyframed and given simple behaviors in Unity on Magic Leap.",
+      "exercise_zh": "用 Quest/手机 AR 画 3D 线条，再给线条加一个'跟随我'的行为；加一个变化：两条线相碰时发声。"
+    },
+    {
+      "id": "alessio-grancini--games-of-deletion",
+      "creator_ids": [
+        "alessio-grancini"
+      ],
+      "title": "Games of Deletion",
+      "year": 2018,
+      "description": "A world-scale multiplayer mixed-reality game in which players tag and 'delete' urban art and architecture through their phones, competing over real city spaces.",
+      "idea_zh": "把城市里的建筑与街头艺术变成多人 AR 游戏里可以'抹除'和争夺的领地。",
+      "interaction": [
+        "location-geo",
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit",
+        "ARCore"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "EccdRMAOvSM",
+        "url": "https://www.youtube.com/watch?v=EccdRMAOvSM"
+      },
+      "technique": "Geolocated AR content is anchored to real urban sites and synced across players so each tag or deletion changes a shared world state.",
+      "exercise_zh": "在校园选 5 个建筑点，用 AR 给它们'涂鸦'或'擦除'并记录到共享地图上，两队比赛占领；加一个变化：被擦除的建筑在 AR 里真的变透明。",
+      "source_url": "https://www.youtube.com/watch?v=cpX_b4fD54c"
+    },
+    {
+      "id": "alessio-grancini--interfaces-morphosis",
+      "creator_ids": [
+        "alessio-grancini"
+      ],
+      "title": "Interfaces by Morphosis AR app",
+      "year": 2019,
+      "description": "The official AR app for Morphosis's Milan Design Week installation with Dassault Systèmes overlays animated architectural geometry and information on the physical installation.",
+      "idea_zh": "用 AR 给实体建筑装置叠加动态结构和设计信息。",
+      "interaction": [
+        "data-information",
+        "location-geo",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit",
+        "ARCore"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "VCgOt4sfs1o",
+        "url": "https://www.youtube.com/watch?v=VCgOt4sfs1o"
+      },
+      "technique": "Image or object tracking registers the phone to the installation so digital geometry and sound are aligned with the built structure (likely target-based).",
+      "exercise_zh": "给学校里一件雕塑或建筑模型做一个 AR 导览：扫一扫出现结构线和设计故事；加一个变化：可以'拆开'看内部结构。"
+    },
+    {
+      "id": "alessio-grancini--mistral-oui",
+      "creator_ids": [
+        "alessio-grancini"
+      ],
+      "title": "Mistral-OUI: contextual AR UI",
+      "year": 2024,
+      "description": "On Magic Leap 2, a vision model recognizes what the wearer is looking at and a language model generates a custom interface for that context, shown floating in view.",
+      "idea_zh": "看到什么，AI 就当场为你生成对应的界面。",
+      "interaction": [
+        "data-information",
+        "gaze-attention"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Magic Leap 2",
+        "Unity",
+        "Mistral API",
+        "moondream"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "2Bcnh3w1CCg",
+        "url": "https://www.youtube.com/watch?v=2Bcnh3w1CCg"
+      },
+      "technique": "Camera frames are captioned by a vision-language model, and an LLM turns the description into HTML UI rendered as a panel in the headset.",
+      "exercise_zh": "用手机拍一张照片，让多模态大模型识别物体并生成一个'AR 便签' UI（网页 AR 显示）；加一个变化：UI 的风格随物体情绪改变。",
+      "source_url": "https://devpost.com/software/mistral-oui"
+    },
+    {
+      "id": "alessio-grancini--vision-hack-augmented-inspection",
+      "creator_ids": [
+        "alessio-grancini"
+      ],
+      "title": "Augmented Inspection (Vision Hack)",
+      "year": 2024,
+      "description": "An Apple Vision Pro app lets an operator monitor and teleoperate a Boston Dynamics Spot robot with hand gestures and voice, seeing its camera feed and point cloud in space.",
+      "idea_zh": "戴上头显，用手势和语音远程巡检、操控机器狗。",
+      "interaction": [
+        "hand-body",
+        "voice-sound",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Apple Vision Pro",
+        "Unity",
+        "OpenAI",
+        "Boston Dynamics Spot"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "H3DuCWQXWUw",
+        "url": "https://www.youtube.com/watch?v=H3DuCWQXWUw"
+      },
+      "technique": "Hand tracking and speech on Vision Pro drive robot commands, while the robot's camera stream and point cloud are rendered as spatial panels.",
+      "exercise_zh": "用手机 AR 和一个遥控小车，做'远程巡检'：手机上看到小车摄像头画面并用手势让它转向；加一个变化：发现某种颜色物体时自动标注。",
+      "source_url": "https://github.com/alessiograncini/Vision-Hack-Augmented-Inspection"
+    },
+    {
+      "id": "luke-hurd--charlie-parker-landmarker",
+      "creator_ids": [
+        "luke-hurd"
+      ],
+      "title": "Charlie Parker memorial Custom Landmarker",
+      "year": 2022,
+      "description": "Using Lens Studio's Custom Landmarker, a real Charlie Parker memorial statue is scanned so AR effects wrap precisely around the sculpture on site.",
+      "idea_zh": "把真实的纪念雕像变成 AR 的'舞台'，特效精确贴合雕像。",
+      "interaction": [
+        "location-geo",
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "Custom Landmarker"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "PdiAQvRs-50",
+        "url": "https://www.youtube.com/watch?v=PdiAQvRs-50"
+      },
+      "technique": "A pre-scanned 3D model of the statue is used as a tracking target so the lens localizes against the physical monument and aligns effects to it.",
+      "exercise_zh": "选校园里一座雕塑或门牌，用 Lens Studio Custom Landmarker/8th Wall 做一个贴合它的 AR 特效；加一个变化：特效讲述这件物体的历史。"
+    },
+    {
+      "id": "luke-hurd--mars-ar-natgeo",
+      "creator_ids": [
+        "luke-hurd"
+      ],
+      "title": "National Geographic / NASA JPL Mars AR filter",
+      "year": 2021,
+      "description": "Timed with the Perseverance landing, an Instagram AR portal let 220 million followers step into a 360° panorama of Jezero Crater made from images only hours old.",
+      "idea_zh": "毅力号着陆当天，用最新火星照片做成可走进的 AR 传送门。",
+      "interaction": [
+        "portal-world",
+        "data-information",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "Instagram"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "PSEej76-XfI",
+        "url": "https://www.youtube.com/watch?v=PSEej76-XfI"
+      },
+      "technique": "A world-anchored portal masks a spherical 360° panorama so it is visible only through the door, updated with near-real-time rover imagery.",
+      "exercise_zh": "用一张真实的 360 全景照（学校、太空、海底）做一扇 AR 传送门；加一个变化：门里的场景每天自动换成新照片。"
+    },
+    {
+      "id": "luke-hurd--wichita-effect",
+      "creator_ids": [
+        "luke-hurd"
+      ],
+      "title": "'Wichita' Instagram effect",
+      "year": 2019,
+      "description": "An Instagram effect inspired by the White Stripes' 'Seven Nation Army' video splits your face and background into layered, animated kaleidoscopic tunnels.",
+      "idea_zh": "把自拍变成《Seven Nation Army》MV 那样无限延伸的三角隧道。",
+      "interaction": [
+        "face",
+        "perception-art",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "segmentation",
+        "scripting"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "CvVhlCBInvI",
+        "url": "https://www.youtube.com/watch?v=CvVhlCBInvI"
+      },
+      "technique": "Person segmentation separates the user from the background, and scripted layers of scaled, offset camera textures create the recursive tunnel.",
+      "exercise_zh": "用 Spark/Lens Studio 或 p5.js 把摄像头画面做成向中心无限递归的隧道；加一个变化：递归层数随音乐音量变化。"
+    },
+    {
+      "id": "luke-hurd--automaton-effect",
+      "creator_ids": [
+        "luke-hurd"
+      ],
+      "title": "'Automaton' Instagram effect",
+      "year": 2019,
+      "description": "A face effect that retextures and lights the face mesh to turn the user into a mechanical automaton with layered metal parts.",
+      "idea_zh": "把你的脸变成机械人偶。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "face mesh",
+        "scripting"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "VvYa5yF38xQ",
+        "url": "https://www.youtube.com/watch?v=VvYa5yF38xQ"
+      },
+      "technique": "A custom texture and normal maps are applied to the tracked face mesh, with additional 3D parts attached to face anchors and lit in real time.",
+      "exercise_zh": "用 Lens Studio 面部网格贴图，把自己变成'文物'或'机器人'；加一个变化：张嘴时脸上的零件会弹开。"
+    },
+    {
+      "id": "luke-hurd--hole-in-the-head",
+      "creator_ids": [
+        "luke-hurd"
+      ],
+      "title": "'Hole in the head' occlusion effect",
+      "year": 2019,
+      "description": "A face-tracked effect cuts a convincing hole into the user's head where a tiny 3D scene sits inside.",
+      "idea_zh": "在脑袋上开个洞，里面藏着一个小世界。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "occlusion"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "j7klMWrJFHs",
+        "url": "https://www.youtube.com/watch?v=j7klMWrJFHs"
+      },
+      "technique": "An invisible occluder mesh around the head writes depth only, so a 3D model placed inside appears to sit in a cavity in the face.",
+      "exercise_zh": "用遮挡（occluder）材质在额头开一个洞，里面放一个旋转的小星球；加一个变化：眨眼时洞里的场景切换。"
+    },
+    {
+      "id": "luke-hurd--coachella-virtual-adventure",
+      "creator_ids": [
+        "luke-hurd"
+      ],
+      "title": "Coachella: A Virtual Adventure",
+      "year": 2022,
+      "description": "A case study of AR experiences built for Coachella that let festival-goers and remote fans unlock virtual worlds around the event.",
+      "idea_zh": "为音乐节做一场虚实混合的 AR 探险。",
+      "interaction": [
+        "performance-stage",
+        "location-geo",
+        "portal-world"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "Instagram"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "RsR3wLgIQKI",
+        "url": "https://www.youtube.com/watch?v=RsR3wLgIQKI"
+      },
+      "technique": "Location- and marker-triggered Instagram effects deliver themed AR scenes around the festival (likely world-anchored portals and target tracking).",
+      "exercise_zh": "为学校活动做一个 AR 寻宝：三个场地各扫出一个虚拟场景，集齐解锁终章；加一个变化：线上观众也能用同一特效参与。"
+    },
+    {
+      "id": "torin-blankensmith--io-brush-recreation",
+      "creator_ids": [
+        "torin-blankensmith"
+      ],
+      "title": "I/O Brush re-creation (Genuary)",
+      "year": 2025,
+      "description": "Re-creating MIT Tangible Media's I/O Brush, a webcam-tracked hand 'picks up' colors and textures from real objects and paints with them on screen.",
+      "idea_zh": "用手从现实里'蘸取'颜色和纹理，再拿来画画。",
+      "interaction": [
+        "drawing-creation",
+        "hand-body",
+        "tangible-object"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "TouchDesigner",
+        "MediaPipe"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1875375318946795571",
+        "url": "https://x.com/blankensmithing/status/1875375318946795571"
+      },
+      "technique": "MediaPipe hand tracking finds the fingertip, samples the camera pixels under it as the brush, then paints strokes into a feedback canvas.",
+      "exercise_zh": "用 p5.js + MediaPipe Hands，让指尖碰到真实物体时吸取它的颜色，再在空中画画；加一个变化：吸取的是一小段动态视频而不是颜色。",
+      "source_url": "https://tangible.media.mit.edu/project/io-brush/"
+    },
+    {
+      "id": "torin-blankensmith--echoes",
+      "creator_ids": [
+        "torin-blankensmith"
+      ],
+      "title": "Echoes",
+      "year": 2023,
+      "description": "At Art Basel Miami, each visitor's live pose is matched to the closest pose from previous visitors, so your movement is echoed by people who stood there before you.",
+      "idea_zh": "你的每个动作，都会召唤出之前某位观众做过的最相似动作。",
+      "interaction": [
+        "hand-body",
+        "multiplayer-social",
+        "perception-art"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "TouchDesigner",
+        "MediaPipe"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1737307286572298738",
+        "url": "https://x.com/blankensmithing/status/1737307286572298738"
+      },
+      "technique": "Pose landmarks from a camera are stored per visitor, and a nearest-neighbor search retrieves the closest past pose frame to display alongside the live body.",
+      "exercise_zh": "用 MoveNet 记录全班同学的姿势库，再让新来的人摆姿势时屏幕显示'最像你的同学'；加一个变化：匹配越准，画面越清晰。"
+    },
+    {
+      "id": "torin-blankensmith--immersive-memory-alula",
+      "creator_ids": [
+        "torin-blankensmith"
+      ],
+      "title": "Immersive Memory (AlUla)",
+      "year": 2024,
+      "description": "An interactive installation across three spaces in AlUla's Old Town, a UNESCO site of the incense trade, responds to visitors with visuals and a spatial audio score.",
+      "idea_zh": "在古城遗址里，观众的身体动作唤起香料之路的记忆影像与空间声音。",
+      "interaction": [
+        "location-geo",
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "TouchDesigner",
+        "body tracking",
+        "spatial audio"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1858627004398268491",
+        "url": "https://x.com/blankensmithing/status/1858627004398268491"
+      },
+      "technique": "Camera-based body tracking drives projected generative visuals in each room, tied together by a multichannel spatial audio score (likely MediaPipe/depth tracking).",
+      "exercise_zh": "为校园一处老建筑做'记忆投影'：人靠近墙面时投影出老照片的粒子；加一个变化：多人同时靠近才能看清完整照片。"
+    },
+    {
+      "id": "torin-blankensmith--jacob-collier-singer",
+      "creator_ids": [
+        "torin-blankensmith"
+      ],
+      "title": "Conducting a virtual choir like Jacob Collier",
+      "year": 2024,
+      "description": "Hand gestures tracked from a webcam conduct pitches and harmonies, imitating how Jacob Collier conducts his audience as a choir.",
+      "idea_zh": "像 Jacob Collier 指挥观众合唱一样，用手势在空中'指挥'和声。",
+      "interaction": [
+        "hand-body",
+        "voice-sound",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "TouchDesigner",
+        "MediaPipe"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1769508579613040847",
+        "url": "https://x.com/blankensmithing/status/1769508579613040847"
+      },
+      "technique": "Hand landmark height and spread from MediaPipe are mapped to musical pitch and chord voicing, with graphics overlaid on the live camera image.",
+      "exercise_zh": "用 MediaPipe Hands + Tone.js：手的高度控制音高，张开程度控制和弦；加一个变化：两个人一起合奏成二重唱。"
+    },
+    {
+      "id": "torin-blankensmith--mediapipe-body-tracking-plugin",
+      "creator_ids": [
+        "torin-blankensmith"
+      ],
+      "title": "MediaPipe body tracking plugin for TouchDesigner",
+      "year": 2023,
+      "description": "A free, no-setup webcam plugin tracks face, hands and body in TouchDesigner, shown driving real-time visuals over the performer's body.",
+      "idea_zh": "零门槛的网页摄像头全身追踪插件，让任何人都能做体感视觉。",
+      "interaction": [
+        "hand-body",
+        "face"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "TouchDesigner",
+        "MediaPipe"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1684227303406989312",
+        "url": "https://x.com/blankensmithing/status/1684227303406989312"
+      },
+      "technique": "MediaPipe models run inside an embedded browser in TouchDesigner and stream landmark data as channels to drive visuals.",
+      "exercise_zh": "用这个插件（或网页版 MediaPipe）做一个'身体乐器'：不同关节碰到屏幕上的区域发出不同音；加一个变化：只有闭眼时才能演奏。",
+      "source_url": "https://github.com/torinmb/mediapipe-touchdesigner"
+    },
+    {
+      "id": "torin-blankensmith--hand-tracking-watercolor",
+      "creator_ids": [
+        "torin-blankensmith"
+      ],
+      "title": "Hand-tracking watercolor",
+      "year": 2025,
+      "description": "Moving your hands in front of a webcam leaves blooming watercolor strokes that bleed and dry over the live image.",
+      "idea_zh": "在空中挥手，就在画面上晕开水彩。",
+      "interaction": [
+        "drawing-creation",
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "TouchDesigner",
+        "MediaPipe"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1899948380299944296",
+        "url": "https://x.com/blankensmithing/status/1899948380299944296"
+      },
+      "technique": "Fingertip positions inject color into a feedback/diffusion shader that simulates pigment spreading and edge darkening.",
+      "exercise_zh": "用 p5.js 反馈缓冲区 + MediaPipe 指尖做空中水彩；加一个变化：握拳时颜料'干掉'固定下来。"
+    },
+    {
+      "id": "fabin-rasheed--makerstudio-arkit",
+      "creator_ids": [
+        "fabin-rasheed"
+      ],
+      "title": "MakerStudio: sculpting and painting in ARKit",
+      "year": 2017,
+      "description": "With an Apple Pencil on an iPad, he sculpts and paints a Halloween creature that stands in the room, using ARKit to walk around and refine it.",
+      "idea_zh": "用 Apple Pencil 在 iPad 上雕塑、上色，作品直接立在房间里。",
+      "interaction": [
+        "drawing-creation",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Apple Pencil"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "HIUVwuRiPes",
+        "url": "https://www.youtube.com/watch?v=HIUVwuRiPes"
+      },
+      "technique": "Pencil strokes deform and paint a mesh while ARKit tracking lets the artist view and edit the sculpture from any angle in real space.",
+      "exercise_zh": "用 Reality Composer/Adobe Aero 把自己捏的黏土扫描模型放进 AR 并在手机上上色；加一个变化：同学围着模型各自加一笔。",
+      "source_url": "https://www.youtube.com/watch?v=gc5tL6ASlww"
+    },
+    {
+      "id": "fabin-rasheed--multiplayer-paintball-arkit",
+      "creator_ids": [
+        "fabin-rasheed"
+      ],
+      "title": "Multiplayer Paintball in ARKit",
+      "year": 2017,
+      "description": "Two iPhones share an ARKit scene and players shoot paintballs that splat on virtual targets and each other.",
+      "idea_zh": "两部手机共享同一个 AR 空间打彩弹。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity",
+        "networking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "T0oyKUhkLHM",
+        "url": "https://www.youtube.com/watch?v=T0oyKUhkLHM"
+      },
+      "technique": "Devices align their ARKit world origins (likely via a shared starting marker) and sync projectile events over the network.",
+      "exercise_zh": "用 8th Wall/Lens Studio 多人共享做一个彩弹涂墙游戏，颜料留在真实墙面上；加一个变化：一分钟后涂色面积大的一方获胜。"
+    },
+    {
+      "id": "fabin-rasheed--aquila-ar-drone",
+      "creator_ids": [
+        "fabin-rasheed"
+      ],
+      "title": "Aquila: flying a drone with an AR eagle",
+      "year": 2018,
+      "description": "A voice-controlled AR eagle, inspired by Assassin's Creed Origins, acts as the interface to launch and fly a real drone.",
+      "idea_zh": "用语音召唤一只 AR 老鹰，它带着真实的无人机起飞。",
+      "interaction": [
+        "voice-sound",
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore",
+        "drone SDK"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "S8ztOm7znGQ",
+        "url": "https://www.youtube.com/watch?v=S8ztOm7znGQ"
+      },
+      "technique": "Speech commands trigger an animated AR companion whose actions are mapped to drone SDK commands for takeoff and flight.",
+      "exercise_zh": "用语音识别 + AR 角色控制一个遥控玩具（或 Tello 无人机）：说'起飞'角色先飞、玩具再动；加一个变化：角色会模仿你的手势方向。"
+    },
+    {
+      "id": "fabin-rasheed--face-substitution-tests",
+      "creator_ids": [
+        "fabin-rasheed"
+      ],
+      "title": "Face substitution tests",
+      "year": 2013,
+      "description": "Early openFrameworks tests swap faces in live video, pasting another face onto the tracked face with matching position and expression.",
+      "idea_zh": "实时把另一张脸'贴'到你的脸上。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "face tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Ae9XSa0XONw",
+        "url": "https://www.youtube.com/watch?v=Ae9XSa0XONw"
+      },
+      "technique": "A face tracker fits a mesh to the live face and texture-maps a second face onto it with color blending (likely based on Kyle McDonald and Arturo Castro's openFrameworks FaceSubstitution code).",
+      "exercise_zh": "用 MediaPipe FaceMesh 把一幅名画的脸贴到自己脸上并跟随表情；加一个变化：两个同学互换脸。"
+    },
+    {
+      "id": "hart-woolery--instasaber",
+      "creator_ids": [
+        "hart-woolery"
+      ],
+      "title": "InstaSaber",
+      "year": 2017,
+      "description": "Roll up a piece of paper and the iPhone turns it into a glowing lightsaber that follows the paper tube in your hand.",
+      "idea_zh": "一卷纸在手机里变成光剑。",
+      "interaction": [
+        "tangible-object",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "CoreML",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "MWd7shj59PA",
+        "url": "https://www.youtube.com/watch?v=MWd7shj59PA"
+      },
+      "technique": "A custom vision model detects the paper tube's endpoints each frame and a blade mesh with glow is rendered along that line.",
+      "exercise_zh": "用颜色追踪识别一根彩色吸管/纸筒，在摄像头画面上画出发光剑身（p5.js/OpenCV.js）；加一个变化：两把剑相碰会发出火花和声音。",
+      "source_url": "http://instasaber.com"
+    },
+    {
+      "id": "hart-woolery--yopuppet",
+      "creator_ids": [
+        "hart-woolery"
+      ],
+      "title": "YoPuppet",
+      "year": 2019,
+      "description": "Hand tracking maps 22 points of your hand onto a cartoon puppet's face, so opening and closing your hand works the puppet's mouth in AR.",
+      "idea_zh": "把手变成 AR 手偶：张合手掌，木偶就开口说话。",
+      "interaction": [
+        "hand-body",
+        "voice-sound",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "CoreML",
+        "ARKit",
+        "TensorFlow"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "zd-LKYu5QDQ",
+        "url": "https://www.youtube.com/watch?v=zd-LKYu5QDQ"
+      },
+      "technique": "A deep-learning hand pose model tracks keypoints in real time and retargets them to a 2D/3D puppet rig anchored over the hand.",
+      "exercise_zh": "用 MediaPipe Hands 做'手偶'：拇指和四指的张合控制角色的嘴，并加上变声；加一个变化：两只手的角色可以对话。",
+      "source_url": "https://medium.com/yopuppet/bringing-puppets-to-mixed-reality-8ea5d9771c4f"
+    },
+    {
+      "id": "hart-woolery--3d-hand-physics",
+      "creator_ids": [
+        "hart-woolery"
+      ],
+      "title": "3D hand interaction and physics on an iPhone",
+      "year": 2018,
+      "description": "With only the built-in camera, a tracked 3D hand pushes and knocks over virtual objects that obey physics on a real table.",
+      "idea_zh": "只用手机摄像头，就能用真手推倒桌上的虚拟积木。",
+      "interaction": [
+        "hand-body",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "CoreML",
+        "TensorFlow"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "c_h6UBq0u70",
+        "url": "https://www.youtube.com/watch?v=c_h6UBq0u70"
+      },
+      "technique": "A Keras-trained model estimates 3D hand pose, and colliders attached to the hand interact with physics bodies placed on ARKit planes.",
+      "exercise_zh": "用 Lens Studio 手部追踪或 AR Foundation + 手部碰撞体，让手推倒一排虚拟多米诺；加一个变化：只有竖起食指才能'戳'。"
+    },
+    {
+      "id": "hart-woolery--hand-tracking-arkit-2017",
+      "creator_ids": [
+        "hart-woolery"
+      ],
+      "title": "Mobile hand tracking + ARKit",
+      "year": 2017,
+      "description": "An early demo on an iPhone 7 combines 2020CV's own hand tracker with ARKit so a bare hand can interact with AR content.",
+      "idea_zh": "2017 年就在 iPhone 7 上实现徒手与 AR 物体交互。",
+      "interaction": [
+        "hand-body"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "CoreML"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "u_FTew8oTBw",
+        "url": "https://www.youtube.com/watch?v=u_FTew8oTBw"
+      },
+      "technique": "A custom neural hand detector runs on-device alongside ARKit tracking to map the hand position into the AR scene.",
+      "exercise_zh": "用 Teachable Machine 训练 3 种手势（张开/握拳/指），在网页 AR 里分别触发出现、抓取、发射；加一个变化：手势序列组成'咒语'。"
+    },
+    {
+      "id": "hart-woolery--speakingpuppy",
+      "creator_ids": [
+        "hart-woolery"
+      ],
+      "title": "SpeakingPuppy",
+      "year": 2018,
+      "description": "An iOS app detects your dog's face, puts masks and filters on it and gives it a voice-changed talking mouth.",
+      "idea_zh": "给狗狗戴上面具，还让它开口说话。",
+      "interaction": [
+        "face",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "CoreML",
+        "face tracking",
+        "voice changer"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "3Dzn2WbHsyA",
+        "url": "https://www.youtube.com/watch?v=3Dzn2WbHsyA"
+      },
+      "technique": "A custom pet-face landmark model tracks the dog's face so masks follow it, and the user's recorded voice is pitch-shifted and lip-synced to an animated mouth.",
+      "exercise_zh": "用 Lens Studio 宠物模板或 Teachable Machine 识别宠物/玩偶的脸，给它配上变声旁白；加一个变化：说话内容由观众打字决定。"
+    },
+    {
+      "id": "hart-woolery--virtual-drumpad",
+      "creator_ids": [
+        "hart-woolery"
+      ],
+      "title": "Virtual Drumpad on iOS",
+      "year": 2019,
+      "description": "Tapping fingers in the air in front of the phone triggers drum pads that appear over the camera view.",
+      "idea_zh": "对着空气敲，手机里就响起鼓点。",
+      "interaction": [
+        "hand-body",
+        "voice-sound",
+        "performance-stage"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "CoreML",
+        "hand tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "lrl2_67GukM",
+        "url": "https://www.youtube.com/watch?v=lrl2_67GukM"
+      },
+      "technique": "Fingertip tracking detects downward strikes into on-screen pad regions and triggers low-latency audio samples.",
+      "exercise_zh": "用 MediaPipe Hands + 网页音频做空气鼓：指尖进入某个方块就发声；加一个变化：鼓垫会跟着真实桌面边缘排布。"
+    },
+    {
+      "id": "hart-woolery--face-filter-single-photo",
+      "creator_ids": [
+        "hart-woolery"
+      ],
+      "title": "Face filter from a single photo",
+      "year": 2020,
+      "description": "A face filter is generated from one photo of another person and mapped onto the user's live face so it follows expressions.",
+      "idea_zh": "只用一张照片，就能把别人的脸变成你的实时滤镜。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "face tracking",
+        "CoreML"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "aYKGafPtKbM",
+        "url": "https://www.youtube.com/watch?v=aYKGafPtKbM"
+      },
+      "technique": "Landmarks from a single photo are used to build a textured face mesh that is warped onto the live tracked face (likely a 2D morphable mapping).",
+      "exercise_zh": "用 MediaPipe FaceMesh 把一张名人或名画照片做成贴合自己脸的面具；加一个变化：面具只在你笑时出现。"
+    },
+    {
+      "id": "sallia-goldstein--body-confetti",
+      "creator_ids": [
+        "sallia-goldstein"
+      ],
+      "title": "Body Confetti lens",
+      "year": 2022,
+      "description": "A Snapchat lens tracks the full body so bursts of confetti shoot out from the right limbs as you move and dance.",
+      "idea_zh": "跳舞时彩带从四肢喷出来。",
+      "interaction": [
+        "hand-body",
+        "perception-art",
+        "performance-stage"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "Body Mesh"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "-X32ScGcVyA",
+        "url": "https://www.youtube.com/watch?v=-X32ScGcVyA"
+      },
+      "technique": "Lens Studio body-mesh tracking provides limb positions and velocities that trigger particle emitters attached to the body.",
+      "exercise_zh": "用 Lens Studio 身体追踪（或 MediaPipe Pose）让挥手时手上喷出彩纸；加一个变化：动作越快彩纸颜色越暖。"
+    },
+    {
+      "id": "sallia-goldstein--character-mashup",
+      "creator_ids": [
+        "sallia-goldstein"
+      ],
+      "title": "Character Mashup (Lensathon 2022)",
+      "year": 2022,
+      "description": "Users custom-build a mashup avatar, bring it to life with body tracking, and share it with friends through connected lenses.",
+      "idea_zh": "拼一个自己的怪物化身，用身体驱动它，再和朋友同屏互动。",
+      "interaction": [
+        "hand-body",
+        "multiplayer-social",
+        "drawing-creation"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "Connected Lenses",
+        "body tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "xwteu9chtsY",
+        "url": "https://www.youtube.com/watch?v=xwteu9chtsY"
+      },
+      "technique": "Selected body parts are assembled onto a rig driven by full-body tracking, and connected lenses sync avatars between users.",
+      "exercise_zh": "让学生用纸画出头、身体、腿三部分，拼成一个角色并用 MediaPipe Pose 驱动；加一个变化：和同桌交换一个部件。"
+    },
+    {
+      "id": "velvet-spectrum--emotional-oranges-lenses",
+      "creator_ids": [
+        "velvet-spectrum"
+      ],
+      "title": "Lenses for Emotional Oranges 'All That'",
+      "year": 2020,
+      "description": "Colorful 3D lenses in Velvet Spectrum's signature style transform the performers and scenes of the Emotional Oranges music video.",
+      "idea_zh": "把工作室的招牌 3D 视觉语言做成音乐 MV 里的 AR 滤镜。",
+      "interaction": [
+        "face",
+        "perception-art",
+        "performance-stage"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "iybLfuSFsL4",
+        "url": "https://www.youtube.com/watch?v=iybLfuSFsL4"
+      },
+      "technique": "Face and world lenses with stylized 3D assets are layered over the performers and shot directly through the camera for the video.",
+      "exercise_zh": "为一首歌做一个 AR 滤镜 MV：用同一套配色和材质做 3 个不同镜头的滤镜；加一个变化：滤镜随副歌自动切换。"
+    },
+    {
+      "id": "velvet-spectrum--aero-birding-guide",
+      "creator_ids": [
+        "velvet-spectrum"
+      ],
+      "title": "AR birding guide (Adobe Aero)",
+      "year": 2021,
+      "description": "A postcard series for bird-lovers becomes an interactive AR birding guide: illustrated birds fly off the cards and can be explored in 3D.",
+      "idea_zh": "明信片上的鸟一扫就飞出来，变成可互动的观鸟图鉴。",
+      "interaction": [
+        "tangible-object",
+        "data-information",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Adobe Aero"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "aeqw-hVz2W8",
+        "url": "https://www.youtube.com/watch?v=aeqw-hVz2W8"
+      },
+      "technique": "Adobe Aero image anchors recognize each postcard and trigger animated 3D birds with tap behaviors.",
+      "exercise_zh": "用 Adobe Aero 把学生画的明信片做成 AR 图鉴，扫卡出现 3D 动物和科普文字；加一个变化：两张卡放在一起动物会互动。"
+    },
+    {
+      "id": "phil-walton--potato-boss",
+      "creator_ids": [
+        "phil-walton"
+      ],
+      "title": "Potato Boss lens",
+      "year": 2020,
+      "description": "A Snapchat/Snap Camera lens replaces you with a talking potato whose mouth and eyes are cut from your own face; it went viral when a manager got stuck with it in a video meeting.",
+      "idea_zh": "把你的脸变成会说话的土豆。",
+      "interaction": [
+        "face",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone",
+        "desktop"
+      ],
+      "tech": [
+        "Lens Studio",
+        "Snap Camera"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "PR5n2ogiu28",
+        "url": "https://www.youtube.com/watch?v=PR5n2ogiu28"
+      },
+      "technique": "Face tracking crops the user's eyes and mouth textures and composites them onto a 3D potato model that follows head pose.",
+      "exercise_zh": "用 Lens Studio 把眼睛和嘴贴到一个水果/文具上做成'会说话的物品'；加一个变化：讲到关键词时物品会变色。",
+      "source_url": "https://www.youtube.com/watch?v=mk3Lvvb7hxY"
+    },
+    {
+      "id": "christian-marclay--playing-pompidou",
+      "creator_ids": [
+        "christian-marclay"
+      ],
+      "title": "Playing Pompidou",
+      "year": 2022,
+      "description": "An audio AR lens turns the Centre Pompidou into a musical instrument: visitors 'play' the building's surfaces and compose music from sounds recorded inside the museum.",
+      "idea_zh": "把整座蓬皮杜中心变成一件可以演奏的乐器。",
+      "interaction": [
+        "voice-sound",
+        "location-geo",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "Custom Landmarker"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "jDTCoxuWRHk",
+        "url": "https://www.youtube.com/watch?v=jDTCoxuWRHk"
+      },
+      "technique": "The lens localizes against the building and maps sound samples to architectural elements, so pointing and tapping at parts of the facade triggers and sequences them.",
+      "exercise_zh": "录下教学楼里的各种声音（门、楼梯、水管），用 AR 把它们贴到对应位置，点哪里就响哪里；加一个变化：把点击顺序录成一段旋律。"
+    },
+    {
+      "id": "trixi-studios--lonely-ghousts",
+      "creator_ids": [
+        "trixi-studios"
+      ],
+      "title": "LONELY GHOUSTS",
+      "year": 2016,
+      "description": "An early Project Tango AR game in which friendly creatures appear along your real walks and wait to be met and collected.",
+      "idea_zh": "在日常散步的路上遇见孤单的小幽灵。",
+      "interaction": [
+        "game-play",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Project Tango",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "X3WtHmv0evc",
+        "url": "https://www.youtube.com/watch?v=X3WtHmv0evc"
+      },
+      "technique": "Tango motion tracking places animated creatures in world space so they stay put as you walk around them.",
+      "exercise_zh": "用 AR Foundation 在校园路线上随机放置 5 个'孤单小怪'，走近时它们会跟你打招呼；加一个变化：收集后它们会跟在你身后排队。"
+    },
+    {
+      "id": "trixi-studios--spiders-6d-ai",
+      "creator_ids": [
+        "trixi-studios"
+      ],
+      "title": "Spiders with 6D.ai (Chip Sineni)",
+      "year": 2018,
+      "description": "Chip Sineni's creepy-crawly test for the 6D.ai SDK: spiders crawl over and hide behind real furniture thanks to a live mesh of the room.",
+      "idea_zh": "让虚拟蜘蛛沿着真实家具爬行、躲到后面去。",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "6D.ai SDK",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "gJLkbKRa8jY",
+        "url": "https://www.youtube.com/watch?v=gJLkbKRa8jY"
+      },
+      "technique": "6D.ai builds a real-time mesh of the environment on the phone, used for occlusion and as a navigation surface so creatures crawl over real geometry.",
+      "exercise_zh": "用 LiDAR 手机 + AR Foundation Meshing，让一群虚拟小虫沿桌面和椅子爬并被遮挡；加一个变化：开灯（环境光变亮）时它们四散逃跑。"
+    }
+  ],
+  "leads": [
+    {
+      "name": "Bjarne Lundgren (@bjarnel)",
+      "why": "Early ARKit prototyper (living-room down-ball tennis, 2017); only third-party mirrors found (youtube.com/watch?v=iGJlroUukaM), no own upload verified.",
+      "link": "https://twitter.com/bjarnel",
+      "found_via": "seed"
+    },
+    {
+      "name": "Jonathan Forder",
+      "why": "AR cartoon prototype at Discover Studios featured by Made With ARKit (youtube.com/watch?v=LYFk25OQJ_8); own channel only has a 2014 AR showreel.",
+      "link": "https://twitter.com/JonathanForder",
+      "found_via": "seed"
+    },
+    {
+      "name": "Clay Weishaar (Fake Artists)",
+      "why": "Lens designer behind the meditative 'Metascapes' AR lens; the Snap 'Behind the Lens' video is now private, work lives mostly on Instagram.",
+      "link": "https://www.youtube.com/watch?v=UPQSdOEIH6c",
+      "found_via": "seed"
+    },
+    {
+      "name": "Shantell Martin",
+      "why": "Co-created 'Poem World' Spectacles lens with Zach Lieberman (2021); Snap's video (youtube.com/watch?v=gnjUM9LNmEg) has embedding disabled, so no playable video yet.",
+      "link": "https://newsroom.snap.com/introducing-the-next-generation-of-spectacles",
+      "found_via": "seed"
+    },
+    {
+      "name": "Irene Alvarado & James Paterson",
+      "why": "NormanAR (2017): frame-by-frame VR animations placed in the world with ARCore/openFrameworks; open source, but no standalone video found.",
+      "link": "https://www.irenealvarado.com/augmented-reality-normanar",
+      "found_via": "seed"
+    },
+    {
+      "name": "Marpi (Mateusz Marcinowski)",
+      "why": "SF-based digital artist of reactive creatures (New Nature); co-made the 2017 de Young 'invisible exhibition' ARKit test with Can Büyükberber.",
+      "link": "https://www.museumofsciencefiction.org/marpi",
+      "found_via": "can-buyukberber"
+    },
+    {
+      "name": "Anrick (Spectacles 'Poetry in the Third Dimension')",
+      "why": "Made an abstract-poetry Spectacles lens about AR as time travel, featured by Lens Studio (youtube.com/watch?v=FgyzVmxoYA4).",
+      "link": "https://www.youtube.com/watch?v=FgyzVmxoYA4",
+      "found_via": "luke-hurd"
+    },
+    {
+      "name": "Paris AR Studio",
+      "why": "Snap lens studio behind 'Le Louvre Egypt Augmented' and 'Daft Punk: Memories Unlocked' lenses, both with Lens Studio intros/tutorials.",
+      "link": "https://www.youtube.com/watch?v=vnHa7v7fdkI",
+      "found_via": "sallia-goldstein"
+    },
+    {
+      "name": "Anne Horel",
+      "why": "French artist making GenAI-driven Snapchat lenses; Lens Studio tutorial feature.",
+      "link": "https://www.youtube.com/watch?v=YUGlBTneq0M",
+      "found_via": "sallia-goldstein"
+    },
+    {
+      "name": "Arthur Bouffard",
+      "why": "Lens creator of 'Furniture Madness' and wellness lenses, featured in Lens Studio tutorials.",
+      "link": "https://www.youtube.com/watch?v=OBGeIARuRs8",
+      "found_via": "sallia-goldstein"
+    },
+    {
+      "name": "Xulipa (@_xulipa)",
+      "why": "Made a wand-duel Spectacles experience that Aidan Wolf highlighted in 2021.",
+      "link": "https://x.com/Aidan_Wolf/status/1454930865557889026",
+      "found_via": "aidan-wolf"
+    },
+    {
+      "name": "Kasimir Lehto",
+      "why": "Niantic creative behind Rodney Mullen's 'Skatrix' Vision Pro mixed-reality skate app.",
+      "link": "https://x.com/Aidan_Wolf/status/1753158831558025589",
+      "found_via": "aidan-wolf"
+    },
+    {
+      "name": "Dom Scott",
+      "why": "Co-developer of the MediaPipe plugin for TouchDesigner with Torin Blankensmith; body-tracking visual artist.",
+      "link": "https://x.com/blankensmithing/status/1769508579613040847",
+      "found_via": "torin-blankensmith"
+    },
+    {
+      "name": "Runze Zhang",
+      "why": "Co-author of Games of Deletion (SCI-Arc 2018 Gehry Prize) world-scale AR game with Alessio Grancini.",
+      "link": "https://www.youtube.com/watch?v=cpX_b4fD54c",
+      "found_via": "alessio-grancini"
+    },
+    {
+      "name": "Jye Trudinger",
+      "why": "Snap lens developer; co-built 'Character Mashup' connected body-tracking lens at Lensathon 2022.",
+      "link": "https://www.youtube.com/watch?v=xwteu9chtsY",
+      "found_via": "sallia-goldstein"
+    },
+    {
+      "name": "Florencia Raffa",
+      "why": "Lens developer featured in Snap's '10 Devs for 10 Years of Lenses' series.",
+      "link": "https://www.youtube.com/shorts/E25gjaWGBRk",
+      "found_via": "sallia-goldstein"
+    },
+    {
+      "name": "Yegor Ryabtsov",
+      "why": "Lens developer featured in Snap's '10 Devs for 10 Years of Lenses'; known for technical lens experiments.",
+      "link": "https://www.youtube.com/shorts/6cRJGDrUG5A",
+      "found_via": "sallia-goldstein"
+    },
+    {
+      "name": "Don Allen Stevenson III",
+      "why": "AR creator/educator; 'Dream It Build It: Rift' lens series with Paige Piskin for Snap.",
+      "link": "https://www.youtube.com/watch?v=0rChMGXYRmY",
+      "found_via": "sallia-goldstein"
+    }
+  ]
+}

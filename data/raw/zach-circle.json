@@ -1,0 +1,2788 @@
+{
+  "batch": "zach-circle",
+  "creators": [
+    {
+      "id": "zach-lieberman",
+      "name": "Zach Lieberman",
+      "role": "Artist; co-founder of openFrameworks and the School for Poetic Computation (SFPC); MIT Media Lab",
+      "based": "New York, US",
+      "bio": "New York artist and educator who builds experimental drawing, animation and computer-vision tools with code. Co-creator of openFrameworks, co-founder of SFPC and YesYesNo, and runs the Future Sketches group at the MIT Media Lab.",
+      "why": "Two decades of body-, face-, voice- and phone-AR works that turn gestures and sounds into living graphics, and the tools (openFrameworks) much of the field is built on.",
+      "links": {
+        "site": "http://zach.li",
+        "x": "https://x.com/zachlieberman",
+        "instagram": "https://www.instagram.com/zach.lieberman/",
+        "vimeo": "https://vimeo.com/thesystemis",
+        "youtube": "https://www.youtube.com/channel/UCHwwZO2aTkxojPjFoyaG1ZQ",
+        "github": "https://github.com/ofZach"
+      },
+      "connected_to": [
+        "molmol-kuo",
+        "golan-levin",
+        "theo-watson",
+        "kyle-mcdonald",
+        "chris-sugrue",
+        "daito-manabe",
+        "emily-gobeille"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "molmol-kuo",
+      "name": "Molmol Kuo",
+      "role": "Artist; co-founder of YesYesNo; SFPC teacher",
+      "based": "New York, US",
+      "bio": "Taiwanese-born artist working with AR, body tracking and storytelling; co-founded the interactive studio YesYesNo with Zach Lieberman and was artist-in-residence for AR at Google Arts & Culture and Adobe.",
+      "why": "Co-author of the Weird Type and Weird Cuts AR apps and of body/face-augmenting installations that treat AR as a handmade, poetic medium.",
+      "links": {
+        "site": "http://www.molmolk.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/openmolmol",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "zach-lieberman"
+      ],
+      "discovered_via": "zach-lieberman"
+    },
+    {
+      "id": "golan-levin",
+      "name": "Golan Levin",
+      "role": "Artist; Professor of Electronic Art, Carnegie Mellon University; director of the Frank-Ratchye STUDIO for Creative Inquiry",
+      "based": "Pittsburgh, US",
+      "bio": "Artist and educator whose installations and performances explore abstract communication, the voice, the hand and the gaze through real-time computer vision and projection.",
+      "why": "A pioneer of projection- and camera-based augmentation of bodies, voices and hands (Messa di Voce, Footfalls, Augmented Hand Series) who keeps re-coding AR history for new platforms.",
+      "links": {
+        "site": "http://www.flong.com",
+        "x": "https://x.com/golan",
+        "instagram": "https://www.instagram.com/golanlevin/",
+        "vimeo": "https://vimeo.com/golanlevin",
+        "youtube": "",
+        "github": "https://github.com/golanlevin"
+      },
+      "connected_to": [
+        "zach-lieberman",
+        "kyle-mcdonald",
+        "chris-sugrue"
+      ],
+      "discovered_via": "zach-lieberman"
+    },
+    {
+      "id": "theo-watson",
+      "name": "Theo Watson",
+      "role": "Artist; co-founder of openFrameworks and Design I/O",
+      "based": "Cambridge, US",
+      "bio": "Artist and creative technologist, co-creator of openFrameworks, member of Graffiti Research Lab and F.A.T. Lab, and co-founder of the interactive studio Design I/O with Emily Gobeille.",
+      "why": "Built some of the most joyful whole-body projection AR environments for children and the laser/projection graffiti tools that brought AR into the street.",
+      "links": {
+        "site": "https://theowatson.com",
+        "x": "https://x.com/theowatson",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/muonics",
+        "youtube": "",
+        "github": "https://github.com/ofTheo"
+      },
+      "connected_to": [
+        "zach-lieberman",
+        "emily-gobeille",
+        "chris-sugrue",
+        "kyle-mcdonald"
+      ],
+      "discovered_via": "zach-lieberman"
+    },
+    {
+      "id": "emily-gobeille",
+      "name": "Emily Gobeille",
+      "role": "Designer and artist; co-founder of Design I/O",
+      "based": "Cambridge, US",
+      "bio": "Visual designer and artist who co-founded Design I/O, creating immersive, illustrated interactive worlds for museums and children.",
+      "why": "Her art direction gives Design I/O's body-driven projection ecosystems their living, storybook quality.",
+      "links": {
+        "site": "https://www.design-io.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/designio",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "theo-watson"
+      ],
+      "discovered_via": "theo-watson"
+    },
+    {
+      "id": "chris-sugrue",
+      "name": "Chris Sugrue",
+      "role": "Artist and programmer; EyeWriter team; SFPC teacher",
+      "based": "Paris, FR",
+      "bio": "American artist and programmer creating interactive installations and audio-visual performances that explore light, perception and the body; part of the EyeWriter team.",
+      "why": "Her works let digital creatures and geometry escape the screen onto hands and bodies, early poetic examples of body-scale mixed reality.",
+      "links": {
+        "site": "http://csugrue.com",
+        "x": "https://x.com/chrissugrue",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/user480327",
+        "youtube": "",
+        "github": "https://github.com/csugrue"
+      },
+      "connected_to": [
+        "golan-levin",
+        "kyle-mcdonald",
+        "zach-lieberman",
+        "theo-watson"
+      ],
+      "discovered_via": "golan-levin"
+    },
+    {
+      "id": "kyle-mcdonald",
+      "name": "Kyle McDonald",
+      "role": "Artist working with code; openFrameworks contributor",
+      "based": "Los Angeles, US",
+      "bio": "Media artist working with computer vision, machine learning and faces; co-created FaceOSC tools, real-time face substitution and many collaborative installations.",
+      "why": "Pioneered real-time face swapping and mirror-like installations that reflect you in other people's faces.",
+      "links": {
+        "site": "https://kylemcdonald.net",
+        "x": "https://x.com/kcimc",
+        "instagram": "https://www.instagram.com/kcimc/",
+        "vimeo": "https://vimeo.com/kylemcdonald",
+        "youtube": "",
+        "github": "https://github.com/kylemcdonald"
+      },
+      "connected_to": [
+        "golan-levin",
+        "lauren-mccarthy",
+        "arturo-castro",
+        "chris-sugrue",
+        "zach-lieberman",
+        "daito-manabe"
+      ],
+      "discovered_via": "golan-levin"
+    },
+    {
+      "id": "arturo-castro",
+      "name": "Arturo Castro",
+      "role": "Artist; openFrameworks core developer",
+      "based": "Barcelona, ES",
+      "bio": "Spanish artist and programmer, long-time openFrameworks core developer working with computer vision, faces and real-time graphics.",
+      "why": "Co-created, with Kyle McDonald, what is widely cited as the first realistic real-time face substitution.",
+      "links": {
+        "site": "",
+        "x": "https://x.com/arturo_castro",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/arturoc"
+      },
+      "connected_to": [
+        "kyle-mcdonald",
+        "zach-lieberman",
+        "theo-watson"
+      ],
+      "discovered_via": "kyle-mcdonald"
+    },
+    {
+      "id": "lauren-mccarthy",
+      "name": "Lauren Lee McCarthy",
+      "role": "Artist; creator of p5.js; Professor, UCLA Design Media Arts",
+      "based": "Los Angeles, US",
+      "bio": "Artist examining social relationships amid surveillance, automation and algorithmic living; creator of the p5.js library and former SFPC teacher.",
+      "why": "Uses face analysis, gesture tracking and in-ear AI to augment intimate social situations, making AR a tool for questioning surveillance.",
+      "links": {
+        "site": "https://lauren-mccarthy.com",
+        "x": "https://x.com/laurenleemack",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/lmccart"
+      },
+      "connected_to": [
+        "kyle-mcdonald",
+        "zach-lieberman"
+      ],
+      "discovered_via": "kyle-mcdonald"
+    },
+    {
+      "id": "daito-manabe",
+      "name": "Daito Manabe",
+      "role": "Artist, programmer and DJ; founder of Rhizomatiks",
+      "based": "Tokyo, JP",
+      "bio": "Japanese artist and programmer who founded Rhizomatiks, known for data- and body-driven performances with ELEVENPLAY, Perfume and Björk; early openFrameworks community member.",
+      "why": "Pushed mixed reality into live performance, from real-time face projection with Zach Lieberman to headset-and-wheelchair MR dance and AR sports broadcast.",
+      "links": {
+        "site": "https://daito.ws",
+        "x": "https://x.com/daitomanabe",
+        "instagram": "https://www.instagram.com/daitomanabe/",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "zach-lieberman",
+        "kyle-mcdonald"
+      ],
+      "discovered_via": "zach-lieberman"
+    },
+    {
+      "id": "memo-akten",
+      "name": "Memo Akten",
+      "role": "Artist and researcher; Assistant Professor, UC San Diego",
+      "based": "Los Angeles, US",
+      "bio": "Turkish-born artist and computer scientist working with code, computer vision and machine learning; author of the ofxMSAFluid tools widely used in the openFrameworks community.",
+      "why": "Turned webcams into instruments and paintbrushes for the whole body, and later made live AI 'reality filters' of everyday objects.",
+      "links": {
+        "site": "https://www.memo.tv",
+        "x": "https://x.com/memotv",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/memoakten"
+      },
+      "connected_to": [
+        "theo-watson",
+        "kyle-mcdonald"
+      ],
+      "discovered_via": "theo-watson"
+    },
+    {
+      "id": "chris-oshea",
+      "name": "Chris O'Shea",
+      "role": "Artist and creative technologist",
+      "based": "London, UK",
+      "bio": "British artist and designer making playful camera-based installations for public screens, museums and hospitals; long-time openFrameworks contributor.",
+      "why": "Made public-space mixed reality that plays pranks on passers-by, like a giant hand that plucks people off the street on BBC Big Screens.",
+      "links": {
+        "site": "https://www.chrisoshea.org",
+        "x": "https://x.com/chrisoshea",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/chrisoshea",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "theo-watson",
+        "memo-akten"
+      ],
+      "discovered_via": "theo-watson"
+    },
+    {
+      "id": "kimchi-and-chips",
+      "name": "Kimchi and Chips (Mimi Son & Elliot Woods)",
+      "role": "Art studio of Mimi Son and Elliot Woods",
+      "based": "Seoul, KR",
+      "bio": "Seoul-based studio founded in 2009 by Mimi Son and Elliot Woods (openFrameworks/vvvv developer, author of calibration tools like ofxRulr), creating volumetric light and projection installations.",
+      "why": "Materialize digital forms in physical volume by calibrating projectors onto trees, strings, blocks and fog, a spatial AR without screens or headsets.",
+      "links": {
+        "site": "https://www.kimchiandchips.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/elliotwoods"
+      },
+      "connected_to": [
+        "kyle-mcdonald",
+        "zach-lieberman"
+      ],
+      "discovered_via": "kyle-mcdonald"
+    },
+    {
+      "id": "jonas-jongejan",
+      "name": "Jonas Jongejan",
+      "role": "Creative technologist; Google Creative Lab; openFrameworks contributor",
+      "based": "New York, US",
+      "bio": "Danish creative technologist and openFrameworks contributor who co-created Light Leaks with Kyle McDonald and built early ARCore experiments at Google Creative Lab.",
+      "why": "Made some of the first ARCore art experiments, including the drawing prototype that became Just a Line and a wormhole that lets you step 10 seconds into the past.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/channel/UC5mLMGhTr_i0SSmBtMostmg",
+        "github": "https://github.com/HalfdanJ"
+      },
+      "connected_to": [
+        "kyle-mcdonald",
+        "nicole-he"
+      ],
+      "discovered_via": "kyle-mcdonald"
+    },
+    {
+      "id": "nicole-he",
+      "name": "Nicole He",
+      "role": "Programmer and artist; former Google Creative Lab creative technologist",
+      "based": "New York, US",
+      "bio": "Programmer and artist making playful work with voice interfaces, games and AI; SFPC and ITP community member.",
+      "why": "Combined speech recognition with ARCore so you grow AR plants by talking to them.",
+      "links": {
+        "site": "https://www.nicole.pizza",
+        "x": "https://x.com/nicolehe",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/nicolehe"
+      },
+      "connected_to": [
+        "jonas-jongejan",
+        "zach-lieberman"
+      ],
+      "discovered_via": "zach-lieberman"
+    }
+  ],
+  "works": [
+    {
+      "id": "zach-lieberman--audio-in-ar-space",
+      "creator_ids": [
+        "zach-lieberman"
+      ],
+      "title": "Audio in AR space",
+      "year": 2017,
+      "description": "Every sound Zach makes is recorded at the phone's position and drawn as a white blob in the air; walking back through the trail replays the sounds, as if scrubbing a record through space.",
+      "idea_zh": "把声音录在空间里：边走边发声留下声音形状，倒着走回去就能倒放这些声音。",
+      "interaction": [
+        "voice-sound",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "290238447",
+        "url": "https://vimeo.com/290238447"
+      },
+      "source_url": "https://www.idownloadblog.com/2017/09/07/audio-recording-arkit/"
+    },
+    {
+      "id": "zach-lieberman--weird-type",
+      "creator_ids": [
+        "zach-lieberman",
+        "molmol-kuo"
+      ],
+      "title": "Weird Type",
+      "year": 2018,
+      "description": "An iOS AR app for writing and painting with animated typography in 3D space; type can follow your path, react to sound, explode, and be walked around.",
+      "idea_zh": "把文字当作画笔，在真实空间里书写、绕着走、用声音让它变形。",
+      "interaction": [
+        "drawing-creation",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "UzNCGqE9MhE",
+        "url": "https://www.youtube.com/watch?v=UzNCGqE9MhE"
+      },
+      "source_url": "https://apps.apple.com/us/app/weird-type/id1352785248"
+    },
+    {
+      "id": "zach-lieberman--weird-cuts",
+      "creator_ids": [
+        "zach-lieberman",
+        "molmol-kuo"
+      ],
+      "title": "Weird Cuts",
+      "year": 2019,
+      "description": "An AR collage tool: you cut shapes out of the camera image and place the photographic cut-outs as floating layers in space to build assemblages.",
+      "idea_zh": "用相机拍下的“剪纸”在空间里拼贴，像在空气中做实体拼贴画。",
+      "interaction": [
+        "drawing-creation",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "ARKit",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "fU0iFi0PXxI",
+        "url": "https://www.youtube.com/watch?v=fU0iFi0PXxI"
+      },
+      "source_url": "https://experiments.withgoogle.com/weird-cuts"
+    },
+    {
+      "id": "zach-lieberman--m-s-que-la-cara",
+      "creator_ids": [
+        "zach-lieberman",
+        "molmol-kuo"
+      ],
+      "title": "Más Que la Cara",
+      "year": 2016,
+      "description": "A public installation in downtown Houston that tracks passers-by's faces and overlays dozens of generative, illustrated masks that move with their eyebrows, lips and head.",
+      "idea_zh": "“不只是脸”：公共空间的魔镜，把路人的脸实时变成会随表情变化的生成式面具。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "face tracking",
+        "Paper.js"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "211271693",
+        "url": "https://vimeo.com/211271693"
+      },
+      "source_url": "https://medium.com/@zachlieberman/m%C3%A1s-que-la-cara-overview-48331a0202c0"
+    },
+    {
+      "id": "zach-lieberman--drawn",
+      "creator_ids": [
+        "zach-lieberman"
+      ],
+      "title": "Drawn",
+      "year": 2005,
+      "description": "Ink drawn by hand on paper is lifted off the page by software that alters the live video signal, so painted forms appear to come alive and can be pushed around by the hand.",
+      "idea_zh": "纸上墨迹被摄像头“抓起”，手画的形状立刻活过来、能被手拨动。",
+      "interaction": [
+        "drawing-creation",
+        "hand-body",
+        "tangible-object"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "computer vision",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "4732884",
+        "url": "https://vimeo.com/4732884"
+      },
+      "source_url": "http://www.thesystemis.com/drawnInstallation/"
+    },
+    {
+      "id": "zach-lieberman--the-eyewriter",
+      "creator_ids": [
+        "zach-lieberman",
+        "theo-watson",
+        "chris-sugrue"
+      ],
+      "title": "The EyeWriter",
+      "year": 2009,
+      "description": "A low-cost eye tracker that let paralyzed graffiti artist TEMPT1 draw tags with his eyes; the tags were projected live onto buildings across Los Angeles.",
+      "idea_zh": "用眼睛画涂鸦：瘫痪的涂鸦艺术家靠眼球追踪作画，作品实时投影到城市建筑上。",
+      "interaction": [
+        "gaze-attention",
+        "drawing-creation",
+        "projection"
+      ],
+      "platform": [
+        "projection",
+        "wearable"
+      ],
+      "tech": [
+        "eye tracking",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "84H-xLrLvvk",
+        "url": "https://www.youtube.com/watch?v=84H-xLrLvvk"
+      },
+      "source_url": "http://eyewriter.org/"
+    },
+    {
+      "id": "zach-lieberman--night-lights",
+      "creator_ids": [
+        "zach-lieberman"
+      ],
+      "title": "Night Lights",
+      "year": 2010,
+      "description": "YesYesNo turned the five-storey Auckland Ferry Building into an interactive playground: visitors' silhouettes, hand gestures and phones controlled projections amplified across the facade.",
+      "idea_zh": "把整栋渡轮大楼变成身体的放大镜：人的剪影和手势被投影放大到五层楼高。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "location-geo"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "8525186",
+        "url": "https://vimeo.com/8525186"
+      },
+      "source_url": "http://www.yesyesno.com/night-lights"
+    },
+    {
+      "id": "zach-lieberman--face-projection-test",
+      "creator_ids": [
+        "zach-lieberman",
+        "daito-manabe"
+      ],
+      "title": "Face projection test",
+      "year": 2010,
+      "description": "Real-time projection mapping onto a moving face: a face tracker drives graphics projected directly onto the performer's skin.",
+      "idea_zh": "把图形直接投影到会动的人脸上，脸成为实时屏幕。",
+      "interaction": [
+        "face",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "FaceTracker"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "o-Ke6mu-F-c",
+        "url": "https://www.youtube.com/watch?v=o-Ke6mu-F-c"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "zach-lieberman--chase-no-face-bell",
+      "creator_ids": [
+        "zach-lieberman"
+      ],
+      "title": "Chase No Face / BELL",
+      "year": 2011,
+      "description": "A music video in which graphics are projected onto singer BELL's face in real time with a hacked Kinect, face tracker and LED projector, with no post-production.",
+      "idea_zh": "音乐录影带里所有脸上的图形都是实时投影上去的，没有后期。",
+      "interaction": [
+        "face",
+        "projection",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Kinect",
+        "FaceTracker",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "26649425",
+        "url": "https://vimeo.com/26649425"
+      },
+      "source_url": "http://bellinspace.com/"
+    },
+    {
+      "id": "zach-lieberman--reflection-study-interactive-edition",
+      "creator_ids": [
+        "zach-lieberman"
+      ],
+      "title": "Reflection Study (interactive edition)",
+      "year": 2015,
+      "description": "A light table where visitors move laser-cut acrylic pieces; the software simulates 2D light bouncing off the physical shapes to create typography and graphic forms.",
+      "idea_zh": "在灯箱上摆动亚克力块，软件模拟光线在实物间反射，生成图形与字体。",
+      "interaction": [
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "159142972",
+        "url": "https://vimeo.com/159142972"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "zach-lieberman--hag-seed-interactive",
+      "creator_ids": [
+        "zach-lieberman"
+      ],
+      "title": "Hag-Seed interactive",
+      "year": 2016,
+      "description": "An installation with Margaret Atwood for the London Literature Festival: text from her novel Hag-Seed becomes projected scenes that visitors play with using their bodies.",
+      "idea_zh": "把小说文字变成可以用身体玩的投影场景。",
+      "interaction": [
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "222236331",
+        "url": "https://vimeo.com/222236331"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "zach-lieberman--hide-yourself",
+      "creator_ids": [
+        "zach-lieberman",
+        "molmol-kuo"
+      ],
+      "title": "Hide yourself",
+      "year": 2019,
+      "description": "An ARKit test with Molmol Kuo, made as ARKit 3 introduced people segmentation, playing with hiding a person inside the AR scene around them.",
+      "idea_zh": "用AR把人从画面里“藏起来”，让身体在真实场景中消失。",
+      "interaction": [
+        "hand-body",
+        "portal-world",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "people occlusion",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1142495123407855617",
+        "url": "https://x.com/zachlieberman/status/1142495123407855617"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "zach-lieberman--ar-wallpaper-lenses-for-snap",
+      "creator_ids": [
+        "zach-lieberman"
+      ],
+      "title": "AR wallpaper lenses for Snap",
+      "year": 2020,
+      "description": "Sketches for Zach's Snapchat lenses that wrap generative patterns across the walls and surfaces of a room like living wallpaper.",
+      "idea_zh": "“AR就是新的墙纸”：把生成图案铺满房间的墙面和表面。",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "Snapchat"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1334497448979521549",
+        "url": "https://x.com/zachlieberman/status/1334497448979521549"
+      },
+      "source_url": "https://lens.snapchat.com/5c9ac2c148a145e3b68003399407e71e"
+    },
+    {
+      "id": "molmol-kuo--audio-walking-tour-ar",
+      "creator_ids": [
+        "molmol-kuo"
+      ],
+      "title": "Audio Walking Tour (AR)",
+      "year": 2017,
+      "description": "An AR documentary piece in which border-crossing interview stories are tied to paper documents and body movement, so listeners walk and move through the stories in space.",
+      "idea_zh": "用AR和身体移动来“走进”移民跨境的口述故事。",
+      "interaction": [
+        "voice-sound",
+        "hand-body"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "d52-71PXlmg",
+        "url": "https://www.youtube.com/watch?v=d52-71PXlmg"
+      },
+      "source_url": "http://www.molmolk.com/audio-walking-tour-ar"
+    },
+    {
+      "id": "golan-levin--scrapple",
+      "creator_ids": [
+        "golan-levin"
+      ],
+      "title": "Scrapple",
+      "year": 2005,
+      "description": "Everyday objects placed on a table are read as marks on a live musical score; the scanned table plays them as sound while projection augments the objects with graphics.",
+      "idea_zh": "桌上随手摆的物件就是乐谱，实时演奏并被投影标注。",
+      "interaction": [
+        "tangible-object",
+        "voice-sound",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "227633208",
+        "url": "https://vimeo.com/227633208"
+      },
+      "source_url": "http://www.flong.com/projects/scrapple/"
+    },
+    {
+      "id": "golan-levin--messa-di-voce-installation",
+      "creator_ids": [
+        "golan-levin",
+        "zach-lieberman"
+      ],
+      "title": "Messa di Voce (installation)",
+      "year": 2005,
+      "description": "Installation version of the 2003 performance: visitors' voices are visualized as projected bubbles and shapes that emerge from their mouths and can be pushed with their bodies.",
+      "idea_zh": "说话和唱歌的声音从嘴里“长出”可见的图形，并能用身体推动。",
+      "interaction": [
+        "voice-sound",
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision",
+        "audio analysis"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "221802940",
+        "url": "https://vimeo.com/221802940"
+      },
+      "source_url": "http://www.flong.com/projects/messa/"
+    },
+    {
+      "id": "golan-levin--footfalls",
+      "creator_ids": [
+        "golan-levin",
+        "zach-lieberman"
+      ],
+      "title": "Footfalls",
+      "year": 2006,
+      "description": "Stomping on the floor makes cascades of bouncy virtual objects fall from a six-metre projection; visitors catch and throw them with their silhouettes.",
+      "idea_zh": "跺脚越用力，天上掉下的虚拟物体越多，还能用影子接住扔回去。",
+      "interaction": [
+        "voice-sound",
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision",
+        "microphones"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "227566535",
+        "url": "https://vimeo.com/227566535"
+      },
+      "source_url": "http://www.flong.com/projects/footfalls/"
+    },
+    {
+      "id": "golan-levin--reface-portrait-sequencer",
+      "creator_ids": [
+        "golan-levin",
+        "zach-lieberman"
+      ],
+      "title": "Reface [Portrait Sequencer]",
+      "year": 2007,
+      "description": "A face-tracking mirror that records slices of visitors' eyes, brows and mouths and remixes them into endless 'exquisite corpse' composite faces; blinking advances the combinations.",
+      "idea_zh": "像“拼贴人头”游戏的魔镜：把不同观众的眼、眉、嘴实时拼成新面孔，眨眼即切换。",
+      "interaction": [
+        "face",
+        "multiplayer-social",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "face tracking",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "9dh2ghiwJW0",
+        "url": "https://www.youtube.com/watch?v=9dh2ghiwJW0"
+      },
+      "source_url": "https://www.flong.com/archive/projects/reface/index.html"
+    },
+    {
+      "id": "golan-levin--interstitial-fragment-processor",
+      "creator_ids": [
+        "golan-levin"
+      ],
+      "title": "Interstitial Fragment Processor",
+      "year": 2007,
+      "description": "The negative spaces between and within visitors' shadows are cut out and dropped as elastic red and blue objects that fall and collide with sound.",
+      "idea_zh": "把人与人影子之间的空隙变成会掉落、弹跳、发声的实体。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "86071976",
+        "url": "https://vimeo.com/86071976"
+      },
+      "source_url": "http://www.flong.com/projects/ifp/"
+    },
+    {
+      "id": "golan-levin--ghost-pole-propagator",
+      "creator_ids": [
+        "golan-levin"
+      ],
+      "title": "Ghost Pole Propagator",
+      "year": 2007,
+      "description": "Visitors' silhouettes are reduced to skeletal centerline 'ghost poles' projected large on a wall, echoing their posture as calligraphic stick figures.",
+      "idea_zh": "把人的剪影提炼成骨架般的线条投影在墙上。",
+      "interaction": [
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision",
+        "skeletonization"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "222999706",
+        "url": "https://vimeo.com/222999706"
+      },
+      "source_url": "http://www.flong.com/projects/gpp/"
+    },
+    {
+      "id": "golan-levin--ghost-projection-for-richard-iii",
+      "creator_ids": [
+        "golan-levin"
+      ],
+      "title": "Ghost Projection for Richard III",
+      "year": 2010,
+      "description": "Stage media for a Carnegie Mellon production of Richard III: computer vision tracks actors playing ghosts and projects static noise only onto their moving bodies.",
+      "idea_zh": "舞台上只在“鬼魂”演员身上投影雪花噪点，让他们变成幽灵。",
+      "interaction": [
+        "performance-stage",
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "11013624",
+        "url": "https://vimeo.com/11013624"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "golan-levin--eyeshine",
+      "creator_ids": [
+        "golan-levin",
+        "kyle-mcdonald"
+      ],
+      "title": "Eyeshine",
+      "year": 2011,
+      "description": "An installation that captures, records and replays the red-eye retroreflections from observers' eyes, revealing a normally invisible property of the human retina.",
+      "idea_zh": "捕捉观众眼睛的“红眼”反光，让人看到自己像夜行动物一样发光的眼睛。",
+      "interaction": [
+        "gaze-attention",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "infrared camera",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "29356492",
+        "url": "https://vimeo.com/29356492"
+      },
+      "source_url": "http://flong.com/projects/eyeshine/"
+    },
+    {
+      "id": "golan-levin--augmented-hand-series",
+      "creator_ids": [
+        "golan-levin",
+        "chris-sugrue",
+        "kyle-mcdonald"
+      ],
+      "title": "Augmented Hand Series",
+      "year": 2014,
+      "description": "Visitors insert a hand into a box and see it transformed in real time on screen: extra or missing fingers, lengthened digits, wobbling knuckles and other uncanny variations.",
+      "idea_zh": "把手伸进盒子，屏幕里的手多长一根手指、手指变长——实时而诡异的“手的变形”。",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Leap Motion",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "111951283",
+        "url": "https://vimeo.com/111951283"
+      },
+      "source_url": "http://www.flong.com/projects/augmented-hand-series/"
+    },
+    {
+      "id": "golan-levin--arkit-re-code-of-jeffrey-shaw-s-golden-calf",
+      "creator_ids": [
+        "golan-levin"
+      ],
+      "title": "ARKit re-code of Jeffrey Shaw's Golden Calf",
+      "year": 2017,
+      "description": "A speed-project with Claire Hentschker that re-creates Shaw's 1994 Golden Calf for ARKit: a phone reveals a virtual golden calf standing on an empty plinth.",
+      "idea_zh": "用手机AR重做1994年经典作品：空底座上的金牛只在手机里可见。",
+      "interaction": [
+        "spatial-mapping",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "269478756",
+        "url": "https://vimeo.com/269478756"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "theo-watson--daisies",
+      "creator_ids": [
+        "theo-watson"
+      ],
+      "title": "Daisies",
+      "year": 2005,
+      "description": "A floor projection of daisies that wilt and die under visitors' feet and quickly grow back after they walk away; version 2.0 grows algorithmically generated flowers.",
+      "idea_zh": "花会在你脚下枯萎，离开后又重新长回来。",
+      "interaction": [
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "463536634",
+        "url": "https://vimeo.com/463536634"
+      },
+      "source_url": "https://theowatson.com/work/daisies"
+    },
+    {
+      "id": "theo-watson--l-a-s-e-r-tag",
+      "creator_ids": [
+        "theo-watson"
+      ],
+      "title": "L.A.S.E.R. Tag",
+      "year": 2007,
+      "description": "Graffiti Research Lab's system for tagging buildings with a green laser pointer: a camera tracks the laser dot and a high-powered projector paints it as giant graffiti on the facade.",
+      "idea_zh": "用激光笔在整栋楼上“喷涂鸦”，摄像头追踪光点、投影仪实时画出巨大笔迹。",
+      "interaction": [
+        "drawing-creation",
+        "projection",
+        "location-geo"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "LtZq2q43Jkc",
+        "url": "https://www.youtube.com/watch?v=LtZq2q43Jkc"
+      },
+      "source_url": "https://theowatson.com/work/laser-tag"
+    },
+    {
+      "id": "theo-watson--generative-graffiti",
+      "creator_ids": [
+        "theo-watson"
+      ],
+      "title": "Generative Graffiti",
+      "year": 2008,
+      "description": "With Graffiti Research Lab: particles spawn from the lit windows of the Maritime Hotel in New York, attracted to each other and repelled by dark windows, projected back onto the building.",
+      "idea_zh": "从酒店亮着灯的窗户里生长出粒子涂鸦，再投回建筑立面。",
+      "interaction": [
+        "projection",
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "463526242",
+        "url": "https://vimeo.com/463526242"
+      },
+      "source_url": "https://theowatson.com/work/generative-graffiti"
+    },
+    {
+      "id": "theo-watson--fat-tag-meet-projector",
+      "creator_ids": [
+        "theo-watson"
+      ],
+      "title": "Fat Tag, Meet Projector",
+      "year": 2010,
+      "description": "The Fat Tag iPhone graffiti app wired straight into a pocket projector, turning finger-drawn tags into instant projection bombing on city walls.",
+      "idea_zh": "手机上手指画的涂鸦直接投到街头墙面，最简“投影轰炸”。",
+      "interaction": [
+        "drawing-creation",
+        "projection",
+        "location-geo"
+      ],
+      "platform": [
+        "phone",
+        "projection"
+      ],
+      "tech": [
+        "iOS",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "8617601",
+        "url": "https://vimeo.com/8617601"
+      },
+      "source_url": "http://fffff.at/fattag-meet-projector"
+    },
+    {
+      "id": "theo-watson--funky-forest",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Funky Forest",
+      "year": 2007,
+      "description": "An interactive projected forest ecosystem: children grow trees by pressing their bodies into the forest and use physical logs and pillow 'rocks' to divert a digital stream to water them.",
+      "idea_zh": "孩子用身体种树、用实物“木头”改变投影河流的方向来灌溉森林。",
+      "interaction": [
+        "hand-body",
+        "tangible-object",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "3872687",
+        "url": "https://vimeo.com/3872687"
+      },
+      "source_url": "https://www.design-io.com/projects/funkyforest"
+    },
+    {
+      "id": "theo-watson--terrarium",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Terrarium",
+      "year": 2009,
+      "description": "A sonic ecosystem powered by visitors' voices: sounds enter through vents and are digested by creatures that grow and sustain life in the projected world.",
+      "idea_zh": "对着装置说话，声音变成养活虚拟生态的食物。",
+      "interaction": [
+        "voice-sound",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "5269088",
+        "url": "https://vimeo.com/5269088"
+      },
+      "source_url": "https://www.design-io.com/projects/terrarium"
+    },
+    {
+      "id": "theo-watson--knee-deep",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Knee Deep",
+      "year": 2009,
+      "description": "Children stomp into projected worlds of different scales with their feet, seeing themselves composited into oceans, cities and planets from impossible points of view.",
+      "idea_zh": "用脚踏进不同尺度的世界，看见自己踩在海洋、城市甚至星球里。",
+      "interaction": [
+        "hand-body",
+        "portal-world"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "8805152",
+        "url": "https://vimeo.com/8805152"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "theo-watson--filmmuseum-augmented-sand-sculpture",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Filmmuseum augmented sand sculpture",
+      "year": 2009,
+      "description": "An augmented projection that unveiled a five-metre sand sculpture of Amsterdam's future Film Museum building in stages using projection mapping.",
+      "idea_zh": "用投影在沙雕上逐步“揭幕”未来的电影博物馆大楼。",
+      "interaction": [
+        "projection",
+        "tangible-object"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "6521600",
+        "url": "https://vimeo.com/6521600"
+      },
+      "source_url": "https://www.design-io.com/projects/filmmuseum"
+    },
+    {
+      "id": "theo-watson--rise-and-fall",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Rise and Fall",
+      "year": 2010,
+      "description": "An interactive front-and-back magazine cover for Boards Magazine: holding the printed cover to a webcam and rotating it steers a story world rendered on top of it.",
+      "idea_zh": "拿着杂志封面对着摄像头旋转，封面上的世界随之展开故事。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "marker tracking"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "10078874",
+        "url": "https://vimeo.com/10078874"
+      },
+      "source_url": "https://www.design-io.com/projects/riseandfall"
+    },
+    {
+      "id": "theo-watson--night-bright",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Night Bright",
+      "year": 2011,
+      "description": "Children use their bodies as flashlights to light up a projected nighttime forest and play hide-and-seek with nocturnal creatures they locate by sound.",
+      "idea_zh": "用身体当手电筒照亮夜晚森林，循声寻找藏着的动物。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "game-play"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "29193895",
+        "url": "https://vimeo.com/29193895"
+      },
+      "source_url": "https://www.design-io.com/projects/nightbright"
+    },
+    {
+      "id": "theo-watson--puppet-parade",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Puppet Parade",
+      "year": 2011,
+      "description": "Children puppeteer giant projected creatures with their arms via Kinect skeleton tracking, while others step into the scene to pet and feed them.",
+      "idea_zh": "用手臂操纵巨型投影木偶，其他孩子走进画面去喂它们。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Kinect",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "34824490",
+        "url": "https://vimeo.com/34824490"
+      },
+      "source_url": "https://www.design-io.com/projects/puppetparade"
+    },
+    {
+      "id": "theo-watson--skataviz",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Skataviz",
+      "year": 2012,
+      "description": "An iPhone attached to a skateboard records its motion and visualizes the board's rotation and tricks as 3D data augmented over live video of the run.",
+      "idea_zh": "滑板上绑手机，把翻板动作变成叠加在视频上的三维数据轨迹。",
+      "interaction": [
+        "data-information",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iOS",
+        "openFrameworks",
+        "gyroscope"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "53565956",
+        "url": "https://vimeo.com/53565956"
+      },
+      "source_url": "https://www.design-io.com/projects/skataviz"
+    },
+    {
+      "id": "theo-watson--weather-worlds",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Weather Worlds",
+      "year": 2013,
+      "description": "Real-time green-screening places children inside a dynamic weather world where body gestures conjure storms, tornadoes and lightning.",
+      "idea_zh": "孩子站进画面获得操控天气的超能力：挥手召唤风暴和闪电。",
+      "interaction": [
+        "hand-body",
+        "portal-world"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "69084390",
+        "url": "https://vimeo.com/69084390"
+      },
+      "source_url": "https://www.design-io.com/projects/weatherworlds"
+    },
+    {
+      "id": "theo-watson--connected-worlds",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Connected Worlds",
+      "year": 2015,
+      "description": "A large-scale ecosystem at the New York Hall of Science: six projected habitats linked by a 3000 sq ft interactive floor and 45 ft waterfall; children move physical logs to route water and plant seeds with gestures.",
+      "idea_zh": "整个大厅就是一个生态系统：孩子搬动实物木头引水、用手播种，影响六个栖息地。",
+      "interaction": [
+        "hand-body",
+        "tangible-object",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "Kinect"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "131585517",
+        "url": "https://vimeo.com/131585517"
+      },
+      "source_url": "https://www.design-io.com/projects/connectedworlds"
+    },
+    {
+      "id": "theo-watson--elements",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Elements",
+      "year": 2015,
+      "description": "Visitors embody Earth, Wind, Fire or Water and sculpt a projected environment with their movements.",
+      "idea_zh": "每个人化身一种元素，用身体塑造投影世界。",
+      "interaction": [
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "depth cameras"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "197332386",
+        "url": "https://vimeo.com/197332386"
+      },
+      "source_url": "https://www.design-io.com/projects/elements"
+    },
+    {
+      "id": "theo-watson--living-library",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Living Library",
+      "year": 2016,
+      "description": "A giant projected book with real pages: a depth camera tracks hands so touching and turning pages triggers animated illustrations on the paper.",
+      "idea_zh": "巨大的实体书，翻页和触摸会让纸上的插画动起来。",
+      "interaction": [
+        "tangible-object",
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "depth camera",
+        "laser projector"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "203193098",
+        "url": "https://vimeo.com/203193098"
+      },
+      "source_url": "https://www.design-io.com/projects/livinglibrary"
+    },
+    {
+      "id": "theo-watson--studio-play",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Studio Play",
+      "year": 2017,
+      "description": "A gallery of installations at the Cleveland Museum of Art where families use movement to explore the collection, including a 4K wall that reveals and zooms artworks by body position.",
+      "idea_zh": "在美术馆里用身体动作去“揭开”和放大馆藏作品。",
+      "interaction": [
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "depth cameras"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "203162198",
+        "url": "https://vimeo.com/203162198"
+      },
+      "source_url": "https://www.design-io.com/projects/studioplay"
+    },
+    {
+      "id": "theo-watson--field",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "FIELD",
+      "year": 2019,
+      "description": "An ever-changing ecosystem where visitors pollinate the environment with their bodies: movement spreads color, makes flowers bloom and attracts butterflies across the seasons.",
+      "idea_zh": "用身体给虚拟花田授粉，引来蝴蝶，季节随之变化。",
+      "interaction": [
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "322353545",
+        "url": "https://vimeo.com/322353545"
+      },
+      "source_url": "https://www.design-io.com/projects/field"
+    },
+    {
+      "id": "theo-watson--remnant",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Remnant",
+      "year": 2020,
+      "description": "Visitors hold out their hands to gather matter into a star, pushing it through its lifecycle until it explodes into supernovae that leave nebulae, pulsars and black holes.",
+      "idea_zh": "伸手聚集物质造一颗星，直到它爆炸成超新星、留下黑洞。",
+      "interaction": [
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "393540065",
+        "url": "https://vimeo.com/393540065"
+      },
+      "source_url": "https://www.design-io.com/projects/remnant"
+    },
+    {
+      "id": "theo-watson--painted-mirror",
+      "creator_ids": [
+        "theo-watson",
+        "emily-gobeille"
+      ],
+      "title": "Painted Mirror",
+      "year": 2020,
+      "description": "A mirror installation for Springville Public Library that separates you from your surroundings with a depth camera and paints your portrait into an illustrated world, sharpening as you stand still.",
+      "idea_zh": "会画画的镜子：站得越久，你的肖像在插画世界里被描得越清楚。",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "depth camera"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "416474904",
+        "url": "https://vimeo.com/416474904"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "chris-sugrue--delicate-boundaries",
+      "creator_ids": [
+        "chris-sugrue"
+      ],
+      "title": "Delicate Boundaries",
+      "year": 2007,
+      "description": "Small bugs made of light crawl out of a computer screen and onto the hands and arms of people who touch it.",
+      "idea_zh": "光做的小虫从屏幕里爬出来，爬到触碰它的人手上。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "portal-world"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "1007230",
+        "url": "https://vimeo.com/1007230"
+      },
+      "source_url": "http://csugrue.com/delicateboundaries/"
+    },
+    {
+      "id": "chris-sugrue--a-cable-plays",
+      "creator_ids": [
+        "chris-sugrue"
+      ],
+      "title": "A Cable Plays",
+      "year": 2008,
+      "description": "With Damian Stewart: two performers pin yarn across a game board while an augmented video of the board reveals generative creatures emerging between the strings.",
+      "idea_zh": "两人在棋盘上拉毛线，增强画面里线与线之间生出新的生命。",
+      "interaction": [
+        "tangible-object",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "12618634",
+        "url": "https://vimeo.com/12618634"
+      },
+      "source_url": "http://csugrue.com/acableplays/"
+    },
+    {
+      "id": "chris-sugrue--base-8",
+      "creator_ids": [
+        "chris-sugrue"
+      ],
+      "title": "Base 8",
+      "year": 2008,
+      "description": "A reflection through glass makes a world float in mid-air; as visitors reach in, geometric structures grow between their fingers and out of their hands.",
+      "idea_zh": "手伸进玻璃反射出的空中世界，几何结构从指缝间长出来。",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Pepper's ghost",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "30834797",
+        "url": "https://vimeo.com/30834797"
+      },
+      "source_url": "http://csugrue.com/base8/"
+    },
+    {
+      "id": "chris-sugrue--decrypted-reflections",
+      "creator_ids": [
+        "chris-sugrue"
+      ],
+      "title": "Decrypted Reflections",
+      "year": 2009,
+      "description": "Visitors move an analog array of mirrors to break apart and rearrange a projected generative image, scattering its fragments across the room.",
+      "idea_zh": "移动一组镜子，把投影的生成图形拆散、反射到空间各处。",
+      "interaction": [
+        "tangible-object",
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "7652087",
+        "url": "https://vimeo.com/7652087"
+      },
+      "source_url": "http://csugrue.com/decryptedreflections/"
+    },
+    {
+      "id": "chris-sugrue--memory-of-form-and-matter",
+      "creator_ids": [
+        "chris-sugrue"
+      ],
+      "title": "Memory of Form and Matter",
+      "year": 2013,
+      "description": "Digitally fabricated sculptures are overlaid with projection-mapped simulations, so static printed structures appear to breathe and move with light.",
+      "idea_zh": "给3D打印雕塑投上模拟动画，让静止的实物像活物一样“呼吸”。",
+      "interaction": [
+        "projection",
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping",
+        "openFrameworks",
+        "digital fabrication"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "163678148",
+        "url": "https://vimeo.com/163678148"
+      },
+      "source_url": "http://csugrue.com/memory-of-form-and-matter/"
+    },
+    {
+      "id": "kyle-mcdonald--face-substitution",
+      "creator_ids": [
+        "kyle-mcdonald",
+        "arturo-castro"
+      ],
+      "title": "Face Substitution",
+      "year": 2011,
+      "description": "Widely cited as the first realistic real-time face swap: another person's face is fitted and blended onto yours live from a webcam.",
+      "idea_zh": "最早的实时换脸：摄像头里你的脸被无缝替换成别人的脸。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "FaceTracker"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "29348533",
+        "url": "https://vimeo.com/29348533"
+      },
+      "source_url": "https://github.com/arturoc/FaceSubstitution"
+    },
+    {
+      "id": "kyle-mcdonald--scramble-suit",
+      "creator_ids": [
+        "kyle-mcdonald",
+        "arturo-castro"
+      ],
+      "title": "Scramble Suit",
+      "year": 2011,
+      "description": "Inspired by Philip K. Dick's A Scanner Darkly: the live face is continuously re-substituted with many different faces so the wearer becomes impossible to describe.",
+      "idea_zh": "《黑暗扫描仪》式的“乱码衣”：你的脸不断被换成不同的人。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "FaceTracker"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "29391633",
+        "url": "https://vimeo.com/29391633"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "kyle-mcdonald--sharing-faces",
+      "creator_ids": [
+        "kyle-mcdonald"
+      ],
+      "title": "Sharing Faces",
+      "year": 2013,
+      "description": "Linked mirror installations in Anyang, Korea and Yamaguchi, Japan: your expression and pose are matched in real time with photos of someone who once stood at the other site.",
+      "idea_zh": "跨国“镜子”：你看到的是另一国家某个人以相同表情和姿势的脸。",
+      "interaction": [
+        "face",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "face tracking"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "96549043",
+        "url": "https://vimeo.com/96549043"
+      },
+      "source_url": "https://github.com/kylemcdonald/SharingFaces"
+    },
+    {
+      "id": "kyle-mcdonald--light-leaks",
+      "creator_ids": [
+        "kyle-mcdonald",
+        "jonas-jongejan"
+      ],
+      "title": "Light Leaks",
+      "year": 2013,
+      "description": "With Jonas Jongejan: dozens of mirror balls reflect light from projectors calibrated with computer vision, filling a whole room with moving points of light.",
+      "idea_zh": "几十个迪斯科球反射投影光，整间屋子变成流动的光点空间。",
+      "interaction": [
+        "projection",
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "structured light"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "66167082",
+        "url": "https://vimeo.com/66167082"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "kyle-mcdonald--highsight",
+      "creator_ids": [
+        "kyle-mcdonald"
+      ],
+      "title": "Highsight",
+      "year": 2015,
+      "description": "A 'virtual bungee jump through a real space': harnessed visitors wear an Oculus Rift showing a live camera on a wire as it drops through a diorama and into the crowd around them.",
+      "idea_zh": "戴上头显，视角来自一根线上的真实摄像头，从模型里一路坠落到人群中。",
+      "interaction": [
+        "portal-world",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Oculus Rift",
+        "live camera"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "144061990",
+        "url": "https://vimeo.com/144061990"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "lauren-mccarthy--us",
+      "creator_ids": [
+        "lauren-mccarthy",
+        "kyle-mcdonald"
+      ],
+      "title": "us+",
+      "year": 2013,
+      "description": "A Google Hangout app that analyzes speech and facial expressions during a video call and overlays live feedback and automatic interventions to 'improve' the conversation.",
+      "idea_zh": "视频通话里的AI“社交教练”：实时分析你的表情和话语并在画面上提醒你。",
+      "interaction": [
+        "face",
+        "multiplayer-social",
+        "data-information"
+      ],
+      "platform": [
+        "desktop",
+        "web"
+      ],
+      "tech": [
+        "face tracking",
+        "speech analysis",
+        "Google Hangouts"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "81903116",
+        "url": "https://vimeo.com/81903116"
+      },
+      "source_url": "http://lauren-mccarthy.com/usplus/"
+    },
+    {
+      "id": "lauren-mccarthy--unlearning-language",
+      "creator_ids": [
+        "lauren-mccarthy",
+        "kyle-mcdonald"
+      ],
+      "title": "Unlearning Language",
+      "year": 2022,
+      "description": "An installation and performance where an AI tracks participants' speech, gestures and expressions and responds with light and sound, pushing them to invent ways of communicating that algorithms cannot detect.",
+      "idea_zh": "被AI持续监测的房间里，人们要发明机器看不懂的新交流方式。",
+      "interaction": [
+        "hand-body",
+        "voice-sound",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "machine learning",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "780628671",
+        "url": "https://vimeo.com/780628671"
+      },
+      "source_url": "https://lauren-mccarthy.com/Unlearning-Language"
+    },
+    {
+      "id": "lauren-mccarthy--voice-in-my-head",
+      "creator_ids": [
+        "lauren-mccarthy",
+        "kyle-mcdonald"
+      ],
+      "title": "Voice In My Head",
+      "year": 2023,
+      "description": "Participants wear an earpiece through which an AI voice listens to their conversations and whispers real-time guidance, replacing their inner monologue as they move through social situations.",
+      "idea_zh": "耳机里有一个AI“内心声音”，在你与人交谈时实时耳语指导你。",
+      "interaction": [
+        "voice-sound",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "LLM",
+        "speech recognition",
+        "earpiece"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "B2-dV8IrhWo",
+        "url": "https://www.youtube.com/watch?v=B2-dV8IrhWo"
+      },
+      "source_url": "https://lauren-mccarthy.com/Voice-In-My-Head"
+    },
+    {
+      "id": "daito-manabe--perfume-at-cannes-lions",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "Perfume at Cannes Lions",
+      "year": 2013,
+      "description": "Perfume performs with semi-translucent screens they move on stage; motion capture and a 3D-scanned venue let projections map onto the screens and dancers in real time, blending stage and virtual space.",
+      "idea_zh": "偶像团体在舞台上推动半透明幕布，实时投影与她们的动作融为一体。",
+      "interaction": [
+        "performance-stage",
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "motion capture",
+        "projection mapping",
+        "3D scanning"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "UbLLIhCvTQ8",
+        "url": "https://www.youtube.com/watch?v=UbLLIhCvTQ8"
+      },
+      "source_url": "https://daito.ws/en/archive/"
+    },
+    {
+      "id": "daito-manabe--border",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "border",
+      "year": 2015,
+      "description": "With ELEVENPLAY: audience members ride program-controlled WHILL wheelchairs wearing headsets, as virtual dancers and real dancers swap in and out around them in a mixed-reality performance.",
+      "idea_zh": "观众坐在自动轮椅上戴头显，真实与虚拟舞者在身边交替出现。",
+      "interaction": [
+        "performance-stage",
+        "portal-world",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HMD",
+        "motion capture",
+        "WHILL"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "nC75ECwDbfI",
+        "url": "https://www.youtube.com/watch?v=nC75ECwDbfI"
+      },
+      "source_url": "https://rhizomatiks.com/en/work/rhizomatiks-research-x-elevenplay-border/"
+    },
+    {
+      "id": "daito-manabe--dynamic-vr-display",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "Dynamic VR Display",
+      "year": 2016,
+      "description": "A head-tracked display setup in which 3D graphics are re-rendered from the viewer's eye position in real time, so flat screens combined with physical objects read as a continuous 3D space.",
+      "idea_zh": "跟踪观看者头部位置实时重绘画面，让平面屏幕与实物融成立体空间。",
+      "interaction": [
+        "perception-art",
+        "gaze-attention"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "head tracking",
+        "motion capture"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "G7ZQ4KiX1JE",
+        "url": "https://www.youtube.com/watch?v=G7ZQ4KiX1JE"
+      },
+      "source_url": "https://daito.ws/en/archive/dynamic-vr-display/"
+    },
+    {
+      "id": "daito-manabe--nosaj-thing-eclipse-blue",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "Nosaj Thing - Eclipse/Blue",
+      "year": 2017,
+      "description": "A music video directed by Daito Manabe in which a dancer's tracked movement drives real-time graphics composited into the physical space around her.",
+      "idea_zh": "舞者的动作被追踪，实时生成的图形叠加进她周围的真实空间。",
+      "interaction": [
+        "performance-stage",
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "motion tracking",
+        "machine learning"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "_woNBiIyOKI",
+        "url": "https://www.youtube.com/watch?v=_woNBiIyOKI"
+      },
+      "source_url": "https://daito.ws/en/archive/eclipseblue/"
+    },
+    {
+      "id": "daito-manabe--fencing-tracking-and-visualization-system",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "Fencing tracking and visualization system",
+      "year": 2017,
+      "description": "An AR broadcast system (with Dentsu Lab Tokyo) that detects fencing sword tips too fast for the eye and overlays their trajectories live; later versions are markerless using deep learning.",
+      "idea_zh": "把肉眼看不清的击剑剑尖轨迹实时可视化叠加在转播画面上。",
+      "interaction": [
+        "data-information",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "computer vision",
+        "deep learning",
+        "motion capture"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "3W1_5io-NYQ",
+        "url": "https://www.youtube.com/watch?v=3W1_5io-NYQ"
+      },
+      "source_url": "https://research.rhizomatiks.com/s/works/fencing_tracking/en.html"
+    },
+    {
+      "id": "daito-manabe--discrete-figures",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "discrete figures",
+      "year": 2018,
+      "description": "A dance performance with ELEVENPLAY where dancers interact with drones, projections and machine-learning-generated virtual dancers that step in and out of the physical stage.",
+      "idea_zh": "舞者与无人机、投影和AI生成的虚拟舞者同台，虚实身体在舞台上互换。",
+      "interaction": [
+        "performance-stage",
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "machine learning",
+        "motion capture",
+        "drones"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "hauXQQhwbgM",
+        "url": "https://www.youtube.com/watch?v=hauXQQhwbgM"
+      },
+      "source_url": "https://daito.ws/en/archive/discrete-figures/"
+    },
+    {
+      "id": "memo-akten--webcam-piano",
+      "creator_ids": [
+        "memo-akten"
+      ],
+      "title": "Webcam Piano",
+      "year": 2007,
+      "description": "A webcam turns the space in front of a screen into an invisible grid of notes; body movement plays harmonious, classical-sounding music visualized as fluid.",
+      "idea_zh": "摄像头把空气变成隐形钢琴，挥动身体就能演奏和谐的音乐。",
+      "interaction": [
+        "hand-body",
+        "voice-sound"
+      ],
+      "platform": [
+        "desktop",
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "optical flow"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "1219327",
+        "url": "https://vimeo.com/1219327"
+      },
+      "source_url": "https://www.memo.tv/works/webcam-piano/"
+    },
+    {
+      "id": "memo-akten--body-paint",
+      "creator_ids": [
+        "memo-akten"
+      ],
+      "title": "Body Paint",
+      "year": 2008,
+      "description": "Visitors dance in front of a wall-sized projection and their movements splash and smear fluid paint in real time, turning the body into a brush.",
+      "idea_zh": "身体就是画笔：在投影墙前舞动，颜料随动作飞溅流淌。",
+      "interaction": [
+        "hand-body",
+        "drawing-creation",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "ofxMSAFluid",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "3576457",
+        "url": "https://vimeo.com/3576457"
+      },
+      "source_url": "https://www.memo.tv/works/body-paint/"
+    },
+    {
+      "id": "memo-akten--learning-to-see",
+      "creator_ids": [
+        "memo-akten"
+      ],
+      "title": "Learning to See",
+      "year": 2017,
+      "description": "A camera watches a table of everyday objects - cloth, cables, keys - and neural networks trained on waves, fire, clouds, flowers or Hubble images re-render the scene live as visitors rearrange it with their hands.",
+      "idea_zh": "手摆弄桌上的布和电线，AI实时把它们“看成”海浪、火焰或星云。",
+      "interaction": [
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "GAN",
+        "machine learning",
+        "camera"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "260612034",
+        "url": "https://vimeo.com/260612034"
+      },
+      "source_url": "https://www.memo.tv/works/learning-to-see-interactive/"
+    },
+    {
+      "id": "chris-oshea--out-of-bounds",
+      "creator_ids": [
+        "chris-oshea"
+      ],
+      "title": "Out of Bounds",
+      "year": 2007,
+      "description": "An 'x-ray torch' at the Design Museum London: shining a handheld light on the wall projects what lies behind it, as if boring through the museum's walls.",
+      "idea_zh": "拿着“X光手电筒”照墙，就能看到墙后面隐藏的空间。",
+      "interaction": [
+        "tangible-object",
+        "projection",
+        "portal-world"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision",
+        "tracked torch"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "1333176",
+        "url": "https://vimeo.com/1333176"
+      },
+      "source_url": "https://www.chrisoshea.org/out-of-bounds"
+    },
+    {
+      "id": "chris-oshea--traces",
+      "creator_ids": [
+        "chris-oshea"
+      ],
+      "title": "Traces",
+      "year": 2008,
+      "description": "A responsive projection with Moritz Waldemeyer that turns visitors' movements into long-exposure-like light trails inspired by car tail-light photography.",
+      "idea_zh": "人的动作在投影中留下像长曝光车灯一样的光轨。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "1821234",
+        "url": "https://vimeo.com/1821234"
+      },
+      "source_url": "https://www.chrisoshea.org/traces"
+    },
+    {
+      "id": "chris-oshea--hand-from-above",
+      "creator_ids": [
+        "chris-oshea"
+      ],
+      "title": "Hand from Above",
+      "year": 2009,
+      "description": "On BBC Big Screens in Liverpool and beyond, a giant hand reaches into the live camera feed of the square to tickle, stretch, flick and remove unsuspecting passers-by.",
+      "idea_zh": "广场大屏上一只巨手伸进实时画面，挠痒、拉长、甚至“拎走”路人。",
+      "interaction": [
+        "hand-body",
+        "location-geo",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "openFrameworks",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "7042266",
+        "url": "https://vimeo.com/7042266"
+      },
+      "source_url": "https://www.chrisoshea.org/hand-from-above"
+    },
+    {
+      "id": "chris-oshea--little-magic-stories",
+      "creator_ids": [
+        "chris-oshea"
+      ],
+      "title": "Little Magic Stories",
+      "year": 2011,
+      "description": "Children perform stories on a small stage with drawn props and costumes; Kinect tracking and projection bring their imagined characters and scenery to life in front of an audience.",
+      "idea_zh": "孩子在小舞台上表演，自己画的角色和布景被投影实时“变活”。",
+      "interaction": [
+        "performance-stage",
+        "hand-body",
+        "drawing-creation"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Kinect",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "20196781",
+        "url": "https://vimeo.com/20196781"
+      },
+      "source_url": "https://www.chrisoshea.org/little-magic-stories"
+    },
+    {
+      "id": "chris-oshea--body-swap",
+      "creator_ids": [
+        "chris-oshea"
+      ],
+      "title": "Body Swap",
+      "year": 2011,
+      "description": "Two people stand side by side and each controls the other's body on screen like a puppet, making each other dance, jump and look silly.",
+      "idea_zh": "和旁边的人交换身体：你控制他的画面形象，他也在操控你。",
+      "interaction": [
+        "hand-body",
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Kinect",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "20745353",
+        "url": "https://vimeo.com/20745353"
+      },
+      "source_url": "https://www.chrisoshea.org/body-swap"
+    },
+    {
+      "id": "chris-oshea--dash-dodge-dive",
+      "creator_ids": [
+        "chris-oshea"
+      ],
+      "title": "Dash Dodge Dive",
+      "year": 2011,
+      "description": "Crowd games for the London 2012 Olympics big screens: people in public squares across the UK compete against each other using body movements seen by the screens' cameras.",
+      "idea_zh": "全英多个广场的大屏联网，人群用身体动作跨城对战小游戏。",
+      "interaction": [
+        "hand-body",
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "computer vision",
+        "networked big screens"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "227226458",
+        "url": "https://vimeo.com/227226458"
+      },
+      "source_url": "https://www.chrisoshea.org/dash-dodge-dive"
+    },
+    {
+      "id": "chris-oshea--woodland-wiggle",
+      "creator_ids": [
+        "chris-oshea"
+      ],
+      "title": "Woodland Wiggle",
+      "year": 2013,
+      "description": "A room-sized interactive TV at the Royal London Hospital where children step into a storybook woodland to paint, play music and summon weather with animated animals.",
+      "idea_zh": "医院里整面墙的互动童话森林，孩子用身体画画、奏乐、召唤天气。",
+      "interaction": [
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Kinect",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "59349284",
+        "url": "https://vimeo.com/59349284"
+      },
+      "source_url": "https://www.chrisoshea.org/woodland-wiggle"
+    },
+    {
+      "id": "chris-oshea--wilderness-wiggle",
+      "creator_ids": [
+        "chris-oshea"
+      ],
+      "title": "Wilderness Wiggle",
+      "year": 2016,
+      "description": "A body-controlled Alaskan wilderness play wall for children at the Alaska Native Medical Center, where movement makes animals and landscape respond.",
+      "idea_zh": "阿拉斯加医院里的体感荒野游戏墙，动作让动物与风景回应孩子。",
+      "interaction": [
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "depth camera"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "271539058",
+        "url": "https://vimeo.com/271539058"
+      },
+      "source_url": "https://www.chrisoshea.org/wilderness-wiggle"
+    },
+    {
+      "id": "kimchi-and-chips--lit-tree",
+      "creator_ids": [
+        "kimchi-and-chips"
+      ],
+      "title": "Lit Tree",
+      "year": 2011,
+      "description": "A small potted tree is scanned and projected onto so its leaves act as 3D pixels; visitors' hands are scanned over a plinth and reflected as volumes of light inside the tree.",
+      "idea_zh": "把一棵真树的叶子当作三维像素投影，人的手势在树里“亮”起来。",
+      "interaction": [
+        "projection",
+        "hand-body",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "openFrameworks",
+        "Kinect",
+        "structured light"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "24049819",
+        "url": "https://vimeo.com/24049819"
+      },
+      "source_url": "https://www.kimchiandchips.com/works/littree/"
+    },
+    {
+      "id": "kimchi-and-chips--assembly",
+      "creator_ids": [
+        "kimchi-and-chips"
+      ],
+      "title": "Assembly",
+      "year": 2012,
+      "description": "A hemisphere of 5,500 suspended white blocks is scanned and coated with pixels from external projectors, forming a habitat for digital forms inside physical space.",
+      "idea_zh": "5500块悬挂的方块被投影“涂上”像素，数字形体住进真实空间。",
+      "interaction": [
+        "projection",
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping",
+        "3D scanning"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "42707293",
+        "url": "https://vimeo.com/42707293"
+      },
+      "source_url": "https://www.kimchiandchips.com/works/assembly"
+    },
+    {
+      "id": "kimchi-and-chips--line-segments-space",
+      "creator_ids": [
+        "kimchi-and-chips"
+      ],
+      "title": "Line Segments Space",
+      "year": 2013,
+      "description": "A web of nylon threads spans a dark gallery; calibrated projection lights the strings to articulate dynamic imaginary forms in the physical volume.",
+      "idea_zh": "黑暗中一张尼龙线网，被精准投影点亮成流动的三维图形。",
+      "interaction": [
+        "projection",
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "111610020",
+        "url": "https://vimeo.com/111610020"
+      },
+      "source_url": "https://www.kimchiandchips.com/works/lss"
+    },
+    {
+      "id": "kimchi-and-chips--light-barrier",
+      "creator_ids": [
+        "kimchi-and-chips"
+      ],
+      "title": "Light Barrier",
+      "year": 2014,
+      "description": "Hundreds of calibrated beams from projectors bounced off convex mirrors cross in haze to draw floating graphic objects that animate through space.",
+      "idea_zh": "用镜子和投影光束在雾中“画”出漂浮在空中的发光物体。",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection",
+        "mirrors",
+        "structured light scanning"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "100575793",
+        "url": "https://vimeo.com/100575793"
+      },
+      "source_url": "https://www.kimchiandchips.com/works/lightbarrier"
+    },
+    {
+      "id": "kimchi-and-chips--light-barrier-third-edition",
+      "creator_ids": [
+        "kimchi-and-chips"
+      ],
+      "title": "Light Barrier Third Edition",
+      "year": 2016,
+      "description": "A larger edition at the Asian Culture Center in Gwangju: concave mirrors and projection materialize volumetric light objects and scenes in fog.",
+      "idea_zh": "更大尺度的光之屏障：光在雾中凝成体积感的影像与物体。",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection",
+        "concave mirrors",
+        "haze"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "218354021",
+        "url": "https://vimeo.com/218354021"
+      },
+      "source_url": "https://www.kimchiandchips.com/works/lightbarrier3/"
+    },
+    {
+      "id": "jonas-jongejan--arcore-drawing",
+      "creator_ids": [
+        "jonas-jongejan"
+      ],
+      "title": "ARCore Drawing",
+      "year": 2017,
+      "description": "A simple experiment for drawing white lines in 3D space with a phone, combining openFrameworks and ARCore; it became the basis for Google's Just a Line app.",
+      "idea_zh": "用手机在空中画线的最早ARCore实验，后来成为Just a Line应用。",
+      "interaction": [
+        "drawing-creation",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "oNHX0jKjtoo",
+        "url": "https://www.youtube.com/watch?v=oNHX0jKjtoo"
+      },
+      "source_url": "https://experiments.withgoogle.com/arcore-drawing"
+    },
+    {
+      "id": "jonas-jongejan--ar-wormhole",
+      "creator_ids": [
+        "jonas-jongejan"
+      ],
+      "title": "AR Wormhole",
+      "year": 2017,
+      "description": "A 360 camera streams into an AR app with a 10-second delay, so stepping through a portal lets you look around the same place 10 seconds in the past.",
+      "idea_zh": "穿过一个AR虫洞，就能回到10秒前的同一个地方四处张望。",
+      "interaction": [
+        "portal-world",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARCore",
+        "360 camera"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Xo0_B3pNNnA",
+        "url": "https://www.youtube.com/watch?v=Xo0_B3pNNnA"
+      },
+      "source_url": "https://experiments.withgoogle.com/ar-wormhole"
+    },
+    {
+      "id": "nicole-he--garden-friends",
+      "creator_ids": [
+        "nicole-he"
+      ],
+      "title": "Garden Friends",
+      "year": 2018,
+      "description": "An AR + voice experiment with animator Eran Hilleli: you grow personalized trees and flowers on real surfaces by chatting with a quirky character, speech driving the scene.",
+      "idea_zh": "对着AR小植物说好话，它们就按你的对话长成独特的花草。",
+      "interaction": [
+        "voice-sound",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "Dialogflow",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "d90F-61T6KQ",
+        "url": "https://www.youtube.com/watch?v=d90F-61T6KQ"
+      },
+      "source_url": "https://experiments.withgoogle.com/garden-friends"
+    }
+  ],
+  "leads": [
+    {
+      "name": "Elliot Woods",
+      "why": "Kimchi and Chips co-founder; projection calibration tools (ofxRulr, Rulr) and solo spatial light experiments; could be split out as an individual creator.",
+      "link": "https://github.com/elliotwoods",
+      "found_via": "kimchi-and-chips"
+    },
+    {
+      "name": "Damian Stewart",
+      "why": "Collaborator of Chris Sugrue (A Cable Plays, Waves to Waves to Waves) and YesYesNo (Lights On, Night Lights); camera-based augmented performance.",
+      "link": "http://www.damianstewart.com",
+      "found_via": "chris-sugrue"
+    },
+    {
+      "name": "Joel Gethin Lewis (Hellicar & Lewis)",
+      "why": "YesYesNo collaborator on Lights On/Night Lights; Hellicar & Lewis made body-interactive projection work such as Somantics.",
+      "link": "https://vimeo.com/hellicarandlewis",
+      "found_via": "zach-lieberman"
+    },
+    {
+      "name": "Claire Hentschker",
+      "why": "Co-created the ARKit re-code of Jeffrey Shaw's Golden Calf with Golan Levin; CMU artist working with AR/VR and photogrammetry.",
+      "link": "https://vimeo.com/269478756",
+      "found_via": "golan-levin"
+    },
+    {
+      "name": "Eran Hilleli",
+      "why": "Animator/artist who co-created the AR+voice experiment Garden Friends with Nicole He.",
+      "link": "https://eranhilleli.com/Garden-Friends-1",
+      "found_via": "nicole-he"
+    },
+    {
+      "name": "Irene Alvarado & James Paterson",
+      "why": "NormanAR (2017): hand-drawn VR animations placed in the world with ARCore, built with Jonas Jongejan at Google Creative Lab.",
+      "link": "https://experiments.withgoogle.com/norman-ar",
+      "found_via": "jonas-jongejan"
+    },
+    {
+      "name": "Torin Blankensmith & Anthony Tripaldi",
+      "why": "Co-built AR Wormhole with Jonas Jongejan at Google Creative Lab; Torin later made hand-tracking creative-coding tools.",
+      "link": "https://experiments.withgoogle.com/ar-wormhole",
+      "found_via": "jonas-jongejan"
+    },
+    {
+      "name": "Google Creative Lab (Just a Line, Sounds in Space, Lines of Play, Drawalong AR)",
+      "why": "Collection of ARCore art experiments; Just a Line grew out of Jonas Jongejan's ARCore Drawing. Phone-AR cluster.",
+      "link": "https://experiments.withgoogle.com/collection/ar",
+      "found_via": "jonas-jongejan"
+    },
+    {
+      "name": "Anna Fusté & Judith Amores",
+      "why": "Draw and Dance AR experiment (MIT Media Lab alumni); HCI/phone-AR clusters.",
+      "link": "https://experiments.withgoogle.com/draw-and-dance",
+      "found_via": "jonas-jongejan"
+    },
+    {
+      "name": "Jakob Kudsk Steensen",
+      "why": "The Deep Listener: Serpentine augmented architecture AR piece; artist cluster.",
+      "link": "https://experiments.withgoogle.com/augmentedarchitecture",
+      "found_via": "jonas-jongejan"
+    },
+    {
+      "name": "Motoi Ishibashi / Rhizomatiks Research",
+      "why": "Co-director of Rhizomatiks Research with Daito Manabe (border, 24 drones, discrete figures, Perfume shows); many more MR stage works to catalog.",
+      "link": "https://rhizomatiks.com",
+      "found_via": "daito-manabe"
+    },
+    {
+      "name": "MIKIKO / ELEVENPLAY",
+      "why": "Choreographer and dance company behind border, discrete figures and 24 drones with Rhizomatiks.",
+      "link": "https://elevenplay.net",
+      "found_via": "daito-manabe"
+    },
+    {
+      "name": "James Powderly & Evan Roth (Graffiti Research Lab)",
+      "why": "Co-creators of L.A.S.E.R. Tag and the EyeWriter; street projection AR and graffiti tech.",
+      "link": "https://www.youtube.com/watch?v=LtZq2q43Jkc",
+      "found_via": "theo-watson"
+    },
+    {
+      "name": "Nick Hardeman",
+      "why": "Design I/O collaborator on Living Library, Studio Play and Elements; interactive projection developer.",
+      "link": "https://www.design-io.com/projects/livinglibrary",
+      "found_via": "theo-watson"
+    },
+    {
+      "name": "Moritz Waldemeyer",
+      "why": "Collaborated with Chris O'Shea on Traces; light and wearable tech designer.",
+      "link": "https://www.chrisoshea.org/traces",
+      "found_via": "chris-oshea"
+    },
+    {
+      "name": "rAndom International",
+      "why": "Chris O'Shea wrote software for Audience, You Fade to Light and a Study of Three Mirrors; mirror/robotic responsive installations (artist cluster).",
+      "link": "https://vimeo.com/chrisoshea",
+      "found_via": "chris-oshea"
+    },
+    {
+      "name": "Matthias Dörfelt & Gordey Chernyy",
+      "why": "Contributed generative masks and tooling to Más Que la Cara.",
+      "link": "https://medium.com/@zachlieberman/m%C3%A1s-que-la-cara-overview-48331a0202c0",
+      "found_via": "zach-lieberman"
+    },
+    {
+      "name": "Shantell Martin",
+      "why": "Co-created the 'Poem World' AR lens for Snap Spectacles (2021) with Zach Lieberman; phone/headset AR cluster.",
+      "link": "https://newsroom.snap.com/introducing-the-next-generation-of-spectacles",
+      "found_via": "zach-lieberman"
+    },
+    {
+      "name": "Camille Utterback",
+      "why": "Body-shadow projection pioneer (Text Rain, Entangled); influence and peer of Golan Levin/Zach Lieberman's camera-based work.",
+      "link": "http://camilleutterback.com",
+      "found_via": "golan-levin"
+    },
+    {
+      "name": "Scott Snibbe",
+      "why": "Boundary Functions / Deep Walls projection works and later AR apps; peer of Golan Levin from Interval Research.",
+      "link": "https://www.snibbe.com",
+      "found_via": "golan-levin"
+    },
+    {
+      "name": "Karolina Sobecka",
+      "why": "Sniff (2009): projected dog that responds to passers-by on the street; camera-based public AR.",
+      "link": "https://vimeo.com/6400266",
+      "found_via": "chris-oshea"
+    },
+    {
+      "name": "Klaus Obermaier",
+      "why": "Apparition and interactive projection-on-body dance works; Chris Sugrue developed software for his Le Sacre du Printemps.",
+      "link": "http://www.exile.at",
+      "found_via": "chris-sugrue"
+    },
+    {
+      "name": "Keiichi Matsuda",
+      "why": "Hyper-Reality speculative AR films; artist/speculative-design cluster.",
+      "link": "http://km.cx",
+      "found_via": "zach-lieberman"
+    },
+    {
+      "name": "Lingdong Huang",
+      "why": "Golan Levin's collaborator (Ambigrammatic Figures); generative artist, could have AR/camera sketches.",
+      "link": "https://lingdong.works",
+      "found_via": "golan-levin"
+    }
+  ]
+}

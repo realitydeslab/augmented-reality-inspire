@@ -1,0 +1,250 @@
+{
+  "thomas-van-bouwel--laser-dance": {
+    "technique": "The Scene API supplies labeled room geometry (walls, floor, furniture boxes), and laser segments are generated between sampled points on those surfaces, with body collision checked against the headset and hand poses.",
+    "exercise_zh": "用 AR Foundation 平面检测拿到墙面和地面，在两面墙之间随机生成几条激光线，手机碰到激光就震动失败；变体：让激光随音乐节拍移动。"
+  },
+  "thomas-van-bouwel--cubism-mixed-reality": {
+    "technique": "Hand-tracking pinch grabs drive rigidbody pieces that snap to a voxel grid when released near a valid slot, while passthrough keeps the real table visible as the work surface.",
+    "exercise_zh": "做一个 3×3×3 的格子，把三块多方块碎片拖到格子里，靠近时自动吸附到最近格点；变体：拼好后整个立方体变成一个会动的角色。"
+  },
+  "lucas-rizzotto--cybersnake": {
+    "technique": "The snake head follows the headset's gaze direction at a fixed speed, body segments trail its recorded path, and a spatialized audio source on each target lets players find food outside the field of view.",
+    "exercise_zh": "用手机或 HoloKit 的朝向控制一条在房间里移动的贪吃蛇，食物只靠 3D 空间音频定位；变体：关掉画面，只用声音玩一局。"
+  },
+  "lucas-rizzotto--mylab": {
+    "technique": "Periodic-table tiles are world-locked holograms, and a gaze-plus-air-tap gesture instantiates a 3D atom model that can be placed and inspected at room scale.",
+    "exercise_zh": "在 AR 中放一张 3×3 的元素卡片墙，点击卡片后在桌面上生成对应原子的 3D 模型；变体：把两个原子拖到一起时生成一个分子。"
+  },
+  "lucas-rizzotto--ar-marauders-map": {
+    "technique": "Image tracking locks onto the printed parchment, and each person's GPS coordinates are mapped into the map's local 2D frame to place animated footprint trails and name labels on the paper.",
+    "exercise_zh": "打印一张校园手绘地图，用图像识别追踪它，并把几位同学手机上传的 GPS 位置显示成地图上的脚印；变体：只有靠近某人时他的名字才会显现。"
+  },
+  "lucas-rizzotto--portal-to-best-friend": {
+    "technique": "A wall-anchored portal renders a live volumetric or depth-video stream of the remote room behind the wall plane, using a stencil mask so the remote space appears to sit behind the real wall.",
+    "exercise_zh": "在墙上放一个 AR 窗口，窗口里播放朋友实时视频通话的画面（用深度或背景分离做出一点立体感）；变体：窗口只在两人同时站在墙前时打开。"
+  },
+  "lucas-rizzotto--pillow": {
+    "technique": "Content is placed relative to a reclined head pose and the ceiling or bed plane, with UI oriented to the gravity-adjusted view direction so the experience works while lying down.",
+    "exercise_zh": "设计一个躺着使用的 AR 场景：手机举在头顶，天花板上浮现可以用视线点亮的星座；变体：两个人各自躺着，看到同一片星空并能互相点亮星星。"
+  },
+  "lucas-rizzotto--girlfriend-theremin": {
+    "technique": "Body and hand tracking estimate where the player's hands are relative to another person's body regions, and distances or touches are mapped to synth parameters such as pitch and filter cutoff.",
+    "exercise_zh": "用 MediaPipe Pose 追踪同学的身体，把你的手接近他肩膀、手肘、膝盖时分别触发不同音符；变体：把音符改成颜色，让身体变成一幅会发声的画。"
+  },
+  "greg-madison--tangible-mr-haptics": {
+    "technique": "A tracked controller is mounted on a real object to provide its 6DoF pose, and a virtual panel is registered to the object's surface so touching the virtual UI hits real material (passive haptics).",
+    "exercise_zh": "在一块纸板上贴图像标记，用 AR 在纸板表面叠加一组虚拟按钮，手指点纸板时按钮高亮；变体：用不同材质（毛毡、铝箔）做表面，比较哪种按起来最像按钮。"
+  },
+  "greg-madison--tangible-mr-launchpad": {
+    "technique": "The physical launchpad is registered in the virtual scene by a rigidly attached tracker, and incoming MIDI note events trigger visual effects at each pad's virtual position.",
+    "exercise_zh": "把一个 MIDI 键盘或手机上的虚拟鼓垫连接到 Unity，每次按键在 AR 中对应位置冒出粒子；变体：让粒子飞向房间里的某个固定目标并留下痕迹。"
+  },
+  "greg-madison--tangible-mr-synthesizer": {
+    "technique": "A hardware synth is aligned to a virtual replica through a tracked offset, so knob and key positions match and virtual visualizations stay attached to the physical instrument.",
+    "exercise_zh": "为一个真实乐器（如尤克里里）做图像标记，在琴身周围叠加随声音振动的 AR 波形；变体：用麦克风识别音高，不同音高显示不同颜色。"
+  },
+  "greg-madison--tangible-mr-keyboard": {
+    "technique": "A tracker fixed to the keyboard gives its pose, and a matching virtual keyboard model with per-key labels is overlaid so the user can type on real keys while immersed.",
+    "exercise_zh": "在真实键盘上用图像标记定位，给常用快捷键叠加 AR 标签；变体：按下某个键时在键盘上方浮现一句该键的“内心独白”。"
+  },
+  "greg-madison--tangible-mr-board-game": {
+    "technique": "The board's pose is tracked with a controller or marker, and a virtual layer (animations, rules, scores) is rendered in board-local coordinates so it moves with the physical board.",
+    "exercise_zh": "选一个简单的棋盘游戏（如井字棋），用图像追踪识别棋盘并在格子上叠加动画和得分；变体：加入一条只有 AR 才能看到的隐藏规则。"
+  },
+  "greg-madison--tangible-mr-robot": {
+    "technique": "A tracker rides on a small robot so its live pose drives a virtual character or effect overlay, blending the physical motion with a digital skin.",
+    "exercise_zh": "给一辆遥控小车贴图像标记，在 AR 中把它换成一只动物角色；变体：小车撞到东西时，AR 角色做出夸张的表情。"
+  },
+  "greg-madison--ar-cereal-box": {
+    "technique": "The packaging is recognized as a tracked image or object target, and 3D content is parented to the box so interactions such as opening or tilting drive animations.",
+    "exercise_zh": "用一个真实包装盒做图像目标，在盒子上叠加一个小游戏或角色；变体：倾斜盒子时 AR 中的麦片像液体一样流出来。"
+  },
+  "greg-madison--hand-tracking-flat-surfaces": {
+    "technique": "A table plane is calibrated, and fingertip positions from hand tracking are tested against virtual buttons laid flat on it, with a small distance threshold standing in for a touch event.",
+    "exercise_zh": "用 MediaPipe Hands 加桌面平面检测，把一组虚拟滑块贴在桌面上，用手指距离桌面的高度判断是否按下；变体：让不同手指控制不同功能。"
+  },
+  "greg-madison--audio-ar-face-tracking": {
+    "technique": "Front-camera face tracking gives the head pose, which updates the audio listener orientation so sound sources stay world-anchored while the user turns their head.",
+    "exercise_zh": "用 ARKit 人脸追踪获取头部转向，控制 Unity 中 AudioListener 的朝向，让一段声音固定在房间的某个方向；变体：做一个闭眼也能玩的“声音寻宝”。"
+  },
+  "greg-madison--unity-slices-table": {
+    "technique": "A virtual table is registered to the real one, and a blend parameter crossfades passthrough and virtual rendering with a mask or opacity ramp, moving the same object along the reality-virtuality spectrum.",
+    "exercise_zh": "在真实桌子上对齐一个同尺寸的虚拟桌面，用滑块从“完全真实”到“完全虚拟”逐步替换材质；变体：在每一档上玩同一局小游戏，记录感受差异。"
+  },
+  "greg-madison--shapexr-realities": {
+    "technique": "A digital-twin model of the room is aligned to the real room at 1:1, and a crossfade between passthrough and the twin lets the user compare or transition between the two.",
+    "exercise_zh": "用 Polycam 扫描教室一角，在 AR 中与真实空间对齐，并用滑块在真实和扫描版之间淡入淡出；变体：在扫描版里偷偷改动一个细节，让同学找出来。"
+  },
+  "greg-madison--augmented-keyboard": {
+    "technique": "A tracked-keyboard SDK provides the keyboard pose, and a single virtual screen plus context overlays are placed relative to it instead of fixed in the room.",
+    "exercise_zh": "给真实键盘上方挂一块 AR 小屏幕，只显示当前正在输入的一行文字；变体：输入时根据文字情绪改变屏幕颜色。"
+  },
+  "greg-madison--melodix-r": {
+    "technique": "Hand-tracked gestures likely act on room-anchored musical objects, so reaching, pinching and placing notes in space shapes the music.",
+    "exercise_zh": "在房间里放几个会发声的 AR 小球，用手势抓起并放到不同高度来改变音高；变体：把小球放在真实家具上时改变音色。"
+  },
+  "leap-motion-design--north-star-exploring-ar": {
+    "technique": "Leap Motion hand tracking provides articulated hand skeletons, and physics-based grab and pinch detection lets users manipulate virtual objects without controllers in an optical see-through display.",
+    "exercise_zh": "用 MediaPipe Hands 或 HoloKit 手势识别做一个可以用捏合抓起、用挥手扔出的 AR 方块；变体：抓起的物体会随手的速度留下拖尾。"
+  },
+  "leap-motion-design--north-star-desk-ui": {
+    "technique": "UI panels are anchored to a calibrated desk surface and respond to fingertip proximity and press depth, so virtual widgets behave like physical objects on the desk.",
+    "exercise_zh": "在桌面上放一个 AR 小抽屉，用手指拉开后里面出现今天的待办事项；变体：把待办事项做成可以拿起丢进垃圾桶的纸团。"
+  },
+  "greg-broadmore--magic-leap-office-demo": {
+    "technique": "Spatial meshing of the office lets robots occlude behind and collide with real desks and walls, and a tracked controller acts as the ray gun for raycast hits.",
+    "exercise_zh": "用手机 AR 做一个小机器人从桌子后面探出头的场景，利用遮挡让它藏在真实物体后面；变体：点击机器人后它会逃到另一个真实物体后面。"
+  },
+  "greg-broadmore--dr-grordborts-invaders": {
+    "technique": "Wall surfaces from spatial mapping host portal decals with stencil masking, so robots appear to climb out of the real wall and then navigate the room mesh.",
+    "exercise_zh": "检测墙面并在上面“炸”出一个 Stencil 洞口，敌人从洞里爬出来；变体：让洞口越打越大，最后露出墙后的另一个世界。"
+  },
+  "greg-broadmore--grordbattle": {
+    "technique": "Co-located players share a common coordinate frame (shared spatial anchor or map), and each player's head and weapon poses are networked so avatars and shots line up with real bodies.",
+    "exercise_zh": "用 Unity Netcode 和图像标记对齐两台手机的坐标系，让两人在同一房间互射 AR 光球；变体：真实家具可以挡子弹。"
+  },
+  "asobo-studio--fragments": {
+    "technique": "Spatial mapping classifies seats, tables and floors in the home, and the story system places characters and clues on matching surfaces, so each room produces a different staging.",
+    "exercise_zh": "检测房间里的水平面，把一个“案发现场”的线索分别放在最高和最低的平面上；变体：让一个 AR 角色坐在真实椅子上讲述案情。"
+  },
+  "asobo-studio--young-conker": {
+    "technique": "The room mesh is analyzed for walkable horizontal surfaces, and a procedural level generator places platforms, collectibles and paths across real furniture.",
+    "exercise_zh": "用平面检测找出房间里所有水平面，在它们之间自动生成跳跃路径和金币；变体：让角色在真实物体边缘会滑落。"
+  },
+  "asobo-studio--holoforge-tennis": {
+    "technique": "GPU particle effects are world-anchored, and a hand-tracked palm or racket collider transfers velocity to a ball whose trajectory is simulated with simple physics.",
+    "exercise_zh": "用手机当球拍，挥动时根据加速度把 AR 小球打出去，并在轨迹上留下粒子尾迹；变体：让球撞到真实墙面后反弹回来。"
+  },
+  "sigur-ros--tonandi": {
+    "technique": "Room-anchored creature agents each carry a music stem or sample, and hand-tracking contact or proximity triggers, layers and modulates those audio sources.",
+    "exercise_zh": "在房间里散布 5 个会发光的 AR 生物，每个对应一段音乐分轨，靠近时该分轨淡入；变体：把它们聚到一起时音乐合成一首完整的曲子。"
+  },
+  "ryan-mcleod--blackbox-for-vision": {
+    "technique": "Puzzles hide their input rules in non-obvious channels such as gaze dwell, reach distance, voice and body movement, detected with visionOS gaze, hand tracking and audio input.",
+    "exercise_zh": "设计一个没有按钮的 AR 谜题，玩家必须通过走近、说话或保持静止等非常规方式解开；变体：谜题的提示只能通过声音获得。"
+  },
+  "realities-io--puzzling-places-mr-multiplayer": {
+    "technique": "Shared spatial anchors give both headsets the same table frame, and piece ownership is transferred over the network when one player grabs a piece from the other.",
+    "exercise_zh": "用两台手机和一个共同的图像标记对齐坐标，一起把一个拆成 4 块的 3D 模型拼回原样；变体：每个人只能看到一半碎片。"
+  },
+  "realities-io--puzzling-places-vision-pro": {
+    "technique": "Photogrammetry models are pre-split into pieces, and eye-gaze targeting plus a pinch gesture selects and moves pieces, with snap detection when a piece is near its correct pose.",
+    "exercise_zh": "扫描一件真实物品并切成几块，在 AR 中用拖拽拼回原样，接近正确位置时自动吸附；变体：拼完后物品开始动起来讲述它的来历。"
+  },
+  "resolution-games--angry-birds-fps-magic-leap": {
+    "technique": "Structures are spawned on detected tables and floors, and a slingshot mechanic maps the controller pull-back vector to launch velocity for physics projectiles.",
+    "exercise_zh": "在桌面上堆一座 AR 积木塔，用手机向后拉的距离决定发射力度把球打过去；变体：用真实物体当掩体，挡住部分积木。"
+  },
+  "resolution-games--demeo-mixed-reality": {
+    "technique": "The game board is anchored to a detected table plane, and remote players appear as networked avatars around the same board.",
+    "exercise_zh": "在桌上放一个 AR 小棋盘，远程同学的操作通过网络同步过来，用一个简单头像代表他；变体：棋盘大小随参与人数自动变化。"
+  },
+  "resolution-games--spatial-ops": {
+    "technique": "Players place virtual cover and objectives on a shared anchor map of the real space, and co-located players are synchronized through shared spatial anchors.",
+    "exercise_zh": "在教室里用 AR 布置几块虚拟掩体，另一台手机进入时能看到同样的布局；变体：掩体会随时间慢慢被“侵蚀”。"
+  },
+  "botao-amber-hu--holokit": {
+    "technique": "An iPhone renders a stereo image pair that a mirror and lens reflect into each eye as an optical see-through overlay, while ARKit visual-inertial tracking places the holograms in the world.",
+    "exercise_zh": "用 HoloKit Unity SDK 把一个已有的手机 AR 场景改成立体模式，并对比单目和立体下的深度感；变体：做一个必须靠立体视觉才能判断远近的小游戏。"
+  },
+  "botao-amber-hu--mofa": {
+    "technique": "Hand-pose recognition on the iPhone camera classifies spell gestures, and headsets and spectator phones share one coordinate system (likely via marker-based colocalization) so spells travel between real bodies.",
+    "exercise_zh": "用 MediaPipe 或 Apple Vision 手势识别区分两种手势，分别释放火球和护盾，两台设备通过网络同步；变体：让旁观者用手机为某一方加油来增强法术。"
+  },
+  "botao-amber-hu--mofa-the-ghost": {
+    "technique": "All players share a colocalized coordinate frame, and the ghost's tracked pose is rendered only on the hunters' devices, creating asymmetric visibility in the same physical space.",
+    "exercise_zh": "做一个两人非对称游戏：一个人的位置只能通过另一个人的手机 AR 看到；变体：“隐形者”每隔一段时间会短暂现身并发出声音。"
+  },
+  "botao-amber-hu--echovision": {
+    "technique": "Microphone amplitude triggers a pulse, and a shader reveals the LiDAR scene mesh as an expanding spherical wavefront from the user that fades out, mimicking echolocation.",
+    "exercise_zh": "用 AR Foundation 网格重建和一个按距离扩散的 Shader，在检测到声音时让房间网格像声波一样短暂亮起；变体：声音越高，波速越快。"
+  },
+  "botao-amber-hu--feltsight": {
+    "technique": "Distance from the fingertip to scanned geometry is mapped to vibration intensity on a wearable actuator, while visual feedback is reduced so touch becomes the main sense.",
+    "exercise_zh": "用手机 LiDAR 或深度估计测量摄像头前方物体的距离，映射成手机震动强度，闭眼在教室里摸索前进；变体：把震动节奏换成不同“动物”的触觉语言。"
+  },
+  "botao-amber-hu--touchport": {
+    "technique": "Hand tracking detects a handshake-and-pull gesture between two users, which triggers a consent handshake over the network and merges their separate AR layers into a shared session.",
+    "exercise_zh": "设计一个两人手机 AR 流程：双方同时做出某个手势后，才能看到对方放在空间里的私人物品；变体：任何一方松手，共享层立即消失。"
+  },
+  "daniel-beauchamp--spatial-vacuuming": {
+    "technique": "A tracked controller on the vacuum head writes its floor position into a render texture or grid, painting a coverage map over the floor plane in passthrough.",
+    "exercise_zh": "把手机绑在拖把或扫帚上，用 AR 追踪位置并在地面平面上涂色，显示已经扫过的区域；变体：给没扫到的角落加上逐渐长出来的 AR 灰尘怪。"
+  },
+  "daniel-beauchamp--vision-pro-blender-live": {
+    "technique": "Blender exports the scene (for example as USDZ) on each change and streams it to the headset, where RealityKit reloads the model and lights it with the room's environment probe.",
+    "exercise_zh": "写一个脚本，每次在 Blender 保存时导出 glTF，手机 WebAR 页面自动重新加载该模型；变体：让模型在 AR 中出现时带一段“生长”动画。"
+  },
+  "max-weisel--mixed-reality-test-2018": {
+    "technique": "A networked session (Normcore) shares object and player transforms, and the AR phone aligns its world origin to the VR play space so VR content appears in the real room.",
+    "exercise_zh": "让一台电脑上的 Unity 场景和一台手机 AR 共享同一组物体位置，电脑上移动的物体在手机里实时出现在桌面上；变体：手机也可以反过来推动物体。"
+  },
+  "max-weisel--iphone-ar-in-vr": {
+    "technique": "An ARKit phone joins a multiplayer VR room as a spectator client, rendering the synchronized avatar transforms relative to an origin placed on a detected floor.",
+    "exercise_zh": "做一个观众模式：一台设备玩游戏，另一台手机用 AR 把玩家的动作以小人偶形式放在桌面上观看；变体：观众可以在桌面上投放道具影响游戏。"
+  },
+  "max-weisel--ar-gestures-2020": {
+    "technique": "Multi-touch input is mapped to 3D transforms: one-finger drag pans along a plane, two-finger pinch scales, and twist rotates, with the mapping relative to the camera view.",
+    "exercise_zh": "在手机 AR 中为一个模型实现单指平移、双指缩放和旋转，并请同学测试哪种手势最难懂；变体：设计一个新的三指手势。"
+  },
+  "julian-triveri--lasertag": {
+    "technique": "The Depth API provides real-time depth, so laser raycasts are truncated at the reconstructed surfaces and real walls and furniture block shots.",
+    "exercise_zh": "用 AR Foundation 遮挡（深度）让 AR 光束在真实物体处被截断，做一个躲在柜子后面的对战原型；变体：被打中的真实表面留下持续几秒的光斑。"
+  },
+  "julian-triveri--lasertag-synced-room-scanning": {
+    "technique": "Each headset fuses depth frames into a shared voxel or mesh reconstruction in a common anchor frame, and updates are merged over the network so all players see the same geometry.",
+    "exercise_zh": "两台带 LiDAR 的 iPhone 分别扫描房间的一半，通过共同的图像标记对齐后合成一个网格；变体：把扫描到的网格用两种颜色标出是谁扫的。"
+  },
+  "julian-triveri--lasertag-light-vfx": {
+    "technique": "Virtual dynamic lights attached to laser beams illuminate an invisible scanned-room mesh with a shadow-receiving or additive-lighting material, so light appears to fall on real surfaces in passthrough.",
+    "exercise_zh": "在扫描得到的房间网格上用一个透明但能接收光照的材质，让虚拟手电筒在真实墙面上投出光斑；变体：光斑颜色随你说话的音量变化。"
+  },
+  "stijn-spanhove--fruit-defense": {
+    "technique": "An on-device object detection model finds real objects in view, and their estimated 3D positions become gameplay entities that enemies target.",
+    "exercise_zh": "用 Lens Studio 或手机上的物体识别找出桌上的水杯，把它设为需要保护的“基地”，AR 小怪从四周涌来；变体：换一个物体，敌人的类型随之变化。"
+  },
+  "stijn-spanhove--xr-worlds": {
+    "technique": "A camera capture of a paper drawing is sent to a generative world model that returns a playable environment, which is then displayed in the glasses.",
+    "exercise_zh": "拍一张手绘关卡草图，识别其中的线条作为平台，在 AR 中生成可以让小球滚动的关卡；变体：用不同颜色的笔代表不同物理材质。"
+  },
+  "stijn-spanhove--ai-teleport": {
+    "technique": "Camera frames are sent to a multimodal image model that restyles the scene, and the result is displayed back as a portal overlay aligned to the view.",
+    "exercise_zh": "用手机拍下眼前场景，发给图像编辑模型改成另一种风格，再以 AR 画框的形式贴回原位置；变体：让同学只用一个词决定目标风格。"
+  },
+  "stijn-spanhove--ad-block": {
+    "technique": "A vision-language model detects ads and returns bounding boxes, which are projected into 3D and covered with opaque or replacement quads in the wearer's view.",
+    "exercise_zh": "用物体检测找到画面中的标志或海报，在 AR 中用一块纯色或自己的画作盖住；变体：不遮挡，而是把广告文字改写成一句诚实的话。"
+  },
+  "stijn-spanhove--starship-rocket-xr": {
+    "technique": "The printed tower is registered as a tracked object or placed anchor, and a simple physics or scripted trajectory lets the user steer the booster back to the physical catch point.",
+    "exercise_zh": "用一个真实物体（纸杯）作为着陆点，在 AR 中操控一枚火箭落回杯口，偏离太多就爆炸；变体：加入随机侧风。"
+  },
+  "stijn-spanhove--lego-ar-glasses": {
+    "technique": "Signals from the smart bricks (state, motion, identity) are read over a wireless link and mapped to AR effects anchored to the build's tracked position.",
+    "exercise_zh": "用一块 micro:bit 或手机传感器数据驱动 AR 效果：摇动真实积木时 AR 中喷出火花；变体：两块积木靠近时出现一段对话。"
+  },
+  "stijn-spanhove--micro-art": {
+    "technique": "The lens segments or classifies the pointed-at natural object and anchors a generated microscopic scene to it, likely using a pre-generated asset per category.",
+    "exercise_zh": "对准一片树叶或石头，AR 中在它表面放大显示一个想象中的微观世界；变体：每种材质对应一个不同的微观生物族群。"
+  },
+  "stijn-spanhove--world-cup-recoach": {
+    "technique": "Player positions from match tracking data are replayed as tabletop 3D figures, and after the user edits a position the altered layout conditions a generative video model to render a new ending.",
+    "exercise_zh": "把一段球赛进球做成桌面 AR 回放（用简单小人和球的关键帧），允许暂停并拖动防守球员；变体：改动后让球的轨迹按简单物理重新计算。"
+  },
+  "stijn-spanhove--ai-city-tour-guide": {
+    "technique": "GPS location and a captured camera frame are sent to a multimodal LLM, which returns a spoken description through the glasses, giving audio-first AR without a display.",
+    "exercise_zh": "做一个校园语音导览：拍照 + GPS 发给多模态模型，模型用 30 秒语音介绍眼前建筑；变体：让导游用某位历史人物的口吻说话。"
+  },
+  "pavlo-tkachenko--spectacles-bubbles": {
+    "technique": "A text prompt is sent to a text-to-3D service, and the returned mesh is scaled into a transparent sphere container placed around the user via world tracking.",
+    "exercise_zh": "用文生 3D 工具生成三个小物体，在 AR 中分别放进透明泡泡，点破泡泡物体才会落地；变体：泡泡里的物体来自同学之间互相出题。"
+  },
+  "pavlo-tkachenko--bplane-adventures": {
+    "technique": "Head orientation steers the plane's heading, while a hand gesture triggers a speed boost, both mapped in world space around the user.",
+    "exercise_zh": "用头部朝向（HoloKit 或手机陀螺仪）控制一架纸飞机穿过房间里的 AR 圆环，张开手掌加速；变体：圆环摆放位置根据房间平面自动生成。"
+  },
+  "creature--starship-home": {
+    "technique": "Scene API wall planes are replaced with window shaders that render space behind them, while furniture remains in passthrough, turning the room into a spacecraft interior.",
+    "exercise_zh": "检测一面墙，把它渲染成可以看到星空的舷窗，其他部分保留真实画面；变体：舷窗外的景色随房间里的真实灯光开关而变化。"
+  }
+}

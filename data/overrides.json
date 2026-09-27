@@ -1,0 +1,7 @@
+{
+ "_note": "Manual curation. drop_works: work ids to hide. patch_works: {work_id: {field: value}} applied after merge.",
+ "drop_works": [
+  "daito-manabe--perfume-cannes-lions"
+ ],
+ "patch_works": {}
+}

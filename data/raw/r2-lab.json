@@ -1,0 +1,3373 @@
+{
+ "batch": "r2-lab",
+ "creators": [
+  {
+   "id": "shunichi-kasahara",
+   "name": "Shunichi Kasahara",
+   "role": "Researcher, Sony Computer Science Laboratories; leads Cybernetic Humanity Studio (OIST)",
+   "based": "Tokyo / Okinawa, Japan",
+   "bio": "Sony CSL researcher who builds perception-bending systems: first-person view sharing (JackIn), out-of-body telepresence, EMS-accelerated reactions and real-time face morphing. Earlier co-created exTouch and Second Surface at the MIT Media Lab.",
+   "why": "He treats AR as 'Superception' - engineering the sense of self by swapping, splitting and delaying what you see and do.",
+   "links": {
+    "site": "https://shunichikasahara.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@cybernetichumanitystudio",
+    "github": ""
+   },
+   "connected_to": [
+    "valentin-heun",
+    "mit-tangible-media",
+    "pedro-lopes"
+   ],
+   "discovered_via": "valentin-heun"
+  },
+  {
+   "id": "ivan-poupyrev",
+   "name": "Ivan Poupyrev",
+   "role": "Interaction scientist; Sony CSL, Disney Research, Google ATAP (Soli, Jacquard); CEO of Archetype AI",
+   "based": "San Francisco, US",
+   "bio": "Built early tangible AR at Sony CSL and HIT Lab, then turned everyday matter into interfaces at Disney Research (Touché, Botanicus Interacticus, Ishin-Den-Shin) and Google ATAP (Soli radar, Jacquard textiles).",
+   "why": "He makes the physical world itself the input surface - plants, water, skin, fabric and air become sensors for mixed reality.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC1ooAuQChBsxWJuHd3UjZ-A",
+    "github": ""
+   },
+   "connected_to": [
+    "disney-research-ar",
+    "chris-harrison-figlab",
+    "mark-billinghurst"
+   ],
+   "discovered_via": "disney-research-ar"
+  },
+  {
+   "id": "ken-nakagaki",
+   "name": "Ken Nakagaki",
+   "role": "Assistant Professor, University of Chicago; directs the Actuated Experience Lab (AxLab)",
+   "based": "Chicago, US",
+   "bio": "Former MIT Tangible Media researcher who builds shape-changing lines, robot swarms and mechanical shells that make digital information physically move around people.",
+   "why": "His actuated tangibles are the physical twin of AR: instead of overlaying pixels, the room's objects reshape and move themselves.",
+   "links": {
+    "site": "https://www.ken-nakagaki.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@kennakagaki",
+    "github": ""
+   },
+   "connected_to": [
+    "mit-tangible-media",
+    "ryo-suzuki"
+   ],
+   "discovered_via": "ryo-suzuki"
+  },
+  {
+   "id": "yuta-itoh",
+   "name": "Yuta Itoh",
+   "role": "Associate Professor, University of Tokyo (Augmented Vision Lab); formerly Tokyo Tech and TU Munich",
+   "based": "Tokyo, Japan",
+   "bio": "Researches optical see-through displays that do more than add graphics: they subtract light, fix eyesight and show the future path of moving objects.",
+   "why": "He reframes AR glasses as 'vision augmentation' - hardware that rewrites the light reaching your eye.",
+   "links": {
+    "site": "https://www.ar.c.titech.ac.jp",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@yutaitoh",
+    "github": ""
+   },
+   "connected_to": [
+    "mark-billinghurst",
+    "shunichi-kasahara"
+   ],
+   "discovered_via": "mark-billinghurst"
+  },
+  {
+   "id": "pedro-lopes",
+   "name": "Pedro Lopes",
+   "role": "Associate Professor, University of Chicago; directs the Human Computer Integration Lab",
+   "based": "Chicago, US",
+   "bio": "Builds interfaces that actuate the user's own body - electrical muscle stimulation, chemical and thermal haptics - to give mixed reality physical weight and to let objects 'tell' your hands how to use them.",
+   "why": "He turned the human body into the output device of AR: your muscles feel the virtual wall.",
+   "links": {
+    "site": "https://lab.plopes.org",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@HCintegration",
+    "github": ""
+   },
+   "connected_to": [
+    "shunichi-kasahara",
+    "chris-harrison-figlab"
+   ],
+   "discovered_via": "chris-harrison-figlab"
+  },
+  {
+   "id": "michael-nebeling",
+   "name": "Michael Nebeling",
+   "role": "Associate Professor, University of Michigan School of Information; Information Interaction Lab",
+   "based": "Ann Arbor, US",
+   "bio": "Creates rapid prototyping tools that let non-programmers make AR/VR from paper, Play-Doh and video (ProtoAR, 360proto, XRDirector).",
+   "why": "He democratised AR design: sketches on paper become working AR prototypes in minutes.",
+   "links": {
+    "site": "https://michael-nebeling.de",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "ryo-suzuki"
+   ],
+   "discovered_via": "ryo-suzuki"
+  },
+  {
+   "id": "lightform",
+   "name": "Lightform (Brett Jones & Kevin Karsch)",
+   "role": "Projected-AR hardware/software startup; Brett Jones was lead author of IllumiRoom and RoomAlive",
+   "based": "San Francisco, US",
+   "bio": "Lightform built the LF1/LF2 projector-camera units and Lightform Creator so anyone could scan a scene and projection-map it in minutes.",
+   "why": "Turned research-grade projector-camera AR (IllumiRoom, RoomAlive) into a consumer tool for 'projected AR' murals and objects.",
+   "links": {
+    "site": "https://lightform.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCGErieiDrdcvtWorboxzlgg",
+    "github": ""
+   },
+   "connected_to": [
+    "msr-benko-wilson",
+    "rajinder-sodhi"
+   ],
+   "discovered_via": "msr-benko-wilson"
+  },
+  {
+   "id": "rajinder-sodhi",
+   "name": "Rajinder Sodhi",
+   "role": "HCI researcher (UIUC PhD); worked at Microsoft Research, Disney Research and Qualcomm on projected and haptic AR",
+   "based": "US",
+   "bio": "Co-created LightGuide (projected hand-movement guidance), BeThere (3D mobile telepresence with spatial input) and Disney's AIREAL air-vortex haptics.",
+   "why": "LightGuide is one of the clearest demonstrations that AR can guide the body by drawing directly on the hand.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCXfciAUUbRQRh7Cy6Tb5FfA",
+    "github": ""
+   },
+   "connected_to": [
+    "msr-benko-wilson",
+    "disney-research-ar",
+    "lightform"
+   ],
+   "discovered_via": "msr-benko-wilson"
+  },
+  {
+   "id": "autodesk-research",
+   "name": "Autodesk Research (Fraser Anderson, Tovi Grossman, George Fitzmaurice et al.)",
+   "role": "Corporate HCI research group",
+   "based": "Toronto, Canada",
+   "bio": "Autodesk's UI research group builds AR tools for making and learning: projected pen overlays, AR movement mirrors, assembly-tutorial authoring and two-way MR remote instruction.",
+   "why": "A decade of practical, craft-centred AR interaction ideas (YouMove, PenLight, AuthAR, Loki) that map directly onto teaching.",
+   "links": {
+    "site": "https://www.research.autodesk.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@AutodeskResearch",
+    "github": ""
+   },
+   "connected_to": [
+    "madeline-gannon",
+    "chris-harrison-figlab"
+   ],
+   "discovered_via": "chris-harrison-figlab"
+  },
+  {
+   "id": "madeline-gannon",
+   "name": "Madeline Gannon",
+   "role": "Artist-roboticist; principal of ATONATON",
+   "based": "Pittsburgh, US",
+   "bio": "Designs ways for people to communicate with machines - from projection-mapped on-skin 3D modelling (Tactum) to industrial robots that watch and follow visitors (Mimus).",
+   "why": "Tactum made your own forearm the canvas and controller for designing wearables in projected AR.",
+   "links": {
+    "site": "https://atonaton.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "autodesk-research",
+    "golan-levin"
+   ],
+   "discovered_via": "autodesk-research"
+  },
+  {
+   "id": "denis-kalkofen",
+   "name": "Denis Kalkofen",
+   "role": "Associate Professor, Flinders University; formerly Graz University of Technology (ICG)",
+   "based": "Adelaide, Australia / Graz, Austria",
+   "bio": "Specialist in AR visualization: X-ray and ghosted views of hidden structure, compact labels, and retargeting manuals and video tutorials into 3D AR instructions.",
+   "why": "He solved how AR should show what is inside or behind real objects without confusing depth.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "tu-graz-wagner-schmalstieg"
+   ],
+   "discovered_via": "tu-graz-wagner-schmalstieg"
+  },
+  {
+   "id": "magic-leap-studios",
+   "name": "Magic Leap Studios",
+   "role": "In-house content studio of Magic Leap",
+   "based": "Plantation, Florida, US",
+   "bio": "Produced Magic Leap's showcase spatial experiences - the 2015 gym-whale concept, Create, Dodge, Mica and Undersea - to show content that respects real room geometry.",
+   "why": "Their demos defined the vocabulary of headset MR: creatures that know your furniture, digital humans that share your table.",
+   "links": {
+    "site": "https://www.magicleap.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "greg-broadmore",
+    "sigur-ros",
+    "ilmxlab"
+   ],
+   "discovered_via": "greg-broadmore"
+  },
+  {
+   "id": "ilmxlab",
+   "name": "ILMxLAB (Lucasfilm)",
+   "role": "Lucasfilm's immersive entertainment studio",
+   "based": "San Francisco, US",
+   "bio": "ILM's immersive lab made Star Wars mixed-reality experiments with Magic Leap, from the 2016 'Lost Droids' test to Project Porg.",
+   "why": "Showed how beloved characters can inhabit your real living room and respond to you.",
+   "links": {
+    "site": "https://www.ilmimmersive.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "magic-leap-studios"
+   ],
+   "discovered_via": "greg-broadmore"
+  },
+  {
+   "id": "microsoft-hololens",
+   "name": "Microsoft HoloLens team (Alex Kipman, Kudo Tsunoda & Microsoft Studios)",
+   "role": "Platform team and first-party studio for HoloLens",
+   "based": "Redmond, US",
+   "bio": "Shipped the first self-contained holographic computer and its launch apps - RoboRaid, HoloStudio and the Minecraft tabletop demo.",
+   "why": "Established gaze + air-tap + voice as the grammar of headset AR and made spatial mapping playable.",
+   "links": {
+    "site": "https://www.microsoft.com/hololens",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@MicrosoftHoloLens",
+    "github": ""
+   },
+   "connected_to": [
+    "asobo-studio",
+    "msr-izadi-holoportation"
+   ],
+   "discovered_via": "asobo-studio"
+  },
+  {
+   "id": "meta-reality-labs",
+   "name": "Meta Reality Labs (Quest mixed reality)",
+   "role": "Platform team behind Quest Presence Platform showcases",
+   "based": "Menlo Park, US",
+   "bio": "Built the Presence Platform showcases The World Beyond and First Encounters that teach Quest users what passthrough MR can do.",
+   "why": "First Encounters' punch-through-your-wall moment is the canonical demo of scene-aware passthrough MR.",
+   "links": {
+    "site": "https://developers.meta.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "thomas-van-bouwel"
+   ],
+   "discovered_via": "thomas-van-bouwel"
+  },
+  {
+   "id": "apple",
+   "name": "Apple (ARKit / visionOS teams)",
+   "role": "Platform company",
+   "based": "Cupertino, US",
+   "bio": "Apple's ARKit and visionOS teams released SwiftShot, the first multi-user ARKit sample game, and the Vision Pro showcase Encounter Dinosaurs.",
+   "why": "Their showcases set expectations for shared tabletop AR and for creatures that notice you in spatial computing.",
+   "links": {
+    "site": "https://developer.apple.com/augmented-reality/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "ryan-mcleod"
+   ],
+   "discovered_via": "ryan-mcleod"
+  },
+  {
+   "id": "figmin-xr",
+   "name": "Figmin XR (Overlay)",
+   "role": "Independent team behind the mixed-reality creation app Figmin XR",
+   "based": "US",
+   "bio": "Figmin XR is a HoloLens-born, now Quest/Vision Pro app where you sketch, collect and script 3D objects that live and collide with your real room.",
+   "why": "It is a pocket 'mixed-reality sandbox': paint, physics, AI-scripted characters and room geometry in one tool.",
+   "links": {
+    "site": "https://figmin.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC0w4lI8-wh4wzlCDoWHD3uQ",
+    "github": ""
+   },
+   "connected_to": [
+    "greg-madison"
+   ],
+   "discovered_via": "greg-madison"
+  },
+  {
+   "id": "danlin-huang",
+   "name": "Danlin Huang",
+   "role": "Designer-researcher; China Academy of Art School of Design Innovation",
+   "based": "Hangzhou, China",
+   "bio": "Designs speculative mixed-reality rituals and tools - shared mushroom-mask MR, body-posture oracle glyphs, AR origami tutoring - often with Botao Amber Hu.",
+   "why": "Her work turns MR headsets into props for collective ritual and embodied speculation rather than screens.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCdwAQyO7QcPmQrYO4fILe6Q",
+    "github": ""
+   },
+   "connected_to": [
+    "botao-amber-hu"
+   ],
+   "discovered_via": "botao-amber-hu"
+  },
+  {
+   "id": "owlchemy-labs",
+   "name": "Owlchemy Labs",
+   "role": "VR/MR studio (Job Simulator), owned by Google",
+   "based": "Austin, US",
+   "bio": "Makers of Job Simulator and Vacation Simulator, now leading hand-tracking design research and mixed-reality play on Android XR.",
+   "why": "Known for the most physical, comedic hand interactions in XR, now carried into passthrough MR.",
+   "links": {
+    "site": "https://owlchemylabs.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@OwlchemyLabs",
+    "github": ""
+   },
+   "connected_to": [
+    "resolution-games"
+   ],
+   "discovered_via": "resolution-games"
+  },
+  {
+   "id": "cyborn",
+   "name": "Cyborn",
+   "role": "Belgian VR/MR game studio",
+   "based": "Antwerp, Belgium",
+   "bio": "Creators of Hubris and the Quest 3 mixed-reality town builder Wall Town Wonders.",
+   "why": "Wall Town Wonders turns ordinary room walls into a living miniature city - a vertical-surface MR idea few others explored.",
+   "links": {
+    "site": "https://www.cyborn.be",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "creature"
+   ],
+   "discovered_via": "creature"
+  },
+  {
+   "id": "vitukhin-serhii",
+   "name": "Vitukhin Serhii",
+   "role": "Unity/AR developer; early HoloKit community developer",
+   "based": "Ukraine",
+   "bio": "Built some of the first HoloKit + ARKit stereo demos in 2017, including a co-located multiplayer drone shooter shown at SIGGRAPH 2017.",
+   "why": "Early proof that a cardboard phone headset could host shared, co-located stereo AR games.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCi2zSp-WKyUgdoUqLgHup8A",
+    "github": ""
+   },
+   "connected_to": [
+    "botao-amber-hu"
+   ],
+   "discovered_via": "botao-amber-hu"
+  }
+ ],
+ "works": [
+  {
+   "id": "shunichi-kasahara--extouch",
+   "creator_ids": [
+    "shunichi-kasahara",
+    "mit-tangible-media",
+    "valentin-heun"
+   ],
+   "title": "exTouch",
+   "year": 2013,
+   "description": "Point a tablet at a small robot and drag its on-screen AR image with your finger; the real robot drives and rotates to match the gesture in physical space.",
+   "idea_zh": "在手机AR画面里拖动物体，现实中的机器人就跟着动：AR画面变成实体遥控器。",
+   "interaction": [
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "tablet AR",
+    "marker tracking",
+    "actuated robot"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "57514726",
+    "url": "https://vimeo.com/57514726"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/extouch/",
+   "technique": "Tracks the robot's pose with the tablet camera and converts touch-drag gestures on its AR image into motor commands in the robot's own coordinate frame.",
+   "exercise_zh": "用手机AR识别一个遥控小车上的图片标记，在屏幕上拖动虚拟箭头来驱动实体小车（可用Arduino/蓝牙车）；变化：让两位同学各用一部手机从不同角度同时操控同一辆车。"
+  },
+  {
+   "id": "shunichi-kasahara--jackin-eye",
+   "creator_ids": [
+    "shunichi-kasahara"
+   ],
+   "title": "JackIn Eye",
+   "year": 2014,
+   "description": "A remote viewer 'jacks into' a walking person's head-mounted camera; the system stitches past frames into an out-of-body third-person view so the viewer can look around beyond the wearer's gaze.",
+   "idea_zh": "远程的人“钻进”别人的第一人称视角，还能跳出身体从背后看他。",
+   "interaction": [
+    "multiplayer-social",
+    "gaze-attention",
+    "perception-art"
+   ],
+   "platform": [
+    "wearable",
+    "headset"
+   ],
+   "tech": [
+    "head-mounted camera",
+    "SLAM",
+    "image stitching"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "88523949",
+    "url": "https://vimeo.com/88523949"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/jackin-eye/",
+   "technique": "Uses SLAM on the first-person video to register frames into a growing 3D panorama, then renders a virtual camera placed behind and above the wearer.",
+   "exercise_zh": "用手机直播一个同学的第一人称视角给另一位戴Cardboard的同学看，由观看者口头指挥他完成找物任务；变化：观看者只能看到5秒前的延迟画面。"
+  },
+  {
+   "id": "shunichi-kasahara--jackin-head",
+   "creator_ids": [
+    "shunichi-kasahara"
+   ],
+   "title": "JackIn Head",
+   "year": 2015,
+   "description": "A head-worn omnidirectional camera streams stabilized 360-degree video so remote viewers can look anywhere around the wearer, independent of where the wearer turns their head.",
+   "idea_zh": "把别人头上的全景相机当作自己的眼睛，远程的人可以独立转头看四周。",
+   "interaction": [
+    "multiplayer-social",
+    "gaze-attention"
+   ],
+   "platform": [
+    "wearable",
+    "headset"
+   ],
+   "tech": [
+    "omnidirectional camera",
+    "image stabilization",
+    "live streaming"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "129263445",
+    "url": "https://vimeo.com/129263445"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/jackin-head/",
+   "technique": "Estimates head rotation from the spherical video and counter-rotates each frame so the 360 stream stays world-stable for remote HMD viewers.",
+   "exercise_zh": "把一台360相机绑在帽子上直播到另一位同学的手机VR眼镜中，观看者用手势指挥佩戴者走路；变化：让三个人同时“附身”同一个人，投票决定方向。"
+  },
+  {
+   "id": "shunichi-kasahara--parallel-eyes",
+   "creator_ids": [
+    "shunichi-kasahara"
+   ],
+   "title": "Parallel Eyes",
+   "year": 2016,
+   "description": "Four people wear HMDs showing a split screen of everyone's first-person views at once, then try to play hide-and-seek and coordinate while seeing through all bodies simultaneously.",
+   "idea_zh": "四个人同时看到彼此的第一人称视角，在“共享眼睛”里玩捉迷藏。",
+   "interaction": [
+    "multiplayer-social",
+    "perception-art",
+    "game-play"
+   ],
+   "platform": [
+    "headset",
+    "wearable"
+   ],
+   "tech": [
+    "HMD",
+    "head-mounted cameras",
+    "video mixing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "175105689",
+    "url": "https://vimeo.com/175105689"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/parallel-eyes/",
+   "technique": "Streams each participant's head-mounted camera into a shared tiled video layout shown in every HMD, a collaboration with YCAM.",
+   "exercise_zh": "让四名同学各用手机前摄/后摄开视频会议并把画面并排显示，戴着手机眼镜玩找人游戏；变化：随机把你的画面和别人的画面互换位置。"
+  },
+  {
+   "id": "shunichi-kasahara--headlight",
+   "creator_ids": [
+    "shunichi-kasahara"
+   ],
+   "title": "HeadLight",
+   "year": 2018,
+   "description": "A head-mounted projector with a fish-eye lens throws a very wide image onto the surroundings in front of the wearer, augmenting whatever the wearer faces without glasses.",
+   "idea_zh": "把投影仪戴在头上，眼前的整个空间就是屏幕。",
+   "interaction": [
+    "projection",
+    "gaze-attention"
+   ],
+   "platform": [
+    "wearable",
+    "projection"
+   ],
+   "tech": [
+    "pico projector",
+    "fish-eye lens",
+    "geometric correction"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "263377583",
+    "url": "https://vimeo.com/263377583"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/head-light/",
+   "technique": "Pre-distorts the image to compensate for the fish-eye conversion lens and aligns it with head orientation so graphics land on the walls the wearer looks at.",
+   "exercise_zh": "用胶带把手机投影仪（或手机+镜子）固定在头盔上，让投影内容跟随视线出现在墙上；变化：投影内容是只有你转头时才会显现的“隐藏标记”。"
+  },
+  {
+   "id": "shunichi-kasahara--fragment-shadow",
+   "creator_ids": [
+    "shunichi-kasahara"
+   ],
+   "title": "Fragment Shadow",
+   "year": 2019,
+   "description": "Visitors' real shadows are split into several colored, offset shadows by precisely calibrated multiple projectors, so one body casts a fragmented, prismatic shadow.",
+   "idea_zh": "多台投影机让一个人的影子碎裂成好几个彩色影子。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "multi-projector calibration",
+    "color calibration"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "322671485",
+    "url": "https://vimeo.com/322671485"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/fragment-shadow/",
+   "technique": "Calibrates several projectors' geometry and color so their overlapping light sums to white, making each body occlusion reveal a different colored shadow.",
+   "exercise_zh": "用三盏红绿蓝LED灯（或三台手机手电加彩色玻璃纸）从不同角度照向白墙，让同学用身体做出彩色影子；变化：用编程让每盏灯随音乐轮流闪烁。"
+  },
+  {
+   "id": "shunichi-kasahara--preemptive-action",
+   "creator_ids": [
+    "shunichi-kasahara",
+    "pedro-lopes"
+   ],
+   "title": "Preemptive Action",
+   "year": 2019,
+   "description": "Electrical muscle stimulation fires the user's arm a few milliseconds before they would react to a stimulus, speeding reaction time while the user still feels they moved by themselves.",
+   "idea_zh": "电刺激在你反应之前替你动手，但你仍觉得是自己动的。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "electrical muscle stimulation",
+    "high-speed camera"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "315085705",
+    "url": "https://vimeo.com/315085705"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/preemptive-action/",
+   "technique": "Triggers EMS at a tuned latency just before the user's natural reaction, finding the window where the action is faster yet still judged as self-caused.",
+   "exercise_zh": "用手机做一个“看到信号就拍桌”的反应小游戏，并让同伴在你身后用轻拍肩膀提前提示；变化：比较提示和不提示时你是否觉得“是自己做的”。"
+  },
+  {
+   "id": "shunichi-kasahara--stealth-updates",
+   "creator_ids": [
+    "shunichi-kasahara"
+   ],
+   "title": "Stealth Updates",
+   "year": 2021,
+   "description": "Visual content changes in front of the viewer without being noticed, by morphing images gradually and timing changes to exploit change blindness.",
+   "idea_zh": "利用“变化盲视”，让画面在你眼前改变却察觉不到。",
+   "interaction": [
+    "perception-art",
+    "gaze-attention"
+   ],
+   "platform": [
+    "desktop",
+    "headset"
+   ],
+   "tech": [
+    "image morphing",
+    "change blindness"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "96xfUsgCk1U",
+    "url": "https://www.youtube.com/watch?v=96xfUsgCk1U"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/stealth-updates/",
+   "technique": "Computes a smooth image morph between old and new content and plays it slowly enough to stay below the threshold of noticed change.",
+   "exercise_zh": "用手机AR把一张海报上的元素用30秒慢慢变换成另一张图，让同学盯着看并报告是否发现变化；变化：在对方眨眼或转头时再快速切换。"
+  },
+  {
+   "id": "shunichi-kasahara--parallel-ping-pong",
+   "creator_ids": [
+    "shunichi-kasahara"
+   ],
+   "title": "Parallel Ping-Pong",
+   "year": 2022,
+   "description": "One user in VR controls two robot arms playing table tennis at two tables simultaneously, switching perspective between bodies to hit both balls.",
+   "idea_zh": "一个人同时操控两个身体打两场乒乓球。",
+   "interaction": [
+    "hand-body",
+    "game-play",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR telepresence",
+    "robot arms",
+    "perspective switching"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "q1XAmaMdEiE",
+    "url": "https://www.youtube.com/watch?v=q1XAmaMdEiE"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/parallel-ping-pong/",
+   "technique": "Streams two robot-mounted camera views into an HMD and maps the user's single arm motion to whichever robot body is currently selected or blended.",
+   "exercise_zh": "用两部手机分别拍两个桌面小游戏，把画面并排投到一块屏幕上，让一名同学同时用双手远程指挥两位“替身”同学；变化：两个画面每10秒左右对调。"
+  },
+  {
+   "id": "shunichi-kasahara--morphing-identity",
+   "creator_ids": [
+    "shunichi-kasahara"
+   ],
+   "title": "Morphing Identity",
+   "year": 2023,
+   "description": "Two people face a screen where their live faces gradually morph into each other in real time, exploring where 'self' ends and 'other' begins.",
+   "idea_zh": "实时把你的脸慢慢变成对面那个人的脸。",
+   "interaction": [
+    "face",
+    "perception-art",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "real-time face morphing",
+    "face landmark tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "rfmIuaV9Ny0",
+    "url": "https://www.youtube.com/watch?v=rfmIuaV9Ny0"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/morphing-identity/",
+   "technique": "Tracks facial landmarks on both live video feeds and warps and cross-dissolves the textures with a controllable blend ratio.",
+   "exercise_zh": "用Snap Lens Studio或Effect House做一个把自己脸与同桌脸按滑块比例融合的滤镜；变化：融合比例由两人说话音量决定。"
+  },
+  {
+   "id": "shunichi-kasahara--shadowclones",
+   "creator_ids": [
+    "shunichi-kasahara"
+   ],
+   "title": "ShadowClones",
+   "year": 2023,
+   "description": "A single user controls several virtual bodies seen from multiple viewpoints; shadow-like cues keep track of where each body is so they can coordinate actions across perspectives.",
+   "idea_zh": "一个人分身成多个影子般的身体，并在多视角中协调它们。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR",
+    "multiple perspectives",
+    "body tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "UGXvYPcW3Jc",
+    "url": "https://www.youtube.com/watch?v=UGXvYPcW3Jc"
+   },
+   "source_url": "https://shunichikasahara.com/portfolio/shadowclones/",
+   "technique": "Renders several avatar copies driven by one tracked body and overlays shadow projections of each clone to preserve body-space coordination across views.",
+   "exercise_zh": "在手机AR中放置三个会复制你动作的虚拟分身（用人体骨骼追踪），让你摆姿势让三个分身同时拍到目标；变化：每个分身动作延迟不同。"
+  },
+  {
+   "id": "ivan-poupyrev--teslatouch",
+   "creator_ids": [
+    "ivan-poupyrev",
+    "chris-harrison-figlab"
+   ],
+   "title": "TeslaTouch",
+   "year": 2010,
+   "description": "A touch screen that produces variable friction under a sliding finger using electrovibration, so flat images can feel rough, bumpy or sticky.",
+   "idea_zh": "让平板屏幕表面摸起来有纹理。",
+   "interaction": [
+    "hand-body",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "electrovibration",
+    "touch screen"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "MHNrQlpstJo",
+    "url": "https://www.youtube.com/watch?v=MHNrQlpstJo"
+   },
+   "source_url": "",
+   "technique": "Applies a modulated high voltage to an insulated electrode so electrostatic attraction changes skin friction as the finger moves.",
+   "exercise_zh": "用手机振动API做一个“触觉纹理”画板：手指滑过不同颜色区域时产生不同节奏的振动；变化：让同伴闭眼只凭触感猜出图案。"
+  },
+  {
+   "id": "ivan-poupyrev--touche",
+   "creator_ids": [
+    "ivan-poupyrev"
+   ],
+   "title": "Touché",
+   "year": 2012,
+   "description": "Swept-frequency capacitive sensing that recognises how you touch a doorknob, a table, water or your own body - one pinch versus full grasp - with a single electrode.",
+   "idea_zh": "一根电极就能分辨你是捏、握还是整只手浸在水里。",
+   "interaction": [
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "swept-frequency capacitive sensing",
+    "SVM classification"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "E4tYpXVTjxA",
+    "url": "https://www.youtube.com/watch?v=E4tYpXVTjxA"
+   },
+   "source_url": "",
+   "technique": "Sweeps the excitation frequency across a range and classifies the resulting capacitive profile, because different grips change the body's impedance at different frequencies.",
+   "exercise_zh": "用Makey Makey或Arduino的电容触摸引脚连接水杯、水果或门把手，训练一个简单分类器识别“摸一下/握住”；变化：把不同握法映射成手机AR里不同的特效。"
+  },
+  {
+   "id": "ivan-poupyrev--botanicus-interacticus",
+   "creator_ids": [
+    "ivan-poupyrev"
+   ],
+   "title": "Botanicus Interacticus",
+   "year": 2012,
+   "description": "Living plants become interactive: stroking, pinching or sliding along a stem is sensed through the plant itself and triggers projected visuals and sound.",
+   "idea_zh": "抚摸一株真植物，它会发出声音和光影。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound",
+    "projection"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "swept-frequency capacitive sensing",
+    "projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "17QOyr2d5-I",
+    "url": "https://www.youtube.com/watch?v=17QOyr2d5-I"
+   },
+   "source_url": "",
+   "technique": "Places a single electrode in the plant's soil and applies Touché-style swept-frequency sensing to locate and classify touches on the plant.",
+   "exercise_zh": "把盆栽接到Makey Makey或触摸传感器上，触摸叶片时在手机或投影上长出虚拟花朵并发声；变化：两人同时触摸时才会开花。"
+  },
+  {
+   "id": "ivan-poupyrev--ishin-den-shin",
+   "creator_ids": [
+    "ivan-poupyrev"
+   ],
+   "title": "Ishin-Den-Shin",
+   "year": 2013,
+   "description": "A person speaks into a microphone and then touches someone's ear with a finger; the recorded message is heard only by the person being touched, transmitted through the body.",
+   "idea_zh": "用手指触碰对方耳朵，悄悄话通过身体传过去。",
+   "interaction": [
+    "voice-sound",
+    "hand-body",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "body-coupled audio",
+    "electrostatic modulation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Iw1FhmY1sIU",
+    "url": "https://www.youtube.com/watch?v=Iw1FhmY1sIU"
+   },
+   "source_url": "",
+   "technique": "Converts recorded speech into a modulated inaudible high-voltage signal on the speaker's body, and the touched earlobe vibrates as a tiny speaker.",
+   "exercise_zh": "用骨传导耳机或手机录音，设计“只有被触碰的人才能听到”的传声游戏（碰肩触发播放）；变化：信息沿一条人链逐个传递并逐渐变形。"
+  },
+  {
+   "id": "ivan-poupyrev--project-soli",
+   "creator_ids": [
+    "ivan-poupyrev"
+   ],
+   "title": "Project Soli",
+   "year": 2015,
+   "description": "A tiny radar chip senses sub-millimetre finger motions in the air, so rubbing fingers turns a virtual dial and tapping presses an invisible button.",
+   "idea_zh": "用手指在空中搓一搓就能转动看不见的旋钮。",
+   "interaction": [
+    "hand-body"
+   ],
+   "platform": [
+    "wearable",
+    "phone"
+   ],
+   "tech": [
+    "60 GHz radar",
+    "machine learning gestures"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "0QNiZfSsPc0",
+    "url": "https://www.youtube.com/watch?v=0QNiZfSsPc0"
+   },
+   "source_url": "https://atap.google.com/soli/",
+   "technique": "Emits a broad radar beam and classifies the Doppler and range signature of micro-finger movements into 'virtual tool' gestures.",
+   "exercise_zh": "用手机AR手部追踪或MediaPipe实现“捏合转旋钮、双指点按钮”的空中微手势控制一个虚拟收音机；变化：只允许眼睛不看手完成操作。"
+  },
+  {
+   "id": "ivan-poupyrev--project-jacquard",
+   "creator_ids": [
+    "ivan-poupyrev"
+   ],
+   "title": "Project Jacquard",
+   "year": 2015,
+   "description": "Conductive yarns woven into ordinary fabric turn a jacket sleeve into a touch surface: swipe or tap the cuff to control your phone.",
+   "idea_zh": "把衣袖织成触摸板。",
+   "interaction": [
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "conductive yarn",
+    "capacitive textile sensing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "qObSFfdfe7I",
+    "url": "https://www.youtube.com/watch?v=qObSFfdfe7I"
+   },
+   "source_url": "https://atap.google.com/jacquard/",
+   "technique": "Weaves a grid of conductive threads into the textile and reads capacitive changes from a snap-on tag that classifies swipes and taps.",
+   "exercise_zh": "用导电胶带或导电线缝在旧手套/袖子上，接Makey Makey控制手机AR里的场景切换；变化：不同的衣服部位代表不同的AR“魔法”。"
+  },
+  {
+   "id": "ken-nakagaki--lineform",
+   "creator_ids": [
+    "ken-nakagaki",
+    "mit-tangible-media"
+   ],
+   "title": "LineFORM",
+   "year": 2015,
+   "description": "A snake-like chain of servo modules that can bend into shapes, wrap the wrist, act as a physical graph line, or constrain the user's hand motion.",
+   "idea_zh": "一条会自己弯曲的“线”，既能显示信息又能约束你的手。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "desktop",
+    "wearable"
+   ],
+   "tech": [
+    "servo chain",
+    "shape-changing interface"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XB1U0oTj8lE",
+    "url": "https://www.youtube.com/watch?v=XB1U0oTj8lE"
+   },
+   "source_url": "https://tangible.media.mit.edu/project/lineform/",
+   "technique": "Chains serially linked servo segments and computes joint angles by inverse kinematics so the line can take on target curves or respond to touch.",
+   "exercise_zh": "用吸管和扭扭棒做一条可弯曲的实体线，再用手机AR沿着线显示流动的数据或音乐波形；变化：同学改变线的形状时AR内容同步变化。"
+  },
+  {
+   "id": "ken-nakagaki--chainform",
+   "creator_ids": [
+    "ken-nakagaki",
+    "mit-tangible-media"
+   ],
+   "title": "ChainFORM",
+   "year": 2016,
+   "description": "Modular chains with built-in touch sensing, angle sensing and LEDs that can be snapped together into shape-changing strips, wearables or creatures.",
+   "idea_zh": "可拼接的智能链条，能感触、显示和变形。",
+   "interaction": [
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "desktop",
+    "wearable"
+   ],
+   "tech": [
+    "modular servo chain",
+    "touch sensing",
+    "LEDs"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Ler01uKHhcs",
+    "url": "https://www.youtube.com/watch?v=Ler01uKHhcs"
+   },
+   "source_url": "https://tangible.media.mit.edu/project/chainform/",
+   "technique": "Each module carries a servo, angle sensor, capacitive touch pad and LED on a shared bus, so a chain can both record and replay its own shape.",
+   "exercise_zh": "用积木或纸链条做一个“会记录形状”的原型，同时用手机AR给每一节标上颜色和数值；变化：把链条缠在手腕上变成可穿戴提醒器。"
+  },
+  {
+   "id": "ken-nakagaki--animastage",
+   "creator_ids": [
+    "ken-nakagaki",
+    "mit-tangible-media"
+   ],
+   "title": "AnimaStage",
+   "year": 2016,
+   "description": "A tabletop stage with a hidden grid of actuators animates paper crafts and 3D-printed figures placed on it, turning hand-made props into puppets.",
+   "idea_zh": "在一个会动的舞台上，把纸片和手工道具变成会动的木偶。",
+   "interaction": [
+    "tangible-object",
+    "performance-stage",
+    "drawing-creation"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "actuated stage",
+    "paper craft"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "221508021",
+    "url": "https://vimeo.com/221508021"
+   },
+   "source_url": "https://tangible.media.mit.edu/project/animastage/",
+   "technique": "Drives an array of linear actuators under a flexible stage surface so objects attached to it are pushed, tilted and bounced to perform scripted motions.",
+   "exercise_zh": "用纸板和手机振动（或小电机）做一个会抖动的纸偶舞台，并用手机AR叠加表情与台词；变化：让观众拍手的节奏驱动舞台动作。"
+  },
+  {
+   "id": "ken-nakagaki--hermits",
+   "creator_ids": [
+    "ken-nakagaki",
+    "mit-tangible-media"
+   ],
+   "title": "HERMITS",
+   "year": 2020,
+   "description": "Small self-propelled robots dock into interchangeable mechanical shells - a lever, a crank, a vehicle - gaining new physical interactions like hermit crabs changing shells.",
+   "idea_zh": "像寄居蟹换壳一样，小机器人钻进不同外壳就获得新功能。",
+   "interaction": [
+    "tangible-object",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "toio robots",
+    "mechanical shells",
+    "3D printing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nsi4DsiAWs8",
+    "url": "https://www.youtube.com/watch?v=nsi4DsiAWs8"
+   },
+   "source_url": "https://tangible.media.mit.edu/project/hermits/",
+   "technique": "Uses toio robots with position tracking to drive into passive 3D-printed shells whose gears and levers convert robot motion into new actuation or input.",
+   "exercise_zh": "给一个遥控小车设计三种纸板“外壳”（推土铲、旗帜、小屋），用手机AR标注每个外壳的功能；变化：让小车根据二维码自动识别换上的外壳。"
+  },
+  {
+   "id": "ken-nakagaki--buoyance",
+   "creator_ids": [
+    "ken-nakagaki"
+   ],
+   "title": "Buoyancé",
+   "year": 2025,
+   "description": "Mobile robots reel helium balloons up and down by strings, forming floating 3D displays and interactive mid-air objects above a tabletop.",
+   "idea_zh": "机器人拉着氦气球升降，在空中形成可交互的立体显示。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "mobile robots",
+    "helium balloons",
+    "string reeling"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "v9mNKIILt_s",
+    "url": "https://www.youtube.com/watch?v=v9mNKIILt_s"
+   },
+   "source_url": "https://www.youtube.com/watch?v=v9mNKIILt_s",
+   "technique": "Each tabletop robot winds a tether to set balloon height while driving to set x-y position, so a swarm places floating points in 3D space.",
+   "exercise_zh": "用气球、线和手动升降把桌面变成空中柱状图，再用手机AR给每个气球叠加标签；变化：同学拉动气球改变高度，AR中的数据随之更新。"
+  },
+  {
+   "id": "ken-nakagaki--shape-n-swarm",
+   "creator_ids": [
+    "ken-nakagaki"
+   ],
+   "title": "Shape n' Swarm",
+   "year": 2025,
+   "description": "Users sculpt a shape with their hands and describe it in speech; an LLM plans how a swarm of small tabletop robots should arrange and move to represent and animate it.",
+   "idea_zh": "用手比划加一句话，机器人群就排出并动起你想要的形状。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound",
+    "hand-body"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "swarm robots",
+    "LLM",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "5u0M9yL7tyY",
+    "url": "https://www.youtube.com/watch?v=5u0M9yL7tyY"
+   },
+   "source_url": "https://www.youtube.com/watch?v=5u0M9yL7tyY",
+   "technique": "Combines hand-sketched shape input with an LLM that outputs robot target positions and motion scripts for a swarm UI.",
+   "exercise_zh": "让同学用语音描述一个动物，由ChatGPT生成一组坐标，再由几名同学手持纸片按坐标在地面上排出这个形状；变化：要求形状“动起来”（如鸟扇动翅膀）。"
+  },
+  {
+   "id": "yuta-itoh--ost-rift",
+   "creator_ids": [
+    "yuta-itoh"
+   ],
+   "title": "OST Rift",
+   "year": 2016,
+   "description": "A consumer VR headset converted into an optical see-through AR display with careful timing so virtual objects stay locked to the real world during head motion.",
+   "idea_zh": "把VR头显改装成光学透视AR，让虚拟物体稳稳“钉”在现实中。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "optical see-through HMD",
+    "latency compensation",
+    "Oculus Rift"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "UatOFZuD5L0",
+    "url": "https://www.youtube.com/watch?v=UatOFZuD5L0"
+   },
+   "source_url": "https://www.youtube.com/watch?v=UatOFZuD5L0",
+   "technique": "Adds beam-splitter optics to a Rift and predicts head pose to compensate display latency, keeping overlays temporally consistent with the real scene.",
+   "exercise_zh": "用HoloKit或手机+半透镜做一个简易透视AR眼镜，比较快速转头时虚拟方块的漂移；变化：人为加入200ms延迟，让同学描述感受。"
+  },
+  {
+   "id": "yuta-itoh--laplacian-vision",
+   "creator_ids": [
+    "yuta-itoh"
+   ],
+   "title": "Laplacian Vision",
+   "year": 2016,
+   "description": "AR glasses or a projector show the predicted future trajectory of a thrown ball as a line in the air, helping people anticipate and catch it.",
+   "idea_zh": "让你看到飞行物体未来的轨迹。",
+   "interaction": [
+    "perception-art",
+    "data-information",
+    "game-play"
+   ],
+   "platform": [
+    "headset",
+    "projection"
+   ],
+   "tech": [
+    "physics prediction",
+    "object tracking",
+    "optical see-through HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "2GD7KQOHiMs",
+    "url": "https://www.youtube.com/watch?v=2GD7KQOHiMs"
+   },
+   "source_url": "",
+   "technique": "Tracks the object with cameras, fits a ballistic model and renders the extrapolated path in the user's view with latency compensation.",
+   "exercise_zh": "用手机AR检测一个滚动的球并用抛物线/直线外推画出它未来1秒的位置；变化：故意显示“错误的未来”看同学是否被误导。"
+  },
+  {
+   "id": "yuta-itoh--adaptivisor",
+   "creator_ids": [
+    "yuta-itoh"
+   ],
+   "title": "AdaptiVisor",
+   "year": 2017,
+   "description": "An occlusion-capable see-through HMD selectively dims bright regions of the real world, like a sun visor per pixel, to help the eye adapt to glare.",
+   "idea_zh": "像素级墨镜：只把刺眼的那部分现实调暗。",
+   "interaction": [
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "occlusive optical see-through HMD",
+    "spatial light modulator",
+    "HDR camera"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "fi4PjGIbuu8",
+    "url": "https://www.youtube.com/watch?v=fi4PjGIbuu8"
+   },
+   "source_url": "https://www.youtube.com/watch?v=fi4PjGIbuu8",
+   "technique": "Uses a camera to find over-bright regions and an LCD panel in the optical path to attenuate exactly those pixels of real-world light.",
+   "exercise_zh": "用手机摄像头实时检测画面中最亮的区域并在视频透视中把它涂暗，做一个“智能防眩”滤镜；变化：反过来只保留最亮区域、其余全部变暗。"
+  },
+  {
+   "id": "yuta-itoh--occlusion-leak-compensation",
+   "creator_ids": [
+    "yuta-itoh"
+   ],
+   "title": "Occlusion Leak Compensation",
+   "year": 2017,
+   "description": "A see-through display that can make virtual objects truly opaque by blocking real light, and compensates the blurry 'leak' around the mask so edges look sharp.",
+   "idea_zh": "让透视AR里的虚拟物体真正挡住后面的现实。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "occlusion-capable OST display",
+    "spatial light modulator"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "iqSjFHu9wsI",
+    "url": "https://www.youtube.com/watch?v=iqSjFHu9wsI"
+   },
+   "source_url": "http://im-lab.net/occlusion-leak-compensation",
+   "technique": "Predicts the defocus blur of the occlusion mask and adds compensating light from the display so the combined image has crisp opaque edges.",
+   "exercise_zh": "用手机视频透视AR对比“半透明叠加”和“完全遮挡”两种虚拟物体渲染，观察哪种更像真的；变化：给虚拟物体加阴影后再比较。"
+  },
+  {
+   "id": "yuta-itoh--varifocal-occlusion",
+   "creator_ids": [
+    "yuta-itoh"
+   ],
+   "title": "Varifocal Occlusion",
+   "year": 2019,
+   "description": "An optical see-through HMD whose occlusion mask can be moved in focal depth, so real objects are blocked correctly whether they are near or far.",
+   "idea_zh": "遮挡层可以前后对焦，远近的现实都能被正确遮住。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "varifocal optics",
+    "occlusion mask"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "HKhp_ac_jV0",
+    "url": "https://www.youtube.com/watch?v=HKhp_ac_jV0"
+   },
+   "source_url": "",
+   "technique": "Slides the occlusion SLM along the optical axis so the mask's focal plane matches the depth of the real object being blocked.",
+   "exercise_zh": "用手机相机拍摄近处与远处两个物体，分别在对焦于近/远时叠加虚拟遮挡片，讨论为何会模糊；变化：用手动对焦App演示焦平面变化。"
+  },
+  {
+   "id": "pedro-lopes--affordance-plus-plus",
+   "creator_ids": [
+    "pedro-lopes"
+   ],
+   "title": "Affordance++",
+   "year": 2015,
+   "description": "Objects 'tell' the user how to use them by actuating the user's own hand with EMS: grabbing a spray can makes you shake it, touching a hot mug makes your hand pull back.",
+   "idea_zh": "物体通过电刺激直接“教”你的手怎么用它。",
+   "interaction": [
+    "hand-body",
+    "tangible-object"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "electrical muscle stimulation",
+    "object tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Gz4dphzBb6I",
+    "url": "https://www.youtube.com/watch?v=Gz4dphzBb6I"
+   },
+   "source_url": "https://lab.plopes.org",
+   "technique": "Detects which object the hand approaches and plays a pre-recorded EMS pattern on forearm muscles that enacts the object's intended movement.",
+   "exercise_zh": "给教室里的几个物品贴二维码，用手机AR识别后在手上叠加“动态使用提示”（如抖动、旋转箭头）；变化：提示用手机振动节奏而非图像表示。"
+  },
+  {
+   "id": "pedro-lopes--impacto",
+   "creator_ids": [
+    "pedro-lopes"
+   ],
+   "title": "Impacto",
+   "year": 2015,
+   "description": "A wearable combining a tactile solenoid tap with EMS muscle contraction so virtual boxing punches and soccer headers feel like real impacts.",
+   "idea_zh": "让VR里的一拳真的打到你身上。",
+   "interaction": [
+    "hand-body",
+    "game-play"
+   ],
+   "platform": [
+    "wearable",
+    "headset"
+   ],
+   "tech": [
+    "EMS",
+    "solenoid",
+    "VR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "k5e4mXQLq54",
+    "url": "https://www.youtube.com/watch?v=k5e4mXQLq54"
+   },
+   "source_url": "https://lab.plopes.org",
+   "technique": "Pairs a solenoid for the skin-level tap with EMS that jerks the limb backwards, together simulating the momentum of an impact.",
+   "exercise_zh": "做一个手机AR拳击游戏，被打中时同伴用泡沫棒轻拍你手臂（“人肉触觉”）；变化：比较有/无触觉时玩家的躲闪反应。"
+  },
+  {
+   "id": "pedro-lopes--ems-mixed-reality-force-feedback",
+   "creator_ids": [
+    "pedro-lopes"
+   ],
+   "title": "Force Feedback for Mixed Reality via EMS",
+   "year": 2018,
+   "description": "On HoloLens, virtual buttons, walls and heavy objects push back: EMS on the user's arm muscles creates resistance so the user feels them without holding any device.",
+   "idea_zh": "在HoloLens里按虚拟按钮、推虚拟墙，手臂真的感到阻力。",
+   "interaction": [
+    "hand-body",
+    "spatial-mapping",
+    "game-play"
+   ],
+   "platform": [
+    "headset",
+    "wearable"
+   ],
+   "tech": [
+    "HoloLens",
+    "electrical muscle stimulation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "qHRn05Kmzew",
+    "url": "https://www.youtube.com/watch?v=qHRn05Kmzew"
+   },
+   "source_url": "https://lab.plopes.org",
+   "technique": "Detects hand contact with virtual objects and stimulates antagonist muscles to create counter-force while leaving the hands free to touch real objects.",
+   "exercise_zh": "在手机AR里放置一面虚拟墙，当手机穿过墙时让手机持续强振动并变红来表示“阻力”；变化：用弹力带绑住手臂模拟推墙的真实阻力。"
+  },
+  {
+   "id": "pedro-lopes--touch-and-fold",
+   "creator_ids": [
+    "pedro-lopes"
+   ],
+   "title": "Touch&Fold",
+   "year": 2021,
+   "description": "A nail-mounted actuator unfolds a small pad onto the fingertip only when touching virtual objects, and folds away so the finger can feel real objects normally.",
+   "idea_zh": "指尖触觉器需要时展开、不需要时收起，虚实都能摸。",
+   "interaction": [
+    "hand-body",
+    "tangible-object"
+   ],
+   "platform": [
+    "wearable",
+    "headset"
+   ],
+   "tech": [
+    "foldable haptic actuator",
+    "mixed reality"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "yg8BOKhs4XM",
+    "url": "https://www.youtube.com/watch?v=yg8BOKhs4XM"
+   },
+   "source_url": "https://lab.plopes.org",
+   "technique": "Mounts a servo-driven folding tactor on the fingernail that rotates onto the pad for virtual contact and retracts for real-world touch.",
+   "exercise_zh": "做一个指套纸片装置：碰到手机AR中的虚拟物体时由同伴翻下纸片到指腹，碰真实物体时翻起；变化：纸片换成不同材质代表不同虚拟物。"
+  },
+  {
+   "id": "pedro-lopes--altering-perceived-softness",
+   "creator_ids": [
+    "pedro-lopes"
+   ],
+   "title": "Altering Perceived Softness of Real Rigid Objects",
+   "year": 2021,
+   "description": "A thin device restricts how the fingerpad deforms, so pressing a hard real object feels softer or harder than it is, useful for MR props.",
+   "idea_zh": "改变指腹变形，让硬桌子摸起来变软。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "fingerpad restriction",
+    "haptic illusion"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "I2BBV0JZ0ww",
+    "url": "https://www.youtube.com/watch?v=I2BBV0JZ0ww"
+   },
+   "source_url": "https://lab.plopes.org",
+   "technique": "Constrains lateral fingerpad spread with a rigid ring and nail mount, changing the tactile cue the brain uses to judge compliance.",
+   "exercise_zh": "让同学分别用裸指和戴胶带缠紧的手指按同一块海绵/桌面，评估软硬感差异；变化：配合手机AR显示“软/硬”的视觉提示看是否能强化错觉。"
+  },
+  {
+   "id": "pedro-lopes--feetthrough",
+   "creator_ids": [
+    "pedro-lopes"
+   ],
+   "title": "FeetThrough",
+   "year": 2023,
+   "description": "An electrotactile insole renders virtual textures and bumps under the feet while its thin design still lets the wearer feel the real ground.",
+   "idea_zh": "脚底既能感到虚拟地面，也不丢失真实地面的感觉。",
+   "interaction": [
+    "hand-body",
+    "location-geo"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "electrotactile stimulation",
+    "insole"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "lMln8FFJ4KA",
+    "url": "https://www.youtube.com/watch?v=lMln8FFJ4KA"
+   },
+   "source_url": "https://lab.plopes.org",
+   "technique": "Uses thin electrode arrays on the foot's arch and sides to deliver electrotactile patterns without covering the sole's pressure-sensing areas.",
+   "exercise_zh": "设计一个手机GPS/AR“脚下提示”行走路线：到达关键点时通过口袋里的手机振动提示；变化：振动模式模拟不同地面（草地、沙子）。"
+  },
+  {
+   "id": "pedro-lopes--stick-and-slip",
+   "creator_ids": [
+    "pedro-lopes"
+   ],
+   "title": "Stick&Slip",
+   "year": 2024,
+   "description": "Tiny liquid coatings are dispensed onto the fingertip to change friction on the fly, making any real surface feel sticky or slippery in mixed reality.",
+   "idea_zh": "往指尖涂一层液体，就能让任何表面变滑或变涩。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "liquid dispensing",
+    "friction modulation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "UxqNf1BSIoo",
+    "url": "https://www.youtube.com/watch?v=UxqNf1BSIoo"
+   },
+   "source_url": "https://lab.plopes.org",
+   "technique": "Pumps small amounts of lubricating or friction-raising liquids onto the fingerpad and removes them, altering finger-surface friction without instrumenting the surface.",
+   "exercise_zh": "准备护手霜、爽身粉、水三种指尖涂层，让同学摸同一张纸并描述感受，再配合手机AR给纸面换上冰面/沙地贴图；变化：盲测能否猜出涂层。"
+  },
+  {
+   "id": "michael-nebeling--protoar",
+   "creator_ids": [
+    "michael-nebeling"
+   ],
+   "title": "ProtoAR",
+   "year": 2018,
+   "description": "Designers sketch on paper and shape Play-Doh, capture them with a phone, and immediately place the captured 2D/3D assets in a working mobile AR prototype.",
+   "idea_zh": "纸上画、橡皮泥捏，拍一下就变成可用的AR原型。",
+   "interaction": [
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "photogrammetry",
+    "ARCore",
+    "paper prototyping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XSmxJHmlaOs",
+    "url": "https://www.youtube.com/watch?v=XSmxJHmlaOs"
+   },
+   "source_url": "https://michael-nebeling.de",
+   "technique": "Captures sketches as image layers and clay models via multi-angle photos turned into 3D, then streams them into a marker/plane-based AR viewer.",
+   "exercise_zh": "让学生用纸笔画界面、用橡皮泥捏角色，用手机扫描（如Reality Composer/Polycam）后在AR中摆放演示；变化：限定30分钟做出一个AR导览原型。"
+  },
+  {
+   "id": "michael-nebeling--360proto",
+   "creator_ids": [
+    "michael-nebeling"
+   ],
+   "title": "360proto",
+   "year": 2019,
+   "description": "Paper sketches drawn on equirectangular 360 grids are photographed and instantly viewed as immersive VR/AR scenes, with layers for interactive prototypes.",
+   "idea_zh": "在纸上画360度全景草图，拍一下就能在头显里走进去。",
+   "interaction": [
+    "drawing-creation",
+    "portal-world"
+   ],
+   "platform": [
+    "phone",
+    "headset"
+   ],
+   "tech": [
+    "360 paper templates",
+    "WebXR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "CY9xwOA5cmQ",
+    "url": "https://www.youtube.com/watch?v=CY9xwOA5cmQ"
+   },
+   "source_url": "https://michael-nebeling.de",
+   "technique": "Maps hand-drawn sketches on a distorted 360 grid template onto a sphere around the viewer, with layered sketches for AR overlays.",
+   "exercise_zh": "打印一张等距柱状投影网格纸让学生画一个房间，拍照后用手机全景查看器浏览；变化：在同一场景中叠加一层“AR标签”草图。"
+  },
+  {
+   "id": "michael-nebeling--xrdirector",
+   "creator_ids": [
+    "michael-nebeling"
+   ],
+   "title": "XRDirector",
+   "year": 2020,
+   "description": "A role-based collaborative authoring tool where one person acts as director, others as actors or camera, puppeteering virtual characters in AR together like filming a scene.",
+   "idea_zh": "像拍电影一样分角色：导演、演员、摄影一起在AR中排演。",
+   "interaction": [
+    "multiplayer-social",
+    "performance-stage",
+    "drawing-creation"
+   ],
+   "platform": [
+    "phone",
+    "headset"
+   ],
+   "tech": [
+    "shared AR",
+    "HoloLens",
+    "role-based authoring"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "mMp_hzLp3Yc",
+    "url": "https://www.youtube.com/watch?v=mMp_hzLp3Yc"
+   },
+   "source_url": "https://michael-nebeling.de",
+   "technique": "Synchronises a shared AR scene across devices and assigns each device a role with its own controls for moving characters, cameras and timelines.",
+   "exercise_zh": "分组用Reality Composer或共享AR App：一人做“导演”喊指令，两人各拿手机操控一个虚拟角色排演一个30秒短剧；变化：最后由“摄影师”手机录屏成片。"
+  },
+  {
+   "id": "michael-nebeling--mrat",
+   "creator_ids": [
+    "michael-nebeling"
+   ],
+   "title": "MRAT: Mixed Reality Analytics Toolkit",
+   "year": 2020,
+   "description": "A toolkit that logs and visualises how users move, look and interact in mixed reality apps, replaying their paths and gaze as 3D traces in the room.",
+   "idea_zh": "把用户在MR里走过的路和看过的地方画成空间轨迹。",
+   "interaction": [
+    "data-information",
+    "gaze-attention",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "HoloLens",
+    "interaction logging"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "DG5pqrQPdBc",
+    "url": "https://www.youtube.com/watch?v=DG5pqrQPdBc"
+   },
+   "source_url": "https://michael-nebeling.de",
+   "technique": "Instruments Unity MR apps to record head pose, gaze and input events and renders them as in-situ 3D heatmaps and trails.",
+   "exercise_zh": "用手机AR记录同学在教室里一次寻宝过程中手机的位置，事后在AR中回放为彩色轨迹线；变化：用颜色表示停留时间，讨论设计问题。"
+  },
+  {
+   "id": "michael-nebeling--xrstudio",
+   "creator_ids": [
+    "michael-nebeling"
+   ],
+   "title": "XRStudio",
+   "year": 2021,
+   "description": "A virtual production system for teaching in XR: the instructor's immersive session is mixed with real camera video and live-streamed so remote students can follow.",
+   "idea_zh": "把老师在XR里的讲课混合成直播画面给学生看。",
+   "interaction": [
+    "performance-stage",
+    "multiplayer-social",
+    "data-information"
+   ],
+   "platform": [
+    "headset",
+    "desktop"
+   ],
+   "tech": [
+    "virtual production",
+    "mixed reality capture",
+    "live streaming"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "bYLXVaLTdMo",
+    "url": "https://www.youtube.com/watch?v=bYLXVaLTdMo"
+   },
+   "source_url": "https://michael-nebeling.de",
+   "technique": "Composites the instructor's tracked XR view with external camera footage and scene cameras into multiple switchable streams.",
+   "exercise_zh": "用OBS把一名同学手机AR画面和教室摄像头画面合成直播，让他用AR讲解一个3D模型；变化：观众通过弹幕控制AR中模型的颜色。"
+  },
+  {
+   "id": "michael-nebeling--reframe",
+   "creator_ids": [
+    "michael-nebeling"
+   ],
+   "title": "Reframe",
+   "year": 2024,
+   "description": "An AR storyboarding tool where designers place characters and events in the real space to act out and analyse security and privacy threats of AR apps.",
+   "idea_zh": "在真实空间里用AR故事板演出隐私威胁场景。",
+   "interaction": [
+    "drawing-creation",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone",
+    "headset"
+   ],
+   "tech": [
+    "AR storyboarding",
+    "threat modeling"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "TFdgx44l6FE",
+    "url": "https://www.youtube.com/watch?v=TFdgx44l6FE"
+   },
+   "source_url": "https://michael-nebeling.de",
+   "technique": "Provides placeable character and annotation primitives in AR plus a threat-modelling framework to structure character-driven scenarios.",
+   "exercise_zh": "用手机AR在教室里摆放“用户/旁观者/攻击者”的虚拟小人，演出一个AR眼镜偷拍场景并讨论如何设计防护；变化：每组为对方的场景设计一个隐私补丁。"
+  },
+  {
+   "id": "lightform--renegade-projected-ar-vegas",
+   "creator_ids": [
+    "lightform"
+   ],
+   "title": "Renegade Projected AR in Downtown Vegas",
+   "year": 2018,
+   "description": "A Lightform projector on a cargo bike rides through downtown Las Vegas at night, scanning building facades and instantly mapping animated graphics onto them.",
+   "idea_zh": "骑着投影自行车，随走随扫描随投影，把城市墙面变成AR壁画。",
+   "interaction": [
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Lightform LF1",
+    "structured-light scanning",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "_RFa7f8If2c",
+    "url": "https://www.youtube.com/watch?v=_RFa7f8If2c"
+   },
+   "source_url": "https://lightform.com",
+   "technique": "The projector-camera unit projects structured-light patterns to capture a depth/edge map of the facade, then auto-aligns effects to its edges.",
+   "exercise_zh": "用手机投影仪或小投影机在夜晚对着校园墙面投射预先做好的动画，并用手机拍下墙面照片在Keynote里描边对齐；变化：投影内容必须利用墙上的一个真实裂缝或窗户。"
+  },
+  {
+   "id": "lightform--its-lit-ar-murals",
+   "creator_ids": [
+    "lightform"
+   ],
+   "title": "It's Lit! Projected AR Murals",
+   "year": 2018,
+   "description": "Lettering artist Gemma O'Brien and Craig Winslow hand-paint a mural, then Lightform projects animated light that traces, fills and reveals the painted letters.",
+   "idea_zh": "手绘壁画 + 投影动画，让静态字母“亮”起来。",
+   "interaction": [
+    "projection",
+    "drawing-creation"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Lightform",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XTR-NhJ9em8",
+    "url": "https://www.youtube.com/watch?v=XTR-NhJ9em8"
+   },
+   "source_url": "https://lightform.com",
+   "technique": "Scans the painted mural to extract its line work, then uses those edges as masks and paths for projected animated effects.",
+   "exercise_zh": "让学生在白纸板上用黑色马克笔写大字，再用投影仪和免费投影映射软件（如MapMap）沿笔画投射流光；变化：用声音音量控制光的亮度。"
+  },
+  {
+   "id": "lightform--lf2-design-tools-for-projection",
+   "creator_ids": [
+    "lightform"
+   ],
+   "title": "Lightform LF2 and Lightform Creator",
+   "year": 2019,
+   "description": "The LF2 projector-camera and Creator software scan a scene of objects and let designers select surfaces and apply animated effects in minutes.",
+   "idea_zh": "扫描一下场景，就能给每个物体表面选特效。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "LF2",
+    "computer vision",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "uTTVjHoH734",
+    "url": "https://www.youtube.com/watch?v=uTTVjHoH734"
+   },
+   "source_url": "https://lightform.com",
+   "technique": "Captures a high-resolution scan from the projector's viewpoint so every pixel of the scan corresponds to a projector pixel, removing manual calibration.",
+   "exercise_zh": "把几个白色纸盒堆在桌上，用投影仪+OBS/MapMap为每个面分配不同颜色动画；变化：挪动一个盒子后在1分钟内重新对齐。"
+  },
+  {
+   "id": "lightform--nightbloom",
+   "creator_ids": [
+    "lightform"
+   ],
+   "title": "NightBloom at the Conservatory of Flowers",
+   "year": 2019,
+   "description": "An immersive night event at San Francisco's Conservatory of Flowers where projections wash over living plants and glasshouse structures.",
+   "idea_zh": "把投影打在真实植物上，让温室在夜里“开花”。",
+   "interaction": [
+    "projection",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Lightform LFC",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "45tjfOd4vzg",
+    "url": "https://www.youtube.com/watch?v=45tjfOd4vzg"
+   },
+   "source_url": "https://lightform.com",
+   "technique": "Uses scan-based alignment to project organic animated textures onto irregular foliage and architecture.",
+   "exercise_zh": "在教室里把投影打在一盆植物上，投射缓慢变化的色彩和光点；变化：用手机麦克风让植物上的光随说话声“呼吸”。"
+  },
+  {
+   "id": "lightform--project-lfx",
+   "creator_ids": [
+    "lightform"
+   ],
+   "title": "Project LFX: Steerable Projected Interfaces",
+   "year": 2021,
+   "description": "A pan-and-tilt projector that moves projected interfaces around the room onto tables, walls and objects wherever they are needed.",
+   "idea_zh": "会转头的投影仪，把界面送到房间里任何表面。",
+   "interaction": [
+    "projection",
+    "spatial-mapping",
+    "data-information"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "steerable projector",
+    "pan-tilt mount",
+    "room scanning"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "3XIGxNP3-Mk",
+    "url": "https://www.youtube.com/watch?v=3XIGxNP3-Mk"
+   },
+   "source_url": "https://lightform.com",
+   "technique": "Mounts a projector-camera on a motorized pan-tilt head and re-warps content in real time for each target surface in a scanned room model.",
+   "exercise_zh": "把手机投影仪放在可转动的台灯臂或旋转底座上，手动转动把一个“计时器界面”投到桌面、墙面、门上；变化：用舵机+Arduino让它自动跟随一个人。"
+  },
+  {
+   "id": "rajinder-sodhi--lightguide",
+   "creator_ids": [
+    "rajinder-sodhi",
+    "msr-benko-wilson"
+   ],
+   "title": "LightGuide",
+   "year": 2012,
+   "description": "A ceiling projector draws arrows, color gradients and 3D cues directly on the user's hand to guide it along a precise movement path.",
+   "idea_zh": "把动作提示直接投影在你的手上，手跟着光走。",
+   "interaction": [
+    "projection",
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "depth camera",
+    "projector",
+    "on-body projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "vNaw9GpuVLQ",
+    "url": "https://www.youtube.com/watch?v=vNaw9GpuVLQ"
+   },
+   "source_url": "https://www.youtube.com/watch?v=vNaw9GpuVLQ",
+   "technique": "Tracks the hand with a depth camera and renders movement-guidance visualizations warped onto the hand surface in real time.",
+   "exercise_zh": "用投影仪在桌面/手上投射一条动画路径，让同学用手跟随画出一个字母；变化：用手机AR改为在屏幕上把箭头贴在手上，比较两种引导的准确度。"
+  },
+  {
+   "id": "rajinder-sodhi--bethere",
+   "creator_ids": [
+    "rajinder-sodhi",
+    "lightform"
+   ],
+   "title": "BeThere",
+   "year": 2013,
+   "description": "A mobile 3D collaboration system where a remote user sees a reconstructed 3D copy of the local space and reaches in with tracked hands to point and manipulate.",
+   "idea_zh": "远程的人把手“伸进”你的空间指指点点。",
+   "interaction": [
+    "multiplayer-social",
+    "hand-body",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "depth sensor on mobile",
+    "3D reconstruction",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "3wVFcrowS74",
+    "url": "https://www.youtube.com/watch?v=3wVFcrowS74"
+   },
+   "source_url": "https://www.youtube.com/watch?v=3wVFcrowS74",
+   "technique": "Attaches a depth sensor to a mobile device to capture the scene and the user's hand, sharing both as 3D data so remote hands appear in the local AR view.",
+   "exercise_zh": "组织两人视频通话：远程者在截图上画圈画箭头，本地者用手机AR把这些标记放到真实物体上完成组装任务；变化：只允许用手势不许说话。"
+  },
+  {
+   "id": "autodesk-research--penlight",
+   "creator_ids": [
+    "autodesk-research"
+   ],
+   "title": "PenLight",
+   "year": 2009,
+   "description": "A digital pen with a built-in mini projector overlays digital content, such as building floor-plan layers, directly onto the paper where you are writing.",
+   "idea_zh": "笔尖自带投影，写在纸上的同时把数字图层投在纸上。",
+   "interaction": [
+    "projection",
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection",
+    "wearable"
+   ],
+   "tech": [
+    "digital pen",
+    "pico projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "9pQz-YviPOA",
+    "url": "https://www.youtube.com/watch?v=9pQz-YviPOA"
+   },
+   "source_url": "https://www.research.autodesk.com",
+   "technique": "Tracks the pen's position on dot-pattern paper and projects spatially registered overlays around the pen tip.",
+   "exercise_zh": "用手机投影仪对准一张打印的平面图，从上方投射“隐藏的水管/电路层”，学生用笔描出；变化：用手机AR替代投影，比较手持与投影的体验。"
+  },
+  {
+   "id": "autodesk-research--youmove",
+   "creator_ids": [
+    "autodesk-research"
+   ],
+   "title": "YouMove",
+   "year": 2013,
+   "description": "An AR mirror records an expert's movement and then trains learners by overlaying skeleton guides and feedback on their mirror reflection, gradually removing guidance.",
+   "idea_zh": "AR魔镜把老师的动作叠在你的镜像上，一步步教你跳。",
+   "interaction": [
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Kinect",
+    "half-silvered mirror",
+    "skeleton tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "DsZ-9opi150",
+    "url": "https://www.youtube.com/watch?v=DsZ-9opi150"
+   },
+   "source_url": "https://www.research.autodesk.com",
+   "technique": "Uses Kinect skeleton tracking behind a large half-silvered mirror to draw recorded motion guides aligned with the user's reflection and score their accuracy.",
+   "exercise_zh": "用手机前摄+人体姿态识别（如MediaPipe/Effect House）叠加一个“老师骨架”，学生跟着做一套广播操并获得评分；变化：逐步淡化骨架直到完全隐藏。"
+  },
+  {
+   "id": "autodesk-research--ivy",
+   "creator_ids": [
+    "autodesk-research"
+   ],
+   "title": "Ivy: Spatially Situated Visual Programming",
+   "year": 2017,
+   "description": "In VR/AR, users see the sensors and actuators of a smart environment where they physically are and wire them together with visual-programming links in space.",
+   "idea_zh": "在真实房间里用连线把灯、传感器“编程”起来。",
+   "interaction": [
+    "data-information",
+    "spatial-mapping",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "visual programming",
+    "IoT",
+    "HTC Vive"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Gn8sBvKHHYk",
+    "url": "https://www.youtube.com/watch?v=Gn8sBvKHHYk"
+   },
+   "source_url": "https://www.research.autodesk.com",
+   "technique": "Anchors node-graph widgets to each device's physical location and lets users draw dataflow connections between them in 3D.",
+   "exercise_zh": "给教室里的灯、门、窗贴二维码，用手机AR显示它们的“节点”，学生画线组合“门开→灯亮”的规则（可用Home自动化模拟）；变化：规则由两人合作一个画输入一个画输出。"
+  },
+  {
+   "id": "autodesk-research--hydroring",
+   "creator_ids": [
+    "autodesk-research"
+   ],
+   "title": "HydroRing",
+   "year": 2018,
+   "description": "A thin ring pumps warm, cold or pulsing liquid through a latex tube on the fingertip to create pressure, vibration and temperature cues while leaving touch of real objects intact.",
+   "idea_zh": "用流动的液体在指尖产生冷热和压感，又不妨碍摸真实物体。",
+   "interaction": [
+    "hand-body",
+    "tangible-object"
+   ],
+   "platform": [
+    "wearable",
+    "headset"
+   ],
+   "tech": [
+    "liquid flow haptics",
+    "HoloLens"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ofRJ80eyEQw",
+    "url": "https://www.youtube.com/watch?v=ofRJ80eyEQw"
+   },
+   "source_url": "https://www.research.autodesk.com",
+   "technique": "Drives liquid through a thin tube over the fingerpad with pumps and heaters, modulating flow and temperature to render haptic effects.",
+   "exercise_zh": "让同学手指分别接触冷水袋和温水袋，同时在手机AR中看到“冰块/火焰”，讨论视觉与触觉一致时的真实感；变化：故意让视觉与温度相反。"
+  },
+  {
+   "id": "autodesk-research--authar",
+   "creator_ids": [
+    "autodesk-research"
+   ],
+   "title": "AuthAR",
+   "year": 2019,
+   "description": "While an expert assembles furniture, the system records video and 3D tracking to author an AR assembly tutorial at the same time, which learners then follow in a headset.",
+   "idea_zh": "边组装边自动生成AR教程。",
+   "interaction": [
+    "data-information",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "Kinect",
+    "tutorial authoring"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "75GGfsBshvs",
+    "url": "https://www.youtube.com/watch?v=75GGfsBshvs"
+   },
+   "source_url": "https://www.research.autodesk.com",
+   "technique": "Combines object tracking with synchronized video capture so each assembly step becomes a spatially anchored AR instruction with clips and annotations.",
+   "exercise_zh": "分成两人一组：一人组装乐高时用手机录制每一步，另一人用Reality Composer把每步视频/箭头放在对应零件位置上，给第三人使用；变化：教程不许用文字。"
+  },
+  {
+   "id": "autodesk-research--loki",
+   "creator_ids": [
+    "autodesk-research"
+   ],
+   "title": "Loki",
+   "year": 2019,
+   "description": "A bi-directional mixed-reality telepresence system where teacher and learner can each switch between video, 3D capture and virtual-replica views to demonstrate physical tasks.",
+   "idea_zh": "师生双向混合现实远程教学，可在视频、3D和虚拟复本间切换。",
+   "interaction": [
+    "multiplayer-social",
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR/AR telepresence",
+    "RGB-D capture",
+    "recording and playback"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "cBN1XZXZw3Y",
+    "url": "https://www.youtube.com/watch?v=cBN1XZXZw3Y"
+   },
+   "source_url": "https://www.youtube.com/watch?v=cBN1XZXZw3Y",
+   "technique": "Streams RGB-D point clouds of both spaces and lets either user record, annotate and replay 3D demonstrations inside the other's environment.",
+   "exercise_zh": "搭建两间教室间的视频通话+手机AR远程折纸课：老师的手部动作录成短视频挂在学生AR桌面上；变化：学生也能回传自己的错误动作让老师标注。"
+  },
+  {
+   "id": "madeline-gannon--tactum",
+   "creator_ids": [
+    "madeline-gannon",
+    "golan-levin"
+   ],
+   "title": "Tactum",
+   "year": 2015,
+   "description": "Touch and pinch gestures on your own forearm are tracked and a projector shows a live 3D-printable wearable form growing on your skin as you design it.",
+   "idea_zh": "在自己的手臂上用手势“捏”出一件可3D打印的饰品。",
+   "interaction": [
+    "projection",
+    "hand-body",
+    "drawing-creation"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "depth sensing",
+    "projection mapping",
+    "3D printing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "tOVommpNzPA",
+    "url": "https://www.youtube.com/watch?v=tOVommpNzPA"
+   },
+   "source_url": "https://atonaton.com",
+   "technique": "Tracks the arm with a depth camera, interprets skin touches as modelling gestures and projection-maps the resulting geometry back onto the arm.",
+   "exercise_zh": "用手机AR手部追踪在手臂上放置可拉伸的虚拟手镯，并用手势调整形状后导出截图做纸模；变化：投影仪从上方把设计投在真实手臂上。"
+  },
+  {
+   "id": "madeline-gannon--exoskin",
+   "creator_ids": [
+    "madeline-gannon",
+    "autodesk-research"
+   ],
+   "title": "ExoSkin",
+   "year": 2016,
+   "description": "A hybrid fabrication system for designing and 3D-printing wearables directly on the body, combining on-body modelling with printing onto a body-shaped surface.",
+   "idea_zh": "直接在身体上设计并打印可穿戴物。",
+   "interaction": [
+    "hand-body",
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "on-body modelling",
+    "3D printing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "slaDdfWaruk",
+    "url": "https://www.youtube.com/watch?v=slaDdfWaruk"
+   },
+   "source_url": "https://atonaton.com",
+   "technique": "Scans the body part, lets the designer model around it in 3D, and prints the wearable in place on a body-shaped form.",
+   "exercise_zh": "用手机扫描同学的手腕（Polycam等），在3D软件里围绕模型画一条饰带并用纸条按比例还原；变化：在AR中先试戴再制作。"
+  },
+  {
+   "id": "denis-kalkofen--interactive-focus-context-ar",
+   "creator_ids": [
+    "denis-kalkofen",
+    "tu-graz-wagner-schmalstieg"
+   ],
+   "title": "Interactive Focus and Context Visualization for AR",
+   "year": 2007,
+   "description": "A magic-lens style AR view that reveals hidden internal parts of a real object (e.g. a car engine) while preserving key edges of the outside for depth cues.",
+   "idea_zh": "像透视镜一样看见物体内部，同时保留外壳轮廓帮你判断深度。",
+   "interaction": [
+    "perception-art",
+    "data-information",
+    "portal-world"
+   ],
+   "platform": [
+    "desktop",
+    "phone"
+   ],
+   "tech": [
+    "X-ray visualization",
+    "edge detection",
+    "marker tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "NOkWzJG2Ru4",
+    "url": "https://www.youtube.com/watch?v=NOkWzJG2Ru4"
+   },
+   "source_url": "https://www.youtube.com/watch?v=NOkWzJG2Ru4",
+   "technique": "Renders hidden virtual structure inside a focus region and composites real-world edges extracted from the video as context to keep occlusion cues.",
+   "exercise_zh": "用手机AR在一个真实纸盒上叠加“内部结构”3D模型，并用描边保留盒子外轮廓，对比有无轮廓时的深度感；变化：让透视区域跟随手指移动。"
+  },
+  {
+   "id": "denis-kalkofen--adaptive-ghosted-views",
+   "creator_ids": [
+    "denis-kalkofen",
+    "tu-graz-wagner-schmalstieg"
+   ],
+   "title": "Adaptive Ghosted Views for AR",
+   "year": 2013,
+   "description": "Ghosted X-ray views that adapt which real-world features to keep visible, so hidden pipes or rooms behind a wall stay readable without losing the wall.",
+   "idea_zh": "自适应的“幽灵透视”：墙后管线可见，墙本身也不消失。",
+   "interaction": [
+    "perception-art",
+    "data-information",
+    "portal-world"
+   ],
+   "platform": [
+    "phone",
+    "desktop"
+   ],
+   "tech": [
+    "ghosting",
+    "image-based importance",
+    "X-ray AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xQlbeVjx0TI",
+    "url": "https://www.youtube.com/watch?v=xQlbeVjx0TI"
+   },
+   "source_url": "https://www.youtube.com/watch?v=xQlbeVjx0TI",
+   "technique": "Computes importance from real-world image features and adapts the transparency of the occluder per pixel before revealing the hidden virtual layer.",
+   "exercise_zh": "给一面贴有海报的墙做AR“看穿墙”效果：把海报的主要线条保留为半透明，后面显示虚拟管道；变化：让同学评估保留多少细节最好。"
+  },
+  {
+   "id": "denis-kalkofen--dynamic-compact-visualizations",
+   "creator_ids": [
+    "denis-kalkofen",
+    "tu-graz-wagner-schmalstieg"
+   ],
+   "title": "Dynamic Compact Visualizations for AR",
+   "year": 2013,
+   "description": "AR annotations and exploded views of a real object are laid out compactly and reorganise dynamically as the viewpoint changes, avoiding clutter.",
+   "idea_zh": "AR标注和爆炸图随视角自动重新排布，永不杂乱。",
+   "interaction": [
+    "data-information",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone",
+    "desktop"
+   ],
+   "tech": [
+    "view management",
+    "exploded views",
+    "tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xL1aV9C4tYY",
+    "url": "https://www.youtube.com/watch?v=xL1aV9C4tYY"
+   },
+   "source_url": "https://www.youtube.com/watch?v=xL1aV9C4tYY",
+   "technique": "Uses view-management optimisation to cluster and position labels and explosion diagrams in screen space each frame.",
+   "exercise_zh": "用手机AR为一台拆开的旧电器零件加标签，让同学设计标签在转动视角时如何避免重叠；变化：只允许显示3个标签，其余折叠。"
+  },
+  {
+   "id": "denis-kalkofen--retargeting-technical-documentation",
+   "creator_ids": [
+    "denis-kalkofen",
+    "tu-graz-wagner-schmalstieg"
+   ],
+   "title": "Retargeting Technical Documentation to AR",
+   "year": 2015,
+   "description": "Printed instruction manuals are automatically converted into 3D AR instructions: the arrows and steps from paper diagrams are mapped onto the real device.",
+   "idea_zh": "把纸质说明书自动变成叠在实物上的AR步骤。",
+   "interaction": [
+    "data-information",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "document analysis",
+    "model-based tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "SyM931lWDvo",
+    "url": "https://www.youtube.com/watch?v=SyM931lWDvo"
+   },
+   "source_url": "https://www.youtube.com/watch?v=SyM931lWDvo",
+   "technique": "Parses manual illustrations, registers them to a 3D model of the device, and re-renders arrows and motion cues in AR on the tracked real object.",
+   "exercise_zh": "挑一份宜家说明书的一页，学生用Reality Composer把其中的箭头和零件动画放到真实物件上；变化：比较纸质与AR版本谁装得更快。"
+  },
+  {
+   "id": "denis-kalkofen--retargeting-video-tutorials",
+   "creator_ids": [
+    "denis-kalkofen",
+    "tu-graz-wagner-schmalstieg"
+   ],
+   "title": "Retargeting Video Tutorials to AR",
+   "year": 2017,
+   "description": "Tool paths in video tutorials (e.g. painting or sanding strokes on a surface) are extracted and replayed as 3D AR guides on the user's own object.",
+   "idea_zh": "把视频教程里的工具动作抽出来，变成叠在自己物体上的AR轨迹。",
+   "interaction": [
+    "data-information",
+    "hand-body",
+    "drawing-creation"
+   ],
+   "platform": [
+    "phone",
+    "desktop"
+   ],
+   "tech": [
+    "video analysis",
+    "tool tracking",
+    "AR playback"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FWytd1m6dKk",
+    "url": "https://www.youtube.com/watch?v=FWytd1m6dKk"
+   },
+   "source_url": "https://www.youtube.com/watch?v=FWytd1m6dKk",
+   "technique": "Tracks the tool and its surface contact in the source video, reconstructs the 3D path, and renders it as animated guides registered to the target surface.",
+   "exercise_zh": "选一段书法或描线教学视频，手动描出其中的笔画路径，用手机AR叠加在学生自己的纸上跟写；变化：路径速度随学生书写速度自适应。"
+  },
+  {
+   "id": "denis-kalkofen--mr-light-fields-remote-assistance",
+   "creator_ids": [
+    "denis-kalkofen"
+   ],
+   "title": "Mixed Reality Light Fields for Remote Assistance",
+   "year": 2020,
+   "description": "A local worker captures a light field of a workspace with a phone; the remote expert explores it with free viewpoints and places annotations that appear in the worker's AR view.",
+   "idea_zh": "用手机拍下光场，远程专家自由看角度并把标注放回现场AR。",
+   "interaction": [
+    "multiplayer-social",
+    "data-information",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "desktop"
+   ],
+   "tech": [
+    "light fields",
+    "remote assistance",
+    "AR annotation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "NNmt-5NMuOk",
+    "url": "https://www.youtube.com/watch?v=NNmt-5NMuOk"
+   },
+   "source_url": "https://www.youtube.com/watch?v=NNmt-5NMuOk",
+   "technique": "Captures many registered images to render novel views of the scene for the remote helper, then anchors their 3D annotations back in the local tracking space.",
+   "exercise_zh": "让学生甲用手机从多个角度拍一个桌面故障（如接线），学生乙在照片上标注步骤，甲再用AR标签还原到现场；变化：限定乙只能看3张照片。"
+  },
+  {
+   "id": "magic-leap-studios--whale-in-gym",
+   "creator_ids": [
+    "magic-leap-studios",
+    "greg-broadmore"
+   ],
+   "title": "Whale in the Gym (concept)",
+   "year": 2015,
+   "description": "A humpback whale bursts out of a school gym floor in front of students and splashes back down, a concept film for shared, room-scale mixed reality.",
+   "idea_zh": "一头鲸鱼从学校体育馆地板里跃出。",
+   "interaction": [
+    "perception-art",
+    "portal-world",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "concept film",
+    "VFX"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "LM0T6hLH15k",
+    "url": "https://www.youtube.com/watch?v=LM0T6hLH15k"
+   },
+   "source_url": "https://www.youtube.com/watch?v=LM0T6hLH15k",
+   "technique": "Concept visualization (likely VFX compositing rather than live headset capture) of a large creature breaking through a real floor plane.",
+   "exercise_zh": "用手机AR（如Reality Composer）让一个巨大动物从教室地板“冲出”，并设计一个遮挡的洞口效果；变化：全班同时用多部手机看到同一只动物。"
+  },
+  {
+   "id": "magic-leap-studios--magic-leap-create",
+   "creator_ids": [
+    "magic-leap-studios"
+   ],
+   "title": "Magic Leap Create",
+   "year": 2018,
+   "description": "A mixed-reality toy box: place dinosaurs, knights, dominoes and paint strokes in your room, and they fight, topple and bounce off real furniture.",
+   "idea_zh": "在客厅里摆放恐龙、骑士和多米诺，它们会与真实家具互动。",
+   "interaction": [
+    "drawing-creation",
+    "spatial-mapping",
+    "game-play"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Magic Leap One",
+    "world meshing",
+    "physics"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "BCL_pjRsV6M",
+    "url": "https://www.youtube.com/watch?v=BCL_pjRsV6M"
+   },
+   "source_url": "https://www.youtube.com/watch?v=BCL_pjRsV6M",
+   "technique": "Uses the headset's world mesh as a physics collider so user-placed toys and strokes land on, bounce off and hide behind real surfaces.",
+   "exercise_zh": "用手机AR的平面检测+物理（Reality Composer或Unity AR Foundation）搭一条跨越桌子和地面的虚拟多米诺；变化：必须利用一个真实物体作为机关。"
+  },
+  {
+   "id": "magic-leap-studios--dodge",
+   "creator_ids": [
+    "magic-leap-studios"
+   ],
+   "title": "Dodge (developer sample)",
+   "year": 2018,
+   "description": "Rock golems rise out of your real floor and hurl boulders that you physically dodge while swatting others away with hand gestures.",
+   "idea_zh": "石头怪从真实地板里钻出来扔石头，你要真的躲。",
+   "interaction": [
+    "spatial-mapping",
+    "hand-body",
+    "game-play"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Magic Leap One",
+    "world meshing",
+    "gesture input"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "bT5LFe-muR8",
+    "url": "https://www.youtube.com/watch?v=bT5LFe-muR8"
+   },
+   "source_url": "https://www.youtube.com/watch?v=bT5LFe-muR8",
+   "technique": "Spawns characters on detected floor meshes and uses head position as the target so the player's real body movement is the core mechanic.",
+   "exercise_zh": "用手机AR做一个躲避游戏：虚拟球从地面某点向手机飞来，玩家需要移动身体躲开；变化：两名玩家互相为对方放置发射点。"
+  },
+  {
+   "id": "magic-leap-studios--mica",
+   "creator_ids": [
+    "magic-leap-studios"
+   ],
+   "title": "Mica",
+   "year": 2018,
+   "description": "A photoreal digital human sits at your real table, makes eye contact, reacts to your gaze and shares small moments without speaking.",
+   "idea_zh": "一个会和你对视、坐在你真实桌旁的数字人。",
+   "interaction": [
+    "gaze-attention",
+    "face",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Magic Leap One",
+    "eye tracking",
+    "digital human"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XNb42Lw0lBU",
+    "url": "https://www.youtube.com/watch?v=XNb42Lw0lBU"
+   },
+   "source_url": "https://www.youtube.com/watch?v=XNb42Lw0lBU",
+   "technique": "Drives the character's gaze and expressions from the user's tracked eye direction and anchors her to detected table and chair surfaces.",
+   "exercise_zh": "用手机AR放置一个虚拟角色，使其头部始终转向手机镜头（LookAt），让同学体验被注视的感觉；变化：角色只在你不看它时移动。"
+  },
+  {
+   "id": "magic-leap-studios--undersea",
+   "creator_ids": [
+    "magic-leap-studios"
+   ],
+   "title": "Undersea",
+   "year": 2019,
+   "description": "A living coral reef appears in your room; fish swim around your furniture and respond as you reach toward them with your hands.",
+   "idea_zh": "把一片会回应你手的珊瑚礁搬进房间。",
+   "interaction": [
+    "portal-world",
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Magic Leap One",
+    "hand tracking",
+    "procedural animation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "-i-FVyd8MoM",
+    "url": "https://www.youtube.com/watch?v=-i-FVyd8MoM"
+   },
+   "source_url": "https://www.youtube.com/watch?v=-i-FVyd8MoM",
+   "technique": "Places a reef ecosystem on meshed surfaces and uses hand tracking to trigger flocking-avoidance behaviours in the fish.",
+   "exercise_zh": "用手机AR在地板放一片虚拟珊瑚和鱼群，鱼群会躲避手机靠近（距离检测）；变化：用手机手电筒光照吸引鱼群聚集。"
+  },
+  {
+   "id": "ilmxlab--lost-droids",
+   "creator_ids": [
+    "ilmxlab",
+    "magic-leap-studios"
+   ],
+   "title": "Lost Droids (MR test)",
+   "year": 2016,
+   "description": "Shot through Magic Leap optics: R2-D2 and C-3PO appear in a real office, R2 projects a hologram message and the droids react to the viewer.",
+   "idea_zh": "星战机器人出现在真实办公室里并向你投射全息信息。",
+   "interaction": [
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Magic Leap prototype",
+    "ILM character animation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "lP5ZZI05A3g",
+    "url": "https://www.youtube.com/watch?v=lP5ZZI05A3g"
+   },
+   "source_url": "https://www.youtube.com/watch?v=lP5ZZI05A3g",
+   "technique": "Real-time rendered characters anchored to the physical room and filmed directly through the prototype's optics.",
+   "exercise_zh": "用手机AR让一个角色在教室里“投射”一段录好的视频留言（在角色上方播放视频平面）；变化：留言只在两人同时观看时播放。"
+  },
+  {
+   "id": "ilmxlab--project-porg",
+   "creator_ids": [
+    "ilmxlab",
+    "magic-leap-studios"
+   ],
+   "title": "Star Wars: Project Porg",
+   "year": 2019,
+   "description": "Adopt porgs that waddle around your real home, recognise surfaces and play fetch with you on Magic Leap.",
+   "idea_zh": "把星战里的Porg当宠物养在家里。",
+   "interaction": [
+    "spatial-mapping",
+    "game-play",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Magic Leap One",
+    "world meshing",
+    "character AI"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "qvXAhbM6y6M",
+    "url": "https://www.youtube.com/watch?v=qvXAhbM6y6M"
+   },
+   "source_url": "https://www.youtube.com/watch?v=qvXAhbM6y6M",
+   "technique": "Character behaviour trees query the room mesh for walkable surfaces and toys so the pets navigate and play in the real space.",
+   "exercise_zh": "用手机AR做一个会在桌面上跟随手机移动、捡球的小宠物（导航网格或简单跟随脚本）；变化：宠物会记住你上次放玩具的位置。"
+  },
+  {
+   "id": "microsoft-hololens--minecraft-hololens-e3",
+   "creator_ids": [
+    "microsoft-hololens",
+    "mojang-minecraft-earth"
+   ],
+   "title": "Minecraft for HoloLens (E3 demo)",
+   "year": 2015,
+   "description": "On stage at E3, a player sees a Minecraft world built on a real coffee table, zooms into it, opens it like a dollhouse and commands it by voice.",
+   "idea_zh": "把整个Minecraft世界放在真实茶几上，用语音和手势操控。",
+   "interaction": [
+    "spatial-mapping",
+    "game-play",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "spatial mapping",
+    "voice commands"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FNoHNTaP_Gk",
+    "url": "https://www.youtube.com/watch?v=FNoHNTaP_Gk"
+   },
+   "source_url": "https://www.youtube.com/watch?v=FNoHNTaP_Gk",
+   "technique": "Anchors a scaled game world to a detected table surface and combines gaze, air-tap and voice for world manipulation.",
+   "exercise_zh": "用手机AR把一个方块小世界放在桌面上，并用语音指令（如iOS快捷指令或Web Speech）“爆炸/下雨”；变化：让观众在另一部手机上看到同一世界。"
+  },
+  {
+   "id": "microsoft-hololens--roboraid",
+   "creator_ids": [
+    "microsoft-hololens",
+    "asobo-studio"
+   ],
+   "title": "RoboRaid",
+   "year": 2016,
+   "description": "Alien robots burst through your actual walls, leaving cracks, and you shoot them with gaze and air-tap while physically dodging projectiles.",
+   "idea_zh": "外星机器人从你家真实墙壁破墙而入。",
+   "interaction": [
+    "spatial-mapping",
+    "game-play",
+    "gaze-attention"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "spatial mapping",
+    "spatial sound"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Hf9qkURqtbM",
+    "url": "https://www.youtube.com/watch?v=Hf9qkURqtbM"
+   },
+   "source_url": "https://www.youtube.com/watch?v=Hf9qkURqtbM",
+   "technique": "Uses the spatial-mapping mesh to pick wall spawn points and render crack decals, with spatial audio signalling enemies behind the player.",
+   "exercise_zh": "用手机AR检测竖直墙面并在墙上生成“破洞”贴图和钻出的敌人，玩家用准星点击射击；变化：只用声音提示敌人方位。"
+  },
+  {
+   "id": "microsoft-hololens--holostudio",
+   "creator_ids": [
+    "microsoft-hololens"
+   ],
+   "title": "HoloStudio",
+   "year": 2016,
+   "description": "Build 3D models in 3D with holographic tools modelled on real ones, then send them to a 3D printer to become physical objects.",
+   "idea_zh": "用手势在空中搭建3D模型，再打印成实物。",
+   "interaction": [
+    "drawing-creation",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "gesture modelling",
+    "3D printing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "BRIJG0x_We8",
+    "url": "https://www.youtube.com/watch?v=BRIJG0x_We8"
+   },
+   "source_url": "https://www.youtube.com/watch?v=BRIJG0x_We8",
+   "technique": "Provides a toolbelt of primitive shapes and holographic tools manipulated with gaze and air-tap, exporting printable meshes.",
+   "exercise_zh": "用手机AR（如Reality Composer）拼搭一个桌面雕塑，截图导出后用纸板/黏土做实体版本；变化：规定只能使用三种基本形状。"
+  },
+  {
+   "id": "meta-reality-labs--the-world-beyond",
+   "creator_ids": [
+    "meta-reality-labs",
+    "thomas-van-bouwel"
+   ],
+   "title": "The World Beyond",
+   "year": 2022,
+   "description": "A Presence Platform showcase where you shine a flashlight to dissolve your real walls into an alien world and play with Oppy, a pet that responds to hand gestures and voice.",
+   "idea_zh": "用“手电”把真实墙壁溶解成外星世界，还有一只听你话的宠物。",
+   "interaction": [
+    "portal-world",
+    "spatial-mapping",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest",
+    "Scene API",
+    "passthrough",
+    "voice SDK"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "SfQnR6hYeJM",
+    "url": "https://www.youtube.com/watch?v=SfQnR6hYeJM"
+   },
+   "source_url": "https://github.com/oculus-samples/Unity-TheWorldBeyond",
+   "technique": "Uses the Scene model to know wall planes, then masks passthrough with a shader where the virtual flashlight hits, revealing the VR world behind.",
+   "exercise_zh": "用手机AR检测墙面，在手机指向处挖出一个圆形“洞”显示另一个世界（遮罩着色器或Portal组件）；变化：洞只在你说出咒语时打开。"
+  },
+  {
+   "id": "meta-reality-labs--first-encounters",
+   "creator_ids": [
+    "meta-reality-labs",
+    "thomas-van-bouwel"
+   ],
+   "title": "First Encounters",
+   "year": 2023,
+   "description": "Fluffy aliens attack after your ship crashes into your room; you shoot holes through your real walls to see space outside and chase aliens through them.",
+   "idea_zh": "打穿自家墙壁，看见外面的外星空间。",
+   "interaction": [
+    "portal-world",
+    "spatial-mapping",
+    "game-play"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Scene API",
+    "passthrough"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "t4jcAbfDoPI",
+    "url": "https://www.youtube.com/watch?v=t4jcAbfDoPI"
+   },
+   "source_url": "https://www.youtube.com/watch?v=t4jcAbfDoPI",
+   "technique": "Scans the room into a scene mesh, then replaces passthrough with a virtual exterior wherever the player's shots break wall segments.",
+   "exercise_zh": "用手机AR检测墙面，被点击的地方贴出“破洞”并透出一张太空全景；变化：破洞越多，房间里的“外星生物”越多。"
+  },
+  {
+   "id": "apple--swiftshot",
+   "creator_ids": [
+    "apple"
+   ],
+   "title": "SwiftShot",
+   "year": 2018,
+   "description": "A WWDC multiplayer ARKit 2 game: players on several iPhones/iPads see the same tabletop battlefield and fling slingshot projectiles at each other's wooden blocks.",
+   "idea_zh": "多人在同一张桌子上的共享AR弹弓大战。",
+   "interaction": [
+    "multiplayer-social",
+    "game-play",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit 2",
+    "world map sharing",
+    "MultipeerConnectivity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "0pUnaAkzUOs",
+    "url": "https://www.youtube.com/watch?v=0pUnaAkzUOs"
+   },
+   "source_url": "",
+   "technique": "Shares an ARWorldMap between devices so all players relocalize to the same anchors, then syncs physics state over peer-to-peer networking.",
+   "exercise_zh": "用Reality Composer或AR Foundation共享锚点做两人对战：在同一张桌面上用手机轻扫发射小球撞倒对方积木；变化：桌面上的真实杯子作为不可穿透的障碍。"
+  },
+  {
+   "id": "apple--encounter-dinosaurs",
+   "creator_ids": [
+    "apple"
+   ],
+   "title": "Encounter Dinosaurs",
+   "year": 2024,
+   "description": "On Vision Pro a portal opens in your wall; a butterfly lands on your outstretched finger and dinosaurs step toward you, reacting when you move or reach out.",
+   "idea_zh": "墙上开出一扇门，恐龙探头出来和你互动，蝴蝶停在你的指尖。",
+   "interaction": [
+    "portal-world",
+    "hand-body",
+    "gaze-attention"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "RealityKit",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "31VkL_iPXkM",
+    "url": "https://www.youtube.com/watch?v=31VkL_iPXkM"
+   },
+   "source_url": "",
+   "technique": "Renders a portal into a full environment anchored to a wall and drives creature behaviours from the user's head and hand positions.",
+   "exercise_zh": "用手机AR在墙上放一个门户，里面的角色会随手机靠近而后退或前进；变化：伸出手（手部检测）时让一只虚拟蝴蝶停在手上。"
+  },
+  {
+   "id": "figmin-xr--the-floor-is-lava",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "The Floor Is Lava!",
+   "year": 2023,
+   "description": "Using Figmin XR on Quest 3, the real living-room floor is covered with bubbling virtual lava while furniture remains safe islands.",
+   "idea_zh": "把客厅地板变成岩浆，只有家具是安全岛。",
+   "interaction": [
+    "spatial-mapping",
+    "game-play",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Figmin XR",
+    "Meta Quest 3",
+    "scene mesh"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "aOXpbDBwNyM",
+    "url": "https://www.youtube.com/watch?v=aOXpbDBwNyM"
+   },
+   "source_url": "https://figmin.com",
+   "technique": "Places a lava material on the detected floor plane while the scene mesh keeps real furniture visible and occluding.",
+   "exercise_zh": "用手机AR检测地面铺满岩浆材质，并让玩家只能踩在贴有标记的“安全垫”上（图片识别）；变化：岩浆每30秒上涨一次。"
+  },
+  {
+   "id": "figmin-xr--real-world-canvas",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "The Real World Is Your Canvas",
+   "year": 2023,
+   "description": "An artist paints glowing strokes and objects around a real room in Figmin XR; the art wraps around furniture and stays anchored in place.",
+   "idea_zh": "在真实房间的家具间作画，画作永远留在原处。",
+   "interaction": [
+    "drawing-creation",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Figmin XR",
+    "Meta Quest 3",
+    "spatial anchors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "fA5taYjGwU8",
+    "url": "https://www.youtube.com/watch?v=fA5taYjGwU8"
+   },
+   "source_url": "https://figmin.com",
+   "technique": "Combines 3D brush strokes with persistent spatial anchors so drawings stay registered to the room between sessions.",
+   "exercise_zh": "用手机AR绘画App（如Just a Line的继任或Reality Composer）在教室某个角落画3D装置并保存锚点，下节课重新打开；变化：两人在同一锚点上接力完成作品。"
+  },
+  {
+   "id": "figmin-xr--figmin-xr-trailer-2024",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "Figmin XR: Create, Collect & Play",
+   "year": 2024,
+   "description": "The app's trailer: users sketch, import 3D models, animate and play physics-driven creations that bounce off the real room in mixed reality.",
+   "idea_zh": "在混合现实里创作、收藏并玩你的3D作品。",
+   "interaction": [
+    "drawing-creation",
+    "spatial-mapping",
+    "game-play"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Figmin XR",
+    "Meta Quest 3",
+    "physics"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "MB8DaHEioEc",
+    "url": "https://www.youtube.com/watch?v=MB8DaHEioEc"
+   },
+   "source_url": "https://figmin.com",
+   "technique": "Integrates sketching, model import, animation and a physics engine that uses the room mesh as colliders.",
+   "exercise_zh": "用手机AR导入同学各自扫描的小物件模型，在桌上组成一个“混合现实收藏馆”并让它们受物理影响掉落；变化：每件作品配一段语音介绍。"
+  },
+  {
+   "id": "figmin-xr--ai-playable-character",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "AI-scripted Playable Character",
+   "year": 2025,
+   "description": "A cute robot character that walks, runs, jumps and emotes around a real room, with its behaviour written entirely by AI through Figmin's scripting API.",
+   "idea_zh": "用AI写脚本，让一个小机器人在你房间里跑跳玩耍。",
+   "interaction": [
+    "game-play",
+    "spatial-mapping",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Figmin XR",
+    "scripting API",
+    "LLM code generation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "z1DbE2WMZRg",
+    "url": "https://www.youtube.com/watch?v=z1DbE2WMZRg"
+   },
+   "source_url": "https://figmin.com",
+   "technique": "An LLM generates Lua-style scripts against the app's API that drive character animation states and collisions with the room mesh.",
+   "exercise_zh": "让学生用ChatGPT生成一个Unity/Reality Composer行为脚本，使AR小角色在桌上巡逻并在碰到真实杯子时跳起；变化：用自然语言临时修改角色性格。"
+  },
+  {
+   "id": "figmin-xr--mr-rc-airplane",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "Mixed Reality RC Airplane",
+   "year": 2025,
+   "description": "An AI-generated model airplane, coded entirely by an LLM, flies around the living room under the player's control and collides with real walls.",
+   "idea_zh": "AI生成的遥控飞机在客厅里飞行，会撞上真实墙壁。",
+   "interaction": [
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Figmin XR",
+    "scripting API",
+    "LLM"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "-jNwln2vMAg",
+    "url": "https://www.youtube.com/watch?v=-jNwln2vMAg"
+   },
+   "source_url": "https://figmin.com",
+   "technique": "Uses the room mesh as colliders and an LLM-written flight script mapping controller input to lift, thrust and roll.",
+   "exercise_zh": "用手机陀螺仪控制AR中的纸飞机在教室飞行，撞到检测到的墙面就坠落；变化：设置穿过真实门框的“环”作为赛道。"
+  },
+  {
+   "id": "danlin-huang--dialogue-with-great-souls",
+   "creator_ids": [
+    "danlin-huang"
+   ],
+   "title": "Dialogue with Great Souls",
+   "year": 2024,
+   "description": "A street exhibition on Daxue Road, Shanghai with Soul App: scan a code, place an AR 'Anywhere Door' anywhere and step through into a scene to converse with eight historical sages.",
+   "idea_zh": "在街头放下一扇AR任意门，穿过去与古代先贤对话。",
+   "interaction": [
+    "portal-world",
+    "location-geo",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "WebAR",
+    "portal rendering"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "DtI2JtVNGIU",
+    "url": "https://www.youtube.com/watch?v=DtI2JtVNGIU"
+   },
+   "source_url": "http://sh.people.com.cn/n2/2024/0529/c134768-40861371.html",
+   "technique": "A phone AR portal with stencil masking hides the inner scene until the user walks through the door plane, anchored at user-chosen positions along the street.",
+   "exercise_zh": "用手机AR做一扇任意门，门后是你选的一位历史人物的场景和一段语音，穿门才能听到；变化：门只能放在校园里与该人物有关的地点。"
+  },
+  {
+   "id": "danlin-huang--fungisync",
+   "creator_ids": [
+    "danlin-huang",
+    "botao-amber-hu"
+   ],
+   "title": "FungiSync",
+   "year": 2024,
+   "description": "A mixed-reality participatory ritual: participants wear mushroom-decorated MR masks and exchange 'worldviews' through secret handshakes, blending each other's visual filters like a mycorrhizal network.",
+   "idea_zh": "戴上蘑菇面具，用握手交换彼此眼中的世界。",
+   "interaction": [
+    "multiplayer-social",
+    "performance-stage",
+    "hand-body"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "HoloKit",
+    "co-located multiplayer AR",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "BzvtihUKAaw",
+    "url": "https://www.youtube.com/watch?v=BzvtihUKAaw"
+   },
+   "source_url": "https://www.youtube.com/watch?v=BzvtihUKAaw",
+   "technique": "Likely co-located phone-based MR headsets share an anchor and detect handshake gestures to swap and mix each participant's visual shader.",
+   "exercise_zh": "让每组同学各做一个手机AR滤镜代表自己的“世界观”，两人击掌（靠近检测或扫码）后交换滤镜；变化：三人以上相遇时滤镜混合。"
+  },
+  {
+   "id": "danlin-huang--body-oracle-translator",
+   "creator_ids": [
+    "danlin-huang",
+    "botao-amber-hu"
+   ],
+   "title": "Body Oracle Translator",
+   "year": 2025,
+   "description": "A handheld MR device translates people's body postures in real time into speculative AI-generated hieroglyphs inspired by Chinese oracle-bone script.",
+   "idea_zh": "把身体姿态实时翻译成AI生成的“甲骨文”。",
+   "interaction": [
+    "hand-body",
+    "data-information",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "pose estimation",
+    "generative AI glyphs",
+    "handheld MR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "GXeLSfZnXAQ",
+    "url": "https://www.youtube.com/watch?v=GXeLSfZnXAQ"
+   },
+   "source_url": "https://www.youtube.com/watch?v=GXeLSfZnXAQ",
+   "technique": "Classifies body poses with a pose-estimation model and maps them to a pre-generated glyph set rendered as AR overlays next to the person.",
+   "exercise_zh": "用手机人体姿态识别（Effect House/MediaPipe）把5种姿势映射成5个自创象形字，拍照时叠在人旁边；变化：连续姿势拼成一句“身体句子”。"
+  },
+  {
+   "id": "danlin-huang--foldiverse",
+   "creator_ids": [
+    "danlin-huang"
+   ],
+   "title": "Foldiverse",
+   "year": 2025,
+   "description": "An MR origami trainer for autistic children: a virtual 3D origami model and a voice assistant called FoFo guide each fold step-by-step over the real paper.",
+   "idea_zh": "AR折纸老师一步步引导孩子折纸。",
+   "interaction": [
+    "tangible-object",
+    "data-information",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "mixed reality guidance",
+    "voice assistant"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "DW8Xlm51S4A",
+    "url": "https://www.youtube.com/watch?v=DW8Xlm51S4A"
+   },
+   "source_url": "https://www.youtube.com/watch?v=DW8Xlm51S4A",
+   "technique": "Shows animated 3D fold steps registered near the child's paper with voice prompts from an assistant, advancing when a step is complete.",
+   "exercise_zh": "用手机AR在桌面上播放一步一步的3D折纸动画，并用语音按钮进入下一步；变化：让手机识别纸张形状自动判断是否完成当前步骤。"
+  },
+  {
+   "id": "owlchemy-labs--inside-job",
+   "creator_ids": [
+    "owlchemy-labs"
+   ],
+   "title": "Inside[JOB]",
+   "year": 2025,
+   "description": "JobBot leaps into your real room on Android XR; you fix quirky system settings, 'phish' for data and stream updates in playful hand-tracked mini-jobs across MR and VR.",
+   "idea_zh": "JobBot机器人闯进你的真实房间，用双手完成搞笑的小工作。",
+   "interaction": [
+    "hand-body",
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Android XR",
+    "hand tracking",
+    "passthrough"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ioCCn_qrbuo",
+    "url": "https://www.youtube.com/watch?v=ioCCn_qrbuo"
+   },
+   "source_url": "https://owlchemylabs.com",
+   "technique": "Uses high-fidelity hand tracking with physics-based grabbing so every virtual prop can be poked, pulled and thrown in passthrough space.",
+   "exercise_zh": "用手机AR手势识别做三个“荒诞小工作”（捏住虚拟插头插到真实插座旁、拍打故障屏幕等）；变化：每个任务只能用一只手完成。"
+  },
+  {
+   "id": "cyborn--wall-town-wonders",
+   "creator_ids": [
+    "cyborn",
+    "creature"
+   ],
+   "title": "Wall Town Wonders",
+   "year": 2024,
+   "description": "A Quest 3 mixed-reality town builder: tiny houses, streets and townsfolk grow out of your real walls, and you tend to their wishes by hand.",
+   "idea_zh": "在自家墙面上建一座会生活的小镇。",
+   "interaction": [
+    "spatial-mapping",
+    "game-play",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Scene API",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "5icyAyKb9Zg",
+    "url": "https://www.youtube.com/watch?v=5icyAyKb9Zg"
+   },
+   "source_url": "https://www.cyborn.be",
+   "technique": "Uses scene-understanding wall planes as the build grid so buildings attach to vertical surfaces and characters walk along them.",
+   "exercise_zh": "用手机AR竖直平面检测在教室墙上放置小房子和小人，小人沿墙“行走”；变化：墙上的真实窗户或海报成为小镇的地标。"
+  },
+  {
+   "id": "vitukhin-serhii--holokit-drone-attack",
+   "creator_ids": [
+    "vitukhin-serhii",
+    "botao-amber-hu"
+   ],
+   "title": "HoloKit Drone Attack",
+   "year": 2017,
+   "description": "Two players wearing HoloKit cardboard headsets share one living room and shoot down virtual drones together in stereo AR, shown at SIGGRAPH 2017.",
+   "idea_zh": "两人戴纸盒AR头显，在同一房间合作打无人机。",
+   "interaction": [
+    "multiplayer-social",
+    "game-play"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "HoloKit",
+    "ARKit",
+    "Unity UNet"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "fht47xfyUco",
+    "url": "https://www.youtube.com/watch?v=fht47xfyUco"
+   },
+   "source_url": "https://holokit.io",
+   "technique": "Both phones start from the same physical position and orientation to share a coordinate frame, then sync game state with UNet.",
+   "exercise_zh": "让两名同学各用手机（可放入HoloKit或纸盒）从同一起点启动AR，合作射击同一批虚拟目标；变化：一人只能看见目标，另一人只能射击。"
+  },
+  {
+   "id": "vitukhin-serhii--holokit-4dviews-rocker",
+   "creator_ids": [
+    "vitukhin-serhii"
+   ],
+   "title": "HoloKit 4DViews Rocker Hologram",
+   "year": 2017,
+   "description": "A volumetric-captured rock guitarist performs life-size in the room through a HoloKit stereo headset, viewable from any angle.",
+   "idea_zh": "真人体积视频摇滚歌手在你房间里演出。",
+   "interaction": [
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "HoloKit",
+    "ARKit",
+    "4DViews volumetric video"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "fGr2l-YpB5s",
+    "url": "https://www.youtube.com/watch?v=fGr2l-YpB5s"
+   },
+   "source_url": "https://holokit.io",
+   "technique": "Plays back a sequence of textured meshes from volumetric capture anchored on the floor and rendered stereoscopically.",
+   "exercise_zh": "用手机拍摄同学的一段短表演做成透明背景视频（抠像），放入AR场景作为“全息演出”；变化：多个同学的表演组成一支AR乐队。"
+  },
+  {
+   "id": "leap-motion-design--practice-makes-perfect",
+   "creator_ids": [
+    "leap-motion-design"
+   ],
+   "title": "Practice Makes Perfect (North Star)",
+   "year": 2018,
+   "description": "On the Project North Star headset a player uses a real table and paddle; a hand gesture summons a virtual ball, an AI opponent returns it, and predicted flight paths and light trails coach the player's form.",
+   "idea_zh": "真实球台和球拍，虚拟的球和AI对手，外加预测轨迹帮你练球。",
+   "interaction": [
+    "hand-body",
+    "game-play",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Project North Star",
+    "Leap Motion hand tracking",
+    "object tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "6RV0jGXzjTs",
+    "url": "https://www.youtube.com/watch?v=6RV0jGXzjTs"
+   },
+   "source_url": "https://www.uploadvr.com/leap-motions-new-north-star-demo-brings-table-tennis-to-ar/",
+   "technique": "Tracks the paddle and hands, simulates the virtual ball with parabolic equations of motion, and renders predicted trajectories with the headset's low latency and wide field of view.",
+   "exercise_zh": "用手机AR在桌面上标出一个“最佳落点”靶区，同学抛纸团命中时计分；变化：靶区随每次命中移动，并显示上一球的轨迹。"
+  },
+  {
+   "id": "takashi-yoshinaga--holokit-tango-demo",
+   "creator_ids": [
+    "takashi-yoshinaga",
+    "botao-amber-hu"
+   ],
+   "title": "HoloKit + Tango Demo",
+   "year": 2017,
+   "description": "An early test of HoloKit's cardboard stereo optics driven by a Google Tango phone, placing stable holograms in the room.",
+   "idea_zh": "用纸盒头显+Tango手机实现早期空间稳定的立体AR。",
+   "interaction": [
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "HoloKit",
+    "Google Tango",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "sbLEsmwM1s4",
+    "url": "https://www.youtube.com/watch?v=sbLEsmwM1s4"
+   },
+   "source_url": "https://holokit.io",
+   "technique": "Uses Tango's motion tracking for 6DoF pose and renders a side-by-side stereo image through HoloKit's mirror-and-Fresnel optics.",
+   "exercise_zh": "把手机AR场景改为左右分屏立体渲染，放入纸盒眼镜观看一个固定在桌上的方块；变化：比较单眼画面与立体画面的深度感。"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Jun Rekimoto",
+   "why": "Co-author of JackIn / JackIn Head; pioneer of NaviCam, CyberCode and Sony CSL AR (pre- and post-2005 work); University of Tokyo Rekimoto Lab.",
+   "link": "https://lab.rekimoto.org",
+   "found_via": "shunichi-kasahara"
+  },
+  {
+   "name": "Satoru Higa (BACKSPACE Productions)",
+   "why": "Visual artist co-creating Fragment Shadow multi-projector shadow art with Kasahara.",
+   "link": "https://shunichikasahara.com/portfolio/fragment-shadow-2020/",
+   "found_via": "shunichi-kasahara"
+  },
+  {
+   "name": "Jun Nishida",
+   "why": "EMS and body-sharing researcher (Wired Muscle, Preemptive Action, bioSync); now University of Maryland.",
+   "link": "https://shunichikasahara.com/portfolio/wired-muscle/",
+   "found_via": "pedro-lopes"
+  },
+  {
+   "name": "Daniel Leithinger",
+   "why": "THING Lab (CU Boulder); shape displays for remote togetherness; core works already under MIT Tangible Media, newer lab work needs AR-specific videos.",
+   "link": "https://www.colorado.edu/atlas/daniel-leithinger",
+   "found_via": "ken-nakagaki"
+  },
+  {
+   "name": "Sean Follmer",
+   "why": "Stanford SHAPE Lab (shapeShift, zooids swarm UI, visuo-haptic illusions); mostly VR/tangible, few AR pieces.",
+   "link": "https://www.youtube.com/watch?v=dNo-K3HgQJc",
+   "found_via": "ken-nakagaki"
+  },
+  {
+   "name": "Hirokazu Kato",
+   "why": "ARToolKit creator (NAIST); post-2005 videos found are mainly talks, not demos.",
+   "link": "https://www.youtube.com/watch?v=b33eqcVz7X8",
+   "found_via": "mark-billinghurst"
+  },
+  {
+   "name": "Jason Orlosky",
+   "why": "Co-author of Laplacian Vision; AR vision-augmentation and gaze-based interaction researcher.",
+   "link": "https://www.youtube.com/watch?v=bT--u-vZ9qE",
+   "found_via": "yuta-itoh"
+  },
+  {
+   "name": "Kiyoshi Kiyokawa",
+   "why": "NAIST Cybernetics & Reality Engineering Lab; occlusion-capable OST displays and vision augmentation with Itoh.",
+   "link": "https://carelab.info",
+   "found_via": "yuta-itoh"
+  },
+  {
+   "name": "Balasaravanan Thoravi Kumaravel",
+   "why": "Loki / TutoriVR / TransceiVR mixed-reality instruction tools (Berkeley, Autodesk, now Microsoft Research).",
+   "link": "https://www.youtube.com/watch?v=cBN1XZXZw3Y",
+   "found_via": "autodesk-research"
+  },
+  {
+   "name": "Peter Mohr",
+   "why": "TU Graz; lead author of Retargeting Technical Documentation / Video Tutorials to AR and MR light-field remote assistance.",
+   "link": "https://www.youtube.com/watch?v=FWytd1m6dKk",
+   "found_via": "denis-kalkofen"
+  },
+  {
+   "name": "Stefanie Zollmann",
+   "why": "University of Otago; X-ray/ghosting visualization, AR for sports broadcast and drones.",
+   "link": "https://www.youtube.com/watch?v=NNmt-5NMuOk",
+   "found_via": "denis-kalkofen"
+  },
+  {
+   "name": "Craig Winslow",
+   "why": "Light artist; renegade projected-AR murals with Lightform (Vegas, 'It's Lit').",
+   "link": "https://www.youtube.com/watch?v=_RFa7f8If2c",
+   "found_via": "lightform"
+  },
+  {
+   "name": "Gemma O'Brien",
+   "why": "Lettering artist collaborating on projected AR murals with Lightform.",
+   "link": "https://www.youtube.com/watch?v=XTR-NhJ9em8",
+   "found_via": "lightform"
+  },
+  {
+   "name": "Noah Zerkin / CombineReality",
+   "why": "Builds open-source Project North Star AR headset kits (Deck X); mostly hardware videos, few experience demos.",
+   "link": "https://www.youtube.com/watch?v=47B96t2oGBs",
+   "found_via": "leap-motion-design"
+  },
+  {
+   "name": "Tim Stutts",
+   "why": "Former Magic Leap interaction/sensory design lead; public output is talks, not project videos.",
+   "link": "https://www.youtube.com/watch?v=gZSYYcNmeDw",
+   "found_via": "leap-motion-design"
+  },
+  {
+   "name": "Martin Schubert",
+   "why": "Leap Motion designer; public pieces (Weightless, Mirrors) are VR, AR work credited under leap-motion-design.",
+   "link": "https://www.youtube.com/watch?v=VMnes2xKO88",
+   "found_via": "leap-motion-design"
+  },
+  {
+   "name": "Onix Systems",
+   "why": "Early HoloKit X Unity demos (wizard duel, dragon duel) - co-located AR collaboration.",
+   "link": "https://www.youtube.com/watch?v=xr0T2z9WPJc",
+   "found_via": "vitukhin-serhii"
+  },
+  {
+   "name": "Wingnut AR (Peter Jackson)",
+   "why": "WWDC 2017 ARKit tabletop battle demo and Magic Leap 'Grordbort's' collaborators; still unresearched.",
+   "link": "https://www.wingnutar.com",
+   "found_via": "apple"
+  },
+  {
+   "name": "PRELOADED (BBC Earth Micro Kingdoms)",
+   "why": "Made 'Micro Kingdoms: Senses' on Magic Leap - see the world through animal senses.",
+   "link": "https://www.youtube.com/watch?v=8HHL9S_vhZM",
+   "found_via": "magic-leap-studios"
+  },
+  {
+   "name": "Ke Huang / Ruoqi Wang",
+   "why": "Co-authors of Body Oracle Translator with Danlin Huang and Botao Amber Hu.",
+   "link": "https://www.youtube.com/watch?v=GXeLSfZnXAQ",
+   "found_via": "danlin-huang"
+  }
+ ]
+}

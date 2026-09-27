@@ -1,0 +1,259 @@
+#!/usr/bin/env python3
+"""Merge data/raw/*.json into the gallery dataset.
+
+- Merges creators by id (unions links / connections).
+- Dedupes works by video (platform + id), unioning creator_ids.
+- Verifies every video (cached in data/video_cache.json) and drops dead ones.
+- Writes data/entries.json, data/entries.js (window.INSPIRE) and data/leads.json.
+
+Usage: python3 tools/build_data.py [--recheck]
+"""
+import json
+import logging
+import re
+import time
+import sys
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor
+from datetime import date
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from check_video import UA, check, parse  # noqa: E402
+
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+logger = logging.getLogger(__name__)
+
+ROOT = Path(__file__).resolve().parent.parent
+RAW = ROOT / "data" / "raw"
+TEACH = ROOT / "data" / "teach"
+OVERRIDES = ROOT / "data" / "overrides.json"
+KEYS = ROOT / "data" / "key_creators.json"
+I18N = ROOT / "data" / "i18n" / "out"
+CACHE = ROOT / "data" / "video_cache.json"
+
+INTERACTIONS = {
+    "hand-body", "face", "voice-sound", "drawing-creation", "spatial-mapping", "location-geo",
+    "tangible-object", "projection", "portal-world", "multiplayer-social", "gaze-attention",
+    "data-information", "game-play", "performance-stage", "perception-art",
+}
+PLATFORMS = {"phone", "headset", "projection", "web", "wearable", "desktop"}
+
+
+def _check_mp4(url: str) -> dict:
+    try:
+        req = urllib.request.Request(url, headers={**UA, "Range": "bytes=0-1"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return {"url": url, "ok": r.status in (200, 206), "platform": "mp4", "id": url}
+    except Exception as e:  # noqa: BLE001 - any failure means the file is not playable
+        return {"url": url, "ok": False, "platform": "mp4", "id": url, "error": str(e)}
+
+
+def _video_key(v: dict) -> str:
+    return f"{v.get('platform')}:{v.get('id')}"
+
+
+def _normalize_video(v: dict) -> dict:
+    v = dict(v or {})
+    if v.get("platform") == "mp4":
+        v["id"] = v.get("id") or v.get("url")
+        return v
+    plat, vid = parse(v.get("url", "")) if v.get("url") else ("", "")
+    if plat:
+        v["platform"], v["id"] = plat, vid
+    if not v.get("url") and v.get("platform") and v.get("id"):
+        v["url"] = {
+            "youtube": f"https://www.youtube.com/watch?v={v['id']}",
+            "vimeo": f"https://vimeo.com/{v['id']}",
+            "x": f"https://x.com/i/status/{v['id']}",
+        }.get(v["platform"], "")
+    return v
+
+
+def load_raw() -> tuple[dict, dict, list]:
+    creators: dict[str, dict] = {}
+    works: dict[str, dict] = {}
+    leads: list[dict] = []
+    for f in sorted(RAW.glob("*.json")):
+        try:
+            d = json.loads(f.read_text())
+        except json.JSONDecodeError as e:
+            logger.error("SKIP %s: invalid JSON (%s)", f.name, e)
+            continue
+        batch = d.get("batch", f.stem)
+        for c in d.get("creators", []):
+            cid = c.get("id")
+            if not cid:
+                continue
+            cur = creators.setdefault(cid, {"id": cid, "links": {}, "connected_to": [], "batches": []})
+            for k, val in c.items():
+                if k == "links":
+                    cur["links"].update({lk: lv for lk, lv in (val or {}).items() if lv})
+                elif k == "connected_to":
+                    cur["connected_to"] = sorted(set(cur["connected_to"]) | set(val or []))
+                elif val and not cur.get(k):
+                    cur[k] = val
+            cur["batches"] = sorted(set(cur["batches"]) | {batch})
+        for w in d.get("works", []):
+            v = _normalize_video(w.get("video"))
+            if not v.get("platform") or not v.get("id"):
+                logger.warning("no video: %s", w.get("id"))
+                continue
+            w = {**w, "video": v, "batch": batch}
+            key = _video_key(v)
+            if key in works:
+                cur = works[key]
+                cur["creator_ids"] = list(dict.fromkeys(cur["creator_ids"] + w.get("creator_ids", [])))
+                for k, val in w.items():
+                    if val and not cur.get(k):
+                        cur[k] = val
+            else:
+                w["creator_ids"] = list(dict.fromkeys(w.get("creator_ids", [])))
+                works[key] = w
+        for lead in d.get("leads", []):
+            leads.append({**lead, "batch": batch})
+    return creators, works, leads
+
+
+def load_teach() -> dict:
+    """work_id -> {technique, exercise_zh} from data/teach/*.json."""
+    out: dict[str, dict] = {}
+    for f in sorted(TEACH.glob("*.json")):
+        try:
+            out.update(json.loads(f.read_text()))
+        except json.JSONDecodeError as e:
+            logger.error("SKIP %s: invalid JSON (%s)", f.name, e)
+    return out
+
+
+def load_i18n() -> tuple[dict, dict]:
+    """Translations: works-*.json -> work fields, creators.json -> creator fields."""
+    works: dict[str, dict] = {}
+    creators: dict[str, dict] = {}
+    for f in sorted(I18N.glob("*.json")):
+        d = json.loads(f.read_text())
+        (creators if f.stem == "creators" else works).update(d)
+    return works, creators
+
+
+def load_keys(work_ids: set, creator_ids: set) -> dict:
+    """Curated Key Creators + tour highlights; drops highlights whose work is missing."""
+    if not KEYS.exists():
+        return {}
+    keys = json.loads(KEYS.read_text())
+    for k in keys.get("creators", []):
+        bad = [c for c in k["creator_ids"] if c not in creator_ids]
+        if bad:
+            logger.warning("key %s: unknown creator ids %s", k["id"], bad)
+        missing = [h["work"] for h in k["highlights"] if h["work"] not in work_ids]
+        if missing:
+            logger.warning("key %s: dropping missing highlights %s", k["id"], missing)
+        k["highlights"] = [h for h in k["highlights"] if h["work"] in work_ids]
+    return keys
+
+
+def verify(works: dict, recheck: bool) -> dict:
+    cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    todo = [w["video"] for k, w in works.items() if recheck or not cache.get(k, {}).get("ok")]
+    logger.info("verifying %d videos (%d cached)", len(todo), len(works) - len(todo))
+
+    def run(v: dict) -> tuple[str, dict]:
+        res = _check_mp4(v["url"]) if v["platform"] == "mp4" else check(v["url"])
+        return _video_key(v), res
+
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        for i, (k, res) in enumerate(ex.map(run, todo), 1):
+            cache[k] = res
+            if i % 25 == 0:
+                logger.info("  checked %d/%d", i, len(todo))
+    CACHE.write_text(json.dumps(cache, indent=1, ensure_ascii=False))
+    return cache
+
+
+def write_markdown(data: dict) -> None:
+    """Plain-Markdown catalog for AI assistants: llms.txt, inspire.md (EN), inspire.zh.md (ZH)."""
+    sys.path.insert(0, str(Path(__file__).parent))
+    from markdown_export import catalog_md, llms_txt  # noqa: E402
+    (ROOT / "inspire.md").write_text(catalog_md(data, "en"))
+    (ROOT / "inspire.zh.md").write_text(catalog_md(data, "zh"))
+    (ROOT / "llms.txt").write_text(llms_txt(data))
+
+
+def main() -> None:
+    recheck = "--recheck" in sys.argv
+    creators, works, leads = load_raw()
+    cache = verify(works, recheck)
+
+    teach = load_teach()
+    ov = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
+    drop_ids = set(ov.get("drop_works", []))
+    patches = ov.get("patch_works", {})
+    seen_ids: set[str] = set()
+    kept, dropped = [], []
+    for key, w in works.items():
+        res = cache.get(key, {})
+        if not res.get("ok"):
+            dropped.append({"id": w.get("id"), "url": w["video"].get("url"), "error": res.get("error")})
+            continue
+        if w.get("id") in drop_ids or w.get("id") in seen_ids:
+            continue
+        seen_ids.add(w.get("id"))
+        w.update(patches.get(w.get("id"), {}))
+        v = w["video"]
+        v["thumbnail"] = v.get("thumbnail") or res.get("thumbnail") or ""
+        v["video_title"] = res.get("title") or ""
+        v["embeddable"] = res.get("embeddable", True)
+        for k, val in teach.get(w.get("id"), {}).items():
+            if k in ("technique", "exercise_zh") and val:
+                w[k] = val
+        w["interaction"] = [i for i in w.get("interaction", []) if i in INTERACTIONS]
+        w["platform"] = [p for p in w.get("platform", []) if p in PLATFORMS]
+        w["creator_ids"] = [c for c in w["creator_ids"] if c in creators] or w["creator_ids"]
+        kept.append(w)
+
+    used = {c for w in kept for c in w["creator_ids"]}
+    for cid in used - creators.keys():
+        logger.warning("work references unknown creator %s", cid)
+        creators[cid] = {"id": cid, "name": cid.replace("-", " ").title(), "links": {}, "connected_to": []}
+    out_creators = [c for c in creators.values() if c["id"] in used]
+    for c in out_creators:
+        c["connected_to"] = [x for x in c["connected_to"] if x in creators and x != c["id"]]
+        c["work_count"] = sum(c["id"] in w["creator_ids"] for w in kept)
+
+    kept.sort(key=lambda w: (-(w.get("year") or 0), w.get("title", "")))
+    known = {c.get("name", "").lower() for c in creators.values()}
+    open_leads = {}
+    for lead in leads:
+        n = (lead.get("name") or "").strip()
+        if n and n.lower() not in known:
+            open_leads.setdefault(n.lower(), lead)
+
+    tw, tc = load_i18n()
+    for w in kept:
+        w.update({k: v for k, v in tw.get(w["id"], {}).items() if v})
+    for c in out_creators:
+        c.update({k: v for k, v in tc.get(c["id"], {}).items() if v})
+    missing_tr = [w["id"] for w in kept if not all(w.get(f) for f in ("description_zh", "idea_en", "technique_zh", "exercise_en"))]
+    if missing_tr:
+        logger.warning("works missing translations: %d (e.g. %s)", len(missing_tr), missing_tr[:5])
+    keys = load_keys({w["id"] for w in kept}, {c["id"] for c in out_creators})
+    key_of = {cid: k["id"] for k in keys.get("creators", []) for cid in k["creator_ids"]}
+    for c in out_creators:
+        if c["id"] in key_of:
+            c["key"] = key_of[c["id"]]
+    data = {"generated": date.today().isoformat(), "creators": out_creators, "works": kept, "keys": keys}
+    (ROOT / "data" / "entries.json").write_text(json.dumps(data, indent=1, ensure_ascii=False))
+    (ROOT / "data" / "entries.js").write_text("window.INSPIRE = " + json.dumps(data, ensure_ascii=False) + ";\n")
+    (ROOT / "data" / "leads.json").write_text(json.dumps(list(open_leads.values()), indent=1, ensure_ascii=False))
+    (ROOT / "data" / "dropped.json").write_text(json.dumps(dropped, indent=1, ensure_ascii=False))
+    write_markdown(data)
+    index = ROOT / "index.html"
+    stamp = str(int(time.time()))
+    index.write_text(re.sub(r'(assets/(?:app|i18n|export)\.(?:js|css)|data/entries\.js)(\?v=\d+)?"', rf'\1?v={stamp}"', index.read_text()))
+    logger.info("creators=%d works=%d dropped=%d open_leads=%d with_teaching=%d",
+                len(out_creators), len(kept), len(dropped), len(open_leads),
+                sum(bool(w.get("exercise_zh")) for w in kept))
+
+
+if __name__ == "__main__":
+    main()

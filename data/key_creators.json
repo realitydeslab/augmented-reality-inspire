@@ -1,0 +1,603 @@
+{
+ "_note": "Curated Key Creators and their guided tours. Order of groups, creators and highlights is the tour order. Edit freely; rebuild with python3 tools/build_data.py.",
+ "groups": [
+  {
+   "id": "roots",
+   "en": "Creative-coding roots",
+   "zh": "创意编程根源",
+   "desc_zh": "网络里被引用最多的一群人。很多后来的创作者，都是顺着他们找到的。",
+   "desc_en": "The most-cited people in the network. Many later creators were found by following their trail."
+  },
+  {
+   "id": "research",
+   "en": "Research origins",
+   "zh": "研究源头",
+   "desc_zh": "许多 AR 交互点子的“第一次”，出自这些实验室的论文和 demo 视频。",
+   "desc_en": "Many AR interaction ideas first appeared in these labs' papers and demo videos."
+  },
+  {
+   "id": "prototypers",
+   "en": "Open prototypers",
+   "zh": "公开原型者",
+   "desc_zh": "每当出现新设备、新 API，他们就公开做出一个小实验。最适合“每周一个原型”式的教学。",
+   "desc_en": "Whenever a new device or API appears, they publish a small experiment. Ideal for a prototype-a-week style of teaching."
+  },
+  {
+   "id": "art",
+   "en": "Art & stage",
+   "zh": "艺术与舞台",
+   "desc_zh": "回答“为什么要做 AR”：把技术变成观点、表演和公共空间里的体验。",
+   "desc_en": "Answers to “why make AR at all”: technology turned into a point of view, a performance, or an experience in public space."
+  }
+ ],
+ "creators": [
+  {
+   "id": "zach-lieberman",
+   "creator_ids": [
+    "zach-lieberman"
+   ],
+   "group": "roots",
+   "tagline_zh": "把声音、文字和身体放进空间：诗意 AR 的原点。",
+   "intro_zh": "Zach Lieberman 是 openFrameworks 和 School for Poetic Computation 的联合创始人。二十年来他反复做同一件事：让看不见的东西（声音、笔迹、动作）在空间里留下形状。他的 AR 作品技术上往往很简单，靠的是一个清楚、好玩、能立刻被理解的点子。",
+   "learn_zh": "学他怎么把一个技术能力（追踪、录音、画线）变成一个一句话就能讲清楚的诗意点子。",
+   "highlights": [
+    {
+     "work": "zach-lieberman--drawn",
+     "note_zh": "2005 年的起点：手绘的墨迹被摄像头识别后活了过来。先看这件，理解他“纸与屏幕之间”的思路。",
+     "note_en": "The 2005 starting point: hand-drawn ink comes alive once the camera sees it. Watch this first to understand his idea of working between paper and screen."
+    },
+    {
+     "work": "zach-lieberman--the-eyewriter",
+     "note_zh": "用眼动追踪让瘫痪的涂鸦艺术家重新作画，也是开源协作的典范。技术为一个具体的人服务。",
+     "note_en": "Eye tracking lets a paralyzed graffiti artist draw again; also a model of open-source collaboration. Technology in service of one specific person."
+    },
+    {
+     "work": "zach-lieberman--audio-in-ar-space",
+     "note_zh": "本项目的种子作品：每个声音都留在它发出的位置，走回去就能倒放。ARKit 刚出现时最有诗意的一个回应。",
+     "note_en": "The seed of this project: every sound stays where it was made, and walking back through it plays it in reverse. The most poetic response to ARKit's arrival."
+    },
+    {
+     "work": "zach-lieberman--weird-type",
+     "note_zh": "和 Molmol Kuo 做成了人人可用的 App：在空中写字、让文字跟着运动。从个人实验到大众工具的一步。",
+     "note_en": "With Molmol Kuo, turned into an app anyone can use: write in the air and let text follow motion. The step from personal experiment to public tool."
+    },
+    {
+     "work": "zach-lieberman--x949953",
+     "note_zh": "在 Snap Spectacles 眼镜里，与 Shantell Martin 合作的一首可以走进去读的诗。阅读顺序由你的脚步决定。",
+     "note_en": "On Snap Spectacles, with Shantell Martin: a poem you read by walking through it. Your footsteps set the reading order."
+    }
+   ],
+   "tagline_en": "Sound, text and the body placed in space: the origin of poetic AR.",
+   "intro_en": "Zach Lieberman co-founded openFrameworks and the School for Poetic Computation. For twenty years he has done one thing again and again: give invisible things — sound, handwriting, motion — a shape in space. His AR pieces are often technically simple; their strength is an idea that is clear, playful and instantly understood.",
+   "learn_en": "How to turn a technical capability (tracking, recording, drawing a line) into a poetic idea you can explain in one sentence."
+  },
+  {
+   "id": "golan-levin",
+   "creator_ids": [
+    "golan-levin"
+   ],
+   "group": "roots",
+   "tagline_zh": "互动艺术教育的源头：让声音、影子和手变成可以看见的形状。",
+   "intro_zh": "Golan Levin 是卡内基梅隆大学 STUDIO for Creative Inquiry 的负责人，也是很多创意编程者的老师。他的作品常常把人的声音或身体“放大”成视觉，并且总在追问：机器是怎么看人的？",
+   "learn_zh": "学“增强”的另一种含义：不一定叠加虚拟物体，也可以是把人本来就有的东西（声音、手势、影子）变得可见。",
+   "highlights": [
+    {
+     "work": "golan-levin--messa-di-voce-installation",
+     "note_zh": "说话和唱歌的声音变成从嘴里冒出来的图形。投影 AR 的经典之作，和 Zach Lieberman 等人合作完成。",
+     "note_en": "Speech and song become shapes that pour out of the mouth. A classic of projection AR, made with Zach Lieberman and others."
+    },
+    {
+     "work": "golan-levin--footfalls",
+     "note_zh": "跺脚产生的声音变成从天而降的虚拟物体，落在你的影子上。声音、身体、投影三者合一。",
+     "note_en": "Stomping makes virtual objects rain down onto your shadow. Sound, body and projection in one piece."
+    },
+    {
+     "work": "golan-levin--augmented-hand-series",
+     "note_zh": "把你的手实时变形：多一根手指，或者手指会自己弯曲。最小的“增强”带来最强烈的身体感。",
+     "note_en": "Your hand, transformed live: an extra finger, fingers that bend on their own. The smallest augmentation, the strongest bodily effect."
+    },
+    {
+     "work": "golan-levin--arkit-re-code-of-jeffrey-shaw-s-golden-calf",
+     "note_zh": "用 ARKit 重做 1994 年 Jeffrey Shaw 的经典作品《Golden Calf》。适合讨论 AR 的历史谱系。",
+     "note_en": "Jeffrey Shaw's 1994 Golden Calf, re-made with ARKit. Good for discussing AR's lineage."
+    }
+   ],
+   "tagline_en": "A source of interactive-art education: making voice, shadow and hands visible as form.",
+   "intro_en": "Golan Levin directs the STUDIO for Creative Inquiry at Carnegie Mellon and has taught many creative coders. His works often amplify a person's voice or body into visuals, and keep asking: how does a machine see a person?",
+   "learn_en": "Another meaning of “augment”: not adding virtual objects, but making what people already have — voice, gesture, shadow — visible."
+  },
+  {
+   "id": "kyle-mcdonald",
+   "creator_ids": [
+    "kyle-mcdonald"
+   ],
+   "group": "roots",
+   "tagline_zh": "在整个网络里被关联最多的人：让人脸追踪和机器视觉成为艺术材料。",
+   "intro_zh": "Kyle McDonald 写了早期最流行的开源人脸追踪工具（ofxFaceTracker），很多人脸 AR 作品都建立在他的代码之上。他的作品不断测试“在摄像头面前，身份和隐私意味着什么”。",
+   "learn_zh": "学怎么把一项底层能力（人脸追踪）开源出去，然后用它做出引人思考、甚至有点不安的作品。",
+   "highlights": [
+    {
+     "work": "kyle-mcdonald--face-substitution",
+     "note_zh": "2011 年的实时换脸，比 Snapchat 早了好几年。看这件就能理解后来所有面部滤镜的源头。",
+     "note_en": "Real-time face swap in 2011, years before Snapchat. The root of every face filter that followed."
+    },
+    {
+     "work": "kyle-mcdonald--sharing-faces",
+     "note_zh": "两座城市的人通过镜子“交换”相似的脸：一面把陌生人连接起来的 AR 镜子。",
+     "note_en": "People in two cities “swap” similar faces through a mirror: an AR mirror that connects strangers."
+    },
+    {
+     "work": "kyle-mcdonald--light-leaks",
+     "note_zh": "用几十个迪斯科镜面球，加上经过计算机视觉标定的投影仪，把整个房间点满移动的光斑。与 Jonas Jongejan 合作。",
+     "note_en": "Dozens of mirror balls and computer-vision-calibrated projectors fill a room with moving points of light. With Jonas Jongejan."
+    },
+    {
+     "work": "kyle-mcdonald--highsight",
+     "note_zh": "一场“穿越真实空间的虚拟蹦极”：观众被吊着戴上头显，看到的是一台沿钢丝坠落的摄像头的实时画面。身体感受和视角被分离。",
+     "note_en": "A “virtual bungee jump through a real space”: visitors in a harness see the live feed of a camera dropping along a wire. Body sensation and viewpoint are split apart."
+    }
+   ],
+   "tagline_en": "The most-connected person in the network: face tracking and machine vision as artistic material.",
+   "intro_en": "Kyle McDonald wrote ofxFaceTracker, the most popular early open-source face tracker, and many face-AR works are built on his code. His pieces keep testing what identity and privacy mean in front of a camera.",
+   "learn_en": "How to open-source a low-level capability (face tracking) and then use it to make work that is thought-provoking, even unsettling."
+  },
+  {
+   "id": "design-io",
+   "creator_ids": [
+    "theo-watson",
+    "emily-gobeille"
+   ],
+   "name": "Design I/O — Theo Watson & Emily Gobeille",
+   "group": "roots",
+   "tagline_zh": "儿童互动投影的标杆：全身交互，最适合教学复刻。",
+   "intro_zh": "Theo Watson（openFrameworks 联合创始人）和 Emily Gobeille 组成的 Design I/O，十多年来为博物馆做大型互动空间。孩子用身体、沙子和纸就能和整个房间的虚拟生态互动。",
+   "learn_zh": "学怎么为“不会看说明书的人”设计：没有界面、没有按钮，身体一动就有反馈。",
+   "highlights": [
+    {
+     "work": "theo-watson--l-a-s-e-r-tag",
+     "note_zh": "用激光笔在大楼墙面上涂鸦（与 Graffiti Research Lab 合作）。建筑尺度的投影 AR，代码开源。",
+     "note_en": "Graffiti on a building with a laser pointer (with Graffiti Research Lab). Architecture-scale projection AR, open-sourced."
+    },
+    {
+     "work": "theo-watson--funky-forest",
+     "note_zh": "孩子用身体在地上“种”出树，引水浇灌森林。Design I/O 风格的起点。",
+     "note_en": "Children grow trees with their bodies and steer water to the forest. Where the Design I/O style began."
+    },
+    {
+     "work": "theo-watson--puppet-parade",
+     "note_zh": "举起手臂就能操纵巨大的投影木偶。最直观的全身交互之一。",
+     "note_en": "Raise your arms to puppeteer giant projected creatures. One of the most direct full-body interactions."
+    },
+    {
+     "work": "theo-watson--connected-worlds",
+     "note_zh": "纽约科学馆的大型生态系统：六个环境通过水流连在一起，孩子们一起决定生态的走向。多人协作的范例。",
+     "note_en": "A large ecosystem at the New York Hall of Science: six habitats linked by water, where children decide together how the ecosystem evolves. A model of multiplayer collaboration."
+    },
+    {
+     "work": "theo-watson--living-library",
+     "note_zh": "翻开真实的书，页面上的动物就活了。纸质书与投影的结合，很适合改造成课堂作业。",
+     "note_en": "Turn a real page and the animals on it come alive. Paper plus projection; easy to adapt into a class assignment."
+    }
+   ],
+   "tagline_en": "The benchmark for children's interactive projection: full-body interaction, ideal for classroom re-creation.",
+   "intro_en": "Design I/O — Theo Watson (co-founder of openFrameworks) and Emily Gobeille — has built large interactive spaces for museums for more than a decade. Children use their bodies, sand and paper to interact with a room-sized virtual ecosystem.",
+   "learn_en": "How to design for people who will never read instructions: no interface, no buttons, instant feedback to the body."
+  },
+  {
+   "id": "msr-benko-wilson",
+   "creator_ids": [
+    "msr-benko-wilson"
+   ],
+   "group": "research",
+   "tagline_zh": "把整个房间变成屏幕：投影式空间 AR 的研究源头。",
+   "intro_zh": "Hrvoje Benko 和 Andy Wilson 在微软研究院做了十多年“不用戴眼镜的 AR”：用投影仪加深度相机，让墙、桌子、家具都变成可交互的表面。许多后来的 MR 游戏点子，最早都出现在他们的 demo 里。",
+   "learn_zh": "学空间 AR（Spatial AR）的思路：先理解房间的几何，再决定内容在哪里出现、怎么与现实对齐。",
+   "highlights": [
+    {
+     "work": "msr-benko-wilson--lightspace",
+     "note_zh": "2010 年：用多台投影仪加深度相机，把任何表面变成触摸屏，还能把内容“拿”在手上带走。",
+     "note_en": "2010: several projectors and depth cameras turn any surface into a touchscreen, and you can carry content in your hand."
+    },
+    {
+     "work": "msr-benko-wilson--illumiroom",
+     "note_zh": "游戏画面溢出电视，延伸到整面墙上。用最少的硬件，最大化地扩展视野。",
+     "note_en": "The game spills out of the TV onto the whole wall. Minimal hardware, maximum field of view."
+    },
+    {
+     "work": "msr-benko-wilson--roomalive",
+     "note_zh": "整个客厅变成游戏场，怪物从墙上爬出来。今天 Quest 混合现实游戏的前身。",
+     "note_en": "The living room becomes a game, with monsters climbing out of the walls. A forerunner of today's Quest mixed-reality games."
+    },
+    {
+     "work": "msr-benko-wilson--mano-a-mano",
+     "note_zh": "两个人面对面对战，各自看到正确的透视。不戴头显的多人 AR。",
+     "note_en": "Two people face off and each sees correct perspective. Multiplayer AR without headsets."
+    },
+    {
+     "work": "msr-benko-wilson--room2room",
+     "note_zh": "把远方的人三维捕捉后，以真人大小投影进你的房间，坐在你真实的沙发上。远程临场的早期形态。",
+     "note_en": "A remote person is captured in 3D and projected life-size into your room, sitting on your real couch. An early form of telepresence."
+    }
+   ],
+   "tagline_en": "Turning a whole room into a display: the research source of projected spatial AR.",
+   "intro_en": "Hrvoje Benko and Andy Wilson spent over a decade at Microsoft Research on “AR without glasses”: projectors plus depth cameras that make walls, tables and furniture interactive. Many later mixed-reality game ideas first appeared in their demos.",
+   "learn_en": "The spatial-AR mindset: understand the room's geometry first, then decide where content appears and how it aligns with reality."
+  },
+  {
+   "id": "mit-tangible-media",
+   "creator_ids": [
+    "mit-tangible-media"
+   ],
+   "group": "research",
+   "tagline_zh": "让数字信息长出实体：可变形界面的源头。",
+   "intro_zh": "石井裕（Hiroshi Ishii）领导的 MIT Tangible Media Group 提出了“Tangible Bits”和“Radical Atoms”：数字信息不应只困在玻璃屏幕里，而应该能被触摸、被推动。他们的针阵显示器系列至今仍是最震撼的 demo 之一。",
+   "learn_zh": "学“反向 AR”：不是把虚拟叠加到现实上，而是让现实的物理形态随数字信息而改变。",
+   "highlights": [
+    {
+     "work": "mit-tangible-media--sublimate",
+     "note_zh": "虚拟图形和实体针阵无缝融合：同一个形状，一半是真的、一半是投影出来的。",
+     "note_en": "Virtual graphics and a physical pin array merge: the same shape is half real, half projected."
+    },
+    {
+     "work": "mit-tangible-media--inform",
+     "note_zh": "最著名的一件：900 根可动的针实时变成物体的形状，还能远程“握手”。看完会重新理解什么是界面。",
+     "note_en": "The most famous one: 900 moving pins take the shape of objects in real time, and even shake hands remotely. It changes what you think an interface is."
+    },
+    {
+     "work": "mit-tangible-media--physical-telepresence",
+     "note_zh": "远方的人通过针阵，推动你桌上的真实物体。远程临场从“看见”变成“碰到”。",
+     "note_en": "A remote person pushes real objects on your table through the pin display. Telepresence moves from seeing to touching."
+    },
+    {
+     "work": "mit-tangible-media--transform",
+     "note_zh": "针阵变成家具和艺术装置，在米兰设计周展出。研究原型走向设计语言。",
+     "note_en": "Pin displays become furniture and art at Milan Design Week. A research prototype turned into design language."
+    }
+   ],
+   "tagline_en": "Giving digital information a physical body: the origin of shape-changing interfaces.",
+   "intro_en": "Hiroshi Ishii's MIT Tangible Media Group proposed “Tangible Bits” and “Radical Atoms”: digital information should not be trapped behind glass but be touchable and movable. Their pin-display series remains among the most striking demos.",
+   "learn_en": "“Reverse AR”: instead of overlaying the virtual on the real, reality's physical shape changes with digital information."
+  },
+  {
+   "id": "mit-fluid-interfaces",
+   "creator_ids": [
+    "mit-fluid-interfaces"
+   ],
+   "group": "research",
+   "tagline_zh": "把手指和墙面变成界面：可穿戴 AR 的第一次大众展示。",
+   "intro_zh": "Pattie Maes 领导的 MIT Fluid Interfaces 组，2009 年由 Pranav Mistry 展示了 SixthSense：脖子上挂一个投影仪和摄像头，就能在手掌、报纸、墙面上操作信息。那场 TED 演讲让全世界第一次想象“随身 AR”。",
+   "learn_zh": "学用最便宜的硬件（投影仪、摄像头、彩色指套）去演示一个大想法，并用讲故事的方式让人看懂。",
+   "highlights": [
+    {
+     "work": "mit-fluid-interfaces--sixthsense",
+     "note_zh": "在手掌上拨号，在报纸上播放视频，用手指比一个框就能拍照。可穿戴投影 AR 的标志性 demo。",
+     "note_en": "Dial on your palm, play video on a newspaper, frame a photo with your fingers. The iconic demo of wearable projection AR."
+    },
+    {
+     "work": "mit-fluid-interfaces--luminar",
+     "note_zh": "一盏能移动、能投影、能识别桌面物体的台灯。把 AR 藏进日常家具里。",
+     "note_en": "A lamp that moves, projects and recognizes objects on the desk. AR hidden inside everyday furniture."
+    },
+    {
+     "work": "mit-fluid-interfaces--aftermath",
+     "note_zh": "把平板对准一个物理场景，AR 会预测并显示接下来会发生什么，比如物体会往哪里掉、往哪里滚。增强的是时间，而不只是空间。",
+     "note_en": "Point a tablet at a physical scene and AR predicts what happens next — where things will fall or roll. It augments time, not only space."
+    },
+    {
+     "work": "mit-fluid-interfaces--holoart",
+     "note_zh": "用 HoloLens 在空中作画，并和真实环境融合。早期头显上的创作工具。",
+     "note_en": "Painting in the air with HoloLens, blended with the real room. An early creation tool on headsets."
+    }
+   ],
+   "tagline_en": "Fingers and walls as the interface: wearable AR's first mass audience.",
+   "intro_en": "In 2009 Pranav Mistry, in Pattie Maes's MIT Fluid Interfaces group, showed SixthSense: a projector and camera worn around the neck let you operate information on your palm, a newspaper or a wall. The TED talk made the world imagine “AR you carry” for the first time.",
+   "learn_en": "How to demonstrate a big idea with the cheapest hardware (projector, camera, colored finger caps) and a story people understand."
+  },
+  {
+   "id": "ryo-suzuki",
+   "creator_ids": [
+    "ryo-suzuki"
+   ],
+   "group": "research",
+   "tagline_zh": "画一笔，现实就动起来：最新一代 AR 交互研究。",
+   "intro_zh": "Ryo Suzuki 在卡尔加里大学领导 Programmable Reality Lab，几乎每年都在 CHI 和 UIST 发表数篇 AR 交互论文。他的作品让手绘草图和真实世界的运动连接起来，特别适合教育和科学可视化。",
+   "learn_zh": "学“动态草图”的思路：用户随手画的线不再是静态标注，而是会跟踪、测量、模拟的活参数。",
+   "highlights": [
+    {
+     "work": "ryo-suzuki--realitysketch",
+     "note_zh": "在 AR 里画一条线，它就绑定到真实物体上，实时测量角度、生成图表。代表作。",
+     "note_en": "Draw a line in AR and it binds to a real object, measuring angles and plotting graphs live. His signature work."
+    },
+    {
+     "work": "ryo-suzuki--realitytalk",
+     "note_zh": "边讲话边自动生成相应的 AR 图形与关键词，演讲者不用准备幻灯片。",
+     "note_en": "While you speak, matching AR graphics and keywords appear; the presenter needs no slides."
+    },
+    {
+     "work": "ryo-suzuki--augmented-math",
+     "note_zh": "拍一下课本上的静态数学题，它就变成可以拖动、可以动起来的 AR 图形。",
+     "note_en": "Point at a static math problem in a textbook and it becomes an AR figure you can drag and animate."
+    },
+    {
+     "work": "ryo-suzuki--augmented-physics",
+     "note_zh": "课本上的物理示意图被转换成可交互的模拟。AR 做教育的直接范例。",
+     "note_en": "Physics diagrams from a textbook become interactive simulations. A direct example of AR for education."
+    }
+   ],
+   "tagline_en": "Draw a line and reality starts moving: the newest generation of AR interaction research.",
+   "intro_en": "Ryo Suzuki leads the Programmable Reality Lab at the University of Calgary and publishes several AR interaction papers at CHI and UIST nearly every year. His work links hand-drawn sketches to real-world motion, ideal for education and science visualization.",
+   "learn_en": "Dynamic sketching: a line the user draws is no longer a static annotation but a live parameter that tracks, measures and simulates."
+  },
+  {
+   "id": "ian-curtis",
+   "creator_ids": [
+    "ian-curtis"
+   ],
+   "group": "prototypers",
+   "tagline_zh": "每周一个空间实验：2025–26 年 WebAR 与生成式世界的前沿。",
+   "intro_zh": "Ian Curtis（@XRarchitect）是建筑背景的设计师，先后在 8th Wall、Niantic 工作，现在在 World Labs。他在 X 上持续公开自己的实验，并写清楚用了什么工具。最近的方向是把 AI 生成的 3D 世界（Gaussian Splat）放进真实房间。",
+   "learn_zh": "学“公开地快速原型”：新工具出来的当晚就做一个 demo，拍成 30 秒视频，写清楚技术栈。",
+   "highlights": [
+    {
+     "work": "ian-curtis--10",
+     "note_zh": "8th Wall 的月球传送门：在街上打开一扇门，走进去就是月球。WebAR 传送门的范例。",
+     "note_en": "8th Wall's moon portal: open a door on the street and walk onto the moon. A model WebAR portal."
+    },
+    {
+     "work": "ian-curtis--x823060",
+     "note_zh": "AI 设计新客厅、生成 3D、再用 VPS 1:1 对齐到真实房间，人可以走进“重新设计后的家”。",
+     "note_en": "AI designs a new living room, generates it in 3D, and VPS aligns it 1:1 to the real room so you can walk into the redesign."
+    },
+    {
+     "work": "ian-curtis--x580600",
+     "note_zh": "用普通摄像头追踪人脸，让笔记本屏幕变成一扇有纵深的窗。不用头显的立体感。",
+     "note_en": "A plain webcam tracks your face and turns a laptop screen into a window with depth. 3D without a headset."
+    },
+    {
+     "work": "ian-curtis--x468078",
+     "note_zh": "把自己缩成手办大小，在茶几上的迷你世界里探险。尺度变换是最容易出惊喜的 AR 手法之一。",
+     "note_en": "Shrink yourself to action-figure size and explore a tiny world on the coffee table. Changing scale is one of the most reliable sources of AR surprise."
+    },
+    {
+     "work": "ian-curtis--x194197",
+     "note_zh": "两千万个 splat 组成的旧金山缩在桌上，手机一靠近就钻进街道。城市尺度的桌面 AR。",
+     "note_en": "A 20-million-splat San Francisco on the table; move the phone closer and dive into the streets. City-scale tabletop AR."
+    }
+   ],
+   "tagline_en": "A spatial experiment every week: the 2025–26 frontier of WebAR and generated worlds.",
+   "intro_en": "Ian Curtis (@XRarchitect) is an architecture-trained designer who worked at 8th Wall and Niantic and is now at World Labs. He posts his experiments on X and lists exactly which tools he used. His recent direction: placing AI-generated 3D worlds (Gaussian splats) into real rooms.",
+   "learn_en": "Prototyping in public: build a demo the night a new tool ships, film 30 seconds, and write down the stack."
+  },
+  {
+   "id": "takashi-yoshinaga",
+   "creator_ids": [
+    "takashi-yoshinaga"
+   ],
+   "group": "prototypers",
+   "tagline_zh": "跨越十几年、几乎每一代设备的 AR 实验者。",
+   "intro_zh": "吉永崇（Takashi Yoshinaga）从 2009 年的医疗 AR 研究开始，一路在 Tango、ARCore、HoloLens、iPad LiDAR、Quest 3 上做原型，也是日本 AR 社区的重要教育者。他的实验常常用很巧妙的办法（比如借 YouTube 直播来传输全息影像）解决实际问题。",
+   "learn_zh": "学“设备无关的点子”：同一个想法（复制现实、传送全息人）在每一代新硬件上重做一遍，看它怎么变好。",
+   "highlights": [
+    {
+     "work": "takashi-yoshinaga--hologram-via-youtube",
+     "note_zh": "借用 YouTube 直播传输全息影像到手机 AR。用现成的基础设施解决难题，非常巧妙。",
+     "note_en": "Holograms streamed to phone AR through YouTube Live. Solving a hard problem with existing infrastructure."
+    },
+    {
+     "work": "takashi-yoshinaga--spatial-copy-paste",
+     "note_zh": "在 HoloLens 2 里框选一块真实房间“复制”成网格，再“粘贴”进另一个人手机的 ARCore 视图里。",
+     "note_en": "Select a piece of the real room on HoloLens 2, “copy” it as a mesh, and “paste” it into another person's ARCore phone view."
+    },
+    {
+     "work": "takashi-yoshinaga--holo-cat",
+     "note_zh": "追踪观看者的头部位置，让平面屏幕里的猫呈现正确的透视。和 Ian Curtis 的离轴投影可以对照着看。",
+     "note_en": "Head tracking gives a cat on a flat screen correct perspective. Compare it with Ian Curtis's off-axis projection."
+    },
+    {
+     "work": "takashi-yoshinaga--mr-door-quest3",
+     "note_zh": "房间里一扇真实的门变成传送门：在 Quest 3 的透视画面中打开它，门后是一个虚拟世界。",
+     "note_en": "A real door in the room becomes a portal: open it in Quest 3 passthrough and a virtual world is behind it."
+    },
+    {
+     "work": "takashi-yoshinaga--dejaviewer",
+     "note_zh": "在原地重放过去某一刻的人体动作，像空间里的时间回放。",
+     "note_en": "Replay a past moment of human motion on the spot, like an instant replay in space."
+    }
+   ],
+   "tagline_en": "An AR experimenter across more than a decade and almost every device generation.",
+   "intro_en": "Takashi Yoshinaga began with medical AR research in 2009 and has since prototyped on Tango, ARCore, HoloLens, iPad LiDAR and Quest 3; he is also an important educator in Japan's AR community. His experiments often solve real problems with clever tricks, such as streaming holograms through YouTube Live.",
+   "learn_en": "Device-independent ideas: re-make the same idea (copying reality, sending a hologram of a person) on each new generation of hardware and see how it improves."
+  },
+  {
+   "id": "laan-labs",
+   "creator_ids": [
+    "laan-labs"
+   ],
+   "group": "prototypers",
+   "tagline_zh": "ARKit 早期最有想象力的一批原型，很多后来成了产品。",
+   "intro_zh": "Chris Laan 的 Laan Labs 在 2017 年 ARKit 发布后的几个月里，做出了一连串病毒式传播的 demo：AR 卷尺、空中喷漆、蟑螂满地爬……它们几乎定义了“手机 AR 能做什么”的早期想象，有些后来成了 App Store 上的热门应用。",
+   "learn_zh": "学“一个 API 能力 = 一个点子”：平面检测、特征点、遮挡，每一种能力都可以直接变成一个好玩的小应用。",
+   "highlights": [
+    {
+     "work": "laan-labs--air-measure",
+     "note_zh": "AR 卷尺：最早证明手机 AR 实用价值的应用之一，后来苹果也内置了“测距仪”。",
+     "note_en": "An AR tape measure: one of the first proofs that phone AR was useful. Apple later built in its own Measure app."
+    },
+    {
+     "work": "laan-labs--ar-spray-paint",
+     "note_zh": "拿手机当喷漆罐，在墙上和空中涂鸦。空间绘画的大众版本。",
+     "note_en": "Use the phone as a spray can to paint on walls and in the air. Spatial drawing for everyone."
+    },
+    {
+     "work": "laan-labs--ar-roaches",
+     "note_zh": "一群蟑螂在真实的桌面和物体上爬。利用空间理解制造恐怖感，效果立竿见影。",
+     "note_en": "A swarm of cockroaches crawls over real tables and objects. Spatial understanding used for instant horror."
+    },
+    {
+     "work": "laan-labs--ar-gaussian-splats",
+     "note_zh": "2023 年：在手机上实时 AR 渲染 Gaussian Splat。从 2017 年的点云一路走到今天的新表示方式。",
+     "note_en": "2023: Gaussian splats rendered in real-time AR on a phone. From 2017 point clouds to today's new representation."
+    },
+    {
+     "work": "laan-labs--airdraw-vision-pro",
+     "note_zh": "在 Vision Pro 上用手指直接在空中作画。同样的空间绘画点子，换到新设备上重做。",
+     "note_en": "Finger-painting in the air on Vision Pro. The same spatial-drawing idea, re-made on a new device."
+    }
+   ],
+   "tagline_en": "The most imaginative early ARKit prototypes, several of which became products.",
+   "intro_en": "In the months after ARKit launched in 2017, Chris Laan's Laan Labs released a string of viral demos: an AR tape measure, spray paint in the air, cockroaches crawling everywhere. They defined the early picture of what phone AR could do, and some became hit apps.",
+   "learn_en": "One API capability = one idea: plane detection, feature points and occlusion can each become a small, playful app."
+  },
+  {
+   "id": "rhizomatiks",
+   "creator_ids": [
+    "daito-manabe"
+   ],
+   "name": "Daito Manabe / Rhizomatiks",
+   "group": "art",
+   "tagline_zh": "把 AR 做成现场表演：舞者、无人机与混合现实舞台。",
+   "intro_zh": "真锅大度（Daito Manabe）和 Rhizomatiks 团队与编舞家 MIKIKO、舞团 ELEVENPLAY 长期合作，把追踪、投影、无人机和 AR 转播结合成现场演出，从 Perfume 的舞台一直做到里约奥运会闭幕式上的东京八分钟。他们的作品覆盖了本库最多的交互类型。",
+   "learn_zh": "学把 AR 当“现场媒介”：一切都必须实时、零失误，而且要同时服务现场观众和屏幕前的观众。",
+   "highlights": [
+    {
+     "work": "elevenplay-mikiko--24-drones",
+     "note_zh": "三位舞者和 24 架发光无人机同台，无人机组成的光点阵形随编舞变化，框住舞者的动作。",
+     "note_en": "Three dancers and 24 glowing drones share the stage; the drones' formations of light shift with the choreography and frame the dancers."
+    },
+    {
+     "work": "daito-manabe--border",
+     "note_zh": "观众坐在自动移动的轮椅上戴着头显，看到的真实舞者和虚拟舞者无缝混合。混合现实舞台的代表作。",
+     "note_en": "Audience members ride automated wheelchairs wearing headsets; real and virtual dancers merge seamlessly. The signature mixed-reality stage."
+    },
+    {
+     "work": "daito-manabe--fencing-visualized",
+     "note_zh": "击剑剑尖的轨迹被实时追踪并画在电视转播画面上。AR 让观众看懂一项太快的运动。",
+     "note_en": "The tips of fencing blades are tracked and drawn on the TV broadcast in real time. AR helps viewers follow a sport too fast to see."
+    },
+    {
+     "work": "daito-manabe--discrete-figures",
+     "note_zh": "与 Kyle McDonald 合作：机器学习生成的虚拟舞者和真人同台。",
+     "note_en": "With Kyle McDonald: machine-learning-generated virtual dancers share the stage with real ones."
+    },
+    {
+     "work": "elevenplay-mikiko--border-2021",
+     "note_zh": "border 的 2021 新版，可以和 2015 年的原版对比，看技术进步如何改变同一个作品。",
+     "note_en": "The 2021 version of border. Compare it with 2015 to see how technology changes the same work."
+    }
+   ],
+   "tagline_en": "AR as live performance: dancers, drones and mixed-reality stages.",
+   "intro_en": "Daito Manabe and Rhizomatiks work with choreographer MIKIKO and the dance company ELEVENPLAY, combining tracking, projection, drones and AR broadcast into live shows — from Perfume's stages to the Tokyo segment of the Rio 2016 closing ceremony. Their work covers more interaction types than any other creator here.",
+   "learn_en": "AR as a live medium: everything must run in real time with zero failures, for the audience in the room and the one watching on screens."
+  },
+  {
+   "id": "keiichi-matsuda",
+   "creator_ids": [
+    "keiichi-matsuda"
+   ],
+   "group": "art",
+   "tagline_zh": "AR 未来的批判性想象：HYPER-REALITY 的作者。",
+   "intro_zh": "松田圭一（Keiichi Matsuda）是建筑师出身的设计师兼导演。2016 年的短片《HYPER-REALITY》描绘了一个被广告和界面淹没的 AR 城市，至今仍是讨论 AR 伦理最常被引用的作品。他曾在 Leap Motion 负责设计，现在的工作室 Liquid City 在做空间 AI 智能体。",
+   "learn_zh": "学“设计虚构”：用一段短片来想象和批判一种尚不存在的未来，而不只是做一个能用的 demo。",
+   "highlights": [
+    {
+     "work": "keiichi-matsuda--domestic-robocop",
+     "note_zh": "2010 年的研究生作品：厨房里的每件物品都贴满界面。HYPER-REALITY 的雏形。",
+     "note_en": "A 2010 graduate project: every object in a kitchen is covered in interfaces. The seed of HYPER-REALITY."
+    },
+    {
+     "work": "keiichi-matsuda--hyper-reality",
+     "note_zh": "必看。广告、游戏化、身份系统把整座城市淹没。适合作为 AR 伦理讨论课的开场。",
+     "note_en": "Essential viewing: ads, gamification and identity systems flood a whole city. A strong opener for a class on AR ethics."
+    },
+    {
+     "work": "keiichi-matsuda--merger",
+     "note_zh": "一个在 AR 里全天候工作的人，与机器的边界逐渐模糊。“AR 办公”的暗面。",
+     "note_en": "A worker who spends all day in AR, the line between her and the machine blurring. The dark side of “AR at work”."
+    },
+    {
+     "work": "keiichi-matsuda--agents",
+     "note_zh": "Liquid City 的短片：AI 智能体以角色形象出现在 AR 眼镜里，替主人公协商安排一天。从批判走向追问：我们想和 AI 建立什么关系？",
+     "note_en": "A Liquid City short: AI agents appear as characters in AR glasses and negotiate the protagonist's day. From critique to the question: what relationship do we want with AI?"
+    }
+   ],
+   "tagline_en": "A critical imagination of AR's future: the author of HYPER-REALITY.",
+   "intro_en": "Keiichi Matsuda is an architecture-trained designer and director. His 2016 short HYPER-REALITY shows a city drowned in ads and interfaces and is still the most-cited work in debates about AR ethics. He led design at Leap Motion; his studio Liquid City now builds spatial AI agents.",
+   "learn_en": "Design fiction: use a short film to imagine and critique a future that does not exist yet, rather than only building a working demo."
+  },
+  {
+   "id": "rafael-lozano-hemmer",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "group": "art",
+   "tagline_zh": "公共空间里的身体、影子与投影：“关系建筑”系列。",
+   "intro_zh": "Rafael Lozano-Hemmer 从 1990 年代开始在城市广场做巨型互动投影，他称之为“关系建筑”（Relational Architecture）：让路人的影子、心跳和声音改写建筑的表面。他证明了不需要任何个人设备，也能让成千上万人一起“增强”一个空间。",
+   "learn_zh": "学公共空间的 AR：没有 App、没有头显，任何路过的人都能成为作品的一部分。",
+   "highlights": [
+    {
+     "work": "rafael-lozano-hemmer--body-movies",
+     "note_zh": "路人的影子投到建筑上，影子里会露出其他人的肖像。公共投影 AR 的里程碑。",
+     "note_en": "Passers-by's shadows fall on a building and reveal portraits of other people inside them. A milestone of public projection AR."
+    },
+    {
+     "work": "rafael-lozano-hemmer--under-scan",
+     "note_zh": "广场被白光照亮，行人的影子里浮现出本地居民的视频肖像，他们抬头看你，在你离开时消失。",
+     "note_en": "A square flooded with white light; video portraits of local people appear in pedestrians' shadows, look up at them, and vanish when they leave."
+    },
+    {
+     "work": "rafael-lozano-hemmer--subtitled-public",
+     "note_zh": "进入房间的每个人身上都被投上一个随机的动词，而且会跟着他移动。给人贴标签，是追踪技术的隐喻。",
+     "note_en": "Each person entering the room gets a random verb projected on their body, following them around. Labeling people as a metaphor for tracking technology."
+    },
+    {
+     "work": "rafael-lozano-hemmer--zoom-pavilion",
+     "note_zh": "人脸识别摄像头把观众之间的关系放大投射到墙上。监控技术的艺术化呈现。",
+     "note_en": "Face-detecting cameras amplify the relationships between visitors onto the walls. Surveillance technology made into art."
+    }
+   ],
+   "tagline_en": "Bodies, shadows and projection in public space: the “Relational Architecture” series.",
+   "intro_en": "Since the 1990s Rafael Lozano-Hemmer has staged huge interactive projections in city squares, which he calls Relational Architecture: passers-by's shadows, heartbeats and voices rewrite the surface of buildings. He showed that thousands of people can augment a space together without any personal device.",
+   "learn_en": "AR in public space: no app, no headset — anyone walking by becomes part of the work."
+  },
+  {
+   "id": "universal-everything",
+   "creator_ids": [
+    "universal-everything"
+   ],
+   "group": "art",
+   "tagline_zh": "镜像式互动与动态形态：视觉语言最强的数字艺术工作室。",
+   "intro_zh": "Matt Pyke 在英国谢菲尔德创立的 Universal Everything，以“会动的人形”闻名：用动作捕捉驱动千变万化的角色。他们的互动作品大多是“魔镜”：你一动，镜子里的另一个你就跟着变形。",
+   "learn_zh": "学“视觉风格就是交互”：同样是一个身体追踪，形态设计决定了人们愿不愿意在镜子前停留、起舞。",
+   "highlights": [
+    {
+     "work": "universal-everything--future-you",
+     "note_zh": "Barbican 的动作捕捉镜子：每位观众都变成一个合成的机器人形象，你动得越用力，它的反应越奇异（共有 4.7 万种可能）。",
+     "note_en": "A motion-capture mirror at the Barbican: every visitor becomes a synthetic robotic figure, and the harder you move the stranger it gets (47,000 possible responses)."
+    },
+    {
+     "work": "universal-everything--super-you",
+     "note_zh": "把他们的动态角色做成手机 AR App，让普通人也能召唤出巨大的“超级自己”。",
+     "note_en": "Their moving characters as a phone AR app, so anyone can summon a giant “super self”."
+    },
+    {
+     "work": "universal-everything--hyperspace-ar",
+     "note_zh": "用 LiDAR 理解真实空间，让抽象的数字生命在你的房间里生长。",
+     "note_en": "LiDAR understands the real room so abstract digital life can grow inside it."
+    },
+    {
+     "work": "universal-everything--look-up",
+     "note_zh": "AR 建筑：抬头看城市的天际线，建筑之上叠加出新的动态结构。",
+     "note_en": "AR architecture: look up at the skyline and new moving structures appear on top of buildings."
+    },
+    {
+     "work": "universal-everything--chameleon",
+     "note_zh": "一个会模仿路人动作和外表的数字生命，出现在东伦敦的街头屏幕上，后来又去了威尼斯和北京。公共空间版本的魔镜。",
+     "note_en": "A digital being that imitates passers-by's movement and appearance on street screens in East London, later Venice and Beijing. The magic mirror in public space."
+    }
+   ],
+   "tagline_en": "Mirror-like interaction and moving form: the digital art studio with the strongest visual language.",
+   "intro_en": "Universal Everything, founded by Matt Pyke in Sheffield, is known for moving human figures: motion capture driving endlessly varied characters. Most of their interactive works are magic mirrors — you move, and another version of you transforms in the glass.",
+   "learn_en": "Visual style is interaction: with the same body tracking, the form design decides whether people stop and dance in front of the mirror."
+  }
+ ]
+}

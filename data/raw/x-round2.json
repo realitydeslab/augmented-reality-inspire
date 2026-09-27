@@ -1,0 +1,201 @@
+{
+ "batch": "x-round2",
+ "creators": [
+  {
+   "id": "shantell-martin",
+   "name": "Shantell Martin",
+   "role": "Artist (line drawing, text, performance)",
+   "based": "New York, US",
+   "bio": "Artist known for continuous black-and-white line drawings and words; collaborated with Zach Lieberman on Poem World for Snap Spectacles.",
+   "why": "Brings a drawn, hand-made line into spatial text — words you walk through.",
+   "links": {
+    "site": "https://shantellmartin.art",
+    "x": "https://x.com/shantell_martin"
+   },
+   "connected_to": [
+    "zach-lieberman"
+   ],
+   "discovered_via": "zach-lieberman"
+  }
+ ],
+ "works": [
+  {
+   "id": "zach-lieberman--x040339",
+   "creator_ids": [
+    "zach-lieberman"
+   ],
+   "title": "Spark AR sketches (retrospective)",
+   "year": 2024,
+   "description": "A reel of the face and world effects Zach made for Instagram's Spark AR before the platform shut down: generative type, face distortions and drawn trails.",
+   "idea_zh": "回顾自己在 Spark AR 上做的一系列即时可分享的脸部与世界特效。",
+   "interaction": [
+    "face",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Spark AR"
+   ],
+   "technique": "Face-mesh tracking and segmentation in Spark AR drive shader-based distortions and generative graphics that anyone can open instantly from a link.",
+   "exercise_zh": "用 Lens Studio 或 Effect House 做一个“一眼就能看懂”的脸部特效，并在 10 分钟内发给三个人试玩；变体：让效果只在两人同时入镜时出现。",
+   "video": {
+    "platform": "x",
+    "id": "1828438368734040339",
+    "url": "https://x.com/zachlieberman/status/1828438368734040339"
+   },
+   "source_url": "https://x.com/zachlieberman/status/1828438368734040339"
+  },
+  {
+   "id": "zach-lieberman--x949953",
+   "creator_ids": [
+    "zach-lieberman",
+    "shantell-martin"
+   ],
+   "title": "Poem World (Snap Spectacles)",
+   "year": 2021,
+   "description": "A short poem by Shantell Martin laid out as lines of text in space that you read by walking through them, recorded through Snap's AR Spectacles.",
+   "idea_zh": "一首可以走进去读的诗：文字排布在空间里，读诗就是走路。",
+   "interaction": [
+    "drawing-creation",
+    "location-geo"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "Lens Studio"
+   ],
+   "technique": "World-tracked text meshes are placed along a path in Lens Studio; the reading order is set by where the wearer walks rather than by scrolling.",
+   "exercise_zh": "把一首短诗拆成词句，用 AR 摆放在走廊或操场上，让“读”变成一条行走路线；变体：让某些词只在你停下来时才出现。",
+   "video": {
+    "platform": "x",
+    "id": "1408879174429949953",
+    "url": "https://x.com/zachlieberman/status/1408879174429949953"
+   },
+   "source_url": "https://x.com/zachlieberman/status/1408879174429949953"
+  },
+  {
+   "id": "zach-lieberman--x069317",
+   "creator_ids": [
+    "zach-lieberman",
+    "molmol-kuo"
+   ],
+   "title": "Weird Type skate trails",
+   "year": 2020,
+   "description": "Skateboarder Christopher Ledwig uses the Weird Type app to leave a trail of text following his skateboard's motion through space (shared by Zach).",
+   "idea_zh": "让一个 AR 文字工具被别人拿去玩出新花样：用文字画出滑板的轨迹。",
+   "interaction": [
+    "drawing-creation",
+    "hand-body"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "Weird Type"
+   ],
+   "technique": "The app samples the phone's world-tracked pose each frame and emits typographic glyphs along that path, so moving the camera draws text in 3D.",
+   "exercise_zh": "做一个“移动手机就能在空中留下文字轨迹”的小工具，再请同学用运动（跑、跳、滑板）去用它；变体：让文字内容随速度变化。",
+   "video": {
+    "platform": "x",
+    "id": "1271947807709069317",
+    "url": "https://x.com/zachlieberman/status/1271947807709069317"
+   },
+   "source_url": "https://x.com/zachlieberman/status/1271947807709069317"
+  },
+  {
+   "id": "daniel-beauchamp--x485349",
+   "creator_ids": [
+    "daniel-beauchamp"
+   ],
+   "title": "Pinball table in your room (WebXR)",
+   "year": 2025,
+   "description": "A web pinball game that also runs in AR on a headset: the table appears in your real space, wired up with about 100 lines of react-three/xr.",
+   "idea_zh": "把网页弹珠台一键变成摆在你房间里的 AR 版本。",
+   "interaction": [
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "WebXR",
+    "react-three/xr",
+    "three.js"
+   ],
+   "technique": "The existing three.js scene is wrapped in a WebXR AR session via react-three/xr, with the table anchored to a hit-tested floor or table surface and controller/hand input mapped to flippers.",
+   "exercise_zh": "把你之前做过的一个网页 3D 小游戏用 WebXR 改成 AR 版，摆在真实桌面上玩；变体：让桌子的真实边缘成为游戏里的墙。",
+   "video": {
+    "platform": "x",
+    "id": "1994241272815485349",
+    "url": "https://x.com/pushmatrix/status/1994241272815485349"
+   },
+   "source_url": "https://x.com/pushmatrix/status/1994241272815485349"
+  },
+  {
+   "id": "daniel-beauchamp--x697153",
+   "creator_ids": [
+    "daniel-beauchamp"
+   ],
+   "title": "AR glasses superpowers for illustrators",
+   "year": 2021,
+   "description": "A prototype imagining how AR glasses could let an illustrator or animator draw and see animated overlays directly on paper and the desk.",
+   "idea_zh": "想象 AR 眼镜给插画师的“超能力”：纸上的画直接动起来。",
+   "interaction": [
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "hand tracking"
+   ],
+   "technique": "Likely combines a tracked sheet of paper (image or plane tracking) with animated overlays rendered in-place so drawings and animation guides align with the physical page.",
+   "exercise_zh": "用图像追踪识别一张手绘稿，在纸上叠加一段会动的动画；变体：让画中角色能“走出”纸面到桌上。",
+   "video": {
+    "platform": "x",
+    "id": "1364224471259697153",
+    "url": "https://x.com/pushmatrix/status/1364224471259697153"
+   },
+   "source_url": "https://x.com/pushmatrix/status/1364224471259697153"
+  },
+  {
+   "id": "daniel-beauchamp--x417371",
+   "creator_ids": [
+    "daniel-beauchamp"
+   ],
+   "title": "Vision Pro pinball with pinch haptics",
+   "year": 2024,
+   "description": "Pinball played on Apple Vision Pro using pinch gestures for the flippers; the tactile pinch of your own fingers stands in for button feedback.",
+   "idea_zh": "用手指捏合当弹珠台按钮：身体自带的触感就是反馈。",
+   "interaction": [
+    "hand-body",
+    "game-play"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "visionOS",
+    "hand tracking"
+   ],
+   "technique": "visionOS hand tracking detects thumb–index pinch events and maps each hand's pinch to a flipper, relying on the self-contact of the fingers as passive haptic feedback.",
+   "exercise_zh": "设计一个只用“捏合”手势的 AR 小游戏，利用手指相碰本身的触感当反馈；变体：左右手分别控制不同的机制。",
+   "video": {
+    "platform": "x",
+    "id": "1762494365711417371",
+    "url": "https://x.com/pushmatrix/status/1762494365711417371"
+   },
+   "source_url": "https://x.com/pushmatrix/status/1762494365711417371"
+  }
+ ],
+ "leads": []
+}

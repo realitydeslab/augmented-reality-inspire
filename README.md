@@ -1,0 +1,80 @@
+# Reality Design Inspire
+
+**https://inspire.reality.design**
+
+Twenty years of augmented-reality ideas. A gallery of the most inventive AR creators since 2005 and their AR work: 921 works by 180 creators, each with a playable video, its core idea, the key technique behind it and a classroom exercise. Built by [Reality Design Lab](https://reality.design) as idea material for teaching.
+
+## What's inside
+
+- **Key Creators**: 15 creators in four groups, each with a guided tour of 4–5 highlight works and a curator's note.
+- **Works**: filter by 15 interaction types, platform and era; full-text search.
+- **Creators**: every creator with bio, links, who led to them, and all their works.
+- **Modules**: works grouped by interaction pattern, one module per teaching topic.
+- **Starred**: star works in your browser, then export them as `SKILL.md` or `README.md` for your AI assistant.
+- **English / 中文** switch and light / dark theme.
+
+## For AI assistants
+
+- [`llms.txt`](llms.txt): index
+- [`inspire.md`](inspire.md): full catalog in English
+- [`inspire.zh.md`](inspire.zh.md): full catalog in Chinese
+- [`data/entries.json`](data/entries.json): raw data
+
+## How it was made
+
+Starting from two seed creators (Zach Lieberman and Ian Curtis), researchers followed collaborators, students and admirers from one creator to the next across X, Vimeo, YouTube, lab pages and festival archives. Every video is checked automatically before each build (`tools/check_video.py`).
+
+## Run locally
+
+```bash
+./serve.sh   # rebuilds data/ and serves http://localhost:8931
+```
+
+YouTube embeds need `http://`; they do not play from `file://`.
+
+## Data layout
+
+| Path | Contents |
+|---|---|
+| `data/raw/*.json` | Research batches: creators, works, leads (schema: `data/SCHEMA.md`) |
+| `data/teach/*.json` | Technique + classroom exercise per work |
+| `data/i18n/out/*.json` | English / Chinese translations |
+| `data/key_creators.json` | Key Creators, groups and guided tours |
+| `data/overrides.json` | Manual curation (hide or patch works) |
+| `data/entries.json`, `data/entries.js` | Built dataset used by the site |
+| `data/leads.json` | People found but not yet researched |
+
+## Credits
+
+All videos belong to their creators and are embedded from YouTube, Vimeo, X and the creators' own sites. To suggest a correction or an addition, please open an issue.
+
+---
+
+# Reality Design Inspire（中文）
+
+**https://inspire.reality.design**
+
+二十年的增强现实点子。这里收录了 2005 年以来最有创意的 AR 创作者和他们的 AR 作品：180 位创作者的 921 件作品。每件作品都附有可播放的视频、核心点子、背后的关键技术和一个课堂练习。由 [Reality Design Lab](https://reality.design) 整理，作为教学的点子库。
+
+## 内容
+
+- **关键创作者导览**：分成四组的 15 位创作者，每位都有 4–5 件代表作的导览和策展说明。
+- **作品**：按 15 种交互类型、平台和年代筛选，支持全文搜索。
+- **创作者**：每位创作者的简介、链接、发现路径，以及全部作品。
+- **教学模块**：按交互模式分组，一个模块对应一个教学主题。
+- **收藏**：在浏览器里收藏作品，导出成 `SKILL.md` 或 `README.md` 交给你的 AI 助手。
+- 支持中英文切换和深浅色主题。
+
+## 给 AI 读取
+
+- [`llms.txt`](llms.txt)：索引
+- [`inspire.zh.md`](inspire.zh.md)：中文完整目录
+- [`inspire.md`](inspire.md)：英文完整目录
+
+## 本地运行
+
+```bash
+./serve.sh   # 重新构建数据并在 http://localhost:8931 提供服务
+```
+
+视频版权归原创作者所有。如需更正或补充，欢迎提交 issue。

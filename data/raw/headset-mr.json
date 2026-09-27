@@ -1,0 +1,2126 @@
+{
+  "batch": "headset-mr",
+  "creators": [
+    {
+      "id": "thomas-van-bouwel",
+      "name": "Thomas Van Bouwel",
+      "role": "Solo indie developer (Cubism, Laser Dance); former architect",
+      "based": "Belgium",
+      "bio": "Belgian architect-turned-solo game developer behind the hand-tracked puzzle game Cubism and the mixed-reality game Laser Dance.",
+      "why": "Laser Dance turns any living room's own geometry into a procedurally fitted laser obstacle course, one of the purest uses of Quest scene understanding.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@helemaalbigT",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "lucas-rizzotto",
+      "name": "Lucas Rizzotto",
+      "role": "Inventor, XR designer and YouTuber (Lucas Builds The Future)",
+      "based": "Los Angeles, US",
+      "bio": "Award-winning XR creator whose early HoloLens apps (CyberSnake, MyLab) and later YouTube inventions turned mixed reality into viral, story-driven experiments.",
+      "why": "He treats mixed reality as a medium for playful, emotional inventions, from a holographic snake that eats your room to turning a person into a theremin.",
+      "links": {
+        "site": "https://www.lucasrizzotto.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@LucasRizzotto",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "greg-madison",
+      "name": "Greg Madison",
+      "role": "XR interaction designer; former UX/interaction designer at Unity Labs",
+      "based": "France",
+      "bio": "Interaction designer and futurist who spent years at Unity Labs prototyping how real objects, surfaces and bodies can become interfaces in mixed reality.",
+      "why": "His 'Tangible Mixed Reality' series and surface-based hand-tracking prototypes are some of the clearest demonstrations of blending physical objects with virtual UI.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@GregMadison",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "leap-motion-design",
+      "name": "Leap Motion Design Research (Barrett Fox, Martin Schubert, Keiichi Matsuda et al.)",
+      "role": "Hand-tracking interaction design team at Leap Motion / Ultraleap",
+      "based": "San Francisco, US",
+      "bio": "Leap Motion's small design research group published a stream of hand-interaction experiments and built Project North Star, an open-source wide-field AR headset.",
+      "why": "They defined much of the bare-hand vocabulary of headset AR (palm menus, wearable UI, desk interfaces) and open-sourced the hardware to explore it.",
+      "links": {
+        "site": "https://docs.projectnorthstar.org",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@leapmotion",
+        "github": ""
+      },
+      "connected_to": [
+        "keiichi-matsuda"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "greg-broadmore",
+      "name": "Greg Broadmore (Weta Workshop / Weta Gameshop)",
+      "role": "Concept artist; creator of Dr. Grordbort; studio director of Weta Gameshop",
+      "based": "Wellington, New Zealand",
+      "bio": "Weta Workshop concept artist who created the retro-sci-fi Dr. Grordbort universe and led Weta Gameshop's multi-year collaboration with Magic Leap.",
+      "why": "His robot-invasion demos were the first widely seen vision of headset AR where characters burst out of your real walls.",
+      "links": {
+        "site": "https://www.wetaworkshop.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "asobo-studio",
+      "name": "Asobo Studio",
+      "role": "Game developer; HoloLens launch-title studio (later HoloForge Interactive)",
+      "based": "Bordeaux, France",
+      "bio": "Bordeaux game studio that built the most ambitious HoloLens launch titles and later spun out HoloForge Interactive for holographic work.",
+      "why": "Fragments and Young Conker were the first games to rebuild their levels around the player's real room, placing characters on real sofas and walls.",
+      "links": {
+        "site": "https://www.asobostudio.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@AsoboStudio",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "sigur-ros",
+      "name": "Sigur Rós",
+      "role": "Icelandic post-rock band; co-creators of the Magic Leap soundscape Tónandi",
+      "based": "Reykjavík, Iceland",
+      "bio": "Icelandic band that spent five years with Magic Leap Studios building Tónandi, an interactive audio-visual soundscape.",
+      "why": "Tónandi recast music as something you touch in space: sounds grow as creatures around your room when you reach for them.",
+      "links": {
+        "site": "https://sigurros.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@sigurros",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "ryan-mcleod",
+      "name": "Ryan McLeod",
+      "role": "Indie designer-developer of Blackbox (Apple Design Award winner)",
+      "based": "US",
+      "bio": "Solo designer of Blackbox, a puzzle game with no buttons that uses the device's own sensors, twice an Apple Design Award winner, later rebuilt for Apple Vision Pro.",
+      "why": "He turns a device's sensors into the puzzle itself; on Vision Pro, puzzles respond to your gaze, hands, voice and the space around you.",
+      "links": {
+        "site": "https://blackboxpuzzles.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@blackboxpuzzles",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "realities-io",
+      "name": "realities.io",
+      "role": "Small XR studio (Puzzling Places)",
+      "based": "Berlin, Germany",
+      "bio": "Small studio that builds 3D jigsaw puzzles from photogrammetry scans of real places, with mixed-reality, hand-tracking and Vision Pro versions.",
+      "why": "Puzzling Places lets you rebuild miniature real-world landmarks piece by piece on your own table, alone or with a friend in the same room.",
+      "links": {
+        "site": "https://realities.io",
+        "x": "https://x.com/PuzzlingPlaces",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@RealitiesIoVR",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "resolution-games",
+      "name": "Resolution Games",
+      "role": "XR game studio (Angry Birds FPS, Demeo, Spatial Ops)",
+      "based": "Stockholm, Sweden",
+      "bio": "Stockholm studio founded by Tommy Palm that has shipped mixed-reality games on Magic Leap, Quest and Vision Pro since 2018.",
+      "why": "Spatial Ops turned any home or office into a co-located first-person shooter arena, one of the first large-scale multiplayer MR games.",
+      "links": {
+        "site": "https://www.resolutiongames.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@ResolutionGamesOfficial",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "botao-amber-hu",
+      "name": "Botao 'Amber' Hu",
+      "role": "Designer-researcher; founder of Reality Design Lab; inventor of HoloKit",
+      "based": "Oxford, UK / Beijing, China",
+      "bio": "Creative technologist and experiential futures designer who invented HoloKit, an open-source stereo iPhone AR headset, and leads Reality Design Lab's research on embodied, social mixed reality.",
+      "why": "His work pushes co-located MR toward street play, handshakes and non-human senses (bat echolocation, felt navigation) on cheap, open hardware.",
+      "links": {
+        "site": "https://reality.design",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@Ambergarage",
+        "github": "https://github.com/botaohu"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "daniel-beauchamp",
+      "name": "Daniel Beauchamp (Pushmatrix)",
+      "role": "Spatial-computing experimentalist; Head of AR/VR at Shopify",
+      "based": "Canada",
+      "bio": "Principal AR/VR engineer at Shopify who posts short, often viral hand-tracking and mixed-reality experiments under the name Pushmatrix.",
+      "why": "He finds the tiny everyday use case, such as vacuuming coverage or live 3D previews, that makes headset MR feel inevitable.",
+      "links": {
+        "site": "https://medium.com/@pushmatrix",
+        "x": "https://x.com/pushmatrix",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/pushmatrix"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "max-weisel",
+      "name": "Max Weisel",
+      "role": "Co-founder of Normal (Normcore, Nock)",
+      "based": "New York, US",
+      "bio": "Designer-engineer who co-founded Normal, maker of the Normcore multiplayer framework and the VR sport Nock, and prototypes cross-device AR/VR interaction.",
+      "why": "His prototypes let phone-AR users and headset users share one space, an early template for cross-reality multiplayer.",
+      "links": {
+        "site": "https://normcore.io",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@mxweas",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "julian-triveri",
+      "name": "Julian Triveri (anaglyph)",
+      "role": "Solo developer of Lasertag for Quest",
+      "based": "US",
+      "bio": "Independent developer who builds Lasertag, a co-located mixed-reality laser tag game for Quest 3 that uses real-time depth to map rooms.",
+      "why": "Lasertag uses the Quest depth sensor and synced room scanning so laser beams and hits respect every real obstacle, shared across all players.",
+      "links": {
+        "site": "https://anaglyph.dev",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@trev3d",
+        "github": "https://github.com/anaglyphs/lasertag"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "stijn-spanhove",
+      "name": "Stijn Spanhove",
+      "role": "XR developer at In The Pocket; Snap Spectacles creator",
+      "based": "Ghent, Belgium",
+      "bio": "Belgian XR developer who builds rapid AR-glasses proofs of concept for Snap Spectacles and Meta AI glasses, often pairing them with generative AI.",
+      "why": "He prototypes what AR glasses plus AI can do in daily life, from a real-world ad blocker to drawings that become playable worlds.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@Spanhove",
+        "github": ""
+      },
+      "connected_to": [
+        "pavlo-tkachenko"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "pavlo-tkachenko",
+      "name": "Pavlo Tkachenko",
+      "role": "AR developer and Snap Spectacles lens creator",
+      "based": "",
+      "bio": "AR developer who builds Spectacles lenses, often with Stijn Spanhove, and won a Spectacles Community Challenge with his generative lens Bubbles.",
+      "why": "His lenses make AR glasses feel playful and physical: generating objects from a prompt, or flying a plane with head movement.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@pt.pavlo.tkachenko",
+        "github": ""
+      },
+      "connected_to": [
+        "stijn-spanhove"
+      ],
+      "discovered_via": "stijn-spanhove"
+    },
+    {
+      "id": "creature",
+      "name": "Creature",
+      "role": "Small XR studio (Starship Home)",
+      "based": "",
+      "bio": "Small independent studio behind Starship Home, a narrative mixed-reality game for Quest 3.",
+      "why": "Starship Home rebuilds your real room as a spaceship interior, replacing windows and walls with space views while you care for alien plants.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@creaturedotpage",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    }
+  ],
+  "works": [
+    {
+      "id": "thomas-van-bouwel--laser-dance",
+      "creator_ids": [
+        "thomas-van-bouwel"
+      ],
+      "title": "Laser Dance",
+      "year": 2024,
+      "description": "A Quest 3 mixed-reality game that scans your living room and strings laser beams between your real walls and furniture; you dance, dodge and crawl through the beams to reach buttons.",
+      "idea_zh": "把自家客厅的真实墙面和家具变成激光迷阵，用全身躲避穿越。",
+      "interaction": [
+        "spatial-mapping",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "Scene API",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Dx2JZ_9_lbc",
+        "url": "https://www.youtube.com/watch?v=Dx2JZ_9_lbc"
+      }
+    },
+    {
+      "id": "thomas-van-bouwel--cubism-mixed-reality",
+      "creator_ids": [
+        "thomas-van-bouwel"
+      ],
+      "title": "Cubism (Mixed Reality mode)",
+      "year": 2023,
+      "description": "The hand-tracked block puzzle Cubism rebuilt for passthrough: colored polycube pieces float above your real table and you assemble them with your bare hands.",
+      "idea_zh": "用裸手在真实桌面上方拼装悬浮的彩色方块谜题。",
+      "interaction": [
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "hand tracking",
+        "passthrough"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "BrqmjOLzXNo",
+        "url": "https://www.youtube.com/watch?v=BrqmjOLzXNo"
+      }
+    },
+    {
+      "id": "lucas-rizzotto--cybersnake",
+      "creator_ids": [
+        "lucas-rizzotto"
+      ],
+      "title": "CyberSnake",
+      "year": 2016,
+      "description": "The classic Snake game rebuilt as a room-scale HoloLens hologram: you steer the snake with your head, chase holographic burgers located by spatial sound, and avoid your own tail around the room.",
+      "idea_zh": "把贪吃蛇变成满屋子游走的全息体，用头部方向和空间声音来玩。",
+      "interaction": [
+        "gaze-attention",
+        "voice-sound",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HoloLens",
+        "Unity",
+        "spatial audio"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "1SprJQz_pGU",
+        "url": "https://www.youtube.com/watch?v=1SprJQz_pGU"
+      }
+    },
+    {
+      "id": "lucas-rizzotto--mylab",
+      "creator_ids": [
+        "lucas-rizzotto"
+      ],
+      "title": "MyLab",
+      "year": 2016,
+      "description": "A holographic chemistry app for HoloLens with an interactive periodic table; you pull elements out into the room and inspect their atomic structure as 3D holograms.",
+      "idea_zh": "把元素周期表变成可以拿出来、放大观察的全息原子模型。",
+      "interaction": [
+        "data-information",
+        "hand-body"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HoloLens",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "MbOoeTlDG_w",
+        "url": "https://www.youtube.com/watch?v=MbOoeTlDG_w"
+      },
+      "source_url": "https://roadtovr.com/mylab-hololens-brings-interactive-periodic-table-chemistry-classroom/"
+    },
+    {
+      "id": "lucas-rizzotto--ar-marauders-map",
+      "creator_ids": [
+        "lucas-rizzotto"
+      ],
+      "title": "Working Marauder's Map",
+      "year": 2020,
+      "description": "A physical parchment map of a rented 'mini Hogwarts' castle that, seen through a phone, shows everyone's GPS-tracked position as walking footprints with name labels, like the Marauder's Map.",
+      "idea_zh": "把《哈利波特》活点地图做成真的：纸质地图上用AR显示每个人实时移动的脚印。",
+      "interaction": [
+        "location-geo",
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "mobile AR",
+        "GPS",
+        "image tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "A3v6dLlylU8",
+        "url": "https://www.youtube.com/watch?v=A3v6dLlylU8"
+      },
+      "source_url": "https://www.uploadvr.com/harry-potter-ar-marauders-map/"
+    },
+    {
+      "id": "lucas-rizzotto--portal-to-best-friend",
+      "creator_ids": [
+        "lucas-rizzotto"
+      ],
+      "title": "Portal to My Best Friend",
+      "year": 2020,
+      "description": "A quarantine project that opens a mixed-reality portal in his apartment wall onto his best friend's home, so the two can see and talk to each other as if the wall were gone.",
+      "idea_zh": "在墙上开一扇混合现实传送门，直通隔离中的好友家。",
+      "interaction": [
+        "portal-world",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "mixed reality",
+        "volumetric capture"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "713T4x89kMk",
+        "url": "https://www.youtube.com/watch?v=713T4x89kMk"
+      }
+    },
+    {
+      "id": "lucas-rizzotto--pillow",
+      "creator_ids": [
+        "lucas-rizzotto"
+      ],
+      "title": "Pillow",
+      "year": 2023,
+      "description": "A mixed-reality app for Quest designed to be used lying in bed: relaxing activities, stories and games float above you, and a friend can join from their own bed.",
+      "idea_zh": "专为躺在床上设计的混合现实应用，朋友也能从自己床上加入。",
+      "interaction": [
+        "multiplayer-social",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "passthrough"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "jGaPFRT25is",
+        "url": "https://www.youtube.com/watch?v=jGaPFRT25is"
+      },
+      "source_url": "https://roadtovr.com/pillow-mr-app-lucas-rizzotto-release-trailer/"
+    },
+    {
+      "id": "lucas-rizzotto--girlfriend-theremin",
+      "creator_ids": [
+        "lucas-rizzotto"
+      ],
+      "title": "Human Theremin (AR synthesizer)",
+      "year": 2021,
+      "description": "A HoloLens 2 app that tracks another person's body and turns it into a playable instrument: touching and moving around them triggers synth sounds and visuals, like an augmented theremin.",
+      "idea_zh": "把另一个人的身体变成可以演奏的AR合成器乐器。",
+      "interaction": [
+        "hand-body",
+        "voice-sound",
+        "performance-stage"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HoloLens 2",
+        "hand tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "R2KZ34OZlwk",
+        "url": "https://www.youtube.com/watch?v=R2KZ34OZlwk"
+      },
+      "source_url": "https://hololens.reality.news/news/transform-your-friend-into-ar-musical-synthesizer-via-hololens-2-nft-app-0384622/"
+    },
+    {
+      "id": "greg-madison--tangible-mr-haptics",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Tangible Mixed Reality 01: Oculus Touch & haptics",
+      "year": 2017,
+      "description": "First of a series in which Oculus Touch controllers track real objects so they can be mirrored inside VR; here real surfaces give passive haptic feedback to a virtual interface.",
+      "idea_zh": "用真实物体给虚拟界面提供被动触觉反馈。",
+      "interaction": [
+        "tangible-object",
+        "hand-body"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Oculus Rift",
+        "Oculus Touch",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "wOUdvLVRJpk",
+        "url": "https://www.youtube.com/watch?v=wOUdvLVRJpk"
+      }
+    },
+    {
+      "id": "greg-madison--tangible-mr-launchpad",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Tangible Mixed Reality 02: Oculus Touch & launchpad",
+      "year": 2017,
+      "description": "A physical launchpad controller is tracked and mirrored in VR so its real pads can be pressed while wearing a headset, with virtual feedback attached.",
+      "idea_zh": "把真实MIDI打击垫变成混合现实中的空间视觉控制器。",
+      "interaction": [
+        "tangible-object",
+        "voice-sound"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Oculus Rift",
+        "Oculus Touch",
+        "MIDI",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7xVFERWilj4",
+        "url": "https://www.youtube.com/watch?v=7xVFERWilj4"
+      }
+    },
+    {
+      "id": "greg-madison--tangible-mr-synthesizer",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Tangible Mixed Reality 03: Oculus Touch & synthesizer",
+      "year": 2017,
+      "description": "A real hardware synthesizer is registered in the virtual scene so you can play and tweak it while immersed, with virtual visuals attached to the instrument.",
+      "idea_zh": "转动真实合成器的旋钮，在空间中塑造声音可视化。",
+      "interaction": [
+        "tangible-object",
+        "voice-sound"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Oculus Rift",
+        "Oculus Touch",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "PGrJeCXyKrI",
+        "url": "https://www.youtube.com/watch?v=PGrJeCXyKrI"
+      }
+    },
+    {
+      "id": "greg-madison--tangible-mr-keyboard",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Tangible Mixed Reality 04: Oculus Touch & keyboard",
+      "year": 2017,
+      "description": "A physical computer keyboard is tracked so you can type for real inside VR, with virtual labels and panels attached to the real keys.",
+      "idea_zh": "在VR中用真实键盘打字，并给实体按键叠加虚拟标签。",
+      "interaction": [
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Oculus Rift",
+        "Oculus Touch",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "i5iLZ3ykfBA",
+        "url": "https://www.youtube.com/watch?v=i5iLZ3ykfBA"
+      }
+    },
+    {
+      "id": "greg-madison--tangible-mr-board-game",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Tangible Mixed Reality 05: Oculus Touch & board game",
+      "year": 2017,
+      "description": "A real board game is tracked and augmented with a virtual layer, pitching mixed reality as a way to 'uberize' ordinary physical objects the way MP3 did music.",
+      "idea_zh": "给真实桌游叠加虚拟棋子和动画，让普通物件被数字层重新定义。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Oculus Rift",
+        "Oculus Touch",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "DpFZme_mOoU",
+        "url": "https://www.youtube.com/watch?v=DpFZme_mOoU"
+      }
+    },
+    {
+      "id": "greg-madison--tangible-mr-robot",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Tangible Mixed Reality 06: Oculus Touch & ROBOT",
+      "year": 2017,
+      "description": "A small physical robot is tracked with an Oculus Touch controller and mirrored in the virtual scene, blending a real moving machine with a virtual character.",
+      "idea_zh": "给真实的小机器人套上虚拟外形和界面，实体与虚拟角色合一。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Oculus Rift",
+        "Oculus Touch",
+        "robot",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "qESmM_MRNZ8",
+        "url": "https://www.youtube.com/watch?v=qESmM_MRNZ8"
+      }
+    },
+    {
+      "id": "greg-madison--ar-cereal-box",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Concept: AR cereal box",
+      "year": 2017,
+      "description": "A 2017 Unity Labs concept from the 'future of mixed reality' series in which a cereal box becomes an interactive AR object with content attached to the packaging.",
+      "idea_zh": "把早餐麦片盒变成跳出内容的AR互动界面。",
+      "interaction": [
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Unity",
+        "AR concept"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "HgouAZ5Jfd8",
+        "url": "https://www.youtube.com/watch?v=HgouAZ5Jfd8"
+      },
+      "source_url": "https://blogs.unity3d.com/2017/09/21/looking-to-the-future-of-mixed-reality-part-ii/"
+    },
+    {
+      "id": "greg-madison--hand-tracking-flat-surfaces",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Tangible UI: hand tracking on flat surfaces",
+      "year": 2019,
+      "description": "Using early Quest hand tracking, any real table becomes a giant touch screen: virtual buttons and sliders are laid flat on the desk and pressed with your fingers.",
+      "idea_zh": "用手部追踪把任意真实桌面变成巨大的触摸屏。",
+      "interaction": [
+        "hand-body",
+        "tangible-object",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Oculus Quest",
+        "hand tracking",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Vr9y7hG52ME",
+        "url": "https://www.youtube.com/watch?v=Vr9y7hG52ME"
+      }
+    },
+    {
+      "id": "greg-madison--audio-ar-face-tracking",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Audio Augmented Reality with face-tracking",
+      "year": 2020,
+      "description": "An audio-first AR prototype that uses face tracking to follow your head and render spatial sound anchored in the room around you.",
+      "idea_zh": "用人脸追踪获取头部朝向，做只靠声音的空间AR。",
+      "interaction": [
+        "voice-sound",
+        "face",
+        "gaze-attention"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit face tracking",
+        "spatial audio",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "_7rUphgizxk",
+        "url": "https://www.youtube.com/watch?v=_7rUphgizxk"
+      }
+    },
+    {
+      "id": "greg-madison--unity-slices-table",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Unity Slices: Table",
+      "year": 2022,
+      "description": "A Unity Labs demo on Quest 2 passthrough that slides a real table along the reality spectrum, from pure passthrough to fully virtual, while you play chess and other tabletop games on it.",
+      "idea_zh": "在同一张真实桌子上连续滑动于现实与虚拟之间玩桌游。",
+      "interaction": [
+        "portal-world",
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 2",
+        "Passthrough API",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "FPCz0UY0UrA",
+        "url": "https://www.youtube.com/watch?v=FPCz0UY0UrA"
+      }
+    },
+    {
+      "id": "greg-madison--shapexr-realities",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Playing with realities in ShapeXR",
+      "year": 2022,
+      "description": "Digital-twin experiments in ShapeXR where a virtual copy of his room lines up with the real one, letting him fade between passthrough and virtual versions of the same space.",
+      "idea_zh": "让房间的数字孪生与真实房间重合，在两者之间自由切换。",
+      "interaction": [
+        "portal-world",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 2",
+        "ShapeXR",
+        "passthrough"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "opiiwqz6Hgo",
+        "url": "https://www.youtube.com/watch?v=opiiwqz6Hgo"
+      }
+    },
+    {
+      "id": "greg-madison--augmented-keyboard",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "Augmented Keyboard",
+      "year": 2022,
+      "description": "A tracked physical keyboard on Quest 2 gets one smart virtual screen and context-aware overlays instead of a wall of virtual monitors.",
+      "idea_zh": "给实体键盘配一块智能虚拟屏幕，而不是一堆虚拟显示器。",
+      "interaction": [
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 2",
+        "Tracked Keyboard SDK"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "-q-g4qNV5u8",
+        "url": "https://www.youtube.com/watch?v=-q-g4qNV5u8"
+      }
+    },
+    {
+      "id": "greg-madison--melodix-r",
+      "creator_ids": [
+        "greg-madison"
+      ],
+      "title": "MELODIX•R",
+      "year": 2024,
+      "description": "An XR design-fiction prototype on Quest 3 imagining a mixed-reality music experience placed in your real room.",
+      "idea_zh": "设计虚构：放在真实房间里的混合现实音乐体验。",
+      "interaction": [
+        "voice-sound",
+        "hand-body",
+        "performance-stage"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "hand tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "pYgHzTdJPHw",
+        "url": "https://www.youtube.com/watch?v=pYgHzTdJPHw"
+      }
+    },
+    {
+      "id": "leap-motion-design--north-star-exploring-ar",
+      "creator_ids": [
+        "leap-motion-design"
+      ],
+      "title": "Project North Star: Exploring Augmented Reality",
+      "year": 2018,
+      "description": "Footage shot through the North Star AR headset showing bare-hand interactions: virtual objects, menus and effects you grab, pinch and swipe with tracked hands.",
+      "idea_zh": "用开源宽视场AR头显探索裸手操作全息内容的交互语言。",
+      "interaction": [
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Project North Star",
+        "Leap Motion",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7m6J8W6Ib4w",
+        "url": "https://www.youtube.com/watch?v=7m6J8W6Ib4w"
+      },
+      "source_url": "https://docs.projectnorthstar.org"
+    },
+    {
+      "id": "leap-motion-design--north-star-desk-ui",
+      "creator_ids": [
+        "leap-motion-design"
+      ],
+      "title": "Project North Star: Desk UI",
+      "year": 2018,
+      "description": "A North Star prototype that attaches holographic interfaces to a real desk, with virtual panels and widgets that you touch and manipulate as if they were physical desk objects.",
+      "idea_zh": "把全息界面贴附在真实书桌上，像实物一样触摸操作。",
+      "interaction": [
+        "hand-body",
+        "data-information",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Project North Star",
+        "Leap Motion",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "6dB1IRg3Qls",
+        "url": "https://www.youtube.com/watch?v=6dB1IRg3Qls"
+      }
+    },
+    {
+      "id": "greg-broadmore--magic-leap-office-demo",
+      "creator_ids": [
+        "greg-broadmore"
+      ],
+      "title": "Just another day in the office at Magic Leap",
+      "year": 2015,
+      "description": "Early Magic Leap concept footage made with Weta: a worker checks email on a holographic screen, then a robot invasion breaks out and he fights it with a ray gun around the real office.",
+      "idea_zh": "办公室里的日常突然被穿墙而来的机器人入侵打断。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play",
+        "portal-world"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Magic Leap",
+        "Weta Workshop"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "LHIJrhKkCos",
+        "url": "https://www.youtube.com/watch?v=LHIJrhKkCos"
+      }
+    },
+    {
+      "id": "greg-broadmore--dr-grordborts-invaders",
+      "creator_ids": [
+        "greg-broadmore"
+      ],
+      "title": "Dr. Grordbort's Invaders",
+      "year": 2018,
+      "description": "A Magic Leap One launch game in which portals open in your real walls and robots from Dr. Grordbort's universe pour into your living room while you fight back with a ray gun.",
+      "idea_zh": "墙面打开传送门，复古科幻机器人闯入你的客厅。",
+      "interaction": [
+        "spatial-mapping",
+        "portal-world",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Magic Leap One",
+        "Unreal Engine"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "45ZHNq9_7eY",
+        "url": "https://www.youtube.com/watch?v=45ZHNq9_7eY"
+      }
+    },
+    {
+      "id": "greg-broadmore--grordbattle",
+      "creator_ids": [
+        "greg-broadmore"
+      ],
+      "title": "Grordbattle (multiplayer)",
+      "year": 2019,
+      "description": "A co-located multiplayer Magic Leap duel from Weta Gameshop: players in the same real room see each other's avatars and trade ray-gun fire around the furniture.",
+      "idea_zh": "同一房间里多人戴Magic Leap用射线枪对战。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Magic Leap One"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "y4VTxpDNeWk",
+        "url": "https://www.youtube.com/watch?v=y4VTxpDNeWk"
+      }
+    },
+    {
+      "id": "asobo-studio--fragments",
+      "creator_ids": [
+        "asobo-studio"
+      ],
+      "title": "Fragments",
+      "year": 2016,
+      "description": "A HoloLens crime thriller that maps your home and stages the investigation inside it: life-size characters sit on your real furniture and clues and memory reconstructions appear in your room.",
+      "idea_zh": "把真实家里变成犯罪调查现场，虚拟角色坐在你的沙发上。",
+      "interaction": [
+        "spatial-mapping",
+        "portal-world",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HoloLens",
+        "spatial mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "m6Wndguve8U",
+        "url": "https://www.youtube.com/watch?v=m6Wndguve8U"
+      }
+    },
+    {
+      "id": "asobo-studio--young-conker",
+      "creator_ids": [
+        "asobo-studio"
+      ],
+      "title": "Young Conker",
+      "year": 2016,
+      "description": "A HoloLens platformer that scans your room and procedurally turns furniture and floors into levels for the squirrel Conker to run across.",
+      "idea_zh": "扫描房间，把家具和地面自动变成平台游戏关卡。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HoloLens",
+        "spatial mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "U91aOkLGD6w",
+        "url": "https://www.youtube.com/watch?v=U91aOkLGD6w"
+      }
+    },
+    {
+      "id": "asobo-studio--holoforge-tennis",
+      "creator_ids": [
+        "asobo-studio"
+      ],
+      "title": "HoloForge Lab: HoloParticles tennis",
+      "year": 2021,
+      "description": "A HoloForge Lab experiment with holographic particle effects on HoloLens 2, ending in a mock holographic tennis rally with hand-tracked swings.",
+      "idea_zh": "用全息粒子与手部追踪打一场全息网球。",
+      "interaction": [
+        "hand-body",
+        "perception-art",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HoloLens 2"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "CCW7XMOyR2Q",
+        "url": "https://www.youtube.com/watch?v=CCW7XMOyR2Q"
+      }
+    },
+    {
+      "id": "sigur-ros--tonandi",
+      "creator_ids": [
+        "sigur-ros"
+      ],
+      "title": "Tónandi",
+      "year": 2018,
+      "description": "An interactive Magic Leap soundscape in which glowing sound creatures spread across your real room; touching, gathering and waving at them with your hands layers and shapes Sigur Rós's music.",
+      "idea_zh": "伸手触碰房间里的发光生物来演奏和生成音乐。",
+      "interaction": [
+        "voice-sound",
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Magic Leap One",
+        "hand tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "5_A-qdfx1iw",
+        "url": "https://www.youtube.com/watch?v=5_A-qdfx1iw"
+      },
+      "source_url": "https://sigur-ros.co.uk/magic-leap"
+    },
+    {
+      "id": "ryan-mcleod--blackbox-for-vision",
+      "creator_ids": [
+        "ryan-mcleod"
+      ],
+      "title": "Blackbox for Vision",
+      "year": 2024,
+      "description": "Blackbox rebuilt for Apple Vision Pro: bubble-like puzzles float in your room and are solved by looking, reaching, speaking and moving through space instead of pressing buttons.",
+      "idea_zh": "没有按钮的谜题：用注视、手势、声音和身体移动去解开漂浮在房间里的谜。",
+      "interaction": [
+        "gaze-attention",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Apple Vision Pro",
+        "visionOS",
+        "RealityKit"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "5LShA47LhIc",
+        "url": "https://www.youtube.com/watch?v=5LShA47LhIc"
+      },
+      "source_url": "https://blackboxpuzzles.com"
+    },
+    {
+      "id": "realities-io--puzzling-places-mr-multiplayer",
+      "creator_ids": [
+        "realities-io"
+      ],
+      "title": "Puzzling Places: Local Mixed Reality Multiplayer",
+      "year": 2024,
+      "description": "Two people in the same room assemble a photogrammetry-scanned miniature landmark together over a real table in passthrough, passing pieces by hand.",
+      "idea_zh": "两个人在同一张真实桌子上合拼现实地标的微缩3D拼图。",
+      "interaction": [
+        "multiplayer-social",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "photogrammetry",
+        "shared spatial anchors"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7WE24U6QNpA",
+        "url": "https://www.youtube.com/watch?v=7WE24U6QNpA"
+      }
+    },
+    {
+      "id": "realities-io--puzzling-places-vision-pro",
+      "creator_ids": [
+        "realities-io"
+      ],
+      "title": "Puzzling Places on Apple Vision Pro",
+      "year": 2024,
+      "description": "The 3D jigsaw game redesigned for Vision Pro, with scanned places assembled in your room using eye-and-pinch input.",
+      "idea_zh": "在Vision Pro上用注视加捏合在房间里拼真实地点的立体拼图。",
+      "interaction": [
+        "gaze-attention",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Apple Vision Pro",
+        "visionOS"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "86c1ckjA5Pw",
+        "url": "https://www.youtube.com/watch?v=86c1ckjA5Pw"
+      }
+    },
+    {
+      "id": "resolution-games--angry-birds-fps-magic-leap",
+      "creator_ids": [
+        "resolution-games"
+      ],
+      "title": "Angry Birds FPS: First Person Slingshot",
+      "year": 2019,
+      "description": "Angry Birds rebuilt for Magic Leap One: pig fortresses are built on your real tables and floor, and you pull back a hand-held slingshot to knock them down.",
+      "idea_zh": "在真实桌面和地板上搭猪堡，亲手拉弹弓把它们打垮。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Magic Leap One"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "xvcpH97zCoQ",
+        "url": "https://www.youtube.com/watch?v=xvcpH97zCoQ"
+      }
+    },
+    {
+      "id": "resolution-games--demeo-mixed-reality",
+      "creator_ids": [
+        "resolution-games"
+      ],
+      "title": "Demeo (Mixed Reality mode)",
+      "year": 2023,
+      "description": "The tabletop dungeon crawler moved into passthrough: the game board sits on your real table and friends gather around it as avatars.",
+      "idea_zh": "把地下城桌游棋盘放到真实桌子上，朋友围坐一起玩。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play",
+        "tangible-object"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "passthrough"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "gxWzjgoNHl8",
+        "url": "https://www.youtube.com/watch?v=gxWzjgoNHl8"
+      }
+    },
+    {
+      "id": "resolution-games--spatial-ops",
+      "creator_ids": [
+        "resolution-games"
+      ],
+      "title": "Spatial Ops",
+      "year": 2024,
+      "description": "A mixed-reality FPS in which players lay out cover and objectives across a real space and fight co-located or remote opponents through their homes and offices.",
+      "idea_zh": "把家或办公室变成多人同场的混合现实射击战场。",
+      "interaction": [
+        "multiplayer-social",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "shared spatial anchors"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "cK6mspbNkR0",
+        "url": "https://www.youtube.com/watch?v=cK6mspbNkR0"
+      }
+    },
+    {
+      "id": "botao-amber-hu--holokit",
+      "creator_ids": [
+        "botao-amber-hu"
+      ],
+      "title": "HoloKit",
+      "year": 2017,
+      "description": "An open-source cardboard headset that turns an iPhone into a stereoscopic optical see-through AR wearable, with ARKit tracking and holograms shown in both eyes.",
+      "idea_zh": "用纸板和iPhone做一台开源的立体光学透视AR头显。",
+      "interaction": [
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset",
+        "phone"
+      ],
+      "tech": [
+        "HoloKit",
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Imy8vwO-4mo",
+        "url": "https://www.youtube.com/watch?v=Imy8vwO-4mo"
+      },
+      "source_url": "https://holokit.io"
+    },
+    {
+      "id": "botao-amber-hu--mofa",
+      "creator_ids": [
+        "botao-amber-hu"
+      ],
+      "title": "MOFA: The Duel",
+      "year": 2023,
+      "description": "A co-located magic duel in which players wearing HoloKit headsets cast spells with hand gestures while spectators on phones watch and join; CHI 2023 best interactivity demo.",
+      "idea_zh": "戴HoloKit用手势施法对决，旁观者用手机加入观看的同场魔法对战。",
+      "interaction": [
+        "multiplayer-social",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset",
+        "phone"
+      ],
+      "tech": [
+        "HoloKit X",
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "mCHEdItEx2s",
+        "url": "https://www.youtube.com/watch?v=mCHEdItEx2s"
+      },
+      "source_url": "https://github.com/realitydeslab/mofa/"
+    },
+    {
+      "id": "botao-amber-hu--mofa-the-ghost",
+      "creator_ids": [
+        "botao-amber-hu"
+      ],
+      "title": "MOFA: The Ghost",
+      "year": 2024,
+      "description": "An asymmetric social exertion game in spontaneous co-located MR: an invisible ghost player hunts others who can only see it through their devices, played in public spaces.",
+      "idea_zh": "非对称捉鬼游戏：只有通过设备才能看见的'鬼'在公共空间里追逐玩家。",
+      "interaction": [
+        "multiplayer-social",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset",
+        "phone"
+      ],
+      "tech": [
+        "HoloKit X",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7bCZprvgpFU",
+        "url": "https://www.youtube.com/watch?v=7bCZprvgpFU"
+      }
+    },
+    {
+      "id": "botao-amber-hu--echovision",
+      "creator_ids": [
+        "botao-amber-hu"
+      ],
+      "title": "EchoVision",
+      "year": 2024,
+      "description": "A handheld mixed-reality mask that lets people experience bat echolocation: your voice triggers LiDAR-based 'echoes' that briefly reveal the surrounding space as a visualized sound wave.",
+      "idea_zh": "用声音触发LiDAR回声可视化，像蝙蝠一样'听见'空间。",
+      "interaction": [
+        "voice-sound",
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "headset",
+        "phone"
+      ],
+      "tech": [
+        "HoloKit",
+        "iPhone LiDAR",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "0JyHmEApctg",
+        "url": "https://www.youtube.com/watch?v=0JyHmEApctg"
+      },
+      "source_url": "https://doi.org/10.1145/3675094.3681951"
+    },
+    {
+      "id": "botao-amber-hu--feltsight",
+      "creator_ids": [
+        "botao-amber-hu"
+      ],
+      "title": "FeltSight",
+      "year": 2025,
+      "description": "A mixed-reality haptic experience inspired by the tactile navigation of animals like the star-nosed mole: you feel your way through space via fingertip haptics instead of sight.",
+      "idea_zh": "模仿星鼻鼹鼠的触觉导航，用指尖触感而非视觉感知空间。",
+      "interaction": [
+        "hand-body",
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset",
+        "wearable"
+      ],
+      "tech": [
+        "mixed reality",
+        "haptics"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7Pq6s3VnD0A",
+        "url": "https://www.youtube.com/watch?v=7Pq6s3VnD0A"
+      }
+    },
+    {
+      "id": "botao-amber-hu--touchport",
+      "creator_ids": [
+        "botao-amber-hu"
+      ],
+      "title": "TouchPort / Allow me into your dream",
+      "year": 2026,
+      "description": "A mixed-reality sharing protocol in which a handshake and pull signals intent, negotiates consent and opens a temporary shared layer between two people's separate mixed realities.",
+      "idea_zh": "握手一拉就把两个人各自的混合现实临时连接成共享空间。",
+      "interaction": [
+        "multiplayer-social",
+        "hand-body"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "mixed reality",
+        "hand tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "uMSXnUxnxd4",
+        "url": "https://www.youtube.com/watch?v=uMSXnUxnxd4"
+      }
+    },
+    {
+      "id": "daniel-beauchamp--spatial-vacuuming",
+      "creator_ids": [
+        "daniel-beauchamp"
+      ],
+      "title": "Spatial Vacuuming",
+      "year": 2024,
+      "description": "A Quest controller strapped to a vacuum paints the floor as you clean in passthrough, so you can see which parts of the room you have already covered.",
+      "idea_zh": "吸尘时在地板上实时标出已清洁区域，再也不漏掉角落。",
+      "interaction": [
+        "spatial-mapping",
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "passthrough",
+        "Unity"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1749797146961006716",
+        "url": "https://x.com/pushmatrix/status/1749797146961006716"
+      },
+      "source_url": "https://www.uploadvr.com/spatial-vacuuming/"
+    },
+    {
+      "id": "daniel-beauchamp--vision-pro-blender-live",
+      "creator_ids": [
+        "daniel-beauchamp"
+      ],
+      "title": "Live Blender preview on Vision Pro",
+      "year": 2024,
+      "description": "A Blender scene streams live into Apple Vision Pro; edits made on the desktop appear instantly as a full-size object lit by your real room.",
+      "idea_zh": "在Blender里改模型，Vision Pro里即时出现被真实环境照亮的实物大小预览。",
+      "interaction": [
+        "drawing-creation",
+        "data-information"
+      ],
+      "platform": [
+        "headset",
+        "desktop"
+      ],
+      "tech": [
+        "Apple Vision Pro",
+        "Blender",
+        "RealityKit",
+        "USDZ"
+      ],
+      "video": {
+        "platform": "x",
+        "id": "1767898459024040088",
+        "url": "https://x.com/pushmatrix/status/1767898459024040088"
+      }
+    },
+    {
+      "id": "max-weisel--mixed-reality-test-2018",
+      "creator_ids": [
+        "max-weisel"
+      ],
+      "title": "Mixed Reality Test",
+      "year": 2018,
+      "description": "A small demo mixing VR and AR: an ARKit iPhone and a VR headset share the same Normcore session so the phone sees the VR player's world placed in the real room.",
+      "idea_zh": "让iPhone AR与VR头显共享同一个多人空间。",
+      "interaction": [
+        "multiplayer-social",
+        "portal-world"
+      ],
+      "platform": [
+        "phone",
+        "headset"
+      ],
+      "tech": [
+        "ARKit",
+        "Normcore",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Um7qgKIlOSI",
+        "url": "https://www.youtube.com/watch?v=Um7qgKIlOSI"
+      }
+    },
+    {
+      "id": "max-weisel--iphone-ar-in-vr",
+      "creator_ids": [
+        "max-weisel"
+      ],
+      "title": "iPhone AR in VR",
+      "year": 2019,
+      "description": "A prototype that lets iOS users join and spectate a multiplayer VR space through ARKit, seeing the headset players' avatars in their own room.",
+      "idea_zh": "手机用户通过AR旁观并加入VR多人空间。",
+      "interaction": [
+        "multiplayer-social",
+        "portal-world"
+      ],
+      "platform": [
+        "phone",
+        "headset"
+      ],
+      "tech": [
+        "ARKit",
+        "Normcore",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "VsYw8WR81kw",
+        "url": "https://www.youtube.com/watch?v=VsYw8WR81kw"
+      }
+    },
+    {
+      "id": "max-weisel--ar-gestures-2020",
+      "creator_ids": [
+        "max-weisel"
+      ],
+      "title": "Augmented Reality Gestures",
+      "year": 2020,
+      "description": "A prototype of multi-touch gestures for navigating 3D AR content on a touch screen, with 3D pan, pinch and zoom mapped to the scene.",
+      "idea_zh": "为手机AR设计的一套三维多点触控手势。",
+      "interaction": [
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "rPDislY6Yew",
+        "url": "https://www.youtube.com/watch?v=rPDislY6Yew"
+      }
+    },
+    {
+      "id": "julian-triveri--lasertag",
+      "creator_ids": [
+        "julian-triveri"
+      ],
+      "title": "Lasertag",
+      "year": 2025,
+      "description": "A mixed-reality laser tag game that scans your space and turns it into an arena for friends in the same room; beams stop at real walls and furniture.",
+      "idea_zh": "把任何空间变成同场多人激光枪战场，光束会被真实墙体遮挡。",
+      "interaction": [
+        "multiplayer-social",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "Depth API",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "T1PIcuOYmXU",
+        "url": "https://www.youtube.com/watch?v=T1PIcuOYmXU"
+      },
+      "source_url": "https://github.com/anaglyphs/lasertag"
+    },
+    {
+      "id": "julian-triveri--lasertag-synced-room-scanning",
+      "creator_ids": [
+        "julian-triveri"
+      ],
+      "title": "Lasertag: synced room scanning",
+      "year": 2025,
+      "description": "Demo of multiple Quest headsets building one shared depth reconstruction of a room in real time, so all players fight inside the same scanned geometry.",
+      "idea_zh": "多台头显实时同步扫描出同一个房间模型。",
+      "interaction": [
+        "spatial-mapping",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "Depth API"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "oJ_fFONAEQ4",
+        "url": "https://www.youtube.com/watch?v=oJ_fFONAEQ4"
+      }
+    },
+    {
+      "id": "julian-triveri--lasertag-light-vfx",
+      "creator_ids": [
+        "julian-triveri"
+      ],
+      "title": "Lasertag: light VFX test",
+      "year": 2024,
+      "description": "A test of laser shots that light up the real room: virtual beams cast light onto scanned walls and furniture in passthrough.",
+      "idea_zh": "虚拟激光照亮真实房间墙面的光效测试。",
+      "interaction": [
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "Depth API"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "yxDhCg-q0JU",
+        "url": "https://www.youtube.com/watch?v=yxDhCg-q0JU"
+      }
+    },
+    {
+      "id": "stijn-spanhove--fruit-defense",
+      "creator_ids": [
+        "stijn-spanhove",
+        "pavlo-tkachenko"
+      ],
+      "title": "Fruit Defense",
+      "year": 2025,
+      "description": "A single- and multiplayer Spectacles game in which real-world objects detected around you become active gameplay elements to defend.",
+      "idea_zh": "眼镜识别身边真实物体，把它们变成塔防游戏的一部分。",
+      "interaction": [
+        "tangible-object",
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Lens Studio"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "KlC__Y0J-Wc",
+        "url": "https://www.youtube.com/watch?v=KlC__Y0J-Wc"
+      }
+    },
+    {
+      "id": "stijn-spanhove--xr-worlds",
+      "creator_ids": [
+        "stijn-spanhove"
+      ],
+      "title": "XR Worlds",
+      "year": 2025,
+      "description": "A Spectacles proof of concept that turns a 2D drawing on paper into a playable XR world, using a generative world model.",
+      "idea_zh": "把纸上的二维涂鸦变成可玩的XR世界。",
+      "interaction": [
+        "drawing-creation",
+        "portal-world"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Mirage 2",
+        "generative AI"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "h7ll6AB4rcc",
+        "url": "https://www.youtube.com/watch?v=h7ll6AB4rcc"
+      }
+    },
+    {
+      "id": "stijn-spanhove--ai-teleport",
+      "creator_ids": [
+        "stijn-spanhove"
+      ],
+      "title": "AI Teleport",
+      "year": 2025,
+      "description": "A portal lens for Spectacles that uses Google Gemini to generatively restyle the user's surroundings in real time.",
+      "idea_zh": "用生成式AI实时把周围环境'传送'成另一种世界。",
+      "interaction": [
+        "portal-world",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Google Gemini"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "GvBRlCcgJ_g",
+        "url": "https://www.youtube.com/watch?v=GvBRlCcgJ_g"
+      }
+    },
+    {
+      "id": "stijn-spanhove--ad-block",
+      "creator_ids": [
+        "stijn-spanhove"
+      ],
+      "title": "Ad Block",
+      "year": 2025,
+      "description": "An experimental Spectacles app that works as a real-world ad blocker: Gemini detects billboards and ads in view and covers them.",
+      "idea_zh": "现实世界的广告拦截器：识别并遮挡眼前的广告牌。",
+      "interaction": [
+        "portal-world",
+        "perception-art",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Google Gemini"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "KLiEm74cw9Q",
+        "url": "https://www.youtube.com/watch?v=KLiEm74cw9Q"
+      }
+    },
+    {
+      "id": "stijn-spanhove--starship-rocket-xr",
+      "creator_ids": [
+        "stijn-spanhove"
+      ],
+      "title": "Starship rocket in XR",
+      "year": 2025,
+      "description": "A Spectacles experience that lets you launch a SpaceX Starship and guide the booster back to a 3D-printed launch tower on your table.",
+      "idea_zh": "发射星舰，再把助推器引导回桌上3D打印的发射塔。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Lens Studio",
+        "3D printing"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "LOF3rx0zSgg",
+        "url": "https://www.youtube.com/watch?v=LOF3rx0zSgg"
+      }
+    },
+    {
+      "id": "stijn-spanhove--lego-ar-glasses",
+      "creator_ids": [
+        "stijn-spanhove",
+        "pavlo-tkachenko"
+      ],
+      "title": "LEGO AR glasses proof of concept",
+      "year": 2026,
+      "description": "A Spectacles proof of concept that adds AR effects and characters to LEGO Smart Bricks builds, reacting to the physical bricks in play.",
+      "idea_zh": "给乐高智能积木叠加AR角色与特效，实体积木驱动虚拟内容。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "LEGO Smart Bricks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7E2HXzrLLZE",
+        "url": "https://www.youtube.com/watch?v=7E2HXzrLLZE"
+      }
+    },
+    {
+      "id": "stijn-spanhove--micro-art",
+      "creator_ids": [
+        "stijn-spanhove",
+        "pavlo-tkachenko"
+      ],
+      "title": "Micro Art",
+      "year": 2026,
+      "description": "An AR lens that reveals an imagined microscopic world inside plants, rocks and other things you point it at in nature.",
+      "idea_zh": "对准自然界的物体，揭示其中想象的微观世界。",
+      "interaction": [
+        "perception-art",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone",
+        "headset"
+      ],
+      "tech": [
+        "Lens Studio",
+        "generative AI"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "esOODTn0RVU",
+        "url": "https://www.youtube.com/watch?v=esOODTn0RVU"
+      }
+    },
+    {
+      "id": "stijn-spanhove--world-cup-recoach",
+      "creator_ids": [
+        "stijn-spanhove"
+      ],
+      "title": "Re-coaching a World Cup goal in AR",
+      "year": 2026,
+      "description": "A real World Cup goal is rebuilt as a tabletop AR scene; you pause it, move a defender, and AI re-renders the alternate ending photorealistically.",
+      "idea_zh": "暂停真实世界杯进球，挪动防守球员，让AI重渲染另一种结局。",
+      "interaction": [
+        "data-information",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "AR",
+        "generative video"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "uPpCLfgWbdA",
+        "url": "https://www.youtube.com/watch?v=uPpCLfgWbdA"
+      }
+    },
+    {
+      "id": "stijn-spanhove--ai-city-tour-guide",
+      "creator_ids": [
+        "stijn-spanhove"
+      ],
+      "title": "Meta Ray-Ban AI City Tour Guide",
+      "year": 2026,
+      "description": "A proof of concept built at In The Pocket: a location-aware AI tour guide on Meta Ray-Ban glasses that walks you through Ghent and describes what you look at.",
+      "idea_zh": "戴Ray-Ban Meta眼镜的AI城市导游，边走边讲解眼前所见。",
+      "interaction": [
+        "location-geo",
+        "voice-sound",
+        "data-information"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "Meta Wearables SDK",
+        "Ray-Ban Meta"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "IA0LGSA4Lgw",
+        "url": "https://www.youtube.com/watch?v=IA0LGSA4Lgw"
+      }
+    },
+    {
+      "id": "pavlo-tkachenko--spectacles-bubbles",
+      "creator_ids": [
+        "pavlo-tkachenko"
+      ],
+      "title": "Bubbles",
+      "year": 2025,
+      "description": "A Spectacles lens where you type a prompt, generate 3D models with Snap3D generative AI, and place several objects around you inside floating bubbles.",
+      "idea_zh": "输入文字即生成3D物体，装在泡泡里摆满你周围。",
+      "interaction": [
+        "drawing-creation",
+        "hand-body"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Snap3D",
+        "Lens Studio"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "TAPU-f4w7xs",
+        "url": "https://www.youtube.com/watch?v=TAPU-f4w7xs"
+      }
+    },
+    {
+      "id": "pavlo-tkachenko--bplane-adventures",
+      "creator_ids": [
+        "pavlo-tkachenko"
+      ],
+      "title": "BPlane Adventures",
+      "year": 2025,
+      "description": "A relaxing flow game for Spectacles: you steer a small plane with head movements and use your hands to boost it through the space around you.",
+      "idea_zh": "用头部转动驾驶小飞机，用手加速，在身边空间穿梭飞行。",
+      "interaction": [
+        "gaze-attention",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Lens Studio"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "f-3du7Fy3kA",
+        "url": "https://www.youtube.com/watch?v=f-3du7Fy3kA"
+      }
+    },
+    {
+      "id": "creature--starship-home",
+      "creator_ids": [
+        "creature"
+      ],
+      "title": "Starship Home",
+      "year": 2024,
+      "description": "A Quest 3 story game that converts your room into a starship: real walls get replaced by windows onto space, and you grow alien plants and pilot the ship with your hands.",
+      "idea_zh": "把自己的房间改造成星舰船舱，墙壁化为太空舷窗。",
+      "interaction": [
+        "portal-world",
+        "spatial-mapping",
+        "hand-body"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "Scene API"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "JC2dYTI5zoA",
+        "url": "https://www.youtube.com/watch?v=JC2dYTI5zoA"
+      }
+    }
+  ],
+  "leads": [
+    {
+      "name": "Keiichi Matsuda",
+      "why": "Led Leap Motion's AR interaction design (North Star UI, Virtual Wearables); covered by the artists/speculative batch.",
+      "link": "https://km.cx",
+      "found_via": "leap-motion-design"
+    },
+    {
+      "name": "Martin Schubert",
+      "why": "Leap Motion designer (Weightless, Mirrors embodiment experiment, Cat Explorer); mostly VR hand interaction, a few AR talks.",
+      "link": "https://www.youtube.com/watch?v=VMnes2xKO88",
+      "found_via": "leap-motion-design"
+    },
+    {
+      "name": "Barrett Fox",
+      "why": "Leap Motion interaction engineer (Interaction Engine, Shortcuts/Scaffolding experiments); North Star interaction work.",
+      "link": "https://www.youtube.com/watch?v=LFRKEmzrzP8",
+      "found_via": "leap-motion-design"
+    },
+    {
+      "name": "Takashi Yoshinaga",
+      "why": "Prolific AR prototyper combining Leap Motion hands with tabletop AR and Meta2 headsets.",
+      "link": "https://www.youtube.com/watch?v=CICZqMf9QwA",
+      "found_via": "leap-motion-design"
+    },
+    {
+      "name": "Noah Zerkin / CombineReality (North Star community)",
+      "why": "Built and sold North Star kits; community AR headset demos.",
+      "link": "https://docs.projectnorthstar.org",
+      "found_via": "leap-motion-design"
+    },
+    {
+      "name": "Tim Stutts",
+      "why": "Former Magic Leap interaction designer (multimodal input, accessibility in AR); few public demo videos found.",
+      "link": "https://www.youtube.com/watch?v=6eKezZHXetE",
+      "found_via": "leap-motion-design"
+    },
+    {
+      "name": "Alessio Grancini",
+      "why": "Magic Leap prototype engineer, now Snap Spectacles developer advocate; architecture-to-AR prototypes (Shilo XR).",
+      "link": "https://www.youtube.com/watch?v=t1feZfOTdK8",
+      "found_via": "stijn-spanhove"
+    },
+    {
+      "name": "Jiabao Li",
+      "why": "Artist and co-creator of EchoVision (bat echolocation MR mask) with Botao Hu; likely belongs to artists batch.",
+      "link": "https://www.youtube.com/watch?v=7LqsKpEZy4g",
+      "found_via": "botao-amber-hu"
+    },
+    {
+      "name": "Danlin Huang",
+      "why": "Co-creator of FeltSight and EchoVision; haptic mixed-reality design research.",
+      "link": "https://www.youtube.com/watch?v=7Pq6s3VnD0A",
+      "found_via": "botao-amber-hu"
+    },
+    {
+      "name": "Magic Leap Studios / ILMxLAB",
+      "why": "Lost Droids MR test (2015) and Magic Leap Create; corporate but historically important.",
+      "link": "https://www.youtube.com/watch?v=lP5ZZI05A3g",
+      "found_via": "greg-broadmore"
+    },
+    {
+      "name": "Microsoft Studios (RoboRaid)",
+      "why": "HoloLens launch shooter where robots break through your real walls; corporate.",
+      "link": "https://www.youtube.com/watch?v=Hf9qkURqtbM",
+      "found_via": "asobo-studio"
+    },
+    {
+      "name": "Meta (First Encounters)",
+      "why": "Quest 3 bundled MR showcase where aliens break through your real walls; corporate.",
+      "link": "https://www.youtube.com/watch?v=BM0CZUHrbcw",
+      "found_via": "thomas-van-bouwel"
+    },
+    {
+      "name": "Apple (Encounter Dinosaurs, Jon Favreau)",
+      "why": "Vision Pro showcase with a dinosaur stepping through a portal and reacting to your hand; corporate.",
+      "link": "https://www.youtube.com/watch?v=kFqvDYfjVL0",
+      "found_via": "ryan-mcleod"
+    },
+    {
+      "name": "Owlchemy Labs",
+      "why": "Hand-tracking and MR design (Job Simulator MR, Cosmonious High); no MR-specific creator-uploaded demo found yet.",
+      "link": "https://owlchemylabs.com",
+      "found_via": "resolution-games"
+    },
+    {
+      "name": "Wall Town Wonders team",
+      "why": "Cozy Quest 3 MR game where tiny towns grow out of your real walls.",
+      "link": "https://www.youtube.com/watch?v=5icyAyKb9Zg",
+      "found_via": "creature"
+    },
+    {
+      "name": "Figmin XR (Overlay team)",
+      "why": "Mixed-reality creation tool for placing and sculpting holograms on Quest.",
+      "link": "https://www.youtube.com/watch?v=uNWhiYDcitg",
+      "found_via": "greg-madison"
+    },
+    {
+      "name": "Loóna / Super Fruit Ninja / Synth Riders MR / Gravity Lab",
+      "why": "Vision Pro and Quest MR titles suggested as start points; studio-made, not yet researched.",
+      "link": "https://www.youtube.com/watch?v=30kr4v4qi2E",
+      "found_via": "ryan-mcleod"
+    },
+    {
+      "name": "HoloKit community developers (Onix Systems)",
+      "why": "Built HoloKit X demos (dragon duel, wizard duel) for the stereo iPhone headset.",
+      "link": "https://www.youtube.com/watch?v=jwX5b-6chVI",
+      "found_via": "botao-amber-hu"
+    }
+  ]
+}

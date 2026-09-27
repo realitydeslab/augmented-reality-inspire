@@ -1,0 +1,150 @@
+{
+  "ian-curtis--x795594": {
+    "technique": "A pre-generated Gaussian splat of the room is aligned to the SLAM world origin, and each tap spawns an emissive sphere at the camera position with a forward velocity vector, so projectiles appear to fly through the captured space.",
+    "exercise_zh": "用 three.js + WebXR 在相机位置生成发光小球并沿视线方向发射，场景里放一个简单的房间模型作为“世界”；变体：让小球碰到墙面后反弹或留下光斑。"
+  },
+  "ian-curtis--x617966": {
+    "technique": "A generated splat of the redesigned room is placed at 1:1 scale and manually aligned (origin + yaw) to the real room, so SLAM tracking lets the user walk through the future interior on a phone.",
+    "exercise_zh": "拍一张自己房间的照片交给图像模型改造，再用任意 3D 工具摆出简化版家具，按 1:1 比例放进 AR 中与真实房间对齐；变体：加一个滑块在“现在”和“改造后”之间切换透明度。"
+  },
+  "ian-curtis--x471177": {
+    "technique": "Outdoor SLAM with ground-plane detection lets a raycast from the touch point move an object along the detected plane, so dragged objects stay pinned to the grass.",
+    "exercise_zh": "只用两三条提示词让 AI 写出一个 WebAR 拖拽场景，记录每条提示词和结果；变体：让被拖动的物体在草地上留下一条轨迹线。"
+  },
+  "ian-curtis--x153797": {
+    "technique": "A tracked phone acts as a virtual camera inside a splat environment, recording its 6DoF pose path as a camera move, and the rendered pass is then restyled frame-by-frame with a video diffusion model.",
+    "exercise_zh": "用 AR Foundation 录制手机的相机位姿轨迹，在 Unity 中用这段轨迹驱动虚拟相机穿过一个预制场景并导出视频；变体：把导出的视频交给视频风格化模型换成手绘风格。"
+  },
+  "ian-curtis--x194197": {
+    "technique": "A very large splat city is streamed with level-of-detail chunking, placed on a detected tabletop plane, and the renderer loads finer splats as the camera distance to each chunk shrinks.",
+    "exercise_zh": "把一张城市或校园的 3D 模型按三级 LOD 放在桌面上，手机靠近时切换到高精度版本；变体：靠近某栋楼时弹出一句关于它的语音介绍。"
+  },
+  "ian-curtis--x468078": {
+    "technique": "A miniature world is placed on the coffee table in passthrough MR, and scaling the user rig (or inversely scaling the world) changes the effective eye height so the table feels human-sized.",
+    "exercise_zh": "在 WebXR 或 Unity 中把一个小场景放在桌面上，按下按钮时把整个场景放大 20 倍并以桌面为原点；变体：放大后让桌上的真实物件（如杯子）成为场景中的“巨型地标”。"
+  },
+  "ian-curtis--x170377": {
+    "technique": "A frame is anchored to a wall via plane detection, and a stencil mask limits rendering of a persistent 3D world to the frame's rectangle, so parallax makes it read as a window.",
+    "exercise_zh": "用 AR Foundation 在墙上检测平面并放置一个相框，框内用 Stencil 渲染一个远景场景；变体：让框内的时间和天气跟随真实时钟变化。"
+  },
+  "ian-curtis--x222009": {
+    "technique": "A 40M-splat scan runs on a standalone headset through hierarchical LoD that culls and simplifies distant splats, keeping the per-frame splat budget within mobile GPU limits.",
+    "exercise_zh": "选一个高面数模型，分别测试原始版和减面版在 HoloKit 或手机上的帧率，找出流畅运行的上限；变体：用这个预算上限设计一个“把地标搬进客厅”的场景。"
+  },
+  "ian-curtis--x089323": {
+    "technique": "A captured splat is rendered over passthrough in WebXR immersive-ar mode, with LoD streaming loading detail progressively so the capture appears quickly and sharpens as it streams.",
+    "exercise_zh": "用 Scaniverse 或 Polycam 扫描一位同学或一件物品，导出后在 WebXR 中叠加到真实空间里查看；变体：把多份扫描放在一起，做成一个小型“扫描博物馆”。"
+  },
+  "ian-curtis--x580600": {
+    "technique": "MediaPipe face landmarks estimate the eye position relative to the screen, and an off-axis (asymmetric frustum) projection is recomputed each frame so the monitor behaves like a window with correct parallax.",
+    "exercise_zh": "用 MediaPipe Face Mesh 估算头部位置，在 three.js 中按头部坐标更新非对称视锥投影，让屏幕里的一只鞋产生视差；变体：让物体“探出”屏幕平面，测试错觉在哪个角度失效。"
+  },
+  "ian-curtis--x876133": {
+    "technique": "A generated splat world is rendered with a head-coupled off-axis projection driven by webcam face tracking, placing the scene behind the monitor plane so it reads as a view through glass.",
+    "exercise_zh": "沿用人脸追踪的离轴投影，把屏幕后面换成一条长走廊或峡谷场景来放大纵深感；变体：头部靠近屏幕时让场景里的雾逐渐散开。"
+  },
+  "ian-curtis--x181253": {
+    "technique": "Several small single-image splats (about 5 MB each) are placed at fixed offsets around the user's starting pose in WebAR, forming a ring of scenes the user turns to face.",
+    "exercise_zh": "用单张图片生成 3D 场景的工具（或简单的 3D 模型替代）做 4 个小场景，按东南西北方向摆在自己周围；变体：让每个方向的场景对应一天中的一个时段。"
+  },
+  "ian-curtis--x777746": {
+    "technique": "Low-poly content is rendered with nearest-neighbor texture filtering, a limited four-color palette and a pixelation post-process, then anchored to room planes so the retro style contrasts with the camera feed.",
+    "exercise_zh": "在 AR 场景中加一个像素化 + 四色调色板的后处理 Shader，把一个低多边形角色放在地面上；变体：把后处理也应用到相机画面上，让整个真实房间变成 Game Boy 画风。"
+  },
+  "ian-curtis--x678801": {
+    "technique": "Multiple compressed .spz splats share one aligned anchor in the room, and a UI toggle swaps which splat is visible so each redesign appears in the same place.",
+    "exercise_zh": "为同一个角落准备三种风格的布置模型，共用一个锚点，点击按钮切换；变体：让同学投票选出最喜欢的方案并在 AR 中显示票数。"
+  },
+  "ian-curtis--x255906": {
+    "technique": "A single photo is converted by an image-to-3D model into a compact splat, which is then loaded in a WebAR viewer and placed on a detected surface.",
+    "exercise_zh": "拍一张照片用图生 3D 工具转成模型，导入 WebAR 放在桌面上，并对比原照片找出生成错误的部分；变体：故意选一张画作或老照片，看它“立体化”后的样子。"
+  },
+  "ian-curtis--x266571": {
+    "technique": "A minimal WebAR sketch most likely uses surface detection plus a hit test to place a single object, showing how fast a browser AR idea can be tested.",
+    "exercise_zh": "给自己 30 分钟，在桌边用 WebXR 模板做一个最小可运行的 AR 草图并录屏；变体：规定只能用一种几何体，但要表达一种情绪。"
+  },
+  "ian-curtis--x051024": {
+    "technique": "A doorway mesh placed on the ground uses a stencil buffer to show a generated environment only through the opening, and a camera-crossing check flips the render so the user ends up inside.",
+    "exercise_zh": "用 AR Foundation 平面检测放一扇门，门内用 Stencil 渲染一片森林，穿过门后切换为全景环境；变体：让门的另一侧是你小时候住过的地方。"
+  },
+  "ian-curtis--x823060": {
+    "technique": "VPS localizes the phone against a prior map of the room, so a 1:1 generated redesign loads at the same real-world pose every session instead of needing manual alignment.",
+    "exercise_zh": "用 ARKit ARWorldMap 或 AR Foundation 的持久化锚点保存房间里的布置，下次打开时自动恢复到原位；变体：让家具位置每次打开时根据当天天气略有变化。"
+  },
+  "ian-curtis--x955566": {
+    "technique": "A location check (GPS geofence or VPS localization) gates the experience, and once the device is localized the scene is instantiated at a fixed real-world pose.",
+    "exercise_zh": "在校园里选一个地点，用 GPS 距离判断是否到达，到达后才在 AR 中出现一个角色；变体：只有两个人同时在场时角色才会出现。"
+  },
+  "ian-curtis--x169202": {
+    "technique": "A Mapbox web map lists geotagged AR experiences as pins, and tapping a pin deep-links to a WebAR URL, avoiding app installs.",
+    "exercise_zh": "用 Mapbox 或 Leaflet 做一张校园地图，每个图钉链接到一个 WebAR 页面；变体：只有走到图钉 50 米内时才解锁链接。"
+  },
+  "ian-curtis--x254569": {
+    "technique": "An AI image is lifted into a Gaussian splat by an image-to-3D pipeline, then compressed and rendered in a WebAR splat viewer on a hit-tested surface.",
+    "exercise_zh": "用文生图工具生成一张场景图，再转成 3D 放进手机 AR，比较生成前后的构图差异；变体：让全班用同一个提示词，把结果摆成一条 AR 画廊。"
+  },
+  "ian-curtis--x512337": {
+    "technique": "A worn camera sends frames for VPS localization and to a multimodal LLM, which turns the pose and scene description into spoken directions through text-to-speech, giving audio-only AR guidance.",
+    "exercise_zh": "用手机摄像头拍一张照片发给多模态模型，让它结合预设目的地给出一句语音指路；变体：把指路者设定成一个有性格的角色，比如只会用比喻说话。"
+  },
+  "ian-curtis--x633835": {
+    "technique": "An existing three.js scene is wrapped in a WebXR immersive-ar session, placed at a hit-test point, and scaled to real-world units.",
+    "exercise_zh": "从 three.js 官方示例中挑一个，加上 WebXR AR 会话和 hit-test 放到真实地面上；变体：调整比例让它变得非常大或非常小，观察感受的变化。"
+  },
+  "ian-curtis--x996689": {
+    "technique": "A walk-in portal uses a stencil or depth-mask shader on the doorway so the inner world is visible only through the frame, and it is distributed as a link through browser-based SLAM.",
+    "exercise_zh": "用 8th Wall 或 WebXR 做一个可以从链接打开的传送门，门内放一个 360 全景图；变体：门外能听到门内的声音，越近越清晰。"
+  },
+  "ian-curtis--x683753": {
+    "technique": "A browser-based VPS matches camera frames against a pre-scanned location map to recover a 6DoF pose, so content is anchored to an exact real-world spot rather than to the first detected plane.",
+    "exercise_zh": "用图像追踪（在真实地点贴一张海报作为标记）模拟 VPS，把内容锚定在固定位置；变体：内容只在特定时间段出现。"
+  },
+  "ian-curtis--2": {
+    "technique": "A launch-film WebAR portal likely reuses stencil portal rendering on a hit-tested surface, so viewers can open the same world shown in the film on their own phones.",
+    "exercise_zh": "为一个虚构产品拍一段 30 秒的概念短片，并配一个观众可以打开的 AR 传送门；变体：让传送门里的场景是短片最后一帧的延续。"
+  },
+  "ian-curtis--3": {
+    "technique": "Geotagged splat captures are indexed on a map, and the UI moves from 2D map to an orbitable 3D viewer to an AR placement mode, reusing the same asset at each step.",
+    "exercise_zh": "设计并用 Figma 或网页原型做出“地图 → 3D 预览 → AR 查看”的三步流程，放入 3 个自己扫描的物品；变体：每个扫描附带一段扫描者的语音留言。"
+  },
+  "ian-curtis--6": {
+    "technique": "Browser hand tracking estimates 3D hand keypoints, and gestures such as pinch or open palm are classified from fingertip distances and mapped to AR actions.",
+    "exercise_zh": "用 MediaPipe Hands 识别捏合和张开两种手势，分别用来抓取和释放一个 AR 物体；变体：自创一个新手势并写一条使用说明给同学测试。"
+  },
+  "ian-curtis--8": {
+    "technique": "An anchored animated character is wired to speech recognition, an LLM prompted with forest-ecology context, and text-to-speech, and one web build adapts to phone or headset input.",
+    "exercise_zh": "在 AR 中放一个动物角色，用语音识别 + LLM + TTS 让它回答关于某个生态系统的问题；变体：给角色设定它不知道的知识边界，让它在超出范围时承认不懂。"
+  },
+  "ian-curtis--10": {
+    "technique": "A portal frame uses stencil masking so a lunar skybox and terrain render only through the opening, and an inside/outside test switches the full environment on when the camera crosses the plane.",
+    "exercise_zh": "用 Stencil 做一个通往月球的传送门，门内用低重力物理让物体缓慢飘落；变体：穿过门后连手机麦克风收到的声音也变得闷沉。"
+  },
+  "ian-curtis--12": {
+    "technique": "VPS-localized anchors give a stable real-world pose, and a physics engine simulates content relative to that anchor, so rigid bodies collide with approximated real geometry at a specific place.",
+    "exercise_zh": "在一个固定地点用图像标记定位，放置会滚下台阶的物理小球，并用简单碰撞体近似台阶；变体：让路过的人可以用手机“推”小球。"
+  },
+  "ian-curtis--13": {
+    "technique": "The tracked camera path and an estimated environment light probe from the real location are imported into Blender, where simulations are rendered with matching lighting and composited over the footage.",
+    "exercise_zh": "用 AR Foundation 的光照估计读取环境光强度和方向，让放在桌上的虚拟物体阴影和真实物体对齐；变体：关灯开灯时让虚拟物体做出不同反应。"
+  },
+  "ian-curtis--x425957": {
+    "technique": "A 2D Tetris grid is rendered as a world-anchored vertical plane of cube meshes placed via hit test, with standard game logic running on a tick timer and on-screen buttons for input.",
+    "exercise_zh": "让 AI 生成一个在 AR 中漂浮的俄罗斯方块，记录需要手动修正的错误；变体：方块落到底后变成真实地面上可推倒的物理积木。"
+  },
+  "ian-curtis--x528631": {
+    "technique": "A reel of browser AR pieces built on the same core toolkit (SLAM world tracking, hit-test placement, image and face targets), showing how far a small set of techniques can stretch.",
+    "exercise_zh": "回顾本学期做过的 AR 草图，剪成一段 60 秒合集，并为每个片段标注它用到的核心技术；变体：只挑失败的原型剪一版“失败合集”。"
+  },
+  "ian-curtis--x277190": {
+    "technique": "A physics engine simulates stacked rigid bodies on an invisible ground collider at the detected floor, and a scripted robot applies forces on contact to topple the tower.",
+    "exercise_zh": "用 A-Frame 或 Unity 物理在地面上搭一座 AR 积木塔，再放一个会撞向它的小机器人；变体：让观众用手机倾斜角度控制机器人。"
+  },
+  "ian-curtis--x951426": {
+    "technique": "Photogrammetry turns photos of a real object into a textured mesh, which is re-imported into AR and placed with hit test, with a pinch gesture mapped to uniform scale.",
+    "exercise_zh": "用 Polycam 或 Object Capture 扫描一件小物品，放回 AR 中用双指缩放到房间那么大；变体：放大后可以“走进”它的内部。"
+  },
+  "ian-curtis--x669705": {
+    "technique": "Virtual ornaments and a robot share the detected floor plane, and the robot steers toward the nearest ornament with a simple seek behavior and collects it on contact.",
+    "exercise_zh": "在 AR 地面上随机撒下几个小物件，让一个小机器人按距离依次去捡；变体：你用手机点地面可以给机器人设路障。"
+  }
+}

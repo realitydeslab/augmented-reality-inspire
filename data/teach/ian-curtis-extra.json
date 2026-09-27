@@ -1,0 +1,22 @@
+{
+ "ian-curtis--x425957": {
+  "technique": "World-tracked WebAR places a vertical grid on a detected surface; standard Tetris logic runs in three.js and touch input maps to piece moves.",
+  "exercise_zh": "用 LLM 生成一个 WebAR 小游戏原型并摆在桌面上，记录你修改了 AI 代码的哪些地方；变体：让方块的下落速度随你离棋盘的距离变化。"
+ },
+ "ian-curtis--x528631": {
+  "technique": "A compilation of 8th Wall SLAM-based WebAR pieces combining ground-plane tracking, portals and image targets.",
+  "exercise_zh": "挑出合集里你最喜欢的三个片段，逐个拆解它用了哪种追踪方式（平面、图像、VPS），画成一张技术地图。"
+ },
+ "ian-curtis--x277190": {
+  "technique": "SLAM ground-plane anchoring plus a rigid-body physics engine (likely A-Frame physics / cannon.js) lets stacked virtual blocks fall onto the real floor.",
+  "exercise_zh": "用 AR Foundation 或 A-Frame 加物理引擎，在地面上堆一座会倒塌的塔；变体：用手机晃动或声音来“推倒”它。"
+ },
+ "ian-curtis--x951426": {
+  "technique": "Photogrammetry turns a real object into a textured mesh, which is then placed with WebAR world tracking and scaled via pinch gestures.",
+  "exercise_zh": "用 Scaniverse 或 Polycam 扫描一件身边物品并导入 AR，给它一个“不合常理”的尺寸；变体：让扫描物和真实原物并排出现做对比。"
+ },
+ "ian-curtis--x669705": {
+  "technique": "A navigation agent moves across the detected ground plane toward virtual targets; floor tracking keeps it glued to the real surface.",
+  "exercise_zh": "做一个会在地面上自主寻找目标的小机器人（简单 steering 行为即可）；变体：让它躲开你的脚或手机。"
+ }
+}

@@ -1,0 +1,378 @@
+{
+  "niantic--ingress": {
+    "technique": "GPS location is matched against a database of geotagged landmarks, and a proximity radius decides when a player can interact with a portal, making the map itself the AR layer.",
+    "exercise_zh": "在校园地图上标出 5 个“据点”，用浏览器定位 API 判断玩家是否在 30 米内，到达即可占领；变体：两个相邻据点都被同一方占领时自动连线成领地。"
+  },
+  "niantic--pok-mon-go": {
+    "technique": "GPS and spawn tables place creatures near map locations, and the encounter screen overlays the creature on the camera feed using gyroscope orientation rather than full SLAM.",
+    "exercise_zh": "用陀螺仪控制一个叠加在摄像头画面上的角色，只有转向正确方向时才看得到它，滑动屏幕扔球捕捉；变体：角色只在特定天气或时段出现。"
+  },
+  "niantic--pok-mon-go-ar": {
+    "technique": "ARKit plane detection anchors the creature at real scale on the ground, and the camera's distance and approach speed to the anchor drive a flee behavior.",
+    "exercise_zh": "用 AR Foundation 在地面放一只小动物，手机移动太快靠近时它会逃开，慢慢靠近才能摸到它；变体：蹲低身体时它会变得更信任你。"
+  },
+  "niantic--real-world-platform-occlusion-demo-pikachu-eevee": {
+    "technique": "A neural network estimates per-pixel depth from the camera image, and virtual characters are depth-tested against it so real people and objects occlude them.",
+    "exercise_zh": "开启 AR Foundation 的人物遮挡或环境深度遮挡，让一个角色绕着你的同学跑；变体：故意关闭遮挡再对比，拍一组前后对比截图。"
+  },
+  "niantic--codename-neon": {
+    "technique": "Players share a low-latency multiplayer session with a common anchor, so each phone's pose and fired projectiles are synchronized in the same world coordinates.",
+    "exercise_zh": "用 Unity Netcode 让两台手机在同一个图像标记坐标系下互相发射能量球，击中对方手机位置即得分；变体：地上散落的能量点被捡走后对双方都消失。"
+  },
+  "niantic--codename-tonehenge": {
+    "technique": "A shared anchor places one virtual structure for all players, and each player's input on a shared object state is replicated in real time so the puzzle needs coordinated action.",
+    "exercise_zh": "放一个多人共享的 AR 石阵，每人只能旋转其中一块石头，全部对齐才能打开；变体：石头只在所有人同时看着它时才能被转动。"
+  },
+  "niantic--harry-potter-wizards-unite": {
+    "technique": "Touch-path gesture recognition compares the traced stroke against template glyphs and scores accuracy and speed, with the encounter object overlaid on the camera view.",
+    "exercise_zh": "实现一个简单的手势路径识别（如 $1 Recognizer），画对符号时 AR 中的物体被释放；变体：让同学自己设计三种新符号及其效果。"
+  },
+  "niantic--pok-mon-go-buddy-adventure": {
+    "technique": "An animated companion is placed on a detected plane, and touch interactions such as feeding and petting change a persistent affinity value that also grows with step count.",
+    "exercise_zh": "做一个 AR 小宠物，点击喂食、滑动抚摸会增加亲密度，亲密度达到阈值后解锁新动作；变体：亲密度也随你一天走的步数增长。"
+  },
+  "niantic--pok-mon-go-shared-ar-experience": {
+    "technique": "Nearby phones localize to a common anchor (via Lightship shared AR) so each player's companion is spawned at a shared pose and seen consistently by everyone.",
+    "exercise_zh": "两台手机通过共同图像标记对齐，各自放出一只宠物，让它们在对方屏幕里也出现并互相打招呼；变体：两只宠物靠近时一起做一个合体动作。"
+  },
+  "niantic--pok-mon-go-ar-mapping": {
+    "technique": "Players capture short camera scans with pose data around landmarks, which are reconstructed into 3D maps used to build a visual positioning system.",
+    "exercise_zh": "用 Polycam 或 Scaniverse 扫描校园中的一个地标，把扫描模型放回 AR 与原物对齐；变体：全班扫描同一个地标，比较不同扫描路径的效果。"
+  },
+  "niantic--pikmin-bloom": {
+    "technique": "Pedometer and GPS trail data are drawn as a flower path on the map, and AR mode places followers on the ground plane behind the camera position.",
+    "exercise_zh": "记录一次散步的 GPS 轨迹，在地图上画成一条花径，并在 AR 中让一个小角色跟在你身后；变体：花的种类由你当时经过的地点类型决定。"
+  },
+  "niantic--peridot": {
+    "technique": "Semantic segmentation labels ground pixels as grass, water, sand and so on, and the pet's behavior tree picks actions such as digging or swimming based on the class under it.",
+    "exercise_zh": "用 Lightship 语义分割或简单的颜色判断区分草地和地板，让 AR 宠物在草地上打滚、在地板上走路；变体：把宠物放在水边时它会喝水。"
+  },
+  "niantic--hello-dot": {
+    "technique": "Passthrough plus scene understanding labels furniture in the room, and the pet uses those labels as navigation targets and interaction affordances.",
+    "exercise_zh": "在 AR 中检测桌面和地面两个层级，让宠物学会从地面跳上桌子找你；变体：你把手机放下不动时，宠物会在桌上睡着。"
+  },
+  "niantic--peridot-beyond": {
+    "technique": "Multiple glasses join a shared session with colocalized coordinates, so the same pet entity and its state are replicated to every wearer.",
+    "exercise_zh": "让两三台设备共享同一只 AR 宠物，谁先扔球宠物就去追谁的球；变体：宠物会记住最常陪它玩的人。"
+  },
+  "niantic--monster-hunter-now-palico-ar": {
+    "technique": "A companion character is placed on a detected surface in a photo mode with pose presets and camera capture, turning AR into a snapshot tool.",
+    "exercise_zh": "做一个 AR 拍照模式：放置角色、选择姿势、一键截图并保存；变体：截图时自动加一个与当前地点相关的边框。"
+  },
+  "8th-wall--lightship-vps-for-web": {
+    "technique": "Browser camera frames are matched against a prebuilt map of a location to return a 6DoF pose, letting WebAR content be anchored to a specific place.",
+    "exercise_zh": "用图像标记在网页 AR 中模拟“地点定位”：扫描门口的海报后，内容固定出现在门框上；变体：每次打开时显示上一位访客留下的一句话。"
+  },
+  "novarama--invizimals": {
+    "technique": "A printed fiducial card gives the camera pose for tabletop rendering, while a color-detection capture step (pointing the camera at certain hues) is used to spawn creatures.",
+    "exercise_zh": "用摄像头颜色检测“发现”隐藏生物：对准某种颜色的物体时出现提示，再在图像标记卡上召唤它；变体：不同颜色对应不同属性的生物。"
+  },
+  "novarama--invizimals-shadow-zone": {
+    "technique": "Marker-based tracking on the trap card anchors creatures and battle effects, with capture challenges requiring the player to move the handheld relative to the marker.",
+    "exercise_zh": "设计一个需要移动手机围绕标记卡才能完成的捕捉挑战，例如从特定角度对准生物；变体：捕捉时间窗口随生物稀有度缩短。"
+  },
+  "novarama--invizimals-the-lost-tribes": {
+    "technique": "The marker card defines the arena origin, and creatures from different sets are rendered in the card's frame with turn-based battle animations.",
+    "exercise_zh": "用两张不同的图像标记卡分别召唤两个阵营的角色，让它们在桌上回合制对战；变体：把两张卡的距离作为攻击范围的一个参数。"
+  },
+  "novarama--invizimals-the-alliance-the-lost-kingdom": {
+    "technique": "Creatures captured in the handheld AR mode are saved to a shared profile and loaded as playable characters in a separate console game, linking two devices through data.",
+    "exercise_zh": "在手机 AR 中“捕捉”一个角色并保存为 JSON，再在电脑上的 Unity 场景中读取它作为可控角色；变体：在电脑上升级后，手机 AR 里的角色外观也改变。"
+  },
+  "sce-london-studio--eyepet": {
+    "technique": "A fixed camera uses a marker card to locate the floor, and frame-differencing motion detection lets the player's hand movements near the pet count as touches.",
+    "exercise_zh": "用网页摄像头和帧差法检测手在画面某区域的移动，让屏幕上的虚拟宠物被“摸”时做出反应；变体：在纸上画一个圆，宠物把它当成球来玩。"
+  },
+  "sce-london-studio--eyepet-playstation-move-edition": {
+    "technique": "The Move controller's glowing ball is tracked by the camera for position and its IMU for orientation, so it can be rendered as swappable virtual tools in the pet's space.",
+    "exercise_zh": "用手机当道具控制器，把它的姿态映射成 AR 中的吹风机、刷子等工具，给宠物梳洗；变体：每种工具有独特的声音反馈。"
+  },
+  "sce-london-studio--eyepet-friends": {
+    "technique": "Two tracked controllers and pet instances share the camera-based floor frame, letting two players' pets interact in the same augmented video.",
+    "exercise_zh": "在同一个 AR 画面里放两只宠物，分别由两名玩家控制，让它们根据距离做出互动；变体：两只宠物有各自的性格，会产生冲突。"
+  },
+  "sce-london-studio--wonderbook-book-of-spells": {
+    "technique": "Each page of the book carries a distinct marker, so page identity and pose drive which pop-up scene is rendered, while the tracked Move wand gestures cast spells into it.",
+    "exercise_zh": "用一本小册子，每页贴一个不同的图像标记，翻页时在 AR 中弹出对应的立体场景；变体：用手机当魔杖，在页面上方挥动触发变化。"
+  },
+  "sce-london-studio--wonderbook-book-of-potions": {
+    "technique": "The book marker anchors a virtual cauldron, and controller motion patterns such as grinding and pouring are recognized from IMU data to add ingredients.",
+    "exercise_zh": "在图像标记上放一口 AR 锅，用手机的摇晃、倾倒动作（加速度计）添加不同原料，配方正确时冒出彩色烟雾；变体：配方需要按正确顺序加入。"
+  },
+  "nintendo--ar-games-nintendo-3ds": {
+    "technique": "A known printed card provides a fiducial for camera pose, and the stereo 3D display renders content emerging from the table plane around the card.",
+    "exercise_zh": "用一张打印的图像标记做一个从桌面“裂开”钻出来的 AR 巨龙，可以用 Stencil 做出桌面洞口；变体：把标记放在不同表面上，巨龙的反应不同。"
+  },
+  "nintendo--ar-games-fishing": {
+    "technique": "The card marks the table as a water plane using a stencil or depth mask, and tilting and moving the console are mapped to the fishing line and reel.",
+    "exercise_zh": "在桌面上用 Shader 做一个“水面”，倾斜手机抛竿，快速上抬手机收线；变体：鱼只在你保持安静时才会上钩（用麦克风判断）。"
+  },
+  "nintendo--face-raiders": {
+    "technique": "A captured face photo is texture-mapped onto enemy meshes, and the gyroscope rotates the virtual camera so enemies surround the player in a 360-degree space overlaid on the camera feed.",
+    "exercise_zh": "用前置摄像头拍一张脸，贴到 AR 中飞来飞去的球体上，转身用陀螺仪瞄准射击；变体：被击中的脸会做出不同表情。"
+  },
+  "nintendo--kid-icarus-uprising-ar-cards": {
+    "technique": "Two cards are detected at once as image targets, and the relative pose between them determines the characters' facing and battle stats.",
+    "exercise_zh": "用两张图像标记卡各召唤一个角色，卡片距离越近两者越激动，对面朝向时开始战斗；变体：卡片叠放时两个角色合体。"
+  },
+  "nintendo--spirit-camera-the-cursed-memoir": {
+    "technique": "Pages in a printed booklet act as image targets that trigger story events, while gyroscope-based aiming lets ghosts appear around the player in the camera view.",
+    "exercise_zh": "制作一本几页的纸质“诅咒日记”，每页扫描后触发一段 AR 鬼影或声音；变体：只能在熄灯时（摄像头亮度低时）看到鬼影。"
+  },
+  "velan-studios--mario-kart-live-home-circuit": {
+    "technique": "Fiducial markers on cardboard gates localize the RC car's onboard camera, so the track, items and rivals are rendered from the kart's viewpoint over its live video.",
+    "exercise_zh": "把手机固定在玩具车上，在地上放几张图像标记当“关卡门”，经过时在 AR 中显示加速道具；变体：把门的顺序设计成一条只有 AR 里才看得见的赛道。"
+  },
+  "velan-studios--mario-kart-live-home-circuit-developer-interview": {
+    "technique": "The gates both define the track path and correct camera pose drift, and rendering is tuned to minimize latency between the car's video and its overlays.",
+    "exercise_zh": "测量自己 AR 原型中从相机画面到叠加内容的延迟（如用高速录像），并尝试一种降低延迟的方法；变体：故意加大延迟，观察用户开始不舒服的临界点。"
+  },
+  "velan-studios--hot-wheels-rift-rally": {
+    "technique": "A camera car streams video to a phone or console that tracks gate markers for localization and overlays track geometry and effects in the car's perspective.",
+    "exercise_zh": "用手机远程查看另一台手机（放在小车上）的摄像头画面，并在画面上叠加 AR 赛道元素；变体：加入只在车经过某张图片后出现的“裂缝”特效。"
+  },
+  "google-creative-lab--just-a-line": {
+    "technique": "The line is built from successive camera or touch-ray positions in world space extruded into a ribbon mesh, and Cloud Anchors share the anchor so two phones draw together.",
+    "exercise_zh": "用 AR Foundation 把手机移动时的位置连成一条 3D 线，再录屏导出；变体：线只能画一笔，中途松手就结束。"
+  },
+  "google-creative-lab--just-a-line-with-shantell-martin": {
+    "technique": "The same world-space line drawing is used by an artist whose single continuous stroke becomes a spatial drawing around her body.",
+    "exercise_zh": "邀请一位同学在 AR 中用一笔画绕着自己的身体画一幅画，并从多角度录像；变体：把画出来的线导出为模型，再 3D 打印。"
+  },
+  "google-creative-lab--ar-experiments-arcore-launch-collection": {
+    "technique": "Small experiments each isolate one ARCore capability such as plane detection, hit testing, light estimation or anchors, showing how a single technique can carry a toy.",
+    "exercise_zh": "每组选一个 AR 基础能力（平面检测、光照估计、锚点等），在一小时内做一个只依赖该能力的小玩具；变体：互相交换能力再做一个。"
+  },
+  "google-creative-lab--drawalong-ar": {
+    "technique": "A video plane is anchored to a detected paper surface with adjustable transparency, so the user can trace the tutorial through the overlay.",
+    "exercise_zh": "在桌面平面上放一个半透明的视频或图片层，对齐真实纸张后描画；变体：让叠加内容逐笔出现，像一位老师在示范。"
+  },
+  "google-creative-lab--d-i-s-p-l-a-y-e-d-audio-ar": {
+    "technique": "Indoor positioning estimates the visitor's location, and distance to each performer's position controls the volume of their audio track.",
+    "exercise_zh": "在教室里布置 4 个“声音点”，根据手机与每个点的距离调整对应音频的音量，形成可走动的声音地图；变体：声音点对应的是同学讲述的一段个人故事。"
+  },
+  "google-creative-lab--sounds-in-space": {
+    "technique": "ARCore anchors store audio sources at positions in a room, and playback volume and panning follow the phone's tracked position.",
+    "exercise_zh": "用 AR Foundation 在房间里放置几个带 3D 音效的隐形声音源，走动时听到不同的音乐层；变体：让观众自己录一段声音并放进空间里。"
+  },
+  "google-creative-lab--lines-of-play": {
+    "technique": "The ARCore Depth API supplies a depth map used for both occlusion and physics collision, so dominoes hide behind and bump into real objects.",
+    "exercise_zh": "开启环境深度，在桌面上摆一排 AR 多米诺骨牌，让它们撞到真实的书本后停下；变体：骨牌倒下时每块发出一个音阶，组成一段旋律。"
+  },
+  "jonas-jongejan--ar-wormhole": {
+    "technique": "A 360 camera stream is buffered with a delay and mapped onto an inside-out sphere visible through a stencil portal, so stepping through shows the scene from seconds ago.",
+    "exercise_zh": "做一个 AR 传送门，门内播放 10 秒前用手机录下的同一地点的视频；变体：把延迟改成一天前或一年前，思考它讲的是什么故事。"
+  },
+  "jonas-jongejan--arcore-drawing-ofxarcore": {
+    "technique": "Camera pose from ARCore is exposed to openFrameworks, and positions sampled while touching are connected into 3D polylines rendered in world space.",
+    "exercise_zh": "不用 Unity，改用 three.js + WebXR 实现一个空中画线工具，比较两种工具链的开发体验；变体：线条颜色随画线速度变化。"
+  },
+  "jeri-ellsworth--castar-kickstarter": {
+    "technique": "Head-mounted projectors cast a stereo image onto a retro-reflective mat that returns light mainly to its source, so each wearer sees only their own head-tracked perspective.",
+    "exercise_zh": "用手机前置人脸追踪实现头部耦合透视，把桌面上的平板变成一个有纵深的“全息桌面”；变体：两人从不同角度看同一个平板，讨论为什么只有一人看到正确透视。"
+  },
+  "jeri-ellsworth--castar-at-maker-faire-2013": {
+    "technique": "Head tracking relative to the mat, likely via camera-tracked markers, updates the off-axis stereo projection so holograms stay locked to the table.",
+    "exercise_zh": "用一个低成本材料（反光胶带或手电筒）做一个小实验，观察回射材料如何把光送回光源；变体：据此画出一个你设想的桌面 AR 设备草图。"
+  },
+  "jeri-ellsworth--castar-smartglasses-at-awe-2015": {
+    "technique": "Because each wearer's projector image returns only to their own eyes, multiple players can share one surface with individually correct perspective views.",
+    "exercise_zh": "设计一个多人桌面游戏，每个玩家看到的信息不同（比如手牌只有自己能看），用多台手机 AR 围绕同一张图像标记实现；变体：加入一张所有人都能看到的公共牌。"
+  },
+  "jeri-ellsworth--tilt-five-holographic-game-system": {
+    "technique": "Glasses project stereo images onto a retro-reflective board and track head pose against it, while a tracked wand gives a ray for pointing at tabletop content.",
+    "exercise_zh": "在 AR 中把一张图像标记当成游戏棋盘，用手机射线（从屏幕中心发出）选择棋子并移动；变体：棋子可以“站起来”超出棋盘高度。"
+  },
+  "jeri-ellsworth--tilt-five-gaming-with-tabletop-holograms": {
+    "technique": "Content is authored in board-local coordinates in Unity, so miniatures appear to rise from the board and stay registered as players move their heads.",
+    "exercise_zh": "做一个从桌面“长出来”的小城市，城市建筑随你绕桌子行走的角度显示不同细节；变体：城市里的小人会朝你所在的方向看。"
+  },
+  "directive-games--the-machines-apple-keynote-reveal": {
+    "technique": "ARKit world tracking places a detailed battlefield on the table, and the player's physical movement around it becomes the camera control, revealing new sightlines.",
+    "exercise_zh": "在桌上放一个 AR 迷宫城堡，只有走到某个角度才能看到隐藏的入口；变体：入口在两个人分别站在两侧时才会同时出现。"
+  },
+  "directive-games--the-machines": {
+    "technique": "Two phones share one tabletop anchor and a synchronized game state, with each phone acting as a free-moving camera over the miniature battlefield.",
+    "exercise_zh": "用网络同步做一个两人桌面 AR 对战，每人从自己的角度看同一张地图；变体：每个人只能看到自己单位附近的区域（战争迷雾）。"
+  },
+  "snap-inc--snapchat-world-lenses": {
+    "technique": "Rear-camera SLAM with ground detection anchors an animated character to the floor, and video recording captures the composited result for sharing.",
+    "exercise_zh": "用 Lens Studio 做一个地面上的动画角色 World Lens，录一段 10 秒短视频；变体：角色会模仿镜头前真人的动作（用身体追踪）。"
+  },
+  "snap-inc--jeff-koons-x-snapchat": {
+    "technique": "Geofenced lenses become available only near specific coordinates, and the sculpture is placed with ground tracking at a fixed site.",
+    "exercise_zh": "为校园中的某个地点设计一件只在那里可见的 AR 雕塑，用 GPS 限制出现范围；变体：让同学在雕塑旁留下 AR 涂鸦，思考公共空间的归属问题。"
+  },
+  "snap-inc--landmarkers": {
+    "technique": "Landmark tracking matches the camera view to a prebuilt 3D model of a known building, so shaders and animations can be mapped precisely onto its real facade.",
+    "exercise_zh": "用 Lens Studio 的 Custom Landmarker 或图像追踪识别校园中一栋建筑立面，在它上面叠加融化或长草的动画；变体：让动画跟随真实时间变化。"
+  },
+  "snap-inc--local-lenses": {
+    "technique": "A city-scale 3D map localizes users, and shared persistent state stores each paint stroke on building surfaces so later visitors see the accumulated changes.",
+    "exercise_zh": "用持久化锚点和一个简单后端（如 Firebase）做一面多人共享的 AR 涂鸦墙，涂鸦下次打开还在；变体：涂鸦会像真实油漆一样慢慢褪色。"
+  },
+  "ines-alpha--future-gloss": {
+    "technique": "A face mesh from face tracking drives 3D liquid geometry attached to facial landmarks, with glossy PBR materials and an environment map for reflections.",
+    "exercise_zh": "用 Lens Studio 或 Effect House 在脸上放一个跟随面部网格的 3D 液体造型，调出高光反射材质；变体：让液体随嘴巴张合流动。"
+  },
+  "ines-alpha--ines-alpha-x-katsu": {
+    "technique": "Sculptural meshes modeled in Cinema 4D are parented to face-tracking anchors, with iridescent shader effects that change with view angle.",
+    "exercise_zh": "用任意 3D 软件做一个雕塑感的小物件，挂在人脸追踪的某个锚点（如额头或颧骨）上；变体：物件随面部表情展开或收起。"
+  },
+  "ines-alpha--ines-alpha-x-the-bulletproof-cat": {
+    "technique": "Translucent organic meshes are bound to the face mesh and deform with blendshape-driven expressions, using refraction or transparency shaders.",
+    "exercise_zh": "用 ARKit blendshape 读取表情系数，驱动脸上一个半透明形体的大小或形状；变体：只在微笑时让形体发光。"
+  },
+  "ines-alpha--bimba-y-lola-x-ines-alpha-filter": {
+    "technique": "Spark AR face tracking attaches glossy 3D makeup meshes to the face, with materials art-directed to match a fashion collection's palette.",
+    "exercise_zh": "从一件服装或一张海报中提取配色，做一个与之呼应的人脸 AR 滤镜；变体：滤镜根据镜头中服装颜色自动改变。"
+  },
+  "ines-alpha--prada-beauty-rethinking-beauty-ar-filter": {
+    "technique": "A multi-mode face filter switches between makeup looks via tap or picker UI, each combining face-mesh textures, attached 3D pieces and animated shaders.",
+    "exercise_zh": "做一个有三种模式的人脸滤镜，点击屏幕在模式间切换，每种模式代表一种对“未来妆容”的理解；变体：模式切换由眨眼触发。"
+  },
+  "johanna-jaskowska--beauty3000": {
+    "technique": "The face mesh is re-textured with a glossy material that uses an iridescent or matcap environment reflection, so highlights shift as the head moves.",
+    "exercise_zh": "用 Effect House 或 Lens Studio 给脸部网格一个彩虹色的 Matcap 材质，观察转头时高光的变化；变体：把材质换成一种你身边真实物件的质感。"
+  },
+  "marc-wakefield--spark-ar-world-effects": {
+    "technique": "Hand-drawn 2D artwork is placed as billboards or layered planes in world space via plane tracking, preserving the illustration style in 3D.",
+    "exercise_zh": "把自己的手绘角色分成前、中、后三层平面，放进 AR 形成有视差的纸片剧场；变体：绕着它走时，角色永远转身面对你。"
+  },
+  "paige-piskin--lil-cartoon-bratz-doll": {
+    "technique": "A machine-learning face transformation (likely a GAN-based style model) restyles the face into a cartoon while keeping head pose and expression.",
+    "exercise_zh": "用 Lens Studio 的 ML 风格化或人脸变形工具，把脸变成一种你童年玩具的风格；变体：写一段说明，解释你保留了原脸的哪些特征。"
+  },
+  "paige-piskin--coachella-metabutterfly-filter": {
+    "technique": "Face-tracked butterfly meshes and makeup textures are anchored to facial landmarks, with wing animations driven by time or facial movement.",
+    "exercise_zh": "在脸上放几只沿眉毛或颧骨停驻的 AR 蝴蝶，张嘴时它们飞走；变体：蝴蝶飞离后会停到画面中的真实物体上。"
+  },
+  "paige-piskin--coachella-luminous-filter": {
+    "technique": "Face-attached emissive materials with bloom are modulated by camera luminance or light estimation, so the glow reacts to the surrounding lighting.",
+    "exercise_zh": "做一个会根据环境亮度改变发光强度的脸部滤镜，暗处更亮、亮处更淡；变体：用麦克风音量代替亮度来驱动发光。"
+  },
+  "tonchidot--sekai-camera-techcrunch50-demo": {
+    "technique": "GPS position and compass heading determine which geotagged notes lie in the camera's field of view, and tags are drawn as floating labels at their bearing.",
+    "exercise_zh": "用手机 GPS 和指南针在网页上实现“浮空标签”：朝向某个方向时显示那里的留言；变体：标签字体大小按距离缩放，远处的留言变模糊。"
+  },
+  "tonchidot--sekai-camera-science-museum-navigation": {
+    "technique": "Location-tagged labels pointing to exhibits are overlaid on the camera view based on device position and heading, working as indoor wayfinding.",
+    "exercise_zh": "在教学楼里放几个二维码或图像标记，扫描后在 AR 中显示指向下一个地点的箭头；变体：箭头的样式由上一位访客的评价决定。"
+  },
+  "tonchidot--sekai-camera-for-ipad": {
+    "technique": "The same geotag overlay approach is applied on a larger screen, with the device treated as a handheld window onto the tag layer.",
+    "exercise_zh": "对比手机和平板上同一个 AR 标签界面，调整标签密度和字号以适配大屏；变体：设计一种只在大屏上才有意义的交互。"
+  },
+  "layar--layar-reality-browser": {
+    "technique": "Points of interest from third-party layers are fetched by API and rendered as camera-overlay markers using GPS, compass and accelerometer for bearing and elevation.",
+    "exercise_zh": "用一个开放数据接口（如 OpenStreetMap）获取附近的咖啡店，用 GPS + 指南针在摄像头画面中按方向显示；变体：只显示你从没去过的地方。"
+  },
+  "layar--layar-for-google-glass": {
+    "technique": "Image recognition matches printed pages against a database, triggering linked content in a head-worn display without needing a touch screen.",
+    "exercise_zh": "为一张课程海报做图像识别触发，扫描后播放一段 15 秒的介绍视频；变体：同一张海报在不同时间扫描显示不同内容。"
+  },
+  "otavio-good--word-lens": {
+    "technique": "On-device OCR finds text regions, a dictionary translates them, and the original text is painted over with sampled background color and redrawn in a matching font.",
+    "exercise_zh": "用 Google ML Kit 或 Tesseract 识别画面中的文字，把它替换成另一种语言或另一句话并贴回原位；变体：把所有标识都替换成反义词。"
+  },
+  "otavio-good--word-lens-for-glass": {
+    "technique": "The OCR and in-place replacement pipeline runs on head-worn camera frames, so translation appears in view without holding a device.",
+    "exercise_zh": "用手机前后摄像头模拟眼镜视角做“免手持”文字翻译，并讨论眼镜上需要如何简化界面；变体：只用语音朗读翻译结果，不显示文字。"
+  },
+  "wonderscope-within--wonderscope": {
+    "technique": "Life-size characters are placed on the floor via plane detection, and speech recognition checks the child's spoken line against the script to advance the story.",
+    "exercise_zh": "做一个三句对白的 AR 小故事，角色站在地上，孩子读出正确台词后剧情才继续；变体：读错时角色会用幽默方式提示。"
+  },
+  "wonderscope-within--clio-s-cosmic-quest": {
+    "technique": "Story scenes are staged in room-scale world coordinates, and voice-recognition gates plus walking prompts pace the narrative.",
+    "exercise_zh": "设计一个需要观众走到房间另一侧才能看到下一幕的 AR 故事；变体：观众必须说出某个星球的名字才能“起飞”。"
+  },
+  "wonderscope-within--wonder-s-land-ringmaster-wanted": {
+    "technique": "Characters are arranged around the viewer in a circle, and speech input triggers performer animations, making the child a participant.",
+    "exercise_zh": "在观众周围一圈放几个 AR 表演者，观众说出口令时轮到对应的表演者登场；变体：观众说话声音越大，表演越夸张。"
+  },
+  "wonderscope-within--willowcrest-manor": {
+    "technique": "Room-scale placement of set pieces and characters, likely with scripted triggers based on where the viewer looks, turns the child's room into a staged mystery.",
+    "exercise_zh": "做一个基于视线触发的 AR 悬疑场景：只有看向某个角落时才出现线索；变体：线索出现后如果你移开视线，它会换位置。"
+  },
+  "wonderscope-within--sinclair-snake": {
+    "technique": "An animated character rig is anchored in the room, and scene transitions are triggered by the child's spoken responses via speech recognition.",
+    "exercise_zh": "让一个 AR 角色向你提问，根据你的语音回答分出两条不同的剧情分支；变体：角色会记住你上次的回答。"
+  },
+  "climax-studios--arise": {
+    "technique": "Perspective-alignment puzzles check the camera's viewing angle relative to the diorama, and when disconnected paths line up in screen space the level treats them as connected.",
+    "exercise_zh": "在桌上放一组错位的 AR 积木，只有从某个特定角度看时它们才连成一条路；变体：做一个需要两个角度先后对齐的关卡。"
+  },
+  "climax-studios--towers-for-tango": {
+    "technique": "Tango's depth sensor builds a room mesh, and towers and enemy paths are placed on real floors and furniture surfaces from that mesh.",
+    "exercise_zh": "用带 LiDAR 的 iPhone 做网格重建，把敌人的行进路线放在真实地面上并绕开家具；变体：玩家可以挪动真实椅子来改变路线。"
+  },
+  "kunabi-brother--euclidean-lands-ar": {
+    "technique": "A rotating cube-world puzzle is placed on a detected table, and its grid-based rotation logic is unchanged while the camera view comes from the player walking around it.",
+    "exercise_zh": "做一个可以整体旋转的 AR 小立方体世界，旋转后角色可以走上新的路径；变体：旋转只能通过绕着桌子走来完成。"
+  },
+  "resolution-games--angry-birds-ar-isle-of-pigs": {
+    "technique": "Destructible physics structures are built at room scale on the floor plane, and a slingshot is aimed from the camera position so the player walks to find angles.",
+    "exercise_zh": "在地面上放一座 AR 积木塔，从手机位置用弹弓发射小球，鼓励玩家走到侧面找弱点；变体：塔的形状由真实房间的空地大小自动决定。"
+  },
+  "mighty-coconut--57-north": {
+    "technique": "The Merge Cube's patterned faces are tracked as a multi-face image target, so a diorama follows the cube's rotation and choices are made by turning it.",
+    "exercise_zh": "用纸盒六面贴图像标记做一个自制 Merge Cube，在盒子上显示一个小故事场景，转到不同面时做出不同选择；变体：摇晃盒子会让场景里下雨。"
+  },
+  "merge-labs--merge-cube": {
+    "technique": "The cube's six unique patterns form a single tracked object target, giving full 6DoF pose so a hologram can be held and turned in the hand.",
+    "exercise_zh": "打印并折一个带图案的纸立方体，用 Vuforia 或 8th Wall 追踪它，在手中显示一颗可旋转的行星；变体：把两块立方体靠近时触发化学反应。"
+  },
+  "novum-analytics--night-terrors": {
+    "technique": "The phone camera feed is darkened and lit by a virtual flashlight, and apparitions are overlaid with jump-scare timing and spatial audio through headphones.",
+    "exercise_zh": "做一个只在手机“手电筒”光圈里才显示 AR 内容的场景，配合耳机中的方位声音；变体：光圈越小，恐怖元素越近。"
+  },
+  "novum-analytics--night-terrors-bloody-mary": {
+    "technique": "ARKit or ARCore world tracking lets a ghost character move through room space relative to the player, with audio cues giving direction.",
+    "exercise_zh": "让一个 AR 角色在你背后移动，只能通过声音判断它的位置，转身时它躲到视野外；变体：用前置摄像头检测你是否在“镜子”前。"
+  },
+  "lego--lego-hidden-side": {
+    "technique": "The app recognizes the physical LEGO set (model or image-based tracking), and ghosts are rendered inside it with occlusion from a known digital model of the set.",
+    "exercise_zh": "用一个真实的纸盒模型和它的简化 3D 替身做遮挡，让 AR 幽灵躲在纸盒里的窗户后面；变体：打开真实盒子的某扇门会放出幽灵。"
+  },
+  "mojang-minecraft-earth--minecraft-earth": {
+    "technique": "Build plates are authored at tabletop scale and rescaled to life size with the same anchor, while Azure Spatial Anchors let multiple players share the placement.",
+    "exercise_zh": "在桌上用 AR 方块搭一个小模型，一键放大到真实尺寸并走进去；变体：放大后另一位同学可以在同一位置看到它。"
+  },
+  "zenka--augmented-reality-street-art": {
+    "technique": "The printed artwork is registered as an image target, and a video or animation layer is aligned to it so the static piece appears to move.",
+    "exercise_zh": "用 8th Wall 或 Lens Studio 把一张自己的海报设为图像目标，扫描后播放它的动画版本；变体：动画只在有人站在海报前时继续。"
+  },
+  "zenka--space-mural-aurasma": {
+    "technique": "An image recognition service matches the mural and triggers an overlay animation registered to the painted surface.",
+    "exercise_zh": "在白板上画一幅简单壁画，用图像追踪让其中的元素飞出来；变体：邀请同学在壁画上添加一笔，观察识别是否仍然有效。"
+  },
+  "zenka--augmented-reality-linoleum-prints": {
+    "technique": "High-contrast hand-carved prints serve as image targets with strong feature points, and animations are aligned to the printed forms.",
+    "exercise_zh": "用橡皮章或手绘做一张高对比度图案，测试它作为图像标记的识别效果，并加上对应动画；变体：印出多张有细微差异的版画，每张触发不同动画。"
+  },
+  "novarama--reality-fighters": {
+    "technique": "A photographed face is mapped onto a fighter's head, and the characters are rendered over the rear camera feed anchored by an AR card.",
+    "exercise_zh": "用前置摄像头拍脸贴到 AR 格斗小人头上，在桌面上和同学的小人对打；变体：打输的一方脸部贴图会出现“伤痕”。"
+  },
+  "tender-claws--tendar": {
+    "technique": "Front-camera facial expression classification feeds the pet's emotional state, while rear-camera object recognition checks whether the player shows the requested item.",
+    "exercise_zh": "用表情识别（MediaPipe 或 ARKit blendshape）判断你是否在笑，AR 小鱼以你的情绪为食；变体：小鱼会请你拍一个指定物体，并用物体识别验证。"
+  },
+  "sce-japan-studio--the-eye-of-judgment": {
+    "technique": "CyberCode markers on each card are decoded by an overhead camera to identify the card and its grid cell, and animated creatures are rendered on the video of the mat.",
+    "exercise_zh": "制作 4 张带不同图像标记的卡片，放在 2×2 格子上时召唤对应角色，并根据相邻关系判定胜负；变体：卡片旋转方向决定角色面朝哪边。"
+  },
+  "niantic--pok-mon-go-snapshot": {
+    "technique": "A character is placed on a detected plane, and a photo mode lets the user move closer and frame the shot, with scripted random events adding a second character.",
+    "exercise_zh": "做一个 AR 拍照模式，拍照时有 20% 的概率冒出一个“乱入者”；变体：乱入者会根据画面中是否有人脸做出不同动作。"
+  },
+  "8th-wall--8th-wall-sizzle-reel-2023": {
+    "technique": "Browser-based SLAM, face tracking and image targets run in a mobile web page, so each experience opens from a link or QR code without an app install.",
+    "exercise_zh": "选一个 WebAR 模板（人脸、图像或世界追踪），在 2 小时内做一个能用二维码打开的小作品并现场分享；变体：作品必须与班级所在城市有关。"
+  },
+  "8th-wall--microsoft-mixed-reality-capture-holograms-in-webar": {
+    "technique": "Volumetric video (a sequence of textured meshes) is streamed and played in sync with audio, and anchored at life size on a detected ground plane in the browser.",
+    "exercise_zh": "用手机抠像（背景分离）录一段同学的视频，作为面向镜头的平面“全息人”放在 AR 地面上；变体：让这个全息人在你走近时转头看你。"
+  }
+}

@@ -1,0 +1,908 @@
+{
+  "golan-levin--eyeshine": {
+    "description_zh": "这件装置捕捉、记录并回放观众眼中的“红眼”逆反射，让人类视网膜一种平时看不见的特性显现出来。",
+    "idea_en": "Catch the red-eye glint in visitors' eyes so they see their own eyes glowing like a night animal's.",
+    "technique_zh": "红外光源与红外摄像头同轴放置，使视网膜产生逆反射（即红眼效应），系统把它检测为明亮的瞳孔光斑，再加以记录和回放。",
+    "exercise_en": "In a dark room, photograph people's eyes with the phone flash held right next to the lens (or use an IR camera), isolate the pupil glints in p5.js and save them, then arrange them into a 'wall of eyeshine'. Twist: collect glints only from people who hold eye contact for more than 3 seconds, and discuss the ethics of 'being seen'."
+  },
+  "joanie-lemercier--eyjafjallajokull": {
+    "description_zh": "光被投射到一座手绘线框山体上，画面仿佛开始喷发、移动，最终化作一座火山。",
+    "idea_en": "Projection makes a hand-drawn line mountain look like an erupting volcano.",
+    "technique_zh": "投影仪与纸上的大幅手绘线框图精确对齐，投射的光和动画对线条进行显现、擦除和延伸，营造出一座三维山体正在喷发的错觉。",
+    "exercise_en": "Draw the wireframe of a mountain in black pen on white paper, align a projector to the drawing, and make light flow between the lines to simulate an eruption. Twist: use a landform from your hometown instead and add one local natural phenomenon."
+  },
+  "nintendo--face-raiders": {
+    "description_zh": "3DS 给你（或朋友）拍一张脸部照片，再把它变成会飞的敌人头像，从真实房间墙上的破洞里冲出来攻击你；你需要转动身体来瞄准射击。",
+    "idea_en": "Your own face becomes the enemy, bursting out of holes in your real room's walls to attack you.",
+    "technique_zh": "拍下的人脸照片被作为纹理贴到敌人网格上，陀螺仪驱动虚拟相机旋转，让敌人在叠加于摄像头画面的 360 度空间中包围玩家。",
+    "exercise_en": "Take a face photo with the front camera, map it onto spheres flying around in AR, and turn your body to aim and shoot using the gyroscope. Twist: faces pull different expressions when they are hit."
+  },
+  "kyle-mcdonald--face-substitution": {
+    "description_zh": "这件作品常被视为第一个逼真的实时换脸：通过网络摄像头，另一个人的脸被实时贴合并融合到你的脸上。",
+    "idea_en": "The earliest live face swap: your face on the webcam is seamlessly replaced with someone else's.",
+    "technique_zh": "FaceTracker 分别在源人脸和实时人脸上拟合可变形的特征点网格，把源人脸纹理扭曲贴到实时网格上，再用颜色迁移加类泊松融合来消除接缝。",
+    "exercise_en": "Use the triangle mesh from MediaPipe Face Mesh to map the face of a figure from a famous painting onto your own, apply simple color matching, and swap faces in real time. Twist: swap only half the face to make a mirror that is 'half you, half your ancestor'."
+  },
+  "hellicar-and-lewis--inside-out": {
+    "description_zh": "一件店铺装置：摄像头和投影仪把一个空间里的活动传送到另一个空间，在观看者与参与者之间形成出人意料的反馈回路。",
+    "idea_en": "Project people from one space live into another so both sides end up watching each other.",
+    "technique_zh": "一个房间的实时摄像画面经处理后投影到另一个房间（反之亦然），形成双向的视频反馈回路。",
+    "exercise_en": "Set up two laptops at opposite ends of a hallway, video-call between them and project each feed onto the wall so people on both sides can play across the wall. Twist: show only the other side's silhouettes, mirrored left to right."
+  },
+  "novarama--invizimals-the-lost-tribes": {
+    "description_zh": "PSP 上的第三部作品，加入了新的 Invizimals 部族，玩家要通过摄像头搜寻它们，并在标记陷阱卡上展开对战。",
+    "idea_en": "Hunt new tribes of monsters through the camera and battle them on a card.",
+    "technique_zh": "标记卡定义了竞技场的原点，不同系列的生物被渲染在卡片的坐标系中，并配有回合制战斗动画。",
+    "exercise_en": "Use two different image-marker cards to summon characters from two factions and have them fight turn-based battles on the table. Twist: use the distance between the two cards as a parameter for attack range."
+  },
+  "msr-izadi-holoportation--kinectfusion": {
+    "description_zh": "拿着 Kinect 在房间里扫一圈，就能实时构建出稠密的三维模型；随后虚拟粒子会在真实表面上弹跳、飞溅。",
+    "idea_en": "Sweep a Kinect around once to rebuild the whole room live, and virtual particles can hit the real table.",
+    "technique_zh": "用 ICP 对齐深度帧来估计相机位姿，并把深度数据融合进 GPU 上的截断符号距离函数（TSDF）体素中；对该体素进行光线投射得到的表面，被用作虚拟粒子的碰撞网格。",
+    "exercise_en": "Use AR Foundation Meshing on a LiDAR iPhone to generate a live room mesh, then scatter thousands of virtual particles and let them bounce and pile up on the real table and sofa. Twist: replace the particles with something that 'grows' (moss, vines) and spreads along the mesh."
+  },
+  "kimchi-and-chips--lit-tree": {
+    "description_zh": "一棵小盆栽树被扫描并投影，树叶因此成为三维像素；观众的手在底座上方被扫描，化作一团光出现在树冠之中。",
+    "idea_en": "Use the leaves of a real tree as 3D pixels, so a visitor's hand gesture lights up inside the tree.",
+    "technique_zh": "利用投影仪和 Kinect 做结构光扫描，把每个投影像素对应到树叶上的一个三维点，从而把树变成一个稀疏的体积显示器，点亮位于扫描所得手部体积之内的体素。",
+    "exercise_en": "Aim a projector at a potted plant, scan line by line in TouchDesigner to record which pixels land on leaves, then light only the leaves to draw a plane of light moving up and down. Twist: use hand height from MediaPipe to control the light plane, as if stroking the tree."
+  },
+  "chris-oshea--little-magic-stories": {
+    "description_zh": "孩子们用自己画的道具和服装在小舞台上表演故事；借助 Kinect 追踪和投影，他们想象中的角色与布景在观众面前活了起来。",
+    "idea_en": "Children act on a small stage while the characters and sets they drew come alive through projection.",
+    "technique_zh": "Kinect 的骨骼与深度追踪跟随舞台上的孩子，系统识别彩色道具来触发投影角色和布景，并将其与孩子的位置绑定。",
+    "exercise_en": "Give each group a few drawn paper props, use color detection to trigger projected backgrounds and characters, use MediaPipe Pose to make characters follow the performers, and stage a 3-minute story. Twist: the loudness of the audience's applause picks the scene for the next act."
+  },
+  "yannick-jacquet--mecaniques-discursives": {
+    "description_zh": "一整面墙的木刻版画描绘了一台奇异的机器，精确的投影让它活了过来：齿轮转动，生物游走，光在印出来的机械结构中流淌。",
+    "idea_en": "Projection makes the printed machine on the wall actually turn.",
+    "technique_zh": "影像按照墙上手工木刻版画的精确轮廓绘制，并与之对位投影，让动画看起来就生长在纸面之中。",
+    "exercise_en": "Hand-draw a black-and-white 'machine' and pin it to the wall, photograph it, animate each part rotating on the computer, and project it back in alignment. Twist: the machine changes speed when the audience claps."
+  },
+  "tamiko-thiel--newtown-creek": {
+    "description_zh": "在布鲁克林 Newtown Creek 上的地理定位 AR 作品，把河底下隐藏的巨大石油泄漏可视化。",
+    "idea_en": "Bring an invisible underground oil spill up to the surface of the river.",
+    "technique_zh": "地理定位 AR 把地下油污羽流的大型半透明模型放在其真实坐标上，让隐藏的环境数据在空间中变得可见。",
+    "exercise_en": "Find a local environmental dataset (groundwater, noise, drainage network) and use AR to visualize it on the ground at its real location. Twist: scale the visualization 1:1 with the real data values to feel the size of 'invisible quantities'."
+  },
+  "theo-watson--night-bright": {
+    "description_zh": "孩子们把身体当作手电筒，照亮投影出的夜间森林，并循着声音与藏在林中的夜行动物玩捉迷藏。",
+    "idea_en": "Use your body as a flashlight to light up a night forest and follow sounds to find hidden animals.",
+    "technique_zh": "基于深度相机或普通摄像头的人体追踪在每个孩子身上定位一块光照遮罩，投影的夜景只在这些区域内显现，同时用空间音频提示隐藏生物的位置。",
+    "exercise_en": "Build an all-black projected scene, track people's hands or bodies with MediaPipe so imagery appears only where the 'body flashlight' shines, and use left/right audio channels to hint where animals are. Twist: once all the animals are found, they turn around and 'shine' on you."
+  },
+  "chris-harrison-figlab--omnitouch": {
+    "description_zh": "一套戴在肩上的深度相机和投影仪，能随时把手掌、墙面、笔记本和桌面变成多点触控表面。",
+    "idea_en": "A shoulder-mounted depth camera and projector turn your palm, a wall or a notebook into a multitouch screen on the spot.",
+    "technique_zh": "肩戴式深度相机在深度图像中寻找类似手指的圆柱体，并通过判断指尖是否距其下方表面仅几毫米来确定触摸；同时经过标定的微型投影仪把界面投射到检测到的表面上。",
+    "exercise_en": "Use a depth camera (RealSense, Kinect or a LiDAR iPhone) to detect touch from the depth difference between finger and table, and place a projected keyboard on a notebook or your palm. Twist: make the interface automatically appear on the largest available surface."
+  },
+  "john-craig-freeman--orators-rostrums": {
+    "description_zh": "受早期苏联鼓动宣传艺术启发，作品通过 AR 在公共广场上放置虚拟演讲台，任何人都可以站上去“发言”。",
+    "idea_en": "Place AR podiums in public squares that anyone can speak from.",
+    "technique_zh": "地理定位的 AR 演讲台模型被放置在公共广场上，用户可以亲身走进虚拟讲台；大概率采用 GPS 定位加指南针朝向。",
+    "exercise_en": "Place an AR podium in a campus square: stepping onto it starts a recording, and each speech stays on the podium for later visitors to hear. Twist: the podium only plays back the previous recording that took the opposite position to the current speaker."
+  },
+  "pablo-valbuena--para-site": {
+    "description_zh": "在 Mattress Factory 建筑上进行的在地视频投影，光线仿佛沿着墙角和表面缓缓爬行。",
+    "idea_en": "Light projections that live like parasites on the corners of a building.",
+    "technique_zh": "针对房间墙角和边缘做在地投影映射，借助梯形校正或网格变形，让细细的光线精确地沿建筑边缘爬行。",
+    "exercise_en": "Project thin lines of light that slowly crawl along the edges of one corner of your classroom, fitted precisely with mesh warp. Twist: make the light behave like a 'parasite' that shies away when viewers approach (detected with a camera)."
+  },
+  "theo-watson--puppet-parade": {
+    "description_zh": "孩子们借助 Kinect 骨骼追踪，用手臂操纵巨大的投影生物，其他孩子则走进画面去抚摸和喂养它们。",
+    "idea_en": "Work giant projected puppets with your arms while other kids walk into the scene to feed them.",
+    "technique_zh": "Kinect 骨骼追踪把肩-肘-腕关节链映射到投影木偶的关节上，并单独检测走进画面参与互动的其他人。",
+    "exercise_en": "Use MediaPipe Pose to map three arm joints onto a large projected marionette, and let a second person walk into the frame to feed it. Twist: two people each control half of the puppet's body and must cooperate to make it walk."
+  },
+  "kyle-mcdonald--scramble-suit": {
+    "description_zh": "灵感来自菲利普·K·迪克的《A Scanner Darkly》（《黑暗扫描仪》）：画面中的脸不断被替换成许多不同的面孔，佩戴者因此变得无法被描述。",
+    "idea_en": "A 'scramble suit' from A Scanner Darkly: your face keeps being swapped for different people.",
+    "technique_zh": "沿用 Face Substitution 中同一套 FaceTracker 网格变形与融合流程，每隔几帧就在一个大型源人脸库中切换一次，使身份始终无法稳定下来。",
+    "exercise_en": "Collect 20 front-facing photos from the class and use MediaPipe Face Mesh to give the person on camera a new face every half second, making an 'indescribable mask'. Twist: speed up the swapping as more people gather nearby, and discuss surveillance and anonymity."
+  },
+  "tamiko-thiel--shades-of-absence": {
+    "description_zh": "威尼斯双年展期间的地理定位 AR 作品，在公共广场上放置遭审查艺术家的金色剪影。",
+    "idea_en": "Place golden silhouettes of censored artists in Venice's public spaces.",
+    "technique_zh": "基于 GPS 锚定的 Layar 内容在公共广场上放置平面金色剪影广告牌，依赖粗略的地理定位和指南针朝向。",
+    "exercise_en": "Pick a theme about absence (forgotten people, demolished buildings) and use WebAR to place golden silhouettes at the matching locations. Twist: a silhouette is visible only when nobody is standing in that spot."
+  },
+  "james-alliban--traces": {
+    "description_zh": "一件使用 Kinect 相机的互动作品，把观众映照成一道道光的轨迹，让动作变成绘画。",
+    "idea_en": "A Kinect turns visitors' movements into trails of light.",
+    "technique_zh": "对 Kinect 深度图像做阈值处理得到人体剪影，再在 openFrameworks 中随时间累积其轮廓或运动，绘制出逐渐消退的光轨。",
+    "exercise_en": "Use Kinect or camera body segmentation in TouchDesigner to turn people's outlines into slowly fading light trails projected on a wall. Twist: make the trails record only the 'gap' between two people rather than their bodies."
+  },
+  "adrien-m-claire-b--xyzt": {
+    "description_zh": "一个由十件互动装置组成的展览，观众可以触摸、吹气，或从投影出的文字与粒子风景中穿行而过。",
+    "idea_en": "Touch, blow and walk to reshape landscapes made of letters and particles.",
+    "technique_zh": "地面和墙面投影利用摄像头、深度和触摸传感为 eMotion 物理系统提供输入，让画面像真实材料一样作出反应。",
+    "exercise_en": "Build a floor-projected particle pool and use an overhead camera so people walking through 'part' the particles. Twist: use a microphone to let the strength of a breath control which way the particles scatter."
+  },
+  "oliver-kreylos--kinect-3d-video": {
+    "description_zh": "Kinect 发售仅几天后，Kreylos 就展示了用 Kinect 实时捕捉、可从任意角度观看的自己的 3D 影像，这是迈向体积式远程临场的早期一步。",
+    "idea_en": "Days after the Kinect came out, he captured a person as live 3D video you could view from any angle.",
+    "technique_zh": "利用 Kinect 相机内参把深度图像反投影成三维点云，再用标定后的 RGB 图像为其着色，使捕捉结果可以从任意虚拟视角渲染。",
+    "exercise_en": "Capture a live point cloud of yourself with a LiDAR iPhone or Record3D, orbit it from any angle in three.js, and place a virtual object beside it. Twist: stylize the point cloud (voxels, wireframe or particles) and shoot a 30-second short."
+  },
+  "columbia-feiner--armonica": {
+    "description_zh": "一个协作式的声音 AR 环境：用户放置虚拟物体，让它们在实体横杆上弹跳，共同触发音符。",
+    "idea_en": "Several people place virtual objects in space and let them bounce and collide to make music.",
+    "technique_zh": "实体横杆被追踪并在物理模拟中建模为碰撞体，虚拟物体弹到上面时触发带音高的声音事件，并以空间音频的形式呈现给所有参与者。",
+    "exercise_en": "Detect a tabletop in AR, mark a few real pencils or rulers as 'keys' (placing matching virtual colliders by hand), and make virtual balls play different pitches when they bounce off them. Twist: two people each control a launch point and cooperate to play a melody."
+  },
+  "blair-macintyre--argon": {
+    "description_zh": "Argon 是第一款 AR 网页浏览器，它把基于标准的网页内容（KHARMA/KML，后来是 HTML/JavaScript）锚定在地点和图像上，让任何人都能像做网页一样创作 AR。",
+    "idea_en": "Write AR with web technology so the real world can be published and browsed like a web page.",
+    "technique_zh": "Argon 把 AR 做成一个网页平台：用 KML/KHARMA（后来是 HTML/JavaScript）编写的页面声明锚定于地理位置或图像目标的内容，浏览器则提供被追踪的相机位姿来渲染这些内容。",
+    "exercise_en": "Build an AR page made entirely with web technology using WebXR (three.js) or 8th Wall, anchor an HTML card to a plane or image, and share the link so classmates can open it directly. Twist: let classmates add content to your AR page just by editing a JSON file."
+  },
+  "tamiko-thiel--art-critic-face-matrix": {
+    "description_zh": "这是在 MoMA 举办的“不请自来”AR 展览的一部分：一组艺术评论家的面孔矩阵漂浮在展厅中，只有通过 Layar 浏览器才能看见。",
+    "idea_en": "Put a matrix of critics' faces inside MoMA without permission.",
+    "technique_zh": "Layar 的地理定位兴趣点按 GPS 坐标在博物馆内放置始终朝向观者的 2D/3D 内容，任何装了该应用的人都能看到，而无需机构许可。",
+    "exercise_en": "Use location-based AR.js or 8th Wall to place a set of unauthorized virtual faces or comments in an 'authority' space at school (the principal's door, the library). Twist: draw the faces' content from classmates' real opinions of that space."
+  },
+  "keiichi-matsuda--domestic-robocop": {
+    "description_zh": "以第一人称视角走过一间厨房，每个表面都覆盖着 AR 标签、菜谱、广告和积分奖励；影片设想了一个被“增强”的家会如何被商业化。",
+    "idea_en": "Turn every surface at home into ads and interfaces to rehearse a life drowning in information.",
+    "technique_zh": "设计虚构式的合成：手持第一人称镜头在后期中做摄像机追踪（After Effects / 3D 追踪器），把 UI 标签钉在厨房表面上；实时版本可以用 AR 平面锚点和图像锚点来近似实现。",
+    "exercise_en": "Use AR Foundation plane detection or 8th Wall to cover the tables and fridge door of a kitchen or dorm with labels, ads and points pop-ups, and shoot a 30-second first-person video. Twist: every label demands that the user 'pay' or 'watch an ad' before it can be closed."
+  },
+  "keiichi-matsuda--augmented-city-3d": {
+    "description_zh": "一部立体影片，带观众走过一座城市，城市中的 AR 图层可以被定制、分享和劫持，由此追问：增强后的城市空间由谁来设计？",
+    "idea_en": "The city becomes subscribable, customizable AR layers, so everyone sees a different city.",
+    "technique_zh": "立体 3D 影片，把经过摄像机追踪的 CG 图层合成到街景素材上；若做成实时版本，则对应于地理定位或 VPS 锚点，加上按用户区分的图层集合。",
+    "exercise_en": "Choose a campus route and build two different sets of AR layers in WebXR or Unity (say a 'commercial' version and a 'community' version), switched with a button. Twist: add a 'hijacked' layer that another classmate remotely stuffs with content in your city."
+  },
+  "adrien-m-claire-b--cinematique": {
+    "description_zh": "一位舞者和一位兼任程序员的杂耍艺人在投影出的文字、线条和粒子中表演，这些元素遵循物理规律，并对他们的动作作出实时反应。",
+    "idea_en": "Let a dancer push projected letters and lines as if they were objects with weight.",
+    "technique_zh": "Adrien Mondot 的 eMotion 软件运行基于物理的粒子与线条系统，由一位数字表演者现场操控，同时接收舞者的动作感应数据。",
+    "exercise_en": "Make text particles with gravity in p5.js or Processing, project them on a wall, and let classmates push them away with hand gestures (via camera). Twist: once scattered, the letters slowly reassemble into a new sentence."
+  },
+  "sce-london-studio--eyepet-playstation-move-edition": {
+    "description_zh": "为 PlayStation Move 手柄推出的 EyePet 升级版，手柄在宠物的 AR 世界里变成可被追踪的工具，比如吹风机、花洒或画笔。",
+    "idea_en": "The Move controller in your hand becomes an AR hairdryer or paintbrush for looking after your pet.",
+    "technique_zh": "摄像头追踪 Move 手柄上发光球的位置，IMU 提供其朝向，因此手柄可以在宠物空间中渲染为可切换的虚拟工具。",
+    "exercise_en": "Use a phone as a prop controller, map its orientation to AR tools such as a hairdryer or brush, and groom a pet. Twist: give each tool its own distinctive sound feedback."
+  },
+  "zach-lieberman--face-projection-test": {
+    "description_zh": "在移动的人脸上做实时投影映射：人脸追踪器驱动图形，直接投射到表演者的皮肤上。",
+    "idea_en": "Project graphics straight onto a moving face so the face becomes a live screen.",
+    "technique_zh": "与投影仪放在一起的摄像头上运行人脸追踪器来检测特征点，再通过（只需标定一次的）相机-投影仪单应矩阵对渲染图形做变形，使其准确落在移动的脸上。",
+    "exercise_en": "Place a projector and camera side by side, detect a face with MediaPipe Face Mesh, and use four-point calibration to project graphics onto a classmate's face (mind the brightness and eye safety). Twist: project only dynamic textures that 'run down' the face, telling a short piece about emotion."
+  },
+  "theo-watson--fat-tag-meet-projector": {
+    "description_zh": "把 iPhone 涂鸦应用 Fat Tag 直接接到口袋投影仪上，手指画出的涂鸦标签立刻就能“投影轰炸”到城市墙面上。",
+    "idea_en": "Finger graffiti on a phone goes straight onto a street wall: the simplest projection bombing.",
+    "technique_zh": "手机绘画应用中的触摸笔画被实时传送（大概率通过 OSC 或网络）到一台笔记本电脑，由它渲染并输出到对准墙面的微型投影仪。",
+    "exercise_en": "Make a phone web drawing pad, stream strokes over WebSocket to a computer connected to a projector, and project them onto a wall. Twist: allow only one kind of symbol, and have the whole class build a 'tag map' together on the same wall."
+  },
+  "hellicar-and-lewis--feedback": {
+    "description_zh": "为 Roundhouse CircusFest 制作的大型互动墙，把表演者和观众的动作变成层层叠叠的视觉反馈；后来的版本使用 Kinect 实现三维互动。",
+    "idea_en": "Feed people's movements back into themselves as layer upon layer of visual echoes.",
+    "technique_zh": "摄像头（后来改为 Kinect 深度）输入与自身之前的帧进行合成，形成由身体驱动的视频反馈拖尾。",
+    "exercise_en": "Overlay the camera image on the previous frame with a slight scale and rotation to project a 'visual echo'. Twist: use hand height to control the echo's rotation angle."
+  },
+  "golan-levin--ghost-projection-for-richard-iii": {
+    "description_zh": "为卡内基梅隆大学《理查三世》制作的舞台影像：计算机视觉追踪扮演鬼魂的演员，只在他们移动的身体上投射静电雪花噪点。",
+    "idea_en": "Project static noise only onto the 'ghost' actors on stage, turning them into phantoms.",
+    "technique_zh": "舞台摄像头（可能是红外摄像头配合背景减除）把演员的身体分割出来，得到的遮罩经过相机-投影仪标定变换后，把投影的视频噪点限制在他们的剪影之内。",
+    "exercise_en": "Use MediaPipe body segmentation and a projector to cast TV static only onto a classmate, keeping the background completely black. Twist: write a one-minute 'ghost monologue' and let the static grow and fade with the loudness of the lines."
+  },
+  "yannick-jacquet--intangible-states": {
+    "description_zh": "一场现场视听表演，Legoman 的影像被投影映射到由堆叠箱体和屏幕搭成的舞台布景上，呈现一个城市漂泊者的梦境状态。",
+    "idea_en": "Project an urban drifter's dreams onto a stage built from a pile of boxes.",
+    "technique_zh": "现场 VJ 软件通过遮罩和四角定位把影像映射到堆叠箱体的各个面上，并与现场电子音乐同步演出。",
+    "exercise_en": "Stack cardboard boxes into a stage and use free mapping software (such as MapMapper or a Resolume trial) to put different videos on each face. Twist: switch each box's image live in response to the music."
+  },
+  "novarama--invizimals-shadow-zone": {
+    "description_zh": "续作加入了更多生物、新的捕捉挑战，以及围绕玩家桌上那张被摄像头追踪的陷阱卡展开的对战。",
+    "idea_en": "The sequel adds more invisible creatures and capture challenges built around the trap card.",
+    "technique_zh": "对陷阱卡进行基于标记的追踪，以此锚定生物和战斗特效；捕捉挑战要求玩家相对于标记移动掌机。",
+    "exercise_en": "Design a capture challenge that can only be completed by moving the phone around a marker card, for example lining up with the creature from a specific angle. Twist: the capture window gets shorter the rarer the creature is."
+  },
+  "msr-benko-wilson--lightspace": {
+    "description_zh": "深度相机和投影仪让整个房间都能互动：从桌上拿起一张投影照片，托在手上走过去，再把它放到墙上。",
+    "idea_en": "Scoop a projected photo off the table, carry it in your hand, and pour it onto the wall.",
+    "technique_zh": "多台经过标定的深度相机和投影仪共享同一个房间坐标系，对点云做虚拟“深度相机”投影，用于检测手何时触碰表面或托着投影物体，从而让内容在各个表面和身体之间移动。",
+    "exercise_en": "With one projector and one depth camera (or MediaPipe palm detection), let people 'pick up' a photo projected on a table, have it follow the palm, and 'drop' it onto the wall. Twist: make the photo change while it is carried (flip over, age, or turn into sound)."
+  },
+  "mit-fluid-interfaces--luminar": {
+    "description_zh": "Natan Linder 设计的机器人台灯，它的“灯泡”是一套投影仪-摄像头：灯臂会自行移动，把互动界面投到桌面上、跟随物体并扫描文档。",
+    "idea_en": "Swap a desk lamp for a projector robot that turns its own head, so any spot on the desk can become a touch interface.",
+    "technique_zh": "一对投影仪-摄像头安装在电动多关节灯臂的头部，摄像头上的计算机视觉（配合深度感知）决定灯臂指向哪里，从而把界面投射到桌面上，并扫描下方的物体。",
+    "exercise_en": "Mount a small projector and a phone on a desk-lamp arm, use the camera to detect paper or hands on the desk, and project buttons and hints next to that object. Twist: give the lamp a 'personality', such as bowing its head when you leave or leaning in when it sees a new object (demo with servos or by posing it by hand)."
+  },
+  "zach-lieberman--night-lights": {
+    "description_zh": "YesYesNo 把五层楼高的奥克兰渡轮大楼变成了一座互动游乐场：观众的剪影、手势和手机控制着投影，并被放大到整个建筑立面上。",
+    "idea_en": "Turn a whole ferry building into a magnifier for the body, blowing up silhouettes and gestures five storeys high.",
+    "technique_zh": "摄像头分割出观众的剪影和手势（背景减除加轮廓分析），手机输入则通过网络接收，全部映射为投影映射到建筑立面上的图形。",
+    "exercise_en": "Use TouchDesigner or p5.js to enlarge people's silhouettes from a camera and project them onto classroom-building windows or a hallway wall, with a wave of the hand sending light sweeping across. Twist: add phone web control so people far away can also 'switch on the lights' on the wall."
+  },
+  "tu-graz-wagner-schmalstieg--panoramic-mapping": {
+    "description_zh": "当你转动手机时，它会构建周围环境的 360 度全景图，同时以此为参照追踪自身朝向，用于户外 AR。",
+    "idea_en": "Turn the phone around once to build a panorama map, then track direction steadily against it.",
+    "technique_zh": "在纯旋转的假设下，每一帧相机画面都与正在增量构建的柱面全景图进行配准，手机因此能一边扩展地图，一边据此估计自身的 3DOF 朝向。",
+    "exercise_en": "Use the phone gyroscope (DeviceOrientation API) to build a 'turn on the spot' panoramic AR web page: place virtual labels in all 360 degrees and calibrate north against the real scene. Twist: hide a single easter egg in one direction and lead the user to turn around and find it."
+  },
+  "theo-watson--rise-and-fall": {
+    "description_zh": "为 Boards 杂志设计的正反两面互动封面：把印刷封面举到网络摄像头前旋转，就能操控叠加其上的故事世界。",
+    "idea_en": "Rotate a magazine cover in front of a webcam and the world on it unfolds a story.",
+    "technique_zh": "对印刷封面上的基准标记进行追踪，通过网络摄像头估计其 6DoF 位姿，封面的旋转角度驱动叠加其上的三维世界中的重力与场景状态。",
+    "exercise_en": "Use 8th Wall or AR Foundation image tracking to recognize a poster you designed, let the poster's tilt decide which way a virtual figure slides, and give the front and back each their own world. Twist: flipping the poster makes the stories of the two worlds affect each other."
+  },
+  "rafael-lozano-hemmer--sandbox": {
+    "description_zh": "在圣莫尼卡海滩上，两个小沙盒里出现海滩游客的微缩投影；当参与者把手伸进沙盒，摄像头会把他们的手实时传给巨型投影仪，投满 8000 平方米的海滩。",
+    "idea_en": "The hand you reach into a small sandbox is projected as a giant hand covering the whole beach.",
+    "technique_zh": "红外摄像头分别捕捉海滩上的人和沙盒上方的手，并以相反的尺度交叉投影各自的画面（盒子里是微小的人，海滩上是巨大的手）。",
+    "exercise_en": "Have one phone film hands on a table and another film people on the sports field, and project each feed into the other's space. Twist: let the tiny people and the giant hands 'touch' each other in the projection and trigger sounds."
+  },
+  "tonchidot--sekai-camera-for-ipad": {
+    "description_zh": "iPad 版 Sekai Camera：更大的屏幕成了一扇窗，让用户看见身边那一层“空中标签”。",
+    "idea_en": "Turn the iPad into a large window for seeing the 'air tags' floating around the city.",
+    "technique_zh": "沿用同样的地理标签叠加方式，只是换到了更大的屏幕上，把设备当作观看标签图层的手持窗口。",
+    "exercise_en": "Compare the same AR tag interface on a phone and a tablet, and adjust tag density and font size to suit the larger screen. Twist: design an interaction that only makes sense on the big screen."
+  },
+  "chris-harrison-figlab--skinput": {
+    "description_zh": "一个装有振动传感器的臂环能检测手指在前臂和手上的敲击，微型投影仪则把菜单和游戏直接投射在皮肤上。",
+    "idea_en": "Use your arm as a touchscreen: tap different spots on your skin to work a menu projected onto your body.",
+    "technique_zh": "臂环上的压电振动传感器捕捉敲击在骨骼和软组织中传播的生物声学信号，再由 SVM 根据频谱特征判断敲击位置。",
+    "exercise_en": "Strap a phone to your forearm, record accelerometer vibrations from taps at different spots on the arm, train a three-location classifier with Teachable Machine (sound or custom features), and project or display a menu on the arm. Twist: move the taps onto objects outside the body, such as a tabletop or wall."
+  },
+  "ivan-poupyrev--teslatouch": {
+    "description_zh": "一块触摸屏利用电振动在滑动的手指下产生可变摩擦力，让平面图像摸起来粗糙、凹凸不平或者发黏。",
+    "idea_en": "Make the surface of a flat screen feel textured.",
+    "technique_zh": "向绝缘电极施加经过调制的高电压，使静电吸引力在手指移动时改变皮肤所受的摩擦力。",
+    "exercise_en": "Use the phone vibration API to build a 'haptic texture' drawing board where a finger sliding over different colored areas triggers different vibration rhythms. Twist: have a partner close their eyes and guess the pattern by touch alone."
+  },
+  "mark-skwarek--leak-in-your-hometown": {
+    "description_zh": "把手机对准任意一个 BP 标志，就会有一根破裂的 AR 管道从中喷出原油，把深水地平线漏油事件带到你家门口的街道上。",
+    "idea_en": "Point at any BP logo and AR crude oil gushes out of it.",
+    "technique_zh": "junaio 中的图像（标志）标记追踪能识别任何 BP 标志，并在其上锚定一根带有石油粒子特效的破裂管道动画。",
+    "exercise_en": "Pick a brand logo you want to criticize and use MindAR or 8th Wall image tracking to make it 'leak' something that stands for its problem. Twist: let the leak grow the longer viewers point at it until it floods the whole screen."
+  },
+  "mark-skwarek--warcraft-armor": {
+    "description_zh": "一个基于标记的 AR 演示，在屏幕上给用户的身体穿上《魔兽世界》风格的盔甲。",
+    "idea_en": "Put game armor on a real person.",
+    "technique_zh": "网络摄像头追踪佩戴在身上的打印基准标记，并在每个标记的位姿处渲染相应的盔甲部件。",
+    "exercise_en": "Stick a few printed markers on your arms and chest and use MindAR to 'dress' your body in armor or clothing you designed. Twist: replace the armor with gear that stands for some everyday pressure (homework, notifications)."
+  },
+  "sander-veenhof--we-ar-in-moma": {
+    "description_zh": "一场在纽约 MoMA 内部举办的“不请自来”的 AR 展览：Manifest.AR 成员的作品被地理定位到各个展厅中，只有通过 Layar 应用才能看到。",
+    "idea_en": "Show up uninvited and stage an AR exhibition inside MoMA.",
+    "technique_zh": "通过地理定位的 Layar 图层，把虚拟作品放在 MoMA 内部的 GPS 坐标上，利用了机构无法控制基于位置的图层这一点。",
+    "exercise_en": "Stage an 'uninvited' WebAR exhibition in a formal gallery at your school, with each person placing one work and spreading it via QR codes. Twist: every work must respond to a real piece on display in that gallery."
+  },
+  "hellicar-and-lewis--white-heat": {
+    "description_zh": "一群投影出来的“光之生物”受生命游戏和 Reynolds 的 boids 算法启发，会对观众和一批艺术家书作出反应，并在展期中不断演化。",
+    "idea_en": "A swarm of rule-driven light creatures gathers, scatters and evolves around visitors and books.",
+    "technique_zh": "openFrameworks 运行 boids 群集算法和元胞自动机规则，把摄像头检测到的观众当作吸引点或障碍物。",
+    "exercise_en": "Write a boids flock in p5.js and project it onto a table, treating people detected by the camera as attractors. Twist: place a book on the table and have the flock avoid it or gather around it."
+  },
+  "otavio-good--word-lens": {
+    "description_zh": "把 iPhone 对准路牌或菜单，上面印着的西班牙语或英语文字会在原位被替换成译文，字体风格保持一致，全程离线实时运行。",
+    "idea_en": "Point at a foreign sign and the words turn into your own language on the spot, like magic.",
+    "technique_zh": "设备端 OCR 找出文字区域，用词典进行翻译，再用采样得到的背景色覆盖原文，并以匹配的字体重新绘制。",
+    "exercise_en": "Use Google ML Kit or Tesseract to recognize text in the camera view, replace it with another language or another sentence, and paste it back in place. Twist: replace every sign with its antonym."
+  },
+  "olafur-eliasson--your-uncertain-shadow-colour": {
+    "description_zh": "五盏彩色灯照在一面白墙上，每位观众都会投下一排相互重叠、随人移动的彩色影子，身体仿佛被拆分成一道光谱。",
+    "idea_en": "Five colored lamps split your shadow into a string of rainbows.",
+    "technique_zh": "并排放置的彩色 HMI 灯通过加色混合发光；挡住其中一盏灯，就会留下它的补色，因此每个影子都呈现不同的色调。",
+    "exercise_en": "Shine three phone lights in red, green and blue (or use colored cellophane) on a white wall and study the colors of the shadows. Twist: use dance moves to make the colored shadows spell out a letter."
+  },
+  "klaus-obermaier--the-concept-of-here-and-now": {
+    "description_zh": "这支舞作不仅为观众的视角编排，也为摄像机的视角编排，舞者的身体在投影画面中组合成不可能存在的形体。",
+    "idea_en": "Choreograph for both the audience and the camera so bodies merge into impossible shapes on screen.",
+    "technique_zh": "固定的现场摄像机从不寻常的角度拍摄舞台，画面以立体/合成视图的形式投影出来，只有从摄像机的视角看才会对齐。",
+    "exercise_en": "Fix a camera shooting from above or from the side, and have two or three classmates pose on site so their bodies combine into a new shape on screen. Twist: the audience may only watch the projection, not the live scene, and must guess where everyone is really standing."
+  },
+  "urbanscreen--555-kubik": {
+    "description_zh": "“假如一栋房子在做梦会是什么样”：在投影的三维动画下，汉堡当代美术馆（Galerie der Gegenwart）的立方体立面仿佛在鼓胀、折叠和消融。",
+    "idea_en": "What if a house were dreaming? Make a boxy building look like it is bending and folding.",
+    "technique_zh": "对立面的三维模型施加假深度和光照动画，再从观众的视角投影，使变形的错觉得以成立。",
+    "exercise_en": "Build a building from cardboard boxes, animate a deforming model of the same shape in Blender, and project it aligned from the viewer's position. Twist: change the viewing angle and discuss why the illusion disappears."
+  },
+  "takashi-yoshinaga--ar-tele-echography": {
+    "description_zh": "远程医生借助 AR 叠加信息，实时指导本地操作者移动超声探头，显示应该往哪里、以何种方式移动。",
+    "idea_en": "A remote doctor uses AR overlays to guide a local helper in handling an ultrasound probe.",
+    "technique_zh": "用 OpenCV 追踪探头和患者身上的基准标记，远程医生设定的目标探头位姿被实时传输过来，并渲染为叠加画面来引导本地操作者。",
+    "exercise_en": "With two phones, have one person drag a virtual arrow on a remote screen while the other's AR view shows the arrow in sync, guiding them to move a real object on the table. Twist: use it to teach someone remotely how to fold a paper crane."
+  },
+  "columbia-feiner--armar": {
+    "description_zh": "Steve Henderson 和 Steven Feiner 在装甲运兵车的炮塔内，通过头戴式 AR 显示的箭头、标签和工具动画来指导机械师作业，加快了定位任务位置的速度。",
+    "idea_en": "Inside an armored vehicle turret, head-worn AR arrows point straight at the next bolt to turn.",
+    "technique_zh": "采用光学追踪的头戴式显示器渲染与车辆内部配准的箭头、标签和工具动画模型，把注意力引向下一个任务位置，并在原位演示操作步骤。",
+    "exercise_en": "In phone AR, use an image target to locate a printer or bicycle and build arrow, label and animated-wrench guidance for a five-step repair procedure. Twist: when the target part is out of view, show a direction hint at the edge of the screen."
+  },
+  "blair-macintyre--arhrrrr": {
+    "description_zh": "一款在桌面城市地图上进行的僵尸射击游戏：玩家在移动设备上以直升机视角射杀僵尸，还可以把真实的彩虹糖扔到地图上当作炸弹。",
+    "idea_en": "Shoot zombies on a tabletop city map, where each real Skittle you drop is a bomb.",
+    "technique_zh": "在 GPU 加速的手持设备上，对打印的城市地图做自然特征追踪以获得相机位姿；放在地图上的彩色色块（彩虹糖）通过颜色分割被检测出来，并转换为会爆炸的游戏物体。",
+    "exercise_en": "Use a printed map as an image target to make an AR shooting or tower-defense game, and use color detection to recognize real colored candies or blocks that players put on the map as bombs or obstacles. Twist: let the color of a real object decide its role in the game."
+  },
+  "joanie-lemercier--antivj-songdo": {
+    "description_zh": "在韩国新松岛城建筑上进行的一场视听投影表演。",
+    "idea_en": "An audiovisual projection on the buildings of New Songdo City in South Korea.",
+    "technique_zh": "建筑投影映射，内容依据建筑的实测几何结构制作，并与现场音频表演同步。",
+    "exercise_en": "Build a 'future city' model from blocks or cardboard boxes and project an audiovisual animation of the city growing from empty ground to completion. Twist: at the end of the animation, let nature slowly 'take back' the city."
+  },
+  "blair-macintyre--art-of-defense": {
+    "description_zh": "一款在实体棋盘上用可触摸板块进行的协作式 AR 塔防游戏，在 SIGGRAPH 2009 上展出。",
+    "idea_en": "Build the map from physical tiles and play AR tower defense together.",
+    "technique_zh": "可触摸的板块上带有基准标记，由手持摄像头追踪；每块板的位置和旋转决定了炮塔的摆放和瞄准方向，共享的塔防游戏则渲染在棋盘之上。",
+    "exercise_en": "Use several cards with ArUco markers as 'towers': phone AR recognizes each card's position and shows a tower on it while enemies attack along a virtual path. Twist: each card's rotation sets its tower's facing, and two players must split up the placement."
+  },
+  "james-alliban--ar-business-card": {
+    "description_zh": "把他的印刷名片举到网络摄像头前，艺术家本人的 3D 视频就会从名片上弹出来做自我介绍。",
+    "idea_en": "Hold up a business card and a talking 3D version of its owner pops out.",
+    "technique_zh": "在 Flash 网络摄像头应用中，用 FLARToolKit 追踪名片上印的方形基准标记，再用 Papervision3D 在标记位姿处渲染艺术家的视频平面。",
+    "exercise_en": "Design your own business card and use MindAR to make a keyed self-introduction video pop out of it. Twist: have the video of you react to how the viewer holds the card (tilt it and you 'fall over')."
+  },
+  "columbia-feiner--ar-marble-game": {
+    "description_zh": "倾斜一块实体板，就能操控虚拟弹珠在 AR 迷宫中滚动，玩家通过头戴式显示器观看。",
+    "idea_en": "Tilt a real board in your hands to steer virtual marbles through an AR maze.",
+    "technique_zh": "根据标记位姿计算被追踪板子相对于重力的朝向，再把这个倾角作为重力向量输入物理引擎，让虚拟弹珠在与板子配准的迷宫中滚动。",
+    "exercise_en": "In AR, use a printed maze as an image target, read its tilt relative to the table, and drive the Unity physics engine to roll a virtual marble. Twist: have two people hold the same board and clear the level together."
+  },
+  "james-alliban--augmented-ribbons": {
+    "description_zh": "基于标记追踪的 AR：流动的 3D 丝带从印刷标记中涌出，随标记移动，并对音乐作出反应。",
+    "idea_en": "AR ribbons pour out of a marker and sway to music.",
+    "technique_zh": "被追踪的基准标记发射程序化生成的丝带几何体，丝带上的点沿标记最近的位置拖尾，其振幅由音频分析驱动。",
+    "exercise_en": "Use MindAR or AR.js to make an image marker trail a 3D ribbon that records its path, with microphone volume controlling the ribbon's width. Twist: replace the ribbon with a 'text band' made of words from your recent chats."
+  },
+  "karolina-sobecka--chase": {
+    "description_zh": "一件从行驶的汽车上进行的互动移动投影作品，车辆前行时，投影出的角色沿着街道一路追逐。",
+    "idea_en": "Projected characters chase a moving car along the street.",
+    "technique_zh": "大概率与 Wildlife 使用同一套车载投影装置，由车辆运动数据驱动动画播放。",
+    "exercise_en": "Project from a phone projector or a small projector while walking, keeping the character's speed in sync with your walking pace. Twist: let viewers use their phones to make the character jump over obstacles on the wall."
+  },
+  "chris-sugrue--decrypted-reflections": {
+    "description_zh": "观众移动一组模拟的镜子阵列，把投影出的生成图像打散、重新排列，让图像碎片散落在整个房间里。",
+    "idea_en": "Move a set of mirrors to break a projected generative image apart and bounce it all over the room.",
+    "technique_zh": "投射出的生成图像打在一组可手动调节的镜子上，转动镜子就能以模拟、非计算的方式把投影碎片重新引向房间各处。",
+    "exercise_en": "Project onto a row of small rotatable mirrors (or phone screens, mirror paper) so fragments bounce around the room, and let everyone turn the mirrors to reassemble the image. Twist: design a secret message that can only be read when every fragment lands on the same wall."
+  },
+  "romain-tardy--desherence": {
+    "description_zh": "在昂吉安莱班（Enghien-les-Bains）的一件视听装置，投影映射让建筑立面仿佛开裂、剥落并重新拼合，并与 Squeaky Lobster 的音乐同步。",
+    "idea_en": "Make a building facade peel, crumble and reassemble in projection.",
+    "technique_zh": "先测量立面几何并建模，再针对该模型渲染动画，并从标定好的位置投影，使光线与每一条建筑边缘对齐。",
+    "exercise_en": "Photograph a classroom wall with a door and windows head-on, animate a 'peeling' effect along their outlines in After Effects or a web page, and align it with a projector. Twist: let the drum beats of a piece of music trigger the order of the peeling."
+  },
+  "sce-london-studio--eyepet": {
+    "description_zh": "通过 PlayStation Eye，一只像小猴子的虚拟宠物出现在客厅地板上；玩家可以用手抚摸、喂食和给它洗澡，还能在纸上画玩具，让它把画变成真的。",
+    "idea_en": "An AR pet that reacts to your hand gestures and turns what you draw on paper into toys.",
+    "technique_zh": "固定摄像头借助一张标记卡定位地面，并用帧差法做运动检测，玩家的手在宠物附近移动就被视为触摸。",
+    "exercise_en": "Use a webcam and frame differencing to detect hand movement in one region of the image, and make an on-screen virtual pet react when it is 'stroked'. Twist: draw a circle on paper and have the pet play with it as a ball."
+  },
+  "theo-watson--filmmuseum-augmented-sand-sculpture": {
+    "description_zh": "一件增强投影作品：通过投影映射，分阶段为一座五米高的沙雕“揭幕”，沙雕表现的是阿姆斯特丹未来的电影博物馆大楼。",
+    "idea_en": "Use projection to unveil the future film museum on a sand sculpture step by step.",
+    "technique_zh": "投影映射借助三维模型或手动变形的遮罩，把投影输出与实体雕塑对齐，再逐区域揭示纹理和动画。",
+    "exercise_en": "Make a small building from clay or cardboard, use masks in TouchDesigner or MadMapper to align the projection with each face, and 'unveil' it in stages. Twist: have the projection tell the building's whole life, from construction to ruin."
+  },
+  "chris-oshea--hand-from-above": {
+    "description_zh": "在利物浦等地的 BBC 户外大屏上，一只巨手伸进广场的实时摄像画面，给毫无防备的路人挠痒、把他们拉长、弹飞，甚至直接“拎走”。",
+    "idea_en": "A giant hand reaches into the live feed on a square's big screen to tickle, stretch and even lift away passers-by.",
+    "technique_zh": "背景减除和色块追踪在广场的实时画面中找出行人，预先制作好的巨手动画被合成进来瞄准选中的某个人，对其像素进行变形或移除。",
+    "exercise_en": "Use MediaPipe to detect people in a CCTV-style view and have an animated giant hand reach down from the top of the frame to 'poke' one of them, stretching or squashing them. Twist: the hand only picks people looking down at their phones, making a small prank about attention."
+  },
+  "novarama--invizimals": {
+    "description_zh": "一款外接夹式摄像头的 PSP 游戏：玩家扫描周围环境来探测隐形生物，再把它们困在一张印刷标记卡上，在桌面上展开对战。",
+    "idea_en": "Use a handheld's camera to 'catch' invisible monsters at home and battle them on a card.",
+    "technique_zh": "印刷的基准卡为桌面渲染提供相机位姿，捕捉环节则通过颜色检测（把摄像头对准特定色调）来生成生物。",
+    "exercise_en": "Use camera color detection to 'discover' hidden creatures: a hint appears when you point at an object of a certain color, and then you summon it onto an image-marker card. Twist: different colors map to creatures with different attributes."
+  },
+  "theo-watson--knee-deep": {
+    "description_zh": "孩子们用脚踏进不同尺度的投影世界，从不可能的视角看见自己被合成进海洋、城市和星球之中。",
+    "idea_en": "Step into worlds of different scales and see yourself standing in oceans, cities and even planets.",
+    "technique_zh": "利用色键抠像或背景减除，从俯拍摄像头画面中分离出孩子的脚和腿，再以不同的比例合成进预渲染或实时的三维世界里。",
+    "exercise_en": "Use MediaPipe body segmentation to cut out a classmate, scale them and composite them into a city aerial photo or a microscope image, then project it on the floor so everyone can 'step into' the picture. Twist: switch scale with every step, from an ant's view to a planet's."
+  },
+  "layar--layar-reality-browser": {
+    "description_zh": "第一款手机 AR 浏览器：在 Android 手机上，相机画面中会显示附近待售房屋、餐厅、ATM 等地理定位图层，任何人都可以通过开放 API 发布这些图层。",
+    "idea_en": "The world's first phone AR browser, stacking layers of location data on the camera view.",
+    "technique_zh": "通过 API 获取第三方图层中的兴趣点，并利用 GPS、指南针和加速度计计算方位与仰角，以相机叠加标记的形式渲染出来。",
+    "exercise_en": "Fetch nearby cafes from an open data API (such as OpenStreetMap) and show them by direction in the camera view using GPS and compass. Twist: show only places you have never been."
+  },
+  "autodesk-research--penlight": {
+    "description_zh": "一支内置微型投影仪的数码笔，能把建筑平面图图层等数字内容直接叠加到你正在书写的纸上。",
+    "idea_en": "A pen with its own projector casts digital layers onto the paper while you write.",
+    "technique_zh": "在点阵纸上追踪笔的位置，并在笔尖周围投射经过空间配准的叠加内容。",
+    "exercise_en": "Aim a phone projector at a printed floor plan and project a 'hidden plumbing/wiring layer' from above for students to trace with a pen. Twist: replace the projector with phone AR and compare the handheld and projected experiences."
+  },
+  "tonchidot--sekai-camera-science-museum-navigation": {
+    "description_zh": "在科学馆里把 Sekai Camera 的空中标签用作导览，通过相机画面为参观者指向各个展品。",
+    "idea_en": "Guide visitors through a science museum with air tags.",
+    "technique_zh": "根据设备的位置和朝向，把指向展品的位置标签叠加在相机画面上，实现室内导航。",
+    "exercise_en": "Place a few QR codes or image markers around a teaching building so that scanning one shows an AR arrow pointing to the next spot. Twist: the arrow's style is decided by the previous visitor's rating."
+  },
+  "columbia-feiner--shake-menus": {
+    "description_zh": "摇一摇可触摸的 AR 标记，一个环形菜单就会在它周围弹出；菜单锚定在你手中的物体上。",
+    "idea_en": "Shake the object in your hand and a menu pops up around it.",
+    "technique_zh": "分析被追踪标记的位姿历史，寻找快速来回的运动；一旦检测到摇晃，就在标记的坐标系中生成环形菜单，使其随物体一起移动。",
+    "exercise_en": "Detect a 'shake' with an image-tracked card or the phone accelerometer, pop up a ring-shaped AR menu around the card, and tilt the card to pick an option. Twist: swap in other physical gestures (flip, tap) and compare which feels most natural."
+  },
+  "mit-fluid-interfaces--sixthsense": {
+    "description_zh": "一个挂在胸前的装置，内含口袋投影仪、镜子和摄像头，能把界面投射到墙面、纸张和手上；系统追踪指尖的彩色指套，你可以用手指框出画面拍照、在手掌上拨号，或看到投射在报纸上的实时数据。",
+    "idea_en": "Hang a projector and camera on your chest so the whole world, even your own palm, becomes a gesture-driven screen.",
+    "technique_zh": "网络摄像头通过颜色阈值和色块追踪来跟踪彩色指套，经镜子折射的微型投影仪把 UI 渲染到佩戴者面前的任何表面上；摄像头与投影仪大致共轴，因此手势可以对应到投影内容上。",
+    "exercise_en": "Use a phone's front camera with MediaPipe Hands (or colored tape on your fingertips for color tracking) to recognize three gestures such as a two-hand 'viewfinder frame', and use a small projector to cast the matching interface onto the desk or your palm. Twist: keep only one gesture feature you would really use every day, and argue why it deserves to be 'worn on the body'."
+  },
+  "karolina-sobecka--sniff": {
+    "description_zh": "临街橱窗里一只投影出来的狗会跟着路人走，把他们的手势解读为友好或挑衅，并试着让他们陪自己玩。",
+    "idea_en": "A virtual dog in a shop window follows passers-by and judges whether you are friendly or mean to it.",
+    "technique_zh": "用 openFrameworks 通过摄像头追踪橱窗外的行人，把位置和手势速度传给一只用 Unity 制作动画、带有简单行为状态的狗。",
+    "exercise_en": "Use a camera to detect a person's position and waving speed, and drive an on-screen virtual pet to turn its head, approach or shy away. Twist: give the pet 'memory' so it reacts differently when the same person comes back."
+  },
+  "tu-graz-wagner-schmalstieg--studierstube-es": {
+    "description_zh": "格拉茨工业大学手持 AR 框架的技术演示，在 2009 年前后的手机上运行多人 AR 游戏、虚拟角色，以及标记追踪和自然特征追踪。",
+    "idea_en": "Multiplayer AR games and virtual characters already running on phones in 2009.",
+    "technique_zh": "一个轻量级的定点运算追踪库，在 2009 年前后的移动 CPU 上根据方形基准标记或自然特征实时估计手机的 6DOF 位姿；场景图渲染器在相机画面上绘制角色，并通过网络支持多人游戏。",
+    "exercise_en": "Use marker tracking in AR.js or 8th Wall to place an animated character on a printed card, and let two phones see the same character state in sync through a web page. Twist: cap the frame rate at 15fps and halve the resolution to feel the constraints of 2009, then simplify the design to match."
+  },
+  "theo-watson--terrarium": {
+    "description_zh": "一个由观众声音驱动的声音生态系统：声音从通风口进入，被生物消化，它们在投影世界中生长并维持生命。",
+    "idea_en": "Talk to the installation and your voice becomes food that keeps a virtual ecosystem alive.",
+    "technique_zh": "麦克风把振幅和音高特征输入一个基于智能体的模拟系统，进入的声音变成食物粒子，生物根据吃到的东西生长。",
+    "exercise_en": "Use p5.sound to turn sounds into 'food' particles that drop into a projected world, where simple creatures grow when they eat and starve when they do not. Twist: different pitches are different foods, and everyone uses their voices to 'feed' one shared species."
+  },
+  "zach-lieberman--the-eyewriter": {
+    "description_zh": "一套低成本眼动仪，让瘫痪的涂鸦艺术家 TEMPT1 能用眼睛画涂鸦标签，这些作品被实时投影到洛杉矶各处的建筑上。",
+    "idea_en": "Graffiti drawn with the eyes: a paralyzed graffiti artist paints by eye tracking, and his work is projected live onto city buildings.",
+    "technique_zh": "眼镜上带红外照明的摄像头追踪暗瞳孔和角膜反光点，通过标定网格把瞳孔-反光点向量映射为屏幕坐标用于绘画，并以注视停留时间作为点击。",
+    "exercise_en": "Use WebGazer.js or MediaPipe iris landmarks to build a web page for drawing with your eyes only, using a one-second gaze dwell to put the pen down or lift it, then project the result on a wall. Twist: forbid one classmate from using their hands and have them sign their name with their eyes."
+  },
+  "mit-fluid-interfaces--wuw-demo": {
+    "description_zh": "Pranav Mistry 亲自制作的可穿戴手势界面演示片：在空中画画、手腕上投影出手表、增强的登机牌和书籍。",
+    "idea_en": "Draw a circle with your finger to see the time, pick up a book to see its rating: information appears on objects as you gesture.",
+    "technique_zh": "胸前的网络摄像头通过彩色标记追踪指尖，驱动一套手势词汇（空中绘画、轻点手腕看表），同时微型投影仪把响应内容原位投射到身体或印刷品上。",
+    "exercise_en": "Use MediaPipe Hands to build 'air drawing' in a web page: pinch your index finger to start drawing, open your hand to stop, and project the stroke on a wall or overlay it on the camera view. Twist: give the stroke a physical property (it falls, fades or gets blown away by the wind)."
+  },
+  "james-alliban--wallpaper-ar-issue": {
+    "description_zh": "为 Wallpaper* 杂志 AR 特刊制作的一组网络摄像头 AR 作品，让印刷页面上长出会动的 3D 艺术作品。",
+    "idea_en": "Make the pages of a design magazine grow 3D artworks in front of a webcam.",
+    "technique_zh": "印刷的杂志页面作为基准标记或自然特征标记，由 Flash 网络摄像头应用识别，并在每一页上渲染带动画的 3D 作品。",
+    "exercise_en": "Make one AR page for a magazine you like, using image tracking to grow one element of the layout into a 3D piece. Twist: a 'spread' piece that only appears when two pages sit side by side."
+  },
+  "random-international--you-fade-to-light": {
+    "description_zh": "一面由 OLED 面板组成的墙把观众的镜像转化为发光的光影，随着观众移动，光影会停留片刻再慢慢褪去。",
+    "idea_en": "Turn your mirror image into light that slowly fades away.",
+    "technique_zh": "摄像头画面被降采样到 OLED 网格的分辨率，每块面板的亮度跟随对应像素变化，并带有缓慢的衰减，从而形成光的“残影”。",
+    "exercise_en": "Make a low-resolution pixel mirror from the camera image and add afterglow decay to each pixel. Twist: build a physical version with LED strips or paper lanterns."
+  },
+  "chris-sugrue--a-cable-plays": {
+    "description_zh": "与 Damian Stewart 合作：两位表演者在一块游戏棋盘上钉拉毛线，而棋盘的增强视频中，线与线之间会浮现出生成式的生物。",
+    "idea_en": "Two people stretch yarn across a game board, and new life grows between the strings in the augmented image.",
+    "technique_zh": "棋盘上方的摄像头检测毛线（可能通过颜色阈值和霍夫直线检测），由此得到的多边形区域在增强视频中生成生成式生物。",
+    "exercise_en": "Film a pegboard from above while two people take turns stretching colored yarn, use p5.js to detect the areas enclosed by the strings, and spawn small creatures inside them. Twist: turn it into a two-player game where whoever's creatures eat the other's wins."
+  },
+  "blair-macintyre--arf": {
+    "description_zh": "运行在初代 iPhone 上的 AR 虚拟宠物狗，它住在一张标记上，玩家可以通过触摸和它玩耍。",
+    "idea_en": "Raise an AR virtual dog on the very first iPhone.",
+    "technique_zh": "iPhone 摄像头追踪基准标记，以此锚定一只带动画的 3D 小狗；屏幕上的触摸输入通过射线投射落到小狗身上，触发抚摸和玩耍行为。",
+    "exercise_en": "Use AR Foundation or 8th Wall to put a virtual pet on a table, with two interactions (tap to pet, drag to feed) and three emotional states. Twist: have the pet react to your real surroundings (sleeping when it is dark, looking up when it hears a sound)."
+  },
+  "joanie-lemercier--antivj-grote-kerk": {
+    "description_zh": "在布雷达大教堂（Grote Kerk）内部进行的一场现场视听投影表演。",
+    "idea_en": "A live projection performance inside a cathedral.",
+    "technique_zh": "室内投影映射，多台投影仪经变形校正后投射到拱顶和立柱上，现场演出并与音频同步。",
+    "exercise_en": "Choose an indoor space with vaults or columns (a stairwell, a corridor) and perform a projection live with a piece of sound, emphasizing the height of the space. Twist: use light of only one color for the whole piece so the structure itself becomes the star."
+  },
+  "random-international--audience": {
+    "description_zh": "一片与人头差不多大小的小镜子静静待着，直到有观众走进来；这时它们会一齐转向、跟随并“注视”这个人，让观众在四面八方看见自己的倒影。",
+    "idea_en": "A crowd of mirrors turns its heads in unison to stare at you like an audience.",
+    "technique_zh": "摄像头追踪被选中观众的位置，每面电动镜子据此计算朝向对方所需的水平和俯仰角度。",
+    "exercise_en": "Build three to five 'eyes' from servos and small mirrors, and use the face position from a camera to turn them. Twist: when two people are present, the mirrors 'split into two camps', each watching one person."
+  },
+  "pablo-valbuena--augmented-space-hague": {
+    "description_zh": "在海牙市政厅上进行的建筑投影，沿着建筑自身的结构线描绘并让它们动起来。",
+    "idea_en": "Project along a building's own structural lines to bring a city hall facade to life.",
+    "technique_zh": "基于实测立面模型的建筑投影映射：内容沿着建筑自身的结构线制作，让动画描摹、拆分并重绘真实的几何形体。",
+    "exercise_en": "Photograph a classroom wall or door frame head-on, trace all its structural lines, and in the projection make the lines light up one by one, shift out of place and return. Twist: move only one line and keep everything else still, to see how much perception a minimal change can shift."
+  },
+  "chris-sugrue--base-8": {
+    "description_zh": "玻璃中的反射让一个世界悬浮在半空中；当观众把手伸进去，几何结构会在他们的指缝之间、从他们的手中生长出来。",
+    "idea_en": "Reach into a world floating in a glass reflection, and geometry grows out from between your fingers.",
+    "technique_zh": "采用佩珀尔幻象（Pepper's ghost）装置，用斜放的玻璃反射屏幕，让图形悬浮在真实空间中；同时摄像头追踪玻璃后面的手部位置，在手指之间生成几何结构。",
+    "exercise_en": "Build a small Pepper's ghost box from a phone and a sheet of clear acrylic angled at 45 degrees, then use MediaPipe Hands to grow geometry between your fingers. Twist: the structures only connect when two hands (possibly from two people) come close."
+  },
+  "memo-akten--body-paint": {
+    "description_zh": "观众在一整面墙大小的投影前舞动，他们的动作实时泼洒、涂抹出流动的颜料，身体就此成为画笔。",
+    "idea_en": "Your body is the brush: dance in front of a projected wall and paint splashes and flows with your moves.",
+    "technique_zh": "摄像头的光流提供速度向量，把颜料和力注入 GPU 上的二维流体模拟（ofxMSAFluid），并以整面墙的尺度投影出来。",
+    "exercise_en": "Use optical flow in TouchDesigner or p5.js to turn body movement into forces that inject paint into a fluid, and project it on a wall as a canvas. Twist: the color each person wears decides their paint color, and the class finishes with one group 'body painting'."
+  },
+  "blair-macintyre--bragfish": {
+    "description_zh": "一款围绕共享实体池塘棋盘进行的竞技类手持 AR 钓鱼游戏，探索多部手机在同一现场时的社交游戏方式。",
+    "idea_en": "A multiplayer handheld AR game where players compete at fishing around a physical 'pond'.",
+    "technique_zh": "每台手持设备都通过标记追踪同一张打印的池塘棋盘，渲染与之配准的鱼和鱼饵；联网的游戏状态让玩家们在同一块实体棋盘周围同场竞技。",
+    "exercise_en": "Use a printed pond picture as a shared image target and make a two- or three-player phone AR fishing game where each person sees only their own rod plus the shared fish. Twist: add a 'steal a fish' move that only works when you are physically close to an opponent."
+  },
+  "tu-graz-wagner-schmalstieg--cows-vs-aliens": {
+    "description_zh": "一款多人手持 AR 桌游，玩家需要绕着桌面地图走动，身体移动和社交互动成为核心玩法。",
+    "idea_en": "A multiplayer AR board game played by walking around a table, where moving yourself is the gameplay.",
+    "technique_zh": "每台手持设备都借助基准标记追踪共享的桌面地图，因此所有玩家看到的是同一个经过配准的游戏世界；玩家必须实际绕着桌子走动才能到达不同区域。",
+    "exercise_en": "Use a printed A3 map as an image target and build a two-player phone AR board game where some targets can only be seen and tapped from the other side of the table. Twist: make the two players' views block each other, forcing them to move their bodies and talk."
+  },
+  "camille-utterback--drawing-from-life": {
+    "description_zh": "博物馆观众会看到一幅真人大小的自己的投影，整个人像完全由 A、C、G、T 这四个字母组成，也就是 DNA 的四种碱基。",
+    "idea_en": "Write your live mirror image as a portrait made from the four letters of DNA.",
+    "technique_zh": "对实时视频按网格采样，每个单元格渲染为四个字母之一，字母的大小或亮度随对应像素值变化（类似 ASCII 字符画）。",
+    "exercise_en": "Use p5.js to turn the camera image into an ASCII-character portrait using only the letters A, C, G and T. Twist: switch to a word related to your theme and make the letters jitter with the volume of sound."
+  },
+  "scott-snibbe--falling-girl": {
+    "description_zh": "一件沉浸式叙事投影：一个女孩缓缓坠落，经过摩天大楼的一扇扇窗户；摄像头把现场观众放进她经过的公寓里，而她在坠落中逐渐老去。",
+    "idea_en": "Visitors are placed live into a building's windows and become the people a falling girl meets over her life.",
+    "technique_zh": "房间内的摄像头拍摄观众，把他们的实时影像合成到一栋预制动画大楼的窗户区域中，同时画面中央播放预先设定好的女孩坠落动画。",
+    "exercise_en": "Draw a building with many windows, key classmates out of the camera feed live and place them in the windows, then have a character pass from top to bottom. Twist: the character makes a reaction gesture toward whoever's window it passes."
+  },
+  "miguel-chevalier--fractal-flowers": {
+    "description_zh": "一座由生成式分形花朵组成的虚拟花园在投影中生长、绽放和凋零，当观众在它面前移动时，花朵会弯曲并作出反应。",
+    "idea_en": "A fractal garden that bends and blooms as you come close.",
+    "technique_zh": "实时运行类似 L 系统的生成式植物生长算法，摄像头追踪观众的位置，让附近的花朵弯曲或开放。",
+    "exercise_en": "Write a recursive fractal flower in p5.js and make the flowers bend toward a person when the camera detects them approaching. Twist: the color of each visitor's clothing becomes the color of the new flowers."
+  },
+  "theo-watson--generative-graffiti": {
+    "description_zh": "与 Graffiti Research Lab 合作：粒子从纽约 Maritime Hotel 亮着灯的窗户里诞生，彼此吸引、被暗着的窗户排斥，再被投影回这栋建筑上。",
+    "idea_en": "Particle graffiti grows out of a hotel's lit windows and is projected back onto the facade.",
+    "technique_zh": "对立面的摄像头画面做阈值处理找出亮着的窗户，把它们作为粒子发射源和吸引点，暗窗则作为排斥点，最后通过相机-投影仪配准投回建筑上。",
+    "exercise_en": "Take a night photo of a teaching building, use the lit windows as particle sources and the dark ones as repellers, and project the animation back onto the same wall or a model. Twist: the particles stand for the 'late-night energy' of the people inside, and they migrate when a window goes dark."
+  },
+  "daniel-rozin--mirrors-mirror": {
+    "description_zh": "768 块抛光的小钢镜各自倾斜，分别反射房间里较亮或较暗的部分，用空间本身的反射拼出观众的影像。",
+    "idea_en": "Countless small mirrors reflect the room's light and dark to piece together your image.",
+    "technique_zh": "摄像头画面控制电机，把每块钢片对准周围房间里较亮或较暗的区域。",
+    "exercise_en": "Mount a few small mirror pieces on servos and make them reflect bright light from a window or a dark wall into the viewer's eyes to form a pattern. Twist: use a laser pointer to check each mirror's reflection direction."
+  },
+  "tu-graz-wagner-schmalstieg--nft-mobile-phone": {
+    "description_zh": "首次在手机上实现对普通印刷图像的实时 6DOF 追踪，采用改进的 SIFT 和 Ferns 算法，让 AR 内容可以附着在任何海报或书本上。",
+    "idea_en": "The first live tracking of ordinary pictures on a phone, turning any poster into an AR stage.",
+    "technique_zh": "在相机画面中检测关键点，用简化的 SIFT 描述子和 Ferns 分类器与预先训练好的目标图像数据库进行匹配，得到的对应关系给出稳健的 6DOF 位姿，再通过帧间图像块追踪加以精化。",
+    "exercise_en": "Implement ORB feature matching plus homography estimation with OpenCV (Python or OpenCV.js) to paste an image onto a poster in the phone camera view. Twist: test which poster patterns are hardest to track, and design a 'tracking-friendly' poster."
+  },
+  "mit-fluid-interfaces--quickies": {
+    "description_zh": "借助数码笔和 RFID 采集手写的纸质便利贴，使它们可以被搜索、能提醒你，还能被电脑重新找到。",
+    "idea_en": "Give the humblest paper sticky note a digital memory so it can be searched and can remind you on its own.",
+    "technique_zh": "数码笔（Anoto 式点阵纸）记录每张便利贴上的笔迹，便利贴中的 RFID 标签则用来识别它，再通过手写识别把纸质便利贴变成可搜索、可定位的记录。",
+    "exercise_en": "Photograph handwritten sticky notes with a phone, run OCR (such as Tesseract.js or the system's text recognition) to save them as a searchable list, and give each note a QR code or NFC tag that jumps to its digital record when scanned. Twist: have a sticky note 'remind' you on its own at a certain time or place."
+  },
+  "tonchidot--sekai-camera-techcrunch50-demo": {
+    "description_zh": "Sekai Camera 在 TechCrunch50 上的演示：把 iPhone 对准街道或店铺，就能看到其他人留下的漂浮“空中标签”，地点上附着着文字留言、照片和语音备忘。",
+    "idea_en": "Let people leave words, photos and sounds at real places like floating bubbles.",
+    "technique_zh": "根据 GPS 位置和指南针朝向，判断哪些带地理标签的留言位于相机视野内，并按其方位把标签绘制成漂浮的标注。",
+    "exercise_en": "Use the phone's GPS and compass to build 'floating tags' in a web page that show the messages left in whichever direction you face. Twist: scale tag font size by distance so faraway messages blur."
+  },
+  "julian-oliver--the-artvertiser": {
+    "description_zh": "一副特制双筒望远镜能识别街头广告牌，并把每条广告实时替换成艺术作品，把广告空间变成展览墙面。",
+    "idea_en": "Use modified binoculars to swap street ads for artworks in real time.",
+    "technique_zh": "在 OpenCV 中用自然特征（Ferns 关键点）追踪识别已知的广告牌图像，并计算单应矩阵，把替换用的艺术作品变形贴到视频画面中的广告牌上。",
+    "exercise_en": "Use 8th Wall or MindAR image tracking to recognize a few posters on campus and replace them live with classmates' work. Twist: make the replacement a response to or parody of the original ad rather than a simple cover-up."
+  },
+  "chris-oshea--traces": {
+    "description_zh": "与 Moritz Waldemeyer 合作的一件响应式投影，受汽车尾灯摄影启发，把观众的动作变成类似长曝光的光轨。",
+    "idea_en": "People's movements leave light trails in the projection, like long-exposure car lights.",
+    "technique_zh": "背景减除在每一帧中提取移动的亮区或剪影，并累积到一个缓慢衰减的帧缓冲中，模拟长曝光光轨。",
+    "exercise_en": "Use frame accumulation with decay (feedback) in p5.js or TouchDesigner so people's movements leave long-exposure light trails, and project them. Twist: the trails record only the slowest movements, and fast ones are wiped out."
+  },
+  "jeremy-bailey--video-terraform-dance-party": {
+    "description_zh": "一场网络摄像头表演：艺术家的身体动作在屏幕上实时塑造他周围的三维地景。",
+    "idea_en": "Shape terrain on screen with dance moves.",
+    "technique_zh": "基于网络摄像头的动作追踪（可能是颜色追踪或帧差追踪）把身体位置映射为三维地形高度场的形变，地形在表演者周围实时渲染。",
+    "exercise_en": "Use MediaPipe Pose so the height of your hands pushes up or presses down a three.js terrain mesh, and 'dance out' a mountain on screen. Twist: present the dance as a deadpan product demo for 'terrain design software'."
+  },
+  "blair-macintyre--ar-facade": {
+    "description_zh": "把 AI 互动剧《Façade》用 AR 搬进一间真实的公寓：玩家在真人大小的虚拟角色 Grace 和 Trip 之间走动，并直接开口和他们说话。",
+    "idea_en": "Move the AI interactive drama Façade into a real apartment, where the player talks straight to life-size characters.",
+    "technique_zh": "带追踪的视频透视式头显在实体公寓布景中渲染真人大小的角色，同时一名隐藏的操作员把玩家的话转录下来（绿野仙踪法），输入驱动角色的 Façade 剧情管理器。",
+    "exercise_en": "Place a life-size virtual character in phone AR (a Mixamo model works), and have a classmate hidden backstage (Wizard of Oz) pick the character's animations and lines based on what the player says. Twist: let the character 'see' a real object the player picks up and comment on it."
+  },
+  "mit-tangible-media--ar-jig": {
+    "description_zh": "一个手持的针阵“夹具”，它的实体轮廓控制投影/AR 中的三维曲线，让设计师可以用一件实体工具来雕塑数字曲面。",
+    "idea_en": "Use a row of pushable physical pins as a hand tool to scrape out a digital surface directly.",
+    "technique_zh": "一个带有一排直线针的手持工具在空间中被追踪，每根针的位移都会被感测，针阵的轮廓定义控制点，从而使显示出的三维样条曲面发生形变。",
+    "exercise_en": "Use a row of sliding paper strips or straws (with the phone camera reading their heights) as a physical 'curve ruler', turn the profile into a live spline in three.js, and revolve it into a vase. Twist: drag the ruler along the table to sweep out a whole surface."
+  },
+  "camille-utterback--abundance": {
+    "description_zh": "夜晚，圣何塞市政厅上的摄像头注视着穿过广场的行人，把他们路径的响应式动画投射到建筑的圆形大厅外墙上。",
+    "idea_en": "The paths of people crossing a plaza are drawn live as a giant projection on the building.",
+    "technique_zh": "安装在屋顶的摄像头从上方追踪行人，他们的轨迹驱动一段生成式动画，投射到圆柱形立面上。",
+    "exercise_en": "Film the sports field from high up in a teaching building and draw pedestrians' paths live as colorful flow lines projected on a wall. Twist: when two paths cross, a 'flower' grows."
+  },
+  "pablo-valbuena--augmented-sculpture": {
+    "description_zh": "一件白色几何雕塑被叠加上精确映射的投影光，边缘、平面和阴影仿佛在移动、折叠，重新构建着这一实体形态。",
+    "idea_en": "Precise projection makes still white blocks warp through space and time.",
+    "technique_zh": "投影仪针对一件已知精确三维模型的白色多面体雕塑进行标定，因此每个面上渲染的光影都能模拟边缘和平面在静止形体上移动。",
+    "exercise_en": "Fold two or three geometric solids from white cardboard, align the projection face by face in MadMapper or TouchDesigner, and use only black and white lines to make the blocks look like they fold and rebuild. Twist: make one face 'go missing' by projecting the background color onto it, and see whether it disappears."
+  },
+  "scott-snibbe--central-mosaic": {
+    "description_zh": "路人的影子被记录下来并以剪影形式回放；随着新的录像占据中心，旧的剪影不断缩小、向外移动，形成一幅分形马赛克。",
+    "idea_en": "Each passer-by's shadow takes the center until newcomers push it to the edge of a fractal mosaic.",
+    "technique_zh": "剪影录像以递归的自相似方式平铺排列，每段新片段都会把旧片段向外推一层并缩小。",
+    "exercise_en": "Arrange recorded silhouette clips in a recursive quad grid, with new clips entering the center and old ones shrinking outward. Twist: color each layer by recording time to form 'growth rings of time'."
+  },
+  "chris-sugrue--delicate-boundaries": {
+    "description_zh": "光做成的小虫从电脑屏幕里爬出来，爬到触碰屏幕的人的手上和手臂上。",
+    "idea_en": "Little bugs made of light crawl out of the screen and onto the hands of whoever touches it.",
+    "technique_zh": "对着屏幕和手臂的摄像头检测手的接触和手臂轮廓，一台标定到同一空间的投影仪让基于智能体的虫子走出屏幕、沿着这些轮廓爬行。",
+    "exercise_en": "Keep a swarm of bugs on screen, and when MediaPipe Hands detects a finger touching the screen edge, have the bugs 'crawl' into imagery projected onto the arm. Twist: bugs that stay on your hand too long grow into something you did not expect."
+  },
+  "tu-graz-wagner-schmalstieg--expedition-schatzsuche": {
+    "description_zh": "维也纳一家博物馆里的手持 AR 寻宝游戏：孩子们拿着 PDA 探索展品，标记上会浮现虚拟角色和谜题。",
+    "idea_en": "Kids hunt for treasure in a museum with PDAs, and virtual characters and puzzles appear beside the exhibits.",
+    "technique_zh": "手持 PDA 追踪放在展品旁的打印基准标记，叠加虚拟角色和谜题线索，并由游戏状态机串联起整个博物馆的探险流程。",
+    "exercise_en": "Put five image markers around a campus or teaching building and use 8th Wall or AR.js to build a linked treasure hunt: each marker shows a character and a clue pointing to the next spot. Twist: the clues can only be solved using details of real exhibits or the surroundings."
+  },
+  "theo-watson--funky-forest": {
+    "description_zh": "一个互动投影森林生态系统：孩子们把身体压进森林来种树，并用实物木头和枕头“石头”改变一条数字溪流的方向来浇灌树木。",
+    "idea_en": "Kids plant trees with their bodies and use real 'logs' to redirect a projected river to water the forest.",
+    "technique_zh": "俯拍和正面摄像头分割出孩子的身体以及被追踪的实物，这些都作为发射源和障碍物，参与投影在地面和墙面上的二维流体/粒子溪流模拟。",
+    "exercise_en": "Project a flowing particle stream on the floor, use a camera to recognize cardboard boxes or books as movable barriers, and guide the water to trees at the edge of the screen. Twist: how a tree grows depends on which classmates the water it drank came from."
+  },
+  "golan-levin--ghost-pole-propagator": {
+    "description_zh": "观众的剪影被简化成骨架般的中心线“幽灵杆”，大尺度投影在墙上，像书法般的火柴人一样复现他们的姿态。",
+    "idea_en": "Distill a person's silhouette into skeleton-like lines projected on the wall.",
+    "technique_zh": "通过形态学骨架化把二值剪影细化成中心线像素，再矢量化为杆状线段，以书法笔画的形式渲染出来。",
+    "exercise_en": "Use OpenCV skeletonization or MediaPipe Pose connections to turn a person's pose into calligraphic strokes projected on a wall, keeping afterimages from the last few seconds. Twist: have the class pose one after another to assemble a 'body alphabet' of your own invention."
+  },
+  "denis-kalkofen--interactive-focus-context-ar": {
+    "description_zh": "一种魔术透镜式的 AR 视图，能揭示真实物体（例如汽车发动机）内部隐藏的部件，同时保留外部的关键边缘作为深度线索。",
+    "idea_en": "See inside an object like an X-ray lens while keeping the shell outline to help you judge depth.",
+    "technique_zh": "在焦点区域内渲染隐藏的虚拟结构，并把从视频中提取的真实世界边缘作为上下文合成进来，以保留遮挡线索。",
+    "exercise_en": "In phone AR, overlay a 3D model of the 'internal structure' on a real cardboard box, keep the box's outer outline with a stroke, and compare the sense of depth with and without the outline. Twist: make the see-through region follow your finger."
+  },
+  "golan-levin--interstitial-fragment-processor": {
+    "description_zh": "观众影子之间及影子内部的负空间被剪下，化作富有弹性的红色和蓝色物体掉落下来，碰撞时发出声音。",
+    "idea_en": "Turn the gaps between people's shadows into solid things that fall, bounce and make sounds.",
+    "technique_zh": "分析背景减除得到的剪影，找出其中被围合的孔洞（轮廓层级/连通域），这些负空间区域在二维物理引擎中成为刚体。",
+    "exercise_en": "Cut out people's shadows from a camera image, find the holes enclosed inside them (like the gap between arm and body with hands on hips), and turn those holes into colored blocks that fall, collide and make sounds. Twist: everyone must cooperate to enclose a given shape (a heart, a star) with their bodies to release it."
+  },
+  "theo-watson--l-a-s-e-r-tag": {
+    "description_zh": "Graffiti Research Lab 开发的系统，可以用绿色激光笔给建筑“涂鸦”：摄像头追踪激光点，大功率投影仪把它在立面上画成巨大的涂鸦。",
+    "idea_en": "Tag a whole building with a laser pointer: a camera tracks the dot and a projector paints giant strokes in real time.",
+    "technique_zh": "摄像头对着建筑，通过阈值找出明亮的绿色激光点，经相机-投影仪单应矩阵映射其位置，再由投影仪在该点绘制笔画。",
+    "exercise_en": "Use a camera to track the bright dot of a laser pointer or phone flashlight and, after four-point calibration, paint thick strokes on a projected wall (p5.js or TouchDesigner). Twist: the stroke changes brush with drawing speed, dripping ink when slow and spraying paint when fast."
+  },
+  "chris-oshea--out-of-bounds": {
+    "description_zh": "伦敦设计博物馆里的一支“X 光手电筒”：用手持光源照向墙面，就会投出墙后面的景象，仿佛钻透了博物馆的墙壁。",
+    "idea_en": "Shine an 'X-ray flashlight' at the wall to see the hidden space behind it.",
+    "technique_zh": "摄像头追踪手电筒在墙上的光斑位置，投影仪只在该位置的圆形遮罩内显示一层隐藏的图像。",
+    "exercise_en": "Use a camera to track a flashlight's spot on the wall and project a 'behind the wall' image (pipes, mice, the classroom next door) only inside the spot. Twist: the world behind the wall slowly notices it is being watched and starts to dodge the light."
+  },
+  "daniel-rozin--peg-mirror": {
+    "description_zh": "650 根带斜切面的圆柱形木钉各自旋转，用斜面上的明暗在圆形构图中拼出观众的肖像。",
+    "idea_en": "Wooden pegs turn their angled faces to build a portrait out of shadows.",
+    "technique_zh": "每根木钉的切面随旋转角度不同而接收到不同的光线；摄像头画面通过电机设定每根木钉的角度。",
+    "exercise_en": "Mount angled-cut wooden blocks or paper tubes on servos, compare how light and dark they look at different angles, then build a 3x3 prototype controlled by a camera. Twist: turn it into an 'audio mirror' that controls sound instead."
+  },
+  "golan-levin--reface-portrait-sequencer": {
+    "description_zh": "一面人脸追踪镜子，记录观众眼睛、眉毛和嘴巴的片段，把它们重新混编成无穷无尽的“精致尸体”式合成人脸；眨一下眼，组合就会切换。",
+    "idea_en": "A magic mirror like an exquisite-corpse game: it mixes different visitors' eyes, brows and mouths into new faces live, and a blink switches them.",
+    "technique_zh": "人脸追踪把每位观众的脸对齐到标准坐标系，将横向条带（眼睛、鼻子、嘴巴）录制为视频切片，眨眼检测则触发把不同人的条带重新组合。",
+    "exercise_en": "Align faces with MediaPipe Face Mesh, save three horizontal strips (eyes, nose, mouth) separately, and let each blink randomly assemble a 'composite face' from the whole class. Twist: let emotion set the splicing rule, such as using only mouths caught while everyone is smiling."
+  },
+  "sce-japan-studio--the-eye-of-judgment": {
+    "description_zh": "实体集换卡牌放在一张 3×3 的垫子上，由 PlayStation Eye 读取，卡上的生物化作带动画的 3D 怪兽站起来，在电视画面中的桌面上展开战斗。",
+    "idea_en": "Level up physical card battles: the monsters on the cards appear in 3D and fight on the table shown on TV.",
+    "technique_zh": "俯拍摄像头解码每张卡上的 CyberCode 标记，识别卡片及其所在格子，并在垫子的视频画面上渲染带动画的生物。",
+    "exercise_en": "Make four cards with different image markers that summon matching characters when placed on a 2x2 grid, and decide the winner from which cards sit next to each other. Twist: a card's rotation decides which way its character faces."
+  },
+  "daniel-rozin--weave-mirror": {
+    "description_zh": "768 个 C 形覆膜印刷片像编织的线股一样旋转，形成一幅如同篮筐编织般的观众实时镜像。",
+    "idea_en": "Weave your image into being, strand by strand.",
+    "technique_zh": "摄像头像素驱动电机，旋转每个印有渐变的 C 形片，露出印刷面上较暗或较亮的部分。",
+    "exercise_en": "Print a black-to-white gradient strip, wrap it around a rotating cylinder, and use camera brightness to control the rotation angle. Twist: use a color gradient instead of black and white to make a color mirror."
+  },
+  "memo-akten--webcam-piano": {
+    "description_zh": "网络摄像头把屏幕前的空间变成一张看不见的音符网格；身体的动作会奏出和谐的、带古典韵味的音乐，并以流体的形式呈现出来。",
+    "idea_en": "A webcam turns the air into an invisible piano, so waving your body plays harmonious music.",
+    "technique_zh": "在屏幕单元格网格上用帧差或光流检测每个单元格内的运动，每个被激活的单元格触发一个量化到音阶上的音符，并用流体模拟进行可视化。",
+    "exercise_en": "Use p5.js to split the camera image into an 8x8 grid and play the matching pentatonic note wherever there is motion. Twist: switch the scale and timbre so one specific action (such as sweeping the floor) becomes a song."
+  },
+  "julian-oliver--levelhead": {
+    "description_zh": "一款空间记忆游戏：倾斜一个印有标记的真实方块，就能让一个小人穿过屏幕上方块内部的一个个房间。",
+    "idea_en": "Several rooms hide inside a cube in your hand, and turning the real cube guides a little figure through them.",
+    "technique_zh": "方块每个面上的 ARToolKit 基准标记给出方块的 6DoF 位姿，倾斜角度驱动一个基于物理的角色在方块内部渲染的房间之间移动。",
+    "exercise_en": "Print a paper box with a different image marker on each face, use MindAR or AR Foundation to render small rooms inside it, and tilt the box to roll a ball into the next room. Twist: make the rooms spaces from your childhood memories, so a story comes together only once you have gone through them all."
+  },
+  "joanie-lemercier--antivj-projection-on-building": {
+    "description_zh": "一次把实时影像投射到建筑上、并与其既有结构互动的早期实验，也是 AntiVJ 厂牌投影映射风格的起点。",
+    "idea_en": "An early experiment projecting live visuals onto a building and playing with its structure.",
+    "technique_zh": "早期的手动投影映射：现场 VJ 软件的输出经手工遮罩和梯形校正以贴合建筑特征，画面围绕既有建筑结构来设计。",
+    "exercise_en": "Use one projector and VJ software (Resolume or TouchDesigner) to hand-mask an outside wall with windows, and perform a 3-minute visual set live. Twist: make each window an independent 'character' that passes graphics to the others."
+  },
+  "rafael-lozano-hemmer--close-up": {
+    "description_zh": "观众投在屏幕上的影子里，填满了多达 800 段最近看过这件作品的人的微型监控视频，而观众自己也会被录下来，留给下一个人。",
+    "idea_en": "Your shadow is filled with surveillance videos of everyone who looked at the piece before you.",
+    "technique_zh": "摄像头录下每位观众，同时用他们的剪影遮罩显露出由此前录制的观众片段组成的马赛克；数据库保留最近的 10000 段。",
+    "exercise_en": "Use a camera to record each visitor while filling their silhouette with a grid of small videos recorded earlier. Twist: the shadow shows only people who visited on the same day as the current viewer."
+  },
+  "rafael-lozano-hemmer--eye-contact": {
+    "description_zh": "一块显示屏上排列着数百段人们躺着的微型视频；一旦检测到有观众，他们会全部醒来，转过头直直地盯着观众。",
+    "idea_en": "The moment you show up, hundreds of people on the screen wake up together and stare at you.",
+    "technique_zh": "内置摄像头检测观众的出现及其剪影，把每个视频格子从待机循环切换到“转头注视”的片段。",
+    "exercise_en": "Have each classmate record a 'fall asleep, then turn to look at the camera' clip, assemble them into a grid, and trigger it when the camera detects a person. Twist: only the people in cells covered by a shadow wake up."
+  },
+  "golan-levin--footfalls": {
+    "description_zh": "在地板上跺脚，六米高的投影中就会落下一连串富有弹性的虚拟物体；观众可以用自己的剪影接住它们、再扔回去。",
+    "idea_en": "The harder you stomp, the more virtual objects fall from the sky, and you can catch them with your shadow and throw them back.",
+    "technique_zh": "安装在地板上的接触式麦克风检测跺脚的起始时刻和振幅，据此生成物理对象；同时基于摄像头的剪影提取为接住这些物体提供碰撞边界。",
+    "exercise_en": "Use a laptop microphone to detect volume peaks from stomps or claps, dropping a batch of objects from the top of the projected wall at each peak, and let people's outlines catch them. Twist: different strengths drop different things, such as petals for a light stomp and rocks for a hard one."
+  },
+  "klaus-obermaier--le-sacre-du-printemps": {
+    "description_zh": "一位独舞者被立体摄像机拍摄，并实时转化为立体 3D 投影，观众戴上 3D 眼镜，在现场管弦乐团的伴奏下观看。",
+    "idea_en": "Turn a dancer into a live stereoscopic 3D image so the audience watches a 'reshaped body' through 3D glasses.",
+    "technique_zh": "成对的立体摄像机捕捉舞者，实时软件把影像转换为生成式的立体几何图形，再通过偏振 3D 投影呈现。",
+    "exercise_en": "Film a classmate dancing with two phones side by side, combine the footage into a red-cyan anaglyph and add live effects. Twist: let the music's beat control how much the body shatters."
+  },
+  "rafael-lozano-hemmer--third-person": {
+    "description_zh": "观众的影子完全由一部英语、西班牙语或法语词典中的动词构成，就像一幅用动作书写的肖像。",
+    "idea_en": "Build your shadow portrait out of every verb in the dictionary.",
+    "technique_zh": "摄像头剪影遮罩决定密集文字网格中哪些单元格被渲染出来，文字大小随观众与屏幕的距离而变化。",
+    "exercise_en": "In p5.js, fill the silhouette area from the camera with text (a set of words the class picks). Twist: the closer you get to the screen, the smaller and denser the words become."
+  },
+  "karolina-sobecka--wildlife": {
+    "description_zh": "一只老虎从行驶的汽车上被投射到沿途经过的建筑上；老虎在车旁奔跑，随着车加速、减速，车停下时它也停下。",
+    "idea_en": "Project a tiger from a moving car onto roadside buildings so it runs alongside the car.",
+    "technique_zh": "车轮上的传感器测量转动，并据此设定老虎奔跑循环动画的播放帧率，再由车载投影仪投射到经过的建筑立面上。",
+    "exercise_en": "Put a projector on a cart or bicycle, use an encoder or phone accelerometer to control the frame rate of a running animation, and project it along a corridor. Twist: the animal 'collapses from exhaustion' when you go too fast."
+  },
+  "theo-watson--daisies": {
+    "description_zh": "投射在地面上的雏菊会在观众脚下枯萎死去，人走开后又很快重新长出来；2.0 版本则会生长出由算法生成的花朵。",
+    "idea_en": "Flowers wilt under your feet and grow back after you leave.",
+    "technique_zh": "俯拍摄像头配合背景减除，检测脚在地面投影上的位置；每朵花都有自己的状态（高度、健康值），被遮挡时逐渐衰减，并随时间重新生长。",
+    "exercise_en": "Use an overhead camera and floor projection to make a patch of grass that gets trampled and slowly grows back after people leave (p5.js or TouchDesigner). Twist: the shape of the flowers that grow after someone walks over depends on how long they stayed."
+  },
+  "zach-lieberman--drawn": {
+    "description_zh": "在纸上手绘的墨迹被软件从纸面上“提”起来：软件改变实时视频信号，让画出的形状仿佛活了过来，还能被手推来推去。",
+    "idea_en": "A camera 'lifts' ink off the paper, so hand-drawn shapes come alive and can be nudged by hand.",
+    "technique_zh": "俯拍纸面的摄像头通过背景减除和阈值处理分割出深色墨迹色块，把它们转换为物理刚体并重新渲染到实时视频上，手则作为单独的遮挡遮罩进行追踪。",
+    "exercise_en": "Film a sheet of white paper from above, threshold the ink into contours in openFrameworks or p5.js, and turn them into objects that fall and can be pushed by hand. Twist: let stroke thickness decide whether an ink shape floats away or sinks."
+  },
+  "scott-snibbe--make-like-a-tree": {
+    "description_zh": "一片投影森林，每位观众被录下的影子都会以幽灵般的身影重新出现，在树木之间行走，渐渐消失在远方。",
+    "idea_en": "Your shadow becomes a ghost in the forest, wandering off between the trees.",
+    "technique_zh": "录下的剪影以不同的深度和比例重新插入分层的森林图像中，并根据深度渐隐来暗示距离。",
+    "exercise_en": "Take a landscape photo with several layers of depth and insert classmates' recorded silhouettes into different layers, scaled by distance. Twist: shadows grow more transparent the farther they are and slowly 'walk' deeper into the picture over time."
+  },
+  "golan-levin--messa-di-voce-installation": {
+    "description_zh": "2003 年同名表演的装置版本：观众的声音被可视化为从嘴里冒出的投影泡泡和图形，并且可以用身体推动。",
+    "idea_en": "Speech and song grow visible shapes out of your mouth that you can push with your body.",
+    "technique_zh": "摄像头追踪定位每位观众头部和嘴部的位置，实时音频分析（振幅、音高、频谱特征）生成从该点发出的投影图形，这些图形随后与身体剪影发生碰撞。",
+    "exercise_en": "Use MediaPipe to find the mouth, analyze volume and pitch with p5.sound, and blow bubbles of different shapes out of the mouth, projected on a wall. Twist: design one shape for each vowel (a, e, i, o, u) and have everyone 'write' with their voice."
+  },
+  "msr-benko-wilson--playanywhere": {
+    "description_zh": "Andy Wilson 设计的紧凑型前投式桌面系统：小推车上的投影仪和摄像头能把任何一张桌子变成可感知触摸和物体的表面，用于玩游戏、看地图和分享照片。",
+    "idea_en": "A projector and camera on a small cart turn any table into a touch-enabled game table.",
+    "technique_zh": "短焦投影仪加上带红外照明的红外摄像头，通过分析阴影和接触来感知手指触摸，并利用视觉编码和光流检测普通桌面上的物体和纸张。",
+    "exercise_en": "Mount a small projector and a phone camera on a stand looking down at a table, judge a 'touch' from the distance between a finger and its shadow, and build a projected jigsaw puzzle or draggable map. Twist: make real objects on the table (cups, keys) act as obstacles in the game."
+  },
+  "golan-levin--scrapple": {
+    "description_zh": "摆在桌上的日常物品被读作一份实时乐谱上的音符；扫描桌面时把它们演奏成声音，同时投影为这些物品叠加上图形。",
+    "idea_en": "Whatever you toss on the table becomes a score that plays live and gets marked up by projection.",
+    "technique_zh": "俯拍摄像头分割桌上的物体（背景减除加色块检测），像频谱图乐谱一样把横轴当作时间、纵轴当作音高，一条扫描的播放头把色块转成声音，投影则将它们高亮显示。",
+    "exercise_en": "Film the table from above, detect object blobs in p5.js with the horizontal axis as time and the vertical axis as pitch, and play and highlight them by projection as a playhead sweeps across. Twist: compose using only kitchen items and play the class a 30-second 'breakfast tune'."
+  },
+  "scott-snibbe--shadow-bag": {
+    "description_zh": "投影仪捕捉观众的影子，再以难以预料的变化重新投射出来：有时是真实的影子，有时是一个脱离身体的副本，朝观众跑来或从观众身边跑开。",
+    "idea_en": "Your shadow stops obeying: sometimes it follows you, sometimes it walks off on its own.",
+    "technique_zh": "摄像头的剪影缓冲按每次互动随机选取的变换（延迟、偏移、缩放、方向）进行回放。",
+    "exercise_en": "Build a shadow projection program that randomly switches among four modes: normal, delayed, mirrored and running away. Twist: have classmates guess which rule is active."
+  },
+  "rafael-lozano-hemmer--subtitled-public": {
+    "description_zh": "在一个空房间里，监控系统检测到每位来访者，并在他们胸前投射一个随机的第三人称动词；想摆脱自己的词，唯一的办法是触碰别人，由对方接过去。",
+    "idea_en": "Everyone gets a verb label projected on their body, and the only way to pass it on is to touch someone else.",
+    "technique_zh": "俯拍摄像头追踪每个人，引导文字投影落在其身体上，当两个被追踪的色块相互接触时交换标签。",
+    "exercise_en": "Track classmates with an overhead camera and project a word onto each person, swapping words when two people touch. Twist: replace the words with adjectives the classmates wrote themselves, and watch how the labels flow."
+  },
+  "blair-macintyre--voices-of-oakland": {
+    "description_zh": "在亚特兰大历史悠久的奥克兰公墓进行的音频 AR 徒步导览，由演员演绎的逝者之声在各自墓前讲述他们的故事。",
+    "idea_en": "Walk into a cemetery and hear the people buried there tell their own stories at their graves.",
+    "technique_zh": "由 GPS 位置触发基于地点的音频片段，叙事被组织为一段互动导览，用户在每座墓前选择要收听哪条故事分支。",
+    "exercise_en": "Use a phone web page and the Geolocation API to set up four geofences on campus, so that arriving at a spot automatically plays a classmate's recording of 'a story that happened here'. Twist: the content branches depending on the direction you came from or how long you stay."
+  },
+  "rafael-lozano-hemmer--under-scan": {
+    "description_zh": "城镇广场被白光笼罩；行人走过时，当地人的视频肖像会出现在他们的影子里，抬头看着他们，人一离开就消失不见。",
+    "idea_en": "Walk across the square and a stranger appears in your shadow, looking up at you.",
+    "technique_zh": "计算机视觉从上方追踪行人并预测其路径，使投影仪能提前一刻把视频肖像精确地投进每个人的影子里。",
+    "exercise_en": "Project white light onto the ground, use a camera to find where shadows are, and project classmates' pre-recorded 'looking up' videos inside them. Twist: the longer a shadow stays, the longer the sentence the person in the video speaks."
+  },
+  "scott-snibbe--visceral-cinema-chien": {
+    "description_zh": "投影播放布努埃尔和达利的《一条安达鲁狗》（Un Chien Andalou）片段；观众的影子走进电影，取代了拖着三角钢琴的那个角色。",
+    "idea_en": "Visitors' shadows walk into a surrealist film and take over the lead role.",
+    "technique_zh": "把摄像头实时捕捉的剪影合成进预先分割好的电影画面中，让影子触发并推动场景中的关键时刻。",
+    "exercise_en": "Pick a classic film clip, use camera silhouettes to 'put' classmates into the frame and trigger the next shot. Twist: the scene continues only when a shadow strikes the same pose as the original character."
+  },
+  "klaus-obermaier--apparition": {
+    "description_zh": "两位舞者在互动投影中表演，投影根据他们的动作实时生成，既投在背景上，也直接投在他们的身体上。",
+    "idea_en": "Dancers' moves generate projections live on the backdrop and on their bodies, so body and image pull on each other.",
+    "technique_zh": "红外摄像头追踪提取舞者的剪影和动作，输入基于物理的生成式视觉系统，再实时投射回表演者身上和屏幕上。",
+    "exercise_en": "Extract a dancer's outline with a camera and use it to drive particles or a spring mesh projected back onto the dancer in real time. Twist: make the image 'reject' the dancer, with patterns fleeing outward as the outline approaches."
+  },
+  "scott-snibbe--cause-and-effect": {
+    "description_zh": "观众的剪影在撞上此前观众的影子录像时被记录下来；回放时只显示录下的动作，因此那些反应看起来像是自发的手势。",
+    "idea_en": "Your movements are recorded and jostle with the shadows of earlier visitors, forming a chain of cause and effect across time.",
+    "technique_zh": "摄像头录下的剪影片段放在可滑动的格子上，格子的位置会被实时影子推移，从而把不同观众的录像串联起来。",
+    "exercise_en": "Record a silhouette clip of each classmate, line them up in a row, and let the next person's shadow push the earlier clips along. Twist: turn the order of pushes into a replayable 'domino' timeline."
+  },
+  "camille-utterback--untitled-5": {
+    "description_zh": "一幅投影出来的“活的绘画”：观众的动作留下柔和、相互交叠的绘画笔触，并会根据人停留的时长和移动的速度作出回应。",
+    "idea_en": "People's pauses and movements leave growing brushstrokes on the wall.",
+    "technique_zh": "摄像头追踪的身体位置和运动历史驱动生成式笔触系统，笔触随时间累积并逐渐衰减。",
+    "exercise_en": "Drive a generative brush with camera motion detection, leaving strokes on the projection that thicken the longer someone stays. Twist: a line connecting two people appears only when they come close to each other."
+  },
+  "scott-snibbe--compliant": {
+    "description_zh": "一块柔软的投影光矩形像橡皮膜一样：观众的影子可以推它、把它压出凹陷，还能追着它在墙上跑。",
+    "idea_en": "Make the screen behave like a rubber sheet that people's shadows push and squash.",
+    "technique_zh": "把摄像头得到的影子剪影作为碰撞边界，用于投影矩形的弹簧网格（软体）模拟。",
+    "exercise_en": "Build a spring-mesh square in p5.js, use the camera silhouette of a person as a collider to push it, and project the result. Twist: make the square emit a tone that changes pitch with its deformation when squeezed."
+  },
+  "rafael-lozano-hemmer--frequency-and-volume": {
+    "description_zh": "观众投在墙上的影子可以调收音机：影子的位置选择频率，影子的大小决定音量，让看不见的电波变得可以听见，也变得可以争夺。",
+    "idea_en": "Tune a radio with your shadow on the wall to hear the city's invisible airwaves.",
+    "technique_zh": "摄像头追踪墙上影子的位置和大小，并把它们映射为一组计算机控制的无线电接收器的频率和音量。",
+    "exercise_en": "Use a camera to detect a shadow on the wall, with its horizontal position choosing which audio clip plays and its size setting the volume. Twist: when several shadows overlap, their sounds mix or interfere with each other."
+  },
+  "scott-snibbe--deep-walls": {
+    "description_zh": "墙上投影出十六个小橱柜：有人走进光束时，他的影子会被录下，随后在某个橱柜里永远循环播放，成为一段往昔访客的影子电影。",
+    "idea_en": "Record passing shadows and keep them looping forever in 'shadow cupboards' on the wall.",
+    "technique_zh": "摄像头以投影为背景分割出观众的剪影，在有人入画时进行录制，并在空间变空后把片段放进网格中的一个格子里循环播放。",
+    "exercise_en": "Use a camera to cut out people's silhouettes, record them as loops a few seconds long, and assemble them into a projected grid. Twist: each cell keeps only one kind of action (such as waving or jumping), with a simple rule deciding which cell a clip goes into."
+  },
+  "camille-utterback--liquid-time": {
+    "description_zh": "观众的移动会把一段预先录制的街景视频打碎：他们离投影屏越近，那一部分画面就越深地滑回过去。",
+    "idea_en": "The closer you get to the screen, the further that patch of the picture slips back into the past.",
+    "technique_zh": "摄像头测量每位观众的位置和距离，用类似狭缝扫描的缓冲区为离观众最近的图像区域选取更早的帧。",
+    "exercise_en": "Store a video as a frame buffer, detect a person's position with a camera, and show earlier frames in the vertical strip where they stand. Twist: use the phone's proximity sensor or sound volume to control how far back into the past it goes."
+  },
+  "scott-snibbe--shadow": {
+    "description_zh": "一块简单的投影光矩形；观众投下的起初只是普通的影子，但当他们走开后，影子仍在屏幕上移动，片刻之后重复他们刚才的动作。",
+    "idea_en": "You have left, but your shadow stays behind and repeats what you just did.",
+    "technique_zh": "摄像头捕捉观众的影子剪影，当实时影子消失后，系统把延迟的剪影序列重新投射到同一块屏幕上。",
+    "exercise_en": "Use background differencing on a webcam feed to get a person's shadow, and project it back onto the wall with a 3-second delay. Twist: make the delayed shadow gradually fade and play in reverse."
+  },
+  "daniel-rozin--trash-mirror": {
+    "description_zh": "从街头收集来的不规则垃圾碎片变成了电动像素，它们倾斜转动，映出观众的影像。",
+    "idea_en": "Make a mirror that reflects you out of scraps of street trash.",
+    "technique_zh": "每块不规则的垃圾碎片都装在一个电机上，对应摄像头画面中的一个区域，通过旋转呈现较亮或较暗的一面。",
+    "exercise_en": "Collect scrap paper from the classroom to make irregular 'pixels', and build a small prototype with a few servos and a camera. Twist: map each scrap to a region matching its real shape in the image."
+  },
+  "klaus-obermaier--vivisector": {
+    "description_zh": "四位舞者完全由投影光来塑造，没有任何舞台灯光，他们的身体在投影下仿佛被切片、溶解和复制。",
+    "idea_en": "Light the dancers only with projection so their bodies get sliced and dissolved by light.",
+    "technique_zh": "投影仪是唯一的光源（“舞动的光”），经过编排的视频遮罩显现并切分身体的特定部位。",
+    "exercise_en": "Turn off the classroom lights and use only black-and-white projector masks to light parts of a classmate's body. Twist: track the hand with a camera so the spot of light follows it automatically."
+  },
+  "rafael-lozano-hemmer--body-movies": {
+    "description_zh": "数千幅街头肖像被投射到建筑立面上，但只有在路人巨大的影子里才能看见；根据人与地面灯的距离，影子的高度从 2 米到 25 米不等。",
+    "idea_en": "Your giant shadow is the only window through which strangers' portraits can be seen.",
+    "technique_zh": "机械投影仪把肖像投到被明亮地灯冲淡的立面上；摄像头追踪影子区域，当影子与某幅肖像重合时，场景便切换到下一幕。",
+    "exercise_en": "Have one projector show images while a strong lamp washes the picture out, so the images are visible only inside classmates' shadows. Twist: use a camera to check whether a shadow fully covers a face, and trigger the next image when it does."
+  },
+  "camille-utterback--text-rain": {
+    "description_zh": "参与者看到自己的镜像视频，同时一首诗的彩色字母像雨一样落下；字母会停落在任何深色的东西上，于是人们可以用身体接住、托起并洒落一行行文字。",
+    "idea_en": "Catch the letters of a poem falling from the sky with your body.",
+    "technique_zh": "每个下落的字母都会检查其下方实时摄像头像素的亮度，当像素比阈值更暗时就停止下落，于是身体的剪影就成了一个实体表面。",
+    "exercise_en": "Make 'letter rain' with a p5.js camera sketch, where each letter stops when it meets a dark pixel. Twist: use a poem you wrote yourself, and play a sound when caught letters line up into a readable word."
+  },
+  "daniel-rozin--wooden-mirror": {
+    "description_zh": "830 块小木片由各自的电机控制倾斜，它们捕捉到的光形成了站在面前之人的实时木质倒影。",
+    "idea_en": "Piece together your live mirror image from turning wooden tiles.",
+    "technique_zh": "隐藏摄像头的画面被降采样到木片网格的分辨率，每个像素的亮度决定一个舵机的角度，从而改变木片反射的光量。",
+    "exercise_en": "Build a 'mechanical mirror' from an 8x8 grid of servos and card tiles, with angles controlled by a low-resolution camera image. Twist: switch to a material of your choice (buttons, bottle caps) and compare how 'pixel-like' different materials feel."
+  },
+  "scott-snibbe--boundary-functions": {
+    "description_zh": "一台俯投的投影仪在房间里每个站着的人之间画出线条，把地面划分成个人的沃罗诺伊（Voronoi）单元，随着人们移动，这些单元会扩大、缩小、骤然改变。",
+    "idea_en": "Draw invisible 'personal space' on the floor as Voronoi lines, so the more people there are, the less space each gets.",
+    "technique_zh": "俯拍摄像头追踪每个人在地面上的位置，实时计算这些点的沃罗诺伊图，并从上方投射回地面。",
+    "exercise_en": "Use an overhead camera and projector (or a phone filming from above with p5.js) to track where classmates stand, and compute and project Voronoi boundaries in real time. Twist: color each cell by its area, turning redder as it shrinks."
+  },
+  "klaus-obermaier--dave": {
+    "description_zh": "独舞者的身体本身成了投影屏幕：变形的面孔、衰老过程和不可能的身体扭曲被精确地映射到运动中的表演者身上。",
+    "idea_en": "Use the dancer's own body as the screen and project impossible transformations onto it.",
+    "technique_zh": "预渲染的视频与舞者逐帧编排，使投影落在身体上；依靠的是排练好的时机，而不是追踪。",
+    "exercise_en": "Have a classmate in white clothes stand in front of the projector, and project pre-cut face or texture videos onto them following a rehearsed rhythm. Twist: add a small spot of light that follows them live via a camera."
+  }
+}

@@ -1,0 +1,9586 @@
+# Reality Design Inspire — AR catalog
+
+A catalog of the most creative augmented-reality creators since 2005 and their AR works, compiled by Reality Design Lab as idea material for teaching. Each work lists its video, core idea, key technique and a classroom exercise.
+
+https://inspire.reality.design · 2026-09-27 · 180 creators · 921 works
+
+## How an AI assistant should use this file
+
+- Ground AR ideas in specific works below and name the work and creator you are drawing on.
+- Combine interaction patterns from different works to propose new ideas.
+- Reuse and adapt the “Try it” exercises for lessons and workshops.
+- Do not invent details that are not stated here; the video link is the reference.
+
+## Key creators and guided tours
+
+### Creative-coding roots
+
+The most-cited people in the network. Many later creators were found by following their trail.
+
+#### Zach Lieberman
+
+Sound, text and the body placed in space: the origin of poetic AR.
+
+Zach Lieberman co-founded openFrameworks and the School for Poetic Computation. For twenty years he has done one thing again and again: give invisible things — sound, handwriting, motion — a shape in space. His AR pieces are often technically simple; their strength is an idea that is clear, playful and instantly understood.
+
+**What to learn:** How to turn a technical capability (tracking, recording, drawing a line) into a poetic idea you can explain in one sentence.
+
+1. **Drawn** (2005) — The 2005 starting point: hand-drawn ink comes alive once the camera sees it. Watch this first to understand his idea of working between paper and screen. https://vimeo.com/4732884
+2. **The EyeWriter** (2009) — Eye tracking lets a paralyzed graffiti artist draw again; also a model of open-source collaboration. Technology in service of one specific person. https://www.youtube.com/watch?v=84H-xLrLvvk
+3. **Audio in AR space** (2017) — The seed of this project: every sound stays where it was made, and walking back through it plays it in reverse. The most poetic response to ARKit's arrival. https://vimeo.com/290238447
+4. **Weird Type** (2018) — With Molmol Kuo, turned into an app anyone can use: write in the air and let text follow motion. The step from personal experiment to public tool. https://www.youtube.com/watch?v=UzNCGqE9MhE
+5. **Poem World (Snap Spectacles)** (2021) — On Snap Spectacles, with Shantell Martin: a poem you read by walking through it. Your footsteps set the reading order. https://x.com/zachlieberman/status/1408879174429949953
+
+#### Golan Levin
+
+A source of interactive-art education: making voice, shadow and hands visible as form.
+
+Golan Levin directs the STUDIO for Creative Inquiry at Carnegie Mellon and has taught many creative coders. His works often amplify a person's voice or body into visuals, and keep asking: how does a machine see a person?
+
+**What to learn:** Another meaning of “augment”: not adding virtual objects, but making what people already have — voice, gesture, shadow — visible.
+
+1. **Messa di Voce (installation)** (2005) — Speech and song become shapes that pour out of the mouth. A classic of projection AR, made with Zach Lieberman and others. https://vimeo.com/221802940
+2. **Footfalls** (2006) — Stomping makes virtual objects rain down onto your shadow. Sound, body and projection in one piece. https://vimeo.com/227566535
+3. **Augmented Hand Series** (2014) — Your hand, transformed live: an extra finger, fingers that bend on their own. The smallest augmentation, the strongest bodily effect. https://vimeo.com/111951283
+4. **ARKit re-code of Jeffrey Shaw's Golden Calf** (2017) — Jeffrey Shaw's 1994 Golden Calf, re-made with ARKit. Good for discussing AR's lineage. https://vimeo.com/269478756
+
+#### Kyle McDonald
+
+The most-connected person in the network: face tracking and machine vision as artistic material.
+
+Kyle McDonald wrote ofxFaceTracker, the most popular early open-source face tracker, and many face-AR works are built on his code. His pieces keep testing what identity and privacy mean in front of a camera.
+
+**What to learn:** How to open-source a low-level capability (face tracking) and then use it to make work that is thought-provoking, even unsettling.
+
+1. **Face Substitution** (2011) — Real-time face swap in 2011, years before Snapchat. The root of every face filter that followed. https://vimeo.com/29348533
+2. **Sharing Faces** (2013) — People in two cities “swap” similar faces through a mirror: an AR mirror that connects strangers. https://vimeo.com/96549043
+3. **Light Leaks** (2013) — Dozens of mirror balls and computer-vision-calibrated projectors fill a room with moving points of light. With Jonas Jongejan. https://vimeo.com/66167082
+4. **Highsight** (2015) — A “virtual bungee jump through a real space”: visitors in a harness see the live feed of a camera dropping along a wire. Body sensation and viewpoint are split apart. https://vimeo.com/144061990
+
+#### Design I/O — Theo Watson & Emily Gobeille
+
+The benchmark for children's interactive projection: full-body interaction, ideal for classroom re-creation.
+
+Design I/O — Theo Watson (co-founder of openFrameworks) and Emily Gobeille — has built large interactive spaces for museums for more than a decade. Children use their bodies, sand and paper to interact with a room-sized virtual ecosystem.
+
+**What to learn:** How to design for people who will never read instructions: no interface, no buttons, instant feedback to the body.
+
+1. **L.A.S.E.R. Tag** (2007) — Graffiti on a building with a laser pointer (with Graffiti Research Lab). Architecture-scale projection AR, open-sourced. https://www.youtube.com/watch?v=LtZq2q43Jkc
+2. **Funky Forest** (2007) — Children grow trees with their bodies and steer water to the forest. Where the Design I/O style began. https://vimeo.com/3872687
+3. **Puppet Parade** (2011) — Raise your arms to puppeteer giant projected creatures. One of the most direct full-body interactions. https://vimeo.com/34824490
+4. **Connected Worlds** (2015) — A large ecosystem at the New York Hall of Science: six habitats linked by water, where children decide together how the ecosystem evolves. A model of multiplayer collaboration. https://vimeo.com/131585517
+5. **Living Library** (2016) — Turn a real page and the animals on it come alive. Paper plus projection; easy to adapt into a class assignment. https://vimeo.com/203193098
+
+### Research origins
+
+Many AR interaction ideas first appeared in these labs' papers and demo videos.
+
+#### Microsoft Research — Hrvoje Benko & Andy Wilson
+
+Turning a whole room into a display: the research source of projected spatial AR.
+
+Hrvoje Benko and Andy Wilson spent over a decade at Microsoft Research on “AR without glasses”: projectors plus depth cameras that make walls, tables and furniture interactive. Many later mixed-reality game ideas first appeared in their demos.
+
+**What to learn:** The spatial-AR mindset: understand the room's geometry first, then decide where content appears and how it aligns with reality.
+
+1. **LightSpace** (2010) — 2010: several projectors and depth cameras turn any surface into a touchscreen, and you can carry content in your hand. https://www.youtube.com/watch?v=xx5kBqxyaHE
+2. **IllumiRoom** (2013) — The game spills out of the TV onto the whole wall. Minimal hardware, maximum field of view. https://www.youtube.com/watch?v=L2w-XqW7bF4
+3. **RoomAlive** (2014) — The living room becomes a game, with monsters climbing out of the walls. A forerunner of today's Quest mixed-reality games. https://www.youtube.com/watch?v=GYkRRbP7m8s
+4. **Mano-a-Mano (Dyadic Projected SAR)** (2014) — Two people face off and each sees correct perspective. Multiplayer AR without headsets. https://www.youtube.com/watch?v=Df7fZAYVAIE
+5. **Room2Room** (2016) — A remote person is captured in 3D and projected life-size into your room, sitting on your real couch. An early form of telepresence. https://www.youtube.com/watch?v=2o6krhxpUGk
+
+#### MIT Tangible Media Group — Hiroshi Ishii
+
+Giving digital information a physical body: the origin of shape-changing interfaces.
+
+Hiroshi Ishii's MIT Tangible Media Group proposed “Tangible Bits” and “Radical Atoms”: digital information should not be trapped behind glass but be touchable and movable. Their pin-display series remains among the most striking demos.
+
+**What to learn:** “Reverse AR”: instead of overlaying the virtual on the real, reality's physical shape changes with digital information.
+
+1. **Sublimate** (2013) — Virtual graphics and a physical pin array merge: the same shape is half real, half projected. https://vimeo.com/63284274
+2. **inFORM** (2013) — The most famous one: 900 moving pins take the shape of objects in real time, and even shake hands remotely. It changes what you think an interface is. https://vimeo.com/79179138
+3. **Physical Telepresence** (2014) — A remote person pushes real objects on your table through the pin display. Telepresence moves from seeing to touching. https://vimeo.com/108402837
+4. **TRANSFORM** (2014) — Pin displays become furniture and art at Milan Design Week. A research prototype turned into design language. https://vimeo.com/98880732
+
+#### MIT Fluid Interfaces — Pattie Maes & Pranav Mistry
+
+Fingers and walls as the interface: wearable AR's first mass audience.
+
+In 2009 Pranav Mistry, in Pattie Maes's MIT Fluid Interfaces group, showed SixthSense: a projector and camera worn around the neck let you operate information on your palm, a newspaper or a wall. The TED talk made the world imagine “AR you carry” for the first time.
+
+**What to learn:** How to demonstrate a big idea with the cheapest hardware (projector, camera, colored finger caps) and a story people understand.
+
+1. **SixthSense (WUW – Wear Ur World)** (2009) — Dial on your palm, play video on a newspaper, frame a photo with your fingers. The iconic demo of wearable projection AR. https://vimeo.com/17567999
+2. **LuminAR** (2010) — A lamp that moves, projects and recognizes objects on the desk. AR hidden inside everyday furniture. https://vimeo.com/52899256
+3. **AfterMath: Seeing the Future through AR** (2015) — Point a tablet at a physical scene and AR predicts what happens next — where things will fall or roll. It augments time, not only space. https://vimeo.com/130279501
+4. **HoloARt: Painting with Holograms** (2016) — Painting in the air with HoloLens, blended with the real room. An early creation tool on headsets. https://vimeo.com/202652308
+
+#### Ryo Suzuki — Programmable Reality Lab
+
+Draw a line and reality starts moving: the newest generation of AR interaction research.
+
+Ryo Suzuki leads the Programmable Reality Lab at the University of Calgary and publishes several AR interaction papers at CHI and UIST nearly every year. His work links hand-drawn sketches to real-world motion, ideal for education and science visualization.
+
+**What to learn:** Dynamic sketching: a line the user draws is no longer a static annotation but a live parameter that tracks, measures and simulates.
+
+1. **RealitySketch** (2020) — Draw a line in AR and it binds to a real object, measuring angles and plotting graphs live. His signature work. https://www.youtube.com/watch?v=L0p-BNU9rXU
+2. **RealityTalk** (2022) — While you speak, matching AR graphics and keywords appear; the presenter needs no slides. https://www.youtube.com/watch?v=vfIMeICV-7c
+3. **Augmented Math** (2023) — Point at a static math problem in a textbook and it becomes an AR figure you can drag and animate. https://www.youtube.com/watch?v=Zv6JQ5T-qn0
+4. **Augmented Physics** (2024) — Physics diagrams from a textbook become interactive simulations. A direct example of AR for education. https://www.youtube.com/watch?v=HUgYeA3BKfk
+
+### Open prototypers
+
+Whenever a new device or API appears, they publish a small experiment. Ideal for a prototype-a-week style of teaching.
+
+#### Ian Curtis
+
+A spatial experiment every week: the 2025–26 frontier of WebAR and generated worlds.
+
+Ian Curtis (@XRarchitect) is an architecture-trained designer who worked at 8th Wall and Niantic and is now at World Labs. He posts his experiments on X and lists exactly which tools he used. His recent direction: placing AI-generated 3D worlds (Gaussian splats) into real rooms.
+
+**What to learn:** Prototyping in public: build a demo the night a new tool ships, film 30 seconds, and write down the stack.
+
+1. **8th Wall moon portal** (2023) — 8th Wall's moon portal: open a door on the street and walk onto the moon. A model WebAR portal. https://64uauol9km.ufs.sh/f/SNo22QO8bFjm1Y3nWaemQEOeBiztFDvnIw7rqPp4adJoyxKf
+2. **Step into a persistent redesign, 1:1** (2025) — AI designs a new living room, generates it in 3D, and VPS aligns it 1:1 to the real room so you can walk into the redesign. https://x.com/XRarchitect/status/1968356682888823060
+3. **Off-axis projection with face tracking** (2026) — A plain webcam tracks your face and turns a laptop screen into a window with depth. 3D without a headset. https://x.com/XRarchitect/status/2008221154100580600
+4. **Shrunk to action-figure size on the coffee table** (2026) — Shrink yourself to action-figure size and explore a tiny world on the coffee table. Changing scale is one of the most reliable sources of AR surprise. https://x.com/XRarchitect/status/2053874498630468078
+5. **A 20-million-splat San Francisco on the table** (2026) — A 20-million-splat San Francisco on the table; move the phone closer and dive into the streets. City-scale tabletop AR. https://x.com/XRarchitect/status/2071471052086194197
+
+#### Takashi Yoshinaga
+
+An AR experimenter across more than a decade and almost every device generation.
+
+Takashi Yoshinaga began with medical AR research in 2009 and has since prototyped on Tango, ARCore, HoloLens, iPad LiDAR and Quest 3; he is also an important educator in Japan's AR community. His experiments often solve real problems with clever tricks, such as streaming holograms through YouTube Live.
+
+**What to learn:** Device-independent ideas: re-make the same idea (copying reality, sending a hologram of a person) on each new generation of hardware and see how it improves.
+
+1. **Streaming Holograms to ARCore via YouTube** (2019) — Holograms streamed to phone AR through YouTube Live. Solving a hard problem with existing infrastructure. https://www.youtube.com/watch?v=IeaHt6bBw1o
+2. **Spatial Copy and Paste Shared with ARCore** (2020) — Select a piece of the real room on HoloLens 2, “copy” it as a mesh, and “paste” it into another person's ARCore phone view. https://www.youtube.com/watch?v=hEeXlnFK_24
+3. **Holo Cat: Perspective Expression by Head Tracking** (2021) — Head tracking gives a cat on a flat screen correct perspective. Compare it with Ian Curtis's off-axis projection. https://www.youtube.com/watch?v=9kvIlsb8HQE
+4. **Mixed Reality Door for Meta Quest 3** (2023) — A real door in the room becomes a portal: open it in Quest 3 passthrough and a virtual world is behind it. https://www.youtube.com/watch?v=VW7ELpkVmIQ
+5. **DejaViewer: Replaying Past Motion in AR** (2025) — Replay a past moment of human motion on the spot, like an instant replay in space. https://www.youtube.com/watch?v=kau5hRnEGdI
+
+#### Laan Labs (Chris Laan)
+
+The most imaginative early ARKit prototypes, several of which became products.
+
+In the months after ARKit launched in 2017, Chris Laan's Laan Labs released a string of viral demos: an AR tape measure, spray paint in the air, cockroaches crawling everywhere. They defined the early picture of what phone AR could do, and some became hit apps.
+
+**What to learn:** One API capability = one idea: plane detection, feature points and occlusion can each become a small, playful app.
+
+1. **AirMeasure – AR Tape Measure** (2017) — An AR tape measure: one of the first proofs that phone AR was useful. Apple later built in its own Measure app. https://www.youtube.com/watch?v=z7DYC_zbZCM
+2. **ARSpray – AR Spray Paint** (2017) — Use the phone as a spray can to paint on walls and in the air. Spatial drawing for everyone. https://www.youtube.com/watch?v=xlvaMxTfwBg
+3. **AR Roaches Crawling on Everything** (2018) — A swarm of cockroaches crawls over real tables and objects. Spatial understanding used for instant horror. https://www.youtube.com/watch?v=nnrK5ziihx8
+4. **Augmented Reality 3D Gaussian Splatting in Real Time** (2023) — 2023: Gaussian splats rendered in real-time AR on a phone. From 2017 point clouds to today's new representation. https://www.youtube.com/watch?v=jfiG2tohCAo
+5. **AirDraw – Finger Paint AR for Vision Pro** (2024) — Finger-painting in the air on Vision Pro. The same spatial-drawing idea, re-made on a new device. https://www.youtube.com/watch?v=x_Vo7I8pc2s
+
+### Art & stage
+
+Answers to “why make AR at all”: technology turned into a point of view, a performance, or an experience in public space.
+
+#### Daito Manabe / Rhizomatiks
+
+AR as live performance: dancers, drones and mixed-reality stages.
+
+Daito Manabe and Rhizomatiks work with choreographer MIKIKO and the dance company ELEVENPLAY, combining tracking, projection, drones and AR broadcast into live shows — from Perfume's stages to the Tokyo segment of the Rio 2016 closing ceremony. Their work covers more interaction types than any other creator here.
+
+**What to learn:** AR as a live medium: everything must run in real time with zero failures, for the audience in the room and the one watching on screens.
+
+1. **24 drones** (2015) — Three dancers and 24 glowing drones share the stage; the drones' formations of light shift with the choreography and frame the dancers. https://www.youtube.com/watch?v=cYWvKudIIJ8
+2. **border (Rhizomatiks Research x ELEVENPLAY)** (2015) — Audience members ride automated wheelchairs wearing headsets; real and virtual dancers merge seamlessly. The signature mixed-reality stage. https://www.youtube.com/watch?v=DdYw3ZZ0XLQ
+3. **Fencing Visualized** (2016) — The tips of fencing blades are tracked and drawn on the TV broadcast in real time. AR helps viewers follow a sport too fast to see. https://www.youtube.com/watch?v=h2DXCAWI8gU
+4. **discrete figures (with Kyle McDonald)** (2018) — With Kyle McDonald: machine-learning-generated virtual dancers share the stage with real ones. https://www.youtube.com/watch?v=hauXQQhwbgM
+5. **border 2021** (2021) — The 2021 version of border. Compare it with 2015 to see how technology changes the same work. https://www.youtube.com/watch?v=rqmO7FA2vdw
+
+#### Keiichi Matsuda
+
+A critical imagination of AR's future: the author of HYPER-REALITY.
+
+Keiichi Matsuda is an architecture-trained designer and director. His 2016 short HYPER-REALITY shows a city drowned in ads and interfaces and is still the most-cited work in debates about AR ethics. He led design at Leap Motion; his studio Liquid City now builds spatial AI agents.
+
+**What to learn:** Design fiction: use a short film to imagine and critique a future that does not exist yet, rather than only building a working demo.
+
+1. **Augmented (hyper)Reality: Domestic Robocop** (2010) — A 2010 graduate project: every object in a kitchen is covered in interfaces. The seed of HYPER-REALITY. https://www.youtube.com/watch?v=fSfKlCmYcLc
+2. **HYPER-REALITY** (2016) — Essential viewing: ads, gamification and identity systems flood a whole city. A strong opener for a class on AR ethics. https://www.youtube.com/watch?v=YJg02ivYzSs
+3. **Merger** (2018) — A worker who spends all day in AR, the line between her and the machine blurring. The dark side of “AR at work”. https://www.youtube.com/watch?v=SqW2dEkiD-Y
+4. **Agents (Liquid City)** (2023) — A Liquid City short: AI agents appear as characters in AR glasses and negotiate the protagonist's day. From critique to the question: what relationship do we want with AI? https://www.youtube.com/watch?v=bkKv2AHpn8E
+
+#### Rafael Lozano-Hemmer
+
+Bodies, shadows and projection in public space: the “Relational Architecture” series.
+
+Since the 1990s Rafael Lozano-Hemmer has staged huge interactive projections in city squares, which he calls Relational Architecture: passers-by's shadows, heartbeats and voices rewrite the surface of buildings. He showed that thousands of people can augment a space together without any personal device.
+
+**What to learn:** AR in public space: no app, no headset — anyone walking by becomes part of the work.
+
+1. **Body Movies (Relational Architecture 6)** (2001) — Passers-by's shadows fall on a building and reveal portraits of other people inside them. A milestone of public projection AR. https://www.youtube.com/watch?v=g-CNxFiXZDY
+2. **Under Scan (Relational Architecture 11)** (2005) — A square flooded with white light; video portraits of local people appear in pedestrians' shadows, look up at them, and vanish when they leave. https://www.youtube.com/watch?v=Bfn14sLJmyU
+3. **Subtitled Public** (2005) — Each person entering the room gets a random verb projected on their body, following them around. Labeling people as a metaphor for tracking technology. https://vimeo.com/1089123902
+4. **Zoom Pavilion (with Krzysztof Wodiczko)** (2015) — Face-detecting cameras amplify the relationships between visitors onto the walls. Surveillance technology made into art. https://www.youtube.com/watch?v=ENWBRsvn7qA
+
+#### Universal Everything (Matt Pyke)
+
+Mirror-like interaction and moving form: the digital art studio with the strongest visual language.
+
+Universal Everything, founded by Matt Pyke in Sheffield, is known for moving human figures: motion capture driving endlessly varied characters. Most of their interactive works are magic mirrors — you move, and another version of you transforms in the glass.
+
+**What to learn:** Visual style is interaction: with the same body tracking, the form design decides whether people stop and dance in front of the mirror.
+
+1. **Future You** (2019) — A motion-capture mirror at the Barbican: every visitor becomes a synthetic robotic figure, and the harder you move the stranger it gets (47,000 possible responses). https://vimeo.com/718890921
+2. **Super You (AR app)** (2020) — Their moving characters as a phone AR app, so anyone can summon a giant “super self”. https://www.youtube.com/watch?v=-zPQczdMCVc
+3. **HyperSpace AR** (2021) — LiDAR understands the real room so abstract digital life can grow inside it. https://www.youtube.com/watch?v=1KuwkTdab0o
+4. **Look Up - Augmented Reality Architecture** (2024) — AR architecture: look up at the skyline and new moving structures appear on top of buildings. https://www.youtube.com/watch?v=e5ELC-FcJXs
+5. **Chameleon** (2024) — A digital being that imitates passers-by's movement and appearance on street screens in East London, later Venice and Beijing. The magic mirror in public space. https://www.youtube.com/watch?v=EkGLZ_Ck_-w
+
+## All creators and works
+
+### Ian Curtis
+
+*Product designer & creative technologist (XRarchitect); designer at World Labs*
+
+Architect-turned-XR designer known online as @XRarchitect; worked on AR at 8th Wall, Niantic and Niantic Spatial and now designs world-model tools at World Labs.
+
+#### A robot that tidies up ornaments — Ian Curtis (2021)
+- Video: https://x.com/XRarchitect/status/1474792447712669705
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Phone, Web, 8th Wall, A-Frame
+- Idea: A virtual robot tidies up Christmas ornaments on your real floor.
+- What it is: A virtual robot rolls around the real floor collecting fallen Christmas ornaments in WebAR.
+- Technique: Virtual ornaments and a robot share the detected floor plane, and the robot steers toward the nearest ornament with a simple seek behavior and collects it on contact.
+- Try it: Scatter a few small objects at random on the AR floor and have a small robot pick them up in order of distance. Twist: tap the floor with your phone to set up roadblocks for the robot.
+
+#### Candy cane tower vs. robot — Ian Curtis (2021)
+- Video: https://x.com/XRarchitect/status/1476342490349277190
+- Interaction: Play, Spatial Mapping
+- Platform & tech: Phone, Web, 8th Wall, A-Frame, physics
+- Idea: Build a topple-able virtual candy tower on the floor, then release a troublemaking robot.
+- What it is: He stacks a physics-driven candy-cane tower on the floor in WebAR, and a small virtual robot knocks it down.
+- Technique: A physics engine simulates stacked rigid bodies on an invisible ground collider at the detected floor, and a scripted robot applies forces on contact to topple the tower.
+- Try it: Use A-Frame or Unity physics to build an AR block tower on the floor and add a small robot that crashes into it. Twist: let the audience steer the robot by tilting their phones.
+
+#### Resize your present with a photo scan — Ian Curtis (2021)
+- Video: https://x.com/XRarchitect/status/1475916160830951426
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Phone, Web, photogrammetry, 8th Wall, A-Frame
+- Idea: Scan a real gift into a 3D model and scale it freely in AR.
+- What it is: A real gift is photo-scanned into a 3D model and re-imported into AR, where it can be scaled up or down.
+- Technique: Photogrammetry turns photos of a real object into a textured mesh, which is re-imported into AR and placed with hit test, with a pinch gesture mapped to uniform scale.
+- Try it: Scan a small object with Polycam or Object Capture, bring it back into AR and pinch to scale it up to the size of the room. Twist: once enlarged, you can walk inside it.
+
+#### 8th Wall hand tracking UX — Ian Curtis (2023)
+- Video: https://www.youtube.com/watch?v=i9hpAFDFnQo
+- Interaction: Hands & Body
+- Platform & tech: Phone, Web, 8th Wall, hand tracking
+- Idea: Interaction guidelines for grabbing and pinching virtual objects with your hands in web AR.
+- What it is: Gesture patterns, guidelines and demos for hand-tracked interaction in browser-based AR.
+- Technique: Browser hand tracking estimates 3D hand keypoints, and gestures such as pinch or open palm are classified from fingertip distances and mapped to AR actions.
+- Try it: Use MediaPipe Hands to recognize two gestures, pinch and open hand, and use them to grab and release an AR object. Twist: invent a new gesture and write a one-line instruction for classmates to test.
+
+#### 8th Wall moon portal — Ian Curtis (2023)
+- Video: https://64uauol9km.ufs.sh/f/SNo22QO8bFjm1Y3nWaemQEOeBiztFDvnIw7rqPp4adJoyxKf
+- Interaction: Portals & Worlds
+- Platform & tech: Phone, Web, 8th Wall R17
+- Idea: Open a door to the moon right on the street.
+- What it is: Showcase WebAR portal to the moon, built to demonstrate the R17 engine's portal rendering.
+- Technique: A portal frame uses stencil masking so a lunar skybox and terrain render only through the opening, and an inside/outside test switches the full environment on when the camera crosses the plane.
+- Try it: Build a portal to the moon with a stencil, and use low-gravity physics inside so objects drift down slowly. Twist: after you step through, even the sound picked up by the phone microphone becomes muffled.
+
+#### Augmented Reality 2023 (compilation) — Ian Curtis (2023)
+- Video: https://x.com/XRarchitect/status/1736803320021528631
+- Interaction: Spatial Mapping, Portals & Worlds
+- Platform & tech: Phone, Web, 8th Wall
+- Idea: A year of WebAR experiments, handy as a quick tour of what AR can do.
+- What it is: A reel of his favourite real-time WebAR experiences built during 2023.
+- Technique: A reel of browser AR pieces built on the same core toolkit (SLAM world tracking, hit-test placement, image and face targets), showing how far a small set of techniques can stretch.
+- Try it: Look back at the AR sketches you made this semester, cut them into a 60-second reel, and label each clip with the core technique it uses. Twist: make a 'failure reel' using only the prototypes that didn't work.
+
+#### Tetris in WebAR, written by ChatGPT — Ian Curtis (2023)
+- Video: https://x.com/XRarchitect/status/1737260350792425957
+- Interaction: Play, Spatial Mapping
+- Platform & tech: Phone, Web, 8th Wall, ChatGPT
+- Idea: Let AI write the code and stand a game of Tetris up in the living room.
+- What it is: A playable Tetris board floating in the room, with the WebAR code generated by ChatGPT.
+- Technique: A 2D Tetris grid is rendered as a world-anchored vertical plane of cube meshes placed via hit test, with standard game logic running on a tick timer and on-screen buttons for input.
+- Try it: Have AI generate a Tetris game floating in AR and log every bug you have to fix by hand. Twist: when blocks land, they become physics blocks on the real floor that can be knocked over.
+
+#### Wol: AI owl guide to the redwoods — Ian Curtis (2023)
+- Video: https://www.youtube.com/watch?v=GUgAw-uU46o
+- Interaction: Voice & Sound, Information & UI
+- Platform & tech: Phone, Headset, Web, 8th Wall, LLM, Metaversal Deployment
+- Idea: Talk with an AR owl that shows you around the redwood forest.
+- What it is: An AR owl you talk to about the redwood forest ecosystem, running on phones and MR headsets from one web build.
+- Technique: An anchored animated character is wired to speech recognition, an LLM prompted with forest-ecology context, and text-to-speech, and one web build adapts to phone or headset input.
+- Try it: Place an animal character in AR and use speech recognition, an LLM and TTS so it answers questions about an ecosystem. Twist: give the character a boundary of knowledge and make it admit when a question goes beyond it.
+
+#### Niantic Studio spatial anchoring — Ian Curtis (2024)
+- Video: https://64uauol9km.ufs.sh/f/SNo22QO8bFjmPINkCFSvHen4wCFE5MZxyIKhr8BN3u2A7Djs
+- Interaction: Location & City, Spatial Mapping
+- Platform & tech: Phone, Web, Niantic Studio, VPS
+- Idea: Pick a real place in the editor and pin AR content to it precisely.
+- What it is: Developer workflow and demos for placing AR at real-world locations with VPS, including physics-driven content anchored to places.
+- Technique: VPS-localized anchors give a stable real-world pose, and a physics engine simulates content relative to that anchor, so rigid bodies collide with approximated real geometry at a specific place.
+- Try it: Localize at a fixed spot with an image marker, place physics balls that roll down a set of steps, and approximate the steps with simple colliders. Twist: let passers-by 'push' the balls with their phones.
+
+#### Scaniverse Gaussian splat map — Ian Curtis (2024)
+- Video: https://www.youtube.com/watch?v=1LQh_lm0VoM
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, Web, Scaniverse, Gaussian Splatting
+- Idea: Browse real places scanned by people around the world on a map, then drop one into AR with a single tap.
+- What it is: UX for browsing Gaussian-splat captures of real places on a map, then jumping from map to 3D to AR views.
+- Technique: Geotagged splat captures are indexed on a map, and the UI moves from 2D map to an orbitable 3D viewer to an AR placement mode, reusing the same asset at each step.
+- Try it: Design and prototype a three-step 'map → 3D preview → AR view' flow in Figma or on the web, featuring three objects you scanned yourself. Twist: attach a voice message from the person who made each scan.
+
+#### Simulon AR VFX — Ian Curtis (2024)
+- Video: https://64uauol9km.ufs.sh/f/SNo22QO8bFjmnu8NCeEI5SrPLVvJzlUujsQFZmiWyCA3oX6K
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, Simulon, Blender
+- Idea: Shoot visual effects on location with phone AR, with lighting that matches the real environment.
+- What it is: Blender physics simulations composited into real locations using Simulon's AR capture and real-world lighting.
+- Technique: The tracked camera path and an estimated environment light probe from the real location are imported into Blender, where simulations are rendered with matching lighting and composited over the footage.
+- Try it: Read ambient light intensity and direction with AR Foundation light estimation so that the shadows of virtual objects on a table line up with those of real objects. Twist: make the virtual objects react differently when the lights are switched off and on.
+
+#### AI wayfinding companion (Spatial 1) — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1948817329493512337
+- Interaction: Location & City, Voice & Sound
+- Platform & tech: Wearable, Niantic VPS, Gemini, ElevenLabs
+- Idea: An AI wayfinding companion worn on the chest that watches the road and talks to you.
+- What it is: A 3D-printed wearable that sees what you see, localizes with VPS, and speaks directions with Gemini and ElevenLabs.
+- Technique: A worn camera sends frames for VPS localization and to a multimodal LLM, which turns the pose and scene description into spoken directions through text-to-speech, giving audio-only AR guidance.
+- Try it: Take a photo with a phone camera and send it to a multimodal model, asking it to give a one-sentence spoken direction toward a preset destination. Twist: make the guide a character with a personality, for example one who only speaks in metaphors.
+
+#### Augmented Reality Portal — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1922897331461996689
+- Interaction: Portals & Worlds
+- Platform & tech: Phone, Web, 8th Wall
+- Idea: An AR portal you can walk into just by opening a link.
+- What it is: A walk-in web AR portal that anyone can try from a link.
+- Technique: A walk-in portal uses a stencil or depth-mask shader on the doorway so the inner world is visible only through the frame, and it is distributed as a link through browser-based SLAM.
+- Try it: Build a portal that opens from a link using 8th Wall or WebXR, with a 360 panorama inside the door. Twist: let people outside hear sounds from inside, getting clearer as they approach.
+
+#### Desk-side web AR experiment — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1976297639630266571
+- Interaction: Spatial Mapping
+- Platform & tech: Phone, Web, WebAR
+- Idea: A quick, improvised WebAR experiment on the desk.
+- What it is: A quick web AR sketch built at his desk.
+- Technique: A minimal WebAR sketch most likely uses surface detection plus a hit test to place a single object, showing how fast a browser AR idea can be tested.
+- Try it: Give yourself 30 minutes to build a minimal working AR sketch at your desk from a WebXR template, and screen-record it. Twist: you may use only one kind of geometry, but it has to express an emotion.
+
+#### Location-triggered AR scene — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1955008892443955566
+- Interaction: Location & City
+- Platform & tech: Phone, VPS, WebAR
+- Idea: The AR story only appears once you walk to a particular place.
+- What it is: An older location-based AR experience: arrive at the spot, open the experience, and the scene comes to life in place.
+- Technique: A location check (GPS geofence or VPS localization) gates the experience, and once the device is localized the scene is instantiated at a fixed real-world pose.
+- Try it: Pick a spot on campus, use GPS distance to check whether someone has arrived, and only then make a character appear in AR. Twist: the character appears only when two people are there at the same time.
+
+#### Midjourney → splat → AR — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1954372725667254569
+- Interaction: Portals & Worlds
+- Platform & tech: Phone, Web, Midjourney, Gaussian Splatting, WebAR
+- Idea: Go from one AI image to an AR scene you can stand inside.
+- What it is: A generated image turned into an 8 MB Gaussian splat and viewed in web AR.
+- Technique: An AI image is lifted into a Gaussian splat by an image-to-3D pipeline, then compressed and rendered in a WebAR splat viewer on a hit-tested surface.
+- Try it: Generate a scene image with a text-to-image tool, convert it to 3D and place it in phone AR, then compare how the composition changed. Twist: have the whole class use the same prompt and line the results up as an AR gallery.
+
+#### Mixed Reality Map of San Francisco — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1954989245787169202
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, Web, Mapbox, WebAR
+- Idea: A city map where tapping a pin opens AR right where you stand.
+- What it is: A web app for discovering location-based AR across San Francisco: open it on a phone, tap a pin, and launch the AR on the spot with no download.
+- Technique: A Mapbox web map lists geotagged AR experiences as pins, and tapping a pin deep-links to a WebAR URL, avoiding app installs.
+- Try it: Make a campus map with Mapbox or Leaflet where each pin links to a WebAR page. Twist: a link unlocks only when you are within 50 meters of its pin.
+
+#### Morning stroll into a portal — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1970878813338051024
+- Interaction: Portals & Worlds
+- Platform & tech: Phone, WebAR, World Labs
+- Idea: Walk through a door into a world generated by AI.
+- What it is: Walking through a doorway-sized portal into a World Labs-generated environment.
+- Technique: A doorway mesh placed on the ground uses a stencil buffer to show a generated environment only through the opening, and a camera-crossing check flips the render so the user ends up inside.
+- Try it: Place a door with AR Foundation plane detection, render a forest inside it with a stencil, and switch to a full surrounding environment once the user walks through. Twist: make the other side of the door the place where you lived as a child.
+
+#### Niantic Spatial launch + WebAR portal — Ian Curtis (2025)
+- Video: https://www.youtube.com/watch?v=kOyz2pNSPhk
+- Interaction: Portals & Worlds, Location & City
+- Platform & tech: Phone, Web, 8th Wall, Niantic Spatial
+- Idea: Turn the company launch itself into a WebAR portal you can walk into.
+- What it is: Brand and product vision for Niantic Spatial's debut, including a working WebAR portal released with the launch film.
+- Technique: A launch-film WebAR portal likely reuses stencil portal rendering on a hit-tested surface, so viewers can open the same world shown in the film on their own phones.
+- Try it: Shoot a 30-second concept film for a fictional product and pair it with an AR portal viewers can open. Twist: make the scene inside the portal continue from the film's last frame.
+
+#### Photo to WebAR world in real time — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1980654061323255906
+- Interaction: Portals & Worlds
+- Platform & tech: Phone, Web, WebAR, World Labs
+- Idea: A single photo becomes an AR scene you can walk into.
+- What it is: A single photo becomes a 5 MB Gaussian splat scene that runs in real time as a WebAR experience.
+- Technique: A single photo is converted by an image-to-3D model into a compact splat, which is then loaded in a WebAR viewer and placed on a detected surface.
+- Try it: Take a photo, turn it into a model with an image-to-3D tool, import it into WebAR on a tabletop, and compare it with the original photo to find what the generation got wrong. Twist: pick a painting or an old photo on purpose and see what it looks like in 3D.
+
+#### Redesigned living room, 1.5 MB per splat — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1995541338335678801
+- Interaction: Spatial Mapping, Information & UI
+- Platform & tech: Phone, Web, WebAR, three.js, World Labs
+- Idea: Switch between several AI-generated living-room designs right where they will go.
+- What it is: Nano Banana image → World Labs world → WebAR: several living-room redesigns as tiny .spz splats he can switch between in place.
+- Technique: Multiple compressed .spz splats share one aligned anchor in the room, and a UI toggle swaps which splat is visible so each redesign appears in the same place.
+- Try it: Prepare layout models in three styles for the same corner, share one anchor among them, and switch between them with a button. Twist: let classmates vote for their favorite and show the vote count in AR.
+
+#### Step into a persistent redesign, 1:1 — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1968356682888823060
+- Interaction: Spatial Mapping, Portals & Worlds
+- Platform & tech: Phone, Niantic VPS, World Labs, Gemini
+- Idea: AI design, AI generation and precise localization let you step into a redesigned living room at 1:1 scale in your own home.
+- What it is: Gemini designs a new living room, World Labs generates it in 3D, and VPS localizes it to his real room at 1:1 scale so he can step into it.
+- Technique: VPS localizes the phone against a prior map of the room, so a 1:1 generated redesign loads at the same real-world pose every session instead of needing manual alignment.
+- Try it: Save a room layout with ARKit ARWorldMap or persistent anchors in AR Foundation, and restore it to the same place automatically the next time the app opens. Twist: shift the furniture slightly each time based on that day's weather.
+
+#### VPS-anchored WebAR demo — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1922797867514683753
+- Interaction: Location & City
+- Platform & tech: Phone, Web, Niantic VPS, WebAR
+- Idea: Content pinned to a real place, so everyone who comes sees the same thing in the same spot.
+- What it is: A real-time WebAR experience anchored to a specific real-world location with a visual positioning system.
+- Technique: A browser-based VPS matches camera frames against a pre-scanned location map to recover a 6DoF pose, so content is anchored to an exact real-world spot rather than to the first detected plane.
+- Try it: Simulate VPS with image tracking (put a poster at a real location as the marker) and anchor content at a fixed spot. Twist: the content appears only during a certain time window.
+
+#### three.js in real life — Ian Curtis (2025)
+- Video: https://x.com/XRarchitect/status/1940566978185633835
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Web, three.js, WebAR
+- Idea: Move the effects of a web 3D engine out into the real world.
+- What it is: A three.js scene pulled off the screen and placed in the physical world with AR.
+- Technique: An existing three.js scene is wrapped in a WebXR immersive-ar session, placed at a hit-test point, and scaled to real-world units.
+- Try it: Pick one of the official three.js examples, add a WebXR AR session and a hit test, and put it on the real floor. Twist: change its scale to make it very large or very small, and notice how the experience changes.
+
+#### A 20-million-splat San Francisco on the table — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2071471052086194197
+- Interaction: Location & City, Spatial Mapping
+- Platform & tech: Phone, Web, WebAR, three.js, SparkJS
+- Idea: Shrink all of San Francisco into a tabletop model, then move the phone closer to dive into its streets.
+- What it is: A 20M-splat scan of San Francisco runs on a phone in WebAR; moving the phone closer zooms into individual streets.
+- Technique: A very large splat city is streamed with level-of-detail chunking, placed on a detected tabletop plane, and the renderer loads finer splats as the camera distance to each chunk shrinks.
+- Try it: Place a 3D model of a city or campus on a tabletop with three LOD levels, and switch to the high-detail version when the phone moves closer. Twist: when the phone approaches a particular building, play a one-line voice introduction about it.
+
+#### A picture frame that is a window — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2052418499516170377
+- Interaction: Portals & Worlds
+- Platform & tech: Headset, Web, WebXR, Marble, Cursor
+- Idea: A 'picture frame' on the wall is really a window into another 3D world.
+- What it is: A WebXR picture frame on the office wall that shows a persistent generated 3D world behind it, like a window into another place.
+- Technique: A frame is anchored to a wall via plane detection, and a stencil mask limits rendering of a persistent 3D world to the frame's rectangle, so parallax makes it read as a window.
+- Try it: Use AR Foundation to detect a wall plane and place a picture frame on it, then render a distant scene inside the frame with a stencil. Twist: make the time of day and weather inside the frame follow the real clock.
+
+#### A pocket holodeck in WebAR — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2014383901268181253
+- Interaction: Portals & Worlds, Spatial Mapping
+- Platform & tech: Phone, Web, WebAR, SparkJS
+- Idea: Each AI-generated scene is only 5 MB, so a few of them placed around you become a holodeck you can carry in your pocket.
+- What it is: Gaussian splats of about 5 MB each, generated from single images, placed around him in web AR like a miniature holodeck.
+- Technique: Several small single-image splats (about 5 MB each) are placed at fixed offsets around the user's starting pose in WebAR, forming a ring of scenes the user turns to face.
+- Try it: Make four small scenes with a single-image-to-3D tool (or simple 3D models as stand-ins) and place them around yourself facing north, south, east and west. Twist: let the scene in each direction stand for a different time of day.
+
+#### Coit Tower in the living room — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2051683566292222009
+- Interaction: Spatial Mapping, Location & City
+- Platform & tech: Headset, Web, WebXR, Spark 2.0 LoD, Quest 3
+- Idea: Bring a huge scan of a real landmark into the living room and walk around it in a headset.
+- What it is: A 40M-splat scan of San Francisco's Coit Tower placed in his living room, running fully on-device on Quest 3 through WebXR.
+- Technique: A 40M-splat scan runs on a standalone headset through hierarchical LoD that culls and simplifies distant splats, keeping the per-frame splat budget within mobile GPU limits.
+- Try it: Pick a high-poly model, measure the frame rate of the original and a decimated version on HoloKit or a phone, and find the limit for smooth playback. Twist: use that budget to design a scene that brings a landmark into your living room.
+
+#### Game Boy graphics in real life — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2082706695646777746
+- Interaction: Perception & Effects, Play
+- Platform & tech: Phone, WebAR
+- Idea: Bring the Game Boy pixel-art look into a real living room.
+- What it is: A living-room test that brings chunky Game Boy-style graphics into the real room.
+- Technique: Low-poly content is rendered with nearest-neighbor texture filtering, a limited four-color palette and a pixelation post-process, then anchored to room planes so the retro style contrasts with the camera feed.
+- Try it: Add a pixelation and four-color palette post-processing shader to an AR scene and place a low-poly character on the floor. Twist: apply the post-process to the camera feed too, so the whole real room turns into Game Boy style.
+
+#### Gaussian splat capture in Quest mixed reality — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2056211832613089323
+- Interaction: Spatial Mapping
+- Platform & tech: Headset, Web, WebXR, Spark, Quest
+- Idea: Put a scan of a real place into MR so it sits side by side with reality.
+- What it is: A friend's Gaussian splat capture viewed in Quest passthrough MR via WebXR and Spark level-of-detail streaming.
+- Technique: A captured splat is rendered over passthrough in WebXR immersive-ar mode, with LoD streaming loading detail progressively so the capture appears quickly and sharpens as it streams.
+- Try it: Scan a classmate or an object with Scaniverse or Polycam, export it, and view it overlaid on real space in WebXR. Twist: gather several scans together into a small 'scan museum'.
+
+#### Living room redesign as WebAR splat — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2076932513822617966
+- Interaction: Spatial Mapping, Portals & Worlds
+- Platform & tech: Phone, Web, 8th Wall, SparkJS, World Labs
+- Idea: Overlay an AI-designed living room on the old one at 1:1 scale, and walk into the 'future room' with a phone.
+- What it is: A generated interior redesign of his living room rendered as a Gaussian splat and aligned in WebAR, so he can walk through the future room on his phone.
+- Technique: A generated splat of the redesigned room is placed at 1:1 scale and manually aligned (origin + yaw) to the real room, so SLAM tracking lets the user walk through the future interior on a phone.
+- Try it: Photograph your room and have an image model redesign it, then lay out simplified furniture in any 3D tool and place it in AR at 1:1 scale, aligned with the real room. Twist: add a slider that fades between 'now' and 'after the makeover'.
+
+#### Off-axis projection with face tracking — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2008221154100580600
+- Interaction: Face, Perception & Effects
+- Platform & tech: Desktop, Web, MediaPipe, three.js, off-axis projection
+- Idea: A webcam tracks your face and turns an ordinary screen into a window with depth that shifts as your head moves.
+- What it is: A head-coupled perspective demo: MediaPipe tracks the viewer's face so a 3D scanned shoe on a flat screen shifts perspective like a window.
+- Technique: MediaPipe face landmarks estimate the eye position relative to the screen, and an off-axis (asymmetric frustum) projection is recomputed each frame so the monitor behaves like a window with correct parallax.
+- Try it: Estimate head position with MediaPipe Face Mesh and update an asymmetric frustum projection in three.js from the head coordinates, so a shoe on screen shows parallax. Twist: make the object 'lean out' past the screen plane and test at what angle the illusion breaks.
+
+#### Off-axis window into a generated world — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2034675907898876133
+- Interaction: Face, Portals & Worlds
+- Platform & tech: Desktop, Web, MediaPipe, three.js, World Labs
+- Idea: Block out a scene with simple shapes, let AI fill in the detail, then use face tracking to turn the screen into a window onto that world.
+- What it is: Blender layout turned into a detailed World Labs splat, viewed through a face-tracked off-axis projection so the monitor becomes a window.
+- Technique: A generated splat world is rendered with a head-coupled off-axis projection driven by webcam face tracking, placing the scene behind the monitor plane so it reads as a view through glass.
+- Try it: Reuse the face-tracked off-axis projection and replace what lies behind the screen with a long corridor or canyon to exaggerate the sense of depth. Twist: as your head moves closer to the screen, let the fog in the scene gradually clear.
+
+#### Shrunk to action-figure size on the coffee table — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2053874498630468078
+- Interaction: Perception & Effects, Portals & Worlds
+- Platform & tech: Headset, Web, WebXR, three.js, SparkJS, World Labs
+- Idea: Shrink yourself to action-figure size and explore a miniature world on the coffee table.
+- What it is: In mixed reality he shrinks himself to action-figure scale and explores a tiny generated world sitting on his living-room coffee table.
+- Technique: A miniature world is placed on the coffee table in passthrough MR, and scaling the user rig (or inversely scaling the world) changes the effective eye height so the table feels human-sized.
+- Try it: Place a small scene on a tabletop in WebXR or Unity, and when a button is pressed, scale the whole scene up 20 times around the tabletop origin. Twist: after scaling, let real objects on the table (like a cup) become 'giant landmarks' in the scene.
+
+#### Splat worlds as AR camera stand-ins — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2072207377106153797
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, 3D Gaussian Splatting, AR camera, video diffusion
+- Idea: Use an AR phone as a virtual camera to block shots inside a generated 3D scene, then hand the footage to a video model for the final look.
+- What it is: Generated 3DGS environments act as a spatial reference for directing real-time AR camera moves; the capture is then restyled by a video model.
+- Technique: A tracked phone acts as a virtual camera inside a splat environment, recording its 6DoF pose path as a camera move, and the rendered pass is then restyled frame-by-frame with a video diffusion model.
+- Try it: Record the phone's camera pose path with AR Foundation, then use it in Unity to drive a virtual camera through a prebuilt scene and export the video. Twist: pass the exported video to a video stylization model to give it a hand-drawn look.
+
+#### Tap to launch orbs into a generated world — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2077641433855795594
+- Interaction: Play, Spatial Mapping
+- Platform & tech: Phone, Web, 8th Wall, three.js, SparkJS, World Labs
+- Idea: Overlay an AI-generated 3D world on a real room and tap to fire glowing orbs into it.
+- What it is: A WebAR scene built from a World Labs Gaussian splat of his room; tapping the phone fires glowing orbs that fly through the space.
+- Technique: A pre-generated Gaussian splat of the room is aligned to the SLAM world origin, and each tap spawns an emissive sphere at the camera position with a forward velocity vector, so projectiles appear to fly through the captured space.
+- Try it: Use three.js and WebXR to spawn glowing balls at the camera position and launch them along the line of sight, with a simple room model as the 'world'. Twist: make the balls bounce off walls or leave a spot of light where they hit.
+
+#### Touching grass: two-prompt WebAR — Ian Curtis (2026)
+- Video: https://x.com/XRarchitect/status/2072573377714471177
+- Interaction: Spatial Mapping, Hands & Body
+- Platform & tech: Phone, Web, 8th Wall, three.js, LLM coding
+- Idea: Two prompts produce an outdoor WebAR prototype: the AI writes the code, and you play with virtual objects right on the grass.
+- What it is: An outdoor WebAR prototype with SLAM tracking, built with two prompts to an AI coding model, where he drags virtual objects across real grass.
+- Technique: Outdoor SLAM with ground-plane detection lets a raycast from the touch point move an object along the detected plane, so dragged objects stay pinned to the grass.
+- Try it: Get an AI to write a WebAR drag-and-drop scene using only two or three prompts, and record each prompt and its result. Twist: make the dragged object leave a trail line on the grass.
+
+### Daito Manabe / Rhizomatiks
+
+*Artist, programmer and DJ; co-founder of Rhizomatiks*
+
+Daito Manabe and Rhizomatiks (with Motoi Ishibashi and choreographer MIKIKO / ELEVENPLAY) build live shows that mix drones, projection, motion capture and AR broadcast, including Perfume's stage shows and the Rio 2016 Tokyo handover.
+
+#### Nosaj Thing 'Eclipse/Blue' music video — Daito Manabe / Rhizomatiks (2013)
+- Video: https://www.youtube.com/watch?v=_woNBiIyOKI
+- Interaction: Projection, Hands & Body, Performance
+- Platform & tech: Projection, motion capture, projection mapping, openFrameworks
+- Idea: Motion-captured projections reshape themselves around the dancer's body in real time.
+- What it is: A dancer performs inside real-time projected graphics driven by motion capture, so the visuals wrap her body and the space live.
+- Technique: Motion capture of the dancer drives real-time openFrameworks graphics that are projected onto the stage and her body, with the projector calibrated to the capture volume.
+- Try it: Track a person with Kinect or MediaPipe Pose and project lines and particles onto the wall behind them that deform with their movement. Twist: the graphics only appear when the person is still, and dissolve faster the faster they move.
+
+#### Perfume at Cannes Lions — Daito Manabe / Rhizomatiks (2013)
+- Video: https://www.youtube.com/watch?v=UbLLIhCvTQ8
+- Interaction: Performance, Projection, Hands & Body
+- Platform & tech: Projection, motion capture, projection mapping, 3D scanning
+- Idea: A pop group pushes translucent screens around the stage while live projection merges with their moves.
+- What it is: Perfume performs with semi-translucent screens they move on stage; motion capture and a 3D-scanned venue let projections map onto the screens and dancers in real time, blending stage and virtual space.
+- Technique: Optical motion capture tracks the moving screens and dancers, and a 3D scan of the venue defines a virtual stage in which projector renders are updated per frame to stay mapped onto moving surfaces.
+- Try it: Put an ArUco or AR marker on a handheld whiteboard, track its position with a camera so the projector always casts the image onto the moving board, and choreograph a one-minute dance. Twist: when two boards come close, the image "flows" from one to the other.
+
+#### Seamless MR (hanacam test) — Daito Manabe / Rhizomatiks (2014)
+- Video: https://www.youtube.com/watch?v=FPMkIWUTVXo
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Desktop, camera tracking, real-time compositing
+- Idea: An MR test where a tracked camera blends CG seamlessly into a live scene.
+- What it is: A test of seamless mixed-reality video where a tracked camera composites CG into a live scene in real time.
+- Technique: A tracked camera (encoder or optical tracking) supplies real-time pose to a render engine whose virtual camera matches it, so CG is keyed and composited into the live feed without drift.
+- Try it: Use the phone's ARKit pose as a virtual camera in Unity to composite a CG object into live-action video, and compare how real it looks with and without shadows and occlusion. Twist: have the CG object only "peek" in from the edge of the frame, creating a presence that is there one moment and gone the next.
+
+#### border (Rhizomatiks Research x ELEVENPLAY) — Daito Manabe / Rhizomatiks (2015)
+- Video: https://www.youtube.com/watch?v=DdYw3ZZ0XLQ
+- Interaction: Performance, Portals & Worlds, Perception & Effects
+- Platform & tech: Headset, HMD, robotic wheelchairs, motion capture
+- Idea: Ride an automated wheelchair in a headset while real and virtual dancers weave past you.
+- What it is: Audience members ride automated wheelchairs wearing headsets whose view mixes live dancers with virtual ones, so they cannot tell which bodies are real.
+- Technique: Motion capture tracks both the audience wheelchairs and real dancers in a shared coordinate system, so HMD-rendered virtual dancers and scenery are registered precisely to the physical stage.
+- Try it: Place a virtual dancer in the classroom with HoloKit or phone AR, seat the viewer on a wheeled chair and have classmates push them along a fixed route while real and virtual dancers take turns appearing. Twist: the viewer cannot tell when a real dancer has replaced a virtual one, and has to guess afterward.
+
+#### drone + AR test — Daito Manabe / Rhizomatiks (2015)
+- Video: https://www.youtube.com/watch?v=Wvr81vk2STU
+- Interaction: Perception & Effects, Performance
+- Platform & tech: Desktop, drones, motion capture, AR compositing
+- Idea: Overlay AR graphics on drones in flight, in real time.
+- What it is: Tests where flying drones are tracked and AR graphics are composited onto them in real time, previewing AR for live drone performances.
+- Technique: Optical motion capture (e.g. retroreflective markers on drones) gives each drone's 6DoF pose, which drives CG attached to it and composited into the tracked camera view.
+- Try it: Stick an image marker on a remote-control car or a handheld object and use AR image tracking to overlay wings, trails and other graphics on it. Twist: have the trail record its complete path, ending up as a "motion painting".
+
+#### Dynamic VR Display — Daito Manabe / Rhizomatiks (2016)
+- Video: https://www.youtube.com/watch?v=G7ZQ4KiX1JE
+- Interaction: Perception & Effects, Gaze & Attention
+- Platform & tech: Desktop, head tracking, motion capture
+- Idea: Tracking the viewer's head and redrawing the image in real time merges flat screens and real objects into one 3D space.
+- What it is: A head-tracked display setup in which 3D graphics are re-rendered from the viewer's eye position in real time, so flat screens combined with physical objects read as a continuous 3D space.
+- Technique: Head tracking feeds an off-axis (asymmetric frustum) projection so each display renders the scene from the viewer's eye position, making flat screens behave like windows into a consistent 3D space.
+- Try it: Estimate head position with MediaPipe Face Mesh and build an off-axis projection in three.js so a laptop screen becomes a "window box" with depth. Twist: put an object or text in the box that only comes together from one particular angle.
+
+#### Fencing Visualized — Daito Manabe / Rhizomatiks (2016)
+- Video: https://www.youtube.com/watch?v=h2DXCAWI8gU
+- Interaction: Information & UI, Performance
+- Platform & tech: Desktop, computer vision, AR broadcast
+- Idea: Blade-tip trails drawn live over the broadcast make hard-to-see fencing visible.
+- What it is: An AR sports-broadcast system that tracks the tips of fencing swords and draws their trajectories over live footage so audiences can follow the fast bouts.
+- Technique: Computer vision (likely multi-camera marker-less tracking with deep learning) localises the sword tips in each frame, and their 3D trajectories are rendered as trails over the broadcast camera image.
+- Try it: Record the trajectory of a waving colored pen with MediaPipe Hands or color tracking, and overlay a fading band of light on the video. Twist: pick a fast motion you know well (bouncing a ball, typing, flipping pages) and make a "visualized broadcast" of it.
+
+#### live AR system test — Daito Manabe / Rhizomatiks (2016)
+- Video: https://www.youtube.com/watch?v=B-RHS6Y4Onk
+- Interaction: Performance, Spatial Mapping
+- Platform & tech: Desktop, camera tracking, real-time rendering
+- Idea: A live AR system that locks virtual graphics to the real stage during a live broadcast.
+- What it is: A test of a live AR system for stage shows, with virtual graphics anchored to the physical stage as the broadcast camera moves.
+- Technique: A broadcast camera with tracking (encoders or optical) streams its pose and lens data to a real-time engine that renders stage-anchored graphics matched to the camera's view.
+- Try it: Use a phone as the "broadcast camera" and add fixed virtual lights and scenery to a small tabletop stage in Unity AR while another classmate performs on it. Twist: make the virtual scenery change with the performer's voice volume.
+
+#### Fencing tracking and visualization system — Daito Manabe / Rhizomatiks (2017)
+- Video: https://www.youtube.com/watch?v=3W1_5io-NYQ
+- Interaction: Information & UI, Performance
+- Platform & tech: Desktop, computer vision, deep learning, motion capture
+- Idea: Fencing blade tips too fast for the eye are drawn live as trails over the broadcast.
+- What it is: An AR broadcast system (with Dentsu Lab Tokyo) that detects fencing sword tips too fast for the eye and overlays their trajectories live; later versions are markerless using deep learning.
+- Technique: High-speed cameras detect the sword tips (first with markers, later with a trained deep-learning keypoint detector), triangulate their 3D positions, and render trajectory trails over the broadcast feed.
+- Try it: Film a badminton swing or someone wiping a whiteboard in slow motion on a phone, and use color tracking or MediaPipe hand landmarks to draw the fast trajectory over the video. Twist: treat the trajectories as calligraphy and compare whose strokes look best.
+
+#### discrete figures (with Kyle McDonald) — Daito Manabe / Rhizomatiks (2018)
+- Video: https://www.youtube.com/watch?v=hauXQQhwbgM
+- Interaction: Performance, Hands & Body, Projection
+- Platform & tech: Projection, machine learning, drones, motion capture
+- Idea: Machine-learning-generated virtual dancers share the stage with real ones.
+- What it is: A dance performance mixing dancers, drones, projection and machine-learning 'generated dancers' that appear alongside and on the performers.
+- Technique: Motion capture of dancers trains or drives ML-generated virtual dancers, which are rendered into projection mapped onto stage elements and drones whose positions are tracked in the same space.
+- Try it: Record a classmate's dance skeleton data and generate a virtual partner in the projection that 'copies' them and gradually drifts off, sharing the stage with the real dancer. Twist: each round, the virtual partner generates from the previous round's deviations, and see how far it strays from the human.
+
+#### Squarepusher 'Terminal Slam' music video — Daito Manabe / Rhizomatiks (2020)
+- Video: https://www.youtube.com/watch?v=GlhV-OKHecI
+- Interaction: Portals & Worlds, Location & City, Voice & Sound
+- Platform & tech: Headset, diminished reality, computer vision
+- Idea: Put on MR glasses and Shibuya's ads are erased and replaced with music visuals.
+- What it is: Through mixed-reality glasses, Shibuya's billboards and ads are erased and replaced by glitching visuals synced to the music (diminished reality).
+- Technique: Diminished reality: the camera feed is analysed to detect billboard regions, which are masked, inpainted and replaced with music-synced visuals, then re-rendered into the headset view.
+- Try it: Use the phone camera to detect and cover text or logos in the frame (with color segmentation or image tracking), and fill them with rhythm-driven glitch graphics. Twist: replace the covered ads with blank space or sky to experience a city without ads.
+
+### Theo Watson
+
+*Artist; co-founder of openFrameworks and Design I/O*
+
+Artist and creative technologist, co-creator of openFrameworks, member of Graffiti Research Lab and F.A.T. Lab, and co-founder of the interactive studio Design I/O with Emily Gobeille.
+
+#### Daisies — Theo Watson (2005)
+- Video: https://vimeo.com/463536634
+- Interaction: Hands & Body, Projection
+- Platform & tech: Projection, computer vision
+- Idea: Flowers wilt under your feet and grow back after you leave.
+- What it is: A floor projection of daisies that wilt and die under visitors' feet and quickly grow back after they walk away; version 2.0 grows algorithmically generated flowers.
+- Technique: An overhead camera with background subtraction detects where feet are on the floor projection, and a per-flower state (height, health) decays under occlusion and regrows over time.
+- Try it: Use an overhead camera and floor projection to make a patch of grass that gets trampled and slowly grows back after people leave (p5.js or TouchDesigner). Twist: the shape of the flowers that grow after someone walks over depends on how long they stayed.
+
+#### Funky Forest — Theo Watson, Emily Gobeille (2007)
+- Video: https://vimeo.com/3872687
+- Interaction: Hands & Body, Tangible Objects, Projection
+- Platform & tech: Projection, openFrameworks, computer vision
+- Idea: Kids plant trees with their bodies and use real 'logs' to redirect a projected river to water the forest.
+- What it is: An interactive projected forest ecosystem: children grow trees by pressing their bodies into the forest and use physical logs and pillow 'rocks' to divert a digital stream to water them.
+- Technique: Overhead and frontal cameras segment children's bodies and tracked physical objects, which act as emitters and obstacles in a 2D fluid/particle stream simulation projected onto the floor and walls.
+- Try it: Project a flowing particle stream on the floor, use a camera to recognize cardboard boxes or books as movable barriers, and guide the water to trees at the edge of the screen. Twist: how a tree grows depends on which classmates the water it drank came from.
+
+#### L.A.S.E.R. Tag — Theo Watson (2007)
+- Video: https://www.youtube.com/watch?v=LtZq2q43Jkc
+- Interaction: Drawing & Making, Projection, Location & City
+- Platform & tech: Projection, openFrameworks, computer vision
+- Idea: Tag a whole building with a laser pointer: a camera tracks the dot and a projector paints giant strokes in real time.
+- What it is: Graffiti Research Lab's system for tagging buildings with a green laser pointer: a camera tracks the laser dot and a high-powered projector paints it as giant graffiti on the facade.
+- Technique: A camera watches the building, thresholds for the bright green laser dot, maps its position through a camera-to-projector homography, and draws strokes at that point with the projector.
+- Try it: Use a camera to track the bright dot of a laser pointer or phone flashlight and, after four-point calibration, paint thick strokes on a projected wall (p5.js or TouchDesigner). Twist: the stroke changes brush with drawing speed, dripping ink when slow and spraying paint when fast.
+
+#### Generative Graffiti — Theo Watson (2008)
+- Video: https://vimeo.com/463526242
+- Interaction: Projection, Location & City, Perception & Effects
+- Platform & tech: Projection, openFrameworks, computer vision
+- Idea: Particle graffiti grows out of a hotel's lit windows and is projected back onto the facade.
+- What it is: With Graffiti Research Lab: particles spawn from the lit windows of the Maritime Hotel in New York, attracted to each other and repelled by dark windows, projected back onto the building.
+- Technique: A camera image of the facade is thresholded to find lit windows, which act as particle emitters and attractors while dark windows act as repellers, projected back via camera-projector registration.
+- Try it: Take a night photo of a teaching building, use the lit windows as particle sources and the dark ones as repellers, and project the animation back onto the same wall or a model. Twist: the particles stand for the 'late-night energy' of the people inside, and they migrate when a window goes dark.
+
+#### Filmmuseum augmented sand sculpture — Theo Watson, Emily Gobeille (2009)
+- Video: https://vimeo.com/6521600
+- Interaction: Projection, Tangible Objects
+- Platform & tech: Projection, projection mapping, openFrameworks
+- Idea: Use projection to unveil the future film museum on a sand sculpture step by step.
+- What it is: An augmented projection that unveiled a five-metre sand sculpture of Amsterdam's future Film Museum building in stages using projection mapping.
+- Technique: Projection mapping aligns projector output to the physical sculpture using a 3D model or manually warped masks, then reveals textures and animations region by region.
+- Try it: Make a small building from clay or cardboard, use masks in TouchDesigner or MadMapper to align the projection with each face, and 'unveil' it in stages. Twist: have the projection tell the building's whole life, from construction to ruin.
+
+#### Knee Deep — Theo Watson, Emily Gobeille (2009)
+- Video: https://vimeo.com/8805152
+- Interaction: Hands & Body, Portals & Worlds
+- Platform & tech: Projection, openFrameworks, computer vision
+- Idea: Step into worlds of different scales and see yourself standing in oceans, cities and even planets.
+- What it is: Children stomp into projected worlds of different scales with their feet, seeing themselves composited into oceans, cities and planets from impossible points of view.
+- Technique: Chroma keying or background subtraction isolates children's feet and legs from an overhead camera, which are then composited at a different scale into pre-rendered or live 3D worlds.
+- Try it: Use MediaPipe body segmentation to cut out a classmate, scale them and composite them into a city aerial photo or a microscope image, then project it on the floor so everyone can 'step into' the picture. Twist: switch scale with every step, from an ant's view to a planet's.
+
+#### Terrarium — Theo Watson, Emily Gobeille (2009)
+- Video: https://vimeo.com/5269088
+- Interaction: Voice & Sound, Projection
+- Platform & tech: Projection, openFrameworks
+- Idea: Talk to the installation and your voice becomes food that keeps a virtual ecosystem alive.
+- What it is: A sonic ecosystem powered by visitors' voices: sounds enter through vents and are digested by creatures that grow and sustain life in the projected world.
+- Technique: Microphones feed amplitude and pitch features into an agent-based simulation, where incoming sounds become food particles and creatures grow according to what they consume.
+- Try it: Use p5.sound to turn sounds into 'food' particles that drop into a projected world, where simple creatures grow when they eat and starve when they do not. Twist: different pitches are different foods, and everyone uses their voices to 'feed' one shared species.
+
+#### Fat Tag, Meet Projector — Theo Watson (2010)
+- Video: https://vimeo.com/8617601
+- Interaction: Drawing & Making, Projection, Location & City
+- Platform & tech: Phone, Projection, iOS, openFrameworks
+- Idea: Finger graffiti on a phone goes straight onto a street wall: the simplest projection bombing.
+- What it is: The Fat Tag iPhone graffiti app wired straight into a pocket projector, turning finger-drawn tags into instant projection bombing on city walls.
+- Technique: Touch strokes from a phone drawing app are streamed (likely over OSC or network) to a laptop that renders them to a pico projector aimed at a wall.
+- Try it: Make a phone web drawing pad, stream strokes over WebSocket to a computer connected to a projector, and project them onto a wall. Twist: allow only one kind of symbol, and have the whole class build a 'tag map' together on the same wall.
+
+#### Rise and Fall — Theo Watson, Emily Gobeille (2010)
+- Video: https://vimeo.com/10078874
+- Interaction: Tangible Objects, Play
+- Platform & tech: Desktop, openFrameworks, marker tracking
+- Idea: Rotate a magazine cover in front of a webcam and the world on it unfolds a story.
+- What it is: An interactive front-and-back magazine cover for Boards Magazine: holding the printed cover to a webcam and rotating it steers a story world rendered on top of it.
+- Technique: Fiducial marker tracking on the printed cover estimates its 6-DoF pose from a webcam, and the cover's rotation angle drives gravity and scene state in a 3D world rendered on top.
+- Try it: Use 8th Wall or AR Foundation image tracking to recognize a poster you designed, let the poster's tilt decide which way a virtual figure slides, and give the front and back each their own world. Twist: flipping the poster makes the stories of the two worlds affect each other.
+
+#### Night Bright — Theo Watson, Emily Gobeille (2011)
+- Video: https://vimeo.com/29193895
+- Interaction: Hands & Body, Projection, Play
+- Platform & tech: Projection, openFrameworks, computer vision
+- Idea: Use your body as a flashlight to light up a night forest and follow sounds to find hidden animals.
+- What it is: Children use their bodies as flashlights to light up a projected nighttime forest and play hide-and-seek with nocturnal creatures they locate by sound.
+- Technique: Depth or camera-based body tracking positions a light mask on each child, and a projected night scene is revealed only inside those regions, with spatial audio cues pointing to hidden creatures.
+- Try it: Build an all-black projected scene, track people's hands or bodies with MediaPipe so imagery appears only where the 'body flashlight' shines, and use left/right audio channels to hint where animals are. Twist: once all the animals are found, they turn around and 'shine' on you.
+
+#### Puppet Parade — Theo Watson, Emily Gobeille (2011)
+- Video: https://vimeo.com/34824490
+- Interaction: Hands & Body, Projection, Shared & Social
+- Platform & tech: Projection, Kinect, openFrameworks
+- Idea: Work giant projected puppets with your arms while other kids walk into the scene to feed them.
+- What it is: Children puppeteer giant projected creatures with their arms via Kinect skeleton tracking, while others step into the scene to pet and feed them.
+- Technique: Kinect skeleton tracking maps the shoulder-elbow-wrist chain to the joints of a projected puppet, with separate body detection for others who walk in to interact.
+- Try it: Use MediaPipe Pose to map three arm joints onto a large projected marionette, and let a second person walk into the frame to feed it. Twist: two people each control half of the puppet's body and must cooperate to make it walk.
+
+#### Skataviz — Theo Watson, Emily Gobeille (2012)
+- Video: https://vimeo.com/53565956
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Phone, iOS, openFrameworks, gyroscope
+- Idea: Strap a phone to a skateboard and turn board flips into 3D data trails over the video.
+- What it is: An iPhone attached to a skateboard records its motion and visualizes the board's rotation and tricks as 3D data augmented over live video of the run.
+- Technique: The phone's gyroscope and accelerometer are fused (IMU sensor fusion) into an orientation stream that animates a 3D board model and data traces overlaid on synchronized video.
+- Try it: Strap a phone to a skateboard, bicycle or basketball, use the DeviceOrientation API in a web page to record its rotation, and overlay a 3D trail on the video. Twist: visualize the data as an animal that "calls out" when a trick happens.
+
+#### Weather Worlds — Theo Watson, Emily Gobeille (2013)
+- Video: https://vimeo.com/69084390
+- Interaction: Hands & Body, Portals & Worlds
+- Platform & tech: Projection, Desktop, openFrameworks, computer vision
+- Idea: Children step into the picture and gain the power to control weather, waving up storms and lightning.
+- What it is: Real-time green-screening places children inside a dynamic weather world where body gestures conjure storms, tornadoes and lightning.
+- Technique: Green-screen chroma keying composites children into a 3D weather scene, and gesture detection from the silhouette (arm raise, spin) triggers particle weather systems.
+- Try it: Use MediaPipe segmentation to cut people into a weather scene projected on the wall, where raising a hand brings rain and spinning brings wind. Twist: trigger weather with emotions, for example laughing clears the sky and covering your face brings fog.
+
+#### Connected Worlds — Theo Watson, Emily Gobeille (2015)
+- Video: https://vimeo.com/131585517
+- Interaction: Hands & Body, Tangible Objects, Shared & Social
+- Platform & tech: Projection, openFrameworks, Kinect
+- Idea: The whole hall is one ecosystem: children move real logs to steer water and plant seeds by hand, shaping six habitats.
+- What it is: A large-scale ecosystem at the New York Hall of Science: six projected habitats linked by a 3000 sq ft interactive floor and 45 ft waterfall; children move physical logs to route water and plant seeds with gestures.
+- Technique: Many Kinect depth cameras track the floor to detect physical logs and people, which redirect a projected 2D fluid simulation of water flowing between networked habitat simulations.
+- Try it: Project a stream of water onto the floor, use an overhead camera to detect a few colored boards that redirect the flow, and split the water between two small ecosystems on the wall (desert and rainforest). Twist: create a resource conflict between the two ecosystems so the class has to negotiate how the water is shared.
+
+#### Elements — Theo Watson, Emily Gobeille (2015)
+- Video: https://vimeo.com/197332386
+- Interaction: Hands & Body, Projection
+- Platform & tech: Projection, openFrameworks, depth cameras
+- Idea: Each person becomes an element and shapes the projected world with their body.
+- What it is: Visitors embody Earth, Wind, Fire or Water and sculpt a projected environment with their movements.
+- Technique: Depth cameras track each visitor's body and gesture velocity, which are mapped to element-specific particle and fluid systems (fire, wind, water, earth) in a projected environment.
+- Try it: Use MediaPipe Pose to assign one element to each of four classmates, so their arm speed spawns fire, wind, water or earth particles that are projected on the wall. Twist: when two elements meet they create something new, such as water plus fire making mist.
+
+#### Living Library — Theo Watson, Emily Gobeille (2016)
+- Video: https://vimeo.com/203193098
+- Interaction: Tangible Objects, Projection, Hands & Body
+- Platform & tech: Projection, openFrameworks, depth camera, laser projector
+- Idea: A giant real book whose illustrations move when you turn and touch the pages.
+- What it is: A giant projected book with real pages: a depth camera tracks hands so touching and turning pages triggers animated illustrations on the paper.
+- Technique: A depth camera over a blank physical book detects hand touches and page turns, and a projector calibrated to the book surface projects illustrations aligned to the pages.
+- Try it: Make a handmade book with blank pages, use a camera to detect which page is open (colored patches on the page corners help), and project the matching animation onto the page so whatever a finger touches moves. Twist: write a story whose ending changes only when you flip back to the previous page.
+
+#### Studio Play — Theo Watson, Emily Gobeille (2017)
+- Video: https://vimeo.com/203162198
+- Interaction: Hands & Body, Information & UI
+- Platform & tech: Projection, Desktop, openFrameworks, depth cameras
+- Idea: Use your body to uncover and zoom into museum artworks.
+- What it is: A gallery of installations at the Cleveland Museum of Art where families use movement to explore the collection, including a 4K wall that reveals and zooms artworks by body position.
+- Technique: Depth cameras estimate each visitor's position and distance from the wall, mapping it to pan and zoom within a high-resolution image of artworks.
+- Try it: Use MediaPipe to estimate how far a person is from the screen and whether they stand left or right, and zoom into the matching region of a high-resolution famous painting. Twist: the figures in the painting turn their heads to look at where you stand.
+
+#### FIELD — Theo Watson, Emily Gobeille (2019)
+- Video: https://vimeo.com/322353545
+- Interaction: Hands & Body, Projection
+- Platform & tech: Projection, openFrameworks
+- Idea: Pollinate a virtual flower field with your body, attract butterflies, and watch the seasons turn.
+- What it is: An ever-changing ecosystem where visitors pollinate the environment with their bodies: movement spreads color, makes flowers bloom and attracts butterflies across the seasons.
+- Technique: Camera or depth-based body tracking deposits color into a persistent field texture as visitors move, which drives flower spawning and butterfly agents that follow color gradients.
+- Try it: Use projection and body tracking so that people leave color where they walk, with flowers growing where color is dense and butterflies flying toward it. Twist: the scene slowly changes season in real time, and in winter flowers bloom only where two people stand close together.
+
+#### Painted Mirror — Theo Watson, Emily Gobeille (2020)
+- Video: https://vimeo.com/416474904
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Desktop, openFrameworks, depth camera
+- Idea: A mirror that paints: the longer you stand still, the clearer your portrait becomes in an illustrated world.
+- What it is: A mirror installation for Springville Public Library that separates you from your surroundings with a depth camera and paints your portrait into an illustrated world, sharpening as you stand still.
+- Technique: A depth camera segments the person from the background, and a stroke-based painterly renderer draws the portrait with brush size shrinking the longer the person stands still.
+- Try it: Use MediaPipe segmentation and p5.js brush particles to paint a person in an oil-painting style, where strokes get finer and clearer the longer they stay still and blur as soon as they move. Twist: replace the background with a scene from your school to make a graduation-photo mirror.
+
+#### Remnant — Theo Watson, Emily Gobeille (2020)
+- Video: https://vimeo.com/393540065
+- Interaction: Hands & Body, Projection
+- Platform & tech: Projection, openFrameworks
+- Idea: Reach out to gather matter into a star until it explodes into a supernova and leaves a black hole.
+- What it is: Visitors hold out their hands to gather matter into a star, pushing it through its lifecycle until it explodes into supernovae that leave nebulae, pulsars and black holes.
+- Technique: Hand tracking (likely depth camera) detects open-hand gathering gestures, attracting particles to a point whose mass accumulates and triggers staged particle effects for each stellar lifecycle phase.
+- Try it: Use MediaPipe Hands to detect a gathering gesture that pulls projected particles into a star, which explodes into a nebula once it is full. Twist: the number of participants decides the star's color and lifespan, so one person alone can only make a small red dwarf.
+
+### Jerome Etienne
+
+*Creator of AR.js; WebGL/three.js developer (learningthreejs)*
+
+French web developer behind learningthreejs and AR.js, the open-source library that brought 60fps marker-based AR to any phone browser in 2017.
+
+#### Augmented Gesture with Post-its — Jerome Etienne (2012)
+- Video: https://www.youtube.com/watch?v=k8R1y0oqiic
+- Interaction: Hands & Body, Tangible Objects
+- Platform & tech: Web, augmentedgesture.js, WebRTC
+- Idea: Stick Post-its on your fingers and they become a web gesture tracker.
+- What it is: Cheap coloured Post-it notes on the fingers become gesture trackers for controlling a web 3D scene.
+- Technique: Color thresholding on the webcam image finds the centroids of brightly colored Post-its on the fingers, which serve as low-cost gesture input points.
+- Try it: Track colored Post-its on your fingers with color thresholding in a web page and use their positions to rotate a three.js object. Twist: detect a "pinch" when the two colors get close to each other.
+
+#### Augmented Pong in 3D — Jerome Etienne (2012)
+- Video: https://www.youtube.com/watch?v=KGNjXXpKRpE
+- Interaction: Tangible Objects, Play
+- Platform & tech: Web, three.js, WebRTC
+- Idea: Hold physical markers as paddles and play 3D Pong in the browser.
+- What it is: A 3D Pong game in which the paddles are driven by physical markers held in front of the webcam.
+- Technique: Two fiducial markers are tracked from the webcam, and their screen positions are mapped to paddle positions in a three.js Pong game.
+- Try it: Track two marker cards with AR.js as paddles and use three.js to make a ball bounce back and forth between them. Twist: the ball speed changes with the distance between the two cards.
+
+#### Augmented Reality in Your Browser — Jerome Etienne (2012)
+- Video: https://www.youtube.com/watch?v=rzLuJxTraos
+- Interaction: Tangible Objects
+- Platform & tech: Web, JSARToolKit, WebRTC, three.js
+- Idea: Web AR already running in the browser back in 2012.
+- What it is: A 2012 screencast showing marker-based AR running in a desktop web browser via WebRTC webcam access and JSARToolKit.
+- Technique: WebRTC getUserMedia streams the webcam into a canvas, JSARToolKit detects square fiducial markers and estimates their pose, and three.js renders 3D content with that pose over the video.
+- Try it: Use AR.js (or MindAR) to recognize a printed Hiro marker in a web page and display a spinning 3D model. Twist: make the model change color according to how far the marker is tilted.
+
+#### Punch a Doom Character in AR — Jerome Etienne (2012)
+- Video: https://www.youtube.com/watch?v=Aa9945MGRL0
+- Interaction: Hands & Body, Play
+- Platform & tech: Web, three.js, WebRTC
+- Idea: Throw punches at the camera to hit a Doom monster in the browser.
+- What it is: A browser mini-game in which you punch a Doom monster that appears in your webcam view.
+- Technique: Frame differencing (motion detection) in regions of the webcam image registers punches at the monster's screen position, rendered in three.js over the video.
+- Try it: Build camera frame differencing in p5.js so the monster gets knocked flying when a big motion is detected in a certain region of the frame. Twist: the monster dodges, so you have to punch from different directions.
+
+#### AR Swimming Pool — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=2u3xB9bXozs
+- Interaction: Portals & Worlds, Tangible Objects
+- Platform & tech: Web, Phone, AR.js
+- Idea: A mini swimming pool with a rubber duck and fish sunk into the tabletop.
+- What it is: A tiny pool with a rubber duck and fish lives inside a marker on the desk, seen through a cut-out in the table.
+- Technique: A pool geometry sunk below the marker plane is framed by a depth-only occluder around the opening, creating the illusion of a cavity cut into the table.
+- Try it: Build a small pool model below a marker, use occluder faces to make it look like a hole dug into the table, and fill it with swimming fish. Twist: replace the pool with an underground ant nest.
+
+#### AR-Code: QR Code to AR in Under 5 Seconds — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=GSlGQ_Kh54I
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Web, Phone, AR.js
+- Idea: Scan a QR code and land in web AR in under five seconds.
+- What it is: Scanning a QR code opens a web page that immediately shows AR content on the same marker, measuring cold-start time to AR.
+- Technique: A QR code encodes the URL of a web AR page and doubles as the tracking marker (or sits beside one), so scanning it launches AR content aligned to the same printed code.
+- Try it: Generate a QR code that holds the address of an AR web page and print an AR.js marker next to it, so scanning it makes the content appear right on the marker. Twist: turn it into a "talking business card" for a course assignment.
+
+#### AR.js on Tango with WebAR Playground — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=pXF-eb6eB7c
+- Interaction: Spatial Mapping
+- Platform & tech: Web, Phone, AR.js, Tango, A-Frame
+- Idea: Markerless web AR running on a Tango phone.
+- What it is: Markerless web AR on a Google Tango phone, placing A-Frame objects directly on real surfaces.
+- Technique: Tango's depth camera and motion tracking provide 6DoF pose and surface hits in the browser, letting A-Frame entities be placed on real surfaces without markers.
+- Try it: Use the WebXR Hit Test API (Chrome on Android) to place an A-Frame object on the floor, and compare it with the AR.js marker approach. Twist: every tap on the floor plants a tree that grows.
+
+#### AR.js – Efficient Augmented Reality for the Web — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=0MtvjFg7tik
+- Interaction: Tangible Objects
+- Platform & tech: Web, Phone, AR.js, ARToolKit, three.js
+- Idea: Pure web AR with no install that runs at 60 fps even on an old phone.
+- What it is: Launch demo of AR.js: pure-JavaScript marker AR running at 60fps on an old phone, with no app install.
+- Technique: An Emscripten-compiled ARToolKit runs marker pose estimation in the browser and feeds the pose to a three.js camera, giving marker AR with no app install.
+- Try it: Write a marker AR web page in no more than 10 lines of HTML using AR.js and A-Frame, deploy it to GitHub Pages, and open it on a phone. Twist: design your own pattern marker to replace the default Hiro.
+
+#### Area Learning with Multi-Markers — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=ibzcbBLzDZU
+- Interaction: Spatial Mapping, Tangible Objects
+- Platform & tech: Web, Phone, AR.js
+- Idea: Several markers learned together let web AR cover a whole room.
+- What it is: Several markers scattered around a room are learned together so content stays anchored across a larger area, even under hand occlusion.
+- Technique: Relative poses between several markers are learned once, so any visible marker can recover the shared coordinate frame, keeping content anchored when others are occluded.
+- Try it: Stick four markers on a table, record their relative positions first, then show the same large model whenever any one of them is visible. Twist: cover markers with your hand and compare the stability of single-marker and multi-marker tracking.
+
+#### Augmenting Any Webpage with AR.js — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=q2IFgPYOpq8
+- Interaction: Information & UI
+- Platform & tech: Web, AR.js
+- Idea: Add one snippet to any web page and its content jumps out of the page.
+- What it is: A snippet that adds AR to an ordinary web page, so visitors see 3D content popping out of the page itself.
+- Technique: A JavaScript snippet overlays a transparent WebGL canvas on the page and ties 3D content to DOM elements (or a marker), so models appear to pop out of ordinary HTML.
+- Try it: Add a transparent three.js canvas to your portfolio page so a 3D object pops out of a certain image when it scrolls into view. Twist: use WebXR so the same page lets phone users place the object on their desk.
+
+#### Hatsune Miku Dancing in My Living Room — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=oXxqEoMNH0Y
+- Interaction: Performance, Spatial Mapping
+- Platform & tech: Web, Phone, AR.js, A-Frame, Tango
+- Idea: Hatsune Miku dances on your living room floor.
+- What it is: A dancing Hatsune Miku model performs on the living room floor using AR.js on Tango and A-Frame.
+- Technique: An MMD character with dance animation is loaded in A-Frame and placed on the floor using Tango's markerless tracking, so it stays fixed while the viewer walks around.
+- Try it: Use WebXR plane detection to put a dancing Mixamo character on the floor and play music. Twist: make the character's dance rhythm follow the beat detected by the microphone.
+
+#### Hole in the Wall with AR.js — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=gEHAs9pLIJY
+- Interaction: Portals & Worlds, Perception & Effects
+- Platform & tech: Web, Phone, AR.js
+- Idea: A single marker opens a hole in the wall that shows the space inside it.
+- What it is: A marker on a surface opens a convincing hole that reveals a virtual space inside the wall.
+- Technique: An inverted box rendered behind the marker plane is surrounded by an invisible depth-only occluder mesh, so the virtual interior is only visible through the opening.
+- Try it: Use three.js or AR.js to build a box opening upward below a marker, surrounded by depth-only occluder faces, forming a hole in the tabletop. Twist: put a small creature in the hole that peeks out.
+
+#### Hologram Bird in AR.js — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=xrsZuHpJEsA
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Web, Phone, AR.js
+- Idea: A Star Wars-style hologram bird jumps out of a business card to deliver a message.
+- What it is: A Star Wars-style hologram bird delivers a message from a marker, prototyping an AR business card.
+- Technique: A marker on a business card triggers an animated bird rendered with an additive, scanline hologram shader and synced audio message.
+- Try it: Use AR.js to show a small character with a scanline hologram shader on your own business-card marker, playing a 10-second self-introduction. Twist: the character says a different greeting depending on the time of day.
+
+#### Invisibility Cloak for AR.js — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=9xnORdOyLq8
+- Interaction: Portals & Worlds, Perception & Effects
+- Platform & tech: Web, Phone, AR.js
+- Idea: A Harry Potter-style invisibility cloak that makes the marker and the objects on it vanish.
+- What it is: A Harry Potter-style cloak effect that makes the marker and objects on it vanish.
+- Technique: An occluder mesh over the marker writes depth only, and a background patch (a captured or procedural texture) is drawn in its place so the marker and objects appear to vanish.
+- Try it: Place a plane above a marker that shows a pre-shot photo of the background, so small objects on the marker become "invisible." Twist: add a rippling distortion around the edge of the invisible area, like a magic cloak.
+
+#### Liquid Marker Matrix Style — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=N1LJQTHQXc0
+- Interaction: Perception & Effects
+- Platform & tech: Web, Phone, AR.js
+- Idea: The camera image around a marker ripples like liquid.
+- What it is: The camera image around a marker ripples like liquid, 'liquifying reality' in the style of The Matrix.
+- Technique: The video texture around the marker is remapped in a fragment shader with time-varying sinusoidal UV offsets centered on the marker pose, producing a ripple distortion.
+- Try it: Use a shader in three.js to apply a sine-wave ripple distortion to the camera image, centered on the marker. Twist: tap the screen to drop a new "water drop" at that spot.
+
+#### Measure It with AR.js — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=dIEZwmjuaUA
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Web, Phone, AR.js
+- Idea: Measure the distance between two AR markers live in the browser.
+- What it is: Measures the distance between two AR markers in the browser and draws it as a live ruler.
+- Technique: Two tracked markers each give a pose in camera space, and the distance between their origins is drawn as a line with a live numeric label.
+- Try it: Use two markers to measure the distance between two objects on a table and show the number live. Twist: play an alert sound when the distance reaches a set value, turning it into a "keep your social distance" game.
+
+#### Refraction in AR.js — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=2wySBEzetGg
+- Interaction: Perception & Effects
+- Platform & tech: Web, Phone, AR.js, three.js
+- Idea: Virtual glass objects refract the real scene and blend into reality.
+- What it is: Glass-like virtual objects refract the live camera feed so they blend into the real desk; a larger glass torus fills his apartment.
+- Technique: The live camera frame is used as an environment texture, and a refraction shader offsets its lookup by the surface normal so glass objects bend the real scene behind them.
+- Try it: In three.js with WebXR, use the camera image as an environment map and put a glass sphere with a refractive material on the table. Twist: shape the glass object as 3D letters of your own name.
+
+#### Two-Way AR Portal with A-Frame 360 — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=AI-g2wV9_VA
+- Interaction: Portals & Worlds
+- Platform & tech: Web, Phone, AR.js, A-Frame, Tango
+- Idea: A two-way portal: from outside you see a 360 world, and from inside you look back at the real room.
+- What it is: A walk-through portal door that shows a 360 world from outside and the real room from inside.
+- Technique: A stencil-masked door shows a 360 panorama from outside, and when the camera crosses the door plane the rendering inverts so the panorama surrounds the viewer and the real room is seen through the door.
+- Try it: Place a door with three.js and WebXR that shows a 360 panorama inside; after you walk through, the panorama surrounds you and the real room is visible through the door. Twist: use a panorama you shot yourself.
+
+#### Walking in VR Using AR.js Tracking — Jerome Etienne (2017)
+- Video: https://www.youtube.com/watch?v=DoR7usCBHNM
+- Interaction: Spatial Mapping, Hands & Body
+- Platform & tech: Web, Phone, AR.js, A-Frame
+- Idea: Borrow AR.js positioning to actually walk into the A-Frame logo in VR.
+- What it is: Uses AR.js positional tracking to physically walk into the A-Frame logo in virtual reality.
+- Technique: AR positional tracking drives the VR camera, so physical walking translates 1:1 into movement through a fully virtual A-Frame scene.
+- Try it: Track the phone's position with WebXR, replace the view with a fully virtual scene, and have students walk into a giant logo in the classroom. Twist: align the walls of the virtual scene with the real classroom walls so no one bumps into them.
+
+#### WebXR Studio on Augmented Website — Jerome Etienne (2018)
+- Video: https://www.youtube.com/watch?v=UryjzCDPLig
+- Interaction: Drawing & Making, Information & UI
+- Platform & tech: Web, Phone, WebXR, AR.js
+- Idea: Assemble AR scenes in the browser and publish them straight to an 'augmented website'.
+- What it is: A browser authoring tool that lets anyone compose AR scenes and publish them on an 'augmented website' viewable on any phone.
+- Technique: A browser editor serializes a scene graph of 3D assets and anchor settings to a URL, and a WebXR/AR.js viewer loads that description on any phone.
+- Try it: Build a simple editor page with A-Frame that generates a share link after you drag three objects into place, so anyone opening the link sees the same layout in AR. Twist: let visitors add an object too, so the scene keeps growing.
+
+### Zach Lieberman
+
+*Artist; co-founder of openFrameworks and the School for Poetic Computation (SFPC); MIT Media Lab*
+
+New York artist and educator who builds experimental drawing, animation and computer-vision tools with code. Co-creator of openFrameworks, co-founder of SFPC and YesYesNo, and runs the Future Sketches group at the MIT Media Lab.
+
+#### Drawn — Zach Lieberman (2005)
+- Video: https://vimeo.com/4732884
+- Interaction: Drawing & Making, Hands & Body, Tangible Objects
+- Platform & tech: Projection, Desktop, computer vision, openFrameworks
+- Idea: A camera 'lifts' ink off the paper, so hand-drawn shapes come alive and can be nudged by hand.
+- What it is: Ink drawn by hand on paper is lifted off the page by software that alters the live video signal, so painted forms appear to come alive and can be pushed around by the hand.
+- Technique: Background subtraction and thresholding segment dark ink blobs from an overhead camera of the paper, converting them into physics bodies that are rendered back over the live video, with the hand tracked as a separate occluding mask.
+- Try it: Film a sheet of white paper from above, threshold the ink into contours in openFrameworks or p5.js, and turn them into objects that fall and can be pushed by hand. Twist: let stroke thickness decide whether an ink shape floats away or sinks.
+
+#### The EyeWriter — Zach Lieberman, Theo Watson, Chris Sugrue (2009)
+- Video: https://www.youtube.com/watch?v=84H-xLrLvvk
+- Interaction: Gaze & Attention, Drawing & Making, Projection
+- Platform & tech: Projection, Wearable, eye tracking, openFrameworks
+- Idea: Graffiti drawn with the eyes: a paralyzed graffiti artist paints by eye tracking, and his work is projected live onto city buildings.
+- What it is: A low-cost eye tracker that let paralyzed graffiti artist TEMPT1 draw tags with his eyes; the tags were projected live onto buildings across Los Angeles.
+- Technique: An IR-illuminated camera on glasses tracks the dark pupil and corneal glint, and a calibration grid maps the pupil-glint vector to screen coordinates for drawing, with dwell time used as a click.
+- Try it: Use WebGazer.js or MediaPipe iris landmarks to build a web page for drawing with your eyes only, using a one-second gaze dwell to put the pen down or lift it, then project the result on a wall. Twist: forbid one classmate from using their hands and have them sign their name with their eyes.
+
+#### Face projection test — Zach Lieberman, Daito Manabe / Rhizomatiks (2010)
+- Video: https://www.youtube.com/watch?v=o-Ke6mu-F-c
+- Interaction: Face, Projection
+- Platform & tech: Projection, openFrameworks, FaceTracker
+- Idea: Project graphics straight onto a moving face so the face becomes a live screen.
+- What it is: Real-time projection mapping onto a moving face: a face tracker drives graphics projected directly onto the performer's skin.
+- Technique: A face tracker on a camera co-located with the projector detects landmarks, and a camera-projector homography (calibrated once) warps the rendered graphics so they land on the moving face.
+- Try it: Place a projector and camera side by side, detect a face with MediaPipe Face Mesh, and use four-point calibration to project graphics onto a classmate's face (mind the brightness and eye safety). Twist: project only dynamic textures that 'run down' the face, telling a short piece about emotion.
+
+#### Night Lights — Zach Lieberman (2010)
+- Video: https://vimeo.com/8525186
+- Interaction: Hands & Body, Projection, Location & City
+- Platform & tech: Projection, openFrameworks, computer vision
+- Idea: Turn a whole ferry building into a magnifier for the body, blowing up silhouettes and gestures five storeys high.
+- What it is: YesYesNo turned the five-storey Auckland Ferry Building into an interactive playground: visitors' silhouettes, hand gestures and phones controlled projections amplified across the facade.
+- Technique: Cameras segment visitors' silhouettes and hand gestures (background subtraction plus contour analysis), and phone input is received over the network, all mapped to graphics projection-mapped onto the building facade.
+- Try it: Use TouchDesigner or p5.js to enlarge people's silhouettes from a camera and project them onto classroom-building windows or a hallway wall, with a wave of the hand sending light sweeping across. Twist: add phone web control so people far away can also 'switch on the lights' on the wall.
+
+#### Chase No Face / BELL — Zach Lieberman (2011)
+- Video: https://vimeo.com/26649425
+- Interaction: Face, Projection, Performance
+- Platform & tech: Projection, Kinect, FaceTracker, openFrameworks
+- Idea: Every graphic on the faces in this music video was projected live, with no post-production.
+- What it is: A music video in which graphics are projected onto singer BELL's face in real time with a hacked Kinect, face tracker and LED projector, with no post-production.
+- Technique: A Kinect provides depth for head pose while a 2D FaceTracker fits landmarks, and a calibrated projector renders textures onto the singer's face in real time; the camera-projector pair is registered so no post-production is needed.
+- Try it: Use MediaPipe Face Mesh and a projector to make a live face-projection music video for a 30-second song, shot in one continuous take. Twist: switch to a different face "skin" for each line of lyrics, with the style decided by team members drawing lots.
+
+#### Reflection Study (interactive edition) — Zach Lieberman (2015)
+- Video: https://vimeo.com/159142972
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Projection, openFrameworks, computer vision
+- Idea: Move acrylic pieces on a light table and the software bounces simulated light off them to draw shapes and letters.
+- What it is: A light table where visitors move laser-cut acrylic pieces; the software simulates 2D light bouncing off the physical shapes to create typography and graphic forms.
+- Technique: A camera under or over the light table extracts the contours of acrylic pieces, and a 2D ray-tracing simulation bounces light rays off those polygon edges, projected back onto the table.
+- Try it: Shoot a few pieces of colored card from above, extract their outlines in p5.js, cast rays from a light source that bounce off the card edges, and project the result back onto the table. Twist: design a set of card shapes so the light rays end up spelling your initials.
+
+#### Hag-Seed interactive — Zach Lieberman (2016)
+- Video: https://vimeo.com/222236331
+- Interaction: Hands & Body, Projection
+- Platform & tech: Projection, openFrameworks
+- Idea: Turn the words of a novel into a projected scene you play with your body.
+- What it is: An installation with Margaret Atwood for the London Literature Festival: text from her novel Hag-Seed becomes projected scenes that visitors play with using their bodies.
+- Technique: Camera or depth-based body segmentation gives silhouettes and motion, which are used as collision shapes and forces for animated text particles in a projected scene.
+- Try it: Choose a poem, turn each word into a physics particle on a projection wall, and use the body outline from MediaPipe Selfie Segmentation to push the words apart or catch them. Twist: the lines fall into order only when two people work together to form a "container" with their bodies.
+
+#### Más Que la Cara — Zach Lieberman, Molmol Kuo (2016)
+- Video: https://vimeo.com/211271693
+- Interaction: Face, Perception & Effects
+- Platform & tech: Desktop, openFrameworks, face tracking, Paper.js
+- Idea: "More than a face": a magic mirror in public space that turns passers-by's faces into generative masks that follow their expressions.
+- What it is: A public installation in downtown Houston that tracks passers-by's faces and overlays dozens of generative, illustrated masks that move with their eyebrows, lips and head.
+- Technique: A 2D facial landmark tracker (FaceTracker-style) fits dozens of points to each face on a live camera, and vector-illustrated mask parts are skinned to eyebrow, lip and head landmarks so they deform with expression.
+- Try it: Draw a mask made only of geometric lines with MediaPipe Face Mesh and p5.js, with eyebrow and mouth landmarks driving the shapes. Twist: give each person a random new mask as soon as they come close, with 10 styles to "swap faces" for passers-by.
+
+#### Audio in AR space — Zach Lieberman (2017)
+- Video: https://vimeo.com/290238447
+- Interaction: Voice & Sound, Spatial Mapping
+- Platform & tech: Phone, ARKit, openFrameworks
+- Idea: Record sound into space: make noise as you walk to leave sound shapes, then walk back to play them in reverse.
+- What it is: Every sound Zach makes is recorded at the phone's position and drawn as a white blob in the air; walking back through the trail replays the sounds, as if scrubbing a record through space.
+- Technique: ARKit world tracking logs the phone's 6-DoF pose each frame alongside microphone buffers, so each audio chunk is stored at a 3D position and replayed when the camera comes back within a distance threshold of that point.
+- Try it: Record audio as you walk with Unity AR Foundation or WebXR, placing a small sphere scaled by volume at the phone's position every 0.5 seconds and saving the matching audio clip, then play each clip when you approach its sphere. Twist: keep only the ambient sound from moments when you are silent, making a "path of other people's voices."
+
+#### Weird Type — Zach Lieberman, Molmol Kuo (2018)
+- Video: https://www.youtube.com/watch?v=UzNCGqE9MhE
+- Interaction: Drawing & Making, Voice & Sound
+- Platform & tech: Phone, ARKit, openFrameworks
+- Idea: Use letters as a brush to write in real space, walk around them and warp them with sound.
+- What it is: An iOS AR app for writing and painting with animated typography in 3D space; type can follow your path, react to sound, explode, and be walked around.
+- Technique: ARKit camera pose supplies a 3D path that glyph outlines are laid along, and the glyph vertices are animated by per-frame noise, time, and microphone amplitude.
+- Try it: In three.js WebXR or Unity, place the letters of a sentence one by one in space along the phone's path, and make them shake or burst with microphone volume. Twist: choose a sentence that only reads correctly if you walk backward from a particular spot.
+
+#### Hide yourself — Zach Lieberman, Molmol Kuo (2019)
+- Video: https://x.com/zachlieberman/status/1142495123407855617
+- Interaction: Hands & Body, Portals & Worlds, Perception & Effects
+- Platform & tech: Phone, ARKit, people occlusion, openFrameworks
+- Idea: Use AR to hide a person from the frame, making the body vanish into the real scene.
+- What it is: An ARKit test with Molmol Kuo, made as ARKit 3 introduced people segmentation, playing with hiding a person inside the AR scene around them.
+- Technique: ARKit 3 people segmentation with depth produces a per-pixel human matte, which is used to occlude or replace the person with the reconstructed background behind them.
+- Try it: Use AR Foundation's Human Segmentation (or MediaPipe segmentation on the web) to replace people in the frame with a pre-shot background for an 'invisibility trick'. Twist: instead of making the person vanish completely, leave only their shadow or clothes, and tell a short story about presence.
+
+#### Weird Cuts — Zach Lieberman, Molmol Kuo (2019)
+- Video: https://www.youtube.com/watch?v=fU0iFi0PXxI
+- Interaction: Drawing & Making, Spatial Mapping
+- Platform & tech: Phone, ARCore, ARKit, openFrameworks
+- Idea: Collage camera 'paper cutouts' in space, like making a physical collage in mid-air.
+- What it is: An AR collage tool: you cut shapes out of the camera image and place the photographic cut-outs as floating layers in space to build assemblages.
+- Technique: A user-drawn polygon masks the current camera frame into a textured cut-out, which is placed as a quad at the phone's pose (or a fixed distance in front of it) using ARKit/ARCore world tracking.
+- Try it: Make AR scissors: circle a patch of the camera image on screen with your finger, turn it into a textured sliver that stays in mid-air, and build a spatial collage of at least five pieces. Twist: you may only cut one color or material, and must assemble a 'campus animal'.
+
+#### AR wallpaper lenses for Snap — Zach Lieberman (2020)
+- Video: https://x.com/zachlieberman/status/1334497448979521549
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Lens Studio, Snapchat
+- Idea: AR is the new wallpaper: cover a room's walls and surfaces with generative patterns.
+- What it is: Sketches for Zach's Snapchat lenses that wrap generative patterns across the walls and surfaces of a room like living wallpaper.
+- Technique: Lens Studio world mesh / plane detection supplies wall surfaces, and a generative shader with world-space UVs tiles animated patterns across them.
+- Try it: Lay a breathing procedural pattern over walls using plane detection in Lens Studio or AR Foundation, with a shader that uses world coordinates as UVs. Twist: the pattern changes with the room's ambient light or sound, turning a dorm wall into mood wallpaper.
+
+#### Weird Type skate trails — Zach Lieberman, Molmol Kuo (2020)
+- Video: https://x.com/zachlieberman/status/1271947807709069317
+- Interaction: Drawing & Making, Hands & Body
+- Platform & tech: Phone, ARKit, Weird Type
+- Idea: Someone else takes an AR text tool and finds a new trick: drawing a skateboard's path with words.
+- What it is: Skateboarder Christopher Ledwig uses the Weird Type app to leave a trail of text following his skateboard's motion through space (shared by Zach).
+- Technique: The app samples the phone's world-tracked pose each frame and emits typographic glyphs along that path, so moving the camera draws text in 3D.
+- Try it: Make a small tool that leaves a trail of text in the air as you move your phone, then ask classmates to use it while running, jumping or skateboarding. Twist: make the text content change with speed.
+
+#### Poem World (Snap Spectacles) — Zach Lieberman, Shantell Martin (2021)
+- Video: https://x.com/zachlieberman/status/1408879174429949953
+- Interaction: Drawing & Making, Location & City
+- Platform & tech: Headset, Snap Spectacles, Lens Studio
+- Idea: A poem you walk into: the words are laid out in space, and reading means walking.
+- What it is: A short poem by Shantell Martin laid out as lines of text in space that you read by walking through them, recorded through Snap's AR Spectacles.
+- Technique: World-tracked text meshes are placed along a path in Lens Studio; the reading order is set by where the wearer walks rather than by scrolling.
+- Try it: Break a short poem into words and phrases and place them in AR along a corridor or across a sports field, so reading becomes a walking route. Twist: some words appear only when you stop.
+
+#### Spark AR sketches (retrospective) — Zach Lieberman (2024)
+- Video: https://x.com/zachlieberman/status/1828438368734040339
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Spark AR
+- Idea: A look back at a series of instantly shareable face and world effects made in Spark AR.
+- What it is: A reel of the face and world effects Zach made for Instagram's Spark AR before the platform shut down: generative type, face distortions and drawn trails.
+- Technique: Face-mesh tracking and segmentation in Spark AR drive shader-based distortions and generative graphics that anyone can open instantly from a link.
+- Try it: Make a face effect in Lens Studio or Effect House that people understand at a glance, and send it to three people to try within 10 minutes. Twist: make the effect appear only when two people are in the frame together.
+
+### Laan Labs (Chris Laan)
+
+*Independent computer-vision & AR studio (AirMeasure, 3d Scanner App)*
+
+Small independent lab run by Chris Laan and Jason Laan that ships computer-vision and AR apps such as AirMeasure, 3d Scanner App and AirDraw.
+
+#### ARKit 3D Point Cloud House Walk-through — Laan Labs (Chris Laan) (2017)
+- Video: https://www.youtube.com/watch?v=Pb4uv4FSWKI
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, ARKit
+- Idea: Record every feature point ARKit sees, and a walk around the house grows into a point cloud.
+- What it is: Logs every raw ARKit feature point while walking through a house, revealing the building as a sparse point cloud with the camera path drawn in green.
+- Technique: Every frame's ARKit raw feature points and camera pose are accumulated into a persistent point buffer, then rendered as a point cloud with the camera trajectory as a line.
+- Try it: Accumulate all feature points with AR Foundation's ARPointCloudManager while recording the camera path, then shrink the point cloud onto a table to inspect it after one lap. Twist: color the points by capture time to reveal the walking order.
+
+#### ARSpray – AR Spray Paint — Laan Labs (Chris Laan) (2017)
+- Video: https://www.youtube.com/watch?v=xlvaMxTfwBg
+- Interaction: Drawing & Making, Spatial Mapping
+- Platform & tech: Phone, ARKit
+- Idea: Your phone becomes a spray can for graffiti on real walls.
+- What it is: Spray-paint graffiti onto real walls and floors with the phone as a virtual spray can.
+- Technique: Raycasts from the phone onto detected wall and floor planes stamp paint decals (or write into a surface texture) at the hit points, with spread and opacity based on distance.
+- Try it: Detect walls with vertical plane detection and, while the screen is held, keep stamping round decals at the ray hit point to create a spray-paint effect. Twist: the farther you are from the wall, the wider and fainter the spray.
+
+#### AirMeasure – AR Tape Measure — Laan Labs (Chris Laan) (2017)
+- Video: https://www.youtube.com/watch?v=z7DYC_zbZCM
+- Interaction: Spatial Mapping, Information & UI
+- Platform & tech: Phone, ARKit
+- Idea: An AR tape measure that sizes up the real world with two taps.
+- What it is: An early AR tape measure: tap two points on real surfaces to measure distance, later extended with floor plans, trajectories and building heights.
+- Technique: Two raycasts against detected planes or feature points give world-space hit positions, and the Euclidean distance between them is shown as a labeled line.
+- Try it: Tap twice with plane raycasts to get two points, draw a line between them, and show the distance in centimeters. Twist: convert the distance into "how many bananas long" or another playful unit.
+
+#### Avocado Toast with ARKit — Laan Labs (Chris Laan) (2017)
+- Video: https://www.youtube.com/watch?v=oikVikS2Ge0
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Phone, ARKit, computer vision
+- Idea: Recognize a real avocado and turn it into avocado toast.
+- What it is: A small computer-vision and ARKit test that detects a real avocado and replaces it with avocado toast.
+- Technique: An object detector (likely CoreML/Vision) finds the avocado in the 2D frame, and a raycast from its bounding-box center to the table plane places a 3D toast model at that spot.
+- Try it: Find a piece of fruit on the table with MediaPipe Object Detection or Lens Studio object recognition, and place a replacement model at its position. Twist: make the replacement the fruit's "future form," such as rotten or turned into juice.
+
+#### Drawing in 3D with ARKit — Laan Labs (Chris Laan) (2017)
+- Video: https://www.youtube.com/watch?v=bTHaEg-bnaU
+- Interaction: Drawing & Making
+- Platform & tech: Phone, ARKit
+- Idea: Use your phone as a brush to paint 3D strokes in the air of your room.
+- What it is: One of the first ARKit demos: a Tilt Brush-style prototype in which moving the phone leaves glowing strokes hanging in the room.
+- Technique: The camera pose from world tracking is sampled each frame at a point slightly in front of the lens, and these points are extruded into a line or tube mesh that stays fixed in world space.
+- Try it: In AR Foundation, add the point 20 cm in front of the camera to a LineRenderer while the screen is held, drawing light trails that hang in the air. Twist: make the line color change with movement speed or sound volume.
+
+#### Hiding Stuff with ARKit — Laan Labs (Chris Laan) (2017)
+- Video: https://www.youtube.com/watch?v=E0B-lcm0i1M
+- Interaction: Portals & Worlds, Perception & Effects
+- Platform & tech: Phone, ARKit
+- Idea: Cover an object with live textures of its surroundings to make it invisible.
+- What it is: Live textures captured from the surroundings are laid over real objects so they seem to vanish from the scene.
+- Technique: Camera frames of the surrounding surface are captured and projected onto proxy geometry covering the object (a diminished-reality inpainting trick), making it look like background.
+- Try it: First take a photo of the tabletop without the object, then project that photo onto a plane covering the object to make it "invisible." Twist: hide only half of it, as if it had been sliced off with a knife.
+
+#### Magic Floating iPhone — Laan Labs (Chris Laan) (2017)
+- Video: https://www.youtube.com/watch?v=1msfo48LN-o
+- Interaction: Perception & Effects, Tangible Objects, Portals & Worlds
+- Platform & tech: Phone, ARKit
+- Idea: Swap the real phone on the table for a virtual copy and make it levitate.
+- What it is: A real iPhone on the table is swapped for a virtual copy that lifts off and levitates, with particles in a second take.
+- Technique: A virtual iPhone model is placed exactly over the real one, while the real object is hidden by a background patch (likely a captured texture of the table), so the copy appears to lift off.
+- Try it: Photograph an empty part of the table and use it as a texture to cover a small real object, then place its 3D model in the same spot and let it slowly rise. Twist: make the object morph or shatter once it is in the air.
+
+#### Parallel Parking with AR — Laan Labs (Chris Laan) (2017)
+- Video: https://www.youtube.com/watch?v=XyrBtaeVvTs
+- Interaction: Location & City, Information & UI, Spatial Mapping
+- Platform & tech: Phone, ARKit
+- Idea: Measure the parking space from the curb first, then let AR guide your parallel parking.
+- What it is: A prototype AR guide that measures a parking spot from the sidewalk and shows whether and how the car will fit.
+- Technique: The user marks the corners of the parking gap by raycasting to the ground plane, and the measured length is compared to a car-sized bounding box shown in place.
+- Try it: Tap two points on the ground to measure the length of a gap, drop in a virtual box of a given size, and use red or green to show whether it fits. Twist: use it to check whether a piece of furniture fits into a corner of your dorm room.
+
+#### Realistic AR Brush Texture with Deep Learning — Laan Labs (Chris Laan) (2017)
+- Video: https://www.youtube.com/watch?v=9_2o5E1rmBI
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, ARKit, CoreML
+- Idea: A neural network turns photos into oil-paint brushwork and hangs them on real walls.
+- What it is: A neural network turns photos into painterly textures that are hung on real walls as AR paintings.
+- Technique: A style-transfer network (CoreML) converts a photo into a painted texture, which is applied to a framed quad placed on a detected vertical plane.
+- Try it: Generate a painting with an online style-transfer tool, hang it on a wall using vertical plane detection, and add a frame. Twist: photograph the wall itself, stylize it, and paste it back in place so the wall becomes a painting.
+
+#### AR Bocce Ball Measuring — Laan Labs (Chris Laan) (2018)
+- Video: https://www.youtube.com/watch?v=D7oKgWCopUw
+- Interaction: Tangible Objects, Play, Information & UI
+- Platform & tech: Phone, ARKit
+- Idea: Use AR to judge which bocce ball is closest to the target.
+- What it is: AirMeasure detects bocce balls on the lawn and shows which one is closest to the jack.
+- Technique: Ball positions are detected (likely by color segmentation or tap-to-mark) and projected onto the ground plane, then distances to the jack are computed and ranked.
+- Try it: Tap to mark a few real objects (such as coins) and a target point on the floor, and show which one is closest to the target. Twist: turn it into a referee for a bottle-cap flicking contest on the classroom floor.
+
+#### AR Roaches Crawling on Everything — Laan Labs (Chris Laan) (2018)
+- Video: https://www.youtube.com/watch?v=nnrK5ziihx8
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, 6D.ai, ARKit
+- Idea: Use real-time meshing to let virtual cockroaches crawl over every surface in the kitchen.
+- What it is: Using 6D.ai real-time meshing, virtual cockroaches scurry over and behind the actual objects in a kitchen.
+- Technique: 6D.ai real-time meshing provides a room mesh used both as an occlusion material and as a navigation surface, so agents crawl over and hide behind real objects.
+- Try it: Generate a room mesh with ARMeshManager on a LiDAR device, apply an occlusion material, and let small bugs crawl randomly along the mesh. Twist: make the bugs flee the phone's light (a ray from the screen center).
+
+#### ARKit + CoreML Foot Detection for AR Soccer — Laan Labs (Chris Laan) (2018)
+- Video: https://www.youtube.com/watch?v=kcsCf4SlFLs
+- Interaction: Hands & Body, Play
+- Platform & tech: Phone, ARKit, CoreML
+- Idea: Use a neural network to find your real foot and kick a virtual soccer ball.
+- What it is: A foot-segmentation neural net lets the player kick a virtual soccer ball with their real foot.
+- Technique: A foot-segmentation network produces a mask each frame, and the foot's estimated position is used as a kinematic collider that transfers velocity to a physics ball.
+- Try it: Track ankle positions with MediaPipe Pose, create a virtual ball in three.js on a web page, and kick it away when the foot gets close. Twist: turn it into a keepy-uppy counting game.
+
+#### ARKit 1.5 Vertical Planes and Meshes — Laan Labs (Chris Laan) (2018)
+- Video: https://www.youtube.com/watch?v=bkJtZaYoy98
+- Interaction: Spatial Mapping
+- Platform & tech: Phone, ARKit 1.5
+- Idea: Visualize the walls and irregular surface meshes that ARKit 1.5 detects in real time.
+- What it is: Visualises ARKit 1.5's wall detection and irregular surface meshes as they grow over a room.
+- Technique: ARKit 1.5 vertical plane detection and irregular plane-boundary polygons are rendered as semi-transparent meshes that update as the planes grow and merge.
+- Try it: Visualize horizontal and vertical planes with AR Foundation, giving each orientation its own color and showing the area. Twist: play a tone when a plane's area changes, turning the room scan into music.
+
+#### ARKit Home Robot — Laan Labs (Chris Laan) (2018)
+- Video: https://www.youtube.com/watch?v=NJKk2mXj6RU
+- Interaction: Tangible Objects, Spatial Mapping
+- Platform & tech: Phone, ARKit, Placenote, Romo
+- Idea: Build a home robot that finds its way with ARKit, from a discontinued Romo base and an iPhone.
+- What it is: A cheap home robot built from the discontinued Romo base and an iPhone, localised with ARKit and Placenote and driven from another phone.
+- Technique: The robot's iPhone runs ARKit with a Placenote persistent map for relocalization, so its pose is known in a shared map and remote commands are expressed as map-space targets.
+- Try it: Mount a phone on a remote-control car, run AR tracking, and send the car's position live to another phone for display. Twist: tap the floor on the other phone and have the car drive there on its own.
+
+#### ARHide — Laan Labs (Chris Laan) (2020)
+- Video: https://www.youtube.com/watch?v=xyeqd62AMUQ
+- Interaction: Portals & Worlds, Spatial Mapping
+- Platform & tech: Phone, ARKit, LiDAR
+- Idea: A LiDAR-era invisibility experiment that makes real objects vanish from view.
+- What it is: A LiDAR-era experiment that makes real objects in the scene disappear or turn translucent in AR.
+- Technique: The LiDAR scene mesh is used to cut out a real object's region, which is filled with background captured earlier or rendered with reduced alpha to make the object vanish or turn translucent.
+- Try it: Select a piece of furniture with the LiDAR mesh and cover it with a background texture you photographed in advance. Twist: make the object turn transparent gradually over time, as if fading away.
+
+#### Metal Particles v2 — Laan Labs (Chris Laan) (2020)
+- Video: https://www.youtube.com/watch?v=fH_KgOAxw6k
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, ARKit, LiDAR, Metal
+- Idea: Let Metal particles flow along the room surfaces scanned by LiDAR.
+- What it is: Metal-driven particle systems that flow over the LiDAR-scanned geometry of a real room.
+- Technique: GPU particles sample positions and normals from the LiDAR scene mesh (or depth map) so they flow and collide along the real room surfaces.
+- Try it: Emit particles from the AR mesh surface with Unity VFX Graph and let them flow over the furniture under gravity. Twist: make the particles flow in the direction the phone is moving.
+
+#### Augmented Reality 3D Gaussian Splatting in Real Time — Laan Labs (Chris Laan) (2023)
+- Video: https://www.youtube.com/watch?v=jfiG2tohCAo
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, ARKit, Metal, Gaussian splatting
+- Idea: Put moving people captured as Gaussian splats into AR space in real time.
+- What it is: A custom iOS Metal renderer places animated volumetric Gaussian-splat captures of people into the real world in AR.
+- Technique: Captured Gaussian-splat sequences are sorted and rasterized in a custom Metal renderer each frame and placed at an ARKit anchor, so volumetric people appear in the real room.
+- Try it: Capture a Gaussian splat of a person with Luma or Polycam and place it on the floor with three.js and WebXR (or a Unity plugin). Twist: capture several splats of the same person in different poses and switch between them in order as a stop-motion animation.
+
+#### AirDraw – Finger Paint AR for Vision Pro — Laan Labs (Chris Laan) (2024)
+- Video: https://www.youtube.com/watch?v=x_Vo7I8pc2s
+- Interaction: Drawing & Making, Hands & Body
+- Platform & tech: Headset, visionOS, RealityKit
+- Idea: Paint in the air with your finger inside Vision Pro.
+- What it is: Finger-painting in 3D space on Apple Vision Pro, later extended with the Logitech Muse stylus for 3D calligraphy and a voxel brush.
+- Technique: visionOS hand tracking gives fingertip joint positions each frame, and a pinch gesture starts appending those points to a stroke mesh in RealityKit.
+- Try it: Track the index fingertip on a web page with MediaPipe Hands and leave 3D lines in a three.js scene while pinching. Twist: swap the brush for voxel cubes and build blocks in mid-air.
+
+### Kitasenju Design (Takayuki Watanabe)
+
+*Programmer & digital artist; real-time CG studio*
+
+One-person studio of programmer-artist Takayuki Watanabe that experiments with real-time visual expression and ships AR effect apps like MEISAI and SUPER SLIT SCAN.
+
+#### JIDO-RHYTHM Selfie Music Video — Kitasenju Design (Takayuki Watanabe) (2018)
+- Video: https://www.youtube.com/watch?v=aMnTfzUd0z8
+- Interaction: Face, Voice & Sound, Perception & Effects
+- Platform & tech: Phone, ARKit, face tracking
+- Idea: A selfie music video where your tracked face warps to the beat.
+- What it is: A selfie music-video app that deforms and animates your tracked face in time with the music.
+- Technique: ARKit face tracking provides a face mesh whose vertices are displaced by audio-analysis values (beat and amplitude), so the face deforms in time with music.
+- Try it: Use Lens Studio or MediaPipe Face Mesh to build a filter that stretches the face to the music's beat. Twist: drive the deformation with your own humming instead of background music.
+
+#### ARKit3 Body Tracking Effects — Kitasenju Design (Takayuki Watanabe) (2019)
+- Video: https://www.youtube.com/watch?v=T5KMWPw47i0
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Phone, ARKit 3, Unity
+- Idea: Hang generative graphics on the body skeleton that ARKit 3 tracks.
+- What it is: Generative graphics attached to a tracked human skeleton follow a dancer's movements.
+- Technique: ARKit 3 body tracking provides a 3D skeleton, and generative meshes and trails are attached to joint transforms so they follow the dancer.
+- Try it: Track full-body joints with MediaPipe Pose and attach colorful trails to the wrists and ankles. Twist: each joint triggers the sound of a different instrument.
+
+#### AR_Glitch — Kitasenju Design (Takayuki Watanabe) (2019)
+- Video: https://www.youtube.com/watch?v=RENlFmMSk5w
+- Interaction: Perception & Effects
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Make the real world tear apart in generative glitches across space.
+- What it is: A generative glitch effect that tears and displaces the live camera image around the space.
+- Technique: A full-screen shader slices the camera image into blocks and offsets them with noise-driven displacement and RGB channel splitting, likely modulated by device motion.
+- Try it: Write a glitch shader in Unity or three.js that offsets camera image blocks and splits RGB channels. Twist: the harder the phone shakes, the stronger the glitch.
+
+#### Particles Face — Kitasenju Design (Takayuki Watanabe) (2019)
+- Video: https://www.youtube.com/watch?v=cKKZsk5yi98
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, ARKit, Unity, compute shader
+- Idea: Break a tracked face apart into a flowing cloud of particles.
+- What it is: The tracked face dissolves into a flowing compute-shader particle cloud.
+- Technique: Face-mesh vertices are sampled as spawn points for a compute-shader particle system, and curl noise advects the particles away so the face appears to dissolve.
+- Try it: Use MediaPipe Face Mesh vertices as particle emitters and let the particles drift away on noise in three.js. Twist: the whole face dissolves when the mouth opens and gathers again when it closes.
+
+#### Pixelation with Human Segmentation — Kitasenju Design (Takayuki Watanabe) (2019)
+- Video: https://www.youtube.com/watch?v=efjXnjwfAYY
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Phone, ARKit 3, Unity
+- Idea: Cut people out of the frame and turn them into flowing pixel mosaics.
+- What it is: People are cut out of the scene with ARKit3 segmentation and re-rendered as moving pixel mosaics.
+- Technique: ARKit 3 person segmentation outputs a human stencil mask, and a shader pixelates only the masked region of the camera image.
+- Try it: Cut out people with MediaPipe Selfie Segmentation and pixelate only the person region. Twist: the pixel block size changes with the person's distance from the camera.
+
+#### $100 Wallpaper Using ARKit — Kitasenju Design (Takayuki Watanabe) (2020)
+- Video: https://www.youtube.com/watch?v=XHHp4QnZ8qY
+- Interaction: Spatial Mapping, Portals & Worlds
+- Platform & tech: Phone, ARKit, LiDAR
+- Idea: Give a real room new virtual wallpaper with LiDAR.
+- What it is: Re-skins the walls of a real room with virtual wallpaper using LiDAR scene geometry.
+- Technique: Wall-classified LiDAR mesh faces receive a triplanar or world-space UV texture, with people occlusion so the wallpaper sits behind people in the room.
+- Try it: Use vertical plane detection to find walls, apply a repeating wallpaper pattern, and turn on people occlusion. Twist: the wallpaper pattern slowly flows or changes color over time.
+
+#### AR Drawing — Kitasenju Design (Takayuki Watanabe) (2020)
+- Video: https://www.youtube.com/watch?v=X7-xd3Csz3g
+- Interaction: Drawing & Making
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Draw stylized 3D lines in the air with your phone.
+- What it is: Strokes drawn with the phone hang in space as stylised 3D lines.
+- Technique: Camera positions sampled while touching are converted into ribbon or tube meshes with stylized shading, anchored in world space.
+- Try it: Record the phone's movement path with AR Foundation to generate a ribbon mesh and add a cartoon outline shader. Twist: finished lines slowly sway in a virtual wind.
+
+#### Fast Plane Detection and Classification with LiDAR — Kitasenju Design (Takayuki Watanabe) (2020)
+- Video: https://www.youtube.com/watch?v=hMQSgJR3bIs
+- Interaction: Spatial Mapping
+- Platform & tech: Phone, ARKit 3.5, LiDAR
+- Idea: Visualize LiDAR instantly recognizing floors, walls, ceilings and furniture.
+- What it is: Visualises the LiDAR iPad Pro instantly classifying floor, walls, ceiling and furniture as coloured surfaces.
+- Technique: ARKit scene reconstruction on LiDAR provides per-face semantic classification (floor, wall, ceiling, table, seat), which is visualized by coloring mesh faces by class.
+- Try it: Read mesh classifications with AR Foundation's ARMeshManager and give floors, walls and tables different colors. Twist: place a character that sits down only on seat-class surfaces.
+
+#### MEISAI – AR Filter App — Kitasenju Design (Takayuki Watanabe) (2020)
+- Video: https://www.youtube.com/watch?v=xivbKi_somg
+- Interaction: Perception & Effects, Hands & Body
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A generative AR filter app that rewrites people and space in real time, like camouflage.
+- What it is: An iOS AR effect app offering camouflage-like generative filters that reshape people and space in real time.
+- Technique: Person segmentation and depth masks drive full-screen shaders that re-texture people and space with generative camouflage patterns in real time.
+- Try it: Use person segmentation to replace the person's area with texture sampled from the surrounding background, making a camouflage invisibility filter. Twist: you stay invisible only while standing still and reappear as soon as you move.
+
+#### Minecraft Filter — Kitasenju Design (Takayuki Watanabe) (2020)
+- Video: https://www.youtube.com/watch?v=-W8hKtByxEw
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, ARKit 4, LiDAR, Unity
+- Idea: Render the real room around you in Minecraft-style blocks.
+- What it is: A LiDAR filter that renders the surrounding room as blocky Minecraft-style geometry.
+- Technique: Scene depth or mesh is voxelized and each voxel is textured by sampling the camera color at its projected position, giving a blocky Minecraft-like rendering.
+- Try it: Voxelize the room mesh and color each block with the matching color from the camera image to make a block-style room. Twist: only a spherical zone in front of the phone turns into blocks.
+
+#### Physics Simulation with ARKit 3.5 — Kitasenju Design (Takayuki Watanabe) (2020)
+- Video: https://www.youtube.com/watch?v=40v1iKu4Sgk
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Phone, ARKit 3.5, LiDAR, Unity
+- Idea: Virtual objects collide and pile up realistically on LiDAR-scanned furniture.
+- What it is: Virtual objects bounce and pile up on the LiDAR-scanned furniture and floor.
+- Technique: The LiDAR scene mesh is used as a MeshCollider, so rigidbodies spawned in Unity bounce off and pile up on real furniture.
+- Try it: Add a MeshCollider to the AR mesh and tap the screen to throw balls from the camera position so they land on the real sofa. Twist: you score only when you hit a particular piece of furniture.
+
+#### Realtime Boxelization with ARKit4 and LiDAR — Kitasenju Design (Takayuki Watanabe) (2020)
+- Video: https://www.youtube.com/watch?v=A1l5fc1FAwE
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, ARKit 4, LiDAR, Unity
+- Idea: Voxelize the whole room, people included, into blocks in real time.
+- What it is: The whole room, including people, is converted in real time into a field of voxel boxes.
+- Technique: The depth map is unprojected to world points each frame and quantized into a voxel grid, which is rendered as GPU-instanced cubes.
+- Try it: Unproject an iPhone depth map into points, snap them to a 5 cm grid, and render them as blocks with GPU instancing. Twist: make the block size change with the music volume.
+
+#### Unity-chan and Occlusion — Kitasenju Design (Takayuki Watanabe) (2020)
+- Video: https://www.youtube.com/watch?v=8Uj2dfQS8FU
+- Interaction: Spatial Mapping, Performance
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A virtual character is correctly hidden behind real people and furniture.
+- What it is: A dancing Unity-chan character is correctly hidden by real people and furniture using ARKit depth occlusion.
+- Technique: ARKit people occlusion and LiDAR environment depth are used in AR Foundation's AROcclusionManager, so the depth test hides the character behind real people and furniture.
+- Try it: Turn on AROcclusionManager in AR Foundation so a dancing character is correctly hidden behind people and chairs. Twist: when the character is blocked, it pokes its head out to peek.
+
+#### Virtual Flowers Using ARKit — Kitasenju Design (Takayuki Watanabe) (2020)
+- Video: https://www.youtube.com/watch?v=8B76A9r89ZM
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, ARKit, LiDAR
+- Idea: Generative flowers grow and bloom along the room's surfaces.
+- What it is: Generative flowers sprout and bloom across the scanned surfaces of a room.
+- Technique: Points are sampled on the scanned mesh surface with their normals, and procedural flower instances grow along those normals with animated scale.
+- Try it: Randomly sample points on an AR mesh or plane and grow flowers along the normals that get bigger over time. Twist: flowers grow only where the phone camera has been aimed for more than three seconds.
+
+#### Drawing in the Air — Kitasenju Design (Takayuki Watanabe) (2021)
+- Video: https://www.youtube.com/watch?v=CEEqp9RKoLU
+- Interaction: Drawing & Making
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Lines drawn in the air become 3D ribbons that stay in the room.
+- What it is: Lines drawn in mid-air settle into the room as persistent 3D ribbons.
+- Technique: Strokes are recorded as world-space points from the camera pose and converted into ribbon meshes that persist at their anchors (likely with physics-based settling).
+- Try it: Draw ribbons in the air with AR Foundation and, once you let go, let them drift down gently under gravity onto the floor plane. Twist: after landing, the ribbons turn into flowers or words.
+
+#### SUPER SLIT SCAN — Kitasenju Design (Takayuki Watanabe) (2022)
+- Video: https://www.youtube.com/watch?v=y3HyKMhGeTI
+- Interaction: Perception & Effects, Hands & Body
+- Platform & tech: Phone, Projection, Unity, 3D texture shader
+- Idea: Spread time across the frame with slit-scan and turn people into warped sculptures of space and time.
+- What it is: A slit-scan camera app that smears time across the frame, turning moving people into stretched, warped sculptures.
+- Technique: Recent camera frames are stored in a 3D texture (ring buffer), and a shader samples each pixel row or column from a different time slice to produce slit-scan distortion.
+- Try it: Store the last 120 camera frames in p5.js or three.js and take each pixel row from a different frame to create a time-scan effect. Twist: distribute the time offset by distance from the center of the frame instead.
+
+#### Kohkoku: Reality and Illusion AR — Kitasenju Design (Takayuki Watanabe) (2023)
+- Video: https://www.youtube.com/watch?v=_2GHZNGRqwI
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Phone, AR, image tracking
+- Idea: An AR piece for the 'reality and illusion' issue of Kohkoku magazine that makes the printed pages move on a phone.
+- What it is: AR artwork for the Japanese magazine Kohkoku's 'reality and illusion' issue, animating printed pages through the phone.
+- Technique: Printed magazine pages are registered as tracking images, and animations or 3D elements are rendered on the tracked page pose.
+- Try it: Use 8th Wall or MindAR to recognize a poster you designed, and make its elements lift off the paper and move. Twist: when the poster is flipped, reveal a hidden second layer of content.
+
+### Niantic (John Hanke)
+
+*Game studio; makers of Ingress, Pokémon GO and Peridot*
+
+Spun out of Google in 2015 under John Hanke, Niantic built the location-based AR games Ingress and Pokémon GO and the Lightship AR platform.
+
+#### Ingress — Niantic (John Hanke) (2012)
+- Video: https://www.youtube.com/watch?v=92rYjlxqypM
+- Interaction: Location & City, Shared & Social, Play
+- Platform & tech: Phone, GPS, Android, iOS
+- Idea: Real city landmarks become portals fought over by two factions, and walking is the gameplay.
+- What it is: A location-based sci-fi game where two factions capture real-world landmarks as 'portals' by walking to them with a phone and link them into territory control fields.
+- Technique: GPS location is matched against a database of geotagged landmarks, and a proximity radius decides when a player can interact with a portal, making the map itself the AR layer.
+- Try it: Mark 5 "strongholds" on a campus map and use the browser Geolocation API to check whether a player is within 30 meters, capturing a stronghold on arrival. Twist: when two neighboring strongholds belong to the same side, they automatically link into territory.
+
+#### Pokémon GO — Niantic (John Hanke) (2016)
+- Video: https://www.youtube.com/watch?v=2sj2iQyBTQs
+- Interaction: Location & City, Play, Shared & Social
+- Platform & tech: Phone, GPS, Unity
+- Idea: Pokémon show up on your street corner, and you collect them by walking and using the camera.
+- What it is: Players walk their neighbourhood to find Pokémon that appear on the camera view over the real street, then throw Poké Balls to catch them; gyms and raids gather players at landmarks.
+- Technique: GPS and spawn tables place creatures near map locations, and the encounter screen overlays the creature on the camera feed using gyroscope orientation rather than full SLAM.
+- Try it: Use the gyroscope to control a character overlaid on the camera image that can be seen only when you face the right direction, and swipe to throw a ball and catch it. Twist: the character appears only in certain weather or at certain times.
+
+#### Pokémon GO AR+ — Niantic (John Hanke) (2017)
+- Video: https://www.youtube.com/watch?v=E7nwr6sA6Es
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Pokémon stand on the real ground, and you have to sneak up to catch them.
+- What it is: An ARKit mode where Pokémon are anchored on the ground at real scale; walking closer can startle them, so players sneak up before throwing.
+- Technique: ARKit plane detection anchors the creature at real scale on the ground, and the camera's distance and approach speed to the anchor drive a flee behavior.
+- Try it: Place a small animal on the ground with AR Foundation that runs away if the phone approaches too fast, so you can only touch it by moving in slowly. Twist: it trusts you more when you crouch down low.
+
+#### Codename: Neon — Niantic (John Hanke) (2018)
+- Video: https://www.youtube.com/watch?v=C0LAPeZ1Cc4
+- Interaction: Shared & Social, Play, Hands & Body
+- Platform & tech: Phone, Niantic Real World Platform, shared AR
+- Idea: Several people on the same lawn see the same AR laser battle, sharing reality with low latency.
+- What it is: A real-time multiplayer AR laser-tag prototype: players in the same park shoot energy at each other, collect pellets and dodge shots that all players see in the same space.
+- Technique: Players share a low-latency multiplayer session with a common anchor, so each phone's pose and fired projectiles are synchronized in the same world coordinates.
+- Try it: Use Unity Netcode to let two phones fire energy balls at each other in the coordinate system of a shared image marker, scoring when a shot hits the other phone's position. Twist: energy pellets scattered on the ground disappear for both players once picked up.
+
+#### Codename: Tonehenge — Niantic (John Hanke) (2018)
+- Video: https://www.youtube.com/watch?v=DD-slvV3VEc
+- Interaction: Shared & Social, Play
+- Platform & tech: Phone, Niantic Real World Platform, shared AR
+- Idea: A few people gather around and work the same AR stone circle together to solve a puzzle.
+- What it is: A cooperative AR puzzle prototype in which several players standing around the same spot manipulate a shared virtual stone circle together in real time.
+- Technique: A shared anchor places one virtual structure for all players, and each player's input on a shared object state is replicated in real time so the puzzle needs coordinated action.
+- Try it: Place a shared multiplayer AR stone circle where each person can rotate only one stone, and it opens only when all are aligned. Twist: a stone can be turned only when everyone is looking at it at the same time.
+
+#### Real World Platform Occlusion Demo (Pikachu & Eevee) — Niantic (John Hanke) (2018)
+- Video: https://www.youtube.com/watch?v=0Y13DxRANO0
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Deep learning depth, Niantic Real World Platform
+- Idea: Use deep learning so virtual Pokémon are hidden by real passers-by and objects and truly blend into reality.
+- What it is: A research demo by Niantic and Matrix Mill in which Pikachu and Eevee run around a plaza and correctly disappear behind real people, planters and benches using learned depth.
+- Technique: A neural network estimates per-pixel depth from the camera image, and virtual characters are depth-tested against it so real people and objects occlude them.
+- Try it: Turn on human occlusion or environment depth occlusion in AR Foundation and have a character run around your classmate. Twist: switch occlusion off on purpose and take a set of before-and-after screenshots.
+
+#### Harry Potter: Wizards Unite — Niantic (John Hanke) (2019)
+- Video: https://www.youtube.com/watch?v=0pThkmngqJE
+- Interaction: Location & City, Drawing & Making, Play
+- Platform & tech: Phone, ARKit, ARCore, Unity
+- Idea: Trace spell gestures on real streets to free magical objects scattered around the city.
+- What it is: A location-based AR game with Warner Bros. where players trace spell glyphs on screen to free magical 'Foundables' that appear over the real world.
+- Technique: Touch-path gesture recognition compares the traced stroke against template glyphs and scores accuracy and speed, with the encounter object overlaid on the camera view.
+- Try it: Implement simple gesture-path recognition (such as the $1 Recognizer) so that drawing the right symbol releases an object in AR. Twist: have students design three new symbols and their effects.
+
+#### Pokémon GO Snapshot — Niantic (John Hanke) (2019)
+- Video: https://www.youtube.com/watch?v=Htsbu7ka5rI
+- Interaction: Perception & Effects, Spatial Mapping, Play
+- Platform & tech: Phone, ARKit, ARCore
+- Idea: Take photos of your Pokémon in the real world, with the odd wild Pokémon photobombing.
+- What it is: An AR photo mode where players place their Pokémon in the real world, approach and pose it, and take pictures; wild Pokémon sometimes photobomb the shot.
+- Technique: A character is placed on a detected plane, and a photo mode lets the user move closer and frame the shot, with scripted random events adding a second character.
+- Try it: Build an AR photo mode where a 'photobomber' has a 20% chance of popping up when a picture is taken. Twist: the photobomber acts differently depending on whether a face is in the frame.
+
+#### Pokémon GO Buddy Adventure — Niantic (John Hanke) (2020)
+- Video: https://www.youtube.com/watch?v=W0W00MaCDBY
+- Interaction: Play, Spatial Mapping, Location & City
+- Platform & tech: Phone, ARKit, ARCore
+- Idea: Turn a Pokémon into an AR companion that walks with you and that you can feed, play with and photograph.
+- What it is: Buddy Pokémon follow the player and can be viewed in AR, where players feed them, play with them and take snapshots; the bond grows as you walk together.
+- Technique: An animated companion is placed on a detected plane, and touch interactions such as feeding and petting change a persistent affinity value that also grows with step count.
+- Try it: Make a small AR pet whose affinity rises when you tap to feed it and swipe to pet it, unlocking a new move once affinity passes a threshold. Twist: affinity also grows with the number of steps you walk each day.
+
+#### Pokémon GO Shared AR Experience — Niantic (John Hanke) (2020)
+- Video: https://www.youtube.com/watch?v=4PGAqkLoflY
+- Interaction: Shared & Social, Spatial Mapping
+- Platform & tech: Phone, Niantic Lightship, shared AR
+- Idea: Nearby players enter the same AR scene and watch their buddy Pokémon play together.
+- What it is: Nearby trainers join one shared AR session in which their buddy Pokémon appear together in the same real-world scene, so friends can play and take photos together.
+- Technique: Nearby phones localize to a common anchor (via Lightship shared AR) so each player's companion is spawned at a shared pose and seen consistently by everyone.
+- Try it: Align two phones with a shared image marker, have each release a pet, and make each pet appear on the other screen too and greet the other pet. Twist: when the two pets come close, they perform a combined move together.
+
+#### Pikmin Bloom — Niantic (John Hanke), Nintendo (2021)
+- Video: https://www.youtube.com/watch?v=ihMfEeL8PGs
+- Interaction: Location & City, Play
+- Platform & tech: Phone, ARKit, ARCore
+- Idea: Every step plants flowers in the city, and Pikmin follow you on your walk in AR.
+- What it is: A walking game made with Nintendo: Pikmin sprout from your steps, follow you through the city and plant flowers along the path you walk, visible in AR.
+- Technique: Pedometer and GPS trail data are drawn as a flower path on the map, and AR mode places followers on the ground plane behind the camera position.
+- Try it: Record the GPS track of a walk, draw it on a map as a flower path, and have a small character follow behind you in AR. Twist: the kind of flower depends on the type of place you were passing.
+
+#### Pokémon GO AR Mapping — Niantic (John Hanke) (2021)
+- Video: https://www.youtube.com/watch?v=naFeJxszLOs
+- Interaction: Location & City, Spatial Mapping, Information & UI
+- Platform & tech: Phone, Niantic Lightship VPS, 3D scanning
+- Idea: Players scan real landmarks and crowdsource a 3D world map for AR.
+- What it is: Players scan PokéStops and Gyms with their camera during field research tasks, producing 3D scans that build Niantic's map for persistent, location-anchored AR.
+- Technique: Players capture short camera scans with pose data around landmarks, which are reconstructed into 3D maps used to build a visual positioning system.
+- Try it: Scan a campus landmark with Polycam or Scaniverse and place the scanned model back in AR aligned with the original. Twist: have the whole class scan the same landmark and compare how different scanning paths turn out.
+
+#### Peridot — Niantic (John Hanke) (2023)
+- Video: https://www.youtube.com/watch?v=HFi2pJrAEdc
+- Interaction: Spatial Mapping, Play, Shared & Social
+- Platform & tech: Phone, Niantic Lightship ARDK, semantic segmentation
+- Idea: An AR pet that recognizes grass, water and sand and plays with the real environment.
+- What it is: An AR virtual pet game where each 'Dot' is a unique creature that understands the real ground, grass, water and sand around you and plays fetch or digs in them.
+- Technique: Semantic segmentation labels ground pixels as grass, water, sand and so on, and the pet's behavior tree picks actions such as digging or swimming based on the class under it.
+- Try it: Tell grass from floor with Lightship semantic segmentation or a simple color check, and make an AR pet roll on the grass and walk on the floor. Twist: when the pet is placed by water, it takes a drink.
+
+#### Hello, Dot — Niantic (John Hanke) (2024)
+- Video: https://www.youtube.com/watch?v=DA0PWd-x1c8
+- Interaction: Spatial Mapping, Hands & Body, Play
+- Platform & tech: Headset, Meta Quest 3, passthrough, Unity
+- Idea: In a headset's passthrough view, an AR pet hatches in your room and learns your furniture.
+- What it is: A mixed-reality Peridot experience for Meta Quest 3 in which a Dot hatches in your room, recognises furniture and plays with you through passthrough.
+- Technique: Passthrough plus scene understanding labels furniture in the room, and the pet uses those labels as navigation targets and interaction affordances.
+- Try it: Detect two levels in AR, the tabletop and the floor, and teach a pet to jump from the floor onto the table to find you. Twist: when you set the phone down and leave it still, the pet falls asleep on the table.
+
+#### Peridot Beyond — Niantic (John Hanke) (2024)
+- Video: https://www.youtube.com/watch?v=wl10_rJplyc
+- Interaction: Shared & Social, Play, Hands & Body
+- Platform & tech: Headset, Snap Spectacles, Lens Studio
+- Idea: Wearing Spectacles, several people look after the same AR pet together in the real world.
+- What it is: Peridot on Snap Spectacles: several people wearing glasses see and play with the same Dots in shared multiplayer AR.
+- Technique: Multiple glasses join a shared session with colocalized coordinates, so the same pet entity and its state are replicated to every wearer.
+- Try it: Have two or three devices share one AR pet that chases the ball of whoever throws first. Twist: the pet remembers who plays with it most.
+
+#### Monster Hunter Now Palico AR — Niantic (John Hanke) (2025)
+- Video: https://www.youtube.com/watch?v=7C-HBHCoc70
+- Interaction: Location & City, Play
+- Platform & tech: Phone, Niantic Lightship
+- Idea: Bring your hunting companion, the Palico cat, into the real world for a photo together.
+- What it is: In Monster Hunter Now, made with Capcom, the player's Palico cat companion can be placed in AR for photos alongside the monsters hunted in the real world.
+- Technique: A companion character is placed on a detected surface in a photo mode with pose presets and camera capture, turning AR into a snapshot tool.
+- Try it: Build an AR photo mode: place a character, choose a pose, and capture and save a screenshot with one tap. Twist: automatically add a frame related to the current location when the photo is taken.
+
+### Takashi Yoshinaga
+
+*AR/VR researcher & rapid prototyper (ISIT Fukuoka); Microsoft MVP for Mixed Reality*
+
+Researcher at ISIT Fukuoka with a PhD in AR-based remote healthcare, who has posted hundreds of AR prototypes since 2009 and runs the AR Fukuoka community; creator of HoloTuberKit.
+
+#### AR Tele-Echography (2009) — Takashi Yoshinaga (2009)
+- Video: https://www.youtube.com/watch?v=GY3UlelftKU
+- Interaction: Information & UI, Shared & Social, Tangible Objects
+- Platform & tech: Desktop, marker tracking, OpenCV
+- Idea: A remote doctor uses AR overlays to guide a local helper in handling an ultrasound probe.
+- What it is: A remote doctor guides a local operator's ultrasound probe in real time using AR overlays that show where and how to move it.
+- Technique: Fiducial markers on the probe and patient are tracked with OpenCV, and the remote doctor's target probe pose is streamed and rendered as an overlay guiding the local operator.
+- Try it: With two phones, have one person drag a virtual arrow on a remote screen while the other's AR view shows the arrow in sync, guiding them to move a real object on the table. Twist: use it to teach someone remotely how to fold a paper crane.
+
+#### HoloKit + Tango Demo — Takashi Yoshinaga, Botao 'Amber' Hu (2017)
+- Video: https://www.youtube.com/watch?v=sbLEsmwM1s4
+- Interaction: Spatial Mapping
+- Platform & tech: Headset, Phone, HoloKit, Google Tango, Unity
+- Idea: Early spatially stable stereo AR from a cardboard headset and a Tango phone.
+- What it is: An early test of HoloKit's cardboard stereo optics driven by a Google Tango phone, placing stable holograms in the room.
+- Technique: Uses Tango's motion tracking for 6DoF pose and renders a side-by-side stereo image through HoloKit's mirror-and-Fresnel optics.
+- Try it: Change a phone AR scene to side-by-side stereo rendering and view a cube fixed on a table through a cardboard viewer. Twist: compare the sense of depth in the single-eye view and the stereo view.
+
+#### Holoportation for ARCore with Multiple Azure Kinect — Takashi Yoshinaga (2019)
+- Video: https://www.youtube.com/watch?v=4oJJN2eH6U0
+- Interaction: Shared & Social, Hands & Body
+- Platform & tech: Phone, ARCore, Azure Kinect, Unity
+- Idea: Several Azure Kinects capture a person's point cloud live and beam it into phone AR as a hologram.
+- What it is: Several Azure Kinects capture a person as a live point cloud that is streamed into an ARCore phone as a life-size hologram.
+- Technique: Multiple calibrated Azure Kinect RGB-D streams are fused into a colored point cloud, streamed over the network, and rendered at life size at an ARCore anchor.
+- Try it: Record an RGB-D video of a person with the iPhone depth camera (Record3D or similar), convert it to a point cloud, and replay it life-size on the floor in AR. Twist: make the point cloud shake or scatter with the loudness of sound.
+
+#### Streaming Holograms to ARCore via YouTube — Takashi Yoshinaga (2019)
+- Video: https://www.youtube.com/watch?v=IeaHt6bBw1o
+- Interaction: Shared & Social, Perception & Effects
+- Platform & tech: Phone, ARCore, Azure Kinect, YouTube Live
+- Idea: Encode hologram point clouds into an ordinary YouTube live stream and decode them into AR holograms on a phone.
+- What it is: Encodes RGB-D point clouds into an ordinary YouTube live stream so anyone's phone can decode and view them as AR holograms (the basis of HoloTuberKit).
+- Technique: Depth and color are packed side by side into a regular video frame, streamed via YouTube Live, and a client shader decodes depth per pixel to rebuild a point cloud in AR.
+- Try it: Combine RGB and depth into a side-by-side video, use a shader in three.js to rebuild the depth as a point cloud, and place it in a WebXR scene. Twist: try different depth encodings and compare the noise after compression.
+
+#### HoloBox with HoloLens 2 — Takashi Yoshinaga (2020)
+- Video: https://www.youtube.com/watch?v=ZE_F2NsOSfQ
+- Interaction: Portals & Worlds, Tangible Objects
+- Platform & tech: Headset, Desktop, HoloLens 2, Unity
+- Idea: Virtual objects travel seamlessly between a 3D display box and the HoloLens space.
+- What it is: A physical box-shaped display and HoloLens 2 share synchronised objects that move seamlessly between the screen's 3D window and the air around it.
+- Technique: The box display renders an off-axis perspective matched to the HoloLens user's head pose, and a shared coordinate frame lets objects hand over seamlessly between screen rendering and headset rendering.
+- Try it: Use a monitor as an off-axis perspective window (tracking head position with a phone), and when an object leaves the edge of the screen, have it continue in an AR phone. Twist: objects that fall off the screen onto the desk bounce.
+
+#### LiDAR Point Cloud Streaming with Cartoon Effect — Takashi Yoshinaga (2020)
+- Video: https://www.youtube.com/watch?v=cKILsUOLkFU
+- Interaction: Perception & Effects, Shared & Social
+- Platform & tech: Phone, ARKit, LiDAR, Unity
+- Idea: Render a live point cloud as a cartoon-style remote space.
+- What it is: The iPad's live point cloud of a room and person is re-rendered on the receiving side as a hand-drawn cartoon.
+- Technique: The received point cloud is rendered with a non-photorealistic shader (edge detection from depth discontinuities plus flat color quantization) to look hand-drawn.
+- Try it: Apply color quantization and an outline shader to a point cloud or depth video to create a cartoon style. Twist: switch styles with the speaker's mood, judged by how loud they are.
+
+#### Real-Time LiDAR Point Cloud Streaming from iPad Pro — Takashi Yoshinaga (2020)
+- Video: https://www.youtube.com/watch?v=Y4erikakae0
+- Interaction: Spatial Mapping, Shared & Social
+- Platform & tech: Phone, ARKit, LiDAR
+- Idea: Stream an iPad's live LiDAR point cloud to remote devices.
+- What it is: Streams the iPad Pro's live LiDAR point cloud to a remote PC and other XR devices, later with a cartoon-style rendering.
+- Technique: Depth-map pixels are unprojected to world-space points using camera intrinsics and pose each frame, then compressed and streamed over the network for remote rendering.
+- Try it: Take one point every N pixels from an iPhone depth map, unproject them into a point cloud, and send it over WebSocket to a three.js page on a computer for display. Twist: render the points on the receiving side in a different style, such as blocks or text.
+
+#### Room Scan with iPad LiDAR and AR Visualization — Takashi Yoshinaga (2020)
+- Video: https://www.youtube.com/watch?v=VBDFOMj5vD0
+- Interaction: Spatial Mapping
+- Platform & tech: Phone, ARKit, LiDAR, Unity
+- Idea: Scan a room with iPad LiDAR and overlay the mesh back onto reality to view it.
+- What it is: A prototype room scanner that builds a coloured mesh of the room with the new iPad Pro LiDAR and overlays it back onto reality.
+- Technique: ARKit scene reconstruction produces a LiDAR mesh, vertex colors are sampled by projecting camera frames onto it, and the colored mesh is overlaid back on the room.
+- Try it: Generate a live room mesh with AR Foundation's ARMeshManager and overlay it on the real space with a wireframe material. Twist: color walls, floor and ceiling differently based on the mesh normal direction.
+
+#### Spatial Copy and Paste Shared with ARCore — Takashi Yoshinaga (2020)
+- Video: https://www.youtube.com/watch?v=hEeXlnFK_24
+- Interaction: Spatial Mapping, Shared & Social, Portals & Worlds
+- Platform & tech: Headset, Phone, HoloLens 2, ARCore, Unity
+- Idea: Copy a piece of real space on HoloLens and paste it into someone else's phone AR.
+- What it is: Selects a region of the real room on HoloLens 2, 'copies' it as a mesh, and pastes the captured space into another user's ARCore view.
+- Technique: A bounding box selects part of the HoloLens 2 spatial mesh, the cropped mesh with colors is sent over the network, and the ARCore client places it at a chosen anchor.
+- Try it: Scan a corner of a desk with Polycam, export the model, and paste it onto another table in a second phone's AR. Twist: shrink it tenfold when pasting to make a miniature landscape.
+
+#### AR Light Saber with MediaPipe and p5.js — Takashi Yoshinaga (2021)
+- Video: https://www.youtube.com/watch?v=pL_q-nHelCU
+- Interaction: Hands & Body, Play
+- Platform & tech: Web, MediaPipe, p5.js
+- Idea: Gesture tracking in a web page grows a lightsaber out of your hand.
+- What it is: A browser toy that detects your hand with MediaPipe and draws a glowing lightsaber extending from it on the webcam feed.
+- Technique: MediaPipe Hands returns 2D landmarks each frame, and a glowing line is drawn along the direction from the wrist through the knuckles in p5.js over the webcam feed.
+- Try it: Use MediaPipe Hands and p5.js to draw a glowing lightsaber from the wrist along the fingers that leaves a trail as you swing it. Twist: when the sabers in both hands cross, they throw sparks and make a sound.
+
+#### AR Shooter Shared Between Nreal Light and iPad — Takashi Yoshinaga (2021)
+- Video: https://www.youtube.com/watch?v=X6MYN9y_K3w
+- Interaction: Shared & Social, Play
+- Platform & tech: Headset, Phone, Nreal Light, ARKit, Unity
+- Idea: A glasses player and an iPad player team up for AR shooting in the same space.
+- What it is: A co-located AR shooting game in which a glasses wearer and an iPad player see and fight the same virtual targets.
+- Technique: Both devices align to a shared reference (likely a common image marker or anchor) so their coordinate frames match, and target states and hits are synced over the network.
+- Try it: Use a printed image as a shared origin so a HoloKit headset and a phone see the same set of targets and sync hit states. Twist: give the two players unequal abilities, with one shooting and the other moving the targets.
+
+#### Holo Cat: Perspective Expression by Head Tracking — Takashi Yoshinaga (2021)
+- Video: https://www.youtube.com/watch?v=9kvIlsb8HQE
+- Interaction: Gaze & Attention, Perception & Effects
+- Platform & tech: Desktop, head tracking, Holo-SDK
+- Idea: Head tracking makes a cat on a flat screen look three-dimensional.
+- What it is: A flat screen shows his cat as a 3D hologram whose perspective shifts with the viewer's head, with no headset needed.
+- Technique: The viewer's head is tracked (likely by a webcam face tracker) and the 3D scene is rendered with an off-axis projection matched to the screen rectangle, creating motion parallax so the display acts as a window.
+- Try it: Track head position with MediaPipe Face Mesh and build an off-axis projection in three.js so a small box on screen seems to have real depth. Twist: the character inside the box turns its head to look at you.
+
+#### Copy and Paste Room Mesh with Meta Quest 3 — Takashi Yoshinaga (2023)
+- Video: https://www.youtube.com/watch?v=jqPZ_m5opuY
+- Interaction: Spatial Mapping, Portals & Worlds
+- Platform & tech: Headset, Meta Quest 3, Unity
+- Idea: In Quest 3, copy a chunk of the real room's mesh and paste it somewhere else.
+- What it is: Grabs a chunk of the scanned room mesh and pastes duplicates of real furniture elsewhere in passthrough.
+- Technique: The Quest scene mesh is cropped with a user-placed bounding box, duplicated, and re-rendered with passthrough-sampled colors at a new position.
+- Try it: On a LiDAR phone, cut out a 'chair' region from the mesh and place a copy on the other side of the room. Twist: make the copied furniture slowly melt or sprout plants.
+
+#### Mixed Reality Door for Meta Quest 3 — Takashi Yoshinaga (2023)
+- Video: https://www.youtube.com/watch?v=VW7ELpkVmIQ
+- Interaction: Portals & Worlds, Tangible Objects
+- Platform & tech: Headset, Meta Quest 3, Unity
+- Idea: Turn a real door at home into a portal to a virtual world.
+- What it is: A real door in the room becomes a portal: opening it in passthrough reveals a virtual world behind it.
+- Technique: A virtual portal plane is aligned to the real door frame in passthrough, with a stencil or depth mask so the virtual world is visible only where the real door opening is.
+- Try it: Manually align a stencil door to a real doorframe with AR Foundation and render a forest inside it. Twist: change the world behind the door based on the day's date or weather.
+
+#### Real-Time AR Effect on Cat — Takashi Yoshinaga (2023)
+- Video: https://www.youtube.com/watch?v=ExRmlztPP7M
+- Interaction: Perception & Effects, Hands & Body
+- Platform & tech: Phone, Unity, computer vision
+- Idea: Track a house cat in real time and wrap it in AR effects that follow it around.
+- What it is: Tracks his pet cat in real time and wraps it in animated AR effects that follow the animal as it moves.
+- Technique: An animal detection or segmentation model tracks the cat's bounding box or mask in real time, and particle effects are emitted from its position in screen or world space.
+- Try it: Use MediaPipe Object Detection (or YOLO) on a web page to recognize a cat or a stuffed toy animal, and generate a halo of particles that follows it. Twist: the faster the animal moves, the more exaggerated the effect.
+
+#### DejaViewer: Replaying Past Motion in AR — Takashi Yoshinaga (2025)
+- Video: https://www.youtube.com/watch?v=kau5hRnEGdI
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Headset, Meta Quest 3, Passthrough Camera API
+- Idea: Record the motion that just happened in front of you and replay the past on the spot as a point cloud.
+- What it is: Records motion in the field of view from Quest colour and depth cameras and replays it on the spot as a ghostly point cloud.
+- Technique: Passthrough color and depth frames are recorded, frame differencing isolates moving regions, and those regions are unprojected to point clouds that replay in place with fading transparency.
+- Try it: Use a phone depth camera to record someone walking past, keep only the moving parts as a point cloud, and loop them in place as semi-transparent 'afterimages'. Twist: the older an afterimage is, the more it breaks apart.
+
+#### StickAR: Spatial Notes Beyond Typing — Takashi Yoshinaga (2025)
+- Video: https://www.youtube.com/watch?v=o_zFX04Ircg
+- Interaction: Drawing & Making, Voice & Sound, Information & UI
+- Platform & tech: Headset, Meta Quest 3, OCR, Unity
+- Idea: Skip the keyboard and turn handwritten or spoken notes into sticky notes placed in space.
+- What it is: Hand-written or spoken notes are recognised and pinned as 3D sticky notes in space, avoiding keyboards in AR/VR.
+- Technique: OCR or speech recognition converts handwritten or spoken input to text, which is spawned as a 3D sticky-note panel anchored at the hand or gaze position.
+- Try it: Turn speech into text with the Web Speech API and generate a 3D sticky note on the wall hit by a ray from the center of the screen. Twist: color the notes automatically by content type (to-do or idea).
+
+### Aidan Wolf
+
+*AR developer; co-founder of Dream Park*
+
+Long-time Snap AR developer who made DoodleLens (doodles into AR), multiplayer Snapchat lenses and Spectacles games, and now builds 'downloadable' mixed-reality theme parks with Dream Park.
+
+#### DoodleLens — Aidan Wolf (2019)
+- Video: https://x.com/Aidan_Wolf/status/1124997833159929856
+- Interaction: Drawing & Making, Tangible Objects
+- Platform & tech: Phone, Unity, ARKit, ARCore
+- Idea: Snap a doodle on paper and it peels off the page as a living AR sticker.
+- What it is: Point your phone at a doodle on paper and it is lifted off the page into AR, inspired by an old camcorder chroma feature; later updates animate doodles like flipbooks and turn them into 3D models.
+- Technique: The camera image is thresholded to extract dark ink strokes into a transparent texture, which is placed on a billboard anchored in AR space.
+- Try it: Use p5.js or Lens Studio to cut a doodle on white paper into a transparent texture and place it in AR. Twist: four doodles captured in a row form a frame-by-frame animation.
+
+#### DoodleLens flipbook animation — Aidan Wolf (2019)
+- Video: https://x.com/Aidan_Wolf/status/1130730833445314560
+- Interaction: Drawing & Making
+- Platform & tech: Phone, Unity, ARKit, ARCore
+- Idea: Turn a stack of doodles into a flipbook animation standing in the real world.
+- What it is: A series of doodles captured one after another plays back as a looping flipbook animation standing in the real world.
+- Technique: Each captured doodle becomes a frame in a sprite sequence that cycles on an AR-anchored quad.
+- Try it: Have each student draw one frame and combine them into a whole-class frame-by-frame animation placed in the AR classroom. Twist: playback speeds up as viewers get closer.
+
+#### Doodles into 3D models — Aidan Wolf (2019)
+- Video: https://x.com/Aidan_Wolf/status/1168518755648974849
+- Interaction: Drawing & Making
+- Platform & tech: Phone, Unity, ARKit
+- Idea: Extrude a flat doodle into a 3D object you can walk around.
+- What it is: A flat drawing is extruded into a chunky 3D object that can be placed and walked around in AR.
+- Technique: The extracted doodle outline is triangulated and extruded into a mesh with the drawing as its front texture (likely contour extrusion).
+- Try it: Extrude a hand-drawn outline SVG into 3D in Blender or three.js and bring it into AR. Twist: the extrusion depth depends on how dark the drawing's colors are.
+
+#### Project Play (Magic Leap) — Aidan Wolf (2019)
+- Video: https://x.com/Aidan_Wolf/status/1182082317155618816
+- Interaction: Drawing & Making, Hands & Body
+- Platform & tech: Headset, Magic Leap One, Unity
+- Idea: Draw, animate and even program directly inside a headset.
+- What it is: A throwback to his Magic Leap app where you could draw, animate and even program objects directly in mixed reality.
+- Technique: Controller-driven 3D drawing strokes become objects that can be keyframed and given simple behaviors in Unity on Magic Leap.
+- Try it: Draw 3D lines in Quest or phone AR, then give a line a 'follow me' behavior. Twist: play a sound when two lines touch.
+
+#### Copy and paste into AR — Aidan Wolf (2020)
+- Video: https://x.com/Aidan_Wolf/status/1252117262166822912
+- Interaction: Drawing & Making, Information & UI
+- Platform & tech: Phone, Unity, ARKit
+- Idea: Copy an image and paste it straight into real space.
+- What it is: Images and art copied on the phone are pasted straight into the surrounding space as AR objects, with no editing step.
+- Technique: Clipboard images are background-removed and spawned as textured quads at the AR raycast hit point.
+- Try it: Build web AR with 8th Wall or WebXR that lets you pick an image from the photo album and stick it on a wall as a virtual poster. Twist: posted images can be seen and commented on by other classmates.
+
+#### Hot Potato multiplayer lens — Aidan Wolf (2021)
+- Video: https://x.com/Aidan_Wolf/status/1395445443333476352
+- Interaction: Shared & Social, Play
+- Platform & tech: Phone, Lens Studio, Connected Lenses
+- Idea: Pass an exploding virtual potato among friends.
+- What it is: Friends pass a ticking virtual hot potato between their phones in a co-located Snapchat lens until it explodes on someone.
+- Technique: A connected lens synchronizes ownership of a shared AR object and a countdown timer across participants.
+- Try it: Build a multiplayer pass-the-bomb AR game with Lens Studio or Unity Netcode. Twist: you can only throw the bomb by pointing at the other person's phone.
+
+#### PONK connected lens — Aidan Wolf (2021)
+- Video: https://x.com/Aidan_Wolf/status/1402742233451798529
+- Interaction: Shared & Social, Play
+- Platform & tech: Phone, Lens Studio, Connected Lenses
+- Idea: Two people play AR Pong in the same real space.
+- What it is: Two friends play classic Pong in AR, each hitting the ball from their own phone in a shared Snapchat lens.
+- Technique: Snap Connected Lenses sync game state and a shared coordinate frame between devices so both players see the same ball and paddles.
+- Try it: Build a two-player AR mini-game with Lens Studio Connected Lens or Photon. Twist: players control their paddles with the position of their faces.
+
+#### Minecraft remade in AR — Aidan Wolf (2023)
+- Video: https://x.com/Aidan_Wolf/status/1625580832042758144
+- Interaction: Play, Spatial Mapping, Drawing & Making
+- Platform & tech: Phone, Niantic Lightship, Unity
+- Idea: Dig, fight and build on the real ground just like Steve.
+- What it is: He rebuilt Minecraft mechanics in AR so you can dig into, fight on and build blocks over the real ground around you.
+- Technique: Real-world meshing aligns a voxel grid to the ground so placed and dug blocks stick to real surfaces (likely Lightship meshing).
+- Try it: Build a block-placing construction toy on a ground mesh with AR Foundation. Twist: blocks cast shadows in the direction of the real sunlight.
+
+#### Touch Grass lens — Aidan Wolf (2023)
+- Video: https://x.com/Aidan_Wolf/status/1701565816385179877
+- Interaction: Location & City, Hands & Body, Play
+- Platform & tech: Phone, Lens Studio, ML segmentation
+- Idea: It checks that you really touched grass and hands you proof that you went outside.
+- What it is: A tongue-in-cheek AR lens detects when you actually touch grass and rewards you, so you can prove online that you go outside.
+- Technique: Hand tracking combined with a ground/grass segmentation or classification model checks that the hand overlaps real grass (likely Lens Studio ML).
+- Try it: Train a grass/not-grass classifier with Teachable Machine and award a badge when the phone sees a hand on grass. Twist: switch to recognizing leaves, stones and other natural objects on campus to fill a collection guide.
+
+#### Eternal rat prism AR pet — Aidan Wolf (2024)
+- Video: https://x.com/Aidan_Wolf/status/1784698481518747859
+- Interaction: Play, Perception & Effects
+- Platform & tech: Phone, Lens Studio
+- Idea: Turn the 'spinning rat in a prism' meme into an AR pet that follows you everywhere.
+- What it is: An internet meme, the spinning rat in a prism, becomes a Snapchat AR pet that follows you around wherever you go.
+- Technique: The pet is re-positioned each frame to trail the camera with smoothing so it appears to follow the user around.
+- Try it: Turn a class in-joke into an AR pet that follows you around (Lens Studio or Reality Composer). Twist: if you stop for too long, it falls asleep.
+
+#### Hand-frame photos left in space — Aidan Wolf (2024)
+- Video: https://x.com/Aidan_Wolf/status/1838941247148278146
+- Interaction: Hands & Body, Shared & Social, Location & City
+- Platform & tech: Headset, Snap Spectacles, Lens Studio
+- Idea: Frame a shot with your fingers to take a photo, and the photo stays where it was taken for others to find.
+- What it is: At a Snap AR hackathon his team built a way to take a photo by framing a scene with your fingers and leave that photo floating in place for others to find.
+- Technique: Hand tracking detects a two-hand frame gesture to crop the camera view, and the image is saved as a persistent anchored object (likely via cloud anchors).
+- Try it: Use MediaPipe gesture recognition to detect a two-hand viewfinder and crop the camera image. Twist: pin each photo to a map at the spot where it was taken, for a class-wide treasure hunt.
+
+#### Parking-lot kart race — Aidan Wolf (2024)
+- Video: https://x.com/Aidan_Wolf/status/1762908892311511228
+- Interaction: Play, Location & City, Spatial Mapping
+- Platform & tech: Phone, Headset, AR, Unity
+- Idea: Turn any parking lot into a Mario Kart track.
+- What it is: A mixed-reality game turns any empty parking lot into a Mario Kart-style race track with virtual boosts and items, playable at Two Bit Circus.
+- Technique: A track, item boxes and boost pads are generated to fit the detected open ground and anchored in world space for players moving through it.
+- Try it: Draw a virtual track and boost strips on a basketball court in AR and have classmates race while pushing chairs. Twist: anyone who hits a virtual banana peel must spin around once on the spot.
+
+#### Spectacles walk RPG — Aidan Wolf (2024)
+- Video: https://x.com/Aidan_Wolf/status/1838276874860138706
+- Interaction: Play, Location & City
+- Platform & tech: Headset, Snap Spectacles, Lens Studio
+- Idea: Put on the glasses and an everyday walk becomes a monster-fighting, level-up adventure.
+- What it is: A Snap Spectacles game made in a weekend turns an everyday walk into an RPG adventure, with monsters and loot appearing along the real path.
+- Technique: World tracking on Spectacles places encounters at intervals along the walked path, and hand tracking is used to fight.
+- Try it: Make a 'walk-to-school RPG' in phone AR: a monster spawns every 50 steps and you defeat it with hand gestures. Twist: the type of monster depends on the weather.
+
+#### Tony Hawk Pro Skater in AR — Aidan Wolf (2024)
+- Video: https://x.com/Aidan_Wolf/status/1752447360867950799
+- Interaction: Play, Location & City, Hands & Body
+- Platform & tech: Phone, AR, Unity
+- Idea: Overlay a skateboarding game's scores and collectibles on a real skatepark.
+- What it is: At Venice Beach Skatepark, skaters see AR score popups, trick names and collectibles over their real runs, remaking the video game on real concrete.
+- Technique: Collectibles and score UI are anchored in the real park while the skater's motion is tracked relative to them (likely body/camera tracking).
+- Try it: Place a line of virtual coins on the sports field in AR, and score classmates as they run or cycle through them. Twist: passing through three coins in a row triggers a 'combo' effect.
+
+#### Dream Park street access point — Aidan Wolf (2025)
+- Video: https://x.com/Aidan_Wolf/status/1919248277792244155
+- Interaction: Location & City, Play, Shared & Social
+- Platform & tech: Phone, Headset, Meta Quest 3, location-based AR
+- Idea: Install an 'entrance' on a street, and the whole street becomes a downloadable mixed-reality theme park.
+- What it is: A public Dream Park access point on Santa Monica's Third Street Promenade turns the whole street into a mixed-reality game for passers-by.
+- Technique: Game content is authored to a specific mapped location so devices localize against it and see the same attractions in the real street.
+- Try it: Design an 'AR theme park' route across campus with three playable AR mini-game stops (Lens Studio or 8th Wall). Twist: the last attraction opens only when three people are there together.
+
+#### DreamPark arcade vending machine — Aidan Wolf (2026)
+- Video: https://x.com/Aidan_Wolf/status/2028538481803428094
+- Interaction: Location & City, Play
+- Platform & tech: Headset, Phone, mixed reality
+- Idea: A 'vending machine' turns an entire arcade into a mixed-reality playground.
+- What it is: A DreamPark 'vending machine' installed at Dave & Buster's Hollywood turns the entire arcade floor into a mixed-reality game.
+- Technique: A fixed physical kiosk serves as the localization anchor and entry point for location-specific MR content laid over the arcade floor.
+- Try it: Design a physical 'entrance' (a poster or a cardboard machine) that, once scanned, starts an AR game covering the whole classroom. Twist: the entrance sells a different 'item' each day.
+
+### Microsoft Research — Hrvoje Benko & Andy Wilson
+
+*Principal researchers at Microsoft Research Redmond (Benko later at Meta Reality Labs Research)*
+
+Andy Wilson (PlayAnywhere, TouchLight, Surface) and Hrvoje Benko led a decade of projector-and-depth-camera spatial AR at Microsoft Research, with interns such as Brett Jones, Rajinder Sodhi and Tomislav Pejsa. Their rooms turn every wall, table and body into an interactive display.
+
+#### PlayAnywhere — Microsoft Research — Hrvoje Benko & Andy Wilson (2005)
+- Video: https://www.youtube.com/watch?v=o8DBRgxpZYA
+- Interaction: Projection, Hands & Body, Tangible Objects
+- Platform & tech: Projection, projector, IR camera, computer vision
+- Idea: A projector and camera on a small cart turn any table into a touch-enabled game table.
+- What it is: Andy Wilson's compact front-projected tabletop: a projector and camera on a small cart turn any table into a touch and object-sensing surface for games, maps and photo sharing.
+- Technique: A short-throw projector and an IR camera with IR illumination sense finger touches by analyzing shadows and contact, and use visual codes and optical flow to detect objects and paper on an ordinary table.
+- Try it: Mount a small projector and a phone camera on a stand looking down at a table, judge a 'touch' from the distance between a finger and its shadow, and build a projected jigsaw puzzle or draggable map. Twist: make real objects on the table (cups, keys) act as obstacles in the game.
+
+#### LightSpace — Microsoft Research — Hrvoje Benko & Andy Wilson (2010)
+- Video: https://www.youtube.com/watch?v=xx5kBqxyaHE
+- Interaction: Projection, Hands & Body, Spatial Mapping
+- Platform & tech: Projection, depth cameras, projectors
+- Idea: Scoop a projected photo off the table, carry it in your hand, and pour it onto the wall.
+- What it is: Depth cameras and projectors make a whole room interactive: pick up a projected photo from a table, carry it on your hand and drop it onto a wall.
+- Technique: Several calibrated depth cameras and projectors share one room coordinate system, and virtual 'depth camera' projections of the point cloud detect when a hand touches a surface or holds a projected item, so content can move between surfaces and the body.
+- Try it: With one projector and one depth camera (or MediaPipe palm detection), let people 'pick up' a photo projected on a table, have it follow the palm, and 'drop' it onto the wall. Twist: make the photo change while it is carried (flip over, age, or turn into sound).
+
+#### Beamatron — Microsoft Research — Hrvoje Benko & Andy Wilson (2012)
+- Video: https://www.youtube.com/watch?v=L9yccRm3Zu8
+- Interaction: Projection, Spatial Mapping, Play
+- Platform & tech: Projection, steerable projector, Kinect
+- Idea: A head-turning projector robot lets a virtual RC car drive over the real furniture in a room.
+- What it is: A steerable projector and Kinect on a pan-tilt head follow people around a room, projecting a virtual car that drives over real furniture and floors.
+- Technique: A projector and Kinect sit on a motorized pan-tilt head; the room is pre-scanned into a 3D model, and imagery is pre-distorted per surface as the head steers so content stays correct while moving across furniture.
+- Try it: Put a small projector on a pan-tilt mount turned by hand or servo, switch the image in TouchDesigner based on the angle, and make a projected little car "drive" along the wall and floor. Twist: have the car chase a particular person in the room (detected by a camera).
+
+#### Holoflector — Microsoft Research — Hrvoje Benko & Andy Wilson (2012)
+- Video: https://www.youtube.com/watch?v=2Xv6FnM1SrE
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Desktop, Kinect, half-silvered mirror
+- Idea: A magic mirror where your reflection can catch a virtual ball, with the image and the virtual objects lined up exactly.
+- What it is: A large half-silvered mirror with a display behind it and Kinect body tracking: virtual objects appear in your reflection and react to your real body.
+- Technique: A half-silvered mirror in front of an LCD combines the real reflection with rendered graphics, and Kinect skeleton tracking places virtual objects so they align with the user's reflected body.
+- Try it: Build a "magic mirror" from a tablet and an acrylic half-mirror (or a mirrored camera feed), and use MediaPipe Pose so a virtual ball lands on your reflected shoulder and can be brushed off. Twist: your reflection makes a different move from the one you make.
+
+#### MirageTable — Microsoft Research — Hrvoje Benko & Andy Wilson (2012)
+- Video: https://www.youtube.com/watch?v=ll2K4tPD47E
+- Interaction: Projection, Hands & Body, Shared & Social
+- Platform & tech: Projection, Kinect, stereo projector, shutter glasses
+- Idea: A curved desk with stereo projection lets you grab virtual objects by hand and sit "across the table" from someone far away.
+- What it is: A curved projected tabletop with stereo glasses and Kinect: users grab virtual 3D objects with bare hands and meet a remote partner rendered as if sitting across the table.
+- Technique: A Kinect captures the user and the remote partner as depth meshes, head-tracked stereo projection onto a curved screen renders view-dependent 3D, and a physics engine lets hand geometry push virtual objects.
+- Try it: Build a parallax tabletop in three.js driven by face tracking (MediaPipe Face): a camera tracks your head, and 3D objects on the screen or projection shift with your viewpoint to create an "off-screen" illusion. Twist: put the other person's video from another computer into this 3D space and make a small "sitting across the table" game.
+
+#### IllumiRoom — Microsoft Research — Hrvoje Benko & Andy Wilson (2013)
+- Video: https://www.youtube.com/watch?v=L2w-XqW7bF4
+- Interaction: Projection, Play, Perception & Effects
+- Platform & tech: Projection, Kinect, projector, Xbox
+- Idea: The game bursts out of the TV: snow drifts down the living-room walls and the whole room shakes when things explode.
+- What it is: A projector around the TV extends Xbox games onto the living-room walls and furniture: snow falls in the room, the room shakes on explosions, the field of view grows beyond the screen.
+- Technique: A Kinect scans the geometry around the TV, the projector is calibrated to it, and game-driven effects (peripheral extension, edge highlighting, radial distortion) are rendered with depth-aware projection mapping around the screen.
+- Try it: Aim a projector at the wall around a monitor, grab the colors at the screen's edges in real time in TouchDesigner and extend them outward, and shake the projected image whenever an explosion happens on screen. Twist: make the room effects run against the story, for example the more intense the game, the quieter the room.
+
+#### Mano-a-Mano (Dyadic Projected SAR) — Microsoft Research — Hrvoje Benko & Andy Wilson (2014)
+- Video: https://www.youtube.com/watch?v=Df7fZAYVAIE
+- Interaction: Projection, Shared & Social, Play
+- Platform & tech: Projection, projectors, Kinect, view-dependent rendering
+- Idea: Two people face each other, both see correct 3D perspective in the projected space, and throw fireballs at each other.
+- What it is: Two people face each other in a projected room and each sees correct perspective 3D objects between them: throwing fireballs, passing a ball, playing catch with virtual objects.
+- Technique: Kinect tracks both users' heads, and each projected object is rendered with view-dependent perspective for one user so that, on the surfaces behind the opposite person, it appears to float in 3D between them.
+- Try it: Use MediaPipe Face to track one classmate's head position and render a ball "floating in mid-air" on the projection wall from their viewpoint, while another person "throws" it over with a gesture. Twist: the two take turns getting the correct viewpoint, then discuss what a third bystander saw.
+
+#### RoomAlive — Microsoft Research — Hrvoje Benko & Andy Wilson (2014)
+- Video: https://www.youtube.com/watch?v=GYkRRbP7m8s
+- Interaction: Projection, Spatial Mapping, Play
+- Platform & tech: Projection, Kinect, projectors, RoomAlive Toolkit
+- Idea: Every wall and piece of furniture in the living room becomes a game board, with monsters crawling out of the couch.
+- What it is: Multiple auto-calibrating projector-camera units cover an entire living room so games can happen on every surface: whack-a-mole creatures crawl out of the couch, and you dodge traps with your body.
+- Technique: Each projector-camera unit auto-calibrates by projecting Gray-code structured light that its Kinect observes, yielding a unified 3D room model onto which games are rendered with per-surface projection mapping and depth-based body tracking.
+- Try it: Calibrate a projector and camera with Gray-code structured light (or manual four-corner mapping) and turn a corner of the room into whack-a-mole: little monsters pop out from the edge of the couch, and MediaPipe detects where your hand slaps them. Twist: make the monsters dodge you instead of waiting to be hit.
+
+#### RoomAlive: The Other Resident — Microsoft Research — Hrvoje Benko & Andy Wilson (2014)
+- Video: https://www.youtube.com/watch?v=NXxVXQYlSXc
+- Interaction: Projection, Play, Portals & Worlds
+- Platform & tech: Projection, RoomAlive Toolkit
+- Idea: Use room-scale projection to stage a haunting in your own living room.
+- What it is: A spooky narrative game built with the RoomAlive projection system, where a ghostly presence haunts the real room around the player.
+- Technique: Built on the RoomAlive Toolkit's calibrated projector-camera units, the game uses the scanned room model to place projected effects (shadows, apparitions, stains) on specific furniture, triggered by the player's tracked position.
+- Try it: Use one projector to create a 3-minute horror story in a corner of a dorm or classroom: when a camera detects the viewer reaching a certain spot, a shadow appears on the wall and a stain seeps from the door frame. Twist: the "ghost" only moves when the viewer has their back to it.
+
+#### FoveAR — Microsoft Research — Hrvoje Benko & Andy Wilson (2015)
+- Video: https://www.youtube.com/watch?v=A5M6xk1Itgo
+- Interaction: Projection, Perception & Effects, Play
+- Platform & tech: Headset, Projection, optical see-through HMD, projectors
+- Idea: The glasses handle the center of your view and projection fills the edges, stitching together a very wide AR field of view.
+- What it is: Combines an optical see-through headset for the central field of view with room projection for the periphery, giving AR a very wide field of view.
+- Technique: An optical see-through HMD renders the central view while calibrated room projectors render the same scene in the periphery, with head tracking keeping both views registered.
+- Try it: Have one student wear HoloKit to look at a virtual object in the center while a projector renders the outer part of the same scene on the surrounding walls (rain, a starry sky), and compare how immersive it feels with and without the projection. Twist: deliberately make the peripheral and central imagery tell different stories.
+
+#### Room2Room — Microsoft Research — Hrvoje Benko & Andy Wilson (2016)
+- Video: https://www.youtube.com/watch?v=2o6krhxpUGk
+- Interaction: Shared & Social, Projection
+- Platform & tech: Projection, Kinect, projectors
+- Idea: Project a faraway person at life size onto your sofa, with no headset required.
+- What it is: Life-size telepresence: a remote person is captured in 3D and projected into your room, sitting on your real couch at the correct scale.
+- Technique: A Kinect captures the remote person as a colored depth mesh, and projector-camera calibration plus the local user's head tracking renders them life-size with perspective correction onto a real piece of furniture.
+- Try it: Cut out a remote classmate from their video with MediaPipe Selfie Segmentation, project them at life size sitting on a real local chair, and talk over a video call. Twist: the remote person appears only when you look at the chair.
+
+#### SnapToReality — Microsoft Research — Hrvoje Benko & Andy Wilson (2016)
+- Video: https://www.youtube.com/watch?v=phImnaIVQOQ
+- Interaction: Spatial Mapping, Drawing & Making
+- Platform & tech: Headset, depth sensing, HoloLens-style AR
+- Idea: Holograms snap onto real table edges and walls, like the snap-to-align guides in slide software.
+- What it is: Virtual objects in AR automatically snap to real-world edges and planes, making precise alignment of holograms with furniture effortless.
+- Technique: Planes and dominant edges are extracted from the depth data in real time, and virtual objects being manipulated are snapped to the nearest aligned constraint when within a distance and angle threshold.
+- Try it: In AR Foundation, make a virtual picture frame snap to the nearest detected plane and plane edge while being dragged, when it is within 5 cm. Twist: design an "anti-snap" so some objects always float away from real surfaces.
+
+### MIT Tangible Media Group — Hiroshi Ishii
+
+*Research group at the MIT Media Lab led by Hiroshi Ishii (Tangible Bits, Radical Atoms)*
+
+Hiroshi Ishii's Tangible Media Group has pursued 'Tangible Bits' and 'Radical Atoms': interfaces where digital information takes physical, shape-changing form. Daniel Leithinger, Sean Follmer and others built the inFORM and TRANSFORM pin displays and combined them with projection and see-through AR.
+
+#### AR-Jig — MIT Tangible Media Group — Hiroshi Ishii (2007)
+- Video: https://vimeo.com/48765576
+- Interaction: Tangible Objects, Drawing & Making
+- Platform & tech: Desktop, tangible tool, AR display
+- Idea: Use a row of pushable physical pins as a hand tool to scrape out a digital surface directly.
+- What it is: A handheld pin-array 'jig' whose physical profile controls a projected/AR 3D curve, letting designers sculpt digital surfaces with a tangible tool.
+- Technique: A handheld tool with an array of linear pins whose displacements are sensed is tracked in space, and the pin profile defines control points that deform a displayed 3D spline surface.
+- Try it: Use a row of sliding paper strips or straws (with the phone camera reading their heights) as a physical 'curve ruler', turn the profile into a live spline in three.js, and revolve it into a vase. Twist: drag the ruler along the table to sweep out a whole surface.
+
+#### T(ether) — MIT Tangible Media Group — Hiroshi Ishii (2012)
+- Video: https://vimeo.com/42173010
+- Interaction: Shared & Social, Drawing & Making, Hands & Body
+- Platform & tech: Phone, Vicon motion tracking, iPad
+- Idea: Several people use tablets as windows and shape and animate 3D objects by hand in a shared space above a table.
+- What it is: Spatially-aware tablets act as windows into a shared 3D scene above a table; several users sculpt and animate virtual objects with gestures behind the screens.
+- Technique: Vicon motion capture tracks each iPad and the users' gloved hands, so each tablet renders a correct perspective view into a shared 3D scene and hand positions behind the screen manipulate virtual objects.
+- Try it: Use AR Foundation shared anchors so two or three phones see the same virtual sculpture, each acting as a "window" from a different angle, and pinch vertices by tapping and dragging. Twist: each phone can only see or edit part of the sculpture, so finishing it takes teamwork.
+
+#### Sublimate — MIT Tangible Media Group — Hiroshi Ishii (2013)
+- Video: https://vimeo.com/63284274
+- Interaction: Tangible Objects, Perception & Effects, Information & UI
+- Platform & tech: Projection, Headset, shape display, see-through AR, stereo
+- Idea: Let data change phase like matter, between solid physical form and gaseous hologram.
+- What it is: Combines a shape display with see-through stereoscopic AR so data can switch between physical form (pins) and virtual 'gas' form floating above the table.
+- Technique: A shape display is registered with a head-tracked stereoscopic see-through display (half-silvered mirror or tracked tablet), so virtual geometry is rendered in the same coordinate space as the pins and can transition between physical and virtual.
+- Try it: In AR, treat a set of physical blocks (or LEGO) as "solid" data and show the rest as semi-transparent virtual particles above them; when a data point is tapped, it "solidifies" from virtual into a shape you must build with physical blocks. Twist: do the reverse, so a physical piece evaporates into virtual gas when taken away.
+
+#### inFORM — MIT Tangible Media Group — Hiroshi Ishii (2013)
+- Video: https://vimeo.com/79179138
+- Interaction: Tangible Objects, Hands & Body, Shared & Social
+- Platform & tech: Desktop, Projection, shape display, Kinect, projector
+- Idea: Turn screen pixels into physical pixels that rise and fall, so a faraway hand can really push a ball on your table.
+- What it is: Daniel Leithinger and Sean Follmer's 30x30 motorized pin display renders 3D content and remote users' hands physically; objects on the table can be moved by the surface itself.
+- Technique: An array of 900 motorized pins is actuated to render a height map, a Kinect captures remote hands and objects as depth images that are downsampled to pin heights, and a projector colors the pin tops.
+- Try it: Convert the shape of a hand into a 10x10 height map with a camera or depth camera (or MediaPipe hand keypoints), render it live as an array of pillars in three.js, and project the colors onto a table. Twist: build a 3x3 physical version (servos pushing wooden sticks) that shows only the single most important piece of information.
+
+#### Physical Telepresence — MIT Tangible Media Group — Hiroshi Ishii (2014)
+- Video: https://vimeo.com/108402837
+- Interaction: Shared & Social, Tangible Objects, Hands & Body
+- Platform & tech: Desktop, Projection, shape display, Kinect
+- Idea: In remote collaboration, the other person's hands appear as physical shapes on your table and can actually push things.
+- What it is: Remote participants' hands and objects are captured in 3D and rendered physically on a shape display, so someone far away can push and manipulate objects on your table.
+- Technique: A Kinect depth stream of the remote space is converted to a height map that drives the local shape display in real time, so remote hands physically push objects on the pins.
+- Try it: Build a remote "push" with two computers' cameras and MediaPipe Hands: the hand position on side A controls a virtual pusher projected on side B's table, which shoves detected paper squares (or virtual objects) there. Twist: transmit only the hand's "shadow", and discuss what anonymous remote touch feels like.
+
+#### TRANSFORM — MIT Tangible Media Group — Hiroshi Ishii (2014)
+- Video: https://vimeo.com/98880732
+- Interaction: Tangible Objects, Perception & Effects, Hands & Body
+- Platform & tech: Desktop, shape display, Kinect
+- Idea: A living table that heaves like ocean waves and carries objects around by itself.
+- What it is: Three large shape displays form dynamic furniture shown at Milan Design Week: the surface flows like water, reacts to bodies and carries objects around.
+- Technique: Three shape displays run choreographed height-map animations and physics-style wave simulations, with Kinect tracking of visitors' bodies modulating the motion.
+- Try it: Build a "fluid tabletop" of hundreds of pillars in TouchDesigner or three.js, use a camera to detect people so ripples spread from wherever they stand, and project it onto a real table. Twist: have the table "deliver" a virtual object to one particular person standing beside it.
+
+#### Kinetic Blocks — MIT Tangible Media Group — Hiroshi Ishii (2015)
+- Video: https://vimeo.com/141631681
+- Interaction: Tangible Objects, Play
+- Platform & tech: Desktop, shape display
+- Idea: The tabletop builds with blocks by itself, turning digital commands into physical assembly.
+- What it is: A shape display that stacks, sorts and assembles passive blocks by itself, and can replay a user's remote block-building gestures.
+- Technique: The shape display lifts, tilts and pushes passive blocks with sequenced pin motions (like a programmable conveyor), with tracked block positions and recorded gestures driving the manipulation plans.
+- Try it: Project "move arrows" onto a table and have a classmate act as the actuator, pushing blocks as the arrows show, while a program computes the next step from the block positions detected by a camera. Twist: record one classmate's building process, then have the system "play it back" to guide another person in copying it.
+
+#### Materiable — MIT Tangible Media Group — Hiroshi Ishii (2016)
+- Video: https://vimeo.com/165798784
+- Interaction: Tangible Objects, Perception & Effects, Hands & Body
+- Platform & tech: Desktop, Projection, shape display, projection
+- Idea: The same pin surface turns into jelly, sand or rubber under your hand.
+- What it is: A shape display renders material properties such as elasticity, viscosity and flexibility, so touching the pins feels like pressing jelly, sand or rubber.
+- Technique: Force sensing through the pins' motor current detects how hard a pin is pressed, and a per-pin physics model (spring, damper, fluid coupling) sets the pin response to simulate elasticity or viscosity, with projection showing the material.
+- Try it: Use touchscreen pressure or press duration as input to render a block of virtual material (jelly, sand, rubber) on an AR plane, and make it respond differently to presses using spring, damping and diffusion models, with vibration feedback. Twist: invent a material that does not exist in reality.
+
+#### Mediate: A Spatial Tangible Interface for Mixed Reality — MIT Tangible Media Group — Hiroshi Ishii (2018)
+- Video: https://vimeo.com/285036249
+- Interaction: Tangible Objects, Hands & Body
+- Platform & tech: Headset, Desktop, shape display, mixed reality
+- Idea: Give virtual objects in mixed reality a touchable, shape-changing physical stand-in.
+- What it is: A shape-changing tangible interface that physically represents virtual content inside mixed reality, bridging headset holograms and touchable form.
+- Technique: A shape-changing tangible device is spatially registered to the MR headset so that its physical form is actuated to match the virtual object the user is reaching for, providing passive haptic proxy feedback.
+- Try it: Register a physical box as the 'stand-in' for a virtual object in HoloKit or phone AR, and when the virtual object changes shape, prompt a classmate to adjust the box by hand (or push it open with a servo) so what the hand feels matches what the eye sees. Twist: deliberately mismatch what is seen and felt, and test how big a difference people notice.
+
+### Greg Madison
+
+*XR interaction designer; former UX/interaction designer at Unity Labs*
+
+Interaction designer and futurist who spent years at Unity Labs prototyping how real objects, surfaces and bodies can become interfaces in mixed reality.
+
+#### Concept: AR cereal box — Greg Madison (2017)
+- Video: https://www.youtube.com/watch?v=HgouAZ5Jfd8
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Headset, Unity, AR concept
+- Idea: A breakfast cereal box becomes an AR interface that pops out content.
+- What it is: A 2017 Unity Labs concept from the 'future of mixed reality' series in which a cereal box becomes an interactive AR object with content attached to the packaging.
+- Technique: The packaging is recognized as a tracked image or object target, and 3D content is parented to the box so interactions such as opening or tilting drive animations.
+- Try it: Use a real package as an image target and overlay a small game or character on the box. Twist: when you tilt the box, the AR cereal pours out like liquid.
+
+#### Tangible Mixed Reality 01: Oculus Touch & haptics — Greg Madison (2017)
+- Video: https://www.youtube.com/watch?v=wOUdvLVRJpk
+- Interaction: Tangible Objects, Hands & Body
+- Platform & tech: Headset, Oculus Rift, Oculus Touch, Unity
+- Idea: Real objects give virtual interfaces passive touch feedback.
+- What it is: First of a series in which Oculus Touch controllers track real objects so they can be mirrored inside VR; here real surfaces give passive haptic feedback to a virtual interface.
+- Technique: A tracked controller is mounted on a real object to provide its 6DoF pose, and a virtual panel is registered to the object's surface so touching the virtual UI hits real material (passive haptics).
+- Try it: Stick an image marker on a piece of cardboard, overlay a set of virtual buttons on its surface in AR, and highlight a button when a finger taps the cardboard. Twist: make the surface from different materials (felt, foil) and compare which feels most like a button.
+
+#### Tangible Mixed Reality 02: Oculus Touch & launchpad — Greg Madison (2017)
+- Video: https://www.youtube.com/watch?v=7xVFERWilj4
+- Interaction: Tangible Objects, Voice & Sound
+- Platform & tech: Headset, Oculus Rift, Oculus Touch, MIDI, Unity
+- Idea: A real MIDI pad controller becomes a spatial visual instrument in mixed reality.
+- What it is: A physical launchpad controller is tracked and mirrored in VR so its real pads can be pressed while wearing a headset, with virtual feedback attached.
+- Technique: The physical launchpad is registered in the virtual scene by a rigidly attached tracker, and incoming MIDI note events trigger visual effects at each pad's virtual position.
+- Try it: Connect a MIDI keyboard or a virtual drum pad on a phone to Unity, so each key press bursts particles at the matching spot in AR. Twist: make the particles fly toward a fixed target in the room and leave traces.
+
+#### Tangible Mixed Reality 03: Oculus Touch & synthesizer — Greg Madison (2017)
+- Video: https://www.youtube.com/watch?v=PGrJeCXyKrI
+- Interaction: Tangible Objects, Voice & Sound
+- Platform & tech: Headset, Oculus Rift, Oculus Touch, Unity
+- Idea: Turn the knobs of a real synthesizer to shape sound visuals in space.
+- What it is: A real hardware synthesizer is registered in the virtual scene so you can play and tweak it while immersed, with virtual visuals attached to the instrument.
+- Technique: A hardware synth is aligned to a virtual replica through a tracked offset, so knob and key positions match and virtual visualizations stay attached to the physical instrument.
+- Try it: Make an image marker for a real instrument (such as a ukulele) and overlay AR waveforms around its body that vibrate with the sound. Twist: detect pitch with the microphone and show a different color for each pitch.
+
+#### Tangible Mixed Reality 04: Oculus Touch & keyboard — Greg Madison (2017)
+- Video: https://www.youtube.com/watch?v=i5iLZ3ykfBA
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Headset, Oculus Rift, Oculus Touch, Unity
+- Idea: Type on a real keyboard in VR, with virtual labels laid over the physical keys.
+- What it is: A physical computer keyboard is tracked so you can type for real inside VR, with virtual labels and panels attached to the real keys.
+- Technique: A tracker fixed to the keyboard gives its pose, and a matching virtual keyboard model with per-key labels is overlaid so the user can type on real keys while immersed.
+- Try it: Locate a real keyboard with an image marker and overlay AR labels on commonly used shortcuts. Twist: when a key is pressed, a line of that key's "inner monologue" floats above the keyboard.
+
+#### Tangible Mixed Reality 05: Oculus Touch & board game — Greg Madison (2017)
+- Video: https://www.youtube.com/watch?v=DpFZme_mOoU
+- Interaction: Tangible Objects, Play
+- Platform & tech: Headset, Oculus Rift, Oculus Touch, Unity
+- Idea: Virtual pieces and animations on a real board game let a digital layer redefine an ordinary object.
+- What it is: A real board game is tracked and augmented with a virtual layer, pitching mixed reality as a way to 'uberize' ordinary physical objects the way MP3 did music.
+- Technique: The board's pose is tracked with a controller or marker, and a virtual layer (animations, rules, scores) is rendered in board-local coordinates so it moves with the physical board.
+- Try it: Pick a simple board game (such as tic-tac-toe), recognize the board with image tracking, and overlay animations and scores on the squares. Twist: add a hidden rule that only AR can reveal.
+
+#### Tangible Mixed Reality 06: Oculus Touch & ROBOT — Greg Madison (2017)
+- Video: https://www.youtube.com/watch?v=qESmM_MRNZ8
+- Interaction: Tangible Objects, Play
+- Platform & tech: Headset, Oculus Rift, Oculus Touch, robot, Unity
+- Idea: A real little robot wears a virtual body and interface, merging machine and character.
+- What it is: A small physical robot is tracked with an Oculus Touch controller and mirrored in the virtual scene, blending a real moving machine with a virtual character.
+- Technique: A tracker rides on a small robot so its live pose drives a virtual character or effect overlay, blending the physical motion with a digital skin.
+- Try it: Stick an image marker on a remote-controlled car and replace it with an animal character in AR. Twist: when the car bumps into something, the AR character makes an exaggerated face.
+
+#### Tangible UI: hand tracking on flat surfaces — Greg Madison (2019)
+- Video: https://www.youtube.com/watch?v=Vr9y7hG52ME
+- Interaction: Hands & Body, Tangible Objects, Spatial Mapping
+- Platform & tech: Headset, Oculus Quest, hand tracking, Unity
+- Idea: Use hand tracking to turn any real tabletop into a giant touch screen.
+- What it is: Using early Quest hand tracking, any real table becomes a giant touch screen: virtual buttons and sliders are laid flat on the desk and pressed with your fingers.
+- Technique: A table plane is calibrated, and fingertip positions from hand tracking are tested against virtual buttons laid flat on it, with a small distance threshold standing in for a touch event.
+- Try it: Combine MediaPipe Hands with tabletop plane detection to lay a set of virtual sliders on the desk, using the finger's height above the surface to decide whether it is pressed. Twist: let different fingers control different functions.
+
+#### Audio Augmented Reality with face-tracking — Greg Madison (2020)
+- Video: https://www.youtube.com/watch?v=_7rUphgizxk
+- Interaction: Voice & Sound, Face, Gaze & Attention
+- Platform & tech: Phone, ARKit face tracking, spatial audio, Unity
+- Idea: Use face tracking to get head direction and build spatial AR made only of sound.
+- What it is: An audio-first AR prototype that uses face tracking to follow your head and render spatial sound anchored in the room around you.
+- Technique: Front-camera face tracking gives the head pose, which updates the audio listener orientation so sound sources stay world-anchored while the user turns their head.
+- Try it: Use ARKit face tracking to get head rotation and drive the orientation of the AudioListener in Unity, so a sound stays fixed in one direction in the room. Twist: make a sound treasure hunt you can play with your eyes closed.
+
+#### Augmented Keyboard — Greg Madison (2022)
+- Video: https://www.youtube.com/watch?v=-q-g4qNV5u8
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Headset, Meta Quest 2, Tracked Keyboard SDK
+- Idea: Pair a physical keyboard with one smart virtual screen instead of a wall of virtual monitors.
+- What it is: A tracked physical keyboard on Quest 2 gets one smart virtual screen and context-aware overlays instead of a wall of virtual monitors.
+- Technique: A tracked-keyboard SDK provides the keyboard pose, and a single virtual screen plus context overlays are placed relative to it instead of fixed in the room.
+- Try it: Hang a small AR screen above a real keyboard that shows only the line you are currently typing. Twist: change the screen color according to the mood of the text as you type.
+
+#### Playing with realities in ShapeXR — Greg Madison (2022)
+- Video: https://www.youtube.com/watch?v=opiiwqz6Hgo
+- Interaction: Portals & Worlds, Spatial Mapping
+- Platform & tech: Headset, Meta Quest 2, ShapeXR, passthrough
+- Idea: Overlay a room's digital twin on the real room and switch freely between the two.
+- What it is: Digital-twin experiments in ShapeXR where a virtual copy of his room lines up with the real one, letting him fade between passthrough and virtual versions of the same space.
+- Technique: A digital-twin model of the room is aligned to the real room at 1:1, and a crossfade between passthrough and the twin lets the user compare or transition between the two.
+- Try it: Scan a corner of the classroom with Polycam, align it with the real space in AR, and use a slider to fade between the real and scanned versions. Twist: secretly change one detail in the scan and have classmates find it.
+
+#### Unity Slices: Table — Greg Madison (2022)
+- Video: https://www.youtube.com/watch?v=FPCz0UY0UrA
+- Interaction: Portals & Worlds, Tangible Objects, Play
+- Platform & tech: Headset, Meta Quest 2, Passthrough API, Unity
+- Idea: Play board games on one real table while sliding continuously between reality and the virtual.
+- What it is: A Unity Labs demo on Quest 2 passthrough that slides a real table along the reality spectrum, from pure passthrough to fully virtual, while you play chess and other tabletop games on it.
+- Technique: A virtual table is registered to the real one, and a blend parameter crossfades passthrough and virtual rendering with a mask or opacity ramp, moving the same object along the reality-virtuality spectrum.
+- Try it: Align a same-sized virtual tabletop on a real table and use a slider to replace materials step by step from fully real to fully virtual. Twist: play the same mini-game at every step and record how it feels different.
+
+#### MELODIX•R — Greg Madison (2024)
+- Video: https://www.youtube.com/watch?v=pYgHzTdJPHw
+- Interaction: Voice & Sound, Hands & Body, Performance
+- Platform & tech: Headset, Meta Quest 3, hand tracking
+- Idea: Design fiction: a mixed-reality music experience set in your real room.
+- What it is: An XR design-fiction prototype on Quest 3 imagining a mixed-reality music experience placed in your real room.
+- Technique: Hand-tracked gestures likely act on room-anchored musical objects, so reaching, pinching and placing notes in space shapes the music.
+- Try it: Place a few sound-making AR balls in the room and grab them with hand gestures, moving them to different heights to change their pitch. Twist: change the timbre when a ball is placed on real furniture.
+
+### Botao 'Amber' Hu
+
+*Designer-researcher; founder of Reality Design Lab; inventor of HoloKit*
+
+Creative technologist and experiential futures designer who invented HoloKit, an open-source stereo iPhone AR headset, and leads Reality Design Lab's research on embodied, social mixed reality.
+
+#### HoloKit — Botao 'Amber' Hu (2017)
+- Video: https://www.youtube.com/watch?v=Imy8vwO-4mo
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Headset, Phone, HoloKit, ARKit, Unity
+- Idea: An open-source stereo optical see-through AR headset made from cardboard and an iPhone.
+- What it is: An open-source cardboard headset that turns an iPhone into a stereoscopic optical see-through AR wearable, with ARKit tracking and holograms shown in both eyes.
+- Technique: An iPhone renders a stereo image pair that a mirror and lens reflect into each eye as an optical see-through overlay, while ARKit visual-inertial tracking places the holograms in the world.
+- Try it: Convert an existing phone AR scene to stereo mode with the HoloKit Unity SDK, and compare the sense of depth in mono and stereo. Twist: make a small game where you can only judge distance with stereo vision.
+
+#### MOFA: The Duel — Botao 'Amber' Hu (2023)
+- Video: https://www.youtube.com/watch?v=mCHEdItEx2s
+- Interaction: Shared & Social, Hands & Body, Play
+- Platform & tech: Headset, Phone, HoloKit X, ARKit, Unity
+- Idea: A same-room magic duel in which players wearing HoloKit cast spells with gestures while spectators join in on their phones.
+- What it is: A co-located magic duel in which players wearing HoloKit headsets cast spells with hand gestures while spectators on phones watch and join; CHI 2023 best interactivity demo.
+- Technique: Hand-pose recognition on the iPhone camera classifies spell gestures, and headsets and spectator phones share one coordinate system (likely via marker-based colocalization) so spells travel between real bodies.
+- Try it: Use MediaPipe or Apple Vision hand-pose recognition to tell two gestures apart, one casting a fireball and one a shield, and sync the two devices over the network. Twist: let spectators cheer for one side on their phones to power up that side's spells.
+
+#### EchoVision — Botao 'Amber' Hu (2024)
+- Video: https://www.youtube.com/watch?v=0JyHmEApctg
+- Interaction: Voice & Sound, Spatial Mapping, Perception & Effects
+- Platform & tech: Headset, Phone, HoloKit, iPhone LiDAR, Unity
+- Idea: Your voice triggers LiDAR echo visuals, so you 'hear' space the way a bat does.
+- What it is: A handheld mixed-reality mask that lets people experience bat echolocation: your voice triggers LiDAR-based 'echoes' that briefly reveal the surrounding space as a visualized sound wave.
+- Technique: Microphone amplitude triggers a pulse, and a shader reveals the LiDAR scene mesh as an expanding spherical wavefront from the user that fades out, mimicking echolocation.
+- Try it: Use AR Foundation mesh reconstruction and a distance-based spreading shader so that the room mesh briefly lights up like a sound wave whenever a sound is detected. Twist: the higher the pitch, the faster the wave travels.
+
+#### MOFA: The Ghost — Botao 'Amber' Hu (2024)
+- Video: https://www.youtube.com/watch?v=7bCZprvgpFU
+- Interaction: Shared & Social, Hands & Body, Play
+- Platform & tech: Headset, Phone, HoloKit X, Unity
+- Idea: An asymmetric ghost-hunting game: a 'ghost' visible only through devices chases players across a public space.
+- What it is: An asymmetric social exertion game in spontaneous co-located MR: an invisible ghost player hunts others who can only see it through their devices, played in public spaces.
+- Technique: All players share a colocalized coordinate frame, and the ghost's tracked pose is rendered only on the hunters' devices, creating asymmetric visibility in the same physical space.
+- Try it: Make a two-player asymmetric game in which one person's position can only be seen through the other person's phone AR. Twist: every so often the 'invisible' player briefly appears and makes a sound.
+
+#### FeltSight — Botao 'Amber' Hu (2025)
+- Video: https://www.youtube.com/watch?v=7Pq6s3VnD0A
+- Interaction: Hands & Body, Perception & Effects, Spatial Mapping
+- Platform & tech: Headset, Wearable, mixed reality, haptics
+- Idea: Borrowing the star-nosed mole's tactile navigation, you sense space through your fingertips rather than your eyes.
+- What it is: A mixed-reality haptic experience inspired by the tactile navigation of animals like the star-nosed mole: you feel your way through space via fingertip haptics instead of sight.
+- Technique: Distance from the fingertip to scanned geometry is mapped to vibration intensity on a wearable actuator, while visual feedback is reduced so touch becomes the main sense.
+- Try it: Measure the distance to objects in front of the camera with phone LiDAR or depth estimation, map it to vibration strength, and feel your way across the classroom with your eyes closed. Twist: replace the vibration rhythm with the tactile 'language' of different animals.
+
+#### TouchPort / Allow me into your dream — Botao 'Amber' Hu (2026)
+- Video: https://www.youtube.com/watch?v=uMSXnUxnxd4
+- Interaction: Shared & Social, Hands & Body
+- Platform & tech: Headset, mixed reality, hand tracking
+- Idea: A handshake and a pull temporarily join two people's separate mixed realities into one shared space.
+- What it is: A mixed-reality sharing protocol in which a handshake and pull signals intent, negotiates consent and opens a temporary shared layer between two people's separate mixed realities.
+- Technique: Hand tracking detects a handshake-and-pull gesture between two users, which triggers a consent handshake over the network and merges their separate AR layers into a shared session.
+- Try it: Design a two-person phone AR flow in which each person can see the private objects the other has placed in space only after both make a certain gesture at the same time. Twist: the shared layer vanishes the moment either person lets go.
+
+### Keijiro Takahashi
+
+*Creative coder; developer advocate at Unity Technologies Japan*
+
+Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera and ML-tracking experiments on GitHub and uses them in live concert visuals.
+
+#### Holographic ribbons for VRDG+H — Keijiro Takahashi (2016)
+- Video: https://x.com/_kzr/status/709712057235406848
+- Interaction: Projection, Performance, Perception & Effects
+- Platform & tech: Projection, Unity, holographic display
+- Idea: An optical virtual image makes a Unity statue and ribbons float in the air and dance to music.
+- What it is: A floating statue and ribbons appear as virtual images in mid-air using a holographic optical setup, animated to DUB-Russell's music at the VRDG+H show.
+- Technique: Unity renders are shown through a holographic / Pepper's-ghost-style optical element so the image is perceived as a virtual image floating in space (likely a half-mirror or holographic screen).
+- Try it: Make a Pepper's ghost with a tilted sheet of clear acrylic and a phone screen so a small 3D statue appears to float. Twist: ribbons spin around it when you clap.
+
+#### Rcam at Channel #20 (live with umio) — Keijiro Takahashi (2019)
+- Video: https://vimeo.com/346711967
+- Interaction: Performance, Hands & Body, Perception & Effects
+- Platform & tech: Projection, Desktop, Unity, VFX Graph, Intel RealSense
+- Idea: Scan a performer into a live point cloud, then let particles tear the body apart and rebuild it as concert visuals.
+- What it is: A depth camera on stage streams a volumetric point cloud of the performer into Unity, where VFX Graph particles dissolve and rebuild her body in real time for a live concert.
+- Technique: A RealSense depth camera sends color+depth frames to Unity, which converts them into a point cloud that drives VFX Graph particles projected behind the performer.
+- Try it: Use Kinect, phone depth or MediaPipe body segmentation to turn a classmate into a particle silhouette projected on the wall. Twist: the louder the music, the more the particles scatter.
+
+#### Rcam2: Volumetric AR camera rig — Keijiro Takahashi (2020)
+- Video: https://vimeo.com/461782810
+- Interaction: Spatial Mapping, Perception & Effects, Performance
+- Platform & tech: Phone, Desktop, Unity, ARKit, LiDAR, VFX Graph, NDI
+- Idea: Use an iPad's LiDAR as a mobile volumetric camera so effects grow right on the real room.
+- What it is: An iPad Pro LiDAR rig streams color, depth and camera pose to a PC, where Unity wraps the real scene in glowing particle and line effects that stay locked to the room.
+- Technique: ARKit on an iPad Pro captures LiDAR depth, color and camera pose, streams them over NDI to a PC, and Unity reprojects the depth into world space to spawn VFX Graph effects.
+- Try it: Use mesh scanning in Reality Composer or Unity AR Foundation to make particles flow along real walls and furniture. Twist: only the surfaces of objects you have pointed at light up.
+
+#### Adding VFX to a Bibcam clip — Keijiro Takahashi (2021)
+- Video: https://x.com/_kzr/status/1460618910990929926
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, Desktop, Unity, VFX Graph, LiDAR
+- Idea: Add space-aware post effects to a depth video that has already been recorded.
+- What it is: A recorded Bibcam walk is post-processed so that particles and light trails wrap around the real buildings and people, with the effect following the real depth of the street.
+- Technique: Depth and pose embedded in the video let VFX Graph sample the real geometry per frame, so particles can spawn on and collide with surfaces in the footage.
+- Try it: Import a depth video into TouchDesigner and use the depth channel to control particle density so nearby people turn into points of light. Twist: shift the particle colors over time from day to night.
+
+#### Bibcam test in Shibuya — Keijiro Takahashi (2021)
+- Video: https://vimeo.com/651111230
+- Interaction: Spatial Mapping, Perception & Effects, Location & City
+- Platform & tech: Phone, Unity, ARKit, LiDAR, VFX Graph
+- Idea: Burn depth and camera pose into the video as you record, so you can later add effects that fit the street space.
+- What it is: Street footage shot on an iPhone 13 Pro Max records depth and camera motion inside the video itself, so later the crossing in Shibuya can be re-lit and filled with 3D effects.
+- Technique: Bibcam encodes the LiDAR depth map and camera pose as metadata burned into each recorded video frame, so Unity can later reconstruct the 3D scene for post-processed AR VFX.
+- Try it: Record a short campus clip with a LiDAR phone (or export one with Record3D), then add snow or glowing lines to the real space in Unity or Blender. Twist: make the effects appear only beyond 2 meters from the camera.
+
+#### BodyPix visual effects (NNCam) — Keijiro Takahashi (2021)
+- Video: https://vimeo.com/580670067
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Desktop, Unity, Barracuda, BodyPix
+- Idea: Cut the person out of the background in real time so effects only touch the body.
+- What it is: A webcam segments the person from the background and body parts in real time, so particles, outlines and glitches can wrap only the human body in the live image.
+- Technique: The BodyPix person-and-part segmentation network runs through Unity Barracuda, and its mask texture is used to emit and confine VFX Graph particles to the body.
+- Try it: Use MediaPipe Selfie Segmentation or TouchDesigner to turn a classmate's body into flowing ink while the background stays still. Twist: only a raised hand catches fire.
+
+#### FaceMeshBarracuda face & eye tracker — Keijiro Takahashi (2021)
+- Video: https://vimeo.com/545493860
+- Interaction: Face, Gaze & Attention
+- Platform & tech: Desktop, Phone, Unity, Barracuda, MediaPipe
+- Idea: Get a face mesh and eye tracking from one camera in Unity for mask and gaze effects.
+- What it is: A webcam face and iris tracker running in Unity overlays a dense face mesh and eye landmarks on the live video, ready for mask and gaze effects.
+- Technique: MediaPipe face-mesh and iris models run via Barracuda to return 468 face vertices plus iris landmarks, which are used to texture and deform an overlay mesh.
+- Try it: Use Spark, Lens Studio or MediaPipe FaceMesh to make a third-eye mask that follows your eye movements. Twist: the mask swaps to a different face when you blink.
+
+#### HandPoseBarracuda hand tracker — Keijiro Takahashi (2021)
+- Video: https://vimeo.com/545493967
+- Interaction: Hands & Body
+- Platform & tech: Desktop, Phone, Unity, Barracuda, MediaPipe
+- Idea: Get finger joints in Unity from an ordinary camera as a building block for gesture effects.
+- What it is: A single webcam tracks all finger joints in real time inside Unity, drawing a 3D hand skeleton over the live image as a building block for gesture-driven effects.
+- Technique: MediaPipe palm-detection and hand-landmark neural networks run on the GPU through Unity Barracuda to output 21 3D keypoints per frame.
+- Try it: Track fingers with MediaPipe Hands (the web version is enough) and make your fingertips drag colored light trails across the camera view. Twist: when you pinch, the light trail becomes a rope you can grab.
+
+#### VFX with Unity AR Foundation — Keijiro Takahashi (2022)
+- Video: https://x.com/_kzr/status/1601509152395706369
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Unity, AR Foundation, ARKit, LiDAR, VFX Graph
+- Idea: Grow light effects along the real environment live on a phone.
+- What it is: Live on an iPhone, glowing particles and lines grow over the real room and people in front of the camera, anchored to the LiDAR-scanned environment.
+- Technique: AR Foundation exposes the LiDAR environment depth and human stencil textures, which VFX Graph samples on-device to emit particles from real surfaces.
+- Try it: Use depth textures in AR Foundation or Lens Studio to make fireflies rise from the room's surfaces. Twist: fireflies scatter wherever a person walks.
+
+#### Walking a Taiwanese street with iPhone LiDAR — Keijiro Takahashi (2022)
+- Video: https://x.com/_kzr/status/1607672355710709760
+- Interaction: Spatial Mapping, Location & City, Perception & Effects
+- Platform & tech: Phone, Unity, ARKit, LiDAR
+- Idea: Turn LiDAR's short sight into a dreamlike style of street scene.
+- What it is: A night walk through a street in Taiwan is visualized as a sparse point-cloud world built live from the iPhone LiDAR, showing both the magic and the 5-meter range limit of the sensor.
+- Technique: LiDAR depth samples are reprojected into world-space points each frame and accumulated, so the scene is reconstructed as a trail of colored points around the walker.
+- Try it: Scan a corridor with Polycam or Scaniverse, export the point cloud, and use three.js to show only the points within 5 meters of you. Twist: make the point cloud flicker with your footsteps.
+
+#### Metavido VFX (WebGPU) — Keijiro Takahashi (2024)
+- Video: https://x.com/_kzr/status/1828366682689061280
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, Web, Unity, WebGPU, VFX Graph, LiDAR
+- Idea: Put a phone video with depth onto a web page, so anyone can walk around its effects in a browser.
+- What it is: Volumetric clips captured with an iPhone Pro play back in a web browser, where the recorded person and space are re-rendered as particles and effects in 3D.
+- Technique: Metavido stores LiDAR depth and camera metadata inside a standard video stream, which a Unity WebGPU build decodes to reconstruct points for VFX in the browser.
+- Try it: Import a Record3D or phone depth video into three.js and rebuild a dance clip as a point cloud on a web page. Twist: when a viewer clicks, switch to a 'sand' material that collapses.
+
+#### Rcam3 for Masaya Matsuura's concert — Keijiro Takahashi (2024)
+- Video: https://x.com/_kzr/status/1871169155254435978
+- Interaction: Performance, Hands & Body, Perception & Effects
+- Platform & tech: Phone, Projection, Unity, VFX Graph, ARKit, LiDAR
+- Idea: Use a phone's LiDAR as a volumetric camera on stage to generate live show visuals.
+- What it is: A fixed iPhone on stage captures the performers' depth, and Unity turns their silhouettes into large-scale VFX shown behind the band during Masaya Matsuura's concert.
+- Technique: An iPhone controller app streams color and LiDAR depth to a host PC, where the depth is converted to point positions that drive VFX Graph for projection.
+- Try it: Film a musician with a phone and turn their body outline into particles in TouchDesigner, projected behind them. Twist: make the drum hits burst the particles apart.
+
+### Ryo Suzuki — Programmable Reality Lab
+
+*Assistant Professor, University of Colorado Boulder (previously University of Calgary); directs the Programmable Reality Lab*
+
+Ryo Suzuki builds AR tools that make the real world dynamic and programmable: sketches that respond to physical motion, textbooks whose diagrams come alive, and robots and physical objects bound to virtual content. He did his PhD with Daniel Leithinger and Mark Gross at CU Boulder.
+
+#### RealitySketch — Ryo Suzuki — Programmable Reality Lab, Rubaiat Habib Kazi (2020)
+- Video: https://www.youtube.com/watch?v=L0p-BNU9rXU
+- Interaction: Drawing & Making, Information & UI, Tangible Objects
+- Platform & tech: Phone, ARKit, computer vision
+- Idea: Lines and angles you sketch stick to real moving objects and become live physics visualizations.
+- What it is: Sketch lines, angles and graphs on a phone's AR view of a moving object (a pendulum, a rolling ball) and the drawings bind to it, updating live to visualize physics.
+- Technique: ARKit tracks the device and a detected plane, the moving object is tracked in the camera image by color, and sketched elements are bound to the object's projected 3D position so lines, angles and plots update each frame.
+- Try it: In phone AR, use color tracking to mark a swinging pendant or a rolling ball, let the user draw a line connected to it, and update the line's length and angle live while plotting a graph beside it. Twist: use the tool to measure some periodic motion around you that you are curious about.
+
+#### RealityTalk — Ryo Suzuki — Programmable Reality Lab, Rubaiat Habib Kazi (2022)
+- Video: https://www.youtube.com/watch?v=vfIMeICV-7c
+- Interaction: Voice & Sound, Hands & Body, Performance
+- Platform & tech: Phone, Desktop, speech recognition, hand tracking
+- Idea: As you talk, keywords turn into AR text and images floating around you that you can grab to tell your story.
+- What it is: While a presenter speaks, keywords are recognized and turned into AR text, images and graphics that the presenter can grab and place with hand gestures around their body.
+- Technique: Streaming speech recognition extracts keywords, which are turned into text or images and placed in the camera view, while hand tracking lets the presenter grab and reposition them in the space around their body.
+- Try it: Use the Web Speech API to detect keywords a speaker says, stick matching text or emoji into the camera view, and move them with a MediaPipe Hands pinch gesture. Twist: give a 60-second AR talk in which every visual element must be summoned by your words.
+
+#### Sketched Reality — Ryo Suzuki — Programmable Reality Lab (2022)
+- Video: https://www.youtube.com/watch?v=xy-IeVgoEpY
+- Interaction: Drawing & Making, Tangible Objects, Play
+- Platform & tech: Phone, ARKit, tabletop robots
+- Idea: A drawn spring can bounce a real little robot, and the robot can push drawn things too.
+- What it is: Sketches in AR interact bidirectionally with small tabletop robots: a drawn ramp makes the robot move, and a robot bumping a drawn spring makes the sketch bounce.
+- Technique: Small tabletop robots are tracked in the AR view and sketches are converted into physics bodies, so the simulation both sends motor commands to the robots and updates the sketch from the robots' measured positions.
+- Try it: Use phone AR to recognize a small marker-tagged car (or a toy a classmate pushes by hand), draw a ramp or wall on screen, and make the virtual line bounce when the car hits it. Twist: let the drawn objects command the real car, for example a micro:bit car.
+
+#### Augmented Math — Ryo Suzuki — Programmable Reality Lab (2023)
+- Video: https://www.youtube.com/watch?v=Zv6JQ5T-qn0
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Phone, OCR, AR
+- Idea: Point at a printed math textbook and its formulas and graphs turn into live explanations you can drag and explore.
+- What it is: Point a tablet at a static math textbook and formulas and figures become explorable: sliders, animated graphs and linked highlights appear on the page.
+- Technique: The page is captured and processed with OCR and math-formula recognition to extract equations and figures, which are then turned into parametric interactive visualizations registered to the page through image tracking.
+- Try it: Photograph a function formula from a textbook page (such as y = a·sin(bx)), extract its parameters with OCR or by typing them in, and overlay draggable sliders and an animated curve on the page with 8th Wall or AR Foundation image tracking. Twist: pick the textbook page you found hardest to understand back then and rework it.
+
+#### ChameleonControl — Ryo Suzuki — Programmable Reality Lab (2023)
+- Video: https://www.youtube.com/watch?v=VOe3fETd3sk
+- Interaction: Shared & Social, Hands & Body
+- Platform & tech: Headset, HoloLens, hand tracking
+- Idea: Use MR gestures to remotely 'steer' a human stand-in who carries out actions on site for you.
+- What it is: A remote operator guides a real human 'surrogate' through mixed reality gestures, turning a person into a teleoperated body for remote tasks.
+- Technique: The remote operator's hand gestures are captured and rendered in the surrogate's HoloLens as overlaid ghost hands, which the surrogate aligns their own hands with to replicate the motion.
+- Try it: Have one classmate wear HoloKit or watch phone AR while a remote classmate's MediaPipe hand keypoints stream in live as 'ghost hands', and have the local classmate copy the ghost hands to finish an origami or block-building task. Twist: the ghost hands give only half the cues, and see how the collaboration changes.
+
+#### HoloBots — Ryo Suzuki — Programmable Reality Lab (2023)
+- Video: https://www.youtube.com/watch?v=KSBPtiXy8Hg
+- Interaction: Shared & Social, Tangible Objects, Hands & Body
+- Platform & tech: Headset, HoloLens, Sony toio robots
+- Idea: A remote person's hologram gets a small robot body that can actually push things on your desk.
+- What it is: A remote user's hologram in HoloLens is paired with small mobile robots, so the remote person can physically push objects and touch hands through the robots.
+- Technique: The remote user's tracked hand motions in HoloLens are mapped onto the positions of Sony toio robots, which localize themselves on a position-encoded mat, and the hologram is rendered co-located with the robots.
+- Try it: Use a toio, a micro:bit car or a cardboard box pushed by a classmate as the physical stand-in for a 'remote hand', let the remote side drag its position on a web page, and overlay the other person's virtual hand on the object with local phone AR. Twist: have the stand-in perform social gestures such as a hug or a high five.
+
+#### RealityCanvas — Ryo Suzuki — Programmable Reality Lab (2023)
+- Video: https://www.youtube.com/watch?v=HVOgH1quDsc
+- Interaction: Drawing & Making, Perception & Effects, Hands & Body
+- Platform & tech: Phone, ARKit, body tracking
+- Idea: Add comic-style speed lines and smoke to the real world, moving live with real people and objects.
+- What it is: Scribble animation effects such as motion lines, smoke and speed lines onto real moving people and objects in AR, and they follow and react to the motion like a live cartoon.
+- Technique: ARKit body tracking and object tracking give per-frame positions of moving targets, and hand-drawn strokes are attached to those points and animated with rules (trail, follow, emit) to produce cartoon effects.
+- Try it: Track a classmate's wrist or ankle with MediaPipe Pose, let the user draw a speed line or a puff of smoke on screen, and bind it to the joint so it plays with the motion. Twist: add comic sound-effect lettering to everyday objects in motion (a door opening, water pouring).
+
+#### Teachable Reality — Ryo Suzuki — Programmable Reality Lab (2023)
+- Video: https://www.youtube.com/watch?v=JssiyfrhIJw
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, interactive machine teaching, ARKit
+- Idea: Demonstrate with any object at hand a few times and it becomes a physical controller for AR effects.
+- What it is: Train an on-device model by demonstrating with everyday objects (a lid open or closed, a toy moved) and bind those states to AR effects, prototyping tangible AR without code.
+- Technique: An on-device image classifier is trained from a few user demonstrations of object states (interactive machine teaching), and state changes detected in the camera feed trigger AR effects bound to the tracked scene.
+- Try it: Train two states with Teachable Machine, such as cup lid open/closed or book open/shut, and link the state change to an effect in web AR, like steam rising when the lid opens. Twist: turn an everyday object with no electronics into a game controller.
+
+#### Augmented Physics — Ryo Suzuki — Programmable Reality Lab, Rubaiat Habib Kazi (2024)
+- Video: https://www.youtube.com/watch?v=HUgYeA3BKfk
+- Interaction: Information & UI, Drawing & Making
+- Platform & tech: Phone, segmentation, physics simulation
+- Idea: Photograph a physics diagram in a textbook and it comes alive as a simulation you can tune.
+- What it is: Photograph a static physics textbook diagram and it becomes an interactive simulation in place: pendulums swing, pulleys move and parameters can be changed.
+- Technique: Diagram elements in a textbook image are segmented (e.g. with SAM), recognized as physics primitives such as pendulums, pulleys or ramps, and reconstructed as a 2D physics simulation overlaid on the original figure.
+- Try it: Photograph a diagram from a physics textbook (an incline, a pendulum or a pulley), cut out each part by hand or with a segmentation tool, rebuild it as a moving simulation in Matter.js and overlay it on the original figure. Twist: let readers change a parameter that cannot be changed in real life (such as gravity pointing up).
+
+#### RealityEffects — Ryo Suzuki — Programmable Reality Lab (2024)
+- Video: https://www.youtube.com/watch?v=5x45I-eXqBk
+- Interaction: Perception & Effects, Information & UI
+- Platform & tech: Headset, Desktop, volumetric video
+- Idea: Add annotations and effects that follow the people and objects in a 3D video.
+- What it is: Volumetric videos are augmented with object-centric annotations and dynamic visual effects that follow people and objects through the 3D recording.
+- Technique: Objects and people are tracked across frames of a volumetric (RGB-D) recording, and annotation or particle effects are attached to those 3D tracks so they follow the subject when the recording is replayed from any viewpoint.
+- Try it: Record a video with depth using Record3D or Polycam, and during playback in Unity or three.js attach trails, labels and explosion particles to a person or a ball. Twist: use the effects to recut an ordinary everyday clip as a sports broadcast.
+
+#### Guided Reality — Ryo Suzuki — Programmable Reality Lab (2025)
+- Video: https://www.youtube.com/watch?v=n6jMzQ6Z2Ic
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Headset, LLM, vision models, mixed reality
+- Idea: An LLM automatically generates AR instructions pinned to the real objects you need to handle.
+- What it is: LLMs and vision models generate step-by-step AR task guidance that highlights the exact real objects to touch, turning any instruction into visual in-situ help.
+- Technique: An LLM decomposes an instruction into steps, and a vision-language or detection model grounds each step to the relevant objects in the camera view, whose image locations are highlighted in MR.
+- Try it: Photograph a tabletop with a phone and send the photo plus a task instruction ('make a cup of pour-over coffee') to a multimodal LLM, asking it to return box coordinates for the object in each step, then highlight them one by one on screen. Twist: have the system give a hint when you make a mistake instead of only listing steps.
+
+#### InSituTale — Ryo Suzuki — Programmable Reality Lab (2025)
+- Video: https://www.youtube.com/watch?v=Wn-sOu-sK60
+- Interaction: Information & UI, Tangible Objects, Performance
+- Platform & tech: Phone, Headset, AR, object tracking
+- Idea: Arranging real objects on a table drives how an AR data story unfolds.
+- What it is: Physical objects on a table act as tangible handles for augmented data stories: moving and arranging objects drives AR charts and narration.
+- Technique: Tabletop objects are tracked by the camera (markers or object detection), and their positions and arrangement are mapped to parameters of AR charts and narration segments, making physical layout the story controller.
+- Try it: Put ArUco or image markers on three cups, track their positions with phone AR, and map the distances between cups to bar heights or to the playback progress of a data story. Twist: use these objects to tell a data story about your own daily routine or spending.
+
+### Golan Levin
+
+*Artist; Professor of Electronic Art, Carnegie Mellon University; director of the Frank-Ratchye STUDIO for Creative Inquiry*
+
+Artist and educator whose installations and performances explore abstract communication, the voice, the hand and the gaze through real-time computer vision and projection.
+
+#### Messa di Voce (installation) — Golan Levin, Zach Lieberman (2005)
+- Video: https://vimeo.com/221802940
+- Interaction: Voice & Sound, Hands & Body, Projection
+- Platform & tech: Projection, computer vision, audio analysis
+- Idea: Speech and song grow visible shapes out of your mouth that you can push with your body.
+- What it is: Installation version of the 2003 performance: visitors' voices are visualized as projected bubbles and shapes that emerge from their mouths and can be pushed with their bodies.
+- Technique: Camera tracking locates each visitor's head/mouth position, and real-time audio analysis (amplitude, pitch, spectral features) generates projected shapes emitted from that point, which then collide with body silhouettes.
+- Try it: Use MediaPipe to find the mouth, analyze volume and pitch with p5.sound, and blow bubbles of different shapes out of the mouth, projected on a wall. Twist: design one shape for each vowel (a, e, i, o, u) and have everyone 'write' with their voice.
+
+#### Scrapple — Golan Levin (2005)
+- Video: https://vimeo.com/227633208
+- Interaction: Tangible Objects, Voice & Sound, Projection
+- Platform & tech: Projection, computer vision
+- Idea: Whatever you toss on the table becomes a score that plays live and gets marked up by projection.
+- What it is: Everyday objects placed on a table are read as marks on a live musical score; the scanned table plays them as sound while projection augments the objects with graphics.
+- Technique: An overhead camera segments objects on the table (background subtraction and blob detection), treating the x-axis as time and the y-axis as pitch like a spectrogram score, with a scanning playhead that sonifies blobs and projection highlighting them.
+- Try it: Film the table from above, detect object blobs in p5.js with the horizontal axis as time and the vertical axis as pitch, and play and highlight them by projection as a playhead sweeps across. Twist: compose using only kitchen items and play the class a 30-second 'breakfast tune'.
+
+#### Footfalls — Golan Levin, Zach Lieberman (2006)
+- Video: https://vimeo.com/227566535
+- Interaction: Voice & Sound, Hands & Body, Projection
+- Platform & tech: Projection, computer vision, microphones
+- Idea: The harder you stomp, the more virtual objects fall from the sky, and you can catch them with your shadow and throw them back.
+- What it is: Stomping on the floor makes cascades of bouncy virtual objects fall from a six-metre projection; visitors catch and throw them with their silhouettes.
+- Technique: Floor-mounted contact microphones detect stomp onsets and amplitude, spawning physics objects, while camera-based silhouette extraction provides collision boundaries for catching them.
+- Try it: Use a laptop microphone to detect volume peaks from stomps or claps, dropping a batch of objects from the top of the projected wall at each peak, and let people's outlines catch them. Twist: different strengths drop different things, such as petals for a light stomp and rocks for a hard one.
+
+#### Ghost Pole Propagator — Golan Levin (2007)
+- Video: https://vimeo.com/222999706
+- Interaction: Hands & Body, Projection
+- Platform & tech: Projection, computer vision, skeletonization
+- Idea: Distill a person's silhouette into skeleton-like lines projected on the wall.
+- What it is: Visitors' silhouettes are reduced to skeletal centerline 'ghost poles' projected large on a wall, echoing their posture as calligraphic stick figures.
+- Technique: Binary silhouettes are thinned by morphological skeletonization into centerline pixels, which are vectorized into poles and rendered as calligraphic strokes.
+- Try it: Use OpenCV skeletonization or MediaPipe Pose connections to turn a person's pose into calligraphic strokes projected on a wall, keeping afterimages from the last few seconds. Twist: have the class pose one after another to assemble a 'body alphabet' of your own invention.
+
+#### Interstitial Fragment Processor — Golan Levin (2007)
+- Video: https://vimeo.com/86071976
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, computer vision
+- Idea: Turn the gaps between people's shadows into solid things that fall, bounce and make sounds.
+- What it is: The negative spaces between and within visitors' shadows are cut out and dropped as elastic red and blue objects that fall and collide with sound.
+- Technique: Silhouettes from background subtraction are analysed for enclosed holes (contour hierarchy / connected components), and those negative-space regions become rigid bodies in a 2D physics engine.
+- Try it: Cut out people's shadows from a camera image, find the holes enclosed inside them (like the gap between arm and body with hands on hips), and turn those holes into colored blocks that fall, collide and make sounds. Twist: everyone must cooperate to enclose a given shape (a heart, a star) with their bodies to release it.
+
+#### Reface [Portrait Sequencer] — Golan Levin, Zach Lieberman (2007)
+- Video: https://www.youtube.com/watch?v=9dh2ghiwJW0
+- Interaction: Face, Shared & Social, Perception & Effects
+- Platform & tech: Desktop, face tracking, openFrameworks
+- Idea: A magic mirror like an exquisite-corpse game: it mixes different visitors' eyes, brows and mouths into new faces live, and a blink switches them.
+- What it is: A face-tracking mirror that records slices of visitors' eyes, brows and mouths and remixes them into endless 'exquisite corpse' composite faces; blinking advances the combinations.
+- Technique: Face tracking aligns each visitor's face to a canonical frame, horizontal strips (eyes, nose, mouth) are recorded as video slices, and blink detection triggers recombination of strips from different people.
+- Try it: Align faces with MediaPipe Face Mesh, save three horizontal strips (eyes, nose, mouth) separately, and let each blink randomly assemble a 'composite face' from the whole class. Twist: let emotion set the splicing rule, such as using only mouths caught while everyone is smiling.
+
+#### Ghost Projection for Richard III — Golan Levin (2010)
+- Video: https://vimeo.com/11013624
+- Interaction: Performance, Projection, Hands & Body
+- Platform & tech: Projection, openFrameworks, computer vision
+- Idea: Project static noise only onto the 'ghost' actors on stage, turning them into phantoms.
+- What it is: Stage media for a Carnegie Mellon production of Richard III: computer vision tracks actors playing ghosts and projects static noise only onto their moving bodies.
+- Technique: Stage cameras (likely IR with background subtraction) segment the actors' bodies, and the resulting matte, warped through a camera-projector calibration, restricts projected video noise to their silhouettes.
+- Try it: Use MediaPipe body segmentation and a projector to cast TV static only onto a classmate, keeping the background completely black. Twist: write a one-minute 'ghost monologue' and let the static grow and fade with the loudness of the lines.
+
+#### Eyeshine — Golan Levin, Kyle McDonald (2011)
+- Video: https://vimeo.com/29356492
+- Interaction: Gaze & Attention, Perception & Effects
+- Platform & tech: Desktop, infrared camera, computer vision
+- Idea: Catch the red-eye glint in visitors' eyes so they see their own eyes glowing like a night animal's.
+- What it is: An installation that captures, records and replays the red-eye retroreflections from observers' eyes, revealing a normally invisible property of the human retina.
+- Technique: An infrared light source placed coaxially with an IR camera produces retroreflection from the retina (the red-eye effect), which is detected as bright pupil blobs and recorded and replayed.
+- Try it: In a dark room, photograph people's eyes with the phone flash held right next to the lens (or use an IR camera), isolate the pupil glints in p5.js and save them, then arrange them into a 'wall of eyeshine'. Twist: collect glints only from people who hold eye contact for more than 3 seconds, and discuss the ethics of 'being seen'.
+
+#### Augmented Hand Series — Golan Levin, Chris Sugrue, Kyle McDonald (2014)
+- Video: https://vimeo.com/111951283
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Desktop, Leap Motion, openFrameworks
+- Idea: Put your hand in a box and watch it on screen grow an extra finger or longer fingers, live and uncanny.
+- What it is: Visitors insert a hand into a box and see it transformed in real time on screen: extra or missing fingers, lengthened digits, wobbling knuckles and other uncanny variations.
+- Technique: A Leap Motion (or camera) tracks hand joints, and an image-warping mesh is deformed per joint to add, remove, or stretch fingers on the live hand video.
+- Try it: Get the 21 keypoints from MediaPipe Hands and apply mesh warping to the hand video in p5.js to lengthen fingers or add one more. Twist: design a hand that "moves on its own", with one finger quietly wandering off while you hold still.
+
+#### ARKit re-code of Jeffrey Shaw's Golden Calf — Golan Levin (2017)
+- Video: https://vimeo.com/269478756
+- Interaction: Spatial Mapping, Tangible Objects
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A 1994 classic remade in phone AR: a golden calf on an empty plinth, visible only through the phone.
+- What it is: A speed-project with Claire Hentschker that re-creates Shaw's 1994 Golden Calf for ARKit: a phone reveals a virtual golden calf standing on an empty plinth.
+- Technique: ARKit horizontal plane detection (or an image marker on the plinth) anchors a reflective 3D model, and the environment probe reflects the real room on its gold surface.
+- Try it: Use Unity AR Foundation to "rewrite" a classic new-media artwork as phone AR by placing a metallic model with environment reflections on an empty stand. Twist: swap in an overlooked object from around you and "enshrine" it on the empty plinth.
+
+### Matthew Hallberg
+
+*AR developer and YouTuber; Snap Spectacles developer*
+
+Unity AR developer whose YouTube channel mixes tutorials with ambitious builds, from ARKit Minecraft and Portal to Iron Man HUDs and Snap Spectacles games.
+
+#### ARKit Pokémon Go with Unity GPS and Mapbox — Matthew Hallberg (2017)
+- Video: https://www.youtube.com/watch?v=u8JaKspgWvE
+- Interaction: Location & City, Play
+- Platform & tech: Phone, ARKit, Unity, Mapbox
+- Idea: ARKit plus GPS maps put Pokémon that actually stand on the street.
+- What it is: A Pokémon Go-style demo that combines ARKit tracking with Mapbox GPS so creatures stand at real-world locations.
+- Technique: Mapbox converts creature GPS coordinates into positions relative to the device's GPS location and compass heading, which are then placed in the ARKit world frame.
+- Try it: Use AR plus GPS to place a virtual creature at a set coordinate on campus that can only be seen and tapped to catch when you walk nearby. Twist: the creature appears only at certain times of day or in certain weather.
+
+#### Apple ARKit Augmented Reality Minecraft — Matthew Hallberg (2017)
+- Video: https://www.youtube.com/watch?v=qFGx9QcE5Gk
+- Interaction: Drawing & Making, Play, Spatial Mapping
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Minecraft blocks built at real size on the real ground.
+- What it is: Place and break Minecraft blocks at life size on real ground, one of the most shared ARKit demos of summer 2017.
+- Technique: Raycasts onto detected planes and existing cube faces snap new blocks to a grid, and tapping a block removes it, reproducing Minecraft's voxel build logic in world space.
+- Try it: Set up a 10 cm grid on the floor plane where tapping places a block and long-pressing removes one, and let new blocks stack on the faces of existing ones. Twist: give each block type a musical note so building makes a tune.
+
+#### ARKit Portal to the Upside Down — Matthew Hallberg (2018)
+- Video: https://www.youtube.com/watch?v=Z5AmqMuNi08
+- Interaction: Portals & Worlds
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Open a portal in the living room to the Upside Down from Stranger Things.
+- What it is: A walk-through doorway in the living room that opens into the dark 'Upside Down' world from Stranger Things.
+- Technique: A stencil-buffer portal renders the alternate world only through the door frame, and the stencil test flips when the camera crosses the portal plane so the user is inside the other world.
+- Try it: Place a door with AR Foundation, render a dark, foggy world inside it with a stencil, and switch to full-screen rendering once you walk through. Twist: make the world behind the door the streets of your hometown.
+
+#### Memes + AR with Watson — Matthew Hallberg (2018)
+- Video: https://www.youtube.com/watch?v=7iN4ENlrx4A
+- Interaction: Voice & Sound, Spatial Mapping
+- Platform & tech: Phone, Vuforia, IBM Watson, Unity
+- Idea: Say a phrase and the matching meme appears in your room.
+- What it is: Say a phrase aloud and the matching meme image is searched and dropped into the room on a detected ground plane.
+- Technique: Speech-to-text (IBM Watson) extracts a phrase, an image search API returns a matching image, and the image is spawned as a textured quad on a detected ground plane.
+- Try it: Recognize a spoken phrase with the Web Speech API, find a matching image in a local library by keyword, and spawn it as an image card on the floor in WebXR. Twist: the image size follows how loudly you speak.
+
+#### Valve's Portal in Unity with ARKit — Matthew Hallberg (2018)
+- Video: https://www.youtube.com/watch?v=28CjsJaw_Mo
+- Interaction: Portals & Worlds, Spatial Mapping, Play
+- Platform & tech: Phone, ARKit 1.5, Unity
+- Idea: Shoot the blue and orange portals from Portal onto real walls.
+- What it is: Uses ARKit 1.5 vertical-plane detection to shoot linked blue and orange portals onto real walls and see through them.
+- Technique: Portals placed on detected vertical planes use render textures from paired virtual cameras whose pose mirrors the viewer's relative pose to the other portal.
+- Try it: Place a portal on each of two walls, each showing the RenderTexture of a virtual camera behind the other portal, and send a virtual ball in one portal and out the other. Twist: each side of the portal has a different time of day (day on one side, night on the other).
+
+#### AR Iron Man HUD — Matthew Hallberg (2019)
+- Video: https://www.youtube.com/watch?v=IKzqNpWC9WI
+- Interaction: Voice & Sound, Information & UI, Tangible Objects
+- Platform & tech: Headset, Phone, Vuforia, Unity, Alexa
+- Idea: Build your own Iron Man JARVIS headset from a phone and a cheap helmet.
+- What it is: A phone-in-headset JARVIS HUD that tracks a real phone, listens to voice commands and wires in Alexa skills.
+- Technique: A phone-in-headset stereo view renders a HUD overlay, while Vuforia tracks a second physical phone as a target and voice commands are routed through Alexa skills.
+- Try it: Build a head-locked HUD in HoloKit stereo mode that shows the time and the commands picked up by speech recognition. Twist: when you stare at a real object on the desk, the HUD pops up its 'scan info'.
+
+#### An Augmented Reality Web Browser — Matthew Hallberg (2019)
+- Video: https://www.youtube.com/watch?v=lMLSACaaOjU
+- Interaction: Information & UI, Spatial Mapping
+- Platform & tech: Phone, Unity, ARCore
+- Idea: Float web page windows in real space, an early spatial-computing browser.
+- What it is: Floating, resizable web pages placed around physical space, an early take on spatial-computing windows on Android.
+- Technique: Web pages are rendered to textures by an embedded browser plugin and mapped onto world-anchored quads in ARCore, with raycast input translated into page coordinates for clicks and resizing.
+- Try it: Place three floating panels in a WebXR scene, each showing a web page screenshot or iframe texture that can be dragged and scaled. Twist: the farther a panel is from you, the simpler its content gets (only the title remains).
+
+#### Real Life Doodles (Creator Cam) — Matthew Hallberg (2019)
+- Video: https://www.youtube.com/watch?v=_N2R94K9g5k
+- Interaction: Drawing & Making
+- Platform & tech: Phone, Unity, ARFoundation
+- Idea: Turn quick doodles into AR objects in real space.
+- What it is: An AR app built in a week-long devlog that turns flat doodles into objects living in the real world.
+- Technique: A photographed doodle is segmented from the white paper (thresholding or background removal) and applied as a cutout texture to a billboard or extruded mesh placed with plane detection.
+- Try it: Photograph a doodle on paper with a phone, remove the white background, place it on a tabletop as a texture and make it bounce gently. Twist: give the doodle a simple skeleton so it can walk.
+
+#### AR Photoshop Plugin — Matthew Hallberg (2021)
+- Video: https://www.youtube.com/watch?v=20fbXJ8fayM
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, Desktop, Unity, Vuforia, WebSockets
+- Idea: Pull Photoshop layers out of the monitor and into AR.
+- What it is: A Photoshop plugin streams each layer of a document to a phone so the layers can be pulled out of the monitor and viewed in AR.
+- Technique: A Photoshop plugin exports each layer as an image over WebSockets, and the phone stacks them as quads offset in depth on the monitor (tracked by Vuforia), letting the user pull layers apart in space.
+- Try it: Export each layer of a layered poster as a PNG, stack them by depth on the image-tracked poster, and use a pinch gesture to spread the layers apart. Twist: make the layer spacing change automatically with the phone's distance from the poster.
+
+#### AR Blasters on Snap Spectacles — Matthew Hallberg (2025)
+- Video: https://www.youtube.com/watch?v=WMnvuzjSSxU
+- Interaction: Play, Tangible Objects
+- Platform & tech: Headset, Phone, Snap Spectacles, Lens Studio
+- Idea: A phone becomes a blaster controller for AR shooting in Spectacles.
+- What it is: A phone becomes a blaster controller over BLE for a shooting game on Snap Spectacles AR glasses.
+- Technique: The phone's IMU orientation and button presses are sent over BLE to Spectacles, where they drive the aim direction of a raycast blaster in the glasses' world-tracked scene.
+- Try it: Stream the phone's gyroscope orientation over WebSocket to another device running WebXR and use it as the aiming direction to shoot down virtual targets. Twist: swap the phone for a real object you swing (such as a broom) with the phone strapped to it.
+
+#### Physical Pokémon Cards in AR — Matthew Hallberg (2026)
+- Video: https://www.youtube.com/watch?v=vv7b1DwOTsQ
+- Interaction: Tangible Objects, Play
+- Platform & tech: Headset, Snap Spectacles
+- Idea: Recognize physical Pokémon cards and let the Pokémon jump out onto the table.
+- What it is: Real Pokémon trading cards are recognised on Spectacles and their creatures appear on top of the table.
+- Technique: Card artwork is recognized as image targets (or by a classifier) on Spectacles, and the matching 3D creature is spawned on the card's tracked pose on the table.
+- Try it: Use image tracking in Lens Studio or AR Foundation to recognize three homemade cards, each spawning its own 3D creature. Twist: when two cards come close, their creatures start to battle or interact.
+
+### Rafael Lozano-Hemmer
+
+*Media artist; founder of Antimodular Research*
+
+Mexican-Canadian artist whose 'relational architecture' uses surveillance cameras, robotic projectors and biometric sensors to let the public take over city squares and façades; represented Mexico at the 2007 Venice Biennale.
+
+#### Body Movies (Relational Architecture 6) — Rafael Lozano-Hemmer (2001)
+- Video: https://www.youtube.com/watch?v=g-CNxFiXZDY
+- Interaction: Hands & Body, Projection, Location & City
+- Platform & tech: Projection, robotic projectors, camera tracking, xenon lights
+- Idea: Your giant shadow is the only window through which strangers' portraits can be seen.
+- What it is: Thousands of street portraits are projected onto a building façade but only become visible inside the giant shadows of passers-by, whose silhouettes grow from 2 to 25 metres depending on their distance from floor lights.
+- Technique: Robotic projectors show portraits on a façade washed out by bright floor lamps; a camera tracks shadow regions, and when a shadow matches a portrait the scene advances.
+- Try it: Have one projector show images while a strong lamp washes the picture out, so the images are visible only inside classmates' shadows. Twist: use a camera to check whether a shadow fully covers a face, and trigger the next image when it does.
+
+#### Frequency and Volume (Relational Architecture 9) — Rafael Lozano-Hemmer (2003)
+- Video: https://www.youtube.com/watch?v=hWd8uv8U4tc
+- Interaction: Hands & Body, Voice & Sound, Projection
+- Platform & tech: Projection, camera tracking, radio scanners
+- Idea: Tune a radio with your shadow on the wall to hear the city's invisible airwaves.
+- What it is: Visitors' shadows on a wall tune a radio: the position of the shadow selects a frequency and its size sets the volume, making the invisible airwaves audible and contested.
+- Technique: A camera tracks shadow position and size on the wall and maps them to frequency and volume of an array of computer-controlled radio receivers.
+- Try it: Use a camera to detect a shadow on the wall, with its horizontal position choosing which audio clip plays and its size setting the volume. Twist: when several shadows overlap, their sounds mix or interfere with each other.
+
+#### Subtitled Public — Rafael Lozano-Hemmer (2005)
+- Video: https://vimeo.com/1089123902
+- Interaction: Hands & Body, Projection, Shared & Social
+- Platform & tech: Projection, surveillance tracking, projection on bodies
+- Idea: Everyone gets a verb label projected on their body, and the only way to pass it on is to touch someone else.
+- What it is: In an empty room a surveillance system detects each visitor and projects a random third-person verb onto their chest; the only way to get rid of your word is to touch someone else, who then takes it.
+- Technique: Overhead camera tracking follows each person and steers projections of text onto their body, swapping labels when two tracked blobs touch.
+- Try it: Track classmates with an overhead camera and project a word onto each person, swapping words when two people touch. Twist: replace the words with adjectives the classmates wrote themselves, and watch how the labels flow.
+
+#### Under Scan (Relational Architecture 11) — Rafael Lozano-Hemmer (2005)
+- Video: https://www.youtube.com/watch?v=Bfn14sLJmyU
+- Interaction: Hands & Body, Projection, Location & City
+- Platform & tech: Projection, computer vision tracking, high-power projectors
+- Idea: Walk across the square and a stranger appears in your shadow, looking up at you.
+- What it is: Town squares are flooded with white light; as pedestrians walk, video portraits of local people appear inside their shadows, look up at them, and vanish when they leave.
+- Technique: Computer vision tracks pedestrians from above and predicts their path, so projectors place a video portrait precisely inside each person's shadow a moment ahead of them.
+- Try it: Project white light onto the ground, use a camera to find where shadows are, and project classmates' pre-recorded 'looking up' videos inside them. Twist: the longer a shadow stays, the longer the sentence the person in the video speaks.
+
+#### Close-Up (ShadowBox 2) — Rafael Lozano-Hemmer (2006)
+- Video: https://www.youtube.com/watch?v=gGbCF2oPayM
+- Interaction: Hands & Body, Perception & Effects, Shared & Social
+- Platform & tech: Desktop, camera tracking, video database
+- Idea: Your shadow is filled with surveillance videos of everyone who looked at the piece before you.
+- What it is: The viewer's shadow on a screen is filled with up to 800 tiny surveillance videos of people who recently looked at the piece — and the viewer is recorded for the next person.
+- Technique: A camera records each viewer while their silhouette mask reveals a mosaic of previously recorded viewer clips; the database keeps the most recent 10,000.
+- Try it: Use a camera to record each visitor while filling their silhouette with a grid of small videos recorded earlier. Twist: the shadow shows only people who visited on the same day as the current viewer.
+
+#### Eye Contact (ShadowBox 1) — Rafael Lozano-Hemmer (2006)
+- Video: https://www.youtube.com/watch?v=SzIwx-oX3U8
+- Interaction: Gaze & Attention, Hands & Body, Perception & Effects
+- Platform & tech: Desktop, built-in camera tracking, video grid
+- Idea: The moment you show up, hundreds of people on the screen wake up together and stare at you.
+- What it is: A display shows hundreds of tiny videos of people lying down; when a viewer is detected, all of them wake up and turn to stare directly at the viewer.
+- Technique: A built-in camera detects the viewer's presence and silhouette, switching each video tile from its idle loop to a 'turn and look' clip.
+- Try it: Have each classmate record a 'fall asleep, then turn to look at the camera' clip, assemble them into a grid, and trigger it when the camera detects a person. Twist: only the people in cells covered by a shadow wake up.
+
+#### Third Person (ShadowBox 4) — Rafael Lozano-Hemmer (2006)
+- Video: https://www.youtube.com/watch?v=w-EWZ1r1Yos
+- Interaction: Hands & Body, Information & UI, Perception & Effects
+- Platform & tech: Desktop, camera silhouette, text rendering
+- Idea: Build your shadow portrait out of every verb in the dictionary.
+- What it is: The viewer's shadow is drawn entirely out of the verbs of a dictionary in English, Spanish or French, like a portrait written in actions.
+- Technique: Camera silhouette masking selects which cells of a dense text grid are rendered, with word size varying with distance from the screen.
+- Try it: In p5.js, fill the silhouette area from the camera with text (a set of words the class picks). Twist: the closer you get to the screen, the smaller and denser the words become.
+
+#### Sandbox (Relational Architecture 17) — Rafael Lozano-Hemmer (2010)
+- Video: https://www.youtube.com/watch?v=GotOBu_14fc
+- Interaction: Hands & Body, Projection, Shared & Social
+- Platform & tech: Projection, infrared cameras, high-power projectors
+- Idea: The hand you reach into a small sandbox is projected as a giant hand covering the whole beach.
+- What it is: On Santa Monica beach, tiny projections of beachgoers appear in two small sandboxes; when participants reach in, cameras relay their hands live to giant projectors that cover 8,000 m² of beach.
+- Technique: Infrared cameras capture people on the beach and hands over the sandboxes, cross-projecting each feed at opposite scales (tiny people in the box, giant hands on the beach).
+- Try it: Have one phone film hands on a table and another film people on the sports field, and project each feed into the other's space. Twist: let the tiny people and the giant hands 'touch' each other in the projection and trigger sounds.
+
+#### Level of Confidence — Rafael Lozano-Hemmer (2015)
+- Video: https://vimeo.com/953969845
+- Interaction: Face, Information & UI
+- Platform & tech: Desktop, face recognition, OpenCV
+- Idea: Face recognition searches every visitor's face for the 43 missing students, turning surveillance into a memorial.
+- What it is: A face-recognition camera trained on the faces of the 43 disappeared Ayotzinapa students looks for them in each visitor's face and shows which student they most resemble and how confident the match is.
+- Technique: Eigenface/Fisherface and LBP face-recognition algorithms compare the live face against the students' portraits and display the best match with its confidence score.
+- Try it: Use a web face-recognition library (face-api.js) to compare visitors with a set of photos of historical figures and display the similarity scores. Twist: have the class discuss and choose a group worth "searching for" as the dataset.
+
+#### Zoom Pavilion (with Krzysztof Wodiczko) — Rafael Lozano-Hemmer (2015)
+- Video: https://www.youtube.com/watch?v=ENWBRsvn7qA
+- Interaction: Face, Projection, Shared & Social
+- Platform & tech: Projection, face detection, robotic zoom cameras
+- Idea: Surveillance cameras zoom in on how you relate to strangers and fill the whole room with it.
+- What it is: An immersive room of projections from 12 computerized surveillance cameras that detect visitors' faces and zoom in on them and on the spatial relationships between strangers.
+- Technique: Face-detection and tracking algorithms steer robotic zoom cameras and project their live feeds, recording distances between detected people.
+- Try it: Use a webcam to detect faces, automatically "digitally zoom" in on each one, and project the result onto a wall. Twist: compute the distance between two people and draw a line marking it in the image.
+
+#### Shadow Tuner — Rafael Lozano-Hemmer (2025)
+- Video: https://vimeo.com/1067505877
+- Interaction: Hands & Body, Projection, Location & City
+- Platform & tech: Projection, camera silhouette, spherical projection
+- Idea: Passers-by cast their shadows onto a giant Earth balloon and change how the planet looks.
+- What it is: A rotating, upside-down Earth is projected onto a giant spherical balloon; passers-by at a camera station cast their shadows onto the globe, reshaping how the planet appears.
+- Technique: A camera at a station captures the passer-by's silhouette and composites it into the projected (or LED) spherical Earth animation in real time.
+- Try it: Project a spinning Earth onto a white balloon or globe lamp, and use a camera silhouette to 'cast' a shadow onto it. Twist: the area covered by the shadow shows a real data point about that region.
+
+### Shunichi Kasahara
+
+*Researcher, Sony Computer Science Laboratories; leads Cybernetic Humanity Studio (OIST)*
+
+Sony CSL researcher who builds perception-bending systems: first-person view sharing (JackIn), out-of-body telepresence, EMS-accelerated reactions and real-time face morphing. Earlier co-created exTouch and Second Surface at the MIT Media Lab.
+
+#### exTouch — Shunichi Kasahara, MIT Tangible Media Group — Hiroshi Ishii, Valentin Heun (2013)
+- Video: https://vimeo.com/57514726
+- Interaction: Tangible Objects, Hands & Body
+- Platform & tech: Phone, tablet AR, marker tracking, actuated robot
+- Idea: Drag an object in the phone's AR view and the real robot follows, turning the AR screen into a physical remote control.
+- What it is: Point a tablet at a small robot and drag its on-screen AR image with your finger; the real robot drives and rotates to match the gesture in physical space.
+- Technique: Tracks the robot's pose with the tablet camera and converts touch-drag gestures on its AR image into motor commands in the robot's own coordinate frame.
+- Try it: Use phone AR to recognize an image marker on a remote-control car, and drag a virtual arrow on screen to drive the real car (an Arduino or Bluetooth car works). Twist: let two classmates control the same car at once, each with a phone from a different angle.
+
+#### JackIn Eye — Shunichi Kasahara (2014)
+- Video: https://vimeo.com/88523949
+- Interaction: Shared & Social, Gaze & Attention, Perception & Effects
+- Platform & tech: Wearable, Headset, head-mounted camera, SLAM, image stitching
+- Idea: A remote person slips into someone's first-person view and can even step out of the body to watch from behind.
+- What it is: A remote viewer 'jacks into' a walking person's head-mounted camera; the system stitches past frames into an out-of-body third-person view so the viewer can look around beyond the wearer's gaze.
+- Technique: Uses SLAM on the first-person video to register frames into a growing 3D panorama, then renders a virtual camera placed behind and above the wearer.
+- Try it: Livestream one classmate's first-person view from a phone to another classmate wearing Cardboard, who gives spoken directions to complete a find-the-object task. Twist: the viewer can only see a feed delayed by 5 seconds.
+
+#### JackIn Head — Shunichi Kasahara (2015)
+- Video: https://vimeo.com/129263445
+- Interaction: Shared & Social, Gaze & Attention
+- Platform & tech: Wearable, Headset, omnidirectional camera, image stabilization, live streaming
+- Idea: Borrow the panoramic camera on someone else's head as your own eyes, and look around independently from afar.
+- What it is: A head-worn omnidirectional camera streams stabilized 360-degree video so remote viewers can look anywhere around the wearer, independent of where the wearer turns their head.
+- Technique: Estimates head rotation from the spherical video and counter-rotates each frame so the 360 stream stays world-stable for remote HMD viewers.
+- Try it: Strap a 360 camera to a hat and livestream it to a classmate's phone VR viewer, who then directs the wearer's walking with hand signals. Twist: let three people "possess" the same person at once and vote on which way to go.
+
+#### Parallel Eyes — Shunichi Kasahara (2016)
+- Video: https://vimeo.com/175105689
+- Interaction: Shared & Social, Perception & Effects, Play
+- Platform & tech: Headset, Wearable, HMD, head-mounted cameras, video mixing
+- Idea: Four people see through each other's eyes at once and play hide-and-seek with shared vision.
+- What it is: Four people wear HMDs showing a split screen of everyone's first-person views at once, then try to play hide-and-seek and coordinate while seeing through all bodies simultaneously.
+- Technique: Streams each participant's head-mounted camera into a shared tiled video layout shown in every HMD, a collaboration with YCAM.
+- Try it: Have four classmates join a video call with their phones' front or rear cameras, show all feeds side by side, and play a find-the-person game wearing phone viewers. Twist: randomly swap the position of your feed with someone else's.
+
+#### HeadLight — Shunichi Kasahara (2018)
+- Video: https://vimeo.com/263377583
+- Interaction: Projection, Gaze & Attention
+- Platform & tech: Wearable, Projection, pico projector, fish-eye lens, geometric correction
+- Idea: Wear a projector on your head and the whole space in front of you becomes a screen.
+- What it is: A head-mounted projector with a fish-eye lens throws a very wide image onto the surroundings in front of the wearer, augmenting whatever the wearer faces without glasses.
+- Technique: Pre-distorts the image to compensate for the fish-eye conversion lens and aligns it with head orientation so graphics land on the walls the wearer looks at.
+- Try it: Tape a phone projector (or a phone plus a mirror) to a helmet so the projected content appears on the wall wherever you look. Twist: project 'hidden markers' that appear only when you turn your head.
+
+#### Fragment Shadow — Shunichi Kasahara (2019)
+- Video: https://vimeo.com/322671485
+- Interaction: Projection, Perception & Effects, Hands & Body
+- Platform & tech: Projection, multi-projector calibration, color calibration
+- Idea: Several projectors split one person's shadow into multiple colored shadows.
+- What it is: Visitors' real shadows are split into several colored, offset shadows by precisely calibrated multiple projectors, so one body casts a fragmented, prismatic shadow.
+- Technique: Calibrates several projectors' geometry and color so their overlapping light sums to white, making each body occlusion reveal a different colored shadow.
+- Try it: Shine three red, green and blue LED lights (or three phone flashlights with colored cellophane) at a white wall from different angles and let students make colored shadows with their bodies. Twist: program the lights to flash in turn with the music.
+
+#### Preemptive Action — Shunichi Kasahara, Pedro Lopes (2019)
+- Video: https://vimeo.com/315085705
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Wearable, electrical muscle stimulation, high-speed camera
+- Idea: Electrical stimulation moves your hand before you react, yet you still feel you did it yourself.
+- What it is: Electrical muscle stimulation fires the user's arm a few milliseconds before they would react to a stimulus, speeding reaction time while the user still feels they moved by themselves.
+- Technique: Triggers EMS at a tuned latency just before the user's natural reaction, finding the window where the action is faster yet still judged as self-caused.
+- Try it: Make a phone reaction game where you slap the table when a signal appears, and have a partner behind you give an early cue by tapping your shoulder. Twist: compare whether you feel 'I did it' with and without the cue.
+
+#### Stealth Updates — Shunichi Kasahara (2021)
+- Video: https://www.youtube.com/watch?v=96xfUsgCk1U
+- Interaction: Perception & Effects, Gaze & Attention
+- Platform & tech: Desktop, Headset, image morphing, change blindness
+- Idea: Use change blindness to alter an image right before your eyes without you noticing.
+- What it is: Visual content changes in front of the viewer without being noticed, by morphing images gradually and timing changes to exploit change blindness.
+- Technique: Computes a smooth image morph between old and new content and plays it slowly enough to stay below the threshold of noticed change.
+- Try it: Use phone AR to slowly morph an element of a poster into another image over 30 seconds, have classmates stare at it and report whether they notice the change. Twist: switch quickly when the viewer blinks or turns their head.
+
+#### Parallel Ping-Pong — Shunichi Kasahara (2022)
+- Video: https://www.youtube.com/watch?v=q1XAmaMdEiE
+- Interaction: Hands & Body, Play, Shared & Social
+- Platform & tech: Headset, VR telepresence, robot arms, perspective switching
+- Idea: One person controls two bodies to play two ping-pong matches at once.
+- What it is: One user in VR controls two robot arms playing table tennis at two tables simultaneously, switching perspective between bodies to hit both balls.
+- Technique: Streams two robot-mounted camera views into an HMD and maps the user's single arm motion to whichever robot body is currently selected or blended.
+- Try it: Film two tabletop mini-games with two phones, show the feeds side by side on one screen, and have one classmate use both hands to remotely direct two stand-in classmates at once. Twist: swap the two feeds roughly every 10 seconds.
+
+#### Morphing Identity — Shunichi Kasahara (2023)
+- Video: https://www.youtube.com/watch?v=rfmIuaV9Ny0
+- Interaction: Face, Perception & Effects, Shared & Social
+- Platform & tech: Desktop, real-time face morphing, face landmark tracking
+- Idea: Slowly morph your face into the face of the person opposite you, live.
+- What it is: Two people face a screen where their live faces gradually morph into each other in real time, exploring where 'self' ends and 'other' begins.
+- Technique: Tracks facial landmarks on both live video feeds and warps and cross-dissolves the textures with a controllable blend ratio.
+- Try it: Make a filter in Snap Lens Studio or Effect House that blends your face with your deskmate's face according to a slider. Twist: set the blend ratio by how loudly each person speaks.
+
+#### ShadowClones — Shunichi Kasahara (2023)
+- Video: https://www.youtube.com/watch?v=UGXvYPcW3Jc
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Headset, VR, multiple perspectives, body tracking
+- Idea: One person splits into several shadow-like bodies and coordinates them across multiple viewpoints.
+- What it is: A single user controls several virtual bodies seen from multiple viewpoints; shadow-like cues keep track of where each body is so they can coordinate actions across perspectives.
+- Technique: Renders several avatar copies driven by one tracked body and overlays shadow projections of each clone to preserve body-space coordination across views.
+- Try it: Place three virtual clones in phone AR that copy your movements using body skeleton tracking, and pose so that all three clones hit a target at the same moment. Twist: give each clone a different motion delay.
+
+### TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg
+
+*Dieter Schmalstieg (professor, TU Graz; Studierstube) and Daniel Wagner (Christian Doppler Lab for Handheld AR; later Qualcomm Vuforia, DAQRI, Snap Spectacles)*
+
+Schmalstieg's Studierstube group and Wagner's Christian Doppler Laboratory for Handheld Augmented Reality ran AR on PDAs and feature phones years before smartphones, including the Invisible Train (2004) and the first real-time natural-feature tracking on a mobile phone (2008), which fed into Qualcomm's Vuforia.
+
+#### Expedition Schatzsuche (Museum AR Quest) — TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2007)
+- Video: https://www.youtube.com/watch?v=cwSsu1myyV8
+- Interaction: Play, Location & City, Information & UI
+- Platform & tech: Phone, Studierstube ES, PDA
+- Idea: Kids hunt for treasure in a museum with PDAs, and virtual characters and puzzles appear beside the exhibits.
+- What it is: A handheld AR treasure hunt in a Vienna museum: children explore exhibits with PDAs that reveal virtual characters and puzzles on markers.
+- Technique: Handheld PDAs track printed fiducial markers placed next to exhibits and overlay virtual characters and puzzle clues, with a game state machine sequencing the quest across the museum.
+- Try it: Put five image markers around a campus or teaching building and use 8th Wall or AR.js to build a linked treasure hunt: each marker shows a character and a clue pointing to the next spot. Twist: the clues can only be solved using details of real exhibits or the surroundings.
+
+#### Cows vs Aliens — TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2008)
+- Video: https://www.youtube.com/watch?v=qVDw21itJF8
+- Interaction: Play, Shared & Social, Tangible Objects
+- Platform & tech: Phone, Studierstube ES, marker tracking
+- Idea: A multiplayer AR board game played by walking around a table, where moving yourself is the gameplay.
+- What it is: A multiplayer handheld AR board game where players move around a tabletop map, making physical mobility and social interaction the core mechanic.
+- Technique: Each handheld device tracks the shared tabletop map with fiducial markers, so all players see the same registered game world, and players must physically move around the table to reach different areas.
+- Try it: Use a printed A3 map as an image target and build a two-player phone AR board game where some targets can only be seen and tapped from the other side of the table. Twist: make the two players' views block each other, forcing them to move their bodies and talk.
+
+#### Natural Feature Tracking at 30Hz on a Mobile Phone — TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2008)
+- Video: https://www.youtube.com/watch?v=pEo9dbPlm6U
+- Interaction: Tangible Objects, Spatial Mapping
+- Platform & tech: Phone, SIFT, Ferns, Studierstube Tracker
+- Idea: The first live tracking of ordinary pictures on a phone, turning any poster into an AR stage.
+- What it is: The first real-time 6DOF tracking of ordinary printed images on a mobile phone, using modified SIFT and Ferns, so AR content can sit on any poster or book.
+- Technique: Keypoints detected in the camera frame are matched to a pre-trained database of the target image using simplified SIFT descriptors and Ferns classifiers, and the resulting correspondences give a robust 6DOF pose that is then refined by frame-to-frame patch tracking.
+- Try it: Implement ORB feature matching plus homography estimation with OpenCV (Python or OpenCV.js) to paste an image onto a poster in the phone camera view. Twist: test which poster patterns are hardest to track, and design a 'tracking-friendly' poster.
+
+#### Studierstube ES — TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2009)
+- Video: https://www.youtube.com/watch?v=GUy-rmPrDYE
+- Interaction: Play, Tangible Objects
+- Platform & tech: Phone, Studierstube ES, Windows Mobile
+- Idea: Multiplayer AR games and virtual characters already running on phones in 2009.
+- What it is: Tech demo of TU Graz's handheld AR framework running multiplayer AR games, virtual characters and marker/natural feature tracking on 2009-era phones.
+- Technique: A lightweight fixed-point tracking library estimates 6DOF phone pose from square fiducial markers or natural features in real time on 2009-era mobile CPUs, and a scene-graph renderer draws characters over the camera image, with networking for multiplayer.
+- Try it: Use marker tracking in AR.js or 8th Wall to place an animated character on a printed card, and let two phones see the same character state in sync through a web page. Twist: cap the frame rate at 15fps and halve the resolution to feel the constraints of 2009, then simplify the design to match.
+
+#### Real-time Panoramic Mapping and Tracking on Phones — TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2010)
+- Video: https://www.youtube.com/watch?v=xadks8UVwlA
+- Interaction: Spatial Mapping, Location & City
+- Platform & tech: Phone, panoramic SLAM
+- Idea: Turn the phone around once to build a panorama map, then track direction steadily against it.
+- What it is: The phone builds a 360-degree panorama of its surroundings as you turn and simultaneously tracks orientation against it for outdoor AR.
+- Technique: Assuming pure rotation, each camera frame is registered against a cylindrical panorama map being built incrementally, so the phone simultaneously extends the map and estimates its 3DOF orientation from it.
+- Try it: Use the phone gyroscope (DeviceOrientation API) to build a 'turn on the spot' panoramic AR web page: place virtual labels in all 360 degrees and calibrate north against the real scene. Twist: hide a single easter egg in one direction and lead the user to turn around and find it.
+
+#### Hedgehog Labeling — TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2014)
+- Video: https://www.youtube.com/watch?v=XUQu4XAc2MI
+- Interaction: Information & UI
+- Platform & tech: Phone, Headset, view management
+- Idea: Arrange AR labels in 3D like hedgehog spines so they don't collide when you change viewpoint.
+- What it is: Markus Tatzgern, Denis Kalkofen, Raphael Grasset and Dieter Schmalstieg arrange external AR labels in 3D like hedgehog spines so they stay readable and stable as you move.
+- Technique: Labels are placed along 3D poles radiating from their anchors and their positions are optimized in 3D space (not per frame in screen space), which reduces overlap and avoids label jumping as the viewpoint changes.
+- Try it: Label 10 parts of an object (such as a bicycle model) in AR, implement both a "screen-space avoidance" layout and a "fixed 3D hedgehog" radial layout, and walk around the object to compare their stability. Twist: make the number of labels grow or shrink with the user's distance.
+
+### Abhishek Singh
+
+*Indie AR developer & inventor (Peeqo, Super Mario AR); founder of Rara*
+
+NYC-based developer and former NYU ITP resident researcher who recreates pop-culture games and films as life-size AR experiences and builds playful gadgets like the GIF robot Peeqo.
+
+#### Laser Cat AR — Abhishek Singh (2017)
+- Video: https://www.youtube.com/watch?v=LYszXfkwYeQ
+- Interaction: Play, Spatial Mapping
+- Platform & tech: Phone, ARKit
+- Idea: The only thing to do is tease a virtual kitten with a laser pointer.
+- What it is: A minimalist AR game whose only goal is to entertain a virtual kitten on your floor with a laser pointer.
+- Technique: A raycast from the screen center onto the detected floor plane gives the laser dot position, and the cat's navigation logic steers toward that point.
+- Try it: Cast a ray from the screen center to the floor plane to get a red dot, and make a virtual kitten (or a simple capsule) chase it. Twist: make the pet afraid of the phone and run away when it comes close.
+
+#### Super Mario Bros Recreated as Life-Size AR Game — Abhishek Singh (2017)
+- Video: https://www.youtube.com/watch?v=QN95nNDtxjo
+- Interaction: Play, Location & City, Hands & Body
+- Platform & tech: Headset, HoloLens, Unity
+- Idea: The first level of Super Mario, rebuilt life-size in Central Park, with the player as Mario.
+- What it is: He rebuilt World 1-1 of Super Mario Bros at life size and played it in first person in Central Park, hitting blocks and stomping Goombas through a HoloLens.
+- Technique: A life-size level built in Unity is anchored to a world origin on HoloLens so inside-out SLAM tracking lets the player walk through it, with collisions between the head position and block colliders triggering hits.
+- Try it: Place a row of life-size question blocks on the ground with AR Foundation, and pop out a coin and add to the score when the head (camera) hits a block. Twist: replace the level with a custom map of a hallway on your campus.
+
+#### A Universal Remote Control Built Using AR — Abhishek Singh (2018)
+- Video: https://www.youtube.com/watch?v=Ia_v3Qz5KGA
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, ARKit, Raspberry Pi
+- Idea: Tap whatever appliance you see: a universal remote built with AR.
+- What it is: Tapping on real lamps, fans and TVs through the phone camera turns them on and off, using ARKit anchors wired to a Raspberry Pi.
+- Technique: Anchors placed on real appliances are raycast-tested on tap, and each hit sends an HTTP/MQTT request to a Raspberry Pi that switches the corresponding relay.
+- Try it: Place an AR anchor on a desk lamp and, when it is tapped, send an HTTP request so an ESP32 or smart plug switches the light. Twist: switch it on by staring at the lamp for two seconds instead (a ray from the screen center).
+
+#### An Augmented Reality Rube Goldberg Machine — Abhishek Singh (2018)
+- Video: https://www.youtube.com/watch?v=1tGVbuYEukM
+- Interaction: Spatial Mapping, Tangible Objects, Play
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A Rube Goldberg chain reaction that runs across real and virtual objects.
+- What it is: A chain-reaction machine that mixes real household objects with virtual dominoes, ramps and balls, playable as a physics puzzle with a reset button.
+- Technique: Detected planes and hand-placed invisible colliders stand in for real objects, so Unity rigidbody physics lets virtual balls and dominoes react to real furniture.
+- Try it: Set up virtual dominoes and a ramp on a tabletop plane, add a hand-placed invisible collider to a real book, and let a ball roll down and knock over the whole row. Twist: have the chain reaction end by triggering a real sound or phone vibration.
+
+#### Street Fighter II: Real World Warrior Edition — Abhishek Singh (2018)
+- Video: https://www.youtube.com/watch?v=NpvZWFd0uRg
+- Interaction: Play, Shared & Social, Location & City
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Turn Street Fighter into a two-player, life-size AR fight that actually takes to the streets.
+- What it is: A multiplayer AR remake of Street Fighter II in which two players on phones control full-size fighters battling on real streets.
+- Technique: Two phones share one AR coordinate space (likely via ARKit collaborative sessions or a shared anchor plus network sync) so both players see the same full-size fighters, whose inputs are replicated over the network.
+- Try it: Use Unity Netcode and AR Foundation so two phones share one anchor and each controls a block character trying to push the other out of a ring. Twist: attack with real body movements (shaking the phone) instead of buttons.
+
+#### The Ring Brought to Life in AR — Abhishek Singh (2018)
+- Video: https://www.youtube.com/watch?v=g_WBVi-bu9Q
+- Interaction: Portals & Worlds, Perception & Effects
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Make Sadako from The Ring really crawl out of the TV at home.
+- What it is: Re-enacts the famous horror scene in which Samara crawls out of the TV and into the living room, anchored to a real television.
+- Technique: A rigged character animation is aligned to a real TV (likely by manual placement or image tracking of the screen), with an occlusion mask on the TV frame so the figure appears to emerge from inside the screen.
+- Try it: Use image tracking to recognize a picture on a laptop screen and have a character 'crawl out' of the screen onto the desk, with an occlusion material on the screen bezel hiding the part still inside. Twist: make something emerge from a fridge door or a drawer instead.
+
+#### Wile E. Coyote vs the Roadrunner in AR — Abhishek Singh (2018)
+- Video: https://www.youtube.com/watch?v=K4kLIhZzwCk
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Stage the cartoon chase between Wile E. Coyote and the Road Runner in a real room.
+- What it is: Looney Tunes characters chase each other around a real room, with Wile E. Coyote's cartoon traps set against actual furniture.
+- Technique: Characters follow scripted paths laid out on detected floor planes, with occlusion geometry roughly matched to real furniture so they can run behind it.
+- Try it: Draw a path on the floor plane, have two cartoon characters chase each other along it, and place an occluder at the sofa so they disappear behind it. Twist: have students record the path by walking a loop around the room with a phone.
+
+#### Bringing Tattoos to Life Using AR — Abhishek Singh (2019)
+- Video: https://www.youtube.com/watch?v=ojnAHSCNFLk
+- Interaction: Hands & Body, Tangible Objects, Perception & Effects
+- Platform & tech: Phone, ARKit, image tracking
+- Idea: Point at a tattoo and it comes alive and tells the story behind it.
+- What it is: Pointing the phone at people's tattoos animates them and plays the personal story behind each design.
+- Technique: Each tattoo is registered as an ARKit reference image, and when detected an animated overlay and audio clip are played on the tracked image anchor.
+- Try it: Use AR Foundation image tracking to recognize three hand-drawn stickers, playing the matching animation and a voice recording when they are stuck on an arm. Twist: each sticker tells a story from its owner's own life.
+
+#### Musical Chairs Against the Avengers in AR — Abhishek Singh (2019)
+- Video: https://www.youtube.com/watch?v=mqd_6gdXgpk
+- Interaction: Play, Hands & Body, Spatial Mapping
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Fight life-size Avengers for real chairs.
+- What it is: A real game of musical chairs in which the other players are life-size virtual Avengers competing for real chairs.
+- Technique: Virtual characters are animated toward chair positions registered as anchors, with game logic comparing the player's camera position to those anchors when the music stops.
+- Try it: Mark the positions of three real chairs in a room, have virtual characters race for seats when the music stops, and check whether the player (the camera) reaches an empty chair first. Twist: race for a real rug or doorway instead of chairs.
+
+#### Bringing AR to the Streets of NYC — Abhishek Singh (2022)
+- Video: https://www.youtube.com/watch?v=zZeNe7Cs7Y0
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, ARKit
+- Idea: Drop AR spectacles straight into the crowds on New York streets.
+- What it is: A short street intervention in which virtual objects appear among passers-by on New York sidewalks.
+- Technique: Objects are placed on detected ground planes in world-tracked space outdoors, relying on SLAM stability while real passers-by move through the camera view (likely with people occlusion).
+- Try it: Place a group of giant virtual objects on a campus sidewalk with people occlusion turned on, and film passers-by walking past. Twist: make the objects appear only when someone walks by.
+
+### Kyle McDonald
+
+*Artist working with code; openFrameworks contributor*
+
+Media artist working with computer vision, machine learning and faces; co-created FaceOSC tools, real-time face substitution and many collaborative installations.
+
+#### Face Substitution — Kyle McDonald, Arturo Castro (2011)
+- Video: https://vimeo.com/29348533
+- Interaction: Face, Perception & Effects
+- Platform & tech: Desktop, openFrameworks, FaceTracker
+- Idea: The earliest live face swap: your face on the webcam is seamlessly replaced with someone else's.
+- What it is: Widely cited as the first realistic real-time face swap: another person's face is fitted and blended onto yours live from a webcam.
+- Technique: FaceTracker fits a deformable landmark mesh to both the source and live face, the source texture is warped onto the live mesh, and color-transfer plus Poisson-style blending hides the seam.
+- Try it: Use the triangle mesh from MediaPipe Face Mesh to map the face of a figure from a famous painting onto your own, apply simple color matching, and swap faces in real time. Twist: swap only half the face to make a mirror that is 'half you, half your ancestor'.
+
+#### Scramble Suit — Kyle McDonald, Arturo Castro (2011)
+- Video: https://vimeo.com/29391633
+- Interaction: Face, Perception & Effects
+- Platform & tech: Desktop, openFrameworks, FaceTracker
+- Idea: A 'scramble suit' from A Scanner Darkly: your face keeps being swapped for different people.
+- What it is: Inspired by Philip K. Dick's A Scanner Darkly: the live face is continuously re-substituted with many different faces so the wearer becomes impossible to describe.
+- Technique: The same FaceTracker mesh-warp-and-blend pipeline as Face Substitution, cycling through a large database of source faces every few frames so identity never stabilises.
+- Try it: Collect 20 front-facing photos from the class and use MediaPipe Face Mesh to give the person on camera a new face every half second, making an 'indescribable mask'. Twist: speed up the swapping as more people gather nearby, and discuss surveillance and anonymity.
+
+#### Light Leaks — Kyle McDonald, Jonas Jongejan (2013)
+- Video: https://vimeo.com/66167082
+- Interaction: Projection, Perception & Effects, Spatial Mapping
+- Platform & tech: Projection, openFrameworks, structured light
+- Idea: Dozens of disco balls reflect projector light and turn a whole room into a space of drifting light points.
+- What it is: With Jonas Jongejan: dozens of mirror balls reflect light from projectors calibrated with computer vision, filling a whole room with moving points of light.
+- Technique: Structured-light (Gray code) scanning maps each projector pixel to where its reflection lands in the room via the mirror balls, and the content is authored in that reflected space so light points move coherently.
+- Try it: Aim a projector at a disco ball or a few mirror pieces, light it region by region in TouchDesigner, note where each region's light spot lands in the room, and then compose an animation of wandering light points. Twist: make the light points "dance" on the wall to the rhythm of a song.
+
+#### Sharing Faces — Kyle McDonald (2013)
+- Video: https://vimeo.com/96549043
+- Interaction: Face, Shared & Social
+- Platform & tech: Desktop, openFrameworks, face tracking
+- Idea: A cross-border mirror: you see the face of someone in another country with your same expression and pose.
+- What it is: Linked mirror installations in Anyang, Korea and Yamaguchi, Japan: your expression and pose are matched in real time with photos of someone who once stood at the other site.
+- Technique: Face tracking extracts head pose and expression parameters, which are used as a nearest-neighbour query into a growing database of photos captured at the remote site.
+- Try it: Use MediaPipe to extract head orientation and how wide the mouth is open, then find and display in real time the most similar pose from a photo library another group of classmates shot in advance. Twist: link two classrooms so you can only "reply" to the other side with their past photos.
+
+#### Highsight — Kyle McDonald (2015)
+- Video: https://vimeo.com/144061990
+- Interaction: Portals & Worlds, Perception & Effects
+- Platform & tech: Headset, Oculus Rift, live camera
+- Idea: Put on a headset and see through a real camera on a wire as it plunges through a model and into the crowd.
+- What it is: A 'virtual bungee jump through a real space': harnessed visitors wear an Oculus Rift showing a live camera on a wire as it drops through a diorama and into the crowd around them.
+- Technique: A live camera on a cable-guided rig streams low-latency video into a head-mounted display, so the viewer's vision is displaced into a moving remote viewpoint within the same physical space.
+- Try it: Tie a phone to a rope or pole as a "flying camera", stream its video over WebRTC to a classmate wearing HoloKit, and let them watch themselves from the ceiling. Twist: the viewer can only use this viewpoint to find an object hidden somewhere in the room.
+
+### Lucas Rizzotto
+
+*XR creator, inventor and YouTuber (Lucas Builds the Future); founder of Where Thoughts Go*
+
+Brazilian-born immersive designer and inventor behind the 'Lucas Builds the Future' channel and AR House in LA, known for absurd yet insightful AR, VR and AI builds.
+
+#### 1000 Michael Scotts Screaming at You in AR — Lucas Rizzotto (2017)
+- Video: https://www.youtube.com/watch?v=1tbBosFQkM4
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A thousand Michael Scotts from The Office fill your room and scream at you.
+- What it is: An absurdist phone AR piece that fills the room with a crowd of screaming Michael Scotts.
+- Technique: A large number of animated character instances (GPU instancing or LOD) are scattered on detected planes with randomized timing, and spatialized audio fills the room.
+- Try it: Spawn 100 copies of the same character on the floor plane, each playing animations and spatial sounds at random. Twist: have every character turn its head to stare at the phone.
+
+#### CyberSnake – Holographic Snake — Lucas Rizzotto (2017)
+- Video: https://www.youtube.com/watch?v=1SprJQz_pGU
+- Interaction: Play, Hands & Body, Spatial Mapping
+- Platform & tech: Headset, HoloLens, Unity
+- Idea: You are the snake: walk around your home eating burgers while dodging your own tail.
+- What it is: The classic Snake game re-imagined in HoloLens: you are the snake, hunting burgers around your home while avoiding your own growing tail.
+- Technique: The snake head follows the headset's gaze direction at a fixed speed, body segments trail its recorded path, and a spatialized audio source on each target lets players find food outside the field of view.
+- Try it: Use the orientation of a phone or HoloKit to steer a snake moving around the room, with food located only by 3D spatial audio. Twist: turn off the visuals and play a round with sound alone.
+
+#### MyLab – Holographic Chemistry App — Lucas Rizzotto (2017)
+- Video: https://www.youtube.com/watch?v=MbOoeTlDG_w
+- Interaction: Information & UI, Hands & Body
+- Platform & tech: Headset, HoloLens, Unity
+- Idea: Learn chemistry with holographic atoms and molecules in HoloLens.
+- What it is: A HoloLens chemistry education app in which students build and inspect atoms and molecules as holograms in the room.
+- Technique: Atoms and molecules are 3D models in world space on HoloLens, manipulated with gaze-and-air-tap or hand gestures, and bonding rules are computed in the app logic.
+- Try it: Place a few atom balls on a table with AR Foundation, and let them bond automatically by rule into a water molecule when dragged close together. Twist: swap in other "building units" from your own field, such as musical notes or circuit components.
+
+#### Holograms That React to Music in Your Room — Lucas Rizzotto (2018)
+- Video: https://www.youtube.com/watch?v=PryOpVb1c_M
+- Interaction: Voice & Sound, Drawing & Making, Perception & Effects
+- Platform & tech: Headset, HoloLens, Unity
+- Idea: Fill your room with holographic shapes that pulse to the music.
+- What it is: Paint audio-reactive holograms all over a room that pulse and morph with whatever music is playing (with Stephen Hodgson).
+- Technique: Painted stroke meshes have shader parameters (scale, emission, displacement) driven by real-time FFT bands of the playing music.
+- Try it: Draw lines in the air to create 3D strokes, then use the music's FFT bands to control stroke thickness and brightness. Twist: bind each stroke to a different band, so bass makes strokes thicker and treble makes them brighter.
+
+#### A Futuristic Portal to My Best Friend — Lucas Rizzotto (2020)
+- Video: https://www.youtube.com/watch?v=713T4x89kMk
+- Interaction: Portals & Worlds, Shared & Social
+- Platform & tech: Headset, Unity, mixed reality
+- Idea: During quarantine, build a mixed-reality portal into a friend's home and live as virtual roommates.
+- What it is: A quarantine project: a mixed-reality 'portal' that opens a window from his apartment into his best friend's space so they can hang out as virtual roommates.
+- Technique: A wall-anchored portal renders a live volumetric or depth-video stream of the remote room behind the wall plane, using a stencil mask so the remote space appears to sit behind the real wall.
+- Try it: Put an AR window on a wall that plays a live video call with a friend, using depth or background separation to add a bit of depth. Twist: the window opens only when both of you stand in front of your walls at the same time.
+
+#### A Working Marauder's Map – Harry Potter AR — Lucas Rizzotto (2020)
+- Video: https://www.youtube.com/watch?v=A3v6dLlylU8
+- Interaction: Tangible Objects, Location & City, Information & UI
+- Platform & tech: Phone, image tracking, GPS, Unity
+- Idea: Make a Marauder's Map that really shows where everyone in the castle is right now.
+- What it is: In a rented 'mini Hogwarts' castle in England, a physical parchment viewed through the phone shows everyone's live GPS position as walking footprints with name labels, like Harry Potter's Marauder's Map.
+- Technique: The parchment is tracked as an image target, and each participant's GPS coordinates are converted into map-space positions on it, where footprint animations and name labels are drawn.
+- Try it: Use image tracking to recognize a hand-drawn campus map and show the live GPS positions of a few classmates as walking footprints. Twist: the map shows only the people who are moving.
+
+#### I Turned My Girlfriend into a Musical Instrument — Lucas Rizzotto (2021)
+- Video: https://www.youtube.com/watch?v=R2KZ34OZlwk
+- Interaction: Hands & Body, Voice & Sound, Performance
+- Platform & tech: Phone, Lens Studio, Unity
+- Idea: Body tracking turns each of his girlfriend's movements into a playable instrument.
+- What it is: Body-tracked AR turns a dancer's limbs into triggers that play live music as she moves.
+- Technique: Body tracking gives joint positions, and when limbs enter defined trigger zones or exceed a speed threshold, notes are played and visual effects spawn.
+- Try it: Mark out several zones in the frame with MediaPipe Pose so that a hand or foot entering each zone plays a different note. Twist: two people play together, one on melody and one on drums.
+
+#### Live Music with My Clothes in AR — Lucas Rizzotto (2022)
+- Video: https://www.youtube.com/watch?v=Vpr1i3-Ekl4
+- Interaction: Hands & Body, Voice & Sound, Performance
+- Platform & tech: Phone, Lens Studio, Unity
+- Idea: Tap different parts of your clothes to play music live in AR.
+- What it is: A live performance in which touching different parts of his outfit triggers AR instruments and visuals.
+- Technique: Body or surface tracking locates regions of the outfit, and hand-to-region proximity triggers instrument samples and AR visuals (likely via body segmentation plus hand tracking).
+- Try it: Use MediaPipe Pose to turn your chest, shoulders and knees into keys that play different instrument sounds when your hand touches them. Twist: key positions are set by colored stickers on your clothes.
+
+#### Pillow – Mixed Reality in Bed — Lucas Rizzotto (2023)
+- Video: https://www.youtube.com/watch?v=jGaPFRT25is
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Headset, Meta Quest 3, Unity
+- Idea: A mixed-reality app designed for lying in bed.
+- What it is: A Quest mixed-reality app designed to be used lying in bed, with games, journaling and meditation projected over the ceiling and room.
+- Technique: The ceiling is identified from room setup or plane classification, and UI and game content are placed on it so they face a user lying down, with input adapted to a supine posture.
+- Try it: Detect the ceiling (a downward-facing plane) with AR Foundation and display a breathing-meditation animation on it to use while lying down. Twist: control the animation with your breathing rhythm, picked up by the phone microphone.
+
+#### Turning My Ceiling into a Planetarium — Lucas Rizzotto (2024)
+- Video: https://www.youtube.com/watch?v=yjGF76sgi20
+- Interaction: Portals & Worlds, Spatial Mapping
+- Platform & tech: Headset, Meta Quest 3
+- Idea: Use mixed reality to turn a bedroom ceiling into a planetarium.
+- What it is: Mixed reality replaces the bedroom ceiling with a live star field and planets.
+- Technique: The ceiling plane from the Quest room model is masked out of passthrough and replaced with a rendered sky dome, so stars appear through the ceiling while the walls stay real.
+- Try it: Detect the ceiling plane and replace it with a star-field dome using a mask, then look up at it through a phone. Twist: use the phone's compass so the constellations match their real directions.
+
+### Scott Snibbe
+
+*Interactive artist; founder of Snibbe Studio and Snibbe Interactive*
+
+Media artist whose late-1990s/2000s 'Screen Series' turned projector light and a viewer's shadow into an interactive medium; he later produced Björk's Biophilia app and led Snibbe Interactive's museum installations.
+
+#### Boundary Functions — Scott Snibbe (1998)
+- Video: https://www.youtube.com/watch?v=5wA3lKcDrlM
+- Interaction: Hands & Body, Projection, Shared & Social
+- Platform & tech: Projection, overhead camera tracking, Voronoi diagram, floor projection
+- Idea: Draw invisible 'personal space' on the floor as Voronoi lines, so the more people there are, the less space each gets.
+- What it is: An overhead projector draws lines on the floor between everyone standing in the room, dividing it into personal Voronoi cells that grow, shrink and snap as people move.
+- Technique: An overhead camera tracks each person's floor position and a Voronoi diagram of those points is computed in real time and projected back onto the floor from above.
+- Try it: Use an overhead camera and projector (or a phone filming from above with p5.js) to track where classmates stand, and compute and project Voronoi boundaries in real time. Twist: color each cell by its area, turning redder as it shrinks.
+
+#### Deep Walls — Scott Snibbe (2002)
+- Video: https://www.youtube.com/watch?v=X7h9ckxlxtc
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, silhouette segmentation, video loop recording, projector
+- Idea: Record passing shadows and keep them looping forever in 'shadow cupboards' on the wall.
+- What it is: A projected wall of sixteen small cupboards: when someone walks into the beam their shadow is recorded, then replayed forever in one of the cupboards as a looping shadow-film of past visitors.
+- Technique: A camera segments the viewer's silhouette against the projection, records it while someone is in frame, and drops the clip into a grid cell that loops once the space is empty.
+- Try it: Use a camera to cut out people's silhouettes, record them as loops a few seconds long, and assemble them into a projected grid. Twist: each cell keeps only one kind of action (such as waving or jumping), with a simple rule deciding which cell a clip goes into.
+
+#### Shadow (Screen Series) — Scott Snibbe (2002)
+- Video: https://www.youtube.com/watch?v=pdxYv-_70-s
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, camera silhouette, time delay, projector
+- Idea: You have left, but your shadow stays behind and repeats what you just did.
+- What it is: A plain rectangle of projected light; viewers cast ordinary shadows, but after they step away their shadow keeps moving on the screen, repeating their gestures a moment later.
+- Technique: A camera captures the viewer's shadow silhouette and the system re-projects the delayed silhouette sequence onto the same screen once the live shadow disappears.
+- Try it: Use background differencing on a webcam feed to get a person's shadow, and project it back onto the wall with a 3-second delay. Twist: make the delayed shadow gradually fade and play in reverse.
+
+#### Compliant — Scott Snibbe (2003)
+- Video: https://www.youtube.com/watch?v=PSdvN7c25mI
+- Interaction: Hands & Body, Projection, Play
+- Platform & tech: Projection, soft-body simulation, silhouette collision, projector
+- Idea: Make the screen behave like a rubber sheet that people's shadows push and squash.
+- What it is: A soft rectangle of projected light behaves like a rubber sheet: visitors' shadows push, dent and chase it around the wall.
+- Technique: The shadow silhouette from a camera is used as a collision boundary for a spring-mesh (soft-body) simulation of the projected rectangle.
+- Try it: Build a spring-mesh square in p5.js, use the camera silhouette of a person as a collider to push it, and project the result. Twist: make the square emit a tone that changes pitch with its deformation when squeezed.
+
+#### Cause and Effect — Scott Snibbe (2004)
+- Video: https://www.youtube.com/watch?v=Db5i2Nz1jHk
+- Interaction: Hands & Body, Projection, Shared & Social
+- Platform & tech: Projection, silhouette recording, projector
+- Idea: Your movements are recorded and jostle with the shadows of earlier visitors, forming a chain of cause and effect across time.
+- What it is: Viewers' silhouettes are recorded as they bump into the shadow-recordings of previous visitors; replays show only the recorded movements, so reactions look like autonomous gestures.
+- Technique: Silhouette clips recorded from a camera are placed on sliding tiles whose positions are displaced by live shadows, chaining recordings of different visitors together.
+- Try it: Record a silhouette clip of each classmate, line them up in a row, and let the next person's shadow push the earlier clips along. Twist: turn the order of pushes into a replayable 'domino' timeline.
+
+#### Make Like a Tree — Scott Snibbe (2005)
+- Video: https://www.youtube.com/watch?v=CPFF3-di2PU
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, silhouette recording, layered compositing
+- Idea: Your shadow becomes a ghost in the forest, wandering off between the trees.
+- What it is: A projected forest in which each visitor's recorded shadow returns as a ghostly figure walking between the trees and fading into the distance.
+- Technique: Recorded silhouettes are re-inserted into a layered forest image at different depths and scales, with depth-dependent fading to suggest distance.
+- Try it: Take a landscape photo with several layers of depth and insert classmates' recorded silhouettes into different layers, scaled by distance. Twist: shadows grow more transparent the farther they are and slowly 'walk' deeper into the picture over time.
+
+#### Shadow Bag — Scott Snibbe (2005)
+- Video: https://www.youtube.com/watch?v=ybt4DJ7ptpQ
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, silhouette buffer, projector
+- Idea: Your shadow stops obeying: sometimes it follows you, sometimes it walks off on its own.
+- What it is: The projector captures a viewer's shadow and re-projects it with unpredictable variations: sometimes a true shadow, sometimes a disembodied copy that runs toward or away from them.
+- Technique: A camera silhouette buffer is replayed with randomly chosen transforms (delay, offset, scale, direction) chosen per interaction.
+- Try it: Build a shadow projection program that randomly switches among four modes: normal, delayed, mirrored and running away. Twist: have classmates guess which rule is active.
+
+#### Visceral Cinema: Chien — Scott Snibbe (2005)
+- Video: https://www.youtube.com/watch?v=xgxkUH6PrIE
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, silhouette compositing, projector
+- Idea: Visitors' shadows walk into a surrealist film and take over the lead role.
+- What it is: Scenes from Buñuel and Dalí's Un Chien Andalou are projected; viewers' shadows enter the film and take over the role of the character pulling a grand piano.
+- Technique: Live camera silhouettes are composited into pre-segmented film footage so that the shadow triggers and drives key moments of the scene.
+- Try it: Pick a classic film clip, use camera silhouettes to 'put' classmates into the frame and trigger the next shot. Twist: the scene continues only when a shadow strikes the same pose as the original character.
+
+#### Central Mosaic — Scott Snibbe (2007)
+- Video: https://www.youtube.com/watch?v=ZdgX4PUyfvw
+- Interaction: Hands & Body, Projection, Shared & Social
+- Platform & tech: Projection, silhouette recording, fractal layout
+- Idea: Each passer-by's shadow takes the center until newcomers push it to the edge of a fractal mosaic.
+- What it is: Shadows of passers-by are recorded and replayed as silhouettes that shrink and move outward into a fractal mosaic as newer recordings take the centre.
+- Technique: Silhouette recordings are laid out in a recursive, self-similar tiling where each new clip pushes older clips one level outward and smaller.
+- Try it: Arrange recorded silhouette clips in a recursive quad grid, with new clips entering the center and old ones shrinking outward. Twist: color each layer by recording time to form 'growth rings of time'.
+
+#### Falling Girl (with Annie Loui) — Scott Snibbe (2008)
+- Video: https://www.youtube.com/watch?v=7rmd44OwMgk
+- Interaction: Hands & Body, Projection, Performance
+- Platform & tech: Projection, live compositing, projection
+- Idea: Visitors are placed live into a building's windows and become the people a falling girl meets over her life.
+- What it is: An immersive narrative projection of a girl falling slowly past skyscraper windows; cameras place the live audience inside the apartments she passes as she ages during the fall.
+- Technique: Room cameras capture viewers and composite their live images into window regions of a pre-animated building while the scripted falling-girl animation plays in the centre.
+- Try it: Draw a building with many windows, key classmates out of the camera feed live and place them in the windows, then have a character pass from top to bottom. Twist: the character makes a reaction gesture toward whoever's window it passes.
+
+### Universal Everything (Matt Pyke)
+
+*Digital art and design studio founded by Matt Pyke*
+
+Matt Pyke's studio makes digital lifeforms, crowds and walking figures for galleries, brands and architecture, increasingly as camera-driven mirrors and AR apps that let audiences see themselves transformed.
+
+#### 1000 Hands — Universal Everything (Matt Pyke) (2013)
+- Video: https://www.youtube.com/watch?v=yECE20Cq0mE
+- Interaction: Drawing & Making, Shared & Social, Projection
+- Platform & tech: Projection, iPad, real-time 3D
+- Idea: Drawings by a thousand visitors grow into 3D forms and join one shared projected landscape.
+- What it is: Visitors contribute line drawings through a mobile app; each drawing is grown into a 3D form that joins a collective, evolving projected landscape in the gallery.
+- Technique: Line drawings from a mobile app are sent to a server, converted into procedurally extruded or grown 3D geometry, and added to a shared real-time scene that is projected in the gallery.
+- Try it: Collect the whole class's hand-drawn lines with a web form, extrude each line in three.js into a slowly growing 3D form, and place them all in one projected landscape. Twist: let each form's growth direction depend on the mood option its drawer picked at the time.
+
+#### Future You — Universal Everything (Matt Pyke) (2019)
+- Video: https://vimeo.com/718890921
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Projection, depth camera, real-time generative
+- Idea: A motion-capture mirror shows 'future you', and the more you move, the stranger it gets.
+- What it is: A motion-capture mirror that turns each viewer into a synthetic robotic figure; the harder you move, the stranger its 47,000 possible responses become.
+- Technique: A depth camera tracks the viewer's skeleton and a real-time engine retargets it to a generative robotic figure whose form parameters change with movement speed and energy.
+- Try it: Use MediaPipe Pose to drive a 'robot double' built from geometric shapes, whose form parameters (size, count, color) grow more outlandish the more intensely you move. Twist: give the double a one-second 'memory' that gradually mixes in your past movements.
+
+#### Super You (AR app) — Universal Everything (Matt Pyke) (2020)
+- Video: https://www.youtube.com/watch?v=-zPQczdMCVc
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Phone, ARKit body tracking
+- Idea: Point your phone at yourself and become a flowing digital being.
+- What it is: An iPhone AR app that tracks your body and transforms you into a flowing digital being in real time.
+- Technique: ARKit body tracking (or person segmentation) provides a skeleton and silhouette each frame, which drive particle or ribbon systems that replace the user's body in the camera view.
+- Try it: Use Lens Studio or ARKit body tracking to replace your whole body with particles or ribbons that flow with your joints. Twist: assign each body part a different material, such as smoke, water or text, to make a digital body that expresses your personality.
+
+#### HyperSpace AR — Universal Everything (Matt Pyke) (2021)
+- Video: https://www.youtube.com/watch?v=1KuwkTdab0o
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, LiDAR, ARKit
+- Idea: Scan the room with LiDAR and let generative forms grow along real surfaces.
+- What it is: A LiDAR-based AR app for iPhone 12 / iPad Pro that fills your room with generative forms that respond to the scanned walls and furniture.
+- Technique: LiDAR scene reconstruction yields a room mesh, and generative geometry is spawned and grown along the mesh normals with occlusion so forms appear to emerge from walls and furniture.
+- Try it: Use AR Foundation meshing (or plane detection) to grow vines or crystals along walls and tabletops with occlusion turned on. Twist: growth happens only on surfaces you stare at for a long time.
+
+#### Infinity — Universal Everything (Matt Pyke) (2021)
+- Video: https://vimeo.com/523660693
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Projection, real-time generative, camera tracking
+- Idea: The arrival of viewers changes an endless crowd of walkers.
+- What it is: A generative installation of endlessly evolving digital beings; the interactive version lets visitors' presence and movement influence the figures on screen.
+- Technique: A crowd of procedurally animated walkers is rendered in real time, and camera-based presence tracking (likely blob or pose detection) modulates their speed, density or appearance.
+- Try it: Make a line of endlessly walking abstract figures in p5.js or TouchDesigner, and use a camera to detect how many viewers there are and where they stand to change the rhythm of the line. Twist: after viewers leave, the crowd keeps some trace of them.
+
+#### Chameleon — Universal Everything (Matt Pyke) (2024)
+- Video: https://www.youtube.com/watch?v=EkGLZ_Ck_-w
+- Interaction: Hands & Body, Perception & Effects, Location & City
+- Platform & tech: Projection, computer vision, real-time generative
+- Idea: A digital chameleon creature on the street that imitates you.
+- What it is: A camera-driven digital being that mimics passers-by's movement and appearance, shown on screens in East London streets, malls and later Venice and Beijing.
+- Technique: Camera-based computer vision (pose estimation plus colour sampling) lets a generative creature copy the passer-by's movement and clothing colours on a public screen.
+- Try it: Use MediaPipe Pose and camera color sampling to make an abstract creature that mimics a viewer's pose and takes on the colors of their clothes. Twist: let the creature imitate only the stillest person in the frame.
+
+#### Hydrogen Wave — Universal Everything (Matt Pyke) (2024)
+- Video: https://www.youtube.com/watch?v=M2SOCYnWIiU
+- Interaction: Hands & Body, Projection
+- Platform & tech: Projection, depth camera, real-time particles
+- Idea: Push waves of 'hydrogen' particles with your body.
+- What it is: An interactive space at Hyundai Motorstudio Senayan Park, Jakarta, where visitors' movements send waves through a large projected field of animated particles themed on hydrogen energy.
+- Technique: Depth cameras track visitors' positions and velocities, which inject forces into a GPU particle simulation projected across the floor and walls.
+- Try it: Drive a projected particle field in TouchDesigner with a Kinect or camera optical flow, so people's movement pushes out ripples. Twist: make the particles stand for an invisible substance you care about (air pollution, Wi-Fi signals).
+
+#### Look Up - Augmented Reality Architecture — Universal Everything (Matt Pyke) (2024)
+- Video: https://www.youtube.com/watch?v=e5ELC-FcJXs
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, AR
+- Idea: AR sculptures sprout from building facades and invite people to look up at the city.
+- What it is: AR experiments that attach digital sculptures and animated beings to building facades, inviting people to look up at architecture.
+- Technique: Likely geospatial or VPS anchoring (or image tracking of the facade) places animated sculptures on building faces, with scale set so they read correctly from street level.
+- Try it: Pick a campus building and place a moving sculpture on its facade with 8th Wall image tracking or ARCore Geospatial. Twist: make the sculpture appear only when the viewing angle tilts up past 45 degrees, forcing viewers to actually look up.
+
+#### Prototype: Someone - a random mirror — Universal Everything (Matt Pyke) (2024)
+- Video: https://www.youtube.com/watch?v=OS3rX7QU468
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Desktop, pose tracking, generative
+- Idea: The mirror always shows 'someone else'.
+- What it is: A mirror prototype that reflects the viewer's pose but replaces them with a randomly generated other person.
+- Technique: Pose estimation extracts the viewer's skeleton, which drives a randomly generated human avatar (or a generative image model conditioned on pose) shown as the reflection.
+- Try it: Use MediaPipe Pose to drive a 3D human model picked at random from an asset library, and present it as a 'mirror'. Twist: switch to a new person each time someone enters the frame, and make that person look the exact opposite of the viewer.
+
+#### Ultrasound for Apple Vision Pro — Universal Everything (Matt Pyke) (2025)
+- Video: https://www.youtube.com/watch?v=95_WMsapSuA
+- Interaction: Perception & Effects
+- Platform & tech: Headset, Apple Vision Pro, visionOS
+- Idea: Bring ultrasound-like living forms into the space of Vision Pro.
+- What it is: An immersive piece for Apple Vision Pro in which pulsing ultrasound-like forms emerge and surround the viewer (headset work; largely immersive).
+- Technique: A visionOS immersive space renders pulsing volumetric forms with shaders around the head-tracked viewer; can be approximated with WebXR or HoloKit stereo rendering of animated shader volumes.
+- Try it: Use HoloKit or WebXR to generate a few semi-transparent forms around the viewer that pulse to a heartbeat rhythm. Twist: drive the pulse with real heartbeat or breathing sounds picked up by the phone microphone.
+
+### Chris O'Shea
+
+*Artist and creative technologist*
+
+British artist and designer making playful camera-based installations for public screens, museums and hospitals; long-time openFrameworks contributor.
+
+#### Out of Bounds — Chris O'Shea (2007)
+- Video: https://vimeo.com/1333176
+- Interaction: Tangible Objects, Projection, Portals & Worlds
+- Platform & tech: Projection, computer vision, tracked torch
+- Idea: Shine an 'X-ray flashlight' at the wall to see the hidden space behind it.
+- What it is: An 'x-ray torch' at the Design Museum London: shining a handheld light on the wall projects what lies behind it, as if boring through the museum's walls.
+- Technique: A camera tracks the position of the handheld torch's light spot on the wall, and the projector reveals a hidden image layer only inside a circular mask at that position.
+- Try it: Use a camera to track a flashlight's spot on the wall and project a 'behind the wall' image (pipes, mice, the classroom next door) only inside the spot. Twist: the world behind the wall slowly notices it is being watched and starts to dodge the light.
+
+#### Traces — Chris O'Shea (2008)
+- Video: https://vimeo.com/1821234
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, computer vision
+- Idea: People's movements leave light trails in the projection, like long-exposure car lights.
+- What it is: A responsive projection with Moritz Waldemeyer that turns visitors' movements into long-exposure-like light trails inspired by car tail-light photography.
+- Technique: Background subtraction extracts moving bright regions or silhouettes each frame, which are accumulated into a slowly decaying frame buffer to emulate long-exposure light trails.
+- Try it: Use frame accumulation with decay (feedback) in p5.js or TouchDesigner so people's movements leave long-exposure light trails, and project them. Twist: the trails record only the slowest movements, and fast ones are wiped out.
+
+#### Hand from Above — Chris O'Shea (2009)
+- Video: https://vimeo.com/7042266
+- Interaction: Hands & Body, Location & City, Play
+- Platform & tech: Desktop, openFrameworks, computer vision
+- Idea: A giant hand reaches into the live feed on a square's big screen to tickle, stretch and even lift away passers-by.
+- What it is: On BBC Big Screens in Liverpool and beyond, a giant hand reaches into the live camera feed of the square to tickle, stretch, flick and remove unsuspecting passers-by.
+- Technique: Background subtraction and blob tracking find pedestrians in the live square feed, and a pre-animated giant hand is composited to target a chosen person, warping or removing their pixels.
+- Try it: Use MediaPipe to detect people in a CCTV-style view and have an animated giant hand reach down from the top of the frame to 'poke' one of them, stretching or squashing them. Twist: the hand only picks people looking down at their phones, making a small prank about attention.
+
+#### Body Swap — Chris O'Shea (2011)
+- Video: https://vimeo.com/20745353
+- Interaction: Hands & Body, Shared & Social, Play
+- Platform & tech: Desktop, Kinect, openFrameworks
+- Idea: Swap bodies with the person beside you: you control their on-screen figure while they control yours.
+- What it is: Two people stand side by side and each controls the other's body on screen like a puppet, making each other dance, jump and look silly.
+- Technique: Kinect skeleton tracking of two players drives two on-screen puppets, with each player's joint data mapped to the other player's avatar.
+- Try it: Track two people at once with MediaPipe Pose and render A's movements on B's silhouette puppet and vice versa. Twist: swap only half the body, for example you control the other person's legs and they control your arms, to complete a shared task.
+
+#### Dash Dodge Dive — Chris O'Shea (2011)
+- Video: https://vimeo.com/227226458
+- Interaction: Hands & Body, Shared & Social, Play
+- Platform & tech: Desktop, computer vision, networked big screens
+- Idea: Big screens in squares across the UK are linked so crowds battle other cities with their bodies.
+- What it is: Crowd games for the London 2012 Olympics big screens: people in public squares across the UK compete against each other using body movements seen by the screens' cameras.
+- Technique: Big-screen cameras use motion detection (frame differencing or blob tracking) to measure crowd movement per zone, and scores are synchronised over a network between sites.
+- Try it: Split the camera image into left and right zones in p5.js, measure the amount of motion in each as the two teams' "strength", and play a projected tug-of-war. Twist: two classrooms compete over the network, and the winners get to leave a message on the other side's screen.
+
+#### Little Magic Stories — Chris O'Shea (2011)
+- Video: https://vimeo.com/20196781
+- Interaction: Performance, Hands & Body, Drawing & Making
+- Platform & tech: Projection, Kinect, openFrameworks
+- Idea: Children act on a small stage while the characters and sets they drew come alive through projection.
+- What it is: Children perform stories on a small stage with drawn props and costumes; Kinect tracking and projection bring their imagined characters and scenery to life in front of an audience.
+- Technique: Kinect skeleton and depth tracking follow the children on stage, and colored props are recognised to trigger projected characters and scenery tied to their positions.
+- Try it: Give each group a few drawn paper props, use color detection to trigger projected backgrounds and characters, use MediaPipe Pose to make characters follow the performers, and stage a 3-minute story. Twist: the loudness of the audience's applause picks the scene for the next act.
+
+#### Woodland Wiggle — Chris O'Shea (2013)
+- Video: https://vimeo.com/59349284
+- Interaction: Hands & Body, Play
+- Platform & tech: Desktop, Kinect, openFrameworks
+- Idea: A wall-sized interactive fairy-tale forest in a hospital, where children paint, make music and call up weather with their bodies.
+- What it is: A room-sized interactive TV at the Royal London Hospital where children step into a storybook woodland to paint, play music and summon weather with animated animals.
+- Technique: Kinect body tracking maps children's positions and gestures to triggers in a 2D animated scene (painting, playing instruments, calling weather), with large-scale display for full-body play.
+- Try it: Design a motion-sensing wall for a children's waiting area: use MediaPipe Pose so reaching out, jumping and crouching trigger painting, drumming and snow. Twist: every action must be possible while sitting or lying down, for children with limited mobility.
+
+#### Wilderness Wiggle — Chris O'Shea (2016)
+- Video: https://vimeo.com/271539058
+- Interaction: Hands & Body, Play
+- Platform & tech: Desktop, depth camera
+- Idea: A motion-sensing wilderness play wall in an Alaskan hospital where animals and landscape answer children's movements.
+- What it is: A body-controlled Alaskan wilderness play wall for children at the Alaska Native Medical Center, where movement makes animals and landscape respond.
+- Technique: A depth camera tracks body silhouettes and movement, which are mapped to responsive animal and landscape animations on a play wall.
+- Try it: Pick a natural landscape from your hometown and build a motion-sensing wall with a camera and p5.js where movement makes local animals appear or hide. Twist: ask a classmate from a different place to supply animals and sounds so the wall tells the story of their place.
+
+### Keiichi Matsuda
+
+*Designer and filmmaker; founder of Liquid City*
+
+Architect-trained designer and filmmaker whose speculative AR films (Augmented City, HYPER-REALITY, Merger) became the reference images of what an overlaid city could feel like. He later led design at Leap Motion and founded the XR/AI studio Liquid City.
+
+#### Augmented (hyper)Reality: Domestic Robocop — Keiichi Matsuda (2010)
+- Video: https://www.youtube.com/watch?v=fSfKlCmYcLc
+- Interaction: Information & UI, Perception & Effects
+- Platform & tech: Headset, After Effects, design fiction
+- Idea: Turn every surface at home into ads and interfaces to rehearse a life drowning in information.
+- What it is: A first-person walk through a kitchen where every surface is covered in AR labels, recipes, ads and reward points; the film imagines how an 'augmented' home would be monetised.
+- Technique: Design-fiction compositing: a handheld first-person shot is camera-tracked in post (After Effects / 3D tracker) so UI labels are pinned to kitchen surfaces; a live version can be approximated with AR plane and image anchors.
+- Try it: Use AR Foundation plane detection or 8th Wall to cover the tables and fridge door of a kitchen or dorm with labels, ads and points pop-ups, and shoot a 30-second first-person video. Twist: every label demands that the user 'pay' or 'watch an ad' before it can be closed.
+
+#### Augmented City 3D — Keiichi Matsuda (2010)
+- Video: https://www.youtube.com/watch?v=3TL80ScTLlM
+- Interaction: Location & City, Information & UI, Portals & Worlds
+- Platform & tech: Headset, 3D film, design fiction
+- Idea: The city becomes subscribable, customizable AR layers, so everyone sees a different city.
+- What it is: A stereoscopic film of a walk through a city whose AR layers can be customised, shared and hijacked, questioning who designs the augmented urban space.
+- Technique: Stereoscopic 3D film with camera-tracked CG layers composited onto street footage; in a live build this maps to geolocated or VPS anchors with per-user layer sets.
+- Try it: Choose a campus route and build two different sets of AR layers in WebXR or Unity (say a 'commercial' version and a 'community' version), switched with a button. Twist: add a 'hijacked' layer that another classmate remotely stuffs with content in your city.
+
+#### CELL (with James Alliban) — Keiichi Matsuda, James Alliban (2011)
+- Video: https://www.youtube.com/watch?v=lfzNF7igHzY
+- Interaction: Hands & Body, Information & UI
+- Platform & tech: Projection, Kinect, openFrameworks
+- Idea: A digital mirror that tracks bodies and slaps online identity tags on every passerby in real time.
+- What it is: An interactive installation where a depth camera tracks visitors and attaches floating identity tags drawn from social media to their bodies on a large mirror-screen.
+- Technique: A Kinect depth camera segments and tracks each visitor's skeleton, and openFrameworks renders text tags that follow the tracked head/torso positions on a mirror-like screen.
+- Try it: Track several people in a webcam feed with MediaPipe Pose on a web page and stick randomly scraped online tags (hashtags, nicknames, ad slogans) above each person's head. Twist: make the tags change with a person's stance or how long they stay, and discuss "how algorithms label you".
+
+#### HYPER-REALITY — Keiichi Matsuda (2016)
+- Video: https://www.youtube.com/watch?v=YJg02ivYzSs
+- Interaction: Information & UI, Perception & Effects, Location & City
+- Platform & tech: Headset, design fiction, 3D compositing
+- Idea: The dizziness and fragility of a reality turned into games and ads once AR takes over your whole view.
+- What it is: A POV short in Medellín where a woman's view is saturated with AR ads, game points and assistant UI; when her identity is hacked the overlay collapses.
+- Technique: POV footage camera-tracked and composited with dense 3D UI layers; can be approximated live with phone world tracking plus a large number of world- and screen-space UI elements that collapse on an event.
+- Try it: Fill a hallway in phone AR with ads, game points and assistant prompts, and shoot a first-person video. Twist: design a moment of "identity theft" when every interface crashes at once or turns into a stranger's interface.
+
+#### Merger — Keiichi Matsuda (2018)
+- Video: https://www.youtube.com/watch?v=SqW2dEkiD-Y
+- Interaction: Information & UI, Hands & Body
+- Platform & tech: Headset, 360 video, design fiction
+- Idea: A future office worker, surrounded by holographic work screens, fights off the fear of being replaced by AI with hand gestures.
+- What it is: A 360-degree film of an office worker whose entire workspace is a floating AR interface, controlled by hand and voice, as she fights to stay relevant against automation.
+- Technique: 360-degree rendered film of a head-centred UI sphere; a live equivalent uses a headset with hand tracking and floating panels arranged on a body-anchored cylinder.
+- Try it: Build a multi-window work interface that surrounds you in HoloKit or WebXR, switching tasks with gestures or pinches. Twist: keep adding windows over time until the user must 'give up' some tasks to see what is in front of them.
+
+#### Reality Channels (Liquid City) — Keiichi Matsuda (2022)
+- Video: https://www.youtube.com/watch?v=0tyswdePMmA
+- Interaction: Portals & Worlds, Location & City
+- Platform & tech: Phone, Headset, Unity, Niantic Lightship
+- Idea: Switch the city's AR skins like changing TV channels.
+- What it is: A prototype of the 'real-world metaverse' in which users switch between channels that re-skin the same street with different AR layers, characters and information.
+- Technique: Shared world-scale AR using Niantic Lightship meshing/VPS so several content layers are anchored to the same street and swapped at runtime like channels.
+- Try it: Make three AR channels on the same tabletop or wall (for example fairy tale, surveillance and advertising) and switch between them with a swipe. Twist: let two phones see different channels and discuss the different realities in a shared space.
+
+#### Agents (Liquid City) — Keiichi Matsuda (2023)
+- Video: https://www.youtube.com/watch?v=bkKv2AHpn8E
+- Interaction: Information & UI, Voice & Sound
+- Platform & tech: Headset, design fiction, AI
+- Idea: Give AI assistants a body as characters living in AR glasses, and think about how people relate to agents.
+- What it is: A short film where AI agents appear as characters in AR glasses and negotiate a person's day, asking what kind of relationship we want with AI in mixed reality.
+- Technique: Design-fiction film where AI agents are rendered as characters composited into glasses POV; a prototype would pair an LLM dialogue loop with world-anchored animated avatars.
+- Try it: Design two or three 'AI agent characters' for your day, place them in your room with phone AR, and have an LLM generate dialogue in which they compete for your attention. Twist: let one character turn down the other characters' requests on your behalf.
+
+#### Project Jade - Spatial Agents (Liquid City) — Keiichi Matsuda (2025)
+- Video: https://www.youtube.com/watch?v=ZwyGUZIoa8Q
+- Interaction: Voice & Sound, Spatial Mapping, Information & UI
+- Platform & tech: Headset, Snap Spectacles, LLM
+- Idea: An AI companion that sees what you see and answers you out in space.
+- What it is: A spatial AI agent for AR glasses that sees what the wearer sees and responds with embodied, placed UI, shown at Snap Lens Fest 2025.
+- Technique: Egocentric camera frames are sent to a multimodal LLM, and responses are rendered as UI panels anchored near the referenced object using world tracking and raycasts.
+- Try it: Build a phone AR prototype that sends the current view to a vision-language model and pins its answer as a label next to the matching object in the frame. Twist: let the agent reply only with icons and gestures, never text, and test whether nonverbal spatial answers can be understood.
+
+#### Wisp World (Liquid City) — Keiichi Matsuda (2025)
+- Video: https://www.youtube.com/watch?v=CtP9FERiL0w
+- Interaction: Voice & Sound, Play, Spatial Mapping
+- Platform & tech: Headset, Snap Spectacles, Apple Vision Pro, LLM
+- Idea: An AI and AR game in which you go on adventures with a talking little spirit in your real room.
+- What it is: An AR/AI game for Snap Spectacles and Vision Pro where the player talks with a small spirit character, Wisp, who explores and comments on the real room.
+- Technique: Headset scene understanding (meshing/semantic labels) plus a camera-to-LLM loop lets a small animated character navigate real surfaces and speak about recognised objects.
+- Try it: Place a small character in Unity AR that moves along detected planes, and use a photo plus a vision-language model to have it comment on an object in the room. Twist: give the character a fixed personality (timid or arrogant) that shows in both its comments and its walking path.
+
+### Klaus Obermaier
+
+*Media artist, director, choreographer and composer*
+
+Austrian artist who has projection-mapped moving dancers since 1998 (D.A.V.E., Vivisector) and, with Ars Electronica Futurelab, made real-time interactive body projection with Apparition (2004) and a stereoscopic Rite of Spring.
+
+#### D.A.V.E. – digital amplified video engine (with Chris Haring) — Klaus Obermaier (1998)
+- Video: https://www.youtube.com/watch?v=1bhNjYTQFQY
+- Interaction: Performance, Projection, Hands & Body
+- Platform & tech: Projection, body projection, choreographed video
+- Idea: Use the dancer's own body as the screen and project impossible transformations onto it.
+- What it is: A solo dancer's body becomes the projection screen: morphing faces, ageing and impossible body distortions are mapped precisely onto the moving performer.
+- Technique: Pre-rendered video is choreographed frame-by-frame with the dancer so the projection lands on the body, relying on rehearsed timing rather than tracking.
+- Try it: Have a classmate in white clothes stand in front of the projector, and project pre-cut face or texture videos onto them following a rehearsed rhythm. Twist: add a small spot of light that follows them live via a camera.
+
+#### Vivisector (with Chris Haring) — Klaus Obermaier (2002)
+- Video: https://www.youtube.com/watch?v=Q0YEFX6Nk9k
+- Interaction: Performance, Projection, Perception & Effects
+- Platform & tech: Projection, projection as lighting, video masks
+- Idea: Light the dancers only with projection so their bodies get sliced and dissolved by light.
+- What it is: Four dancers are sculpted solely by projected light — no stage lighting — so their bodies appear sliced, dissolved and multiplied by the projection.
+- Technique: Projectors act as the only light source ('dancing light'), with video masks choreographed to reveal and fragment specific body regions.
+- Try it: Turn off the classroom lights and use only black-and-white projector masks to light parts of a classmate's body. Twist: track the hand with a camera so the spot of light follows it automatically.
+
+#### Apparition (with Ars Electronica Futurelab) — Klaus Obermaier (2004)
+- Video: https://www.youtube.com/watch?v=-wVq41Bi2yE
+- Interaction: Performance, Hands & Body, Projection
+- Platform & tech: Projection, infrared camera tracking, real-time generative graphics
+- Idea: Dancers' moves generate projections live on the backdrop and on their bodies, so body and image pull on each other.
+- What it is: Two dancers perform inside an interactive projection that is generated in real time from their movements, both on the backdrop and directly on their bodies.
+- Technique: Infrared camera tracking extracts the dancers' silhouettes and motion, feeding physics-based generative visuals that are projected back on the performers and the screen in real time.
+- Try it: Extract a dancer's outline with a camera and use it to drive particles or a spring mesh projected back onto the dancer in real time. Twist: make the image 'reject' the dancer, with patterns fleeing outward as the outline approaches.
+
+#### Le Sacre du Printemps (The Rite of Spring) — Klaus Obermaier (2006)
+- Video: https://www.youtube.com/watch?v=_6NQf-a5UAc
+- Interaction: Performance, Perception & Effects, Voice & Sound
+- Platform & tech: Projection, stereo cameras, stereoscopic projection, real-time rendering
+- Idea: Turn a dancer into a live stereoscopic 3D image so the audience watches a 'reshaped body' through 3D glasses.
+- What it is: A solo dancer is filmed by stereo cameras and turned in real time into a stereoscopic 3D projection that the audience watches with 3D glasses alongside a live orchestra.
+- Technique: Stereo camera pairs capture the dancer and real-time software transforms the image into generative stereoscopic geometry projected with polarised 3D projection.
+- Try it: Film a classmate dancing with two phones side by side, combine the footage into a red-cyan anaglyph and add live effects. Twist: let the music's beat control how much the body shatters.
+
+#### the concept of ... (here and now) — Klaus Obermaier (2010)
+- Video: https://www.youtube.com/watch?v=afbQQM6RTe8
+- Interaction: Performance, Perception & Effects, Projection
+- Platform & tech: Projection, live camera, stereoscopic projection
+- Idea: Choreograph for both the audience and the camera so bodies merge into impossible shapes on screen.
+- What it is: A dance piece choreographed not only for the audience's viewpoint but also for camera perspectives, so dancers' bodies combine into impossible figures on the projected image.
+- Technique: Fixed live cameras film the stage from unusual angles and the feed is projected as a stereoscopic/composited view that only aligns from the camera's perspective.
+- Try it: Fix a camera shooting from above or from the side, and have two or three classmates pose on site so their bodies combine into a new shape on screen. Twist: the audience may only watch the projection, not the live scene, and must guess where everyone is really standing.
+
+#### Dancing House — Klaus Obermaier (2011)
+- Video: https://www.youtube.com/watch?v=su3Zrpck4P8
+- Interaction: Hands & Body, Projection, Location & City
+- Platform & tech: Projection, projection mapping, camera body tracking
+- Idea: When you move, the whole old building twists and dances with you.
+- What it is: Interactive projection mapping on historic façades: the building bends, sways and 'dances' in response to the movements of people standing in front of it.
+- Technique: A camera tracks the audience's body movement and maps it onto deformation parameters of a 3D model of the façade that is projection-mapped onto the building.
+- Try it: Photograph and model a wall or a cardboard building, and use body pose (such as MediaPipe Pose) to bend the projected texture. Twist: when two people make opposite moves at the same time, the building "tears".
+
+#### Dancing Light / D.O.PE. — Klaus Obermaier (2015)
+- Video: https://www.youtube.com/watch?v=KXoN8zNc6sg
+- Interaction: Performance, Projection, Hands & Body
+- Platform & tech: Projection, projector as light, masking
+- Idea: Make projected light itself a dance partner for the performer.
+- What it is: A performer dances with computer-controlled projector light that shapes, cuts and follows her body in a dark space.
+- Technique: A projector is used as a programmable spotlight whose masks are sequenced (and likely tracked) to sculpt the performer's silhouette in darkness.
+- Try it: Project moving shapes of light in a dark room and have a classmate improvise a "duet" with them. Twist: use a camera so the light shapes flee when a person gets close.
+
+#### EGO (with Stefano D'Alessio & Martina Menegon) — Klaus Obermaier (2015)
+- Video: https://www.youtube.com/watch?v=KzDifurF9wQ
+- Interaction: Hands & Body, Perception & Effects, Projection
+- Platform & tech: Projection, depth camera, real-time mesh distortion
+- Idea: Your movements warp your mirror image into an abstract shape that still looks like you.
+- What it is: A large projection shows the viewer's mirror image, but their movements stretch, fragment and deform it into an abstract self that still feels like 'me'.
+- Technique: A depth/video camera captures the viewer and a real-time mesh of their image is distorted by motion-driven parameters before projection.
+- Try it: Build a "funhouse mirror" with a camera and mesh deformation, so the faster you wave, the more your reflection gets stretched. Twist: add sound, giving each kind of deformation its own timbre.
+
+#### FACING LIFE [In Doc Tri Nation] — Klaus Obermaier (2022)
+- Video: https://www.youtube.com/watch?v=DSdO6zoP1Zc
+- Interaction: Face, Hands & Body, Projection
+- Platform & tech: Projection, Unity, camera tracking
+- Idea: Your face and movement drive a virtual child who is gradually disciplined by society.
+- What it is: A real-time rendered installation about social conditioning in which visitors' presence and faces animate child-like avatars that are gradually 'adapted' by social codes.
+- Technique: Unity real-time rendering driven by a camera, likely using face and body tracking to map the viewer onto the projected avatar.
+- Try it: Use Unity or web face tracking so classmates drive a cartoon child, then add rules that gradually restrict its expressions. Twist: the audience votes on which expression gets banned next.
+
+### MIKIKO / ELEVENPLAY
+
+*Choreographer and stage director; founder of the dance company ELEVENPLAY*
+
+MIKIKO choreographs Perfume and BABYMETAL and leads ELEVENPLAY, whose decade-long collaboration with Rhizomatiks (Daito Manabe, Motoi Ishibashi) produced dances with drones, robot cubes, AR overlays and mixed-reality stages.
+
+#### cube (Sónar Tokyo) — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2013)
+- Video: https://www.youtube.com/watch?v=zBm3mJiJzh8
+- Interaction: Performance, Hands & Body, Projection
+- Platform & tech: Projection, computer vision, LED, real-time visuals
+- Idea: Dancers move inside cube frames as their motion turns into live light and graphics.
+- What it is: ELEVENPLAY dancers perform inside and around cube frames while computer-vision tracking turns their movement into live graphics and LED light cues.
+- Technique: Computer-vision tracking (by Satoru Higa) of dancers drives real-time visuals and LED 'jockeying', likely projected onto and around the cube frames.
+- Try it: Use a camera to track the hand positions of classmates inside cardboard frames and control lines projected onto the frames in real time. Twist: each frame responds to only one person, forming an "ensemble of light".
+
+#### fly (dance with drones) — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2014)
+- Video: https://www.youtube.com/watch?v=HQLORg5COiU
+- Interaction: Performance, Tangible Objects, Spatial Mapping
+- Platform & tech: Projection, drones, motion capture
+- Idea: Make drones dance partners that fly in sync with the dancers.
+- What it is: Dancers perform a duet with small drones that fly precise trajectories around their bodies, as if the objects were partners.
+- Technique: Motion-capture tracking positions both dancers and drones in 3D space, and pre-programmed flight paths are synchronised to the choreography and music.
+- Try it: Program a small drone (such as a Tello) or a remote-control car to follow a path synced to music, and have classmates choreograph around it. Twist: generate the object's path from a recorded trajectory of a dancer's hand.
+
+#### 24 drones — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2015)
+- Video: https://www.youtube.com/watch?v=cYWvKudIIJ8
+- Interaction: Performance, Spatial Mapping, Shared & Social
+- Platform & tech: Projection, light drones, motion capture
+- Idea: Twenty-four glowing drones form a dancing constellation of light.
+- What it is: Three dancers and 24 light-drones perform together; the drones form moving constellations of light that respond to and frame the choreography.
+- Technique: An indoor motion-capture system localises 24 custom light drones (designed by Motoi Ishibashi) whose light and position are programmed against the choreography.
+- Try it: Have 24 classmates each hold a phone flashlight and walk in the dark to coordinates given by a projection, forming shapes. Twist: generate the shapes in real time from a dancer's pose.
+
+#### shadow (drone with a spotlight) — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2015)
+- Video: https://www.youtube.com/watch?v=hX2TneyE41Q
+- Interaction: Performance, Perception & Effects, Tangible Objects
+- Platform & tech: Projection, light drones, motion capture
+- Idea: Spotlights carried by drones make the dancer's shadows part of the dance.
+- What it is: A single dancer is lit only by spotlights carried by drones; as the drones move, her shadows multiply, stretch and rotate on the walls.
+- Technique: Light-carrying drones follow programmed paths so the light source position is choreographed, controlling the size and direction of the dancer's shadows.
+- Try it: Turn off the lights, tie a phone flashlight to a long pole or a small cart, and move it while a classmate dances so their shadow shifts across the wall. Twist: use two light sources of different colors to make two-toned shadows.
+
+#### phosphere — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2017)
+- Video: https://www.youtube.com/watch?v=W7X6UqXm9eY
+- Interaction: Performance, Hands & Body, Projection
+- Platform & tech: Projection, marker tracking, 24 projectors, real-time visuals
+- Idea: Markers on dancers' wrists steer 24 projectors, turning gestures into geometry of light in space.
+- What it is: A dance installation homage to Schlemmer's Triadic Ballet: dancers wearing wrist markers trigger light from 24 projectors mounted overhead, turning gestures into three-dimensional light geometry.
+- Technique: Wrist-marker motion tracking feeds a real-time system that aims light from 24 truss-mounted projectors at computed 3D positions around the dancers.
+- Try it: Put reflective stickers or colored markers on a classmate's wrists, track them with a camera, and have a projector cast rings of light at the matching positions. Twist: automatically connect the two hands with a beam of light.
+
+#### S . P . A . C . E . — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2020)
+- Video: https://www.youtube.com/watch?v=bY0lMfl1rpI
+- Interaction: Performance, Hands & Body, Perception & Effects
+- Platform & tech: Desktop, multi-camera capture, real-time image processing
+- Idea: Break down and reassemble dancers' body data to create geometric worlds the body itself cannot form.
+- What it is: Made under social distancing, dancers are filmed by special camera rigs whose images are decomposed and rebuilt into geometric worlds that the body alone could not form.
+- Technique: Multi-camera capture and GPU image processing decompose each dancer's body data by rule sets and recompose it into real-time geometric visuals.
+- Try it: Get joint points with MediaPipe Pose and copy, mirror and rotate them by rule into kaleidoscope geometry. Twist: several classmates join a remote video call and their skeletons combine into a single figure.
+
+#### border 2021 — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2021)
+- Video: https://www.youtube.com/watch?v=rqmO7FA2vdw
+- Interaction: Performance, Portals & Worlds, Spatial Mapping
+- Platform & tech: Headset, mixed reality headsets, mobility devices, tracking
+- Idea: Seated on self-driving chairs, the audience wears MR headsets and watches real and virtual dancers merge.
+- What it is: An update of the 2015 'border' for post-COVID audiences: seated viewers ride personal mobility devices and watch real and virtual dancers merge through mixed-reality headsets, with an online version too.
+- Technique: Tracked mobility chairs move audience members through the stage while mixed-reality headsets render virtual dancers registered to the physical space.
+- Try it: Seat audience members on wheeled chairs pushed by classmates while they watch pre-placed virtual dancers in phone AR. Twist: at one moment the live dancer and the virtual dancer swap places.
+
+#### multiplex — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2021)
+- Video: https://www.youtube.com/watch?v=zeWtjavS7mc
+- Interaction: Performance, Projection, Tangible Objects
+- Platform & tech: Projection, Web, motion capture data, mobile robots, projection mapping
+- Idea: Real dancer data, projection and self-moving cubes together form a mixed-reality stage.
+- What it is: Motion data from five dancers, projected images and five autonomously moving robot cubes share two exhibition spaces and an online version, hybridising real and virtual dancers.
+- Technique: Recorded motion-capture data drives projection-mapped imagery on mobile robot cubes whose positions are tracked so the virtual dancers appear on their moving surfaces.
+- Try it: Put cardboard boxes on RC cars and have a projector follow the boxes to cast dancer silhouettes on them. Twist: viewers scan a QR code on their phones to switch which virtual dancer view they see.
+
+#### Syn: Unfolded Horizons of Bodily Senses — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2023)
+- Video: https://www.youtube.com/watch?v=Tcj0lfyIEb8
+- Interaction: Performance, Shared & Social, Portals & Worlds
+- Platform & tech: Headset, Projection, mixed reality, projection, stage tracking
+- Idea: The audience walks onto the stage and forms the show together with 24 dancers and mixed-reality imagery.
+- What it is: The opening show of TOKYO NODE: audiences walk onto a 1,500 m² stage where 24 dancers, a transforming space and mixed-reality experiences blur performer and spectator.
+- Technique: Combines live dancers with MR content, tracked stage elements and projection so the space reconfigures as visitors move through it.
+- Try it: Divide the classroom into zones where walking into each zone triggers different projections and music, and have classmates perform inside them. Twist: in the audience's phone AR, there is one more dancer than on the actual stage.
+
+### MIT Fluid Interfaces — Pattie Maes & Pranav Mistry
+
+*Research group at the MIT Media Lab led by Pattie Maes; Pranav Mistry was its best-known PhD student*
+
+Pattie Maes' Fluid Interfaces group builds wearable and augmented interfaces that blend digital information into everyday life. Pranav Mistry's SixthSense (2009) turned a pocket projector, a camera and colored finger caps into a gestural wearable computer and became one of the most-watched TED demos ever.
+
+#### Quickies: Intelligent Sticky Notes — MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2008)
+- Video: https://www.youtube.com/watch?v=EO0zbH6DSbw
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Desktop, digital pen, RFID
+- Idea: Give the humblest paper sticky note a digital memory so it can be searched and can remind you on its own.
+- What it is: Handwritten paper sticky notes are captured with a digital pen and RFID so they become searchable, can remind you, and can be found again by the computer.
+- Technique: A digital pen (Anoto-style dot-pattern paper) captures the handwriting of each note and an RFID tag in the note identifies it, so handwriting recognition turns paper notes into searchable, locatable records.
+- Try it: Photograph handwritten sticky notes with a phone, run OCR (such as Tesseract.js or the system's text recognition) to save them as a searchable list, and give each note a QR code or NFC tag that jumps to its digital record when scanned. Twist: have a sticky note 'remind' you on its own at a certain time or place.
+
+#### SixthSense (WUW – Wear Ur World) — MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2009)
+- Video: https://vimeo.com/17567999
+- Interaction: Hands & Body, Projection, Information & UI
+- Platform & tech: Wearable, Projection, pico projector, webcam, color marker tracking
+- Idea: Hang a projector and camera on your chest so the whole world, even your own palm, becomes a gesture-driven screen.
+- What it is: A pendant with a pocket projector, mirror and camera projects interfaces onto walls, paper and hands; colored finger caps are tracked so you can frame a photo with your fingers, dial a phone on your palm or read live data projected onto a newspaper.
+- Technique: A webcam tracks colored finger caps by color thresholding and blob tracking, and a pico projector aimed via a mirror renders UI onto whatever surface is in front of the wearer, with the camera and projector roughly co-aligned so gestures map to projected content.
+- Try it: Use a phone's front camera with MediaPipe Hands (or colored tape on your fingertips for color tracking) to recognize three gestures such as a two-hand 'viewfinder frame', and use a small projector to cast the matching interface onto the desk or your palm. Twist: keep only one gesture feature you would really use every day, and argue why it deserves to be 'worn on the body'.
+
+#### WUW / SixthSense gesture demo reel — MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2009)
+- Video: https://www.youtube.com/watch?v=ZfV4R4x2SK0
+- Interaction: Hands & Body, Projection, Drawing & Making
+- Platform & tech: Wearable, Projection, pico projector, webcam
+- Idea: Draw a circle with your finger to see the time, pick up a book to see its rating: information appears on objects as you gesture.
+- What it is: Pranav Mistry's own demo reel of the wearable gestural interface: drawing in the air, projected watches on the wrist, augmented boarding passes and books.
+- Technique: Color-marker fingertip tracking from a chest-mounted webcam drives a gesture vocabulary (air drawing, wrist tap for a watch), while a pico projector renders the response in place on the body or on printed objects.
+- Try it: Use MediaPipe Hands to build 'air drawing' in a web page: pinch your index finger to start drawing, open your hand to stop, and project the stroke on a wall or overlay it on the camera view. Twist: give the stroke a physical property (it falls, fades or gets blown away by the wind).
+
+#### LuminAR — MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2010)
+- Video: https://vimeo.com/52899256
+- Interaction: Projection, Tangible Objects, Hands & Body
+- Platform & tech: Projection, pico projector, robotic arm, depth camera
+- Idea: Swap a desk lamp for a projector robot that turns its own head, so any spot on the desk can become a touch interface.
+- What it is: Natan Linder's robotic desk lamp whose 'bulb' is a projector-camera: the lamp arm moves on its own to project interactive surfaces onto the desk, follow objects and scan documents.
+- Technique: A projector-camera pair is mounted as the head of a motorized multi-joint lamp arm, and computer vision on the camera (with depth sensing) chooses where to point the arm, projecting interfaces onto the desk and scanning objects under it.
+- Try it: Mount a small projector and a phone on a desk-lamp arm, use the camera to detect paper or hands on the desk, and project buttons and hints next to that object. Twist: give the lamp a 'personality', such as bowing its head when you leave or leaning in when it sees a new object (demo with servos or by posing it by hand).
+
+#### AfterMath: Seeing the Future through AR — MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2015)
+- Video: https://vimeo.com/130279501
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, AR, physics simulation
+- Idea: Use AR to rehearse the physical world's next second, so you see the consequences before they happen.
+- What it is: Point a tablet at a physical scene and AR predicts and shows what will happen next, e.g. where objects will fall or roll after a physical action.
+- Technique: The tablet tracks the scene with AR, reconstructs or fits the physical objects as rigid bodies, and runs a physics simulation forward in time to render predicted trajectories as ghost overlays.
+- Try it: Detect a tabletop plane in Unity + AR Foundation, place a virtual ball, and use the physics engine to preview its path after a push, showing "the next 2 seconds" as semi-transparent ghost trails. Twist: show several possible future branches and let the user pick the one they want.
+
+#### Invisibilia: Revealing Invisible Data — MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2015)
+- Video: https://vimeo.com/141926009
+- Interaction: Information & UI, Perception & Effects
+- Platform & tech: Phone, AR, IoT
+- Idea: Make invisible wireless signals and data flows visible in the room.
+- What it is: An AR view that visualizes the invisible signals around connected devices, such as Wi-Fi fields and data flows, as overlays in the room.
+- Technique: Device positions are registered in AR (markers or known anchors) and network data such as Wi-Fi signal strength or packet activity is sampled and rendered as volumetric fields or particle flows around each device.
+- Try it: Place anchors at the router, phone and speaker with AR Foundation or WebXR, read the Wi-Fi signal strength measured by the phone (or use simulated data), and render it as particle clouds and data streamlines. Twist: visualize another invisible thing, such as noise, temperature or CO2 concentration.
+
+#### HoloARt: Painting with Holograms — MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2016)
+- Video: https://vimeo.com/202652308
+- Interaction: Drawing & Making, Spatial Mapping, Hands & Body
+- Platform & tech: Headset, HoloLens, Unity
+- Idea: Fling holographic paint with your hands in a real room, and it sticks to the real walls.
+- What it is: Judith Amores and Pattie Maes let users paint with hand gestures in HoloLens, splashing holographic paint that sticks to and drips on real surfaces.
+- Technique: HoloLens spatial mapping provides a mesh of the room, and hand gestures spawn paint particles whose collisions with the mesh leave decals and drip simulations on real surfaces.
+- Try it: Use AR Foundation Meshing (on a LiDAR iPhone) or plane detection so tapping the screen fires paint balls that leave decals on real surfaces and slowly drip down. Twist: control the paint's color or thickness with sound volume or the phone's tilt.
+
+### Stijn Spanhove
+
+*XR developer at In The Pocket; Snap Spectacles creator*
+
+Belgian XR developer who builds rapid AR-glasses proofs of concept for Snap Spectacles and Meta AI glasses, often pairing them with generative AI.
+
+#### AI Teleport — Stijn Spanhove (2025)
+- Video: https://www.youtube.com/watch?v=GvBRlCcgJ_g
+- Interaction: Portals & Worlds, Perception & Effects
+- Platform & tech: Headset, Snap Spectacles, Google Gemini
+- Idea: Generative AI 'teleports' your surroundings into another world in real time.
+- What it is: A portal lens for Spectacles that uses Google Gemini to generatively restyle the user's surroundings in real time.
+- Technique: Camera frames are sent to a multimodal image model that restyles the scene, and the result is displayed back as a portal overlay aligned to the view.
+- Try it: Photograph the scene in front of you with a phone, send it to an image-editing model to change its style, then paste it back in place as an AR picture frame. Twist: let a classmate choose the target style with a single word.
+
+#### Ad Block — Stijn Spanhove (2025)
+- Video: https://www.youtube.com/watch?v=KLiEm74cw9Q
+- Interaction: Portals & Worlds, Perception & Effects, Information & UI
+- Platform & tech: Headset, Snap Spectacles, Google Gemini
+- Idea: A real-world ad blocker that finds the billboards in front of you and covers them up.
+- What it is: An experimental Spectacles app that works as a real-world ad blocker: Gemini detects billboards and ads in view and covers them.
+- Technique: A vision-language model detects ads and returns bounding boxes, which are projected into 3D and covered with opaque or replacement quads in the wearer's view.
+- Try it: Use object detection to find logos or posters in the frame and cover them in AR with a solid color block or your own artwork. Twist: instead of hiding the ad, rewrite its text into one honest sentence.
+
+#### Fruit Defense — Stijn Spanhove, Pavlo Tkachenko (2025)
+- Video: https://www.youtube.com/watch?v=KlC__Y0J-Wc
+- Interaction: Tangible Objects, Shared & Social, Play
+- Platform & tech: Headset, Snap Spectacles, Lens Studio
+- Idea: The glasses recognize real objects around you and make them part of a tower-defense game.
+- What it is: A single- and multiplayer Spectacles game in which real-world objects detected around you become active gameplay elements to defend.
+- Technique: An on-device object detection model finds real objects in view, and their estimated 3D positions become gameplay entities that enemies target.
+- Try it: Use object recognition in Lens Studio or on a phone to find a cup on the table, make it the 'base' you must protect, and send small AR monsters swarming in from all sides. Twist: switch to a different object and the enemy type changes with it.
+
+#### Starship rocket in XR — Stijn Spanhove (2025)
+- Video: https://www.youtube.com/watch?v=LOF3rx0zSgg
+- Interaction: Tangible Objects, Play
+- Platform & tech: Headset, Snap Spectacles, Lens Studio, 3D printing
+- Idea: Launch a Starship, then guide the booster back to a 3D-printed launch tower on the table.
+- What it is: A Spectacles experience that lets you launch a SpaceX Starship and guide the booster back to a 3D-printed launch tower on your table.
+- Technique: The printed tower is registered as a tracked object or placed anchor, and a simple physics or scripted trajectory lets the user steer the booster back to the physical catch point.
+- Try it: Use a real object (a paper cup) as the landing pad and steer a rocket in AR back into its mouth, making it explode if it drifts too far. Twist: add random crosswinds.
+
+#### XR Worlds — Stijn Spanhove (2025)
+- Video: https://www.youtube.com/watch?v=h7ll6AB4rcc
+- Interaction: Drawing & Making, Portals & Worlds
+- Platform & tech: Headset, Snap Spectacles, Mirage 2, generative AI
+- Idea: Turn a 2D doodle on paper into a playable XR world.
+- What it is: A Spectacles proof of concept that turns a 2D drawing on paper into a playable XR world, using a generative world model.
+- Technique: A camera capture of a paper drawing is sent to a generative world model that returns a playable environment, which is then displayed in the glasses.
+- Try it: Photograph a hand-drawn level sketch, detect its lines as platforms, and generate an AR level a ball can roll through. Twist: use pens of different colors to stand for different physical materials.
+
+#### LEGO AR glasses proof of concept — Stijn Spanhove, Pavlo Tkachenko (2026)
+- Video: https://www.youtube.com/watch?v=7E2HXzrLLZE
+- Interaction: Tangible Objects, Play
+- Platform & tech: Headset, Snap Spectacles, LEGO Smart Bricks
+- Idea: AR characters and effects are layered onto LEGO smart bricks, so the physical bricks drive the virtual content.
+- What it is: A Spectacles proof of concept that adds AR effects and characters to LEGO Smart Bricks builds, reacting to the physical bricks in play.
+- Technique: Signals from the smart bricks (state, motion, identity) are read over a wireless link and mapped to AR effects anchored to the build's tracked position.
+- Try it: Drive an AR effect with a micro:bit or phone sensor data, so that shaking a real brick makes sparks burst out in AR. Twist: when two bricks come close, a short conversation appears.
+
+#### Meta Ray-Ban AI City Tour Guide — Stijn Spanhove (2026)
+- Video: https://www.youtube.com/watch?v=IA0LGSA4Lgw
+- Interaction: Location & City, Voice & Sound, Information & UI
+- Platform & tech: Wearable, Meta Wearables SDK, Ray-Ban Meta
+- Idea: An AI city guide in Ray-Ban Meta glasses describes whatever you are looking at as you walk.
+- What it is: A proof of concept built at In The Pocket: a location-aware AI tour guide on Meta Ray-Ban glasses that walks you through Ghent and describes what you look at.
+- Technique: GPS location and a captured camera frame are sent to a multimodal LLM, which returns a spoken description through the glasses, giving audio-first AR without a display.
+- Try it: Build a campus audio tour: send a photo plus GPS to a multimodal model and have it introduce the building in front of you in a 30-second voice clip. Twist: make the guide speak in the voice of a historical figure.
+
+#### Micro Art — Stijn Spanhove, Pavlo Tkachenko (2026)
+- Video: https://www.youtube.com/watch?v=esOODTn0RVU
+- Interaction: Perception & Effects, Tangible Objects
+- Platform & tech: Phone, Headset, Lens Studio, generative AI
+- Idea: Point at an object in nature to reveal an imagined microscopic world inside it.
+- What it is: An AR lens that reveals an imagined microscopic world inside plants, rocks and other things you point it at in nature.
+- Technique: The lens segments or classifies the pointed-at natural object and anchors a generated microscopic scene to it, likely using a pre-generated asset per category.
+- Try it: Point the camera at a leaf or a stone and show an imagined microscopic world magnified on its surface in AR. Twist: give each material its own family of microscopic creatures.
+
+#### Re-coaching a World Cup goal in AR — Stijn Spanhove (2026)
+- Video: https://www.youtube.com/watch?v=uPpCLfgWbdA
+- Interaction: Information & UI, Play
+- Platform & tech: Headset, AR, generative video
+- Idea: Pause a real World Cup goal, move a defender, and let AI re-render a different ending.
+- What it is: A real World Cup goal is rebuilt as a tabletop AR scene; you pause it, move a defender, and AI re-renders the alternate ending photorealistically.
+- Technique: Player positions from match tracking data are replayed as tabletop 3D figures, and after the user edits a position the altered layout conditions a generative video model to render a new ending.
+- Try it: Turn a goal from a match into a tabletop AR replay (keyframed simple figures and a ball) that can be paused so defenders can be dragged. Twist: after a change, recompute the ball's trajectory with simple physics.
+
+### Acute Art
+
+*AR/VR art production platform (director Daniel Birnbaum)*
+
+Production studio and app that commissions blue-chip artists (Olafur Eliasson, KAWS, Marina Abramović, Precious Okoyomon and others) to make AR sculptures placeable anywhere through a phone.
+
+#### KAWS: Expanded Holiday — Acute Art (2020)
+- Video: https://www.youtube.com/watch?v=YI8bG4KAB_w
+- Interaction: Location & City, Spatial Mapping
+- Platform & tech: Phone, Acute Art app
+- Idea: Giant AR toy sculptures appear worldwide at the same time, and you can buy one to take home.
+- What it is: KAWS's giant COMPANION figure released as AR sculptures placed simultaneously in cities worldwide and in users' homes, sold as limited AR editions.
+- Technique: Geolocated AR placement plus user-side plane detection: the same large sculpture model is anchored at fixed city coordinates and can also be placed on any detected ground plane at home.
+- Try it: Make a giant AR sculpture of a character you designed and have it appear at three GPS locations on campus at once, for example with location-based AR.js. Twist: give the sculpture a different pose at each location, hinting that it moves around the city.
+
+#### Olafur Eliasson: WUNDERKAMMER — Acute Art (2020)
+- Video: https://vimeo.com/418385263
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Acute Art app, ARKit/ARCore
+- Idea: During the pandemic, AR brought the sun, clouds, rainbows and other natural phenomena into people's homes.
+- What it is: A collection of AR objects by Olafur Eliasson (a sun, rain cloud, rainbow, puffin, compass) placed in the viewer's home during lockdown; the AR sun even charges a virtual Little Sun lamp.
+- Technique: Plane detection in the Acute Art app (ARKit/ARCore) places animated models of natural phenomena at real scale in the home, with simple interaction logic such as sun exposure charging a virtual lamp.
+- Try it: Build a natural phenomenon at home with AR Foundation: put a raining cloud or a small sun in the living room and give it a cause-and-effect link with another virtual object. Twist: the phenomenon appears only when the real weather is the opposite, such as sunshine indoors while it rains outside.
+
+#### Unreal City — Acute Art (2020)
+- Video: https://www.youtube.com/watch?v=-gO3oz5UfUY
+- Interaction: Location & City
+- Platform & tech: Phone, Acute Art app
+- Idea: A trail of AR sculptures along the Thames.
+- What it is: An AR public art walk along London's Thames with 36 works by artists such as Olafur Eliasson, Cao Fei and Tomás Saraceno, curated with Dazed.
+- Technique: GPS/geolocated anchors (refined with local plane detection) place a sequence of sculptures along a walking route, with the app acting as a map-guided exhibition.
+- Try it: Have each student in the class make one AR work, install them by GPS position along a campus walkway, and link them together with WebAR. Twist: design a final work for the exhibition that can be seen only after walking the whole route.
+
+#### The Looking Glass: Darren Bader — Acute Art (2021)
+- Video: https://www.youtube.com/watch?v=Q4aCI3Dol1o
+- Interaction: Location & City, Perception & Effects, Play
+- Platform & tech: Phone, Acute Art app, mobile AR
+- Idea: Place absurd, funny AR sculptures in a city plaza to ask what counts as art.
+- What it is: Darren Bader's surreal AR sculptures on The Shed's plaza use humour to question art and contemporary life, visible through the Acute Art app.
+- Technique: Mobile AR anchors absurd 3D object combinations at fixed plaza locations via the Acute Art app.
+- Try it: Combine two unrelated everyday objects into an AR sculpture, place it on campus and give it a title. Twist: let viewers vote for the most absurd combination and swap it in next week.
+
+#### The Looking Glass: Precious Okoyomon — Acute Art (2021)
+- Video: https://www.youtube.com/watch?v=AG_NXEvKxBU
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, Acute Art app, geolocated AR
+- Idea: Summon soft creatures about nature and identity into a city plaza with AR.
+- What it is: On The Shed's public plaza and the High Line, Precious Okoyomon's AR works — creatures and nature-based forms — appear through the Acute Art app as part of the group show The Looking Glass.
+- Technique: Site-specific AR placement in the Acute Art app anchors animated 3D sculptures to geolocated spots on the plaza.
+- Try it: Design an AR creature for a campus plaza that expresses the return of nature, and decide the exact patch of ground where it alone appears. Twist: it changes color with the time of day.
+
+#### The Looking Glass: Tomás Saraceno (spiders in AR) — Acute Art (2021)
+- Video: https://www.youtube.com/watch?v=2UDvzuecX2Q
+- Interaction: Spatial Mapping, Location & City, Perception & Effects
+- Platform & tech: Phone, Acute Art app, plane detection
+- Idea: Let AR spiders crawl through the city to rethink how we relate to other species.
+- What it is: Tomás Saraceno's AR spiders crawl across The Shed's plaza, part of his project to make spiders and their webs part of our lives and rethink our relationship with other species.
+- Technique: Scanned/animated spider models are placed with plane detection in the Acute Art app so they crawl on real ground surfaces.
+- Try it: Use Reality Composer or Adobe Aero to place an AR insect that crawls along the ground, and write one line describing its point of view. Twist: the insect scurries away when a viewer's phone comes close.
+
+### Adrien M & Claire B (Adrien Mondot & Claire Bardainne)
+
+*Digital art and performance company*
+
+Company combining juggler-programmer Adrien Mondot and visual artist Claire Bardainne; their live, physics-driven projections (eMotion software) and AR books/exhibitions make drawings breathe around dancers and visitors.
+
+#### Cinématique — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2010)
+- Video: https://www.youtube.com/watch?v=CknHVdMZ5xg
+- Interaction: Performance, Projection, Hands & Body
+- Platform & tech: Projection, eMotion, physics simulation, real-time projection
+- Idea: Let a dancer push projected letters and lines as if they were objects with weight.
+- What it is: A dancer and a juggler-programmer perform inside projected letters, lines and particles that behave with physics and react to their gestures in real time.
+- Technique: Adrien Mondot's eMotion software runs physics-based particle and line systems, driven live by a digital performer and by motion sensing of the dancers.
+- Try it: Make text particles with gravity in p5.js or Processing, project them on a wall, and let classmates push them away with hand gestures (via camera). Twist: once scattered, the letters slowly reassemble into a new sentence.
+
+#### XYZT, Abstract Landscapes — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2011)
+- Video: https://www.youtube.com/watch?v=N7q9k9Z3HIk
+- Interaction: Hands & Body, Projection, Voice & Sound
+- Platform & tech: Projection, eMotion, depth/camera sensing, projection
+- Idea: Touch, blow and walk to reshape landscapes made of letters and particles.
+- What it is: An exhibition of ten interactive installations where visitors touch, blow on and walk through projected typographic and particle landscapes.
+- Technique: Floor and wall projections use camera, depth and touch sensing to feed eMotion physics systems, so visuals respond like material.
+- Try it: Build a floor-projected particle pool and use an overhead camera so people walking through 'part' the particles. Twist: use a microphone to let the strength of a breath control which way the particles scatter.
+
+#### Hakanaï — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2013)
+- Video: https://www.youtube.com/watch?v=xvJNia3z11I
+- Interaction: Performance, Projection, Hands & Body
+- Platform & tech: Projection, eMotion, tulle projection, live visuals
+- Idea: A dancer in a cube of gauze converses with live projected lines, like a short poem.
+- What it is: A dancer inside a cube of tulle interacts with projected lines, grids and letters that are performed live around her; afterwards the audience can enter the cube.
+- Technique: Four-sided projection on tulle scrims is 'played' live by a digital performer using eMotion, with motion sensing linking the images to the dancer.
+- Try it: Enclose a small cube with four pieces of gauze or white cloth, project line animations onto it, and have a classmate improvise with the lines inside. Twist: let the audience control the lines from their phones to interact with the person inside.
+
+#### Pixel (with Mourad Merzouki / Compagnie Käfig) — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2014)
+- Video: https://www.youtube.com/watch?v=z_Hu57QTqqE
+- Interaction: Performance, Projection, Hands & Body
+- Platform & tech: Projection, eMotion, floor projection
+- Idea: Hip-hop dancers move together with pixels of light on the floor.
+- What it is: Eleven hip-hop and circus dancers perform with projected points of light on the floor and backdrop that move, ripple and cascade with their bodies.
+- Technique: Floor and back projections of particle fields are generated live with eMotion and synchronised with the choreography by a digital performer.
+- Try it: Project a field of light dots on the floor and have classmates breakdance while the dots ripple outward from their steps. Twist: make the dots form a "river" that can only be crossed when two people work together.
+
+#### Le mouvement de l'air — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2015)
+- Video: https://www.youtube.com/watch?v=xsskbGYq7lc
+- Interaction: Performance, Projection, Perception & Effects
+- Platform & tech: Projection, eMotion, fluid simulation
+- Idea: Turn invisible air currents into visible imagery swirling around the dancers.
+- What it is: Three dancers move through projected wind, water and particle landscapes that swirl around their bodies as if air had become visible.
+- Technique: Real-time fluid and particle simulations in eMotion are projected on floor and backdrop and steered live with the dancers' movement.
+- Try it: Project a web fluid simulation (WebGL fluid) and use camera optical flow so classmates' movements stir up the "air". Twist: sync real wind from a fan with the projection.
+
+#### Mirages & miracles — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2017)
+- Video: https://www.youtube.com/watch?v=hJBTqYbhTtA
+- Interaction: Tangible Objects, Perception & Effects, Drawing & Making
+- Platform & tech: Phone, Projection, image-tracked AR, Pepper's ghost
+- Idea: Seen through a tablet, real stones and hand drawings are home to tiny breathing people.
+- What it is: An exhibition of drawn stones, landscapes and figures that come alive through tablets and holographic displays, where tiny dancers climb and breathe inside real rocks.
+- Technique: Image-tracked AR on tablets and Pepper's-ghost holographic boxes overlay captured dancers onto physical stones and drawings.
+- Try it: Make image-recognition AR for a stone or a hand drawing (e.g., with Unity or 8th Wall) so a recorded dance of a tiny figure appears on it. Twist: build a small Pepper's ghost box from a phone screen and a transparent sheet.
+
+#### Acqua Alta – Crossing the Mirror (AR pop-up book) — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2019)
+- Video: https://www.youtube.com/watch?v=lh15yt4nvs0
+- Interaction: Tangible Objects, Portals & Worlds, Drawing & Making
+- Platform & tech: Phone, marker-based AR, motion capture, mobile app
+- Idea: Through a phone, ink-drawn figures dance between the pages of a pop-up book and get swept up by a flood.
+- What it is: A black-and-white ink pop-up book that, viewed through a phone or tablet, fills with animated rain, rising water and two dancing figures moving through its pages.
+- Technique: Marker-based AR recognises each pop-up spread and anchors motion-captured dance animation and water simulations to the paper geometry.
+- Try it: Make a three-page paper pop-up book and use image-recognition AR to play an animation on each page. Twist: the order in which pages are turned changes the ending.
+
+#### Faire corps — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2019)
+- Video: https://www.youtube.com/watch?v=VJmHz4OgnMo
+- Interaction: Hands & Body, Projection, Shared & Social
+- Platform & tech: Projection, camera sensing, real-time projection
+- Idea: An exhibition space that people enter together and change with their bodies.
+- What it is: An 'exhibition-experience' at Gaîté Lyrique where visitors enter projected, interactive environments that react to their bodies and invite them to move together.
+- Technique: Camera and depth sensing of visitors drives real-time projected particle and line environments on floors and walls.
+- Try it: Design a projected space that changes only when three or more people move together (for example, jumping together changes the colors). Twist: add a hidden image that appears only when everyone is completely still.
+
+### Blair MacIntyre — Georgia Tech Augmented Environments Lab
+
+*Professor at Georgia Tech (Augmented Environments Lab); later principal research scientist at Mozilla (WebXR) and JP Morgan*
+
+Blair MacIntyre (Feiner's former student) ran Georgia Tech's Augmented Environments Lab, which produced AR games and narrative experiments like AR Façade, ARhrrrr! and NerdHerder, and the Argon AR web browser. At Mozilla he helped create the WebXR Viewer and WebXR AR standards.
+
+#### The Voices of Oakland — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2005)
+- Video: https://www.youtube.com/watch?v=mHoe2NfTV7U
+- Interaction: Voice & Sound, Location & City
+- Platform & tech: Wearable, GPS, audio AR
+- Idea: Walk into a cemetery and hear the people buried there tell their own stories at their graves.
+- What it is: An audio-AR walking tour of Atlanta's historic Oakland Cemetery where dramatized voices of the people buried there tell their stories at their graves.
+- Technique: GPS position triggers location-based audio segments and the narrative is structured as an interactive tour where the user chooses which story branches to hear at each grave.
+- Try it: Use a phone web page and the Geolocation API to set up four geofences on campus, so that arriving at a spot automatically plays a classmate's recording of 'a story that happened here'. Twist: the content branches depending on the direction you came from or how long you stay.
+
+#### AR Façade — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2007)
+- Video: https://www.youtube.com/watch?v=WmXZW-Eg0Lg
+- Interaction: Voice & Sound, Portals & Worlds, Performance
+- Platform & tech: Headset, video see-through HMD, Wizard-of-Oz speech
+- Idea: Move the AI interactive drama Façade into a real apartment, where the player talks straight to life-size characters.
+- What it is: The AI interactive drama Façade re-staged in a physical apartment with AR: the player walks among life-size virtual characters Grace and Trip and speaks to them aloud.
+- Technique: A video see-through HMD with tracking renders life-size characters in a physical apartment set, while a hidden operator transcribes the player's speech (Wizard of Oz) into the Façade drama manager that drives the characters.
+- Try it: Place a life-size virtual character in phone AR (a Mixamo model works), and have a classmate hidden backstage (Wizard of Oz) pick the character's animations and lines based on what the player says. Twist: let the character 'see' a real object the player picks up and comment on it.
+
+#### ARf — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2008)
+- Video: https://www.youtube.com/watch?v=_0bitKDKdg0
+- Interaction: Play, Tangible Objects
+- Platform & tech: Phone, iPhone, marker tracking
+- Idea: Raise an AR virtual dog on the very first iPhone.
+- What it is: An AR virtual pet dog on the original iPhone that lives on a marker and can be played with by touch.
+- Technique: A fiducial marker is tracked by the iPhone camera to anchor an animated 3D dog, and touch input on the screen is raycast onto the dog to trigger petting and play behaviors.
+- Try it: Use AR Foundation or 8th Wall to put a virtual pet on a table, with two interactions (tap to pet, drag to feed) and three emotional states. Twist: have the pet react to your real surroundings (sleeping when it is dark, looking up when it hears a sound).
+
+#### BragFish — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2008)
+- Video: https://www.youtube.com/watch?v=w3iBrj_zfTM
+- Interaction: Play, Shared & Social, Tangible Objects
+- Platform & tech: Phone, marker tracking, UMPC
+- Idea: A multiplayer handheld AR game where players compete at fishing around a physical 'pond'.
+- What it is: A competitive handheld AR fishing game played around a shared physical pond board, exploring social play with co-located phones.
+- Technique: Each handheld tracks a shared printed pond board with markers, rendering fish and lures registered to it, and a networked game state makes players compete co-located around the same physical board.
+- Try it: Use a printed pond picture as a shared image target and make a two- or three-player phone AR fishing game where each person sees only their own rod plus the shared fish. Twist: add a 'steal a fish' move that only works when you are physically close to an opponent.
+
+#### ARhrrrr! — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2009)
+- Video: https://www.youtube.com/watch?v=cNu4CluFOcw
+- Interaction: Play, Tangible Objects
+- Platform & tech: Phone, NVIDIA Tegra, natural feature tracking
+- Idea: Shoot zombies on a tabletop city map, where each real Skittle you drop is a bomb.
+- What it is: A zombie shooter on a tabletop city map: from a helicopter view on a mobile device you shoot zombies and can drop real Skittles candies onto the map as explosives.
+- Technique: Natural feature tracking of a printed city map provides the camera pose on a GPU-accelerated handheld, and colored blobs (Skittles) placed on the map are detected by color segmentation and turned into explosive game objects.
+- Try it: Use a printed map as an image target to make an AR shooting or tower-defense game, and use color detection to recognize real colored candies or blocks that players put on the map as bombs or obstacles. Twist: let the color of a real object decide its role in the game.
+
+#### Art of Defense — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2009)
+- Video: https://www.youtube.com/watch?v=hSUuvgklsZw
+- Interaction: Play, Shared & Social, Tangible Objects
+- Platform & tech: Phone, marker tracking
+- Idea: Build the map from physical tiles and play AR tower defense together.
+- What it is: A collaborative AR tower defense game played on a physical board with tangible tiles, shown at SIGGRAPH 2009.
+- Technique: Tangible tiles carry fiducial markers that are tracked by handheld cameras, and each tile's position and rotation define a tower's placement and aim in a shared tower-defense game rendered over the board.
+- Try it: Use several cards with ArUco markers as 'towers': phone AR recognizes each card's position and shows a tower on it while enemies attack along a virtual path. Twist: each card's rotation sets its tower's facing, and two players must split up the placement.
+
+#### Argon AR Browser — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2010)
+- Video: https://www.youtube.com/watch?v=F_M8C2jW8PI
+- Interaction: Information & UI, Location & City
+- Platform & tech: Phone, Web, KHARMA, JavaScript, Vuforia
+- Idea: Write AR with web technology so the real world can be published and browsed like a web page.
+- What it is: Argon, the first AR web browser, renders standards-based web content (KHARMA/KML, later HTML/JavaScript) anchored to places and images, so anyone can author AR like a web page.
+- Technique: Argon exposed AR as a web platform: pages written in KML/KHARMA and later HTML/JavaScript declared content anchored to geolocation or image targets, and the browser supplied the tracked camera pose to render it.
+- Try it: Build an AR page made entirely with web technology using WebXR (three.js) or 8th Wall, anchor an HTML card to a plane or image, and share the link so classmates can open it directly. Twist: let classmates add content to your AR page just by editing a JSON file.
+
+#### NerdHerder — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2012)
+- Video: https://www.youtube.com/watch?v=RSxImyFXSXw
+- Interaction: Play, Tangible Objects
+- Platform & tech: Phone, Qualcomm Vuforia, Unity
+- Idea: Lure panicking nerds back to their desks with a donut on your tabletop.
+- What it is: A commercial tabletop AR game built with Qualcomm: herd panicking office nerds back to their cubicles by dangling donuts on a printed game board.
+- Technique: Vuforia image tracking of the printed board anchors a Unity game scene, and the phone's pose relative to the board is itself the controller, since the dangled donut follows where the camera points.
+- Try it: Make a small game in Unity + AR Foundation that uses the phone's position as the controller: where the phone hovers above an image target decides where a virtual lure lands, guiding virtual little people to a goal area. Twist: swap the lure for sound or light, and compare which kind of guidance is more fun.
+
+### Chris Harrison — CMU Future Interfaces Group
+
+*Professor at Carnegie Mellon HCII; director of the Future Interfaces Group (FIGLAB)*
+
+Chris Harrison invents new ways to turn skin, walls, tables and everyday surfaces into interactive displays and sensors. Skinput and OmniTouch (built with Microsoft Research) projected interfaces onto the body, and FIGLAB keeps producing on-body and on-world AR input techniques.
+
+#### Skinput — Chris Harrison — CMU Future Interfaces Group (2010)
+- Video: https://www.youtube.com/watch?v=g3XPUdW9Ryg
+- Interaction: Hands & Body, Projection
+- Platform & tech: Wearable, Projection, bio-acoustic sensing, pico projector
+- Idea: Use your arm as a touchscreen: tap different spots on your skin to work a menu projected onto your body.
+- What it is: An armband of vibration sensors detects finger taps on the forearm and hand; a pico projector shows menus and a game directly on your skin.
+- Technique: Piezoelectric vibration sensors on an armband capture the bio-acoustic signals of taps propagating through bone and soft tissue, and an SVM classifies the tap location from spectral features.
+- Try it: Strap a phone to your forearm, record accelerometer vibrations from taps at different spots on the arm, train a three-location classifier with Teachable Machine (sound or custom features), and project or display a menu on the arm. Twist: move the taps onto objects outside the body, such as a tabletop or wall.
+
+#### OmniTouch — Chris Harrison — CMU Future Interfaces Group, Microsoft Research — Hrvoje Benko & Andy Wilson (2011)
+- Video: https://www.youtube.com/watch?v=Pz17lbjOFn8
+- Interaction: Hands & Body, Projection, Spatial Mapping
+- Platform & tech: Wearable, Projection, depth camera, pico projector
+- Idea: A shoulder-mounted depth camera and projector turn your palm, a wall or a notebook into a multitouch screen on the spot.
+- What it is: A shoulder-worn depth camera and projector turn hands, walls, notebooks and tables into multitouch surfaces on the fly.
+- Technique: A shoulder-mounted depth camera finds finger-like cylinders in the depth image and determines touch by checking whether the fingertip is within a few millimeters of the surface below it, while a calibrated pico projector renders onto the detected surfaces.
+- Try it: Use a depth camera (RealSense, Kinect or a LiDAR iPhone) to detect touch from the depth difference between finger and table, and place a projected keyboard on a notebook or your palm. Twist: make the interface automatically appear on the largest available surface.
+
+#### LightAnchors — Chris Harrison — CMU Future Interfaces Group (2019)
+- Video: https://www.youtube.com/watch?v=435OSV8Hudw
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Phone, computer vision, LED signaling
+- Idea: Let a device's tiny indicator light blink out data, and a live label pops up when a phone looks at it.
+- What it is: Blinking point lights on everyday devices broadcast data; a phone camera decodes them and anchors live AR labels on thermostats, routers and cars.
+- Technique: LEDs blink in a known preamble pattern at frequencies detectable by a phone camera, and the app finds bright points across frames, decodes the temporal pattern into data, and anchors labels at the light's image position.
+- Try it: Have an Arduino or another phone's screen blink an encoded signal (such as an 8-bit ID), detect and decode the bright spot frame by frame with the phone camera, and show the matching AR label at its position. Twist: turn the blinking data into a 'secret message' only those who scan it can see.
+
+#### EgoTouch — Chris Harrison — CMU Future Interfaces Group (2024)
+- Video: https://www.youtube.com/watch?v=7JwgIm1f1ss
+- Interaction: Hands & Body
+- Platform & tech: Headset, headset cameras, machine learning
+- Idea: Using only a headset's built-in cameras, the skin on your arm becomes a set of touch buttons.
+- What it is: Uses the cameras already on AR/VR headsets to detect touches on your own skin, turning palm and forearm into buttons and sliders without extra hardware.
+- Technique: A CNN trained on headset camera images infers from the skin's appearance and shading whether a finger is touching the palm or forearm and where, without additional sensors.
+- Try it: Photograph your palm with a phone camera, train two image classes ('touch' and 'hover') in Teachable Machine, and combine them with MediaPipe fingertip positions to divide the palm into four buttons. Twist: use the buttons on your palm to control a small game in HoloKit or on a web page.
+
+### Google Creative Lab
+
+*Google's in-house creative team (Experiments with Google)*
+
+Google Creative Lab makes open-source experiments that show new uses of Google tech, including a series of ARCore experiments such as Just a Line, Drawalong AR, Sounds in Space and Lines of Play.
+
+#### AR Experiments (ARCore launch collection) — Google Creative Lab (2017)
+- Video: https://www.youtube.com/watch?v=7SwZUNDsWaM
+- Interaction: Drawing & Making, Portals & Worlds, Spatial Mapping
+- Platform & tech: Phone, ARCore, Unity, openFrameworks
+- Idea: A set of small open-source experiments released with ARCore that show how many creative directions AR can take.
+- What it is: A collection of small open-source ARCore prototypes released at launch, from drawing and physics toys to portals, showing creative uses of the new platform.
+- Technique: Small experiments each isolate one ARCore capability such as plane detection, hit testing, light estimation or anchors, showing how a single technique can carry a toy.
+- Try it: Have each group pick one basic AR capability (plane detection, light estimation, anchors, etc.) and build, within one hour, a small toy that relies on that capability alone. Twist: swap capabilities between groups and build another one.
+
+#### Just a Line — Google Creative Lab (2018)
+- Video: https://www.youtube.com/watch?v=IOKwGCQJVCw
+- Interaction: Drawing & Making, Shared & Social
+- Platform & tech: Phone, ARCore, ARKit, Cloud Anchors
+- Idea: An AR doodle app that draws just one line, and Android and iPhone users can draw together in the same space.
+- What it is: A minimal ARCore/ARKit app for drawing a single white line in the air; two people on Android and iPhone can draw together in the same space, and the result is a shareable video.
+- Technique: The line is built from successive camera or touch-ray positions in world space extruded into a ribbon mesh, and Cloud Anchors share the anchor so two phones draw together.
+- Try it: Use AR Foundation to connect the phone's positions as it moves into a 3D line, then record and export the screen. Twist: you get only one stroke, and lifting your finger ends it.
+
+#### Just a Line with Shantell Martin — Google Creative Lab (2018)
+- Video: https://www.youtube.com/watch?v=dRj5Xfjh7Dk
+- Interaction: Drawing & Making, Perception & Effects
+- Platform & tech: Phone, ARCore
+- Idea: An artist carries her signature continuous line off the wall and into the air.
+- What it is: Artist Shantell Martin extends her signature continuous black-line drawings into the air around her using Just a Line.
+- Technique: The same world-space line drawing is used by an artist whose single continuous stroke becomes a spatial drawing around her body.
+- Try it: Invite a classmate to draw a single-stroke picture around their own body in AR and film it from several angles. Twist: export the line as a model and 3D print it.
+
+#### D.I.S.P.L.A.Y.E.D + Audio AR — Google Creative Lab (2019)
+- Video: https://www.youtube.com/watch?v=1kU-uDxupV0
+- Interaction: Voice & Sound, Performance, Location & City
+- Platform & tech: Phone, audio AR, indoor positioning
+- Idea: As you approach a dancer, a spatial audio story belonging only to that dancer plays in your ears.
+- What it is: Heidi Latsky Dance and Google Creative Lab added position-based audio AR to a living-sculpture dance performance, so visitors hear dancers' voices and stories as they walk up to each performer.
+- Technique: Indoor positioning estimates the visitor's location, and distance to each performer's position controls the volume of their audio track.
+- Try it: Set up four 'sound spots' in the classroom and adjust each spot's audio volume by the phone's distance to it, creating a walkable sound map. Twist: each sound spot plays a personal story told by a classmate.
+
+#### Drawalong AR — Google Creative Lab (2019)
+- Video: https://www.youtube.com/watch?v=S9g1PqY19jE
+- Interaction: Drawing & Making, Information & UI
+- Platform & tech: Phone, ARCore
+- Idea: Turn a YouTube drawing tutorial into tracing paper floating over your real sketchbook.
+- What it is: Turns a YouTube drawing tutorial into virtual tracing paper: the video floats over your real sketchbook so you can trace along. Made with YouTube artist AmandaRachLee.
+- Technique: A video plane is anchored to a detected paper surface with adjustable transparency, so the user can trace the tutorial through the overlay.
+- Try it: Place a semi-transparent video or image layer on a tabletop plane, line it up with a real sheet of paper, and trace it. Twist: have the overlay appear stroke by stroke, like a teacher demonstrating.
+
+#### Lines of Play — Google Creative Lab (2020)
+- Video: https://www.youtube.com/watch?v=HbeEnkAE3Rg
+- Interaction: Spatial Mapping, Play, Drawing & Making
+- Platform & tech: Phone, ARCore Depth API
+- Idea: Set up AR dominoes on a real floor, where real objects hide them and get in their way.
+- What it is: Build domino chains on real floors and furniture; with the ARCore Depth API the dominoes hide behind real obstacles, collide with real objects and topple with spatial audio.
+- Technique: The ARCore Depth API supplies a depth map used for both occlusion and physics collision, so dominoes hide behind and bump into real objects.
+- Try it: Turn on environment depth, line up AR dominoes on a tabletop and make them stop when they hit a real book. Twist: each domino plays a note of a scale as it falls, forming a melody.
+
+#### Sounds in Space — Google Creative Lab (2020)
+- Video: https://www.youtube.com/watch?v=A9M45uRPaJ0
+- Interaction: Voice & Sound, Location & City
+- Platform & tech: Phone, ARCore, open source
+- Idea: Place sounds in space to make an AR soundscape that changes as you walk.
+- What it is: An open-source toolkit for curating location-based audio in a room: sounds are placed in space and the phone plays a soundtrack that changes as the visitor walks.
+- Technique: ARCore anchors store audio sources at positions in a room, and playback volume and panning follow the phone's tracked position.
+- Try it: Use AR Foundation to place several invisible sound sources with 3D audio in a room so you hear different music layers as you walk around. Twist: let visitors record their own sounds and place them in the space.
+
+### Nexus Studios
+
+*Film, animation and interactive studio*
+
+Oscar-nominated animation studio whose interactive arm made some of the best-known narrative AR apps for Google, the BBC and The New Yorker.
+
+#### HotStepper — Nexus Studios (2017)
+- Video: https://www.youtube.com/watch?v=kR7RBUhnQmU
+- Interaction: Location & City, Play
+- Platform & tech: Phone, ARKit, Mapbox
+- Idea: A little AR figure walks ahead of you to show the way.
+- What it is: The first AR character-based wayfinding app: enter any address and an animated character walks ahead of you through the real street to lead the way.
+- Technique: ARKit world tracking combined with Mapbox routing and GPS lets an animated character be placed a few metres ahead of the user along the computed path.
+- Try it: Use AR to place a small character on the ground that walks ahead of you and leads you to a classroom along a few preset route segments. Twist: give the character a mind of its own so it sometimes takes a detour to a place it "likes."
+
+#### The New Yorker Innovators Issue AR Cover (with Christoph Niemann) — Nexus Studios (2017)
+- Video: https://www.youtube.com/watch?v=ZIlFhkmSZEU
+- Interaction: Tangible Objects, Portals & Worlds
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A subway station on a magazine cover raises a whole 3D Manhattan.
+- What it is: Christoph Niemann's New Yorker cover of a subway platform opens in AR into a 3D Manhattan that rises out of the magazine.
+- Technique: Image tracking on the printed cover anchors an animated 3D city model in Unity/ARKit that rises out of the page with depth-consistent perspective.
+- Try it: Make AR for a postcard or poster of your own city so the pictured city rises in 3D from the paper. Twist: the risen city shows what it looked like 50 years ago or will look like 50 years from now.
+
+#### 1600: White House AR (dollar bill) — Nexus Studios (2018)
+- Video: https://www.youtube.com/watch?v=emiGJNa9gwg
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, ARKit, image tracking
+- Idea: A 3D White House grows out of a one-dollar bill.
+- What it is: Point a phone at a US one-dollar bill to see a 3D White House rise from it and experience a year in the life of 1600 Pennsylvania Avenue.
+- Technique: Image tracking recognises the one-dollar bill's engraving as a target and anchors an animated 3D White House model with time-based storytelling.
+- Try it: Use a banknote or ticket as an image target, make the building or pattern on it rise in 3D, and tell a short story. Twist: make the story about the banknote's own journey through circulation.
+
+#### BBC Civilisations AR — Nexus Studios (2018)
+- Video: https://www.youtube.com/watch?v=YkOrx5xcgss
+- Interaction: Information & UI, Spatial Mapping
+- Platform & tech: Phone, ARKit, ARCore, Unity
+- Idea: Bring museum artifacts into your living room and see inside them.
+- What it is: An AR app with BBC R&D that places over 30 museum artefacts in your room, which you can inspect, x-ray and hear narrated.
+- Technique: Plane detection places photogrammetry scans of artefacts at real scale, with a clipping-plane or shader cross-section for x-ray views and attached audio narration.
+- Try it: Scan an old object from home with phone photogrammetry (Polycam / RealityScan), display it enlarged in AR, and add a cross-section or 'x-ray' effect with voice narration. Twist: let the object itself be the narrator.
+
+#### Childish Gambino Playmoji (Google Pixel) — Nexus Studios (2018)
+- Video: https://www.youtube.com/watch?v=DQTwJQfLH5M
+- Interaction: Hands & Body, Performance
+- Platform & tech: Phone, ARCore, Pixel Playground
+- Idea: An AR celebrity who dances in the frame with you.
+- What it is: A dancing AR Childish Gambino character for Pixel's Playground that reacts to the user and dances alongside people in the camera view.
+- Technique: ARCore plane detection anchors an animated character, and person detection or pose estimation in the camera frame lets it react to and dance beside people.
+- Try it: Place a Mixamo-animated character next to a classmate in AR and switch dances depending on whether MediaPipe detects a raised hand. Twist: have the character learn and copy one of a person's moves, then 'teach' it to the next person.
+
+#### Back to the Moon AR — Nexus Studios (2019)
+- Video: https://www.youtube.com/watch?v=WX9KuX7F9y0
+- Interaction: Spatial Mapping, Portals & Worlds
+- Platform & tech: Phone, ARCore, Google Spotlight Stories
+- Idea: Méliès's trip to the moon plays out again on your tabletop in AR.
+- What it is: An AR version of the Emmy-nominated Google Spotlight Story about Georges Méliès, letting the animated film play out on your table.
+- Technique: ARCore plane detection places an animated diorama on a tabletop, with the viewer's phone movement acting as the camera for a pre-authored real-time story.
+- Try it: Build a 30-second tabletop theater in AR (for example, a scene from a classic silent film) where the audience moves the phone as the camera. Twist: a hidden plot point is revealed only from one specific angle.
+
+#### Changdeok ARirang — Nexus Studios (2019)
+- Video: https://www.youtube.com/watch?v=3-CEMYrtD-M
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, 5G, AR
+- Idea: AR characters tell the history of Changdeokgung Palace on site.
+- What it is: A location-based AR tour of Seoul's Changdeokgung palace with animated guides and historical stories anchored to the grounds.
+- Technique: Location-based AR with GPS plus local plane detection (and 5G streaming of heavy assets) anchors animated guides and scenes at specific palace locations.
+- Try it: Pick three campus spots with a story and use WebAR to place an animated character at each one telling its past, linked into a guided tour. Twist: the guides contradict each other, and visitors must decide which version is true.
+
+#### Notable Women — Nexus Studios (2019)
+- Video: https://www.youtube.com/watch?v=DuxXeeGg-T0
+- Interaction: Tangible Objects, Face
+- Platform & tech: Phone, ARCore, image tracking
+- Idea: Use AR to print portraits of notable women onto US dollars.
+- What it is: With Google and former US Treasurer Rosie Rios, the app puts portraits of historic American women onto US banknotes in AR.
+- Technique: ARCore augmented images detect banknote designs and replace the printed portrait region with a warped, lit portrait of a historic woman.
+- Try it: Use image tracking to recognize a banknote or ID photo and replace the portrait with someone you think deserves remembrance but has been overlooked. Twist: add a 15-second voice clip explaining why this person belongs there.
+
+### Pedro Lopes
+
+*Associate Professor, University of Chicago; directs the Human Computer Integration Lab*
+
+Builds interfaces that actuate the user's own body - electrical muscle stimulation, chemical and thermal haptics - to give mixed reality physical weight and to let objects 'tell' your hands how to use them.
+
+#### Affordance++ — Pedro Lopes (2015)
+- Video: https://www.youtube.com/watch?v=Gz4dphzBb6I
+- Interaction: Hands & Body, Tangible Objects
+- Platform & tech: Wearable, electrical muscle stimulation, object tracking
+- Idea: Objects use electrical stimulation to teach your hand directly how to use them.
+- What it is: Objects 'tell' the user how to use them by actuating the user's own hand with EMS: grabbing a spray can makes you shake it, touching a hot mug makes your hand pull back.
+- Technique: Detects which object the hand approaches and plays a pre-recorded EMS pattern on forearm muscles that enacts the object's intended movement.
+- Try it: Stick QR codes on a few objects in the classroom, recognize them in phone AR, and overlay "animated usage hints" (shaking, rotating arrows) on the hand. Twist: express the hints as phone vibration rhythms instead of images.
+
+#### Impacto — Pedro Lopes (2015)
+- Video: https://www.youtube.com/watch?v=k5e4mXQLq54
+- Interaction: Hands & Body, Play
+- Platform & tech: Wearable, Headset, EMS, solenoid, VR
+- Idea: Make a punch in VR actually land on you.
+- What it is: A wearable combining a tactile solenoid tap with EMS muscle contraction so virtual boxing punches and soccer headers feel like real impacts.
+- Technique: Pairs a solenoid for the skin-level tap with EMS that jerks the limb backwards, together simulating the momentum of an impact.
+- Try it: Make a phone AR boxing game where, whenever you get hit, a partner taps your arm with a foam stick as "human haptics". Twist: compare how players dodge with and without the touch feedback.
+
+#### Force Feedback for Mixed Reality via EMS — Pedro Lopes (2018)
+- Video: https://www.youtube.com/watch?v=qHRn05Kmzew
+- Interaction: Hands & Body, Spatial Mapping, Play
+- Platform & tech: Headset, Wearable, HoloLens, electrical muscle stimulation
+- Idea: Press a virtual button or push a virtual wall in HoloLens and your arm really feels the resistance.
+- What it is: On HoloLens, virtual buttons, walls and heavy objects push back: EMS on the user's arm muscles creates resistance so the user feels them without holding any device.
+- Technique: Detects hand contact with virtual objects and stimulates antagonist muscles to create counter-force while leaving the hands free to touch real objects.
+- Try it: Place a virtual wall in phone AR, and when the phone passes through it, make the phone vibrate strongly and turn red to signal 'resistance'. Twist: tie a resistance band to your arm to simulate the real resistance of pushing a wall.
+
+#### Altering Perceived Softness of Real Rigid Objects — Pedro Lopes (2021)
+- Video: https://www.youtube.com/watch?v=I2BBV0JZ0ww
+- Interaction: Hands & Body, Tangible Objects, Perception & Effects
+- Platform & tech: Wearable, fingerpad restriction, haptic illusion
+- Idea: Change how the fingerpad deforms and a hard table feels soft.
+- What it is: A thin device restricts how the fingerpad deforms, so pressing a hard real object feels softer or harder than it is, useful for MR props.
+- Technique: Constrains lateral fingerpad spread with a rigid ring and nail mount, changing the tactile cue the brain uses to judge compliance.
+- Try it: Have classmates press the same sponge or tabletop with a bare finger and with a finger tightly wrapped in tape, and rate the difference in softness. Twist: add a soft or hard visual cue in phone AR and see whether it strengthens the illusion.
+
+#### Touch&Fold — Pedro Lopes (2021)
+- Video: https://www.youtube.com/watch?v=yg8BOKhs4XM
+- Interaction: Hands & Body, Tangible Objects
+- Platform & tech: Wearable, Headset, foldable haptic actuator, mixed reality
+- Idea: A fingertip haptic device folds out when needed and tucks away when not, so you can feel both virtual and real things.
+- What it is: A nail-mounted actuator unfolds a small pad onto the fingertip only when touching virtual objects, and folds away so the finger can feel real objects normally.
+- Technique: Mounts a servo-driven folding tactor on the fingernail that rotates onto the pad for virtual contact and retracts for real-world touch.
+- Try it: Make a paper finger-flap device: when you touch a virtual object in phone AR, a partner flips the paper down onto your fingerpad, and flips it up when you touch a real object. Twist: swap the paper for different materials to stand for different virtual objects.
+
+#### FeetThrough — Pedro Lopes (2023)
+- Video: https://www.youtube.com/watch?v=lMln8FFJ4KA
+- Interaction: Hands & Body, Location & City
+- Platform & tech: Wearable, electrotactile stimulation, insole
+- Idea: Your soles feel the virtual ground without losing touch with the real one.
+- What it is: An electrotactile insole renders virtual textures and bumps under the feet while its thin design still lets the wearer feel the real ground.
+- Technique: Uses thin electrode arrays on the foot's arch and sides to deliver electrotactile patterns without covering the sole's pressure-sensing areas.
+- Try it: Design a walking route with phone GPS or AR 'underfoot cues', where the phone in your pocket vibrates when you reach key points. Twist: use vibration patterns to simulate different ground surfaces (grass, sand).
+
+#### Stick&Slip — Pedro Lopes (2024)
+- Video: https://www.youtube.com/watch?v=UxqNf1BSIoo
+- Interaction: Hands & Body, Tangible Objects, Perception & Effects
+- Platform & tech: Wearable, liquid dispensing, friction modulation
+- Idea: Coat your fingertip with a thin layer of liquid, and any surface feels slippery or rough.
+- What it is: Tiny liquid coatings are dispensed onto the fingertip to change friction on the fly, making any real surface feel sticky or slippery in mixed reality.
+- Technique: Pumps small amounts of lubricating or friction-raising liquids onto the fingerpad and removes them, altering finger-surface friction without instrumenting the surface.
+- Try it: Prepare three fingertip coatings (hand cream, talcum powder and water), have classmates touch the same sheet of paper and describe how it feels, and pair this with phone AR that changes the paper's texture to ice or sand. Twist: run a blind test to see whether people can guess the coating.
+
+### Autodesk Research (Fraser Anderson, Tovi Grossman, George Fitzmaurice et al.)
+
+*Corporate HCI research group*
+
+Autodesk's UI research group builds AR tools for making and learning: projected pen overlays, AR movement mirrors, assembly-tutorial authoring and two-way MR remote instruction.
+
+#### PenLight — Autodesk Research (Fraser Anderson, Tovi Grossman, George Fitzmaurice et al.) (2009)
+- Video: https://www.youtube.com/watch?v=9pQz-YviPOA
+- Interaction: Projection, Drawing & Making, Tangible Objects
+- Platform & tech: Projection, Wearable, digital pen, pico projector
+- Idea: A pen with its own projector casts digital layers onto the paper while you write.
+- What it is: A digital pen with a built-in mini projector overlays digital content, such as building floor-plan layers, directly onto the paper where you are writing.
+- Technique: Tracks the pen's position on dot-pattern paper and projects spatially registered overlays around the pen tip.
+- Try it: Aim a phone projector at a printed floor plan and project a 'hidden plumbing/wiring layer' from above for students to trace with a pen. Twist: replace the projector with phone AR and compare the handheld and projected experiences.
+
+#### YouMove — Autodesk Research (Fraser Anderson, Tovi Grossman, George Fitzmaurice et al.) (2013)
+- Video: https://www.youtube.com/watch?v=DsZ-9opi150
+- Interaction: Hands & Body, Information & UI
+- Platform & tech: Projection, Desktop, Kinect, half-silvered mirror, skeleton tracking
+- Idea: An AR mirror overlays the teacher's moves on your reflection and teaches you the dance step by step.
+- What it is: An AR mirror records an expert's movement and then trains learners by overlaying skeleton guides and feedback on their mirror reflection, gradually removing guidance.
+- Technique: Uses Kinect skeleton tracking behind a large half-silvered mirror to draw recorded motion guides aligned with the user's reflection and score their accuracy.
+- Try it: Use a phone's front camera and body pose recognition (such as MediaPipe or Effect House) to overlay a "teacher skeleton", and have students follow a set of calisthenics and get a score. Twist: gradually fade the skeleton until it is completely hidden.
+
+#### Ivy: Spatially Situated Visual Programming — Autodesk Research (Fraser Anderson, Tovi Grossman, George Fitzmaurice et al.) (2017)
+- Video: https://www.youtube.com/watch?v=Gn8sBvKHHYk
+- Interaction: Information & UI, Spatial Mapping, Drawing & Making
+- Platform & tech: Headset, visual programming, IoT, HTC Vive
+- Idea: Program the lights and sensors in a real room by drawing wires between them.
+- What it is: In VR/AR, users see the sensors and actuators of a smart environment where they physically are and wire them together with visual-programming links in space.
+- Technique: Anchors node-graph widgets to each device's physical location and lets users draw dataflow connections between them in 3D.
+- Try it: Put QR codes on the classroom's lights, door and windows, show their "nodes" in phone AR, and have students draw lines to compose rules like "door opens, light turns on" (a home-automation simulator works). Twist: two people build a rule together, one drawing the input and the other drawing the output.
+
+#### HydroRing — Autodesk Research (Fraser Anderson, Tovi Grossman, George Fitzmaurice et al.) (2018)
+- Video: https://www.youtube.com/watch?v=ofRJ80eyEQw
+- Interaction: Hands & Body, Tangible Objects
+- Platform & tech: Wearable, Headset, liquid flow haptics, HoloLens
+- Idea: Use flowing liquid to create heat, cold and pressure at your fingertip without getting in the way of touching real things.
+- What it is: A thin ring pumps warm, cold or pulsing liquid through a latex tube on the fingertip to create pressure, vibration and temperature cues while leaving touch of real objects intact.
+- Technique: Drives liquid through a thin tube over the fingerpad with pumps and heaters, modulating flow and temperature to render haptic effects.
+- Try it: Have classmates touch a cold water bag and a warm water bag with their fingers while seeing 'ice' or 'fire' in phone AR, and discuss how realistic it feels when sight and touch match. Twist: deliberately make the visuals contradict the temperature.
+
+#### AuthAR — Autodesk Research (Fraser Anderson, Tovi Grossman, George Fitzmaurice et al.) (2019)
+- Video: https://www.youtube.com/watch?v=75GGfsBshvs
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Headset, HoloLens, Kinect, tutorial authoring
+- Idea: Generate an AR tutorial automatically while you assemble.
+- What it is: While an expert assembles furniture, the system records video and 3D tracking to author an AR assembly tutorial at the same time, which learners then follow in a headset.
+- Technique: Combines object tracking with synchronized video capture so each assembly step becomes a spatially anchored AR instruction with clips and annotations.
+- Try it: Work in pairs: one person records each step on a phone while building with LEGO, and the other uses Reality Composer to place each step's video or arrows at the matching part, for a third person to follow. Twist: the tutorial may not use any text.
+
+#### Loki — Autodesk Research (Fraser Anderson, Tovi Grossman, George Fitzmaurice et al.) (2019)
+- Video: https://www.youtube.com/watch?v=cBN1XZXZw3Y
+- Interaction: Shared & Social, Hands & Body, Information & UI
+- Platform & tech: Headset, VR/AR telepresence, RGB-D capture, recording and playback
+- Idea: Two-way mixed-reality remote teaching that switches between video, 3D and virtual replicas.
+- What it is: A bi-directional mixed-reality telepresence system where teacher and learner can each switch between video, 3D capture and virtual-replica views to demonstrate physical tasks.
+- Technique: Streams RGB-D point clouds of both spaces and lets either user record, annotate and replay 3D demonstrations inside the other's environment.
+- Try it: Set up a remote origami class between two classrooms using a video call plus phone AR, where the teacher's hand movements are recorded as short clips pinned to the student's AR desk. Twist: students can send back their own mistakes for the teacher to annotate.
+
+### Chris Sugrue
+
+*Artist and programmer; EyeWriter team; SFPC teacher*
+
+American artist and programmer creating interactive installations and audio-visual performances that explore light, perception and the body; part of the EyeWriter team.
+
+#### Delicate Boundaries — Chris Sugrue (2007)
+- Video: https://vimeo.com/1007230
+- Interaction: Hands & Body, Projection, Portals & Worlds
+- Platform & tech: Projection, computer vision, openFrameworks
+- Idea: Little bugs made of light crawl out of the screen and onto the hands of whoever touches it.
+- What it is: Small bugs made of light crawl out of a computer screen and onto the hands and arms of people who touch it.
+- Technique: A camera looking at the screen and arms detects hand contact and arm contours, and a projector calibrated to the same space lets agent-based bugs walk off the screen and follow those contours.
+- Try it: Keep a swarm of bugs on screen, and when MediaPipe Hands detects a finger touching the screen edge, have the bugs 'crawl' into imagery projected onto the arm. Twist: bugs that stay on your hand too long grow into something you did not expect.
+
+#### A Cable Plays — Chris Sugrue (2008)
+- Video: https://vimeo.com/12618634
+- Interaction: Tangible Objects, Performance
+- Platform & tech: Projection, openFrameworks, computer vision
+- Idea: Two people stretch yarn across a game board, and new life grows between the strings in the augmented image.
+- What it is: With Damian Stewart: two performers pin yarn across a game board while an augmented video of the board reveals generative creatures emerging between the strings.
+- Technique: A camera over the board detects the yarn lines (likely via color thresholding and Hough line detection), and the resulting polygon regions spawn generative creatures in the augmented video.
+- Try it: Film a pegboard from above while two people take turns stretching colored yarn, use p5.js to detect the areas enclosed by the strings, and spawn small creatures inside them. Twist: turn it into a two-player game where whoever's creatures eat the other's wins.
+
+#### Base 8 — Chris Sugrue (2008)
+- Video: https://vimeo.com/30834797
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Desktop, Pepper's ghost, computer vision
+- Idea: Reach into a world floating in a glass reflection, and geometry grows out from between your fingers.
+- What it is: A reflection through glass makes a world float in mid-air; as visitors reach in, geometric structures grow between their fingers and out of their hands.
+- Technique: A Pepper's ghost setup reflects a screen in angled glass to float graphics in a real volume, while a camera tracks hand positions behind the glass to grow geometry between the fingers.
+- Try it: Build a small Pepper's ghost box from a phone and a sheet of clear acrylic angled at 45 degrees, then use MediaPipe Hands to grow geometry between your fingers. Twist: the structures only connect when two hands (possibly from two people) come close.
+
+#### Decrypted Reflections — Chris Sugrue (2009)
+- Video: https://vimeo.com/7652087
+- Interaction: Tangible Objects, Projection, Perception & Effects
+- Platform & tech: Projection, openFrameworks
+- Idea: Move a set of mirrors to break a projected generative image apart and bounce it all over the room.
+- What it is: Visitors move an analog array of mirrors to break apart and rearrange a projected generative image, scattering its fragments across the room.
+- Technique: A projected generative image hits an array of physically adjustable mirrors, so rotating mirrors redirects fragments of the projection around the room in an analog, non-computed way.
+- Try it: Project onto a row of small rotatable mirrors (or phone screens, mirror paper) so fragments bounce around the room, and let everyone turn the mirrors to reassemble the image. Twist: design a secret message that can only be read when every fragment lands on the same wall.
+
+#### Memory of Form and Matter — Chris Sugrue (2013)
+- Video: https://vimeo.com/163678148
+- Interaction: Projection, Tangible Objects, Perception & Effects
+- Platform & tech: Projection, projection mapping, openFrameworks, digital fabrication
+- Idea: Project simulations onto a 3D-printed sculpture so the still object seems to breathe like a living thing.
+- What it is: Digitally fabricated sculptures are overlaid with projection-mapped simulations, so static printed structures appear to breathe and move with light.
+- Technique: Projection mapping registers the projector to the 3D-printed sculpture's CAD model, and simulations (flow, displacement) are rendered in model space so light follows the physical geometry.
+- Try it: Make a small structure by 3D printing or paper sculpture and project a breathing light-and-dark animation onto it using TouchDesigner's Kantan Mapper or projection mapping. Twist: sync its "breathing" to the noise in the room.
+
+### Daniel Rozin
+
+*Artist; professor at NYU ITP*
+
+Israeli-American artist who builds 'mechanical mirrors': grids of wood, trash, pegs, steel or toy penguins moved by motors to reflect the viewer captured by a hidden camera.
+
+#### Wooden Mirror — Daniel Rozin (1999)
+- Video: https://www.youtube.com/watch?v=1ZPJ0U_kpNg
+- Interaction: Hands & Body, Tangible Objects, Perception & Effects
+- Platform & tech: Desktop, video camera, servo motors, wood tiles
+- Idea: Piece together your live mirror image from turning wooden tiles.
+- What it is: 830 small wooden tiles tilt with individual motors so the light they catch forms a live, wooden reflection of whoever stands in front.
+- Technique: A hidden camera image is downsampled to the tile grid and each pixel's brightness sets a servo angle that changes how much light the wooden tile reflects.
+- Try it: Build a 'mechanical mirror' from an 8x8 grid of servos and card tiles, with angles controlled by a low-resolution camera image. Twist: switch to a material of your choice (buttons, bottle caps) and compare how 'pixel-like' different materials feel.
+
+#### Trash Mirror — Daniel Rozin (2002)
+- Video: https://www.youtube.com/watch?v=R0dLo3HB4P8
+- Interaction: Hands & Body, Tangible Objects, Perception & Effects
+- Platform & tech: Desktop, video camera, motors
+- Idea: Make a mirror that reflects you out of scraps of street trash.
+- What it is: Irregular pieces of trash collected from the streets become motorised pixels that tilt to reflect the viewer's image.
+- Technique: Each irregular trash piece sits on a motor mapped to a region of the camera image, rotating to present a lighter or darker face.
+- Try it: Collect scrap paper from the classroom to make irregular 'pixels', and build a small prototype with a few servos and a camera. Twist: map each scrap to a region matching its real shape in the image.
+
+#### Peg Mirror — Daniel Rozin (2007)
+- Video: https://www.youtube.com/watch?v=dghosA-zI6k
+- Interaction: Hands & Body, Tangible Objects, Perception & Effects
+- Platform & tech: Desktop, video camera, motors, wood
+- Idea: Wooden pegs turn their angled faces to build a portrait out of shadows.
+- What it is: 650 cylindrical wooden pegs with angled cut faces rotate so their shading forms the viewer's portrait in a circular composition.
+- Technique: Each peg's cut face catches different light depending on rotation; a camera image sets each peg's angle via motors.
+- Try it: Mount angled-cut wooden blocks or paper tubes on servos, compare how light and dark they look at different angles, then build a 3x3 prototype controlled by a camera. Twist: turn it into an 'audio mirror' that controls sound instead.
+
+#### Weave Mirror — Daniel Rozin (2007)
+- Video: https://www.youtube.com/watch?v=ushJnQfjbF0
+- Interaction: Hands & Body, Tangible Objects, Perception & Effects
+- Platform & tech: Desktop, video camera, motors
+- Idea: Weave your image into being, strand by strand.
+- What it is: 768 C-shaped laminated prints rotate like woven strands to form a basket-like live reflection of the viewer.
+- Technique: Camera pixels drive motors that rotate each gradient-printed C-shape, exposing darker or lighter portions of the print.
+- Try it: Print a black-to-white gradient strip, wrap it around a rotating cylinder, and use camera brightness to control the rotation angle. Twist: use a color gradient instead of black and white to make a color mirror.
+
+#### Mirrors Mirror — Daniel Rozin (2008)
+- Video: https://www.youtube.com/watch?v=oKum2u7oLwc
+- Interaction: Hands & Body, Tangible Objects, Perception & Effects
+- Platform & tech: Desktop, video camera, motors, steel mirrors
+- Idea: Countless small mirrors reflect the room's light and dark to piece together your image.
+- What it is: 768 small polished steel mirrors tilt so each reflects a lighter or darker part of the room, composing the viewer's image out of reflections of the space.
+- Technique: A camera image controls motors that aim each steel tile toward bright or dark areas of the surrounding room.
+- Try it: Mount a few small mirror pieces on servos and make them reflect bright light from a window or a dark wall into the viewer's eyes to form a pattern. Twist: use a laser pointer to check each mirror's reflection direction.
+
+#### Penguins Mirror — Daniel Rozin (2015)
+- Video: https://www.youtube.com/watch?v=QlrnjjfLkTI
+- Interaction: Hands & Body, Tangible Objects, Play
+- Platform & tech: Desktop, video camera, turntable motors
+- Idea: 450 toy penguins turn around, their black backs and white bellies forming your silhouette.
+- What it is: 450 stuffed toy penguins on turntables rotate between their white bellies and black backs to form a silhouette of whoever stands before them.
+- Technique: A camera extracts the viewer's silhouette and motorised turntables turn each penguin to show its white or black side as a binary pixel.
+- Try it: Mount a few small objects that are black on one side and white on the other (paper cups, toys) on turntables, and flip them with a camera silhouette. Twist: add a delay so the "pixels" flip one after another like a stadium wave.
+
+#### CMY Shadows Mirror — Daniel Rozin (2021)
+- Video: https://vimeo.com/1198095563
+- Interaction: Hands & Body, Perception & Effects, Projection
+- Platform & tech: Desktop, camera, motors, coloured lights
+- Idea: Overlapping cyan, magenta and yellow shadows paint a colored mirror image of you.
+- What it is: Rotating elements cast cyan, magenta and yellow shadows that mix on the wall into a coloured reflection of the viewer.
+- Technique: Motors rotate elements in front of coloured light sources so overlapping shadows subtractively mix into an image driven by the camera feed (likely).
+- Try it: Light an object with three phone lights in red, green and blue and observe how the colored shadows mix. Twist: rotate blocking vanes with servos to map camera brightness into colored shadows.
+
+### Disney Research — Ivan Poupyrev, Robert Sumner & colleagues
+
+*Disney's research labs in Pittsburgh, Zurich and Los Angeles; Ivan Poupyrev led interaction research there before Google ATAP*
+
+Disney Research explored playful and magical AR: Ivan Poupyrev's REVEL and AIREAL added touch to projected and virtual content, Robert Sumner's Zurich team brought children's coloring pages to life in AR, and Magic Bench let people share a bench with a CG character without glasses.
+
+#### REVEL — Disney Research — Ivan Poupyrev, Robert Sumner & colleagues (2012)
+- Video: https://www.youtube.com/watch?v=L7DGq8SddEQ
+- Interaction: Tangible Objects, Hands & Body, Projection
+- Platform & tech: Projection, reverse electrovibration
+- Idea: Send a faint signal through the body so projected virtual objects have texture you can feel.
+- What it is: Olivier Bau and Ivan Poupyrev's reverse electrovibration injects a tiny signal into the user's body so that projected or AR virtual objects on real surfaces gain touchable textures.
+- Technique: Reverse electrovibration injects a weak time-varying electrical signal into the user's body, creating an oscillating electrostatic attraction between the sliding finger and any grounded conductive surface, which is perceived as texture and can be modulated per virtual object.
+- Try it: Simulate tactile textures in AR with phone vibration (the Vibration API or Unity Handheld.Vibrate): play vibrations of different frequencies and rhythms as a finger slides over different virtual objects (REVEL's electrical stimulation is not suitable to reproduce in class). Twist: have classmates close their eyes and guess the material from the vibration alone.
+
+#### AIREAL — Disney Research — Ivan Poupyrev, Robert Sumner & colleagues (2013)
+- Video: https://www.youtube.com/watch?v=xaFBjUJj00M
+- Interaction: Hands & Body, Play
+- Platform & tech: Projection, Desktop, air vortex, Kinect
+- Idea: An air-vortex cannon lets you "touch" virtual butterflies and balls in mid-air.
+- What it is: Rajinder Sodhi, Ivan Poupyrev, Matthew Glisson and Ali Israr use a 3D-printed vortex cannon to fire rings of air so you can feel virtual butterflies and balls in free air.
+- Technique: A flexible nozzle on a pan-tilt mount aims a speaker-driven air vortex ring at the tracked user's hand (via a depth camera), delivering localized tactile pulses in free air.
+- Try it: Make a simple air cannon from a paper cup or plastic bottle and a balloon membrane, pair it with a virtual butterfly in phone AR, and have a classmate fire an air ring by hand whenever the butterfly "touches" someone's hand. Twist: design an "invisible" AR creature that you can only feel, not see.
+
+#### Augmented Creativity — Disney Research — Ivan Poupyrev, Robert Sumner & colleagues (2015)
+- Video: https://www.youtube.com/watch?v=AYemmtQOf60
+- Interaction: Drawing & Making, Play
+- Platform & tech: Phone, AR
+- Idea: AR turns children's coloring, building and storytelling into something alive.
+- What it is: A collection of AR experiences that bridge real and virtual creative play: coloring, building and storytelling with physical toys brought to life.
+- Technique: A set of AR applications that track physical creative artifacts (colored drawings, built toys) with image and model-based tracking, then extract color and shape from them to drive animated virtual counterparts.
+- Try it: Have students make a physical piece from paper, clay or LEGO, photograph it, and bring it to life in Lens Studio or Reality Composer with animation, sound or a talking face. Twist: the piece's behavior in AR must be driven by one of its physical features.
+
+#### Live Texturing of AR Characters from Colored Drawings — Disney Research — Ivan Poupyrev, Robert Sumner & colleagues (2015)
+- Video: https://www.youtube.com/watch?v=SWzurBQ81CM
+- Interaction: Drawing & Making, Tangible Objects, Play
+- Platform & tech: Phone, texture synthesis, Vuforia
+- Idea: Hold up a tablet and a child's coloring page becomes a moving 3D character wearing the child's own colors.
+- What it is: Children color a page in a coloring book and a tablet instantly shows the drawn character as a 3D animated figure with their own coloring, even on hidden sides.
+- Technique: The coloring page is tracked and rectified, the drawn colors are sampled into the 3D character's UV texture through a precomputed mapping, and occluded parts are filled by a texture synthesis lookup from visible regions.
+- Try it: Design a coloring line drawing and a matching 3D model in Unity, then use AR image tracking to capture the page and map its image onto the model through the UVs (a planar projection is a fine approximation). Twist: let the coloring affect the character's behavior, for example the more red, the grumpier it gets.
+
+#### Magic Bench — Disney Research — Ivan Poupyrev, Robert Sumner & colleagues (2017)
+- Video: https://www.youtube.com/watch?v=JnLk2_Xbr90
+- Interaction: Hands & Body, Shared & Social, Play
+- Platform & tech: Desktop, depth camera, haptics, 3D compositing
+- Idea: Sit on the bench and a baby elephant on the screen sits down beside you, while the bench rumbles along.
+- What it is: Sit on a bench and see yourself in a big mirror-like screen next to a CG elephant or character who reacts to you, with haptic rumble in the bench, no glasses needed.
+- Technique: A depth camera reconstructs the bench area so a CG character can be composited into the mirror-view video with correct depth ordering and occlusion, while actuators in the bench deliver synchronized haptic effects.
+- Try it: Make a "magic mirror" in Unity or Lens Studio: flip the camera image horizontally on a large screen, use body segmentation so a virtual character stands behind or in front of people by depth, and sync a phone vibrating under the chair with the character's actions. Twist: have the character react differently to each person who sits down.
+
+#### Makeup Lamps — Disney Research — Ivan Poupyrev, Robert Sumner & colleagues (2017)
+- Video: https://www.youtube.com/watch?v=Ilgu3aFCphs
+- Interaction: Face, Projection, Performance
+- Platform & tech: Projection, high-speed projector, face tracking
+- Idea: High-speed projection paints moving makeup onto a performer's face in real time.
+- What it is: Amit Bermano and colleagues project dynamic makeup onto a performer's moving face in real time with a high-speed projector-camera setup.
+- Technique: A high-speed camera tracks facial landmarks and a low-latency projector, co-axially calibrated with it, renders makeup onto the face with latency short enough that the projection stays locked during motion.
+- Try it: Track a classmate's face with MediaPipe Face Mesh, project painted patterns onto it (or make it a filter in Lens Studio), and measure how far it drifts when the head turns quickly. Twist: make the makeup change with speech, facial expressions or musical rhythm.
+
+#### AR Poser — Disney Research — Ivan Poupyrev, Robert Sumner & colleagues (2018)
+- Video: https://www.youtube.com/watch?v=Ug-bzFEN8H8
+- Interaction: Hands & Body, Play
+- Platform & tech: Phone, pose estimation
+- Idea: When you take a photo, a virtual character that copies your pose appears next to you.
+- What it is: A phone app detects your pose in a photo and inserts a Disney-style digital avatar that imitates it, posing alongside you.
+- Technique: 2D pose estimation extracts the user's skeleton from the photo, and the keypoints are retargeted onto a rigged character that is rendered and composited next to the user in a mirrored or complementary pose.
+- Try it: Read body keypoints from a group photo with MediaPipe Pose and map them onto a simple rigged character in three.js (or a 2D paper doll) so it strikes the same or a mirrored pose. Twist: have the character always do the opposite, as a prankster.
+
+### Hart Woolery (2020CV)
+
+*Founder and CTO, 2020CV*
+
+Computer-vision developer whose company 2020CV trained its own mobile hand, face and pet tracking models to make InstaSaber, YoPuppet, SpeakingPuppy and Snap lenses.
+
+#### InstaSaber — Hart Woolery (2020CV) (2017)
+- Video: https://www.youtube.com/watch?v=MWd7shj59PA
+- Interaction: Tangible Objects, Hands & Body, Play
+- Platform & tech: Phone, ARKit, CoreML, computer vision
+- Idea: A rolled-up sheet of paper becomes a lightsaber on your phone.
+- What it is: Roll up a piece of paper and the iPhone turns it into a glowing lightsaber that follows the paper tube in your hand.
+- Technique: A custom vision model detects the paper tube's endpoints each frame and a blade mesh with glow is rendered along that line.
+- Try it: Use color tracking to detect a colored straw or paper tube and draw a glowing blade over the camera image (p5.js or OpenCV.js). Twist: two blades throw sparks and make a sound when they clash.
+
+#### Mobile hand tracking + ARKit — Hart Woolery (2020CV) (2017)
+- Video: https://www.youtube.com/watch?v=u_FTew8oTBw
+- Interaction: Hands & Body
+- Platform & tech: Phone, ARKit, CoreML
+- Idea: Bare-hand interaction with AR objects on an iPhone 7, back in 2017.
+- What it is: An early demo on an iPhone 7 combines 2020CV's own hand tracker with ARKit so a bare hand can interact with AR content.
+- Technique: A custom neural hand detector runs on-device alongside ARKit tracking to map the hand position into the AR scene.
+- Try it: Train three gestures (open hand, fist, pointing) with Teachable Machine and use them in web AR to trigger appear, grab and launch. Twist: combine gesture sequences into "spells."
+
+#### 3D hand interaction and physics on an iPhone — Hart Woolery (2020CV) (2018)
+- Video: https://www.youtube.com/watch?v=c_h6UBq0u70
+- Interaction: Hands & Body, Spatial Mapping, Play
+- Platform & tech: Phone, ARKit, CoreML, TensorFlow
+- Idea: With just a phone camera, knock over virtual blocks on a table with your real hand.
+- What it is: With only the built-in camera, a tracked 3D hand pushes and knocks over virtual objects that obey physics on a real table.
+- Technique: A Keras-trained model estimates 3D hand pose, and colliders attached to the hand interact with physics bodies placed on ARKit planes.
+- Try it: Use Lens Studio hand tracking or AR Foundation with hand colliders so your hand can knock over a row of virtual dominoes. Twist: you can only 'poke' with your index finger raised.
+
+#### SpeakingPuppy — Hart Woolery (2020CV) (2018)
+- Video: https://www.youtube.com/watch?v=3Dzn2WbHsyA
+- Interaction: Face, Voice & Sound
+- Platform & tech: Phone, CoreML, face tracking, voice changer
+- Idea: Put a mask on your dog and make it talk.
+- What it is: An iOS app detects your dog's face, puts masks and filters on it and gives it a voice-changed talking mouth.
+- Technique: A custom pet-face landmark model tracks the dog's face so masks follow it, and the user's recorded voice is pitch-shifted and lip-synced to an animated mouth.
+- Try it: Use the Lens Studio pet template or Teachable Machine to recognize the face of a pet or stuffed toy and give it a voice-changed narration. Twist: the audience types what it says.
+
+#### Virtual Drumpad on iOS — Hart Woolery (2020CV) (2019)
+- Video: https://www.youtube.com/watch?v=lrl2_67GukM
+- Interaction: Hands & Body, Voice & Sound, Performance
+- Platform & tech: Phone, CoreML, hand tracking
+- Idea: Tap on thin air and the phone plays a drum beat.
+- What it is: Tapping fingers in the air in front of the phone triggers drum pads that appear over the camera view.
+- Technique: Fingertip tracking detects downward strikes into on-screen pad regions and triggers low-latency audio samples.
+- Try it: Build air drums with MediaPipe Hands and Web Audio, where a fingertip entering a square plays a sound. Twist: lay out the drum pads along the edge of the real table.
+
+#### YoPuppet — Hart Woolery (2020CV) (2019)
+- Video: https://www.youtube.com/watch?v=zd-LKYu5QDQ
+- Interaction: Hands & Body, Voice & Sound, Play
+- Platform & tech: Phone, CoreML, ARKit, TensorFlow
+- Idea: Turn your hand into an AR puppet: open and close your hand and the puppet talks.
+- What it is: Hand tracking maps 22 points of your hand onto a cartoon puppet's face, so opening and closing your hand works the puppet's mouth in AR.
+- Technique: A deep-learning hand pose model tracks keypoints in real time and retargets them to a 2D/3D puppet rig anchored over the hand.
+- Try it: Build a hand puppet with MediaPipe Hands, where the thumb and fingers opening and closing control a character's mouth, and add voice changing. Twist: characters on both hands can talk to each other.
+
+#### Face filter from a single photo — Hart Woolery (2020CV) (2020)
+- Video: https://www.youtube.com/watch?v=aYKGafPtKbM
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, face tracking, CoreML
+- Idea: From just one photo, turn someone else's face into your live filter.
+- What it is: A face filter is generated from one photo of another person and mapped onto the user's live face so it follows expressions.
+- Technique: Landmarks from a single photo are used to build a textured face mesh that is warped onto the live tracked face (likely a 2D morphable mapping).
+- Try it: Use MediaPipe FaceMesh to turn a photo of a celebrity or a famous painting into a mask that fits your own face. Twist: the mask appears only when you smile.
+
+### Ishikawa Watanabe Laboratory (University of Tokyo)
+
+*Lab of Masatoshi Ishikawa with Yoshihiro Watanabe, pioneers of 1,000 fps vision and high-speed projection*
+
+Masatoshi Ishikawa's lab builds high-speed vision chips and the DynaFlash 1,000 fps projector, enabling dynamic projection mapping that sticks to moving, bending and deforming surfaces with no visible lag.
+
+#### DynaFlash — Ishikawa Watanabe Laboratory (University of Tokyo) (2015)
+- Video: https://www.youtube.com/watch?v=L8kjdObjZpY
+- Interaction: Projection, Tangible Objects, Perception & Effects
+- Platform & tech: Projection, DynaFlash, high-speed vision
+- Idea: A thousand-frame projector keeps the image stuck to the paper waving in your hand.
+- What it is: A 1,000 fps, 3 ms latency projector keeps imagery locked to a sheet of paper as it is waved, bent and moved quickly in the hand.
+- Technique: A 1,000 fps projector using a DLP chip with binary frames, paired with high-speed vision tracking of the paper's markers, closes the loop in about 3 ms so the projected image stays locked to a moving, bending surface.
+- Try it: Use an ordinary projector and a camera to track a moving sheet of paper (with corner markers or color detection), project an image onto it in real time, and measure and record the misalignment as it is waved. Twist: use the latency itself to design a "motion trail" aesthetic.
+
+#### Dynamic Projection Mapping onto Deforming Non-Rigid Surfaces — Ishikawa Watanabe Laboratory (University of Tokyo) (2016)
+- Video: https://www.youtube.com/watch?v=-bh1MHuA5jU
+- Interaction: Projection, Tangible Objects, Perception & Effects
+- Platform & tech: Projection, high-speed camera, DynaFlash
+- Idea: However the cloth is crumpled or folded, the projected pattern bends with it as if printed on.
+- What it is: Images are projected onto cloth and paper as they fold and stretch, tracked at high speed so textures appear printed on the moving material.
+- Technique: Invisible IR ink markers on the deformable surface are tracked by a high-speed camera, the surface mesh is reconstructed from the dot grid each frame, and the texture is warped onto it and projected by a high-speed projector.
+- Try it: Draw a dot grid on a piece of cloth or a T-shirt, detect the grid points with a camera (OpenCV blob detection), warp a pattern to the grid, and project it back so it bends with the folds of the fabric. Twist: project a "moving print," such as swimming fish.
+
+#### DynaFlash v2 and Post Reality — Ishikawa Watanabe Laboratory (University of Tokyo) (2018)
+- Video: https://www.youtube.com/watch?v=QDppJ9NWtaE
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, DynaFlash v2
+- Idea: High-speed projection makes objects look as if their material has been rewritten, so reality itself becomes the screen.
+- What it is: The second-generation high-speed projector demonstrates 'post reality' effects: textures, wireframes and illusions projected onto fast-moving objects and people.
+- Technique: A high-speed projector with 8-bit grayscale at high frame rates, combined with millisecond vision-based tracking, projects textures and wireframes onto fast-moving objects without perceptible lag, making the augmentation appear physical.
+- Try it: Track a handheld white object (cardboard or a ball) in TouchDesigner, project a wireframe or texture onto it, and reduce latency by shrinking the projection area and predicting motion. Twist: make the projection reveal the invisible structure 'inside' the object.
+
+#### MIDAS Projection — Ishikawa Watanabe Laboratory (University of Tokyo) (2018)
+- Video: https://www.youtube.com/watch?v=c40cxE-dfPg
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, high-speed depth sensing, DynaFlash
+- Idea: Without markers or models, make a moving object look like it is made of a different material.
+- What it is: Markerless, model-less dynamic projection mapping that makes objects appear to be made of a different material (metal, wood) while they move.
+- Technique: High-speed depth sensing measures the moving object's surface normals each frame, and a material shading model (e.g. metal reflections, wood grain) is computed per frame and projected so the object appears to be made of that material.
+- Try it: Estimate surface normals with a depth camera or a known shape (a white cube), render a metal or wood material in TouchDesigner and project it back onto the object, then rotate the object to see whether the highlights follow. Twist: make the object look like 'liquid' or 'fur'.
+
+#### VarioLight — Ishikawa Watanabe Laboratory (University of Tokyo) (2018)
+- Video: https://www.youtube.com/watch?v=XEseo-orRDI
+- Interaction: Projection, Performance, Hands & Body
+- Platform & tech: Projection, galvanometer mirrors, high-speed vision
+- Idea: High-speed steering mirrors chase a dancer across the stage, landing images precisely on a moving body.
+- What it is: A mirror-steered high-speed projection system tracks a dancer across a whole stage and projects imagery onto them with no drift.
+- Technique: Two galvanometer mirrors steer the projection beam at high speed, driven by a high-speed vision tracker, so a small projection field follows a moving performer across a large stage.
+- Try it: Mount a projector on a servo pan-tilt head (or just move a projected spot within the frame), track a running classmate with a camera, and keep a pattern on them at all times. Twist: the dancer's movement switches the spot's target (raising a hand sends it to another person).
+
+#### ElaMorph Projection — Ishikawa Watanabe Laboratory (University of Tokyo) (2020)
+- Video: https://www.youtube.com/watch?v=uWq-a52X-7g
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, dynamic projection mapping
+- Idea: Projection alone makes a hard object look as stretchy as rubber.
+- What it is: Projection alone makes a rigid 3D object appear to stretch and deform elastically as it moves, exploiting high-speed tracking and perception.
+- Technique: The rigid object's motion is tracked at high speed and projected shading and texture are warped according to a simulated elastic deformation driven by that motion, exploiting perception so the object looks as if it stretches.
+- Try it: Track a hand-held white paper box and give the pattern projected onto it a stretch-and-rebound deformation driven by acceleration, for example with a spring model, so viewers feel the box is soft. Twist: make a short video of a hard object turning soft and survey whether viewers are actually fooled.
+
+#### VarioLight 2: Rhythmic Gymnastics — Ishikawa Watanabe Laboratory (University of Tokyo) (2021)
+- Video: https://www.youtube.com/watch?v=9X66YZTb_hA
+- Interaction: Projection, Performance, Hands & Body
+- Platform & tech: Projection, high-speed vision, galvanometer mirrors
+- Idea: Projection chases a gymnast's ball and ribbon and colors them during the routine.
+- What it is: Wide-range dynamic projection follows a rhythmic gymnast's ball and ribbon, painting light effects onto the apparatus during the routine.
+- Technique: High-speed vision tracks the gymnastics ball and ribbon, and galvanometer mirrors steer a projector to keep light effects registered on the fast-moving apparatus throughout the routine.
+- Try it: Use camera color tracking on a colored ball being tossed and caught, make light effects and particles follow its path on a projector or screen, and perform a 30-second routine to music. Twist: the ball's speed or height drives changes in the music.
+
+### Magic Leap Studios
+
+*In-house content studio of Magic Leap*
+
+Produced Magic Leap's showcase spatial experiences - the 2015 gym-whale concept, Create, Dodge, Mica and Undersea - to show content that respects real room geometry.
+
+#### Whale in the Gym (concept) — Magic Leap Studios, Greg Broadmore (Weta Workshop / Weta Gameshop) (2015)
+- Video: https://www.youtube.com/watch?v=LM0T6hLH15k
+- Interaction: Perception & Effects, Portals & Worlds, Shared & Social
+- Platform & tech: Headset, concept film, VFX
+- Idea: A whale leaps out of a school gym floor.
+- What it is: A humpback whale bursts out of a school gym floor in front of students and splashes back down, a concept film for shared, room-scale mixed reality.
+- Technique: Concept visualization (likely VFX compositing rather than live headset capture) of a large creature breaking through a real floor plane.
+- Try it: Use phone AR (for example Reality Composer) to make a giant animal burst out of the classroom floor, and design an occluded hole effect. Twist: let the whole class see the same animal on several phones at once.
+
+#### Dodge (developer sample) — Magic Leap Studios (2018)
+- Video: https://www.youtube.com/watch?v=bT5LFe-muR8
+- Interaction: Spatial Mapping, Hands & Body, Play
+- Platform & tech: Headset, Magic Leap One, world meshing, gesture input
+- Idea: Rock monsters burst out of your real floor and throw rocks, and you have to actually dodge.
+- What it is: Rock golems rise out of your real floor and hurl boulders that you physically dodge while swatting others away with hand gestures.
+- Technique: Spawns characters on detected floor meshes and uses head position as the target so the player's real body movement is the core mechanic.
+- Try it: Make a phone AR dodging game where virtual balls fly from a point on the floor toward the phone and players must move their bodies to avoid them. Twist: two players place launch points for each other.
+
+#### Magic Leap Create — Magic Leap Studios (2018)
+- Video: https://www.youtube.com/watch?v=BCL_pjRsV6M
+- Interaction: Drawing & Making, Spatial Mapping, Play
+- Platform & tech: Headset, Magic Leap One, world meshing, physics
+- Idea: Set dinosaurs, knights and dominoes loose in your living room, where they interact with real furniture.
+- What it is: A mixed-reality toy box: place dinosaurs, knights, dominoes and paint strokes in your room, and they fight, topple and bounce off real furniture.
+- Technique: Uses the headset's world mesh as a physics collider so user-placed toys and strokes land on, bounce off and hide behind real surfaces.
+- Try it: Use phone AR plane detection plus physics (Reality Composer or Unity AR Foundation) to build a virtual domino run that spans a table and the floor. Twist: it must use a real object as part of the contraption.
+
+#### Mica — Magic Leap Studios (2018)
+- Video: https://www.youtube.com/watch?v=XNb42Lw0lBU
+- Interaction: Gaze & Attention, Face, Shared & Social
+- Platform & tech: Headset, Magic Leap One, eye tracking, digital human
+- Idea: A digital human who sits at your real table and meets your gaze.
+- What it is: A photoreal digital human sits at your real table, makes eye contact, reacts to your gaze and shares small moments without speaking.
+- Technique: Drives the character's gaze and expressions from the user's tracked eye direction and anchors her to detected table and chair surfaces.
+- Try it: Place a virtual character with phone AR whose head always turns toward the phone camera (LookAt), so classmates feel what it is like to be watched. Twist: the character moves only when you are not looking at it.
+
+#### Undersea — Magic Leap Studios (2019)
+- Video: https://www.youtube.com/watch?v=-i-FVyd8MoM
+- Interaction: Portals & Worlds, Hands & Body, Perception & Effects
+- Platform & tech: Headset, Magic Leap One, hand tracking, procedural animation
+- Idea: Bring a coral reef that responds to your hands into your room.
+- What it is: A living coral reef appears in your room; fish swim around your furniture and respond as you reach toward them with your hands.
+- Technique: Places a reef ecosystem on meshed surfaces and uses hand tracking to trigger flocking-avoidance behaviours in the fish.
+- Try it: Place virtual coral and a school of fish on the floor in phone AR, with the fish swimming away as the phone approaches (distance check). Twist: use the phone flashlight to draw the fish together.
+
+### Mark Billinghurst — HIT Lab NZ & Empathic Computing Lab
+
+*Professor at the University of South Australia and University of Auckland; founder of HIT Lab NZ and the Empathic Computing Lab*
+
+Mark Billinghurst co-created ARToolKit-based collaborative AR with Hirokazu Kato and the MagicBook (2001), then founded HIT Lab NZ. His Empathic Computing Lab now builds mixed reality systems that share gaze, emotion and viewpoint between remote collaborators.
+
+#### CoVAR — Mark Billinghurst — HIT Lab NZ & Empathic Computing Lab (2017)
+- Video: https://www.youtube.com/watch?v=K_afCWZtExk
+- Interaction: Shared & Social, Gaze & Attention, Spatial Mapping
+- Platform & tech: Headset, HoloLens, HTC Vive, 3D reconstruction
+- Idea: An AR user in the real room and a VR user in its scanned copy work together in the same space.
+- What it is: A HoloLens user in a real room and a VR user in its 3D scan collaborate: the VR user can shrink, fly and share gaze and gestures with the AR user.
+- Technique: The room is pre-scanned into a 3D model that the VR user inhabits, and both users are tracked in the same coordinate system so head pose, gaze rays and hand gestures are exchanged and rendered for each other.
+- Try it: Scan a room with Polycam and import it into three.js as a "VR version," have one classmate browse it in first person on a computer while another uses phone AR on site, and show each person's position and gaze direction to the other over WebSocket. Twist: let the VR user shrink or enlarge themselves.
+
+#### SharedSphere — Mark Billinghurst — HIT Lab NZ & Empathic Computing Lab (2017)
+- Video: https://www.youtube.com/watch?v=q_giuLot76k
+- Interaction: Shared & Social, Gaze & Attention, Hands & Body
+- Platform & tech: Headset, 360 camera, HoloLens, Leap Motion
+- Idea: A remote expert steps into a live 360 view of the site, and their hands and gaze appear back on site in AR.
+- What it is: A local worker streams a live 360 panorama; the remote expert, immersed in it, sees and points with hands and gaze shown back to the local worker in AR.
+- Technique: A 360 camera on the local worker streams a live panorama to the remote expert's VR view, and the expert's head gaze and Leap Motion hand gestures are sent back and rendered in the local worker's AR display.
+- Try it: Stream the scene to a remote classmate with a 360 camera (or a phone panorama livestream), let the remote classmate tap to annotate the view, and have the local classmate see an arrow in that direction in phone AR. Twist: the remote classmate may only use gestures and cannot speak while completing a find-the-object task.
+
+#### Mini-Me — Mark Billinghurst — HIT Lab NZ & Empathic Computing Lab (2018)
+- Video: https://www.youtube.com/watch?v=YrdCg8zz57E
+- Interaction: Shared & Social, Gaze & Attention
+- Platform & tech: Headset, HoloLens, VR
+- Idea: A remote partner becomes a 'mini-me' that always stays in your view, still pointing and looking accurately.
+- What it is: A remote VR collaborator appears as an adaptive miniature avatar that always stays in view of the AR user, with gaze and pointing redirected to stay accurate.
+- Technique: The remote VR user's avatar is scaled down and repositioned to stay within the AR user's field of view, while their gaze and pointing directions are retargeted so they still point at the correct objects.
+- Try it: Place a small avatar in phone AR that always stays visible at the edge of the screen, and when a remote classmate taps an object, the avatar turns to point at it. Twist: give the avatar emotional gestures (nodding, looking puzzled) and test whether they can replace voice.
+
+#### Snow Dome — Mark Billinghurst — HIT Lab NZ & Empathic Computing Lab (2018)
+- Video: https://www.youtube.com/watch?v=s9IQt6PKCFs
+- Interaction: Shared & Social, Perception & Effects
+- Platform & tech: Headset, HoloLens, HTC Vive
+- Idea: A remote collaborator can shrink into a snow globe or grow into a giant looking down on everything.
+- What it is: The remote VR user can shrink to miniature size inside a snow-globe-like copy of the space or grow into a giant, enabling multi-scale collaboration with the AR user.
+- Technique: A scaled copy of the reconstructed space is rendered as a miniature (World-in-Miniature) inside a dome, and the VR user's position and scale are mapped between the miniature and full-scale coordinate frames so their avatar appears correctly to the AR user.
+- Try it: Shrink a scanned room model into a 'snow globe' on the table in AR, and tap a point inside it to 'teleport' your first-person view there. Twist: sync changes made inside the snow globe (placing a piece of furniture) to the full-size AR scene.
+
+#### On the Shoulder of the Giant — Mark Billinghurst — HIT Lab NZ & Empathic Computing Lab (2019)
+- Video: https://www.youtube.com/watch?v=UfAq2ueg_Y4
+- Interaction: Shared & Social, Gaze & Attention
+- Platform & tech: Headset, HoloLens, VR
+- Idea: Put a distant partner on your shoulder so you work together from the same viewpoint.
+- What it is: The local AR user carries a miniature remote collaborator on their shoulder, who sees the world from that perspective and guides the work.
+- Technique: A miniature avatar of the remote collaborator is attached to the local user's tracked head or shoulder pose, and the remote viewpoint is rendered from that attached position so both share nearly the same perspective.
+- Try it: Pin a small avatar to the top-left of the screen in HoloKit or phone AR (to mimic 'on the shoulder'), and have a remote classmate watch your camera feed and give directions while the avatar points along. Twist: make the shoulder avatar a 'past you' that plays back hints you recorded earlier.
+
+#### Superman vs Giant — Mark Billinghurst — HIT Lab NZ & Empathic Computing Lab (2019)
+- Video: https://www.youtube.com/watch?v=jusLbwjWVcI
+- Interaction: Shared & Social, Perception & Effects
+- Platform & tech: Headset, mixed reality, VR
+- Idea: A remote collaborator can fly through the space like Superman or look down on it as a giant.
+- What it is: A multi-scale MR telepresence interface where the remote user can fly like Superman through a reconstructed space or tower over it as a giant.
+- Technique: The remote user can change their viewpoint scale and fly freely through a 3D reconstruction, and their avatar is rendered to the local AR user at the corresponding scale and position within the shared coordinate frame.
+- Try it: In Unity, give the VR/desktop side two view modes, 'giant' and 'flying', while the AR side sees the partner as a giant head or a tiny flyer, and have both sides complete a placement task together. Twist: compare which scale works best for giving instructions.
+
+#### eyemR-Vis — Mark Billinghurst — HIT Lab NZ & Empathic Computing Lab (2021)
+- Video: https://www.youtube.com/watch?v=D-lZk43zZcM
+- Interaction: Gaze & Attention, Shared & Social
+- Platform & tech: Headset, eye tracking, HoloLens 2
+- Idea: Show two people each other's gaze so they know where the other is looking and whether they are paying attention.
+- What it is: Bi-directional gaze cues between remote collaborators, visualized in MR so each person knows where the other is looking and whether they are attending.
+- Technique: Eye trackers on both sides capture gaze direction, which is exchanged and visualized as shared gaze rays or highlights in MR, with visual states indicating when both people look at the same object.
+- Try it: Use MediaPipe Face Mesh iris points or WebGazer.js to roughly estimate where two people are looking on screen, show each other's gaze cursor in a shared view, and trigger an effect when both look at the same spot. Twist: use mutual gaze to solve a two-person puzzle.
+
+### Nintendo
+
+*Game and hardware company (3DS AR Games, Face Raiders)*
+
+Nintendo shipped AR Games and Face Raiders on every Nintendo 3DS in 2011, using AR cards and the handheld's cameras, and later co-created Mario Kart Live with Velan Studios.
+
+#### AR Games (Nintendo 3DS) — Nintendo (2011)
+- Video: https://www.youtube.com/watch?v=yxfs8vI-y_Q
+- Interaction: Tangible Objects, Play, Perception & Effects
+- Platform & tech: Phone, Nintendo 3DS, AR cards, stereo 3D
+- Idea: Put an AR card on the table and the tabletop cracks open into a lake or a dragon bursts out.
+- What it is: Preinstalled on every 3DS: placing a '?' AR card on a table makes a dragon burst out of it or lets you fish in a lake that opens in the table, shoot archery targets and draw graffiti.
+- Technique: A known printed card provides a fiducial for camera pose, and the stereo 3D display renders content emerging from the table plane around the card.
+- Try it: Use a printed image marker to make an AR dragon that bursts "cracking" out of the tabletop, using a stencil to cut the hole in the table. Twist: put the marker on different surfaces and have the dragon react differently.
+
+#### AR Games: Fishing — Nintendo (2011)
+- Video: https://www.youtube.com/watch?v=pKe2J0odq-Y
+- Interaction: Tangible Objects, Portals & Worlds, Play
+- Platform & tech: Phone, Nintendo 3DS, AR cards
+- Idea: The tabletop turns into a pond in AR, and moving the handheld lets you fish at your own desk.
+- What it is: One of the 3DS AR Games modes: the table surface around the AR card turns into a pond, and the player fishes by moving and tilting the console.
+- Technique: The card marks the table as a water plane using a stencil or depth mask, and tilting and moving the console are mapped to the fishing line and reel.
+- Try it: Make a "water surface" on the table with a shader, tilt the phone to cast, and lift it quickly to reel in. Twist: fish only bite when you stay quiet (judged by the microphone).
+
+#### Face Raiders — Nintendo (2011)
+- Video: https://www.youtube.com/watch?v=bh-YrWvdUCs
+- Interaction: Face, Play, Hands & Body
+- Platform & tech: Phone, Nintendo 3DS, gyroscope, face capture
+- Idea: Your own face becomes the enemy, bursting out of holes in your real room's walls to attack you.
+- What it is: The 3DS takes a photo of your face (or a friend's) and turns it into flying enemy heads that attack through holes in your real room; you turn your body to aim and shoot.
+- Technique: A captured face photo is texture-mapped onto enemy meshes, and the gyroscope rotates the virtual camera so enemies surround the player in a 360-degree space overlaid on the camera feed.
+- Try it: Take a face photo with the front camera, map it onto spheres flying around in AR, and turn your body to aim and shoot using the gyroscope. Twist: faces pull different expressions when they are hit.
+
+#### Kid Icarus: Uprising AR Cards — Nintendo (2012)
+- Video: https://www.youtube.com/watch?v=vF3DpChwg9Y
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, Nintendo 3DS, AR cards
+- Idea: Put two physical cards on the table and the characters jump out to fight.
+- What it is: Collectible AR cards for Kid Icarus: Uprising; placing two cards in front of the 3DS makes the characters appear and battle each other on the table.
+- Technique: Two cards are detected at once as image targets, and the relative pose between them determines the characters' facing and battle stats.
+- Try it: Summon one character from each of two image marker cards, so the closer the cards the more excited the characters get, and they start fighting when facing each other. Twist: stacking the cards merges the two characters into one.
+
+#### Spirit Camera: The Cursed Memoir — Nintendo (2012)
+- Video: https://www.youtube.com/watch?v=d6s4AXx0A7Q
+- Interaction: Tangible Objects, Play, Perception & Effects
+- Platform & tech: Phone, Nintendo 3DS, AR booklet
+- Idea: The 3DS becomes a camera that can photograph ghosts, and the bundled diary reveals them in AR.
+- What it is: A Fatal Frame spin-off co-developed with Koei Tecmo: the 3DS becomes the haunted Camera Obscura, and a bundled cursed diary reveals ghosts that appear in your real room.
+- Technique: Pages in a printed booklet act as image targets that trigger story events, while gyroscope-based aiming lets ghosts appear around the player in the camera view.
+- Try it: Make a paper "cursed diary" of a few pages, where scanning each page triggers an AR ghost or a sound. Twist: the ghosts can only be seen with the lights off (when camera brightness is low).
+
+### Steven Feiner — Columbia Computer Graphics & User Interfaces Lab
+
+*Professor of Computer Science, Columbia University; director of the CGUI Lab*
+
+Steven Feiner built KARMA (1993) and the Touring Machine (1997), the first outdoor mobile AR system, and has led decades of research on AR task guidance, maintenance and 3D interaction with students such as Steve Henderson and Carmine Elvezio.
+
+#### ARMAR: AR for Maintenance and Repair — Steven Feiner — Columbia Computer Graphics & User Interfaces Lab (2009)
+- Video: https://www.youtube.com/watch?v=LaJxNw4-GXo
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Headset, head-worn display, optical tracking
+- Idea: Inside an armored vehicle turret, head-worn AR arrows point straight at the next bolt to turn.
+- What it is: Steve Henderson and Steven Feiner guide a mechanic inside an armored personnel carrier turret with head-worn AR arrows, labels and animated tools, speeding up task localization.
+- Technique: An optically tracked head-worn display renders arrows, labels and animated tool models registered to the vehicle interior, guiding attention to the next task location and demonstrating the procedure in place.
+- Try it: In phone AR, use an image target to locate a printer or bicycle and build arrow, label and animated-wrench guidance for a five-step repair procedure. Twist: when the target part is out of view, show a direction hint at the edge of the screen.
+
+#### Augmented Reality Marble Game — Steven Feiner — Columbia Computer Graphics & User Interfaces Lab (2009)
+- Video: https://www.youtube.com/watch?v=6AKgH4On65A
+- Interaction: Play, Tangible Objects
+- Platform & tech: Headset, marker tracking, physics
+- Idea: Tilt a real board in your hands to steer virtual marbles through an AR maze.
+- What it is: A tilting physical board controls virtual marbles rolling through AR mazes seen through a head-worn display.
+- Technique: The tracked board's orientation relative to gravity is computed from the marker pose, and that tilt is fed as a gravity vector into a physics engine that rolls virtual marbles through a maze registered to the board.
+- Try it: In AR, use a printed maze as an image target, read its tilt relative to the table, and drive the Unity physics engine to roll a virtual marble. Twist: have two people hold the same board and clear the level together.
+
+#### Shake Menus — Steven Feiner — Columbia Computer Graphics & User Interfaces Lab (2009)
+- Video: https://www.youtube.com/watch?v=DE7AMVtDo9U
+- Interaction: Tangible Objects, Hands & Body
+- Platform & tech: Headset, marker tracking
+- Idea: Shake the object in your hand and a menu pops up around it.
+- What it is: Shake a tangible AR marker to pop up a radial menu around it; menus are anchored to the object in your hand.
+- Technique: The tracked marker's pose history is analyzed for a rapid back-and-forth motion, and when a shake is detected a radial menu is instantiated in the marker's coordinate frame so it moves with the object.
+- Try it: Detect a 'shake' with an image-tracked card or the phone accelerometer, pop up a ring-shaped AR menu around the card, and tilt the card to pick an option. Twist: swap in other physical gestures (flip, tap) and compare which feels most natural.
+
+#### ARmonica — Steven Feiner — Columbia Computer Graphics & User Interfaces Lab (2010)
+- Video: https://www.youtube.com/watch?v=IT7ao3izQQI
+- Interaction: Voice & Sound, Shared & Social, Play
+- Platform & tech: Headset, AR, physics, spatial audio
+- Idea: Several people place virtual objects in space and let them bounce and collide to make music.
+- What it is: A collaborative sonic AR environment where users place and bounce virtual objects off physical bars to trigger musical notes together.
+- Technique: Physical bars are tracked and modeled as colliders in a physics simulation, and virtual objects bouncing off them trigger pitched sound events rendered with spatial audio for all participants.
+- Try it: Detect a tabletop in AR, mark a few real pencils or rulers as 'keys' (placing matching virtual colliders by hand), and make virtual balls play different pitches when they bounce off them. Twist: two people each control a launch point and cooperate to play a melody.
+
+#### AR in the Psychomotor Phase of a Procedural Task — Steven Feiner — Columbia Computer Graphics & User Interfaces Lab (2011)
+- Video: https://www.youtube.com/watch?v=2eSlMSJ65Kc
+- Interaction: Information & UI, Tangible Objects, Hands & Body
+- Platform & tech: Headset, head-worn display, tracking
+- Idea: AR animation demonstrates how your hands should move, right on the real part.
+- What it is: Head-worn AR shows animated guidance for the hands-on part of an assembly task (aligning and inserting parts) directly on the physical engine combustor.
+- Technique: The combustor parts are tracked in 6DOF, and animated overlays compare the current part pose with the target pose, showing alignment cues (arrows, rotation hints) until the part is correctly inserted.
+- Try it: Use image tracking on a LEGO baseplate and a part with a sticker, and show a ghost of the target position in AR that turns greener as the part gets closer. Twist: remove the visual hints and guide the alignment with sound alone.
+
+#### SnapAR — Steven Feiner — Columbia Computer Graphics & User Interfaces Lab (2012)
+- Video: https://www.youtube.com/watch?v=rU5aJLOuiDI
+- Interaction: Information & UI, Spatial Mapping
+- Platform & tech: Phone, handheld AR
+- Idea: Take a few AR snapshots of a scene, then jump between viewpoints without walking around.
+- What it is: Take virtual snapshots of a scene from different viewpoints on a handheld AR device and switch between them instantly instead of walking around.
+- Technique: The handheld stores tracked camera images with their poses as snapshots, and the user switches the displayed view to a stored snapshot (with live AR overlays re-rendered for that pose) instead of physically walking to it.
+- Try it: Implement a "save viewpoint" button in AR Foundation that stores the current camera image and pose, so tapping a thumbnail later switches to that viewpoint to view the virtual objects. Twist: use these snapshots to make a multi-view "AR comparison sheet" that explains a piece of work.
+
+#### AR Task Guidance for ISS Stowage — Steven Feiner — Columbia Computer Graphics & User Interfaces Lab (2021)
+- Video: https://www.youtube.com/watch?v=BvddkxWVxso
+- Interaction: Information & UI, Spatial Mapping
+- Platform & tech: Headset, HoloLens
+- Idea: On the space station's cramped racks, AR points out where each item belongs.
+- What it is: Carmine Elvezio and colleagues guide astronauts' stowage operations with head-worn AR, highlighting where each item goes in cramped space-station racks.
+- Technique: A HoloLens is registered to the rack layout, and the application highlights the target stowage location with world-locked outlines and path cues while tracking task progress item by item.
+- Try it: Build an item list for a dorm cabinet or lab drawers and show a highlight box in phone AR for which slot each item goes in, one item at a time. Twist: reverse it into a find-things mode and test how much faster it is than a text-only list.
+
+### Tamiko Thiel
+
+*Media artist; co-founder of Manifest.AR*
+
+Pioneering VR/AR artist (and designer of the Connection Machine CM-1/CM-2) who uses geolocated AR to insert political and ecological 'what-ifs' into specific sites, from the Venice Biennale to the Whitney.
+
+#### Art Critic Face Matrix (We AR in MoMA) — Tamiko Thiel (2010)
+- Video: https://www.youtube.com/watch?v=OlgjnO0asjM
+- Interaction: Location & City, Portals & Worlds
+- Platform & tech: Phone, Layar
+- Idea: Put a matrix of critics' faces inside MoMA without permission.
+- What it is: Part of the uninvited AR show in MoMA: a matrix of critics' faces floats in the galleries, visible only through the Layar browser.
+- Technique: Layar geolocated POIs position billboarded 2D/3D content by GPS coordinates inside the museum, so anyone with the app sees it without the institution's permission.
+- Try it: Use location-based AR.js or 8th Wall to place a set of unauthorized virtual faces or comments in an 'authority' space at school (the principal's door, the library). Twist: draw the faces' content from classmates' real opinions of that space.
+
+#### Carnation Rain (Largo do Carmo) — Tamiko Thiel (2011)
+- Video: https://www.youtube.com/watch?v=VxBEr_bq_0k
+- Interaction: Location & City
+- Platform & tech: Phone, Layar, GPS
+- Idea: An AR rain of carnations falls over the square where the revolution took place.
+- What it is: An AR rain of red carnations over Lisbon's Largo do Carmo, where the 1974 Carnation Revolution ended.
+- Technique: A GPS-anchored particle-like object (animated falling flowers) is placed over the historic square, using location as the carrier of historical meaning.
+- Try it: Pick a campus or city location tied to a historical event and use Unity AR to make objects related to that event fall from the sky. Twist: use a particle system so the fallen objects slowly pile up on the ground into a symbol.
+
+#### Newtown Creek (oil spill) — Tamiko Thiel (2011)
+- Video: https://www.youtube.com/watch?v=i_G8jm5qPS8
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, Layar, GPS
+- Idea: Bring an invisible underground oil spill up to the surface of the river.
+- What it is: Geolocated AR on Brooklyn's Newtown Creek visualising the huge hidden oil spill beneath it.
+- Technique: Geolocated AR places a large semi-transparent model of the underground oil plume at its real coordinates, making hidden environmental data spatially visible.
+- Try it: Find a local environmental dataset (groundwater, noise, drainage network) and use AR to visualize it on the ground at its real location. Twist: scale the visualization 1:1 with the real data values to feel the size of 'invisible quantities'.
+
+#### Shades of Absence: Public Voids — Tamiko Thiel (2011)
+- Video: https://www.youtube.com/watch?v=cykHsfW1NQs
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, Layar, GPS
+- Idea: Place golden silhouettes of censored artists in Venice's public spaces.
+- What it is: Geolocated AR at the Venice Biennale placing golden silhouettes of censored artists in public squares.
+- Technique: GPS-anchored Layar content places flat golden silhouette billboards in public squares, relying on coarse geolocation and compass heading.
+- Try it: Pick a theme about absence (forgotten people, demolished buildings) and use WebAR to place golden silhouettes at the matching locations. Twist: a silhouette is visible only when nobody is standing in that spot.
+
+#### Gardens of the Anthropocene — Tamiko Thiel (2016)
+- Video: https://www.youtube.com/watch?v=lQWPHmLB_OY
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, Layar, Unity
+- Idea: Plants mutated by climate change grow in a real harbor.
+- What it is: AR plants mutated by climate change (such as giant red algae) grow over real harbours and gardens.
+- Technique: Geolocated and plane-anchored 3D plant models (built in Unity, shown via Layar) are placed over real harbours and gardens at plausible scale.
+- Try it: Design a "mutated version" of a real plant on campus as it might look under the climate of 2100, and place it next to the original in AR. Twist: add a time slider so the plant gradually mutates from now into the future.
+
+#### Evolution of Fish — Tamiko Thiel (2019)
+- Video: https://www.youtube.com/watch?v=Wi9RCNHJ6RQ
+- Interaction: Perception & Effects
+- Platform & tech: Phone, Unity, ARKit
+- Idea: Fish evolve into plastic-bag creatures in AR.
+- What it is: An AR artwork of fish evolving into plastic-bag creatures; here the artist plays with video feedback in the AR view.
+- Technique: An ARKit plane-anchored animated model shows fish morphing into plastic forms (blend shapes or model swaps), and screen recording of a screen within the AR view produces video feedback.
+- Try it: Use Unity AR to animate a fish gradually morphing into a plastic bag (via blend shapes or model swaps) and place it next to a fish tank or water cooler. Twist: point the phone at another screen showing the AR view to create a video feedback loop.
+
+#### Enter the Plastocene — Tamiko Thiel (2021)
+- Video: https://www.youtube.com/watch?v=6p6eYXCsV9g
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, Unity, ARKit
+- Idea: The Plastocene, where plastic creatures swim through the gallery.
+- What it is: An AR/VR installation where plastic waste creatures swim through the exhibition space around visitors, shown at MEET Milan.
+- Technique: ARKit world tracking places flocking creatures (boids-style steering) that swim through the exhibition volume around visitors.
+- Try it: Use a simple boids algorithm in Unity to make a school of plastic-bottle creatures swim around the room and avoid viewers, treating the camera position as a repulsion point. Twist: tie the number of creatures to the amount of plastic waste the class produces that day.
+
+### Trixi Studios (Chip Sineni)
+
+*Chicago VFX / AR studio led by Chip Sineni*
+
+Small animation and VFX studio that built early Project Tango and ARKit experiments, including the viral a-ha 'Take On Me' AR portal.
+
+#### Star Wars Mixed Reality Test — Trixi Studios (Chip Sineni) (2015)
+- Video: https://www.youtube.com/watch?v=xK5w7JW0dAg
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Phone, Project Tango, Unity
+- Idea: Star Wars droids and ships stay put in a real room while you walk around them.
+- What it is: Recorded live on a Project Tango tablet, Star Wars ships and droids appear in a real room and hold their place as the camera walks around them.
+- Technique: Tango motion tracking plus depth sensing anchors 3D models to the room so they keep position and scale while the device moves.
+- Try it: Put a model of your favorite movie prop into the classroom and walk around it to shoot a short "documentary". Twist: the model turns its head to look at you when you get close.
+
+#### LONELY GHOUSTS — Trixi Studios (Chip Sineni) (2016)
+- Video: https://www.youtube.com/watch?v=X3WtHmv0evc
+- Interaction: Play, Location & City
+- Platform & tech: Phone, Project Tango, Unity
+- Idea: Meet lonely little ghosts along your everyday walks.
+- What it is: An early Project Tango AR game in which friendly creatures appear along your real walks and wait to be met and collected.
+- Technique: Tango motion tracking places animated creatures in world space so they stay put as you walk around them.
+- Try it: Use AR Foundation to scatter five "lonely little monsters" along a campus route that greet you when you get close. Twist: once collected, they line up and follow behind you.
+
+#### PHANTOGEIST — Trixi Studios (Chip Sineni) (2016)
+- Video: https://www.youtube.com/watch?v=1lWZiuGCawc
+- Interaction: Play, Location & City, Spatial Mapping
+- Platform & tech: Phone, Project Tango, Unity
+- Idea: A first-person ghost shooter for any real space, with the game adapting to the size of the site.
+- What it is: A first-person shooter on a Project Tango phone spawns ghostly enemies and environments around you anywhere, from a small room to a football field, with no markers.
+- Technique: Tango's inside-out motion tracking gives 6DoF pose so enemies can be placed in world coordinates and the play area scales to the available physical space.
+- Try it: Build a small game with AR Foundation that spawns monsters on a sports field, with enemies walking in from the distance. Twist: enemies flying in the air can only be seen when you hold the phone up high.
+
+#### PHANTOGEIST Co-op 'Automatic Mixed Reality' — Trixi Studios (Chip Sineni) (2016)
+- Video: https://www.youtube.com/watch?v=AQdQ93XScEc
+- Interaction: Shared & Social, Play
+- Platform & tech: Phone, Project Tango, Unity
+- Idea: Two devices share one battle: one person plays, the other films, and mixed-reality video comes out automatically.
+- What it is: Two Tango devices share the same ghost battle, so one player can film the other fighting virtual enemies, producing mixed-reality footage automatically.
+- Technique: Both devices localize into a shared coordinate frame (likely via Tango area learning) so enemies appear in the same physical place for each player.
+- Try it: Build a two-player game with 8th Wall or Lens Studio shared sessions, or an ARKit collaborative session, where one person fights monsters and the other films. Twist: the camera operator's lens can "freeze" the monsters.
+
+#### Augmented Reality's A-ha Moment (Take On Me AR portal) — Trixi Studios (Chip Sineni) (2017)
+- Video: https://www.youtube.com/watch?v=ZBdRAdSosv4
+- Interaction: Portals & Worlds, Perception & Effects, Voice & Sound
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Step through a door into the pencil-sketch world of a-ha's Take On Me, where even your own hand turns into line art.
+- What it is: A door-sized portal in a real living room opens into the pencil-sketch world of a-ha's 'Take On Me'; stepping inside turns everything, including your own hand, into rotoscoped comic lines while real kids dance outside.
+- Technique: An ARKit-anchored portal uses a stencil/depth mask so the sketch world renders only through the doorway, and a line-art shader restyles the camera feed once you cross it.
+- Try it: Build a portal in Reality Composer or Unity that contains a hand-drawn line-art panorama. Twist: once you step through, add an outline filter to the camera feed so reality turns into a comic too.
+
+#### Gate to the Upside Down — Trixi Studios (Chip Sineni) (2017)
+- Video: https://www.youtube.com/watch?v=VQymxwls0m0
+- Interaction: Portals & Worlds, Perception & Effects
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A store aisle turns into the Upside Down from Stranger Things.
+- What it is: A Stranger Things-inspired ARKit test turns an ordinary pharmacy aisle into the dark, spore-filled 'Upside Down', with the real space darkened and overgrown around the camera.
+- Technique: The camera feed is color-graded dark while floating particles and vine meshes are anchored to ARKit-detected planes to make the real room feel replaced.
+- Try it: Pick a familiar corner of a classroom and turn it into "another parallel world" with a filter, floating particles and vines on the floor. Twist: the world switches back to reality when the phone gets close to a certain real object.
+
+#### Spiders with 6D.ai (Chip Sineni) — Trixi Studios (Chip Sineni) (2018)
+- Video: https://www.youtube.com/watch?v=gJLkbKRa8jY
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, 6D.ai SDK, Unity
+- Idea: Let virtual spiders crawl along real furniture and hide behind it.
+- What it is: Chip Sineni's creepy-crawly test for the 6D.ai SDK: spiders crawl over and hide behind real furniture thanks to a live mesh of the room.
+- Technique: 6D.ai builds a real-time mesh of the environment on the phone, used for occlusion and as a navigation surface so creatures crawl over real geometry.
+- Try it: Use a LiDAR phone and AR Foundation Meshing to make a swarm of virtual bugs crawl over tables and chairs and get occluded. Twist: when the lights come on (ambient light gets brighter), they scatter and flee.
+
+### Valentin Heun
+
+*Creator of the Reality Editor (MIT Media Lab); VP Innovation Engineering / Reality Lab at PTC (Vuforia Spatial Toolbox)*
+
+Valentin Heun did his PhD in Pattie Maes' Fluid Interfaces group, where he built Smarter Objects and the Reality Editor, an AR 'digital screwdriver' for wiring together connected objects. At PTC he turned it into the open-source Vuforia Spatial Toolbox for industrial AR.
+
+#### Second Surface — Valentin Heun, MIT Tangible Media Group — Hiroshi Ishii (2012)
+- Video: https://vimeo.com/60139965
+- Interaction: Drawing & Making, Shared & Social, Spatial Mapping
+- Platform & tech: Phone, natural feature tracking, iPad
+- Idea: Several people doodle and leave notes on real surfaces, and the notes stay put for others to find.
+- What it is: Shunichi Kasahara, Valentin Heun and Austin Lee let several people draw and leave notes on real surfaces around them through tablets; the drawings stay anchored in space for others to see.
+- Technique: Natural feature tracking of the surface texture gives each tablet a 6DOF pose relative to the same physical surface, so strokes stored in surface coordinates are shared over the network and rendered from every viewpoint.
+- Try it: Use AR Foundation shared anchors (or the same image target) so two phones see the same wall, then draw and leave messages on it that sync in real time. Twist: messages only appear at a certain time or when a certain person comes near.
+
+#### Reality Editor: Programming Smarter Objects — Valentin Heun, MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2013)
+- Video: https://vimeo.com/74073989
+- Interaction: Tangible Objects, Information & UI, Drawing & Making
+- Platform & tech: Phone, Vuforia, Open Hybrid
+- Idea: Drag a line from one object to another on your phone screen and they are wired together.
+- What it is: Early Reality Editor demo: drag virtual lines between physical objects seen through a phone to connect their inputs and outputs, like patching cables in thin air.
+- Technique: Marker-based AR recognition overlays each object's inputs and outputs as nodes, and dragging a line between nodes on the touchscreen writes a data-flow link that the networked objects then execute.
+- Try it: Recognize two image cards in phone AR (one standing for a "switch" and one for a "light"), drag a line with your finger from one node to the other to connect them, and then pressing the virtual switch lights the virtual lamp. Twist: insert a "logic box" (delay, invert or count) in the middle of the connection.
+
+#### Smarter Objects — Valentin Heun, MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2013)
+- Video: https://vimeo.com/60138572
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, Vuforia, Arduino, iPad
+- Idea: Point a tablet at an object to see and rewrite its hidden interface and behavior.
+- What it is: Point an iPad at a radio or lamp and a virtual control interface appears attached to it; you can reprogram what its physical knobs do and link objects together.
+- Technique: Vuforia image targets recognize each physical object and anchor a virtual UI to it, while an Arduino inside the object exchanges knob and actuator states with the iPad over the network so the virtual UI can remap physical controls.
+- Try it: Use 8th Wall image recognition or AR Foundation Image Tracking to recognize a sticker on a lamp or speaker, pop up a virtual control panel, and control an LED's brightness through an ESP32/Arduino. Twist: let what a physical knob controls be "reassigned" in the AR interface.
+
+#### Reality Editor — Valentin Heun (2015)
+- Video: https://vimeo.com/143709971
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, Open Hybrid, Vuforia, Arduino
+- Idea: An AR "digital screwdriver": glance at your smart devices and rewire them all.
+- What it is: The public Reality Editor app: connected objects carry visual markers; point your phone at them to see their capabilities and wire a light switch to a lamp or a chair to a car seat by drawing connections.
+- Technique: Each object carries a visual marker recognized by Vuforia, its Open Hybrid server publishes I/O nodes over Wi-Fi, and drawn AR connections become routing rules between the objects' Arduino-driven inputs and outputs.
+- Try it: Connect a button and a light to each of two ESP32 boards, and have a phone WebAR app recognize their sticker markers so you can draw a line from the button to the light (with a WebSocket backend relaying messages). Twist: swap in non-electronic things, such as a chair being sat on, and invent an interesting "conversation between objects".
+
+#### Reality Editor 2.0: A Web Browser for the Physical World — Valentin Heun (2017)
+- Video: https://vimeo.com/218412997
+- Interaction: Tangible Objects, Information & UI, Spatial Mapping
+- Platform & tech: Phone, Vuforia, JavaScript, IoT
+- Idea: Browse the physical world like the web, where every object is an interactive page.
+- What it is: The second-generation Reality Editor treats every physical object as a web page: anchored AR UIs, logic crafting and spatial search for objects in the room.
+- Technique: Objects are identified by image targets and each hosts HTML/JavaScript UIs served from a local node server, which the AR browser renders as anchored web views and connects through a visual logic editor.
+- Try it: Use WebXR or 8th Wall to make an anchored mini web panel for each of three objects in the classroom (showing status and clickable), plus a "search" button that highlights a chosen object. Twist: let classmates edit each object's page and see what it has become after an hour.
+
+#### Vuforia Spatial Toolbox – Remote Operator — Valentin Heun (2021)
+- Video: https://www.youtube.com/watch?v=axwfmV9wTV8
+- Interaction: Tangible Objects, Spatial Mapping, Information & UI
+- Platform & tech: Phone, Web, Vuforia Spatial Toolbox, LiDAR
+- Idea: Draw paths remotely in a live 3D scene of a factory to program robots directly.
+- What it is: PTC Reality Lab's open-source successor to the Reality Editor: a remote operator sees a live 3D scan of a factory and programs robots and machines by drawing spatial paths.
+- Technique: A LiDAR scan of the space is streamed to a remote client as a 3D model, and paths drawn in that model are converted into waypoints in the shared coordinate frame and sent to the robot controller.
+- Try it: Scan a room with an iPhone LiDAR app such as Polycam, open the model remotely in three.js and click to draw a path, then send the path to another phone's AR view to show as arrows on the floor. Twist: have a classmate play the robot and walk along the AR path.
+
+### Camille Utterback
+
+*Interactive installation artist; MacArthur Fellow (2009)*
+
+Artist whose camera-based projections (Text Rain with Romy Achituv, the External Measures series, Liquid Time) render the moving body as a painterly, living trace. Associate professor at Stanford.
+
+#### Text Rain (with Romy Achituv) — Camille Utterback (1999)
+- Video: https://www.youtube.com/watch?v=GYvyuL-Mkjg
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, video camera, brightness threshold, Max/custom software
+- Idea: Catch the letters of a poem falling from the sky with your body.
+- What it is: Participants see a mirrored video of themselves while coloured letters from a poem fall like rain; the letters land on and rest on anything dark, so people catch, lift and spill lines of text with their bodies.
+- Technique: Each falling letter checks the brightness of the live camera pixel below it and stops falling when the pixel is darker than a threshold, so the body's silhouette becomes a physical surface.
+- Try it: Make 'letter rain' with a p5.js camera sketch, where each letter stops when it meets a dark pixel. Twist: use a poem you wrote yourself, and play a sound when caught letters line up into a readable word.
+
+#### Liquid Time Series — Camille Utterback (2002)
+- Video: https://www.youtube.com/watch?v=qSHmx45AF_k
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, video buffer, slit-scan, camera tracking
+- Idea: The closer you get to the screen, the further that patch of the picture slips back into the past.
+- What it is: A viewer's movement fragments a pre-recorded street video: the closer they step to the projection screen, the deeper that part of the image slides into the past.
+- Technique: A camera measures each viewer's position and distance, and a slit-scan-style buffer picks older frames for image regions nearest to the viewer.
+- Try it: Store a video as a frame buffer, detect a person's position with a camera, and show earlier frames in the vertical strip where they stand. Twist: use the phone's proximity sensor or sound volume to control how far back into the past it goes.
+
+#### Untitled 5 (External Measures series) — Camille Utterback (2004)
+- Video: https://www.youtube.com/watch?v=zOydp3DXWrk
+- Interaction: Hands & Body, Drawing & Making, Projection
+- Platform & tech: Projection, camera tracking, generative drawing
+- Idea: People's pauses and movements leave growing brushstrokes on the wall.
+- What it is: A projected 'living painting' where visitors' movements leave soft, overlapping painterly marks that respond to how long and how fast people stay.
+- Technique: Camera-tracked body positions and motion history drive generative brush-stroke systems that accumulate and decay over time.
+- Try it: Drive a generative brush with camera motion detection, leaving strokes on the projection that thicken the longer someone stays. Twist: a line connecting two people appears only when they come close to each other.
+
+#### Abundance — Camille Utterback (2007)
+- Video: https://www.youtube.com/watch?v=xgRFUsVVb84
+- Interaction: Hands & Body, Location & City, Projection
+- Platform & tech: Projection, overhead camera tracking, façade projection
+- Idea: The paths of people crossing a plaza are drawn live as a giant projection on the building.
+- What it is: At night a camera on San Jose City Hall watches people walking across the plaza and projects a responsive animation of their paths onto the building's rotunda.
+- Technique: A roof-mounted camera tracks pedestrians from above and their trajectories drive a generative animation projected onto the cylindrical façade.
+- Try it: Film the sports field from high up in a teaching building and draw pedestrians' paths live as colorful flow lines projected on a wall. Twist: when two paths cross, a 'flower' grows.
+
+#### Drawing from Life — Camille Utterback (2008)
+- Video: https://www.youtube.com/watch?v=E4AJY959514
+- Interaction: Hands & Body, Perception & Effects, Information & UI
+- Platform & tech: Projection, video processing, ASCII rendering
+- Idea: Write your live mirror image as a portrait made from the four letters of DNA.
+- What it is: Museum visitors see a life-size projected image of themselves composed entirely of the letters A, C, G and T, the four bases of DNA.
+- Technique: Live video is sampled on a grid and each cell is rendered as one of four letters whose size or brightness follows the underlying pixel value (ASCII-art style).
+- Try it: Use p5.js to turn the camera image into an ASCII-character portrait using only the letters A, C, G and T. Twist: switch to a word related to your theme and make the letters jitter with the volume of sound.
+
+#### Entangled — Camille Utterback (2015)
+- Video: https://www.youtube.com/watch?v=cmKSwen2GAw
+- Interaction: Hands & Body, Projection, Shared & Social
+- Platform & tech: Projection, video cameras, scrim projection, custom software
+- Idea: People on either side of a sheer screen tangle up each other's traces.
+- What it is: Two layered projections on translucent scrims respond to visitors from both sides, so people on opposite sides tangle each other's painterly traces.
+- Technique: Two cameras track people on each side of stacked scrims and generative drawing layers are projected through the semi-transparent fabric, mixing both groups' traces.
+- Try it: Hang a piece of sheer fabric with a projector and a camera on each side, so the movement trails of classmates on both sides overlap on the same cloth. Twist: the pattern only connects when people on the two sides line up with each other.
+
+### David Lindlbauer
+
+*Assistant Professor, Carnegie Mellon HCII; leads the Augmented Perception Lab*
+
+David Lindlbauer works on mixed reality that adapts to people and context, from Remixed Reality (with Andy Wilson), which edits space and time in a live 3D copy of the room, to optimization-driven MR interfaces at ETH Zurich and CMU.
+
+#### Combining Shape-Changing Interfaces and Spatial AR — David Lindlbauer (2016)
+- Video: https://www.youtube.com/watch?v=fWREdKL2Kus
+- Interaction: Projection, Tangible Objects, Perception & Effects
+- Platform & tech: Projection, projector, actuated objects
+- Idea: Projection plus a shape-changing object makes the object seem to reach past its own edges.
+- What it is: Projection and shape-changing objects work together so a physical object's appearance can extend and move beyond its real shape.
+- Technique: Actuated objects are tracked and calibrated to a projector so that projected imagery extends the object's visible form beyond its physical shape and stays registered while it moves.
+- Try it: Do projection mapping on a servo-rotated paper box so the projection "extends" the box into an animal whose projected legs move when the box moves. Twist: deliberately misalign the projection and the physical motion to create an uncanny effect.
+
+#### Changing the Appearance of Real-World Objects by Modifying Their Surroundings — David Lindlbauer (2017)
+- Video: https://www.youtube.com/watch?v=2gez_joXaiE
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projector, perceptual illusions
+- Idea: Leave the object alone and change only the light around it, and it seems to change color.
+- What it is: Projection changes the environment around a real object, exploiting color and brightness perception so the object itself appears to change.
+- Technique: Rather than projecting onto the object, the projector alters the color and brightness of the surrounding area, exploiting simultaneous contrast and lightness constancy so the unprojected object is perceived as changing.
+- Try it: Put a gray paper card on a table, project backgrounds of different colors and brightness only around it, and ask viewers whether the card's color has changed. Twist: use the illusion to give a still object the feeling of a heartbeat or breathing.
+
+#### Remixed Reality — David Lindlbauer, Microsoft Research — Hrvoje Benko & Andy Wilson (2018)
+- Video: https://www.youtube.com/watch?v=GoSQTPfrdCc
+- Interaction: Portals & Worlds, Spatial Mapping, Perception & Effects
+- Platform & tech: Headset, Kinect array, VR HMD, 3D reconstruction
+- Idea: 'Edit' reality as raw footage: copy, erase and rewind the real world around you.
+- What it is: A live 3D reconstruction of the room is shown in a VR headset and edited in real time: copy or erase objects and people, rewind time, or change geometry of the space.
+- Technique: An array of calibrated Kinects produces a live 3D reconstruction of the room that is rendered in a VR headset, so any region of the point cloud can be copied, deleted, recolored, or buffered and replayed in time.
+- Try it: Use the live camera feed of phone AR with a segmentation model (such as MediaPipe or a web version of SAM) to select a person or object in the frame and 'erase' it (inpainting the background) or duplicate it. Twist: add a 'time slider' so you can look back at what this spot looked like 10 seconds ago.
+
+#### Context-Aware Online Adaptation of MR Interfaces — David Lindlbauer (2019)
+- Video: https://www.youtube.com/watch?v=SAmmTUw96Mg
+- Interaction: Information & UI, Gaze & Attention
+- Platform & tech: Headset, HoloLens, combinatorial optimization
+- Idea: An MR interface that seems to read you, deciding how much to show and where based on what you are doing.
+- What it is: An optimizer continuously decides which virtual apps to show, where and how detailed, based on the user's current task and cognitive load.
+- Technique: An integer linear program decides for each app whether it is shown, where it is placed and at what level of detail, given estimated cognitive load from the task and a utility model, and re-solves as context changes.
+- Try it: Place five virtual info panels (time, messages, weather, navigation, music) in phone AR and write a simple rule or scoring function that hides or shrinks them depending on whether the user is walking, talking or typing. Twist: let the user 'bribe' the system to keep a panel, and discuss who holds control.
+
+#### RealityReplay — David Lindlbauer (2023)
+- Video: https://www.youtube.com/watch?v=wCrh6PpyqUY
+- Interaction: Spatial Mapping, Perception & Effects, Information & UI
+- Platform & tech: Headset, mixed reality, change detection
+- Idea: Replay the changes you missed right where they happened, so you can see what just took place.
+- What it is: MR detects changes that happened in the room while you were not looking and replays them in place, e.g. showing who moved an object.
+- Technique: The MR system keeps a 3D model of the room, detects geometric and appearance changes that happened outside the user's field of view, and replays the recorded change events in place as animated reconstructions.
+- Try it: Film a tabletop with a phone camera fixed in a corner, detect the moment an object is moved using frame differencing, and replay that clip in AR overlaid at its original location. Twist: only tell users 'something changed here', let them guess what happened, then reveal it.
+
+#### MiniMates — David Lindlbauer (2025)
+- Video: https://www.youtube.com/watch?v=fukfCSvmo44
+- Interaction: Shared & Social, Spatial Mapping
+- Platform & tech: Headset, AR, avatars
+- Idea: Shrink remote colleagues into tiny figures on your desk, so even a small room can host an AR meeting.
+- What it is: Remote meeting participants appear as miniature avatars that fit on your desk, so AR meetings work even in small physical spaces.
+- Technique: Remote participants are represented as scaled-down avatars, and a layout algorithm fits them onto available tabletop area while retargeting their gaze and pointing toward the corresponding local objects.
+- Try it: Detect a tabletop in AR Foundation, put the video faces of three remote classmates on mini avatars arranged across the table, and turn the faces toward whoever is speaking. Twist: make each avatar's size change with how long or how loudly that person speaks.
+
+### Denis Kalkofen
+
+*Associate Professor, Flinders University; formerly Graz University of Technology (ICG)*
+
+Specialist in AR visualization: X-ray and ghosted views of hidden structure, compact labels, and retargeting manuals and video tutorials into 3D AR instructions.
+
+#### Interactive Focus and Context Visualization for AR — Denis Kalkofen, TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2007)
+- Video: https://www.youtube.com/watch?v=NOkWzJG2Ru4
+- Interaction: Perception & Effects, Information & UI, Portals & Worlds
+- Platform & tech: Desktop, Phone, X-ray visualization, edge detection, marker tracking
+- Idea: See inside an object like an X-ray lens while keeping the shell outline to help you judge depth.
+- What it is: A magic-lens style AR view that reveals hidden internal parts of a real object (e.g. a car engine) while preserving key edges of the outside for depth cues.
+- Technique: Renders hidden virtual structure inside a focus region and composites real-world edges extracted from the video as context to keep occlusion cues.
+- Try it: In phone AR, overlay a 3D model of the 'internal structure' on a real cardboard box, keep the box's outer outline with a stroke, and compare the sense of depth with and without the outline. Twist: make the see-through region follow your finger.
+
+#### Adaptive Ghosted Views for AR — Denis Kalkofen, TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2013)
+- Video: https://www.youtube.com/watch?v=xQlbeVjx0TI
+- Interaction: Perception & Effects, Information & UI, Portals & Worlds
+- Platform & tech: Phone, Desktop, ghosting, image-based importance, X-ray AR
+- Idea: An adaptive ghosted see-through view: the pipes behind the wall show up and the wall stays.
+- What it is: Ghosted X-ray views that adapt which real-world features to keep visible, so hidden pipes or rooms behind a wall stay readable without losing the wall.
+- Technique: Computes importance from real-world image features and adapts the transparency of the occluder per pixel before revealing the hidden virtual layer.
+- Try it: Build an AR "see through the wall" effect on a wall with a poster: keep the poster's main lines semi-transparent and show virtual pipes behind it. Twist: have classmates judge how much detail is best to keep.
+
+#### Dynamic Compact Visualizations for AR — Denis Kalkofen, TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2013)
+- Video: https://www.youtube.com/watch?v=xL1aV9C4tYY
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Phone, Desktop, view management, exploded views, tracking
+- Idea: AR labels and exploded views rearrange themselves with the viewpoint and never get cluttered.
+- What it is: AR annotations and exploded views of a real object are laid out compactly and reorganise dynamically as the viewpoint changes, avoiding clutter.
+- Technique: Uses view-management optimisation to cluster and position labels and explosion diagrams in screen space each frame.
+- Try it: Use phone AR to label the parts of a disassembled old appliance, and have classmates design how the labels avoid overlapping as the view rotates. Twist: only 3 labels may be shown, and the rest fold away.
+
+#### Retargeting Technical Documentation to AR — Denis Kalkofen, TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2015)
+- Video: https://www.youtube.com/watch?v=SyM931lWDvo
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Phone, document analysis, model-based tracking
+- Idea: Automatically turn a paper manual into AR steps overlaid on the real object.
+- What it is: Printed instruction manuals are automatically converted into 3D AR instructions: the arrows and steps from paper diagrams are mapped onto the real device.
+- Technique: Parses manual illustrations, registers them to a 3D model of the device, and re-renders arrows and motion cues in AR on the tracked real object.
+- Try it: Pick one page of an IKEA manual and have students use Reality Composer to place its arrows and part animations on the real object. Twist: compare whether the paper or the AR version gets things assembled faster.
+
+#### Retargeting Video Tutorials to AR — Denis Kalkofen, TU Graz Handheld AR — Daniel Wagner & Dieter Schmalstieg (2017)
+- Video: https://www.youtube.com/watch?v=FWytd1m6dKk
+- Interaction: Information & UI, Hands & Body, Drawing & Making
+- Platform & tech: Phone, Desktop, video analysis, tool tracking, AR playback
+- Idea: Pull the tool motions out of a video tutorial and turn them into AR paths laid over your own object.
+- What it is: Tool paths in video tutorials (e.g. painting or sanding strokes on a surface) are extracted and replayed as 3D AR guides on the user's own object.
+- Technique: Tracks the tool and its surface contact in the source video, reconstructs the 3D path, and renders it as animated guides registered to the target surface.
+- Try it: Pick a calligraphy or line-tracing tutorial video, trace its stroke paths by hand, and overlay them in phone AR on students' own paper so they can write along. Twist: have the path speed adapt to each student's writing speed.
+
+#### Mixed Reality Light Fields for Remote Assistance — Denis Kalkofen (2020)
+- Video: https://www.youtube.com/watch?v=NNmt-5NMuOk
+- Interaction: Shared & Social, Information & UI, Spatial Mapping
+- Platform & tech: Phone, Desktop, light fields, remote assistance, AR annotation
+- Idea: Capture a light field with a phone so a remote expert can view it from any angle and place notes back into the on-site AR.
+- What it is: A local worker captures a light field of a workspace with a phone; the remote expert explores it with free viewpoints and places annotations that appear in the worker's AR view.
+- Technique: Captures many registered images to render novel views of the scene for the remote helper, then anchors their 3D annotations back in the local tracking space.
+- Try it: Have student A photograph a desktop fault, such as wiring, from several angles with a phone, have student B annotate the steps on the photos, and have A restore them on site as AR labels. Twist: limit B to looking at only 3 photos.
+
+### Dynamicland — Bret Victor & collaborators
+
+*Nonprofit research lab in Oakland/Berkeley led by Bret Victor with Luke Iannini, Toby Schachman, Josh Horowitz, Omar Rizwan, Paula Te and others*
+
+Dynamicland grew out of Bret Victor's Communications Design Group (HARC). Its Realtalk system uses ceiling cameras and projectors so that ordinary paper, cards and objects become live, programmable computing, shared by everyone in the room.
+
+#### Hypercard in the World — Dynamicland — Bret Victor & collaborators (2016)
+- Video: https://www.youtube.com/watch?v=uI7J3II59lc
+- Interaction: Projection, Tangible Objects, Shared & Social
+- Platform & tech: Projection, Realtalk, projectors, cameras
+- Idea: Turn paper cards into programs so the whole room becomes a computer people program together.
+- What it is: The precursor to Dynamicland at HARC/CDG: paper cards on tables and walls become live programs through projection and cameras, and people program the room together.
+- Technique: Ceiling-mounted cameras identify paper cards by printed color-dot codes, and projectors render each card's program output onto and around it, with programs reacting to the positions and adjacency of other cards.
+- Try it: Print ArUco codes on a few cards, recognize them with an overhead camera and OpenCV, and use a projector to show each card's output (a color, a line of text), triggering a combined effect when two cards come close. Twist: have classmates use the cards as "program statements" to assemble a small animation.
+
+#### La Tabla — Dynamicland — Bret Victor & collaborators (2018)
+- Video: https://www.youtube.com/watch?v=VTHvNasQyu8
+- Interaction: Projection, Play, Tangible Objects
+- Platform & tech: Projection, Realtalk, projection
+- Idea: A 'programmable' game played on a projection table with real cards and pieces.
+- What it is: A game table in Dynamicland where physical game pieces and paper cards drive projected gameplay, shown at GDC's Experimental Gameplay Workshop.
+- Technique: Realtalk's camera recognizes game pieces and paper cards by printed dot codes, and projection renders gameplay whose rules are themselves printed programs lying on the table.
+- Try it: Build a board game with top-down projection and ArUco markers: when a piece moves, the projection shows its path and effects, and swapping the 'rule card' at the table's edge changes the rules. Twist: let players change the rule cards mid-game.
+
+#### Dynamicland (progress report) — Dynamicland — Bret Victor & collaborators (2020)
+- Video: https://www.youtube.com/watch?v=x8-7E0IT5K0
+- Interaction: Projection, Tangible Objects, Shared & Social
+- Platform & tech: Projection, Realtalk
+- Idea: A computer the size of a building with no screens: code on paper, projections on tables, and people programming together around them.
+- What it is: A tour of the Oakland Dynamicland space: pages of code on paper, projected visualizations, tangible programming kits and collaborative projects.
+- Technique: Every program is a printed page identified by dot codes, a room-wide camera-projector system (Realtalk) tracks pages and objects and runs their code, so programs communicate by statements about physical positions.
+- Try it: Build a programmable table with a projector and a camera: print 5 marker-tagged sheets, each standing for a function such as draw a circle, turn red or move right, and apply a sheet's effect to another sheet when you point it at that sheet. Twist: design a meta-program sheet that can read the contents of other sheets.
+
+#### Biomolecular design in Realtalk — Dynamicland — Bret Victor & collaborators (2022)
+- Video: https://www.youtube.com/watch?v=GmY_BrwWnCA
+- Interaction: Projection, Information & UI, Shared & Social
+- Platform & tech: Projection, Realtalk
+- Idea: Scientists gather around a table and design protein molecules together with paper and physical objects.
+- What it is: Scientists design proteins together on a Realtalk table, manipulating printed pages and physical controls that drive projected molecular models.
+- Technique: Printed pages and physical controls such as knobs are tracked by Realtalk's camera system, and their state feeds a molecular modeling program whose output is projected onto the table for the group to manipulate together.
+- Try it: Show a molecule or data model with a top-down projector and use marker-tagged paper strips as parameter knobs whose rotation the camera reads, so several people can adjust different parameters at once. Twist: swap in a complex model from your own field and see whether making it physical helps the discussion.
+
+#### Improvising cellular playgrounds in Realtalk — Dynamicland — Bret Victor & collaborators (2023)
+- Video: https://www.youtube.com/watch?v=nT4E5HkpLjo
+- Interaction: Projection, Drawing & Making, Tangible Objects
+- Platform & tech: Projection, Realtalk
+- Idea: Improvise an evolving cellular-automaton playground from paper and markers.
+- What it is: Live-improvised cellular automata and simulations built from paper and markers on a projected table, edited by hand in real time.
+- Technique: A camera reads marker-drawn cells and rule pages on paper, and a projector renders cellular automaton simulations directly over the drawings, so editing the paper edits the simulation live.
+- Try it: Use a camera to read a black-and-white grid drawn on paper as the initial state, run Conway's Game of Life in a projection overlaid on the paper, and have erased or added cells take effect immediately. Twist: invent a new rule and write it on a rule card, so swapping cards swaps rules.
+
+#### Dynamicland intro — Dynamicland — Bret Victor & collaborators (2024)
+- Video: https://www.youtube.com/watch?v=5Q9r-AEzRMA
+- Interaction: Projection, Tangible Objects, Shared & Social
+- Platform & tech: Projection, Realtalk
+- Idea: Every program is a physical object in the room that you can see and touch.
+- What it is: An introduction to the current Dynamicland: communal, physical computing where every program is a visible, touchable object in the room.
+- Technique: A room-scale projector-camera system recognizes printed objects and runs Realtalk programs that are physically embodied on paper, making code, data and output co-located and visible to everyone in the space.
+- Try it: Use a projector and a camera to turn a classroom wall into a 'public program wall', where anyone can change a shared animation by sticking a marked sheet of paper on it. Twist: require all state to be visible, and ban any hidden screen or keyboard.
+
+### Ivan Poupyrev
+
+*Interaction scientist; Sony CSL, Disney Research, Google ATAP (Soli, Jacquard); CEO of Archetype AI*
+
+Built early tangible AR at Sony CSL and HIT Lab, then turned everyday matter into interfaces at Disney Research (Touché, Botanicus Interacticus, Ishin-Den-Shin) and Google ATAP (Soli radar, Jacquard textiles).
+
+#### TeslaTouch — Ivan Poupyrev, Chris Harrison — CMU Future Interfaces Group (2010)
+- Video: https://www.youtube.com/watch?v=MHNrQlpstJo
+- Interaction: Hands & Body, Tangible Objects
+- Platform & tech: Desktop, electrovibration, touch screen
+- Idea: Make the surface of a flat screen feel textured.
+- What it is: A touch screen that produces variable friction under a sliding finger using electrovibration, so flat images can feel rough, bumpy or sticky.
+- Technique: Applies a modulated high voltage to an insulated electrode so electrostatic attraction changes skin friction as the finger moves.
+- Try it: Use the phone vibration API to build a 'haptic texture' drawing board where a finger sliding over different colored areas triggers different vibration rhythms. Twist: have a partner close their eyes and guess the pattern by touch alone.
+
+#### Botanicus Interacticus — Ivan Poupyrev (2012)
+- Video: https://www.youtube.com/watch?v=17QOyr2d5-I
+- Interaction: Tangible Objects, Voice & Sound, Projection
+- Platform & tech: Projection, Desktop, swept-frequency capacitive sensing, projection
+- Idea: Stroke a real plant and it answers with sound, light and shadow.
+- What it is: Living plants become interactive: stroking, pinching or sliding along a stem is sensed through the plant itself and triggers projected visuals and sound.
+- Technique: Places a single electrode in the plant's soil and applies Touché-style swept-frequency sensing to locate and classify touches on the plant.
+- Try it: Connect a potted plant to a Makey Makey or touch sensor so touching a leaf grows virtual flowers with sound on a phone or projection. Twist: the flowers only bloom when two people touch the plant at the same time.
+
+#### Touché — Ivan Poupyrev (2012)
+- Video: https://www.youtube.com/watch?v=E4tYpXVTjxA
+- Interaction: Tangible Objects, Hands & Body
+- Platform & tech: Desktop, swept-frequency capacitive sensing, SVM classification
+- Idea: A single electrode can tell whether you pinch, grasp, or plunge your whole hand into water.
+- What it is: Swept-frequency capacitive sensing that recognises how you touch a doorknob, a table, water or your own body - one pinch versus full grasp - with a single electrode.
+- Technique: Sweeps the excitation frequency across a range and classifies the resulting capacitive profile, because different grips change the body's impedance at different frequencies.
+- Try it: Connect a water glass, a piece of fruit or a doorknob to a Makey Makey or an Arduino's capacitive touch pin, and train a simple classifier to tell "a touch" from "a grip". Twist: map the different grips to different effects in phone AR.
+
+#### Ishin-Den-Shin — Ivan Poupyrev (2013)
+- Video: https://www.youtube.com/watch?v=Iw1FhmY1sIU
+- Interaction: Voice & Sound, Hands & Body, Shared & Social
+- Platform & tech: Wearable, body-coupled audio, electrostatic modulation
+- Idea: Touch someone's ear with your finger and a whisper travels through your body to them.
+- What it is: A person speaks into a microphone and then touches someone's ear with a finger; the recorded message is heard only by the person being touched, transmitted through the body.
+- Technique: Converts recorded speech into a modulated inaudible high-voltage signal on the speaker's body, and the touched earlobe vibrates as a tiny speaker.
+- Try it: Use bone-conduction headphones or phone recordings to design a message-passing game where "only the person being touched can hear" (a tap on the shoulder triggers playback). Twist: pass the message along a human chain, letting it gradually change on the way.
+
+#### Project Jacquard — Ivan Poupyrev (2015)
+- Video: https://www.youtube.com/watch?v=qObSFfdfe7I
+- Interaction: Tangible Objects, Hands & Body
+- Platform & tech: Wearable, conductive yarn, capacitive textile sensing
+- Idea: Weave a jacket sleeve into a touchpad.
+- What it is: Conductive yarns woven into ordinary fabric turn a jacket sleeve into a touch surface: swipe or tap the cuff to control your phone.
+- Technique: Weaves a grid of conductive threads into the textile and reads capacitive changes from a snap-on tag that classifies swipes and taps.
+- Try it: Sew conductive tape or conductive thread onto an old glove or sleeve and connect it to a Makey Makey to switch scenes in a phone AR app. Twist: let different parts of the clothing trigger different AR "spells".
+
+#### Project Soli — Ivan Poupyrev (2015)
+- Video: https://www.youtube.com/watch?v=0QNiZfSsPc0
+- Interaction: Hands & Body
+- Platform & tech: Wearable, Phone, 60 GHz radar, machine learning gestures
+- Idea: Rub your fingers in the air to turn an invisible dial.
+- What it is: A tiny radar chip senses sub-millimetre finger motions in the air, so rubbing fingers turns a virtual dial and tapping presses an invisible button.
+- Technique: Emits a broad radar beam and classifies the Doppler and range signature of micro-finger movements into 'virtual tool' gestures.
+- Try it: Use phone AR hand tracking or MediaPipe to build mid-air micro-gestures (pinch to turn a knob, two-finger tap to press a button) that control a virtual radio. Twist: the task must be done without looking at your hands.
+
+### Joanie Lemercier (AntiVJ)
+
+*Visual artist; co-founder of the AntiVJ label*
+
+French artist who co-founded AntiVJ and pioneered projection mapping on architecture and on drawn landscapes, later turning to environmental activism.
+
+#### AntiVJ - projection on building — Joanie Lemercier (AntiVJ) (2006)
+- Video: https://www.youtube.com/watch?v=L64-nqZsgjo
+- Interaction: Projection, Location & City
+- Platform & tech: Projection, projection mapping, VJ software
+- Idea: An early experiment projecting live visuals onto a building and playing with its structure.
+- What it is: An early experiment projecting live visuals onto a building and playing with its existing architecture, a seed of the AntiVJ label's mapping style.
+- Technique: Early manual projection mapping: live VJ software output is masked and keystoned by hand to fit building features, with visuals designed around the existing architecture.
+- Try it: Use one projector and VJ software (Resolume or TouchDesigner) to hand-mask an outside wall with windows, and perform a 3-minute visual set live. Twist: make each window an independent 'character' that passes graphics to the others.
+
+#### AntiVJ - Grote Kerk — Joanie Lemercier (AntiVJ) (2008)
+- Video: https://www.youtube.com/watch?v=OksyXOMTnG4
+- Interaction: Projection, Performance
+- Platform & tech: Projection, projection mapping
+- Idea: A live projection performance inside a cathedral.
+- What it is: A live audiovisual projection performance on the interior of the Grote Kerk cathedral in Breda.
+- Technique: Interior projection mapping with multiple projectors warped onto vaults and columns, performed live and synced to audio.
+- Try it: Choose an indoor space with vaults or columns (a stairwell, a corridor) and perform a projection live with a piece of sound, emphasizing the height of the space. Twist: use light of only one color for the whole piece so the structure itself becomes the star.
+
+#### AntiVJ - SONGDO — Joanie Lemercier (AntiVJ) (2009)
+- Video: https://www.youtube.com/watch?v=8tQpubnD0LQ
+- Interaction: Projection, Performance, Location & City
+- Platform & tech: Projection, projection mapping
+- Idea: An audiovisual projection on the buildings of New Songdo City in South Korea.
+- What it is: An audiovisual projection performance on architecture in New Songdo City, South Korea.
+- Technique: Architectural projection mapping with content built from the building's surveyed geometry and synced to a live audio performance.
+- Try it: Build a 'future city' model from blocks or cardboard boxes and project an audiovisual animation of the city growing from empty ground to completion. Twist: at the end of the animation, let nature slowly 'take back' the city.
+
+#### Eyjafjallajökull — Joanie Lemercier (AntiVJ) (2011)
+- Video: https://www.youtube.com/watch?v=hmV1rTUlJ2s
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection mapping
+- Idea: Projection makes a hand-drawn line mountain look like an erupting volcano.
+- What it is: Light is projected onto a hand-drawn wireframe mountain so the drawing appears to erupt, shift and transform into a volcano.
+- Technique: A projector is aligned to a large hand-drawn wireframe on paper, and projected light and animation reveal, erase and extend the lines to create the illusion of an erupting 3D mountain.
+- Try it: Draw the wireframe of a mountain in black pen on white paper, align a projector to the drawing, and make light flow between the lines to simulate an eruption. Twist: use a landform from your hometown instead and add one local natural phenomenon.
+
+#### FUJI — Joanie Lemercier (AntiVJ) (2014)
+- Video: https://www.youtube.com/watch?v=gVuWcyXHMoI
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection mapping
+- Idea: Projection brings light and weather to a pencil drawing of Mount Fuji.
+- What it is: A 14-minute installation where projection over a large drawing of Mount Fuji creates shifting light, weather and geometric illusions.
+- Technique: Projection over a large pencil drawing uses precisely registered light to add clouds, sunrise and geometric overlays, with the drawing serving as a static luminance base.
+- Try it: Draw a simple pencil landscape and use projection to simulate how light, cloud shadows and weather change over a day. Twist: drive the weather changes with real data from that day's weather API.
+
+#### Blueprint — Joanie Lemercier (AntiVJ) (2015)
+- Video: https://www.youtube.com/watch?v=OozmLRPL1zQ
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection mapping
+- Idea: Light builds and unbuilds structures on a blueprint's line drawing.
+- What it is: A 15-minute audiovisual installation of projected light on a technical line drawing, exploring the blueprint as the origin of structures.
+- Technique: Projection mapped onto a technical line drawing builds and deconstructs structures with animated line work aligned to the printed lines.
+- Try it: Print a line drawing of a building or machine and project a line animation that gradually "builds" it and then "takes it apart". Twist: make the construction go wrong at one step, and let a different structure grow out of the mistake.
+
+### Judith Amores
+
+*Researcher (MIT Media Lab PhD; Microsoft Research)*
+
+HCI researcher who built playful AR prototypes from Barcelona to MIT Media Lab and Google Creative Lab, and multi-person AR at Microsoft Research with Jaron Lanier.
+
+#### Augmented Menu — Judith Amores (2014)
+- Video: https://www.youtube.com/watch?v=Z5_jopA_rJk
+- Interaction: Voice & Sound, Information & UI, Face
+- Platform & tech: Phone, marker-based AR, lip sync
+- Idea: A virtual waiter appears on your table to walk you through today's menu.
+- What it is: A virtual AR waiter with automatic gestures, facial expressions and lip-sync appears at the table to present the daily menu and talk with diners.
+- Technique: An avatar anchored on a table marker is animated procedurally with gesture, head-look and lip-sync generated from the audio input.
+- Try it: Make an AR menu card that, when scanned, brings up a talking 3D character who introduces the dishes (Reality Composer + TTS). Twist: the character looks at whoever is closest to it.
+
+#### Qbox: AR Magic Toy — Judith Amores (2014)
+- Video: https://www.youtube.com/watch?v=t3FpKu0xYQI
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, marker-based AR
+- Idea: Put a toy into a magic box and it comes alive on the screen.
+- What it is: Put a small toy inside a box and, through an AR interface, it comes to life, interacting with the box, the child and the world around it.
+- Technique: Marker tracking on the box registers an animated virtual version of the inserted toy on top of the physical one (likely marker/toy recognition).
+- Try it: Make a cardboard box with a recognition image, so different animations appear in AR when different toys go in (by swapping cards). Twist: shaking the box makes the character faint.
+
+#### Reality Masher: multi-person AR — Judith Amores (2015)
+- Video: https://www.youtube.com/watch?v=EfxMPXbvCLw
+- Interaction: Shared & Social, Spatial Mapping
+- Platform & tech: Headset, HoloLens
+- Idea: Several people in headsets share the same set of holograms in one room.
+- What it is: A Microsoft Research prototype with Jaron Lanier in which several people wearing early HoloLens headsets share and play with the same holograms in one room.
+- Technique: Multiple HoloLens devices share a common spatial anchor so holograms occupy the same physical location for every participant.
+- Try it: Use Lens Studio Connected Lens or an 8th Wall shared session so two phones see the same virtual pet and take turns feeding it. Twist: one person can only see it and the other can only hear it.
+
+#### Draw and Dance — Judith Amores, Anna Fusté (2017)
+- Video: https://www.youtube.com/watch?v=q_0HZ14EA_Y
+- Interaction: Drawing & Making, Voice & Sound, Play
+- Platform & tech: Phone, Unity, ARCore, Vuforia, API.AI
+- Idea: Draw a stick figure and it dances in the real world to the sounds and music around it.
+- What it is: You draw a stick figure on your phone and it becomes a dancing AR character that reacts to music and sounds around it, even perching on a Google Home speaker to dance to its output.
+- Technique: A 2D drawing is rigged into a stick-figure skeleton, anchored with ARCore, and animated by microphone amplitude and voice commands via API.AI.
+- Try it: Use Scratch, p5.js or Lens Studio to make a student-drawn character dance to microphone volume and place it in AR. Twist: two characters dance different steps when they hear different pitches.
+
+#### Invisible Highway — Judith Amores, Anna Fusté (2017)
+- Video: https://www.youtube.com/watch?v=9ZhqsuWF96I
+- Interaction: Drawing & Making, Tangible Objects, Spatial Mapping
+- Platform & tech: Phone, Unity, Tango, Arduino
+- Idea: Draw a road in AR and a real toy car drives along it.
+- What it is: Draw a path on the floor in AR and a real robot car follows it through the room, while the phone adds a generated highway and scenery along the route.
+- Technique: The drawn AR path is converted to world coordinates via Tango tracking and sent as waypoints to a robot car whose position is tracked to follow it.
+- Try it: Draw an AR route on the floor with a tablet, then have a micro:bit car drive along the coordinates, using an overhead camera for tracking if needed. Twist: add virtual obstacles on the road that the car must steer around.
+
+### Ken Nakagaki
+
+*Assistant Professor, University of Chicago; directs the Actuated Experience Lab (AxLab)*
+
+Former MIT Tangible Media researcher who builds shape-changing lines, robot swarms and mechanical shells that make digital information physically move around people.
+
+#### LineFORM — Ken Nakagaki, MIT Tangible Media Group — Hiroshi Ishii (2015)
+- Video: https://www.youtube.com/watch?v=XB1U0oTj8lE
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Desktop, Wearable, servo chain, shape-changing interface
+- Idea: A line that bends itself, both displaying information and constraining your hand.
+- What it is: A snake-like chain of servo modules that can bend into shapes, wrap the wrist, act as a physical graph line, or constrain the user's hand motion.
+- Technique: Chains serially linked servo segments and computes joint angles by inverse kinematics so the line can take on target curves or respond to touch.
+- Try it: Make a bendable physical line from straws and pipe cleaners, then use phone AR to show flowing data or a music waveform along it. Twist: when a classmate reshapes the line, the AR content changes with it.
+
+#### AnimaStage — Ken Nakagaki, MIT Tangible Media Group — Hiroshi Ishii (2016)
+- Video: https://vimeo.com/221508021
+- Interaction: Tangible Objects, Performance, Drawing & Making
+- Platform & tech: Desktop, actuated stage, paper craft
+- Idea: A moving stage turns paper cutouts and handmade props into puppets.
+- What it is: A tabletop stage with a hidden grid of actuators animates paper crafts and 3D-printed figures placed on it, turning hand-made props into puppets.
+- Technique: Drives an array of linear actuators under a flexible stage surface so objects attached to it are pushed, tilted and bounced to perform scripted motions.
+- Try it: Build a shaking paper-puppet stage with cardboard and phone vibration (or a small motor), and overlay facial expressions and lines with phone AR. Twist: let the rhythm of the audience's clapping drive the stage's motion.
+
+#### ChainFORM — Ken Nakagaki, MIT Tangible Media Group — Hiroshi Ishii (2016)
+- Video: https://www.youtube.com/watch?v=Ler01uKHhcs
+- Interaction: Tangible Objects, Hands & Body
+- Platform & tech: Desktop, Wearable, modular servo chain, touch sensing, LEDs
+- Idea: Snap-together smart chains that can sense touch, display light and change shape.
+- What it is: Modular chains with built-in touch sensing, angle sensing and LEDs that can be snapped together into shape-changing strips, wearables or creatures.
+- Technique: Each module carries a servo, angle sensor, capacitive touch pad and LED on a shared bus, so a chain can both record and replay its own shape.
+- Try it: Build a prototype chain that "records its shape" from building blocks or paper links, and use phone AR to label each link with a color and value. Twist: wrap the chain around a wrist to make a wearable reminder.
+
+#### HERMITS — Ken Nakagaki, MIT Tangible Media Group — Hiroshi Ishii (2020)
+- Video: https://www.youtube.com/watch?v=nsi4DsiAWs8
+- Interaction: Tangible Objects, Play
+- Platform & tech: Desktop, toio robots, mechanical shells, 3D printing
+- Idea: Like hermit crabs changing shells, small robots gain new functions by crawling into different shells.
+- What it is: Small self-propelled robots dock into interchangeable mechanical shells - a lever, a crank, a vehicle - gaining new physical interactions like hermit crabs changing shells.
+- Technique: Uses toio robots with position tracking to drive into passive 3D-printed shells whose gears and levers convert robot motion into new actuation or input.
+- Try it: Design three cardboard shells for an RC car (a bulldozer blade, a flag and a little house) and label each shell's function in phone AR. Twist: have the car automatically recognize which shell it is wearing from a QR code.
+
+#### Buoyancé — Ken Nakagaki (2025)
+- Video: https://www.youtube.com/watch?v=v9mNKIILt_s
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Desktop, mobile robots, helium balloons, string reeling
+- Idea: Robots reel helium balloons up and down to form an interactive 3D display in mid-air.
+- What it is: Mobile robots reel helium balloons up and down by strings, forming floating 3D displays and interactive mid-air objects above a tabletop.
+- Technique: Each tabletop robot winds a tether to set balloon height while driving to set x-y position, so a swarm places floating points in 3D space.
+- Try it: Use balloons, string and manual raising and lowering to turn a tabletop into a mid-air bar chart, then add a label to each balloon with phone AR. Twist: when classmates pull a balloon to change its height, the data in AR updates with it.
+
+#### Shape n' Swarm — Ken Nakagaki (2025)
+- Video: https://www.youtube.com/watch?v=5u0M9yL7tyY
+- Interaction: Tangible Objects, Voice & Sound, Hands & Body
+- Platform & tech: Desktop, swarm robots, LLM, hand tracking
+- Idea: Sketch a shape with your hands and say one sentence, and a robot swarm forms it and brings it to life.
+- What it is: Users sculpt a shape with their hands and describe it in speech; an LLM plans how a swarm of small tabletop robots should arrange and move to represent and animate it.
+- Technique: Combines hand-sketched shape input with an LLM that outputs robot target positions and motion scripts for a swarm UI.
+- Try it: Have a classmate describe an animal by voice, let ChatGPT turn it into a set of coordinates, and have several classmates holding paper cards line up on the floor to form the shape. Twist: require the shape to move (for example, a bird flapping its wings).
+
+### Lightform (Brett Jones & Kevin Karsch)
+
+*Projected-AR hardware/software startup; Brett Jones was lead author of IllumiRoom and RoomAlive*
+
+Lightform built the LF1/LF2 projector-camera units and Lightform Creator so anyone could scan a scene and projection-map it in minutes.
+
+#### It's Lit! Projected AR Murals — Lightform (Brett Jones & Kevin Karsch) (2018)
+- Video: https://www.youtube.com/watch?v=XTR-NhJ9em8
+- Interaction: Projection, Drawing & Making
+- Platform & tech: Projection, Lightform, projection mapping
+- Idea: A hand-painted mural plus projected animation makes still letters light up.
+- What it is: Lettering artist Gemma O'Brien and Craig Winslow hand-paint a mural, then Lightform projects animated light that traces, fills and reveals the painted letters.
+- Technique: Scans the painted mural to extract its line work, then uses those edges as masks and paths for projected animated effects.
+- Try it: Have students write large letters with a black marker on white board, then use a projector and free projection-mapping software (such as MapMap) to send flowing light along the strokes. Twist: control the light's brightness with sound volume.
+
+#### Renegade Projected AR in Downtown Vegas — Lightform (Brett Jones & Kevin Karsch) (2018)
+- Video: https://www.youtube.com/watch?v=_RFa7f8If2c
+- Interaction: Projection, Location & City
+- Platform & tech: Projection, Lightform LF1, structured-light scanning, projection mapping
+- Idea: Ride a projector bike that scans and projects as it goes, turning city walls into AR murals.
+- What it is: A Lightform projector on a cargo bike rides through downtown Las Vegas at night, scanning building facades and instantly mapping animated graphics onto them.
+- Technique: The projector-camera unit projects structured-light patterns to capture a depth/edge map of the facade, then auto-aligns effects to its edges.
+- Try it: At night, use a phone projector or small projector to cast a pre-made animation onto a campus wall, then photograph the wall and trace its outlines in Keynote to align it. Twist: the projection must make use of a real crack or window in the wall.
+
+#### Lightform LF2 and Lightform Creator — Lightform (Brett Jones & Kevin Karsch) (2019)
+- Video: https://www.youtube.com/watch?v=uTTVjHoH734
+- Interaction: Projection, Tangible Objects, Spatial Mapping
+- Platform & tech: Projection, LF2, computer vision, projection mapping
+- Idea: Scan a scene once and pick an effect for every object surface.
+- What it is: The LF2 projector-camera and Creator software scan a scene of objects and let designers select surfaces and apply animated effects in minutes.
+- Technique: Captures a high-resolution scan from the projector's viewpoint so every pixel of the scan corresponds to a projector pixel, removing manual calibration.
+- Try it: Stack a few white paper boxes on a table and use a projector with OBS/MapMap to give each face a different color animation. Twist: move one box and realign everything within one minute.
+
+#### NightBloom at the Conservatory of Flowers — Lightform (Brett Jones & Kevin Karsch) (2019)
+- Video: https://www.youtube.com/watch?v=45tjfOd4vzg
+- Interaction: Projection, Location & City, Perception & Effects
+- Platform & tech: Projection, Lightform LFC, projection mapping
+- Idea: Project onto real plants so the greenhouse 'blooms' at night.
+- What it is: An immersive night event at San Francisco's Conservatory of Flowers where projections wash over living plants and glasshouse structures.
+- Technique: Uses scan-based alignment to project organic animated textures onto irregular foliage and architecture.
+- Try it: Project slowly shifting colors and points of light onto a potted plant in the classroom. Twist: use the phone microphone so the light on the plant 'breathes' with people's voices.
+
+#### Project LFX: Steerable Projected Interfaces — Lightform (Brett Jones & Kevin Karsch) (2021)
+- Video: https://www.youtube.com/watch?v=3XIGxNP3-Mk
+- Interaction: Projection, Spatial Mapping, Information & UI
+- Platform & tech: Projection, steerable projector, pan-tilt mount, room scanning
+- Idea: A projector that turns its head to deliver interfaces onto any surface in the room.
+- What it is: A pan-and-tilt projector that moves projected interfaces around the room onto tables, walls and objects wherever they are needed.
+- Technique: Mounts a projector-camera on a motorized pan-tilt head and re-warps content in real time for each target surface in a scanned room model.
+- Try it: Put a phone projector on a rotating desk-lamp arm or turntable and turn it by hand to project a timer interface onto the desk, the wall and the door. Twist: use a servo and Arduino to make it follow a person automatically.
+
+### Luke Hurd
+
+*AR effects creator and educator (Spark AR, Lens Studio)*
+
+Early Instagram/Spark AR effect creator and teacher whose YouTube breakdowns explained face-mesh, occlusion and segmentation tricks; later built branded AR for National Geographic/NASA JPL and Coachella.
+
+#### 'Automaton' Instagram effect — Luke Hurd (2019)
+- Video: https://www.youtube.com/watch?v=VvYa5yF38xQ
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Spark AR, face mesh, scripting
+- Idea: Turn your face into a mechanical automaton.
+- What it is: A face effect that retextures and lights the face mesh to turn the user into a mechanical automaton with layered metal parts.
+- Technique: A custom texture and normal maps are applied to the tracked face mesh, with additional 3D parts attached to face anchors and lit in real time.
+- Try it: Use face-mesh texturing in Lens Studio to turn yourself into a museum relic or a robot. Twist: the parts on your face spring open when you open your mouth.
+
+#### 'Hole in the head' occlusion effect — Luke Hurd (2019)
+- Video: https://www.youtube.com/watch?v=j7klMWrJFHs
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Spark AR, occlusion
+- Idea: Open a hole in your head with a tiny world hidden inside.
+- What it is: A face-tracked effect cuts a convincing hole into the user's head where a tiny 3D scene sits inside.
+- Technique: An invisible occluder mesh around the head writes depth only, so a 3D model placed inside appears to sit in a cavity in the face.
+- Try it: Use an occluder material to open a hole in your forehead and put a small spinning planet inside. Twist: the scene inside the hole switches when you blink.
+
+#### 'Wichita' Instagram effect — Luke Hurd (2019)
+- Video: https://www.youtube.com/watch?v=CvVhlCBInvI
+- Interaction: Face, Perception & Effects, Voice & Sound
+- Platform & tech: Phone, Spark AR, segmentation, scripting
+- Idea: Turn a selfie into the endless triangular tunnel from the 'Seven Nation Army' video.
+- What it is: An Instagram effect inspired by the White Stripes' 'Seven Nation Army' video splits your face and background into layered, animated kaleidoscopic tunnels.
+- Technique: Person segmentation separates the user from the background, and scripted layers of scaled, offset camera textures create the recursive tunnel.
+- Try it: Use Spark/Lens Studio or p5.js to turn the camera feed into a tunnel that recurses endlessly toward the center. Twist: make the number of recursion layers follow the music volume.
+
+#### National Geographic / NASA JPL Mars AR filter — Luke Hurd (2021)
+- Video: https://www.youtube.com/watch?v=PSEej76-XfI
+- Interaction: Portals & Worlds, Information & UI, Location & City
+- Platform & tech: Phone, Spark AR, Instagram
+- Idea: On the day Perseverance landed, the newest Mars photos became an AR portal you could walk into.
+- What it is: Timed with the Perseverance landing, an Instagram AR portal let 220 million followers step into a 360° panorama of Jezero Crater made from images only hours old.
+- Technique: A world-anchored portal masks a spherical 360° panorama so it is visible only through the door, updated with near-real-time rover imagery.
+- Try it: Make an AR portal from a real 360 panorama photo of your school, space or the sea floor. Twist: the scene inside the portal automatically switches to a new photo every day.
+
+#### Charlie Parker memorial Custom Landmarker — Luke Hurd (2022)
+- Video: https://www.youtube.com/watch?v=PdiAQvRs-50
+- Interaction: Location & City, Tangible Objects, Perception & Effects
+- Platform & tech: Phone, Lens Studio, Custom Landmarker
+- Idea: Turn a real memorial statue into an AR stage, with effects fitted precisely to its shape.
+- What it is: Using Lens Studio's Custom Landmarker, a real Charlie Parker memorial statue is scanned so AR effects wrap precisely around the sculpture on site.
+- Technique: A pre-scanned 3D model of the statue is used as a tracking target so the lens localizes against the physical monument and aligns effects to it.
+- Try it: Pick a sculpture or door sign on campus and build an AR effect fitted to it with Lens Studio Custom Landmarker or 8th Wall. Twist: make the effect tell the history of the object.
+
+#### Coachella: A Virtual Adventure — Luke Hurd (2022)
+- Video: https://www.youtube.com/watch?v=RsR3wLgIQKI
+- Interaction: Performance, Location & City, Portals & Worlds
+- Platform & tech: Phone, Spark AR, Instagram
+- Idea: Build an AR adventure for a music festival that mixes the real and the virtual.
+- What it is: A case study of AR experiences built for Coachella that let festival-goers and remote fans unlock virtual worlds around the event.
+- Technique: Location- and marker-triggered Instagram effects deliver themed AR scenes around the festival (likely world-anchored portals and target tracking).
+- Try it: Make an AR treasure hunt for a school event where each of three venues reveals a virtual scene and collecting all three unlocks the finale. Twist: online viewers can join with the same effect.
+
+### Michael Nebeling
+
+*Associate Professor, University of Michigan School of Information; Information Interaction Lab*
+
+Creates rapid prototyping tools that let non-programmers make AR/VR from paper, Play-Doh and video (ProtoAR, 360proto, XRDirector).
+
+#### ProtoAR — Michael Nebeling (2018)
+- Video: https://www.youtube.com/watch?v=XSmxJHmlaOs
+- Interaction: Drawing & Making, Tangible Objects
+- Platform & tech: Phone, photogrammetry, ARCore, paper prototyping
+- Idea: Draw on paper, sculpt with clay, snap a photo, and get a working AR prototype.
+- What it is: Designers sketch on paper and shape Play-Doh, capture them with a phone, and immediately place the captured 2D/3D assets in a working mobile AR prototype.
+- Technique: Captures sketches as image layers and clay models via multi-angle photos turned into 3D, then streams them into a marker/plane-based AR viewer.
+- Try it: Have students draw interfaces with pen and paper and sculpt characters from clay, scan them with a phone (such as Reality Composer or Polycam), and arrange them in AR for a demo. Twist: build an AR tour prototype in 30 minutes.
+
+#### 360proto — Michael Nebeling (2019)
+- Video: https://www.youtube.com/watch?v=CY9xwOA5cmQ
+- Interaction: Drawing & Making, Portals & Worlds
+- Platform & tech: Phone, Headset, 360 paper templates, WebXR
+- Idea: Sketch a 360-degree scene on paper, snap a photo, and step inside it in a headset.
+- What it is: Paper sketches drawn on equirectangular 360 grids are photographed and instantly viewed as immersive VR/AR scenes, with layers for interactive prototypes.
+- Technique: Maps hand-drawn sketches on a distorted 360 grid template onto a sphere around the viewer, with layered sketches for AR overlays.
+- Try it: Print an equirectangular grid sheet, have students draw a room on it, then photograph it and browse it in a phone panorama viewer. Twist: overlay a second sketch layer of 'AR labels' on the same scene.
+
+#### MRAT: Mixed Reality Analytics Toolkit — Michael Nebeling (2020)
+- Video: https://www.youtube.com/watch?v=DG5pqrQPdBc
+- Interaction: Information & UI, Gaze & Attention, Spatial Mapping
+- Platform & tech: Headset, Unity, HoloLens, interaction logging
+- Idea: Draw where users walked and looked in MR as traces in space.
+- What it is: A toolkit that logs and visualises how users move, look and interact in mixed reality apps, replaying their paths and gaze as 3D traces in the room.
+- Technique: Instruments Unity MR apps to record head pose, gaze and input events and renders them as in-situ 3D heatmaps and trails.
+- Try it: Use phone AR to record where a classmate's phone moves during a treasure hunt in the classroom, then replay it in AR as colored trails. Twist: use color to show dwell time and discuss the design problems it reveals.
+
+#### XRDirector — Michael Nebeling (2020)
+- Video: https://www.youtube.com/watch?v=mMp_hzLp3Yc
+- Interaction: Shared & Social, Performance, Drawing & Making
+- Platform & tech: Phone, Headset, shared AR, HoloLens, role-based authoring
+- Idea: Split roles like on a film set: director, actors and camera rehearse together in AR.
+- What it is: A role-based collaborative authoring tool where one person acts as director, others as actors or camera, puppeteering virtual characters in AR together like filming a scene.
+- Technique: Synchronises a shared AR scene across devices and assigns each device a role with its own controls for moving characters, cameras and timelines.
+- Try it: Work in groups with Reality Composer or a shared AR app: one person acts as director and calls out instructions while two others each control a virtual character with a phone to rehearse a 30-second skit. Twist: at the end, the camera operator screen-records the final cut on their phone.
+
+#### XRStudio — Michael Nebeling (2021)
+- Video: https://www.youtube.com/watch?v=bYLXVaLTdMo
+- Interaction: Performance, Shared & Social, Information & UI
+- Platform & tech: Headset, Desktop, virtual production, mixed reality capture, live streaming
+- Idea: Mix a teacher's XR lecture into a live stream for students to watch.
+- What it is: A virtual production system for teaching in XR: the instructor's immersive session is mixed with real camera video and live-streamed so remote students can follow.
+- Technique: Composites the instructor's tracked XR view with external camera footage and scene cameras into multiple switchable streams.
+- Try it: Use OBS to combine a classmate's phone AR view with the classroom camera into a live stream while they explain a 3D model in AR. Twist: viewers change the model's color in AR through live chat comments.
+
+#### Reframe — Michael Nebeling (2024)
+- Video: https://www.youtube.com/watch?v=TFdgx44l6FE
+- Interaction: Drawing & Making, Information & UI, Shared & Social
+- Platform & tech: Phone, Headset, AR storyboarding, threat modeling
+- Idea: Act out privacy-threat scenarios with AR storyboards in real space.
+- What it is: An AR storyboarding tool where designers place characters and events in the real space to act out and analyse security and privacy threats of AR apps.
+- Technique: Provides placeable character and annotation primitives in AR plus a threat-modelling framework to structure character-driven scenarios.
+- Try it: Use phone AR to place virtual figures for 'user', 'bystander' and 'attacker' in the classroom, act out a scene of someone secretly filming with AR glasses, and discuss how to design protections. Twist: each group designs a privacy patch for another group's scene.
+
+### Microsoft Research Cambridge / I3D — Shahram Izadi
+
+*Led the Interactive 3D Technologies group at Microsoft Research (KinectFusion, HoloDesk, Holoportation); now leads Android XR at Google*
+
+Shahram Izadi's teams at Microsoft Research built KinectFusion real-time 3D reconstruction, the HoloDesk situated see-through display and Holoportation, live 3D capture of people streamed into HoloLens. He later co-founded perceptiveIO and now leads AR/XR at Google.
+
+#### KinectFusion — Microsoft Research Cambridge / I3D — Shahram Izadi (2011)
+- Video: https://www.youtube.com/watch?v=RSh8Voanp3c
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Desktop, Kinect, GPU, dense SLAM
+- Idea: Sweep a Kinect around once to rebuild the whole room live, and virtual particles can hit the real table.
+- What it is: Sweep a Kinect around a room and a dense 3D model is built in real time; virtual particles then bounce off and splash onto real surfaces.
+- Technique: Depth frames are aligned with ICP to estimate camera pose and fused into a GPU truncated signed distance function (TSDF) volume, whose ray-cast surface serves as a collision mesh for virtual particles.
+- Try it: Use AR Foundation Meshing on a LiDAR iPhone to generate a live room mesh, then scatter thousands of virtual particles and let them bounce and pile up on the real table and sofa. Twist: replace the particles with something that 'grows' (moss, vines) and spreads along the mesh.
+
+#### HoloDesk — Microsoft Research Cambridge / I3D — Shahram Izadi (2012)
+- Video: https://www.youtube.com/watch?v=OlSyCoqOmhU
+- Interaction: Hands & Body, Tangible Objects
+- Platform & tech: Desktop, Kinect, beam splitter, head tracking
+- Idea: Reach under a half-mirror and catch and toss virtual balls with your real hands.
+- What it is: A see-through display over a desk lets you reach under it and juggle, grasp and share virtual 3D objects with your real hands, with correct occlusion.
+- Technique: A beam splitter shows a display's image in the volume under it, a head-tracking camera provides view-dependent rendering, and a Kinect's depth of the hands is converted into particle proxies that physically interact with and occlude virtual objects.
+- Try it: Build a "Pepper's ghost" box from a tablet and a sheet of acrylic tilted at 45 degrees, and feed the hand keypoints detected by MediaPipe into a physics engine so your hand can nudge virtual cubes inside the box. Twist: put a real object in the box and make the virtual objects move around it.
+
+#### SemanticPaint — Microsoft Research Cambridge / I3D — Shahram Izadi (2015)
+- Video: https://www.youtube.com/watch?v=z_TcWC7yjj0
+- Interaction: Spatial Mapping, Voice & Sound, Hands & Body
+- Platform & tech: Desktop, KinectFusion, online learning
+- Idea: Point and speak while scanning a room, and the system learns to recognize every piece of furniture.
+- What it is: While scanning a room, the user touches objects and names them by voice; the system learns and labels chairs, tables and walls in the live 3D map.
+- Technique: A KinectFusion-style reconstruction is labeled online: user touch plus a spoken label seeds voxels, and a streaming random-forest classifier with CRF smoothing propagates labels across the 3D map.
+- Try it: Scan a room with AR Foundation Meshing, let the user tap a patch of mesh and say its name (speech to text), color that region and store the label, and also show the detected plane classifications (table, wall, floor). Twist: tag objects with emotions or memories instead of names.
+
+#### Holoportation — Microsoft Research Cambridge / I3D — Shahram Izadi (2016)
+- Video: https://www.youtube.com/watch?v=84ngPFBWLVI
+- Interaction: Shared & Social, Hands & Body
+- Platform & tech: Headset, HoloLens, depth camera rig, Fusion4D
+- Idea: Teleport a faraway person live as a life-size hologram standing in front of you.
+- What it is: Rings of depth cameras capture people in full 3D and stream them live into HoloLens, so a remote person appears life-size in your room; conversations can be recorded and replayed at miniature scale.
+- Technique: Multiple RGB-D camera pods capture a person from all sides, the Fusion4D pipeline fuses them into a temporally consistent textured mesh in real time, and it is compressed and streamed to a HoloLens where it is rendered anchored in the room.
+- Try it: Record a volumetric video (or depth point cloud) with Record3D or Polycam on an iPhone, import it into Unity, and play it back at reduced scale on a tabletop in HoloKit or phone AR, like a "mini you" talking. Twist: make the playback pausable and viewable from behind, and record a message you want to leave for your future self.
+
+#### Mobile Holoportation — Microsoft Research Cambridge / I3D — Shahram Izadi (2017)
+- Video: https://www.youtube.com/watch?v=nTkFO2xNkIk
+- Interaction: Shared & Social
+- Platform & tech: Headset, HoloLens, depth cameras, LTE streaming
+- Idea: A person is holographically "teleported" live even from inside a moving car.
+- What it is: A car-mounted version of Holoportation streams a passenger's live 3D capture over a mobile network into a remote HoloLens.
+- Technique: Depth cameras in the car capture the passenger, and the mesh is compressed aggressively (low-resolution geometry plus video-coded textures) to fit an LTE uplink before reconstruction on the remote HoloLens.
+- Try it: Capture a point cloud of a person with a phone's front depth camera (or MediaPipe depth estimation), send it at very low bandwidth over WebRTC to another phone for display in AR, and test the lowest acceptable point count and frame rate. Twist: send only the skeleton and voice, and rebuild the person as a cartoon avatar on the receiving end.
+
+#### Android XR glasses live demo (TED) — Microsoft Research Cambridge / I3D — Shahram Izadi (2025)
+- Video: https://www.youtube.com/watch?v=gElClXpg4J0
+- Interaction: Information & UI, Voice & Sound, Gaze & Attention
+- Platform & tech: Headset, Android XR, Gemini
+- Idea: Walk on stage wearing AI glasses that remember where you just put your keys.
+- What it is: On the TED stage Izadi demos prototype Android XR glasses with Gemini: live translation, memory of where you left objects, and contextual help overlaid in a see-through display.
+- Technique: The glasses stream camera frames and audio to a multimodal model (Gemini), which returns translations, object memory and answers that are rendered as text in a monocular see-through display.
+- Try it: Build a 'memory glasses' prototype with a phone camera and a multimodal LLM API: capture a frame every few seconds and have the model log where objects are, so that when you ask 'where are my keys?' it marks the last place it saw them in the AR view. Twist: have it remember only one thing you often lose, and discuss where the privacy boundaries should be.
+
+### Molmol Kuo
+
+*Artist; co-founder of YesYesNo; SFPC teacher*
+
+Taiwanese-born artist working with AR, body tracking and storytelling; co-founded the interactive studio YesYesNo with Zach Lieberman and was artist-in-residence for AR at Google Arts & Culture and Adobe.
+
+#### Audio Walking Tour (AR) — Molmol Kuo (2017)
+- Video: https://www.youtube.com/watch?v=d52-71PXlmg
+- Interaction: Voice & Sound, Hands & Body
+- Platform & tech: Phone, ARKit, openFrameworks
+- Idea: Walk into oral histories of border crossing through AR and your own movement.
+- What it is: An AR documentary piece in which border-crossing interview stories are tied to paper documents and body movement, so listeners walk and move through the stories in space.
+- Technique: Image tracking recognises the printed documents as anchors, and ARKit world tracking positions audio clips relative to them so that the listener's movement between spots selects and pans the stories.
+- Try it: Interview a classmate about a migration or moving story, split the recording into segments, and attach them to image anchors on a few paper documents or tickets (AR Foundation Image Tracking or 8th Wall), so you hear whichever segment belongs to the paper you walk up to. Twist: make one segment audible only when you crouch or bend down.
+
+### Morten Just
+
+*Designer & indie developer (Rotato, Design Camera); former Google designer*
+
+Danish designer and indie Mac/iOS developer who prototypes interface ideas in public; his ARKit experiments led to the Design Camera and Rotato apps.
+
+#### Augmented Reality Web Pages on Physical Books — Morten Just (2018)
+- Video: https://www.youtube.com/watch?v=OTqkN254mrc
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, ARKit 2, image tracking
+- Idea: Recognize a physical book and wrap its web page information around it.
+- What it is: A physical book is recognised and wrapped with its live web page—reviews and details float around the cover.
+- Technique: The book cover is tracked as a reference image, and web content (reviews, details) is rendered as panels around the cover's tracked pose.
+- Try it: Recognize a book cover and show a card with its rating and a one-line review next to it. Twist: show a sentence a classmate wrote about the book instead.
+
+#### Counting Foreign Currency in AR — Morten Just (2018)
+- Video: https://www.youtube.com/watch?v=HneMHLBj_lQ
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, ARKit 2, image tracking
+- Idea: Recognize foreign banknotes on a table and show the converted amount right on each note.
+- What it is: Banknotes on a table are recognised and their converted value is shown on top of each note.
+- Technique: Each banknote design is a reference image, so detected notes get an anchor with a label showing its value converted with an exchange rate.
+- Try it: Use image tracking to recognize a few kinds of banknotes (or homemade token cards), show the converted amount on each, and add up the total. Twist: express the amount as how many cups of bubble tea it buys.
+
+#### Design Camera 3D + AR — Morten Just (2018)
+- Video: https://www.youtube.com/watch?v=ShWBcbvUGnc
+- Interaction: Information & UI, Spatial Mapping
+- Platform & tech: Phone, ARKit, SceneKit
+- Idea: Place a realistic iPhone showing your app design on any real table and photograph it.
+- What it is: Places an infinitely scalable, photoreal iPhone showing your app design on any real surface for mockup photography.
+- Technique: A photoreal phone model with the app design as a screen texture is placed on a detected plane, using light estimation and contact shadows for realistic mockup shots.
+- Try it: Use Reality Composer or AR Foundation to place a phone model showing your own design screenshots on a table, add shadows and take a photo. Twist: scale it up to the size of a building and take another shot.
+
+#### Instructions in AR — Morten Just (2018)
+- Video: https://www.youtube.com/watch?v=Xwm4vidjtp0
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, ARKit 2, image tracking
+- Idea: Stick handwritten instructions onto the real device they explain.
+- What it is: Hand-written technical instructions are attached to the real device they explain, using live image tracking.
+- Technique: A photo of the device's panel is used as a reference image, and handwritten instruction images are attached as overlays at fixed offsets on the tracked image.
+- Try it: Photograph a printer or coffee machine panel as the recognition image and pin handwritten step instructions next to the matching buttons. Twist: steps appear one at a time, and each tap reveals the next.
+
+#### Kitchen Timers in Augmented Reality — Morten Just (2018)
+- Video: https://www.youtube.com/watch?v=3c114LvhJIA
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, ARKit 2
+- Idea: Float countdown timers above the pots cooking on the stove.
+- What it is: Countdown timers float above real pots on the stove, rendered with motion blur, adaptive lighting and depth of field.
+- Technique: Timers are placed as world anchors above detected pots, and renderer features (light estimation, motion blur, depth of field) make the overlay match the camera image.
+- Try it: Tap on a pot to place a floating countdown that turns red and rings when time is up. Twist: run several timers at once, automatically sorted and highlighted by time remaining.
+
+#### Stenciling in Augmented Reality — Morten Just (2018)
+- Video: https://www.youtube.com/watch?v=KjWL_zHOysM
+- Interaction: Drawing & Making, Tangible Objects
+- Platform & tech: Phone, ARKit
+- Idea: Cast a reference image onto paper so anyone can trace a good drawing.
+- What it is: Projects a reference image onto paper through the phone so you can trace it by hand, giving instant drawing skills.
+- Technique: A semi-transparent reference image is anchored to the paper's plane (via plane detection or image tracking), so it stays registered while the user traces it by hand.
+- Try it: Use plane detection to fix a semi-transparent line drawing onto a sheet of white paper on the desk, and trace it. Twist: show the line drawing in steps, outline first, then details.
+
+### Sander Veenhof
+
+*AR artist; co-organiser of 'We AR in MoMA'*
+
+Dutch artist who has staged uninvited AR interventions since 2010 (MoMA, Venice Biennale) and now prototypes playful social experiments for AR glasses.
+
+#### We AR in MoMA — Sander Veenhof, Mark Skwarek (2010)
+- Video: https://www.youtube.com/watch?v=b9T2LVM7ynM
+- Interaction: Location & City, Portals & Worlds
+- Platform & tech: Phone, Layar, GPS
+- Idea: Show up uninvited and stage an AR exhibition inside MoMA.
+- What it is: An uninvited AR exhibition inside MoMA New York: artworks by Manifest.AR members were geolocated into the galleries and visible only via the Layar app.
+- Technique: Geolocated Layar layers placed virtual works at GPS coordinates inside MoMA, exploiting the fact that the location-based layer could not be controlled by the institution.
+- Try it: Stage an 'uninvited' WebAR exhibition in a formal gallery at your school, with each person placing one work and spreading it via QR codes. Twist: every work must respond to a real piece on display in that gallery.
+
+#### Distant Hand — Sander Veenhof (2021)
+- Video: https://www.youtube.com/watch?v=ZdudbnDh7tk
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Headset, hand tracking, Snap Spectacles
+- Idea: Stretch out a long AR hand that can reach faraway things.
+- What it is: A hand-tracked AR prototype that extends your hand far into the space in front of you to touch distant objects.
+- Technique: Hand tracking provides the wrist and finger joints, and a non-linear mapping extends the virtual hand far along the arm's ray so it can touch distant objects (akin to the Go-Go interaction technique).
+- Try it: Use MediaPipe Hands or HoloKit hand tracking to build a virtual hand that grows non-linearly as you extend your arm, and touch distant virtual objects with it. Twist: make the long hand leave touch marks on real objects it passes.
+
+#### Multi-person AR fashion — Sander Veenhof (2021)
+- Video: https://www.youtube.com/watch?v=pYutRPaBYFM
+- Interaction: Hands & Body, Shared & Social
+- Platform & tech: Phone, body tracking, Lens Studio
+- Idea: Several people wear AR digital fashion at the same time.
+- What it is: Real-time AR garments dress several people at once, exploring shared digital fashion on the street.
+- Technique: Lens Studio multi-body tracking attaches garment meshes or cloth simulations to several detected skeletons in the same camera frame.
+- Try it: Use Lens Studio multi-body tracking to dress everyone in the frame in one matching digital outfit. Twist: let the distance between two people set the color or pattern of the clothes, blending when they come close.
+
+#### Subway PONG — Sander Veenhof (2021)
+- Video: https://www.youtube.com/watch?v=n8FF1kxm11o
+- Interaction: Play, Shared & Social
+- Platform & tech: Headset, Snap Spectacles
+- Idea: Play Pong with AR glasses in a subway car.
+- What it is: A playful AR glasses experiment: a game of Pong played across a real subway carriage with fellow passengers.
+- Technique: Likely Spectacles world tracking with a shared or co-located session places a Pong field across the carriage, with head or hand pose controlling the paddle.
+- Try it: Use two phones in the same AR space to build a room-spanning Pong game, with each phone's position acting as the paddle. Twist: set the court in a public place such as an elevator or corridor, with rules that require strangers to cooperate.
+
+#### Urban Lasergame AR — Sander Veenhof (2021)
+- Video: https://www.youtube.com/watch?v=8wDKckP55tM
+- Interaction: Play, Location & City, Shared & Social
+- Platform & tech: Phone, AR
+- Idea: Turn city streets into an AR laser-tag battlefield.
+- What it is: A location-based AR laser tag game played in city streets.
+- Technique: Likely GPS positioning plus camera-based person detection (or shared AR sessions) registers hits when a player aims the phone at another player.
+- Try it: Build a simple laser-tag game with WebAR and person detection, where aiming at a person in the frame and tapping counts as a hit. Twist: a hit does not knock the other player out but leaves an AR decoration on them.
+
+#### AI style transfer on live AR camera — Sander Veenhof (2023)
+- Video: https://www.youtube.com/watch?v=XU8D91ljJ9A
+- Interaction: Perception & Effects
+- Platform & tech: Headset, style transfer, AR glasses
+- Idea: AI turns the world in front of you into a painting in real time.
+- What it is: Live AI style transfer applied to an AR glasses camera, turning the surroundings into a painting in real time.
+- Technique: Camera frames from AR glasses are passed through a neural style-transfer model (on-device or remote) and the stylised frames are displayed back with low latency.
+- Try it: Use style transfer in ml5.js or Lens Studio to render the phone camera feed in a painter's style in real time. Twist: stylize only the people or only the background, and compare what each choice means.
+
+### Torin Blankensmith
+
+*Creative technologist, real-time graphics artist, Parsons adjunct*
+
+Ex-Google Creative Lab technologist (co-built AR Wormhole) and co-creator of Shader Park; his free MediaPipe and body-tracking plugins for TouchDesigner put camera-based body interaction in thousands of students' hands.
+
+#### Echoes — Torin Blankensmith (2023)
+- Video: https://x.com/blankensmithing/status/1737307286572298738
+- Interaction: Hands & Body, Shared & Social, Perception & Effects
+- Platform & tech: Projection, Desktop, TouchDesigner, MediaPipe
+- Idea: Every move you make summons the most similar move made by an earlier visitor.
+- What it is: At Art Basel Miami, each visitor's live pose is matched to the closest pose from previous visitors, so your movement is echoed by people who stood there before you.
+- Technique: Pose landmarks from a camera are stored per visitor, and a nearest-neighbor search retrieves the closest past pose frame to display alongside the live body.
+- Try it: Record a pose library of the whole class with MoveNet, then when a newcomer strikes a pose, show 'the classmate most like you' on screen. Twist: the closer the match, the sharper the image.
+
+#### MediaPipe body tracking plugin for TouchDesigner — Torin Blankensmith (2023)
+- Video: https://x.com/blankensmithing/status/1684227303406989312
+- Interaction: Hands & Body, Face
+- Platform & tech: Desktop, TouchDesigner, MediaPipe
+- Idea: A no-barrier webcam body-tracking plugin that lets anyone make motion-driven visuals.
+- What it is: A free, no-setup webcam plugin tracks face, hands and body in TouchDesigner, shown driving real-time visuals over the performer's body.
+- Technique: MediaPipe models run inside an embedded browser in TouchDesigner and stream landmark data as channels to drive visuals.
+- Try it: Use this plugin (or MediaPipe on the web) to build a 'body instrument' in which different joints play different notes when they touch areas on the screen. Twist: you can only play with your eyes closed.
+
+#### Conducting a virtual choir like Jacob Collier — Torin Blankensmith (2024)
+- Video: https://x.com/blankensmithing/status/1769508579613040847
+- Interaction: Hands & Body, Voice & Sound, Performance
+- Platform & tech: Desktop, TouchDesigner, MediaPipe
+- Idea: Conduct harmonies in the air with hand gestures, the way Jacob Collier conducts his audience as a choir.
+- What it is: Hand gestures tracked from a webcam conduct pitches and harmonies, imitating how Jacob Collier conducts his audience as a choir.
+- Technique: Hand landmark height and spread from MediaPipe are mapped to musical pitch and chord voicing, with graphics overlaid on the live camera image.
+- Try it: Use MediaPipe Hands and Tone.js so that hand height controls pitch and hand spread controls the chord. Twist: have two people play together as a duet.
+
+#### Immersive Memory (AlUla) — Torin Blankensmith (2024)
+- Video: https://x.com/blankensmithing/status/1858627004398268491
+- Interaction: Location & City, Hands & Body, Projection
+- Platform & tech: Projection, TouchDesigner, body tracking, spatial audio
+- Idea: Among the ruins of an old town, visitors' movements call up images and spatial sound from the memory of the incense route.
+- What it is: An interactive installation across three spaces in AlUla's Old Town, a UNESCO site of the incense trade, responds to visitors with visuals and a spatial audio score.
+- Technique: Camera-based body tracking drives projected generative visuals in each room, tied together by a multichannel spatial audio score (likely MediaPipe/depth tracking).
+- Try it: Make a 'memory projection' for an old building on campus, where old photos appear as particles when someone approaches the wall. Twist: the full photo only becomes clear when several people approach at once.
+
+#### Hand-tracking watercolor — Torin Blankensmith (2025)
+- Video: https://x.com/blankensmithing/status/1899948380299944296
+- Interaction: Drawing & Making, Hands & Body, Perception & Effects
+- Platform & tech: Desktop, TouchDesigner, MediaPipe
+- Idea: Wave your hands in the air and watercolor blooms across the picture.
+- What it is: Moving your hands in front of a webcam leaves blooming watercolor strokes that bleed and dry over the live image.
+- Technique: Fingertip positions inject color into a feedback/diffusion shader that simulates pigment spreading and edge darkening.
+- Try it: Make mid-air watercolor with a p5.js feedback buffer and MediaPipe fingertip tracking. Twist: when you make a fist, the paint 'dries' and stays fixed.
+
+#### I/O Brush re-creation (Genuary) — Torin Blankensmith (2025)
+- Video: https://x.com/blankensmithing/status/1875375318946795571
+- Interaction: Drawing & Making, Hands & Body, Tangible Objects
+- Platform & tech: Desktop, TouchDesigner, MediaPipe
+- Idea: Dip your hand into reality to pick up colors and textures, then paint with them.
+- What it is: Re-creating MIT Tangible Media's I/O Brush, a webcam-tracked hand 'picks up' colors and textures from real objects and paints with them on screen.
+- Technique: MediaPipe hand tracking finds the fingertip, samples the camera pixels under it as the brush, then paints strokes into a feedback canvas.
+- Try it: Use p5.js and MediaPipe Hands so that touching a real object with your fingertip picks up its color, then paint in the air with it. Twist: pick up a short clip of live video instead of a color.
+
+### URBANSCREEN
+
+*Artist collective and studio for architectural projection*
+
+Collective founded in 2005 that pioneered large-scale 'architectural staging' — façade projections such as 555 KUBIK and the Sydney Opera House sails — and 'augmented sculptures' where projection and custom-built forms are designed together.
+
+#### 555 KUBIK — URBANSCREEN (2009)
+- Video: https://www.youtube.com/watch?v=H8qcml3smAA
+- Interaction: Projection, Perception & Effects, Location & City
+- Platform & tech: Projection, 3D projection mapping, anamorphic animation
+- Idea: What if a house were dreaming? Make a boxy building look like it is bending and folding.
+- What it is: 'How it would be if a house was dreaming': the cube façade of Hamburg's Galerie der Gegenwart appears to bulge, fold and dissolve under a projected 3D animation.
+- Technique: A 3D model of the façade is animated with fake depth and lighting, then projected from the audience's viewpoint so the illusion of deformation holds.
+- Try it: Build a building from cardboard boxes, animate a deforming model of the same shape in Blender, and project it aligned from the viewer's position. Twist: change the viewing angle and discuss why the illusion disappears.
+
+#### Lighting the Sails (Sydney Opera House) — URBANSCREEN (2012)
+- Video: https://www.youtube.com/watch?v=snT8psrPxmA
+- Interaction: Projection, Perception & Effects, Location & City
+- Platform & tech: Projection, multi-projector mapping, 3D scan
+- Idea: The sails of the Sydney Opera House are taken apart, rebuilt and made to breathe in projection.
+- What it is: A projected homage to Jørn Utzon in which the Opera House sails appear to be unfolded, rebuilt and given a human, breathing expression.
+- Technique: Laser-scanned geometry of the curved shells guides multi-projector content that exaggerates their construction logic with simulated depth and light.
+- Try it: Use a curved sheet of paper or a lampshade as a "sail" and project a wireframe onto it that splits apart and reassembles. Twist: let the loudness of breathing control how much the "sail" billows.
+
+#### 26th Floor (Augmented Sculpture) — URBANSCREEN (2013)
+- Video: https://www.youtube.com/watch?v=4BUhNy1iUhc
+- Interaction: Projection, Perception & Effects, Tangible Objects
+- Platform & tech: Projection, augmented sculpture, projection mapping
+- Idea: Sculpture and projection are designed together, giving a white form a flowing skin of light.
+- What it is: An 'augmented sculpture' for the Four Seasons Hotel Beirut, where a white faceted object and its projected light skin were designed together.
+- Technique: A faceted physical sculpture is built from the same digital model used to author the projection, so every face receives perfectly aligned content.
+- Try it: Fold a polyhedron from white card, build the same model on the computer, and project different flowing colors face by face. Twist: pass a beam of "light" from face to face to form a continuous animation.
+
+#### 320° Licht — URBANSCREEN (2013)
+- Video: https://www.youtube.com/watch?v=X_31XyGBL7U
+- Interaction: Projection, Perception & Effects, Location & City
+- Platform & tech: Projection, multi-projector blending, generative graphics
+- Idea: Turn the inside of a giant gas holder into an ever-changing space of light.
+- What it is: Inside the 100-metre-high Gasometer Oberhausen, graphic patterns grow and change across 320 degrees of wall, turning the industrial cylinder into an immersive light space.
+- Technique: An array of projectors is blended across the cylindrical interior, with generative patterns designed to exploit the surface's extreme height.
+- Try it: Project vertically stretching patterns in a stairwell or corridor so people have to look up. Twist: make the patterns "grow" upward from wherever a viewer is standing.
+
+#### SOLANUM (Augmented Sculpture) — URBANSCREEN (2014)
+- Video: https://www.youtube.com/watch?v=ZSQ3N8FKyb8
+- Interaction: Projection, Tangible Objects, Perception & Effects
+- Platform & tech: Projection, augmented sculpture, digital fabrication
+- Idea: A layered physical sculpture and a close-fitting virtual skin merge into one.
+- What it is: A site-specific augmented sculpture in the JW Marriott Houston lounge: layered physical forms and a custom-fit virtual skin melt together into one evolving object.
+- Technique: Layered physical slices are fabricated from the same 3D design as the projection content, enabling pixel-accurate mapping on every layer edge.
+- Try it: Stack several layers of foam board into a form and project scan lines whose color changes from layer to layer. Twist: let the number of people present (counted by a camera) set the speed of the scan lines.
+
+#### Crystal Cloud (Fête des Lumières) — URBANSCREEN (2016)
+- Video: https://www.youtube.com/watch?v=82jYUtxbsCQ
+- Interaction: Projection, Perception & Effects, Location & City
+- Platform & tech: Projection, projection mapping, 3D model
+- Idea: A dialogue between crystal and cloud performed on a deconstructivist building.
+- What it is: The Coop Himmelb(l)au Musée des Confluences in Lyon is staged as a play between 'crystal' and 'cloud' — solid facets and soft vapour projected across its deconstructivist shell.
+- Technique: A precise 3D model of the irregular façade lets projected content switch between hard faceted lighting and soft volumetric effects.
+- Try it: Wrap two paper boxes, one in foil and one in cotton, project the same animation onto both, and compare the effect on each material. Twist: design a piece of imagery that "migrates" from one material to the other.
+
+### Will Pappenheimer
+
+*Artist; co-founder of Manifest.AR; professor at Pace University*
+
+Artist and founding member of the Manifest.AR collective (2010) who has made location-based AR interventions for over a decade — dancing glitch figures, falling voxels that 'paint' sites, and AR at the Venice Biennale.
+
+#### Outside the Wall — Will Pappenheimer (2018)
+- Video: https://www.youtube.com/watch?v=PSDzOSVX9NA
+- Interaction: Portals & Worlds, Tangible Objects, Spatial Mapping
+- Platform & tech: Phone, iOS AR app, iPad
+- Idea: Through a tablet, the wall at home breaks open and the outside world pours in.
+- What it is: A mixed-reality installation of a table, chair and domestic objects viewed through an iPad, where virtual elements break out of the domestic wall into the space.
+- Technique: An iOS AR app registers virtual content to a physical arrangement of furniture and objects so the scene extends beyond the real wall.
+- Try it: Arrange a table and a few everyday objects, and use AR to 'break open' the wall and show another world. Twist: when the objects are moved, the view beyond the wall changes too.
+
+#### CarDrop-V — Will Pappenheimer (2019)
+- Video: https://www.youtube.com/watch?v=4qRWk2jo0k0
+- Interaction: Spatial Mapping, Perception & Effects, Location & City
+- Platform & tech: Phone, mobile AR, physics animation
+- Idea: A virtual car falls from the sky and smashes into the real ground in front of you in slow motion.
+- What it is: Phone viewers watch a highly detailed virtual car fall from the sky and smash into the real ground in slow motion.
+- Technique: Mobile AR with ground-plane detection triggers a physics-driven slow-motion drop and impact animation of a car model.
+- Try it: Use Reality Composer's physics to drop a large object from the air onto the ground in slow motion. Twist: the viewer taps to choose the landing spot, and it leaves a permanent crater.
+
+#### Awkward Instance — Will Pappenheimer (2021)
+- Video: https://www.youtube.com/watch?v=GkQRj35QfZw
+- Interaction: Location & City, Perception & Effects, Hands & Body
+- Platform & tech: Phone, mobile AR, motion capture
+- Idea: Mismatched human skins and motion-capture data become dancing glitch ghosts.
+- What it is: Site-based AR 'paranormal apparitions' — glitchy dancing human forms made from stolen skins and mismatched motion-capture — appear in outdoor places.
+- Technique: Rigged 3D figures are driven by deliberately mismatched motion-capture clips and placed at sites with mobile AR.
+- Try it: Download characters and animations from Mixamo, deliberately apply motions to characters with the wrong proportions, and place them in AR. Twist: mix motions recorded by the whole class onto a single character.
+
+#### Starry Interpose (with Sarah Slifer Swift) — Will Pappenheimer (2021)
+- Video: https://www.youtube.com/watch?v=qcuWWhc2M_I
+- Interaction: Performance, Location & City, Perception & Effects
+- Platform & tech: Phone, mobile AR
+- Idea: Dancers perform a mixed-reality dance together with AR artworks and sculpture poses.
+- What it is: A dance performance at the Manship Artists Residency in which live choreography interacts with Pappenheimer's AR artwork and poses from Paul Manship's sculptures.
+- Technique: Mobile AR content is placed at the performance site and filmed through devices while dancers enact sculpture poses around the virtual objects.
+- Try it: Pick a sculpture on campus, choreograph a dance that imitates its pose, and film it with virtual elements placed beside it in phone AR. Twist: the virtual elements on the audience's phones copy the dancers' movements.
+
+#### Colorfield Weather App Series — Will Pappenheimer (2022)
+- Video: https://www.youtube.com/watch?v=FedxwbR4Z_0
+- Interaction: Spatial Mapping, Drawing & Making, Location & City
+- Platform & tech: Phone, mobile AR, voxel physics
+- Idea: Colored AR blocks fall from the sky and paint color-field paintings across buildings and terrain.
+- What it is: Virtual AR voxels fall from the sky or expand across a site, leaving trails that 'paint' colour-field paintings onto the environment's topography and architecture.
+- Technique: AR voxel particles with gravity and forces collide with detected surfaces and leave persistent coloured trails.
+- Try it: Use Unity AR Foundation or web AR to drop colored blocks that leave color on the floor plane. Twist: weather data such as temperature and wind speed decides the colors and the direction of the fall.
+
+#### Scorched Earth Policy (US Pavilion, Venice Biennale) — Will Pappenheimer (2026)
+- Video: https://www.youtube.com/watch?v=unvGcSgfaeM
+- Interaction: Location & City, Perception & Effects, Portals & Worlds
+- Platform & tech: Phone, geolocated AR
+- Idea: AR makes a national pavilion dry up, burn and fall apart before visitors' eyes.
+- What it is: An uninvited AR intervention at the 2026 Venice Biennale US Pavilion in which the pavilion appears to dry up and disintegrate into a burning wasteland around visitors.
+- Technique: Geolocated mobile AR overlays disintegration and fire effects registered to the pavilion architecture, recorded as screen captures.
+- Try it: Choose a campus building and overlay AR effects showing its weathering or climate damage '100 years from now'. Twist: let viewers choose between 'repair' and 'let it go' and see the two different outcomes.
+
+### Anna Fusté
+
+*Creative technologist and researcher (MIT Media Lab alumna)*
+
+Catalan creative technologist whose AR work uses paper, textiles and robots as tangible interfaces, from Google AR Experiments to MIT Media Lab research on computational thinking.
+
+#### Paper Cubes — Anna Fusté, Judith Amores (2017)
+- Video: https://www.youtube.com/watch?v=arOEUVO1rIw
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, Unity, Vuforia
+- Idea: Paper cubes become remote controls that make AR stick figures jump, turn and stop.
+- What it is: Printable paper cubes become physical controllers for a crowd of AR stick figures: show a cube and the figures jump, turn or stop, and an 'AI cube' makes them smarter.
+- Technique: Each cube face is a Vuforia image target; the recognized face and cube pose trigger behaviors for AR characters walking over the table.
+- Try it: Print a few patterned paper cubes and recognize them with 8th Wall or Vuforia, with each pattern mapped to a character action. Twist: two cubes placed close together combine into a new command.
+
+#### HyperCubes — Anna Fusté (2019)
+- Video: https://www.youtube.com/watch?v=GnVp4hrQ7QU
+- Interaction: Tangible Objects, Information & UI, Play
+- Platform & tech: Phone, AR markers, Unity
+- Idea: Line up paper cubes to write a 'program', and an AR character carries it out in order.
+- What it is: Children arrange paper cubes printed with markers as coding blocks; the phone reads the sequence and an AR character executes it in space, teaching computational thinking.
+- Technique: Paper cubes act as fiducial markers whose order and spatial arrangement are read as a sequence of instructions, and the result is animated in AR.
+- Try it: Make a set of paper 'code blocks' (forward, turn, jump) and have a phone read their order so an AR robot walks through a maze. Twist: add a 'loop' block.
+
+#### Kinetic AR: robot motion programming in AR — Anna Fusté (2020)
+- Video: https://www.youtube.com/watch?v=imirzyrjOu0
+- Interaction: Tangible Objects, Drawing & Making, Information & UI
+- Platform & tech: Phone, Vuforia Spatial Toolbox, Unity
+- Idea: Program a robot by drawing its path right on the floor.
+- What it is: Using a phone, you draw and edit a robot's motion path directly on the floor in AR and the physical robot follows it, making robot programming spatial and visual.
+- Technique: The AR interface tracks the robot and floor in a shared frame, and user-drawn spline paths are converted into motion commands sent to the robot.
+- Try it: Place a few waypoints on the floor in phone AR and have a robot vacuum or LEGO car pass through them in order. Twist: each waypoint can be set to make the robot stop and dance.
+
+### Can Büyükberber
+
+*Immersive new-media artist*
+
+Turkish-born artist working with projection mapping, domes, VR and AR; Adobe's immersive artist in residence and an early ARKit experimenter.
+
+#### Unfold 01 | Projection on Print — Can Büyükberber (2015)
+- Video: https://www.youtube.com/watch?v=pfeEgUcj0Ds
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection mapping
+- Idea: A projection laid exactly over a print makes the flat image fold and breathe like a living thing.
+- What it is: A morphogenesis-inspired form printed on a large canvas is overlaid with an exactly aligned projection, so the flat print seems to fold and breathe.
+- Technique: A projector is calibrated to the printed canvas so animated light and shadow are registered on top of the matching printed geometry.
+- Try it: Print a black-and-white geometric image and use a projector with MadMapper or TouchDesigner to align animated light and shadow precisely onto it. Twist: make the animation follow the rhythm of the ambient music.
+
+#### Unifield | Projection on Lasercut Sculpture — Can Büyükberber (2016)
+- Video: https://www.youtube.com/watch?v=H8jOvMXsZgc
+- Interaction: Projection, Perception & Effects, Tangible Objects
+- Platform & tech: Projection, projection mapping, laser cutting
+- Idea: Projection mapping on a laser-cut sculpture makes it look like a 4D object is passing through it.
+- What it is: A laser-cut sculpture based on Coxeter's higher-dimensional geometry is projection-mapped so light seems to reveal a 4D object rotating through it.
+- Technique: Projection mapping aligns rendered animation to the fabricated sculpture's facets so virtual light and motion appear to live on the physical form.
+- Try it: Fold a polyhedron from cardboard and use projection mapping to light up its faces in sequence, creating the illusion of rotation. Twist: change the direction of the rotating light when viewers walk by, detected with a camera.
+
+#### Invisible exhibition at the de Young (ARKit experiment) — Can Büyükberber (2017)
+- Video: https://www.youtube.com/watch?v=zC3XE6r5l0U
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Hold an invisible exhibition in a museum that can only be seen through a phone.
+- What it is: With Marpi, he placed generative 3D sculptures in the de Young Museum that are only visible through an iPad, an 'invisible exhibition' blurring what is real in the galleries.
+- Technique: A custom ARKit/Unity app anchors animated generative meshes to detected floor planes so they appear as sculptures standing in the real gallery.
+- Try it: Curate an "invisible exhibition" in a school hallway where each classmate uses Reality Composer to place a work visible only through a phone. Twist: the works appear only during certain times of day.
+
+#### Metafold 05, AR-activated digital print — Can Büyükberber (2024)
+- Video: https://www.youtube.com/watch?v=cwlwe4YgkuM
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Phone, image tracking AR
+- Idea: Scan a static print with a phone and a moving 3D sculpture grows out of it.
+- What it is: A printed artwork from his Metafold series springs into an animated 3D sculpture when viewed through a phone, extending the static print into motion.
+- Technique: Image-target tracking recognizes the print and overlays a registered animated 3D version on top of it (likely via an image-marker AR app).
+- Try it: Use one of your own drawings as an image-recognition marker (Artivive, Adobe Aero or 8th Wall all work) and make things fly out of the picture. Twist: when viewed from the side, show the 'world behind' the picture.
+
+#### Mixed Reality vs. Reality — Can Büyükberber (2024)
+- Video: https://www.youtube.com/watch?v=0qEePYKqr1U
+- Interaction: Perception & Effects, Play, Spatial Mapping
+- Platform & tech: Headset, Wearable, Meta Quest 3, Ray-Ban Meta
+- Idea: Do the same action once in mixed reality and once in the real world, and compare how 'physical' each feels.
+- What it is: Side-by-side POV captures compare playing ping-pong in Quest 3 passthrough mixed reality and with Ray-Ban Meta glasses in plain reality, noting how occlusion and gravity feel different.
+- Technique: Quest 3 passthrough MR with scene understanding simulates the ball, while the glasses record the real throw for a direct comparison of occlusion and physics.
+- Try it: Have a classmate do the same action (tossing a paper ball into a basket) once in an AR version and once for real, then edit the two side by side. Twist: secretly change the gravity in the AR version and have viewers spot the difference.
+
+### Daniel Beauchamp (Pushmatrix)
+
+*Spatial-computing experimentalist; Head of AR/VR at Shopify*
+
+Principal AR/VR engineer at Shopify who posts short, often viral hand-tracking and mixed-reality experiments under the name Pushmatrix.
+
+#### AR glasses superpowers for illustrators — Daniel Beauchamp (Pushmatrix) (2021)
+- Video: https://x.com/pushmatrix/status/1364224471259697153
+- Interaction: Drawing & Making, Tangible Objects
+- Platform & tech: Headset, Unity, hand tracking
+- Idea: Imagine the superpowers AR glasses could give illustrators: drawings on paper come to life.
+- What it is: A prototype imagining how AR glasses could let an illustrator or animator draw and see animated overlays directly on paper and the desk.
+- Technique: Likely combines a tracked sheet of paper (image or plane tracking) with animated overlays rendered in-place so drawings and animation guides align with the physical page.
+- Try it: Use image tracking to recognize a hand-drawn sketch and overlay a moving animation on the paper. Twist: let a character in the drawing walk off the page onto the desk.
+
+#### Live Blender preview on Vision Pro — Daniel Beauchamp (Pushmatrix) (2024)
+- Video: https://x.com/pushmatrix/status/1767898459024040088
+- Interaction: Drawing & Making, Information & UI
+- Platform & tech: Headset, Desktop, Apple Vision Pro, Blender, RealityKit, USDZ
+- Idea: Edit a model in Blender and a life-size preview, lit by your real surroundings, appears instantly in Vision Pro.
+- What it is: A Blender scene streams live into Apple Vision Pro; edits made on the desktop appear instantly as a full-size object lit by your real room.
+- Technique: Blender exports the scene (for example as USDZ) on each change and streams it to the headset, where RealityKit reloads the model and lights it with the room's environment probe.
+- Try it: Write a script that exports glTF every time you save in Blender, and have a phone WebAR page reload the model automatically. Twist: play a 'growing' animation when the model appears in AR.
+
+#### Spatial Vacuuming — Daniel Beauchamp (Pushmatrix) (2024)
+- Video: https://x.com/pushmatrix/status/1749797146961006716
+- Interaction: Spatial Mapping, Tangible Objects, Information & UI
+- Platform & tech: Headset, Meta Quest 3, passthrough, Unity
+- Idea: While vacuuming, mark the cleaned floor in real time so you never miss a corner.
+- What it is: A Quest controller strapped to a vacuum paints the floor as you clean in passthrough, so you can see which parts of the room you have already covered.
+- Technique: A tracked controller on the vacuum head writes its floor position into a render texture or grid, painting a coverage map over the floor plane in passthrough.
+- Try it: Strap a phone to a mop or broom, track its position with AR, and paint the floor plane to show the area already swept. Twist: add AR dust monsters that slowly grow in the corners you missed.
+
+#### Vision Pro pinball with pinch haptics — Daniel Beauchamp (Pushmatrix) (2024)
+- Video: https://x.com/pushmatrix/status/1762494365711417371
+- Interaction: Hands & Body, Play
+- Platform & tech: Headset, visionOS, hand tracking
+- Idea: Use a finger pinch as the pinball button, so the body's own sense of touch becomes the feedback.
+- What it is: Pinball played on Apple Vision Pro using pinch gestures for the flippers; the tactile pinch of your own fingers stands in for button feedback.
+- Technique: visionOS hand tracking detects thumb–index pinch events and maps each hand's pinch to a flipper, relying on the self-contact of the fingers as passive haptic feedback.
+- Try it: Design a small AR game that uses only a pinch gesture, relying on the feel of your fingers touching as the feedback. Twist: let the left and right hands control different mechanics.
+
+#### Pinball table in your room (WebXR) — Daniel Beauchamp (Pushmatrix) (2025)
+- Video: https://x.com/pushmatrix/status/1994241272815485349
+- Interaction: Play, Spatial Mapping
+- Platform & tech: Headset, Web, WebXR, react-three/xr, three.js
+- Idea: Turn a web pinball table into an AR version sitting in your room with one step.
+- What it is: A web pinball game that also runs in AR on a headset: the table appears in your real space, wired up with about 100 lines of react-three/xr.
+- Technique: The existing three.js scene is wrapped in a WebXR AR session via react-three/xr, with the table anchored to a hit-tested floor or table surface and controller/hand input mapped to flippers.
+- Try it: Convert a small 3D web game you made before into an AR version with WebXR and play it on a real tabletop. Twist: make the real edges of the table act as walls in the game.
+
+### Figmin XR (Overlay)
+
+*Independent team behind the mixed-reality creation app Figmin XR*
+
+Figmin XR is a HoloLens-born, now Quest/Vision Pro app where you sketch, collect and script 3D objects that live and collide with your real room.
+
+#### The Floor Is Lava! — Figmin XR (Overlay) (2023)
+- Video: https://www.youtube.com/watch?v=aOXpbDBwNyM
+- Interaction: Spatial Mapping, Play, Perception & Effects
+- Platform & tech: Headset, Figmin XR, Meta Quest 3, scene mesh
+- Idea: The living-room floor turns into lava and only the furniture is safe to stand on.
+- What it is: Using Figmin XR on Quest 3, the real living-room floor is covered with bubbling virtual lava while furniture remains safe islands.
+- Technique: Places a lava material on the detected floor plane while the scene mesh keeps real furniture visible and occluding.
+- Try it: Use phone AR to detect the floor and cover it with a lava material, and only let players step on safe mats marked with images that the app recognizes. Twist: the lava rises every 30 seconds.
+
+#### The Real World Is Your Canvas — Figmin XR (Overlay) (2023)
+- Video: https://www.youtube.com/watch?v=fA5taYjGwU8
+- Interaction: Drawing & Making, Spatial Mapping
+- Platform & tech: Headset, Figmin XR, Meta Quest 3, spatial anchors
+- Idea: Paint among the furniture of a real room, and the artwork stays where you left it.
+- What it is: An artist paints glowing strokes and objects around a real room in Figmin XR; the art wraps around furniture and stays anchored in place.
+- Technique: Combines 3D brush strokes with persistent spatial anchors so drawings stay registered to the room between sessions.
+- Try it: Use a phone AR drawing app (such as a successor to Just a Line, or Reality Composer) to paint a 3D installation in a corner of the classroom, save the anchor, and reopen it next class. Twist: two people take turns finishing the piece on the same anchor.
+
+#### Figmin XR: Create, Collect & Play — Figmin XR (Overlay) (2024)
+- Video: https://www.youtube.com/watch?v=MB8DaHEioEc
+- Interaction: Drawing & Making, Spatial Mapping, Play
+- Platform & tech: Headset, Figmin XR, Meta Quest 3, physics
+- Idea: Create, collect and play with your 3D works in mixed reality.
+- What it is: The app's trailer: users sketch, import 3D models, animate and play physics-driven creations that bounce off the real room in mixed reality.
+- Technique: Integrates sketching, model import, animation and a physics engine that uses the room mesh as colliders.
+- Try it: Import small object models that classmates each scanned into phone AR, arrange them on a table as a 'mixed-reality collection', and let them fall under physics. Twist: give each piece a short voice introduction.
+
+#### AI-scripted Playable Character — Figmin XR (Overlay) (2025)
+- Video: https://www.youtube.com/watch?v=z1DbE2WMZRg
+- Interaction: Play, Spatial Mapping, Drawing & Making
+- Platform & tech: Headset, Figmin XR, scripting API, LLM code generation
+- Idea: AI writes the script that makes a little robot run and jump around your room.
+- What it is: A cute robot character that walks, runs, jumps and emotes around a real room, with its behaviour written entirely by AI through Figmin's scripting API.
+- Technique: An LLM generates Lua-style scripts against the app's API that drive character animation states and collisions with the room mesh.
+- Try it: Have students use ChatGPT to generate a Unity or Reality Composer behavior script that makes a small AR character patrol the table and jump when it bumps into a real cup. Twist: change the character's personality on the fly with natural language.
+
+#### Mixed Reality RC Airplane — Figmin XR (Overlay) (2025)
+- Video: https://www.youtube.com/watch?v=-jNwln2vMAg
+- Interaction: Play, Spatial Mapping
+- Platform & tech: Headset, Figmin XR, scripting API, LLM
+- Idea: An AI-made RC plane flies around the living room and crashes into real walls.
+- What it is: An AI-generated model airplane, coded entirely by an LLM, flies around the living room under the player's control and collides with real walls.
+- Technique: Uses the room mesh as colliders and an LLM-written flight script mapping controller input to lift, thrust and roll.
+- Try it: Use the phone gyroscope to fly an AR paper plane around the classroom, and make it crash when it hits a detected wall. Twist: set up 'rings' through real doorframes to form a race course.
+
+### Ines Alpha
+
+*3D digital makeup artist*
+
+French artist who creates 3D 'e-makeup' that grows from faces as AR filters and face-tracked videos, working with musicians, fashion brands and Prada Beauty.
+
+#### ines alpha x Katsu — Ines Alpha (2018)
+- Video: https://www.youtube.com/watch?v=7CY6GcYFAz8
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, 3D face tracking, Cinema 4D
+- Idea: A 3D digital makeup look tailored to an artist, growing along with the face as it moves.
+- What it is: A face-tracked 3D makeup look made with artist Katsu: iridescent sculptural forms grow from and cling to the face as it moves.
+- Technique: Sculptural meshes modeled in Cinema 4D are parented to face-tracking anchors, with iridescent shader effects that change with view angle.
+- Try it: Make a small sculptural object in any 3D software and attach it to a face-tracking anchor (such as the forehead or a cheekbone). Twist: the object unfolds or folds up with facial expressions.
+
+#### ines alpha x The Bulletproof Cat — Ines Alpha (2018)
+- Video: https://www.youtube.com/watch?v=kVcPbWZL5u0
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, 3D face tracking
+- Idea: Translucent organic shapes cling to the face and move with every expression.
+- What it is: Another face-tracked 3D makeup collaboration in which translucent, organic 3D shapes sit on and move with a performer's face.
+- Technique: Translucent organic meshes are bound to the face mesh and deform with blendshape-driven expressions, using refraction or transparency shaders.
+- Try it: Read expression coefficients from ARKit blendshapes and use them to drive the size or shape of a translucent form on the face. Twist: make the form glow only when the person smiles.
+
+#### Bimba y Lola x Ines Alpha filter — Ines Alpha (2019)
+- Video: https://www.youtube.com/watch?v=bXX0QVlD-Uc
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Spark AR, Instagram
+- Idea: Turn a fashion season's look into 3D digital makeup anyone can wear as a filter.
+- What it is: An Instagram face filter for the Bimba y Lola Fall/Winter 2019 collection that covers the face in Alpha's glossy sculptural 3D makeup.
+- Technique: Spark AR face tracking attaches glossy 3D makeup meshes to the face, with materials art-directed to match a fashion collection's palette.
+- Try it: Pull a color palette from a garment or poster and build a face AR filter that echoes it. Twist: the filter changes automatically to match the colors of clothing in the shot.
+
+#### Future Gloss — Ines Alpha (2019)
+- Video: https://www.youtube.com/watch?v=kDhMFguQFso
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Lens Studio, face tracking
+- Idea: Glossy liquid 3D makeup flows over your face in real time, free from physical limits.
+- What it is: Ines Alpha's first Snapchat lens: glossy, liquid 3D makeup that drips and flows over the user's face in real time.
+- Technique: A face mesh from face tracking drives 3D liquid geometry attached to facial landmarks, with glossy PBR materials and an environment map for reflections.
+- Try it: Use Lens Studio or Effect House to place a 3D liquid shape that follows the face mesh, and tune a glossy reflective material. Twist: make the liquid flow as the mouth opens and closes.
+
+#### Prada Beauty 'Rethinking Beauty' AR filter — Ines Alpha (2023)
+- Video: https://www.youtube.com/watch?v=GZ92cYFhddo
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Spark AR, Instagram
+- Idea: A digital makeup filter with three modes, designed for a luxury beauty brand.
+- What it is: As Prada Beauty's Global Creative E-Makeup Artist, Alpha designed a three-mode Instagram AR filter with FFFACE.ME that layers futuristic e-makeup on the user's face.
+- Technique: A multi-mode face filter switches between makeup looks via tap or picker UI, each combining face-mesh textures, attached 3D pieces and animated shaders.
+- Try it: Make a face filter with three modes that you switch between by tapping the screen, each mode expressing a different idea of 'future makeup'. Twist: trigger the mode switch with a blink.
+
+### James Alliban
+
+*Media artist and AR developer*
+
+One of the first artists to make webcam AR widely shared online (2009's AR business card), later building Kinect installations and co-creating CELL with Keiichi Matsuda.
+
+#### Augmented Reality Business Card — James Alliban (2009)
+- Video: https://www.youtube.com/watch?v=5qoucBw60jM
+- Interaction: Tangible Objects, Voice & Sound
+- Platform & tech: Desktop, FLARToolKit, Papervision3D, Flash
+- Idea: Hold up a business card and a talking 3D version of its owner pops out.
+- What it is: Holding up his printed business card to a webcam makes a 3D video of the artist pop out of it and introduce himself.
+- Technique: FLARToolKit tracks a square fiducial marker printed on the card in a Flash webcam app, and a video plane of the artist is rendered at the marker's pose with Papervision3D.
+- Try it: Design your own business card and use MindAR to make a keyed self-introduction video pop out of it. Twist: have the video of you react to how the viewer holds the card (tilt it and you 'fall over').
+
+#### Augmented Reality Ribbons — James Alliban (2009)
+- Video: https://www.youtube.com/watch?v=0K6YcVHhG1k
+- Interaction: Tangible Objects, Voice & Sound, Perception & Effects
+- Platform & tech: Desktop, FLARToolKit, Flash
+- Idea: AR ribbons pour out of a marker and sway to music.
+- What it is: Marker-tracked AR where flowing 3D ribbons spill out of a printed marker and follow its movement, reacting to music.
+- Technique: A tracked fiducial marker emits procedurally generated ribbon geometry whose points trail the marker's recent positions, with amplitude driven by audio analysis.
+- Try it: Use MindAR or AR.js to make an image marker trail a 3D ribbon that records its path, with microphone volume controlling the ribbon's width. Twist: replace the ribbon with a 'text band' made of words from your recent chats.
+
+#### Wallpaper* Augmented Reality issue — James Alliban (2009)
+- Video: https://www.youtube.com/watch?v=hzSHcdwFuXs
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Desktop, FLARToolKit, Flash
+- Idea: Make the pages of a design magazine grow 3D artworks in front of a webcam.
+- What it is: A set of webcam AR pieces for Wallpaper* magazine's AR issue, bringing printed pages to life with animated 3D artworks.
+- Technique: Printed magazine pages act as fiducial or natural-feature markers for a Flash webcam app that renders animated 3D pieces on each page.
+- Try it: Make one AR page for a magazine you like, using image tracking to grow one element of the layout into a 3D piece. Twist: a 'spread' piece that only appears when two pages sit side by side.
+
+#### Traces — James Alliban (2011)
+- Video: https://www.youtube.com/watch?v=0KvCqF-dS2U
+- Interaction: Hands & Body, Drawing & Making
+- Platform & tech: Projection, Kinect, openFrameworks
+- Idea: A Kinect turns visitors' movements into trails of light.
+- What it is: An interactive artwork using a Kinect camera that reflects visitors as trails of light, turning movement into drawings.
+- Technique: A Kinect depth image is thresholded into a body silhouette, and its contour or motion is accumulated over time in openFrameworks to draw fading light trails.
+- Try it: Use Kinect or camera body segmentation in TouchDesigner to turn people's outlines into slowly fading light trails projected on a wall. Twist: make the trails record only the 'gap' between two people rather than their bodies.
+
+### Jelle Vermandere
+
+*Game developer and YouTuber*
+
+Belgian maker who builds mixed-reality games that use real objects and his body as controllers: a real football, RC cars, a smart Rubik's cube, a heart-rate monitor.
+
+#### AR Boxing Game — Jelle Vermandere (2020)
+- Video: https://www.youtube.com/watch?v=AOUaIqQml4g
+- Interaction: Play, Hands & Body
+- Platform & tech: Phone, Unity, AR Foundation
+- Idea: Bring a sparring partner into your living room, so punching the air becomes a workout.
+- What it is: He places virtual opponents in his real living room with AR Foundation and punches at them, turning a fitness routine into an AR boxing match.
+- Technique: AR Foundation plane detection places the opponent on the floor and the phone's pose (held or strapped) is used to detect punches and dodges.
+- Try it: Use AR Foundation to place a punching-bag opponent on the floor that throws punches while the player dodges sideways. Twist: the higher your heart rate, the stronger the opponent.
+
+#### Controlling a Soccer Game with a Real Ball — Jelle Vermandere (2022)
+- Video: https://www.youtube.com/watch?v=tB6Ag6VCYFY
+- Interaction: Tangible Objects, Hands & Body, Play
+- Platform & tech: Desktop, Python, OpenCV, Unity
+- Idea: Kick a real ball and the match on screen follows.
+- What it is: A webcam tracks a real football and his body pose so kicking the actual ball drives a digital football match in Unity.
+- Technique: Python computer vision detects the ball position and the player's pose from a webcam and streams them to Unity, which maps them into the game world.
+- Try it: Use a webcam and color tracking so a real paper ball controls a pinball on screen. Twist: trigger a goal animation when the paper ball hits a particular cardboard area on the wall.
+
+#### Real Hole in the Wall Game — Jelle Vermandere (2022)
+- Video: https://www.youtube.com/watch?v=tFIZ23fRHxQ
+- Interaction: Hands & Body, Play
+- Platform & tech: Desktop, MoveNet, Unity, heart-rate monitor
+- Idea: Based on Brain Wall: shape your body to match the hole in the wall to get through.
+- What it is: A full-body game based on Japan's Brain Wall: a webcam reads his pose and a heart-rate monitor adds pressure as walls with body-shaped holes rush toward him.
+- Technique: MoveNet pose estimation extracts body keypoints from a webcam, which are compared against the silhouette of each incoming wall hole.
+- Try it: Build a Hole in the Wall game with Teachable Machine or MoveNet where a pose outline appears on screen and a classmate has 3 seconds to match it. Twist: two people must combine their bodies to pass one wall.
+
+#### Turning RC Cars into Pets — Jelle Vermandere (2023)
+- Video: https://www.youtube.com/watch?v=9FBi0qbLiio
+- Interaction: Tangible Objects, Play
+- Platform & tech: Desktop, Arduino, OpenCV, Unity
+- Idea: Give RC cars personalities so they wander the floor and respond to you like pets.
+- What it is: Overhead computer vision tracks several Arduino-controlled RC cars in real time and gives each one a personality, so they roam the floor like pets that react to him.
+- Technique: A camera tracks each car with CV markers, and a behavior script sends steering commands back over radio so the physical cars act on virtual rules.
+- Try it: Use micro:bit cars and an overhead camera for tracking, and make the cars afraid of classmates' feet so they run away. Twist: project an emotion face on the floor for each car.
+
+#### A Rubik's Cube Game with a Real Cube — Jelle Vermandere (2024)
+- Video: https://www.youtube.com/watch?v=7UXtkvvA0dI
+- Interaction: Tangible Objects, Play
+- Platform & tech: Desktop, GAN smart cube, Bluetooth, Unity
+- Idea: Twist a real Rubik's cube to control a game world.
+- What it is: A Bluetooth smart Rubik's cube becomes the controller: every real twist rotates and changes a puzzle world he built in Unity.
+- Technique: The GAN smart cube reports each face turn over Bluetooth, and Unity maps those moves to rotations of the in-game level.
+- Try it: Use a phone with a gyroscope or a micro:bit as the 'cube', and rotate it to tilt an on-screen maze so a ball rolls to the exit. Twist: shaking it regenerates the maze.
+
+### Jeri Ellsworth
+
+*Hardware engineer; co-founder of castAR and Tilt Five*
+
+Self-taught chip designer who built AR glasses at Valve, then spun them out as castAR (2013) and later Tilt Five, a retro-reflective tabletop AR game system.
+
+#### castAR Kickstarter — Jeri Ellsworth (2013)
+- Video: https://www.youtube.com/watch?v=AOI5UW9khoQ
+- Interaction: Projection, Tangible Objects, Play
+- Platform & tech: Wearable, castAR, retro-reflective projection, head tracking
+- Idea: Tiny projectors in the glasses bounce off a reflective board so everyone sees 3D holographic games on the table.
+- What it is: Glasses with tiny projectors that bounce light off a retro-reflective mat, so each wearer sees their own correct-perspective 3D holograms, such as board games, on the table.
+- Technique: Head-mounted projectors cast a stereo image onto a retro-reflective mat that returns light mainly to its source, so each wearer sees only their own head-tracked perspective.
+- Try it: Use front-camera face tracking on a phone to create head-coupled perspective, turning a tablet lying on the table into a "holographic tabletop" with depth. Twist: have two people look at the same tablet from different angles and discuss why only one sees the correct perspective.
+
+#### castAR at Maker Faire 2013 — Jeri Ellsworth (2013)
+- Video: https://www.youtube.com/watch?v=3jxr3UrY2mc
+- Interaction: Projection, Tangible Objects
+- Platform & tech: Wearable, castAR
+- Idea: A demo of the AR glasses and wand prototype that came out of Valve.
+- What it is: Jeri Ellsworth demonstrates the castAR glasses and wand, explaining how the technology she started at Valve tracks the head and projects stereo images onto the mat.
+- Technique: Head tracking relative to the mat, likely via camera-tracked markers, updates the off-axis stereo projection so holograms stay locked to the table.
+- Try it: Run a small experiment with cheap materials (reflective tape and a flashlight) to see how retroreflective material sends light back to its source. Twist: based on this, sketch a tabletop AR device of your own design.
+
+#### castAR SmartGlasses at AWE 2015 — Jeri Ellsworth (2015)
+- Video: https://www.youtube.com/watch?v=8We6Om4WaAM
+- Interaction: Projection, Shared & Social, Play
+- Platform & tech: Wearable, castAR
+- Idea: Several players sit around a reflective table and play a holographic board game together.
+- What it is: A later castAR prototype shown at AWE 2015 with tabletop games that several players see at once around the retro-reflective surface.
+- Technique: Because each wearer's projector image returns only to their own eyes, multiple players can share one surface with individually correct perspective views.
+- Try it: Design a multiplayer tabletop game where each player sees different information (for example, only you can see your own hand of cards), built with several phones running AR around the same image marker. Twist: add one public card that everyone can see.
+
+#### Tilt Five Holographic Game System — Jeri Ellsworth (2019)
+- Video: https://www.youtube.com/watch?v=x_71C3bMNUA
+- Interaction: Shared & Social, Tangible Objects, Play
+- Platform & tech: Wearable, Tilt Five, retro-reflective projection
+- Idea: A reflective game board and a pair of glasses let friends share holographic board games around a table.
+- What it is: The Tilt Five Kickstarter: lightweight glasses and a retro-reflective game board plus a wand controller, so friends around a table share holographic board and video games.
+- Technique: Glasses project stereo images onto a retro-reflective board and track head pose against it, while a tracked wand gives a ray for pointing at tabletop content.
+- Try it: Use an image marker as a game board in AR and select and move pieces with a ray cast from the center of the phone screen. Twist: pieces can 'stand up' taller than the board.
+
+#### Tilt Five — Gaming with Tabletop Holograms — Jeri Ellsworth (2022)
+- Video: https://www.youtube.com/watch?v=Fzr-IeyWj40
+- Interaction: Tangible Objects, Play, Shared & Social
+- Platform & tech: Wearable, Tilt Five, Unity
+- Idea: Games rise up from the tabletop board and you move holographic pieces directly with a wand.
+- What it is: Shipping Tilt Five games shown through the glasses: tabletop strategy, board games and toys that rise from the board and respond to the wand.
+- Technique: Content is authored in board-local coordinates in Unity, so miniatures appear to rise from the board and stay registered as players move their heads.
+- Try it: Make a small city that grows out of the tabletop, with buildings revealing different details depending on the angle as you walk around the table. Twist: the little people in the city look toward wherever you are.
+
+### Karolina Sobecka
+
+*Artist and researcher (gravitytrap, Flightphase)*
+
+Polish-born artist who projects responsive animals and figures into public space — from shop windows to buildings passing by a moving car — and later turned to cloud and atmosphere research.
+
+#### Wildlife — Karolina Sobecka (2006)
+- Video: https://vimeo.com/6400445
+- Interaction: Location & City, Projection, Tangible Objects
+- Platform & tech: Projection, wheel sensor, mobile projection
+- Idea: Project a tiger from a moving car onto roadside buildings so it runs alongside the car.
+- What it is: A tiger is projected from a moving car onto the buildings it passes; the tiger runs alongside, speeding up and slowing down with the car and stopping when it stops.
+- Technique: A sensor on the wheel measures rotation and sets the playback frame rate of the tiger's run cycle, which a car-mounted projector throws onto passing façades.
+- Try it: Put a projector on a cart or bicycle, use an encoder or phone accelerometer to control the frame rate of a running animation, and project it along a corridor. Twist: the animal 'collapses from exhaustion' when you go too fast.
+
+#### Chase — Karolina Sobecka (2009)
+- Video: https://vimeo.com/6400072
+- Interaction: Location & City, Projection, Play
+- Platform & tech: Projection, mobile projection, motion sensing
+- Idea: Projected characters chase a moving car along the street.
+- What it is: An interactive mobile projection from a moving car in which projected characters chase along the street as the vehicle travels.
+- Technique: Likely the same car-mounted projection rig as Wildlife, with animation playback driven by vehicle motion data.
+- Try it: Project from a phone projector or a small projector while walking, keeping the character's speed in sync with your walking pace. Twist: let viewers use their phones to make the character jump over obstacles on the wall.
+
+#### Sniff (with James George) — Karolina Sobecka (2009)
+- Video: https://vimeo.com/6400266
+- Interaction: Hands & Body, Projection, Location & City
+- Platform & tech: Projection, openFrameworks, Unity, Blender, camera tracking
+- Idea: A virtual dog in a shop window follows passers-by and judges whether you are friendly or mean to it.
+- What it is: A projected dog in a street-facing shop window follows passers-by, reads their gestures as friendly or aggressive and tries to get them to play.
+- Technique: A camera tracks pedestrians outside the window with openFrameworks and feeds position and gesture speed to a Unity-animated dog with simple behaviour states.
+- Try it: Use a camera to detect a person's position and waving speed, and drive an on-screen virtual pet to turn its head, approach or shy away. Twist: give the pet 'memory' so it reacts differently when the same person comes back.
+
+#### All the Universe is Full of the Lives of Perfect Creatures — Karolina Sobecka (2012)
+- Video: https://vimeo.com/35262930
+- Interaction: Face, Perception & Effects
+- Platform & tech: Desktop, FaceTracker, ofxFaceTracker, half-silvered mirror
+- Idea: Your face turns into an animal in the mirror and copies your expressions.
+- What it is: Looking into a mirror, the viewer sees an animal's head overlaid exactly on their own reflection, mimicking their head movement and facial expressions.
+- Technique: A camera behind a half-silvered mirror runs FaceTracker (ofxFaceTracker) and drives a 3D animal head rendered on a display so it aligns with the viewer's reflection.
+- Try it: Drive an animal head with MediaPipe Face Mesh, overlaid on the mirrored video so it blinks and opens its mouth in sync. Twist: build a real "magic mirror" with a half-silvered mirror and a monitor, and have the animal sometimes disobey.
+
+#### It's You — Karolina Sobecka (2012)
+- Video: https://vimeo.com/35266165
+- Interaction: Hands & Body, Projection, Location & City
+- Platform & tech: Projection, camera presence detection, public projection
+- Idea: A projected crowd hides a secret, and only steps aside when you lean in.
+- What it is: Projected figures crowd around something hidden; when a pedestrian stands behind them as if to look over their shoulders, they step aside to reveal part of the scene, blocking it for others.
+- Technique: A camera detects a pedestrian's position in the interaction zone and triggers animation branches of the projected crowd that open a view at that spot.
+- Try it: Project a crowd of silhouettes with their backs to the audience, and use a camera to detect who steps behind them so the figures at that spot move aside and reveal a hidden image. Twist: the hidden content is a sentence left by the previous visitor.
+
+### Ken Perlin — NYU Future Reality Lab
+
+*Professor of Computer Science at NYU; director of the Future Reality Lab; inventor of Perlin noise*
+
+Oscar-winning graphics pioneer Ken Perlin now builds shared, co-located mixed reality: Chalktalk, a sketch language whose drawings come alive as simulations, and Holojam, untethered multi-user VR/AR in a motion-captured room.
+
+#### Holojam — Ken Perlin — NYU Future Reality Lab (2015)
+- Video: https://www.youtube.com/watch?v=kzx5igORwk4
+- Interaction: Shared & Social, Drawing & Making, Hands & Body
+- Platform & tech: Headset, Gear VR, OptiTrack
+- Idea: A group in wireless headsets becomes cartoon avatars in one room and draws in the air together.
+- What it is: Untethered mobile headsets and optical motion capture let a group walk around one room as avatars, drawing 3D ribbons in the air together.
+- Technique: OptiTrack cameras track reflective markers on each untethered mobile headset and on the hands, and positions are streamed over Wi-Fi so every headset renders all users' avatars and 3D ribbons in the shared room.
+- Try it: Use a shared coordinate system in HoloKit or phone AR (an image target as the common origin) so several people draw 3D ribbons in the same space with their phone positions and see each other's avatars. Twist: ribbons only appear when two people cooperate by pressing at the same time.
+
+#### Flock: A Holojam Experience — Ken Perlin — NYU Future Reality Lab (2016)
+- Video: https://www.youtube.com/watch?v=BZXRX-kDj5M
+- Interaction: Shared & Social, Perception & Effects
+- Platform & tech: Headset, Holojam, motion capture
+- Idea: A group of people become a flock of birds together in a shared space.
+- What it is: David Lobser's co-located Holojam piece where participants become birds and create a flock together in shared space.
+- Technique: Each participant's tracked position drives a bird avatar, and boids-style flocking rules (separation, alignment, cohesion) generate additional birds that respond to the participants' movements.
+- Try it: Implement a boids flock in three.js, use people's positions detected by a camera as "lead birds," and project it on a wall or show it in AR. Twist: make the flock be drawn to or flee from each person depending on how fast they move.
+
+#### Chalktalk AR + Holojam — Ken Perlin — NYU Future Reality Lab (2017)
+- Video: https://vimeo.com/224598543
+- Interaction: Drawing & Making, Shared & Social
+- Platform & tech: Headset, Chalktalk, Holojam, motion capture
+- Idea: Several people in one room draw living computational graphics in the air together.
+- What it is: Several co-located people wearing tracked headsets draw Chalktalk objects together and see each other's living sketches in the same space.
+- Technique: Motion capture tracks all headsets in one room coordinate frame, and a networked server synchronizes Chalktalk sketch state so every co-located user sees the same living drawings in place.
+- Try it: Use AR Foundation shared anchors or WebXR with WebSocket so two phones in the same space can draw 3D lines at once and sync them in real time. Twist: one person's lines can only be "activated" by the other person, turning into moving objects when tapped.
+
+#### Chalktalk in Augmented Reality — Ken Perlin — NYU Future Reality Lab (2017)
+- Video: https://vimeo.com/232230096
+- Interaction: Drawing & Making, Information & UI
+- Platform & tech: Headset, Chalktalk, JavaScript, AR headset
+- Idea: Draw a few strokes in the air and the sketch is recognized as a living, simulated 3D object.
+- What it is: Perlin draws simple sketches in the air that are recognized and come alive as 3D, simulating objects (a hypercube, a pendulum, a creature) floating in shared AR.
+- Technique: Freehand strokes are matched against a library of glyph templates by shape recognition, and each recognized sketch is replaced by a procedural, animated 3D object rendered in a shared AR space.
+- Try it: Recognize three simple hand-drawn symbols (circle, triangle, wave) on a web canvas, for example with the $1 Unistroke Recognizer, and replace them with moving 3D objects in a WebXR scene. Twist: make two recognized objects interact when they come close, such as a sun making a flower bloom.
+
+#### NYU Holodeck — Ken Perlin — NYU Future Reality Lab (2018)
+- Video: https://www.youtube.com/watch?v=3XBt9PJG66I
+- Interaction: Shared & Social, Information & UI
+- Platform & tech: Headset, motion capture, Chalktalk
+- Idea: Turn shared mixed reality into a 'holodeck' where people take classes and collaborate together.
+- What it is: The NSF-funded Holodeck project combines motion capture, headsets and Chalktalk into shared mixed reality for teaching and collaboration.
+- Technique: Room-scale optical motion capture, networked headsets and a shared scene-graph server let multiple users and Chalktalk content occupy one synchronized mixed-reality space.
+- Try it: Design and test a 10-minute 'shared AR mini-lesson': use a shared anchor so every phone in the class sees the same 3D model (such as a heart or a molecule), and when the speaker taps it, everyone sees the same highlight. Twist: let students raise a hand (by placing a marker in AR) to ask the speaker a question.
+
+### Kimchi and Chips
+
+*Art studio of Mimi Son and Elliot Woods*
+
+Korean-British duo working with light fields, projection and robotic mirrors to make images that occupy real space.
+
+#### Lit Tree — Kimchi and Chips (2011)
+- Video: https://vimeo.com/24049819
+- Interaction: Projection, Hands & Body, Spatial Mapping
+- Platform & tech: Projection, openFrameworks, Kinect, structured light
+- Idea: Use the leaves of a real tree as 3D pixels, so a visitor's hand gesture lights up inside the tree.
+- What it is: A small potted tree is scanned and projected onto so its leaves act as 3D pixels; visitors' hands are scanned over a plinth and reflected as volumes of light inside the tree.
+- Technique: Structured-light scanning with a projector and Kinect maps every projector pixel to a 3D point on the leaves, turning the tree into a sparse volumetric display that lights voxels inside a scanned hand volume.
+- Try it: Aim a projector at a potted plant, scan line by line in TouchDesigner to record which pixels land on leaves, then light only the leaves to draw a plane of light moving up and down. Twist: use hand height from MediaPipe to control the light plane, as if stroking the tree.
+
+#### Assembly — Kimchi and Chips (2012)
+- Video: https://vimeo.com/42707293
+- Interaction: Projection, Spatial Mapping, Perception & Effects
+- Platform & tech: Projection, projection mapping, 3D scanning
+- Idea: 5,500 hanging blocks are painted with projected pixels, letting digital forms live in real space.
+- What it is: A hemisphere of 5,500 suspended white blocks is scanned and coated with pixels from external projectors, forming a habitat for digital forms inside physical space.
+- Technique: Projector-camera structured-light scanning locates each suspended block in 3D, so multiple projectors can address the blocks as volumetric pixels for animated forms.
+- Try it: Hang 30 small white cubes in a cardboard box, light them one by one with a projector and record their positions, and build a "voxel screen" that shows a swimming shape. Twist: make it from one cube per student, each showing its owner's name when it lights up.
+
+#### Line Segments Space — Kimchi and Chips (2013)
+- Video: https://vimeo.com/111610020
+- Interaction: Projection, Spatial Mapping, Perception & Effects
+- Platform & tech: Projection, projection mapping, openFrameworks
+- Idea: A web of nylon threads in the dark, lit by precise projection into flowing 3D shapes.
+- What it is: A web of nylon threads spans a dark gallery; calibrated projection lights the strings to articulate dynamic imaginary forms in the physical volume.
+- Technique: Calibrated projection (projector pose solved against the known string geometry) lights only the pixels that fall on each nylon thread, drawing shapes along lines in physical space.
+- Try it: String a few dozen white threads inside a dark box, have the projector light only the pixels that fall on the threads using a mask, and make light flow along them in TouchDesigner to trace a 3D outline. Twist: arrange the threads by the strokes of a piece of text, so the light "writes" the characters in the air.
+
+#### Light Barrier — Kimchi and Chips (2014)
+- Video: https://www.youtube.com/watch?v=Dp7c_0v2TRw
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection, mirror arrays, haze
+- Idea: A mirror array bends projected light into haze to form floating shapes of light.
+- What it is: Projected light is reflected by 200 curved mirrors into haze, forming floating volumetric shapes that seem to exist in mid-air.
+- Technique: Structured-light scanning calibrates each projector pixel's ray after reflection by convex mirrors, and those rays are rendered as volumetric beams that intersect in haze to draw 3D shapes.
+- Try it: Shine a projector into the mist from a fog machine or humidifier, use white-line-on-black graphics to create sweeping "light sheets", and compose a one-minute light sculpture animation. Twist: let the spectrum of live music determine the shape of the beams.
+
+#### Light Barrier Third Edition — Kimchi and Chips (2016)
+- Video: https://vimeo.com/218354021
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection, concave mirrors, haze
+- Idea: A larger Light Barrier where light condenses in fog into volumetric images and objects.
+- What it is: A larger edition at the Asian Culture Center in Gwangju: concave mirrors and projection materialize volumetric light objects and scenes in fog.
+- Technique: Concave mirror arrays focus calibrated projector rays into haze, and mapping each pixel's reflected ray lets the system draw volumetric light objects at chosen positions in the room.
+- Try it: Reflect a projection into fog with a concave makeup mirror and try to focus the light into a floating point of light that moves. Twist: use the point of light to tell a small "firefly" story in which it flees when viewers come close.
+
+### Marlena Myles
+
+*Artist (Spirit Lake Dakota)*
+
+Dakota artist who uses AR public art, animation and projection to restore Dakota language, stories and place-knowledge to the land of the Twin Cities.
+
+#### Dakota Spirit Walk — Marlena Myles (2021)
+- Video: https://www.youtube.com/watch?v=nxo1UIyZR-Y
+- Interaction: Location & City, Information & UI, Voice & Sound
+- Platform & tech: Phone, mobile AR, image markers, audio narration
+- Idea: On a sacred trail, AR brings Dakota spirits and language back into view.
+- What it is: A permanent AR public-art trail at the Bruce Vento Nature Sanctuary in Saint Paul where phones reveal Dakota spirits, stories and language at sacred sites.
+- Technique: Image-marker or location-triggered AR (likely Adobe Aero/app) anchors animated Dakota artwork and audio narration to signs along the trail.
+- Try it: Design three AR stations along a campus path, each using an image marker to show a place's original name and its story. Twist: invite local elders to record the narration.
+
+#### Innerworld Prism — Marlena Myles (2021)
+- Video: https://www.youtube.com/watch?v=Er7oZ2n1u8s
+- Interaction: Projection, Location & City, Perception & Effects
+- Platform & tech: Projection, large-scale projection, animation
+- Idea: A giant projection tells a dream about letting go of the self and returning to nature.
+- What it is: A large-scale projection in Saint Paul commissioned by the Great Northern Festival: a dreamlike animation about losing the human ego to regain nature.
+- Technique: Animated Dakota-inspired illustration is projected at architectural scale onto an urban surface.
+- Try it: Draw a 30-second looping animation using local natural or cultural symbols and project it onto the outer wall of a school building at night. Twist: make elements of the animation crawl out through the windows in the wall.
+
+#### Augmented Reality Dakota Landmap of the Twin Cities — Marlena Myles (2022)
+- Video: https://www.youtube.com/watch?v=uc3mS47Xr_c
+- Interaction: Location & City, Information & UI, Tangible Objects
+- Platform & tech: Phone, Adobe Aero, image-anchored AR
+- Idea: A city map redrawn with Dakota place names comes alive in 3D through AR.
+- What it is: An illustrated map of the Twin Cities with Dakota place names that becomes a 3D animated landscape when viewed through Adobe Aero.
+- Technique: An Adobe Aero scene anchors layered 3D illustrations and animations to the printed map image.
+- Try it: Draw a map of your local area labeled with old or dialect place names, and use Adobe Aero to make the landmarks pop up in 3D. Twist: tapping each landmark plays a sound clip about it.
+
+#### Dakota Sacred Hoop Walk — Marlena Myles (2022)
+- Video: https://www.youtube.com/watch?v=0tWS13lHc5Q
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, mobile AR
+- Idea: Walk the Sacred Hoop trail and use AR to understand the land from a Dakota perspective.
+- What it is: An AR exhibit that helps visitors understand nature, land and culture from a Dakota perspective through artwork revealed at stations along a walk.
+- Technique: Phone-based AR triggered at stations along the path overlays animated Dakota artwork and teachings.
+- Try it: Choose four points on campus for the four directions and use AR to show nature knowledge tied to east, south, west and north. Twist: the final animation unlocks only after you walk the full circle in order.
+
+#### Star Spirit of Creation (Dakota thoughts in Latvia) — Marlena Myles (2024)
+- Video: https://www.youtube.com/watch?v=0gVogFBSst8
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, mobile AR, screen recording
+- Idea: Bring Dakota star spirits into a foreign landscape to connect the ancestral memories of two places.
+- What it is: An AR video piece made in Latvia in which Dakota star spirits and patterns appear over the people and places the artist visited.
+- Technique: AR animation is placed into real scenes and captured as screen recordings (likely with a mobile AR authoring tool).
+- Try it: Design an AR 'guardian spirit' for your hometown culture and film short clips of it appearing in places you travel to or around campus. Twist: the spirit takes a different form in each place.
+
+### Nobumichi Asai
+
+*Technical and creative director (WOW / Asai studio)*
+
+Japanese visual artist who pioneered real-time face-tracking projection mapping, painting moving digital makeup onto performers' faces with near-zero latency.
+
+#### OMOTE — Nobumichi Asai (2014)
+- Video: https://www.youtube.com/watch?v=18y9RsYNLYw
+- Interaction: Face, Projection
+- Platform & tech: Projection, face tracking, projection mapping
+- Idea: Turn a face into a tracked projection canvas where digital makeup moves with every expression.
+- What it is: Real-time face tracking and projection mapping paint shifting digital makeup, cracks and masks onto a model's moving face.
+- Technique: Face tracking with markers or landmarks drives a 3D face mesh whose texture is projected by a calibrated projector, with latency kept low so makeup stays registered to the moving face.
+- Try it: Generate a face mesh with MediaPipe Face Mesh and project a "digital makeup" onto a white mask or a classmate's face (calibrate on a still mask first). Twist: make the makeup change with expression, for example cracks appear when the mouth opens.
+
+#### connected colors — Nobumichi Asai (2016)
+- Video: https://www.youtube.com/watch?v=nMvFwC3bo_E
+- Interaction: Face, Projection, Perception & Effects
+- Platform & tech: Projection, face tracking, projection mapping
+- Idea: Flower and bird patterns bloom live on a tracked face.
+- What it is: Face-tracked projection mapping blooms plants, birds and patterns across a performer's face in sync with her movement.
+- Technique: Real-time face tracking feeds a projector-camera system that renders animated patterns in the face's UV space, so plants and birds appear to grow on the skin as the head turns.
+- Try it: In TouchDesigner, drive a pattern-growing animation with MediaPipe face landmarks and project it onto the face of a classmate wearing a white mask. Twist: make the growth speed follow the music or the sound of breathing.
+
+#### INORI (Prayer) — Nobumichi Asai (2017)
+- Video: https://www.youtube.com/watch?v=9n0ZAwt23VU
+- Interaction: Face, Projection, Performance
+- Platform & tech: Projection, high-speed projector, face tracking
+- Idea: Tracking and projection at a thousand frames per second keep face imagery locked onto intense dance.
+- What it is: Dancers AyaBambi's faces are mapped with high-speed projection (1000 fps tracking) so skulls, tears and eyes follow their fast choreography.
+- Technique: A 1000 fps high-speed camera and a DynaFlash-type high-frame-rate projector close the tracking-to-projection loop within a few milliseconds, so imagery stays registered on fast-moving faces.
+- Try it: Build face-tracked projection with an ordinary projector and a webcam, measure and record the "ghost trail" caused by latency, then try to reduce it by predicting motion with velocity extrapolation. Twist: use the ghost trail itself as a visual language and make a dance that deliberately "can't keep up."
+
+#### Kacho-fugetsu — Nobumichi Asai (2017)
+- Video: https://www.youtube.com/watch?v=5cS7KLUPfZQ
+- Interaction: Face, Projection
+- Platform & tech: Projection, face tracking, projection mapping
+- Idea: Seasonal motifs of flowers, birds, wind and moon are projected onto a moving face.
+- What it is: Seasonal Japanese motifs of flowers, birds, wind and moon are projected onto a moving face using real-time tracking.
+- Technique: Likely the same face-tracked projection pipeline: tracked head pose drives a UV-mapped face model whose texture cycles through seasonal motifs, projected from a calibrated projector.
+- Try it: Make face textures for the four seasons with Lens Studio or phone AR face tracking, and switch seasons when the head turns. Twist: replace the four seasons with four typical kinds of weather or sounds from your own city.
+
+#### Dockyard 3D Projection Mapping / Yokohama Odyssey — Nobumichi Asai (2018)
+- Video: https://www.youtube.com/watch?v=vguPITbNorQ
+- Interaction: Projection, Location & City
+- Platform & tech: Projection, projection mapping
+- Idea: Turn a century-old stone dock into a projection stage for a seafaring epic.
+- What it is: Large-scale 3D projection mapping in the historic stone dry dock of Yokohama, turning the dock walls into an animated voyage.
+- Technique: Large-scale architectural projection mapping: the dock is surveyed into a 3D model, multiple projectors are aligned and edge-blended, and content is rendered from the model's UV layout.
+- Try it: Build a 'building' from a cardboard box or blocks, align projection to it in TouchDesigner / MadMapper, and make a two-minute animation about the history of a place. Twist: use only the building's own outlines as animation material.
+
+### Novarama
+
+*Game studio; creators of Invizimals*
+
+Barcelona studio founded by Daniel Sánchez-Crespo that made the Invizimals series for PSP, PS Vita and PS3, which used a camera and marker trap card to capture creatures on the player's table.
+
+#### Invizimals — Novarama (2009)
+- Video: https://www.youtube.com/watch?v=JbTJw_2E-Ww
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, PSP Go!Cam, marker tracking
+- Idea: Use a handheld's camera to 'catch' invisible monsters at home and battle them on a card.
+- What it is: A PSP game with a clip-on camera: players scan their surroundings to detect invisible creatures, then trap them on a printed marker card where they fight on the tabletop.
+- Technique: A printed fiducial card gives the camera pose for tabletop rendering, while a color-detection capture step (pointing the camera at certain hues) is used to spawn creatures.
+- Try it: Use camera color detection to 'discover' hidden creatures: a hint appears when you point at an object of a certain color, and then you summon it onto an image-marker card. Twist: different colors map to creatures with different attributes.
+
+#### Invizimals: Shadow Zone — Novarama (2010)
+- Video: https://www.youtube.com/watch?v=BiK2LdMeyXc
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, PSP camera, marker tracking
+- Idea: The sequel adds more invisible creatures and capture challenges built around the trap card.
+- What it is: The sequel adds more creatures, new capture challenges and battles that play out around the camera-tracked trap card on the player's table.
+- Technique: Marker-based tracking on the trap card anchors creatures and battle effects, with capture challenges requiring the player to move the handheld relative to the marker.
+- Try it: Design a capture challenge that can only be completed by moving the phone around a marker card, for example lining up with the creature from a specific angle. Twist: the capture window gets shorter the rarer the creature is.
+
+#### Invizimals: The Lost Tribes — Novarama (2011)
+- Video: https://www.youtube.com/watch?v=-xlg4Xnu7UA
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, PSP camera, marker tracking
+- Idea: Hunt new tribes of monsters through the camera and battle them on a card.
+- What it is: Third PSP entry with new tribes of Invizimals to hunt through the camera and battle on the marker trap card.
+- Technique: The marker card defines the arena origin, and creatures from different sets are rendered in the card's frame with turn-based battle animations.
+- Try it: Use two different image-marker cards to summon characters from two factions and have them fight turn-based battles on the table. Twist: use the distance between the two cards as a parameter for attack range.
+
+#### Reality Fighters — Novarama (2012)
+- Video: https://www.youtube.com/watch?v=AIDNJViTf4Q
+- Interaction: Face, Play, Tangible Objects
+- Platform & tech: Phone, PS Vita, AR cards, face capture
+- Idea: Put your own face on a fighter and brawl in AR in a real street or living room.
+- What it is: A PS Vita launch title in which players put their own photographed face on a fighter and brawl in AR on their real surroundings, filmed by the Vita's rear camera.
+- Technique: A photographed face is mapped onto a fighter's head, and the characters are rendered over the rear camera feed anchored by an AR card.
+- Try it: Take a photo of your face with the front camera, paste it onto the head of a tiny AR fighter, and fight a classmate's fighter on the table. Twist: the loser's face texture shows "scars".
+
+#### Invizimals: The Alliance / The Lost Kingdom — Novarama (2013)
+- Video: https://www.youtube.com/watch?v=s1c3QuXY95I
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, Desktop, PS Vita, PS3, marker tracking
+- Idea: Catch monsters in AR on a handheld, then take them along into an adventure on the console.
+- What it is: PS Vita AR capture game (The Alliance) paired with a PS3 adventure (The Lost Kingdom) where creatures captured in AR travel between the handheld and the console world.
+- Technique: Creatures captured in the handheld AR mode are saved to a shared profile and loaded as playable characters in a separate console game, linking two devices through data.
+- Try it: "Catch" a character in phone AR and save it as JSON, then load it as a controllable character in a Unity scene on a computer. Twist: after leveling it up on the computer, the character's look in phone AR changes too.
+
+### Pavlo Tkachenko
+
+*AR developer and Snap Spectacles lens creator*
+
+AR developer who builds Spectacles lenses, often with Stijn Spanhove, and won a Spectacles Community Challenge with his generative lens Bubbles.
+
+#### BPlane Adventures — Pavlo Tkachenko (2025)
+- Video: https://www.youtube.com/watch?v=f-3du7Fy3kA
+- Interaction: Gaze & Attention, Hands & Body, Play
+- Platform & tech: Headset, Snap Spectacles, Lens Studio
+- Idea: Steer a small plane by turning your head and boost it with your hand as it weaves through the space around you.
+- What it is: A relaxing flow game for Spectacles: you steer a small plane with head movements and use your hands to boost it through the space around you.
+- Technique: Head orientation steers the plane's heading, while a hand gesture triggers a speed boost, both mapped in world space around the user.
+- Try it: Use head orientation (HoloKit or the phone gyroscope) to fly a paper plane through AR rings in the room, opening your palm to speed up. Twist: generate ring positions automatically from the room's planes.
+
+#### Bubbles — Pavlo Tkachenko (2025)
+- Video: https://www.youtube.com/watch?v=TAPU-f4w7xs
+- Interaction: Drawing & Making, Hands & Body
+- Platform & tech: Headset, Snap Spectacles, Snap3D, Lens Studio
+- Idea: Type some words to generate 3D objects, then fill the space around you with them, each sealed in a bubble.
+- What it is: A Spectacles lens where you type a prompt, generate 3D models with Snap3D generative AI, and place several objects around you inside floating bubbles.
+- Technique: A text prompt is sent to a text-to-3D service, and the returned mesh is scaled into a transparent sphere container placed around the user via world tracking.
+- Try it: Generate three small objects with a text-to-3D tool and place each in a transparent bubble in AR, so an object only drops to the ground when its bubble is popped. Twist: have classmates set the prompts for each other's bubbles.
+
+### SCE London Studio
+
+*Sony first-party studio (EyeToy, EyePet, Wonderbook)*
+
+Sony's London Studio pioneered camera games from EyeToy to EyePet and the Wonderbook, an AR book peripheral for PS3.
+
+#### EyePet — SCE London Studio (2009)
+- Video: https://www.youtube.com/watch?v=ORYSSQZTzbE
+- Interaction: Hands & Body, Tangible Objects, Drawing & Making
+- Platform & tech: Desktop, PlayStation 3, PlayStation Eye, Magic Card
+- Idea: An AR pet that reacts to your hand gestures and turns what you draw on paper into toys.
+- What it is: A virtual monkey-like pet appears on the living-room floor through the PlayStation Eye; players stroke, feed and wash it with their hands and draw toys on paper that it brings to life.
+- Technique: A fixed camera uses a marker card to locate the floor, and frame-differencing motion detection lets the player's hand movements near the pet count as touches.
+- Try it: Use a webcam and frame differencing to detect hand movement in one region of the image, and make an on-screen virtual pet react when it is 'stroked'. Twist: draw a circle on paper and have the pet play with it as a ball.
+
+#### EyePet (PlayStation Move edition) — SCE London Studio (2010)
+- Video: https://www.youtube.com/watch?v=TztCY2iz450
+- Interaction: Tangible Objects, Hands & Body, Play
+- Platform & tech: Desktop, PlayStation Move, PlayStation Eye
+- Idea: The Move controller in your hand becomes an AR hairdryer or paintbrush for looking after your pet.
+- What it is: EyePet updated for the PlayStation Move controller, which becomes tracked tools such as a hairdryer, shower head or paint brush in the pet's AR world.
+- Technique: The Move controller's glowing ball is tracked by the camera for position and its IMU for orientation, so it can be rendered as swappable virtual tools in the pet's space.
+- Try it: Use a phone as a prop controller, map its orientation to AR tools such as a hairdryer or brush, and groom a pet. Twist: give each tool its own distinctive sound feedback.
+
+#### EyePet & Friends — SCE London Studio (2011)
+- Video: https://www.youtube.com/watch?v=XNKnuY8fvOY
+- Interaction: Shared & Social, Hands & Body, Play
+- Platform & tech: Desktop, PlayStation Move, PlayStation Eye
+- Idea: Two AR pets play together in your living room.
+- What it is: Two players can each raise a pet that play together in the living room, with new costume, drawing and mini-game modes.
+- Technique: Two tracked controllers and pet instances share the camera-based floor frame, letting two players' pets interact in the same augmented video.
+- Try it: Put two pets in the same AR view, each controlled by a different player, and have them interact based on their distance. Twist: give each pet its own personality so the two come into conflict.
+
+#### Wonderbook: Book of Spells — SCE London Studio (2012)
+- Video: https://www.youtube.com/watch?v=Y6ms06Ujj88
+- Interaction: Tangible Objects, Hands & Body, Play
+- Platform & tech: Desktop, Wonderbook, PlayStation Move, PlayStation Eye
+- Idea: A blank physical book turns into a pop-up spellbook on screen, with the controller as your wand.
+- What it is: Written with J.K. Rowling's Pottermore, a blank marker book becomes a pop-up spell book on screen; players wave the Move controller as a wand to cast spells that affect the pages and room.
+- Technique: Each page of the book carries a distinct marker, so page identity and pose drive which pop-up scene is rendered, while the tracked Move wand gestures cast spells into it.
+- Try it: Put a different image marker on each page of a small booklet so turning the page pops up a matching 3D scene in AR. Twist: use the phone as a wand, waving it above the page to trigger changes.
+
+#### Wonderbook: Book of Potions — SCE London Studio (2013)
+- Video: https://www.youtube.com/watch?v=439opcIxxig
+- Interaction: Tangible Objects, Hands & Body, Play
+- Platform & tech: Desktop, Wonderbook, PlayStation Move
+- Idea: Grind and pour ingredients with a controller over a real book to brew AR potions.
+- What it is: A second Harry Potter Wonderbook where players brew potions in a virtual cauldron sitting on the book, grinding and pouring ingredients with the Move controller.
+- Technique: The book marker anchors a virtual cauldron, and controller motion patterns such as grinding and pouring are recognized from IMU data to add ingredients.
+- Try it: Put an AR cauldron on an image marker and add different ingredients by shaking or tilting the phone (accelerometer), with colored smoke rising when the recipe is right. Twist: the ingredients must be added in the correct order.
+
+### Snap Inc. (Snapchat Lenses)
+
+*Camera company; Snapchat Lenses and Lens Studio*
+
+Snap turned face filters into a mass medium with Snapchat Lenses (2015), then added World Lenses, Lens Studio for creators, Landmarkers and Local Lenses.
+
+#### Jeff Koons x Snapchat — Snap Inc. (Snapchat Lenses) (2017)
+- Video: https://www.youtube.com/watch?v=d5z9-JLIuis
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, Snapchat, geolocated lenses
+- Idea: Jeff Koons sculptures installed in AR at famous places around the world.
+- What it is: Geolocated AR versions of Jeff Koons sculptures such as Balloon Dog appeared at sites like Central Park and the Champ de Mars, visible only through a Snapchat lens at those places.
+- Technique: Geofenced lenses become available only near specific coordinates, and the sculpture is placed with ground tracking at a fixed site.
+- Try it: Design an AR sculpture for a spot on campus that is visible only there, using GPS to limit where it appears. Twist: let classmates leave AR graffiti next to the sculpture, and discuss who owns public space.
+
+#### Snapchat World Lenses — Snap Inc. (Snapchat Lenses) (2017)
+- Video: https://www.youtube.com/watch?v=K6x44v8prFA
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Snapchat, SLAM
+- Idea: Animated 3D characters dropped into the real world through the rear camera turned AR into everyone's meme.
+- What it is: Snapchat's rear-camera lenses place animated 3D objects, such as a rainbow-puking cloud or the Dancing Hot Dog, on the ground in the real scene that users can walk around and record.
+- Technique: Rear-camera SLAM with ground detection anchors an animated character to the floor, and video recording captures the composited result for sharing.
+- Try it: Make a World Lens with an animated character on the ground in Lens Studio and record a 10-second clip. Twist: the character imitates the movements of a real person in front of the camera, using body tracking.
+
+#### Landmarkers — Snap Inc. (Snapchat Lenses) (2019)
+- Video: https://www.youtube.com/watch?v=jNs9kdSAOCA
+- Interaction: Location & City, Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Lens Studio, landmark tracking
+- Idea: Recognize a real landmark and make the whole Eiffel Tower warp, melt or spray rainbows on camera.
+- What it is: Lenses that recognise famous buildings such as the Eiffel Tower or Flatiron Building and transform their real facades with animation, e.g. making the structure melt or burst into rainbows.
+- Technique: Landmark tracking matches the camera view to a prebuilt 3D model of a known building, so shaders and animations can be mapped precisely onto its real facade.
+- Try it: Use Lens Studio's Custom Landmarker or image tracking to recognize a building facade on campus and overlay a melting or grass-growing animation on it. Twist: make the animation change with the real time of day.
+
+#### Local Lenses — Snap Inc. (Snapchat Lenses) (2020)
+- Video: https://www.youtube.com/watch?v=4jA1RM5_WMc
+- Interaction: Location & City, Shared & Social, Drawing & Making
+- Platform & tech: Phone, Lens Studio, city-scale 3D map
+- Idea: People paint real buildings along a whole street together, and the AR content stays where it was put.
+- What it is: Persistent, shared AR that covers entire city blocks: multiple Snapchatters can paint and decorate real building facades together, and the changes stay in place for others.
+- Technique: A city-scale 3D map localizes users, and shared persistent state stores each paint stroke on building surfaces so later visitors see the accumulated changes.
+- Try it: Use persistent anchors and a simple backend such as Firebase to build a shared AR graffiti wall whose graffiti is still there the next time you open it. Twist: the graffiti slowly fades like real paint.
+
+### Within (Wonderscope)
+
+*Immersive studio; Wonderscope AR stories for kids*
+
+Within, co-founded by Chris Milk and Aaron Koblin, made Wonderscope (2018), an iOS app of AR stories where children speak characters' lines aloud to move the story forward.
+
+#### Wonderscope — Within (Wonderscope) (2018)
+- Video: https://www.youtube.com/watch?v=vqN3Rjv6nlk
+- Interaction: Voice & Sound, Spatial Mapping, Play
+- Platform & tech: Phone, ARKit, speech recognition
+- Idea: A child reads lines aloud to move the story along, and AR characters answer right in the living room.
+- What it is: An iOS app of AR stories for children: characters appear life-size in the room and the child moves the story along by walking around and reading lines out loud to them.
+- Technique: Life-size characters are placed on the floor via plane detection, and speech recognition checks the child's spoken line against the script to advance the story.
+- Try it: Make a three-line AR mini story with a character standing on the floor, where the plot continues only after the child reads the right line. Twist: when the line is wrong, the character gives a funny hint.
+
+#### Clio's Cosmic Quest — Within (Wonderscope) (2019)
+- Video: https://www.youtube.com/watch?v=_Kxz8QLJchc
+- Interaction: Voice & Sound, Spatial Mapping
+- Platform & tech: Phone, ARKit, speech recognition
+- Idea: A space adventure unfolds in your own room, and you have to speak up to move it along.
+- What it is: A space-adventure story on Wonderscope staged life-size in the child's room; like all Wonderscope stories, the child advances it by reading characters' lines aloud.
+- Technique: Story scenes are staged in room-scale world coordinates, and voice-recognition gates plus walking prompts pace the narrative.
+- Try it: Design an AR story where viewers must walk to the other side of the room to see the next scene. Twist: viewers must say the name of a planet to 'take off'.
+
+#### Wonder's Land: Ringmaster Wanted! — Within (Wonderscope) (2019)
+- Video: https://www.youtube.com/watch?v=WKI1P2YUDu8
+- Interaction: Voice & Sound, Performance
+- Platform & tech: Phone, ARKit, speech recognition
+- Idea: A child joins an AR circus show and takes part with their voice.
+- What it is: A circus-themed Wonderscope story that plays out around the child, who takes part by speaking lines aloud to the performers.
+- Technique: Characters are arranged around the viewer in a circle, and speech input triggers performer animations, making the child a participant.
+- Try it: Place several AR performers in a circle around the viewer, and when the viewer says a cue word, the matching performer takes the stage. Twist: the louder the viewer speaks, the more exaggerated the performance.
+
+#### Sinclair Snake — Within (Wonderscope) (2020)
+- Video: https://www.youtube.com/watch?v=MNP77K9RsjI
+- Interaction: Voice & Sound, Spatial Mapping
+- Platform & tech: Phone, ARKit
+- Idea: Talk with a little AR snake and move the story forward with your voice.
+- What it is: A Wonderscope story centred on a snake character, told in AR scenes around the child's home and advanced by speaking aloud.
+- Technique: An animated character rig is anchored in the room, and scene transitions are triggered by the child's spoken responses via speech recognition.
+- Try it: Have an AR character ask you a question and branch into two different storylines based on your spoken answer. Twist: the character remembers what you answered last time.
+
+#### Willowcrest Manor — Within (Wonderscope) (2020)
+- Video: https://www.youtube.com/watch?v=oEpxUGvaCFM
+- Interaction: Voice & Sound, Spatial Mapping, Play
+- Platform & tech: Phone, ARKit
+- Idea: A mysterious manor unfolds a detective story in a child's bedroom.
+- What it is: A Wonderscope mystery set in a spooky mansion that unfolds around the child's room.
+- Technique: Room-scale placement of set pieces and characters, likely with scripted triggers based on where the viewer looks, turns the child's room into a staged mystery.
+- Try it: Build a gaze-triggered AR mystery scene where a clue appears only when you look at a certain corner. Twist: once the clue appears, it moves somewhere else if you look away.
+
+### Yuta Itoh
+
+*Associate Professor, University of Tokyo (Augmented Vision Lab); formerly Tokyo Tech and TU Munich*
+
+Researches optical see-through displays that do more than add graphics: they subtract light, fix eyesight and show the future path of moving objects.
+
+#### Laplacian Vision — Yuta Itoh (2016)
+- Video: https://www.youtube.com/watch?v=2GD7KQOHiMs
+- Interaction: Perception & Effects, Information & UI, Play
+- Platform & tech: Headset, Projection, physics prediction, object tracking, optical see-through HMD
+- Idea: See where a flying object is going to be.
+- What it is: AR glasses or a projector show the predicted future trajectory of a thrown ball as a line in the air, helping people anticipate and catch it.
+- Technique: Tracks the object with cameras, fits a ballistic model and renders the extrapolated path in the user's view with latency compensation.
+- Try it: Detect a rolling ball in phone AR and draw its position one second ahead by parabolic or linear extrapolation. Twist: deliberately show a "wrong future" and see whether classmates are misled.
+
+#### OST Rift — Yuta Itoh (2016)
+- Video: https://www.youtube.com/watch?v=UatOFZuD5L0
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Headset, optical see-through HMD, latency compensation, Oculus Rift
+- Idea: A VR headset converted to optical see-through AR, with virtual objects pinned firmly to reality.
+- What it is: A consumer VR headset converted into an optical see-through AR display with careful timing so virtual objects stay locked to the real world during head motion.
+- Technique: Adds beam-splitter optics to a Rift and predicts head pose to compensate display latency, keeping overlays temporally consistent with the real scene.
+- Try it: Build simple see-through AR glasses from HoloKit or a phone plus a half-mirror, and compare how a virtual cube drifts during fast head turns. Twist: add an artificial 200 ms delay and have classmates describe how it feels.
+
+#### AdaptiVisor — Yuta Itoh (2017)
+- Video: https://www.youtube.com/watch?v=fi4PjGIbuu8
+- Interaction: Perception & Effects, Portals & Worlds
+- Platform & tech: Headset, occlusive optical see-through HMD, spatial light modulator, HDR camera
+- Idea: Pixel-level sunglasses that dim only the glaring parts of reality.
+- What it is: An occlusion-capable see-through HMD selectively dims bright regions of the real world, like a sun visor per pixel, to help the eye adapt to glare.
+- Technique: Uses a camera to find over-bright regions and an LCD panel in the optical path to attenuate exactly those pixels of real-world light.
+- Try it: Use the phone camera to detect the brightest regions of the image in real time and darken them in the video pass-through, making a "smart anti-glare" filter. Twist: flip it so only the brightest regions stay and everything else goes dark.
+
+#### Occlusion Leak Compensation — Yuta Itoh (2017)
+- Video: https://www.youtube.com/watch?v=iqSjFHu9wsI
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Headset, occlusion-capable OST display, spatial light modulator
+- Idea: Make virtual objects in see-through AR truly block the reality behind them.
+- What it is: A see-through display that can make virtual objects truly opaque by blocking real light, and compensates the blurry 'leak' around the mask so edges look sharp.
+- Technique: Predicts the defocus blur of the occlusion mask and adds compensating light from the display so the combined image has crisp opaque edges.
+- Try it: In phone video pass-through AR, compare rendering a virtual object as a semi-transparent overlay versus fully occluding, and observe which looks more real. Twist: add shadows to the virtual object and compare again.
+
+#### Varifocal Occlusion — Yuta Itoh (2019)
+- Video: https://www.youtube.com/watch?v=HKhp_ac_jV0
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Headset, varifocal optics, occlusion mask
+- Idea: An occlusion layer that refocuses near and far, so real objects at any distance are blocked correctly.
+- What it is: An optical see-through HMD whose occlusion mask can be moved in focal depth, so real objects are blocked correctly whether they are near or far.
+- Technique: Slides the occlusion SLM along the optical axis so the mask's focal plane matches the depth of the real object being blocked.
+- Try it: Photograph a near object and a far object with a phone camera, overlay a virtual occluder while focused on each, and discuss why it blurs. Twist: use a manual-focus app to show the focal plane shifting.
+
+### Alessio Grancini
+
+*AR engineer; Snap Spectacles developer relations (ex-Magic Leap, Morphosis)*
+
+Italian architect turned AR prototyper: SCI-Arc Gehry Prize thesis on a world-scale AR game, XR lead at Morphosis, prototype engineer at Magic Leap, now building and teaching Spectacles lenses at Snap.
+
+#### Games of Deletion — Alessio Grancini (2018)
+- Video: https://www.youtube.com/watch?v=EccdRMAOvSM
+- Interaction: Location & City, Shared & Social, Play
+- Platform & tech: Phone, Unity, ARKit, ARCore
+- Idea: Turn city buildings and street art into territory to erase and fight over in a multiplayer AR game.
+- What it is: A world-scale multiplayer mixed-reality game in which players tag and 'delete' urban art and architecture through their phones, competing over real city spaces.
+- Technique: Geolocated AR content is anchored to real urban sites and synced across players so each tag or deletion changes a shared world state.
+- Try it: Pick five buildings on campus, use AR to 'tag' or 'erase' them and record this on a shared map, with two teams competing to take them over. Twist: erased buildings actually turn transparent in AR.
+
+#### Interfaces by Morphosis AR app — Alessio Grancini (2019)
+- Video: https://www.youtube.com/watch?v=VCgOt4sfs1o
+- Interaction: Information & UI, Location & City, Tangible Objects
+- Platform & tech: Phone, Unity, ARKit, ARCore
+- Idea: Overlay moving structure and design information on a physical architectural installation with AR.
+- What it is: The official AR app for Morphosis's Milan Design Week installation with Dassault Systèmes overlays animated architectural geometry and information on the physical installation.
+- Technique: Image or object tracking registers the phone to the installation so digital geometry and sound are aligned with the built structure (likely target-based).
+- Try it: Make an AR guide for a sculpture or architectural model at school: scan it to reveal structural lines and the design story. Twist: let viewers 'take it apart' to see the inner structure.
+
+#### Augmented Inspection (Vision Hack) — Alessio Grancini (2024)
+- Video: https://www.youtube.com/watch?v=H3DuCWQXWUw
+- Interaction: Hands & Body, Voice & Sound, Information & UI
+- Platform & tech: Headset, Apple Vision Pro, Unity, OpenAI, Boston Dynamics Spot
+- Idea: Put on a headset and use gestures and voice to inspect and steer a robot dog remotely.
+- What it is: An Apple Vision Pro app lets an operator monitor and teleoperate a Boston Dynamics Spot robot with hand gestures and voice, seeing its camera feed and point cloud in space.
+- Technique: Hand tracking and speech on Vision Pro drive robot commands, while the robot's camera stream and point cloud are rendered as spatial panels.
+- Try it: Use phone AR and a remote-control car to run a 'remote inspection': watch the car's camera feed on the phone and steer it with hand gestures. Twist: automatically tag objects of a certain color when they are spotted.
+
+#### Mistral-OUI: contextual AR UI — Alessio Grancini (2024)
+- Video: https://www.youtube.com/watch?v=2Bcnh3w1CCg
+- Interaction: Information & UI, Gaze & Attention
+- Platform & tech: Headset, Magic Leap 2, Unity, Mistral API, moondream
+- Idea: Whatever you look at, AI generates a matching interface for it on the spot.
+- What it is: On Magic Leap 2, a vision model recognizes what the wearer is looking at and a language model generates a custom interface for that context, shown floating in view.
+- Technique: Camera frames are captioned by a vision-language model, and an LLM turns the description into HTML UI rendered as a panel in the headset.
+- Try it: Take a photo with a phone and have a multimodal LLM identify the object and generate an 'AR sticky note' UI (shown in web AR). Twist: change the UI's style to match the object's mood.
+
+### Asobo Studio
+
+*Game developer; HoloLens launch-title studio (later HoloForge Interactive)*
+
+Bordeaux game studio that built the most ambitious HoloLens launch titles and later spun out HoloForge Interactive for holographic work.
+
+#### Fragments — Asobo Studio (2016)
+- Video: https://www.youtube.com/watch?v=m6Wndguve8U
+- Interaction: Spatial Mapping, Portals & Worlds, Play
+- Platform & tech: Headset, HoloLens, spatial mapping
+- Idea: Your real home becomes a crime scene, with virtual characters sitting on your sofa.
+- What it is: A HoloLens crime thriller that maps your home and stages the investigation inside it: life-size characters sit on your real furniture and clues and memory reconstructions appear in your room.
+- Technique: Spatial mapping classifies seats, tables and floors in the home, and the story system places characters and clues on matching surfaces, so each room produces a different staging.
+- Try it: Detect the horizontal surfaces in a room and place the clues of a "crime scene" on the highest and lowest ones. Twist: have an AR character sit on a real chair and describe the case.
+
+#### Young Conker — Asobo Studio (2016)
+- Video: https://www.youtube.com/watch?v=U91aOkLGD6w
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Headset, HoloLens, spatial mapping
+- Idea: Scan the room and automatically turn furniture and floors into platformer levels.
+- What it is: A HoloLens platformer that scans your room and procedurally turns furniture and floors into levels for the squirrel Conker to run across.
+- Technique: The room mesh is analyzed for walkable horizontal surfaces, and a procedural level generator places platforms, collectibles and paths across real furniture.
+- Try it: Find all horizontal surfaces in a room with plane detection and automatically generate jump paths and coins between them. Twist: make the character slip off the edges of real objects.
+
+#### HoloForge Lab: HoloParticles tennis — Asobo Studio (2021)
+- Video: https://www.youtube.com/watch?v=CCW7XMOyR2Q
+- Interaction: Hands & Body, Perception & Effects, Play
+- Platform & tech: Headset, HoloLens 2
+- Idea: Play a game of holographic tennis with holographic particles and hand tracking.
+- What it is: A HoloForge Lab experiment with holographic particle effects on HoloLens 2, ending in a mock holographic tennis rally with hand-tracked swings.
+- Technique: GPU particle effects are world-anchored, and a hand-tracked palm or racket collider transfers velocity to a ball whose trajectory is simulated with simple physics.
+- Try it: Use a phone as a racket that sends an AR ball flying based on acceleration when you swing, leaving a particle trail along its path. Twist: make the ball bounce back after hitting a real wall.
+
+### Danlin Huang
+
+*Designer-researcher; China Academy of Art School of Design Innovation*
+
+Designs speculative mixed-reality rituals and tools - shared mushroom-mask MR, body-posture oracle glyphs, AR origami tutoring - often with Botao Amber Hu.
+
+#### Dialogue with Great Souls — Danlin Huang (2024)
+- Video: https://www.youtube.com/watch?v=DtI2JtVNGIU
+- Interaction: Portals & Worlds, Location & City, Shared & Social
+- Platform & tech: Phone, WebAR, portal rendering
+- Idea: Set down an AR 'Anywhere Door' on the street and walk through it to talk with ancient sages.
+- What it is: A street exhibition on Daxue Road, Shanghai with Soul App: scan a code, place an AR 'Anywhere Door' anywhere and step through into a scene to converse with eight historical sages.
+- Technique: A phone AR portal with stencil masking hides the inner scene until the user walks through the door plane, anchored at user-chosen positions along the street.
+- Try it: Build an Anywhere Door with phone AR that hides a scene of a historical figure of your choice and a voice clip you can only hear after walking through. Twist: the door can only be placed at campus locations connected to that figure.
+
+#### FungiSync — Danlin Huang, Botao 'Amber' Hu (2024)
+- Video: https://www.youtube.com/watch?v=BzvtihUKAaw
+- Interaction: Shared & Social, Performance, Hands & Body
+- Platform & tech: Headset, Phone, HoloKit, co-located multiplayer AR, hand tracking
+- Idea: Put on a mushroom mask and trade the way you see the world through a handshake.
+- What it is: A mixed-reality participatory ritual: participants wear mushroom-decorated MR masks and exchange 'worldviews' through secret handshakes, blending each other's visual filters like a mycorrhizal network.
+- Technique: Likely co-located phone-based MR headsets share an anchor and detect handshake gestures to swap and mix each participant's visual shader.
+- Try it: Have each group of classmates make a phone AR filter that represents their own 'worldview', and swap filters when two people high-five (detected by proximity or a QR scan). Twist: when three or more people meet, their filters blend.
+
+#### Body Oracle Translator — Danlin Huang, Botao 'Amber' Hu (2025)
+- Video: https://www.youtube.com/watch?v=GXeLSfZnXAQ
+- Interaction: Hands & Body, Information & UI, Perception & Effects
+- Platform & tech: Phone, pose estimation, generative AI glyphs, handheld MR
+- Idea: Translate body postures into AI-generated 'oracle-bone script' in real time.
+- What it is: A handheld MR device translates people's body postures in real time into speculative AI-generated hieroglyphs inspired by Chinese oracle-bone script.
+- Technique: Classifies body poses with a pose-estimation model and maps them to a pre-generated glyph set rendered as AR overlays next to the person.
+- Try it: Use phone body-pose recognition (Effect House or MediaPipe) to map five poses to five invented pictographs and overlay them next to the person when taking a photo. Twist: string a sequence of poses into a 'body sentence'.
+
+#### Foldiverse — Danlin Huang (2025)
+- Video: https://www.youtube.com/watch?v=DW8Xlm51S4A
+- Interaction: Tangible Objects, Information & UI, Voice & Sound
+- Platform & tech: Headset, Phone, mixed reality guidance, voice assistant
+- Idea: An AR origami teacher guides a child through folding, step by step.
+- What it is: An MR origami trainer for autistic children: a virtual 3D origami model and a voice assistant called FoFo guide each fold step-by-step over the real paper.
+- Technique: Shows animated 3D fold steps registered near the child's paper with voice prompts from an assistant, advancing when a step is complete.
+- Try it: Play a step-by-step 3D origami animation on a tabletop with phone AR, using a voice button to go to the next step. Twist: have the phone recognize the paper's shape to decide automatically whether the current step is done.
+
+### Fabin Rasheed
+
+*Artist, designer and technologist (Nurecas)*
+
+Indian artist-designer who prototyped ARKit sculpting, multiplayer AR and AR drone control in 2017-18, presented an Adobe MAX Sneak, and now makes generative art.
+
+#### Face substitution tests — Fabin Rasheed (2013)
+- Video: https://www.youtube.com/watch?v=Ae9XSa0XONw
+- Interaction: Face, Perception & Effects
+- Platform & tech: Desktop, openFrameworks, face tracking
+- Idea: Paste another face onto yours in real time.
+- What it is: Early openFrameworks tests swap faces in live video, pasting another face onto the tracked face with matching position and expression.
+- Technique: A face tracker fits a mesh to the live face and texture-maps a second face onto it with color blending (likely based on Kyle McDonald and Arturo Castro's openFrameworks FaceSubstitution code).
+- Try it: Use MediaPipe FaceMesh to paste the face from a famous painting onto your own so it follows your expressions. Twist: two classmates swap faces.
+
+#### MakerStudio: sculpting and painting in ARKit — Fabin Rasheed (2017)
+- Video: https://www.youtube.com/watch?v=HIUVwuRiPes
+- Interaction: Drawing & Making, Spatial Mapping
+- Platform & tech: Phone, ARKit, Apple Pencil
+- Idea: Sculpt and paint with an Apple Pencil on an iPad, and the piece stands right in your room.
+- What it is: With an Apple Pencil on an iPad, he sculpts and paints a Halloween creature that stands in the room, using ARKit to walk around and refine it.
+- Technique: Pencil strokes deform and paint a mesh while ARKit tracking lets the artist view and edit the sculpture from any angle in real space.
+- Try it: Put a scanned model of your own clay sculpture into AR with Reality Composer or Adobe Aero and paint it on your phone. Twist: classmates gather around the model and each add one stroke.
+
+#### Multiplayer Paintball in ARKit — Fabin Rasheed (2017)
+- Video: https://www.youtube.com/watch?v=T0oyKUhkLHM
+- Interaction: Shared & Social, Play
+- Platform & tech: Phone, ARKit, Unity, networking
+- Idea: Two phones share one AR space for a paintball fight.
+- What it is: Two iPhones share an ARKit scene and players shoot paintballs that splat on virtual targets and each other.
+- Technique: Devices align their ARKit world origins (likely via a shared starting marker) and sync projectile events over the network.
+- Try it: Build a multiplayer paint-the-wall game with 8th Wall or Lens Studio shared sessions, where the paint stays on real walls. Twist: after one minute, the side that has painted the larger area wins.
+
+#### Aquila: flying a drone with an AR eagle — Fabin Rasheed (2018)
+- Video: https://www.youtube.com/watch?v=S8ztOm7znGQ
+- Interaction: Voice & Sound, Tangible Objects, Play
+- Platform & tech: Phone, ARKit, ARCore, drone SDK
+- Idea: Summon an AR eagle by voice, and it takes a real drone into the air.
+- What it is: A voice-controlled AR eagle, inspired by Assassin's Creed Origins, acts as the interface to launch and fly a real drone.
+- Technique: Speech commands trigger an animated AR companion whose actions are mapped to drone SDK commands for takeoff and flight.
+- Try it: Use speech recognition and an AR character to control a remote-control toy (or a Tello drone): say 'take off' and the character flies first, then the toy moves. Twist: the character copies the direction of your hand gestures.
+
+### Glen Rhodes
+
+*Game developer & technologist*
+
+Game developer who published some of the very first Unity + ARKit experiments in June 2017, days after the iOS 11 beta, testing scale, occlusion and placement.
+
+#### ARKit Real-World Geometry Occlusion — Glen Rhodes (2017)
+- Video: https://www.youtube.com/watch?v=CQFkTvEcfpk
+- Interaction: Spatial Mapping, Portals & Worlds
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Depth masks on real walls let virtual objects hide behind them.
+- What it is: Depth masks mapped onto real walls at runtime let physical architecture hide virtual objects behind it.
+- Technique: Invisible occluder meshes that write only to the depth buffer are placed on detected wall planes at runtime, so real architecture hides virtual objects behind it.
+- Try it: Place a depth-only occlusion material on a vertical plane so a virtual character disappears when it walks behind the wall. Twist: cut a small window in the wall so the character can only be seen through it.
+
+#### Experiment: Building a City in ARKit — Glen Rhodes (2017)
+- Video: https://www.youtube.com/watch?v=Wk_gZTUMBh4
+- Interaction: Drawing & Making, Spatial Mapping, Play
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Place buildings one by one on the sofa to build a miniature city.
+- What it is: Choose buildings from a menu and place them to grow a miniature town on the sofa.
+- Technique: Building prefabs chosen from a UI menu are placed with raycasts onto a detected surface, with grid snapping for a tidy miniature city layout.
+- Try it: Make a grid on the tabletop plane and pick buildings, trees and roads from a menu to assemble a small town. Twist: placed buildings come to life on their own, for example with little cars appearing on the roads.
+
+#### The Armada Arrives — Glen Rhodes (2017)
+- Video: https://www.youtube.com/watch?v=FEQo-13ShSg
+- Interaction: Perception & Effects, Location & City
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A giant fleet hovers in the sky above your house.
+- What it is: A fleet of enormous spaceships hovers above his house, testing how very large virtual objects feel in ARKit.
+- Technique: Very large models are placed far from the camera in world space with correct scale, atmospheric fog and shadows, so world tracking conveys their size above the house.
+- Try it: Place a spaceship hundreds of meters long hovering in the air outdoors, and add fog and shadows so it looks far and big enough. Twist: the ship's shadow moves across the ground over time.
+
+#### Titanic AR Demo — Glen Rhodes (2017)
+- Video: https://www.youtube.com/watch?v=HtnC1dZr_cI
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A full-size Titanic slowly sails away across a real lake.
+- What it is: At a real lake, a full-size Titanic appears on the water and sails off into the distance.
+- Technique: A full-scale ship model is placed at a distance on the water with a horizon-aligned anchor, and animated motion makes it sail away while tracking holds the world frame.
+- Try it: Place a life-size ship on a sports field or by a lake and let it slowly sail away. Twist: the ship moves only when your back is turned, so you notice its new position when you turn around.
+
+### Greg Broadmore (Weta Workshop / Weta Gameshop)
+
+*Concept artist; creator of Dr. Grordbort; studio director of Weta Gameshop*
+
+Weta Workshop concept artist who created the retro-sci-fi Dr. Grordbort universe and led Weta Gameshop's multi-year collaboration with Magic Leap.
+
+#### Just another day in the office at Magic Leap — Greg Broadmore (Weta Workshop / Weta Gameshop) (2015)
+- Video: https://www.youtube.com/watch?v=LHIJrhKkCos
+- Interaction: Spatial Mapping, Play, Portals & Worlds
+- Platform & tech: Headset, Magic Leap, Weta Workshop
+- Idea: An ordinary office day is interrupted by robots bursting through the walls.
+- What it is: Early Magic Leap concept footage made with Weta: a worker checks email on a holographic screen, then a robot invasion breaks out and he fights it with a ray gun around the real office.
+- Technique: Spatial meshing of the office lets robots occlude behind and collide with real desks and walls, and a tracked controller acts as the ray gun for raycast hits.
+- Try it: Build a phone AR scene where a small robot peeks out from behind a table, using occlusion to hide it behind real objects. Twist: when tapped, the robot flees behind a different real object.
+
+#### Dr. Grordbort's Invaders — Greg Broadmore (Weta Workshop / Weta Gameshop) (2018)
+- Video: https://www.youtube.com/watch?v=45ZHNq9_7eY
+- Interaction: Spatial Mapping, Portals & Worlds, Play
+- Platform & tech: Headset, Magic Leap One, Unreal Engine
+- Idea: Portals open in your walls and retro sci-fi robots storm your living room.
+- What it is: A Magic Leap One launch game in which portals open in your real walls and robots from Dr. Grordbort's universe pour into your living room while you fight back with a ray gun.
+- Technique: Wall surfaces from spatial mapping host portal decals with stencil masking, so robots appear to climb out of the real wall and then navigate the room mesh.
+- Try it: Detect a wall and 'blast' a stencil hole in it, with enemies crawling out of the hole. Twist: the hole grows bigger the more you shoot, finally revealing another world behind the wall.
+
+#### Grordbattle (multiplayer) — Greg Broadmore (Weta Workshop / Weta Gameshop) (2019)
+- Video: https://www.youtube.com/watch?v=y4VTxpDNeWk
+- Interaction: Shared & Social, Play, Spatial Mapping
+- Platform & tech: Headset, Magic Leap One
+- Idea: Several players in the same room wear Magic Leap and fight with ray guns.
+- What it is: A co-located multiplayer Magic Leap duel from Weta Gameshop: players in the same real room see each other's avatars and trade ray-gun fire around the furniture.
+- Technique: Co-located players share a common coordinate frame (shared spatial anchor or map), and each player's head and weapon poses are networked so avatars and shots line up with real bodies.
+- Try it: Use Unity Netcode and an image marker to align two phones' coordinate systems so two people can shoot AR light balls at each other in the same room. Twist: real furniture blocks the shots.
+
+### Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis)
+
+*Creative studio*
+
+London studio (active c. 2008–2015) that built camera- and Kinect-driven installations with openFrameworks, from mirror-like feedback walls to Somantics, an interactive app for autistic children.
+
+#### Feedback (with Todd Vanderlin) — Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis) (2010)
+- Video: https://vimeo.com/19598568
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, openFrameworks, Kinect, video feedback
+- Idea: Feed people's movements back into themselves as layer upon layer of visual echoes.
+- What it is: A large interactive wall for Roundhouse CircusFest that turns performers' and visitors' movements into layered visual feedback; a later version used Kinect for 3D interaction.
+- Technique: Camera (later Kinect depth) input is composited with its own previous frames to create a video-feedback trail driven by the body.
+- Try it: Overlay the camera image on the previous frame with a slight scale and rotation to project a 'visual echo'. Twist: use hand height to control the echo's rotation angle.
+
+#### White Heat — Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis) (2010)
+- Video: https://vimeo.com/15633768
+- Interaction: Hands & Body, Projection, Tangible Objects
+- Platform & tech: Projection, openFrameworks, boids, camera tracking
+- Idea: A swarm of rule-driven light creatures gathers, scatters and evolves around visitors and books.
+- What it is: A flock of projected 'light-beings', inspired by the Game of Life and Reynolds' boids, reacts to visitors and to a collection of artists' books and evolves over the show.
+- Technique: openFrameworks runs boid flocking plus cellular-automaton rules, using camera-detected visitors as attractors or obstacles.
+- Try it: Write a boids flock in p5.js and project it onto a table, treating people detected by the camera as attractors. Twist: place a book on the table and have the flock avoid it or gather around it.
+
+#### Divide By Zero — Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis) (2011)
+- Video: https://vimeo.com/19487686
+- Interaction: Performance, Hands & Body, Perception & Effects
+- Platform & tech: Desktop, camera tracking, generative graphics
+- Idea: A dance under hypnotic guidance turns unconscious movement into a visible interface.
+- What it is: A dance film in which a performer's movements, guided by a hypnotherapist, drive interactive graphics that connect unconscious content with digital interfaces.
+- Technique: Camera tracking of the dancer drives real-time generative graphics composited around her body (likely openFrameworks).
+- Try it: Have a classmate close their eyes and improvise movement while listening to a guided script, as a camera draws their motion trail as lines. Twist: afterward, let them watch the playback and write down their reading of the "subconscious graphics".
+
+#### Inside - Out — Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis) (2011)
+- Video: https://vimeo.com/30795891
+- Interaction: Shared & Social, Projection, Hands & Body
+- Platform & tech: Projection, live video, projection, openFrameworks
+- Idea: Project people from one space live into another so both sides end up watching each other.
+- What it is: A shop installation where cameras and projectors transport the activity of one space into another, creating surprising feedback loops between viewers and participants.
+- Technique: Live camera feeds from one room are processed and projected into the other (and back), forming a two-way video feedback loop.
+- Try it: Set up two laptops at opposite ends of a hallway, video-call between them and project each feed onto the wall so people on both sides can play across the wall. Twist: show only the other side's silhouettes, mirrored left to right.
+
+### Jeremy Bailey
+
+*Artist, 'Famous New Media Artist'*
+
+Canadian performance artist who has used webcam tracking and AR since the mid-2000s to satirise the art world and tech industry with deadpan software demos.
+
+#### Video Terraform Dance Party — Jeremy Bailey (2008)
+- Video: https://www.youtube.com/watch?v=nWfAJyIfmn4
+- Interaction: Hands & Body, Drawing & Making, Performance
+- Platform & tech: Desktop, webcam tracking
+- Idea: Shape terrain on screen with dance moves.
+- What it is: A webcam performance where the artist's body movements sculpt a 3D landscape around him live on screen.
+- Technique: Webcam-based motion tracking (likely colour or frame-difference tracking) maps body positions to height-field deformations of a 3D terrain rendered live around the performer.
+- Try it: Use MediaPipe Pose so the height of your hands pushes up or presses down a three.js terrain mesh, and 'dance out' a mountain on screen. Twist: present the dance as a deadpan product demo for 'terrain design software'.
+
+#### Nail Art Museum — Jeremy Bailey (2014)
+- Video: https://www.youtube.com/watch?v=40pSU5ZM784
+- Interaction: Hands & Body, Tangible Objects
+- Platform & tech: Phone, marker tracking
+- Idea: Shrink a museum and move it onto your fingernails.
+- What it is: An AR 'museum' that places tiny artworks and gallery spaces on the artist's fingernails, parodying the art market.
+- Technique: Small printed markers on the fingernails are tracked by the camera, and miniature gallery models are rendered on each nail's pose.
+- Try it: Stick small image markers on your nails or fingertips (or use fingertip positions from MediaPipe Hands) and place a mini museum with artworks on them. Twist: write an over-the-top opening speech for this museum and record it as a video.
+
+#### Dropping an Ai Weiwei Urn in AR — Jeremy Bailey (2015)
+- Video: https://www.youtube.com/watch?v=JJhF4j8XkKk
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Desktop, AR
+- Idea: Re-enact Ai Weiwei dropping the urn, in AR.
+- What it is: The artist re-enacts Ai Weiwei's famous urn-dropping photo with a virtual urn in AR.
+- Technique: A virtual urn is anchored to the tracked hands or a plane and animated with physics to fall and shatter, re-staging a famous photographic sequence in AR.
+- Try it: Pick a famous performance-art photograph, re-enact the key object's action with phone AR and a physics engine, and shoot it as a triptych. Twist: replace the dropped object with a virtual version of your own "sacred object".
+
+#### ARt — Jeremy Bailey (2019)
+- Video: https://www.youtube.com/watch?v=w0Gl5WR3A6o
+- Interaction: Hands & Body, Performance
+- Platform & tech: Phone, AR
+- Idea: Demo the absurdity of AR art with a perfectly straight face.
+- What it is: A deadpan performance-demo (for TEDxTheWrong) launching 'the world's first platform for augmented reality art', satirising AR hype with face- and body-tracked artworks.
+- Technique: Face and body tracking attach artworks to the performer in real time, framed as a mock product launch; the technique is ordinary on purpose and the satire carries the piece.
+- Try it: Make an 'art platform' filter in Lens Studio or Effect House, then record a deadpan two-minute product launch demo. Twist: the demo must include one clearly absurd feature presented as crucial.
+
+### Mark Dawson
+
+*Software engineer; author of 'ARKit by Example'*
+
+Engineer whose 2017 'ARKit by Example' blog series and demos taught many early ARKit developers, later followed by LiDAR meshing experiments on the 2020 iPad Pro.
+
+#### ARKit Light Estimation Demo — Mark Dawson (2017)
+- Video: https://www.youtube.com/watch?v=7Kk6iVr5ULo
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, ARKit
+- Idea: Virtual objects brighten and dim with the real lights in the room.
+- What it is: A virtual cube brightens and dims as he switches real room lights on and off, showing ARKit light estimation.
+- Technique: ARKit light estimation returns ambient intensity and color temperature each frame, which are applied to the scene's lights so virtual objects match the room lighting.
+- Try it: Turn on light estimation in AR Foundation, feed the estimated values into the scene lights, and switch the room lights on and off to watch the virtual object change. Twist: the darker the room, the brighter the virtual object glows, like a night light.
+
+#### ARKit Virtual Van Gogh Bedroom Tour — Mark Dawson (2017)
+- Video: https://www.youtube.com/watch?v=lvjVgt_ce5Q
+- Interaction: Portals & Worlds, Spatial Mapping
+- Platform & tech: Phone, ARKit, SceneKit
+- Idea: Van Gogh's Bedroom in Arles moved into your kitchen at full size so you can walk inside.
+- What it is: A life-size 3D model of Van Gogh's painting 'Bedroom in Arles' is placed in his kitchen to walk around in.
+- Technique: A 1:1 3D reconstruction of the painted room is placed on the detected floor plane, so the viewer walks through it using world tracking.
+- Try it: Build a simple 3D room in Blender based on a painting and place it at real scale in the classroom in AR so people can walk in. Twist: pick a surreal painting of a place that could never exist.
+
+#### 3D Scene Reconstruction with iPad Pro LiDAR — Mark Dawson (2020)
+- Video: https://www.youtube.com/watch?v=6JMYkHC69OA
+- Interaction: Spatial Mapping
+- Platform & tech: Phone, ARKit, LiDAR, Metal
+- Idea: Rebuild a room's mesh live with iPad LiDAR.
+- What it is: Scans a room live with the iPad Pro LiDAR and renders the growing mesh with shading and grid lines.
+- Technique: ARKit scene reconstruction mesh anchors are rendered in Metal with a normal-based shading and a world-space grid shader, updating as the mesh grows.
+- Try it: Show the scanned room mesh with the AR Foundation mesh manager and render it with a world-space grid-line shader. Twist: color the grid lines as a gradient by the order in which areas were scanned.
+
+#### iPad Pro LiDAR Matrix Simulation — Mark Dawson (2020)
+- Video: https://www.youtube.com/watch?v=bGgSpHBy_5g
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Phone, ARKit, LiDAR, Metal
+- Idea: Cover the scanned room with the green code rain from The Matrix.
+- What it is: The scanned room is texture-mapped with falling green Matrix code, turning his house into the digital rain.
+- Technique: The LiDAR mesh is shaded with a world-space projected shader that scrolls glyph textures downward over time, producing Matrix-style digital rain on every surface.
+- Try it: Write a shader for the AR mesh that scrolls a glyph texture downward along the world-space Y axis. Twist: replace the glyphs with the letters of your name or lines of a poem.
+
+### Miguel Chevalier
+
+*Digital artist*
+
+Mexican-French pioneer of computer art since the 1980s whose generative, interactive floor and vault projections (Magic Carpets, Fractal Flowers, Digital Supernova) respond to visitors walking through them.
+
+#### Fractal Flowers — Miguel Chevalier (2008)
+- Video: https://vimeo.com/796298809
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, generative L-systems, camera tracking
+- Idea: A fractal garden that bends and blooms as you come close.
+- What it is: A virtual garden of generative fractal flowers grows, blooms and dies on a projection, bending and reacting as visitors move in front of it.
+- Technique: L-system-like generative plant growth runs in real time and a camera tracks visitors' positions to bend or trigger blooms near them.
+- Try it: Write a recursive fractal flower in p5.js and make the flowers bend toward a person when the camera detects them approaching. Twist: the color of each visitor's clothing becomes the color of the new flowers.
+
+#### Magic Carpets — Miguel Chevalier (2014)
+- Video: https://www.youtube.com/watch?v=LvNhZrWVByM
+- Interaction: Hands & Body, Projection, Location & City
+- Platform & tech: Projection, floor projection, overhead tracking, generative graphics
+- Idea: Turn the floor of an old building into a magic carpet that changes with every step.
+- What it is: Generative carpets of light are projected across the floor of a historic courtyard; patterns ripple and reorganise wherever visitors walk.
+- Technique: Overhead cameras track visitors (Voxels tracking software) and generative pattern software reacts locally to their positions on the floor projection.
+- Try it: Project a geometric-pattern "carpet" onto the floor and use an overhead camera to detect footsteps and spawn ripples. Twist: the line between two people generates new pattern motifs.
+
+#### Pixel Waves — Miguel Chevalier (2015)
+- Video: https://vimeo.com/1208277695
+- Interaction: Hands & Body, Projection, Voice & Sound
+- Platform & tech: Projection, wave simulation, overhead tracking
+- Idea: Walk through a sea of pixel light whose waves move with you.
+- What it is: Waves of pixel-like light roll across the floor and respond to people walking through them like a digital sea.
+- Technique: Floor projection of a height-field wave simulation, perturbed at the positions of people detected by an overhead tracking system (Voxels track).
+- Try it: Build a 2D wave-equation simulation on the web and project it onto the floor, dropping a "pebble" wherever the camera detects a person. Twist: let the volume of sound change the color of the waves.
+
+#### Digital Supernova — Miguel Chevalier (2019)
+- Video: https://www.youtube.com/watch?v=ZbSWZL_YZ3w
+- Interaction: Projection, Perception & Effects, Location & City
+- Platform & tech: Projection, generative graphics, vault projection mapping
+- Idea: Turn a cathedral vault into a sky of constantly exploding digital supernovae.
+- What it is: Generative geometric 'supernovae' are projected onto the Gothic vaults of Rodez Cathedral, turning the ceiling into a slowly exploding digital sky.
+- Technique: Real-time generative geometry is warped to the cathedral's vault surfaces using mapped projection and edge blending.
+- Try it: Lie on the floor and project rotating generative geometry onto the ceiling for everyone to look up at. Twist: use a classmate's heartbeat (measured with a phone) to set the rhythm of the geometry's bursts.
+
+### Moment Factory
+
+*Multimedia entertainment studio*
+
+Studio known for architectural projection mapping, illuminated night walks (Lumina) and interactive projected play spaces worldwide.
+
+#### Sagrada Familia - Ode à la Vie — Moment Factory (2012)
+- Video: https://www.youtube.com/watch?v=RS-OTtIsBKY
+- Interaction: Projection, Location & City, Performance
+- Platform & tech: Projection, projection mapping
+- Idea: A projection show that makes the stone walls of the Sagrada Família grow, flood and bloom.
+- What it is: A monumental projection-mapping show on Gaudí's Sagrada Família façade for La Mercè festival, making the stone appear to grow, flood and bloom.
+- Technique: Large-scale multi-projector architectural mapping with edge blending, using a detailed 3D model of the facade to render growth and flooding effects that respect its relief.
+- Try it: Project onto an object with relief or a complex surface (a plaster bust, a carved box) so its surface seems to grow, flood or bloom. Twist: express an emotion from the object's "inner life".
+
+#### Foresta Lumina — Moment Factory (2014)
+- Video: https://www.youtube.com/watch?v=AIMcZtSUiFo
+- Interaction: Projection, Location & City
+- Platform & tech: Projection, projection, interactive lighting
+- Idea: A story told in light along a forest trail at night.
+- What it is: An illuminated night walk through a forest in Coaticook, Quebec, with projection, light and sound that tell a story along the trail.
+- Technique: A network of projectors, lights and speakers distributed along a trail is triggered in sequence (likely show control with sensors), so a narrative unfolds as visitors walk.
+- Try it: Set up three "light nodes" (a phone projector, an LED strip, a Bluetooth speaker) along a campus path at night and link them into one complete short story. Twist: one node only triggers when the audience is quiet.
+
+#### AURA — Moment Factory (2017)
+- Video: https://www.youtube.com/watch?v=FV3XdOda3zM
+- Interaction: Projection, Location & City, Performance
+- Platform & tech: Projection, projection mapping
+- Idea: A church interior turned into an immersive space of light and image.
+- What it is: Projection mapping and light transform the interior of Montreal's Notre-Dame Basilica into an immersive audiovisual experience.
+- Technique: Interior architectural mapping with many projectors and programmable lighting synchronised by a show-control timeline, following the basilica's surveyed geometry.
+- Try it: Write a two-minute light-and-projection storyboard for an interior you know well (an auditorium, a stairwell) and rehearse it with a small projector on a paper model. Twist: drive every lighting change from changes in sound alone, with no timeline.
+
+#### Augmented Games — Moment Factory (2021)
+- Video: https://www.youtube.com/watch?v=jhLKSY6NB5I
+- Interaction: Projection, Play, Hands & Body
+- Platform & tech: Projection, motion tracking, projection
+- Idea: Turn any space into a projected game field you can run and jump on.
+- What it is: Motion-tracked floor and wall projection that turns any space into a physical video-game playground and sports court.
+- Technique: Overhead cameras or LiDAR track players' positions on the floor, and a game engine renders court graphics and game logic back through calibrated floor and wall projection.
+- Try it: Track people on the floor with an overhead camera and build a small game projected onto the floor in TouchDesigner or Unity, such as claiming territory or dodging blocks. Twist: the rules require at least two people to cooperate to score.
+
+### Nancy Baker Cahill
+
+*Artist; founder of the 4th Wall AR app*
+
+Artist who builds monumental drawn AR sculptures and sited public artworks (Desert X, Liberty Bell) through her free 4th Wall app.
+
+#### 4th Wall (app and Contested Landscapes) — Nancy Baker Cahill (2018)
+- Video: https://www.youtube.com/watch?v=i9cFUDshxMQ
+- Interaction: Location & City, Drawing & Making
+- Platform & tech: Phone, 4th Wall app, Unity
+- Idea: Use a free app to make giant hand-drawn sculptures appear anywhere.
+- What it is: Monumental drawn sculptures by the artist appear in galleries and public sites through her free 4th Wall AR app.
+- Technique: Hand drawings are converted into animated 3D line or ribbon geometry in Unity and placed at monumental scale via plane detection or geolocated anchors in the 4th Wall app.
+- Try it: Scan one of your own line drawings, extrude it into a 3D line sculpture in Unity or three.js, and place it on the sports field at 10-meter scale. Twist: have the lines slowly 'draw' themselves so viewers see the process rather than the finished piece.
+
+#### Revolutions / Margin of Error (Desert X) — Nancy Baker Cahill (2019)
+- Video: https://www.youtube.com/watch?v=rb-9x1pH_4M
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, 4th Wall app
+- Idea: A giant AR sculpture of tangled lines rising over the desert.
+- What it is: Geolocated AR sculptures in the Coachella Valley desert for Desert X, including a writhing mass of drawn lines rising over a landfill site.
+- Technique: GPS-anchored animated line sculptures are placed at specific desert sites, with site choice (a landfill) carrying the meaning; local plane detection fixes the base on the ground.
+- Try it: Find a campus corner you think is overlooked (a trash station, a power room) and use AR to place a writhing, rising mass of lines above it. Twist: drive the lines' color and motion with the spot's live noise level or temperature.
+
+#### Liberty Bell — Nancy Baker Cahill (2020)
+- Video: https://www.youtube.com/watch?v=_SrpZZv1aNU
+- Interaction: Location & City, Voice & Sound
+- Platform & tech: Phone, 4th Wall app
+- Idea: Ring an AR Liberty Bell in the sky over historic American sites.
+- What it is: A giant AR Liberty Bell rings over historic US sites (Philadelphia, Selma, Washington) as a call to civic action.
+- Technique: Geolocated AR places a large animated bell model with spatial audio at historic sites, so the sound source is positioned in the sky above the viewer.
+- Try it: Design an AR sound object hanging in the air for a place tied to a public issue, and use Unity spatial audio so the sound changes with distance. Twist: the object only rings when several people aim at it together.
+
+#### Siren Songs — Nancy Baker Cahill (2021)
+- Video: https://www.youtube.com/watch?v=mzfqln_s0cE
+- Interaction: Location & City, Voice & Sound
+- Platform & tech: Phone, 4th Wall app
+- Idea: Singing AR sound sculptures among the Alps.
+- What it is: An animated, immersive AR public artwork for Elevation 1049 in Gstaad and St. Moritz: drawn forms float in the Alpine landscape with a sung soundtrack.
+- Technique: Geolocated, large-scale animated drawings are anchored in open landscape with a synced spatial soundtrack, using GPS and compass for placement at distance.
+- Try it: Choose an open landscape and use WebAR to place floating lines that rise and fall with a song, recording your own humming as the soundtrack. Twist: generate the shape of the lines in real time from the sound spectrum.
+
+### Nathan Gitter
+
+*Designer & engineer; human interface designer at Apple*
+
+Designer-engineer who shared playful ARKit and TrueDepth prototypes in 2017–2018, wrote the widely read 'What I Learned Making 5 ARKit Prototypes', and later joined Apple's human interface team.
+
+#### Rainbrow – Eyebrow-Controlled Game — Nathan Gitter (2017)
+- Video: https://www.youtube.com/watch?v=9k_9BKA3w_Q
+- Interaction: Face, Play
+- Platform & tech: Phone, ARKit, TrueDepth
+- Idea: An iPhone X game where raising your eyebrows moves the character up and down.
+- What it is: An iPhone X game controlled with your face: raise your eyebrows to fly up, lower them to go down, using TrueDepth face tracking.
+- Technique: ARKit face tracking on the TrueDepth camera exposes the browInnerUp/browDown blend-shape coefficients, which are mapped directly to the character's vertical position.
+- Try it: Read eyebrow height from ARKit face blendshapes (or MediaPipe Face Landmarker) to steer a little bird up and down past obstacles. Twist: control it with how wide your mouth opens or by raising one eyebrow instead.
+
+#### Bringing Newspapers to Life with ARKit — Nathan Gitter (2018)
+- Video: https://x.com/nathangitter/status/1010599486303981570
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, ARKit 2, image tracking
+- Idea: Point at a newspaper and the weather maps and sports highlights start moving on the page.
+- What it is: Pointing the phone at a printed newspaper plays animated weather maps and sports highlights on top of the page.
+- Technique: Newspaper photos are ARKit 2 reference images, and a video plane is placed exactly over each detected image so the printed picture appears to play.
+- Try it: Use image tracking to recognize a photo in a newspaper and cover it with a video of the same size so the photo comes alive. Twist: the video is a 'news follow-up' you shot yourselves.
+
+#### Exploring Paintings in AR — Nathan Gitter (2018)
+- Video: https://x.com/nathangitter/status/1012328934581719041
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, ARKit 2, image tracking
+- Idea: Point at a famous painting to recognize its figures, and tap one to hear its story.
+- What it is: Looking at a painting identifies its key figures, which can be tapped to learn more about them.
+- Technique: The painting is tracked as a reference image, and tappable hotspots are placed at known 2D coordinates on the image plane, opening info panels when hit.
+- Try it: Recognize a printed copy of a famous painting and place tappable hotspots on several figures that open an introduction. Twist: when a figure is tapped, make it speak a line.
+
+#### Time Travel in AR — Nathan Gitter (2018)
+- Video: https://x.com/nathangitter/status/1020733723183124480
+- Interaction: Location & City, Portals & Worlds
+- Platform & tech: Phone, ARKit 2, image tracking
+- Idea: In front of a graffiti wall painted over every day, use AR to see what it used to look like.
+- What it is: In a public graffiti park whose walls change daily, the phone shows earlier versions of the artwork in place, letting you see into the past.
+- Technique: Wall sections are tracked with image recognition (likely against earlier photos), and archived photos of past graffiti are overlaid at the detected image pose.
+- Try it: Photograph a campus wall as it looks today to use as the recognition image, then overlay old photos when it is scanned later, with a slider to switch between dates. Twist: let classmates leave graffiti on the wall that can only be seen in AR.
+
+### Pablo Valbuena
+
+*Artist working with light, space and time*
+
+Spanish artist whose 2007 'Augmented Sculpture' at Ars Electronica fused projected light with physical geometry, a founding work of art projection mapping.
+
+#### Augmented Sculpture v1.2 — Pablo Valbuena (2007)
+- Video: https://www.youtube.com/watch?v=5nzhV0x3_qM
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection mapping
+- Idea: Precise projection makes still white blocks warp through space and time.
+- What it is: A white geometric sculpture is overlaid with precisely mapped projected light, so edges, planes and shadows appear to move, fold and rebuild the physical form.
+- Technique: A projector is calibrated to a white polyhedral sculpture whose exact 3D model is known, so rendered light and shadow on each face can simulate edges and planes moving over the static form.
+- Try it: Fold two or three geometric solids from white cardboard, align the projection face by face in MadMapper or TouchDesigner, and use only black and white lines to make the blocks look like they fold and rebuild. Twist: make one face 'go missing' by projecting the background color onto it, and see whether it disappears.
+
+#### Augmented Space (The Hague City Hall) — Pablo Valbuena (2008)
+- Video: https://www.youtube.com/watch?v=eGzBayXZOJw
+- Interaction: Projection, Location & City
+- Platform & tech: Projection, projection mapping
+- Idea: Project along a building's own structural lines to bring a city hall facade to life.
+- What it is: Architectural projection on The Hague city hall that traces and animates the building's own structural lines.
+- Technique: Architectural projection mapping from a surveyed facade model: content is authored along the building's own structural lines so animation traces, splits and redraws the real geometry.
+- Try it: Photograph a classroom wall or door frame head-on, trace all its structural lines, and in the projection make the lines light up one by one, shift out of place and return. Twist: move only one line and keep everything else still, to see how much perception a minimal change can shift.
+
+#### Para-Site (Mattress Factory) — Pablo Valbuena (2011)
+- Video: https://www.youtube.com/watch?v=h4XQAOH7liE
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection mapping
+- Idea: Light projections that live like parasites on the corners of a building.
+- What it is: Site-specific video projection on the architecture of the Mattress Factory, with light that seems to crawl along corners and surfaces.
+- Technique: Site-specific projection mapping onto corners and edges of a room, with a keystone- or mesh-warped projection so thin light lines crawl precisely along architectural edges.
+- Try it: Project thin lines of light that slowly crawl along the edges of one corner of your classroom, fitted precisely with mesh warp. Twist: make the light behave like a 'parasite' that shies away when viewers approach (detected with a camera).
+
+#### re-flex (Z33) — Pablo Valbuena (2012)
+- Video: https://www.youtube.com/watch?v=ixrj2kFhGik
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection mapping
+- Idea: An installation where light reveals and warps the geometry of a room.
+- What it is: A projected light installation for Z33 that reveals and distorts the geometry of the room, discussed by the artist.
+- Technique: Projected light lines calibrated to the room's geometry reveal or contradict its perspective, relying on anamorphic alignment from chosen viewpoints.
+- Try it: Project a set of lines in a small room that only join into a complete figure from one position (anamorphic perspective) and look like fragments from anywhere else. Twist: mark a wrong viewing spot on the floor and let the audience find the right one themselves.
+
+### Random International (Hannes Koch & Florian Ortkrass)
+
+*Art studio*
+
+Studio founded in 2005 that makes camera-driven installations where matter reacts to the viewer's presence — mirrors that turn to stare, light that paints your reflection, rain that stops where you walk.
+
+#### Audience — Random International (Hannes Koch & Florian Ortkrass), Chris O'Shea (2008)
+- Video: https://www.youtube.com/watch?v=JuKi35j3Dwk
+- Interaction: Hands & Body, Gaze & Attention, Tangible Objects
+- Platform & tech: Desktop, camera tracking, servo motors, mirrors
+- Idea: A crowd of mirrors turns its heads in unison to stare at you like an audience.
+- What it is: A field of small head-sized mirrors sits idle until a visitor enters; then they all turn to follow and 'look at' that person, so the viewer sees themselves reflected everywhere.
+- Technique: A camera tracks the chosen visitor's position and each motorised mirror computes the pan/tilt needed to face them.
+- Try it: Build three to five 'eyes' from servos and small mirrors, and use the face position from a camera to turn them. Twist: when two people are present, the mirrors 'split into two camps', each watching one person.
+
+#### You Fade to Light — Random International (Hannes Koch & Florian Ortkrass) (2009)
+- Video: https://www.youtube.com/watch?v=aIVKVoFYvZ8
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Desktop, camera, OLED panels, custom software
+- Idea: Turn your mirror image into light that slowly fades away.
+- What it is: A wall of OLED panels translates the viewer's mirror image into glowing light that lingers and fades as they move.
+- Technique: A camera image is downsampled to the OLED grid and each panel's brightness follows the pixel with a slow decay, producing light 'afterimages'.
+- Try it: Make a low-resolution pixel mirror from the camera image and add afterglow decay to each pixel. Twist: build a physical version with LED strips or paper lanterns.
+
+#### Future Self (with Wayne McGregor) — Random International (Hannes Koch & Florian Ortkrass) (2012)
+- Video: https://www.youtube.com/watch?v=Jqn1cMY8oGM
+- Interaction: Hands & Body, Performance, Perception & Effects
+- Platform & tech: Desktop, depth cameras, volumetric LED matrix
+- Idea: An array of LED rods forms a "light double" that mirrors your movements.
+- What it is: A three-dimensional sculpture of hanging LED rods renders a light-figure that mirrors and responds to the dancers or visitors moving in front of it.
+- Technique: Depth cameras capture the body and drive a volumetric LED matrix so the silhouette is rendered as points of light in 3D.
+- Try it: Turn your body into a 3D point cloud with a Kinect or a phone depth camera and display it as glowing dots on screen. Twist: make the light double lag half a beat behind you, the opposite of a "future you".
+
+#### Rain Room — Random International (Hannes Koch & Florian Ortkrass) (2012)
+- Video: https://www.youtube.com/watch?v=FslABAyj2OA
+- Interaction: Hands & Body, Spatial Mapping, Perception & Effects
+- Platform & tech: Desktop, 3D tracking cameras, solenoid valves
+- Idea: Walk through rain that stops just for you.
+- What it is: A 100 m² field of continuously falling water pauses wherever a person walks, so visitors move through rain without getting wet.
+- Technique: 3D cameras track visitors from above and a grid of solenoid valves shuts off the water tiles directly around each person in real time.
+- Try it: Make "virtual rain" with an overhead camera and floor projection, so raindrops automatically avoid the area around each person. Twist: build a one-meter-square physical prototype with solenoid valves or a small water pump.
+
+### Resolution Games
+
+*XR game studio (Angry Birds FPS, Demeo, Spatial Ops)*
+
+Stockholm studio founded by Tommy Palm that has shipped mixed-reality games on Magic Leap, Quest and Vision Pro since 2018.
+
+#### Angry Birds AR: Isle of Pigs — Resolution Games (2019)
+- Video: https://www.youtube.com/watch?v=NWDptXnBhsM
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Phone, ARKit, ARCore, Unity
+- Idea: Build Angry Birds fortresses on your living-room floor and walk around them to find the weak spots.
+- What it is: Pig fortresses are built on the player's floor at room scale; players walk around them to find weak points and then launch birds from a slingshot.
+- Technique: Destructible physics structures are built at room scale on the floor plane, and a slingshot is aimed from the camera position so the player walks to find angles.
+- Try it: Place an AR block tower on the floor and launch balls from a slingshot at the phone's position, nudging players to walk to the side to find weak spots. Twist: the tower's shape is set automatically by the amount of open floor in the real room.
+
+#### Angry Birds FPS: First Person Slingshot — Resolution Games (2019)
+- Video: https://www.youtube.com/watch?v=xvcpH97zCoQ
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Headset, Magic Leap One
+- Idea: Build pig forts on your real tables and floor, then pull back a slingshot by hand to knock them down.
+- What it is: Angry Birds rebuilt for Magic Leap One: pig fortresses are built on your real tables and floor, and you pull back a hand-held slingshot to knock them down.
+- Technique: Structures are spawned on detected tables and floors, and a slingshot mechanic maps the controller pull-back vector to launch velocity for physics projectiles.
+- Try it: Stack an AR block tower on a table and fire a ball at it, with launch power set by how far you pull the phone back. Twist: use real objects as cover that hides some of the blocks.
+
+#### Demeo (Mixed Reality mode) — Resolution Games (2023)
+- Video: https://www.youtube.com/watch?v=gxWzjgoNHl8
+- Interaction: Shared & Social, Play, Tangible Objects
+- Platform & tech: Headset, Meta Quest 3, passthrough
+- Idea: Put a dungeon board game on a real table and gather around it with friends.
+- What it is: The tabletop dungeon crawler moved into passthrough: the game board sits on your real table and friends gather around it as avatars.
+- Technique: The game board is anchored to a detected table plane, and remote players appear as networked avatars around the same board.
+- Try it: Place a small AR game board on a table, sync a remote classmate's moves over the network, and represent them with a simple avatar. Twist: resize the board automatically according to the number of players.
+
+#### Spatial Ops — Resolution Games (2024)
+- Video: https://www.youtube.com/watch?v=cK6mspbNkR0
+- Interaction: Shared & Social, Spatial Mapping, Play
+- Platform & tech: Headset, Meta Quest 3, shared spatial anchors
+- Idea: Turn your home or office into a mixed-reality shooting arena for players in the same space.
+- What it is: A mixed-reality FPS in which players lay out cover and objectives across a real space and fight co-located or remote opponents through their homes and offices.
+- Technique: Players place virtual cover and objectives on a shared anchor map of the real space, and co-located players are synchronized through shared spatial anchors.
+- Try it: Set up a few virtual cover blocks in the classroom with AR so that a second phone joining the session sees the same layout. Twist: the cover slowly 'erodes' over time.
+
+### Robert Xiao
+
+*Assistant Professor, University of British Columbia; former PhD student at CMU FIGLAB*
+
+Robert Xiao built many of FIGLAB's projected-AR systems (WorldKit, Desktopography, LumiWatch) and MRTouch with Microsoft Research, which added touch on real surfaces to HoloLens.
+
+#### WorldKit — Robert Xiao, Chris Harrison — CMU Future Interfaces Group (2013)
+- Video: https://www.youtube.com/watch?v=YkEd_wHXMwE
+- Interaction: Projection, Drawing & Making, Hands & Body
+- Platform & tech: Projection, Kinect, projector
+- Idea: Swipe your hand over any table or wall and a touchable button or slider appears there.
+- What it is: Paint an interface onto any surface with a sweep of the hand: buttons, sliders and displays are projected where you draw them and become touch-enabled.
+- Technique: A calibrated Kinect and projector let the user paint a region with a hand; the depth map within that region is used as a touch-sensing surface and the painted region becomes a projected widget.
+- Try it: With a projector and a camera, draw a rectangle on the wall with your hand, and have the system generate a projected button or slider there that switches the lights or music when touched. Twist: have classmates "set up" a projection-only workstation in the classroom.
+
+#### Desktopography — Robert Xiao, Chris Harrison — CMU Future Interfaces Group (2017)
+- Video: https://www.youtube.com/watch?v=L5mCxfjk6hc
+- Interaction: Projection, Spatial Mapping, Tangible Objects
+- Platform & tech: Projection, depth camera, projector
+- Idea: Windows projected on a desk move out of the way of cups and papers and share the space with the clutter.
+- What it is: Projected apps on a real desk dodge, resize and move around coffee cups, papers and laptops so digital and physical clutter can coexist.
+- Technique: A depth camera segments physical objects on the desk and a layout optimizer moves and resizes projected windows to avoid occlusion by them while keeping them near their last positions.
+- Try it: Detect the outlines of objects on a desk with an overhead camera (OpenCV foreground segmentation), and make projected sticky-note windows bounce away or shrink when they hit a cup or book. Twist: let a window "attach" to an object so it follows when the object is moved away.
+
+#### LumiWatch — Robert Xiao, Chris Harrison — CMU Future Interfaces Group (2018)
+- Video: https://www.youtube.com/watch?v=VJNMrulWJ3k
+- Interaction: Hands & Body, Projection
+- Platform & tech: Wearable, laser projector, time-of-flight sensors
+- Idea: The first projection watch that really works, putting a touch screen right on your forearm.
+- What it is: The first fully functional projection smartwatch: a laser projector and depth sensing put a touchscreen on your forearm.
+- Technique: A small laser-scanning projector in the watch body projects onto the forearm with keystone correction, and a row of time-of-flight sensors along the watch edge measures finger position along the arm for 1D/2D touch.
+- Try it: Use a phone as the 'watch': detect your finger's position on your arm with the front camera and MediaPipe, map it to a slider that controls volume, and show feedback with a small projector or the screen. Twist: design an interaction that only works on the arm and cannot be done on a phone screen.
+
+#### MRTouch — Robert Xiao, Microsoft Research — Hrvoje Benko & Andy Wilson (2018)
+- Video: https://www.youtube.com/watch?v=ATNKTJthfC4
+- Interaction: Hands & Body, Spatial Mapping
+- Platform & tech: Headset, HoloLens, depth sensing
+- Idea: Stick HoloLens holographic interfaces onto real walls and tap them directly with a finger.
+- What it is: Adds touch input on real walls and tables to HoloLens: users drag out virtual screens on any surface and tap them directly.
+- Technique: HoloLens depth frames are segmented into planar surfaces, fingertips are detected in depth, and a touch is registered when the fingertip is within a small distance of the plane, letting users drag out virtual screens on real surfaces.
+- Try it: Detect a wall plane in AR Foundation and use AR hand tracking or MediaPipe fingertip positions to tell whether a finger is close to it; when it is, let the user drag out a rectangular screen and tap on it. Twist: place a virtual screen related to each object's function on a door, a window and a blackboard.
+
+### Romain Tardy
+
+*Visual artist; former core member of the AntiVJ label*
+
+French artist who co-shaped AntiVJ's architectural projection mapping (Déshérence, O (Omicron)) and now builds site-specific light and projection installations that treat buildings and landscapes as narrative surfaces.
+
+#### Déshérence (AntiVJ) — Romain Tardy (2009)
+- Video: https://vimeo.com/12622615
+- Interaction: Projection, Perception & Effects, Location & City
+- Platform & tech: Projection, projection mapping, 3D façade model
+- Idea: Make a building facade peel, crumble and reassemble in projection.
+- What it is: An audiovisual installation in Enghien-les-Bains where projection mapping makes a building façade appear to crack, peel and reassemble in sync with music by Squeaky Lobster.
+- Technique: Façade geometry is measured and modelled, then animations are rendered to that model and projected from a calibrated position so light aligns with each architectural edge.
+- Try it: Photograph a classroom wall with a door and windows head-on, animate a 'peeling' effect along their outlines in After Effects or a web page, and align it with a projector. Twist: let the drum beats of a piece of music trigger the order of the peeling.
+
+#### O (Omicron) (with Thomas Vaquié) — Romain Tardy (2012)
+- Video: https://vimeo.com/41486619
+- Interaction: Projection, Perception & Effects, Location & City
+- Platform & tech: Projection, multi-projector mapping, dome projection
+- Idea: Use projection to reveal the structural beauty of a century-old concrete dome.
+- What it is: A permanent 360° projection on the concrete dome of Wrocław's Centennial Hall that reveals and reinterprets the ribbed structure of the 1913 building.
+- Technique: Multiple calibrated projectors cover the interior dome; content is authored on a 3D model of the rib structure so lines trace the real architecture.
+- Try it: Use an umbrella or a paper dome as the "dome" and project glowing line animations along its ribs. Twist: make the lines "grow" along the structure to simulate the building being constructed.
+
+#### The Ark (with Squeaky Lobster) — Romain Tardy (2013)
+- Video: https://vimeo.com/70131252
+- Interaction: Projection, Location & City, Perception & Effects
+- Platform & tech: Projection, projection mapping on organic forms
+- Idea: Project onto a real grove of cacti and turn the plants into a glowing archive.
+- What it is: At night in the Oaxaca ethnobotanical garden, projections and sound make a grove of giant cacti appear to hold and transmit a luminous archive of the plants' history.
+- Technique: Projectors are aligned to the silhouettes of real cacti so scanned outlines and patterns wrap organic, non-planar surfaces.
+- Try it: Shine a projector on a potted plant or branches and make a mask animation that follows the plant's outline. Twist: use a microphone so the plant lights up with patterns when it "hears" sound.
+
+#### Future Ruins — Romain Tardy (2015)
+- Video: https://vimeo.com/151385179
+- Interaction: Projection, Perception & Effects
+- Platform & tech: Projection, projection mapping, custom software
+- Idea: Use light and structure to imagine how future people will see today's buildings as ruins.
+- What it is: An installation for La Nuit des Images at the Musée de l'Elysée in which built structures and light imagine architecture as ruins seen from the future.
+- Technique: Custom software (Hand Coded) drives projection or light onto purpose-built physical structures, likely using mapped geometry to animate their surfaces.
+- Try it: Build a "ruin" out of cardboard, photograph it, and make an aligned projection that shows it sometimes whole and sometimes collapsing. Twist: let the audience choose between its state "100 years later" and "1,000 years later".
+
+### Rubaiat Habib Kazi
+
+*Senior Research Scientist, Adobe Research*
+
+Rubaiat Habib Kazi studies sketching and animation as dynamic, expressive media (Kitty, Draco, Kinetic Texture). In AR he co-created RealitySketch, RealityTalk and Augmented Physics with Ryo Suzuki, and Pronto for sketch-based AR video prototyping.
+
+#### Pronto — Rubaiat Habib Kazi (2020)
+- Video: https://www.youtube.com/watch?v=CXdgTMKpP_o
+- Interaction: Drawing & Making, Hands & Body
+- Platform & tech: Phone, ARKit, sketching
+- Idea: Sketch on video and act it out yourself to build an AR interaction prototype in minutes.
+- What it is: Germán Leiva, Cuong Nguyen, Rubaiat Habib Kazi and Paul Asente let designers prototype AR by sketching on video and acting out interactions, with sketches anchored in 3D.
+- Technique: ARKit records a video with camera poses, and sketches drawn on video frames are lifted into 3D using the tracked camera and detected planes so they stay anchored as the recorded scene is replayed.
+- Try it: Record an AR video with Reality Composer or Adobe Aero and quickly prototype an AR app's interaction in it with hand-drawn sketches and acting it out, completing two rounds of iteration in 30 minutes. Twist: the prototype may use only hand-drawn lines and no 3D models at all.
+
+### Thomas Van Bouwel
+
+*Solo indie developer (Cubism, Laser Dance); former architect*
+
+Belgian architect-turned-solo game developer behind the hand-tracked puzzle game Cubism and the mixed-reality game Laser Dance.
+
+#### Cubism (Mixed Reality mode) — Thomas Van Bouwel (2023)
+- Video: https://www.youtube.com/watch?v=BrqmjOLzXNo
+- Interaction: Hands & Body, Play
+- Platform & tech: Headset, Meta Quest 3, hand tracking, passthrough
+- Idea: Assemble a floating colored block puzzle with your bare hands above a real table.
+- What it is: The hand-tracked block puzzle Cubism rebuilt for passthrough: colored polycube pieces float above your real table and you assemble them with your bare hands.
+- Technique: Hand-tracking pinch grabs drive rigidbody pieces that snap to a voxel grid when released near a valid slot, while passthrough keeps the real table visible as the work surface.
+- Try it: Make a 3×3×3 grid and drag three polycube pieces into it, snapping each to the nearest grid point when it gets close. Twist: once the cube is complete, it turns into a character that moves.
+
+#### Laser Dance — Thomas Van Bouwel (2024)
+- Video: https://www.youtube.com/watch?v=Dx2JZ_9_lbc
+- Interaction: Spatial Mapping, Hands & Body, Play
+- Platform & tech: Headset, Meta Quest 3, Scene API, Unity
+- Idea: Turn the real walls and furniture of your living room into a laser maze you dodge through with your whole body.
+- What it is: A Quest 3 mixed-reality game that scans your living room and strings laser beams between your real walls and furniture; you dance, dodge and crawl through the beams to reach buttons.
+- Technique: The Scene API supplies labeled room geometry (walls, floor, furniture boxes), and laser segments are generated between sampled points on those surfaces, with body collision checked against the headset and hand poses.
+- Try it: Get wall and floor planes with AR Foundation plane detection, generate a few random laser lines between two walls, and make the phone vibrate and fail when it touches a laser. Twist: make the lasers move to the beat of the music.
+
+### Tomás García
+
+*Animator, character designer and AI artist*
+
+Argentine animator (ex-PepperMelon, MTV redesign) whose June 2017 ARKit tests of a moon landing in his kitchen and a Falcon 9 landing in a pool went viral in the first weeks of ARKit.
+
+#### ARKit + Unity + Motion Capture: robot dancing — Tomás García (2017)
+- Video: https://www.youtube.com/watch?v=1G2YbQuQHps
+- Interaction: Performance, Hands & Body
+- Platform & tech: Phone, ARKit, Unity, motion capture
+- Idea: Motion-capture data makes a robot dance in your living room.
+- What it is: A robot character performs motion-captured dance moves in his living room, showing how real mocap data makes an AR character feel alive.
+- Technique: A humanoid rig driven by recorded motion-capture clips is placed on an ARKit floor plane so the dance happens at human scale.
+- Try it: Download a dance clip from Mixamo, bind it to a character, and place the character in your classroom in AR. Twist: use the beat picked up by the phone microphone to control playback speed.
+
+#### Falcon 9 landing in a swimming pool — Tomás García (2017)
+- Video: https://www.youtube.com/watch?v=NodGjd3C0SQ
+- Interaction: Spatial Mapping, Location & City
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A Falcon 9 rocket lands on a drone ship floating in your own swimming pool.
+- What it is: A SpaceX Falcon 9 booster descends with fire and smoke and lands on a drone ship floating in his real swimming pool.
+- Technique: An ARKit plane on the water surface anchors a Unity-animated rocket, drone ship and particle exhaust at a deliberate miniature scale.
+- Try it: Find a real surface on campus (a pond, a playground, some steps) and restage a piece of science news on it as a miniature AR reenactment. Twist: viewers can launch it with a "countdown" hand gesture.
+
+#### Moon Landing @ Living Room — Tomás García (2017)
+- Video: https://www.youtube.com/watch?v=HBEQpBdoaj0
+- Interaction: Spatial Mapping
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A moon landing covers the living room floor as a real dog walks past the astronauts.
+- What it is: A larger version of the moon-landing test fills the living room floor, with a real dog wandering past the out-of-scale astronauts.
+- Technique: The same ARKit floor anchor is used with a scaled-up scene so real objects and pets walk through the virtual set.
+- Try it: Make the same AR scene in three sizes (palm, tabletop, room) and compare how each feels. Twist: have the scene make way for the positions of real pets or classmates.
+
+#### Moon Landing @ my Kitchen — Tomás García (2017)
+- Video: https://www.youtube.com/watch?v=6OV2mBbNtVk
+- Interaction: Spatial Mapping, Information & UI
+- Platform & tech: Phone, ARKit, Unity
+- Idea: The Apollo moon landing happens on a kitchen counter.
+- What it is: The Apollo lunar module lands on his kitchen counter and astronauts step out, captured in real time with one of the first ARKit builds.
+- Technique: ARKit horizontal plane detection anchors an animated Unity scene to the countertop and keeps it stable as the phone moves.
+- Try it: Turn a historical event into a tabletop-sized AR animation (Reality Composer is enough) and place it on a desk. Twist: show narration subtitles when a viewer comes close.
+
+### teamLab
+
+*Art collective (founded by Toshiyuki Inoko)*
+
+Interdisciplinary art collective building room-scale interactive projection worlds where visitors' drawings and bodies change the artwork.
+
+#### Sketch Aquarium — teamLab (2013)
+- Video: https://www.youtube.com/watch?v=AnAqB7LZUb8
+- Interaction: Drawing & Making, Projection, Hands & Body
+- Platform & tech: Projection, scanner, real-time rendering
+- Idea: Fish drawn by children are scanned in and swim in a projected aquarium.
+- What it is: Children colour paper fish that are scanned and immediately swim in a giant projected aquarium, where they react when touched.
+- Technique: Coloured template sheets are scanned, the drawing is texture-mapped onto a pre-made 3D fish model via the template's known layout, and the fish joins a projected real-time scene with touch or depth-sensor interaction.
+- Try it: Design a creature coloring template, photograph it with a phone, texture it onto a three.js model, and send it into a shared projected aquarium. Twist: let each creature's behavior (fast or slow, schooling or solitary) be decided by the dominant color in its coloring.
+
+#### Sketch Town — teamLab (2014)
+- Video: https://www.youtube.com/watch?v=kQ_17zapssI
+- Interaction: Drawing & Making, Projection, Shared & Social
+- Platform & tech: Projection, scanner, real-time 3D
+- Idea: Hand-drawn cars and houses move into a shared projected city.
+- What it is: Hand-drawn cars, buildings and UFOs are scanned into a shared 3D projected town where they drive and fly, and can be touched.
+- Technique: Scanned template drawings are UV-mapped onto 3D vehicle and building models and inserted into a shared projected city, with sensors detecting touch on the projection.
+- Try it: Have classmates draw houses and vehicles on templates, then scan them, texture them onto simple models and put them into a projected city. Twist: every piece must interact with someone else's piece at least once (collide, pick up, connect).
+
+#### Flowers and People, Cannot be Controlled but Live Together — teamLab (2015)
+- Video: https://www.youtube.com/watch?v=arafX3Es6JQ
+- Interaction: Projection, Hands & Body, Perception & Effects
+- Platform & tech: Projection, real-time rendering, sensors
+- Idea: Projected flowers bloom or fall as visitors touch them or stand still.
+- What it is: Projected flowers bloom and wither across the walls through the seasons; when visitors touch or stand still, petals scatter or grow around them.
+- Technique: A real-time generative flower simulation runs continuously, and depth or proximity sensors detect visitors' position and stillness to trigger blooming or scattering locally.
+- Try it: In TouchDesigner, use a camera to detect where people are, so projected flowers grow while someone stands still and wither when they move. Twist: make the flower species change with the time of day or the season.
+
+#### Graffiti Nature — teamLab (2016)
+- Video: https://www.youtube.com/watch?v=OomhbW3bffs
+- Interaction: Drawing & Making, Projection, Play
+- Platform & tech: Projection, scanner, real-time rendering
+- Idea: Drawn animals enter a projected ecosystem where they hunt and can be stepped on.
+- What it is: Drawn animals and plants are scanned into a projected room-sized ecosystem where they eat each other and flee when visitors step on them.
+- Technique: Scanned drawings become agents in a projected ecosystem simulation (predator-prey rules), and floor-facing depth sensors detect footsteps that make creatures flee or die.
+- Try it: Build a simple predator-prey simulation in p5.js where each creature a classmate draws is scanned in as one individual, project it on the floor, and detect footsteps with a camera. Twist: creatures stepped "to death" become nutrients that grow new plants.
+
+### 8th Wall (Erik Murphy-Chutorian)
+
+*WebAR platform, acquired by Niantic in 2022*
+
+8th Wall, founded by Erik Murphy-Chutorian in 2016, made markerless AR run in the mobile browser without an app and powered thousands of WebAR campaigns.
+
+#### Microsoft Mixed Reality Capture holograms in WebAR — 8th Wall (Erik Murphy-Chutorian) (2020)
+- Video: https://www.youtube.com/watch?v=LH_eViGIohQ
+- Interaction: Performance, Spatial Mapping
+- Platform & tech: Web, Phone, 8th Wall, volumetric video
+- Idea: Life-size holographic video of real people appears right in front of you in the phone browser.
+- What it is: Volumetric video of real performers captured in Microsoft's Mixed Reality Capture Studios plays as life-size holograms in the phone browser through 8th Wall.
+- Technique: Volumetric video (a sequence of textured meshes) is streamed and played in sync with audio, and anchored at life size on a detected ground plane in the browser.
+- Try it: Record a video of a classmate with phone background removal and place it on the AR floor as a camera-facing flat hologram person. Twist: make the hologram turn its head to look at you as you approach.
+
+#### Lightship VPS for Web — 8th Wall (Erik Murphy-Chutorian), Niantic (John Hanke) (2022)
+- Video: https://www.youtube.com/watch?v=laK-QxFLELw
+- Interaction: Location & City, Spatial Mapping
+- Platform & tech: Web, Phone, 8th Wall, Niantic Lightship VPS, WebAR
+- Idea: Anchor AR content precisely to real places right in the browser, with no app to download.
+- What it is: 8th Wall and Niantic brought centimetre-level visual positioning to the mobile browser, so WebAR content can be anchored to specific real-world locations without an app.
+- Technique: Browser camera frames are matched against a prebuilt map of a location to return a 6DoF pose, letting WebAR content be anchored to a specific place.
+- Try it: Simulate location-based positioning in web AR with an image marker: after scanning a poster by the door, content appears fixed on the door frame. Twist: each time it opens, show a sentence left by the previous visitor.
+
+#### 8th Wall Sizzle Reel 2023 — 8th Wall (Erik Murphy-Chutorian) (2023)
+- Video: https://www.youtube.com/watch?v=jHDtBc6fG44
+- Interaction: Portals & Worlds, Face, Spatial Mapping
+- Platform & tech: Web, Phone, 8th Wall, WebAR
+- Idea: A reel of web AR pieces that open from a link, with no app required.
+- What it is: A showcase of WebAR projects built by agencies and creators on 8th Wall: face effects, portals, world tracking and image targets that open from a link in the phone browser.
+- Technique: Browser-based SLAM, face tracking and image targets run in a mobile web page, so each experience opens from a link or QR code without an app install.
+- Try it: Choose a WebAR template (face, image or world tracking), build a small piece in two hours that opens from a QR code, and share it on the spot. Twist: the piece must relate to the city where the class takes place.
+
+### Andrew Hart
+
+*iOS developer; creator of ARKit+CoreLocation; founder of Dent Reality / Hyper*
+
+iOS developer who open-sourced ARKit+CoreLocation in 2017, pioneering phone AR navigation, then founded Dent Reality (now Hyper) for indoor AR wayfinding.
+
+#### ARKit + CoreLocation — Andrew Hart (2017)
+- Video: https://x.com/AndrewProjDent/status/886916872683343872
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, ARKit, CoreLocation
+- Idea: GPS landmark labels pinned firmly onto the real street view.
+- What it is: Floating labels pinned to real-world landmarks by GPS stay locked in place as he walks through London, combining ARKit tracking with CoreLocation.
+- Technique: GPS coordinates of landmarks are converted to bearings and distances from the device's location and heading, then placed as labels in ARKit's gravity-and-heading aligned world frame.
+- Try it: Use AR plus GPS to place floating text labels at the coordinates of several campus buildings, so the labels stay fixed toward each building as you walk. Twist: have each label show a personal memory of yours from inside that building.
+
+#### ARKit + CoreLocation Part 2: AR Turn-by-Turn Navigation — Andrew Hart (2017)
+- Video: https://x.com/AndrewProjDent/status/888380207962443777
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, ARKit, CoreLocation
+- Idea: Navigation arrows drawn straight onto the real street for the first time.
+- What it is: AR arrows and route lines are drawn on the actual street, leading the walker turn by turn to the destination.
+- Technique: Route waypoints from a directions API are converted from GPS to local AR coordinates and drawn as arrows and lines on the ground plane, re-aligned as location updates arrive.
+- Try it: Get a few points of a walking route from a map API and use AR to draw arrows on the ground that lead to the next intersection. Twist: make the route pass through the quietest places on campus instead of taking the shortest path.
+
+#### Dent Reality Indoor AR — Andrew Hart (2018)
+- Video: https://x.com/AndrewProjDent/status/1023959459838738432
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, ARKit
+- Idea: Use AR to find your way to products inside malls and other indoor spaces.
+- What it is: An indoor AR wayfinding prototype that guides shoppers to products and locations inside buildings with overlays anchored to the space.
+- Technique: Indoor positioning likely relies on a pre-built visual map or image anchors for relocalization, with a pathfinding graph producing routes drawn as anchored AR overlays.
+- Try it: Stick a few image markers along a classroom-building corridor as positioning points, and after scanning show arrows leading to a given classroom. Twist: the destination is a hidden 'treasure'.
+
+### Jiabao Li
+
+*Artist; assistant professor at UT Austin*
+
+Chinese-born artist and designer whose work uses AR, projection and performance to let people perceive the world through bats, glaciers and plankton.
+
+#### Nocturnal Fugue (with Matt McCorkle & Botao Hu) — Jiabao Li, Botao 'Amber' Hu (2024)
+- Video: https://www.youtube.com/watch?v=npzhJdvyLew
+- Interaction: Voice & Sound, Location & City, Perception & Effects
+- Platform & tech: Headset, Phone, HoloKit, spatial audio, mixed reality
+- Idea: On a night under a bat bridge, use sound and MR headsets to experience how bats perceive the world.
+- What it is: A multisensory night journey beginning under Austin's Congress Bat Bridge, combining bat stories, sound and the EchoVision mixed-reality headsets to experience the bats' world.
+- Technique: Location-based sound composition is combined with HoloKit-based EchoVision headsets that visualise the participant's voice as echoes in the dark.
+- Try it: Design a nighttime 'sound walk' route across campus that plays animal sounds on a phone at each stop and shows the sound waves in AR. Twist: participants must use their own voices to 'echolocate' the next stop.
+
+#### EchoVision (Ars Electronica Deep Space 8K edition) — Jiabao Li, Botao 'Amber' Hu (2025)
+- Video: https://www.youtube.com/watch?v=W0TSj-LilLw
+- Interaction: Voice & Sound, Projection, Perception & Effects
+- Platform & tech: Projection, audio analysis, Deep Space 8K projection
+- Idea: On a giant wall and floor, visitors' calls turn into bat-like echolocation waves.
+- What it is: A projection edition of EchoVision in Ars Electronica's Deep Space 8K: visitors' voices become visualised echolocation waves across the giant wall and floor, alongside AI-composed bat songs.
+- Technique: Microphone input is analysed for pitch and loudness and rendered as expanding echo waves in the 8K wall-and-floor projection, likely with floor tracking of visitors.
+- Try it: Project onto a classroom floor and use a microphone to turn shouts into ripples spreading from the center that bounce off 'obstacles' (cardboard boxes placed on the floor). Twist: only low-pitched sounds can reveal distant obstacles.
+
+#### The Long Fall: A descent into the Ocean's Living Memory — Jiabao Li (2025)
+- Video: https://www.youtube.com/watch?v=fe-Xd3gxcsU
+- Interaction: Projection, Performance, Information & UI
+- Platform & tech: Projection, immersive projection, microscopy, spatial audio
+- Idea: Sink down with the plankton and see how the ocean remembers carbon.
+- What it is: A 15-minute audiovisual performance (with Manu Prakash and others) that takes the audience on an immersive descent with plankton, projected across wall and floor.
+- Technique: Microscopy footage and simulations of plankton are composed into a live wall-and-floor projection performance with spatial sound.
+- Try it: Shoot water droplets or plant cells with a phone macro lens and project the footage onto the floor as a visual 'descent' narrative. Twist: when viewers walk into different depth zones (marked on the floor), different sounds play.
+
+### John Craig Freeman
+
+*Artist; professor at Emerson College; Manifest.AR founding member*
+
+Public artist who uses geolocated AR to build memorials and stories in real landscapes, most famously marking migrant deaths along the US-Mexico border.
+
+#### Orators, Rostrums and Propaganda Stands — John Craig Freeman (2011)
+- Video: https://www.youtube.com/watch?v=vlUhVIBjLZY
+- Interaction: Location & City, Voice & Sound
+- Platform & tech: Phone, Layar, GPS
+- Idea: Place AR podiums in public squares that anyone can speak from.
+- What it is: Virtual orators' podiums, inspired by early Soviet agitprop, are placed in public squares via AR for anyone to 'speak' from.
+- Technique: Geolocated AR podium models are placed in public squares, with the user physically stepping into the virtual rostrum; likely GPS positioning with compass-based orientation.
+- Try it: Place an AR podium in a campus square: stepping onto it starts a recording, and each speech stays on the podium for later visitors to hear. Twist: the podium only plays back the previous recording that took the opposite position to the current speaker.
+
+#### Border Memorial: Frontera de los Muertos — John Craig Freeman (2012)
+- Video: https://www.youtube.com/watch?v=E-xFY4zS2DQ
+- Interaction: Location & City
+- Platform & tech: Phone, Layar, GPS
+- Idea: Place AR memorials of the dead at the exact spots where migrants died.
+- What it is: Geolocated AR skeletal effigies (inspired by Día de los Muertos) mark the exact places where migrants died crossing the US-Mexico border.
+- Technique: GPS-anchored Layar objects place skeletal effigies at the coordinates of recorded migrant deaths, turning a dataset into a geolocated memorial.
+- Try it: Take a public place-based dataset (traffic accident sites, shops that have disappeared) and put a small memorial at each data point in WebAR. Twist: generate each memorial's form from the specific details of its data point.
+
+#### Climate Change Migration Stories AR — John Craig Freeman (2023)
+- Video: https://www.youtube.com/watch?v=wBvqwbcMUJ8
+- Interaction: Location & City, Voice & Sound
+- Platform & tech: Phone, volumetric capture, AR
+- Idea: Climate migrants appear as life-size AR figures and tell their own stories.
+- What it is: Life-size volumetric AR portraits of people displaced by climate change appear in public space and tell their own stories.
+- Technique: Volumetric video captures of real people are anchored life-size in public space, with ground-plane detection placing them at the viewer's scale.
+- Try it: Record a classmate on a phone telling a story about migrating or moving house, key out the background, and turn it into a life-size AR video billboard at the matching location. Twist: the story starts only when a viewer comes within 2 meters.
+
+### Jonas Jongejan
+
+*Creative technologist, Google Creative Lab*
+
+Danish creative technologist who built early ARCore experiments at Google Creative Lab and wrote the openFrameworks addon ofxARCore.
+
+#### AR Wormhole — Jonas Jongejan, Google Creative Lab (2017)
+- Video: https://www.youtube.com/watch?v=Xo0_B3pNNnA
+- Interaction: Portals & Worlds, Perception & Effects
+- Platform & tech: Phone, ARCore, Unity, 360 camera
+- Idea: Step through a wormhole and look around the world as it was ten seconds ago.
+- What it is: A thought experiment about stepping into the past: a live 360 camera streams to the phone with a 10-second delay, and walking through a portal lets you look around the moment that just happened.
+- Technique: A fixed 360 camera streams equirectangular video with a 10-second buffer, and an AR portal renders that delayed sphere so that looking through it shows the same place in the past from the phone's orientation.
+- Try it: Build a portal in Unity AR Foundation and map onto it a 360 video shot earlier at the same spot, so walking in shows you "this place in the past." Twist: make the time gap adjustable, such as "this place one year ago," to tell how the place has changed.
+
+#### ARCore Drawing (ofxARCore) — Jonas Jongejan (2017)
+- Video: https://www.youtube.com/watch?v=oNHX0jKjtoo
+- Interaction: Drawing & Making
+- Platform & tech: Phone, ARCore, openFrameworks
+- Idea: An open-source example of drawing 3D lines in the air with openFrameworks and ARCore.
+- What it is: A simple demo for drawing 3D lines in space on an Android phone, made to show how openFrameworks and ARCore combine; the code became the ofxARCore addon.
+- Technique: Camera pose from ARCore is exposed to openFrameworks, and positions sampled while touching are connected into 3D polylines rendered in world space.
+- Try it: Skip Unity and build an air-drawing tool with three.js and WebXR instead, then compare the development experience of the two toolchains. Twist: make the line color change with drawing speed.
+
+### Julian Triveri (anaglyph)
+
+*Solo developer of Lasertag for Quest*
+
+Independent developer who builds Lasertag, a co-located mixed-reality laser tag game for Quest 3 that uses real-time depth to map rooms.
+
+#### Lasertag: light VFX test — Julian Triveri (anaglyph) (2024)
+- Video: https://www.youtube.com/watch?v=yxDhCg-q0JU
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Headset, Meta Quest 3, Depth API
+- Idea: A lighting test in which virtual lasers light up the real walls of a room.
+- What it is: A test of laser shots that light up the real room: virtual beams cast light onto scanned walls and furniture in passthrough.
+- Technique: Virtual dynamic lights attached to laser beams illuminate an invisible scanned-room mesh with a shadow-receiving or additive-lighting material, so light appears to fall on real surfaces in passthrough.
+- Try it: Give the scanned room mesh a transparent material that still receives light, so a virtual flashlight casts a spot of light on real walls. Twist: change the color of the light spot with the volume of your voice.
+
+#### Lasertag — Julian Triveri (anaglyph) (2025)
+- Video: https://www.youtube.com/watch?v=T1PIcuOYmXU
+- Interaction: Shared & Social, Spatial Mapping, Play
+- Platform & tech: Headset, Meta Quest 3, Depth API, Unity
+- Idea: Turn any space into a same-room multiplayer laser-tag arena where real walls block the beams.
+- What it is: A mixed-reality laser tag game that scans your space and turns it into an arena for friends in the same room; beams stop at real walls and furniture.
+- Technique: The Depth API provides real-time depth, so laser raycasts are truncated at the reconstructed surfaces and real walls and furniture block shots.
+- Try it: Use AR Foundation occlusion (depth) so that AR beams are cut off at real objects, and build a prototype where players duel from behind a cabinet. Twist: real surfaces that get hit keep a glowing spot for a few seconds.
+
+#### Lasertag: synced room scanning — Julian Triveri (anaglyph) (2025)
+- Video: https://www.youtube.com/watch?v=oJ_fFONAEQ4
+- Interaction: Spatial Mapping, Shared & Social
+- Platform & tech: Headset, Meta Quest 3, Depth API
+- Idea: Several headsets scan the same room together in real time, building one shared model.
+- What it is: Demo of multiple Quest headsets building one shared depth reconstruction of a room in real time, so all players fight inside the same scanned geometry.
+- Technique: Each headset fuses depth frames into a shared voxel or mesh reconstruction in a common anchor frame, and updates are merged over the network so all players see the same geometry.
+- Try it: Have two LiDAR iPhones each scan half of a room, align them with a shared image marker, and merge the results into one mesh. Twist: color the scanned mesh in two colors to show who scanned which part.
+
+### Lauren Lee McCarthy
+
+*Artist; creator of p5.js; Professor, UCLA Design Media Arts*
+
+Artist examining social relationships amid surveillance, automation and algorithmic living; creator of the p5.js library and former SFPC teacher.
+
+#### us+ — Lauren Lee McCarthy, Kyle McDonald (2013)
+- Video: https://vimeo.com/81903116
+- Interaction: Face, Shared & Social, Information & UI
+- Platform & tech: Desktop, Web, face tracking, speech analysis, Google Hangouts
+- Idea: An AI "social coach" in video calls that reads your face and words and nudges you on screen in real time.
+- What it is: A Google Hangout app that analyzes speech and facial expressions during a video call and overlays live feedback and automatic interventions to 'improve' the conversation.
+- Technique: Webcam face tracking and speech-to-text with sentiment/word-count analysis run during the video call, and rule-based triggers overlay text prompts and auto-mute when thresholds are crossed.
+- Try it: Build a video-chat "coach" web page with the Web Speech API and MediaPipe that tracks who talks most and who is smiling, and pops up prompts. Twist: add one excessive automatic intervention rule (for example, you get muted if you say "I" too often) and experience a conversation managed by an algorithm.
+
+#### Unlearning Language — Lauren Lee McCarthy, Kyle McDonald (2022)
+- Video: https://vimeo.com/780628671
+- Interaction: Hands & Body, Voice & Sound, Shared & Social
+- Platform & tech: Projection, machine learning, computer vision
+- Idea: In a room watched constantly by AI, people have to invent new ways of communicating that machines cannot read.
+- What it is: An installation and performance where an AI tracks participants' speech, gestures and expressions and responds with light and sound, pushing them to invent ways of communicating that algorithms cannot detect.
+- Technique: Machine-learning classifiers (pose estimation, facial expression, speech recognition) detect recognisable human signals, and detection events drive light and sound feedback that participants try to evade.
+- Try it: Use MediaPipe and Teachable Machine to build a system that recognizes nods, waves and smiles and flashes an alarm light when it does, and have your group invent a way to communicate that it cannot detect. Twist: after one minute of undetected communication, teach your secret code to another group.
+
+#### Voice In My Head — Lauren Lee McCarthy, Kyle McDonald (2023)
+- Video: https://www.youtube.com/watch?v=B2-dV8IrhWo
+- Interaction: Voice & Sound, Shared & Social
+- Platform & tech: Wearable, LLM, speech recognition, earpiece
+- Idea: An AI inner voice in your earpiece whispers live advice while you talk to people.
+- What it is: Participants wear an earpiece through which an AI voice listens to their conversations and whispers real-time guidance, replacing their inner monologue as they move through social situations.
+- Technique: Speech recognition transcribes the wearer's surroundings, an LLM generates short suggestions conditioned on a personality profile, and text-to-speech delivers them through an earpiece with low latency.
+- Try it: Use speech recognition in a phone web page plus an LLM API to summarize a conversation into one suggestion, and have TTS read it quietly into your earphones. Twist: give the voice a personality that is the exact opposite of yours, chat with a classmate for 5 minutes while wearing it, then reflect.
+
+### Leap Motion Design Research (Barrett Fox, Martin Schubert, Keiichi Matsuda et al.)
+
+*Hand-tracking interaction design team at Leap Motion / Ultraleap*
+
+Leap Motion's small design research group published a stream of hand-interaction experiments and built Project North Star, an open-source wide-field AR headset.
+
+#### Practice Makes Perfect (North Star) — Leap Motion Design Research (Barrett Fox, Martin Schubert, Keiichi Matsuda et al.) (2018)
+- Video: https://www.youtube.com/watch?v=6RV0jGXzjTs
+- Interaction: Hands & Body, Play, Information & UI
+- Platform & tech: Headset, Project North Star, Leap Motion hand tracking, object tracking
+- Idea: A real table and paddle, a virtual ball and an AI opponent, plus predicted trajectories to help you practice.
+- What it is: On the Project North Star headset a player uses a real table and paddle; a hand gesture summons a virtual ball, an AI opponent returns it, and predicted flight paths and light trails coach the player's form.
+- Technique: Tracks the paddle and hands, simulates the virtual ball with parabolic equations of motion, and renders predicted trajectories with the headset's low latency and wide field of view.
+- Try it: Mark a 'best landing spot' target zone on a table in phone AR and score when classmates hit it with a paper ball. Twist: the target moves after each hit and shows the path of the previous throw.
+
+#### Project North Star: Desk UI — Leap Motion Design Research (Barrett Fox, Martin Schubert, Keiichi Matsuda et al.) (2018)
+- Video: https://www.youtube.com/watch?v=6dB1IRg3Qls
+- Interaction: Hands & Body, Information & UI, Spatial Mapping
+- Platform & tech: Headset, Project North Star, Leap Motion, Unity
+- Idea: Attach holographic interfaces to a real desk and touch them like physical objects.
+- What it is: A North Star prototype that attaches holographic interfaces to a real desk, with virtual panels and widgets that you touch and manipulate as if they were physical desk objects.
+- Technique: UI panels are anchored to a calibrated desk surface and respond to fingertip proximity and press depth, so virtual widgets behave like physical objects on the desk.
+- Try it: Place a small AR drawer on the desk that reveals today's to-do list when pulled open with a finger. Twist: turn each to-do item into a paper ball you can pick up and throw into a trash can.
+
+#### Project North Star: Exploring Augmented Reality — Leap Motion Design Research (Barrett Fox, Martin Schubert, Keiichi Matsuda et al.) (2018)
+- Video: https://www.youtube.com/watch?v=7m6J8W6Ib4w
+- Interaction: Hands & Body, Information & UI
+- Platform & tech: Headset, Project North Star, Leap Motion, Unity
+- Idea: Use an open-source wide-field AR headset to explore an interaction language for handling holograms with bare hands.
+- What it is: Footage shot through the North Star AR headset showing bare-hand interactions: virtual objects, menus and effects you grab, pinch and swipe with tracked hands.
+- Technique: Leap Motion hand tracking provides articulated hand skeletons, and physics-based grab and pinch detection lets users manipulate virtual objects without controllers in an optical see-through display.
+- Try it: Use MediaPipe Hands or HoloKit gesture recognition to make an AR cube you can pick up with a pinch and throw with a wave. Twist: a grabbed object leaves a trail that follows the speed of your hand.
+
+### Mark Skwarek
+
+*Artist; NYU Mobile AR Lab director; Manifest.AR co-founder*
+
+AR activist-artist behind unauthorised AR interventions such as 'The Leak in Your Hometown', which turned every BP logo into a gushing oil pipe during the 2010 spill.
+
+#### The Leak in Your Hometown — Mark Skwarek (2010)
+- Video: https://www.youtube.com/watch?v=V6-BbqANr04
+- Interaction: Tangible Objects, Perception & Effects, Location & City
+- Platform & tech: Phone, marker tracking, junaio
+- Idea: Point at any BP logo and AR crude oil gushes out of it.
+- What it is: Point a phone at any BP logo and an AR broken pipe gushes oil out of it, bringing the Deepwater Horizon spill to your own street.
+- Technique: Image (logo) marker tracking in junaio detects any BP logo and anchors an animated broken pipe with an oil particle effect to it.
+- Try it: Pick a brand logo you want to criticize and use MindAR or 8th Wall image tracking to make it 'leak' something that stands for its problem. Twist: let the leak grow the longer viewers point at it until it floods the whole screen.
+
+#### Warcraft ARmor — Mark Skwarek (2010)
+- Video: https://www.youtube.com/watch?v=1i2Qxlln_B0
+- Interaction: Hands & Body, Play
+- Platform & tech: Desktop, marker tracking
+- Idea: Put game armor on a real person.
+- What it is: A marker-based AR demo that dresses the user's body in World of Warcraft-style armour on screen.
+- Technique: Printed fiducial markers worn on the body are tracked by a webcam, and armour pieces are rendered at each marker's pose.
+- Try it: Stick a few printed markers on your arms and chest and use MindAR to 'dress' your body in armor or clothing you designed. Twist: replace the armor with gear that stands for some everyday pressure (homework, notifications).
+
+### Max Weisel
+
+*Co-founder of Normal (Normcore, Nock)*
+
+Designer-engineer who co-founded Normal, maker of the Normcore multiplayer framework and the VR sport Nock, and prototypes cross-device AR/VR interaction.
+
+#### Mixed Reality Test — Max Weisel (2018)
+- Video: https://www.youtube.com/watch?v=Um7qgKIlOSI
+- Interaction: Shared & Social, Portals & Worlds
+- Platform & tech: Phone, Headset, ARKit, Normcore, Unity
+- Idea: Let iPhone AR and a VR headset share the same multiplayer space.
+- What it is: A small demo mixing VR and AR: an ARKit iPhone and a VR headset share the same Normcore session so the phone sees the VR player's world placed in the real room.
+- Technique: A networked session (Normcore) shares object and player transforms, and the AR phone aligns its world origin to the VR play space so VR content appears in the real room.
+- Try it: Have a Unity scene on a computer and a phone AR app share the same set of object positions, so objects moved on the computer show up on the phone's tabletop in real time. Twist: the phone can push objects back the other way.
+
+#### iPhone AR in VR — Max Weisel (2019)
+- Video: https://www.youtube.com/watch?v=VsYw8WR81kw
+- Interaction: Shared & Social, Portals & Worlds
+- Platform & tech: Phone, Headset, ARKit, Normcore, Unity
+- Idea: Phone users join and watch a multiplayer VR space through AR.
+- What it is: A prototype that lets iOS users join and spectate a multiplayer VR space through ARKit, seeing the headset players' avatars in their own room.
+- Technique: An ARKit phone joins a multiplayer VR room as a spectator client, rendering the synchronized avatar transforms relative to an origin placed on a detected floor.
+- Try it: Build a spectator mode: one device plays a game while another phone uses AR to show the player's moves as a small figure on the table. Twist: spectators can drop props on the table that affect the game.
+
+#### Augmented Reality Gestures — Max Weisel (2020)
+- Video: https://www.youtube.com/watch?v=rPDislY6Yew
+- Interaction: Hands & Body, Information & UI
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A set of 3D multi-touch gestures designed for phone AR.
+- What it is: A prototype of multi-touch gestures for navigating 3D AR content on a touch screen, with 3D pan, pinch and zoom mapped to the scene.
+- Technique: Multi-touch input is mapped to 3D transforms: one-finger drag pans along a plane, two-finger pinch scales, and twist rotates, with the mapping relative to the camera view.
+- Try it: Implement one-finger panning and two-finger scaling and rotation for a model in phone AR, and ask classmates to test which gesture is hardest to understand. Twist: design a new three-finger gesture.
+
+### Memo Akten
+
+*Artist and researcher; Assistant Professor, UC San Diego*
+
+Turkish-born artist and computer scientist working with code, computer vision and machine learning; author of the ofxMSAFluid tools widely used in the openFrameworks community.
+
+#### Webcam Piano — Memo Akten (2007)
+- Video: https://vimeo.com/1219327
+- Interaction: Hands & Body, Voice & Sound
+- Platform & tech: Desktop, Projection, openFrameworks, optical flow
+- Idea: A webcam turns the air into an invisible piano, so waving your body plays harmonious music.
+- What it is: A webcam turns the space in front of a screen into an invisible grid of notes; body movement plays harmonious, classical-sounding music visualized as fluid.
+- Technique: Frame differencing or optical flow over a grid of screen cells detects motion per cell, and each active cell triggers a note quantised to a musical scale, visualised with a fluid simulation.
+- Try it: Use p5.js to split the camera image into an 8x8 grid and play the matching pentatonic note wherever there is motion. Twist: switch the scale and timbre so one specific action (such as sweeping the floor) becomes a song.
+
+#### Body Paint — Memo Akten (2008)
+- Video: https://vimeo.com/3576457
+- Interaction: Hands & Body, Drawing & Making, Projection
+- Platform & tech: Projection, openFrameworks, ofxMSAFluid, computer vision
+- Idea: Your body is the brush: dance in front of a projected wall and paint splashes and flows with your moves.
+- What it is: Visitors dance in front of a wall-sized projection and their movements splash and smear fluid paint in real time, turning the body into a brush.
+- Technique: Optical flow from a camera provides velocity vectors that inject dye and force into a GPU 2D fluid simulation (ofxMSAFluid), projected at wall scale.
+- Try it: Use optical flow in TouchDesigner or p5.js to turn body movement into forces that inject paint into a fluid, and project it on a wall as a canvas. Twist: the color each person wears decides their paint color, and the class finishes with one group 'body painting'.
+
+#### Learning to See — Memo Akten (2017)
+- Video: https://vimeo.com/260612034
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Projection, Desktop, GAN, machine learning, camera
+- Idea: As hands move cloth and cables on a table, AI sees them live as waves, fire or nebulae.
+- What it is: A camera watches a table of everyday objects - cloth, cables, keys - and neural networks trained on waves, fire, clouds, flowers or Hubble images re-render the scene live as visitors rearrange it with their hands.
+- Technique: An image-to-image network (pix2pix-style GAN) trained on a single domain such as waves or flowers takes the live camera image, edge-processed, as input and outputs a re-rendered frame in real time.
+- Try it: Use Runway or a pretrained pix2pix or style-transfer model to render the clutter on a desk seen by the camera as clouds, fire or waves in real time. Twist: take 100 photos of one place on campus to train a small model so the clutter "sees" that place.
+
+### Microsoft HoloLens team (Alex Kipman, Kudo Tsunoda & Microsoft Studios)
+
+*Platform team and first-party studio for HoloLens*
+
+Shipped the first self-contained holographic computer and its launch apps - RoboRaid, HoloStudio and the Minecraft tabletop demo.
+
+#### Minecraft for HoloLens (E3 demo) — Microsoft HoloLens team (Alex Kipman, Kudo Tsunoda & Microsoft Studios), Mojang Studios (Minecraft Earth) (2015)
+- Video: https://www.youtube.com/watch?v=FNoHNTaP_Gk
+- Interaction: Spatial Mapping, Play, Voice & Sound
+- Platform & tech: Headset, HoloLens, spatial mapping, voice commands
+- Idea: Put an entire Minecraft world on a real coffee table and control it by voice and gesture.
+- What it is: On stage at E3, a player sees a Minecraft world built on a real coffee table, zooms into it, opens it like a dollhouse and commands it by voice.
+- Technique: Anchors a scaled game world to a detected table surface and combines gaze, air-tap and voice for world manipulation.
+- Try it: Place a small block world on a table with phone AR and trigger "explode" or "rain" with voice commands (such as iOS Shortcuts or Web Speech). Twist: let the audience see the same world on another phone.
+
+#### HoloStudio — Microsoft HoloLens team (Alex Kipman, Kudo Tsunoda & Microsoft Studios) (2016)
+- Video: https://www.youtube.com/watch?v=BRIJG0x_We8
+- Interaction: Drawing & Making, Hands & Body
+- Platform & tech: Headset, HoloLens, gesture modelling, 3D printing
+- Idea: Build 3D models in the air with gestures, then print them as real objects.
+- What it is: Build 3D models in 3D with holographic tools modelled on real ones, then send them to a 3D printer to become physical objects.
+- Technique: Provides a toolbelt of primitive shapes and holographic tools manipulated with gaze and air-tap, exporting printable meshes.
+- Try it: Assemble a tabletop sculpture in phone AR (e.g., Reality Composer), export screenshots, and make a physical version from cardboard or clay. Twist: allow only three basic shapes.
+
+#### RoboRaid — Microsoft HoloLens team (Alex Kipman, Kudo Tsunoda & Microsoft Studios), Asobo Studio (2016)
+- Video: https://www.youtube.com/watch?v=Hf9qkURqtbM
+- Interaction: Spatial Mapping, Play, Gaze & Attention
+- Platform & tech: Headset, HoloLens, spatial mapping, spatial sound
+- Idea: Alien robots break in through the real walls of your home.
+- What it is: Alien robots burst through your actual walls, leaving cracks, and you shoot them with gaze and air-tap while physically dodging projectiles.
+- Technique: Uses the spatial-mapping mesh to pick wall spawn points and render crack decals, with spatial audio signalling enemies behind the player.
+- Try it: Detect vertical walls in phone AR and generate "broken hole" decals with enemies crawling out of them, which players shoot by tapping a crosshair. Twist: signal enemy positions with sound alone.
+
+### Oliver Kreylos
+
+*Researcher at UC Davis (KeckCAVES, W. M. Keck Center for Active Visualization in the Earth Sciences); creator of the Vrui VR toolkit*
+
+Oliver Kreylos built the open-source Augmented Reality Sandbox, where a Kinect scans real sand and a projector paints live topography and flowing water onto it, now installed in hundreds of museums and classrooms. He also pioneered Kinect-based 3D video capture for immersive telepresence.
+
+#### 3D Video Capture with Kinect — Oliver Kreylos (2010)
+- Video: https://www.youtube.com/watch?v=7QrnwoO1-8A
+- Interaction: Hands & Body, Shared & Social
+- Platform & tech: Desktop, Kinect, Vrui
+- Idea: Days after the Kinect came out, he captured a person as live 3D video you could view from any angle.
+- What it is: Days after Kinect's release, Kreylos showed live 3D video of himself captured by a Kinect and viewed from any angle, an early step toward volumetric telepresence.
+- Technique: The Kinect's depth image is back-projected into a 3D point cloud using its camera intrinsics and textured with the calibrated RGB image, so the capture can be rendered from any virtual viewpoint.
+- Try it: Capture a live point cloud of yourself with a LiDAR iPhone or Record3D, orbit it from any angle in three.js, and place a virtual object beside it. Twist: stylize the point cloud (voxels, wireframe or particles) and shoot a 30-second short.
+
+#### Augmented Reality Sandbox — Oliver Kreylos (2012)
+- Video: https://www.youtube.com/watch?v=j9JXtTj0mzE
+- Interaction: Projection, Tangible Objects, Spatial Mapping
+- Platform & tech: Projection, Kinect, projector, Vrui
+- Idea: Pile up sand by hand while projection draws contour lines live; hold out a hand to make it rain down the dunes.
+- What it is: Shape real sand with your hands; a Kinect reads the terrain and a projector paints elevation colors and contour lines onto it, and holding out a hand makes virtual rain that flows downhill.
+- Technique: A Kinect above the sandbox measures the sand's height map, which is filtered and used to color an elevation map with contour lines projected back onto the sand, while a shallow-water simulation runs rain across the terrain.
+- Try it: Measure height with a depth camera (or approximate it with a tray of colored clay and an RGB camera), generate contour lines and elevation colors in TouchDesigner, and project them back onto the sand or clay. Twist: replace the "rain" with something else that spreads, such as crowds, fire or sound.
+
+#### 3D Video Capture With Three Kinects — Oliver Kreylos (2014)
+- Video: https://www.youtube.com/watch?v=Ghgbycqb92c
+- Interaction: Shared & Social, Hands & Body
+- Platform & tech: Headset, Desktop, Kinect, Vrui, Oculus Rift
+- Idea: Three Kinects combine into a full 3D person placed in a virtual space for remote collaboration.
+- What it is: Three calibrated Kinects capture a person in full 3D and merge them with virtual environments for immersive tele-collaboration.
+- Technique: Three Kinects are extrinsically calibrated to one coordinate frame (e.g. by a shared calibration target), and their point clouds are merged into a single 3D representation rendered in a VR environment.
+- Try it: Capture depth data of the same person from two angles with two phones (or scan separately with Polycam), then align and merge them by hand in CloudCompare or three.js using shared reference points. Twist: compare how much "presence" viewers feel with one viewpoint versus two.
+
+### Paige Piskin
+
+*AR filter creator (Snap Lens Studio, Spark AR)*
+
+Official Snap Lens Creator whose makeup, fashion and cartoon filters have been used billions of times; she also teaches lens making.
+
+#### Lil Cartoon Bratz Doll — Paige Piskin, Snap Inc. (Snapchat Lenses) (2021)
+- Video: https://www.youtube.com/watch?v=UIexjgFSXjc
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Lens Studio, machine learning
+- Idea: Turn your face into a 90s fashion-doll cartoon in real time.
+- What it is: A Snapchat lens that turns the user's face into a big-eyed, glossy-lipped 90s fashion-doll cartoon, inspired by Piskin's favourite childhood toy.
+- Technique: A machine-learning face transformation (likely a GAN-based style model) restyles the face into a cartoon while keeping head pose and expression.
+- Try it: Use Lens Studio's ML stylization or face-distortion tools to turn a face into the style of a toy from your childhood. Twist: write a short note explaining which features of the original face you kept.
+
+#### Coachella 'Luminous' filter — Paige Piskin (2024)
+- Video: https://www.youtube.com/watch?v=Wca9ejwmY0c
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Spark AR, Instagram
+- Idea: A festival-themed glowing makeup filter that makes your face shine like stage lights.
+- What it is: A glowing, light-reactive face effect created for Coachella on Instagram, with behind-the-scenes on the makeup design and technical build.
+- Technique: Face-attached emissive materials with bloom are modulated by camera luminance or light estimation, so the glow reacts to the surrounding lighting.
+- Try it: Make a face filter whose glow changes with ambient brightness, getting brighter in the dark and fainter in bright light. Twist: drive the glow with microphone volume instead of brightness.
+
+#### Coachella 'MetaButterfly' filter — Paige Piskin (2024)
+- Video: https://www.youtube.com/watch?v=cLaf9RX2IdU
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Spark AR, Instagram
+- Idea: An AR filter of iridescent butterfly makeup and wings designed for a music festival.
+- What it is: An Instagram AR effect for a Coachella campaign with butterfly-themed makeup effects on the face; Piskin walks through the inspiration, makeup and tech.
+- Technique: Face-tracked butterfly meshes and makeup textures are anchored to facial landmarks, with wing animations driven by time or facial movement.
+- Try it: Place a few AR butterflies that rest along the eyebrows or cheekbones and fly away when the mouth opens. Twist: after flying off, the butterflies land on real objects in the frame.
+
+### Refik Anadol
+
+*Media artist; founder of Refik Anadol Studio*
+
+Turkish-American artist who turns architecture into 'data paintings' with large-scale projection and, later, AI-generated 'data sculptures' on building façades and immersive rooms.
+
+#### Visions of America: Amériques — Refik Anadol (2014)
+- Video: https://www.youtube.com/watch?v=U-9VAPC92Bw
+- Interaction: Performance, Hands & Body, Projection
+- Platform & tech: Projection, Kinect, real-time generative visuals
+- Idea: Let a conductor's gestures conduct the projections across an entire concert hall in real time.
+- What it is: Inside Walt Disney Concert Hall, projections explode across the hall in response to the gestures and body language of conductor Esa-Pekka Salonen performing Varèse's Amériques.
+- Technique: A depth camera (Kinect) tracks the conductor's gestures and maps them to real-time generative visuals projected onto the hall's interior surfaces.
+- Try it: Use MediaPipe Pose to track a classmate's "conducting" arm movements and control the bursts and direction of projected particles. Twist: have the class play a simple rhythm, with the conductor's gestures deciding which group's visuals light up.
+
+#### Infinity Room — Refik Anadol (2015)
+- Video: https://www.youtube.com/watch?v=p9Cj1PdmtMA
+- Interaction: Projection, Perception & Effects, Voice & Sound
+- Platform & tech: Projection, projection, mirrors, generative graphics
+- Idea: Projection and mirrors make a small room look endless.
+- What it is: A mirrored room whose walls are flooded with projected generative patterns, creating the sensation of floating in an infinite, shifting space.
+- Technique: Projectors cover the walls and floor while mirrored surfaces multiply the generative, sound-driven imagery to dissolve the room's boundaries.
+- Try it: Line a cardboard box with mirror paper, project patterns into it with a phone or small projector, and watch the infinite reflections. Twist: make the patterns change with the spectrum of the background music.
+
+#### WDCH Dreams — Refik Anadol (2018)
+- Video: https://www.youtube.com/watch?v=PuMVVsoiLPM
+- Interaction: Projection, Information & UI, Location & City
+- Platform & tech: Projection, machine learning, projection mapping, 42 projectors
+- Idea: Let a concert hall use AI to 'dream' its hundred years of memories and project them onto its facade.
+- What it is: For the LA Phil's centenary, 45 terabytes of the orchestra's archives are processed by machine learning and projected onto the exterior of the Walt Disney Concert Hall as the building's 'dreams'.
+- Technique: Machine-learning models cluster and morph archival images and audio, and the results are projection-mapped with 42 projectors onto Gehry's curved stainless-steel façade.
+- Try it: Collect old school photos, generate a sequence with simple image clustering or style blending, and project it onto a campus wall. Twist: let passers-by vote on their phones for the theme of the next 'dream'.
+
+### Theo Triantafyllidis
+
+*Artist working with games, simulation and mixed reality*
+
+Greek-born artist whose live simulations and mixed-reality performances (Anti-Gone, All My Confusing Pets) blur performer, avatar and game engine.
+
+#### Studio Visit (mobile portal) — Theo Triantafyllidis (2018)
+- Video: https://www.youtube.com/watch?v=zCc_qfNEAeM
+- Interaction: Portals & Worlds
+- Platform & tech: Phone, Unity, ARKit
+- Idea: A phone AR portal leads into the artist's bizarre studio.
+- What it is: A site-specific mixed-reality installation: a mobile AR portal opens from the gallery into a surreal virtual version of the artist's studio.
+- Technique: An AR portal uses a stencil-buffer mask on a doorway plane so the virtual studio is only visible through the opening, and the scene is registered to the gallery wall.
+- Try it: Use a stencil shader in Unity AR to build a portal that leads to an exaggerated fictional version of your desk. Twist: let a few objects 'leak' out of the world behind the door onto the real side.
+
+#### All My Confusing Pets — Theo Triantafyllidis (2019)
+- Video: https://www.youtube.com/watch?v=WqdZMLGUfnE
+- Interaction: Performance, Play
+- Platform & tech: Headset, Unity, mixed reality
+- Idea: A mixed-reality performance where the artist shares the stage with a pack of chaotic virtual pets.
+- What it is: A mixed-reality performance where the artist interacts with glitchy virtual pets composited into the real space.
+- Technique: Mixed-reality compositing of glitchy AI-driven creatures in Unity into the real space, with the performer's tracked pose used for interaction and collision.
+- Try it: Place a few virtual pets with conflicting behavior rules (chase you, avoid you, copy you) in HoloKit or phone AR, and record a performance of you trying to look after them. Twist: make the pets' glitches (jitter, clipping) part of their personalities.
+
+#### Anti-Gone — Theo Triantafyllidis (2020)
+- Video: https://www.youtube.com/watch?v=qMvq9pYd2PI
+- Interaction: Performance, Hands & Body
+- Platform & tech: Projection, motion capture, Unity
+- Idea: A swamp theater where a motion-captured performer drives a virtual creature in real time.
+- What it is: A live mixed-reality performance (Sundance 2020) where a motion-captured performer drives an ork-like avatar through a simulated swamp in real time.
+- Technique: Real-time motion capture streams the performer's skeleton into Unity, retargeted to a game avatar in a simulated environment and projected for a live audience.
+- Try it: Use MediaPipe Pose or a phone motion-capture app to drive a strange creature in Unity in real time, and project it on a wall to perform a 3-minute monologue live. Twist: let the audience vote on their phones to change the weather in the creature's environment.
+
+### Tonchidot (Takahito Iguchi)
+
+*Startup; Sekai Camera AR app*
+
+Tonchidot, led by Takahito Iguchi, showed Sekai Camera at TechCrunch50 in 2008: an iPhone app that let people leave floating 'air tags' of text, photos and sound in places.
+
+#### Sekai Camera (TechCrunch50 demo) — Tonchidot (Takahito Iguchi) (2008)
+- Video: https://www.youtube.com/watch?v=KgTwSXK_5dg
+- Interaction: Location & City, Shared & Social, Information & UI
+- Platform & tech: Phone, iPhone, GPS, compass
+- Idea: Let people leave words, photos and sounds at real places like floating bubbles.
+- What it is: The TechCrunch50 demo of Sekai Camera: point an iPhone at a street or shop and see floating 'air tags' left by other people, with notes, photos and voice memos attached to places.
+- Technique: GPS position and compass heading determine which geotagged notes lie in the camera's field of view, and tags are drawn as floating labels at their bearing.
+- Try it: Use the phone's GPS and compass to build 'floating tags' in a web page that show the messages left in whichever direction you face. Twist: scale tag font size by distance so faraway messages blur.
+
+#### Sekai Camera science museum navigation — Tonchidot (Takahito Iguchi) (2009)
+- Video: https://www.youtube.com/watch?v=1De9YCeKz_A
+- Interaction: Information & UI, Location & City
+- Platform & tech: Phone, iPhone, Sekai Camera
+- Idea: Guide visitors through a science museum with air tags.
+- What it is: Sekai Camera air tags used as a guide inside a science museum, pointing visitors to exhibits through the camera view.
+- Technique: Location-tagged labels pointing to exhibits are overlaid on the camera view based on device position and heading, working as indoor wayfinding.
+- Try it: Place a few QR codes or image markers around a teaching building so that scanning one shows an AR arrow pointing to the next spot. Twist: the arrow's style is decided by the previous visitor's rating.
+
+#### Sekai Camera for iPad — Tonchidot (Takahito Iguchi) (2010)
+- Video: https://www.youtube.com/watch?v=YGwyhEK8mV8
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, iPad, Sekai Camera
+- Idea: Turn the iPad into a large window for seeing the 'air tags' floating around the city.
+- What it is: Sekai Camera on the iPad: the larger screen becomes a window onto the air-tag layer around the user.
+- Technique: The same geotag overlay approach is applied on a larger screen, with the device treated as a handheld window onto the tag layer.
+- Try it: Compare the same AR tag interface on a phone and a tablet, and adjust tag density and font size to suit the larger screen. Twist: design an interaction that only makes sense on the big screen.
+
+### Velan Studios (Karthik & Guha Bala)
+
+*Game studio; Mario Kart Live and Hot Wheels Rift Rally*
+
+Founded by brothers Karthik and Guha Bala, Velan Studios builds mixed-reality games that pair real RC cars with camera-based AR tracks.
+
+#### Mario Kart Live: Home Circuit — Velan Studios (Karthik & Guha Bala), Nintendo (2020)
+- Video: https://www.youtube.com/watch?v=f2mCqUSDCJE
+- Interaction: Tangible Objects, Spatial Mapping, Play
+- Platform & tech: Desktop, Nintendo Switch, RC car camera, marker gates
+- Idea: A real RC kart with a camera turns your home into a Mario Kart track.
+- What it is: A real RC kart with a camera drives around cardboard gates in your home; on the Switch, the camera feed becomes a Mario Kart track with items, rivals and weather overlaid on your rooms.
+- Technique: Fiducial markers on cardboard gates localize the RC car's onboard camera, so the track, items and rivals are rendered from the kart's viewpoint over its live video.
+- Try it: Mount a phone on a toy car, lay a few image markers on the floor as gates, and show speed-boost items in AR when the car passes them. Twist: arrange the gates into a track that is visible only in AR.
+
+#### Mario Kart Live: Home Circuit — developer interview — Velan Studios (Karthik & Guha Bala) (2020)
+- Video: https://www.youtube.com/watch?v=A7O7jzRfZ4k
+- Interaction: Tangible Objects, Spatial Mapping
+- Platform & tech: Desktop, Nintendo Switch, computer vision
+- Idea: The developers explain how they fused a real car with a virtual track.
+- What it is: Velan Studios explains how they built the kart, the gate-based track system and the latency-sensitive AR rendering that makes a living room feel like a race course.
+- Technique: The gates both define the track path and correct camera pose drift, and rendering is tuned to minimize latency between the car's video and its overlays.
+- Try it: Measure the latency from camera frame to overlay in your own AR prototype, for example with high-speed video, and try one way to reduce it. Twist: deliberately increase the latency and find the threshold where users start to feel uncomfortable.
+
+#### Hot Wheels: Rift Rally — Velan Studios (Karthik & Guha Bala) (2023)
+- Video: https://www.youtube.com/watch?v=b0Q0fYl0pH0
+- Interaction: Tangible Objects, Spatial Mapping, Play
+- Platform & tech: Phone, Desktop, RC car camera, iOS, PlayStation
+- Idea: Race a smart Hot Wheels car with a camera around your home while the screen overlays the track and rivals.
+- What it is: A smart RC car with a camera, controlled from a phone or console, races through gates at home while the screen overlays a Hot Wheels track, other racers and rift effects.
+- Technique: A camera car streams video to a phone or console that tracks gate markers for localization and overlays track geometry and effects in the car's perspective.
+- Try it: Watch the camera feed of a second phone (mounted on a small car) remotely from your phone and overlay AR track elements on it. Twist: add a 'rift' effect that appears only after the car passes a certain picture.
+
+### Yannick Jacquet (Legoman)
+
+*Media artist and art director; former AntiVJ member*
+
+Visual artist known as Legoman in the AntiVJ label; his mapped installations mix physical print, mechanism and projection so that drawn machines and images appear to move on paper and walls.
+
+#### Intangible States (with Stray Dogs) — Yannick Jacquet (Legoman) (2010)
+- Video: https://www.youtube.com/watch?v=cgU7F42vgj4
+- Interaction: Projection, Performance, Voice & Sound
+- Platform & tech: Projection, live projection mapping, VJ software
+- Idea: Project an urban drifter's dreams onto a stage built from a pile of boxes.
+- What it is: A live audiovisual performance where video by Legoman is projection-mapped onto a stage set of stacked boxes and screens, evoking the dream states of an urban nomad.
+- Technique: Live VJ software maps video onto each face of stacked boxes using masks and corner-pinning, performed in sync with live electronic music.
+- Try it: Stack cardboard boxes into a stage and use free mapping software (such as MapMapper or a Resolume trial) to put different videos on each face. Twist: switch each box's image live in response to the music.
+
+#### Mécaniques Discursives (with Fred Penelle) — Yannick Jacquet (Legoman) (2011)
+- Video: https://www.youtube.com/watch?v=3URvRzYkSGo
+- Interaction: Projection, Drawing & Making, Tangible Objects
+- Platform & tech: Projection, projection mapping on print, woodcut
+- Idea: Projection makes the printed machine on the wall actually turn.
+- What it is: A wall of woodcut prints depicting a strange machine is brought to life by precise projection: gears turn, creatures move and light flows through the printed mechanism.
+- Technique: Video is drawn to match the exact contours of hand-printed woodcuts on the wall and projected in registration so animation appears to live inside the paper.
+- Try it: Hand-draw a black-and-white 'machine' and pin it to the wall, photograph it, animate each part rotating on the computer, and project it back in alignment. Twist: the machine changes speed when the audience claps.
+
+#### Remote Memories (with Laurent Delforge / Before Tigers) — Yannick Jacquet (Legoman) (2016)
+- Video: https://www.youtube.com/watch?v=v23ZJmWdmo4
+- Interaction: Projection, Perception & Effects, Voice & Sound
+- Platform & tech: Projection, projection mapping, polyptych
+- Idea: Fragments of memory pieced into a panoramic projection you have to take in slowly.
+- What it is: A panoramic polyptych of projection-mapped panels and sound that slowly assembles a pictorial landscape of memories, also performed live.
+- Technique: Video is mapped across several physical panels of different sizes and depths so a single composition spans the polyptych.
+- Try it: Arrange five whiteboards of different sizes into a polyptych and project an animation of old photos across all the panels. Twist: each panel stands for a fragment of memory told by a different person.
+
+### Zenka (Zenka Caro)
+
+*AR artist*
+
+Artist who from 2012 made AR street art, murals, postcards and linoleum prints that came alive through Aurasma on phones.
+
+#### Space Mural (Aurasma) — Zenka (Zenka Caro) (2013)
+- Video: https://www.youtube.com/watch?v=qAtHjySUoHM
+- Interaction: Perception & Effects, Location & City
+- Platform & tech: Phone, Aurasma, image tracking
+- Idea: A space mural turns into moving images through a phone camera.
+- What it is: A painted space-themed mural that triggers animated AR content through Aurasma when viewed with a phone.
+- Technique: An image recognition service matches the mural and triggers an overlay animation registered to the painted surface.
+- Try it: Draw a simple mural on a whiteboard and use image tracking to make its elements fly out. Twist: invite classmates to add one stroke to the mural and see whether recognition still works.
+
+#### Augmented Reality Street Art — Zenka (Zenka Caro) (2014)
+- Video: https://www.youtube.com/watch?v=oVaoTytQPfY
+- Interaction: Location & City, Perception & Effects
+- Platform & tech: Phone, Aurasma, image tracking
+- Idea: Street paste-ups start moving inside your phone.
+- What it is: Wheat-pasted street art by Zenka that, seen through an AR app, animates on the wall.
+- Technique: The printed artwork is registered as an image target, and a video or animation layer is aligned to it so the static piece appears to move.
+- Try it: Set one of your own posters as an image target in 8th Wall or Lens Studio, so scanning it plays an animated version. Twist: the animation only keeps going while someone stands in front of the poster.
+
+#### Augmented Reality Linoleum Prints — Zenka (Zenka Caro) (2016)
+- Video: https://www.youtube.com/watch?v=POl-PJie6Qw
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Phone, image tracking
+- Idea: Traditional printmaking meets AR, and hand-carved prints come alive through the lens.
+- What it is: Hand-carved linoleum prints that come alive with animation when scanned, joining traditional printmaking with AR.
+- Technique: High-contrast hand-carved prints serve as image targets with strong feature points, and animations are aligned to the printed forms.
+- Try it: Make a high-contrast pattern with a rubber stamp or by hand, test how well it is recognized as an image marker, and add a matching animation. Twist: print several slightly different copies, each triggering a different animation.
+
+### Apple (ARKit / visionOS teams)
+
+*Platform company*
+
+Apple's ARKit and visionOS teams released SwiftShot, the first multi-user ARKit sample game, and the Vision Pro showcase Encounter Dinosaurs.
+
+#### SwiftShot — Apple (ARKit / visionOS teams) (2018)
+- Video: https://www.youtube.com/watch?v=0pUnaAkzUOs
+- Interaction: Shared & Social, Play, Tangible Objects
+- Platform & tech: Phone, ARKit 2, world map sharing, MultipeerConnectivity
+- Idea: A shared AR slingshot battle between several players at the same table.
+- What it is: A WWDC multiplayer ARKit 2 game: players on several iPhones/iPads see the same tabletop battlefield and fling slingshot projectiles at each other's wooden blocks.
+- Technique: Shares an ARWorldMap between devices so all players relocalize to the same anchors, then syncs physics state over peer-to-peer networking.
+- Try it: Build a two-player battle with shared anchors in Reality Composer or AR Foundation: on the same tabletop, flick the phone to launch balls and knock down the opponent's blocks. Twist: a real cup on the table acts as a solid obstacle.
+
+#### Encounter Dinosaurs — Apple (ARKit / visionOS teams) (2024)
+- Video: https://www.youtube.com/watch?v=31VkL_iPXkM
+- Interaction: Portals & Worlds, Hands & Body, Gaze & Attention
+- Platform & tech: Headset, Apple Vision Pro, RealityKit, hand tracking
+- Idea: A door opens in the wall, dinosaurs lean out to interact with you, and a butterfly lands on your fingertip.
+- What it is: On Vision Pro a portal opens in your wall; a butterfly lands on your outstretched finger and dinosaurs step toward you, reacting when you move or reach out.
+- Technique: Renders a portal into a full environment anchored to a wall and drives creature behaviours from the user's head and hand positions.
+- Try it: Place a portal on a wall with phone AR so the character inside backs away or steps forward as the phone gets closer. Twist: when you hold out your hand (detected by hand tracking), have a virtual butterfly land on it.
+
+### Brad Dwyer
+
+*Developer & founder (Hatchlings, Magic Sudoku; co-founder of Roboflow)*
+
+Des Moines developer whose studio Hatchlings shipped Magic Sudoku and Nose Zone at the ARKit and iPhone X launches before he co-founded the computer-vision company Roboflow.
+
+#### Magic Sudoku — Brad Dwyer (2017)
+- Video: https://x.com/braddwyer/status/910030265006923776
+- Interaction: Tangible Objects, Information & UI, Play
+- Platform & tech: Phone, ARKit, CoreML, Vision
+- Idea: Point at a Sudoku on paper and the answers are written right into the empty squares.
+- What it is: Point the phone at a printed Sudoku and the solution appears written into the empty squares on the paper, using Vision, CoreML and ARKit.
+- Technique: Vision detects the Sudoku grid rectangle, a CoreML digit classifier reads the cells, a solver fills in the answers, and the digits are rendered on the paper's plane via ARKit.
+- Try it: Recognize an arithmetic problem on paper with OCR (Tesseract.js) and show the result at the answer position in AR. Twist: instead of giving the answer, give a one-step hint.
+
+#### ARKit 2 Eye Transform Test — Brad Dwyer (2018)
+- Video: https://x.com/braddwyer/status/1003778802747691008
+- Interaction: Gaze & Attention, Face, Play
+- Platform & tech: Phone, ARKit 2, TrueDepth
+- Idea: Test ARKit 2 eye tracking as a new control scheme for a game you play with your face.
+- What it is: A quick test of ARKit 2's per-eye transforms, drawing where each eye is looking as input for his face-controlled game Nose Zone.
+- Technique: ARKit 2 leftEyeTransform and rightEyeTransform are read each frame and rays are cast from each eye along its forward axis to visualize gaze direction.
+- Try it: Use ARKit face tracking to cast two rays from the eye positions and show where you are looking. Twist: use the direction of your nose tip instead of your eyes as the control, and compare their accuracy.
+
+### Climax Studios
+
+*Game studio; ARise, Towers for Tango*
+
+UK developer that made early phone AR games for Google Tango and ARKit, including the perspective puzzle game ARise.
+
+#### ARise — Climax Studios (2017)
+- Video: https://www.youtube.com/watch?v=ZIF2w-wULcw
+- Interaction: Spatial Mapping, Play, Perception & Effects
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Solve puzzles without touching the screen by moving around the table until the paths line up.
+- What it is: A puzzle game where the player never touches the hero: you physically move and tilt your phone around a tabletop world until the paths line up from the right perspective.
+- Technique: Perspective-alignment puzzles check the camera's viewing angle relative to the diorama, and when disconnected paths line up in screen space the level treats them as connected.
+- Try it: Place a set of misaligned AR blocks on a table that form a single path only when seen from one particular angle. Twist: design a level that needs two angles to line up in sequence.
+
+#### Towers for Tango — Climax Studios (2017)
+- Video: https://www.youtube.com/watch?v=IStjntHonUo
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Phone, Google Tango, Unity
+- Idea: On a depth-sensing phone, a tower-defense battlefield is laid across real floors and furniture.
+- What it is: A tower-defence game for Google's Tango depth-sensing phones in which the battlefield and towers are placed on real floors and furniture.
+- Technique: Tango's depth sensor builds a room mesh, and towers and enemy paths are placed on real floors and furniture surfaces from that mesh.
+- Try it: Reconstruct a mesh with a LiDAR iPhone and lay the enemies' route on the real floor so it steers around furniture. Twist: players can move real chairs to change the route.
+
+### Creature
+
+*Small XR studio (Starship Home)*
+
+Small independent studio behind Starship Home, a narrative mixed-reality game for Quest 3.
+
+#### Starship Home — Creature (2024)
+- Video: https://www.youtube.com/watch?v=JC2dYTI5zoA
+- Interaction: Portals & Worlds, Spatial Mapping, Hands & Body
+- Platform & tech: Headset, Meta Quest 3, Scene API
+- Idea: Convert your own room into a starship cabin whose walls become windows onto space.
+- What it is: A Quest 3 story game that converts your room into a starship: real walls get replaced by windows onto space, and you grow alien plants and pilot the ship with your hands.
+- Technique: Scene API wall planes are replaced with window shaders that render space behind them, while furniture remains in passthrough, turning the room into a spacecraft interior.
+- Try it: Detect a wall and render it as a porthole that looks out onto the stars, keeping the rest of the view real. Twist: change the view outside the porthole when the real lights in the room are switched on or off.
+
+### Directive Games
+
+*Game studio; The Machines (ARKit launch title)*
+
+Directive Games built The Machines, a tabletop multiplayer strategy game in Unreal Engine that Apple showed on stage when ARKit launched in 2017.
+
+#### The Machines — Directive Games (2017)
+- Video: https://www.youtube.com/watch?v=xTNlSazLMGE
+- Interaction: Play, Shared & Social
+- Platform & tech: Phone, ARKit, Unreal Engine
+- Idea: Two phones share a miniature battlefield on one table for a real-time battle.
+- What it is: The released game: 1v1 real-time multiplayer battles on a real table, where each phone is a moving camera over a shared miniature battlefield.
+- Technique: Two phones share one tabletop anchor and a synchronized game state, with each phone acting as a free-moving camera over the miniature battlefield.
+- Try it: Use network sync to build a two-player tabletop AR battle where each player sees the same map from their own angle. Twist: each player can only see the area near their own units (fog of war).
+
+#### The Machines (Apple keynote reveal) — Directive Games (2017)
+- Video: https://www.youtube.com/watch?v=KBfEgFI90YA
+- Interaction: Play, Shared & Social, Spatial Mapping
+- Platform & tech: Phone, ARKit, Unreal Engine
+- Idea: Walk around the table to survey the battlefield, where moving your body is itself a tactic.
+- What it is: Shown at Apple's iPhone 8 event: a tabletop strategy battle in which players walk around the table to change the view and find openings in the enemy base.
+- Technique: ARKit world tracking places a detailed battlefield on the table, and the player's physical movement around it becomes the camera control, revealing new sightlines.
+- Try it: Put an AR maze castle on a table whose hidden entrance is visible only from a certain angle. Twist: the entrance appears only when two people stand on opposite sides at the same time.
+
+### ILMxLAB (Lucasfilm)
+
+*Lucasfilm's immersive entertainment studio*
+
+ILM's immersive lab made Star Wars mixed-reality experiments with Magic Leap, from the 2016 'Lost Droids' test to Project Porg.
+
+#### Lost Droids (MR test) — ILMxLAB (Lucasfilm), Magic Leap Studios (2016)
+- Video: https://www.youtube.com/watch?v=lP5ZZI05A3g
+- Interaction: Perception & Effects, Portals & Worlds
+- Platform & tech: Headset, Magic Leap prototype, ILM character animation
+- Idea: Star Wars droids show up in a real office and project a hologram message for you.
+- What it is: Shot through Magic Leap optics: R2-D2 and C-3PO appear in a real office, R2 projects a hologram message and the droids react to the viewer.
+- Technique: Real-time rendered characters anchored to the physical room and filmed directly through the prototype's optics.
+- Try it: Use phone AR to have a character in the classroom "project" a recorded video message by playing a video plane above it. Twist: the message plays only when two people watch at the same time.
+
+#### Star Wars: Project Porg — ILMxLAB (Lucasfilm), Magic Leap Studios (2019)
+- Video: https://www.youtube.com/watch?v=qvXAhbM6y6M
+- Interaction: Spatial Mapping, Play, Hands & Body
+- Platform & tech: Headset, Magic Leap One, world meshing, character AI
+- Idea: Keep a Star Wars porg as a pet at home.
+- What it is: Adopt porgs that waddle around your real home, recognise surfaces and play fetch with you on Magic Leap.
+- Technique: Character behaviour trees query the room mesh for walkable surfaces and toys so the pets navigate and play in the real space.
+- Try it: Make a small phone AR pet that follows the phone across a tabletop and fetches a ball (using a navmesh or a simple follow script). Twist: the pet remembers where you last put a toy.
+
+### Julian Oliver
+
+*Critical engineer and artist*
+
+New Zealand-born artist and co-author of the Critical Engineering Manifesto, working with networks, surveillance and 'improved reality'. His early AR works used hacked binoculars and marker-tracked cubes to question who owns the view.
+
+#### levelHead — Julian Oliver (2007)
+- Video: https://www.youtube.com/watch?v=UJYKSFANuaQ
+- Interaction: Tangible Objects, Play
+- Platform & tech: Desktop, ARToolKit, Blender Game Engine
+- Idea: Several rooms hide inside a cube in your hand, and turning the real cube guides a little figure through them.
+- What it is: A spatial memory game: tilting a real cube with printed markers moves a tiny character through rooms that appear inside the cube on screen.
+- Technique: ARToolKit fiducial markers on each cube face give the cube's 6DoF pose, and the tilt angle drives a physics-based character moving between rooms rendered inside the cube.
+- Try it: Print a paper box with a different image marker on each face, use MindAR or AR Foundation to render small rooms inside it, and tilt the box to roll a ball into the next room. Twist: make the rooms spaces from your childhood memories, so a story comes together only once you have gone through them all.
+
+#### The Artvertiser — Julian Oliver (2008)
+- Video: https://www.youtube.com/watch?v=z4a8n8hotI4
+- Interaction: Portals & Worlds, Location & City, Perception & Effects
+- Platform & tech: Wearable, OpenCV, Ferns tracking
+- Idea: Use modified binoculars to swap street ads for artworks in real time.
+- What it is: Custom binoculars recognise street billboards and replace each advert live with an artwork, turning advertising space into an exhibition surface.
+- Technique: Natural-feature (Ferns keypoint) tracking in OpenCV recognises known billboard images and computes a homography so replacement artwork is warped onto the billboard in the video feed.
+- Try it: Use 8th Wall or MindAR image tracking to recognize a few posters on campus and replace them live with classmates' work. Twist: make the replacement a response to or parody of the original ad rather than a simple cover-up.
+
+### KAWS (Brian Donnelly)
+
+*Artist and designer*
+
+Artist whose COMPANION figures moved from street art and toys into giant inflatables and, with Acute Art, some of the most widely seen AR sculptures and AR packaging.
+
+#### KAWS × Reese's Puffs WebAR — KAWS (Brian Donnelly), Acute Art (2021)
+- Video: https://www.youtube.com/watch?v=_2MlPIhdJbY
+- Interaction: Tangible Objects, Play
+- Platform & tech: Web, Phone, WebAR, ZapWorks, Unity
+- Idea: Scan a cereal box and play an AR game with KAWS characters on your table.
+- What it is: Scanning a QR code on KAWS-designed cereal boxes launches a WebAR game in which KAWS characters appear around the box.
+- Technique: An on-pack QR code opens a browser-based AR experience built with the ZapWorks Universal AR SDK for Unity, tracking the packaging as the anchor.
+- Try it: Design web AR for a snack package with MindAR or 8th Wall so that scanning the package launches a mini-game. Twist: different patterns on the back of the package unlock different levels.
+
+#### KAWS: FAMILY AR experience (AGO) — KAWS (Brian Donnelly), Acute Art (2022)
+- Video: https://www.youtube.com/watch?v=PlmdoymVGjk
+- Interaction: Location & City, Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Acute Art app, ARKit/ARCore
+- Idea: Summon giant KAWS sculptures into a museum gallery with your phone.
+- What it is: At the Art Gallery of Ontario, visitors open the Acute Art app to see KAWS's giant sculptures appear inside the Galleria Italia alongside the physical exhibition.
+- Technique: Acute Art's app uses plane detection and site-specific placement to anchor large animated 3D sculptures in the gallery space.
+- Try it: Design an oversized AR sculpture for a school corridor with Reality Composer or Adobe Aero, and study the impact that scale creates. Twist: the sculpture turns to look at the nearest viewer.
+
+### Layar (Raimo van der Klein, Claire Boonstra, Maarten Lens-FitzGerald)
+
+*Mobile AR browser company*
+
+Layar launched in 2009 as the first mobile AR browser, overlaying geolocated 'layers' of information on the camera view, and later moved to interactive print.
+
+#### Layar Reality Browser — Layar (Raimo van der Klein, Claire Boonstra, Maarten Lens-FitzGerald) (2009)
+- Video: https://www.youtube.com/watch?v=liY898N2rPU
+- Interaction: Location & City, Information & UI
+- Platform & tech: Phone, Android, GPS, compass
+- Idea: The world's first phone AR browser, stacking layers of location data on the camera view.
+- What it is: The first mobile AR browser: on an Android phone, the camera view shows geolocated layers of nearby homes for sale, restaurants, ATMs and more, published by anyone through an open API.
+- Technique: Points of interest from third-party layers are fetched by API and rendered as camera-overlay markers using GPS, compass and accelerometer for bearing and elevation.
+- Try it: Fetch nearby cafes from an open data API (such as OpenStreetMap) and show them by direction in the camera view using GPS and compass. Twist: show only places you have never been.
+
+#### Layar for Google Glass — Layar (Raimo van der Klein, Claire Boonstra, Maarten Lens-FitzGerald) (2013)
+- Video: https://www.youtube.com/watch?v=rBPmG5mqWfI
+- Interaction: Information & UI, Tangible Objects
+- Platform & tech: Wearable, Google Glass, image recognition
+- Idea: Bring print-recognition AR to Google Glass.
+- What it is: Layar's image-recognition AR ported to Google Glass, so printed pages and posters trigger interactive content in the wearer's view.
+- Technique: Image recognition matches printed pages against a database, triggering linked content in a head-worn display without needing a touch screen.
+- Try it: Make a course poster into an image-recognition trigger that plays a 15-second introduction video when scanned. Twist: scanning the same poster at different times shows different content.
+
+### Madeline Gannon
+
+*Artist-roboticist; principal of ATONATON*
+
+Designs ways for people to communicate with machines - from projection-mapped on-skin 3D modelling (Tactum) to industrial robots that watch and follow visitors (Mimus).
+
+#### Tactum — Madeline Gannon, Golan Levin (2015)
+- Video: https://www.youtube.com/watch?v=tOVommpNzPA
+- Interaction: Projection, Hands & Body, Drawing & Making
+- Platform & tech: Projection, depth sensing, projection mapping, 3D printing
+- Idea: Pinch a 3D-printable piece of jewelry into shape right on your own arm.
+- What it is: Touch and pinch gestures on your own forearm are tracked and a projector shows a live 3D-printable wearable form growing on your skin as you design it.
+- Technique: Tracks the arm with a depth camera, interprets skin touches as modelling gestures and projection-maps the resulting geometry back onto the arm.
+- Try it: Use phone AR hand tracking to place a stretchable virtual bracelet on your arm, adjust its shape with gestures, then export a screenshot and make a paper model from it. Twist: have a projector above cast the design onto a real arm.
+
+#### ExoSkin — Madeline Gannon, Autodesk Research (Fraser Anderson, Tovi Grossman, George Fitzmaurice et al.) (2016)
+- Video: https://www.youtube.com/watch?v=slaDdfWaruk
+- Interaction: Hands & Body, Drawing & Making, Tangible Objects
+- Platform & tech: Desktop, on-body modelling, 3D printing
+- Idea: Design and print wearables directly on the body.
+- What it is: A hybrid fabrication system for designing and 3D-printing wearables directly on the body, combining on-body modelling with printing onto a body-shaped surface.
+- Technique: Scans the body part, lets the designer model around it in 3D, and prints the wearable in place on a body-shaped form.
+- Try it: Scan a classmate's wrist with a phone (Polycam or similar), draw a band around the model in 3D software, and recreate it to scale with paper strips. Twist: try it on in AR before making it.
+
+### Matt Moss
+
+*iOS developer & founder (Hawkeye Access, Locket Camera)*
+
+Young iOS developer whose 2018 ARKit 2 eye-tracking prototype went viral and became Hawkeye Access; later founded the widget photo app Locket.
+
+#### Control Your iPhone with Your Eyes — Matt Moss (2018)
+- Video: https://x.com/thefuturematt/status/1004821303486906369
+- Interaction: Gaze & Attention, Face
+- Platform & tech: Phone, ARKit 2, TrueDepth
+- Idea: Select whatever you look at and blink to click: control an iPhone with your eyes.
+- What it is: Look at a button to select it and blink to press it: an ARKit 2 prototype that turns eye gaze into a pointer on iPhone X.
+- Technique: ARKit 2 face tracking provides a lookAtPoint and per-eye transforms, which are intersected with the screen plane to get a gaze cursor, and eyeBlink blend shapes act as clicks.
+- Try it: Show a gaze cursor on screen using ARKit face tracking's lookAtPoint (or WebGazer.js) and trigger buttons by blinking. Twist: make a simple game you can play only with your eyes.
+
+#### Hawkeye Access — Matt Moss (2018)
+- Video: https://www.youtube.com/watch?v=fLktElD6QfU
+- Interaction: Gaze & Attention, Face, Information & UI
+- Platform & tech: Phone, ARKit 2, TrueDepth
+- Idea: Turn an eye-control prototype into a hands-free browser on the App Store for accessibility.
+- What it is: The shipped version of his prototype: browse any website hands-free on iOS by looking at links and blinking to open them.
+- Technique: Calibrated gaze estimation from ARKit face tracking is smoothed and mapped to web page link targets, with dwell or blink detection triggering navigation.
+- Try it: Build a web page with WebGazer.js that opens a link automatically after you stare at it for 1.5 seconds. Twist: design a gaze interface for one specific user (such as someone with an injured hand).
+
+### Merge Labs (Merge Cube)
+
+*AR/VR toy and education company*
+
+Merge makes the Merge Cube, a patterned foam cube that phones track so a hologram can be held and turned in the hand, used widely in schools.
+
+#### Merge Cube — Merge Labs (Merge Cube) (2017)
+- Video: https://www.youtube.com/watch?v=_sL1HfdVxg4
+- Interaction: Tangible Objects, Information & UI
+- Platform & tech: Phone, image tracking, iOS, Android
+- Idea: A foam cube that lets kids really hold a hologram in their hands.
+- What it is: A patterned foam cube that a phone camera tracks, so a hologram such as a planet, skull or artefact appears in the user's hand and can be turned and examined.
+- Technique: The cube's six unique patterns form a single tracked object target, giving full 6DoF pose so a hologram can be held and turned in the hand.
+- Try it: Print and fold a patterned paper cube, track it with Vuforia or 8th Wall, and show a rotatable planet in your hand. Twist: bring two cubes close together to trigger a chemical reaction.
+
+### Meta Reality Labs (Quest mixed reality)
+
+*Platform team behind Quest Presence Platform showcases*
+
+Built the Presence Platform showcases The World Beyond and First Encounters that teach Quest users what passthrough MR can do.
+
+#### The World Beyond — Meta Reality Labs (Quest mixed reality), Thomas Van Bouwel (2022)
+- Video: https://www.youtube.com/watch?v=SfQnR6hYeJM
+- Interaction: Portals & Worlds, Spatial Mapping, Hands & Body
+- Platform & tech: Headset, Meta Quest, Scene API, passthrough, voice SDK
+- Idea: Use a flashlight to dissolve real walls into an alien world, with a pet that listens to you.
+- What it is: A Presence Platform showcase where you shine a flashlight to dissolve your real walls into an alien world and play with Oppy, a pet that responds to hand gestures and voice.
+- Technique: Uses the Scene model to know wall planes, then masks passthrough with a shader where the virtual flashlight hits, revealing the VR world behind.
+- Try it: Use phone AR to detect a wall and cut a round hole where the phone points to show another world, using a mask shader or a portal component. Twist: the hole only opens when you say a magic word.
+
+#### First Encounters — Meta Reality Labs (Quest mixed reality), Thomas Van Bouwel (2023)
+- Video: https://www.youtube.com/watch?v=t4jcAbfDoPI
+- Interaction: Portals & Worlds, Spatial Mapping, Play
+- Platform & tech: Headset, Meta Quest 3, Scene API, passthrough
+- Idea: Blast through the walls of your home and see alien space outside.
+- What it is: Fluffy aliens attack after your ship crashes into your room; you shoot holes through your real walls to see space outside and chase aliens through them.
+- Technique: Scans the room into a scene mesh, then replaces passthrough with a virtual exterior wherever the player's shots break wall segments.
+- Try it: Detect a wall with phone AR, and wherever it is tapped, put a 'hole' that reveals a space panorama. Twist: the more holes there are, the more 'aliens' enter the room.
+
+### Mojang Studios (Minecraft Earth)
+
+*Game studio; Minecraft Earth*
+
+Mojang and Microsoft built Minecraft Earth (2019–2021), a location-based AR game where players built life-size Minecraft structures in the real world.
+
+#### Minecraft Earth — Mojang Studios (Minecraft Earth) (2019)
+- Video: https://www.youtube.com/watch?v=GNo38kNy_EU
+- Interaction: Location & City, Drawing & Making, Shared & Social
+- Platform & tech: Phone, ARKit, ARCore, Azure Spatial Anchors
+- Idea: Place Minecraft block builds life-size on the street and walk in together.
+- What it is: Players collect blocks around their neighbourhood, build on tabletop 'build plates', then place builds at life size in the real world and play in them together.
+- Technique: Build plates are authored at tabletop scale and rescaled to life size with the same anchor, while Azure Spatial Anchors let multiple players share the placement.
+- Try it: Build a small model from AR blocks on a table, then scale it to life size with one tap and walk inside. Twist: after scaling, another classmate can see it in the same spot.
+
+### Novum Analytics
+
+*Indie studio; Night Terrors AR horror*
+
+Small studio behind Night Terrors, a crowdfunded phone AR survival horror game played at home in the dark with headphones.
+
+#### Night Terrors — Novum Analytics (2016)
+- Video: https://www.youtube.com/watch?v=QLcN2NclOTM
+- Interaction: Spatial Mapping, Play, Voice & Sound
+- Platform & tech: Phone, iOS, Android, computer vision
+- Idea: Lights off, headphones on, and your own home becomes a horror game full of monsters.
+- What it is: A survival horror game played at home in the dark with headphones: the phone becomes the only way to see the monsters and apparitions that move through your own rooms.
+- Technique: The phone camera feed is darkened and lit by a virtual flashlight, and apparitions are overlaid with jump-scare timing and spatial audio through headphones.
+- Try it: Build a scene where AR content appears only inside the phone's "flashlight" circle, paired with directional sound in headphones. Twist: the smaller the circle, the closer the horror gets.
+
+#### Night Terrors: Bloody Mary — Novum Analytics (2019)
+- Video: https://www.youtube.com/watch?v=ayL9mU1dnQw
+- Interaction: Spatial Mapping, Play
+- Platform & tech: Phone, ARKit, ARCore
+- Idea: Bring the Bloody Mary legend into your home, with a ghost stalking you in AR.
+- What it is: A follow-up that brings the Bloody Mary legend into the player's home, with the ghost stalking them through the phone's AR view.
+- Technique: ARKit or ARCore world tracking lets a ghost character move through room space relative to the player, with audio cues giving direction.
+- Try it: Have an AR character move behind you so you can only locate it by sound, and make it hide out of view when you turn around. Twist: use the front camera to detect whether you are standing in front of a 'mirror'.
+
+### Olafur Eliasson
+
+*Artist; Studio Olafur Eliasson*
+
+Icelandic-Danish artist whose light, colour and perception installations (The Weather Project) extended into AR with Wunderkammer and the children's climate app Earth Speakr.
+
+#### Your uncertain shadow (colour) — Olafur Eliasson (2010)
+- Video: https://www.youtube.com/watch?v=PeBH6fTQNSc
+- Interaction: Hands & Body, Perception & Effects, Projection
+- Platform & tech: Projection, coloured lamps, additive colour mixing
+- Idea: Five colored lamps split your shadow into a string of rainbows.
+- What it is: Five coloured lamps shine on a white wall; each visitor casts a row of overlapping coloured shadows that move with them, splitting the body into a spectrum.
+- Technique: Coloured HMI lamps placed side by side produce additive-colour light; blocking one lamp leaves its complementary colour, so each shadow is a different hue.
+- Try it: Shine three phone lights in red, green and blue (or use colored cellophane) on a white wall and study the colors of the shadows. Twist: use dance moves to make the colored shadows spell out a letter.
+
+#### Earth Speakr — Olafur Eliasson (2020)
+- Video: https://www.youtube.com/watch?v=oneExExNwZw
+- Interaction: Face, Voice & Sound, Location & City
+- Platform & tech: Phone, face tracking, mobile AR
+- Idea: Children lend their faces and voices to trees and rivers so the Earth can speak.
+- What it is: An AR app for children in which kids record their voice and facial expressions and 'lend' them to places and objects in the world — trees, rivers, buildings — to speak for the planet.
+- Technique: Face tracking captures the child's expressions and voice, which are mapped onto AR 'faces' placed on real objects detected through the phone camera.
+- Try it: Use AR face puppeteering, for example a Snap Lens or Reality Composer, to put your expressions on a tree on campus and record one line of what the tree wants to say. Twist: the whole class's trees form a conversation.
+
+### Otavio Good (Quest Visual)
+
+*Creator of Word Lens*
+
+Otavio Good founded Quest Visual and built Word Lens (2010), which translated printed signs live in the camera view; Google acquired it for Google Translate.
+
+#### Word Lens — Otavio Good (Quest Visual) (2010)
+- Video: https://www.youtube.com/watch?v=h2OfQdYrHRs
+- Interaction: Information & UI, Perception & Effects
+- Platform & tech: Phone, iPhone, OCR, computer vision
+- Idea: Point at a foreign sign and the words turn into your own language on the spot, like magic.
+- What it is: Point an iPhone at a sign or menu and the printed Spanish or English text is replaced in place, in the same style, with its translation, running offline in real time.
+- Technique: On-device OCR finds text regions, a dictionary translates them, and the original text is painted over with sampled background color and redrawn in a matching font.
+- Try it: Use Google ML Kit or Tesseract to recognize text in the camera view, replace it with another language or another sentence, and paste it back in place. Twist: replace every sign with its antonym.
+
+#### Word Lens for Glass — Otavio Good (Quest Visual) (2013)
+- Video: https://www.youtube.com/watch?v=pZKWW3rzT2Q
+- Interaction: Information & UI, Gaze & Attention
+- Platform & tech: Wearable, Google Glass, OCR
+- Idea: Look at a sign through the glasses and the translation appears right in your view.
+- What it is: Word Lens on Google Glass: the wearer looks at a sign and sees it translated in their view hands-free.
+- Technique: The OCR and in-place replacement pipeline runs on head-worn camera frames, so translation appears in view without holding a device.
+- Try it: Simulate a glasses view with a phone's cameras to build hands-free text translation, and discuss how the interface would need to be simplified for glasses. Twist: only read the translation aloud by voice, with no text shown.
+
+### Rajinder Sodhi
+
+*HCI researcher (UIUC PhD); worked at Microsoft Research, Disney Research and Qualcomm on projected and haptic AR*
+
+Co-created LightGuide (projected hand-movement guidance), BeThere (3D mobile telepresence with spatial input) and Disney's AIREAL air-vortex haptics.
+
+#### LightGuide — Rajinder Sodhi, Microsoft Research — Hrvoje Benko & Andy Wilson (2012)
+- Video: https://www.youtube.com/watch?v=vNaw9GpuVLQ
+- Interaction: Projection, Hands & Body, Information & UI
+- Platform & tech: Projection, depth camera, projector, on-body projection
+- Idea: Project movement cues straight onto your hand and let the hand follow the light.
+- What it is: A ceiling projector draws arrows, color gradients and 3D cues directly on the user's hand to guide it along a precise movement path.
+- Technique: Tracks the hand with a depth camera and renders movement-guidance visualizations warped onto the hand surface in real time.
+- Try it: Project an animated path onto the table or a hand and have a classmate follow it with their hand to draw a letter. Twist: switch to phone AR that pins the arrows to the hand on screen, and compare the accuracy of the two kinds of guidance.
+
+#### BeThere — Rajinder Sodhi, Lightform (Brett Jones & Kevin Karsch) (2013)
+- Video: https://www.youtube.com/watch?v=3wVFcrowS74
+- Interaction: Shared & Social, Hands & Body, Spatial Mapping
+- Platform & tech: Phone, depth sensor on mobile, 3D reconstruction, hand tracking
+- Idea: A remote person reaches their hands into your space to point things out.
+- What it is: A mobile 3D collaboration system where a remote user sees a reconstructed 3D copy of the local space and reaches in with tracked hands to point and manipulate.
+- Technique: Attaches a depth sensor to a mobile device to capture the scene and the user's hand, sharing both as 3D data so remote hands appear in the local AR view.
+- Try it: Set up a two-person video call: the remote person draws circles and arrows on a screenshot, and the local person uses phone AR to place those marks on real objects to complete an assembly task. Twist: only gestures are allowed, no talking.
+
+### Sallia Goldstein
+
+*Technical artist and Snap Lens Creator*
+
+LA-based 3D technical artist whose career began with a viral Snapchat lens; she has built lenses for Coachella, UFC and LACMA and teaches in Snap's Lens Academy.
+
+#### Body Confetti lens — Sallia Goldstein (2022)
+- Video: https://www.youtube.com/watch?v=-X32ScGcVyA
+- Interaction: Hands & Body, Perception & Effects, Performance
+- Platform & tech: Phone, Lens Studio, Body Mesh
+- Idea: Confetti bursts out of your limbs as you dance.
+- What it is: A Snapchat lens tracks the full body so bursts of confetti shoot out from the right limbs as you move and dance.
+- Technique: Lens Studio body-mesh tracking provides limb positions and velocities that trigger particle emitters attached to the body.
+- Try it: Use Lens Studio body tracking (or MediaPipe Pose) to make confetti spray from your hand when you wave. Twist: the faster you move, the warmer the confetti colors.
+
+#### Character Mashup (Lensathon 2022) — Sallia Goldstein (2022)
+- Video: https://www.youtube.com/watch?v=xwteu9chtsY
+- Interaction: Hands & Body, Shared & Social, Drawing & Making
+- Platform & tech: Phone, Lens Studio, Connected Lenses, body tracking
+- Idea: Assemble your own monster avatar, drive it with your body, then play with friends on the same screen.
+- What it is: Users custom-build a mashup avatar, bring it to life with body tracking, and share it with friends through connected lenses.
+- Technique: Selected body parts are assembled onto a rig driven by full-body tracking, and connected lenses sync avatars between users.
+- Try it: Have students draw a head, a body and legs on paper, combine them into a character and drive it with MediaPipe Pose. Twist: swap one part with your deskmate.
+
+### The Heavy Projects (B.C. Biermann)
+
+*AR public art studio; Re+Public*
+
+B.C. 'Heavy' Biermann's studio behind Re+Public, which animated large street murals and billboards with AR from the early 2010s.
+
+#### Re+Public AR mural — The Heavy Projects (B.C. Biermann) (2014)
+- Video: https://www.youtube.com/watch?v=S20tCj5veFw
+- Interaction: Location & City, Tangible Objects
+- Platform & tech: Phone, image tracking
+- Idea: Point at a street mural and the figures in it start to move.
+- What it is: Re+Public's AR app animates large street murals: pointing a phone at the wall makes the painted characters and shapes come alive.
+- Technique: Image tracking recognises each mural as a target and overlays animated layers registered to the painting in the phone's camera view.
+- Try it: Pick a mural on campus or paint your own poster, and use 8th Wall or MindAR image tracking to animate elements in it. Twist: the animation only appears at certain times, for example it only "wakes up" at dusk.
+
+### Velvet Spectrum (Luke & Morgan Choice)
+
+*3D design and animation studio*
+
+Studio of Australian visual artist Luke Choice and Morgan Choice, known for colorful 3D typography, who extended their work into Snapchat lenses and Adobe Aero AR pieces.
+
+#### Lenses for Emotional Oranges 'All That' — Velvet Spectrum (Luke & Morgan Choice) (2020)
+- Video: https://www.youtube.com/watch?v=iybLfuSFsL4
+- Interaction: Face, Perception & Effects, Performance
+- Platform & tech: Phone, Lens Studio
+- Idea: Turn the studio's signature 3D visual language into AR filters for a music video.
+- What it is: Colorful 3D lenses in Velvet Spectrum's signature style transform the performers and scenes of the Emotional Oranges music video.
+- Technique: Face and world lenses with stylized 3D assets are layered over the performers and shot directly through the camera for the video.
+- Try it: Make an AR filter music video for a song, with three filters for different shots that share one palette and set of materials. Twist: the filters switch automatically on the chorus.
+
+#### AR birding guide (Adobe Aero) — Velvet Spectrum (Luke & Morgan Choice) (2021)
+- Video: https://www.youtube.com/watch?v=aeqw-hVz2W8
+- Interaction: Tangible Objects, Information & UI, Perception & Effects
+- Platform & tech: Phone, Adobe Aero
+- Idea: Scan a postcard and its bird flies out, becoming an interactive birding guide.
+- What it is: A postcard series for bird-lovers becomes an interactive AR birding guide: illustrated birds fly off the cards and can be explored in 3D.
+- Technique: Adobe Aero image anchors recognize each postcard and trigger animated 3D birds with tap behaviors.
+- Try it: Use Adobe Aero to turn postcards drawn by students into an AR field guide where scanning a card brings up a 3D animal and science facts. Twist: when two cards are placed together, their animals interact.
+
+### Vitukhin Serhii
+
+*Unity/AR developer; early HoloKit community developer*
+
+Built some of the first HoloKit + ARKit stereo demos in 2017, including a co-located multiplayer drone shooter shown at SIGGRAPH 2017.
+
+#### HoloKit 4DViews Rocker Hologram — Vitukhin Serhii (2017)
+- Video: https://www.youtube.com/watch?v=fGr2l-YpB5s
+- Interaction: Performance, Perception & Effects
+- Platform & tech: Headset, Phone, HoloKit, ARKit, 4DViews volumetric video
+- Idea: A volumetric video of a real rock singer performs in your room.
+- What it is: A volumetric-captured rock guitarist performs life-size in the room through a HoloKit stereo headset, viewable from any angle.
+- Technique: Plays back a sequence of textured meshes from volumetric capture anchored on the floor and rendered stereoscopically.
+- Try it: Film a classmate's short performance on a phone, key it into a transparent-background video, and place it in an AR scene as a "hologram show." Twist: combine several classmates' performances into an AR band.
+
+#### HoloKit Drone Attack — Vitukhin Serhii, Botao 'Amber' Hu (2017)
+- Video: https://www.youtube.com/watch?v=fht47xfyUco
+- Interaction: Shared & Social, Play
+- Platform & tech: Headset, Phone, HoloKit, ARKit, Unity UNet
+- Idea: Two people wearing cardboard AR headsets team up to shoot drones in the same room.
+- What it is: Two players wearing HoloKit cardboard headsets share one living room and shoot down virtual drones together in stereo AR, shown at SIGGRAPH 2017.
+- Technique: Both phones start from the same physical position and orientation to share a coordinate frame, then sync game state with UNet.
+- Try it: Have two classmates start AR on their own phones (optionally inside HoloKit or a cardboard viewer) from the same starting point and shoot the same set of virtual targets together. Twist: one person can only see the targets, and the other can only shoot.
+
+### realities.io
+
+*Small XR studio (Puzzling Places)*
+
+Small studio that builds 3D jigsaw puzzles from photogrammetry scans of real places, with mixed-reality, hand-tracking and Vision Pro versions.
+
+#### Puzzling Places on Apple Vision Pro — realities.io (2024)
+- Video: https://www.youtube.com/watch?v=86c1ckjA5Pw
+- Interaction: Gaze & Attention, Hands & Body, Play
+- Platform & tech: Headset, Apple Vision Pro, visionOS
+- Idea: On Vision Pro, use gaze and pinch to assemble 3D puzzles of real places in your room.
+- What it is: The 3D jigsaw game redesigned for Vision Pro, with scanned places assembled in your room using eye-and-pinch input.
+- Technique: Photogrammetry models are pre-split into pieces, and eye-gaze targeting plus a pinch gesture selects and moves pieces, with snap detection when a piece is near its correct pose.
+- Try it: Scan a real object, cut it into a few pieces, and drag them back together in AR, snapping each piece into place when it gets close to the right position. Twist: once assembled, the object comes alive and tells its own story.
+
+#### Puzzling Places: Local Mixed Reality Multiplayer — realities.io (2024)
+- Video: https://www.youtube.com/watch?v=7WE24U6QNpA
+- Interaction: Shared & Social, Hands & Body, Play
+- Platform & tech: Headset, Meta Quest 3, photogrammetry, shared spatial anchors
+- Idea: Two people assemble a miniature 3D puzzle of a real landmark together on the same real table.
+- What it is: Two people in the same room assemble a photogrammetry-scanned miniature landmark together over a real table in passthrough, passing pieces by hand.
+- Technique: Shared spatial anchors give both headsets the same table frame, and piece ownership is transferred over the network when one player grabs a piece from the other.
+- Try it: Align coordinates on two phones with a shared image marker and work together to put a 3D model split into four pieces back together. Twist: each person can see only half of the pieces.
+
+### Bot & Dolly
+
+*Robotics and film studio (acquired by Google, 2013)*
+
+Studio that repurposed industrial robot arms for film motion control. With director Bradley 'GMUNK' Munkowitz they made Box, a live performance of projection mapping onto robot-moved surfaces shot in-camera.
+
+#### Box — Bot & Dolly (2013)
+- Video: https://www.youtube.com/watch?v=lX6JcybgDFo
+- Interaction: Projection, Perception & Effects, Performance
+- Platform & tech: Projection, industrial robots, projection mapping, motion control
+- Idea: Robot arms move the canvases and the camera, a live magic trick where projection and motion stay perfectly in sync.
+- What it is: Two industrial robots move large panels while projection-mapped imagery on them stays locked to a robot-moved camera, creating illusions shot entirely in-camera.
+- Technique: Motion-control industrial robots move both the screens and the camera on programmed paths, and projection is rendered from the known poses so the anamorphic imagery stays correct from the camera's viewpoint.
+- Try it: Using a hand-moved cardboard screen and a fixed phone camera, adjust the projection in real time in TouchDesigner based on ArUco markers on the cardboard so the image always "sticks" to it. Twist: design an illusion that only works from the camera's viewpoint, while the live audience sees gibberish.
+
+### Chris Milk
+
+*Director and immersive artist; co-founder of Within*
+
+Music-video director who moved into interactive and immersive work; The Treachery of Sanctuary turned visitors' shadows into flocks of birds before he co-founded the VR company Within.
+
+#### The Treachery of Sanctuary — Chris Milk (2012)
+- Video: https://www.youtube.com/watch?v=I5__9hq-yas
+- Interaction: Hands & Body, Projection, Perception & Effects
+- Platform & tech: Projection, Kinect, openFrameworks, projection
+- Idea: Across three screens your shadow falls apart, is devoured, then grows wings and flies.
+- What it is: A triptych of white screens: in the first a visitor's shadow disintegrates into flying birds, in the second birds peck the shadow apart, in the third the shadow grows giant wings and takes flight.
+- Technique: Kinect depth cameras capture each visitor's silhouette and skeleton, and openFrameworks/Unity-style real-time graphics replace parts of the shadow with animated birds and wings projected on the screens.
+- Try it: Get the arm skeleton from MediaPipe Pose and grow a pair of wings on the silhouette that flap with the arms. Twist: design your own "three acts", giving the shadow a different fate in each.
+
+### Christian Marclay
+
+*Visual artist and composer*
+
+Swiss-American artist known for sound and collage works such as The Clock, who created an audio AR lens for the Centre Pompidou with Snap.
+
+#### Playing Pompidou — Christian Marclay (2022)
+- Video: https://www.youtube.com/watch?v=jDTCoxuWRHk
+- Interaction: Voice & Sound, Location & City, Tangible Objects
+- Platform & tech: Phone, Lens Studio, Custom Landmarker
+- Idea: Turn the entire Centre Pompidou into an instrument you can play.
+- What it is: An audio AR lens turns the Centre Pompidou into a musical instrument: visitors 'play' the building's surfaces and compose music from sounds recorded inside the museum.
+- Technique: The lens localizes against the building and maps sound samples to architectural elements, so pointing and tapping at parts of the facade triggers and sequences them.
+- Try it: Record sounds around the teaching building (doors, stairs, water pipes), pin them to their locations in AR, and make each spot sound when tapped. Twist: record your tapping order as a melody.
+
+### Cyborn
+
+*Belgian VR/MR game studio*
+
+Creators of Hubris and the Quest 3 mixed-reality town builder Wall Town Wonders.
+
+#### Wall Town Wonders — Cyborn, Creature (2024)
+- Video: https://www.youtube.com/watch?v=5icyAyKb9Zg
+- Interaction: Spatial Mapping, Play, Hands & Body
+- Platform & tech: Headset, Meta Quest 3, Scene API, hand tracking
+- Idea: Build a living little town on the walls of your home.
+- What it is: A Quest 3 mixed-reality town builder: tiny houses, streets and townsfolk grow out of your real walls, and you tend to their wishes by hand.
+- Technique: Uses scene-understanding wall planes as the build grid so buildings attach to vertical surfaces and characters walk along them.
+- Try it: Use vertical plane detection in phone AR to place little houses and people on a classroom wall and have the people 'walk' along it. Twist: make real windows or posters on the wall become landmarks in the town.
+
+### Isaac Cohen (Cabbibo)
+
+*Artist & creative coder; VR/AR experience designer*
+
+Artist-coder known as Cabbibo who makes joyful, tactile interactive worlds in WebGL, VR and AR, such as Blarp! and ARQUA!.
+
+#### ARQUA! — Isaac Cohen (Cabbibo) (2017)
+- Video: https://www.youtube.com/watch?v=Xp-Bcs5fLlc
+- Interaction: Drawing & Making, Hands & Body, Perception & Effects
+- Platform & tech: Phone, ARKit, Unity
+- Idea: Use your body as the controller to build a rainbow fantasy aquarium in your room.
+- What it is: An ARKit launch app for building a rainbow fantasy aquarium in your room—placing kelp, fish schools and crystal rods by moving your body as the controller (with Viacom NEXT).
+- Technique: Objects are spawned at or along the phone's camera pose as the user moves, so body movement becomes the placement controller, with flocking behaviors for fish schools.
+- Try it: Hold the screen and walk around the room to drop kelp and fish schools along your path, and make the fish swim with a simple Boids algorithm. Twist: the school scatters when the phone gets close.
+
+### Jakob Kudsk Steensen
+
+*Artist working with ecology and game engines*
+
+Danish artist who builds ecological worlds from field recordings, scans and game engines; his Serpentine commission The Deep Listener brought them into Kensington Gardens as location-based AR.
+
+#### The Deep Listener — Jakob Kudsk Steensen (2019)
+- Video: https://www.youtube.com/watch?v=xAlbHU6GgnQ
+- Interaction: Location & City, Voice & Sound, Information & UI
+- Platform & tech: Phone, location-based AR, photogrammetry, spatial audio, Unity
+- Idea: Use AR in a park to 'hear' the lives of five urban species.
+- What it is: A location-based AR and sound walk through Kensington Gardens and Hyde Park in which five of London's species — plane trees, bats, parakeets, damselflies and reedbeds — appear as scanned, sonified creatures at their habitats.
+- Technique: GPS-triggered AR places photogrammetry-scanned, game-engine-rendered species at specific park locations, paired with spatialised field recordings.
+- Try it: Pick three plants or animals on campus, record the sounds around them, and use AR to place enlarged models on the spot. Twist: the sound appears only after you stand still and quiet for 10 seconds.
+
+### Johanna Jaskowska
+
+*AR designer; creator of Beauty3000*
+
+Polish designer whose Instagram effect Beauty3000 (2018), a glossy chrome face mask, went viral and helped launch the AR filter-artist scene.
+
+#### Beauty3000 — Johanna Jaskowska (2018)
+- Video: https://www.youtube.com/watch?v=d789vqCo_-A
+- Interaction: Face, Perception & Effects
+- Platform & tech: Phone, Spark AR, Instagram
+- Idea: Turn your face into shiny, plastic-like future skin and ask what beauty means.
+- What it is: An Instagram face effect that coats the face in a shiny, iridescent plastic-like skin that catches light as you move; it went viral in 2018 and helped start the AR filter-artist movement.
+- Technique: The face mesh is re-textured with a glossy material that uses an iridescent or matcap environment reflection, so highlights shift as the head moves.
+- Try it: Give the face mesh a rainbow matcap material in Effect House or Lens Studio and watch the highlights shift as you turn your head. Twist: swap the material for the texture of a real object around you.
+
+### Kunabi Brother
+
+*Indie studio; Euclidean Lands*
+
+Small Viennese studio (Miro Straka) behind the rotating-cube puzzle game Euclidean Lands and one of the first ARKit ports.
+
+#### Euclidean Lands AR — Kunabi Brother (2017)
+- Video: https://www.youtube.com/watch?v=f6vA1s97_-0
+- Interaction: Play, Spatial Mapping
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A puzzle world that rotates like a Rubik's cube sits on your table, and you walk around it to think.
+- What it is: A turn-based puzzle game on a rotating cube world, adapted for ARKit so the Rubik's-cube-like diorama sits on the player's table and can be walked around.
+- Technique: A rotating cube-world puzzle is placed on a detected table, and its grid-based rotation logic is unchanged while the camera view comes from the player walking around it.
+- Try it: Build a small AR cube world that can rotate as a whole, so that after each rotation the character can walk onto a new path. Twist: the only way to rotate it is by walking around the table.
+
+### Marc Wakefield
+
+*AR effects artist; co-founder of Augmented Reality Design Studio*
+
+Illustrator turned AR artist whose Spark AR world effects and character filters have been used by millions, including work for U2; he runs Augmented Reality Design Studio with Susie Wakefield.
+
+#### Spark AR world effects — Marc Wakefield (2019)
+- Video: https://www.youtube.com/watch?v=KpEGpggfPXw
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Spark AR, Instagram
+- Idea: Turn hand-drawn characters and fantasy worlds into Instagram AR effects you can drop into reality.
+- What it is: Marc Wakefield turns his drawn and painted characters and worlds into Instagram world effects that place them into the user's surroundings, including effects for U2.
+- Technique: Hand-drawn 2D artwork is placed as billboards or layered planes in world space via plane tracking, preserving the illustration style in 3D.
+- Try it: Split your own hand-drawn character into front, middle and back layers and place them in AR as a paper theater with parallax. Twist: as you walk around it, the character always turns to face you.
+
+### Marina Abramović
+
+*Performance artist*
+
+The 'grandmother of performance art', who worked with Acute Art (Rising, VR) and Tin Drum (The Life, mixed reality) to extend presence into virtual bodies.
+
+#### The Life — Marina Abramović (2019)
+- Video: https://www.youtube.com/watch?v=VeajXYdTEiE
+- Interaction: Performance, Spatial Mapping
+- Platform & tech: Headset, volumetric capture, Magic Leap
+- Idea: Through an MR headset, the artist's holographic double performs in front of you.
+- What it is: The first mixed-reality performance artwork: a 19-minute volumetric capture of Abramović appears in the room through an MR headset, walking within a marked circle.
+- Technique: Volumetric capture of the performer (multi-camera studio) is played back as a 3D video mesh in a Magic Leap headset, anchored inside a physical circle so viewers walk around her.
+- Try it: Capture a classmate's one-minute silent performance with a phone LiDAR scan or multi-angle video, and place it in AR inside a circle drawn on the floor for people to walk around. Twist: when a viewer steps into the circle, the performer stops and 'looks' at them.
+
+### Mighty Coconut
+
+*Game studio; 57° North (Merge Cube), Walkabout Mini Golf*
+
+Indie studio that made 57° North, a choose-your-own-adventure story played on the handheld Merge Cube, before its VR hit Walkabout Mini Golf.
+
+#### 57° North — Mighty Coconut, Merge Labs (Merge Cube) (2017)
+- Video: https://www.youtube.com/watch?v=EvedPF7S3BU
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, Merge Cube, Unity
+- Idea: A branching story packed into a tiny cube theater that sits in your palm.
+- What it is: A choose-your-own-adventure story played on the Merge Cube: each chapter appears as a small diorama in the palm that the player turns and chooses within.
+- Technique: The Merge Cube's patterned faces are tracked as a multi-face image target, so a diorama follows the cube's rotation and choices are made by turning it.
+- Try it: Make your own Merge Cube by putting image markers on all six faces of a paper box, show a small story scene on it, and let each face you turn to trigger a different choice. Twist: shaking the box makes it rain in the scene.
+
+### Nicole He
+
+*Programmer and artist; former Google Creative Lab creative technologist*
+
+Programmer and artist making playful work with voice interfaces, games and AI; SFPC and ITP community member.
+
+#### Garden Friends — Nicole He (2018)
+- Video: https://www.youtube.com/watch?v=d90F-61T6KQ
+- Interaction: Voice & Sound, Spatial Mapping, Play
+- Platform & tech: Phone, ARCore, Dialogflow, Unity
+- Idea: Say nice things to little AR plants and they grow into unique flowers shaped by your conversation.
+- What it is: An AR + voice experiment with animator Eran Hilleli: you grow personalized trees and flowers on real surfaces by chatting with a quirky character, speech driving the scene.
+- Technique: ARCore plane detection places plants on real surfaces, while speech recognition and an intent-matching dialog system (Dialogflow) map what you say to parameters that grow and style the plants.
+- Try it: Place a small character with AR Foundation plane detection and use speech recognition plus keywords or an LLM to interpret what you say and decide which plants grow. Twist: the character responds only to praise, and scolding makes the garden wither, so you feel what politeness toward machines means.
+
+### Owlchemy Labs
+
+*VR/MR studio (Job Simulator), owned by Google*
+
+Makers of Job Simulator and Vacation Simulator, now leading hand-tracking design research and mixed-reality play on Android XR.
+
+#### Inside[JOB] — Owlchemy Labs (2025)
+- Video: https://www.youtube.com/watch?v=ioCCn_qrbuo
+- Interaction: Hands & Body, Play, Spatial Mapping
+- Platform & tech: Headset, Android XR, hand tracking, passthrough
+- Idea: The JobBot robot bursts into your real room and has you finish silly little jobs with your bare hands.
+- What it is: JobBot leaps into your real room on Android XR; you fix quirky system settings, 'phish' for data and stream updates in playful hand-tracked mini-jobs across MR and VR.
+- Technique: Uses high-fidelity hand tracking with physics-based grabbing so every virtual prop can be poked, pulled and thrown in passthrough space.
+- Try it: Use phone AR gesture recognition to make three 'absurd little jobs' (pinching a virtual plug and plugging it in next to a real socket, slapping a glitching screen, and so on). Twist: each task can be done with one hand only.
+
+### Phil Walton
+
+*Official Snap Lens Creator and author*
+
+Lens creator behind the viral 'Potato Boss' lens and author of The Designer's Guide to Snapchat's Lens Studio.
+
+#### Potato Boss lens — Phil Walton (2020)
+- Video: https://www.youtube.com/watch?v=PR5n2ogiu28
+- Interaction: Face, Voice & Sound
+- Platform & tech: Phone, Desktop, Lens Studio, Snap Camera
+- Idea: Turn your face into a talking potato.
+- What it is: A Snapchat/Snap Camera lens replaces you with a talking potato whose mouth and eyes are cut from your own face; it went viral when a manager got stuck with it in a video meeting.
+- Technique: Face tracking crops the user's eyes and mouth textures and composites them onto a 3D potato model that follows head pose.
+- Try it: Use Lens Studio to paste your eyes and mouth onto a fruit or a piece of stationery to make a talking object. Twist: the object changes color when you say a keyword.
+
+### Raymond Salvatore Harmon
+
+*Artist, filmmaker and muralist*
+
+American artist working across graffiti, experimental film and painting; MIRAGE combined an architecture-scale painted wall with a mobile AR layer.
+
+#### MIRAGE — Raymond Salvatore Harmon, The Heavy Projects (B.C. Biermann) (2014)
+- Video: https://www.youtube.com/watch?v=rhtFEY1Bk54
+- Interaction: Location & City, Drawing & Making, Perception & Effects
+- Platform & tech: Phone, image-recognition AR, mural
+- Idea: A giant mural only comes alive when you look through your phone.
+- What it is: An architecture-scale painted mural in LA's Fashion District that becomes an interactive animated artwork when viewed through a companion AR app.
+- Technique: Image-recognition AR (developed with The Heavy Projects) tracks the painted façade and overlays animated layers aligned to the mural.
+- Try it: Paint a mural on a large sheet of white paper and use image-recognition AR to animate several of its elements. Twist: show different AR layers on the same mural by day and by night.
+
+### Ryan McLeod
+
+*Indie designer-developer of Blackbox (Apple Design Award winner)*
+
+Solo designer of Blackbox, a puzzle game with no buttons that uses the device's own sensors, twice an Apple Design Award winner, later rebuilt for Apple Vision Pro.
+
+#### Blackbox for Vision — Ryan McLeod (2024)
+- Video: https://www.youtube.com/watch?v=5LShA47LhIc
+- Interaction: Gaze & Attention, Hands & Body, Play
+- Platform & tech: Headset, Apple Vision Pro, visionOS, RealityKit
+- Idea: Puzzles with no buttons: solve the riddles floating in your room with your gaze, gestures, voice and body movement.
+- What it is: Blackbox rebuilt for Apple Vision Pro: bubble-like puzzles float in your room and are solved by looking, reaching, speaking and moving through space instead of pressing buttons.
+- Technique: Puzzles hide their input rules in non-obvious channels such as gaze dwell, reach distance, voice and body movement, detected with visionOS gaze, hand tracking and audio input.
+- Try it: Design an AR puzzle with no buttons that players must solve in unusual ways such as walking closer, speaking or staying still. Twist: the hints can only be heard, never seen.
+
+### SCE Japan Studio (The Eye of Judgment)
+
+*Sony first-party studio*
+
+Sony's Japan Studio co-created The Eye of Judgment (2007) with Wizards of the Coast, a PS3 card battle game read by the PlayStation Eye camera.
+
+#### The Eye of Judgment — SCE Japan Studio (The Eye of Judgment) (2007)
+- Video: https://www.youtube.com/watch?v=rO9PN638q_k
+- Interaction: Tangible Objects, Play, Shared & Social
+- Platform & tech: Desktop, PlayStation 3, PlayStation Eye, CyberCode markers
+- Idea: Level up physical card battles: the monsters on the cards appear in 3D and fight on the table shown on TV.
+- What it is: Physical trading cards laid on a 3x3 mat are read by the PlayStation Eye, and the creatures on them rise up as animated 3D monsters that fight on the TV image of the table.
+- Technique: CyberCode markers on each card are decoded by an overhead camera to identify the card and its grid cell, and animated creatures are rendered on the video of the mat.
+- Try it: Make four cards with different image markers that summon matching characters when placed on a 2x2 grid, and decide the winner from which cards sit next to each other. Twist: a card's rotation decides which way its character faces.
+
+### Sigur Rós
+
+*Icelandic post-rock band; co-creators of the Magic Leap soundscape Tónandi*
+
+Icelandic band that spent five years with Magic Leap Studios building Tónandi, an interactive audio-visual soundscape.
+
+#### Tónandi — Sigur Rós (2018)
+- Video: https://www.youtube.com/watch?v=5_A-qdfx1iw
+- Interaction: Voice & Sound, Hands & Body, Perception & Effects
+- Platform & tech: Headset, Magic Leap One, hand tracking
+- Idea: Reach out and touch glowing creatures in your room to play and shape the music.
+- What it is: An interactive Magic Leap soundscape in which glowing sound creatures spread across your real room; touching, gathering and waving at them with your hands layers and shapes Sigur Rós's music.
+- Technique: Room-anchored creature agents each carry a music stem or sample, and hand-tracking contact or proximity triggers, layers and modulates those audio sources.
+- Try it: Scatter five glowing AR creatures around a room, each tied to a music stem that fades in as you approach. Twist: when they are gathered together, the stems combine into a complete piece.
+
+### Stuart Langfield
+
+*Director and designer*
+
+Film and motion director whose 2017 Super Mario AR test rethought a side-scroller as a ring-shaped level wrapped around the player.
+
+#### Super Mario AR — Stuart Langfield (2017)
+- Video: https://vimeo.com/246824152
+- Interaction: Play, Hands & Body
+- Platform & tech: Phone, ARKit, Unity
+- Idea: A side-scrolling Mario level wraps around you; you turn to follow him and reach out to grab power-ups for him.
+- What it is: A Super Mario World level is bent into a ring around the player; you turn in place to follow Mario and reach out to grab power-ups floating in real space and drop them onto him.
+- Technique: The level geometry is wrapped onto a cylinder centered on the ARKit world origin so rotating the phone scrolls the game, and a raycast pick lets you move items.
+- Try it: Wrap the level of a small 2D game into a ring around the player (in Unity or Reality Composer) so the player advances by turning in place. Twist: players must crouch to see a hidden level.
+
+### Studio DRIFT
+
+*Artist duo Lonneke Gordijn and Ralph Nauta*
+
+Dutch studio known for kinetic and drone light works; made one of the first gallery mixed-reality artworks for HoloLens.
+
+#### Concrete Storm — Studio DRIFT (2017)
+- Video: https://www.youtube.com/watch?v=Qurs9QSz_KA
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Headset, HoloLens
+- Idea: A forest of virtual concrete pillars in HoloLens that shifts with your steps.
+- What it is: Commissioned by Microsoft and Artsy, a mixed-reality artwork on HoloLens where virtual concrete pillars appear in a real room and shift as the viewer walks between them.
+- Technique: HoloLens spatial mapping and head tracking place world-locked virtual pillars in the room, which animate and shift as the viewer's position changes.
+- Try it: Use HoloKit or phone AR to place a forest of virtual pillars in a room that sink or rise based on the viewer's distance. Twist: let the pillars' material slowly change from concrete to another material, hinting at another possible city.
+
+### Sutu (Stuart Campbell)
+
+*Artist, comic creator and XR director*
+
+Australian comic artist and XR director whose Modern Polaxis was one of the first AR comic books, later known for Tilt Brush work and XR art at festivals and museums.
+
+#### Modern Polaxis — Sutu (Stuart Campbell) (2014)
+- Video: https://www.youtube.com/watch?v=5jhDF0CJToA
+- Interaction: Tangible Objects, Perception & Effects
+- Platform & tech: Phone, Unity, Vuforia
+- Idea: Scan a printed comic with your phone and every page comes to life.
+- What it is: A printed comic about a paranoid time-traveller; pointing a phone at each page brings panels to life with animation, sound and 3D depth.
+- Technique: Vuforia image targets recognise each printed comic page, and Unity renders animated layers, 3D depth and sound anchored to the page.
+- Try it: Draw and print a four-panel comic, then use MindAR or AR Foundation image tracking to animate one panel and add sound. Twist: have the AR layer tell a "truth" that contradicts the page.
+
+### Tender Claws (Samantha Gorman & Danny Cannizzaro)
+
+*Immersive game and art studio*
+
+Studio led by Samantha Gorman and Danny Cannizzaro that makes experimental VR and AR works such as Virtual Virtual Reality, The Under Presents and the AR pet TendAR.
+
+#### TendAR — Tender Claws (Samantha Gorman & Danny Cannizzaro) (2018)
+- Video: https://www.youtube.com/watch?v=v4YMQRwsNr8
+- Interaction: Face, Play, Tangible Objects
+- Platform & tech: Phone, ARCore, face emotion detection, object recognition
+- Idea: A small AR fish that feeds on your expressions and emotions.
+- What it is: An ARCore pet game where a talking guppy fish lives in the camera view and feeds on the player's emotions, read from their facial expressions, and asks them to show objects around them.
+- Technique: Front-camera facial expression classification feeds the pet's emotional state, while rear-camera object recognition checks whether the player shows the requested item.
+- Try it: Use expression recognition (MediaPipe or ARKit blend shapes) to tell whether you are smiling, and have an AR fish feed on your emotions. Twist: the fish asks you to photograph a specific object and checks it with object recognition.
+
+### The LEGO Group (Hidden Side)
+
+*Toy company; LEGO Hidden Side AR sets*
+
+LEGO's Hidden Side line (2019) combined physical building sets with a phone app that revealed ghosts haunting the model.
+
+#### LEGO Hidden Side — The LEGO Group (Hidden Side) (2019)
+- Video: https://www.youtube.com/watch?v=OnHa4Cd03B0
+- Interaction: Tangible Objects, Play
+- Platform & tech: Phone, iOS, Android, object tracking
+- Idea: Build a physical LEGO set, then use a phone to see the ghosts hiding inside it.
+- What it is: Physical LEGO sets such as a haunted school or graveyard are scanned by a phone app that reveals ghosts inside the model; players hunt them by moving around the build.
+- Technique: The app recognizes the physical LEGO set (model or image-based tracking), and ghosts are rendered inside it with occlusion from a known digital model of the set.
+- Try it: Use a real cardboard box model and a simplified 3D stand-in for occlusion so an AR ghost hides behind a window in the box. Twist: opening a door on the real box lets a ghost out.

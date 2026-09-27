@@ -1,0 +1,1082 @@
+{
+  "ian-curtis": {
+    "role_zh": "产品设计师、创意技术专家（XRarchitect）；World Labs 设计师",
+    "bio_zh": "由建筑师转型的 XR 设计师，网名 @XRarchitect；曾先后在 8th Wall、Niantic 和 Niantic Spatial 从事 AR 工作，现于 World Labs 设计世界模型工具。",
+    "why_zh": "他是 X 上最持续产出的 AR 原型创作者之一，每当 AR 出现新能力，他都会把它做成一段简短、易于传播的设计实验。",
+    "based_zh": "美国"
+  },
+  "abhishek-singh": {
+    "role_zh": "独立 AR 开发者、发明者（Peeqo、Super Mario AR）；Rara 创始人",
+    "bio_zh": "常驻纽约的开发者，曾任 NYU ITP 驻留研究员。他把流行文化中的游戏和电影重现为真人尺寸的 AR 体验，也制作 GIF 机器人 Peeqo 这类趣味装置。",
+    "why_zh": "他在中央公园重现的真人尺寸《超级马里奥兄弟》和街头尺度的《街头霸王》，成为消费级 AR 体验的标志性病毒式画面。",
+    "based_zh": "纽约，美国"
+  },
+  "laan-labs": {
+    "role_zh": "独立计算机视觉与 AR 工作室（AirMeasure、3d Scanner App）",
+    "bio_zh": "由 Chris Laan 和 Jason Laan 经营的小型独立实验室，推出了 AirMeasure、3d Scanner App 和 AirDraw 等计算机视觉与 AR 应用。",
+    "why_zh": "从 ARKit 发布第一天起，他们就接连发布富有创意的原型——3D 绘画、悬浮手机、神经网络笔刷纹理、AR 中的高斯泼溅——为整个 AR 创作圈定下了基调。",
+    "based_zh": "美国"
+  },
+  "matthew-hallberg": {
+    "role_zh": "AR 开发者、YouTuber；Snap Spectacles 开发者",
+    "bio_zh": "Unity AR 开发者，他的 YouTube 频道既有教程也有野心勃勃的作品，从 ARKit 版 Minecraft、Portal，到钢铁侠头盔界面和 Snap Spectacles 游戏。",
+    "why_zh": "在 ARKit 问世的最初几周，他就做出了一批标志性的开源演示（AR Minecraft、Pokémon Go 式 GPS AR、Portal），影响了一代开发者的学习路径。",
+    "based_zh": "美国"
+  },
+  "jerome-etienne": {
+    "role_zh": "AR.js 作者；WebGL/three.js 开发者（learningthreejs）",
+    "bio_zh": "法国 Web 开发者，创办了 learningthreejs，并开发了开源库 AR.js——它在 2017 年让任何手机浏览器都能以 60fps 运行基于标记的 AR。",
+    "why_zh": "AR.js 让 AR 可以在普通网页和廉价手机上运行；他那些趣味十足的演示——传送门、折射、隐身斗篷——证明了网页也能创造魔法。",
+    "based_zh": "法国"
+  },
+  "takashi-yoshinaga": {
+    "role_zh": "AR/VR 研究者、快速原型开发者（ISIT 福冈）；Microsoft 混合现实 MVP",
+    "bio_zh": "福冈 ISIT 研究员，博士研究方向为基于 AR 的远程医疗。自 2009 年以来已发布数百个 AR 原型，运营 AR Fukuoka 社区，并开发了 HoloTuberKit。",
+    "why_zh": "他是一位极其高产的原型创作者，在各类 AR 设备上不断发明流式传输、复制和共享真实空间的新方法——通过 YouTube 实现点云远程呈现、空间复制粘贴、LiDAR 房间共享。",
+    "based_zh": "福冈，日本"
+  },
+  "kitasenju-design": {
+    "role_zh": "程序员、数字艺术家；实时 CG 工作室",
+    "bio_zh": "程序员兼艺术家 Takayuki Watanabe的个人工作室，探索实时视觉表达，并推出了 MEISAI、SUPER SLIT SCAN 等 AR 特效应用。",
+    "why_zh": "他的 ARKit 实验——LiDAR 体素化、人像分割故障效果与像素效果——把 AR 视为一种新的视觉媒介，而不仅是实用工具。",
+    "based_zh": "东京，日本"
+  },
+  "lucas-rizzotto": {
+    "role_zh": "XR 创作者、发明者、YouTuber（Lucas Builds the Future）；Where Thoughts Go 创始人",
+    "bio_zh": "出生于巴西的沉浸式设计师和发明者，运营“Lucas Builds the Future”频道并创办了洛杉矶的 AR House，以荒诞却富有洞见的 AR、VR 与 AI 作品闻名。",
+    "why_zh": "他把 AR 原型讲成故事——一张真正可用的活点地图、一扇通往挚友的传送门、会播放音乐的衣服——以病毒式传播的叙事让未来显得切身可感。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "andrew-hart": {
+    "role_zh": "iOS 开发者；ARKit+CoreLocation 作者；Dent Reality / Hyper 创始人",
+    "bio_zh": "iOS 开发者，2017 年开源了 ARKit+CoreLocation，开创了手机 AR 导航；随后创办 Dent Reality（现名 Hyper），专注室内 AR 导览。",
+    "why_zh": "他在 2017 年 7 月发布的推文展示了真实街道上的 AR 逐向导航箭头，定义了 ARKit 时代基于位置的 AR。",
+    "based_zh": "伦敦，英国"
+  },
+  "nathan-gitter": {
+    "role_zh": "设计师、工程师；Apple 人机界面设计师",
+    "bio_zh": "设计师兼工程师，2017–2018 年间分享了一系列有趣的 ARKit 与 TrueDepth 原型，撰写了广为流传的《What I Learned Making 5 ARKit Prototypes》，后加入 Apple 人机界面团队。",
+    "why_zh": "他的图像追踪原型（会动的报纸、穿越时间的涂鸦）是把 AR 作为界面设计来展示的最清晰案例之一，曾被 Apple 在 WWDC18 的 AR 设计讲座中引用。",
+    "based_zh": "美国"
+  },
+  "matt-moss": {
+    "role_zh": "iOS 开发者、创业者（Hawkeye Access、Locket Camera）",
+    "bio_zh": "年轻的 iOS 开发者，2018 年基于 ARKit 2 的眼动追踪原型走红，并发展为 Hawkeye Access；之后创办了桌面小组件照片应用 Locket。",
+    "why_zh": "2018 年 WWDC 那一周，他展示了 ARKit 面部追踪可以把注视和眨眼变成操控整部手机的免手操作界面。",
+    "based_zh": "旧金山，美国"
+  },
+  "brad-dwyer": {
+    "role_zh": "开发者、创业者（Hatchlings、Magic Sudoku；Roboflow 联合创始人）",
+    "bio_zh": "得梅因的开发者，他的工作室 Hatchlings 在 ARKit 和 iPhone X 发布时推出了 Magic Sudoku 和 Nose Zone，之后他联合创办了计算机视觉公司 Roboflow。",
+    "why_zh": "Magic Sudoku 较早证明了 ARKit 结合端侧机器学习，可以读懂现实世界并把答案写回现实之上。",
+    "based_zh": "得梅因，美国"
+  },
+  "morten-just": {
+    "role_zh": "设计师、独立开发者（Rotato、Design Camera）；前 Google 设计师",
+    "bio_zh": "丹麦设计师、独立 Mac/iOS 开发者，习惯公开地为界面构想制作原型；他的 ARKit 实验催生了 Design Camera 和 Rotato 两款应用。",
+    "why_zh": "他以日常物品为对象的 AR 原型——锅上的厨房计时器、包裹在书本上的网页、辅助绘画的模板——都是精准、合乎人体尺度的界面构想。",
+    "based_zh": "哥本哈根，丹麦 / 旧金山，美国"
+  },
+  "mark-dawson": {
+    "role_zh": "软件工程师；《ARKit by Example》作者",
+    "bio_zh": "工程师，2017 年的博客系列《ARKit by Example》及配套演示为许多早期 ARKit 开发者提供了入门指引；之后又在 2020 款 iPad Pro 上进行了 LiDAR 网格重建实验。",
+    "why_zh": "他把梵高的卧室搬进厨房、把房间变成 LiDAR 版“黑客帝国”，这些都是 ARKit 能够重新布置真实空间的早期经典例证。",
+    "based_zh": "美国"
+  },
+  "glen-rhodes": {
+    "role_zh": "游戏开发者、技术专家",
+    "bio_zh": "游戏开发者，2017 年 6 月 iOS 11 测试版发布仅数天后，便发表了最早一批 Unity + ARKit 实验，测试尺度、遮挡和放置效果。",
+    "why_zh": "他在第一周发布的演示——驶过湖面的泰坦尼克号、飞越自家房屋的舰队、真实墙面的遮挡——捕捉到了稳定手机 AR 初现时带来的震撼。",
+    "based_zh": "加拿大"
+  },
+  "isaac-cohen": {
+    "role_zh": "艺术家、创意编程者；VR/AR 体验设计师",
+    "bio_zh": "网名 Cabbibo 的艺术家兼程序员，用 WebGL、VR 和 AR 创作充满欢乐与触感的互动世界，如 Blarp! 和 ARQUA!。",
+    "why_zh": "ARQUA! 以观者的身体作为控制器，让真实房间里游满彩虹般的水族生物，把 ARKit 当作传递愉悦与能动感的媒介。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "keiichi-matsuda": {
+    "role_zh": "设计师、电影人；Liquid City 创始人",
+    "bio_zh": "Keiichi Matsuda（松田圭一）受过建筑学训练，是设计师兼电影人。他的思辨性 AR 短片（Augmented City、HYPER-REALITY、Merger）成为人们想象“被叠加的城市”时的参照图像。他后来曾领导 Leap Motion 的设计工作，并创办了 XR/AI 工作室 Liquid City。",
+    "why_zh": "HYPER-REALITY 可以说是有史以来被引用最多的批判性 AR 设计虚构作品。",
+    "based_zh": "伦敦，英国"
+  },
+  "julian-oliver": {
+    "role_zh": "批判工程师、艺术家",
+    "bio_zh": "出生于新西兰的艺术家，《批判工程宣言》（Critical Engineering Manifesto）的合著者，创作围绕网络、监控和“改良现实”展开。他早期的 AR 作品利用改装的望远镜和标记追踪立方体，追问“视野究竟归谁所有”。",
+    "why_zh": "The Artvertiser（2008）是最早利用 AR 从广告手中夺回公共视觉空间的艺术作品之一。",
+    "based_zh": "柏林，德国"
+  },
+  "nobumichi-asai": {
+    "role_zh": "技术总监、创意总监（WOW / Asai 工作室）",
+    "bio_zh": "日本视觉艺术家，开创了实时面部追踪投影映射，以几乎零延迟的方式在表演者脸上绘制流动的数字妆容。",
+    "why_zh": "OMOTE 和 INORI 早在手机面部滤镜出现之前，就把人脸变成了实时追踪的 AR 画布。",
+    "based_zh": "东京，日本"
+  },
+  "bot-and-dolly": {
+    "role_zh": "机器人与电影工作室（2013 年被 Google 收购）",
+    "bio_zh": "将工业机械臂改造用于电影运动控制的工作室。他们与导演 Bradley “GMUNK” Munkowitz 合作创作了 Box：一场在由机器人移动的表面上进行投影映射、并直接在镜头内拍摄完成的现场表演。",
+    "why_zh": "Box 展示了投影映射与机器人、摄影机同步联动，构成一种全新的“镜头内”混合现实语言。",
+    "based_zh": "旧金山，美国"
+  },
+  "daito-manabe": {
+    "role_zh": "艺术家、程序员、DJ；Rhizomatiks 联合创始人",
+    "bio_zh": "Daito Manabe（真锅大度）与 Rhizomatiks（与 Motoi Ishibashi、编舞家 MIKIKO / ELEVENPLAY 合作）打造融合无人机、投影、动作捕捉和 AR 转播的现场演出，包括 Perfume 的舞台表演和 2016 年里约奥运会闭幕式上的东京交接仪式。",
+    "why_zh": "他们让 AR 成为现场表演的媒介，从混合现实轮椅舞蹈（border）到 AR 体育转播（Fencing Visualized）。",
+    "based_zh": "东京，日本"
+  },
+  "universal-everything": {
+    "role_zh": "由 Matt Pyke 创立的数字艺术与设计工作室",
+    "bio_zh": "Matt Pyke 的工作室为美术馆、品牌和建筑创作数字生命体、人群与行走的形象，并越来越多地以摄像头驱动的“镜子”和 AR 应用呈现，让观众看到被转化后的自己。",
+    "why_zh": "Future You 和 Chameleon 把动作捕捉镜像变成了面向公众、富有诗意的混合现实观者肖像。",
+    "based_zh": "谢菲尔德，英国"
+  },
+  "acute-art": {
+    "role_zh": "AR/VR 艺术制作平台（总监 Daniel Birnbaum）",
+    "bio_zh": "制作工作室兼应用平台，委约顶级艺术家（Olafur Eliasson、KAWS、Marina Abramović、Precious Okoyomon 等）创作可通过手机放置在任何地方的 AR 雕塑。",
+    "why_zh": "Acute Art 以美术馆级别和全球公共空间的规模，将 AR 带入了当代艺术的正典。",
+    "based_zh": "伦敦，英国"
+  },
+  "tamiko-thiel": {
+    "role_zh": "媒体艺术家；Manifest.AR 联合创始人",
+    "bio_zh": "先锋 VR/AR 艺术家（也是 Connection Machine CM-1/CM-2 的设计者），她用地理定位 AR 在特定场所植入政治与生态层面的“假如”，从威尼斯双年展到惠特尼美术馆。",
+    "why_zh": "她是 AR 公共艺术的奠基人物之一，其场域特定的介入实践已跨越 15 年。",
+    "based_zh": "慕尼黑，德国"
+  },
+  "john-craig-freeman": {
+    "role_zh": "艺术家；Emerson College 教授；Manifest.AR 创始成员",
+    "bio_zh": "公共艺术家，用地理定位 AR 在真实地景中建造纪念碑、讲述故事，最为人知的是标记美墨边境沿线移民死亡地点的作品。",
+    "why_zh": "Border Memorial 展示了 AR 如何在事件发生的确切地点，纪念那些不可见的存在。",
+    "based_zh": "波士顿，美国"
+  },
+  "mark-skwarek": {
+    "role_zh": "艺术家；NYU 移动 AR 实验室主任；Manifest.AR 联合创始人",
+    "bio_zh": "AR 行动主义艺术家，发起过多次未经授权的 AR 介入，例如在 2010 年漏油事件期间，《The Leak in Your Hometown》把每一个 BP 标志都变成了喷涌石油的管道。",
+    "why_zh": "他让基于标记的 AR 成为抗议和文化干扰的媒介。",
+    "based_zh": "纽约，美国"
+  },
+  "sander-veenhof": {
+    "role_zh": "AR 艺术家；“We AR in MoMA”联合组织者",
+    "bio_zh": "荷兰艺术家，自 2010 年起在 MoMA、威尼斯双年展等场所发起不请自来的 AR 介入，如今为 AR 眼镜设计充满趣味的社会实验原型。",
+    "why_zh": "他的游击式展览“We AR in MoMA”开启了以 AR 未经许可“占领”艺术机构的先河。",
+    "based_zh": "阿姆斯特丹，荷兰"
+  },
+  "nancy-baker-cahill": {
+    "role_zh": "艺术家；4th Wall AR 应用创始人",
+    "bio_zh": "艺术家，通过她的免费应用 4th Wall 创作宏大的手绘 AR 雕塑和场域公共艺术作品（Desert X、Liberty Bell）。",
+    "why_zh": "她用 AR 创作大尺度、富有政治意味的公共艺术，无需许可证，也无需基座。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "jeremy-bailey": {
+    "role_zh": "艺术家，“著名新媒体艺术家”（Famous New Media Artist）",
+    "bio_zh": "加拿大行为艺术家，自 2000 年代中期起便运用摄像头追踪和 AR，以一本正经的软件演示讽刺艺术界和科技行业。",
+    "why_zh": "早在 ARKit 浪潮之前，他的 AR 表演就让基于摄像头的 AR 成为一种幽默而自觉的艺术形式。",
+    "based_zh": "多伦多，加拿大"
+  },
+  "theo-triantafyllidis": {
+    "role_zh": "以游戏、模拟与混合现实为媒介的艺术家",
+    "bio_zh": "出生于希腊的艺术家，他的实时模拟和混合现实表演（Anti-Gone、All My Confusing Pets）模糊了表演者、虚拟化身与游戏引擎之间的界限。",
+    "why_zh": "他把混合现实当作荒诞、狂野表演的舞台，而非实用工具。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "sutu": {
+    "role_zh": "艺术家、漫画创作者、XR 导演",
+    "bio_zh": "澳大利亚漫画艺术家和 XR 导演，他的 Modern Polaxis 是最早的 AR 漫画书之一；后来以 Tilt Brush 创作以及在各大艺术节和博物馆展出的 XR 艺术闻名。",
+    "why_zh": "2014 年，Modern Polaxis 让印刷漫画通过手机摄像头活了起来。",
+    "based_zh": "墨尔本，澳大利亚"
+  },
+  "james-alliban": {
+    "role_zh": "媒体艺术家、AR 开发者",
+    "bio_zh": "最早让网络摄像头 AR 在网上广泛传播的艺术家之一（2009 年的 AR 名片），后来创作 Kinect 装置，并与 Keiichi Matsuda 合作完成了 CELL。",
+    "why_zh": "他在 Flash 时代的 AR 实验，早在智能手机普及之前就让数百万人体验到了基于标记的 AR。",
+    "based_zh": "伦敦，英国"
+  },
+  "nexus-studios": {
+    "role_zh": "电影、动画与互动工作室",
+    "bio_zh": "曾获奥斯卡提名的动画工作室，其互动部门为 Google、BBC 和《纽约客》制作了多款知名的叙事型 AR 应用。",
+    "why_zh": "他们把角色动画的手艺带入手机 AR，从 HotStepper 导航到 BBC Civilisations AR。",
+    "based_zh": "伦敦，英国"
+  },
+  "pablo-valbuena": {
+    "role_zh": "以光、空间与时间为媒介的艺术家",
+    "bio_zh": "西班牙艺术家，2007 年在 Ars Electronica 展出的《Augmented Sculpture》将投影光与实体几何融为一体，是艺术投影映射的奠基之作。",
+    "why_zh": "早在这个词流行之前，他就用投影命名并定义了“增强”的雕塑与空间。",
+    "based_zh": "马德里，西班牙"
+  },
+  "joanie-lemercier": {
+    "role_zh": "视觉艺术家；AntiVJ 厂牌联合创始人",
+    "bio_zh": "法国艺术家，联合创办 AntiVJ，开创了在建筑和手绘风景上进行投影映射的实践，后来转向环境行动主义。",
+    "why_zh": "他在线描作品上的投影（Eyjafjallajökull、FUJI）让光本身看起来像是物质。",
+    "based_zh": "布鲁塞尔，比利时"
+  },
+  "teamlab": {
+    "role_zh": "艺术团体（由 Toshiyuki Inoko 创立）",
+    "bio_zh": "跨学科艺术团体，打造房间尺度的互动投影世界，参观者的绘画与身体都会改变作品本身。",
+    "why_zh": "Sketch Aquarium 让“你的画在房间里活过来”成为面向大众的混合现实体验。",
+    "based_zh": "东京，日本"
+  },
+  "moment-factory": {
+    "role_zh": "多媒体娱乐工作室",
+    "bio_zh": "以建筑投影映射、灯光夜游（Lumina）和遍布全球的互动投影游乐空间而闻名的工作室。",
+    "why_zh": "他们把投影 AR 扩展到大教堂、森林和体育场的规模，用于公共叙事。",
+    "based_zh": "蒙特利尔，加拿大"
+  },
+  "heavy-projects": {
+    "role_zh": "AR 公共艺术工作室；Re+Public",
+    "bio_zh": "B.C. “Heavy” Biermann 的工作室，Re+Public 的幕后团队，自 2010 年代初就用 AR 让大型街头壁画和广告牌动起来。",
+    "why_zh": "早期的大规模 AR 街头艺术，重新夺回了城市表面。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "studio-drift": {
+    "role_zh": "艺术家二人组 Lonneke Gordijn 与 Ralph Nauta",
+    "bio_zh": "荷兰工作室，以动态装置和无人机灯光作品著称；曾为 HoloLens 创作最早一批进入画廊的混合现实艺术作品之一。",
+    "why_zh": "Concrete Storm 利用空间混合现实，让观者身体性地感受到虚拟建筑的存在。",
+    "based_zh": "阿姆斯特丹，荷兰"
+  },
+  "marina-abramovic": {
+    "role_zh": "行为艺术家",
+    "bio_zh": "被誉为“行为艺术之母”，曾与 Acute Art（Rising，VR）和 Tin Drum（The Life，混合现实）合作，将“在场”延伸至虚拟身体。",
+    "why_zh": "The Life 被宣传为第一件在拍卖会上售出的混合现实行为艺术作品。",
+    "based_zh": "纽约，美国"
+  },
+  "kimchi-and-chips": {
+    "role_zh": "Mimi Son 与 Elliot Woods 的艺术工作室",
+    "bio_zh": "韩英二人组，运用光场、投影和机器人镜面，创造占据真实空间的影像。",
+    "why_zh": "Light Barrier 让投影的光悬浮在半空中，化为立体的体积绘画。",
+    "based_zh": "首尔，韩国"
+  },
+  "mit-fluid-interfaces": {
+    "role_zh": "MIT Media Lab 由 Pattie Maes 领导的研究组；Pranav Mistry 是其最知名的博士生",
+    "bio_zh": "Pattie Maes 的 Fluid Interfaces 研究组致力于打造可穿戴与增强型界面，将数字信息融入日常生活。Pranav Mistry 的 SixthSense（2009）将一台袖珍投影仪、一个摄像头和彩色指套组合成手势驱动的可穿戴计算机，成为 TED 史上观看次数最多的演示之一。",
+    "why_zh": "在 AR 硬件出现之前多年，SixthSense 就定义了“世界即屏幕”的大众想象。",
+    "based_zh": "剑桥（马萨诸塞州），美国"
+  },
+  "valentin-heun": {
+    "role_zh": "Reality Editor 创造者（MIT Media Lab）；PTC 创新工程副总裁 / Reality Lab 负责人（Vuforia Spatial Toolbox）",
+    "bio_zh": "Valentin Heun 在 Pattie Maes 的 Fluid Interfaces 研究组攻读博士，期间开发了 Smarter Objects 和 Reality Editor——一把用于连接各种联网物体的 AR“数字螺丝刀”。在 PTC，他将其发展为面向工业 AR 的开源工具 Vuforia Spatial Toolbox。",
+    "why_zh": "他把 AR 重新定义为一种方式：通过在物体之间画线，看见并重新编程实体物品不可见的行为。",
+    "based_zh": "波士顿（马萨诸塞州），美国"
+  },
+  "mit-tangible-media": {
+    "role_zh": "MIT Media Lab 由 Hiroshi Ishii 领导的研究组（Tangible Bits、Radical Atoms）",
+    "bio_zh": "Hiroshi Ishii（石井裕）的 Tangible Media Group 长期探索“Tangible Bits”与“Radical Atoms”：让数字信息获得可变形的实体形态的界面。Daniel Leithinger、Sean Follmer 等人打造了 inFORM 和 TRANSFORM 针阵显示装置，并将其与投影和透视式 AR 相结合。",
+    "why_zh": "他们把“增强”从像素推向物质本身——会移动、会变形、还能被远程触摸。",
+    "based_zh": "剑桥（马萨诸塞州），美国"
+  },
+  "msr-benko-wilson": {
+    "role_zh": "Microsoft Research 雷德蒙德首席研究员（Benko 后任职于 Meta Reality Labs Research）",
+    "bio_zh": "Andy Wilson（PlayAnywhere、TouchLight、Surface）与 Hrvoje Benko 在 Microsoft Research 主导了长达十年的投影仪加深度相机空间 AR 研究，参与者还包括 Brett Jones、Rajinder Sodhi、Tomislav Pejsa 等实习生。在他们的房间里，每一面墙、每一张桌子乃至每一个身体都能变成互动显示屏。",
+    "why_zh": "IllumiRoom 和 RoomAlive 表明，无需任何人佩戴头显，整个客厅就能变成游戏场或传送门。",
+    "based_zh": "雷德蒙德（华盛顿州），美国"
+  },
+  "msr-izadi-holoportation": {
+    "role_zh": "曾领导 Microsoft Research 交互式 3D 技术组（KinectFusion、HoloDesk、Holoportation）；现负责 Google 的 Android XR",
+    "bio_zh": "Shahram Izadi 在 Microsoft Research 的团队打造了 KinectFusion 实时三维重建、HoloDesk 情境化透视显示装置，以及 Holoportation——将人物实时三维捕捉并传送进 HoloLens。他后来联合创办了 perceptiveIO，现负责 Google 的 AR/XR 业务。",
+    "why_zh": "Holoportation 让体积化的“把我传送过去”式远程呈现成为现实，而 KinectFusion 则为 AR 带来了现代意义上的稠密空间建图。",
+    "based_zh": "剑桥，英国 / 雷德蒙德（华盛顿州），美国 / 山景城（加利福尼亚州），美国"
+  },
+  "david-lindlbauer": {
+    "role_zh": "卡内基梅隆大学 HCII 助理教授；领导 Augmented Perception Lab",
+    "bio_zh": "David Lindlbauer 研究能够适应人与情境的混合现实：从与 Andy Wilson 合作的 Remixed Reality——在房间的实时三维副本中编辑空间与时间——到他在苏黎世联邦理工学院和 CMU 开展的优化驱动型 MR 界面研究。",
+    "why_zh": "Remixed Reality 把物理现实本身当作可编辑的媒介：实时复制、擦除、回放和重新布置你的房间。",
+    "based_zh": "匹兹堡（宾夕法尼亚州），美国"
+  },
+  "chris-harrison-figlab": {
+    "role_zh": "卡内基梅隆大学 HCII 教授；Future Interfaces Group（FIGLAB）主任",
+    "bio_zh": "Chris Harrison 不断发明新方法，把皮肤、墙面、桌面和各种日常表面变成交互式显示屏与传感器。与 Microsoft Research 合作的 Skinput 和 OmniTouch 将界面投射到身体上，FIGLAB 也持续产出面向身体和环境的 AR 输入技术。",
+    "why_zh": "通过一系列令人难忘的 CHI/UIST 演示，他让“任何表面——包括你的手臂——都是触摸屏”成为可运行的现实。",
+    "based_zh": "匹兹堡（宾夕法尼亚州），美国"
+  },
+  "robert-xiao": {
+    "role_zh": "不列颠哥伦比亚大学助理教授；曾为 CMU FIGLAB 博士生",
+    "bio_zh": "Robert Xiao 构建了 FIGLAB 的多个投影式 AR 系统（WorldKit、Desktopography、LumiWatch），并与 Microsoft Research 合作开发了 MRTouch，为 HoloLens 加入了在真实表面上的触控功能。",
+    "why_zh": "他的项目让虚拟界面与真实的桌面、墙壁和手臂优雅共处。",
+    "based_zh": "温哥华，加拿大"
+  },
+  "ryo-suzuki": {
+    "role_zh": "科罗拉多大学博尔德分校助理教授（此前任职于卡尔加里大学）；主持 Programmable Reality Lab",
+    "bio_zh": "Ryo Suzuki 开发让现实世界变得动态、可编程的 AR 工具：能响应物理运动的草图、图示会活起来的教科书，以及与虚拟内容绑定的机器人和实体物件。他在科罗拉多大学博尔德分校师从 Daniel Leithinger 和 Mark Gross 获得博士学位。",
+    "why_zh": "他的 RealitySketch/RealityCanvas 系列把手绘草图变成与运动中的真实物体绑定的实时图形，成为一种用于讲解和游戏的新媒介。",
+    "based_zh": "博尔德（科罗拉多州），美国"
+  },
+  "rubaiat-habib-kazi": {
+    "role_zh": "Adobe Research 高级研究科学家",
+    "bio_zh": "Rubaiat Habib Kazi 将草图与动画作为动态、富有表现力的媒介来研究（Kitty、Draco、Kinetic Texture）。在 AR 领域，他与 Ryo Suzuki 共同创作了 RealitySketch、RealityTalk 和 Augmented Physics，并开发了基于草图的 AR 视频原型工具 Pronto。",
+    "why_zh": "他把手绘动画的表现力带入实时 AR，让任何人都能通过在现实上画草图来解释想法。",
+    "based_zh": "西雅图（华盛顿州），美国"
+  },
+  "ken-perlin": {
+    "role_zh": "纽约大学计算机科学教授；Future Reality Lab 主任；Perlin 噪声发明者",
+    "bio_zh": "获得过奥斯卡奖的图形学先驱 Ken Perlin 如今致力于共享、同处一地的混合现实：Chalktalk 是一种草图语言，画出的图形会作为模拟活起来；Holojam 则在动作捕捉房间中实现无线缆的多人 VR/AR。",
+    "why_zh": "Chalktalk 描绘了这样一种未来：人们通过在彼此之间的空中绘制鲜活的计算对象来交谈。",
+    "based_zh": "纽约，美国"
+  },
+  "dynamicland-bret-victor": {
+    "role_zh": "位于奥克兰/伯克利的非营利研究实验室，由 Bret Victor 领导，成员包括 Luke Iannini、Toby Schachman、Josh Horowitz、Omar Rizwan、Paula Te 等",
+    "bio_zh": "Dynamicland 脱胎于 Bret Victor 的 Communications Design Group（HARC）。其 Realtalk 系统利用天花板上的摄像头和投影仪，让普通的纸张、卡片和物件成为鲜活、可编程、由房间里所有人共享的计算。",
+    "why_zh": "他们把计算机重新发明为一个房间：人们用双手在真实纸张上共同计算，无需屏幕，也无需头显。",
+    "based_zh": "奥克兰 / 伯克利（加利福尼亚州），美国"
+  },
+  "oliver-kreylos": {
+    "role_zh": "加州大学戴维斯分校研究员（KeckCAVES，W. M. Keck 地球科学主动可视化中心）；Vrui VR 工具包作者",
+    "bio_zh": "Oliver Kreylos 开发了开源的 Augmented Reality Sandbox：Kinect 扫描真实的沙子，投影仪在沙面上实时绘制地形和流水。这套装置如今已进驻数百家博物馆和教室。他还开创了基于 Kinect 的三维视频捕捉，用于沉浸式远程呈现。",
+    "why_zh": "AR Sandbox 或许是全世界被复制最多的 AR 装置，让人通过动手来理解地形与水。",
+    "based_zh": "戴维斯（加利福尼亚州），美国"
+  },
+  "mark-billinghurst": {
+    "role_zh": "南澳大学与奥克兰大学教授；HIT Lab NZ 与 Empathic Computing Lab 创始人",
+    "bio_zh": "Mark Billinghurst 与 Hirokazu Kato 共同开创了基于 ARToolKit 的协作式 AR 和 MagicBook（2001），随后创立 HIT Lab NZ。他的 Empathic Computing Lab 如今打造能在远程协作者之间共享注视、情绪和视角的混合现实系统。",
+    "why_zh": "25 年来，他一直在定义协作式 AR：从能弹出虚拟世界的书，到以迷你化身出现在你肩头的远程伙伴。",
+    "based_zh": "阿德莱德，澳大利亚 / 奥克兰，新西兰"
+  },
+  "tu-graz-wagner-schmalstieg": {
+    "role_zh": "Dieter Schmalstieg（格拉茨技术大学教授；Studierstube）与 Daniel Wagner（手持 AR Christian Doppler 实验室；后任职于 Qualcomm Vuforia、DAQRI、Snap Spectacles）",
+    "bio_zh": "Schmalstieg 的 Studierstube 研究组和 Wagner 的手持增强现实 Christian Doppler 实验室，早在智能手机出现前多年就在 PDA 和功能手机上运行 AR，包括 Invisible Train（2004）以及首个在手机上实时运行的自然特征追踪（2008），后者成为 Qualcomm Vuforia 的技术基础之一。",
+    "why_zh": "他们比 ARKit 早十年证明了手机 AR 的可行性，并发明了如今每个 AR 应用所依赖的大部分追踪技术。",
+    "based_zh": "格拉茨，奥地利"
+  },
+  "columbia-feiner": {
+    "role_zh": "哥伦比亚大学计算机科学教授；CGUI 实验室主任",
+    "bio_zh": "Steven Feiner 打造了 KARMA（1993）和 Touring Machine（1997）——后者是首个户外移动 AR 系统。数十年来，他与 Steve Henderson、Carmine Elvezio 等学生一起，领导了 AR 任务引导、维修和三维交互方面的研究。",
+    "why_zh": "他的实验室展示了 AR 如何引导真实的双手完成真实的工作，从坦克炮塔到国际空间站。",
+    "based_zh": "纽约，美国"
+  },
+  "blair-macintyre": {
+    "role_zh": "佐治亚理工学院教授（Augmented Environments Lab）；后任 Mozilla（WebXR）及 JP Morgan 首席研究科学家",
+    "bio_zh": "Blair MacIntyre（Feiner 的学生）主持佐治亚理工学院的 Augmented Environments Lab，产出了 AR Façade、ARhrrrr!、NerdHerder 等 AR 游戏和叙事实验，以及 Argon AR 网页浏览器。在 Mozilla，他参与创建了 WebXR Viewer 和 WebXR AR 标准。",
+    "why_zh": "早在应用商店接纳 AR 之前，他就倡导将 AR 作为游戏、戏剧和开放网络的媒介。",
+    "based_zh": "亚特兰大（佐治亚州），美国"
+  },
+  "disney-research-ar": {
+    "role_zh": "Disney 位于匹兹堡、苏黎世和洛杉矶的研究实验室；Ivan Poupyrev 在加入 Google ATAP 之前曾在此领导交互研究",
+    "bio_zh": "Disney Research 探索充满趣味和魔力的 AR：Ivan Poupyrev 的 REVEL 和 AIREAL 为投影与虚拟内容加入了触感，Robert Sumner 的苏黎世团队让儿童涂色画在 AR 中活了起来，Magic Bench 则让人无需佩戴眼镜就能与 CG 角色同坐一张长椅。",
+    "why_zh": "他们为惊奇与触感而设计 AR，让虚拟角色在孩子和家庭面前显得真实在场。",
+    "based_zh": "匹兹堡（宾夕法尼亚州），美国 / 苏黎世，瑞士"
+  },
+  "ishikawa-watanabe-lab": {
+    "role_zh": "Masatoshi Ishikawa 与 Yoshihiro Watanabe 的实验室，1000 fps 视觉与高速投影的先驱",
+    "bio_zh": "Masatoshi Ishikawa（石川正俊）的实验室研发高速视觉芯片和 1000 fps 的 DynaFlash 投影仪，实现了动态投影映射：影像能紧贴运动、弯曲和变形的表面，且没有可察觉的延迟。",
+    "why_zh": "他们让投影映射跟上了真实世界的速度，影像紧贴在飘动的布料或体操运动员的彩带上，仿佛印在上面一样。",
+    "based_zh": "东京，日本"
+  },
+  "thomas-van-bouwel": {
+    "role_zh": "独立游戏开发者（Cubism、Laser Dance）；前建筑师",
+    "bio_zh": "由建筑师转型的比利时独立游戏开发者，作品包括手势追踪解谜游戏 Cubism 和混合现实游戏 Laser Dance。",
+    "why_zh": "Laser Dance 把任何客厅自身的几何结构变成程序化适配的激光障碍赛道，是对 Quest 场景理解能力最纯粹的运用之一。",
+    "based_zh": "比利时"
+  },
+  "greg-madison": {
+    "role_zh": "XR 交互设计师；前 Unity Labs UX/交互设计师",
+    "bio_zh": "交互设计师与未来学家，在 Unity Labs 工作多年，为真实物体、表面和身体如何在混合现实中成为界面制作原型。",
+    "why_zh": "他的“Tangible Mixed Reality”系列以及基于表面的手势追踪原型，是将实体物件与虚拟 UI 相融合的最清晰示范之一。",
+    "based_zh": "法国"
+  },
+  "leap-motion-design": {
+    "role_zh": "Leap Motion / Ultraleap 的手势追踪交互设计团队",
+    "bio_zh": "Leap Motion 的小型设计研究团队持续发布手部交互实验，并打造了开源宽视场 AR 头显 Project North Star。",
+    "why_zh": "他们定义了头显 AR 中大部分徒手交互语汇（掌上菜单、可穿戴 UI、桌面界面），并开源硬件供人探索。",
+    "based_zh": "旧金山，美国"
+  },
+  "greg-broadmore": {
+    "role_zh": "概念艺术家；Dr. Grordbort 创作者；Weta Gameshop 工作室总监",
+    "bio_zh": "Weta Workshop 概念艺术家，创造了复古科幻世界 Dr. Grordbort，并领导 Weta Gameshop 与 Magic Leap 展开了多年合作。",
+    "why_zh": "他的机器人入侵演示是第一个广为人知的头显 AR 愿景：角色从你家真实的墙壁中破墙而出。",
+    "based_zh": "惠灵顿，新西兰"
+  },
+  "asobo-studio": {
+    "role_zh": "游戏开发商；HoloLens 首发游戏工作室（后分拆出 HoloForge Interactive）",
+    "bio_zh": "位于波尔多的游戏工作室，打造了最具雄心的 HoloLens 首发游戏，后来分拆出专注全息内容的 HoloForge Interactive。",
+    "why_zh": "Fragments 和 Young Conker 是最早围绕玩家真实房间重建关卡的游戏，把角色放在真实的沙发和墙面上。",
+    "based_zh": "波尔多，法国"
+  },
+  "sigur-ros": {
+    "role_zh": "冰岛后摇乐队；Magic Leap 声景作品 Tónandi 的共同创作者",
+    "bio_zh": "这支冰岛乐队与 Magic Leap Studios 合作五年，打造了互动视听声景作品 Tónandi。",
+    "why_zh": "Tónandi 把音乐重塑为可以在空间中触摸的存在：当你伸手触碰时，声音会化作生物在你房间里生长。",
+    "based_zh": "雷克雅未克，冰岛"
+  },
+  "ryan-mcleod": {
+    "role_zh": "Blackbox 的独立设计师兼开发者（Apple 设计大奖得主）",
+    "bio_zh": "Blackbox 的独立设计师。这是一款没有按钮、利用设备自身传感器来解谜的游戏，两度获得 Apple 设计大奖，后来又为 Apple Vision Pro 重新打造。",
+    "why_zh": "他把设备的传感器本身变成谜题；在 Vision Pro 上，谜题会响应你的目光、双手、声音和周围空间。",
+    "based_zh": "美国"
+  },
+  "realities-io": {
+    "role_zh": "小型 XR 工作室（Puzzling Places）",
+    "bio_zh": "小型工作室，用真实地点的摄影测量扫描制作三维拼图，并推出了混合现实、手势追踪和 Vision Pro 版本。",
+    "why_zh": "Puzzling Places 让你在自家桌面上一块块重建真实世界地标的微缩模型，可以独自完成，也可以与同一房间的朋友一起。",
+    "based_zh": "柏林，德国"
+  },
+  "resolution-games": {
+    "role_zh": "XR 游戏工作室（Angry Birds FPS、Demeo、Spatial Ops）",
+    "bio_zh": "由 Tommy Palm 创立的斯德哥尔摩工作室，自 2018 年起在 Magic Leap、Quest 和 Vision Pro 上陆续推出混合现实游戏。",
+    "why_zh": "Spatial Ops 把任何家庭或办公室变成同处一地的第一人称射击竞技场，是最早的大规模多人 MR 游戏之一。",
+    "based_zh": "斯德哥尔摩，瑞典"
+  },
+  "botao-amber-hu": {
+    "role_zh": "设计师、研究者；Reality Design Lab 创始人；HoloKit 发明者",
+    "bio_zh": "创意技术专家与体验式未来设计师，发明了开源的立体 iPhone AR 头显 HoloKit，并领导 Reality Design Lab 在具身化、社交化混合现实方面的研究。",
+    "why_zh": "他的工作借助廉价、开放的硬件，把同处一地的 MR 推向街头游戏、握手和非人类感官（蝙蝠回声定位、可感知的导航）。",
+    "based_zh": "牛津，英国 / 北京，中国"
+  },
+  "daniel-beauchamp": {
+    "role_zh": "空间计算实验者；Shopify AR/VR 负责人",
+    "bio_zh": "Shopify 首席 AR/VR 工程师，以 Pushmatrix 之名发布简短且常常走红的手势追踪与混合现实实验。",
+    "why_zh": "他善于发现那些微小的日常用例——比如显示吸尘覆盖范围或实时 3D 预览——让头显 MR 显得势在必行。",
+    "based_zh": "加拿大"
+  },
+  "max-weisel": {
+    "role_zh": "Normal 联合创始人（Normcore、Nock）",
+    "bio_zh": "设计师兼工程师，联合创办了 Normal——多人联机框架 Normcore 和 VR 运动游戏 Nock 的开发商，并为跨设备的 AR/VR 交互制作原型。",
+    "why_zh": "他的原型让手机 AR 用户与头显用户共享同一空间，成为跨现实多人互动的早期范本。",
+    "based_zh": "纽约，美国"
+  },
+  "julian-triveri": {
+    "role_zh": "Quest 游戏 Lasertag 的独立开发者",
+    "bio_zh": "独立开发者，打造了 Lasertag——一款面向 Quest 3 的同处一地混合现实激光枪战游戏，利用实时深度信息为房间建图。",
+    "why_zh": "Lasertag 借助 Quest 深度传感器和同步的房间扫描，让激光束和命中判定尊重每一个真实障碍物，并在所有玩家之间共享。",
+    "based_zh": "美国"
+  },
+  "stijn-spanhove": {
+    "role_zh": "In The Pocket XR 开发者；Snap Spectacles 创作者",
+    "bio_zh": "比利时 XR 开发者，为 Snap Spectacles 和 Meta AI 眼镜快速构建 AR 眼镜概念验证，常与生成式 AI 结合。",
+    "why_zh": "他为 AR 眼镜加 AI 在日常生活中的可能性制作原型，从现实世界的广告拦截器，到变成可玩世界的手绘图画。",
+    "based_zh": "根特，比利时"
+  },
+  "pavlo-tkachenko": {
+    "role_zh": "AR 开发者、Snap Spectacles 镜头创作者",
+    "bio_zh": "AR 开发者，常与 Stijn Spanhove 合作开发 Spectacles 镜头，并凭借生成式镜头 Bubbles 赢得了 Spectacles 社区挑战赛。",
+    "why_zh": "他的镜头让 AR 眼镜变得好玩又富有身体感：根据提示词生成物体，或者用头部动作驾驶飞机。",
+    "based_zh": ""
+  },
+  "creature": {
+    "role_zh": "小型 XR 工作室（Starship Home）",
+    "bio_zh": "小型独立工作室，推出了面向 Quest 3 的叙事型混合现实游戏 Starship Home。",
+    "why_zh": "Starship Home 把你的真实房间重建为宇宙飞船内部，用太空景观取代窗户和墙壁，而你则在其中照料外星植物。",
+    "based_zh": ""
+  },
+  "niantic": {
+    "role_zh": "游戏工作室；Ingress、Pokémon GO 和 Peridot 的开发商",
+    "bio_zh": "Niantic 于 2015 年在 John Hanke 带领下从 Google 独立出来，打造了基于位置的 AR 游戏 Ingress 和 Pokémon GO，以及 Lightship AR 平台。",
+    "why_zh": "它把整个星球变成了共享的游戏棋盘，让手机 AR 成为数亿玩家的日常习惯。",
+    "based_zh": "旧金山，美国"
+  },
+  "8th-wall": {
+    "role_zh": "WebAR 平台，2022 年被 Niantic 收购",
+    "bio_zh": "8th Wall 由 Erik Murphy-Chutorian 于 2016 年创立，让无标记 AR 无需安装应用即可在手机浏览器中运行，支撑了数千个 WebAR 营销活动。",
+    "why_zh": "它消除了安装应用的门槛，让任何一个链接都能打开一个 AR 世界。",
+    "based_zh": "帕洛阿尔托，美国"
+  },
+  "novarama": {
+    "role_zh": "游戏工作室；Invizimals 的创作者",
+    "bio_zh": "由 Daniel Sánchez-Crespo 创立的巴塞罗那工作室，为 PSP、PS Vita 和 PS3 制作了 Invizimals 系列：玩家借助摄像头和标记“陷阱卡”在自己的桌面上捕捉生物。",
+    "why_zh": "Invizimals（2009）是最早的大众市场掌机 AR 游戏之一，比 ARKit 早十年就让基于标记的 AR 成为操场上的热门游戏。",
+    "based_zh": "巴塞罗那，西班牙"
+  },
+  "sce-london-studio": {
+    "role_zh": "Sony 第一方工作室（EyeToy、EyePet、Wonderbook）",
+    "bio_zh": "Sony 的 London Studio 开创了摄像头游戏，从 EyeToy 到 EyePet，再到 PS3 的 AR 书本外设 Wonderbook。",
+    "why_zh": "它证明了一台电视、一个摄像头和一张印刷卡片，就能让一只可信的虚拟生物住进客厅。",
+    "based_zh": "伦敦，英国"
+  },
+  "nintendo": {
+    "role_zh": "游戏与硬件公司（3DS AR Games、Face Raiders）",
+    "bio_zh": "Nintendo 于 2011 年在每台 Nintendo 3DS 上预装了 AR Games 和 Face Raiders，利用 AR 卡片和掌机摄像头进行游戏；后来又与 Velan Studios 合作推出了 Mario Kart Live。",
+    "why_zh": "它将摄像头 AR 预装进数千万台掌机，并不断为其找到有趣的用法。",
+    "based_zh": "京都，日本"
+  },
+  "velan-studios": {
+    "role_zh": "游戏工作室；Mario Kart Live 与 Hot Wheels Rift Rally",
+    "bio_zh": "由 Karthik Bala 和 Guha Bala 兄弟创立，Velan Studios 打造将真实遥控车与基于摄像头的 AR 赛道相结合的混合现实游戏。",
+    "why_zh": "Mario Kart Live 通过真实卡丁车上的摄像头，把玩家的客厅变成了赛道。",
+    "based_zh": "特洛伊（纽约州），美国"
+  },
+  "google-creative-lab": {
+    "role_zh": "Google 内部创意团队（Experiments with Google）",
+    "bio_zh": "Google Creative Lab 制作开源实验项目，展示 Google 技术的新用途，其中包括一系列 ARCore 实验，如 Just a Line、Drawalong AR、Sounds in Space 和 Lines of Play。",
+    "why_zh": "他们常与艺术家和舞者合作，创作了一批最易于传播的开源手机 AR 实验。",
+    "based_zh": "纽约 / 伦敦 / 悉尼"
+  },
+  "jonas-jongejan": {
+    "role_zh": "Google Creative Lab 创意技术专家",
+    "bio_zh": "丹麦创意技术专家，在 Google Creative Lab 构建了早期 ARCore 实验，并编写了 openFrameworks 插件 ofxARCore。",
+    "why_zh": "他在 2017 年制作的 AR Wormhole 和 ARCore 绘画原型，帮助奠定了 Google AR 实验轻松有趣的基调。",
+    "based_zh": "纽约，美国"
+  },
+  "jeri-ellsworth": {
+    "role_zh": "硬件工程师；castAR 与 Tilt Five 联合创始人",
+    "bio_zh": "自学成才的芯片设计师，曾在 Valve 开发 AR 眼镜，随后将其独立为 castAR（2013），之后又创办 Tilt Five——一套基于逆反射材料的桌面 AR 游戏系统。",
+    "why_zh": "她两度推动了另一种 AR 理念：眼镜配合逆反射游戏板，让共享的全息影像稳稳地停在真实桌面上。",
+    "based_zh": "西雅图，美国"
+  },
+  "directive-games": {
+    "role_zh": "游戏工作室；The Machines（ARKit 首发游戏）",
+    "bio_zh": "Directive Games 用 Unreal Engine 打造了桌面多人策略游戏 The Machines，Apple 在 2017 年 ARKit 发布时将其搬上了舞台演示。",
+    "why_zh": "The Machines 是在真实桌面上进行竞技多人 AR 的首次大型展示。",
+    "based_zh": "香港 / 奥克兰"
+  },
+  "snap-inc": {
+    "role_zh": "相机公司；Snapchat Lenses 与 Lens Studio",
+    "bio_zh": "Snap 通过 Snapchat Lenses（2015）把面部滤镜变成了大众媒介，随后又推出了 World Lenses、面向创作者的 Lens Studio、Landmarkers 和 Local Lenses。",
+    "why_zh": "它建立了规模最大的日常 AR 受众群体，并向独立镜头艺术家开放。",
+    "based_zh": "圣莫尼卡，美国"
+  },
+  "ines-alpha": {
+    "role_zh": "3D 数字化妆艺术家",
+    "bio_zh": "法国艺术家，以 AR 滤镜和面部追踪视频的形式创作从面孔上“生长”出来的 3D“电子妆容”，合作对象包括音乐人、时尚品牌和 Prada Beauty。",
+    "why_zh": "她开创了一种为镜头而非皮肤而生的、超现实且非人类的美的新类型。",
+    "based_zh": "巴黎，法国"
+  },
+  "johanna-jaskowska": {
+    "role_zh": "AR 设计师；Beauty3000 创作者",
+    "bio_zh": "波兰设计师，她在 2018 年推出的 Instagram 特效 Beauty3000——一款光亮的铬金属质感面具——迅速走红，推动了 AR 滤镜艺术家群体的兴起。",
+    "why_zh": "Beauty3000 把面部滤镜重新定义为关于美与身份的艺术，而不只是小狗耳朵。",
+    "based_zh": "欧洲"
+  },
+  "marc-wakefield": {
+    "role_zh": "AR 特效艺术家；Augmented Reality Design Studio 联合创始人",
+    "bio_zh": "由插画师转型的 AR 艺术家，他的 Spark AR 世界特效和角色滤镜已被数百万人使用，其中包括为 U2 创作的作品；他与 Susie Wakefield 共同经营 Augmented Reality Design Studio。",
+    "why_zh": "他是最早一批以把手绘世界变成 Instagram AR 为职业的插画师之一。",
+    "based_zh": "英国"
+  },
+  "paige-piskin": {
+    "role_zh": "AR 滤镜创作者（Snap Lens Studio、Spark AR）",
+    "bio_zh": "Snap 官方认证镜头创作者，她的妆容、时尚和卡通滤镜已被使用数十亿次；她也教授镜头制作。",
+    "why_zh": "她让 AR 妆容和卡通脸镜头成为一种流行媒介，并公开分享自己的创作过程。",
+    "based_zh": "美国"
+  },
+  "tonchidot": {
+    "role_zh": "初创公司；Sekai Camera AR 应用",
+    "bio_zh": "由 Takahito Iguchi（井口尊仁）领导的 Tonchidot 在 2008 年 TechCrunch50 大会上发布了 Sekai Camera：这款 iPhone 应用让人们可以在各个地点留下漂浮的文字、照片和声音“空中标签”。",
+    "why_zh": "Sekai Camera 是最早的社交化、锚定于地点的 AR 应用之一，比“AR 云”概念早了好几年。",
+    "based_zh": "东京，日本"
+  },
+  "layar": {
+    "role_zh": "移动 AR 浏览器公司",
+    "bio_zh": "Layar 于 2009 年推出，是首个移动 AR 浏览器，在摄像头画面上叠加带地理位置的信息“图层”，后来转向互动印刷品领域。",
+    "why_zh": "它创建了第一个开放平台，让任何人都能为手机发布基于地理位置的 AR 内容。",
+    "based_zh": "阿姆斯特丹，荷兰"
+  },
+  "otavio-good": {
+    "role_zh": "Word Lens 创作者",
+    "bio_zh": "Otavio Good 创立了 Quest Visual，并开发了 Word Lens（2010）——它能在摄像头画面中实时翻译印刷标识；后被 Google 收购并整合进 Google Translate。",
+    "why_zh": "早在 2010 年的 iPhone 上，Word Lens 就能原地替换现实世界中的文字，带来了“魔法般”的 AR 时刻。",
+    "based_zh": "旧金山，美国"
+  },
+  "wonderscope-within": {
+    "role_zh": "沉浸式工作室；面向儿童的 Wonderscope AR 故事",
+    "bio_zh": "由 Chris Milk 和 Aaron Koblin 联合创立的 Within 推出了 Wonderscope（2018）：一款 iOS AR 故事应用，孩子们需要大声念出角色台词来推动剧情发展。",
+    "why_zh": "Wonderscope 开创了面向儿童的语音驱动 AR 叙事，让孩子成为故事中的演员。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "climax-studios": {
+    "role_zh": "游戏工作室；ARise、Towers for Tango",
+    "bio_zh": "英国开发商，为 Google Tango 和 ARKit 制作了早期手机 AR 游戏，其中包括视角解谜游戏 ARise。",
+    "why_zh": "ARise 把玩家的实际观察视角变成了解谜机制。",
+    "based_zh": "朴茨茅斯，英国"
+  },
+  "kunabi-brother": {
+    "role_zh": "独立工作室；Euclidean Lands",
+    "bio_zh": "维也纳的小型工作室（Miro Straka），推出了旋转立方体解谜游戏 Euclidean Lands，也是最早移植到 ARKit 的游戏之一。",
+    "why_zh": "在 ARKit 发布第一天，就把《纪念碑谷》式的旋转解谜搬上了桌面。",
+    "based_zh": "维也纳，奥地利"
+  },
+  "mighty-coconut": {
+    "role_zh": "游戏工作室；57° North（Merge Cube）、Walkabout Mini Golf",
+    "bio_zh": "独立工作室，在推出 VR 热门作品 Walkabout Mini Golf 之前，制作了 57° North——一款在手持 Merge Cube 上游玩的互动冒险故事。",
+    "why_zh": "它把手中的泡沫立方体变成了分支故事的微型立体布景舞台。",
+    "based_zh": "奥斯汀，美国"
+  },
+  "merge-labs": {
+    "role_zh": "AR/VR 玩具与教育公司",
+    "bio_zh": "Merge 生产 Merge Cube——一个印有图案的泡沫立方体，手机可以追踪它，让人把全息影像拿在手中翻转查看，已在学校中广泛使用。",
+    "why_zh": "它做出了一个廉价的实体追踪器，让 AR 成为孩子们可以握在手里的东西。",
+    "based_zh": "圣安东尼奥，美国"
+  },
+  "novum-analytics": {
+    "role_zh": "独立工作室；Night Terrors AR 恐怖游戏",
+    "bio_zh": "小型工作室，推出了众筹手机 AR 生存恐怖游戏 Night Terrors，玩家需要戴上耳机，在黑暗的家中游玩。",
+    "why_zh": "Night Terrors 把手机扫描出的玩家自家房屋当作闹鬼的布景。",
+    "based_zh": "美国"
+  },
+  "lego": {
+    "role_zh": "玩具公司；LEGO Hidden Side AR 套装",
+    "bio_zh": "LEGO 的 Hidden Side 系列（2019）把实体积木套装与手机应用相结合，应用能显现出盘踞在模型中的幽灵。",
+    "why_zh": "它把实体搭建游戏与一个会对搭好的模型作出反应的 AR 图层融为一体。",
+    "based_zh": "比隆，丹麦"
+  },
+  "mojang-minecraft-earth": {
+    "role_zh": "游戏工作室；Minecraft Earth",
+    "bio_zh": "Mojang 与 Microsoft 合作打造了 Minecraft Earth（2019–2021），这是一款基于位置的 AR 游戏，玩家可以在现实世界中搭建真实尺寸的 Minecraft 建筑。",
+    "why_zh": "它让玩家在街头一起搭建真实尺寸的体素建筑，并在其中游戏。",
+    "based_zh": "斯德哥尔摩，瑞典 / 雷德蒙德，美国"
+  },
+  "zenka": {
+    "role_zh": "AR 艺术家",
+    "bio_zh": "艺术家，自 2012 年起创作 AR 街头艺术、壁画、明信片和麻胶版画，通过手机上的 Aurasma 让它们活起来。",
+    "why_zh": "她是早期将手机 AR 用于纯艺术创作的人之一，比 ARKit 早好几年就把版画和墙面变成了动态作品。",
+    "based_zh": "美国"
+  },
+  "tender-claws": {
+    "role_zh": "沉浸式游戏与艺术工作室",
+    "bio_zh": "由 Samantha Gorman 和 Danny Cannizzaro 领导的工作室，创作实验性 VR 与 AR 作品，如 Virtual Virtual Reality、The Under Presents 以及 AR 宠物 TendAR。",
+    "why_zh": "TendAR 创造了一只真正以玩家面部表情和情绪为“食物”的 AR 生物。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "sce-japan-studio": {
+    "role_zh": "Sony 第一方工作室",
+    "bio_zh": "Sony 的 Japan Studio 与 Wizards of the Coast 合作推出了 The Eye of Judgment（2007）——一款通过 PlayStation Eye 摄像头读取卡牌的 PS3 卡牌对战游戏。",
+    "why_zh": "The Eye of Judgment 是第一款主流主机 AR 游戏，把实体集换式卡牌垫变成了三维战场。",
+    "based_zh": "东京，日本"
+  },
+  "scott-snibbe": {
+    "role_zh": "互动艺术家；Snibbe Studio 与 Snibbe Interactive 创始人",
+    "bio_zh": "媒体艺术家，他在 1990 年代末至 2000 年代的“Screen Series”把投影光和观者的影子变成了互动媒介；后来他制作了 Björk 的 Biophilia 应用，并领导 Snibbe Interactive 的博物馆装置项目。",
+    "why_zh": "Boundary Functions 和他的影子系列作品，是无需任何设备的投影 AR 的经典范例：身体本身就是控制器。",
+    "based_zh": "旧金山，美国"
+  },
+  "camille-utterback": {
+    "role_zh": "互动装置艺术家；麦克阿瑟学者（2009）",
+    "bio_zh": "艺术家，她基于摄像头的投影作品（与 Romy Achituv 合作的 Text Rain、External Measures 系列、Liquid Time）把运动中的身体呈现为富有绘画感的鲜活痕迹。现任斯坦福大学副教授。",
+    "why_zh": "Text Rain（1999）是被教授最多的互动艺术作品之一：用身体接住飘落的字母，至今仍是身体驱动型混合现实最清晰的示范。",
+    "based_zh": "旧金山湾区，美国"
+  },
+  "karolina-sobecka": {
+    "role_zh": "艺术家、研究者（gravitytrap、Flightphase）",
+    "bio_zh": "出生于波兰的艺术家，将能够回应观众的动物和人物投射到公共空间——从商店橱窗到在行驶车辆旁掠过的建筑——后来转向云与大气研究。",
+    "why_zh": "Sniff 和 Wildlife 早在手机 AR 出现前多年，就把由摄像头或传感器实时驱动的角色带上街头，让公共空间本身成为显示屏。",
+    "based_zh": "纽约，美国 / 巴塞罗那"
+  },
+  "klaus-obermaier": {
+    "role_zh": "媒体艺术家、导演、编舞家、作曲家",
+    "bio_zh": "奥地利艺术家，自 1998 年起在运动中的舞者身上进行投影映射（D.A.V.E.、Vivisector），并与 Ars Electronica Futurelab 合作，以 Apparition（2004）实现了实时互动身体投影，还创作了立体版《春之祭》。",
+    "why_zh": "他开创了在运动中的真人身体上进行投影映射——让 AR 出现在表演者身上，而非屏幕上。",
+    "based_zh": "维也纳，奥地利"
+  },
+  "elevenplay-mikiko": {
+    "role_zh": "编舞家、舞台导演；舞团 ELEVENPLAY 创始人",
+    "bio_zh": "MIKIKO 为 Perfume 和 BABYMETAL 编舞，并领导 ELEVENPLAY。舞团与 Rhizomatiks（Daito Manabe、Motoi Ishibashi）长达十年的合作，诞生了与无人机、机器人立方体、AR 叠加以及混合现实舞台共舞的作品。",
+    "why_zh": "正是这位编舞家让无人机、投影和混合现实成为舞伴，而不只是舞台特效。",
+    "based_zh": "东京，日本"
+  },
+  "random-international": {
+    "role_zh": "艺术工作室",
+    "bio_zh": "成立于 2005 年的工作室，创作由摄像头驱动的装置，让物质对观者的存在作出反应——会转过来凝视你的镜子、描绘你倒影的光、在你走过之处停下的雨。",
+    "why_zh": "Rain Room 让“回应你身体的现实”成为一种无需头显或屏幕的大众体验。",
+    "based_zh": "伦敦，英国 / 柏林，德国"
+  },
+  "rafael-lozano-hemmer": {
+    "role_zh": "媒体艺术家；Antimodular Research 创始人",
+    "bio_zh": "墨西哥裔加拿大艺术家，他的“关系建筑”利用监控摄像头、机器人投影仪和生物识别传感器，让公众接管城市广场和建筑立面；曾于 2007 年代表墨西哥参加威尼斯双年展。",
+    "why_zh": "Body Movies 和 Under Scan 是公共空间投影 AR 的代表作：你的影子会在建筑或广场上揭示隐藏的肖像。",
+    "based_zh": "蒙特利尔，加拿大"
+  },
+  "daniel-rozin": {
+    "role_zh": "艺术家；NYU ITP 教授",
+    "bio_zh": "以色列裔美国艺术家，打造“机械镜子”：由木块、垃圾、木钉、钢片或玩具企鹅组成的阵列，在电机驱动下映照出隐藏摄像头捕捉到的观者。",
+    "why_zh": "他的镜子把摄像头画面变成了实体像素——这是“现实滤镜”最可触摸的形式。",
+    "based_zh": "纽约，美国"
+  },
+  "adrien-m-claire-b": {
+    "role_zh": "数字艺术与表演团体",
+    "bio_zh": "由杂耍艺人兼程序员 Adrien Mondot 与视觉艺术家 Claire Bardainne 组成的团体；他们基于物理模拟的实时投影（eMotion 软件）以及 AR 书籍与展览，让手绘图像在舞者和观众周围呼吸起来。",
+    "why_zh": "他们把投影映射舞蹈延伸到手持 AR：立体书和手绘展览通过平板电脑活了起来。",
+    "based_zh": "里昂，法国"
+  },
+  "romain-tardy": {
+    "role_zh": "视觉艺术家；AntiVJ 厂牌前核心成员",
+    "bio_zh": "法国艺术家，参与塑造了 AntiVJ 的建筑投影映射（Déshérence、O (Omicron)），如今创作场域特定的灯光与投影装置，把建筑和地景当作叙事的表面。",
+    "why_zh": "在弗罗茨瓦夫百年厅上呈现的 O (Omicron) 是投影映射的参照之作——它揭示建筑，而非装饰建筑。",
+    "based_zh": "比利时 / 法国"
+  },
+  "yannick-jacquet": {
+    "role_zh": "媒体艺术家、艺术总监；AntiVJ 前成员",
+    "bio_zh": "在 AntiVJ 厂牌中以 Legoman 之名为人所知的视觉艺术家；他的映射装置融合了实体印刷品、机械结构与投影，让纸面和墙上的手绘机器与图像仿佛动了起来。",
+    "why_zh": "Mécaniques Discursives 展示了一张静态印刷品加上精准投影，就能变成一台鲜活的机器——这是一种低技术、非常适合教学的空间 AR 形式。",
+    "based_zh": "布鲁塞尔，比利时"
+  },
+  "urbanscreen": {
+    "role_zh": "建筑投影艺术团体与工作室",
+    "bio_zh": "成立于 2005 年的团体，开创了大规模“建筑演出”——如 555 KUBIK 和悉尼歌剧院风帆上的立面投影——以及“增强雕塑”，即投影与定制造型被一体设计。",
+    "why_zh": "555 KUBIK（2009）是将 3D 投影映射确立为一种艺术形式的病毒式传播作品之一。",
+    "based_zh": "不来梅，德国"
+  },
+  "refik-anadol": {
+    "role_zh": "媒体艺术家；Refik Anadol Studio 创始人",
+    "bio_zh": "土耳其裔美国艺术家，用大规模投影把建筑变成“数据绘画”，后来又在建筑立面和沉浸式空间中创作 AI 生成的“数据雕塑”。",
+    "why_zh": "WDCH Dreams 把机器对一支管弦乐团的“记忆”投射到 Frank Gehry 设计的音乐厅上，把投影映射拓展到了数据与 AI 领域。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "miguel-chevalier": {
+    "role_zh": "数字艺术家",
+    "bio_zh": "墨西哥裔法国艺术家，自 1980 年代起就是计算机艺术的先驱；他的生成式互动地面与穹顶投影（Magic Carpets、Fractal Flowers、Digital Supernova）会对穿行其间的观众作出反应。",
+    "why_zh": "Magic Carpets 把历史建筑的地面变成了生成式的、会回应身体的光之地毯，任何人都可以在上面玩耍。",
+    "based_zh": "巴黎，法国"
+  },
+  "hellicar-and-lewis": {
+    "role_zh": "创意工作室",
+    "bio_zh": "伦敦工作室（约 2008–2015 年活跃），使用 openFrameworks 打造由摄像头和 Kinect 驱动的装置，从镜像般的反馈墙到为自闭症儿童设计的互动应用 Somantics。",
+    "why_zh": "他们展示了 openFrameworks 计算机视觉如何把画廊或商店变成趣味十足、回应身体的空间。",
+    "based_zh": "伦敦，英国"
+  },
+  "jiabao-li": {
+    "role_zh": "艺术家；得克萨斯大学奥斯汀分校助理教授",
+    "bio_zh": "出生于中国的艺术家和设计师，她的作品运用 AR、投影和表演，让人们通过蝙蝠、冰川和浮游生物的方式感知世界。",
+    "why_zh": "EchoVision 和 Nocturnal Fugue 让混合现实成为一种像其他物种那样去感知的方式。",
+    "based_zh": "奥斯汀，美国"
+  },
+  "marlena-myles": {
+    "role_zh": "艺术家（Spirit Lake Dakota 部族）",
+    "bio_zh": "达科他族艺术家，运用 AR 公共艺术、动画和投影，将达科他语言、故事和地方知识重新带回双子城的土地。",
+    "why_zh": "她的 Dakota Spirit Walk 是运用场域特定 AR 在公共空间中重申原住民存在的典范。",
+    "based_zh": "圣保罗（明尼苏达州），美国"
+  },
+  "jakob-kudsk-steensen": {
+    "role_zh": "以生态和游戏引擎为媒介的艺术家",
+    "bio_zh": "丹麦艺术家，用野外录音、三维扫描和游戏引擎构建生态世界；他为 Serpentine 创作的委约作品 The Deep Listener 以基于位置的 AR 形式把这些世界带入了肯辛顿花园。",
+    "why_zh": "The Deep Listener 是 AR 的一个标杆：它让你去聆听公园里的物种，而不只是观看物体。",
+    "based_zh": "柏林，德国"
+  },
+  "olafur-eliasson": {
+    "role_zh": "艺术家；Studio Olafur Eliasson",
+    "bio_zh": "冰岛裔丹麦艺术家，他关于光、色彩与感知的装置（The Weather Project）通过 Wunderkammer 和儿童气候应用 Earth Speakr 延伸到了 AR 领域。",
+    "why_zh": "他让感知本身成为艺术作品，无论是画廊里的彩色阴影，还是你家中的 AR 物件。",
+    "based_zh": "柏林，德国 / 哥本哈根，丹麦"
+  },
+  "kaws": {
+    "role_zh": "艺术家、设计师",
+    "bio_zh": "艺术家，他的 COMPANION 形象从街头艺术和玩具发展为巨型充气雕塑，并与 Acute Art 合作推出了一些观看人数最多的 AR 雕塑和 AR 包装。",
+    "why_zh": "他的 AR 作品证明，一件可收藏的 AR 雕塑能够触达数百万部手机，而不仅是画廊观众。",
+    "based_zh": "纽约，美国"
+  },
+  "raymond-salvatore-harmon": {
+    "role_zh": "艺术家、电影人、壁画家",
+    "bio_zh": "美国艺术家，创作横跨涂鸦、实验电影与绘画；MIRAGE 将建筑尺度的彩绘墙面与移动 AR 图层结合在一起。",
+    "why_zh": "MIRAGE 是一件从一开始就被设计为需要 AR 来完成的早期壁画作品。",
+    "based_zh": "伦敦，英国 / 洛杉矶，美国"
+  },
+  "will-pappenheimer": {
+    "role_zh": "艺术家；Manifest.AR 联合创始人；Pace University 教授",
+    "bio_zh": "艺术家，Manifest.AR 团体（2010）的创始成员，十多年来持续创作基于位置的 AR 介入作品——舞动的故障人形、为场地“上色”的下落体素，以及在威尼斯双年展上的 AR 作品。",
+    "why_zh": "从 Layar 时代起，他就是将 AR 定义为不请自来的公共艺术介入的艺术家之一。",
+    "based_zh": "纽约，美国"
+  },
+  "chris-milk": {
+    "role_zh": "导演、沉浸式艺术家；Within 联合创始人",
+    "bio_zh": "音乐录影带导演，后转向互动与沉浸式创作；在联合创办 VR 公司 Within 之前，他的 The Treachery of Sanctuary 把观众的影子变成了成群的飞鸟。",
+    "why_zh": "The Treachery of Sanctuary 是 Kinect 时代观看次数最多的身体追踪投影作品之一。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "shunichi-kasahara": {
+    "role_zh": "Sony 计算机科学研究所研究员；领导 Cybernetic Humanity Studio（OIST）",
+    "bio_zh": "Sony CSL 研究员，打造扭转感知的系统：第一人称视角共享（JackIn）、灵魂出窍式远程呈现、借助肌肉电刺激加速反应，以及实时人脸变形。早年曾在 MIT Media Lab 参与创作 exTouch 和 Second Surface。",
+    "why_zh": "他把 AR 视为“Superception”（超感知）——通过交换、拆分和延迟你所看到与所做的，来设计人的自我感。",
+    "based_zh": "东京 / 冲绳，日本"
+  },
+  "ivan-poupyrev": {
+    "role_zh": "交互科学家；曾任职于 Sony CSL、Disney Research、Google ATAP（Soli、Jacquard）；Archetype AI 首席执行官",
+    "bio_zh": "他早年在 Sony CSL 和 HIT Lab 构建了早期的可触摸 AR，随后在 Disney Research（Touché、Botanicus Interacticus、Ishin-Den-Shin）和 Google ATAP（Soli 雷达、Jacquard 智能织物）把日常物质变成了界面。",
+    "why_zh": "他让物理世界本身成为输入表面——植物、水、皮肤、织物和空气都成了混合现实的传感器。",
+    "based_zh": "旧金山，美国"
+  },
+  "ken-nakagaki": {
+    "role_zh": "芝加哥大学助理教授；主持 Actuated Experience Lab（AxLab）",
+    "bio_zh": "曾任 MIT Tangible Media 研究员，打造可变形的线、机器人集群和机械外壳，让数字信息在人们周围以实体方式移动。",
+    "why_zh": "他的驱动式可触摸界面是 AR 的实体孪生：不是叠加像素，而是让房间里的物体自己变形、移动。",
+    "based_zh": "芝加哥，美国"
+  },
+  "yuta-itoh": {
+    "role_zh": "东京大学副教授（Augmented Vision Lab）；曾任职于东京工业大学和慕尼黑工业大学",
+    "bio_zh": "研究光学透视显示器，让它们不只是添加图形：还能削减光线、矫正视力，并显示运动物体的未来轨迹。",
+    "why_zh": "他把 AR 眼镜重新定义为“视觉增强”——一种改写进入你眼睛的光线的硬件。",
+    "based_zh": "东京，日本"
+  },
+  "pedro-lopes": {
+    "role_zh": "芝加哥大学副教授；主持 Human Computer Integration Lab",
+    "bio_zh": "打造驱动用户自身身体的界面——肌肉电刺激、化学与温度触觉——为混合现实赋予实体的重量，并让物体“告诉”你的双手该如何使用它们。",
+    "why_zh": "他把人体变成了 AR 的输出设备：你的肌肉能感受到虚拟的墙。",
+    "based_zh": "芝加哥，美国"
+  },
+  "michael-nebeling": {
+    "role_zh": "密歇根大学信息学院副教授；Information Interaction Lab",
+    "bio_zh": "开发快速原型工具，让不会编程的人也能用纸张、培乐多彩泥和视频制作 AR/VR（ProtoAR、360proto、XRDirector）。",
+    "why_zh": "他让 AR 设计走向大众：纸上的草图几分钟内就能变成可运行的 AR 原型。",
+    "based_zh": "安娜堡，美国"
+  },
+  "lightform": {
+    "role_zh": "投影 AR 软硬件初创公司；Brett Jones 是 IllumiRoom 和 RoomAlive 的第一作者",
+    "bio_zh": "Lightform 打造了 LF1/LF2 投影仪-摄像头一体设备和 Lightform Creator，让任何人都能在几分钟内扫描场景并完成投影映射。",
+    "why_zh": "它把研究级的投影仪-摄像头 AR（IllumiRoom、RoomAlive）变成了面向消费者的工具，用于制作“投影 AR”壁画和物件。",
+    "based_zh": "旧金山，美国"
+  },
+  "rajinder-sodhi": {
+    "role_zh": "HCI 研究者（UIUC 博士）；曾在 Microsoft Research、Disney Research 和 Qualcomm 从事投影与触觉 AR 研究",
+    "bio_zh": "参与创作了 LightGuide（投影式手部动作引导）、BeThere（支持空间输入的三维移动远程呈现），以及 Disney 的 AIREAL 空气涡旋触觉技术。",
+    "why_zh": "LightGuide 是最清晰的示范之一：AR 可以直接在手上作画，从而引导身体动作。",
+    "based_zh": "美国"
+  },
+  "autodesk-research": {
+    "role_zh": "企业 HCI 研究团队",
+    "bio_zh": "Autodesk 的用户界面研究团队为制作与学习打造 AR 工具：投影式笔迹叠加、AR 动作镜像、装配教程创作工具，以及双向 MR 远程指导。",
+    "why_zh": "十年来积累的一批务实、以手艺为核心的 AR 交互构想（YouMove、PenLight、AuthAR、Loki），可以直接应用于教学。",
+    "based_zh": "多伦多，加拿大"
+  },
+  "madeline-gannon": {
+    "role_zh": "艺术家兼机器人专家；ATONATON 主理人",
+    "bio_zh": "设计人与机器沟通的方式——从投影映射到皮肤上的三维建模（Tactum），到会注视并跟随参观者的工业机器人（Mimus）。",
+    "why_zh": "Tactum 把你的前臂变成了画布和控制器，让你在投影 AR 中设计可穿戴物品。",
+    "based_zh": "匹兹堡，美国"
+  },
+  "denis-kalkofen": {
+    "role_zh": "弗林德斯大学副教授；曾任职于格拉茨技术大学（ICG）",
+    "bio_zh": "AR 可视化专家：研究隐藏结构的 X 光式与半透明视图、紧凑标注，以及将说明书和视频教程转换为三维 AR 指引。",
+    "why_zh": "他解决了 AR 如何在不造成深度混淆的前提下，展示真实物体内部或背后的内容。",
+    "based_zh": "阿德莱德，澳大利亚 / 格拉茨，奥地利"
+  },
+  "magic-leap-studios": {
+    "role_zh": "Magic Leap 内部内容工作室",
+    "bio_zh": "制作了 Magic Leap 的一系列空间体验展示作品——2015 年体育馆鲸鱼概念片、Create、Dodge、Mica 和 Undersea——用以展示尊重真实房间几何结构的内容。",
+    "why_zh": "他们的演示定义了头显 MR 的语汇：认得你家具的生物、与你同桌而坐的数字人。",
+    "based_zh": "种植园市（佛罗里达州），美国"
+  },
+  "ilmxlab": {
+    "role_zh": "Lucasfilm 旗下沉浸式娱乐工作室",
+    "bio_zh": "ILM 的沉浸式实验室与 Magic Leap 合作开展了星球大战混合现实实验，从 2016 年的“Lost Droids”测试到 Project Porg。",
+    "why_zh": "展示了深受喜爱的角色如何住进你真实的客厅，并对你作出回应。",
+    "based_zh": "旧金山，美国"
+  },
+  "microsoft-hololens": {
+    "role_zh": "HoloLens 平台团队与第一方工作室",
+    "bio_zh": "推出了首台独立运行的全息计算机及其首发应用——RoboRaid、HoloStudio 和 Minecraft 桌面演示。",
+    "why_zh": "确立了“注视 + 空中点击 + 语音”作为头显 AR 的交互语法，并让空间建图变得可玩。",
+    "based_zh": "雷德蒙德，美国"
+  },
+  "meta-reality-labs": {
+    "role_zh": "Quest Presence Platform 展示作品背后的平台团队",
+    "bio_zh": "打造了 Presence Platform 展示作品 The World Beyond 和 First Encounters，向 Quest 用户展示透视 MR 的能力。",
+    "why_zh": "First Encounters 中一拳打穿你家墙壁的那一刻，是场景感知透视 MR 的经典演示。",
+    "based_zh": "门洛帕克，美国"
+  },
+  "apple": {
+    "role_zh": "平台公司",
+    "bio_zh": "Apple 的 ARKit 和 visionOS 团队发布了首款多人 ARKit 示例游戏 SwiftShot，以及 Vision Pro 展示作品 Encounter Dinosaurs。",
+    "why_zh": "他们的展示作品为共享桌面 AR，以及空间计算中会注意到你的生物，设定了行业预期。",
+    "based_zh": "库比蒂诺，美国"
+  },
+  "figmin-xr": {
+    "role_zh": "混合现实创作应用 Figmin XR 背后的独立团队",
+    "bio_zh": "Figmin XR 诞生于 HoloLens，如今登陆 Quest 和 Vision Pro；你可以在其中绘制、收集和编写三维对象的脚本，让它们在你的真实房间中存在并发生碰撞。",
+    "why_zh": "它是一个口袋里的“混合现实沙盒”：绘画、物理、AI 脚本角色和房间几何集于一个工具之中。",
+    "based_zh": "美国"
+  },
+  "danlin-huang": {
+    "role_zh": "设计师、研究者；中国美术学院设计智造学院",
+    "bio_zh": "设计思辨性的混合现实仪式与工具——共享蘑菇面具 MR、身体姿态神谕符号、AR 折纸辅导——常与 Botao Amber Hu 合作。",
+    "why_zh": "她的作品把 MR 头显变成集体仪式与具身思辨的道具，而非屏幕。",
+    "based_zh": "杭州，中国"
+  },
+  "owlchemy-labs": {
+    "role_zh": "VR/MR 工作室（Job Simulator），隶属 Google",
+    "bio_zh": "Job Simulator 和 Vacation Simulator 的开发商，如今在 Android XR 上引领手势追踪设计研究和混合现实游戏。",
+    "why_zh": "以 XR 中最具物理感、最富喜剧性的手部交互著称，如今这种风格也延续到了透视 MR 中。",
+    "based_zh": "奥斯汀，美国"
+  },
+  "cyborn": {
+    "role_zh": "比利时 VR/MR 游戏工作室",
+    "bio_zh": "Hubris 以及 Quest 3 混合现实小镇建造游戏 Wall Town Wonders 的开发商。",
+    "why_zh": "Wall Town Wonders 把普通房间的墙面变成了生机勃勃的微缩城市——这是很少有人探索的“垂直表面” MR 构想。",
+    "based_zh": "安特卫普，比利时"
+  },
+  "vitukhin-serhii": {
+    "role_zh": "Unity/AR 开发者；HoloKit 社区早期开发者",
+    "bio_zh": "2017 年构建了最早一批 HoloKit + ARKit 立体演示，其中包括一款在 SIGGRAPH 2017 上展示的同处一地多人无人机射击游戏。",
+    "why_zh": "早期证明了纸板手机头显也能承载共享、同处一地的立体 AR 游戏。",
+    "based_zh": "乌克兰"
+  },
+  "keijiro-takahashi": {
+    "role_zh": "创意编程者；Unity Technologies Japan 开发者布道师",
+    "bio_zh": "Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深度相机和机器学习追踪实验，并将它们用于现场演唱会视觉。",
+    "why_zh": "他的 Rcam/Bibcam/Metavido 系列把 iPhone LiDAR 变成了用于现场视觉特效的体积化 AR 摄像机，而且每个实验都附带学生可以直接运行的源代码。",
+    "based_zh": "东京，日本"
+  },
+  "trixi-studios": {
+    "role_zh": "由 Chip Sineni 领导的芝加哥视觉特效 / AR 工作室",
+    "bio_zh": "小型动画与视觉特效工作室，构建了早期的 Project Tango 和 ARKit 实验，其中包括走红网络的 a-ha《Take On Me》AR 传送门。",
+    "why_zh": "它的《Take On Me》传送门（2017）展示了手机 AR 能在摄像头画面中实时重现一个可以走进去的手绘音乐录影带世界。",
+    "based_zh": "芝加哥，美国"
+  },
+  "stuart-langfield": {
+    "role_zh": "导演、设计师",
+    "bio_zh": "电影与动态影像导演，他在 2017 年制作的 Super Mario AR 测试，把横版卷轴游戏重新构想为环绕玩家的环形关卡。",
+    "why_zh": "他的 Super Mario AR 原型是教科书级的案例：为玩家周围的空间重新设计 2D 游戏形式，而不是把它平面地移植过来。",
+    "based_zh": "温哥华，加拿大 / 英国"
+  },
+  "jelle-vermandere": {
+    "role_zh": "游戏开发者、YouTuber",
+    "bio_zh": "比利时创作者，打造以真实物体和自己身体为控制器的混合现实游戏：真实的足球、遥控车、智能魔方、心率监测器。",
+    "why_zh": "他在 YouTube 上一步步展示计算机视觉和廉价硬件如何把日常物品变成 AR 式游戏的控制器。",
+    "based_zh": "根特，比利时"
+  },
+  "tomas-garcia": {
+    "role_zh": "动画师、角色设计师、AI 艺术家",
+    "bio_zh": "阿根廷动画师（曾任职于 PepperMelon，参与 MTV 品牌重塑），他在 2017 年 6 月发布的 ARKit 测试——厨房里的登月、泳池里降落的 Falcon 9——在 ARKit 问世最初几周迅速走红。",
+    "why_zh": "他那些趣味十足的 ARKit 小品表明，动画手艺加上准确的尺度感，就能让手机 AR 显得充满魔力。",
+    "based_zh": "布宜诺斯艾利斯，阿根廷"
+  },
+  "can-buyukberber": {
+    "role_zh": "沉浸式新媒体艺术家",
+    "bio_zh": "出生于土耳其的艺术家，创作涉及投影映射、球幕、VR 和 AR；曾任 Adobe 沉浸式驻留艺术家，也是早期的 ARKit 实验者。",
+    "why_zh": "他让同一件生成式雕塑在投影、印刷、球幕、VR 和 AR 之间流转，清晰地示范了一个视觉构想如何栖身于多种现实。",
+    "based_zh": "旧金山，美国 / 伊斯坦布尔，土耳其"
+  },
+  "judith-amores": {
+    "role_zh": "研究者（MIT Media Lab 博士；Microsoft Research）",
+    "bio_zh": "HCI 研究者，从巴塞罗那到 MIT Media Lab 和 Google Creative Lab 都制作过趣味 AR 原型，并在 Microsoft Research 与 Jaron Lanier 合作研究多人 AR。",
+    "why_zh": "她参与创作了 Google 2017 年 AR 实验中的三项（Draw and Dance、Paper Cubes、Invisible Highway），每一项都是精巧、易于教学的 AR 交互构想。",
+    "based_zh": "剑桥（马萨诸塞州），美国"
+  },
+  "anna-fuste": {
+    "role_zh": "创意技术专家、研究者（MIT Media Lab 校友）",
+    "bio_zh": "加泰罗尼亚创意技术专家，她的 AR 作品以纸张、织物和机器人作为可触摸界面，从 Google AR 实验到 MIT Media Lab 关于计算思维的研究。",
+    "why_zh": "她坚持用廉价的实体材料（纸立方体、织物、玩具机器人）制作 AR，而这恰恰是课堂可以复现的。",
+    "based_zh": "剑桥（马萨诸塞州），美国 / 巴塞罗那，西班牙"
+  },
+  "aidan-wolf": {
+    "role_zh": "AR 开发者；Dream Park 联合创始人",
+    "bio_zh": "资深 Snap AR 开发者，制作了 DoodleLens（把涂鸦变成 AR）、多人 Snapchat 镜头和 Spectacles 游戏，如今与 Dream Park 一起打造“可下载的”混合现实主题公园。",
+    "why_zh": "他把每一项新的 AR 能力都变成好玩、可即时分享的游戏，从活过来的涂鸦到被整条改造成游乐场的街道。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "alessio-grancini": {
+    "role_zh": "AR 工程师；Snap Spectacles 开发者关系（曾任职于 Magic Leap、Morphosis）",
+    "bio_zh": "由意大利建筑师转型的 AR 原型开发者：在 SCI-Arc 以一款世界尺度 AR 游戏的毕业论文获得 Gehry Prize，曾任 Morphosis 的 XR 负责人、Magic Leap 原型工程师，现于 Snap 开发并教授 Spectacles 镜头。",
+    "why_zh": "他把建筑思维带入 AR，并持续推出将空间计算与 AI 结合的黑客松原型。",
+    "based_zh": "洛杉矶 / 旧金山，美国"
+  },
+  "luke-hurd": {
+    "role_zh": "AR 特效创作者、教育者（Spark AR、Lens Studio）",
+    "bio_zh": "早期 Instagram/Spark AR 特效创作者和教师，他在 YouTube 上的拆解视频讲解了面部网格、遮挡和分割技巧；后来为 National Geographic/NASA JPL 和 Coachella 打造了品牌 AR。",
+    "why_zh": "他完整公开了自己那些爆款特效背后的实现方式，让社交 AR 的手艺变得清晰易懂。",
+    "based_zh": "美国"
+  },
+  "torin-blankensmith": {
+    "role_zh": "创意技术专家、实时图形艺术家、Parsons 兼职教师",
+    "bio_zh": "前 Google Creative Lab 技术专家（参与打造 AR Wormhole），Shader Park 的共同创作者；他为 TouchDesigner 开发的免费 MediaPipe 与身体追踪插件，把基于摄像头的身体交互交到了成千上万名学生手中。",
+    "why_zh": "他把网络摄像头的手部与身体追踪变成开放工具和简短、可再创作的混合现实小品，非常适合教学。",
+    "based_zh": "纽约，美国"
+  },
+  "fabin-rasheed": {
+    "role_zh": "艺术家、设计师、技术专家（Nurecas）",
+    "bio_zh": "印度艺术家兼设计师，2017–2018 年间制作了 ARKit 雕刻、多人 AR 和 AR 无人机控制原型，在 Adobe MAX 上展示过 Sneak 项目，如今从事生成艺术创作。",
+    "why_zh": "他早期的 ARKit 工具把手机当作雕刻和游戏的空间，并持续在交互设计与艺术之间穿梭。",
+    "based_zh": "喀拉拉邦，印度"
+  },
+  "hart-woolery": {
+    "role_zh": "2020CV 创始人兼首席技术官",
+    "bio_zh": "计算机视觉开发者，他的公司 2020CV 自行训练了移动端手部、面部和宠物追踪模型，并据此推出了 InstaSaber、YoPuppet、SpeakingPuppy 以及多款 Snap 镜头。",
+    "why_zh": "他比各大平台早好几年就实现了手机端手部追踪，并把它包装成即刻好玩的创意，比如纸筒光剑和手偶。",
+    "based_zh": "圣迭戈，美国"
+  },
+  "sallia-goldstein": {
+    "role_zh": "技术美术、Snap 镜头创作者",
+    "bio_zh": "常驻洛杉矶的 3D 技术美术，职业生涯始于一款走红的 Snapchat 镜头；她为 Coachella、UFC 和 LACMA 制作过镜头，并在 Snap 的 Lens Academy 授课。",
+    "why_zh": "她的身体追踪视觉特效镜头展示了在社交 AR 中，简单的模板调整加上克制的设计可以走多远。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "velvet-spectrum": {
+    "role_zh": "3D 设计与动画工作室",
+    "bio_zh": "由澳大利亚视觉艺术家 Luke Choice 与 Morgan Choice 组成的工作室，以色彩缤纷的 3D 字体设计著称，并将创作延伸到 Snapchat 镜头和 Adobe Aero AR 作品。",
+    "why_zh": "他们展示了一个插画/动态影像工作室如何在无需繁重工程的情况下，把自己的视觉语言转化为趣味 AR。",
+    "based_zh": "阿斯托里亚（俄勒冈州），美国"
+  },
+  "phil-walton": {
+    "role_zh": "Snap 官方镜头创作者、作者",
+    "bio_zh": "走红镜头“Potato Boss”的创作者，著有《The Designer's Guide to Snapchat's Lens Studio》。",
+    "why_zh": "他的 Potato Boss 镜头证明，最简单的面部 AR 笑话也能传遍全球。",
+    "based_zh": "美国"
+  },
+  "christian-marclay": {
+    "role_zh": "视觉艺术家、作曲家",
+    "bio_zh": "瑞士裔美国艺术家，以 The Clock 等声音与拼贴作品闻名，曾与 Snap 合作为蓬皮杜中心创作了一款音频 AR 镜头。",
+    "why_zh": "他运用 AR 并非为了视觉，而是把整座博物馆变成了一件可以演奏的乐器。",
+    "based_zh": "伦敦，英国 / 纽约，美国"
+  },
+  "shantell-martin": {
+    "role_zh": "艺术家（线描、文字、表演）",
+    "bio_zh": "以连续的黑白线描和文字闻名的艺术家；曾与 Zach Lieberman 合作为 Snap Spectacles 创作 Poem World。",
+    "why_zh": "她把手绘的线条带入空间文字之中——化作你可以穿行其间的词语。",
+    "based_zh": "纽约，美国"
+  },
+  "zach-lieberman": {
+    "role_zh": "艺术家；openFrameworks 与诗意计算学校（SFPC）联合创始人；MIT Media Lab",
+    "bio_zh": "纽约艺术家和教育者，用代码构建实验性的绘画、动画与计算机视觉工具。他是 openFrameworks 的共同创作者、SFPC 和 YesYesNo 的联合创始人，并在 MIT Media Lab 主持 Future Sketches 研究组。",
+    "why_zh": "二十年来，他以身体、面部、声音和手机 AR 创作，把手势与声音变成鲜活的图形；他参与打造的 openFrameworks 更是这一领域许多作品的基础工具。",
+    "based_zh": "纽约，美国"
+  },
+  "molmol-kuo": {
+    "role_zh": "艺术家；YesYesNo 联合创始人；SFPC 教师",
+    "bio_zh": "出生于台湾的艺术家，创作涉及 AR、身体追踪与叙事；与 Zach Lieberman 共同创办互动工作室 YesYesNo，并曾任 Google Arts & Culture 和 Adobe 的 AR 驻留艺术家。",
+    "why_zh": "她参与创作了 Weird Type 和 Weird Cuts 两款 AR 应用，以及多件增强身体与面部的装置，把 AR 当作一种手工的、诗意的媒介。",
+    "based_zh": "纽约，美国"
+  },
+  "golan-levin": {
+    "role_zh": "艺术家；卡内基梅隆大学电子艺术教授；Frank-Ratchye STUDIO for Creative Inquiry 主任",
+    "bio_zh": "艺术家和教育者，他的装置与表演借助实时计算机视觉和投影，探索抽象沟通、声音、手与凝视。",
+    "why_zh": "他是以投影和摄像头增强身体、声音与双手的先驱（Messa di Voce、Footfalls、Augmented Hand Series），并不断在新平台上重新编写 AR 的历史。",
+    "based_zh": "匹兹堡，美国"
+  },
+  "theo-watson": {
+    "role_zh": "艺术家；openFrameworks 与 Design I/O 联合创始人",
+    "bio_zh": "艺术家和创意技术专家，openFrameworks 的共同创作者，Graffiti Research Lab 和 F.A.T. Lab 成员，并与 Emily Gobeille 共同创办互动工作室 Design I/O。",
+    "why_zh": "他打造了一些最令人欢乐的儿童全身投影 AR 环境，以及把 AR 带上街头的激光/投影涂鸦工具。",
+    "based_zh": "剑桥（马萨诸塞州），美国"
+  },
+  "emily-gobeille": {
+    "role_zh": "设计师、艺术家；Design I/O 联合创始人",
+    "bio_zh": "视觉设计师和艺术家，联合创办了 Design I/O，为博物馆和儿童创作沉浸式、插画风格的互动世界。",
+    "why_zh": "她的艺术指导赋予了 Design I/O 身体驱动的投影生态系统一种鲜活的绘本质感。",
+    "based_zh": "剑桥（马萨诸塞州），美国"
+  },
+  "chris-sugrue": {
+    "role_zh": "艺术家、程序员；EyeWriter 团队成员；SFPC 教师",
+    "bio_zh": "美国艺术家和程序员，创作探索光、感知与身体的互动装置和视听表演；EyeWriter 团队成员之一。",
+    "why_zh": "她的作品让数字生物和几何图形逃离屏幕，跑到手上和身体上，是身体尺度混合现实早期的诗意范例。",
+    "based_zh": "巴黎，法国"
+  },
+  "kyle-mcdonald": {
+    "role_zh": "以代码为媒介的艺术家；openFrameworks 贡献者",
+    "bio_zh": "媒体艺术家，创作涉及计算机视觉、机器学习和人脸；参与开发了 FaceOSC 工具、实时换脸技术以及许多合作装置。",
+    "why_zh": "他开创了实时换脸和镜像式装置，让你在他人的脸上看到自己的映像。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "arturo-castro": {
+    "role_zh": "艺术家；openFrameworks 核心开发者",
+    "bio_zh": "西班牙艺术家和程序员，长期担任 openFrameworks 核心开发者，创作涉及计算机视觉、人脸和实时图形。",
+    "why_zh": "他与 Kyle McDonald 共同创作了被广泛认为是首个逼真的实时换脸作品。",
+    "based_zh": "巴塞罗那，西班牙"
+  },
+  "lauren-mccarthy": {
+    "role_zh": "艺术家；p5.js 创建者；UCLA 设计媒体艺术系教授",
+    "bio_zh": "艺术家，审视监控、自动化和算法化生活之下的社会关系；p5.js 库的创建者，曾在 SFPC 任教。",
+    "why_zh": "她运用面部分析、手势追踪和入耳式 AI 来增强亲密的社交情境，让 AR 成为质疑监控的工具。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "memo-akten": {
+    "role_zh": "艺术家、研究者；加州大学圣迭戈分校助理教授",
+    "bio_zh": "出生于土耳其的艺术家和计算机科学家，创作涉及代码、计算机视觉和机器学习；他开发的 ofxMSAFluid 工具在 openFrameworks 社区中被广泛使用。",
+    "why_zh": "他把网络摄像头变成供全身使用的乐器和画笔，后来又为日常物品制作了实时 AI“现实滤镜”。",
+    "based_zh": "洛杉矶，美国"
+  },
+  "chris-oshea": {
+    "role_zh": "艺术家、创意技术专家",
+    "bio_zh": "英国艺术家和设计师，为公共屏幕、博物馆和医院创作趣味性的摄像头互动装置；长期为 openFrameworks 贡献代码。",
+    "why_zh": "他创作了会捉弄路人的公共空间混合现实作品，比如在 BBC Big Screens 上把行人从街上拎起来的巨手。",
+    "based_zh": "伦敦，英国"
+  },
+  "nicole-he": {
+    "role_zh": "程序员、艺术家；前 Google Creative Lab 创意技术专家",
+    "bio_zh": "程序员和艺术家，用语音界面、游戏和 AI 创作趣味作品；SFPC 与 ITP 社区成员。",
+    "why_zh": "她将语音识别与 ARCore 结合，让你通过对 AR 植物说话来让它们生长。",
+    "based_zh": "纽约，美国"
+  }
+}

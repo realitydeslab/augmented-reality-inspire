@@ -1,0 +1,926 @@
+{
+  "shunichi-kasahara--shadowclones": {
+    "description_zh": "一个人同时操控多个虚拟身体，并从多个视角观看它们；影子般的提示标出每个身体的位置，让用户能在不同视角之间协调动作。",
+    "idea_en": "One person splits into several shadow-like bodies and coordinates them across multiple viewpoints.",
+    "technique_zh": "由一个被追踪的身体驱动多个化身副本的渲染，并为每个分身叠加影子投影，以便在不同视角之间保持身体与空间的协调。",
+    "exercise_en": "Place three virtual clones in phone AR that copy your movements using body skeleton tracking, and pose so that all three clones hit a target at the same moment. Twist: give each clone a different motion delay."
+  },
+  "elevenplay-mikiko--syn": {
+    "description_zh": "TOKYO NODE 的开幕演出：观众走上一座 1,500 平方米的舞台，24 位舞者、不断变化的空间与混合现实体验交织在一起，模糊了表演者与观众的边界。",
+    "idea_en": "The audience walks onto the stage and forms the show together with 24 dancers and mixed-reality imagery.",
+    "technique_zh": "将现场舞者与 MR 内容、被追踪的舞台元素和投影结合，使空间随观众的移动而重新组合。",
+    "exercise_en": "Divide the classroom into zones where walking into each zone triggers different projections and music, and have classmates perform inside them. Twist: in the audience's phone AR, there is one more dancer than on the actual stage."
+  },
+  "ryo-suzuki--teachable-reality": {
+    "description_zh": "用日常物件做几次示范（盖子打开或合上、玩具被挪动），就能在设备端训练一个模型，并把这些状态与 AR 效果绑定，无需写代码就能制作实体交互 AR 的原型。",
+    "idea_en": "Demonstrate with any object at hand a few times and it becomes a physical controller for AR effects.",
+    "technique_zh": "设备端的图像分类器通过用户对物体状态的少量示范完成训练（交互式机器教学），摄像头画面中检测到的状态变化会触发绑定在被追踪场景上的 AR 效果。",
+    "exercise_en": "Train two states with Teachable Machine, such as cup lid open/closed or book open/shut, and link the state change to an effect in web AR, like steam rising when the lid opens. Twist: turn an everyday object with no electronics into a game controller."
+  },
+  "ian-curtis--x425957": {
+    "description_zh": "一块可以真正玩的俄罗斯方块棋盘漂浮在房间里，其 WebAR 代码由 ChatGPT 生成。",
+    "idea_en": "Let AI write the code and stand a game of Tetris up in the living room.",
+    "technique_zh": "二维俄罗斯方块网格被渲染为一块由立方体网格组成、锚定在世界空间中的竖直平面，通过命中测试（hit test）放置；标准游戏逻辑由定时器驱动，屏幕按钮负责输入。",
+    "exercise_en": "Have AI generate a Tetris game floating in AR and log every bug you have to fix by hand. Twist: when blocks land, they become physics blocks on the real floor that can be knocked over."
+  },
+  "figmin-xr--the-floor-is-lava": {
+    "description_zh": "在 Quest 3 上使用 Figmin XR，真实客厅的地板被翻滚冒泡的虚拟岩浆覆盖，而家具成了安全的小岛。",
+    "idea_en": "The living-room floor turns into lava and only the furniture is safe to stand on.",
+    "technique_zh": "在检测到的地面平面上铺设岩浆材质，同时利用场景网格让真实家具保持可见并产生遮挡。",
+    "exercise_en": "Use phone AR to detect the floor and cover it with a lava material, and only let players step on safe mats marked with images that the app recognizes. Twist: the lava rises every 30 seconds."
+  },
+  "figmin-xr--real-world-canvas": {
+    "description_zh": "一位艺术家在 Figmin XR 中围绕真实房间绘制发光的笔触和物体；作品环绕着家具，并固定停留在原处。",
+    "idea_en": "Paint among the furniture of a real room, and the artwork stays where you left it.",
+    "technique_zh": "将三维笔刷笔触与持久化空间锚点结合，使绘画在不同使用时段之间始终与房间对齐。",
+    "exercise_en": "Use a phone AR drawing app (such as a successor to Just a Line, or Reality Composer) to paint a 3D installation in a corner of the classroom, save the anchor, and reopen it next class. Twist: two people take turns finishing the piece on the same anchor."
+  },
+  "aidan-wolf--touch-grass-lens": {
+    "description_zh": "一个带点调侃意味的 AR 滤镜：它能识别你是否真的摸到了草，并给你奖励，让你在网上证明自己确实出过门。",
+    "idea_en": "It checks that you really touched grass and hands you proof that you went outside.",
+    "technique_zh": "将手部追踪与地面/草地分割或分类模型结合，判断手是否与真实草地重叠（大概率使用 Lens Studio 的机器学习功能）。",
+    "exercise_en": "Train a grass/not-grass classifier with Teachable Machine and award a badge when the phone sees a hand on grass. Twist: switch to recognizing leaves, stones and other natural objects on campus to fill a collection guide."
+  },
+  "jelle-vermandere--rc-car-pets": {
+    "description_zh": "头顶的计算机视觉系统实时追踪几辆由 Arduino 控制的遥控车，并给每辆车赋予一种性格，让它们像宠物一样在地上游走，对他作出反应。",
+    "idea_en": "Give RC cars personalities so they wander the floor and respond to you like pets.",
+    "technique_zh": "摄像头通过计算机视觉标记追踪每辆车，行为脚本再通过无线电发回转向指令，让实体小车按照虚拟规则行动。",
+    "exercise_en": "Use micro:bit cars and an overhead camera for tracking, and make the cars afraid of classmates' feet so they run away. Twist: project an emotion face on the floor for each car."
+  },
+  "lauren-mccarthy--voice-in-my-head": {
+    "description_zh": "参与者戴上耳机，耳机里的 AI 声音会聆听他们的对话并实时低声给出指引，在各种社交场合中取代他们的内心独白。",
+    "idea_en": "An AI inner voice in your earpiece whispers live advice while you talk to people.",
+    "technique_zh": "语音识别转写佩戴者周围的对话，LLM 根据设定的人格档案生成简短建议，再由文字转语音（TTS）以低延迟通过耳机播放。",
+    "exercise_en": "Use speech recognition in a phone web page plus an LLM API to summarize a conversation into one suggestion, and have TTS read it quietly into your earphones. Twist: give the voice a personality that is the exact opposite of yours, chat with a classmate for 5 minutes while wearing it, then reflect."
+  },
+  "ian-curtis--8": {
+    "description_zh": "一只可以对话的 AR 猫头鹰，和你聊红杉林的生态系统；同一个网页版本可同时运行在手机和 MR 头显上。",
+    "idea_en": "Talk with an AR owl that shows you around the redwood forest.",
+    "technique_zh": "一个锚定在空间中的动画角色接入了语音识别、带有森林生态背景提示词的 LLM 以及文字转语音；同一个网页版本可适配手机或头显的输入方式。",
+    "exercise_en": "Place an animal character in AR and use speech recognition, an LLM and TTS so it answers questions about an ecosystem. Twist: give the character a boundary of knowledge and make it admit when a question goes beyond it."
+  },
+  "greg-madison--augmented-keyboard": {
+    "description_zh": "在 Quest 2 上，被追踪的实体键盘配上一块智能虚拟屏幕和随情境变化的叠加信息，而不是一整面墙的虚拟显示器。",
+    "idea_en": "Pair a physical keyboard with one smart virtual screen instead of a wall of virtual monitors.",
+    "technique_zh": "键盘追踪 SDK 提供键盘的位姿，单块虚拟屏幕和情境叠加信息都相对于键盘放置，而不是固定在房间中。",
+    "exercise_en": "Hang a small AR screen above a real keyboard that shows only the line you are currently typing. Twist: change the screen color according to the mood of the text as you type."
+  },
+  "marlena-myles--dakota-landmap": {
+    "description_zh": "一幅标注了达科他语地名的双子城插画地图，通过 Adobe Aero 观看时会变成立体的动画地景。",
+    "idea_en": "A city map redrawn with Dakota place names comes alive in 3D through AR.",
+    "technique_zh": "Adobe Aero 场景将分层的三维插画和动画锚定在印刷地图的图像上。",
+    "exercise_en": "Draw a map of your local area labeled with old or dialect place names, and use Adobe Aero to make the landmarks pop up in 3D. Twist: tapping each landmark plays a sound clip about it."
+  },
+  "dynamicland-bret-victor--biomolecular-design": {
+    "description_zh": "科学家们在 Realtalk 桌面上一起设计蛋白质，通过操作打印的纸页和实体控件来驱动投影出的分子模型。",
+    "idea_en": "Scientists gather around a table and design protein molecules together with paper and physical objects.",
+    "technique_zh": "打印纸页和旋钮等实体控件由 Realtalk 的摄像头系统追踪，其状态被输入分子建模程序，程序输出再投影到桌面上，供小组共同操作。",
+    "exercise_en": "Show a molecule or data model with a top-down projector and use marker-tagged paper strips as parameter knobs whose rotation the camera reads, so several people can adjust different parameters at once. Twist: swap in a complex model from your own field and see whether making it physical helps the discussion."
+  },
+  "sallia-goldstein--body-confetti": {
+    "description_zh": "一个追踪全身的 Snapchat 滤镜：随着你移动和跳舞，彩色纸屑会从相应的肢体上喷射而出。",
+    "idea_en": "Confetti bursts out of your limbs as you dance.",
+    "technique_zh": "Lens Studio 的身体网格追踪提供肢体的位置和速度，用来触发附着在身体上的粒子发射器。",
+    "exercise_en": "Use Lens Studio body tracking (or MediaPipe Pose) to make confetti spray from your hand when you wave. Twist: the faster you move, the warmer the confetti colors."
+  },
+  "abhishek-singh--ar-streets-nyc": {
+    "description_zh": "一次简短的街头介入：虚拟物体出现在纽约人行道上的往来行人之间。",
+    "idea_en": "Drop AR spectacles straight into the crowds on New York streets.",
+    "technique_zh": "物体被放置在户外世界追踪空间中检测到的地面平面上，依赖 SLAM 的稳定性，同时有真实行人在摄像头画面中穿行（可能使用了人体遮挡）。",
+    "exercise_en": "Place a group of giant virtual objects on a campus sidewalk with people occlusion turned on, and film passers-by walking past. Twist: make the objects appear only when someone walks by."
+  },
+  "sallia-goldstein--character-mashup": {
+    "description_zh": "用户自己拼装一个混搭化身，用身体追踪让它活起来，再通过联机滤镜与朋友分享。",
+    "idea_en": "Assemble your own monster avatar, drive it with your body, then play with friends on the same screen.",
+    "technique_zh": "选定的身体部件被组装到一套由全身追踪驱动的骨骼绑定上，联机滤镜在用户之间同步化身。",
+    "exercise_en": "Have students draw a head, a body and legs on paper, combine them into a character and drive it with MediaPipe Pose. Twist: swap one part with your deskmate."
+  },
+  "luke-hurd--charlie-parker-landmarker": {
+    "description_zh": "借助 Lens Studio 的 Custom Landmarker，对一座真实的 Charlie Parker 纪念雕像进行扫描，让 AR 特效在现场精确地环绕雕塑。",
+    "idea_en": "Turn a real memorial statue into an AR stage, with effects fitted precisely to its shape.",
+    "technique_zh": "以预先扫描的雕像三维模型作为追踪目标，使滤镜相对实体纪念碑完成定位，并将特效与其对齐。",
+    "exercise_en": "Pick a sculpture or door sign on campus and build an AR effect fitted to it with Lens Studio Custom Landmarker or 8th Wall. Twist: make the effect tell the history of the object."
+  },
+  "luke-hurd--coachella-virtual-adventure": {
+    "description_zh": "一个为 Coachella 打造的 AR 体验案例：现场乐迷和远程粉丝都能在活动周边解锁虚拟世界。",
+    "idea_en": "Build an AR adventure for a music festival that mixes the real and the virtual.",
+    "technique_zh": "由位置和标记触发的 Instagram 特效在音乐节各处呈现主题 AR 场景（大概率使用了锚定在世界空间中的传送门和目标追踪）。",
+    "exercise_en": "Make an AR treasure hunt for a school event where each of three venues reveals a virtual scene and collecting all three unlocks the finale. Twist: online viewers can join with the same effect."
+  },
+  "will-pappenheimer--colorfield-weather-app": {
+    "description_zh": "虚拟 AR 体素从天而降或在场地上蔓延，留下的轨迹在环境的地形和建筑上“画”出色域绘画。",
+    "idea_en": "Colored AR blocks fall from the sky and paint color-field paintings across buildings and terrain.",
+    "technique_zh": "受重力和外力作用的 AR 体素粒子与检测到的表面发生碰撞，并留下持久的彩色轨迹。",
+    "exercise_en": "Use Unity AR Foundation or web AR to drop colored blocks that leave color on the floor plane. Twist: weather data such as temperature and wind speed decides the colors and the direction of the fall."
+  },
+  "jelle-vermandere--real-ball-soccer": {
+    "description_zh": "网络摄像头追踪一只真实足球和他的身体姿态，于是踢出真球就能驱动 Unity 中的一场数字足球比赛。",
+    "idea_en": "Kick a real ball and the match on screen follows.",
+    "technique_zh": "Python 计算机视觉程序从网络摄像头画面中检测球的位置和玩家姿态，并将数据实时传给 Unity，映射到游戏世界中。",
+    "exercise_en": "Use a webcam and color tracking so a real paper ball controls a pinball on screen. Twist: trigger a goal animation when the paper ball hits a particular cardboard area on the wall."
+  },
+  "marlena-myles--dakota-sacred-hoop-walk": {
+    "description_zh": "一场 AR 展览：沿步道设置的各个站点展示艺术作品，帮助参观者从达科他人的视角理解自然、土地与文化。",
+    "idea_en": "Walk the Sacred Hoop trail and use AR to understand the land from a Dakota perspective.",
+    "technique_zh": "沿路各站点触发的手机 AR 叠加显示达科他艺术作品动画和相关教诲。",
+    "exercise_en": "Choose four points on campus for the four directions and use AR to show nature knowledge tied to east, south, west and north. Twist: the final animation unlocks only after you walk the full circle in order."
+  },
+  "klaus-obermaier--facing-life": {
+    "description_zh": "一件关于社会规训的实时渲染装置：参观者的在场与面孔驱动着孩童般的化身，而这些化身会逐渐被社会规范“改造”。",
+    "idea_en": "Your face and movement drive a virtual child who is gradually disciplined by society.",
+    "technique_zh": "由摄像头驱动的 Unity 实时渲染，可能利用面部和身体追踪将观众映射到投影出的化身上。",
+    "exercise_en": "Use Unity or web face tracking so classmates drive a cartoon child, then add rules that gradually restrict its expressions. Twist: the audience votes on which expression gets banned next."
+  },
+  "kaws--family-ar": {
+    "description_zh": "在安大略美术馆（Art Gallery of Ontario），参观者打开 Acute Art 应用，就能看到 KAWS 的巨型雕塑出现在 Galleria Italia 长廊中，与实体展览并置。",
+    "idea_en": "Summon giant KAWS sculptures into a museum gallery with your phone.",
+    "technique_zh": "Acute Art 应用利用平面检测和针对场地的定点放置，将大型三维动画雕塑锚定在美术馆空间中。",
+    "exercise_en": "Design an oversized AR sculpture for a school corridor with Reality Composer or Adobe Aero, and study the impact that scale creates. Twist: the sculpture turns to look at the nearest viewer."
+  },
+  "8th-wall--lightship-vps-for-web": {
+    "description_zh": "8th Wall 与 Niantic 把厘米级的视觉定位带进了手机浏览器，WebAR 内容无需安装应用就能锚定在特定的真实地点。",
+    "idea_en": "Anchor AR content precisely to real places right in the browser, with no app to download.",
+    "technique_zh": "将浏览器的摄像头画面与预先构建的地点地图进行匹配，返回 6DoF 位姿，从而把 WebAR 内容锚定在特定地点。",
+    "exercise_en": "Simulate location-based positioning in web AR with an image marker: after scanning a poster by the door, content appears fixed on the door frame. Twist: each time it opens, show a sentence left by the previous visitor."
+  },
+  "lucas-rizzotto--music-with-clothes": {
+    "description_zh": "一场现场表演：触碰服装的不同部位，就能触发 AR 乐器和视觉效果。",
+    "idea_en": "Tap different parts of your clothes to play music live in AR.",
+    "technique_zh": "身体或表面追踪定位服装上的各个区域，手与区域的接近程度触发乐器采样和 AR 视觉效果（可能通过身体分割加手部追踪实现）。",
+    "exercise_en": "Use MediaPipe Pose to turn your chest, shoulders and knees into keys that play different instrument sounds when your hand touches them. Twist: key positions are set by colored stickers on your clothes."
+  },
+  "shunichi-kasahara--parallel-ping-pong": {
+    "description_zh": "一名用户在 VR 中操控两条机械臂，同时在两张球台上打乒乓球，在两个身体之间切换视角，把两颗球都打回去。",
+    "idea_en": "One person controls two bodies to play two ping-pong matches at once.",
+    "technique_zh": "将两个机器人身上摄像头的画面实时传入头显，并把用户单臂的动作映射到当前选中或混合的机器人身体上。",
+    "exercise_en": "Film two tabletop mini-games with two phones, show the feeds side by side on one screen, and have one classmate use both hands to remotely direct two stand-in classmates at once. Twist: swap the two feeds roughly every 10 seconds."
+  },
+  "christian-marclay--playing-pompidou": {
+    "description_zh": "一个音频 AR 滤镜把蓬皮杜中心变成了一件乐器：参观者“演奏”建筑的各个表面，用在馆内录制的声音创作音乐。",
+    "idea_en": "Turn the entire Centre Pompidou into an instrument you can play.",
+    "technique_zh": "滤镜相对建筑完成定位，并将声音采样映射到各个建筑构件上，指向并点击立面的不同部分即可触发和编排这些声音。",
+    "exercise_en": "Record sounds around the teaching building (doors, stairs, water pipes), pin them to their locations in AR, and make each spot sound when tapped. Twist: record your tapping order as a melody."
+  },
+  "greg-madison--shapexr-realities": {
+    "description_zh": "在 ShapeXR 中进行的数字孪生实验：房间的虚拟副本与真实房间严丝合缝地重合，他可以在同一空间的透视画面与虚拟版本之间淡入淡出。",
+    "idea_en": "Overlay a room's digital twin on the real room and switch freely between the two.",
+    "technique_zh": "房间的数字孪生模型以 1:1 比例与真实房间对齐，在透视画面与孪生模型之间交叉淡化，让用户对比或在两者之间过渡。",
+    "exercise_en": "Scan a corner of the classroom with Polycam, align it with the real space in AR, and use a slider to fade between the real and scanned versions. Twist: secretly change one detail in the scan and have classmates find it."
+  },
+  "jelle-vermandere--hole-in-the-wall": {
+    "description_zh": "一款基于日本节目《墙来了》（Brain Wall）的全身游戏：网络摄像头读取他的姿态，心率监测器制造额外压力，而带着人形洞口的墙正朝他飞速逼近。",
+    "idea_en": "Based on Brain Wall: shape your body to match the hole in the wall to get through.",
+    "technique_zh": "MoveNet 姿态估计从网络摄像头画面中提取身体关键点，并与每面来袭墙体上洞口的轮廓进行比对。",
+    "exercise_en": "Build a Hole in the Wall game with Teachable Machine or MoveNet where a pose outline appears on screen and a classmate has 3 seconds to match it. Twist: two people must combine their bodies to pass one wall."
+  },
+  "keiichi-matsuda--reality-channels": {
+    "description_zh": "“现实世界元宇宙”的一个原型：用户可以在不同频道之间切换，每个频道都用不同的 AR 图层、角色和信息为同一条街道换上新皮肤。",
+    "idea_en": "Switch the city's AR skins like changing TV channels.",
+    "technique_zh": "利用 Niantic Lightship 的网格重建和 VPS 实现共享的城市尺度 AR，多个内容图层锚定在同一条街道上，并能像频道一样在运行时切换。",
+    "exercise_en": "Make three AR channels on the same tabletop or wall (for example fairy tale, surveillance and advertising) and switch between them with a swipe. Twist: let two phones see different channels and discuss the different realities in a shared space."
+  },
+  "ryo-suzuki--realitytalk": {
+    "description_zh": "演讲者说话时，系统识别出关键词并把它们变成 AR 文字、图片和图形，演讲者可以用手势抓取这些元素，放到身体周围。",
+    "idea_en": "As you talk, keywords turn into AR text and images floating around you that you can grab to tell your story.",
+    "technique_zh": "流式语音识别提取关键词，并将其转换为文字或图片放入摄像头画面中，同时手部追踪让演讲者能在身体周围的空间中抓取并重新摆放它们。",
+    "exercise_en": "Use the Web Speech API to detect keywords a speaker says, stick matching text or emoji into the camera view, and move them with a MediaPipe Hands pinch gesture. Twist: give a 60-second AR talk in which every visual element must be summoned by your words."
+  },
+  "kitasenju-design--super-slit-scan": {
+    "description_zh": "一款狭缝扫描相机应用，把时间涂抹在画面上，让移动的人变成被拉长、扭曲的雕塑。",
+    "idea_en": "Spread time across the frame with slit-scan and turn people into warped sculptures of space and time.",
+    "technique_zh": "最近的摄像头帧被存入一张三维纹理（环形缓冲区），着色器让每一行或每一列像素从不同的时间切片采样，形成狭缝扫描式的变形。",
+    "exercise_en": "Store the last 120 camera frames in p5.js or three.js and take each pixel row from a different frame to create a time-scan effect. Twist: distribute the time offset by distance from the center of the frame instead."
+  },
+  "ryo-suzuki--sketched-reality": {
+    "description_zh": "AR 中的草图与桌面小机器人双向互动：画出的斜坡会让机器人移动，而机器人撞上画出的弹簧时，草图也会弹起来。",
+    "idea_en": "A drawn spring can bounce a real little robot, and the robot can push drawn things too.",
+    "technique_zh": "桌面小机器人在 AR 视图中被追踪，草图被转换为物理刚体，因此物理模拟既向机器人发送电机指令，也根据机器人的实测位置更新草图。",
+    "exercise_en": "Use phone AR to recognize a small marker-tagged car (or a toy a classmate pushes by hand), draw a ramp or wall on screen, and make the virtual line bounce when the car hits it. Twist: let the drawn objects command the real car, for example a micro:bit car."
+  },
+  "meta-reality-labs--the-world-beyond": {
+    "description_zh": "一个 Presence Platform 展示项目：你用手电筒一照，真实的墙壁便溶解成一个外星世界，还能和一只会回应手势与语音的宠物 Oppy 玩耍。",
+    "idea_en": "Use a flashlight to dissolve real walls into an alien world, with a pet that listens to you.",
+    "technique_zh": "利用 Scene 模型获取墙面平面，再用着色器在虚拟手电筒照到的位置遮罩透视画面，露出后面的 VR 世界。",
+    "exercise_en": "Use phone AR to detect a wall and cut a round hole where the phone points to show another world, using a mask shader or a portal component. Twist: the hole only opens when you say a magic word."
+  },
+  "jeri-ellsworth--tilt-five-gaming-with-tabletop-holograms": {
+    "description_zh": "通过眼镜展示已发布的 Tilt Five 游戏：桌面策略游戏、棋盘游戏和玩具从游戏板上立起来，并对魔杖作出响应。",
+    "idea_en": "Games rise up from the tabletop board and you move holographic pieces directly with a wand.",
+    "technique_zh": "在 Unity 中以游戏板的局部坐标系制作内容，因此微缩模型看起来像是从板面上升起，并在玩家移动头部时保持对齐。",
+    "exercise_en": "Make a small city that grows out of the tabletop, with buildings revealing different details depending on the angle as you walk around the table. Twist: the little people in the city look toward wherever you are."
+  },
+  "greg-madison--unity-slices-table": {
+    "description_zh": "Unity Labs 在 Quest 2 透视模式下的一个演示：一张真实桌子沿着“现实光谱”滑动，从纯透视画面一直过渡到完全虚拟，你还可以在上面下国际象棋、玩其他桌游。",
+    "idea_en": "Play board games on one real table while sliding continuously between reality and the virtual.",
+    "technique_zh": "虚拟桌子与真实桌子配准，一个混合参数借助遮罩或透明度渐变在透视画面与虚拟渲染之间交叉淡化，让同一个物体沿着现实—虚拟连续体移动。",
+    "exercise_en": "Align a same-sized virtual tabletop on a real table and use a slider to replace materials step by step from fully real to fully virtual. Twist: play the same mini-game at every step and record how it feels different."
+  },
+  "lauren-mccarthy--unlearning-language": {
+    "description_zh": "一件装置兼表演作品：AI 追踪参与者的语言、手势和表情，并用光和声音作出回应，迫使他们发明算法无法察觉的交流方式。",
+    "idea_en": "In a room watched constantly by AI, people have to invent new ways of communicating that machines cannot read.",
+    "technique_zh": "机器学习分类器（姿态估计、面部表情识别、语音识别）检测可识别的人类信号，每次检测都会触发光和声音反馈，参与者则设法躲避检测。",
+    "exercise_en": "Use MediaPipe and Teachable Machine to build a system that recognizes nods, waves and smiles and flashes an alarm light when it does, and have your group invent a way to communicate that it cannot detect. Twist: after one minute of undetected communication, teach your secret code to another group."
+  },
+  "keijiro-takahashi--ar-foundation-vfx": {
+    "description_zh": "在 iPhone 上实时运行：发光的粒子和线条在真实房间和镜头前的人身上生长，并锚定在 LiDAR 扫描出的环境中。",
+    "idea_en": "Grow light effects along the real environment live on a phone.",
+    "technique_zh": "AR Foundation 提供 LiDAR 环境深度和人体模板纹理，VFX Graph 在设备端对其采样，从真实表面发射粒子。",
+    "exercise_en": "Use depth textures in AR Foundation or Lens Studio to make fireflies rise from the room's surfaces. Twist: fireflies scatter wherever a person walks."
+  },
+  "keijiro-takahashi--lidar-street-walk": {
+    "description_zh": "在台湾一条街道上的夜间漫步，被呈现为一个由 iPhone LiDAR 实时构建的稀疏点云世界，既展现了这种传感器的神奇之处，也暴露了它 5 米的探测距离限制。",
+    "idea_en": "Turn LiDAR's short sight into a dreamlike style of street scene.",
+    "technique_zh": "每一帧的 LiDAR 深度采样被重投影为世界空间中的点并不断累积，让场景重建为行走者周围的一道彩色点迹。",
+    "exercise_en": "Scan a corridor with Polycam or Scaniverse, export the point cloud, and use three.js to show only the points within 5 meters of you. Twist: make the point cloud flicker with your footsteps."
+  },
+  "ian-curtis--x669705": {
+    "description_zh": "在 WebAR 中，一个虚拟机器人在真实地板上滚来滚去，把掉落的圣诞装饰收集起来。",
+    "idea_en": "A virtual robot tidies up Christmas ornaments on your real floor.",
+    "technique_zh": "虚拟装饰和机器人共享检测到的地面平面，机器人通过简单的寻的（seek）行为驶向最近的装饰，并在接触时将其收集。",
+    "exercise_en": "Scatter a few small objects at random on the AR floor and have a small robot pick them up in order of distance. Twist: tap the floor with your phone to set up roadblocks for the robot."
+  },
+  "takashi-yoshinaga--ar-lightsaber-mediapipe": {
+    "description_zh": "一个浏览器小玩具：用 MediaPipe 识别你的手，并在网络摄像头画面中从手里延伸出一把发光的光剑。",
+    "idea_en": "Gesture tracking in a web page grows a lightsaber out of your hand.",
+    "technique_zh": "MediaPipe Hands 每帧返回二维关键点，p5.js 沿着从手腕穿过指关节的方向，在摄像头画面上绘制一条发光的线。",
+    "exercise_en": "Use MediaPipe Hands and p5.js to draw a glowing lightsaber from the wrist along the fingers that leaves a trail as you swing it. Twist: when the sabers in both hands cross, they throw sparks and make a sound."
+  },
+  "matthew-hallberg--ar-photoshop-plugin": {
+    "description_zh": "一个 Photoshop 插件把文档的每个图层实时传到手机上，让这些图层可以从显示器中被拉出来，在 AR 中查看。",
+    "idea_en": "Pull Photoshop layers out of the monitor and into AR.",
+    "technique_zh": "Photoshop 插件通过 WebSockets 把每个图层导出为图像，手机则在显示器上（由 Vuforia 追踪）将它们按深度错开叠放成若干四边形面片，用户可以在空间中把图层拉开。",
+    "exercise_en": "Export each layer of a layered poster as a PNG, stack them by depth on the image-tracked poster, and use a pinch gesture to spread the layers apart. Twist: make the layer spacing change automatically with the phone's distance from the poster."
+  },
+  "takashi-yoshinaga--ar-shooter-nreal-ipad": {
+    "description_zh": "一款同处一地的 AR 射击游戏：戴眼镜的玩家和用 iPad 的玩家看到并攻击同一批虚拟目标。",
+    "idea_en": "A glasses player and an iPad player team up for AR shooting in the same space.",
+    "technique_zh": "两台设备都对齐到一个共享参照物（大概率是同一个图像标记或锚点），使二者的坐标系一致，目标状态和命中情况通过网络同步。",
+    "exercise_en": "Use a printed image as a shared origin so a HoloKit headset and a phone see the same set of targets and sync hit states. Twist: give the two players unequal abilities, with one shooting and the other moving the targets."
+  },
+  "columbia-feiner--iss-stowage": {
+    "description_zh": "Carmine Elvezio 及其同事利用头戴式 AR 指导宇航员的货物存放作业，在空间站狭窄的货架中高亮标出每件物品应放的位置。",
+    "idea_en": "On the space station's cramped racks, AR points out where each item belongs.",
+    "technique_zh": "HoloLens 与货架布局完成配准，应用以锁定在世界空间中的轮廓和路径提示高亮目标存放位置，并逐件追踪任务进度。",
+    "exercise_en": "Build an item list for a dorm cabinet or lab drawers and show a highlight box in phone AR for which slot each item goes in, one item at a time. Twist: reverse it into a find-things mode and test how much faster it is than a text-only list."
+  },
+  "velvet-spectrum--aero-birding-guide": {
+    "description_zh": "一套为爱鸟人士设计的明信片变成了可互动的 AR 观鸟指南：插画中的鸟儿从卡片上飞出来，可以在三维中细细观察。",
+    "idea_en": "Scan a postcard and its bird flies out, becoming an interactive birding guide.",
+    "technique_zh": "Adobe Aero 的图像锚点识别每张明信片，并触发带有点击行为的三维鸟类动画。",
+    "exercise_en": "Use Adobe Aero to turn postcards drawn by students into an AR field guide where scanning a card brings up a 3D animal and science facts. Twist: when two cards are placed together, their animals interact."
+  },
+  "daniel-beauchamp--x697153": {
+    "description_zh": "一个原型，设想 AR 眼镜如何让插画师或动画师直接在纸上和桌面上绘画，并看到动态的叠加内容。",
+    "idea_en": "Imagine the superpowers AR glasses could give illustrators: drawings on paper come to life.",
+    "technique_zh": "大概率将被追踪的纸张（图像追踪或平面追踪）与原位渲染的动画叠加层结合，使画作和动画辅助线与实体纸面对齐。",
+    "exercise_en": "Use image tracking to recognize a hand-drawn sketch and overlay a moving animation on the paper. Twist: let a character in the drawing walk off the page onto the desk."
+  },
+  "keijiro-takahashi--bibcam-vfx": {
+    "description_zh": "对一段用 Bibcam 录制的行走视频进行后期处理，让粒子和光迹环绕真实的建筑与行人，特效随街道的真实深度而变化。",
+    "idea_en": "Add space-aware post effects to a depth video that has already been recorded.",
+    "technique_zh": "视频中嵌入的深度和位姿信息让 VFX Graph 能逐帧采样真实几何，使粒子可以在画面中的表面上生成并与之碰撞。",
+    "exercise_en": "Import a depth video into TouchDesigner and use the depth channel to control particle density so nearby people turn into points of light. Twist: shift the particle colors over time from day to night."
+  },
+  "pedro-lopes--altering-perceived-softness": {
+    "description_zh": "一种轻薄装置通过限制指腹的变形，让按压真实的坚硬物体时感觉比实际更软或更硬，可用于 MR 道具。",
+    "idea_en": "Change how the fingerpad deforms and a hard table feels soft.",
+    "technique_zh": "用刚性指环和指甲支架限制指腹的横向扩展，从而改变大脑用来判断软硬程度的触觉线索。",
+    "exercise_en": "Have classmates press the same sponge or tabletop with a bare finger and with a finger tightly wrapped in tape, and rate the difference in softness. Twist: add a soft or hard visual cue in phone AR and see whether it strengthens the illusion."
+  },
+  "moment-factory--augmented-games": {
+    "description_zh": "带动作追踪的地面与墙面投影，把任何空间变成可以跑跳的实体电子游戏场和运动场。",
+    "idea_en": "Turn any space into a projected game field you can run and jump on.",
+    "technique_zh": "顶置摄像头或 LiDAR 追踪玩家在地面上的位置，游戏引擎渲染场地图形并运行游戏逻辑，再通过经过标定的地面与墙面投影呈现出来。",
+    "exercise_en": "Track people on the floor with an overhead camera and build a small game projected onto the floor in TouchDesigner or Unity, such as claiming territory or dodging blocks. Twist: the rules require at least two people to cooperate to score."
+  },
+  "will-pappenheimer--awkward-instance": {
+    "description_zh": "出现在户外特定地点的 AR“灵异显现”：由盗用的人体皮肤贴图和错配的动作捕捉数据拼成、带着故障感的舞动人形。",
+    "idea_en": "Mismatched human skins and motion-capture data become dancing glitch ghosts.",
+    "technique_zh": "绑定好骨骼的三维人形由刻意错配的动作捕捉片段驱动，并通过手机 AR 放置在特定场地。",
+    "exercise_en": "Download characters and animations from Mixamo, deliberately apply motions to characters with the wrong proportions, and place them in AR. Twist: mix motions recorded by the whole class onto a single character."
+  },
+  "keijiro-takahashi--bibcam-shibuya": {
+    "description_zh": "用 iPhone 13 Pro Max 拍摄的街头影像把深度和相机运动直接记录在视频里，之后就能为涩谷十字路口重新打光，并填入三维特效。",
+    "idea_en": "Burn depth and camera pose into the video as you record, so you can later add effects that fit the street space.",
+    "technique_zh": "Bibcam 将 LiDAR 深度图和相机位姿作为元数据编码进每一帧录制画面，Unity 之后可据此重建三维场景，用于后期制作 AR 视觉特效。",
+    "exercise_en": "Record a short campus clip with a LiDAR phone (or export one with Record3D), then add snow or glowing lines to the real space in Unity or Blender. Twist: make the effects appear only beyond 2 meters from the camera."
+  },
+  "keijiro-takahashi--bodypix-vfx": {
+    "description_zh": "网络摄像头实时把人从背景中分割出来，并区分身体各部位，于是粒子、轮廓线和故障效果只会包裹实时画面中的人体。",
+    "idea_en": "Cut the person out of the background in real time so effects only touch the body.",
+    "technique_zh": "BodyPix 人体及部位分割网络通过 Unity Barracuda 运行，其遮罩纹理用于发射 VFX Graph 粒子，并把粒子限制在人体范围内。",
+    "exercise_en": "Use MediaPipe Selfie Segmentation or TouchDesigner to turn a classmate's body into flowing ink while the background stays still. Twist: only a raised hand catches fire."
+  },
+  "daniel-rozin--cmy-shadows-mirror": {
+    "description_zh": "旋转的元件投下青色、品红和黄色的影子，这些影子在墙上混合，形成观者的彩色映像。",
+    "idea_en": "Overlapping cyan, magenta and yellow shadows paint a colored mirror image of you.",
+    "technique_zh": "电机转动彩色光源前方的元件，使重叠的影子以减色方式混合成由摄像头画面驱动的图像（可能如此实现）。",
+    "exercise_en": "Light an object with three phone lights in red, green and blue and observe how the colored shadows mix. Twist: rotate blocking vanes with servos to map camera brightness into colored shadows."
+  },
+  "ian-curtis--x277190": {
+    "description_zh": "他在 WebAR 中于地板上搭起一座受物理驱动的拐杖糖塔，然后让一个小小的虚拟机器人把它撞倒。",
+    "idea_en": "Build a topple-able virtual candy tower on the floor, then release a troublemaking robot.",
+    "technique_zh": "物理引擎在检测到的地面处放置一个不可见的地面碰撞体，模拟叠放的刚体；脚本控制的机器人在接触时施加力，把塔推倒。",
+    "exercise_en": "Use A-Frame or Unity physics to build an AR block tower on the floor and add a small robot that crashes into it. Twist: let the audience steer the robot by tilting their phones."
+  },
+  "marlena-myles--dakota-spirit-walk": {
+    "description_zh": "位于圣保罗 Bruce Vento 自然保护区的一条永久性 AR 公共艺术步道，手机在各处圣地呈现达科他族的神灵、故事和语言。",
+    "idea_en": "On a sacred trail, AR brings Dakota spirits and language back into view.",
+    "technique_zh": "通过图像标记或位置触发的 AR（大概率使用 Adobe Aero 或专用应用），将达科他艺术动画和语音讲述锚定在步道沿途的标牌上。",
+    "exercise_en": "Design three AR stations along a campus path, each using an image marker to show a place's original name and its story. Twist: invite local elders to record the narration."
+  },
+  "sander-veenhof--distant-hand": {
+    "description_zh": "一个基于手部追踪的 AR 原型，把你的手远远伸向前方空间，去触碰远处的物体。",
+    "idea_en": "Stretch out a long AR hand that can reach faraway things.",
+    "technique_zh": "手部追踪提供手腕和手指关节，非线性映射沿手臂射线把虚拟手延伸到远处，使其能触碰远处物体（类似 Go-Go 交互技术）。",
+    "exercise_en": "Use MediaPipe Hands or HoloKit hand tracking to build a virtual hand that grows non-linearly as you extend your arm, and touch distant virtual objects with it. Twist: make the long hand leave touch marks on real objects it passes."
+  },
+  "kitasenju-design--drawing-in-the-air": {
+    "description_zh": "在半空中画出的线条会落定在房间里，化作持久存在的三维丝带。",
+    "idea_en": "Lines drawn in the air become 3D ribbons that stay in the room.",
+    "technique_zh": "根据相机位姿把笔画记录为世界空间中的点，再转换为丝带网格并持久保留在锚点处（大概率使用基于物理的沉降效果）。",
+    "exercise_en": "Draw ribbons in the air with AR Foundation and, once you let go, let them drift down gently under gravity onto the floor plane. Twist: after landing, the ribbons turn into flowers or words."
+  },
+  "tamiko-thiel--enter-the-plastocene": {
+    "description_zh": "一件 AR/VR 装置：由塑料垃圾构成的生物在展厅中围绕观众游动，曾在米兰 MEET 展出。",
+    "idea_en": "The Plastocene, where plastic creatures swim through the gallery.",
+    "technique_zh": "ARKit 世界追踪放置成群游动的生物（boids 式转向行为），让它们在观众周围的展厅空间中穿梭。",
+    "exercise_en": "Use a simple boids algorithm in Unity to make a school of plastic-bottle creatures swim around the room and avoid viewers, treating the camera position as a repulsion point. Twist: tie the number of creatures to the amount of plastic waste the class produces that day."
+  },
+  "keijiro-takahashi--facemesh-barracuda": {
+    "description_zh": "一个在 Unity 中运行的网络摄像头面部与虹膜追踪器，在实时视频上叠加密集的面部网格和眼部关键点，可直接用于面具和视线特效。",
+    "idea_en": "Get a face mesh and eye tracking from one camera in Unity for mask and gaze effects.",
+    "technique_zh": "MediaPipe 面部网格与虹膜模型通过 Barracuda 运行，返回 468 个面部顶点和虹膜关键点，用于给叠加网格贴图并使其变形。",
+    "exercise_en": "Use Spark, Lens Studio or MediaPipe FaceMesh to make a third-eye mask that follows your eye movements. Twist: the mask swaps to a different face when you blink."
+  },
+  "keijiro-takahashi--handpose-barracuda": {
+    "description_zh": "只用一个网络摄像头，就能在 Unity 中实时追踪所有手指关节，并在实时画面上绘制三维手部骨架，作为手势驱动特效的基础构件。",
+    "idea_en": "Get finger joints in Unity from an ordinary camera as a building block for gesture effects.",
+    "technique_zh": "MediaPipe 手掌检测与手部关键点神经网络通过 Unity Barracuda 在 GPU 上运行，每帧输出 21 个三维关键点。",
+    "exercise_en": "Track fingers with MediaPipe Hands (the web version is enough) and make your fingertips drag colored light trails across the camera view. Twist: when you pinch, the light trail becomes a rope you can grab."
+  },
+  "takashi-yoshinaga--holo-cat": {
+    "description_zh": "一块平面屏幕把他的猫呈现为立体全息影像，画面透视会随观者头部移动而变化，无需佩戴头显。",
+    "idea_en": "Head tracking makes a cat on a flat screen look three-dimensional.",
+    "technique_zh": "追踪观者的头部（大概率使用网络摄像头面部追踪），并以与屏幕矩形匹配的离轴投影渲染三维场景，产生运动视差，让显示器像一扇窗户。",
+    "exercise_en": "Track head position with MediaPipe Face Mesh and build an off-axis projection in three.js so a small box on screen seems to have real depth. Twist: the character inside the box turns its head to look at you."
+  },
+  "asobo-studio--holoforge-tennis": {
+    "description_zh": "HoloForge Lab 在 HoloLens 2 上进行的全息粒子特效实验，最后以一场模拟的全息网球对打收尾，挥拍动作由手部追踪识别。",
+    "idea_en": "Play a game of holographic tennis with holographic particles and hand tracking.",
+    "technique_zh": "GPU 粒子特效锚定在世界空间中，经手部追踪的手掌或球拍碰撞体把速度传递给球，球的轨迹用简单物理进行模拟。",
+    "exercise_en": "Use a phone as a racket that sends an AR ball flying based on acceleration when you swing, leaving a particle trail along its path. Twist: make the ball bounce back after hitting a real wall."
+  },
+  "aidan-wolf--hot-potato-lens": {
+    "description_zh": "在一个同处一地的 Snapchat 滤镜中，朋友们在各自的手机之间传递一颗滴答作响的虚拟烫手山芋，直到它在某人手里爆炸。",
+    "idea_en": "Pass an exploding virtual potato among friends.",
+    "technique_zh": "联机滤镜在参与者之间同步共享 AR 物体的归属权和倒计时。",
+    "exercise_en": "Build a multiplayer pass-the-bomb AR game with Lens Studio or Unity Netcode. Twist: you can only throw the bomb by pointing at the other person's phone."
+  },
+  "universal-everything--hyperspace-ar": {
+    "description_zh": "一款面向 iPhone 12 和 iPad Pro 的 LiDAR AR 应用，让生成式形态充满你的房间，并对扫描到的墙面和家具作出反应。",
+    "idea_en": "Scan the room with LiDAR and let generative forms grow along real surfaces.",
+    "technique_zh": "LiDAR 场景重建生成房间网格，生成式几何体沿网格法线生成和生长，并启用遮挡，让形态看起来像是从墙面和家具中冒出来。",
+    "exercise_en": "Use AR Foundation meshing (or plane detection) to grow vines or crystals along walls and tabletops with occlusion turned on. Twist: growth happens only on surfaces you stare at for a long time."
+  },
+  "lucas-rizzotto--girlfriend-musical-instrument": {
+    "description_zh": "基于身体追踪的 AR 把舞者的四肢变成触发器，让她在移动时现场演奏音乐。",
+    "idea_en": "Body tracking turns each of his girlfriend's movements into a playable instrument.",
+    "technique_zh": "身体追踪提供关节位置，当肢体进入设定的触发区域或速度超过阈值时，播放音符并生成视觉效果。",
+    "exercise_en": "Mark out several zones in the frame with MediaPipe Pose so that a hand or foot entering each zone plays a different note. Twist: two people play together, one on melody and one on drums."
+  },
+  "universal-everything--infinity": {
+    "description_zh": "一件生成式装置，展示无尽演化的数字生命；在互动版本中，观众的在场与动作会影响屏幕上的人形。",
+    "idea_en": "The arrival of viewers changes an endless crowd of walkers.",
+    "technique_zh": "实时渲染一群程序化动画的行走者，基于摄像头的在场追踪（可能是斑点检测或姿态检测）调节它们的速度、密度或外观。",
+    "exercise_en": "Make a line of endlessly walking abstract figures in p5.js or TouchDesigner, and use a camera to detect how many viewers there are and where they stand to change the rhythm of the line. Twist: after viewers leave, the crowd keeps some trace of them."
+  },
+  "marlena-myles--innerworld-prism": {
+    "description_zh": "受 Great Northern Festival 委托在圣保罗创作的大型投影：一段关于放下人类自我、重新回归自然的梦幻动画。",
+    "idea_en": "A giant projection tells a dream about letting go of the self and returning to nature.",
+    "technique_zh": "受达科他文化启发的插画动画以建筑尺度投影到城市表面。",
+    "exercise_en": "Draw a 30-second looping animation using local natural or cultural symbols and project it onto the outer wall of a school building at night. Twist: make elements of the animation crawl out through the windows in the wall."
+  },
+  "kaws--kaws-puffs-webar": {
+    "description_zh": "扫描 KAWS 设计的早餐麦片盒上的二维码，就会启动一款 WebAR 游戏，KAWS 角色出现在盒子周围。",
+    "idea_en": "Scan a cereal box and play an AR game with KAWS characters on your table.",
+    "technique_zh": "包装上的二维码打开一个基于浏览器的 AR 体验，使用 ZapWorks Universal AR SDK for Unity 构建，以包装本身作为追踪锚点。",
+    "exercise_en": "Design web AR for a snack package with MindAR or 8th Wall so that scanning the package launches a mini-game. Twist: different patterns on the back of the package unlock different levels."
+  },
+  "paige-piskin--lil-cartoon-bratz-doll": {
+    "description_zh": "一个 Snapchat 滤镜，把用户的脸变成大眼睛、亮晶晶嘴唇的 90 年代时尚娃娃卡通形象，灵感来自 Piskin 童年最爱的玩具。",
+    "idea_en": "Turn your face into a 90s fashion-doll cartoon in real time.",
+    "technique_zh": "基于机器学习的人脸变换（大概率是基于 GAN 的风格模型）把脸部重绘为卡通风格，同时保留头部姿态和表情。",
+    "exercise_en": "Use Lens Studio's ML stylization or face-distortion tools to turn a face into the style of a toy from your childhood. Twist: write a short note explaining which features of the original face you kept."
+  },
+  "sander-veenhof--multi-person-ar-fashion": {
+    "description_zh": "实时 AR 服装同时为多人穿上衣服，探索街头共享的数字时尚。",
+    "idea_en": "Several people wear AR digital fashion at the same time.",
+    "technique_zh": "Lens Studio 的多人身体追踪把服装网格或布料模拟附着到同一摄像头画面中检测到的多个骨架上。",
+    "exercise_en": "Use Lens Studio multi-body tracking to dress everyone in the frame in one matching digital outfit. Twist: let the distance between two people set the color or pattern of the clothes, blending when they come close."
+  },
+  "luke-hurd--mars-ar-natgeo": {
+    "description_zh": "配合毅力号着陆，一个 Instagram AR 传送门让 2.2 亿关注者走进由仅数小时前拍摄的图像拼成的耶泽罗陨石坑 360° 全景。",
+    "idea_en": "On the day Perseverance landed, the newest Mars photos became an AR portal you could walk into.",
+    "technique_zh": "锚定在世界空间中的传送门对球形 360° 全景进行遮罩，使其只能透过门看到，全景内容以近乎实时的火星车图像更新。",
+    "exercise_en": "Make an AR portal from a real 360 panorama photo of your school, space or the sea floor. Twist: the scene inside the portal automatically switches to a new photo every day."
+  },
+  "aidan-wolf--ponk": {
+    "description_zh": "两个朋友在 AR 中玩经典的 Pong，在同一个 Snapchat 共享滤镜里各自用自己的手机击球。",
+    "idea_en": "Two people play AR Pong in the same real space.",
+    "technique_zh": "Snap Connected Lenses 在设备之间同步游戏状态和共享坐标系，使两位玩家看到同一个球和同样的球拍。",
+    "exercise_en": "Build a two-player AR mini-game with Lens Studio Connected Lens or Photon. Twist: players control their paddles with the position of their faces."
+  },
+  "niantic--pikmin-bloom": {
+    "description_zh": "与任天堂合作的一款步行游戏：皮克敏从你的脚步中萌发，跟着你穿过城市，沿你走过的路种下花朵，在 AR 中清晰可见。",
+    "idea_en": "Every step plants flowers in the city, and Pikmin follow you on your walk in AR.",
+    "technique_zh": "计步器和 GPS 轨迹数据在地图上绘制成花径，AR 模式则把跟随的小角色放在相机位置后方的地面平面上。",
+    "exercise_en": "Record the GPS track of a walk, draw it on a map as a flower path, and have a small character follow behind you in AR. Twist: the kind of flower depends on the type of place you were passing."
+  },
+  "zach-lieberman--x949953": {
+    "description_zh": "Shantell Martin 的一首短诗被排布成空间中的一行行文字，你要穿行其间才能读完，全程通过 Snap 的 AR Spectacles 录制。",
+    "idea_en": "A poem you walk into: the words are laid out in space, and reading means walking.",
+    "technique_zh": "在 Lens Studio 中沿一条路径放置世界追踪的文字网格；阅读顺序由佩戴者走到哪里决定，而不是靠滚动。",
+    "exercise_en": "Break a short poem into words and phrases and place them in AR along a corridor or across a sports field, so reading becomes a walking route. Twist: some words appear only when you stop."
+  },
+  "niantic--pok-mon-go-ar-mapping": {
+    "description_zh": "玩家在完成实地调查任务时用摄像头扫描宝可梦补给站和道馆，产出的三维扫描用来构建 Niantic 的地图，以实现持久且锚定于地点的 AR。",
+    "idea_en": "Players scan real landmarks and crowdsource a 3D world map for AR.",
+    "technique_zh": "玩家围绕地标拍摄带位姿数据的简短摄像头扫描，这些扫描被重建为三维地图，用于构建视觉定位系统。",
+    "exercise_en": "Scan a campus landmark with Polycam or Scaniverse and place the scanned model back in AR aligned with the original. Twist: have the whole class scan the same landmark and compare how different scanning paths turn out."
+  },
+  "lightform--project-lfx": {
+    "description_zh": "一台可水平与俯仰转动的投影仪，能把投影界面移动到房间里需要的任何地方，投在桌面、墙面和物体上。",
+    "idea_en": "A projector that turns its head to deliver interfaces onto any surface in the room.",
+    "technique_zh": "把投影仪-相机组安装在电动云台上，并根据扫描得到的房间模型，为每个目标表面实时重新变形投影内容。",
+    "exercise_en": "Put a phone projector on a rotating desk-lamp arm or turntable and turn it by hand to project a timer interface onto the desk, the wall and the door. Twist: use a servo and Arduino to make it follow a person automatically."
+  },
+  "ian-curtis--x951426": {
+    "description_zh": "把一件真实礼物用照片扫描成三维模型，再导回 AR 中，就可以随意放大或缩小。",
+    "idea_en": "Scan a real gift into a 3D model and scale it freely in AR.",
+    "technique_zh": "摄影测量把真实物体的照片转换为带纹理的网格，再导回 AR 中通过命中测试放置，并将双指捏合手势映射为等比缩放。",
+    "exercise_en": "Scan a small object with Polycam or Object Capture, bring it back into AR and pinch to scale it up to the size of the room. Twist: once enlarged, you can walk inside it."
+  },
+  "nancy-baker-cahill--siren-songs": {
+    "description_zh": "为格施塔德和圣莫里茨的 Elevation 1049 创作的沉浸式 AR 动画公共艺术：手绘形态漂浮在阿尔卑斯山景中，伴随着一段歌声配乐。",
+    "idea_en": "Singing AR sound sculptures among the Alps.",
+    "technique_zh": "带地理定位的大尺度绘画动画锚定在开阔景观中，配有同步的空间音轨，并借助 GPS 和指南针实现远距离放置。",
+    "exercise_en": "Choose an open landscape and use WebAR to place floating lines that rise and fall with a song, recording your own humming as the soundtrack. Twist: generate the shape of the lines in real time from the sound spectrum."
+  },
+  "will-pappenheimer--starry-interpose": {
+    "description_zh": "在 Manship 艺术家驻留地上演的一场舞蹈表演：现场编舞与 Pappenheimer 的 AR 作品以及 Paul Manship 雕塑中的姿态相互呼应。",
+    "idea_en": "Dancers perform a mixed-reality dance together with AR artworks and sculpture poses.",
+    "technique_zh": "在演出场地放置手机 AR 内容，并通过设备拍摄，舞者则在虚拟物体周围演绎雕塑姿态。",
+    "exercise_en": "Pick a sculpture on campus, choreograph a dance that imitates its pose, and film it with virtual elements placed beside it in phone AR. Twist: the virtual elements on the audience's phones copy the dancers' movements."
+  },
+  "shunichi-kasahara--stealth-updates": {
+    "description_zh": "通过逐渐变形图像，并利用变化盲视安排变化的时机，让视觉内容在观者眼前改变而不被察觉。",
+    "idea_en": "Use change blindness to alter an image right before your eyes without you noticing.",
+    "technique_zh": "在旧内容与新内容之间计算平滑的图像变形，并以足够慢的速度播放，使其低于可察觉变化的阈值。",
+    "exercise_en": "Use phone AR to slowly morph an element of a poster into another image over 30 seconds, have classmates stare at it and report whether they notice the change. Twist: switch quickly when the viewer blinks or turns their head."
+  },
+  "sander-veenhof--subway-pong": {
+    "description_zh": "一个充满玩心的 AR 眼镜实验：和同车乘客在真实的地铁车厢里横跨车厢打一局 Pong。",
+    "idea_en": "Play Pong with AR glasses in a subway car.",
+    "technique_zh": "大概率利用 Spectacles 的世界追踪，配合共享或同处一地的会话，在车厢里铺设一块横跨车厢的 Pong 场地，由头部或手部位姿控制球拍。",
+    "exercise_en": "Use two phones in the same AR space to build a room-spanning Pong game, with each phone's position acting as the paddle. Twist: set the court in a public place such as an elevator or corridor, with rules that require strangers to cooperate."
+  },
+  "acute-art--looking-glass-darren-bader": {
+    "description_zh": "Darren Bader 在 The Shed 广场上的超现实 AR 雕塑以幽默的方式追问艺术与当代生活，观众可通过 Acute Art 应用观看。",
+    "idea_en": "Place absurd, funny AR sculptures in a city plaza to ask what counts as art.",
+    "technique_zh": "手机 AR 通过 Acute Art 应用，将荒诞的三维物体组合锚定在广场上的固定位置。",
+    "exercise_en": "Combine two unrelated everyday objects into an AR sculpture, place it on campus and give it a title. Twist: let viewers vote for the most absurd combination and swap it in next week."
+  },
+  "acute-art--looking-glass-precious-okoyomon": {
+    "description_zh": "在 The Shed 的公共广场和高线公园（High Line）上，Precious Okoyomon 的 AR 作品——各种生物和取材自然的形态——通过 Acute Art 应用出现，作为群展 The Looking Glass 的一部分。",
+    "idea_en": "Summon soft creatures about nature and identity into a city plaza with AR.",
+    "technique_zh": "Acute Art 应用中针对场地的 AR 放置功能，把三维动画雕塑锚定在广场上带地理坐标的特定位置。",
+    "exercise_en": "Design an AR creature for a campus plaza that expresses the return of nature, and decide the exact patch of ground where it alone appears. Twist: it changes color with the time of day."
+  },
+  "acute-art--looking-glass-tomas-saraceno": {
+    "description_zh": "Tomás Saraceno 的 AR 蜘蛛在 The Shed 广场上爬行，这是他的一个项目的一部分：让蜘蛛和蛛网融入我们的生活，重新思考人与其他物种的关系。",
+    "idea_en": "Let AR spiders crawl through the city to rethink how we relate to other species.",
+    "technique_zh": "在 Acute Art 应用中通过平面检测放置经扫描或制作动画的蜘蛛模型，使其在真实地面上爬行。",
+    "exercise_en": "Use Reality Composer or Adobe Aero to place an AR insect that crawls along the ground, and write one line describing its point of view. Twist: the insect scurries away when a viewer's phone comes close."
+  },
+  "pedro-lopes--touch-and-fold": {
+    "description_zh": "一个装在指甲上的驱动器只在触碰虚拟物体时把小垫片展开到指尖，其余时候收起，让手指仍能正常感受真实物体。",
+    "idea_en": "A fingertip haptic device folds out when needed and tucks away when not, so you can feel both virtual and real things.",
+    "technique_zh": "在指甲上安装一个由舵机驱动的折叠式触觉单元：接触虚拟物体时它转到指腹上，触摸真实物体时则收回。",
+    "exercise_en": "Make a paper finger-flap device: when you touch a virtual object in phone AR, a partner flips the paper down onto your fingerpad, and flips it up when you touch a real object. Twist: swap the paper for different materials to stand for different virtual objects."
+  },
+  "sander-veenhof--urban-lasergame": {
+    "description_zh": "一款基于位置、在城市街道上进行的 AR 激光枪对战游戏。",
+    "idea_en": "Turn city streets into an AR laser-tag battlefield.",
+    "technique_zh": "大概率结合 GPS 定位与基于摄像头的人体检测（或共享 AR 会话），当玩家把手机对准另一名玩家时判定命中。",
+    "exercise_en": "Build a simple laser-tag game with WebAR and person detection, where aiming at a person in the frame and tapping counts as a hit. Twist: a hit does not knock the other player out but leaves an AR decoration on them."
+  },
+  "ishikawa-watanabe-lab--variolight-2-gymnastics": {
+    "description_zh": "大范围动态投影跟随艺术体操运动员的球和彩带，在整套动作中把光效投射到器械上。",
+    "idea_en": "Projection chases a gymnast's ball and ribbon and colors them during the routine.",
+    "technique_zh": "高速视觉追踪体操球和彩带，振镜引导投影仪的光路，在整套动作中让光效始终贴合在快速运动的器械上。",
+    "exercise_en": "Use camera color tracking on a colored ball being tossed and caught, make light effects and particles follow its path on a projector or screen, and perform a 30-second routine to music. Twist: the ball's speed or height drives changes in the music."
+  },
+  "valentin-heun--vuforia-spatial-toolbox": {
+    "description_zh": "PTC Reality Lab 推出的开源工具，是 Reality Editor 的后继者：远程操作员可以看到工厂的实时三维扫描，并通过绘制空间路径为机器人和机器编程。",
+    "idea_en": "Draw paths remotely in a live 3D scene of a factory to program robots directly.",
+    "technique_zh": "空间的 LiDAR 扫描以三维模型形式传给远程客户端，在模型中绘制的路径被转换为共享坐标系中的路径点，再发送给机器人控制器。",
+    "exercise_en": "Scan a room with an iPhone LiDAR app such as Polycam, open the model remotely in three.js and click to draw a path, then send the path to another phone's AR view to show as arrows on the floor. Twist: have a classmate play the robot and walk along the AR path."
+  },
+  "michael-nebeling--xrstudio": {
+    "description_zh": "一个用于 XR 教学的虚拟制作系统：讲师的沉浸式课堂与真实摄像机画面混合后进行直播，让远程学生也能跟上。",
+    "idea_en": "Mix a teacher's XR lecture into a live stream for students to watch.",
+    "technique_zh": "将讲师被追踪的 XR 视角与外部摄像机画面和场景相机画面合成为多路可切换的视频流。",
+    "exercise_en": "Use OBS to combine a classmate's phone AR view with the classroom camera into a live stream while they explain a 3D model in AR. Twist: viewers change the model's color in AR through live chat comments."
+  },
+  "elevenplay-mikiko--border-2021": {
+    "description_zh": "2015 年作品《border》面向疫情后观众的更新版：观众坐在个人移动设备上，通过混合现实头显观看真实舞者与虚拟舞者融为一体，同时还提供线上版本。",
+    "idea_en": "Seated on self-driving chairs, the audience wears MR headsets and watches real and virtual dancers merge.",
+    "technique_zh": "被追踪的移动座椅载着观众穿过舞台，混合现实头显则渲染与实体空间对齐的虚拟舞者。",
+    "exercise_en": "Seat audience members on wheeled chairs pushed by classmates while they watch pre-placed virtual dancers in phone AR. Twist: at one moment the live dancer and the virtual dancer swap places."
+  },
+  "mark-billinghurst--eyemr-vis": {
+    "description_zh": "远程协作者之间的双向视线提示，在 MR 中可视化呈现，让每个人都知道对方在看哪里、是否在专注。",
+    "idea_en": "Show two people each other's gaze so they know where the other is looking and whether they are paying attention.",
+    "technique_zh": "双方的眼动追踪器捕捉视线方向，数据互相交换后在 MR 中以共享视线射线或高亮形式呈现，并用视觉状态提示两人何时在看同一个物体。",
+    "exercise_en": "Use MediaPipe Face Mesh iris points or WebGazer.js to roughly estimate where two people are looking on screen, show each other's gaze cursor in a shared view, and trigger an effect when both look at the same spot. Twist: use mutual gaze to solve a two-person puzzle."
+  },
+  "elevenplay-mikiko--multiplex": {
+    "description_zh": "五位舞者的动作数据、投影影像与五个自主移动的机器人立方体共享两处展览空间和一个线上版本，让真实舞者与虚拟舞者交融。",
+    "idea_en": "Real dancer data, projection and self-moving cubes together form a mixed-reality stage.",
+    "technique_zh": "录制的动作捕捉数据驱动投影映射到移动机器人立方体上的影像，立方体的位置被实时追踪，使虚拟舞者出现在它们移动的表面上。",
+    "exercise_en": "Put cardboard boxes on RC cars and have a projector follow the boxes to cast dancer silhouettes on them. Twist: viewers scan a QR code on their phones to switch which virtual dancer view they see."
+  },
+  "kitasenju-design--100-dollar-wallpaper": {
+    "description_zh": "利用 LiDAR 场景几何，为真实房间的墙面换上虚拟墙纸。",
+    "idea_en": "Give a real room new virtual wallpaper with LiDAR.",
+    "technique_zh": "被分类为墙面的 LiDAR 网格面使用三平面映射或世界空间 UV 贴上纹理，并开启人体遮挡，让墙纸显示在房间中的人后方。",
+    "exercise_en": "Use vertical plane detection to find walls, apply a repeating wallpaper pattern, and turn on people occlusion. Twist: the wallpaper pattern slowly flows or changes color over time."
+  },
+  "mark-dawson--lidar-scene-reconstruction": {
+    "description_zh": "用 iPad Pro 的 LiDAR 实时扫描房间，并以明暗着色和网格线渲染不断扩展的网格。",
+    "idea_en": "Rebuild a room's mesh live with iPad LiDAR.",
+    "technique_zh": "ARKit 场景重建得到的网格锚点在 Metal 中渲染，使用基于法线的着色和世界空间网格线着色器，并随网格扩展实时更新。",
+    "exercise_en": "Show the scanned room mesh with the AR Foundation mesh manager and render it with a world-space grid-line shader. Twist: color the grid lines as a gradient by the order in which areas were scanned."
+  },
+  "lucas-rizzotto--portal-to-best-friend": {
+    "description_zh": "一个隔离期间的项目：一道混合现实“传送门”从他的公寓打开一扇通往好友空间的窗户，让两人可以像虚拟室友一样一起消磨时光。",
+    "idea_en": "During quarantine, build a mixed-reality portal into a friend's home and live as virtual roommates.",
+    "technique_zh": "锚定在墙上的传送门在墙面平面后方渲染远程房间的实时体积视频或深度视频流，并使用模板遮罩，让远程空间看起来就在真实墙壁后面。",
+    "exercise_en": "Put an AR window on a wall that plays a live video call with a friend, using depth or background separation to add a bit of depth. Twist: the window opens only when both of you stand in front of your walls at the same time."
+  },
+  "lucas-rizzotto--marauders-map": {
+    "description_zh": "在英格兰一座租来的“迷你霍格沃茨”城堡里，透过手机观看一张实体羊皮纸，就能看到每个人的实时 GPS 位置以带名字标签的行走脚印呈现，就像《哈利·波特》中的活点地图。",
+    "idea_en": "Make a Marauder's Map that really shows where everyone in the castle is right now.",
+    "technique_zh": "羊皮纸作为图像目标被追踪，每位参与者的 GPS 坐标被转换为羊皮纸上的地图坐标，并在相应位置绘制脚印动画和名字标签。",
+    "exercise_en": "Use image tracking to recognize a hand-drawn campus map and show the live GPS positions of a few classmates as walking footprints. Twist: the map shows only the people who are moving."
+  },
+  "jelle-vermandere--ar-boxing": {
+    "description_zh": "他用 AR Foundation 把虚拟对手放进自家真实的客厅，并对着它们出拳，把日常健身变成一场 AR 拳击赛。",
+    "idea_en": "Bring a sparring partner into your living room, so punching the air becomes a workout.",
+    "technique_zh": "AR Foundation 平面检测把对手放在地面上，手机（手持或绑在身上）的位姿用于检测出拳和闪避。",
+    "exercise_en": "Use AR Foundation to place a punching-bag opponent on the floor that throws punches while the player dodges sideways. Twist: the higher your heart rate, the stronger the opponent."
+  },
+  "kitasenju-design--ar-drawing": {
+    "description_zh": "用手机画出的笔画以风格化的三维线条形式悬挂在空中。",
+    "idea_en": "Draw stylized 3D lines in the air with your phone.",
+    "technique_zh": "在触摸屏幕期间采样的相机位置被转换为带风格化着色的带状或管状网格，并锚定在世界空间中。",
+    "exercise_en": "Record the phone's movement path with AR Foundation to generate a ribbon mesh and add a cartoon outline shader. Twist: finished lines slowly sway in a virtual wind."
+  },
+  "zach-lieberman--ar-wallpaper-lenses-for-snap": {
+    "description_zh": "Zach 为 Snapchat 滤镜做的草图：生成式图案像会呼吸的墙纸一样铺满房间的墙面和各个表面。",
+    "idea_en": "AR is the new wallpaper: cover a room's walls and surfaces with generative patterns.",
+    "technique_zh": "Lens Studio 的世界网格或平面检测提供墙面，使用世界空间 UV 的生成式着色器在墙面上平铺动态图案。",
+    "exercise_en": "Lay a breathing procedural pattern over walls using plane detection in Lens Studio or AR Foundation, with a shader that uses world coordinates as UVs. Twist: the pattern changes with the room's ambient light or sound, turning a dorm wall into mood wallpaper."
+  },
+  "laan-labs--ar-hide": {
+    "description_zh": "一个 LiDAR 时代的实验，让场景中的真实物体在 AR 中消失或变得半透明。",
+    "idea_en": "A LiDAR-era invisibility experiment that makes real objects vanish from view.",
+    "technique_zh": "利用 LiDAR 场景网格抠出真实物体所在区域，再用事先采集的背景填充，或降低透明度渲染，使物体消失或变得半透明。",
+    "exercise_en": "Select a piece of furniture with the LiDAR mesh and cover it with a background texture you photographed in advance. Twist: make the object turn transparent gradually over time, as if fading away."
+  },
+  "theo-triantafyllidis--anti-gone": {
+    "description_zh": "一场现场混合现实表演（2020 年圣丹斯电影节）：经动作捕捉的表演者实时驱动一个类似兽人的化身，穿行在模拟的沼泽中。",
+    "idea_en": "A swamp theater where a motion-captured performer drives a virtual creature in real time.",
+    "technique_zh": "实时动作捕捉把表演者的骨骼数据传入 Unity，重定向到模拟环境中的游戏化身上，并投影给现场观众观看。",
+    "exercise_en": "Use MediaPipe Pose or a phone motion-capture app to drive a strange creature in Unity in real time, and project it on a wall to perform a 3-minute monologue live. Twist: let the audience vote on their phones to change the weather in the creature's environment."
+  },
+  "greg-madison--audio-ar-face-tracking": {
+    "description_zh": "一个以音频为核心的 AR 原型：利用人脸追踪跟随你的头部，渲染锚定在你周围房间中的空间声音。",
+    "idea_en": "Use face tracking to get head direction and build spatial AR made only of sound.",
+    "technique_zh": "前置摄像头的人脸追踪提供头部位姿，并据此更新音频监听器的朝向，使用户转头时声源仍固定在世界空间中。",
+    "exercise_en": "Use ARKit face tracking to get head rotation and drive the orientation of the AudioListener in Unity, so a sound stays fixed in one direction in the room. Twist: make a sound treasure hunt you can play with your eyes closed."
+  },
+  "max-weisel--ar-gestures-2020": {
+    "description_zh": "一个在触摸屏上浏览三维 AR 内容的多点触控手势原型，把三维平移、捏合与缩放映射到场景上。",
+    "idea_en": "A set of 3D multi-touch gestures designed for phone AR.",
+    "technique_zh": "多点触控输入被映射为三维变换：单指拖动沿平面平移，双指捏合缩放，扭转则旋转，映射均相对于相机视角。",
+    "exercise_en": "Implement one-finger panning and two-finger scaling and rotation for a model in phone AR, and ask classmates to test which gesture is hardest to understand. Twist: design a new three-finger gesture."
+  },
+  "aidan-wolf--copy-paste-ar": {
+    "description_zh": "在手机上复制的图片和艺术作品会直接作为 AR 物体粘贴到周围空间中，无需任何编辑步骤。",
+    "idea_en": "Copy an image and paste it straight into real space.",
+    "technique_zh": "剪贴板中的图片经去除背景后，作为带纹理的四边形面片生成在 AR 射线检测的命中点上。",
+    "exercise_en": "Build web AR with 8th Wall or WebXR that lets you pick an image from the photo album and stick it on a wall as a virtual poster. Twist: posted images can be seen and commented on by other classmates."
+  },
+  "dynamicland-bret-victor--progress-report-2020": {
+    "description_zh": "带你参观奥克兰的 Dynamicland 空间：写在纸上的代码页、投影出的可视化、实体编程套件，以及各种协作项目。",
+    "idea_en": "A computer the size of a building with no screens: code on paper, projections on tables, and people programming together around them.",
+    "technique_zh": "每个程序都是一张通过点阵码识别的打印纸页，覆盖整个房间的摄像头-投影仪系统（Realtalk）追踪纸页和物体并运行其中的代码，程序之间通过关于物理位置的陈述相互通信。",
+    "exercise_en": "Build a programmable table with a projector and a camera: print 5 marker-tagged sheets, each standing for a function such as draw a circle, turn red or move right, and apply a sheet's effect to another sheet when you point it at that sheet. Twist: design a meta-program sheet that can read the contents of other sheets."
+  },
+  "olafur-eliasson--earth-speakr": {
+    "description_zh": "一款面向儿童的 AR 应用：孩子们录下自己的声音和面部表情，把它们“借给”世界上的地点和物体——树木、河流、建筑——让它们为地球发声。",
+    "idea_en": "Children lend their faces and voices to trees and rivers so the Earth can speak.",
+    "technique_zh": "面部追踪捕捉孩子的表情和声音，并将其映射到手机摄像头检测到的真实物体上放置的 AR“脸”上。",
+    "exercise_en": "Use AR face puppeteering, for example a Snap Lens or Reality Composer, to put your expressions on a tree on campus and record one line of what the tree wants to say. Twist: the whole class's trees form a conversation."
+  },
+  "ishikawa-watanabe-lab--elamorph": {
+    "description_zh": "仅凭投影，就让一个坚硬的三维物体在运动时看起来像被弹性拉伸和变形，利用的是高速追踪与人的感知机制。",
+    "idea_en": "Projection alone makes a hard object look as stretchy as rubber.",
+    "technique_zh": "高速追踪刚性物体的运动，并根据由该运动驱动的弹性形变模拟来扭曲投影的明暗和纹理，借助感知错觉使物体看起来像在拉伸。",
+    "exercise_en": "Track a hand-held white paper box and give the pattern projected onto it a stretch-and-rebound deformation driven by acceleration, for example with a spring model, so viewers feel the box is soft. Twist: make a short video of a hard object turning soft and survey whether viewers are actually fooled."
+  },
+  "hart-woolery--face-filter-single-photo": {
+    "description_zh": "根据另一个人的一张照片生成人脸滤镜，并映射到用户的实时面部上，跟随表情变化。",
+    "idea_en": "From just one photo, turn someone else's face into your live filter.",
+    "technique_zh": "利用单张照片中的面部关键点构建带纹理的面部网格，并将其变形贴合到实时追踪的人脸上（大概率是一种二维可变形映射）。",
+    "exercise_en": "Use MediaPipe FaceMesh to turn a photo of a celebrity or a famous painting into a mask that fits your own face. Twist: the mask appears only when you smile."
+  },
+  "kitasenju-design--fast-plane-classification": {
+    "description_zh": "可视化呈现 LiDAR 版 iPad Pro 如何瞬间把地板、墙面、天花板和家具分类为不同颜色的表面。",
+    "idea_en": "Visualize LiDAR instantly recognizing floors, walls, ceilings and furniture.",
+    "technique_zh": "基于 LiDAR 的 ARKit 场景重建为每个网格面提供语义分类（地板、墙面、天花板、桌子、座椅），并按类别为网格面着色进行可视化。",
+    "exercise_en": "Read mesh classifications with AR Foundation's ARMeshManager and give floors, walls and tables different colors. Twist: place a character that sits down only on seat-class surfaces."
+  },
+  "ken-nakagaki--hermits": {
+    "description_zh": "小型自走机器人可以钻进可互换的机械外壳——杠杆、曲柄、载具——像寄居蟹换壳一样获得新的物理交互能力。",
+    "idea_en": "Like hermit crabs changing shells, small robots gain new functions by crawling into different shells.",
+    "technique_zh": "使用带位置追踪的 toio 机器人驶入被动式 3D 打印外壳，外壳中的齿轮和杠杆把机器人的运动转换为新的驱动或输入方式。",
+    "exercise_en": "Design three cardboard shells for an RC car (a bulldozer blade, a flag and a little house) and label each shell's function in phone AR. Twist: have the car automatically recognize which shell it is wearing from a QR code."
+  },
+  "takashi-yoshinaga--holobox": {
+    "description_zh": "一个实体盒状显示器与 HoloLens 2 共享同步的物体，这些物体可以在屏幕的三维窗口与周围空气之间无缝穿梭。",
+    "idea_en": "Virtual objects travel seamlessly between a 3D display box and the HoloLens space.",
+    "technique_zh": "盒状显示器按照 HoloLens 用户的头部位姿渲染匹配的离轴透视，共享坐标系则让物体在屏幕渲染与头显渲染之间无缝交接。",
+    "exercise_en": "Use a monitor as an off-axis perspective window (tracking head position with a phone), and when an object leaves the edge of the screen, have it continue in an AR phone. Twist: objects that fall off the screen onto the desk bounce."
+  },
+  "acute-art--kaws-expanded-holiday": {
+    "description_zh": "KAWS 的巨型 COMPANION 形象以 AR 雕塑的形式发布，同时出现在全球多座城市和用户家中，并作为限量 AR 版本出售。",
+    "idea_en": "Giant AR toy sculptures appear worldwide at the same time, and you can buy one to take home.",
+    "technique_zh": "结合地理定位 AR 放置和用户端平面检测：同一个大型雕塑模型既锚定在城市中的固定坐标上，也可以放置在家中任何检测到的地面平面上。",
+    "exercise_en": "Make a giant AR sculpture of a character you designed and have it appear at three GPS locations on campus at once, for example with location-based AR.js. Twist: give the sculpture a different pose at each location, hinting that it moves around the city."
+  },
+  "anna-fuste--kinetic-ar": {
+    "description_zh": "用手机直接在地面上以 AR 方式绘制和编辑机器人的运动路径，实体机器人会沿路径行进，让机器人编程变得空间化、可视化。",
+    "idea_en": "Program a robot by drawing its path right on the floor.",
+    "technique_zh": "AR 界面在共享坐标系中追踪机器人和地面，用户绘制的样条路径被转换为运动指令发送给机器人。",
+    "exercise_en": "Place a few waypoints on the floor in phone AR and have a robot vacuum or LEGO car pass through them in order. Twist: each waypoint can be set to make the robot stop and dance."
+  },
+  "velvet-spectrum--emotional-oranges-lenses": {
+    "description_zh": "带有 Velvet Spectrum 标志性风格的多彩三维滤镜，改造了 Emotional Oranges 音乐录影带中的表演者和场景。",
+    "idea_en": "Turn the studio's signature 3D visual language into AR filters for a music video.",
+    "technique_zh": "带有风格化三维素材的面部滤镜和世界滤镜叠加在表演者身上，并直接通过摄像头拍摄成视频。",
+    "exercise_en": "Make an AR filter music video for a song, with three filters for different shots that share one palette and set of materials. Twist: the filters switch automatically on the chorus."
+  },
+  "takashi-yoshinaga--lidar-cartoon-stream": {
+    "description_zh": "iPad 实时采集的房间和人物点云，在接收端被重新渲染成手绘风格的卡通画面。",
+    "idea_en": "Render a live point cloud as a cartoon-style remote space.",
+    "technique_zh": "接收到的点云使用非真实感着色器渲染（根据深度不连续处做边缘检测，再进行平涂色彩量化），呈现手绘效果。",
+    "exercise_en": "Apply color quantization and an outline shader to a point cloud or depth video to create a cartoon style. Twist: switch styles with the speaker's mood, judged by how loud they are."
+  },
+  "nancy-baker-cahill--liberty-bell": {
+    "description_zh": "一口巨大的 AR 自由钟在美国多个历史地点（费城、塞尔玛、华盛顿）上空敲响，呼吁公民行动。",
+    "idea_en": "Ring an AR Liberty Bell in the sky over historic American sites.",
+    "technique_zh": "地理定位 AR 在历史地点放置带空间音频的大型钟体动画模型，使声源位于观众头顶的天空中。",
+    "exercise_en": "Design an AR sound object hanging in the air for a place tied to a public issue, and use Unity spatial audio so the sound changes with distance. Twist: the object only rings when several people aim at it together."
+  },
+  "google-creative-lab--lines-of-play": {
+    "description_zh": "在真实的地板和家具上搭建多米诺骨牌链；借助 ARCore Depth API，骨牌会隐藏在真实障碍物后面、与真实物体碰撞，并伴随空间音效依次倒下。",
+    "idea_en": "Set up AR dominoes on a real floor, where real objects hide them and get in their way.",
+    "technique_zh": "ARCore Depth API 提供的深度图同时用于遮挡和物理碰撞，使骨牌能藏在真实物体后面并撞上它们。",
+    "exercise_en": "Turn on environment depth, line up AR dominoes on a tabletop and make them stop when they hit a real book. Twist: each domino plays a note of a scale as it falls, forming a melody."
+  },
+  "snap-inc--local-lenses": {
+    "description_zh": "覆盖整片城市街区的持久共享 AR：多位 Snapchat 用户可以一起给真实建筑立面上色和装饰，这些改动会保留在原处，供其他人看到。",
+    "idea_en": "People paint real buildings along a whole street together, and the AR content stays where it was put.",
+    "technique_zh": "城市尺度的三维地图为用户定位，共享的持久化状态记录建筑表面上的每一笔涂装，后来的访客就能看到不断累积的改动。",
+    "exercise_en": "Use persistent anchors and a simple backend such as Firebase to build a shared AR graffiti wall whose graffiti is still there the next time you open it. Twist: the graffiti slowly fades like real paint."
+  },
+  "kitasenju-design--meisai": {
+    "description_zh": "一款 iOS AR 特效应用，提供类似迷彩的生成式滤镜，实时重塑人与空间。",
+    "idea_en": "A generative AR filter app that rewrites people and space in real time, like camouflage.",
+    "technique_zh": "人体分割和深度遮罩驱动全屏着色器，用生成式迷彩图案实时为人和空间重新贴图。",
+    "exercise_en": "Use person segmentation to replace the person's area with texture sampled from the surrounding background, making a camouflage invisibility filter. Twist: you stay invisible only while standing still and reappear as soon as you move."
+  },
+  "michael-nebeling--mrat": {
+    "description_zh": "一个工具包，记录并可视化用户在混合现实应用中如何移动、观看和交互，以三维轨迹的形式在房间中回放他们的路径和视线。",
+    "idea_en": "Draw where users walked and looked in MR as traces in space.",
+    "technique_zh": "对 Unity MR 应用进行埋点，记录头部位姿、视线和输入事件，并将其渲染为原位的三维热力图和轨迹。",
+    "exercise_en": "Use phone AR to record where a classmate's phone moves during a treasure hunt in the classroom, then replay it in AR as colored trails. Twist: use color to show dwell time and discuss the design problems it reveals."
+  },
+  "velan-studios--mario-kart-live-home-circuit": {
+    "description_zh": "一辆装有摄像头的真实遥控卡丁车绕着你家里的纸板关卡门行驶；在 Switch 上，摄像头画面变成一条马力欧赛车赛道，道具、对手和天气都叠加在你的房间里。",
+    "idea_en": "A real RC kart with a camera turns your home into a Mario Kart track.",
+    "technique_zh": "纸板关卡门上的基准标记为遥控车的车载摄像头提供定位，赛道、道具和对手便以卡丁车的视角渲染在其实时视频之上。",
+    "exercise_en": "Mount a phone on a toy car, lay a few image markers on the floor as gates, and show speed-boost items in AR when the car passes them. Twist: arrange the gates into a track that is visible only in AR."
+  },
+  "velan-studios--mario-kart-live-home-circuit-developer-interview": {
+    "description_zh": "Velan Studios 讲解他们如何打造这辆卡丁车、基于关卡门的赛道系统，以及对延迟高度敏感的 AR 渲染，让客厅真正有了赛道的感觉。",
+    "idea_en": "The developers explain how they fused a real car with a virtual track.",
+    "technique_zh": "关卡门既用来定义赛道路径，也用来校正相机位姿漂移；渲染经过专门调校，尽量缩短车辆视频与叠加内容之间的延迟。",
+    "exercise_en": "Measure the latency from camera frame to overlay in your own AR prototype, for example with high-speed video, and try one way to reduce it. Twist: deliberately increase the latency and find the threshold where users start to feel uncomfortable."
+  },
+  "laan-labs--metal-particles": {
+    "description_zh": "由 Metal 驱动的粒子系统，沿着 LiDAR 扫描出的真实房间几何表面流动。",
+    "idea_en": "Let Metal particles flow along the room surfaces scanned by LiDAR.",
+    "technique_zh": "GPU 粒子从 LiDAR 场景网格（或深度图）中采样位置和法线，从而沿真实房间表面流动并与之碰撞。",
+    "exercise_en": "Emit particles from the AR mesh surface with Unity VFX Graph and let them flow over the furniture under gravity. Twist: make the particles flow in the direction the phone is moving."
+  },
+  "8th-wall--microsoft-mixed-reality-capture-holograms-in-webar": {
+    "description_zh": "在微软混合现实捕捉工作室（Mixed Reality Capture Studios）中拍摄的真人表演者体积视频，通过 8th Wall 在手机浏览器中以真人大小的全息影像播放。",
+    "idea_en": "Life-size holographic video of real people appears right in front of you in the phone browser.",
+    "technique_zh": "体积视频（一系列带纹理的网格）以流式方式传输并与音频同步播放，在浏览器中以真人比例锚定在检测到的地面平面上。",
+    "exercise_en": "Record a video of a classmate with phone background removal and place it on the AR floor as a camera-facing flat hologram person. Twist: make the hologram turn its head to look at you as you approach."
+  },
+  "kitasenju-design--minecraft-filter": {
+    "description_zh": "一个 LiDAR 滤镜，把周围的房间渲染成《我的世界》风格的方块几何体。",
+    "idea_en": "Render the real room around you in Minecraft-style blocks.",
+    "technique_zh": "对场景深度或网格进行体素化，每个体素按其投影位置从摄像头画面中采样颜色作为贴图，呈现出类似《我的世界》的方块效果。",
+    "exercise_en": "Voxelize the room mesh and color each block with the matching color from the camera image to make a block-style room. Twist: only a spherical zone in front of the phone turns into blocks."
+  },
+  "denis-kalkofen--mr-light-fields-remote-assistance": {
+    "description_zh": "现场工作人员用手机拍摄工作区域的光场；远程专家可以自由切换视角进行查看，并放置标注，这些标注会出现在工作人员的 AR 视图中。",
+    "idea_en": "Capture a light field with a phone so a remote expert can view it from any angle and place notes back into the on-site AR.",
+    "technique_zh": "采集大量经过配准的图像，为远程协助者渲染场景的新视角，再把他们的三维标注锚定回现场的追踪空间中。",
+    "exercise_en": "Have student A photograph a desktop fault, such as wiring, from several angles with a phone, have student B annotate the steps on the photos, and have A restore them on site as AR labels. Twist: limit B to looking at only 3 photos."
+  },
+  "acute-art--wunderkammer": {
+    "description_zh": "Olafur Eliasson 创作的一组 AR 物件（太阳、雨云、彩虹、海鹦、指南针），在封城期间被放进观众家中；AR 太阳甚至能为一盏虚拟的 Little Sun 灯充电。",
+    "idea_en": "During the pandemic, AR brought the sun, clouds, rainbows and other natural phenomena into people's homes.",
+    "technique_zh": "Acute Art 应用中的平面检测（ARKit/ARCore）将自然现象的动画模型以真实尺度放置在家中，并配有简单的交互逻辑，例如晒太阳可以给虚拟灯充电。",
+    "exercise_en": "Build a natural phenomenon at home with AR Foundation: put a raining cloud or a small sun in the living room and give it a cause-and-effect link with another virtual object. Twist: the phenomenon appears only when the real weather is the opposite, such as sunshine indoors while it rains outside."
+  },
+  "theo-watson--painted-mirror": {
+    "description_zh": "为斯普林维尔公共图书馆（Springville Public Library）创作的一面镜子装置：它用深度相机把你从周围环境中分离出来，将你的肖像画进一个插画世界，你站得越久，画像就越清晰。",
+    "idea_en": "A mirror that paints: the longer you stand still, the clearer your portrait becomes in an illustrated world.",
+    "technique_zh": "深度相机把人从背景中分割出来，基于笔触的绘画风格渲染器描绘肖像，人静止的时间越长，笔刷就越细。",
+    "exercise_en": "Use MediaPipe segmentation and p5.js brush particles to paint a person in an oil-painting style, where strokes get finer and clearer the longer they stay still and blur as soon as they move. Twist: replace the background with a scene from your school to make a graduation-photo mirror."
+  },
+  "kitasenju-design--physics-lidar": {
+    "description_zh": "虚拟物体在 LiDAR 扫描出的家具和地面上弹跳、堆叠。",
+    "idea_en": "Virtual objects collide and pile up realistically on LiDAR-scanned furniture.",
+    "technique_zh": "把 LiDAR 场景网格用作 MeshCollider，使 Unity 中生成的刚体能在真实家具上弹开并堆叠起来。",
+    "exercise_en": "Add a MeshCollider to the AR mesh and tap the screen to throw balls from the camera position so they land on the real sofa. Twist: you score only when you hit a particular piece of furniture."
+  },
+  "niantic--pok-mon-go-buddy-adventure": {
+    "description_zh": "伙伴宝可梦会跟随玩家，并可在 AR 中查看；玩家可以喂食、陪它玩耍、给它拍照，一起走得越多，羁绊就越深。",
+    "idea_en": "Turn a Pokémon into an AR companion that walks with you and that you can feed, play with and photograph.",
+    "technique_zh": "一个动画伙伴被放置在检测到的平面上，喂食、抚摸等触摸交互会改变一个持久保存的亲密度数值，该数值也会随步数增长。",
+    "exercise_en": "Make a small AR pet whose affinity rises when you tap to feed it and swipe to pet it, unlocking a new move once affinity passes a threshold. Twist: affinity also grows with the number of steps you walk each day."
+  },
+  "niantic--pok-mon-go-shared-ar-experience": {
+    "description_zh": "附近的训练家加入同一个共享 AR 会话，各自的伙伴宝可梦一同出现在同一个真实场景中，朋友们可以一起玩耍、合影。",
+    "idea_en": "Nearby players enter the same AR scene and watch their buddy Pokémon play together.",
+    "technique_zh": "附近的手机定位到同一个共同锚点（通过 Lightship 共享 AR），使每位玩家的伙伴都在共享位姿处生成，所有人看到的效果一致。",
+    "exercise_en": "Align two phones with a shared image marker, have each release a pet, and make each pet appear on the other screen too and greet the other pet. Twist: when the two pets come close, they perform a combined move together."
+  },
+  "phil-walton--potato-boss": {
+    "description_zh": "一个 Snapchat/Snap Camera 滤镜，把你替换成一颗会说话的土豆，土豆的嘴和眼睛取自你自己的脸；有位经理在视频会议中被这个滤镜卡住，让它一夜爆红。",
+    "idea_en": "Turn your face into a talking potato.",
+    "technique_zh": "面部追踪裁剪出用户眼睛和嘴巴的纹理，并将其合成到一个跟随头部姿态的三维土豆模型上。",
+    "exercise_en": "Use Lens Studio to paste your eyes and mouth onto a fruit or a piece of stationery to make a talking object. Twist: the object changes color when you say a keyword."
+  },
+  "rubaiat-habib-kazi--pronto": {
+    "description_zh": "Germán Leiva、Cuong Nguyen、Rubaiat Habib Kazi 和 Paul Asente 让设计师通过在视频上画草图、亲自表演交互来制作 AR 原型，草图会锚定在三维空间中。",
+    "idea_en": "Sketch on video and act it out yourself to build an AR interaction prototype in minutes.",
+    "technique_zh": "ARKit 录制带相机位姿的视频，在视频帧上画出的草图借助追踪到的相机和检测到的平面被提升到三维空间，使其在回放录制场景时保持锚定。",
+    "exercise_en": "Record an AR video with Reality Composer or Adobe Aero and quickly prototype an AR app's interaction in it with hand-drawn sketches and acting it out, completing two rounds of iteration in 30 minutes. Twist: the prototype may use only hand-drawn lines and no 3D models at all."
+  },
+  "keijiro-takahashi--rcam2": {
+    "description_zh": "一套基于 iPad Pro LiDAR 的拍摄装置，把彩色画面、深度和相机位姿实时传到 PC，由 Unity 在真实场景外包裹上发光的粒子和线条特效，并始终锁定在房间中。",
+    "idea_en": "Use an iPad's LiDAR as a mobile volumetric camera so effects grow right on the real room.",
+    "technique_zh": "iPad Pro 上的 ARKit 采集 LiDAR 深度、彩色画面和相机位姿，通过 NDI 传输到 PC，Unity 再把深度重投影到世界空间，生成 VFX Graph 特效。",
+    "exercise_en": "Use mesh scanning in Reality Composer or Unity AR Foundation to make particles flow along real walls and furniture. Twist: only the surfaces of objects you have pointed at light up."
+  },
+  "takashi-yoshinaga--lidar-point-cloud-streaming": {
+    "description_zh": "把 iPad Pro 实时的 LiDAR 点云传输到远程 PC 和其他 XR 设备上，后来还加入了卡通风格的渲染。",
+    "idea_en": "Stream an iPad's live LiDAR point cloud to remote devices.",
+    "technique_zh": "每一帧利用相机内参和位姿，把深度图像素反投影为世界空间中的点，然后压缩并通过网络传输，在远端渲染。",
+    "exercise_en": "Take one point every N pixels from an iPhone depth map, unproject them into a point cloud, and send it over WebSocket to a three.js page on a computer for display. Twist: render the points on the receiving side in a different style, such as blocks or text."
+  },
+  "ryo-suzuki--realitysketch": {
+    "description_zh": "在手机 AR 画面中，针对运动的物体（摆锤、滚动的球）画出线条、角度和图表，这些图形会与物体绑定并实时更新，把物理过程可视化。",
+    "idea_en": "Lines and angles you sketch stick to real moving objects and become live physics visualizations.",
+    "technique_zh": "ARKit 追踪设备和检测到的平面，运动物体通过颜色在摄像头画面中被追踪，绘制的元素绑定到物体投影后的三维位置上，使线条、角度和曲线图逐帧更新。",
+    "exercise_en": "In phone AR, use color tracking to mark a swinging pendant or a rolling ball, let the user draw a line connected to it, and update the line's length and angle live while plotting a graph beside it. Twist: use the tool to measure some periodic motion around you that you are curious about."
+  },
+  "kitasenju-design--realtime-boxelization": {
+    "description_zh": "整个房间，连同其中的人，都被实时转换成一片体素方块。",
+    "idea_en": "Voxelize the whole room, people included, into blocks in real time.",
+    "technique_zh": "每一帧将深度图反投影为世界空间中的点，并量化到体素网格中，再以 GPU 实例化的立方体进行渲染。",
+    "exercise_en": "Unproject an iPhone depth map into points, snap them to a 5 cm grid, and render them as blocks with GPU instancing. Twist: make the block size change with the music volume."
+  },
+  "theo-watson--remnant": {
+    "description_zh": "参观者伸出双手，把物质聚拢成一颗恒星，推动它走完整个生命周期，直到它爆发为超新星，留下星云、脉冲星和黑洞。",
+    "idea_en": "Reach out to gather matter into a star until it explodes into a supernova and leaves a black hole.",
+    "technique_zh": "手部追踪（大概率使用深度相机）检测张开双手的聚拢手势，把粒子吸引到一个点上，该点的质量不断累积，并在恒星生命周期的每个阶段触发相应的粒子特效。",
+    "exercise_en": "Use MediaPipe Hands to detect a gathering gesture that pulls projected particles into a star, which explodes into a nebula once it is full. Twist: the number of participants decides the star's color and lifespan, so one person alone can only make a small red dwarf."
+  },
+  "takashi-yoshinaga--lidar-room-scan-ar": {
+    "description_zh": "一个房间扫描原型：用新款 iPad Pro 的 LiDAR 构建房间的彩色网格，再把它叠加回现实中。",
+    "idea_en": "Scan a room with iPad LiDAR and overlay the mesh back onto reality to view it.",
+    "technique_zh": "ARKit 场景重建生成 LiDAR 网格，把摄像头画面投影到网格上以采样顶点颜色，再将彩色网格叠加回房间。",
+    "exercise_en": "Generate a live room mesh with AR Foundation's ARMeshManager and overlay it on the real space with a wireframe material. Twist: color walls, floor and ceiling differently based on the mesh normal direction."
+  },
+  "elevenplay-mikiko--space": {
+    "description_zh": "在保持社交距离的条件下创作：特殊的摄像装置拍摄舞者，影像被拆解并重建为身体本身无法构成的几何世界。",
+    "idea_en": "Break down and reassemble dancers' body data to create geometric worlds the body itself cannot form.",
+    "technique_zh": "多机位拍摄和 GPU 图像处理按照规则集拆解每位舞者的身体数据，并将其实时重组为几何视觉效果。",
+    "exercise_en": "Get joint points with MediaPipe Pose and copy, mirror and rotate them by rule into kaleidoscope geometry. Twist: several classmates join a remote video call and their skeletons combine into a single figure."
+  },
+  "wonderscope-within--sinclair-snake": {
+    "description_zh": "一个以蛇为主角的 Wonderscope 故事，在孩子家中的各处 AR 场景里展开，并通过孩子大声说话来推进剧情。",
+    "idea_en": "Talk with a little AR snake and move the story forward with your voice.",
+    "technique_zh": "带骨骼绑定的动画角色锚定在房间中，场景切换由孩子的口头回答通过语音识别触发。",
+    "exercise_en": "Have an AR character ask you a question and branch into two different storylines based on your spoken answer. Twist: the character remembers what you answered last time."
+  },
+  "google-creative-lab--sounds-in-space": {
+    "description_zh": "一个开源工具包，用于在房间中策划基于位置的音频：把声音放置在空间中，手机播放的配乐会随参观者的走动而变化。",
+    "idea_en": "Place sounds in space to make an AR soundscape that changes as you walk.",
+    "technique_zh": "ARCore 锚点把音源存储在房间中的特定位置，播放音量和声像随手机被追踪的位置而变化。",
+    "exercise_en": "Use AR Foundation to place several invisible sound sources with 3D audio in a room so you hear different music layers as you walk around. Twist: let visitors record their own sounds and place them in the space."
+  },
+  "takashi-yoshinaga--spatial-copy-paste": {
+    "description_zh": "在 HoloLens 2 上框选真实房间中的一块区域，把它作为网格“复制”下来，再把捕捉到的空间“粘贴”到另一位用户的 ARCore 视图中。",
+    "idea_en": "Copy a piece of real space on HoloLens and paste it into someone else's phone AR.",
+    "technique_zh": "用包围盒选取 HoloLens 2 空间网格的一部分，把裁剪后的带颜色网格通过网络发送出去，ARCore 客户端再把它放置在选定的锚点处。",
+    "exercise_en": "Scan a corner of a desk with Polycam, export the model, and paste it onto another table in a second phone's AR. Twist: shrink it tenfold when pasting to make a miniature landscape."
+  },
+  "daito-manabe--terminal-slam": {
+    "description_zh": "透过混合现实眼镜，涩谷的广告牌和广告被抹去，替换成与音乐同步的故障风视觉（减弱现实）。",
+    "idea_en": "Put on MR glasses and Shibuya's ads are erased and replaced with music visuals.",
+    "technique_zh": "减弱现实：分析摄像头画面以检测广告牌区域，对其进行遮罩和图像修补，再替换为与音乐同步的视觉内容，然后重新渲染到头显视野中。",
+    "exercise_en": "Use the phone camera to detect and cover text or logos in the frame (with color segmentation or image tracking), and fill them with rhythm-driven glitch graphics. Twist: replace the covered ads with blank space or sky to experience a city without ads."
+  },
+  "universal-everything--super-you": {
+    "description_zh": "一款 iPhone AR 应用，追踪你的身体，把你实时变成一个流动的数字生命体。",
+    "idea_en": "Point your phone at yourself and become a flowing digital being.",
+    "technique_zh": "ARKit 身体追踪（或人体分割）每帧提供骨架和轮廓，驱动粒子或丝带系统，在摄像头画面中取代用户的身体。",
+    "exercise_en": "Use Lens Studio or ARKit body tracking to replace your whole body with particles or ribbons that flow with your joints. Twist: assign each body part a different material, such as smoke, water or text, to make a digital body that expresses your personality."
+  },
+  "kitasenju-design--unity-chan-occlusion": {
+    "description_zh": "借助 ARKit 深度遮挡，跳舞的 Unity-chan 角色能被真实的人和家具正确遮挡。",
+    "idea_en": "A virtual character is correctly hidden behind real people and furniture.",
+    "technique_zh": "在 AR Foundation 的 AROcclusionManager 中使用 ARKit 人体遮挡和 LiDAR 环境深度，通过深度测试把角色隐藏在真实的人和家具后面。",
+    "exercise_en": "Turn on AROcclusionManager in AR Foundation so a dancing character is correctly hidden behind people and chairs. Twist: when the character is blocked, it pokes its head out to peek."
+  },
+  "acute-art--unreal-city": {
+    "description_zh": "沿伦敦泰晤士河展开的 AR 公共艺术步道，汇集了 Olafur Eliasson、曹斐、Tomás Saraceno 等艺术家的 36 件作品，与 Dazed 联合策划。",
+    "idea_en": "A trail of AR sculptures along the Thames.",
+    "technique_zh": "基于 GPS 地理定位的锚点（再辅以局部平面检测进行精调）沿步行路线放置一系列雕塑，应用本身则充当由地图引导的展览。",
+    "exercise_en": "Have each student in the class make one AR work, install them by GPS position along a campus walkway, and link them together with WebAR. Twist: design a final work for the exhibition that can be seen only after walking the whole route."
+  },
+  "kitasenju-design--virtual-flowers": {
+    "description_zh": "生成式花朵在房间的扫描表面上萌芽、绽放。",
+    "idea_en": "Generative flowers grow and bloom along the room's surfaces.",
+    "technique_zh": "在扫描得到的网格表面上采样点及其法线，程序化的花朵实例沿法线方向生长，并带有尺寸变化的动画。",
+    "exercise_en": "Randomly sample points on an AR mesh or plane and grow flowers along the normals that get bigger over time. Twist: flowers grow only where the phone camera has been aimed for more than three seconds."
+  },
+  "zach-lieberman--x069317": {
+    "description_zh": "滑板手 Christopher Ledwig 用 Weird Type 应用让一串文字跟随滑板在空间中的运动留下轨迹（由 Zach 分享）。",
+    "idea_en": "Someone else takes an AR text tool and finds a new trick: drawing a skateboard's path with words.",
+    "technique_zh": "应用每帧采样手机在世界追踪中的位姿，并沿这条路径发射文字字形，于是移动相机就能在三维空间中书写文字。",
+    "exercise_en": "Make a small tool that leaves a trail of text in the air as you move your phone, then ask classmates to use it while running, jumping or skateboarding. Twist: make the text content change with speed."
+  },
+  "wonderscope-within--willowcrest-manor": {
+    "description_zh": "一个 Wonderscope 悬疑故事，发生在一座阴森的宅邸中，并在孩子的房间里徐徐展开。",
+    "idea_en": "A mysterious manor unfolds a detective story in a child's bedroom.",
+    "technique_zh": "在房间尺度上放置场景道具和角色，大概率配合基于观看方向的脚本触发器，把孩子的房间变成一出悬疑剧的舞台。",
+    "exercise_en": "Build a gaze-triggered AR mystery scene where a clue appears only when you look at a certain corner. Twist: once the clue appears, it moves somewhere else if you look away."
+  },
+  "michael-nebeling--xrdirector": {
+    "description_zh": "一个基于角色分工的协作创作工具：一人担任导演，其他人担任演员或摄影师，大家像拍摄一场戏一样在 AR 中共同操控虚拟角色。",
+    "idea_en": "Split roles like on a film set: director, actors and camera rehearse together in AR.",
+    "technique_zh": "在多台设备之间同步共享的 AR 场景，并为每台设备分配角色，每个角色都有各自用于移动角色、相机和时间线的控制方式。",
+    "exercise_en": "Work in groups with Reality Composer or a shared AR app: one person acts as director and calls out instructions while two others each control a virtual character with a phone to rehearse a 30-second skit. Twist: at the end, the camera operator screen-records the final cut on their phone."
+  },
+  "mark-dawson--lidar-matrix": {
+    "description_zh": "扫描出的房间被贴满下落的《黑客帝国》绿色代码，把他的家变成一场数字雨。",
+    "idea_en": "Cover the scanned room with the green code rain from The Matrix.",
+    "technique_zh": "LiDAR 网格使用世界空间投影着色器进行着色，字符纹理随时间向下滚动，在每个表面上生成《黑客帝国》风格的数字雨。",
+    "exercise_en": "Write a shader for the AR mesh that scrolls a glyph texture downward along the world-space Y axis. Twist: replace the glyphs with the letters of your name or lines of a poem."
+  },
+  "luke-hurd--automaton-effect": {
+    "description_zh": "一个面部特效，为面部网格重新贴图并打光，把用户变成一个由层层金属部件构成的机械自动人偶。",
+    "idea_en": "Turn your face into a mechanical automaton.",
+    "technique_zh": "在被追踪的面部网格上应用自定义纹理和法线贴图，并在面部锚点上附加额外的三维部件，进行实时打光。",
+    "exercise_en": "Use face-mesh texturing in Lens Studio to turn yourself into a museum relic or a robot. Twist: the parts on your face spring open when you open your mouth."
+  },
+  "luke-hurd--hole-in-the-head": {
+    "description_zh": "一个基于面部追踪的特效，在用户的头部切开一个以假乱真的洞，洞里藏着一个微缩的三维场景。",
+    "idea_en": "Open a hole in your head with a tiny world hidden inside.",
+    "technique_zh": "头部周围一个不可见的遮挡网格只写入深度，使放在里面的三维模型看起来像是位于脸上的一个空腔中。",
+    "exercise_en": "Use an occluder material to open a hole in your forehead and put a small spinning planet inside. Twist: the scene inside the hole switches when you blink."
+  }
+}

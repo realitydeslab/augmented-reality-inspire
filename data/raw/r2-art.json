@@ -1,0 +1,4107 @@
+{
+ "batch": "r2-art",
+ "creators": [
+  {
+   "id": "scott-snibbe",
+   "name": "Scott Snibbe",
+   "role": "Interactive artist; founder of Snibbe Studio and Snibbe Interactive",
+   "based": "San Francisco, US",
+   "bio": "Media artist whose late-1990s/2000s 'Screen Series' turned projector light and a viewer's shadow into an interactive medium; he later produced Björk's Biophilia app and led Snibbe Interactive's museum installations.",
+   "why": "Boundary Functions and the shadow works are the canonical examples of projection AR that needs no device: the body itself is the controller.",
+   "links": {
+    "site": "https://www.snibbe.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/snibbe",
+    "youtube": "https://www.youtube.com/results?search_query=Scott+Snibbe",
+    "github": ""
+   },
+   "connected_to": [
+    "camille-utterback",
+    "golan-levin"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "camille-utterback",
+   "name": "Camille Utterback",
+   "role": "Interactive installation artist; MacArthur Fellow (2009)",
+   "based": "San Francisco Bay Area, US",
+   "bio": "Artist whose camera-based projections (Text Rain with Romy Achituv, the External Measures series, Liquid Time) render the moving body as a painterly, living trace. Associate professor at Stanford.",
+   "why": "Text Rain (1999) is one of the most taught interactive artworks ever: bodies catching falling letters is still the clearest demo of body-driven mixed reality.",
+   "links": {
+    "site": "http://camilleutterback.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "scott-snibbe",
+    "golan-levin"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "karolina-sobecka",
+   "name": "Karolina Sobecka",
+   "role": "Artist and researcher (gravitytrap, Flightphase)",
+   "based": "New York, US / Barcelona",
+   "bio": "Polish-born artist who projects responsive animals and figures into public space — from shop windows to buildings passing by a moving car — and later turned to cloud and atmosphere research.",
+   "why": "Sniff and Wildlife put real-time, camera- or sensor-driven characters into the street years before phone AR, making public space itself the display.",
+   "links": {
+    "site": "http://www.gravitytrap.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/ksobecka",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "kyle-mcdonald",
+    "golan-levin"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "klaus-obermaier",
+   "name": "Klaus Obermaier",
+   "role": "Media artist, director, choreographer and composer",
+   "based": "Vienna, Austria",
+   "bio": "Austrian artist who has projection-mapped moving dancers since 1998 (D.A.V.E., Vivisector) and, with Ars Electronica Futurelab, made real-time interactive body projection with Apparition (2004) and a stereoscopic Rite of Spring.",
+   "why": "He pioneered projection mapping onto live moving bodies — AR on the performer rather than on a screen.",
+   "links": {
+    "site": "http://www.exile.at/ko/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/results?search_query=Klaus+Obermaier",
+    "github": ""
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "elevenplay-mikiko",
+   "name": "MIKIKO / ELEVENPLAY",
+   "role": "Choreographer and stage director; founder of the dance company ELEVENPLAY",
+   "based": "Tokyo, Japan",
+   "bio": "MIKIKO choreographs Perfume and BABYMETAL and leads ELEVENPLAY, whose decade-long collaboration with Rhizomatiks (Daito Manabe, Motoi Ishibashi) produced dances with drones, robot cubes, AR overlays and mixed-reality stages.",
+   "why": "She is the choreographer who made drones, projection and mixed reality into dance partners rather than stage effects.",
+   "links": {
+    "site": "https://elevenplay.net",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/results?search_query=ELEVENPLAY+ARCHIVES",
+    "github": ""
+   },
+   "connected_to": [
+    "daito-manabe",
+    "kyle-mcdonald"
+   ],
+   "discovered_via": "daito-manabe"
+  },
+  {
+   "id": "random-international",
+   "name": "Random International (Hannes Koch & Florian Ortkrass)",
+   "role": "Art studio",
+   "based": "London, UK / Berlin, Germany",
+   "bio": "Studio founded in 2005 that makes camera-driven installations where matter reacts to the viewer's presence — mirrors that turn to stare, light that paints your reflection, rain that stops where you walk.",
+   "why": "Rain Room made 'reality that responds to your body' a mass-audience experience without any headset or screen.",
+   "links": {
+    "site": "https://www.random-international.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/randominternational/",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "chris-oshea",
+    "studio-drift"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "rafael-lozano-hemmer",
+   "name": "Rafael Lozano-Hemmer",
+   "role": "Media artist; founder of Antimodular Research",
+   "based": "Montréal, Canada",
+   "bio": "Mexican-Canadian artist whose 'relational architecture' uses surveillance cameras, robotic projectors and biometric sensors to let the public take over city squares and façades; represented Mexico at the 2007 Venice Biennale.",
+   "why": "Body Movies and Under Scan are defining works of public-space projection AR, where your shadow reveals hidden portraits on a building or square.",
+   "links": {
+    "site": "https://www.lozano-hemmer.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/antimodular",
+    "youtube": "https://www.youtube.com/results?search_query=Antimodular",
+    "github": ""
+   },
+   "connected_to": [
+    "daniel-rozin",
+    "golan-levin"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "daniel-rozin",
+   "name": "Daniel Rozin",
+   "role": "Artist; professor at NYU ITP",
+   "based": "New York, US",
+   "bio": "Israeli-American artist who builds 'mechanical mirrors': grids of wood, trash, pegs, steel or toy penguins moved by motors to reflect the viewer captured by a hidden camera.",
+   "why": "His mirrors turn a camera feed into physical pixels — the most tangible form of a reality filter.",
+   "links": {
+    "site": "http://www.smoothware.com/danny/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/bitforms",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "rafael-lozano-hemmer",
+    "golan-levin"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "adrien-m-claire-b",
+   "name": "Adrien M & Claire B (Adrien Mondot & Claire Bardainne)",
+   "role": "Digital art and performance company",
+   "based": "Lyon, France",
+   "bio": "Company combining juggler-programmer Adrien Mondot and visual artist Claire Bardainne; their live, physics-driven projections (eMotion software) and AR books/exhibitions make drawings breathe around dancers and visitors.",
+   "why": "They extended projection-mapped dance into hand-held AR: pop-up books and drawn exhibitions come alive through a tablet.",
+   "links": {
+    "site": "https://www.am-cb.net",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCD9XBbK6YSKMeZ3M-LaAHww",
+    "github": ""
+   },
+   "connected_to": [
+    "klaus-obermaier"
+   ],
+   "discovered_via": "klaus-obermaier"
+  },
+  {
+   "id": "romain-tardy",
+   "name": "Romain Tardy",
+   "role": "Visual artist; former core member of the AntiVJ label",
+   "based": "Belgium / France",
+   "bio": "French artist who co-shaped AntiVJ's architectural projection mapping (Déshérence, O (Omicron)) and now builds site-specific light and projection installations that treat buildings and landscapes as narrative surfaces.",
+   "why": "O (Omicron) on Wrocław's Centennial Hall is a reference piece for projection mapping that reveals — rather than decorates — the architecture.",
+   "links": {
+    "site": "https://www.romaintardy.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/romaintardy",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "joanie-lemercier",
+    "yannick-jacquet"
+   ],
+   "discovered_via": "joanie-lemercier"
+  },
+  {
+   "id": "yannick-jacquet",
+   "name": "Yannick Jacquet (Legoman)",
+   "role": "Media artist and art director; former AntiVJ member",
+   "based": "Brussels, Belgium",
+   "bio": "Visual artist known as Legoman in the AntiVJ label; his mapped installations mix physical print, mechanism and projection so that drawn machines and images appear to move on paper and walls.",
+   "why": "Mécaniques Discursives shows how a static print plus precise projection becomes a living machine — a low-tech, highly teachable form of spatial AR.",
+   "links": {
+    "site": "https://www.yannickjacquet.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/results?search_query=Yannick+Jacquet",
+    "github": ""
+   },
+   "connected_to": [
+    "joanie-lemercier",
+    "romain-tardy"
+   ],
+   "discovered_via": "joanie-lemercier"
+  },
+  {
+   "id": "urbanscreen",
+   "name": "URBANSCREEN",
+   "role": "Artist collective and studio for architectural projection",
+   "based": "Bremen, Germany",
+   "bio": "Collective founded in 2005 that pioneered large-scale 'architectural staging' — façade projections such as 555 KUBIK and the Sydney Opera House sails — and 'augmented sculptures' where projection and custom-built forms are designed together.",
+   "why": "555 KUBIK (2009) is one of the viral works that defined 3D projection mapping as an art form.",
+   "links": {
+    "site": "https://www.urbanscreen.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/urbanscreen_studio/",
+    "vimeo": "https://vimeo.com/urbanscreen",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "pablo-valbuena",
+    "joanie-lemercier"
+   ],
+   "discovered_via": "pablo-valbuena"
+  },
+  {
+   "id": "refik-anadol",
+   "name": "Refik Anadol",
+   "role": "Media artist; founder of Refik Anadol Studio",
+   "based": "Los Angeles, US",
+   "bio": "Turkish-American artist who turns architecture into 'data paintings' with large-scale projection and, later, AI-generated 'data sculptures' on building façades and immersive rooms.",
+   "why": "WDCH Dreams projected a machine's 'memories' of an orchestra onto Frank Gehry's concert hall, extending projection mapping into data and AI.",
+   "links": {
+    "site": "https://refikanadol.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/refikanadol/",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "urbanscreen"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "miguel-chevalier",
+   "name": "Miguel Chevalier",
+   "role": "Digital artist",
+   "based": "Paris, France",
+   "bio": "Mexican-French pioneer of computer art since the 1980s whose generative, interactive floor and vault projections (Magic Carpets, Fractal Flowers, Digital Supernova) respond to visitors walking through them.",
+   "why": "Magic Carpets turned historic floors into generative, body-responsive carpets of light that anyone can play with.",
+   "links": {
+    "site": "https://www.miguel-chevalier.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/miguelchevalier",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "teamlab"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "hellicar-and-lewis",
+   "name": "Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis)",
+   "role": "Creative studio",
+   "based": "London, UK",
+   "bio": "London studio (active c. 2008–2015) that built camera- and Kinect-driven installations with openFrameworks, from mirror-like feedback walls to Somantics, an interactive app for autistic children.",
+   "why": "They showed how openFrameworks computer vision could turn a gallery or shop into a playful body-responsive space.",
+   "links": {
+    "site": "http://www.hellicarandlewis.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/hellicarandlewis",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "zach-lieberman",
+    "theo-watson",
+    "kyle-mcdonald"
+   ],
+   "discovered_via": "zach-lieberman"
+  },
+  {
+   "id": "jiabao-li",
+   "name": "Jiabao Li",
+   "role": "Artist; assistant professor at UT Austin",
+   "based": "Austin, US",
+   "bio": "Chinese-born artist and designer whose work uses AR, projection and performance to let people perceive the world through bats, glaciers and plankton.",
+   "why": "EchoVision and Nocturnal Fugue turn mixed reality into a way of sensing like another species.",
+   "links": {
+    "site": "https://www.jiabaoli.org",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCo-uGtaI3y1IylQPeW3Kx4A",
+    "github": ""
+   },
+   "connected_to": [
+    "botao-amber-hu"
+   ],
+   "discovered_via": "botao-amber-hu"
+  },
+  {
+   "id": "marlena-myles",
+   "name": "Marlena Myles",
+   "role": "Artist (Spirit Lake Dakota)",
+   "based": "Saint Paul, Minnesota, US",
+   "bio": "Dakota artist who uses AR public art, animation and projection to restore Dakota language, stories and place-knowledge to the land of the Twin Cities.",
+   "why": "Her Dakota Spirit Walk is a model of site-specific AR used to reclaim Indigenous presence in public space.",
+   "links": {
+    "site": "https://www.marlenamyles.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCQFekR2Nv9GrGy4aJusyQZA",
+    "github": ""
+   },
+   "connected_to": [
+    "nancy-baker-cahill"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "jakob-kudsk-steensen",
+   "name": "Jakob Kudsk Steensen",
+   "role": "Artist working with ecology and game engines",
+   "based": "Berlin, Germany",
+   "bio": "Danish artist who builds ecological worlds from field recordings, scans and game engines; his Serpentine commission The Deep Listener brought them into Kensington Gardens as location-based AR.",
+   "why": "The Deep Listener is a benchmark for AR that makes you listen to a park's species rather than just look at objects.",
+   "links": {
+    "site": "https://www.jakobsteensen.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/jakobkudsksteensen/",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "olafur-eliasson",
+   "name": "Olafur Eliasson",
+   "role": "Artist; Studio Olafur Eliasson",
+   "based": "Berlin, Germany / Copenhagen, Denmark",
+   "bio": "Icelandic-Danish artist whose light, colour and perception installations (The Weather Project) extended into AR with Wunderkammer and the children's climate app Earth Speakr.",
+   "why": "He makes perception itself the artwork, whether through coloured shadows in a gallery or AR objects in your home.",
+   "links": {
+    "site": "https://olafureliasson.net",
+    "x": "",
+    "instagram": "https://www.instagram.com/studioolafureliasson/",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "kaws",
+   "name": "KAWS (Brian Donnelly)",
+   "role": "Artist and designer",
+   "based": "New York, US",
+   "bio": "Artist whose COMPANION figures moved from street art and toys into giant inflatables and, with Acute Art, some of the most widely seen AR sculptures and AR packaging.",
+   "why": "His AR releases showed that a collectable AR sculpture can reach millions of phones, not just gallery visitors.",
+   "links": {
+    "site": "https://kawsone.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/kaws/",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art"
+   ],
+   "discovered_via": "acute-art"
+  },
+  {
+   "id": "raymond-salvatore-harmon",
+   "name": "Raymond Salvatore Harmon",
+   "role": "Artist, filmmaker and muralist",
+   "based": "London, UK / Los Angeles, US",
+   "bio": "American artist working across graffiti, experimental film and painting; MIRAGE combined an architecture-scale painted wall with a mobile AR layer.",
+   "why": "MIRAGE is an early example of a mural designed from the start to be completed by AR.",
+   "links": {
+    "site": "http://raymondharmon.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC3TStG3tbVZZsMTN63LewsA",
+    "github": ""
+   },
+   "connected_to": [
+    "heavy-projects"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "will-pappenheimer",
+   "name": "Will Pappenheimer",
+   "role": "Artist; co-founder of Manifest.AR; professor at Pace University",
+   "based": "New York, US",
+   "bio": "Artist and founding member of the Manifest.AR collective (2010) who has made location-based AR interventions for over a decade — dancing glitch figures, falling voxels that 'paint' sites, and AR at the Venice Biennale.",
+   "why": "He is one of the artists who defined AR as an uninvited public-art intervention from the Layar era onward.",
+   "links": {
+    "site": "http://www.willpap-projects.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC_61pJgb3JV_-VthUHlNfeg",
+    "github": ""
+   },
+   "connected_to": [
+    "tamiko-thiel",
+    "john-craig-freeman",
+    "mark-skwarek",
+    "sander-veenhof"
+   ],
+   "discovered_via": "tamiko-thiel"
+  },
+  {
+   "id": "chris-milk",
+   "name": "Chris Milk",
+   "role": "Director and immersive artist; co-founder of Within",
+   "based": "Los Angeles, US",
+   "bio": "Music-video director who moved into interactive and immersive work; The Treachery of Sanctuary turned visitors' shadows into flocks of birds before he co-founded the VR company Within.",
+   "why": "The Treachery of Sanctuary is one of the most-watched body-tracking projection works of the Kinect era.",
+   "links": {
+    "site": "http://milk.co",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "wonderscope-within",
+    "golan-levin"
+   ],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "scott-snibbe--boundary-functions",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Boundary Functions",
+   "year": 1998,
+   "description": "An overhead projector draws lines on the floor between everyone standing in the room, dividing it into personal Voronoi cells that grow, shrink and snap as people move.",
+   "idea_zh": "把看不见的“个人空间”用地面上的沃罗诺伊线画出来，人越多空间越小",
+   "technique": "An overhead camera tracks each person's floor position and a Voronoi diagram of those points is computed in real time and projected back onto the floor from above.",
+   "exercise_zh": "用俯拍摄像头+投影仪（或手机俯拍+p5.js）追踪同学站位，实时计算并投影沃罗诺伊分界线；加一个变化：让每个格子的颜色随其面积变化，面积越小越红。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "overhead camera tracking",
+    "Voronoi diagram",
+    "floor projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "5wA3lKcDrlM",
+    "url": "https://www.youtube.com/watch?v=5wA3lKcDrlM"
+   },
+   "source_url": "https://www.snibbe.com/art/boundaryfunctions"
+  },
+  {
+   "id": "scott-snibbe--deep-walls",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Deep Walls",
+   "year": 2002,
+   "description": "A projected wall of sixteen small cupboards: when someone walks into the beam their shadow is recorded, then replayed forever in one of the cupboards as a looping shadow-film of past visitors.",
+   "idea_zh": "把路过的人影录下来，放进墙上的“影子橱柜”永远循环播放",
+   "technique": "A camera segments the viewer's silhouette against the projection, records it while someone is in frame, and drops the clip into a grid cell that loops once the space is empty.",
+   "exercise_zh": "用摄像头抠出人影剪影、录成几秒循环，再拼成网格投影；变化：每个格子只保留某一种动作（如挥手或跳），由简单规则判断放入哪一格。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "silhouette segmentation",
+    "video loop recording",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "X7h9ckxlxtc",
+    "url": "https://www.youtube.com/watch?v=X7h9ckxlxtc"
+   },
+   "source_url": "https://www.snibbe.com"
+  },
+  {
+   "id": "scott-snibbe--shadow",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Shadow (Screen Series)",
+   "year": 2002,
+   "description": "A plain rectangle of projected light; viewers cast ordinary shadows, but after they step away their shadow keeps moving on the screen, repeating their gestures a moment later.",
+   "idea_zh": "你离开了，你的影子却留下来重复你刚才的动作",
+   "technique": "A camera captures the viewer's shadow silhouette and the system re-projects the delayed silhouette sequence onto the same screen once the live shadow disappears.",
+   "exercise_zh": "用网页摄像头做背景差分得到人影，加入3秒延迟后投回墙上；变化：让延迟影子逐渐变淡并反向播放。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "camera silhouette",
+    "time delay",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "pdxYv-_70-s",
+    "url": "https://www.youtube.com/watch?v=pdxYv-_70-s"
+   },
+   "source_url": "https://www.snibbe.com"
+  },
+  {
+   "id": "scott-snibbe--compliant",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Compliant",
+   "year": 2003,
+   "description": "A soft rectangle of projected light behaves like a rubber sheet: visitors' shadows push, dent and chase it around the wall.",
+   "idea_zh": "让屏幕像橡皮膜一样被人的影子推开、挤扁",
+   "technique": "The shadow silhouette from a camera is used as a collision boundary for a spring-mesh (soft-body) simulation of the projected rectangle.",
+   "exercise_zh": "在p5.js里做一块弹簧网格方块，用摄像头人影轮廓当作碰撞体去推它并投影出来；变化：让方块被挤压时发出音调随形变变化的声音。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "soft-body simulation",
+    "silhouette collision",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PSdvN7c25mI",
+    "url": "https://www.youtube.com/watch?v=PSdvN7c25mI"
+   },
+   "source_url": "https://www.snibbe.com"
+  },
+  {
+   "id": "scott-snibbe--cause-and-effect",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Cause and Effect",
+   "year": 2004,
+   "description": "Viewers' silhouettes are recorded as they bump into the shadow-recordings of previous visitors; replays show only the recorded movements, so reactions look like autonomous gestures.",
+   "idea_zh": "你的动作被录下来，与前人的影子互相推挤，形成跨时间的因果链",
+   "technique": "Silhouette clips recorded from a camera are placed on sliding tiles whose positions are displaced by live shadows, chaining recordings of different visitors together.",
+   "exercise_zh": "录下每位同学的剪影片段并排成一排，让下一位的影子推动前面的片段滑动；变化：把推挤的顺序变成一条可回放的“多米诺”时间线。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "silhouette recording",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Db5i2Nz1jHk",
+    "url": "https://www.youtube.com/watch?v=Db5i2Nz1jHk"
+   },
+   "source_url": "https://www.snibbe.com"
+  },
+  {
+   "id": "scott-snibbe--visceral-cinema-chien",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Visceral Cinema: Chien",
+   "year": 2005,
+   "description": "Scenes from Buñuel and Dalí's Un Chien Andalou are projected; viewers' shadows enter the film and take over the role of the character pulling a grand piano.",
+   "idea_zh": "观众的影子走进超现实主义电影，替代主角演出",
+   "technique": "Live camera silhouettes are composited into pre-segmented film footage so that the shadow triggers and drives key moments of the scene.",
+   "exercise_zh": "选一段经典电影片段，用摄像头剪影把同学“放进”画面并触发下一个镜头；变化：只有当影子做出与原角色相同姿势时画面才继续。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "silhouette compositing",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xgxkUH6PrIE",
+    "url": "https://www.youtube.com/watch?v=xgxkUH6PrIE"
+   },
+   "source_url": "https://www.snibbe.com"
+  },
+  {
+   "id": "scott-snibbe--make-like-a-tree",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Make Like a Tree",
+   "year": 2005,
+   "description": "A projected forest in which each visitor's recorded shadow returns as a ghostly figure walking between the trees and fading into the distance.",
+   "idea_zh": "你的影子变成森林里的幽灵，在树之间游荡远去",
+   "technique": "Recorded silhouettes are re-inserted into a layered forest image at different depths and scales, with depth-dependent fading to suggest distance.",
+   "exercise_zh": "拍一张多层景深的风景图，把同学录下的剪影按远近缩放插入不同图层；变化：影子越远越透明，并随时间慢慢“走进”画面深处。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "silhouette recording",
+    "layered compositing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "CPFF3-di2PU",
+    "url": "https://www.youtube.com/watch?v=CPFF3-di2PU"
+   },
+   "source_url": "https://www.snibbe.com/projects/interactive/makelikeatree"
+  },
+  {
+   "id": "scott-snibbe--shadow-bag",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Shadow Bag",
+   "year": 2005,
+   "description": "The projector captures a viewer's shadow and re-projects it with unpredictable variations: sometimes a true shadow, sometimes a disembodied copy that runs toward or away from them.",
+   "idea_zh": "影子不再听话：有时跟随你，有时离开你独自行动",
+   "technique": "A camera silhouette buffer is replayed with randomly chosen transforms (delay, offset, scale, direction) chosen per interaction.",
+   "exercise_zh": "做一个影子投影程序，随机切换“正常、延迟、镜像、逃跑”四种模式；变化：让同学猜当前是哪种规则。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "silhouette buffer",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ybt4DJ7ptpQ",
+    "url": "https://www.youtube.com/watch?v=ybt4DJ7ptpQ"
+   },
+   "source_url": "https://www.snibbe.com"
+  },
+  {
+   "id": "scott-snibbe--central-mosaic",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Central Mosaic",
+   "year": 2007,
+   "description": "Shadows of passers-by are recorded and replayed as silhouettes that shrink and move outward into a fractal mosaic as newer recordings take the centre.",
+   "idea_zh": "每个路人的影子先占据中心，再被新来者推向边缘，成为分形马赛克",
+   "technique": "Silhouette recordings are laid out in a recursive, self-similar tiling where each new clip pushes older clips one level outward and smaller.",
+   "exercise_zh": "把录下的剪影片段做成递归四分网格，新片段进中心、旧的向外缩小；变化：按录制时间给每层上不同颜色，形成“时间年轮”。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "silhouette recording",
+    "fractal layout"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ZdgX4PUyfvw",
+    "url": "https://www.youtube.com/watch?v=ZdgX4PUyfvw"
+   },
+   "source_url": "https://www.snibbe.com"
+  },
+  {
+   "id": "scott-snibbe--falling-girl",
+   "creator_ids": [
+    "scott-snibbe"
+   ],
+   "title": "Falling Girl (with Annie Loui)",
+   "year": 2008,
+   "description": "An immersive narrative projection of a girl falling slowly past skyscraper windows; cameras place the live audience inside the apartments she passes as she ages during the fall.",
+   "idea_zh": "观众被实时放进大楼窗户里，成为坠落女孩一生中遇见的人",
+   "technique": "Room cameras capture viewers and composite their live images into window regions of a pre-animated building while the scripted falling-girl animation plays in the centre.",
+   "exercise_zh": "画一栋有很多窗户的楼，把摄像头拍到的同学实时抠像贴进窗户里，再让一个角色从上往下经过；变化：角色经过谁的窗户就对谁做一个反应动作。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "live compositing",
+    "projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "7rmd44OwMgk",
+    "url": "https://www.youtube.com/watch?v=7rmd44OwMgk"
+   },
+   "source_url": "http://snibbe.com/scott/fg/index.html"
+  },
+  {
+   "id": "camille-utterback--text-rain",
+   "creator_ids": [
+    "camille-utterback"
+   ],
+   "title": "Text Rain (with Romy Achituv)",
+   "year": 1999,
+   "description": "Participants see a mirrored video of themselves while coloured letters from a poem fall like rain; the letters land on and rest on anything dark, so people catch, lift and spill lines of text with their bodies.",
+   "idea_zh": "用身体接住从天而降的诗句字母",
+   "technique": "Each falling letter checks the brightness of the live camera pixel below it and stops falling when the pixel is darker than a threshold, so the body's silhouette becomes a physical surface.",
+   "exercise_zh": "用p5.js摄像头做“字母雨”：每个字母遇到暗像素就停住；变化：换成自己写的一首诗，并让被接住的字母连成可读的词时发出声音。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "video camera",
+    "brightness threshold",
+    "Max/custom software"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "GYvyuL-Mkjg",
+    "url": "https://www.youtube.com/watch?v=GYvyuL-Mkjg"
+   },
+   "source_url": "http://camilleutterback.com/projects/text-rain/"
+  },
+  {
+   "id": "camille-utterback--liquid-time",
+   "creator_ids": [
+    "camille-utterback"
+   ],
+   "title": "Liquid Time Series",
+   "year": 2002,
+   "description": "A viewer's movement fragments a pre-recorded street video: the closer they step to the projection screen, the deeper that part of the image slides into the past.",
+   "idea_zh": "你离屏幕越近，那一块画面就越退回到过去",
+   "technique": "A camera measures each viewer's position and distance, and a slit-scan-style buffer picks older frames for image regions nearest to the viewer.",
+   "exercise_zh": "把一段视频存成帧缓冲，用摄像头检测人的位置，人所在的竖条显示更早的帧；变化：用手机距离传感或声音大小控制“回到过去”的深度。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "video buffer",
+    "slit-scan",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "qSHmx45AF_k",
+    "url": "https://www.youtube.com/watch?v=qSHmx45AF_k"
+   },
+   "source_url": "http://camilleutterback.com/projects/liquid-time-series/"
+  },
+  {
+   "id": "camille-utterback--untitled-5",
+   "creator_ids": [
+    "camille-utterback"
+   ],
+   "title": "Untitled 5 (External Measures series)",
+   "year": 2004,
+   "description": "A projected 'living painting' where visitors' movements leave soft, overlapping painterly marks that respond to how long and how fast people stay.",
+   "idea_zh": "人的停留与移动在墙上留下会生长的绘画笔触",
+   "technique": "Camera-tracked body positions and motion history drive generative brush-stroke systems that accumulate and decay over time.",
+   "exercise_zh": "用摄像头运动检测驱动生成式笔刷，在投影上留下随停留时间变粗的笔触；变化：只有两个人靠近时才会出现连接两人的线条。",
+   "interaction": [
+    "hand-body",
+    "drawing-creation",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "camera tracking",
+    "generative drawing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "zOydp3DXWrk",
+    "url": "https://www.youtube.com/watch?v=zOydp3DXWrk"
+   },
+   "source_url": "http://camilleutterback.com"
+  },
+  {
+   "id": "camille-utterback--abundance",
+   "creator_ids": [
+    "camille-utterback"
+   ],
+   "title": "Abundance",
+   "year": 2007,
+   "description": "At night a camera on San Jose City Hall watches people walking across the plaza and projects a responsive animation of their paths onto the building's rotunda.",
+   "idea_zh": "广场上行人的路径被实时画成巨大的建筑投影",
+   "technique": "A roof-mounted camera tracks pedestrians from above and their trajectories drive a generative animation projected onto the cylindrical façade.",
+   "exercise_zh": "从教学楼高处俯拍操场，把行人轨迹实时画成彩色流线投到墙上；变化：两条轨迹交叉时生成一朵“花”。",
+   "interaction": [
+    "hand-body",
+    "location-geo",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "overhead camera tracking",
+    "façade projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xgRFUsVVb84",
+    "url": "https://www.youtube.com/watch?v=xgRFUsVVb84"
+   },
+   "source_url": "http://camilleutterback.com/projects/abundance/"
+  },
+  {
+   "id": "camille-utterback--drawing-from-life",
+   "creator_ids": [
+    "camille-utterback"
+   ],
+   "title": "Drawing from Life",
+   "year": 2008,
+   "description": "Museum visitors see a life-size projected image of themselves composed entirely of the letters A, C, G and T, the four bases of DNA.",
+   "idea_zh": "把你的实时镜像写成由DNA四个字母组成的人像",
+   "technique": "Live video is sampled on a grid and each cell is rendered as one of four letters whose size or brightness follows the underlying pixel value (ASCII-art style).",
+   "exercise_zh": "用p5.js把摄像头画面做成ASCII字符人像，只用A、C、G、T四个字母；变化：换成与主题相关的一个词，让字母随声音大小抖动。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "data-information"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "video processing",
+    "ASCII rendering"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "E4AJY959514",
+    "url": "https://www.youtube.com/watch?v=E4AJY959514"
+   },
+   "source_url": "http://camilleutterback.com"
+  },
+  {
+   "id": "camille-utterback--entangled",
+   "creator_ids": [
+    "camille-utterback"
+   ],
+   "title": "Entangled",
+   "year": 2015,
+   "description": "Two layered projections on translucent scrims respond to visitors from both sides, so people on opposite sides tangle each other's painterly traces.",
+   "idea_zh": "半透明幕两侧的人互相“缠绕”对方留下的影像痕迹",
+   "technique": "Two cameras track people on each side of stacked scrims and generative drawing layers are projected through the semi-transparent fabric, mixing both groups' traces.",
+   "exercise_zh": "挂一块薄纱，前后各放一台投影和摄像头，让两侧同学的动作轨迹叠在同一块纱上；变化：只有两侧的人对齐站位时图案才会连通。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "video cameras",
+    "scrim projection",
+    "custom software"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "cmKSwen2GAw",
+    "url": "https://www.youtube.com/watch?v=cmKSwen2GAw"
+   },
+   "source_url": "https://neat.thecjm.org"
+  },
+  {
+   "id": "karolina-sobecka--sniff",
+   "creator_ids": [
+    "karolina-sobecka"
+   ],
+   "title": "Sniff (with James George)",
+   "year": 2009,
+   "description": "A projected dog in a street-facing shop window follows passers-by, reads their gestures as friendly or aggressive and tries to get them to play.",
+   "idea_zh": "橱窗里的虚拟小狗会跟着路人走，并判断你对它是友好还是凶",
+   "technique": "A camera tracks pedestrians outside the window with openFrameworks and feeds position and gesture speed to a Unity-animated dog with simple behaviour states.",
+   "exercise_zh": "用摄像头检测人的位置和挥手速度，驱动一只屏幕上的虚拟宠物转头、靠近或躲开；变化：给宠物加“记忆”，同一个人第二次来时反应不同。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Unity",
+    "Blender",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "6400266",
+    "url": "https://vimeo.com/6400266"
+   },
+   "source_url": "http://www.gravitytrap.com/artwork/sniff"
+  },
+  {
+   "id": "karolina-sobecka--wildlife",
+   "creator_ids": [
+    "karolina-sobecka"
+   ],
+   "title": "Wildlife",
+   "year": 2006,
+   "description": "A tiger is projected from a moving car onto the buildings it passes; the tiger runs alongside, speeding up and slowing down with the car and stopping when it stops.",
+   "idea_zh": "从行驶的汽车上把老虎投在街边建筑上，让它跟着车一起奔跑",
+   "technique": "A sensor on the wheel measures rotation and sets the playback frame rate of the tiger's run cycle, which a car-mounted projector throws onto passing façades.",
+   "exercise_zh": "把投影仪放在推车或自行车上，用编码器/手机加速度计控制跑步动画的帧率，沿走廊投射；变化：速度过快时动物会“累倒”。",
+   "interaction": [
+    "location-geo",
+    "projection",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "wheel sensor",
+    "mobile projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "6400445",
+    "url": "https://vimeo.com/6400445"
+   },
+   "source_url": "http://www.gravitytrap.com/artwork/wildlife"
+  },
+  {
+   "id": "karolina-sobecka--chase",
+   "creator_ids": [
+    "karolina-sobecka"
+   ],
+   "title": "Chase",
+   "year": 2009,
+   "description": "An interactive mobile projection from a moving car in which projected characters chase along the street as the vehicle travels.",
+   "idea_zh": "让投影角色在街景中追逐行驶的汽车",
+   "technique": "Likely the same car-mounted projection rig as Wildlife, with animation playback driven by vehicle motion data.",
+   "exercise_zh": "用手机投影或小投影仪边走边投，让角色速度与步行速度同步；变化：让观众用手机遥控角色在墙上跳过障碍。",
+   "interaction": [
+    "location-geo",
+    "projection",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "mobile projection",
+    "motion sensing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "6400072",
+    "url": "https://vimeo.com/6400072"
+   },
+   "source_url": "http://www.gravitytrap.com"
+  },
+  {
+   "id": "karolina-sobecka--perfect-creatures",
+   "creator_ids": [
+    "karolina-sobecka"
+   ],
+   "title": "All the Universe is Full of the Lives of Perfect Creatures",
+   "year": 2012,
+   "description": "Looking into a mirror, the viewer sees an animal's head overlaid exactly on their own reflection, mimicking their head movement and facial expressions.",
+   "idea_zh": "照镜子时你的脸变成一只动物，并同步你的表情",
+   "technique": "A camera behind a half-silvered mirror runs FaceTracker (ofxFaceTracker) and drives a 3D animal head rendered on a display so it aligns with the viewer's reflection.",
+   "exercise_zh": "用MediaPipe Face Mesh驱动一个动物头像，叠在镜像画面上同步眨眼张嘴；变化：用半透镜+显示器做成真正的“魔镜”，并让动物有时不听话。",
+   "interaction": [
+    "face",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "FaceTracker",
+    "ofxFaceTracker",
+    "half-silvered mirror"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "35262930",
+    "url": "https://vimeo.com/35262930"
+   },
+   "source_url": "http://www.gravitytrap.com/artwork/perfect-creatures"
+  },
+  {
+   "id": "karolina-sobecka--its-you",
+   "creator_ids": [
+    "karolina-sobecka"
+   ],
+   "title": "It's You",
+   "year": 2012,
+   "description": "Projected figures crowd around something hidden; when a pedestrian stands behind them as if to look over their shoulders, they step aside to reveal part of the scene, blocking it for others.",
+   "idea_zh": "投影人群挡住了秘密，只有你凑近时他们才让开给你看",
+   "technique": "A camera detects a pedestrian's position in the interaction zone and triggers animation branches of the projected crowd that open a view at that spot.",
+   "exercise_zh": "投一群背对观众的剪影人，用摄像头检测谁站到后面，就让对应位置的人让开露出隐藏图像；变化：隐藏的内容由上一位观众留下的一句话组成。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "camera presence detection",
+    "public projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "35266165",
+    "url": "https://vimeo.com/35266165"
+   },
+   "source_url": "http://www.gravitytrap.com"
+  },
+  {
+   "id": "klaus-obermaier--dave",
+   "creator_ids": [
+    "klaus-obermaier"
+   ],
+   "title": "D.A.V.E. – digital amplified video engine (with Chris Haring)",
+   "year": 1998,
+   "description": "A solo dancer's body becomes the projection screen: morphing faces, ageing and impossible body distortions are mapped precisely onto the moving performer.",
+   "idea_zh": "把舞者身体本身当成屏幕，投射出不可能的变形",
+   "technique": "Pre-rendered video is choreographed frame-by-frame with the dancer so the projection lands on the body, relying on rehearsed timing rather than tracking.",
+   "exercise_zh": "让一位同学穿白衣站在投影前，按排练好的节奏把预先剪好的脸部/纹理视频投到身上；变化：加一个用摄像头实时跟随的小光斑。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "body projection",
+    "choreographed video"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "1bhNjYTQFQY",
+    "url": "https://www.youtube.com/watch?v=1bhNjYTQFQY"
+   },
+   "source_url": "http://www.exile.at/dave/"
+  },
+  {
+   "id": "klaus-obermaier--vivisector",
+   "creator_ids": [
+    "klaus-obermaier"
+   ],
+   "title": "Vivisector (with Chris Haring)",
+   "year": 2002,
+   "description": "Four dancers are sculpted solely by projected light — no stage lighting — so their bodies appear sliced, dissolved and multiplied by the projection.",
+   "idea_zh": "只用投影光照亮舞者，让身体被光切片、溶解",
+   "technique": "Projectors act as the only light source ('dancing light'), with video masks choreographed to reveal and fragment specific body regions.",
+   "exercise_zh": "关掉教室灯，只用投影仪的黑白遮罩照亮同学的局部身体；变化：用摄像头追踪手的位置让光斑自动跟随。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection as lighting",
+    "video masks"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Q0YEFX6Nk9k",
+    "url": "https://www.youtube.com/watch?v=Q0YEFX6Nk9k"
+   },
+   "source_url": "http://www.exile.at/vivisector/"
+  },
+  {
+   "id": "klaus-obermaier--apparition",
+   "creator_ids": [
+    "klaus-obermaier"
+   ],
+   "title": "Apparition (with Ars Electronica Futurelab)",
+   "year": 2004,
+   "description": "Two dancers perform inside an interactive projection that is generated in real time from their movements, both on the backdrop and directly on their bodies.",
+   "idea_zh": "舞者动作实时生成投影，投在背景和身体上，身体与影像相互牵引",
+   "technique": "Infrared camera tracking extracts the dancers' silhouettes and motion, feeding physics-based generative visuals that are projected back on the performers and the screen in real time.",
+   "exercise_zh": "用摄像头提取舞者轮廓，驱动粒子或弹簧网格实时投回舞者身上；变化：让影像“拒绝”舞者——轮廓靠近时图案向外逃开。",
+   "interaction": [
+    "performance-stage",
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "infrared camera tracking",
+    "real-time generative graphics"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "-wVq41Bi2yE",
+    "url": "https://www.youtube.com/watch?v=-wVq41Bi2yE"
+   },
+   "source_url": "http://www.exile.at/apparition/"
+  },
+  {
+   "id": "klaus-obermaier--le-sacre-du-printemps",
+   "creator_ids": [
+    "klaus-obermaier"
+   ],
+   "title": "Le Sacre du Printemps (The Rite of Spring)",
+   "year": 2006,
+   "description": "A solo dancer is filmed by stereo cameras and turned in real time into a stereoscopic 3D projection that the audience watches with 3D glasses alongside a live orchestra.",
+   "idea_zh": "把舞者实时变成立体3D影像，让观众戴3D眼镜看“被重塑的身体”",
+   "technique": "Stereo camera pairs capture the dancer and real-time software transforms the image into generative stereoscopic geometry projected with polarised 3D projection.",
+   "exercise_zh": "用两台手机并排拍同学跳舞，合成红蓝立体图并加上实时特效；变化：让音乐节拍控制身体的碎裂程度。",
+   "interaction": [
+    "performance-stage",
+    "perception-art",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "stereo cameras",
+    "stereoscopic projection",
+    "real-time rendering"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "_6NQf-a5UAc",
+    "url": "https://www.youtube.com/watch?v=_6NQf-a5UAc"
+   },
+   "source_url": "http://www.exile.at/sacre/"
+  },
+  {
+   "id": "klaus-obermaier--the-concept-of-here-and-now",
+   "creator_ids": [
+    "klaus-obermaier"
+   ],
+   "title": "the concept of ... (here and now)",
+   "year": 2010,
+   "description": "A dance piece choreographed not only for the audience's viewpoint but also for camera perspectives, so dancers' bodies combine into impossible figures on the projected image.",
+   "idea_zh": "同时为观众和摄像机两个视角编舞，让身体在画面里拼成不可能的形体",
+   "technique": "Fixed live cameras film the stage from unusual angles and the feed is projected as a stereoscopic/composited view that only aligns from the camera's perspective.",
+   "exercise_zh": "固定一台摄像机从上方或侧面拍，让两三位同学在现场摆姿势使画面里拼成一个新形状；变化：观众只能看投影、不能看现场，猜真实站位。",
+   "interaction": [
+    "performance-stage",
+    "perception-art",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "live camera",
+    "stereoscopic projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "afbQQM6RTe8",
+    "url": "https://www.youtube.com/watch?v=afbQQM6RTe8"
+   },
+   "source_url": "http://www.exile.at/ko/"
+  },
+  {
+   "id": "klaus-obermaier--dancing-house",
+   "creator_ids": [
+    "klaus-obermaier"
+   ],
+   "title": "Dancing House",
+   "year": 2011,
+   "description": "Interactive projection mapping on historic façades: the building bends, sways and 'dances' in response to the movements of people standing in front of it.",
+   "idea_zh": "你一动，整栋老建筑就跟着你扭动起舞",
+   "technique": "A camera tracks the audience's body movement and maps it onto deformation parameters of a 3D model of the façade that is projection-mapped onto the building.",
+   "exercise_zh": "给一面墙或纸盒建筑拍照建模，用身体姿态（如MediaPipe Pose）控制投影贴图的弯曲；变化：两个人同时做相反动作时建筑会“撕裂”。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "camera body tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "su3Zrpck4P8",
+    "url": "https://www.youtube.com/watch?v=su3Zrpck4P8"
+   },
+   "source_url": "http://www.exile.at/dancinghouse/"
+  },
+  {
+   "id": "klaus-obermaier--ego",
+   "creator_ids": [
+    "klaus-obermaier"
+   ],
+   "title": "EGO (with Stefano D'Alessio & Martina Menegon)",
+   "year": 2015,
+   "description": "A large projection shows the viewer's mirror image, but their movements stretch, fragment and deform it into an abstract self that still feels like 'me'.",
+   "idea_zh": "镜像被你的动作扭曲成抽象形体，却依然像“你自己”",
+   "technique": "A depth/video camera captures the viewer and a real-time mesh of their image is distorted by motion-driven parameters before projection.",
+   "exercise_zh": "用摄像头+网格变形做“哈哈镜”，挥手越快镜像越被拉扯；变化：加入声音，每种变形都有对应的音色。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "depth camera",
+    "real-time mesh distortion"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "KzDifurF9wQ",
+    "url": "https://www.youtube.com/watch?v=KzDifurF9wQ"
+   },
+   "source_url": "http://www.exile.at/ego/"
+  },
+  {
+   "id": "klaus-obermaier--dancing-light",
+   "creator_ids": [
+    "klaus-obermaier"
+   ],
+   "title": "Dancing Light / D.O.PE.",
+   "year": 2015,
+   "description": "A performer dances with computer-controlled projector light that shapes, cuts and follows her body in a dark space.",
+   "idea_zh": "让投影光本身成为与舞者对舞的伙伴",
+   "technique": "A projector is used as a programmable spotlight whose masks are sequenced (and likely tracked) to sculpt the performer's silhouette in darkness.",
+   "exercise_zh": "在黑暗中用投影仪投出会移动的光形，让同学即兴与光“对舞”；变化：用摄像头让光形在人靠近时逃开。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projector as light",
+    "masking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "KXoN8zNc6sg",
+    "url": "https://www.youtube.com/watch?v=KXoN8zNc6sg"
+   },
+   "source_url": "http://www.exile.at/ko/"
+  },
+  {
+   "id": "klaus-obermaier--facing-life",
+   "creator_ids": [
+    "klaus-obermaier"
+   ],
+   "title": "FACING LIFE [In Doc Tri Nation]",
+   "year": 2022,
+   "description": "A real-time rendered installation about social conditioning in which visitors' presence and faces animate child-like avatars that are gradually 'adapted' by social codes.",
+   "idea_zh": "你的脸与动作驱动一个逐渐被社会规训的虚拟孩子",
+   "technique": "Unity real-time rendering driven by a camera, likely using face and body tracking to map the viewer onto the projected avatar.",
+   "exercise_zh": "用Unity或网页面部追踪让同学驱动一个卡通孩子形象，再加入“规则”逐步限制它的表情；变化：由观众投票决定下一个被禁止的表情。",
+   "interaction": [
+    "face",
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Unity",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "DSdO6zoP1Zc",
+    "url": "https://www.youtube.com/watch?v=DSdO6zoP1Zc"
+   },
+   "source_url": "http://www.exile.at/facinglife/"
+  },
+  {
+   "id": "elevenplay-mikiko--cube",
+   "creator_ids": [
+    "elevenplay-mikiko",
+    "daito-manabe"
+   ],
+   "title": "cube (Sónar Tokyo)",
+   "year": 2013,
+   "description": "ELEVENPLAY dancers perform inside and around cube frames while computer-vision tracking turns their movement into live graphics and LED light cues.",
+   "idea_zh": "舞者在立方体框架中舞动，动作被实时转成光与图形",
+   "technique": "Computer-vision tracking (by Satoru Higa) of dancers drives real-time visuals and LED 'jockeying', likely projected onto and around the cube frames.",
+   "exercise_zh": "用摄像头追踪同学在纸箱框架里的手部位置，实时控制投影到框架上的线条；变化：每个框架只响应一个人，形成“光的合奏”。",
+   "interaction": [
+    "performance-stage",
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "computer vision",
+    "LED",
+    "real-time visuals"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "zBm3mJiJzh8",
+    "url": "https://www.youtube.com/watch?v=zBm3mJiJzh8"
+   },
+   "source_url": "https://research.rhizomatiks.com/en/works/cube.html"
+  },
+  {
+   "id": "elevenplay-mikiko--fly",
+   "creator_ids": [
+    "elevenplay-mikiko",
+    "daito-manabe"
+   ],
+   "title": "fly (dance with drones)",
+   "year": 2014,
+   "description": "Dancers perform a duet with small drones that fly precise trajectories around their bodies, as if the objects were partners.",
+   "idea_zh": "让无人机成为舞伴，与舞者同步飞行",
+   "technique": "Motion-capture tracking positions both dancers and drones in 3D space, and pre-programmed flight paths are synchronised to the choreography and music.",
+   "exercise_zh": "用一台小型可编程无人机（如Tello）或遥控小车，编好与音乐同步的路径让同学围绕它编舞；变化：让物体的路径由舞者手部的录制轨迹生成。",
+   "interaction": [
+    "performance-stage",
+    "tangible-object",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "drones",
+    "motion capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "HQLORg5COiU",
+    "url": "https://www.youtube.com/watch?v=HQLORg5COiU"
+   },
+   "source_url": "https://research.rhizomatiks.com"
+  },
+  {
+   "id": "elevenplay-mikiko--shadow",
+   "creator_ids": [
+    "elevenplay-mikiko",
+    "daito-manabe"
+   ],
+   "title": "shadow (drone with a spotlight)",
+   "year": 2015,
+   "description": "A single dancer is lit only by spotlights carried by drones; as the drones move, her shadows multiply, stretch and rotate on the walls.",
+   "idea_zh": "用无人机携带的聚光灯让影子成为舞蹈的一部分",
+   "technique": "Light-carrying drones follow programmed paths so the light source position is choreographed, controlling the size and direction of the dancer's shadows.",
+   "exercise_zh": "关灯，用手机手电筒绑在长杆或小车上移动，让同学跳舞时影子在墙上变化；变化：用两个不同颜色的光源做出双色影子。",
+   "interaction": [
+    "performance-stage",
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "light drones",
+    "motion capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hX2TneyE41Q",
+    "url": "https://www.youtube.com/watch?v=hX2TneyE41Q"
+   },
+   "source_url": "https://research.rhizomatiks.com"
+  },
+  {
+   "id": "elevenplay-mikiko--24-drones",
+   "creator_ids": [
+    "elevenplay-mikiko",
+    "daito-manabe"
+   ],
+   "title": "24 drones",
+   "year": 2015,
+   "description": "Three dancers and 24 light-drones perform together; the drones form moving constellations of light that respond to and frame the choreography.",
+   "idea_zh": "24架发光无人机组成会跳舞的光点星座",
+   "technique": "An indoor motion-capture system localises 24 custom light drones (designed by Motoi Ishibashi) whose light and position are programmed against the choreography.",
+   "exercise_zh": "让24位同学各拿一个手机闪光灯，在黑暗中按投影给出的坐标走位组成图形；变化：图形由舞者的姿势实时生成。",
+   "interaction": [
+    "performance-stage",
+    "spatial-mapping",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "light drones",
+    "motion capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "cYWvKudIIJ8",
+    "url": "https://www.youtube.com/watch?v=cYWvKudIIJ8"
+   },
+   "source_url": "https://research.rhizomatiks.com"
+  },
+  {
+   "id": "elevenplay-mikiko--phosphere",
+   "creator_ids": [
+    "elevenplay-mikiko",
+    "daito-manabe"
+   ],
+   "title": "phosphere",
+   "year": 2017,
+   "description": "A dance installation homage to Schlemmer's Triadic Ballet: dancers wearing wrist markers trigger light from 24 projectors mounted overhead, turning gestures into three-dimensional light geometry.",
+   "idea_zh": "舞者手腕上的标记点控制24台投影仪，把手势变成空间里的光之几何",
+   "technique": "Wrist-marker motion tracking feeds a real-time system that aims light from 24 truss-mounted projectors at computed 3D positions around the dancers.",
+   "exercise_zh": "给同学手腕贴反光贴或彩色标记，用摄像头追踪后让投影仪在对应位置打出光圈；变化：两只手之间自动连成一条光线。",
+   "interaction": [
+    "performance-stage",
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "marker tracking",
+    "24 projectors",
+    "real-time visuals"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "W7X6UqXm9eY",
+    "url": "https://www.youtube.com/watch?v=W7X6UqXm9eY"
+   },
+   "source_url": "https://daito.ws/en/archive/phosphere-rhizomatiks-research-x-elevenplay-2/"
+  },
+  {
+   "id": "elevenplay-mikiko--space",
+   "creator_ids": [
+    "elevenplay-mikiko",
+    "daito-manabe"
+   ],
+   "title": "S . P . A . C . E .",
+   "year": 2020,
+   "description": "Made under social distancing, dancers are filmed by special camera rigs whose images are decomposed and rebuilt into geometric worlds that the body alone could not form.",
+   "idea_zh": "把舞者的身体信息拆解重组，生成身体本身做不到的几何世界",
+   "technique": "Multi-camera capture and GPU image processing decompose each dancer's body data by rule sets and recompose it into real-time geometric visuals.",
+   "exercise_zh": "用MediaPipe Pose取得关节点，把关节点按规则复制、镜像、旋转成万花筒几何；变化：几位同学远程视频连线，各自的骨架拼成同一个图形。",
+   "interaction": [
+    "performance-stage",
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "multi-camera capture",
+    "real-time image processing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "bY0lMfl1rpI",
+    "url": "https://www.youtube.com/watch?v=bY0lMfl1rpI"
+   },
+   "source_url": "https://rhizomatiks.com"
+  },
+  {
+   "id": "elevenplay-mikiko--multiplex",
+   "creator_ids": [
+    "elevenplay-mikiko",
+    "daito-manabe"
+   ],
+   "title": "multiplex",
+   "year": 2021,
+   "description": "Motion data from five dancers, projected images and five autonomously moving robot cubes share two exhibition spaces and an online version, hybridising real and virtual dancers.",
+   "idea_zh": "真实舞者数据、投影与自动移动的立方体共同组成混合现实舞台",
+   "technique": "Recorded motion-capture data drives projection-mapped imagery on mobile robot cubes whose positions are tracked so the virtual dancers appear on their moving surfaces.",
+   "exercise_zh": "把纸箱放在遥控小车上移动，用投影跟随纸箱投出舞者剪影；变化：观众用手机扫码切换看到的“虚拟舞者”视角。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection",
+    "web"
+   ],
+   "tech": [
+    "motion capture data",
+    "mobile robots",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "zeWtjavS7mc",
+    "url": "https://www.youtube.com/watch?v=zeWtjavS7mc"
+   },
+   "source_url": "https://rhizomatiks.com/en/work/rhizomatikselevenplay-multiplex/"
+  },
+  {
+   "id": "elevenplay-mikiko--border-2021",
+   "creator_ids": [
+    "elevenplay-mikiko",
+    "daito-manabe"
+   ],
+   "title": "border 2021",
+   "year": 2021,
+   "description": "An update of the 2015 'border' for post-COVID audiences: seated viewers ride personal mobility devices and watch real and virtual dancers merge through mixed-reality headsets, with an online version too.",
+   "idea_zh": "观众坐在自动移动的座椅上，戴MR眼镜看真实与虚拟舞者融合",
+   "technique": "Tracked mobility chairs move audience members through the stage while mixed-reality headsets render virtual dancers registered to the physical space.",
+   "exercise_zh": "让观众坐在带轮椅子上被同学推着走，用手机AR看到预先放置的虚拟舞者；变化：真人舞者与虚拟舞者在某一刻交换位置。",
+   "interaction": [
+    "performance-stage",
+    "portal-world",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "mixed reality headsets",
+    "mobility devices",
+    "tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "rqmO7FA2vdw",
+    "url": "https://www.youtube.com/watch?v=rqmO7FA2vdw"
+   },
+   "source_url": "https://rhizomatiks.com"
+  },
+  {
+   "id": "elevenplay-mikiko--syn",
+   "creator_ids": [
+    "elevenplay-mikiko",
+    "daito-manabe"
+   ],
+   "title": "Syn: Unfolded Horizons of Bodily Senses",
+   "year": 2023,
+   "description": "The opening show of TOKYO NODE: audiences walk onto a 1,500 m² stage where 24 dancers, a transforming space and mixed-reality experiences blur performer and spectator.",
+   "idea_zh": "观众走上舞台，与24位舞者和混合现实影像共同组成演出",
+   "technique": "Combines live dancers with MR content, tracked stage elements and projection so the space reconfigures as visitors move through it.",
+   "exercise_zh": "把教室分区，观众走到不同区域触发不同投影和音乐，同学在其中表演；变化：观众手机AR里看到的舞者比现场多一个。",
+   "interaction": [
+    "performance-stage",
+    "multiplayer-social",
+    "portal-world"
+   ],
+   "platform": [
+    "headset",
+    "projection"
+   ],
+   "tech": [
+    "mixed reality",
+    "projection",
+    "stage tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Tcj0lfyIEb8",
+    "url": "https://www.youtube.com/watch?v=Tcj0lfyIEb8"
+   },
+   "source_url": "https://www.tokyonode.jp/en/sp/syn/artist/"
+  },
+  {
+   "id": "random-international--audience",
+   "creator_ids": [
+    "random-international",
+    "chris-oshea"
+   ],
+   "title": "Audience",
+   "year": 2008,
+   "description": "A field of small head-sized mirrors sits idle until a visitor enters; then they all turn to follow and 'look at' that person, so the viewer sees themselves reflected everywhere.",
+   "idea_zh": "一群镜子像观众一样同时转头盯着你看",
+   "technique": "A camera tracks the chosen visitor's position and each motorised mirror computes the pan/tilt needed to face them.",
+   "exercise_zh": "用舵机+小镜子做3–5个“眼睛”，用摄像头人脸位置控制它们转向；变化：当有两个人时，镜子会“分成两派”各看一人。",
+   "interaction": [
+    "hand-body",
+    "gaze-attention",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "camera tracking",
+    "servo motors",
+    "mirrors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "JuKi35j3Dwk",
+    "url": "https://www.youtube.com/watch?v=JuKi35j3Dwk"
+   },
+   "source_url": "https://www.random-international.com/audience-2008"
+  },
+  {
+   "id": "random-international--you-fade-to-light",
+   "creator_ids": [
+    "random-international"
+   ],
+   "title": "You Fade to Light",
+   "year": 2009,
+   "description": "A wall of OLED panels translates the viewer's mirror image into glowing light that lingers and fades as they move.",
+   "idea_zh": "把你的镜像变成慢慢褪去的光",
+   "technique": "A camera image is downsampled to the OLED grid and each panel's brightness follows the pixel with a slow decay, producing light 'afterimages'.",
+   "exercise_zh": "用摄像头画面做低分辨率像素镜像，每个像素加余晖衰减；变化：用LED灯带或纸灯笼做成实体版本。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "camera",
+    "OLED panels",
+    "custom software"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "aIVKVoFYvZ8",
+    "url": "https://www.youtube.com/watch?v=aIVKVoFYvZ8"
+   },
+   "source_url": "https://www.random-international.com"
+  },
+  {
+   "id": "random-international--rain-room",
+   "creator_ids": [
+    "random-international"
+   ],
+   "title": "Rain Room",
+   "year": 2012,
+   "description": "A 100 m² field of continuously falling water pauses wherever a person walks, so visitors move through rain without getting wet.",
+   "idea_zh": "在一场只为你停下的雨中行走",
+   "technique": "3D cameras track visitors from above and a grid of solenoid valves shuts off the water tiles directly around each person in real time.",
+   "exercise_zh": "用摄像头俯拍+地面投影做“虚拟雨”，雨点在人周围自动避开；变化：用电磁阀或小水泵做一个1米见方的实体原型。",
+   "interaction": [
+    "hand-body",
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "3D tracking cameras",
+    "solenoid valves"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FslABAyj2OA",
+    "url": "https://www.youtube.com/watch?v=FslABAyj2OA"
+   },
+   "source_url": "https://www.random-international.com/rain-room-2012"
+  },
+  {
+   "id": "random-international--future-self",
+   "creator_ids": [
+    "random-international"
+   ],
+   "title": "Future Self (with Wayne McGregor)",
+   "year": 2012,
+   "description": "A three-dimensional sculpture of hanging LED rods renders a light-figure that mirrors and responds to the dancers or visitors moving in front of it.",
+   "idea_zh": "用LED杆阵组成会映出你动作的“光之分身”",
+   "technique": "Depth cameras capture the body and drive a volumetric LED matrix so the silhouette is rendered as points of light in 3D.",
+   "exercise_zh": "用Kinect或手机深度相机把身体变成3D点云，在屏幕上用发光点显示；变化：让光之分身比真人慢半拍，成为“未来的你”的反面。",
+   "interaction": [
+    "hand-body",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "depth cameras",
+    "volumetric LED matrix"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Jqn1cMY8oGM",
+    "url": "https://www.youtube.com/watch?v=Jqn1cMY8oGM"
+   },
+   "source_url": "https://www.random-international.com"
+  },
+  {
+   "id": "rafael-lozano-hemmer--body-movies",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Body Movies (Relational Architecture 6)",
+   "year": 2001,
+   "description": "Thousands of street portraits are projected onto a building façade but only become visible inside the giant shadows of passers-by, whose silhouettes grow from 2 to 25 metres depending on their distance from floor lights.",
+   "idea_zh": "你的巨大影子才是看见陌生人肖像的“窗口”",
+   "technique": "Robotic projectors show portraits on a façade washed out by bright floor lamps; a camera tracks shadow regions, and when a shadow matches a portrait the scene advances.",
+   "exercise_zh": "一台投影仪投图片、另一盏强光灯把画面“冲白”，同学的影子里才能看见图片；变化：用摄像头检测影子是否完全盖住某张脸来触发下一张。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "robotic projectors",
+    "camera tracking",
+    "xenon lights"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "g-CNxFiXZDY",
+    "url": "https://www.youtube.com/watch?v=g-CNxFiXZDY"
+   },
+   "source_url": "https://www.lozano-hemmer.com/body_movies.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--frequency-and-volume",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Frequency and Volume (Relational Architecture 9)",
+   "year": 2003,
+   "description": "Visitors' shadows on a wall tune a radio: the position of the shadow selects a frequency and its size sets the volume, making the invisible airwaves audible and contested.",
+   "idea_zh": "用影子在墙上“调台”，收听城市里看不见的电波",
+   "technique": "A camera tracks shadow position and size on the wall and maps them to frequency and volume of an array of computer-controlled radio receivers.",
+   "exercise_zh": "用摄像头检测墙上影子的水平位置控制音频播放的片段、大小控制音量；变化：让多个影子重叠时声音混合或互相干扰。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "camera tracking",
+    "radio scanners"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hWd8uv8U4tc",
+    "url": "https://www.youtube.com/watch?v=hWd8uv8U4tc"
+   },
+   "source_url": "https://www.lozano-hemmer.com/frequency_and_volume.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--subtitled-public",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Subtitled Public",
+   "year": 2005,
+   "description": "In an empty room a surveillance system detects each visitor and projects a random third-person verb onto their chest; the only way to get rid of your word is to touch someone else, who then takes it.",
+   "idea_zh": "每个人身上被投上一个动词标签，只有触碰别人才能把它传出去",
+   "technique": "Overhead camera tracking follows each person and steers projections of text onto their body, swapping labels when two tracked blobs touch.",
+   "exercise_zh": "用俯拍摄像头追踪同学，在每人身上投一个词；两人碰到时交换词语；变化：把词换成同学自己写的形容词，观察标签如何流动。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "surveillance tracking",
+    "projection on bodies"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1089123902",
+    "url": "https://vimeo.com/1089123902"
+   },
+   "source_url": "https://www.lozano-hemmer.com/subtitled_public.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--under-scan",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Under Scan (Relational Architecture 11)",
+   "year": 2005,
+   "description": "Town squares are flooded with white light; as pedestrians walk, video portraits of local people appear inside their shadows, look up at them, and vanish when they leave.",
+   "idea_zh": "走在广场上，你的影子里会出现一个陌生人抬头看你",
+   "technique": "Computer vision tracks pedestrians from above and predicts their path, so projectors place a video portrait precisely inside each person's shadow a moment ahead of them.",
+   "exercise_zh": "在地面投白光，用摄像头找到人影位置，把同学事先录好的抬头视频投在影子里；变化：影子停留越久，视频里的人说出越长的一句话。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "computer vision tracking",
+    "high-power projectors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Bfn14sLJmyU",
+    "url": "https://www.youtube.com/watch?v=Bfn14sLJmyU"
+   },
+   "source_url": "https://www.lozano-hemmer.com/under_scan.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--eye-contact",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Eye Contact (ShadowBox 1)",
+   "year": 2006,
+   "description": "A display shows hundreds of tiny videos of people lying down; when a viewer is detected, all of them wake up and turn to stare directly at the viewer.",
+   "idea_zh": "你一出现，屏幕里的上百个人同时醒来盯着你",
+   "technique": "A built-in camera detects the viewer's presence and silhouette, switching each video tile from its idle loop to a 'turn and look' clip.",
+   "exercise_zh": "让每位同学录一段“睡着→转头看镜头”的视频拼成网格，用摄像头检测到人就触发；变化：只有影子覆盖的格子里的人会醒来。",
+   "interaction": [
+    "gaze-attention",
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "built-in camera tracking",
+    "video grid"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "SzIwx-oX3U8",
+    "url": "https://www.youtube.com/watch?v=SzIwx-oX3U8"
+   },
+   "source_url": "https://www.lozano-hemmer.com/eye_contact.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--close-up",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Close-Up (ShadowBox 2)",
+   "year": 2006,
+   "description": "The viewer's shadow on a screen is filled with up to 800 tiny surveillance videos of people who recently looked at the piece — and the viewer is recorded for the next person.",
+   "idea_zh": "你的影子里装满了之前看过这件作品的人的监控视频",
+   "technique": "A camera records each viewer while their silhouette mask reveals a mosaic of previously recorded viewer clips; the database keeps the most recent 10,000.",
+   "exercise_zh": "用摄像头边录每个来访者，边把人影轮廓填满之前录下的小视频网格；变化：影子只显示与当前观众同一天来访的人。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "camera tracking",
+    "video database"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "gGbCF2oPayM",
+    "url": "https://www.youtube.com/watch?v=gGbCF2oPayM"
+   },
+   "source_url": "https://www.lozano-hemmer.com/close_up.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--third-person",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Third Person (ShadowBox 4)",
+   "year": 2006,
+   "description": "The viewer's shadow is drawn entirely out of the verbs of a dictionary in English, Spanish or French, like a portrait written in actions.",
+   "idea_zh": "用词典里所有的动词拼出你的影子肖像",
+   "technique": "Camera silhouette masking selects which cells of a dense text grid are rendered, with word size varying with distance from the screen.",
+   "exercise_zh": "在p5.js里把摄像头剪影区域用文字填满（用班级自选的一组词）；变化：离屏幕越近，词越小、越密。",
+   "interaction": [
+    "hand-body",
+    "data-information",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "camera silhouette",
+    "text rendering"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "w-EWZ1r1Yos",
+    "url": "https://www.youtube.com/watch?v=w-EWZ1r1Yos"
+   },
+   "source_url": "https://www.lozano-hemmer.com/third_person.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--sandbox",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Sandbox (Relational Architecture 17)",
+   "year": 2010,
+   "description": "On Santa Monica beach, tiny projections of beachgoers appear in two small sandboxes; when participants reach in, cameras relay their hands live to giant projectors that cover 8,000 m² of beach.",
+   "idea_zh": "你在小沙盒里伸出的手，被放大投射成覆盖整个海滩的巨手",
+   "technique": "Infrared cameras capture people on the beach and hands over the sandboxes, cross-projecting each feed at opposite scales (tiny people in the box, giant hands on the beach).",
+   "exercise_zh": "一台手机拍桌上的手、另一台拍操场上的人，互相投到对方的空间里；变化：让小人和大手在投影中能“碰到”彼此并触发声音。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "infrared cameras",
+    "high-power projectors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "GotOBu_14fc",
+    "url": "https://www.youtube.com/watch?v=GotOBu_14fc"
+   },
+   "source_url": "https://www.lozano-hemmer.com/sandbox.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--level-of-confidence",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Level of Confidence",
+   "year": 2015,
+   "description": "A face-recognition camera trained on the faces of the 43 disappeared Ayotzinapa students looks for them in each visitor's face and shows which student they most resemble and how confident the match is.",
+   "idea_zh": "用人脸识别在每位观众脸上寻找43位失踪学生，把监控技术变成纪念",
+   "technique": "Eigenface/Fisherface and LBP face-recognition algorithms compare the live face against the students' portraits and display the best match with its confidence score.",
+   "exercise_zh": "用网页人脸特征库（face-api.js）把观众与一组历史人物照片比对并显示相似度；变化：由同学讨论选择一个值得被“寻找”的群体作为数据集。",
+   "interaction": [
+    "face",
+    "data-information"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "face recognition",
+    "OpenCV"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "953969845",
+    "url": "https://vimeo.com/953969845"
+   },
+   "source_url": "https://www.lozano-hemmer.com/level_of_confidence.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--zoom-pavilion",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Zoom Pavilion (with Krzysztof Wodiczko)",
+   "year": 2015,
+   "description": "An immersive room of projections from 12 computerized surveillance cameras that detect visitors' faces and zoom in on them and on the spatial relationships between strangers.",
+   "idea_zh": "监控摄像头自动放大你与陌生人的关系，并投满整个房间",
+   "technique": "Face-detection and tracking algorithms steer robotic zoom cameras and project their live feeds, recording distances between detected people.",
+   "exercise_zh": "用网页摄像头做人脸检测并自动“数码变焦”到每张脸，投影到墙上；变化：计算两人间距离并在画面中画线标出。",
+   "interaction": [
+    "face",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "face detection",
+    "robotic zoom cameras"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ENWBRsvn7qA",
+    "url": "https://www.youtube.com/watch?v=ENWBRsvn7qA"
+   },
+   "source_url": "https://www.lozano-hemmer.com/zoom_pavilion.php"
+  },
+  {
+   "id": "rafael-lozano-hemmer--shadow-tuner",
+   "creator_ids": [
+    "rafael-lozano-hemmer"
+   ],
+   "title": "Shadow Tuner",
+   "year": 2025,
+   "description": "A rotating, upside-down Earth is projected onto a giant spherical balloon; passers-by at a camera station cast their shadows onto the globe, reshaping how the planet appears.",
+   "idea_zh": "路人的影子被投到巨大的地球气球上，改变地球的样子",
+   "technique": "A camera at a station captures the passer-by's silhouette and composites it into the projected (or LED) spherical Earth animation in real time.",
+   "exercise_zh": "在白色气球或球灯上投影旋转地球，用摄像头剪影在地球上“打出”阴影；变化：影子遮住的区域显示该地区的一个真实数据。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "camera silhouette",
+    "spherical projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1067505877",
+    "url": "https://vimeo.com/1067505877"
+   },
+   "source_url": "https://www.lozano-hemmer.com"
+  },
+  {
+   "id": "daniel-rozin--wooden-mirror",
+   "creator_ids": [
+    "daniel-rozin"
+   ],
+   "title": "Wooden Mirror",
+   "year": 1999,
+   "description": "830 small wooden tiles tilt with individual motors so the light they catch forms a live, wooden reflection of whoever stands in front.",
+   "idea_zh": "用会转动的木片拼出你的实时镜像",
+   "technique": "A hidden camera image is downsampled to the tile grid and each pixel's brightness sets a servo angle that changes how much light the wooden tile reflects.",
+   "exercise_zh": "用8×8舵机+卡纸片做一面“机械镜子”，由摄像头低分辨率图像控制角度；变化：换成自己选的材料（纽扣、瓶盖），比较不同材料的“像素感”。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "video camera",
+    "servo motors",
+    "wood tiles"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "1ZPJ0U_kpNg",
+    "url": "https://www.youtube.com/watch?v=1ZPJ0U_kpNg"
+   },
+   "source_url": "http://www.smoothware.com/danny/woodenmirror.html"
+  },
+  {
+   "id": "daniel-rozin--trash-mirror",
+   "creator_ids": [
+    "daniel-rozin"
+   ],
+   "title": "Trash Mirror",
+   "year": 2002,
+   "description": "Irregular pieces of trash collected from the streets become motorised pixels that tilt to reflect the viewer's image.",
+   "idea_zh": "用街头垃圾碎片做成会映照你的镜子",
+   "technique": "Each irregular trash piece sits on a motor mapped to a region of the camera image, rotating to present a lighter or darker face.",
+   "exercise_zh": "收集教室里的废纸片做成不规则“像素”，用几个舵机+摄像头做一个小型原型；变化：每块碎片对应它在画面中的真实形状区域。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "video camera",
+    "motors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "R0dLo3HB4P8",
+    "url": "https://www.youtube.com/watch?v=R0dLo3HB4P8"
+   },
+   "source_url": "http://www.smoothware.com/danny/"
+  },
+  {
+   "id": "daniel-rozin--weave-mirror",
+   "creator_ids": [
+    "daniel-rozin"
+   ],
+   "title": "Weave Mirror",
+   "year": 2007,
+   "description": "768 C-shaped laminated prints rotate like woven strands to form a basket-like live reflection of the viewer.",
+   "idea_zh": "像编织一样把你的影像“织”出来",
+   "technique": "Camera pixels drive motors that rotate each gradient-printed C-shape, exposing darker or lighter portions of the print.",
+   "exercise_zh": "打印一张黑白渐变纸条，贴在可旋转的圆柱上，用摄像头亮度控制旋转角度；变化：用颜色渐变代替黑白，做彩色镜像。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "video camera",
+    "motors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ushJnQfjbF0",
+    "url": "https://www.youtube.com/watch?v=ushJnQfjbF0"
+   },
+   "source_url": "http://www.smoothware.com/danny/"
+  },
+  {
+   "id": "daniel-rozin--peg-mirror",
+   "creator_ids": [
+    "daniel-rozin"
+   ],
+   "title": "Peg Mirror",
+   "year": 2007,
+   "description": "650 cylindrical wooden pegs with angled cut faces rotate so their shading forms the viewer's portrait in a circular composition.",
+   "idea_zh": "木钉旋转斜切面，用阴影拼出人像",
+   "technique": "Each peg's cut face catches different light depending on rotation; a camera image sets each peg's angle via motors.",
+   "exercise_zh": "把斜切的木块或纸筒装在舵机上，比较不同角度的明暗，再用摄像头控制做3×3原型；变化：改为控制声音的“听觉镜子”。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "video camera",
+    "motors",
+    "wood"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "dghosA-zI6k",
+    "url": "https://www.youtube.com/watch?v=dghosA-zI6k"
+   },
+   "source_url": "http://www.smoothware.com/danny/"
+  },
+  {
+   "id": "daniel-rozin--mirrors-mirror",
+   "creator_ids": [
+    "daniel-rozin"
+   ],
+   "title": "Mirrors Mirror",
+   "year": 2008,
+   "description": "768 small polished steel mirrors tilt so each reflects a lighter or darker part of the room, composing the viewer's image out of reflections of the space.",
+   "idea_zh": "用无数小镜子反射房间的明暗，拼出你的样子",
+   "technique": "A camera image controls motors that aim each steel tile toward bright or dark areas of the surrounding room.",
+   "exercise_zh": "用几块小镜片装在舵机上，让它们把窗外亮光或暗墙反射到观众眼中形成图案；变化：用激光笔验证每块镜片的反射方向。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "video camera",
+    "motors",
+    "steel mirrors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "oKum2u7oLwc",
+    "url": "https://www.youtube.com/watch?v=oKum2u7oLwc"
+   },
+   "source_url": "http://www.smoothware.com/danny/"
+  },
+  {
+   "id": "daniel-rozin--penguins-mirror",
+   "creator_ids": [
+    "daniel-rozin"
+   ],
+   "title": "Penguins Mirror",
+   "year": 2015,
+   "description": "450 stuffed toy penguins on turntables rotate between their white bellies and black backs to form a silhouette of whoever stands before them.",
+   "idea_zh": "450只玩具企鹅转身，黑背白肚拼出你的剪影",
+   "technique": "A camera extracts the viewer's silhouette and motorised turntables turn each penguin to show its white or black side as a binary pixel.",
+   "exercise_zh": "用几个双面黑白的小物件（纸杯、玩具）装在转盘上，用摄像头剪影控制正反面；变化：加入延迟，让“像素”像人浪一样依次翻转。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "video camera",
+    "turntable motors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "QlrnjjfLkTI",
+    "url": "https://www.youtube.com/watch?v=QlrnjjfLkTI"
+   },
+   "source_url": "https://bitforms.art"
+  },
+  {
+   "id": "daniel-rozin--cmy-shadows-mirror",
+   "creator_ids": [
+    "daniel-rozin"
+   ],
+   "title": "CMY Shadows Mirror",
+   "year": 2021,
+   "description": "Rotating elements cast cyan, magenta and yellow shadows that mix on the wall into a coloured reflection of the viewer.",
+   "idea_zh": "用青、品、黄三色影子的叠加画出你的彩色镜像",
+   "technique": "Motors rotate elements in front of coloured light sources so overlapping shadows subtractively mix into an image driven by the camera feed (likely).",
+   "exercise_zh": "用红绿蓝三盏手机灯照一个物体，观察彩色影子如何混合；变化：用舵机转动遮挡片，把摄像头亮度映射成彩色影子。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "projection"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "camera",
+    "motors",
+    "coloured lights"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1198095563",
+    "url": "https://vimeo.com/1198095563"
+   },
+   "source_url": "https://bitforms.art"
+  },
+  {
+   "id": "adrien-m-claire-b--cinematique",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Cinématique",
+   "year": 2010,
+   "description": "A dancer and a juggler-programmer perform inside projected letters, lines and particles that behave with physics and react to their gestures in real time.",
+   "idea_zh": "让投影里的文字和线条像有重量的物体一样被舞者推动",
+   "technique": "Adrien Mondot's eMotion software runs physics-based particle and line systems, driven live by a digital performer and by motion sensing of the dancers.",
+   "exercise_zh": "用p5.js或Processing做有重力的文字粒子，投到墙上让同学用手势（摄像头）推开它们；变化：文字被推散后会慢慢组合成新的句子。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "physics simulation",
+    "real-time projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "CknHVdMZ5xg",
+    "url": "https://www.youtube.com/watch?v=CknHVdMZ5xg"
+   },
+   "source_url": "https://www.am-cb.net/projets/cinematique"
+  },
+  {
+   "id": "adrien-m-claire-b--xyzt",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "XYZT, Abstract Landscapes",
+   "year": 2011,
+   "description": "An exhibition of ten interactive installations where visitors touch, blow on and walk through projected typographic and particle landscapes.",
+   "idea_zh": "用触摸、吹气、行走去改变由字母和粒子组成的风景",
+   "technique": "Floor and wall projections use camera, depth and touch sensing to feed eMotion physics systems, so visuals respond like material.",
+   "exercise_zh": "做一个地面投影粒子池，用俯拍摄像头让走过的人“划开”粒子；变化：用麦克风吹气强度控制粒子飞散的方向。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "depth/camera sensing",
+    "projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "N7q9k9Z3HIk",
+    "url": "https://www.youtube.com/watch?v=N7q9k9Z3HIk"
+   },
+   "source_url": "https://www.am-cb.net/projets/xyzt"
+  },
+  {
+   "id": "adrien-m-claire-b--hakanai",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Hakanaï",
+   "year": 2013,
+   "description": "A dancer inside a cube of tulle interacts with projected lines, grids and letters that are performed live around her; afterwards the audience can enter the cube.",
+   "idea_zh": "舞者在纱幕立方体中与实时投影的线条“对话”，像一首短诗",
+   "technique": "Four-sided projection on tulle scrims is 'played' live by a digital performer using eMotion, with motion sensing linking the images to the dancer.",
+   "exercise_zh": "用4块纱或白布围成小立方体，投影线条动画，同学在里面随线条即兴；变化：让观众用手机遥控线条，与里面的人互动。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "tulle projection",
+    "live visuals"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xvJNia3z11I",
+    "url": "https://www.youtube.com/watch?v=xvJNia3z11I"
+   },
+   "source_url": "https://www.am-cb.net/projets/hakanai"
+  },
+  {
+   "id": "adrien-m-claire-b--pixel",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Pixel (with Mourad Merzouki / Compagnie Käfig)",
+   "year": 2014,
+   "description": "Eleven hip-hop and circus dancers perform with projected points of light on the floor and backdrop that move, ripple and cascade with their bodies.",
+   "idea_zh": "街舞舞者与地面上的“光点像素”一起舞动",
+   "technique": "Floor and back projections of particle fields are generated live with eMotion and synchronised with the choreography by a digital performer.",
+   "exercise_zh": "在地面投影一片光点，让同学跳街舞，光点随脚步涟漪扩散；变化：光点形成一条只有两人配合才能通过的“河”。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "floor projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "z_Hu57QTqqE",
+    "url": "https://www.youtube.com/watch?v=z_Hu57QTqqE"
+   },
+   "source_url": "https://www.am-cb.net/projets/pixel"
+  },
+  {
+   "id": "adrien-m-claire-b--le-mouvement-de-lair",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Le mouvement de l'air",
+   "year": 2015,
+   "description": "Three dancers move through projected wind, water and particle landscapes that swirl around their bodies as if air had become visible.",
+   "idea_zh": "把看不见的空气流动变成围绕舞者的可见影像",
+   "technique": "Real-time fluid and particle simulations in eMotion are projected on floor and backdrop and steered live with the dancers' movement.",
+   "exercise_zh": "用网页流体模拟（WebGL fluid）投影，用摄像头光流让同学的动作搅动“空气”；变化：用风扇吹的真实风与投影同步。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "fluid simulation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xsskbGYq7lc",
+    "url": "https://www.youtube.com/watch?v=xsskbGYq7lc"
+   },
+   "source_url": "https://www.am-cb.net/projets/le-mouvement-de-l-air"
+  },
+  {
+   "id": "adrien-m-claire-b--mirages-miracles",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Mirages & miracles",
+   "year": 2017,
+   "description": "An exhibition of drawn stones, landscapes and figures that come alive through tablets and holographic displays, where tiny dancers climb and breathe inside real rocks.",
+   "idea_zh": "透过平板看，真实的石头和手绘图中住着会呼吸的小人",
+   "technique": "Image-tracked AR on tablets and Pepper's-ghost holographic boxes overlay captured dancers onto physical stones and drawings.",
+   "exercise_zh": "给一块石头或一幅手绘图做图像识别AR（如Unity/8th Wall），让一段录好的小人舞蹈出现在上面；变化：用手机屏幕+透明片做佩珀尔幻象小盒子。",
+   "interaction": [
+    "tangible-object",
+    "perception-art",
+    "drawing-creation"
+   ],
+   "platform": [
+    "phone",
+    "projection"
+   ],
+   "tech": [
+    "image-tracked AR",
+    "Pepper's ghost"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hJBTqYbhTtA",
+    "url": "https://www.youtube.com/watch?v=hJBTqYbhTtA"
+   },
+   "source_url": "https://www.am-cb.net/projets/mirages-miracles"
+  },
+  {
+   "id": "adrien-m-claire-b--acqua-alta-crossing-the-mirror",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Acqua Alta – Crossing the Mirror (AR pop-up book)",
+   "year": 2019,
+   "description": "A black-and-white ink pop-up book that, viewed through a phone or tablet, fills with animated rain, rising water and two dancing figures moving through its pages.",
+   "idea_zh": "透过手机看立体书，墨水画中的人物在页面间跳舞、被洪水淹没",
+   "technique": "Marker-based AR recognises each pop-up spread and anchors motion-captured dance animation and water simulations to the paper geometry.",
+   "exercise_zh": "做一本3页的纸质立体书，用图像识别AR让每页出现一段动画；变化：翻页的顺序改变故事结局。",
+   "interaction": [
+    "tangible-object",
+    "portal-world",
+    "drawing-creation"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "marker-based AR",
+    "motion capture",
+    "mobile app"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "lh15yt4nvs0",
+    "url": "https://www.youtube.com/watch?v=lh15yt4nvs0"
+   },
+   "source_url": "https://www.am-cb.net/projets/acqua-alta-la-traversee-du-miroir"
+  },
+  {
+   "id": "adrien-m-claire-b--faire-corps",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Faire corps",
+   "year": 2019,
+   "description": "An 'exhibition-experience' at Gaîté Lyrique where visitors enter projected, interactive environments that react to their bodies and invite them to move together.",
+   "idea_zh": "一个用身体集体进入、共同改变影像的展览空间",
+   "technique": "Camera and depth sensing of visitors drives real-time projected particle and line environments on floors and walls.",
+   "exercise_zh": "设计一个需要3人以上一起动作才会变化的投影空间（如一起跳让画面变色）；变化：加入一条只有全员静止才出现的隐藏画面。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "camera sensing",
+    "real-time projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "VJmHz4OgnMo",
+    "url": "https://www.youtube.com/watch?v=VJmHz4OgnMo"
+   },
+   "source_url": "https://www.am-cb.net"
+  },
+  {
+   "id": "romain-tardy--desherence",
+   "creator_ids": [
+    "romain-tardy"
+   ],
+   "title": "Déshérence (AntiVJ)",
+   "year": 2009,
+   "description": "An audiovisual installation in Enghien-les-Bains where projection mapping makes a building façade appear to crack, peel and reassemble in sync with music by Squeaky Lobster.",
+   "idea_zh": "让建筑立面在投影中剥落、崩塌再重组",
+   "technique": "Façade geometry is measured and modelled, then animations are rendered to that model and projected from a calibrated position so light aligns with each architectural edge.",
+   "exercise_zh": "给教室一面有门窗的墙拍正面照，在AE/网页里沿着门窗轮廓做“剥落”动画并用投影对齐；变化：让剥落顺序由音乐鼓点触发。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "3D façade model"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "12622615",
+    "url": "https://vimeo.com/12622615"
+   },
+   "source_url": "https://antivj.com"
+  },
+  {
+   "id": "romain-tardy--o-omicron",
+   "creator_ids": [
+    "romain-tardy"
+   ],
+   "title": "O (Omicron) (with Thomas Vaquié)",
+   "year": 2012,
+   "description": "A permanent 360° projection on the concrete dome of Wrocław's Centennial Hall that reveals and reinterprets the ribbed structure of the 1913 building.",
+   "idea_zh": "用投影揭示一座百年混凝土穹顶的结构之美",
+   "technique": "Multiple calibrated projectors cover the interior dome; content is authored on a 3D model of the rib structure so lines trace the real architecture.",
+   "exercise_zh": "把一把雨伞或纸圆顶当“穹顶”，用投影沿伞骨画出发光线条动画；变化：让线条沿结构“生长”，模拟建筑建造的过程。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "multi-projector mapping",
+    "dome projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "41486619",
+    "url": "https://vimeo.com/41486619"
+   },
+   "source_url": "https://www.romaintardy.com"
+  },
+  {
+   "id": "romain-tardy--the-ark",
+   "creator_ids": [
+    "romain-tardy"
+   ],
+   "title": "The Ark (with Squeaky Lobster)",
+   "year": 2013,
+   "description": "At night in the Oaxaca ethnobotanical garden, projections and sound make a grove of giant cacti appear to hold and transmit a luminous archive of the plants' history.",
+   "idea_zh": "把投影打在真实的仙人掌林上，让植物成为发光的档案",
+   "technique": "Projectors are aligned to the silhouettes of real cacti so scanned outlines and patterns wrap organic, non-planar surfaces.",
+   "exercise_zh": "用投影仪照射盆栽或树枝，按植物轮廓做遮罩动画；变化：用麦克风让植物“听到”声音后亮起纹理。",
+   "interaction": [
+    "projection",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping on organic forms"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "70131252",
+    "url": "https://vimeo.com/70131252"
+   },
+   "source_url": "https://www.romaintardy.com"
+  },
+  {
+   "id": "romain-tardy--future-ruins",
+   "creator_ids": [
+    "romain-tardy"
+   ],
+   "title": "Future Ruins",
+   "year": 2015,
+   "description": "An installation for La Nuit des Images at the Musée de l'Elysée in which built structures and light imagine architecture as ruins seen from the future.",
+   "idea_zh": "用光和结构想象未来的人如何看待今天的建筑废墟",
+   "technique": "Custom software (Hand Coded) drives projection or light onto purpose-built physical structures, likely using mapped geometry to animate their surfaces.",
+   "exercise_zh": "用纸板搭一座“废墟”，拍照后做对齐投影让它时而完整、时而崩塌；变化：由观众选择“一百年后”还是“一千年后”的状态。",
+   "interaction": [
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "custom software"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "151385179",
+    "url": "https://vimeo.com/151385179"
+   },
+   "source_url": "https://www.romaintardy.com"
+  },
+  {
+   "id": "yannick-jacquet--intangible-states",
+   "creator_ids": [
+    "yannick-jacquet"
+   ],
+   "title": "Intangible States (with Stray Dogs)",
+   "year": 2010,
+   "description": "A live audiovisual performance where video by Legoman is projection-mapped onto a stage set of stacked boxes and screens, evoking the dream states of an urban nomad.",
+   "idea_zh": "把城市漂泊者的梦境投影到一堆箱子搭成的舞台上",
+   "technique": "Live VJ software maps video onto each face of stacked boxes using masks and corner-pinning, performed in sync with live electronic music.",
+   "exercise_zh": "用纸箱堆出舞台，用免费映射软件（如MapMapper/Resolume试用版）把不同视频贴到每个面；变化：现场根据音乐切换每个箱子的画面。",
+   "interaction": [
+    "projection",
+    "performance-stage",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "live projection mapping",
+    "VJ software"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "cgU7F42vgj4",
+    "url": "https://www.youtube.com/watch?v=cgU7F42vgj4"
+   },
+   "source_url": "https://www.yannickjacquet.com"
+  },
+  {
+   "id": "yannick-jacquet--mecaniques-discursives",
+   "creator_ids": [
+    "yannick-jacquet"
+   ],
+   "title": "Mécaniques Discursives (with Fred Penelle)",
+   "year": 2011,
+   "description": "A wall of woodcut prints depicting a strange machine is brought to life by precise projection: gears turn, creatures move and light flows through the printed mechanism.",
+   "idea_zh": "用投影让墙上的版画机器真的转动起来",
+   "technique": "Video is drawn to match the exact contours of hand-printed woodcuts on the wall and projected in registration so animation appears to live inside the paper.",
+   "exercise_zh": "先手绘一张黑白“机器”图贴在墙上，再拍照在电脑中逐个零件做旋转动画并投影对齐；变化：观众拍手时机器运转速度改变。",
+   "interaction": [
+    "projection",
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping on print",
+    "woodcut"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "3URvRzYkSGo",
+    "url": "https://www.youtube.com/watch?v=3URvRzYkSGo"
+   },
+   "source_url": "https://www.yannickjacquet.com"
+  },
+  {
+   "id": "yannick-jacquet--remote-memories",
+   "creator_ids": [
+    "yannick-jacquet"
+   ],
+   "title": "Remote Memories (with Laurent Delforge / Before Tigers)",
+   "year": 2016,
+   "description": "A panoramic polyptych of projection-mapped panels and sound that slowly assembles a pictorial landscape of memories, also performed live.",
+   "idea_zh": "把记忆碎片拼成一幅需要慢慢看的全景投影画",
+   "technique": "Video is mapped across several physical panels of different sizes and depths so a single composition spans the polyptych.",
+   "exercise_zh": "用5块不同大小的白板组成多联画，投影一段老照片动画跨越所有面板；变化：每块面板代表一个人讲述的记忆片段。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "polyptych"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "v23ZJmWdmo4",
+    "url": "https://www.youtube.com/watch?v=v23ZJmWdmo4"
+   },
+   "source_url": "https://www.yannickjacquet.com"
+  },
+  {
+   "id": "urbanscreen--555-kubik",
+   "creator_ids": [
+    "urbanscreen"
+   ],
+   "title": "555 KUBIK",
+   "year": 2009,
+   "description": "'How it would be if a house was dreaming': the cube façade of Hamburg's Galerie der Gegenwart appears to bulge, fold and dissolve under a projected 3D animation.",
+   "idea_zh": "假如一栋房子在做梦——让方正建筑看起来在弯曲、折叠",
+   "technique": "A 3D model of the façade is animated with fake depth and lighting, then projected from the audience's viewpoint so the illusion of deformation holds.",
+   "exercise_zh": "用纸盒做建筑，在Blender里做同形状模型的变形动画，从观众角度投影对齐；变化：换一个观看角度，讨论为什么错觉消失。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "3D projection mapping",
+    "anamorphic animation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "H8qcml3smAA",
+    "url": "https://www.youtube.com/watch?v=H8qcml3smAA"
+   },
+   "source_url": "https://www.urbanscreen.com"
+  },
+  {
+   "id": "urbanscreen--26th-floor",
+   "creator_ids": [
+    "urbanscreen"
+   ],
+   "title": "26th Floor (Augmented Sculpture)",
+   "year": 2013,
+   "description": "An 'augmented sculpture' for the Four Seasons Hotel Beirut, where a white faceted object and its projected light skin were designed together.",
+   "idea_zh": "雕塑与投影一起设计，白色形体被光赋予流动的皮肤",
+   "technique": "A faceted physical sculpture is built from the same digital model used to author the projection, so every face receives perfectly aligned content.",
+   "exercise_zh": "用白卡纸折一个多面体，在电脑里做同一模型并按面投影不同颜色的流动；变化：让一束“光”在各面之间传递，形成连续动画。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "augmented sculpture",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "4BUhNy1iUhc",
+    "url": "https://www.youtube.com/watch?v=4BUhNy1iUhc"
+   },
+   "source_url": "https://www.urbanscreen.com"
+  },
+  {
+   "id": "urbanscreen--lighting-the-sails",
+   "creator_ids": [
+    "urbanscreen"
+   ],
+   "title": "Lighting the Sails (Sydney Opera House)",
+   "year": 2012,
+   "description": "A projected homage to Jørn Utzon in which the Opera House sails appear to be unfolded, rebuilt and given a human, breathing expression.",
+   "idea_zh": "让悉尼歌剧院的“帆”在投影中被拆解、重建并呼吸",
+   "technique": "Laser-scanned geometry of the curved shells guides multi-projector content that exaggerates their construction logic with simulated depth and light.",
+   "exercise_zh": "用一张弯曲的纸或灯罩当“帆”，投影线框在上面拆分重组；变化：用呼吸声的大小控制“帆”的鼓起程度。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "multi-projector mapping",
+    "3D scan"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "snT8psrPxmA",
+    "url": "https://www.youtube.com/watch?v=snT8psrPxmA"
+   },
+   "source_url": "https://www.urbanscreen.com"
+  },
+  {
+   "id": "urbanscreen--320-licht",
+   "creator_ids": [
+    "urbanscreen"
+   ],
+   "title": "320° Licht",
+   "year": 2013,
+   "description": "Inside the 100-metre-high Gasometer Oberhausen, graphic patterns grow and change across 320 degrees of wall, turning the industrial cylinder into an immersive light space.",
+   "idea_zh": "把巨大的储气罐内壁变成不断变化的光之空间",
+   "technique": "An array of projectors is blended across the cylindrical interior, with generative patterns designed to exploit the surface's extreme height.",
+   "exercise_zh": "在楼梯间或走廊用投影做纵向延伸的图案，让人仰头观看；变化：图案随观众站立的位置向上“生长”。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "multi-projector blending",
+    "generative graphics"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "X_31XyGBL7U",
+    "url": "https://www.youtube.com/watch?v=X_31XyGBL7U"
+   },
+   "source_url": "https://www.urbanscreen.com"
+  },
+  {
+   "id": "urbanscreen--crystal-cloud",
+   "creator_ids": [
+    "urbanscreen"
+   ],
+   "title": "Crystal Cloud (Fête des Lumières)",
+   "year": 2016,
+   "description": "The Coop Himmelb(l)au Musée des Confluences in Lyon is staged as a play between 'crystal' and 'cloud' — solid facets and soft vapour projected across its deconstructivist shell.",
+   "idea_zh": "在解构主义建筑上表演“水晶”与“云”的对话",
+   "technique": "A precise 3D model of the irregular façade lets projected content switch between hard faceted lighting and soft volumetric effects.",
+   "exercise_zh": "用锡纸和棉花分别包两个纸盒，投影同一段动画，比较不同材质上的效果；变化：设计一段在两种材质间“迁移”的影像。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "3D model"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "82jYUtxbsCQ",
+    "url": "https://www.youtube.com/watch?v=82jYUtxbsCQ"
+   },
+   "source_url": "https://www.urbanscreen.com"
+  },
+  {
+   "id": "urbanscreen--solanum",
+   "creator_ids": [
+    "urbanscreen"
+   ],
+   "title": "SOLANUM (Augmented Sculpture)",
+   "year": 2014,
+   "description": "A site-specific augmented sculpture in the JW Marriott Houston lounge: layered physical forms and a custom-fit virtual skin melt together into one evolving object.",
+   "idea_zh": "实体层叠雕塑和贴合的虚拟外衣融为一体",
+   "technique": "Layered physical slices are fabricated from the same 3D design as the projection content, enabling pixel-accurate mapping on every layer edge.",
+   "exercise_zh": "用多层泡沫板叠出一个形体，投影随层级变化的颜色扫描线；变化：让扫描线的速度由现场人数（摄像头计数）决定。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "augmented sculpture",
+    "digital fabrication"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ZSQ3N8FKyb8",
+    "url": "https://www.youtube.com/watch?v=ZSQ3N8FKyb8"
+   },
+   "source_url": "https://www.urbanscreen.com"
+  },
+  {
+   "id": "refik-anadol--visions-of-america-ameriques",
+   "creator_ids": [
+    "refik-anadol"
+   ],
+   "title": "Visions of America: Amériques",
+   "year": 2014,
+   "description": "Inside Walt Disney Concert Hall, projections explode across the hall in response to the gestures and body language of conductor Esa-Pekka Salonen performing Varèse's Amériques.",
+   "idea_zh": "让指挥家的手势实时“指挥”整座音乐厅的投影",
+   "technique": "A depth camera (Kinect) tracks the conductor's gestures and maps them to real-time generative visuals projected onto the hall's interior surfaces.",
+   "exercise_zh": "用MediaPipe Pose追踪一位同学“指挥”的手臂动作，控制投影粒子的爆发和方向；变化：让全班演奏简单节奏，指挥手势决定哪一组的画面亮起。",
+   "interaction": [
+    "performance-stage",
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "real-time generative visuals"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "U-9VAPC92Bw",
+    "url": "https://www.youtube.com/watch?v=U-9VAPC92Bw"
+   },
+   "source_url": "https://refikanadol.com"
+  },
+  {
+   "id": "refik-anadol--infinity-room",
+   "creator_ids": [
+    "refik-anadol"
+   ],
+   "title": "Infinity Room",
+   "year": 2015,
+   "description": "A mirrored room whose walls are flooded with projected generative patterns, creating the sensation of floating in an infinite, shifting space.",
+   "idea_zh": "用投影和镜子让一个小房间看起来无限延伸",
+   "technique": "Projectors cover the walls and floor while mirrored surfaces multiply the generative, sound-driven imagery to dissolve the room's boundaries.",
+   "exercise_zh": "在纸箱里贴镜面纸，用手机或小投影投入图案，观察无限反射；变化：让图案随背景音乐频谱变化。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection",
+    "mirrors",
+    "generative graphics"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "p9Cj1PdmtMA",
+    "url": "https://www.youtube.com/watch?v=p9Cj1PdmtMA"
+   },
+   "source_url": "https://refikanadol.com"
+  },
+  {
+   "id": "refik-anadol--wdch-dreams",
+   "creator_ids": [
+    "refik-anadol"
+   ],
+   "title": "WDCH Dreams",
+   "year": 2018,
+   "description": "For the LA Phil's centenary, 45 terabytes of the orchestra's archives are processed by machine learning and projected onto the exterior of the Walt Disney Concert Hall as the building's 'dreams'.",
+   "idea_zh": "让音乐厅用AI“梦见”自己一百年的记忆，并投在外墙上",
+   "technique": "Machine-learning models cluster and morph archival images and audio, and the results are projection-mapped with 42 projectors onto Gehry's curved stainless-steel façade.",
+   "exercise_zh": "收集学校老照片，用简单的图像聚类或风格混合生成序列，投影到校园一面墙上；变化：让路过的人用手机投票决定下一段“梦”的主题。",
+   "interaction": [
+    "projection",
+    "data-information",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "machine learning",
+    "projection mapping",
+    "42 projectors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PuMVVsoiLPM",
+    "url": "https://www.youtube.com/watch?v=PuMVVsoiLPM"
+   },
+   "source_url": "https://refikanadol.com/works/wdch-dreams/"
+  },
+  {
+   "id": "miguel-chevalier--fractal-flowers",
+   "creator_ids": [
+    "miguel-chevalier"
+   ],
+   "title": "Fractal Flowers",
+   "year": 2008,
+   "description": "A virtual garden of generative fractal flowers grows, blooms and dies on a projection, bending and reacting as visitors move in front of it.",
+   "idea_zh": "一片会因你靠近而弯曲、绽放的分形花园",
+   "technique": "L-system-like generative plant growth runs in real time and a camera tracks visitors' positions to bend or trigger blooms near them.",
+   "exercise_zh": "在p5.js里写一个递归分形花，摄像头检测到人靠近时花朵朝人弯曲；变化：每个观众的衣服颜色成为新长出花的颜色。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "generative L-systems",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "796298809",
+    "url": "https://vimeo.com/796298809"
+   },
+   "source_url": "https://www.miguel-chevalier.com"
+  },
+  {
+   "id": "miguel-chevalier--magic-carpets",
+   "creator_ids": [
+    "miguel-chevalier"
+   ],
+   "title": "Magic Carpets",
+   "year": 2014,
+   "description": "Generative carpets of light are projected across the floor of a historic courtyard; patterns ripple and reorganise wherever visitors walk.",
+   "idea_zh": "让古建筑地面变成一块会随脚步变化的魔毯",
+   "technique": "Overhead cameras track visitors (Voxels tracking software) and generative pattern software reacts locally to their positions on the floor projection.",
+   "exercise_zh": "在地面投一块几何图案“地毯”，俯拍摄像头检测脚步位置产生涟漪；变化：两个人之间的连线会生成新的图案花纹。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "floor projection",
+    "overhead tracking",
+    "generative graphics"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "LvNhZrWVByM",
+    "url": "https://www.youtube.com/watch?v=LvNhZrWVByM"
+   },
+   "source_url": "https://www.miguel-chevalier.com"
+  },
+  {
+   "id": "miguel-chevalier--digital-supernova",
+   "creator_ids": [
+    "miguel-chevalier"
+   ],
+   "title": "Digital Supernova",
+   "year": 2019,
+   "description": "Generative geometric 'supernovae' are projected onto the Gothic vaults of Rodez Cathedral, turning the ceiling into a slowly exploding digital sky.",
+   "idea_zh": "把教堂穹顶变成不断爆发的数字超新星",
+   "technique": "Real-time generative geometry is warped to the cathedral's vault surfaces using mapped projection and edge blending.",
+   "exercise_zh": "躺在地上向天花板投影旋转的生成几何，让大家仰望；变化：用同学的心跳（手机测）控制几何爆发的节奏。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "generative graphics",
+    "vault projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ZbSWZL_YZ3w",
+    "url": "https://www.youtube.com/watch?v=ZbSWZL_YZ3w"
+   },
+   "source_url": "https://www.miguel-chevalier.com"
+  },
+  {
+   "id": "miguel-chevalier--pixel-waves",
+   "creator_ids": [
+    "miguel-chevalier"
+   ],
+   "title": "Pixel Waves",
+   "year": 2015,
+   "description": "Waves of pixel-like light roll across the floor and respond to people walking through them like a digital sea.",
+   "idea_zh": "在像素组成的光之海浪中行走，浪花会随你而动",
+   "technique": "Floor projection of a height-field wave simulation, perturbed at the positions of people detected by an overhead tracking system (Voxels track).",
+   "exercise_zh": "用网页做二维波动方程模拟并投到地面，摄像头检测到人就在该点“投石子”；变化：让声音大小改变海浪的颜色。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "wave simulation",
+    "overhead tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1208277695",
+    "url": "https://vimeo.com/1208277695"
+   },
+   "source_url": "https://www.miguel-chevalier.com"
+  },
+  {
+   "id": "hellicar-and-lewis--white-heat",
+   "creator_ids": [
+    "hellicar-and-lewis"
+   ],
+   "title": "White Heat",
+   "year": 2010,
+   "description": "A flock of projected 'light-beings', inspired by the Game of Life and Reynolds' boids, reacts to visitors and to a collection of artists' books and evolves over the show.",
+   "idea_zh": "一群由规则驱动的光之生物，会围着观众和书本聚散演化",
+   "technique": "openFrameworks runs boid flocking plus cellular-automaton rules, using camera-detected visitors as attractors or obstacles.",
+   "exercise_zh": "用p5.js写boids鸟群，把摄像头检测到的人当作吸引点投影在桌上；变化：在桌上放一本书，鸟群会避开或聚集在书周围。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "boids",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "15633768",
+    "url": "https://vimeo.com/15633768"
+   },
+   "source_url": "http://www.hellicarandlewis.com"
+  },
+  {
+   "id": "hellicar-and-lewis--feedback",
+   "creator_ids": [
+    "hellicar-and-lewis"
+   ],
+   "title": "Feedback (with Todd Vanderlin)",
+   "year": 2010,
+   "description": "A large interactive wall for Roundhouse CircusFest that turns performers' and visitors' movements into layered visual feedback; a later version used Kinect for 3D interaction.",
+   "idea_zh": "把人的动作不断回授成层层叠叠的视觉回声",
+   "technique": "Camera (later Kinect depth) input is composited with its own previous frames to create a video-feedback trail driven by the body.",
+   "exercise_zh": "用摄像头画面叠加上一帧并略微缩放旋转，做出“视觉回声”投影；变化：用手的高度控制回声的旋转角度。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Kinect",
+    "video feedback"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "19598568",
+    "url": "https://vimeo.com/19598568"
+   },
+   "source_url": "http://www.hellicarandlewis.com"
+  },
+  {
+   "id": "hellicar-and-lewis--divide-by-zero",
+   "creator_ids": [
+    "hellicar-and-lewis"
+   ],
+   "title": "Divide By Zero",
+   "year": 2011,
+   "description": "A dance film in which a performer's movements, guided by a hypnotherapist, drive interactive graphics that connect unconscious content with digital interfaces.",
+   "idea_zh": "在催眠引导下的舞蹈，把潜意识动作变成可见的界面",
+   "technique": "Camera tracking of the dancer drives real-time generative graphics composited around her body (likely openFrameworks).",
+   "exercise_zh": "让同学闭眼听一段引导语即兴动作，摄像头把动作轨迹画成线条；变化：结束后让本人看回放，写下对“潜意识图形”的解读。",
+   "interaction": [
+    "performance-stage",
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "camera tracking",
+    "generative graphics"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "19487686",
+    "url": "https://vimeo.com/19487686"
+   },
+   "source_url": "http://www.hellicarandlewis.com"
+  },
+  {
+   "id": "hellicar-and-lewis--inside-out",
+   "creator_ids": [
+    "hellicar-and-lewis"
+   ],
+   "title": "Inside - Out",
+   "year": 2011,
+   "description": "A shop installation where cameras and projectors transport the activity of one space into another, creating surprising feedback loops between viewers and participants.",
+   "idea_zh": "把一个空间里的人实时投进另一个空间，形成互相观看的回路",
+   "technique": "Live camera feeds from one room are processed and projected into the other (and back), forming a two-way video feedback loop.",
+   "exercise_zh": "用两台笔记本在走廊两端互相视频并投影到墙上，让两边的人玩“隔墙互动”；变化：只显示对方的剪影，并交换左右。",
+   "interaction": [
+    "multiplayer-social",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "live video",
+    "projection",
+    "openFrameworks"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "30795891",
+    "url": "https://vimeo.com/30795891"
+   },
+   "source_url": "http://www.hellicarandlewis.com"
+  },
+  {
+   "id": "jiabao-li--nocturnal-fugue",
+   "creator_ids": [
+    "jiabao-li",
+    "botao-amber-hu"
+   ],
+   "title": "Nocturnal Fugue (with Matt McCorkle & Botao Hu)",
+   "year": 2024,
+   "description": "A multisensory night journey beginning under Austin's Congress Bat Bridge, combining bat stories, sound and the EchoVision mixed-reality headsets to experience the bats' world.",
+   "idea_zh": "在蝙蝠桥下的夜晚，用声音与MR头显体验蝙蝠的感知世界",
+   "technique": "Location-based sound composition is combined with HoloKit-based EchoVision headsets that visualise the participant's voice as echoes in the dark.",
+   "exercise_zh": "设计一条夜间校园“声音散步”路线，在每站用手机播放动物声音并用AR显示声波；变化：参与者必须用自己的声音“回声定位”找到下一站。",
+   "interaction": [
+    "voice-sound",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "HoloKit",
+    "spatial audio",
+    "mixed reality"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "npzhJdvyLew",
+    "url": "https://www.youtube.com/watch?v=npzhJdvyLew"
+   },
+   "source_url": "https://www.jiabaoli.org"
+  },
+  {
+   "id": "jiabao-li--echovision-deep-space",
+   "creator_ids": [
+    "jiabao-li",
+    "botao-amber-hu"
+   ],
+   "title": "EchoVision (Ars Electronica Deep Space 8K edition)",
+   "year": 2025,
+   "description": "A projection edition of EchoVision in Ars Electronica's Deep Space 8K: visitors' voices become visualised echolocation waves across the giant wall and floor, alongside AI-composed bat songs.",
+   "idea_zh": "在巨大的墙面和地面上，把观众的叫声变成蝙蝠的回声定位波",
+   "technique": "Microphone input is analysed for pitch and loudness and rendered as expanding echo waves in the 8K wall-and-floor projection, likely with floor tracking of visitors.",
+   "exercise_zh": "在教室地面投影，用麦克风把喊声转成从中心扩散的波纹，碰到“障碍物”（放在地上的纸箱）会反射；变化：只有低沉的声音能看见远处的障碍。",
+   "interaction": [
+    "voice-sound",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "audio analysis",
+    "Deep Space 8K projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "W0TSj-LilLw",
+    "url": "https://www.youtube.com/watch?v=W0TSj-LilLw"
+   },
+   "source_url": "https://www.jiabaoli.org"
+  },
+  {
+   "id": "jiabao-li--the-long-fall",
+   "creator_ids": [
+    "jiabao-li"
+   ],
+   "title": "The Long Fall: A descent into the Ocean's Living Memory",
+   "year": 2025,
+   "description": "A 15-minute audiovisual performance (with Manu Prakash and others) that takes the audience on an immersive descent with plankton, projected across wall and floor.",
+   "idea_zh": "随浮游生物一起“下沉”，看见海洋如何记住碳",
+   "technique": "Microscopy footage and simulations of plankton are composed into a live wall-and-floor projection performance with spatial sound.",
+   "exercise_zh": "用手机微距拍水滴或植物细胞，把影像投到地上做一段“下沉”视觉叙事；变化：观众走到不同深度区（地面标线）触发不同的声音。",
+   "interaction": [
+    "projection",
+    "performance-stage",
+    "data-information"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "immersive projection",
+    "microscopy",
+    "spatial audio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "fe-Xd3gxcsU",
+    "url": "https://www.youtube.com/watch?v=fe-Xd3gxcsU"
+   },
+   "source_url": "https://www.jiabaoli.org"
+  },
+  {
+   "id": "marlena-myles--dakota-spirit-walk",
+   "creator_ids": [
+    "marlena-myles"
+   ],
+   "title": "Dakota Spirit Walk",
+   "year": 2021,
+   "description": "A permanent AR public-art trail at the Bruce Vento Nature Sanctuary in Saint Paul where phones reveal Dakota spirits, stories and language at sacred sites.",
+   "idea_zh": "在圣地步道上用AR让达科他族的神灵与语言重新出现",
+   "technique": "Image-marker or location-triggered AR (likely Adobe Aero/app) anchors animated Dakota artwork and audio narration to signs along the trail.",
+   "exercise_zh": "为校园一条小路设计3个AR站点，每站用图像标记呈现一个地方的“原名”和故事；变化：邀请当地长者录音作为旁白。",
+   "interaction": [
+    "location-geo",
+    "data-information",
+    "voice-sound"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR",
+    "image markers",
+    "audio narration"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nxo1UIyZR-Y",
+    "url": "https://www.youtube.com/watch?v=nxo1UIyZR-Y"
+   },
+   "source_url": "https://www.marlenamyles.com"
+  },
+  {
+   "id": "marlena-myles--dakota-landmap",
+   "creator_ids": [
+    "marlena-myles"
+   ],
+   "title": "Augmented Reality Dakota Landmap of the Twin Cities",
+   "year": 2022,
+   "description": "An illustrated map of the Twin Cities with Dakota place names that becomes a 3D animated landscape when viewed through Adobe Aero.",
+   "idea_zh": "一张用达科他语地名重绘的城市地图，在AR中立体动起来",
+   "technique": "An Adobe Aero scene anchors layered 3D illustrations and animations to the printed map image.",
+   "exercise_zh": "画一张本地区地图，标上老地名或方言名，用Adobe Aero让地标立体弹出；变化：每个地标点开后播放一段关于它的声音。",
+   "interaction": [
+    "location-geo",
+    "data-information",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Adobe Aero",
+    "image-anchored AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "uc3mS47Xr_c",
+    "url": "https://www.youtube.com/watch?v=uc3mS47Xr_c"
+   },
+   "source_url": "https://www.dakotalandmap.com"
+  },
+  {
+   "id": "marlena-myles--innerworld-prism",
+   "creator_ids": [
+    "marlena-myles"
+   ],
+   "title": "Innerworld Prism",
+   "year": 2021,
+   "description": "A large-scale projection in Saint Paul commissioned by the Great Northern Festival: a dreamlike animation about losing the human ego to regain nature.",
+   "idea_zh": "用巨型投影讲述“放下自我、回到自然”的梦境",
+   "technique": "Animated Dakota-inspired illustration is projected at architectural scale onto an urban surface.",
+   "exercise_zh": "以本地自然或文化符号画一段30秒的循环动画，晚上投到教学楼外墙；变化：让动画中的元素从墙上的窗户“钻出来”。",
+   "interaction": [
+    "projection",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "large-scale projection",
+    "animation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Er7oZ2n1u8s",
+    "url": "https://www.youtube.com/watch?v=Er7oZ2n1u8s"
+   },
+   "source_url": "https://www.marlenamyles.com"
+  },
+  {
+   "id": "marlena-myles--dakota-sacred-hoop-walk",
+   "creator_ids": [
+    "marlena-myles"
+   ],
+   "title": "Dakota Sacred Hoop Walk",
+   "year": 2022,
+   "description": "An AR exhibit that helps visitors understand nature, land and culture from a Dakota perspective through artwork revealed at stations along a walk.",
+   "idea_zh": "沿着“神圣之环”步道，用AR从达科他视角理解土地",
+   "technique": "Phone-based AR triggered at stations along the path overlays animated Dakota artwork and teachings.",
+   "exercise_zh": "在校园选4个方位点，用AR分别展示与东南西北相关的自然知识；变化：只有按顺序走完一圈才解锁最后的动画。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "0tWS13lHc5Q",
+    "url": "https://www.youtube.com/watch?v=0tWS13lHc5Q"
+   },
+   "source_url": "https://www.marlenamyles.com"
+  },
+  {
+   "id": "marlena-myles--star-spirit-of-creation",
+   "creator_ids": [
+    "marlena-myles"
+   ],
+   "title": "Star Spirit of Creation (Dakota thoughts in Latvia)",
+   "year": 2024,
+   "description": "An AR video piece made in Latvia in which Dakota star spirits and patterns appear over the people and places the artist visited.",
+   "idea_zh": "把达科他星辰神灵带到异国风景中，连接两地的祖先记忆",
+   "technique": "AR animation is placed into real scenes and captured as screen recordings (likely with a mobile AR authoring tool).",
+   "exercise_zh": "为自己的家乡文化设计一个AR“守护灵”，在旅行或校园里拍摄它出现在各地的短片；变化：守护灵在不同地点展现不同的形态。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR",
+    "screen recording"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "0gVogFBSst8",
+    "url": "https://www.youtube.com/watch?v=0gVogFBSst8"
+   },
+   "source_url": "https://www.marlenamyles.com"
+  },
+  {
+   "id": "jakob-kudsk-steensen--the-deep-listener",
+   "creator_ids": [
+    "jakob-kudsk-steensen"
+   ],
+   "title": "The Deep Listener",
+   "year": 2019,
+   "description": "A location-based AR and sound walk through Kensington Gardens and Hyde Park in which five of London's species — plane trees, bats, parakeets, damselflies and reedbeds — appear as scanned, sonified creatures at their habitats.",
+   "idea_zh": "在公园里用AR“听见”五种城市物种的生命",
+   "technique": "GPS-triggered AR places photogrammetry-scanned, game-engine-rendered species at specific park locations, paired with spatialised field recordings.",
+   "exercise_zh": "选校园里3种植物或动物，录下它们周边的声音并用AR在原地放置放大的模型；变化：只有安静站立10秒才会出现声音。",
+   "interaction": [
+    "location-geo",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "location-based AR",
+    "photogrammetry",
+    "spatial audio",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xAlbHU6GgnQ",
+    "url": "https://www.youtube.com/watch?v=xAlbHU6GgnQ"
+   },
+   "source_url": "https://www.serpentinegalleries.org/whats-on/jakob-kudsk-steensen-the-deep-listener/"
+  },
+  {
+   "id": "olafur-eliasson--your-uncertain-shadow-colour",
+   "creator_ids": [
+    "olafur-eliasson"
+   ],
+   "title": "Your uncertain shadow (colour)",
+   "year": 2010,
+   "description": "Five coloured lamps shine on a white wall; each visitor casts a row of overlapping coloured shadows that move with them, splitting the body into a spectrum.",
+   "idea_zh": "五盏彩色灯把你的影子分解成一串彩虹",
+   "technique": "Coloured HMI lamps placed side by side produce additive-colour light; blocking one lamp leaves its complementary colour, so each shadow is a different hue.",
+   "exercise_zh": "用红绿蓝三盏手机灯（或彩色玻璃纸）照白墙，研究影子颜色；变化：用舞蹈动作让彩色影子拼出一个字母。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "coloured lamps",
+    "additive colour mixing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PeBH6fTQNSc",
+    "url": "https://www.youtube.com/watch?v=PeBH6fTQNSc"
+   },
+   "source_url": "https://olafureliasson.net/artwork/your-uncertain-shadow-colour-2010/"
+  },
+  {
+   "id": "olafur-eliasson--earth-speakr",
+   "creator_ids": [
+    "olafur-eliasson"
+   ],
+   "title": "Earth Speakr",
+   "year": 2020,
+   "description": "An AR app for children in which kids record their voice and facial expressions and 'lend' them to places and objects in the world — trees, rivers, buildings — to speak for the planet.",
+   "idea_zh": "孩子把自己的脸和声音借给树木、河流，让地球开口说话",
+   "technique": "Face tracking captures the child's expressions and voice, which are mapped onto AR 'faces' placed on real objects detected through the phone camera.",
+   "exercise_zh": "用AR面部驱动（如Snap Lens或Reality Composer）把自己的表情贴到校园的一棵树上，录一句“树想说的话”；变化：全班的树组成一场对话。",
+   "interaction": [
+    "face",
+    "voice-sound",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "face tracking",
+    "mobile AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "oneExExNwZw",
+    "url": "https://www.youtube.com/watch?v=oneExExNwZw"
+   },
+   "source_url": "https://www.earthspeakr.art"
+  },
+  {
+   "id": "kaws--family-ar",
+   "creator_ids": [
+    "kaws",
+    "acute-art"
+   ],
+   "title": "KAWS: FAMILY AR experience (AGO)",
+   "year": 2022,
+   "description": "At the Art Gallery of Ontario, visitors open the Acute Art app to see KAWS's giant sculptures appear inside the Galleria Italia alongside the physical exhibition.",
+   "idea_zh": "在美术馆长廊里用手机召唤出巨型KAWS雕塑",
+   "technique": "Acute Art's app uses plane detection and site-specific placement to anchor large animated 3D sculptures in the gallery space.",
+   "exercise_zh": "为学校走廊设计一个超大尺寸的AR雕塑（Reality Composer/Adobe Aero），研究比例带来的震撼；变化：雕塑会看向离它最近的观众。",
+   "interaction": [
+    "location-geo",
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "ARKit/ARCore"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PlmdoymVGjk",
+    "url": "https://www.youtube.com/watch?v=PlmdoymVGjk"
+   },
+   "source_url": "https://ago.ca"
+  },
+  {
+   "id": "kaws--kaws-puffs-webar",
+   "creator_ids": [
+    "kaws",
+    "acute-art"
+   ],
+   "title": "KAWS × Reese's Puffs WebAR",
+   "year": 2021,
+   "description": "Scanning a QR code on KAWS-designed cereal boxes launches a WebAR game in which KAWS characters appear around the box.",
+   "idea_zh": "扫早餐麦片盒就能在桌上和KAWS角色玩AR游戏",
+   "technique": "An on-pack QR code opens a browser-based AR experience built with the ZapWorks Universal AR SDK for Unity, tracking the packaging as the anchor.",
+   "exercise_zh": "为一个零食包装设计网页AR（如MindAR或8th Wall），扫包装出现小游戏；变化：包装背面的不同图案解锁不同关卡。",
+   "interaction": [
+    "tangible-object",
+    "game-play"
+   ],
+   "platform": [
+    "web",
+    "phone"
+   ],
+   "tech": [
+    "WebAR",
+    "ZapWorks",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "_2MlPIhdJbY",
+    "url": "https://www.youtube.com/watch?v=_2MlPIhdJbY"
+   },
+   "source_url": "https://zap.works"
+  },
+  {
+   "id": "acute-art--looking-glass-precious-okoyomon",
+   "creator_ids": [
+    "acute-art"
+   ],
+   "title": "The Looking Glass: Precious Okoyomon",
+   "year": 2021,
+   "description": "On The Shed's public plaza and the High Line, Precious Okoyomon's AR works — creatures and nature-based forms — appear through the Acute Art app as part of the group show The Looking Glass.",
+   "idea_zh": "在城市广场上用AR召唤出关于自然与身份的柔软生物",
+   "technique": "Site-specific AR placement in the Acute Art app anchors animated 3D sculptures to geolocated spots on the plaza.",
+   "exercise_zh": "为校园广场设计一个表达“自然回归”的AR生物，并决定它只出现在哪一块具体的地面上；变化：它会随一天中的时间改变颜色。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "geolocated AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "AG_NXEvKxBU",
+    "url": "https://www.youtube.com/watch?v=AG_NXEvKxBU"
+   },
+   "source_url": "https://theshed.org"
+  },
+  {
+   "id": "acute-art--looking-glass-darren-bader",
+   "creator_ids": [
+    "acute-art"
+   ],
+   "title": "The Looking Glass: Darren Bader",
+   "year": 2021,
+   "description": "Darren Bader's surreal AR sculptures on The Shed's plaza use humour to question art and contemporary life, visible through the Acute Art app.",
+   "idea_zh": "把荒诞幽默的AR雕塑放进城市广场，追问“什么是艺术”",
+   "technique": "Mobile AR anchors absurd 3D object combinations at fixed plaza locations via the Acute Art app.",
+   "exercise_zh": "把两件毫不相干的日常物体组合成一个AR“雕塑”放在校园里并起标题；变化：让观众投票选出最荒诞的组合，下周替换。",
+   "interaction": [
+    "location-geo",
+    "perception-art",
+    "game-play"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "mobile AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Q4aCI3Dol1o",
+    "url": "https://www.youtube.com/watch?v=Q4aCI3Dol1o"
+   },
+   "source_url": "https://theshed.org"
+  },
+  {
+   "id": "acute-art--looking-glass-tomas-saraceno",
+   "creator_ids": [
+    "acute-art"
+   ],
+   "title": "The Looking Glass: Tomás Saraceno (spiders in AR)",
+   "year": 2021,
+   "description": "Tomás Saraceno's AR spiders crawl across The Shed's plaza, part of his project to make spiders and their webs part of our lives and rethink our relationship with other species.",
+   "idea_zh": "让AR蜘蛛在城市里爬行，重新思考人与其他物种的关系",
+   "technique": "Scanned/animated spider models are placed with plane detection in the Acute Art app so they crawl on real ground surfaces.",
+   "exercise_zh": "用Reality Composer或Adobe Aero放一只会沿地面爬行的AR昆虫，并写一句它的“视角”说明；变化：昆虫会避开观众的手机靠近。",
+   "interaction": [
+    "spatial-mapping",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "plane detection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "2UDvzuecX2Q",
+    "url": "https://www.youtube.com/watch?v=2UDvzuecX2Q"
+   },
+   "source_url": "https://theshed.org"
+  },
+  {
+   "id": "raymond-salvatore-harmon--mirage",
+   "creator_ids": [
+    "raymond-salvatore-harmon",
+    "heavy-projects"
+   ],
+   "title": "MIRAGE",
+   "year": 2014,
+   "description": "An architecture-scale painted mural in LA's Fashion District that becomes an interactive animated artwork when viewed through a companion AR app.",
+   "idea_zh": "一面巨型壁画只有透过手机才会“动起来”",
+   "technique": "Image-recognition AR (developed with The Heavy Projects) tracks the painted façade and overlays animated layers aligned to the mural.",
+   "exercise_zh": "在大白纸上画一幅壁画，用图像识别AR给其中几个元素加动画；变化：同一壁画在白天和夜晚显示不同的AR层。",
+   "interaction": [
+    "location-geo",
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "image-recognition AR",
+    "mural"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "rhtFEY1Bk54",
+    "url": "https://www.youtube.com/watch?v=rhtFEY1Bk54"
+   },
+   "source_url": "http://raymondharmon.com"
+  },
+  {
+   "id": "will-pappenheimer--outside-the-wall",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Outside the Wall",
+   "year": 2018,
+   "description": "A mixed-reality installation of a table, chair and domestic objects viewed through an iPad, where virtual elements break out of the domestic wall into the space.",
+   "idea_zh": "透过平板，家里的墙被打破，外面的世界涌进来",
+   "technique": "An iOS AR app registers virtual content to a physical arrangement of furniture and objects so the scene extends beyond the real wall.",
+   "exercise_zh": "摆一张桌子和几件日常物，用AR让墙面“破开”显示另一个世界；变化：物体被移动后，墙外的景象也随之改变。",
+   "interaction": [
+    "portal-world",
+    "tangible-object",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "iOS AR app",
+    "iPad"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PSDzOSVX9NA",
+    "url": "https://www.youtube.com/watch?v=PSDzOSVX9NA"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "will-pappenheimer--cardrop-v",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "CarDrop-V",
+   "year": 2019,
+   "description": "Phone viewers watch a highly detailed virtual car fall from the sky and smash into the real ground in slow motion.",
+   "idea_zh": "一辆虚拟汽车从天而降，慢动作砸在你面前的真实地面",
+   "technique": "Mobile AR with ground-plane detection triggers a physics-driven slow-motion drop and impact animation of a car model.",
+   "exercise_zh": "用Reality Composer的物理功能让一个大物体从空中落到地面并慢放；变化：落地点由观众点击选定，并留下永久的“坑”。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR",
+    "physics animation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "4qRWk2jo0k0",
+    "url": "https://www.youtube.com/watch?v=4qRWk2jo0k0"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "will-pappenheimer--awkward-instance",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Awkward Instance",
+   "year": 2021,
+   "description": "Site-based AR 'paranormal apparitions' — glitchy dancing human forms made from stolen skins and mismatched motion-capture — appear in outdoor places.",
+   "idea_zh": "用错配的人皮与动捕数据做出会跳舞的“故障幽灵”",
+   "technique": "Rigged 3D figures are driven by deliberately mismatched motion-capture clips and placed at sites with mobile AR.",
+   "exercise_zh": "从Mixamo下载角色和动作，故意把动作套到比例不对的角色上放进AR；变化：把全班录制的动作混搭给同一个角色。",
+   "interaction": [
+    "location-geo",
+    "perception-art",
+    "hand-body"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR",
+    "motion capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "GkQRj35QfZw",
+    "url": "https://www.youtube.com/watch?v=GkQRj35QfZw"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "will-pappenheimer--starry-interpose",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Starry Interpose (with Sarah Slifer Swift)",
+   "year": 2021,
+   "description": "A dance performance at the Manship Artists Residency in which live choreography interacts with Pappenheimer's AR artwork and poses from Paul Manship's sculptures.",
+   "idea_zh": "舞者与AR作品和雕塑姿态一起完成一场混合现实舞蹈",
+   "technique": "Mobile AR content is placed at the performance site and filmed through devices while dancers enact sculpture poses around the virtual objects.",
+   "exercise_zh": "选校园一座雕塑，模仿它的姿势编一段舞，用手机AR在旁边放置虚拟元素一起拍摄；变化：观众手机里看到的虚拟元素会“复制”舞者动作。",
+   "interaction": [
+    "performance-stage",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "qcuWWhc2M_I",
+    "url": "https://www.youtube.com/watch?v=qcuWWhc2M_I"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "will-pappenheimer--colorfield-weather-app",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Colorfield Weather App Series",
+   "year": 2022,
+   "description": "Virtual AR voxels fall from the sky or expand across a site, leaving trails that 'paint' colour-field paintings onto the environment's topography and architecture.",
+   "idea_zh": "让AR彩色方块从天而降，在建筑和地形上“画”出色域画",
+   "technique": "AR voxel particles with gravity and forces collide with detected surfaces and leave persistent coloured trails.",
+   "exercise_zh": "用Unity AR Foundation或网页AR让彩色方块下落并在地面平面上留下颜色；变化：天气数据（温度/风速）决定颜色和下落方向。",
+   "interaction": [
+    "spatial-mapping",
+    "drawing-creation",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR",
+    "voxel physics"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FedxwbR4Z_0",
+    "url": "https://www.youtube.com/watch?v=FedxwbR4Z_0"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "will-pappenheimer--scorched-earth-policy",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Scorched Earth Policy (US Pavilion, Venice Biennale)",
+   "year": 2026,
+   "description": "An uninvited AR intervention at the 2026 Venice Biennale US Pavilion in which the pavilion appears to dry up and disintegrate into a burning wasteland around visitors.",
+   "idea_zh": "用AR让国家馆在观众眼前干涸、燃烧、崩解",
+   "technique": "Geolocated mobile AR overlays disintegration and fire effects registered to the pavilion architecture, recorded as screen captures.",
+   "exercise_zh": "选一栋校园建筑，用AR叠加“未来100年”的风化或气候效果；变化：观众可以选择“修复”还是“放任”，看到两种结局。",
+   "interaction": [
+    "location-geo",
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "geolocated AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "unvGcSgfaeM",
+    "url": "https://www.youtube.com/watch?v=unvGcSgfaeM"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "chris-milk--the-treachery-of-sanctuary",
+   "creator_ids": [
+    "chris-milk"
+   ],
+   "title": "The Treachery of Sanctuary",
+   "year": 2012,
+   "description": "A triptych of white screens: in the first a visitor's shadow disintegrates into flying birds, in the second birds peck the shadow apart, in the third the shadow grows giant wings and takes flight.",
+   "idea_zh": "你的影子在三块屏幕上经历“解体—被吞噬—长出翅膀飞翔”",
+   "technique": "Kinect depth cameras capture each visitor's silhouette and skeleton, and openFrameworks/Unity-style real-time graphics replace parts of the shadow with animated birds and wings projected on the screens.",
+   "exercise_zh": "用MediaPipe Pose拿到手臂骨骼，在剪影上长出一对随手臂扇动的翅膀；变化：设计你自己的“三幕”，每一幕影子有不同命运。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "openFrameworks",
+    "projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "I5__9hq-yas",
+    "url": "https://www.youtube.com/watch?v=I5__9hq-yas"
+   },
+   "source_url": "http://milk.co/treachery"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Evan Roth & James Powderly (Graffiti Research Lab)",
+   "why": "GRL's L.A.S.E.R. Tag and EyeWriter are already in the gallery under Theo Watson/Zach Lieberman; Evan Roth's own uploads (Laser Tag compilation, EyeWriter) could be linked if a GRL creator record is added.",
+   "link": "https://www.youtube.com/watch?v=0Ctv7fXI3Ac",
+   "found_via": "zach-lieberman"
+  },
+  {
+   "name": "Marshmallow Laser Feast",
+   "why": "Meet Your Creator (2012 drone-and-mirror light show) and Laser Forest (2013) are spatial light works; most later work is VR, so needs curation.",
+   "link": "https://www.youtube.com/watch?v=JLAKXJG1trU",
+   "found_via": "elevenplay-mikiko"
+  },
+  {
+   "name": "Macula (Czech)",
+   "why": "'The 600 Years' (2010) projection mapping on the Prague Astronomical Clock is a canonical architectural mapping piece.",
+   "link": "https://www.youtube.com/watch?v=u4LVEAiZJyg",
+   "found_via": "urbanscreen"
+  },
+  {
+   "name": "1024 Architecture (François Wunschel & Pierre Schneider)",
+   "why": "Perspective Lyrique (2010) let the public's voices deform a projected façade face in real time.",
+   "link": "https://www.youtube.com/watch?v=MBeJK3nyjz4",
+   "found_via": "romain-tardy"
+  },
+  {
+   "name": "Myron Krueger",
+   "why": "Videoplace (1975–) is the origin of camera-based body-silhouette interaction that Snibbe, Utterback and Lozano-Hemmer build on.",
+   "link": "https://en.wikipedia.org/wiki/Myron_W._Krueger",
+   "found_via": "scott-snibbe"
+  },
+  {
+   "name": "Motoi Ishibashi (Rhizomatiks)",
+   "why": "Co-director of Rhizomatiks R&D who designed the light drones and AR systems behind ELEVENPLAY works; could be credited as a separate creator.",
+   "link": "https://rhizomatiks.com",
+   "found_via": "elevenplay-mikiko"
+  },
+  {
+   "name": "Krzysztof Wodiczko",
+   "why": "Public projection pioneer (Homeless Projections, Tijuana Projection with live faces) and co-author of Zoom Pavilion.",
+   "link": "https://en.wikipedia.org/wiki/Krzysztof_Wodiczko",
+   "found_via": "rafael-lozano-hemmer"
+  },
+  {
+   "name": "Tomás Saraceno (Web of Life AR)",
+   "why": "His Acute Art spider AR (2020–21) could anchor a creator record alongside Aerocene.",
+   "link": "https://www.youtube.com/watch?v=was4NsYgLBk",
+   "found_via": "acute-art"
+  },
+  {
+   "name": "Rachel Rossin",
+   "why": "Suggested lead, but her available videos are VR/painting interviews; no verified AR/projection work video found this round.",
+   "link": "https://www.youtube.com/watch?v=xYE-G0lB8zI",
+   "found_via": "seed"
+  },
+  {
+   "name": "GMUNK (Bradley Munkowitz)",
+   "why": "Suggested lead; his main projection-mapping work 'Box' is already in the gallery under Bot & Dolly.",
+   "link": "https://www.youtube.com/watch?v=lX6JcybgDFo",
+   "found_via": "bot-and-dolly"
+  },
+  {
+   "name": "Elliot Woods",
+   "why": "Projection-calibration expert; his work is covered through the existing Kimchi and Chips creator — extra works (Link, Halo) could be added there.",
+   "link": "https://vimeo.com/elliotwoods",
+   "found_via": "kimchi-and-chips"
+  }
+ ]
+}

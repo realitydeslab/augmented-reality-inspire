@@ -1,0 +1,3262 @@
+{
+  "batch": "phone-consumer",
+  "creators": [
+    {
+      "id": "niantic",
+      "name": "Niantic (John Hanke)",
+      "role": "Game studio; makers of Ingress, Pokémon GO and Peridot",
+      "based": "San Francisco, US",
+      "bio": "Spun out of Google in 2015 under John Hanke, Niantic built the location-based AR games Ingress and Pokémon GO and the Lightship AR platform.",
+      "why": "Turned the whole planet into a shared game board and made phone AR a daily habit for hundreds of millions of players.",
+      "links": {
+        "site": "https://nianticlabs.com",
+        "x": "https://x.com/NianticLabs",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@PeridotGame",
+        "github": ""
+      },
+      "connected_to": [
+        "nintendo",
+        "8th-wall",
+        "snap-inc"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "8th-wall",
+      "name": "8th Wall (Erik Murphy-Chutorian)",
+      "role": "WebAR platform, acquired by Niantic in 2022",
+      "based": "Palo Alto, US",
+      "bio": "8th Wall, founded by Erik Murphy-Chutorian in 2016, made markerless AR run in the mobile browser without an app and powered thousands of WebAR campaigns.",
+      "why": "Removed the app-install barrier so any link could open an AR world.",
+      "links": {
+        "site": "https://www.8thwall.com",
+        "x": "https://x.com/the8thwall",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@8thWall",
+        "github": ""
+      },
+      "connected_to": [
+        "niantic"
+      ],
+      "discovered_via": "niantic"
+    },
+    {
+      "id": "novarama",
+      "name": "Novarama",
+      "role": "Game studio; creators of Invizimals",
+      "based": "Barcelona, Spain",
+      "bio": "Barcelona studio founded by Daniel Sánchez-Crespo that made the Invizimals series for PSP, PS Vita and PS3, which used a camera and marker trap card to capture creatures on the player's table.",
+      "why": "Invizimals (2009) was one of the first mass-market handheld AR games and made marker-based AR a playground hit a decade before ARKit.",
+      "links": {
+        "site": "https://www.novarama.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "sce-london-studio"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "sce-london-studio",
+      "name": "SCE London Studio",
+      "role": "Sony first-party studio (EyeToy, EyePet, Wonderbook)",
+      "based": "London, UK",
+      "bio": "Sony's London Studio pioneered camera games from EyeToy to EyePet and the Wonderbook, an AR book peripheral for PS3.",
+      "why": "Showed that a TV, a webcam and a printed card could make a believable virtual creature live in the living room.",
+      "links": {
+        "site": "https://www.playstation.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "novarama"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "nintendo",
+      "name": "Nintendo",
+      "role": "Game and hardware company (3DS AR Games, Face Raiders)",
+      "based": "Kyoto, Japan",
+      "bio": "Nintendo shipped AR Games and Face Raiders on every Nintendo 3DS in 2011, using AR cards and the handheld's cameras, and later co-created Mario Kart Live with Velan Studios.",
+      "why": "Put camera AR preinstalled in tens of millions of handhelds and kept finding playful uses for it.",
+      "links": {
+        "site": "https://www.nintendo.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@NintendoAmerica",
+        "github": ""
+      },
+      "connected_to": [
+        "velan-studios",
+        "niantic"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "velan-studios",
+      "name": "Velan Studios (Karthik & Guha Bala)",
+      "role": "Game studio; Mario Kart Live and Hot Wheels Rift Rally",
+      "based": "Troy, New York, US",
+      "bio": "Founded by brothers Karthik and Guha Bala, Velan Studios builds mixed-reality games that pair real RC cars with camera-based AR tracks.",
+      "why": "Mario Kart Live turned the player's living room into a racetrack seen from a real kart's camera.",
+      "links": {
+        "site": "https://www.velanstudios.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@VelanStudios",
+        "github": ""
+      },
+      "connected_to": [
+        "nintendo"
+      ],
+      "discovered_via": "nintendo"
+    },
+    {
+      "id": "google-creative-lab",
+      "name": "Google Creative Lab",
+      "role": "Google's in-house creative team (Experiments with Google)",
+      "based": "New York / London / Sydney",
+      "bio": "Google Creative Lab makes open-source experiments that show new uses of Google tech, including a series of ARCore experiments such as Just a Line, Drawalong AR, Sounds in Space and Lines of Play.",
+      "why": "Produced some of the most shareable, open-source phone AR experiments, often with artists and dancers.",
+      "links": {
+        "site": "https://experiments.withgoogle.com/collection/ar",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@ExperimentswithGoogle",
+        "github": ""
+      },
+      "connected_to": [
+        "jonas-jongejan"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "jonas-jongejan",
+      "name": "Jonas Jongejan",
+      "role": "Creative technologist, Google Creative Lab",
+      "based": "New York, US",
+      "bio": "Danish creative technologist who built early ARCore experiments at Google Creative Lab and wrote the openFrameworks addon ofxARCore.",
+      "why": "His 2017 AR Wormhole and ARCore drawing prototypes helped set the playful tone of Google's AR experiments.",
+      "links": {
+        "site": "https://halfdanj.dk",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@JonasJongejan",
+        "github": "https://github.com/HalfdanJ"
+      },
+      "connected_to": [
+        "google-creative-lab"
+      ],
+      "discovered_via": "google-creative-lab"
+    },
+    {
+      "id": "jeri-ellsworth",
+      "name": "Jeri Ellsworth",
+      "role": "Hardware engineer; co-founder of castAR and Tilt Five",
+      "based": "Seattle, US",
+      "bio": "Self-taught chip designer who built AR glasses at Valve, then spun them out as castAR (2013) and later Tilt Five, a retro-reflective tabletop AR game system.",
+      "why": "Two times she pushed a different idea of AR: glasses plus a retro-reflective board so shared holograms sit on a real table.",
+      "links": {
+        "site": "https://www.tiltfive.com",
+        "x": "https://x.com/jeriellsworth",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@TiltFive",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "directive-games",
+      "name": "Directive Games",
+      "role": "Game studio; The Machines (ARKit launch title)",
+      "based": "Hong Kong / Auckland",
+      "bio": "Directive Games built The Machines, a tabletop multiplayer strategy game in Unreal Engine that Apple showed on stage when ARKit launched in 2017.",
+      "why": "The Machines was the first big demonstration of competitive multiplayer AR on a real table.",
+      "links": {
+        "site": "https://www.directivegames.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@DirectiveGames",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "snap-inc",
+      "name": "Snap Inc. (Snapchat Lenses)",
+      "role": "Camera company; Snapchat Lenses and Lens Studio",
+      "based": "Santa Monica, US",
+      "bio": "Snap turned face filters into a mass medium with Snapchat Lenses (2015), then added World Lenses, Lens Studio for creators, Landmarkers and Local Lenses.",
+      "why": "Built the largest daily AR audience and opened it to independent lens artists.",
+      "links": {
+        "site": "https://ar.snap.com",
+        "x": "https://x.com/Snapchat",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@LensStudio",
+        "github": ""
+      },
+      "connected_to": [
+        "paige-piskin",
+        "ines-alpha",
+        "niantic"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "ines-alpha",
+      "name": "Ines Alpha",
+      "role": "3D digital makeup artist",
+      "based": "Paris, France",
+      "bio": "French artist who creates 3D 'e-makeup' that grows from faces as AR filters and face-tracked videos, working with musicians, fashion brands and Prada Beauty.",
+      "why": "Invented a new genre of surreal, non-human beauty made for the camera instead of the skin.",
+      "links": {
+        "site": "https://www.inesalpha.com",
+        "x": "",
+        "instagram": "https://www.instagram.com/ines.alpha",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@inesalpha2339",
+        "github": ""
+      },
+      "connected_to": [
+        "johanna-jaskowska",
+        "snap-inc"
+      ],
+      "discovered_via": "johanna-jaskowska"
+    },
+    {
+      "id": "johanna-jaskowska",
+      "name": "Johanna Jaskowska",
+      "role": "AR designer; creator of Beauty3000",
+      "based": "Europe",
+      "bio": "Polish designer whose Instagram effect Beauty3000 (2018), a glossy chrome face mask, went viral and helped launch the AR filter-artist scene.",
+      "why": "Beauty3000 reframed face filters as art about beauty and identity rather than puppy ears.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "https://www.instagram.com/johwska",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "ines-alpha",
+        "marc-wakefield"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "marc-wakefield",
+      "name": "Marc Wakefield",
+      "role": "AR effects artist; co-founder of Augmented Reality Design Studio",
+      "based": "UK",
+      "bio": "Illustrator turned AR artist whose Spark AR world effects and character filters have been used by millions, including work for U2; he runs Augmented Reality Design Studio with Susie Wakefield.",
+      "why": "One of the first illustrators to make a career of turning drawn worlds into Instagram AR.",
+      "links": {
+        "site": "https://realityaugmented.co.uk",
+        "x": "https://x.com/mrm_design",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "johanna-jaskowska"
+      ],
+      "discovered_via": "johanna-jaskowska"
+    },
+    {
+      "id": "paige-piskin",
+      "name": "Paige Piskin",
+      "role": "AR filter creator (Snap Lens Studio, Spark AR)",
+      "based": "US",
+      "bio": "Official Snap Lens Creator whose makeup, fashion and cartoon filters have been used billions of times; she also teaches lens making.",
+      "why": "Made AR makeup and cartoon-face lenses a pop medium and documents her process openly.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "https://www.instagram.com/paigepiskin",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@paigepiskinaiar",
+        "github": ""
+      },
+      "connected_to": [
+        "snap-inc"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tonchidot",
+      "name": "Tonchidot (Takahito Iguchi)",
+      "role": "Startup; Sekai Camera AR app",
+      "based": "Tokyo, Japan",
+      "bio": "Tonchidot, led by Takahito Iguchi, showed Sekai Camera at TechCrunch50 in 2008: an iPhone app that let people leave floating 'air tags' of text, photos and sound in places.",
+      "why": "Sekai Camera was one of the first social, location-anchored AR apps, years before AR clouds.",
+      "links": {
+        "site": "https://tonchidot.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@tonchidot",
+        "github": ""
+      },
+      "connected_to": [
+        "layar"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "layar",
+      "name": "Layar (Raimo van der Klein, Claire Boonstra, Maarten Lens-FitzGerald)",
+      "role": "Mobile AR browser company",
+      "based": "Amsterdam, Netherlands",
+      "bio": "Layar launched in 2009 as the first mobile AR browser, overlaying geolocated 'layers' of information on the camera view, and later moved to interactive print.",
+      "why": "Created the first open platform where anyone could publish geolocated AR content for phones.",
+      "links": {
+        "site": "https://www.layar.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@layarmobile",
+        "github": ""
+      },
+      "connected_to": [
+        "tonchidot"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "otavio-good",
+      "name": "Otavio Good (Quest Visual)",
+      "role": "Creator of Word Lens",
+      "based": "San Francisco, US",
+      "bio": "Otavio Good founded Quest Visual and built Word Lens (2010), which translated printed signs live in the camera view; Google acquired it for Google Translate.",
+      "why": "Word Lens was a 'magic' AR moment that replaced real-world text in place, on a 2010 iPhone.",
+      "links": {
+        "site": "https://github.com/otaviogood",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@QuestVisual",
+        "github": "https://github.com/otaviogood"
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "wonderscope-within",
+      "name": "Within (Wonderscope)",
+      "role": "Immersive studio; Wonderscope AR stories for kids",
+      "based": "Los Angeles, US",
+      "bio": "Within, co-founded by Chris Milk and Aaron Koblin, made Wonderscope (2018), an iOS app of AR stories where children speak characters' lines aloud to move the story forward.",
+      "why": "Wonderscope made voice-driven AR storytelling for children, with the child as an actor inside the story.",
+      "links": {
+        "site": "https://wonderscope.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@wonderscope7668",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "climax-studios",
+      "name": "Climax Studios",
+      "role": "Game studio; ARise, Towers for Tango",
+      "based": "Portsmouth, UK",
+      "bio": "UK developer that made early phone AR games for Google Tango and ARKit, including the perspective puzzle game ARise.",
+      "why": "ARise made the player's physical viewpoint the puzzle mechanic.",
+      "links": {
+        "site": "https://www.climaxstudios.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@ClimaxStudios",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "kunabi-brother",
+      "name": "Kunabi Brother",
+      "role": "Indie studio; Euclidean Lands",
+      "based": "Vienna, Austria",
+      "bio": "Small Viennese studio (Miro Straka) behind the rotating-cube puzzle game Euclidean Lands and one of the first ARKit ports.",
+      "why": "Brought a Monument Valley-style rotating puzzle onto the tabletop with ARKit on day one.",
+      "links": {
+        "site": "https://www.kunabi-brother.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@kunabibrother",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "resolution-games",
+      "name": "Resolution Games",
+      "role": "XR game studio; Angry Birds AR: Isle of Pigs",
+      "based": "Stockholm, Sweden",
+      "bio": "Stockholm studio founded by Tommy Palm that makes VR, AR and mixed reality games, including Angry Birds AR: Isle of Pigs with Rovio.",
+      "why": "Isle of Pigs let players walk around a life-size structure on their floor to find its weak point.",
+      "links": {
+        "site": "https://www.resolutiongames.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@ResolutionGames",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "mighty-coconut",
+      "name": "Mighty Coconut",
+      "role": "Game studio; 57° North (Merge Cube), Walkabout Mini Golf",
+      "based": "Austin, US",
+      "bio": "Indie studio that made 57° North, a choose-your-own-adventure story played on the handheld Merge Cube, before its VR hit Walkabout Mini Golf.",
+      "why": "Turned a foam cube held in the hand into a tiny diorama stage for a branching story.",
+      "links": {
+        "site": "https://www.mightycoconut.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@MightyCoconut",
+        "github": ""
+      },
+      "connected_to": [
+        "merge-labs"
+      ],
+      "discovered_via": "merge-labs"
+    },
+    {
+      "id": "merge-labs",
+      "name": "Merge Labs (Merge Cube)",
+      "role": "AR/VR toy and education company",
+      "based": "San Antonio, US",
+      "bio": "Merge makes the Merge Cube, a patterned foam cube that phones track so a hologram can be held and turned in the hand, used widely in schools.",
+      "why": "Made a cheap physical tracker that turns AR into something children can hold.",
+      "links": {
+        "site": "https://mergeedu.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@MergeEDU",
+        "github": ""
+      },
+      "connected_to": [
+        "mighty-coconut"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "novum-analytics",
+      "name": "Novum Analytics",
+      "role": "Indie studio; Night Terrors AR horror",
+      "based": "US",
+      "bio": "Small studio behind Night Terrors, a crowdfunded phone AR survival horror game played at home in the dark with headphones.",
+      "why": "Night Terrors used the player's own house, mapped by the phone, as the haunted set.",
+      "links": {
+        "site": "https://www.nightterrorsgame.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "lego",
+      "name": "The LEGO Group (Hidden Side)",
+      "role": "Toy company; LEGO Hidden Side AR sets",
+      "based": "Billund, Denmark",
+      "bio": "LEGO's Hidden Side line (2019) combined physical building sets with a phone app that revealed ghosts haunting the model.",
+      "why": "Merged physical construction play with an AR layer that reacts to the built model.",
+      "links": {
+        "site": "https://www.lego.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@LEGO",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "mojang-minecraft-earth",
+      "name": "Mojang Studios (Minecraft Earth)",
+      "role": "Game studio; Minecraft Earth",
+      "based": "Stockholm, Sweden / Redmond, US",
+      "bio": "Mojang and Microsoft built Minecraft Earth (2019–2021), a location-based AR game where players built life-size Minecraft structures in the real world.",
+      "why": "Let players build and play inside life-size voxel builds together on the street.",
+      "links": {
+        "site": "https://www.minecraft.net",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@minecraft",
+        "github": ""
+      },
+      "connected_to": [
+        "niantic"
+      ],
+      "discovered_via": "niantic"
+    },
+    {
+      "id": "zenka",
+      "name": "Zenka (Zenka Caro)",
+      "role": "AR artist",
+      "based": "US",
+      "bio": "Artist who from 2012 made AR street art, murals, postcards and linoleum prints that came alive through Aurasma on phones.",
+      "why": "An early fine-art user of phone AR, turning prints and walls into animated works years before ARKit.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@HelloZenka",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tender-claws",
+      "name": "Tender Claws (Samantha Gorman & Danny Cannizzaro)",
+      "role": "Immersive game and art studio",
+      "based": "Los Angeles, US",
+      "bio": "Studio led by Samantha Gorman and Danny Cannizzaro that makes experimental VR and AR works such as Virtual Virtual Reality, The Under Presents and the AR pet TendAR.",
+      "why": "TendAR made an AR creature that literally feeds on the player's facial expressions and emotions.",
+      "links": {
+        "site": "https://tenderclaws.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@TenderClaws",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "google-creative-lab"
+    },
+    {
+      "id": "sce-japan-studio",
+      "name": "SCE Japan Studio (The Eye of Judgment)",
+      "role": "Sony first-party studio",
+      "based": "Tokyo, Japan",
+      "bio": "Sony's Japan Studio co-created The Eye of Judgment (2007) with Wizards of the Coast, a PS3 card battle game read by the PlayStation Eye camera.",
+      "why": "The Eye of Judgment was the first major console AR game, turning a physical trading-card mat into a 3D battlefield.",
+      "links": {
+        "site": "https://www.playstation.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "sce-london-studio",
+        "novarama"
+      ],
+      "discovered_via": "sce-london-studio"
+    }
+  ],
+  "works": [
+    {
+      "id": "niantic--ingress",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Ingress",
+      "year": 2012,
+      "description": "A location-based sci-fi game where two factions capture real-world landmarks as 'portals' by walking to them with a phone and link them into territory control fields.",
+      "idea_zh": "把真实城市地标变成两大阵营争夺的传送门，走路就是玩法。",
+      "interaction": [
+        "location-geo",
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "GPS",
+        "Android",
+        "iOS"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "92rYjlxqypM",
+        "url": "https://www.youtube.com/watch?v=92rYjlxqypM"
+      },
+      "source_url": "https://ingress.com"
+    },
+    {
+      "id": "niantic--pok-mon-go",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Pokémon GO",
+      "year": 2016,
+      "description": "Players walk their neighbourhood to find Pokémon that appear on the camera view over the real street, then throw Poké Balls to catch them; gyms and raids gather players at landmarks.",
+      "idea_zh": "让宝可梦出现在你家街角，用行走和相机去收集它们。",
+      "interaction": [
+        "location-geo",
+        "game-play",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "GPS",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "2sj2iQyBTQs",
+        "url": "https://www.youtube.com/watch?v=2sj2iQyBTQs"
+      },
+      "source_url": "https://pokemongolive.com"
+    },
+    {
+      "id": "niantic--pok-mon-go-ar",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Pokémon GO AR+",
+      "year": 2017,
+      "description": "An ARKit mode where Pokémon are anchored on the ground at real scale; walking closer can startle them, so players sneak up before throwing.",
+      "idea_zh": "宝可梦真实站在地面上，玩家要悄悄靠近才能捕捉。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "E7nwr6sA6Es",
+        "url": "https://www.youtube.com/watch?v=E7nwr6sA6Es"
+      },
+      "source_url": "https://nianticlabs.com/news/arplus"
+    },
+    {
+      "id": "niantic--real-world-platform-occlusion-demo-pikachu-eevee",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Real World Platform Occlusion Demo (Pikachu & Eevee)",
+      "year": 2018,
+      "description": "A research demo by Niantic and Matrix Mill in which Pikachu and Eevee run around a plaza and correctly disappear behind real people, planters and benches using learned depth.",
+      "idea_zh": "用深度学习让虚拟宝可梦被真实行人和物体遮挡，真正融入现实。",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Deep learning depth",
+        "Niantic Real World Platform"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "0Y13DxRANO0",
+        "url": "https://www.youtube.com/watch?v=0Y13DxRANO0"
+      },
+      "source_url": "https://nianticlabs.com/news/nianticrealworldplatform"
+    },
+    {
+      "id": "niantic--codename-neon",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Codename: Neon",
+      "year": 2018,
+      "description": "A real-time multiplayer AR laser-tag prototype: players in the same park shoot energy at each other, collect pellets and dodge shots that all players see in the same space.",
+      "idea_zh": "多人在同一片草地上看到同一场AR激光枪战，低延迟共享现实。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play",
+        "hand-body"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Niantic Real World Platform",
+        "shared AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "C0LAPeZ1Cc4",
+        "url": "https://www.youtube.com/watch?v=C0LAPeZ1Cc4"
+      },
+      "source_url": "https://nianticlabs.com/news/nianticrealworldplatform"
+    },
+    {
+      "id": "niantic--codename-tonehenge",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Codename: Tonehenge",
+      "year": 2018,
+      "description": "A cooperative AR puzzle prototype in which several players standing around the same spot manipulate a shared virtual stone circle together in real time.",
+      "idea_zh": "几个人围在一起，共同操作同一个AR石阵来解谜。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Niantic Real World Platform",
+        "shared AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "DD-slvV3VEc",
+        "url": "https://www.youtube.com/watch?v=DD-slvV3VEc"
+      }
+    },
+    {
+      "id": "niantic--harry-potter-wizards-unite",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Harry Potter: Wizards Unite",
+      "year": 2019,
+      "description": "A location-based AR game with Warner Bros. where players trace spell glyphs on screen to free magical 'Foundables' that appear over the real world.",
+      "idea_zh": "在现实街道上画出咒语手势，解救散落在城市里的魔法物品。",
+      "interaction": [
+        "location-geo",
+        "drawing-creation",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "0pThkmngqJE",
+        "url": "https://www.youtube.com/watch?v=0pThkmngqJE"
+      }
+    },
+    {
+      "id": "niantic--pok-mon-go-buddy-adventure",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Pokémon GO Buddy Adventure",
+      "year": 2020,
+      "description": "Buddy Pokémon follow the player and can be viewed in AR, where players feed them, play with them and take snapshots; the bond grows as you walk together.",
+      "idea_zh": "把宝可梦变成陪你散步的AR伙伴，可以喂食、互动、合影。",
+      "interaction": [
+        "game-play",
+        "spatial-mapping",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "W0W00MaCDBY",
+        "url": "https://www.youtube.com/watch?v=W0W00MaCDBY"
+      }
+    },
+    {
+      "id": "niantic--pok-mon-go-shared-ar-experience",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Pokémon GO Shared AR Experience",
+      "year": 2020,
+      "description": "Nearby trainers join one shared AR session in which their buddy Pokémon appear together in the same real-world scene, so friends can play and take photos together.",
+      "idea_zh": "附近的玩家进入同一个AR场景，看到彼此的伙伴宝可梦一起玩耍。",
+      "interaction": [
+        "multiplayer-social",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Niantic Lightship",
+        "shared AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "4PGAqkLoflY",
+        "url": "https://www.youtube.com/watch?v=4PGAqkLoflY"
+      }
+    },
+    {
+      "id": "niantic--pok-mon-go-ar-mapping",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Pokémon GO AR Mapping",
+      "year": 2021,
+      "description": "Players scan PokéStops and Gyms with their camera during field research tasks, producing 3D scans that build Niantic's map for persistent, location-anchored AR.",
+      "idea_zh": "玩家扫描现实地标，众包建起一张供AR使用的三维世界地图。",
+      "interaction": [
+        "location-geo",
+        "spatial-mapping",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Niantic Lightship VPS",
+        "3D scanning"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "naFeJxszLOs",
+        "url": "https://www.youtube.com/watch?v=naFeJxszLOs"
+      }
+    },
+    {
+      "id": "niantic--pikmin-bloom",
+      "creator_ids": [
+        "niantic",
+        "nintendo"
+      ],
+      "title": "Pikmin Bloom",
+      "year": 2021,
+      "description": "A walking game made with Nintendo: Pikmin sprout from your steps, follow you through the city and plant flowers along the path you walk, visible in AR.",
+      "idea_zh": "每走一步都在城市里种下花，皮克敏在AR里跟着你散步。",
+      "interaction": [
+        "location-geo",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ihMfEeL8PGs",
+        "url": "https://www.youtube.com/watch?v=ihMfEeL8PGs"
+      }
+    },
+    {
+      "id": "niantic--peridot",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Peridot",
+      "year": 2023,
+      "description": "An AR virtual pet game where each 'Dot' is a unique creature that understands the real ground, grass, water and sand around you and plays fetch or digs in them.",
+      "idea_zh": "一只能识别草地、水面和沙地的AR电子宠物，和真实环境玩耍。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Niantic Lightship ARDK",
+        "semantic segmentation"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "HFi2pJrAEdc",
+        "url": "https://www.youtube.com/watch?v=HFi2pJrAEdc"
+      },
+      "source_url": "https://playperidot.com"
+    },
+    {
+      "id": "niantic--hello-dot",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Hello, Dot",
+      "year": 2024,
+      "description": "A mixed-reality Peridot experience for Meta Quest 3 in which a Dot hatches in your room, recognises furniture and plays with you through passthrough.",
+      "idea_zh": "在头显的透视画面中，AR宠物在你房间里孵化并认识你的家具。",
+      "interaction": [
+        "spatial-mapping",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Meta Quest 3",
+        "passthrough",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "DA0PWd-x1c8",
+        "url": "https://www.youtube.com/watch?v=DA0PWd-x1c8"
+      }
+    },
+    {
+      "id": "niantic--peridot-beyond",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Peridot Beyond",
+      "year": 2024,
+      "description": "Peridot on Snap Spectacles: several people wearing glasses see and play with the same Dots in shared multiplayer AR.",
+      "idea_zh": "戴上Spectacles，几个人一起在现实中照顾同一只AR宠物。",
+      "interaction": [
+        "multiplayer-social",
+        "game-play",
+        "hand-body"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Lens Studio"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "wl10_rJplyc",
+        "url": "https://www.youtube.com/watch?v=wl10_rJplyc"
+      }
+    },
+    {
+      "id": "niantic--monster-hunter-now-palico-ar",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Monster Hunter Now Palico AR",
+      "year": 2025,
+      "description": "In Monster Hunter Now, made with Capcom, the player's Palico cat companion can be placed in AR for photos alongside the monsters hunted in the real world.",
+      "idea_zh": "把陪伴狩猎的艾露猫放进现实世界合影。",
+      "interaction": [
+        "location-geo",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Niantic Lightship"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7C-HBHCoc70",
+        "url": "https://www.youtube.com/watch?v=7C-HBHCoc70"
+      }
+    },
+    {
+      "id": "8th-wall--lightship-vps-for-web",
+      "creator_ids": [
+        "8th-wall",
+        "niantic"
+      ],
+      "title": "Lightship VPS for Web",
+      "year": 2022,
+      "description": "8th Wall and Niantic brought centimetre-level visual positioning to the mobile browser, so WebAR content can be anchored to specific real-world locations without an app.",
+      "idea_zh": "无需下载App，在浏览器里就能把AR内容精确锚定在真实地点。",
+      "interaction": [
+        "location-geo",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "web",
+        "phone"
+      ],
+      "tech": [
+        "8th Wall",
+        "Niantic Lightship VPS",
+        "WebAR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "laK-QxFLELw",
+        "url": "https://www.youtube.com/watch?v=laK-QxFLELw"
+      },
+      "source_url": "https://www.8thwall.com"
+    },
+    {
+      "id": "novarama--invizimals",
+      "creator_ids": [
+        "novarama"
+      ],
+      "title": "Invizimals",
+      "year": 2009,
+      "description": "A PSP game with a clip-on camera: players scan their surroundings to detect invisible creatures, then trap them on a printed marker card where they fight on the tabletop.",
+      "idea_zh": "用掌机摄像头在家里'捕捉'隐形怪兽，放在卡片上对战。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "PSP Go!Cam",
+        "marker tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "JbTJw_2E-Ww",
+        "url": "https://www.youtube.com/watch?v=JbTJw_2E-Ww"
+      }
+    },
+    {
+      "id": "novarama--invizimals-shadow-zone",
+      "creator_ids": [
+        "novarama"
+      ],
+      "title": "Invizimals: Shadow Zone",
+      "year": 2010,
+      "description": "The sequel adds more creatures, new capture challenges and battles that play out around the camera-tracked trap card on the player's table.",
+      "idea_zh": "续作带来更多隐形生物和围绕陷阱卡的捕捉挑战。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "PSP camera",
+        "marker tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "BiK2LdMeyXc",
+        "url": "https://www.youtube.com/watch?v=BiK2LdMeyXc"
+      }
+    },
+    {
+      "id": "novarama--invizimals-the-lost-tribes",
+      "creator_ids": [
+        "novarama"
+      ],
+      "title": "Invizimals: The Lost Tribes",
+      "year": 2011,
+      "description": "Third PSP entry with new tribes of Invizimals to hunt through the camera and battle on the marker trap card.",
+      "idea_zh": "用摄像头寻找新部族怪兽，并在卡片上对战。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "PSP camera",
+        "marker tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "-xlg4Xnu7UA",
+        "url": "https://www.youtube.com/watch?v=-xlg4Xnu7UA"
+      }
+    },
+    {
+      "id": "novarama--invizimals-the-alliance-the-lost-kingdom",
+      "creator_ids": [
+        "novarama"
+      ],
+      "title": "Invizimals: The Alliance / The Lost Kingdom",
+      "year": 2013,
+      "description": "PS Vita AR capture game (The Alliance) paired with a PS3 adventure (The Lost Kingdom) where creatures captured in AR travel between the handheld and the console world.",
+      "idea_zh": "在掌机上用AR捕获怪兽，再带着它们进入主机冒险世界。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone",
+        "desktop"
+      ],
+      "tech": [
+        "PS Vita",
+        "PS3",
+        "marker tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "s1c3QuXY95I",
+        "url": "https://www.youtube.com/watch?v=s1c3QuXY95I"
+      }
+    },
+    {
+      "id": "sce-london-studio--eyepet",
+      "creator_ids": [
+        "sce-london-studio"
+      ],
+      "title": "EyePet",
+      "year": 2009,
+      "description": "A virtual monkey-like pet appears on the living-room floor through the PlayStation Eye; players stroke, feed and wash it with their hands and draw toys on paper that it brings to life.",
+      "idea_zh": "一只会对你的手势做出反应的AR宠物，还能把你画在纸上的东西变成玩具。",
+      "interaction": [
+        "hand-body",
+        "tangible-object",
+        "drawing-creation"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "PlayStation 3",
+        "PlayStation Eye",
+        "Magic Card"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ORYSSQZTzbE",
+        "url": "https://www.youtube.com/watch?v=ORYSSQZTzbE"
+      }
+    },
+    {
+      "id": "sce-london-studio--eyepet-playstation-move-edition",
+      "creator_ids": [
+        "sce-london-studio"
+      ],
+      "title": "EyePet (PlayStation Move edition)",
+      "year": 2010,
+      "description": "EyePet updated for the PlayStation Move controller, which becomes tracked tools such as a hairdryer, shower head or paint brush in the pet's AR world.",
+      "idea_zh": "手里的Move手柄变成吹风机、画笔等AR工具，照顾宠物。",
+      "interaction": [
+        "tangible-object",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "PlayStation Move",
+        "PlayStation Eye"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "TztCY2iz450",
+        "url": "https://www.youtube.com/watch?v=TztCY2iz450"
+      }
+    },
+    {
+      "id": "sce-london-studio--eyepet-friends",
+      "creator_ids": [
+        "sce-london-studio"
+      ],
+      "title": "EyePet & Friends",
+      "year": 2011,
+      "description": "Two players can each raise a pet that play together in the living room, with new costume, drawing and mini-game modes.",
+      "idea_zh": "两只AR宠物在你的客厅里一起玩耍。",
+      "interaction": [
+        "multiplayer-social",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "PlayStation Move",
+        "PlayStation Eye"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "XNKnuY8fvOY",
+        "url": "https://www.youtube.com/watch?v=XNKnuY8fvOY"
+      }
+    },
+    {
+      "id": "sce-london-studio--wonderbook-book-of-spells",
+      "creator_ids": [
+        "sce-london-studio"
+      ],
+      "title": "Wonderbook: Book of Spells",
+      "year": 2012,
+      "description": "Written with J.K. Rowling's Pottermore, a blank marker book becomes a pop-up spell book on screen; players wave the Move controller as a wand to cast spells that affect the pages and room.",
+      "idea_zh": "一本空白的实体书在屏幕里变成立体魔法书，用手柄当魔杖施咒。",
+      "interaction": [
+        "tangible-object",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Wonderbook",
+        "PlayStation Move",
+        "PlayStation Eye"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Y6ms06Ujj88",
+        "url": "https://www.youtube.com/watch?v=Y6ms06Ujj88"
+      }
+    },
+    {
+      "id": "sce-london-studio--wonderbook-book-of-potions",
+      "creator_ids": [
+        "sce-london-studio"
+      ],
+      "title": "Wonderbook: Book of Potions",
+      "year": 2013,
+      "description": "A second Harry Potter Wonderbook where players brew potions in a virtual cauldron sitting on the book, grinding and pouring ingredients with the Move controller.",
+      "idea_zh": "在实体书上用手柄碾磨、倒入材料，调配AR魔药。",
+      "interaction": [
+        "tangible-object",
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Wonderbook",
+        "PlayStation Move"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "439opcIxxig",
+        "url": "https://www.youtube.com/watch?v=439opcIxxig"
+      }
+    },
+    {
+      "id": "nintendo--ar-games-nintendo-3ds",
+      "creator_ids": [
+        "nintendo"
+      ],
+      "title": "AR Games (Nintendo 3DS)",
+      "year": 2011,
+      "description": "Preinstalled on every 3DS: placing a '?' AR card on a table makes a dragon burst out of it or lets you fish in a lake that opens in the table, shoot archery targets and draw graffiti.",
+      "idea_zh": "把一张AR卡片放在桌上，桌面就裂开成湖泊、跳出巨龙。",
+      "interaction": [
+        "tangible-object",
+        "game-play",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Nintendo 3DS",
+        "AR cards",
+        "stereo 3D"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "yxfs8vI-y_Q",
+        "url": "https://www.youtube.com/watch?v=yxfs8vI-y_Q"
+      }
+    },
+    {
+      "id": "nintendo--ar-games-fishing",
+      "creator_ids": [
+        "nintendo"
+      ],
+      "title": "AR Games: Fishing",
+      "year": 2011,
+      "description": "One of the 3DS AR Games modes: the table surface around the AR card turns into a pond, and the player fishes by moving and tilting the console.",
+      "idea_zh": "桌面在AR中化为池塘，移动掌机就能在自家桌上钓鱼。",
+      "interaction": [
+        "tangible-object",
+        "portal-world",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Nintendo 3DS",
+        "AR cards"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "pKe2J0odq-Y",
+        "url": "https://www.youtube.com/watch?v=pKe2J0odq-Y"
+      }
+    },
+    {
+      "id": "nintendo--face-raiders",
+      "creator_ids": [
+        "nintendo"
+      ],
+      "title": "Face Raiders",
+      "year": 2011,
+      "description": "The 3DS takes a photo of your face (or a friend's) and turns it into flying enemy heads that attack through holes in your real room; you turn your body to aim and shoot.",
+      "idea_zh": "把你自己的脸变成敌人，从真实房间墙面破洞中飞出来攻击你。",
+      "interaction": [
+        "face",
+        "game-play",
+        "hand-body"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Nintendo 3DS",
+        "gyroscope",
+        "face capture"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "bh-YrWvdUCs",
+        "url": "https://www.youtube.com/watch?v=bh-YrWvdUCs"
+      }
+    },
+    {
+      "id": "nintendo--kid-icarus-uprising-ar-cards",
+      "creator_ids": [
+        "nintendo"
+      ],
+      "title": "Kid Icarus: Uprising AR Cards",
+      "year": 2012,
+      "description": "Collectible AR cards for Kid Icarus: Uprising; placing two cards in front of the 3DS makes the characters appear and battle each other on the table.",
+      "idea_zh": "两张实体卡放在桌上，卡上的角色就跳出来对战。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Nintendo 3DS",
+        "AR cards"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "vF3DpChwg9Y",
+        "url": "https://www.youtube.com/watch?v=vF3DpChwg9Y"
+      }
+    },
+    {
+      "id": "nintendo--spirit-camera-the-cursed-memoir",
+      "creator_ids": [
+        "nintendo"
+      ],
+      "title": "Spirit Camera: The Cursed Memoir",
+      "year": 2012,
+      "description": "A Fatal Frame spin-off co-developed with Koei Tecmo: the 3DS becomes the haunted Camera Obscura, and a bundled cursed diary reveals ghosts that appear in your real room.",
+      "idea_zh": "3DS变成一台能拍到鬼的相机，随附的日记本在AR中显出幽灵。",
+      "interaction": [
+        "tangible-object",
+        "game-play",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Nintendo 3DS",
+        "AR booklet"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "d6s4AXx0A7Q",
+        "url": "https://www.youtube.com/watch?v=d6s4AXx0A7Q"
+      }
+    },
+    {
+      "id": "velan-studios--mario-kart-live-home-circuit",
+      "creator_ids": [
+        "velan-studios",
+        "nintendo"
+      ],
+      "title": "Mario Kart Live: Home Circuit",
+      "year": 2020,
+      "description": "A real RC kart with a camera drives around cardboard gates in your home; on the Switch, the camera feed becomes a Mario Kart track with items, rivals and weather overlaid on your rooms.",
+      "idea_zh": "一辆带摄像头的实体遥控卡丁车，把你家变成马力欧赛道。",
+      "interaction": [
+        "tangible-object",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Nintendo Switch",
+        "RC car camera",
+        "marker gates"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "f2mCqUSDCJE",
+        "url": "https://www.youtube.com/watch?v=f2mCqUSDCJE"
+      },
+      "source_url": "https://mklive.nintendo.com"
+    },
+    {
+      "id": "velan-studios--mario-kart-live-home-circuit-developer-interview",
+      "creator_ids": [
+        "velan-studios"
+      ],
+      "title": "Mario Kart Live: Home Circuit — developer interview",
+      "year": 2020,
+      "description": "Velan Studios explains how they built the kart, the gate-based track system and the latency-sensitive AR rendering that makes a living room feel like a race course.",
+      "idea_zh": "开发者讲述如何让真实车辆与虚拟赛道无缝融合。",
+      "interaction": [
+        "tangible-object",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Nintendo Switch",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "A7O7jzRfZ4k",
+        "url": "https://www.youtube.com/watch?v=A7O7jzRfZ4k"
+      }
+    },
+    {
+      "id": "velan-studios--hot-wheels-rift-rally",
+      "creator_ids": [
+        "velan-studios"
+      ],
+      "title": "Hot Wheels: Rift Rally",
+      "year": 2023,
+      "description": "A smart RC car with a camera, controlled from a phone or console, races through gates at home while the screen overlays a Hot Wheels track, other racers and rift effects.",
+      "idea_zh": "用带摄像头的智能风火轮小车在家中竞速，屏幕里叠加赛道与对手。",
+      "interaction": [
+        "tangible-object",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone",
+        "desktop"
+      ],
+      "tech": [
+        "RC car camera",
+        "iOS",
+        "PlayStation"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "b0Q0fYl0pH0",
+        "url": "https://www.youtube.com/watch?v=b0Q0fYl0pH0"
+      }
+    },
+    {
+      "id": "google-creative-lab--just-a-line",
+      "creator_ids": [
+        "google-creative-lab"
+      ],
+      "title": "Just a Line",
+      "year": 2018,
+      "description": "A minimal ARCore/ARKit app for drawing a single white line in the air; two people on Android and iPhone can draw together in the same space, and the result is a shareable video.",
+      "idea_zh": "只画一条线的AR涂鸦App，而且安卓和iPhone可以同场一起画。",
+      "interaction": [
+        "drawing-creation",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "ARKit",
+        "Cloud Anchors"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "IOKwGCQJVCw",
+        "url": "https://www.youtube.com/watch?v=IOKwGCQJVCw"
+      },
+      "source_url": "https://experiments.withgoogle.com/justaline"
+    },
+    {
+      "id": "google-creative-lab--just-a-line-with-shantell-martin",
+      "creator_ids": [
+        "google-creative-lab"
+      ],
+      "title": "Just a Line with Shantell Martin",
+      "year": 2018,
+      "description": "Artist Shantell Martin extends her signature continuous black-line drawings into the air around her using Just a Line.",
+      "idea_zh": "艺术家把标志性的连续线条从墙面画进空气里。",
+      "interaction": [
+        "drawing-creation",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "dRj5Xfjh7Dk",
+        "url": "https://www.youtube.com/watch?v=dRj5Xfjh7Dk"
+      }
+    },
+    {
+      "id": "google-creative-lab--ar-experiments-arcore-launch-collection",
+      "creator_ids": [
+        "google-creative-lab"
+      ],
+      "title": "AR Experiments (ARCore launch collection)",
+      "year": 2017,
+      "description": "A collection of small open-source ARCore prototypes released at launch, from drawing and physics toys to portals, showing creative uses of the new platform.",
+      "idea_zh": "ARCore发布时的一组开源小实验，展示AR的各种创意可能。",
+      "interaction": [
+        "drawing-creation",
+        "portal-world",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "Unity",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7SwZUNDsWaM",
+        "url": "https://www.youtube.com/watch?v=7SwZUNDsWaM"
+      },
+      "source_url": "https://experiments.withgoogle.com/collection/ar"
+    },
+    {
+      "id": "google-creative-lab--drawalong-ar",
+      "creator_ids": [
+        "google-creative-lab"
+      ],
+      "title": "Drawalong AR",
+      "year": 2019,
+      "description": "Turns a YouTube drawing tutorial into virtual tracing paper: the video floats over your real sketchbook so you can trace along. Made with YouTube artist AmandaRachLee.",
+      "idea_zh": "把YouTube绘画教程变成浮在真实画本上的描图纸。",
+      "interaction": [
+        "drawing-creation",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "S9g1PqY19jE",
+        "url": "https://www.youtube.com/watch?v=S9g1PqY19jE"
+      },
+      "source_url": "https://experiments.withgoogle.com/drawalong-ar"
+    },
+    {
+      "id": "google-creative-lab--d-i-s-p-l-a-y-e-d-audio-ar",
+      "creator_ids": [
+        "google-creative-lab"
+      ],
+      "title": "D.I.S.P.L.A.Y.E.D + Audio AR",
+      "year": 2019,
+      "description": "Heidi Latsky Dance and Google Creative Lab added position-based audio AR to a living-sculpture dance performance, so visitors hear dancers' voices and stories as they walk up to each performer.",
+      "idea_zh": "观众走近舞者时，耳中响起专属于该舞者的空间声音叙事。",
+      "interaction": [
+        "voice-sound",
+        "performance-stage",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "audio AR",
+        "indoor positioning"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "1kU-uDxupV0",
+        "url": "https://www.youtube.com/watch?v=1kU-uDxupV0"
+      }
+    },
+    {
+      "id": "google-creative-lab--sounds-in-space",
+      "creator_ids": [
+        "google-creative-lab"
+      ],
+      "title": "Sounds in Space",
+      "year": 2020,
+      "description": "An open-source toolkit for curating location-based audio in a room: sounds are placed in space and the phone plays a soundtrack that changes as the visitor walks.",
+      "idea_zh": "把声音放进空间里，随着你走动而变化的AR声景。",
+      "interaction": [
+        "voice-sound",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "open source"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "A9M45uRPaJ0",
+        "url": "https://www.youtube.com/watch?v=A9M45uRPaJ0"
+      },
+      "source_url": "https://experiments.withgoogle.com/sounds-in-space"
+    },
+    {
+      "id": "google-creative-lab--lines-of-play",
+      "creator_ids": [
+        "google-creative-lab"
+      ],
+      "title": "Lines of Play",
+      "year": 2020,
+      "description": "Build domino chains on real floors and furniture; with the ARCore Depth API the dominoes hide behind real obstacles, collide with real objects and topple with spatial audio.",
+      "idea_zh": "在真实地面摆AR多米诺骨牌，它们会被真实物体遮挡并撞到真实物体。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play",
+        "drawing-creation"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore Depth API"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "HbeEnkAE3Rg",
+        "url": "https://www.youtube.com/watch?v=HbeEnkAE3Rg"
+      },
+      "source_url": "https://experiments.withgoogle.com/lines-of-play"
+    },
+    {
+      "id": "jonas-jongejan--ar-wormhole",
+      "creator_ids": [
+        "jonas-jongejan",
+        "google-creative-lab"
+      ],
+      "title": "AR Wormhole",
+      "year": 2017,
+      "description": "A thought experiment about stepping into the past: a live 360 camera streams to the phone with a 10-second delay, and walking through a portal lets you look around the moment that just happened.",
+      "idea_zh": "穿过一个虫洞，回到10秒前的现实并环顾四周。",
+      "interaction": [
+        "portal-world",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "Unity",
+        "360 camera"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Xo0_B3pNNnA",
+        "url": "https://www.youtube.com/watch?v=Xo0_B3pNNnA"
+      }
+    },
+    {
+      "id": "jonas-jongejan--arcore-drawing-ofxarcore",
+      "creator_ids": [
+        "jonas-jongejan"
+      ],
+      "title": "ARCore Drawing (ofxARCore)",
+      "year": 2017,
+      "description": "A simple demo for drawing 3D lines in space on an Android phone, made to show how openFrameworks and ARCore combine; the code became the ofxARCore addon.",
+      "idea_zh": "用openFrameworks和ARCore在空中画三维线条的开源示例。",
+      "interaction": [
+        "drawing-creation"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "oNHX0jKjtoo",
+        "url": "https://www.youtube.com/watch?v=oNHX0jKjtoo"
+      },
+      "source_url": "https://github.com/HalfdanJ/ofxARCore"
+    },
+    {
+      "id": "jeri-ellsworth--castar-kickstarter",
+      "creator_ids": [
+        "jeri-ellsworth"
+      ],
+      "title": "castAR Kickstarter",
+      "year": 2013,
+      "description": "Glasses with tiny projectors that bounce light off a retro-reflective mat, so each wearer sees their own correct-perspective 3D holograms, such as board games, on the table.",
+      "idea_zh": "眼镜里的微型投影仪打到反光板上，让每个人看到桌面上的立体全息游戏。",
+      "interaction": [
+        "projection",
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "castAR",
+        "retro-reflective projection",
+        "head tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "AOI5UW9khoQ",
+        "url": "https://www.youtube.com/watch?v=AOI5UW9khoQ"
+      }
+    },
+    {
+      "id": "jeri-ellsworth--castar-at-maker-faire-2013",
+      "creator_ids": [
+        "jeri-ellsworth"
+      ],
+      "title": "castAR at Maker Faire 2013",
+      "year": 2013,
+      "description": "Jeri Ellsworth demonstrates the castAR glasses and wand, explaining how the technology she started at Valve tracks the head and projects stereo images onto the mat.",
+      "idea_zh": "展示从Valve带出来的AR眼镜和魔杖原型。",
+      "interaction": [
+        "projection",
+        "tangible-object"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "castAR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "3jxr3UrY2mc",
+        "url": "https://www.youtube.com/watch?v=3jxr3UrY2mc"
+      }
+    },
+    {
+      "id": "jeri-ellsworth--castar-smartglasses-at-awe-2015",
+      "creator_ids": [
+        "jeri-ellsworth"
+      ],
+      "title": "castAR SmartGlasses at AWE 2015",
+      "year": 2015,
+      "description": "A later castAR prototype shown at AWE 2015 with tabletop games that several players see at once around the retro-reflective surface.",
+      "idea_zh": "多人围坐反光桌面，共同玩全息桌游。",
+      "interaction": [
+        "projection",
+        "multiplayer-social",
+        "game-play"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "castAR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "8We6Om4WaAM",
+        "url": "https://www.youtube.com/watch?v=8We6Om4WaAM"
+      }
+    },
+    {
+      "id": "jeri-ellsworth--tilt-five-holographic-game-system",
+      "creator_ids": [
+        "jeri-ellsworth"
+      ],
+      "title": "Tilt Five Holographic Game System",
+      "year": 2019,
+      "description": "The Tilt Five Kickstarter: lightweight glasses and a retro-reflective game board plus a wand controller, so friends around a table share holographic board and video games.",
+      "idea_zh": "一块反光游戏板和一副眼镜，让朋友们围桌共享全息桌游。",
+      "interaction": [
+        "multiplayer-social",
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "Tilt Five",
+        "retro-reflective projection"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "x_71C3bMNUA",
+        "url": "https://www.youtube.com/watch?v=x_71C3bMNUA"
+      },
+      "source_url": "https://www.tiltfive.com"
+    },
+    {
+      "id": "jeri-ellsworth--tilt-five-gaming-with-tabletop-holograms",
+      "creator_ids": [
+        "jeri-ellsworth"
+      ],
+      "title": "Tilt Five — Gaming with Tabletop Holograms",
+      "year": 2022,
+      "description": "Shipping Tilt Five games shown through the glasses: tabletop strategy, board games and toys that rise from the board and respond to the wand.",
+      "idea_zh": "游戏从桌面板上立起来，用魔杖直接操控全息棋子。",
+      "interaction": [
+        "tangible-object",
+        "game-play",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "Tilt Five",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Fzr-IeyWj40",
+        "url": "https://www.youtube.com/watch?v=Fzr-IeyWj40"
+      }
+    },
+    {
+      "id": "directive-games--the-machines-apple-keynote-reveal",
+      "creator_ids": [
+        "directive-games"
+      ],
+      "title": "The Machines (Apple keynote reveal)",
+      "year": 2017,
+      "description": "Shown at Apple's iPhone 8 event: a tabletop strategy battle in which players walk around the table to change the view and find openings in the enemy base.",
+      "idea_zh": "绕着桌子走动去观察战场，身体移动本身就是战术。",
+      "interaction": [
+        "game-play",
+        "multiplayer-social",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unreal Engine"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "KBfEgFI90YA",
+        "url": "https://www.youtube.com/watch?v=KBfEgFI90YA"
+      }
+    },
+    {
+      "id": "directive-games--the-machines",
+      "creator_ids": [
+        "directive-games"
+      ],
+      "title": "The Machines",
+      "year": 2017,
+      "description": "The released game: 1v1 real-time multiplayer battles on a real table, where each phone is a moving camera over a shared miniature battlefield.",
+      "idea_zh": "两台手机在同一张桌上共享微缩战场，实时对战。",
+      "interaction": [
+        "game-play",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unreal Engine"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "xTNlSazLMGE",
+        "url": "https://www.youtube.com/watch?v=xTNlSazLMGE"
+      }
+    },
+    {
+      "id": "snap-inc--snapchat-world-lenses",
+      "creator_ids": [
+        "snap-inc"
+      ],
+      "title": "Snapchat World Lenses",
+      "year": 2017,
+      "description": "Snapchat's rear-camera lenses place animated 3D objects, such as a rainbow-puking cloud or the Dancing Hot Dog, on the ground in the real scene that users can walk around and record.",
+      "idea_zh": "把动画3D角色放进后置镜头的真实世界，让AR成为全民表情包。",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Snapchat",
+        "SLAM"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "K6x44v8prFA",
+        "url": "https://www.youtube.com/watch?v=K6x44v8prFA"
+      },
+      "source_url": "https://ar.snap.com"
+    },
+    {
+      "id": "snap-inc--jeff-koons-x-snapchat",
+      "creator_ids": [
+        "snap-inc"
+      ],
+      "title": "Jeff Koons x Snapchat",
+      "year": 2017,
+      "description": "Geolocated AR versions of Jeff Koons sculptures such as Balloon Dog appeared at sites like Central Park and the Champ de Mars, visible only through a Snapchat lens at those places.",
+      "idea_zh": "把杰夫·昆斯的雕塑以AR形式'安放'在全球著名地点。",
+      "interaction": [
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Snapchat",
+        "geolocated lenses"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "d5z9-JLIuis",
+        "url": "https://www.youtube.com/watch?v=d5z9-JLIuis"
+      }
+    },
+    {
+      "id": "snap-inc--landmarkers",
+      "creator_ids": [
+        "snap-inc"
+      ],
+      "title": "Landmarkers",
+      "year": 2019,
+      "description": "Lenses that recognise famous buildings such as the Eiffel Tower or Flatiron Building and transform their real facades with animation, e.g. making the structure melt or burst into rainbows.",
+      "idea_zh": "识别真实地标建筑，让整座埃菲尔铁塔在镜头里变形、融化、喷彩虹。",
+      "interaction": [
+        "location-geo",
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "landmark tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "jNs9kdSAOCA",
+        "url": "https://www.youtube.com/watch?v=jNs9kdSAOCA"
+      }
+    },
+    {
+      "id": "snap-inc--local-lenses",
+      "creator_ids": [
+        "snap-inc"
+      ],
+      "title": "Local Lenses",
+      "year": 2020,
+      "description": "Persistent, shared AR that covers entire city blocks: multiple Snapchatters can paint and decorate real building facades together, and the changes stay in place for others.",
+      "idea_zh": "多人一起给整条街道的真实建筑涂装，AR内容会持久留在原地。",
+      "interaction": [
+        "location-geo",
+        "multiplayer-social",
+        "drawing-creation"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "city-scale 3D map"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "4jA1RM5_WMc",
+        "url": "https://www.youtube.com/watch?v=4jA1RM5_WMc"
+      }
+    },
+    {
+      "id": "ines-alpha--future-gloss",
+      "creator_ids": [
+        "ines-alpha"
+      ],
+      "title": "Future Gloss",
+      "year": 2019,
+      "description": "Ines Alpha's first Snapchat lens: glossy, liquid 3D makeup that drips and flows over the user's face in real time.",
+      "idea_zh": "液态光泽的3D妆容在脸上实时流动，化妆不再受物理限制。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "face tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "kDhMFguQFso",
+        "url": "https://www.youtube.com/watch?v=kDhMFguQFso"
+      }
+    },
+    {
+      "id": "ines-alpha--ines-alpha-x-katsu",
+      "creator_ids": [
+        "ines-alpha"
+      ],
+      "title": "ines alpha x Katsu",
+      "year": 2018,
+      "description": "A face-tracked 3D makeup look made with artist Katsu: iridescent sculptural forms grow from and cling to the face as it moves.",
+      "idea_zh": "为艺术家量身打造的三维数字妆容，贴合面部动态生长。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "3D face tracking",
+        "Cinema 4D"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "7CY6GcYFAz8",
+        "url": "https://www.youtube.com/watch?v=7CY6GcYFAz8"
+      }
+    },
+    {
+      "id": "ines-alpha--ines-alpha-x-the-bulletproof-cat",
+      "creator_ids": [
+        "ines-alpha"
+      ],
+      "title": "ines alpha x The Bulletproof Cat",
+      "year": 2018,
+      "description": "Another face-tracked 3D makeup collaboration in which translucent, organic 3D shapes sit on and move with a performer's face.",
+      "idea_zh": "半透明的有机形态附着在脸上，随表情一起运动。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "3D face tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "kVcPbWZL5u0",
+        "url": "https://www.youtube.com/watch?v=kVcPbWZL5u0"
+      }
+    },
+    {
+      "id": "ines-alpha--bimba-y-lola-x-ines-alpha-filter",
+      "creator_ids": [
+        "ines-alpha"
+      ],
+      "title": "Bimba y Lola x Ines Alpha filter",
+      "year": 2019,
+      "description": "An Instagram face filter for the Bimba y Lola Fall/Winter 2019 collection that covers the face in Alpha's glossy sculptural 3D makeup.",
+      "idea_zh": "把品牌时装季的视觉变成人人可戴的3D数字妆容滤镜。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "Instagram"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "bXX0QVlD-Uc",
+        "url": "https://www.youtube.com/watch?v=bXX0QVlD-Uc"
+      }
+    },
+    {
+      "id": "ines-alpha--prada-beauty-rethinking-beauty-ar-filter",
+      "creator_ids": [
+        "ines-alpha"
+      ],
+      "title": "Prada Beauty 'Rethinking Beauty' AR filter",
+      "year": 2023,
+      "description": "As Prada Beauty's Global Creative E-Makeup Artist, Alpha designed a three-mode Instagram AR filter with FFFACE.ME that layers futuristic e-makeup on the user's face.",
+      "idea_zh": "为奢侈品美妆设计的三种模式数字妆容滤镜。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "Instagram"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "GZ92cYFhddo",
+        "url": "https://www.youtube.com/watch?v=GZ92cYFhddo"
+      }
+    },
+    {
+      "id": "johanna-jaskowska--beauty3000",
+      "creator_ids": [
+        "johanna-jaskowska"
+      ],
+      "title": "Beauty3000",
+      "year": 2018,
+      "description": "An Instagram face effect that coats the face in a shiny, iridescent plastic-like skin that catches light as you move; it went viral in 2018 and helped start the AR filter-artist movement.",
+      "idea_zh": "把脸变成闪亮塑料般的未来皮肤，追问'什么是美'。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "Instagram"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "d789vqCo_-A",
+        "url": "https://www.youtube.com/watch?v=d789vqCo_-A"
+      },
+      "source_url": "https://www.instagram.com/johwska"
+    },
+    {
+      "id": "marc-wakefield--spark-ar-world-effects",
+      "creator_ids": [
+        "marc-wakefield"
+      ],
+      "title": "Spark AR world effects",
+      "year": 2019,
+      "description": "Marc Wakefield turns his drawn and painted characters and worlds into Instagram world effects that place them into the user's surroundings, including effects for U2.",
+      "idea_zh": "把手绘角色和奇幻世界变成可以放进现实的Instagram AR效果。",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "Instagram"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "KpEGpggfPXw",
+        "url": "https://www.youtube.com/watch?v=KpEGpggfPXw"
+      },
+      "source_url": "https://realityaugmented.co.uk"
+    },
+    {
+      "id": "paige-piskin--lil-cartoon-bratz-doll",
+      "creator_ids": [
+        "paige-piskin",
+        "snap-inc"
+      ],
+      "title": "Lil Cartoon Bratz Doll",
+      "year": 2021,
+      "description": "A Snapchat lens that turns the user's face into a big-eyed, glossy-lipped 90s fashion-doll cartoon, inspired by Piskin's favourite childhood toy.",
+      "idea_zh": "把你的脸实时变成90年代时尚娃娃的卡通模样。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Lens Studio",
+        "machine learning"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "UIexjgFSXjc",
+        "url": "https://www.youtube.com/watch?v=UIexjgFSXjc"
+      }
+    },
+    {
+      "id": "paige-piskin--coachella-metabutterfly-filter",
+      "creator_ids": [
+        "paige-piskin"
+      ],
+      "title": "Coachella 'MetaButterfly' filter",
+      "year": 2024,
+      "description": "An Instagram AR effect for a Coachella campaign with butterfly-themed makeup effects on the face; Piskin walks through the inspiration, makeup and tech.",
+      "idea_zh": "为音乐节设计的蝴蝶幻彩妆容与翅膀AR滤镜。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "Instagram"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "cLaf9RX2IdU",
+        "url": "https://www.youtube.com/watch?v=cLaf9RX2IdU"
+      }
+    },
+    {
+      "id": "paige-piskin--coachella-luminous-filter",
+      "creator_ids": [
+        "paige-piskin"
+      ],
+      "title": "Coachella 'Luminous' filter",
+      "year": 2024,
+      "description": "A glowing, light-reactive face effect created for Coachella on Instagram, with behind-the-scenes on the makeup design and technical build.",
+      "idea_zh": "音乐节主题的发光妆容滤镜，让脸像舞台灯一样闪耀。",
+      "interaction": [
+        "face",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Spark AR",
+        "Instagram"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Wca9ejwmY0c",
+        "url": "https://www.youtube.com/watch?v=Wca9ejwmY0c"
+      }
+    },
+    {
+      "id": "tonchidot--sekai-camera-techcrunch50-demo",
+      "creator_ids": [
+        "tonchidot"
+      ],
+      "title": "Sekai Camera (TechCrunch50 demo)",
+      "year": 2008,
+      "description": "The TechCrunch50 demo of Sekai Camera: point an iPhone at a street or shop and see floating 'air tags' left by other people, with notes, photos and voice memos attached to places.",
+      "idea_zh": "让人们把文字、照片和声音像气泡一样'留'在真实地点。",
+      "interaction": [
+        "location-geo",
+        "multiplayer-social",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iPhone",
+        "GPS",
+        "compass"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "KgTwSXK_5dg",
+        "url": "https://www.youtube.com/watch?v=KgTwSXK_5dg"
+      },
+      "source_url": "https://techcrunch.com/2009/12/21/sekai-camera/"
+    },
+    {
+      "id": "tonchidot--sekai-camera-science-museum-navigation",
+      "creator_ids": [
+        "tonchidot"
+      ],
+      "title": "Sekai Camera science museum navigation",
+      "year": 2009,
+      "description": "Sekai Camera air tags used as a guide inside a science museum, pointing visitors to exhibits through the camera view.",
+      "idea_zh": "用空中标签在科学馆里为参观者导航。",
+      "interaction": [
+        "data-information",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iPhone",
+        "Sekai Camera"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "1De9YCeKz_A",
+        "url": "https://www.youtube.com/watch?v=1De9YCeKz_A"
+      }
+    },
+    {
+      "id": "tonchidot--sekai-camera-for-ipad",
+      "creator_ids": [
+        "tonchidot"
+      ],
+      "title": "Sekai Camera for iPad",
+      "year": 2010,
+      "description": "Sekai Camera on the iPad: the larger screen becomes a window onto the air-tag layer around the user.",
+      "idea_zh": "把iPad变成看见城市中'空中标签'的大窗口。",
+      "interaction": [
+        "location-geo",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iPad",
+        "Sekai Camera"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "YGwyhEK8mV8",
+        "url": "https://www.youtube.com/watch?v=YGwyhEK8mV8"
+      }
+    },
+    {
+      "id": "layar--layar-reality-browser",
+      "creator_ids": [
+        "layar"
+      ],
+      "title": "Layar Reality Browser",
+      "year": 2009,
+      "description": "The first mobile AR browser: on an Android phone, the camera view shows geolocated layers of nearby homes for sale, restaurants, ATMs and more, published by anyone through an open API.",
+      "idea_zh": "世界上第一个手机AR浏览器，把各种地理信息图层叠加在相机画面上。",
+      "interaction": [
+        "location-geo",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Android",
+        "GPS",
+        "compass"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "liY898N2rPU",
+        "url": "https://www.youtube.com/watch?v=liY898N2rPU"
+      },
+      "source_url": "https://www.layar.com"
+    },
+    {
+      "id": "layar--layar-for-google-glass",
+      "creator_ids": [
+        "layar"
+      ],
+      "title": "Layar for Google Glass",
+      "year": 2013,
+      "description": "Layar's image-recognition AR ported to Google Glass, so printed pages and posters trigger interactive content in the wearer's view.",
+      "idea_zh": "把印刷品识别AR带到Google眼镜上。",
+      "interaction": [
+        "data-information",
+        "tangible-object"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "Google Glass",
+        "image recognition"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "rBPmG5mqWfI",
+        "url": "https://www.youtube.com/watch?v=rBPmG5mqWfI"
+      }
+    },
+    {
+      "id": "otavio-good--word-lens",
+      "creator_ids": [
+        "otavio-good"
+      ],
+      "title": "Word Lens",
+      "year": 2010,
+      "description": "Point an iPhone at a sign or menu and the printed Spanish or English text is replaced in place, in the same style, with its translation, running offline in real time.",
+      "idea_zh": "对准外语招牌，文字当场被替换成母语，像魔法一样。",
+      "interaction": [
+        "data-information",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iPhone",
+        "OCR",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "h2OfQdYrHRs",
+        "url": "https://www.youtube.com/watch?v=h2OfQdYrHRs"
+      }
+    },
+    {
+      "id": "otavio-good--word-lens-for-glass",
+      "creator_ids": [
+        "otavio-good"
+      ],
+      "title": "Word Lens for Glass",
+      "year": 2013,
+      "description": "Word Lens on Google Glass: the wearer looks at a sign and sees it translated in their view hands-free.",
+      "idea_zh": "戴上眼镜看招牌，翻译直接出现在视野里。",
+      "interaction": [
+        "data-information",
+        "gaze-attention"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "Google Glass",
+        "OCR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "pZKWW3rzT2Q",
+        "url": "https://www.youtube.com/watch?v=pZKWW3rzT2Q"
+      }
+    },
+    {
+      "id": "wonderscope-within--wonderscope",
+      "creator_ids": [
+        "wonderscope-within"
+      ],
+      "title": "Wonderscope",
+      "year": 2018,
+      "description": "An iOS app of AR stories for children: characters appear life-size in the room and the child moves the story along by walking around and reading lines out loud to them.",
+      "idea_zh": "孩子朗读台词推动故事，AR角色就在客厅里回应。",
+      "interaction": [
+        "voice-sound",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "speech recognition"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "vqN3Rjv6nlk",
+        "url": "https://www.youtube.com/watch?v=vqN3Rjv6nlk"
+      },
+      "source_url": "https://wonderscope.com"
+    },
+    {
+      "id": "wonderscope-within--clio-s-cosmic-quest",
+      "creator_ids": [
+        "wonderscope-within"
+      ],
+      "title": "Clio's Cosmic Quest",
+      "year": 2019,
+      "description": "A space-adventure story on Wonderscope staged life-size in the child's room; like all Wonderscope stories, the child advances it by reading characters' lines aloud.",
+      "idea_zh": "在自己房间里展开一场需要开口对话的太空冒险。",
+      "interaction": [
+        "voice-sound",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "speech recognition"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "_Kxz8QLJchc",
+        "url": "https://www.youtube.com/watch?v=_Kxz8QLJchc"
+      }
+    },
+    {
+      "id": "wonderscope-within--wonder-s-land-ringmaster-wanted",
+      "creator_ids": [
+        "wonderscope-within"
+      ],
+      "title": "Wonder's Land: Ringmaster Wanted!",
+      "year": 2019,
+      "description": "A circus-themed Wonderscope story that plays out around the child, who takes part by speaking lines aloud to the performers.",
+      "idea_zh": "孩子加入一场AR马戏团演出，用声音参与表演。",
+      "interaction": [
+        "voice-sound",
+        "performance-stage"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "speech recognition"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "WKI1P2YUDu8",
+        "url": "https://www.youtube.com/watch?v=WKI1P2YUDu8"
+      }
+    },
+    {
+      "id": "wonderscope-within--willowcrest-manor",
+      "creator_ids": [
+        "wonderscope-within"
+      ],
+      "title": "Willowcrest Manor",
+      "year": 2020,
+      "description": "A Wonderscope mystery set in a spooky mansion that unfolds around the child's room.",
+      "idea_zh": "一座神秘庄园在孩子的房间里展开推理故事。",
+      "interaction": [
+        "voice-sound",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "oEpxUGvaCFM",
+        "url": "https://www.youtube.com/watch?v=oEpxUGvaCFM"
+      }
+    },
+    {
+      "id": "wonderscope-within--sinclair-snake",
+      "creator_ids": [
+        "wonderscope-within"
+      ],
+      "title": "Sinclair Snake",
+      "year": 2020,
+      "description": "A Wonderscope story centred on a snake character, told in AR scenes around the child's home and advanced by speaking aloud.",
+      "idea_zh": "和一条AR小蛇对话，用声音推动故事。",
+      "interaction": [
+        "voice-sound",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "MNP77K9RsjI",
+        "url": "https://www.youtube.com/watch?v=MNP77K9RsjI"
+      }
+    },
+    {
+      "id": "climax-studios--arise",
+      "creator_ids": [
+        "climax-studios"
+      ],
+      "title": "ARise",
+      "year": 2017,
+      "description": "A puzzle game where the player never touches the hero: you physically move and tilt your phone around a tabletop world until the paths line up from the right perspective.",
+      "idea_zh": "不用触屏，靠绕着桌子移动视角让路径对齐来解谜。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ZIF2w-wULcw",
+        "url": "https://www.youtube.com/watch?v=ZIF2w-wULcw"
+      }
+    },
+    {
+      "id": "climax-studios--towers-for-tango",
+      "creator_ids": [
+        "climax-studios"
+      ],
+      "title": "Towers for Tango",
+      "year": 2017,
+      "description": "A tower-defence game for Google's Tango depth-sensing phones in which the battlefield and towers are placed on real floors and furniture.",
+      "idea_zh": "在深度感知手机上，把塔防战场放在真实的地板和家具上。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Google Tango",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "IStjntHonUo",
+        "url": "https://www.youtube.com/watch?v=IStjntHonUo"
+      }
+    },
+    {
+      "id": "kunabi-brother--euclidean-lands-ar",
+      "creator_ids": [
+        "kunabi-brother"
+      ],
+      "title": "Euclidean Lands AR",
+      "year": 2017,
+      "description": "A turn-based puzzle game on a rotating cube world, adapted for ARKit so the Rubik's-cube-like diorama sits on the player's table and can be walked around.",
+      "idea_zh": "把魔方般旋转的解谜小世界放在桌面上，绕着它思考。",
+      "interaction": [
+        "game-play",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "f6vA1s97_-0",
+        "url": "https://www.youtube.com/watch?v=f6vA1s97_-0"
+      }
+    },
+    {
+      "id": "resolution-games--angry-birds-ar-isle-of-pigs",
+      "creator_ids": [
+        "resolution-games"
+      ],
+      "title": "Angry Birds AR: Isle of Pigs",
+      "year": 2019,
+      "description": "Pig fortresses are built on the player's floor at room scale; players walk around them to find weak points and then launch birds from a slingshot.",
+      "idea_zh": "把愤怒的小鸟城堡搭在你家地板上，绕着走一圈寻找弱点。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "NWDptXnBhsM",
+        "url": "https://www.youtube.com/watch?v=NWDptXnBhsM"
+      }
+    },
+    {
+      "id": "mighty-coconut--57-north",
+      "creator_ids": [
+        "mighty-coconut",
+        "merge-labs"
+      ],
+      "title": "57° North",
+      "year": 2017,
+      "description": "A choose-your-own-adventure story played on the Merge Cube: each chapter appears as a small diorama in the palm that the player turns and chooses within.",
+      "idea_zh": "把分支叙事故事装进手掌中的立方体小剧场。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Merge Cube",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "EvedPF7S3BU",
+        "url": "https://www.youtube.com/watch?v=EvedPF7S3BU"
+      }
+    },
+    {
+      "id": "merge-labs--merge-cube",
+      "creator_ids": [
+        "merge-labs"
+      ],
+      "title": "Merge Cube",
+      "year": 2017,
+      "description": "A patterned foam cube that a phone camera tracks, so a hologram such as a planet, skull or artefact appears in the user's hand and can be turned and examined.",
+      "idea_zh": "一个泡沫方块，让孩子把全息物体真正'拿'在手里。",
+      "interaction": [
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "image tracking",
+        "iOS",
+        "Android"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "_sL1HfdVxg4",
+        "url": "https://www.youtube.com/watch?v=_sL1HfdVxg4"
+      },
+      "source_url": "https://mergeedu.com"
+    },
+    {
+      "id": "novum-analytics--night-terrors",
+      "creator_ids": [
+        "novum-analytics"
+      ],
+      "title": "Night Terrors",
+      "year": 2016,
+      "description": "A survival horror game played at home in the dark with headphones: the phone becomes the only way to see the monsters and apparitions that move through your own rooms.",
+      "idea_zh": "关灯戴耳机，自己家变成怪物出没的恐怖游戏场景。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iOS",
+        "Android",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "QLcN2NclOTM",
+        "url": "https://www.youtube.com/watch?v=QLcN2NclOTM"
+      },
+      "source_url": "https://www.indiegogo.com/en/projects/novumanalytics/night-terrors-augmented-reality-survival-horror"
+    },
+    {
+      "id": "novum-analytics--night-terrors-bloody-mary",
+      "creator_ids": [
+        "novum-analytics"
+      ],
+      "title": "Night Terrors: Bloody Mary",
+      "year": 2019,
+      "description": "A follow-up that brings the Bloody Mary legend into the player's home, with the ghost stalking them through the phone's AR view.",
+      "idea_zh": "把血腥玛丽传说带进你家，鬼魂在AR中跟踪你。",
+      "interaction": [
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ayL9mU1dnQw",
+        "url": "https://www.youtube.com/watch?v=ayL9mU1dnQw"
+      }
+    },
+    {
+      "id": "lego--lego-hidden-side",
+      "creator_ids": [
+        "lego"
+      ],
+      "title": "LEGO Hidden Side",
+      "year": 2019,
+      "description": "Physical LEGO sets such as a haunted school or graveyard are scanned by a phone app that reveals ghosts inside the model; players hunt them by moving around the build.",
+      "idea_zh": "拼好实体乐高，再用手机透视出藏在模型里的鬼魂。",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "iOS",
+        "Android",
+        "object tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "OnHa4Cd03B0",
+        "url": "https://www.youtube.com/watch?v=OnHa4Cd03B0"
+      }
+    },
+    {
+      "id": "mojang-minecraft-earth--minecraft-earth",
+      "creator_ids": [
+        "mojang-minecraft-earth"
+      ],
+      "title": "Minecraft Earth",
+      "year": 2019,
+      "description": "Players collect blocks around their neighbourhood, build on tabletop 'build plates', then place builds at life size in the real world and play in them together.",
+      "idea_zh": "把我的世界的方块建筑以真实尺寸放在街头，大家一起进入。",
+      "interaction": [
+        "location-geo",
+        "drawing-creation",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore",
+        "Azure Spatial Anchors"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "GNo38kNy_EU",
+        "url": "https://www.youtube.com/watch?v=GNo38kNy_EU"
+      }
+    },
+    {
+      "id": "zenka--augmented-reality-street-art",
+      "creator_ids": [
+        "zenka"
+      ],
+      "title": "Augmented Reality Street Art",
+      "year": 2014,
+      "description": "Wheat-pasted street art by Zenka that, seen through an AR app, animates on the wall.",
+      "idea_zh": "街头贴画在手机里动起来。",
+      "interaction": [
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Aurasma",
+        "image tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "oVaoTytQPfY",
+        "url": "https://www.youtube.com/watch?v=oVaoTytQPfY"
+      }
+    },
+    {
+      "id": "zenka--space-mural-aurasma",
+      "creator_ids": [
+        "zenka"
+      ],
+      "title": "Space Mural (Aurasma)",
+      "year": 2013,
+      "description": "A painted space-themed mural that triggers animated AR content through Aurasma when viewed with a phone.",
+      "idea_zh": "一幅太空壁画在手机镜头下变成动态影像。",
+      "interaction": [
+        "perception-art",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Aurasma",
+        "image tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "qAtHjySUoHM",
+        "url": "https://www.youtube.com/watch?v=qAtHjySUoHM"
+      }
+    },
+    {
+      "id": "zenka--augmented-reality-linoleum-prints",
+      "creator_ids": [
+        "zenka"
+      ],
+      "title": "Augmented Reality Linoleum Prints",
+      "year": 2016,
+      "description": "Hand-carved linoleum prints that come alive with animation when scanned, joining traditional printmaking with AR.",
+      "idea_zh": "传统版画与AR结合，手刻版画在镜头里活过来。",
+      "interaction": [
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "image tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "POl-PJie6Qw",
+        "url": "https://www.youtube.com/watch?v=POl-PJie6Qw"
+      }
+    },
+    {
+      "id": "novarama--reality-fighters",
+      "creator_ids": [
+        "novarama"
+      ],
+      "title": "Reality Fighters",
+      "year": 2012,
+      "description": "A PS Vita launch title in which players put their own photographed face on a fighter and brawl in AR on their real surroundings, filmed by the Vita's rear camera.",
+      "idea_zh": "把自己的脸贴到格斗角色上，在真实街道或客厅里AR对打。",
+      "interaction": [
+        "face",
+        "game-play",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "PS Vita",
+        "AR cards",
+        "face capture"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "AIDNJViTf4Q",
+        "url": "https://www.youtube.com/watch?v=AIDNJViTf4Q"
+      }
+    },
+    {
+      "id": "tender-claws--tendar",
+      "creator_ids": [
+        "tender-claws"
+      ],
+      "title": "TendAR",
+      "year": 2018,
+      "description": "An ARCore pet game where a talking guppy fish lives in the camera view and feeds on the player's emotions, read from their facial expressions, and asks them to show objects around them.",
+      "idea_zh": "一条以你的表情和情绪为食的AR小鱼。",
+      "interaction": [
+        "face",
+        "game-play",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "face emotion detection",
+        "object recognition"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "v4YMQRwsNr8",
+        "url": "https://www.youtube.com/watch?v=v4YMQRwsNr8"
+      },
+      "source_url": "https://tenderclaws.com/tendar"
+    },
+    {
+      "id": "sce-japan-studio--the-eye-of-judgment",
+      "creator_ids": [
+        "sce-japan-studio"
+      ],
+      "title": "The Eye of Judgment",
+      "year": 2007,
+      "description": "Physical trading cards laid on a 3x3 mat are read by the PlayStation Eye, and the creatures on them rise up as animated 3D monsters that fight on the TV image of the table.",
+      "idea_zh": "把实体卡牌对战升级：卡片上的怪兽在电视里的桌面上立体现身开战。",
+      "interaction": [
+        "tangible-object",
+        "game-play",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "PlayStation 3",
+        "PlayStation Eye",
+        "CyberCode markers"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "rO9PN638q_k",
+        "url": "https://www.youtube.com/watch?v=rO9PN638q_k"
+      }
+    },
+    {
+      "id": "niantic--pok-mon-go-snapshot",
+      "creator_ids": [
+        "niantic"
+      ],
+      "title": "Pokémon GO Snapshot",
+      "year": 2019,
+      "description": "An AR photo mode where players place their Pokémon in the real world, approach and pose it, and take pictures; wild Pokémon sometimes photobomb the shot.",
+      "idea_zh": "在现实中给宝可梦拍写真，偶尔还会有野生宝可梦乱入。",
+      "interaction": [
+        "perception-art",
+        "spatial-mapping",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Htsbu7ka5rI",
+        "url": "https://www.youtube.com/watch?v=Htsbu7ka5rI"
+      }
+    },
+    {
+      "id": "8th-wall--8th-wall-sizzle-reel-2023",
+      "creator_ids": [
+        "8th-wall"
+      ],
+      "title": "8th Wall Sizzle Reel 2023",
+      "year": 2023,
+      "description": "A showcase of WebAR projects built by agencies and creators on 8th Wall: face effects, portals, world tracking and image targets that open from a link in the phone browser.",
+      "idea_zh": "一段合集，展示无需App、点链接就能打开的各种网页AR作品。",
+      "interaction": [
+        "portal-world",
+        "face",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "web",
+        "phone"
+      ],
+      "tech": [
+        "8th Wall",
+        "WebAR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "jHDtBc6fG44",
+        "url": "https://www.youtube.com/watch?v=jHDtBc6fG44"
+      }
+    },
+    {
+      "id": "8th-wall--microsoft-mixed-reality-capture-holograms-in-webar",
+      "creator_ids": [
+        "8th-wall"
+      ],
+      "title": "Microsoft Mixed Reality Capture holograms in WebAR",
+      "year": 2020,
+      "description": "Volumetric video of real performers captured in Microsoft's Mixed Reality Capture Studios plays as life-size holograms in the phone browser through 8th Wall.",
+      "idea_zh": "真人全息视频直接在手机浏览器里以真人大小出现在你面前。",
+      "interaction": [
+        "performance-stage",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "web",
+        "phone"
+      ],
+      "tech": [
+        "8th Wall",
+        "volumetric video"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "LH_eViGIohQ",
+        "url": "https://www.youtube.com/watch?v=LH_eViGIohQ"
+      }
+    }
+  ],
+  "leads": [
+    {
+      "name": "Clay Weishaar (@wabisabi / Fake Artists)",
+      "why": "Influential Spark AR / Lens creator and founder of Fake Artists studio; works live mostly on Instagram, no verified video found this round.",
+      "link": "https://www.youtube.com/watch?v=UPQSdOEIH6c",
+      "found_via": "johanna-jaskowska"
+    },
+    {
+      "name": "Aidan Wolf",
+      "why": "Snap AR developer known for Spectacles 'downloadable theme park' lenses; belongs to headset/Spectacles batch.",
+      "link": "https://www.youtube.com/watch?v=kY_m7_v6jpI",
+      "found_via": "snap-inc"
+    },
+    {
+      "name": "Phil Walton",
+      "why": "Official Snap Lens Creator behind the viral 'Potato Boss' lens and author of The Designer's Guide to Snapchat's Lens Studio.",
+      "link": "https://www.youtube.com/watch?v=mk3Lvvb7hxY",
+      "found_via": "snap-inc"
+    },
+    {
+      "name": "Ommy Akhe",
+      "why": "AR creative strategist and lens creator (WIRED Smarter talk on AR retail).",
+      "link": "https://www.youtube.com/watch?v=DgSOo29xiQg",
+      "found_via": "paige-piskin"
+    },
+    {
+      "name": "Don Allen III",
+      "why": "Meta Spark / Lens creator and educator (DAQRI-era AR evangelist).",
+      "link": "https://www.youtube.com/watch?v=-VAG4Uar3XM",
+      "found_via": "paige-piskin"
+    },
+    {
+      "name": "Luke Hurd",
+      "why": "Early Spark AR and Lens Studio educator; custom Landmarker experiments (Charlie Parker memorial).",
+      "link": "https://www.youtube.com/watch?v=PdiAQvRs-50",
+      "found_via": "snap-inc"
+    },
+    {
+      "name": "Andrew Mendez",
+      "why": "Early Lens Studio creator featured in Snap creator spotlight (2017).",
+      "link": "https://www.youtube.com/watch?v=vpesmkcuN00",
+      "found_via": "snap-inc"
+    },
+    {
+      "name": "Anrick Bregman (AN/RK)",
+      "why": "Snap creator and director who spoke on making AR in Lens Studio at AWE.",
+      "link": "https://www.youtube.com/watch?v=nnkIENJjZ0M",
+      "found_via": "snap-inc"
+    },
+    {
+      "name": "Nancy Baker Cahill (4th Wall)",
+      "why": "Artist making geolocated AR public art via her 4th Wall app; belongs to artists batch.",
+      "link": "https://www.youtube.com/watch?v=i9cFUDshxMQ",
+      "found_via": "google-creative-lab"
+    },
+    {
+      "name": "Zach Lieberman & Molmol Kuo — Weird Cuts (Google Arts & Culture, 2019)",
+      "why": "AR collage app made with Google Arts & Culture; verified video kpj4J8RrYwQ. Belongs to Zach Lieberman batch.",
+      "link": "https://www.youtube.com/watch?v=kpj4J8RrYwQ",
+      "found_via": "google-creative-lab"
+    },
+    {
+      "name": "Liquid City / Keiichi Matsuda — Wol (8th Wall, 2023)",
+      "why": "WebAR mixed-reality piece built on 8th Wall; verified video GUgAw-uU46o. Belongs to artists batch.",
+      "link": "https://www.youtube.com/watch?v=GUgAw-uU46o",
+      "found_via": "8th-wall"
+    },
+    {
+      "name": "Wingnut AR (Peter Jackson)",
+      "why": "Showed the WWDC 2017 ARKit tabletop battle demo and later Dr. Grordbort's Invaders on Magic Leap.",
+      "link": "https://www.wingnutar.com",
+      "found_via": "directive-games"
+    },
+    {
+      "name": "Julian Oliver — levelHead (2007)",
+      "why": "Tangible AR cube game using marker tracking; also The Artvertiser. Artist/critical engineer.",
+      "link": "https://julianoliver.com/levelhead",
+      "found_via": "novarama"
+    },
+    {
+      "name": "Ori Inbar (Ogmento, AWE, Auggie Awards)",
+      "why": "Co-founded early AR games company Ogmento (2009) and the AWE conference / Auggie Awards.",
+      "link": "https://www.awexr.com",
+      "found_via": "layar"
+    },
+    {
+      "name": "Georgia Tech Augmented Environments Lab — ARhrrrr! (2009)",
+      "why": "Early phone AR zombie shooter on a printed city map; belongs to HCI labs batch.",
+      "link": "https://ael.gatech.edu",
+      "found_via": "tonchidot"
+    },
+    {
+      "name": "Sander Veenhof & Mark Skwarek — We AR in MoMA (2010)",
+      "why": "Unauthorised AR art intervention in MoMA using the Layar browser.",
+      "link": "https://www.sndrv.nl/moma/",
+      "found_via": "layar"
+    },
+    {
+      "name": "Supermassive Games — Wonderbook: Walking with Dinosaurs (2013)",
+      "why": "BBC Wonderbook AR title; verified video -XQ4EJjyVXI.",
+      "link": "https://www.youtube.com/watch?v=-XQ4EJjyVXI",
+      "found_via": "sce-london-studio"
+    },
+    {
+      "name": "Moonbot Studios — Wonderbook: Diggs Nightcrawler (2013)",
+      "why": "Wonderbook AR detective story by the studio of 'The Fantastic Flying Books of Mr. Morris Lessmore'.",
+      "link": "https://www.youtube.com/watch?v=yyNL_Ky0agQ",
+      "found_via": "sce-london-studio"
+    },
+    {
+      "name": "Koei Tecmo (Spirit Camera co-developer)",
+      "why": "Fatal Frame team; co-developed the 3DS AR horror game Spirit Camera.",
+      "link": "https://www.youtube.com/watch?v=d6s4AXx0A7Q",
+      "found_via": "nintendo"
+    },
+    {
+      "name": "Zappar (Caspar Thykier)",
+      "why": "UK WebAR/ZapWorks platform behind many packaging and museum AR campaigns.",
+      "link": "https://www.zappar.com",
+      "found_via": "8th-wall"
+    },
+    {
+      "name": "Metaio / Junaio",
+      "why": "German AR SDK and browser company (acquired by Apple 2015) that powered much pre-ARKit phone AR.",
+      "link": "https://en.wikipedia.org/wiki/Metaio",
+      "found_via": "layar"
+    },
+    {
+      "name": "Claire Boonstra",
+      "why": "Layar co-founder; later focused on AR in education and interactive print.",
+      "link": "https://www.youtube.com/watch?v=5UFm5JXHp1o",
+      "found_via": "layar"
+    }
+  ]
+}

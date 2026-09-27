@@ -1,0 +1,494 @@
+{
+ "mit-fluid-interfaces--sixthsense": {
+  "technique": "A webcam tracks colored finger caps by color thresholding and blob tracking, and a pico projector aimed via a mirror renders UI onto whatever surface is in front of the wearer, with the camera and projector roughly co-aligned so gestures map to projected content.",
+  "exercise_zh": "用手机前置摄像头加 MediaPipe Hands（或给指尖贴彩色胶带做颜色追踪）识别“双手取景框”等 3 个手势，并用小投影仪把对应界面投在桌面或手掌上；变体：只保留一个你每天真正会用的手势功能，并论证它为什么值得“挂在身上”。"
+ },
+ "mit-fluid-interfaces--wuw-demo": {
+  "technique": "Color-marker fingertip tracking from a chest-mounted webcam drives a gesture vocabulary (air drawing, wrist tap for a watch), while a pico projector renders the response in place on the body or on printed objects.",
+  "exercise_zh": "用 MediaPipe Hands 在网页里实现“空中画线”：食指捏合开始画、张手结束，把轨迹投影到墙上或叠加在摄像头画面中；变体：给轨迹加上一种物理属性（会下落、会褪色或会被风吹走）。"
+ },
+ "mit-fluid-interfaces--quickies": {
+  "technique": "A digital pen (Anoto-style dot-pattern paper) captures the handwriting of each note and an RFID tag in the note identifies it, so handwriting recognition turns paper notes into searchable, locatable records.",
+  "exercise_zh": "用手机拍摄手写便利贴，调用 OCR（如 Tesseract.js 或系统文本识别）存成可搜索列表，并给每张便利贴贴一个二维码或 NFC 标签，扫码即可跳到它的数字记录；变体：让便利贴在某个时间或地点“主动提醒”你。"
+ },
+ "mit-fluid-interfaces--luminar": {
+  "technique": "A projector-camera pair is mounted as the head of a motorized multi-joint lamp arm, and computer vision on the camera (with depth sensing) chooses where to point the arm, projecting interfaces onto the desk and scanning objects under it.",
+  "exercise_zh": "把一台小投影仪和手机固定在台灯支架上，用摄像头检测桌上的纸张或手，把按钮、提示投影到该物体旁边；变体：给台灯设计一种“性格”，比如在你离开时低头、看到新物体时凑过去（可用舵机或手动摆拍演示）。"
+ },
+ "mit-fluid-interfaces--invisibilia": {
+  "technique": "Device positions are registered in AR (markers or known anchors) and network data such as Wi-Fi signal strength or packet activity is sampled and rendered as volumetric fields or particle flows around each device.",
+  "exercise_zh": "用 AR Foundation 或 WebXR 在路由器、手机、音箱位置放置锚点，读取手机测到的 Wi-Fi 信号强度（或用模拟数据）渲染成粒子云和数据流线；变体：可视化另一种看不见的东西，比如噪声、温度或二氧化碳浓度。"
+ },
+ "mit-fluid-interfaces--aftermath": {
+  "technique": "The tablet tracks the scene with AR, reconstructs or fits the physical objects as rigid bodies, and runs a physics simulation forward in time to render predicted trajectories as ghost overlays.",
+  "exercise_zh": "在 Unity + AR Foundation 中检测桌面平面，放一个虚拟球并用物理引擎预演它被推出后的轨迹，以半透明残影显示“未来 2 秒”；变体：显示多个可能的未来分支，让用户选择想要的那一个。"
+ },
+ "mit-fluid-interfaces--holoart": {
+  "technique": "HoloLens spatial mapping provides a mesh of the room, and hand gestures spawn paint particles whose collisions with the mesh leave decals and drip simulations on real surfaces.",
+  "exercise_zh": "用 AR Foundation 的 Meshing（LiDAR iPhone）或平面检测，让手机点击屏幕发射颜料球，碰到真实表面后留下贴花并缓慢下流；变体：颜料的颜色或粘稠度由声音大小或手机倾斜角度控制。"
+ },
+ "valentin-heun--smarter-objects": {
+  "technique": "Vuforia image targets recognize each physical object and anchor a virtual UI to it, while an Arduino inside the object exchanges knob and actuator states with the iPad over the network so the virtual UI can remap physical controls.",
+  "exercise_zh": "用 8th Wall 图像识别或 AR Foundation Image Tracking 识别一个台灯或音箱上的贴图，弹出虚拟控制面板，并通过 ESP32/Arduino 控制一个 LED 的亮度；变体：让一个实体旋钮控制的东西可以在 AR 界面里被“重新指派”。"
+ },
+ "valentin-heun--reality-editor-programming": {
+  "technique": "Marker-based AR recognition overlays each object's inputs and outputs as nodes, and dragging a line between nodes on the touchscreen writes a data-flow link that the networked objects then execute.",
+  "exercise_zh": "在手机 AR 中识别两张图卡（代表“开关”和“灯”），用手指从一个节点拖线到另一个节点建立连接，连接后按虚拟开关就能点亮虚拟灯；变体：在连线中间插入一个“逻辑盒”（延时、反转或计数）。"
+ },
+ "valentin-heun--reality-editor": {
+  "technique": "Each object carries a visual marker recognized by Vuforia, its Open Hybrid server publishes I/O nodes over Wi-Fi, and drawn AR connections become routing rules between the objects' Arduino-driven inputs and outputs.",
+  "exercise_zh": "用两块 ESP32 各接一个按钮和一个灯，手机 WebAR 识别它们的贴纸标记后可以画线把按钮连到灯上（后端用 WebSocket 转发）；变体：把连接对象换成非电子物品（如椅子被坐下），想出一个有意思的“物体间对话”。"
+ },
+ "valentin-heun--reality-editor-2": {
+  "technique": "Objects are identified by image targets and each hosts HTML/JavaScript UIs served from a local node server, which the AR browser renders as anchored web views and connects through a visual logic editor.",
+  "exercise_zh": "用 WebXR 或 8th Wall 为教室里 3 个物体各做一个锚定的小网页面板（显示状态、可点击），并提供一个“搜索”按钮高亮指定物体；变体：让每个物体的网页可以被其他同学编辑，看看一小时后变成什么样。"
+ },
+ "valentin-heun--second-surface": {
+  "technique": "Natural feature tracking of the surface texture gives each tablet a 6DOF pose relative to the same physical surface, so strokes stored in surface coordinates are shared over the network and rendered from every viewpoint.",
+  "exercise_zh": "用 AR Foundation 的共享锚点（或同一张图像目标）让两部手机看到同一块墙面，在上面画画留言并实时同步；变体：留言只有在特定时间或特定人靠近时才会出现。"
+ },
+ "valentin-heun--vuforia-spatial-toolbox": {
+  "technique": "A LiDAR scan of the space is streamed to a remote client as a 3D model, and paths drawn in that model are converted into waypoints in the shared coordinate frame and sent to the robot controller.",
+  "exercise_zh": "用 iPhone LiDAR 扫描应用（如 Polycam）扫描一个房间，在 three.js 里远程打开模型并点击画出一条路径，再把路径发送给另一部手机的 AR 视图显示为地面箭头；变体：让“机器人”由一位同学扮演，按照 AR 路径行走。"
+ },
+ "mit-tangible-media--inform": {
+  "technique": "An array of 900 motorized pins is actuated to render a height map, a Kinect captures remote hands and objects as depth images that are downsampled to pin heights, and a projector colors the pin tops.",
+  "exercise_zh": "用摄像头或深度相机（或 MediaPipe 手部关键点）把手的形状转换成 10x10 的高度图，在 three.js 里用柱子阵列实时渲染，并把颜色投影到桌面；变体：做一个 3x3 的实体版本（舵机推动木棍）只显示最关键的一个信息。"
+ },
+ "mit-tangible-media--sublimate": {
+  "technique": "A shape display is registered with a head-tracked stereoscopic see-through display (half-silvered mirror or tracked tablet), so virtual geometry is rendered in the same coordinate space as the pins and can transition between physical and virtual.",
+  "exercise_zh": "在 AR 中把一组实体方块（或乐高）当作“固态”数据，其余部分用半透明虚拟粒子显示在其上方，点击某一数据点时让它从虚拟“凝固”为需要用实体块摆出的形状；变体：反过来，让实体被拿走时化为虚拟的气体飘走。"
+ },
+ "mit-tangible-media--physical-telepresence": {
+  "technique": "A Kinect depth stream of the remote space is converted to a height map that drives the local shape display in real time, so remote hands physically push objects on the pins.",
+  "exercise_zh": "用两台电脑的摄像头 + MediaPipe Hands 实现远程“推”：A 端的手部位置控制 B 端投影在桌上的虚拟推板，推动 B 端桌面上被识别的纸片方块（或虚拟物体）；变体：只传递手的“影子”，讨论匿名的远程触碰是什么感觉。"
+ },
+ "mit-tangible-media--transform": {
+  "technique": "Three shape displays run choreographed height-map animations and physics-style wave simulations, with Kinect tracking of visitors' bodies modulating the motion.",
+  "exercise_zh": "在 TouchDesigner 或 three.js 中做一张由上百根柱子组成的“流体桌面”，用摄像头检测人的位置让波纹从人身边荡开，投影到真实桌面上；变体：让桌面把一个虚拟物体“运送”到站在桌边的某个人面前。"
+ },
+ "mit-tangible-media--kinetic-blocks": {
+  "technique": "The shape display lifts, tilts and pushes passive blocks with sequenced pin motions (like a programmable conveyor), with tracked block positions and recorded gestures driving the manipulation plans.",
+  "exercise_zh": "用投影在桌面上画出“移动箭头”，让同学扮演执行器按箭头推动积木，程序根据摄像头检测到的积木位置计算下一步；变体：录下一位同学的搭建过程，再让系统“回放”指挥另一个人复刻。"
+ },
+ "mit-tangible-media--materiable": {
+  "technique": "Force sensing through the pins' motor current detects how hard a pin is pressed, and a per-pin physics model (spring, damper, fluid coupling) sets the pin response to simulate elasticity or viscosity, with projection showing the material.",
+  "exercise_zh": "用手机触屏压力或按压时长作为输入，在 AR 平面上渲染一块虚拟材料（果冻、沙子、橡胶），分别用弹簧、阻尼、扩散模型让它对按压作出不同反应并配合震动反馈；变体：发明一种现实中不存在的材料。"
+ },
+ "mit-tangible-media--tether": {
+  "technique": "Vicon motion capture tracks each iPad and the users' gloved hands, so each tablet renders a correct perspective view into a shared 3D scene and hand positions behind the screen manipulate virtual objects.",
+  "exercise_zh": "用 AR Foundation 的共享锚点让两三部手机看同一个虚拟雕塑，每部手机当作“窗口”从不同角度观看，并用点击拖动来捏合顶点；变体：每部手机只能看到或编辑雕塑的一部分，必须合作才能完成。"
+ },
+ "mit-tangible-media--ar-jig": {
+  "technique": "A handheld tool with an array of linear pins whose displacements are sensed is tracked in space, and the pin profile defines control points that deform a displayed 3D spline surface.",
+  "exercise_zh": "用一排可滑动的纸条或吸管（手机摄像头识别其高度）作为实体“曲线尺”，读出的轮廓实时生成 three.js 中的样条曲线并旋转成一个花瓶；变体：沿着桌面拖动这把尺子，扫出一整个曲面。"
+ },
+ "mit-tangible-media--mediate": {
+  "technique": "A shape-changing tangible device is spatially registered to the MR headset so that its physical form is actuated to match the virtual object the user is reaching for, providing passive haptic proxy feedback.",
+  "exercise_zh": "在 HoloKit 或手机 AR 中把一个实体盒子注册为虚拟物体的“替身”，当虚拟物体变形时提示同学手动调整盒子（或用舵机撑开），让手摸到的形状与看到的一致；变体：故意让看到的和摸到的不一致，测试多大差别会被察觉。"
+ },
+ "msr-benko-wilson--playanywhere": {
+  "technique": "A short-throw projector and an IR camera with IR illumination sense finger touches by analyzing shadows and contact, and use visual codes and optical flow to detect objects and paper on an ordinary table.",
+  "exercise_zh": "把小投影仪和手机摄像头装在支架上俯视桌面，通过手指与其影子的距离判断“触摸”，实现一个投影的拼图或地图拖动；变体：让桌上的真实物品（杯子、钥匙）成为游戏中的障碍物。"
+ },
+ "msr-benko-wilson--lightspace": {
+  "technique": "Several calibrated depth cameras and projectors share one room coordinate system, and virtual 'depth camera' projections of the point cloud detect when a hand touches a surface or holds a projected item, so content can move between surfaces and the body.",
+  "exercise_zh": "用一台投影仪和一个深度相机（或 MediaPipe 检测手掌位置）实现“捡起”投影在桌上的一张照片，让它跟随手掌移动，再“放”到墙上；变体：在搬运过程中让照片发生变化（翻面、变旧或变成声音）。"
+ },
+ "msr-benko-wilson--miragetable": {
+  "technique": "A Kinect captures the user and the remote partner as depth meshes, head-tracked stereo projection onto a curved screen renders view-dependent 3D, and a physics engine lets hand geometry push virtual objects.",
+  "exercise_zh": "用 three.js 做一个基于人脸追踪（MediaPipe Face）的视差桌面：摄像头追踪头部，屏幕或投影上的 3D 物体随视角变化产生“离屏”错觉；变体：把另一台电脑传来的对方视频放进这个 3D 空间里，做一个“隔桌对坐”的小游戏。"
+ },
+ "msr-benko-wilson--beamatron": {
+  "technique": "A projector and Kinect sit on a motorized pan-tilt head; the room is pre-scanned into a 3D model, and imagery is pre-distorted per surface as the head steers so content stays correct while moving across furniture.",
+  "exercise_zh": "把小投影仪放在可手动或舵机转动的云台上，用 TouchDesigner 根据角度切换画面，让一辆投影的小车沿墙和地板“开”过去；变体：让小车追着房间里的某个人（用摄像头检测）跑。"
+ },
+ "msr-benko-wilson--holoflector": {
+  "technique": "A half-silvered mirror in front of an LCD combines the real reflection with rendered graphics, and Kinect skeleton tracking places virtual objects so they align with the user's reflected body.",
+  "exercise_zh": "用一台平板加一块亚克力半透镜（或用镜像的摄像头画面）做一面“魔镜”，用 MediaPipe Pose 让虚拟小球落在你反射的肩膀上并可被拍掉；变体：镜子里的你做出和你不一样的动作。"
+ },
+ "msr-benko-wilson--illumiroom": {
+  "technique": "A Kinect scans the geometry around the TV, the projector is calibrated to it, and game-driven effects (peripheral extension, edge highlighting, radial distortion) are rendered with depth-aware projection mapping around the screen.",
+  "exercise_zh": "把投影仪对准显示器周围的墙面，在 TouchDesigner 中实时抓取屏幕边缘颜色并向外扩展，同时在屏幕内出现爆炸时让投影画面震动；变体：让房间效果与剧情反着来，比如游戏越激烈，房间越安静。"
+ },
+ "msr-benko-wilson--roomalive": {
+  "technique": "Each projector-camera unit auto-calibrates by projecting Gray-code structured light that its Kinect observes, yielding a unified 3D room model onto which games are rendered with per-surface projection mapping and depth-based body tracking.",
+  "exercise_zh": "用一台投影仪 + 摄像头做 Gray code 结构光标定（或手动四角映射），把房间一角变成打地鼠游戏：小怪物从沙发边缘钻出，用 MediaPipe 检测手拍到它的位置；变体：让怪物躲避你而不是等你打。"
+ },
+ "msr-benko-wilson--roomalive-other-resident": {
+  "technique": "Built on the RoomAlive Toolkit's calibrated projector-camera units, the game uses the scanned room model to place projected effects (shadows, apparitions, stains) on specific furniture, triggered by the player's tracked position.",
+  "exercise_zh": "用一台投影仪在宿舍或教室角落做一段 3 分钟的恐怖叙事：摄像头检测观众走到某个位置时，墙上出现影子、门框渗出污迹；变体：让“幽灵”只在观众背对它时移动。"
+ },
+ "msr-benko-wilson--mano-a-mano": {
+  "technique": "Kinect tracks both users' heads, and each projected object is rendered with view-dependent perspective for one user so that, on the surfaces behind the opposite person, it appears to float in 3D between them.",
+  "exercise_zh": "用 MediaPipe Face 追踪一位同学的头部位置，在投影墙上按其视角渲染一个“悬浮在空中”的球，另一人用手势把球“扔”过去；变体：两人轮流获得正确视角，讨论第三个旁观者看到了什么。"
+ },
+ "msr-benko-wilson--foveAR": {
+  "technique": "An optical see-through HMD renders the central view while calibrated room projectors render the same scene in the periphery, with head tracking keeping both views registered.",
+  "exercise_zh": "让一位同学戴 HoloKit 看中心的虚拟物体，同时用投影仪在其周围墙面渲染同一场景的外围部分（如雨、星空），比较有无投影时的沉浸感；变体：故意让外围画面和中心画面讲不同的故事。"
+ },
+ "msr-benko-wilson--room2room": {
+  "technique": "A Kinect captures the remote person as a colored depth mesh, and projector-camera calibration plus the local user's head tracking renders them life-size with perspective correction onto a real piece of furniture.",
+  "exercise_zh": "用 MediaPipe Selfie Segmentation 把远端同学的视频抠像，投影成真人大小坐在本地真实椅子上，并通过视频通话交谈；变体：让远端的人只在你看向椅子时出现。"
+ },
+ "msr-benko-wilson--snaptoreality": {
+  "technique": "Planes and dominant edges are extracted from the depth data in real time, and virtual objects being manipulated are snapped to the nearest aligned constraint when within a distance and angle threshold.",
+  "exercise_zh": "在 AR Foundation 中实现拖动虚拟相框时自动吸附到最近的检测平面和平面边缘（距离小于 5cm 时吸附）；变体：设计一种“反吸附”，让某些物体总是躲开真实表面漂浮。"
+ },
+ "msr-izadi-holoportation--kinectfusion": {
+  "technique": "Depth frames are aligned with ICP to estimate camera pose and fused into a GPU truncated signed distance function (TSDF) volume, whose ray-cast surface serves as a collision mesh for virtual particles.",
+  "exercise_zh": "用 LiDAR iPhone 的 AR Foundation Meshing 实时生成房间网格，然后撒下上千个虚拟粒子，让它们在真实桌面、沙发上弹跳堆积；变体：把粒子换成会“生长”的东西（苔藓、藤蔓）沿网格蔓延。"
+ },
+ "msr-izadi-holoportation--holodesk": {
+  "technique": "A beam splitter shows a display's image in the volume under it, a head-tracking camera provides view-dependent rendering, and a Kinect's depth of the hands is converted into particle proxies that physically interact with and occlude virtual objects.",
+  "exercise_zh": "用平板加 45° 斜放的亚克力板做一个“佩珀尔幻象”盒子，把 MediaPipe 检测到的手部关键点接到物理引擎里，让手能在盒子里拨动虚拟方块；变体：在盒子里放一个真实物体，让虚拟物体绕开它。"
+ },
+ "msr-izadi-holoportation--semanticpaint": {
+  "technique": "A KinectFusion-style reconstruction is labeled online: user touch plus a spoken label seeds voxels, and a streaming random-forest classifier with CRF smoothing propagates labels across the 3D map.",
+  "exercise_zh": "用 AR Foundation Meshing 扫描房间，用户点击某块网格并说出名字（语音转文字），给这片区域着色并存标签，同时展示检测到的平面分类（桌、墙、地面）；变体：给物体打上情绪或记忆标签，而不是名称。"
+ },
+ "msr-izadi-holoportation--holoportation": {
+  "technique": "Multiple RGB-D camera pods capture a person from all sides, the Fusion4D pipeline fuses them into a temporally consistent textured mesh in real time, and it is compressed and streamed to a HoloLens where it is rendered anchored in the room.",
+  "exercise_zh": "用 iPhone 录一段 Record3D 或 Polycam 的体积视频（或深度点云），导入 Unity 放到 HoloKit/手机 AR 的桌面上以缩小比例回放，像是“迷你版的你”在讲话；变体：让回放可以被暂停和绕到背后看，记录一段你想留给未来自己的话。"
+ },
+ "msr-izadi-holoportation--mobile-holoportation": {
+  "technique": "Depth cameras in the car capture the passenger, and the mesh is compressed aggressively (low-resolution geometry plus video-coded textures) to fit an LTE uplink before reconstruction on the remote HoloLens.",
+  "exercise_zh": "用手机的前置深度摄像头（或 MediaPipe 深度估计）采集人像点云，通过 WebRTC 以极低带宽传给另一部手机在 AR 中显示，并测试降低点数和帧率时的可接受下限；变体：只传输骨架和声音，在接收端用卡通化身还原。"
+ },
+ "msr-izadi-holoportation--android-xr-glasses-ted": {
+  "technique": "The glasses stream camera frames and audio to a multimodal model (Gemini), which returns translations, object memory and answers that are rendered as text in a monocular see-through display.",
+  "exercise_zh": "用手机摄像头 + 多模态大模型 API 做一个“记忆眼镜”原型：每隔几秒拍一帧并让模型记录物品位置，之后问“我的钥匙在哪”时在 AR 画面中标出上次看到的位置；变体：让它只记住一种你常丢的东西，并讨论隐私边界。"
+ },
+ "david-lindlbauer--remixed-reality": {
+  "technique": "An array of calibrated Kinects produces a live 3D reconstruction of the room that is rendered in a VR headset, so any region of the point cloud can be copied, deleted, recolored, or buffered and replayed in time.",
+  "exercise_zh": "用手机 AR 的实时摄像头画面 + 分割模型（如 MediaPipe 或 SAM 的网页版）选中画面中的一个人或物体并“擦除”（用背景修补）或复制一份；变体：给画面加一个“时间滑块”，可以回看 10 秒前这个位置是什么样。"
+ },
+ "david-lindlbauer--shape-changing-sar": {
+  "technique": "Actuated objects are tracked and calibrated to a projector so that projected imagery extends the object's visible form beyond its physical shape and stays registered while it moves.",
+  "exercise_zh": "用一个舵机转动的纸盒和投影仪做投影映射，让投影把纸盒“延长”成一个动物，盒子动时投影的四肢跟着动；变体：让投影和实物运动故意错位，制造一个诡异的效果。"
+ },
+ "david-lindlbauer--changing-appearance-surroundings": {
+  "technique": "Rather than projecting onto the object, the projector alters the color and brightness of the surrounding area, exploiting simultaneous contrast and lightness constancy so the unprojected object is perceived as changing.",
+  "exercise_zh": "把一张灰色纸片放在桌上，只对它周围投影不同颜色和亮度的背景，让观众判断纸片的颜色是否改变；变体：用这个错觉在一个静止物体上制造“心跳”或“呼吸”的感觉。"
+ },
+ "david-lindlbauer--context-aware-mr-adaptation": {
+  "technique": "An integer linear program decides for each app whether it is shown, where it is placed and at what level of detail, given estimated cognitive load from the task and a utility model, and re-solves as context changes.",
+  "exercise_zh": "在手机 AR 里放 5 个虚拟信息面板（时间、消息、天气、导航、音乐），写一个简单规则或打分函数，根据用户是否在走动、说话或打字自动隐藏或缩小面板；变体：让用户可以“贿赂”系统保留某个面板，讨论谁拥有控制权。"
+ },
+ "david-lindlbauer--realityreplay": {
+  "technique": "The MR system keeps a 3D model of the room, detects geometric and appearance changes that happened outside the user's field of view, and replays the recorded change events in place as animated reconstructions.",
+  "exercise_zh": "用固定在角落的手机摄像头拍桌面，通过帧差检测物体被移动的时刻，并把这一段录像在 AR 中叠加回原位置回放；变体：只给用户提示“这里变了”，让他们猜发生了什么再揭晓。"
+ },
+ "david-lindlbauer--minimates": {
+  "technique": "Remote participants are represented as scaled-down avatars, and a layout algorithm fits them onto available tabletop area while retargeting their gaze and pointing toward the corresponding local objects.",
+  "exercise_zh": "在 AR Foundation 中检测桌面，把三位远程同学的视频头像放在迷你化身上并排布在桌上，头像朝向正在说话的人；变体：让化身的大小随发言时长或音量变化。"
+ },
+ "chris-harrison-figlab--skinput": {
+  "technique": "Piezoelectric vibration sensors on an armband capture the bio-acoustic signals of taps propagating through bone and soft tissue, and an SVM classifies the tap location from spectral features.",
+  "exercise_zh": "把手机贴在前臂上，用加速度计记录敲击手臂不同位置的震动，用 Teachable Machine（声音或自定义特征）训练 3 个位置的分类器，并把菜单投影或显示在手臂上；变体：把敲击换成在桌面、墙面等其他身体外物体上。"
+ },
+ "chris-harrison-figlab--omnitouch": {
+  "technique": "A shoulder-mounted depth camera finds finger-like cylinders in the depth image and determines touch by checking whether the fingertip is within a few millimeters of the surface below it, while a calibrated pico projector renders onto the detected surfaces.",
+  "exercise_zh": "用深度相机（RealSense、Kinect 或 LiDAR iPhone）检测手指与桌面的深度差来判断触摸，把一个投影键盘放在笔记本或手掌上；变体：让界面自动选择最大的可用平面出现。"
+ },
+ "robert-xiao--worldkit": {
+  "technique": "A calibrated Kinect and projector let the user paint a region with a hand; the depth map within that region is used as a touch-sensing surface and the painted region becomes a projected widget.",
+  "exercise_zh": "用投影仪 + 摄像头实现：用手在墙上画一个矩形区域，系统在这里生成一个投影按钮或滑块，碰到时切换灯光或音乐；变体：让同学在教室里“布置”出一个只用投影的工作台。"
+ },
+ "robert-xiao--desktopography": {
+  "technique": "A depth camera segments physical objects on the desk and a layout optimizer moves and resizes projected windows to avoid occlusion by them while keeping them near their last positions.",
+  "exercise_zh": "用俯视摄像头检测桌上的物体轮廓（OpenCV 前景分割），让投影的便签窗口在碰到杯子或书时自动弹开或缩小；变体：让窗口“依附”在某个物体上，物体移走窗口也跟走。"
+ },
+ "robert-xiao--lumiwatch": {
+  "technique": "A small laser-scanning projector in the watch body projects onto the forearm with keystone correction, and a row of time-of-flight sensors along the watch edge measures finger position along the arm for 1D/2D touch.",
+  "exercise_zh": "用手机当“手表”：通过手机前置摄像头 + MediaPipe 检测手指在手臂上的位置，映射为一条滑块控制音量，并用小投影或屏幕显示反馈；变体：设计一个只能在手臂上完成、无法在手机屏幕上做的交互。"
+ },
+ "robert-xiao--mrtouch": {
+  "technique": "HoloLens depth frames are segmented into planar surfaces, fingertips are detected in depth, and a touch is registered when the fingertip is within a small distance of the plane, letting users drag out virtual screens on real surfaces.",
+  "exercise_zh": "在 AR Foundation 中检测墙面平面，用 AR 手部追踪或 MediaPipe 指尖位置判断是否贴近平面，贴近时可拉出一个矩形屏幕并在上面点击；变体：在门、窗、黑板上各放一个与其功能相关的虚拟屏幕。"
+ },
+ "chris-harrison-figlab--lightanchors": {
+  "technique": "LEDs blink in a known preamble pattern at frequencies detectable by a phone camera, and the app finds bright points across frames, decodes the temporal pattern into data, and anchors labels at the light's image position.",
+  "exercise_zh": "让 Arduino 或另一部手机的屏幕闪烁编码（如 8 位 ID），用手机摄像头逐帧检测亮点并解码，在亮点位置显示对应的 AR 标签；变体：把闪烁的信息做成“秘密消息”，只有扫到的人才能看到。"
+ },
+ "chris-harrison-figlab--egotouch": {
+  "technique": "A CNN trained on headset camera images infers from the skin's appearance and shading whether a finger is touching the palm or forearm and where, without additional sensors.",
+  "exercise_zh": "用手机摄像头拍手掌，用 Teachable Machine 训练“触摸/悬停”两类图像，并结合 MediaPipe 指尖位置把手掌分成 4 个按钮；变体：用手掌上的按钮控制 HoloKit 或网页中的一个小游戏。"
+ },
+ "ryo-suzuki--realitysketch": {
+  "technique": "ARKit tracks the device and a detected plane, the moving object is tracked in the camera image by color, and sketched elements are bound to the object's projected 3D position so lines, angles and plots update each frame.",
+  "exercise_zh": "在手机 AR 中用颜色追踪标记一个摆动的吊坠或滚动的球，用户画一条线连接到它，线段长度和角度随运动实时更新并在旁边绘出曲线图；变体：用这个工具去测量你身边一个你好奇的周期运动。"
+ },
+ "ryo-suzuki--realitytalk": {
+  "technique": "Streaming speech recognition extracts keywords, which are turned into text or images and placed in the camera view, while hand tracking lets the presenter grab and reposition them in the space around their body.",
+  "exercise_zh": "用 Web Speech API 识别演讲者说出的关键词，把对应的文字或 emoji 贴到摄像头画面中，并用 MediaPipe Hands 捏合手势移动它们；变体：做一个 60 秒的“AR 口头报告”，内容元素必须由你的话语召唤出来。"
+ },
+ "ryo-suzuki--sketched-reality": {
+  "technique": "Small tabletop robots are tracked in the AR view and sketches are converted into physics bodies, so the simulation both sends motor commands to the robots and updates the sketch from the robots' measured positions.",
+  "exercise_zh": "用手机 AR 识别一个带标记的小车（或同学手推的玩具），在屏幕上画一条斜坡或墙壁，小车碰到时虚拟线条会弹动；变体：让画出来的东西去“指挥”真实小车（可用 micro:bit 小车）。"
+ },
+ "ryo-suzuki--realitycanvas": {
+  "technique": "ARKit body tracking and object tracking give per-frame positions of moving targets, and hand-drawn strokes are attached to those points and animated with rules (trail, follow, emit) to produce cartoon effects.",
+  "exercise_zh": "用 MediaPipe Pose 追踪同学的手腕或脚踝，让用户在画面上手绘一条速度线或一团烟，并将其绑定到关节随运动播放；变体：给运动的日常物品（开门、倒水）配上漫画音效字。"
+ },
+ "ryo-suzuki--augmented-math": {
+  "technique": "The page is captured and processed with OCR and math-formula recognition to extract equations and figures, which are then turned into parametric interactive visualizations registered to the page through image tracking.",
+  "exercise_zh": "拍一页课本上的函数公式（如 y = a·sin(bx)），用 OCR 或手动录入解析参数，在 8th Wall 或 AR Foundation 图像追踪中把可拖动滑块和动态曲线叠加在该页上；变体：选一页你当年最看不懂的课本内容来改造。"
+ },
+ "ryo-suzuki--teachable-reality": {
+  "technique": "An on-device image classifier is trained from a few user demonstrations of object states (interactive machine teaching), and state changes detected in the camera feed trigger AR effects bound to the tracked scene.",
+  "exercise_zh": "用 Teachable Machine 训练“杯盖开/关”或“书翻开/合上”两个状态，在网页 AR 中把状态变化连接到一个特效（盖子打开时冒出蒸汽）；变体：把一个毫无电子功能的日常物品变成游戏手柄。"
+ },
+ "ryo-suzuki--holobots": {
+  "technique": "The remote user's tracked hand motions in HoloLens are mapped onto the positions of Sony toio robots, which localize themselves on a position-encoded mat, and the hologram is rendered co-located with the robots.",
+  "exercise_zh": "用 toio、micro:bit 小车或一个被同学推动的纸盒作为“远程之手”的实体替身，远程一方在网页上拖动位置，本地手机 AR 在实体上叠加对方的虚拟手；变体：让实体替身做出拥抱、击掌等社交动作。"
+ },
+ "ryo-suzuki--chameleoncontrol": {
+  "technique": "The remote operator's hand gestures are captured and rendered in the surrogate's HoloLens as overlaid ghost hands, which the surrogate aligns their own hands with to replicate the motion.",
+  "exercise_zh": "让一位同学戴 HoloKit 或看手机 AR，远端同学的 MediaPipe 手部关键点实时传过来显示为“幽灵手”，本地同学模仿幽灵手完成一个折纸或搭积木任务；变体：幽灵手只给出一半提示，看看协作如何变化。"
+ },
+ "ryo-suzuki--augmented-physics": {
+  "technique": "Diagram elements in a textbook image are segmented (e.g. with SAM), recognized as physics primitives such as pendulums, pulleys or ramps, and reconstructed as a 2D physics simulation overlaid on the original figure.",
+  "exercise_zh": "拍一张物理课本的示意图（斜面、单摆或滑轮），手动或用分割工具裁出各部件，在 Matter.js 中重建为可运动的模拟并叠加回原图；变体：允许读者改动一个“现实里改不了”的参数（比如重力朝上）。"
+ },
+ "ryo-suzuki--realityeffects": {
+  "technique": "Objects and people are tracked across frames of a volumetric (RGB-D) recording, and annotation or particle effects are attached to those 3D tracks so they follow the subject when the recording is replayed from any viewpoint.",
+  "exercise_zh": "用 Record3D 或 Polycam 录一段带深度的视频，在 Unity 或 three.js 回放时给其中的人或球挂上尾迹、标签和爆炸粒子；变体：用特效把一段普通的生活片段剪成体育解说。"
+ },
+ "ryo-suzuki--guided-reality": {
+  "technique": "An LLM decomposes an instruction into steps, and a vision-language or detection model grounds each step to the relevant objects in the camera view, whose image locations are highlighted in MR.",
+  "exercise_zh": "用手机拍下桌面，把照片和一条任务指令（“冲一杯手冲咖啡”）发给多模态大模型，要求返回每一步对应物体的框坐标，并在画面中依次高亮；变体：让系统在你做错时给出提示，而不只是给步骤。"
+ },
+ "ryo-suzuki--insitutale": {
+  "technique": "Tabletop objects are tracked by the camera (markers or object detection), and their positions and arrangement are mapped to parameters of AR charts and narration segments, making physical layout the story controller.",
+  "exercise_zh": "给 3 个杯子贴上 ArUco 或图像标记，用手机 AR 追踪它们的位置，把杯子间的距离映射成柱状图的高度或一段数据故事的播放进度；变体：用这些实体讲一个关于你自己作息或消费的数据故事。"
+ },
+ "rubaiat-habib-kazi--pronto": {
+  "technique": "ARKit records a video with camera poses, and sketches drawn on video frames are lifted into 3D using the tracked camera and detected planes so they stay anchored as the recorded scene is replayed.",
+  "exercise_zh": "用 Reality Composer 或 Adobe Aero 录一段 AR 视频，在其中用手绘草图和“演一遍”的方式快速做出一个 AR 应用的交互原型，在 30 分钟内完成两轮迭代；变体：原型必须只用手绘线条，不允许任何 3D 模型。"
+ },
+ "ken-perlin--chalktalk-ar": {
+  "technique": "Freehand strokes are matched against a library of glyph templates by shape recognition, and each recognized sketch is replaced by a procedural, animated 3D object rendered in a shared AR space.",
+  "exercise_zh": "在网页画板中识别 3 种简单手绘符号（圆、三角、波浪，可用 $1 Unistroke Recognizer），把它们替换为会动的 3D 物体放入 WebXR 场景；变体：让两个被识别的物体靠近时产生互动（比如太阳让花开）。"
+ },
+ "ken-perlin--chalktalk-ar-holojam": {
+  "technique": "Motion capture tracks all headsets in one room coordinate frame, and a networked server synchronizes Chalktalk sketch state so every co-located user sees the same living drawings in place.",
+  "exercise_zh": "用 AR Foundation 共享锚点或 WebXR + WebSocket，让两部手机在同一空间里同时画 3D 线条并实时同步；变体：一人的线条只能被另一人“激活”（点击后变成会动的物体）。"
+ },
+ "ken-perlin--holojam": {
+  "technique": "OptiTrack cameras track reflective markers on each untethered mobile headset and on the hands, and positions are streamed over Wi-Fi so every headset renders all users' avatars and 3D ribbons in the shared room.",
+  "exercise_zh": "用 HoloKit 或手机 AR 的共享坐标（图像目标作为共同原点），让多人在同一空间用手机位置画出 3D 彩带并看到彼此的化身；变体：彩带只能在两个人合作（同时按下）时才会画出。"
+ },
+ "ken-perlin--flock-holojam": {
+  "technique": "Each participant's tracked position drives a bird avatar, and boids-style flocking rules (separation, alignment, cohesion) generate additional birds that respond to the participants' movements.",
+  "exercise_zh": "在 three.js 中实现 boids 鸟群，用摄像头检测到的人的位置作为“领头鸟”，投影到墙上或在 AR 中显示；变体：让鸟群对不同人的动作速度做出吸引或逃离的反应。"
+ },
+ "ken-perlin--nyu-holodeck": {
+  "technique": "Room-scale optical motion capture, networked headsets and a shared scene-graph server let multiple users and Chalktalk content occupy one synchronized mixed-reality space.",
+  "exercise_zh": "设计并测试一节 10 分钟的“共享 AR 小课”：用共享锚点让全班手机看到同一个 3D 模型（如心脏或分子），讲者点击时所有人看到同一个高亮；变体：让学生可以举手（在 AR 里放标记）向讲者提问。"
+ },
+ "dynamicland-bret-victor--hypercard-in-the-world": {
+  "technique": "Ceiling-mounted cameras identify paper cards by printed color-dot codes, and projectors render each card's program output onto and around it, with programs reacting to the positions and adjacency of other cards.",
+  "exercise_zh": "给几张卡片印上 ArUco 码，用俯视摄像头 + OpenCV 识别，在投影仪上给每张卡片显示对应的输出（一个颜色、一段文字），当两张卡片靠近时触发组合效果；变体：让同学把卡片当作“程序语句”拼出一个小动画。"
+ },
+ "dynamicland-bret-victor--la-tabla": {
+  "technique": "Realtalk's camera recognizes game pieces and paper cards by printed dot codes, and projection renders gameplay whose rules are themselves printed programs lying on the table.",
+  "exercise_zh": "用俯视投影 + ArUco 标记做一个桌游：棋子移动后投影显示路径和效果，桌边一张“规则卡”换成另一张时游戏规则随之改变；变体：让玩家在游戏中途修改规则卡。"
+ },
+ "dynamicland-bret-victor--progress-report-2020": {
+  "technique": "Every program is a printed page identified by dot codes, a room-wide camera-projector system (Realtalk) tracks pages and objects and runs their code, so programs communicate by statements about physical positions.",
+  "exercise_zh": "用投影仪 + 摄像头搭建一张“可编程桌子”：打印 5 张带标记的纸，每张对应一个函数（如“画圆”“变红”“向右移动”），把纸指向另一张纸时把效果作用在它上面；变体：设计一张能“读取”其他纸张内容的“元程序”纸。"
+ },
+ "dynamicland-bret-victor--biomolecular-design": {
+  "technique": "Printed pages and physical controls such as knobs are tracked by Realtalk's camera system, and their state feeds a molecular modeling program whose output is projected onto the table for the group to manipulate together.",
+  "exercise_zh": "用俯视投影展示一个分子或数据模型，用贴了标记的纸条当“参数旋钮”（旋转角度被摄像头读取），多人同时操作不同参数；变体：换成你所在专业的一个复杂模型，看实体化是否帮助讨论。"
+ },
+ "dynamicland-bret-victor--cellular-playgrounds": {
+  "technique": "A camera reads marker-drawn cells and rule pages on paper, and a projector renders cellular automaton simulations directly over the drawings, so editing the paper edits the simulation live.",
+  "exercise_zh": "用摄像头读取纸上画的黑白格子作为初始状态，在投影中运行康威生命游戏并叠加回纸面，擦掉或添画格子后即时生效；变体：发明一条新的规则并写在一张规则卡上，换卡即换规则。"
+ },
+ "dynamicland-bret-victor--dynamicland-intro-2024": {
+  "technique": "A room-scale projector-camera system recognizes printed objects and runs Realtalk programs that are physically embodied on paper, making code, data and output co-located and visible to everyone in the space.",
+  "exercise_zh": "用一台投影仪和摄像头把教室墙面变成“公共程序墙”：任何人把带标记的纸贴上去就能改变墙上的共享动画；变体：规定所有状态都必须可见，禁止使用任何隐藏的屏幕或键盘。"
+ },
+ "oliver-kreylos--ar-sandbox": {
+  "technique": "A Kinect above the sandbox measures the sand's height map, which is filtered and used to color an elevation map with contour lines projected back onto the sand, while a shallow-water simulation runs rain across the terrain.",
+  "exercise_zh": "用深度相机（或用一盘彩色黏土加 RGB 摄像头近似）测量高度，在 TouchDesigner 中生成等高线和海拔配色，投影回沙盘或黏土上；变体：把“雨水”换成另一种东西，比如人群、火或声音的传播。"
+ },
+ "oliver-kreylos--kinect-3d-video": {
+  "technique": "The Kinect's depth image is back-projected into a 3D point cloud using its camera intrinsics and textured with the calibrated RGB image, so the capture can be rendered from any virtual viewpoint.",
+  "exercise_zh": "用 LiDAR iPhone 或 Record3D 采集自己的实时点云，在 three.js 中从任意角度旋转观看，并在其旁边放一个虚拟物体；变体：把点云风格化（体素、线框或粒子）拍一个 30 秒短片。"
+ },
+ "oliver-kreylos--three-kinects": {
+  "technique": "Three Kinects are extrinsically calibrated to one coordinate frame (e.g. by a shared calibration target), and their point clouds are merged into a single 3D representation rendered in a VR environment.",
+  "exercise_zh": "用两部手机从不同角度拍同一人的深度数据（或用 Polycam 分别扫描），在 CloudCompare 或 three.js 中通过共同标记点手动对齐合并；变体：比较只用一个视角与两个视角时，观众感受到的“在场感”有何不同。"
+ },
+ "mark-billinghurst--covar": {
+  "technique": "The room is pre-scanned into a 3D model that the VR user inhabits, and both users are tracked in the same coordinate system so head pose, gaze rays and hand gestures are exchanged and rendered for each other.",
+  "exercise_zh": "用 Polycam 扫描一个房间导入 three.js 做成“VR 版”，一位同学在电脑上以第一人称浏览，另一位在现场用手机 AR，双方位置和视线方向通过 WebSocket 互相显示；变体：让 VR 一方可以缩小或放大自己。"
+ },
+ "mark-billinghurst--sharedsphere": {
+  "technique": "A 360 camera on the local worker streams a live panorama to the remote expert's VR view, and the expert's head gaze and Leap Motion hand gestures are sent back and rendered in the local worker's AR display.",
+  "exercise_zh": "用一部 360 相机（或手机全景直播）把现场画面传给远程同学，远程同学在画面上点击标注，本地同学在手机 AR 中看到对应方向的箭头；变体：只允许远程同学用手势，不允许说话，完成一次找物任务。"
+ },
+ "mark-billinghurst--mini-me": {
+  "technique": "The remote VR user's avatar is scaled down and repositioned to stay within the AR user's field of view, while their gaze and pointing directions are retargeted so they still point at the correct objects.",
+  "exercise_zh": "在手机 AR 中放一个小人化身，始终跟随在屏幕边缘可见位置，远端同学点击某个物体时，小人转身指向它；变体：给小人加上情绪表达（点头、疑惑），测试它能否替代语音。"
+ },
+ "mark-billinghurst--snow-dome": {
+  "technique": "A scaled copy of the reconstructed space is rendered as a miniature (World-in-Miniature) inside a dome, and the VR user's position and scale are mapped between the miniature and full-scale coordinate frames so their avatar appears correctly to the AR user.",
+  "exercise_zh": "在 AR 中把扫描好的房间模型缩小成桌上的“雪球”，点击雪球中的某点就把第一人称视角“传送”进去；变体：让雪球里的变化（放一件家具）同步到真实大小的 AR 场景中。"
+ },
+ "mark-billinghurst--superman-vs-giant": {
+  "technique": "The remote user can change their viewpoint scale and fly freely through a 3D reconstruction, and their avatar is rendered to the local AR user at the corresponding scale and position within the shared coordinate frame.",
+  "exercise_zh": "在 Unity 中给 VR/桌面一方做“巨人”和“飞行”两种视角模式，AR 一方看到对方以巨型头像或小飞人形式出现，双方合作完成一次摆放任务；变体：比较哪种尺度最适合给指令。"
+ },
+ "mark-billinghurst--shoulder-of-giant": {
+  "technique": "A miniature avatar of the remote collaborator is attached to the local user's tracked head or shoulder pose, and the remote viewpoint is rendered from that attached position so both share nearly the same perspective.",
+  "exercise_zh": "在 HoloKit 或手机 AR 中把一个小化身固定在屏幕左上方（模拟“肩膀上”），远端同学通过看你的摄像头画面给出指引，化身同步做出指向动作；变体：让肩膀上的化身是“过去的你”，播放你之前录下的提示。"
+ },
+ "mark-billinghurst--eyemr-vis": {
+  "technique": "Eye trackers on both sides capture gaze direction, which is exchanged and visualized as shared gaze rays or highlights in MR, with visual states indicating when both people look at the same object.",
+  "exercise_zh": "用 MediaPipe Face Mesh 的虹膜点或 WebGazer.js 近似估计两人在屏幕上的注视点，在共享画面中显示彼此的注视光标，两人同时看同一处时出现特效；变体：用“对视”来完成一个两人协作解谜。"
+ },
+ "tu-graz-wagner-schmalstieg--studierstube-es": {
+  "technique": "A lightweight fixed-point tracking library estimates 6DOF phone pose from square fiducial markers or natural features in real time on 2009-era mobile CPUs, and a scene-graph renderer draws characters over the camera image, with networking for multiplayer.",
+  "exercise_zh": "用 AR.js 或 8th Wall 的标记追踪在一张打印卡上放一个会动的角色，并让两部手机通过网页同步看到同一个角色状态；变体：把运行帧率人为限制到 15fps、分辨率减半，体验 2009 年的约束并据此简化设计。"
+ },
+ "tu-graz-wagner-schmalstieg--nft-mobile-phone": {
+  "technique": "Keypoints detected in the camera frame are matched to a pre-trained database of the target image using simplified SIFT descriptors and Ferns classifiers, and the resulting correspondences give a robust 6DOF pose that is then refined by frame-to-frame patch tracking.",
+  "exercise_zh": "用 OpenCV（Python 或 OpenCV.js）实现 ORB 特征匹配 + 单应性估计，把一张图片贴到手机摄像头中的海报上；变体：测试哪种海报图案最难追踪，并设计一张“追踪友好”的海报。"
+ },
+ "tu-graz-wagner-schmalstieg--panoramic-mapping": {
+  "technique": "Assuming pure rotation, each camera frame is registered against a cylindrical panorama map being built incrementally, so the phone simultaneously extends the map and estimates its 3DOF orientation from it.",
+  "exercise_zh": "用手机陀螺仪（DeviceOrientation API）在网页中实现“原地转身看”的全景 AR：在 360 度方向上布置虚拟标签，并对照真实场景校准北向；变体：只在某一方向藏一个彩蛋，引导用户转身寻找。"
+ },
+ "tu-graz-wagner-schmalstieg--cows-vs-aliens": {
+  "technique": "Each handheld device tracks the shared tabletop map with fiducial markers, so all players see the same registered game world, and players must physically move around the table to reach different areas.",
+  "exercise_zh": "用一张打印的 A3 地图作为图像目标，做一个 2 人手机 AR 桌游：必须走到桌子另一侧才能看到并点击某些目标；变体：让两人的视角互相遮挡，逼迫玩家移动身体交流。"
+ },
+ "tu-graz-wagner-schmalstieg--expedition-schatzsuche": {
+  "technique": "Handheld PDAs track printed fiducial markers placed next to exhibits and overlay virtual characters and puzzle clues, with a game state machine sequencing the quest across the museum.",
+  "exercise_zh": "在校园或教学楼中贴 5 个图像标记，用 8th Wall 或 AR.js 做一个串联寻宝：每个标记出现一个角色和一条线索，指向下一个地点；变体：线索需要结合真实展品或环境细节才能解开。"
+ },
+ "tu-graz-wagner-schmalstieg--hedgehog-labeling": {
+  "technique": "Labels are placed along 3D poles radiating from their anchors and their positions are optimized in 3D space (not per frame in screen space), which reduces overlap and avoids label jumping as the viewpoint changes.",
+  "exercise_zh": "在 AR 中为一个物体（如自行车模型）的 10 个部件加标签，分别实现“屏幕空间避让”和“固定 3D 刺猬式放射”两种布局，绕物体走一圈比较稳定性；变体：让标签数量随用户距离自动增减。"
+ },
+ "columbia-feiner--armar": {
+  "technique": "An optically tracked head-worn display renders arrows, labels and animated tool models registered to the vehicle interior, guiding attention to the next task location and demonstrating the procedure in place.",
+  "exercise_zh": "在手机 AR 中用图像目标定位一台打印机或自行车，为一个 5 步维修流程做箭头、标签和动画扳手指引；变体：当用户视野里看不到目标部件时，显示屏幕边缘的方向提示。"
+ },
+ "columbia-feiner--shake-menus": {
+  "technique": "The tracked marker's pose history is analyzed for a rapid back-and-forth motion, and when a shake is detected a radial menu is instantiated in the marker's coordinate frame so it moves with the object.",
+  "exercise_zh": "用图像追踪卡片或手机加速度计检测“摇一摇”，在卡片周围弹出一个环形 AR 菜单，倾斜卡片选择选项；变体：换成其他物理手势（翻转、敲击）并比较哪种最自然。"
+ },
+ "columbia-feiner--ar-marble-game": {
+  "technique": "The tracked board's orientation relative to gravity is computed from the marker pose, and that tilt is fed as a gravity vector into a physics engine that rolls virtual marbles through a maze registered to the board.",
+  "exercise_zh": "在 AR 中把一张打印的迷宫图作为图像目标，读取它相对于桌面的倾斜角度，驱动 Unity 物理引擎让虚拟弹珠滚动；变体：让两个人同时拿着同一块板合作过关。"
+ },
+ "columbia-feiner--armonica": {
+  "technique": "Physical bars are tracked and modeled as colliders in a physics simulation, and virtual objects bouncing off them trigger pitched sound events rendered with spatial audio for all participants.",
+  "exercise_zh": "在 AR 中检测桌面，把几根实体铅笔或尺子标记为“琴键”（手动放置对应虚拟碰撞体），让虚拟小球弹跳碰到时发出不同音高；变体：两人各控制一个发球点，合作弹出一段旋律。"
+ },
+ "columbia-feiner--psychomotor-ar": {
+  "technique": "The combustor parts are tracked in 6DOF, and animated overlays compare the current part pose with the target pose, showing alignment cues (arrows, rotation hints) until the part is correctly inserted.",
+  "exercise_zh": "用图像追踪一块乐高底板和一个带贴纸的零件，在 AR 中显示目标位置的虚影，零件越接近目标，虚影颜色越绿；变体：去掉数字提示，只用声音引导对准。"
+ },
+ "columbia-feiner--snapar": {
+  "technique": "The handheld stores tracked camera images with their poses as snapshots, and the user switches the displayed view to a stored snapshot (with live AR overlays re-rendered for that pose) instead of physically walking to it.",
+  "exercise_zh": "在 AR Foundation 中实现“存视角”按钮：保存当前相机截图和位姿，之后点击缩略图即可切换到该视角查看虚拟物体；变体：用这些快照做一个多视角“AR 对比图”说明作品。"
+ },
+ "columbia-feiner--iss-stowage": {
+  "technique": "A HoloLens is registered to the rack layout, and the application highlights the target stowage location with world-locked outlines and path cues while tracking task progress item by item.",
+  "exercise_zh": "给宿舍柜子或实验室抽屉建一份物品清单，在手机 AR 中逐件显示“这件放在哪一格”的高亮框；变体：反向设计为“找东西”模式，并测试比纯文字清单快多少。"
+ },
+ "blair-macintyre--voices-of-oakland": {
+  "technique": "GPS position triggers location-based audio segments and the narrative is structured as an interactive tour where the user chooses which story branches to hear at each grave.",
+  "exercise_zh": "用手机网页 + Geolocation API 在校园里设置 4 个地理围栏，走到某处自动播放一段同学录制的“这里发生过的故事”；变体：内容根据你来的方向或停留时间分叉。"
+ },
+ "blair-macintyre--ar-facade": {
+  "technique": "A video see-through HMD with tracking renders life-size characters in a physical apartment set, while a hidden operator transcribes the player's speech (Wizard of Oz) into the Façade drama manager that drives the characters.",
+  "exercise_zh": "在手机 AR 中放一个真人大小的虚拟角色（可用 Mixamo 模型），由一位藏在后台的同学（绿野仙踪法）根据玩家说的话选择角色动画和台词；变体：让角色能“看见”玩家拿起的真实物品并评论它。"
+ },
+ "blair-macintyre--bragfish": {
+  "technique": "Each handheld tracks a shared printed pond board with markers, rendering fish and lures registered to it, and a networked game state makes players compete co-located around the same physical board.",
+  "exercise_zh": "把一张打印的池塘图作为共同图像目标，做一个 2–3 人手机 AR 钓鱼游戏，每人只能看到自己的鱼竿和共同的鱼；变体：加入一个只在物理上靠近对手时才能用的“偷鱼”机制。"
+ },
+ "blair-macintyre--arf": {
+  "technique": "A fiducial marker is tracked by the iPhone camera to anchor an animated 3D dog, and touch input on the screen is raycast onto the dog to trigger petting and play behaviors.",
+  "exercise_zh": "用 AR Foundation 或 8th Wall 在桌面放一个虚拟宠物，实现点击抚摸、拖动喂食两种互动和三种情绪状态；变体：宠物会对你的真实环境做出反应（黑暗时睡觉、听到声音时抬头）。"
+ },
+ "blair-macintyre--arhrrrr": {
+  "technique": "Natural feature tracking of a printed city map provides the camera pose on a GPU-accelerated handheld, and colored blobs (Skittles) placed on the map are detected by color segmentation and turned into explosive game objects.",
+  "exercise_zh": "用一张打印地图作为图像目标做一个 AR 射击或塔防游戏，并用颜色检测识别玩家放在地图上的真实彩色糖果或积木作为炸弹或障碍；变体：让真实物品的颜色决定它在游戏中的功能。"
+ },
+ "blair-macintyre--art-of-defense": {
+  "technique": "Tangible tiles carry fiducial markers that are tracked by handheld cameras, and each tile's position and rotation define a tower's placement and aim in a shared tower-defense game rendered over the board.",
+  "exercise_zh": "用多张带 ArUco 标记的卡片作为“炮塔”，手机 AR 识别卡片位置并在上面显示炮塔，敌人沿虚拟路径进攻；变体：卡片的旋转角度决定炮塔的朝向，两位玩家必须分工摆放。"
+ },
+ "blair-macintyre--argon": {
+  "technique": "Argon exposed AR as a web platform: pages written in KML/KHARMA and later HTML/JavaScript declared content anchored to geolocation or image targets, and the browser supplied the tracked camera pose to render it.",
+  "exercise_zh": "用 WebXR（three.js）或 8th Wall 写一个完全用网页技术制作的 AR 页面，把 HTML 卡片锚定在一个平面或图像上，并分享链接给同学直接打开；变体：让同学通过编辑一个 JSON 文件就能往你的 AR 页面里添加内容。"
+ },
+ "blair-macintyre--nerdherder": {
+  "technique": "Vuforia image tracking of the printed board anchors a Unity game scene, and the phone's pose relative to the board is itself the controller, since the dangled donut follows where the camera points.",
+  "exercise_zh": "在 Unity + AR Foundation 中做一个“用手机位置当手柄”的小游戏：手机在图像目标上方的位置决定虚拟诱饵落点，引导虚拟小人走到目标区域；变体：诱饵换成声音或光，比较哪种引导更有趣。"
+ },
+ "disney-research-ar--revel": {
+  "technique": "Reverse electrovibration injects a weak time-varying electrical signal into the user's body, creating an oscillating electrostatic attraction between the sliding finger and any grounded conductive surface, which is perceived as texture and can be modulated per virtual object.",
+  "exercise_zh": "用手机震动（Vibration API 或 Unity Handheld.Vibrate）在 AR 中模拟触感纹理：手指划过不同虚拟物体时播放不同频率和节奏的震动（REVEL 的电刺激不适合课堂复现）；变体：让同学闭眼仅凭震动猜出是哪种材质。"
+ },
+ "disney-research-ar--aireal": {
+  "technique": "A flexible nozzle on a pan-tilt mount aims a speaker-driven air vortex ring at the tracked user's hand (via a depth camera), delivering localized tactile pulses in free air.",
+  "exercise_zh": "用纸杯或塑料瓶加气球膜做一个简易空气炮，配合手机 AR 中出现的虚拟蝴蝶，由一位同学在蝴蝶“碰到”手时手动发射空气环；变体：设计一个只有触感、没有视觉的“隐形”AR 生物。"
+ },
+ "disney-research-ar--live-texturing-coloring": {
+  "technique": "The coloring page is tracked and rectified, the drawn colors are sampled into the 3D character's UV texture through a precomputed mapping, and occluded parts are filled by a texture synthesis lookup from visible regions.",
+  "exercise_zh": "设计一张涂色线稿并在 Unity 中做一个对应的 3D 模型，用 AR 图像追踪拍到页面后把页面图像通过 UV 贴到模型上（可直接用平面映射近似）；变体：让涂色影响角色的行为，比如红色越多越暴躁。"
+ },
+ "disney-research-ar--augmented-creativity": {
+  "technique": "A set of AR applications that track physical creative artifacts (colored drawings, built toys) with image and model-based tracking, then extract color and shape from them to drive animated virtual counterparts.",
+  "exercise_zh": "让学生用纸、黏土或乐高做一件实体作品，拍照后用 Lens Studio 或 Reality Composer 让它“活”起来（加动画、声音或会说话的脸）；变体：作品在 AR 中的行为必须由它的某个实体特征决定。"
+ },
+ "disney-research-ar--makeup-lamps": {
+  "technique": "A high-speed camera tracks facial landmarks and a low-latency projector, co-axially calibrated with it, renders makeup onto the face with latency short enough that the projection stays locked during motion.",
+  "exercise_zh": "用 MediaPipe Face Mesh 追踪一位同学的脸，把彩绘纹样投影到其面部（或在 Lens Studio 中做成滤镜），并测量头部快速转动时的错位程度；变体：让妆容随说话、表情或音乐节奏变化。"
+ },
+ "disney-research-ar--magic-bench": {
+  "technique": "A depth camera reconstructs the bench area so a CG character can be composited into the mirror-view video with correct depth ordering and occlusion, while actuators in the bench deliver synchronized haptic effects.",
+  "exercise_zh": "用 Unity 或 Lens Studio 做一个“魔法镜子”：摄像头画面左右翻转显示在大屏上，用人体分割让虚拟角色站在人身后或身前（按深度遮挡），并用椅子下的手机震动配合角色动作；变体：角色对坐下的人做出不同反应。"
+ },
+ "disney-research-ar--ar-poser": {
+  "technique": "2D pose estimation extracts the user's skeleton from the photo, and the keypoints are retargeted onto a rigged character that is rendered and composited next to the user in a mirrored or complementary pose.",
+  "exercise_zh": "用 MediaPipe Pose 读取合照中的人体关键点，把它们映射到 three.js 中的一个简单绑定角色（或 2D 纸片人），让角色摆出同样或对称的姿势；变体：让角色总是做出“捣乱”的反向动作。"
+ },
+ "ishikawa-watanabe-lab--dynaflash": {
+  "technique": "A 1,000 fps projector using a DLP chip with binary frames, paired with high-speed vision tracking of the paper's markers, closes the loop in about 3 ms so the projected image stays locked to a moving, bending surface.",
+  "exercise_zh": "用普通投影仪 + 摄像头追踪一张移动的纸（用四角标记或颜色检测），把图像实时投影到纸上，测量并记录挥动时的错位；变体：利用延迟本身设计一种“拖尾”美学效果。"
+ },
+ "ishikawa-watanabe-lab--deformable-projection": {
+  "technique": "Invisible IR ink markers on the deformable surface are tracked by a high-speed camera, the surface mesh is reconstructed from the dot grid each frame, and the texture is warped onto it and projected by a high-speed projector.",
+  "exercise_zh": "在一块布或 T 恤上画一个点阵网格，用摄像头检测网格点（OpenCV 斑点检测），把图案按网格变形后投影回去，让投影随布料褶皱弯曲；变体：投影一件“会动的印花”，比如游动的鱼。"
+ },
+ "ishikawa-watanabe-lab--dynaflash-v2-post-reality": {
+  "technique": "A high-speed projector with 8-bit grayscale at high frame rates, combined with millisecond vision-based tracking, projects textures and wireframes onto fast-moving objects without perceptible lag, making the augmentation appear physical.",
+  "exercise_zh": "在 TouchDesigner 中追踪一个手持的白色物体（纸板或球），把线框或纹理投影在上面，并通过缩小投影区域和预测运动来减少延迟；变体：让投影揭示物体“内部”看不见的结构。"
+ },
+ "ishikawa-watanabe-lab--variolight": {
+  "technique": "Two galvanometer mirrors steer the projection beam at high speed, driven by a high-speed vision tracker, so a small projection field follows a moving performer across a large stage.",
+  "exercise_zh": "把投影仪装在舵机云台上（或只在画面中移动一个投影光斑），用摄像头追踪跑动的同学，让一个图案始终落在其身上；变体：光斑追踪的目标由舞者的动作切换（举手时转向另一人）。"
+ },
+ "ishikawa-watanabe-lab--midas-projection": {
+  "technique": "High-speed depth sensing measures the moving object's surface normals each frame, and a material shading model (e.g. metal reflections, wood grain) is computed per frame and projected so the object appears to be made of that material.",
+  "exercise_zh": "用深度相机或已知形状（白色立方体）估计表面法线，在 TouchDesigner 中渲染金属或木纹材质并投影回物体，转动物体观察高光是否跟随；变体：让物体看起来是“液体”或“毛绒”材质。"
+ },
+ "ishikawa-watanabe-lab--elamorph": {
+  "technique": "The rigid object's motion is tracked at high speed and projected shading and texture are warped according to a simulated elastic deformation driven by that motion, exploiting perception so the object looks as if it stretches.",
+  "exercise_zh": "追踪一个手持的白色纸盒，给投影在上面的图案加上随加速度拉伸和回弹的形变（可用弹簧模型），让观众觉得盒子是软的；变体：做一段“硬物变软”的短视频，并调查观众是否真的被骗。"
+ },
+ "ishikawa-watanabe-lab--variolight-2-gymnastics": {
+  "technique": "High-speed vision tracks the gymnastics ball and ribbon, and galvanometer mirrors steer a projector to keep light effects registered on the fast-moving apparatus throughout the routine.",
+  "exercise_zh": "用摄像头颜色追踪一个抛接的彩色球，在投影仪或屏幕上让光效和粒子跟随球的轨迹，配合一段音乐完成 30 秒表演；变体：光效由球的速度或高度驱动音乐变化。"
+ }
+}

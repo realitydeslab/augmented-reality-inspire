@@ -1,0 +1,514 @@
+{
+  "abhishek-singh--super-mario-ar": {
+    "technique": "A life-size level built in Unity is anchored to a world origin on HoloLens so inside-out SLAM tracking lets the player walk through it, with collisions between the head position and block colliders triggering hits.",
+    "exercise_zh": "用 AR Foundation 在地面上放一排 1:1 大小的问号方块，头（相机）碰到方块时弹出金币并计分；变体：把关卡换成你们校园里某条走廊的专属地图。"
+  },
+  "abhishek-singh--the-ring-ar": {
+    "technique": "A rigged character animation is aligned to a real TV (likely by manual placement or image tracking of the screen), with an occlusion mask on the TV frame so the figure appears to emerge from inside the screen.",
+    "exercise_zh": "用图像追踪识别笔记本屏幕上的一张图片，让一个角色从屏幕里“爬出”落到桌面上，屏幕边框用遮挡材质挡住未出来的部分；变体：换成从冰箱门或抽屉里钻出来的东西。"
+  },
+  "abhishek-singh--street-fighter-ii-ar": {
+    "technique": "Two phones share one AR coordinate space (likely via ARKit collaborative sessions or a shared anchor plus network sync) so both players see the same full-size fighters, whose inputs are replicated over the network.",
+    "exercise_zh": "用 Unity Netcode + AR Foundation 做两台手机共享同一锚点，各自控制一个方块角色互相推挤出圈；变体：用真实身体动作（手机晃动）代替按键出招。"
+  },
+  "abhishek-singh--ar-rube-goldberg": {
+    "technique": "Detected planes and hand-placed invisible colliders stand in for real objects, so Unity rigidbody physics lets virtual balls and dominoes react to real furniture.",
+    "exercise_zh": "在桌面平面上摆放虚拟多米诺骨牌和斜坡，并给一本真书手动放一个隐形碰撞体，让小球滚下后撞倒整排骨牌；变体：让连锁反应最后触发一个真实声音或手机震动。"
+  },
+  "abhishek-singh--wile-e-coyote-ar": {
+    "technique": "Characters follow scripted paths laid out on detected floor planes, with occlusion geometry roughly matched to real furniture so they can run behind it.",
+    "exercise_zh": "在地面平面上画一条路径，让两个卡通角色沿路径追逐，并在沙发位置放一块遮挡体让它们消失在后面；变体：让路径由学生用手机在房间里走一圈录下来。"
+  },
+  "abhishek-singh--tattoos-to-life": {
+    "technique": "Each tattoo is registered as an ARKit reference image, and when detected an animated overlay and audio clip are played on the tracked image anchor.",
+    "exercise_zh": "用 AR Foundation 图像追踪识别三张手绘贴纸，贴在手臂上时播放对应的动画和一段录音；变体：让每张贴纸讲述贴纸主人自己的一段故事。"
+  },
+  "abhishek-singh--musical-chairs-avengers": {
+    "technique": "Virtual characters are animated toward chair positions registered as anchors, with game logic comparing the player's camera position to those anchors when the music stops.",
+    "exercise_zh": "在房间里标记三把真椅子的位置，音乐停时让虚拟角色抢位，判断玩家（相机）是否先到达空椅；变体：把抢椅子改成抢一块真实的地毯或门口。"
+  },
+  "abhishek-singh--ar-universal-remote": {
+    "technique": "Anchors placed on real appliances are raycast-tested on tap, and each hit sends an HTTP/MQTT request to a Raspberry Pi that switches the corresponding relay.",
+    "exercise_zh": "在台灯位置放一个 AR 锚点，点中时通过 HTTP 请求让 ESP32 或智能插座开关灯；变体：改成盯着灯看两秒（屏幕中心射线）就开灯。"
+  },
+  "abhishek-singh--laser-cat-ar": {
+    "technique": "A raycast from the screen center onto the detected floor plane gives the laser dot position, and the cat's navigation logic steers toward that point.",
+    "exercise_zh": "从屏幕中心向地面平面射线得到一个红点，让一只虚拟小猫（或简单胶囊体）追着红点跑；变体：让宠物害怕手机靠近而逃跑。"
+  },
+  "abhishek-singh--ar-streets-nyc": {
+    "technique": "Objects are placed on detected ground planes in world-tracked space outdoors, relying on SLAM stability while real passers-by move through the camera view (likely with people occlusion).",
+    "exercise_zh": "在校园人行道上放一组巨型虚拟物体并开启人体遮挡，拍一段路人从旁经过的视频；变体：让物体只在有人经过时才出现。"
+  },
+  "laan-labs--drawing-in-3d": {
+    "technique": "The camera pose from world tracking is sampled each frame at a point slightly in front of the lens, and these points are extruded into a line or tube mesh that stays fixed in world space.",
+    "exercise_zh": "用 AR Foundation 在按住屏幕时把相机前方 20cm 的位置加入 LineRenderer，画出悬浮在空中的光线；变体：让线条颜色随移动速度或声音音量变化。"
+  },
+  "laan-labs--air-measure": {
+    "technique": "Two raycasts against detected planes or feature points give world-space hit positions, and the Euclidean distance between them is shown as a labeled line.",
+    "exercise_zh": "用平面射线点两次得到两点，画线并显示距离（厘米）；变体：把距离换算成“多少个香蕉长”或其他趣味单位。"
+  },
+  "laan-labs--ar-spray-paint": {
+    "technique": "Raycasts from the phone onto detected wall and floor planes stamp paint decals (or write into a surface texture) at the hit points, with spread and opacity based on distance.",
+    "exercise_zh": "用竖直平面检测识别墙面，按住屏幕时在射线命中点连续贴圆形贴花形成喷漆效果；变体：离墙越远喷得越散越淡。"
+  },
+  "laan-labs--point-cloud-walkthrough": {
+    "technique": "Every frame's ARKit raw feature points and camera pose are accumulated into a persistent point buffer, then rendered as a point cloud with the camera trajectory as a line.",
+    "exercise_zh": "用 AR Foundation 的 ARPointCloudManager 累积所有特征点并记录相机路径，走完一圈后把点云缩小放到桌上查看；变体：按采集时间给点着色，看出行走顺序。"
+  },
+  "laan-labs--iphone-levitation": {
+    "technique": "A virtual iPhone model is placed exactly over the real one, while the real object is hidden by a background patch (likely a captured texture of the table), so the copy appears to lift off.",
+    "exercise_zh": "拍下桌面空白处的照片作为贴图盖住一个真实小物件，再在同位置放它的 3D 模型让它缓缓升起；变体：让物体升起后在空中变形或碎裂。"
+  },
+  "laan-labs--hiding-stuff": {
+    "technique": "Camera frames of the surrounding surface are captured and projected onto proxy geometry covering the object (a diminished-reality inpainting trick), making it look like background.",
+    "exercise_zh": "先拍一张没有物体的桌面照片，再用这张照片投影到盖在物体上的平面，让物体“隐形”；变体：只隐藏一半，做成被刀切掉的效果。"
+  },
+  "laan-labs--avocado-toast": {
+    "technique": "An object detector (likely CoreML/Vision) finds the avocado in the 2D frame, and a raycast from its bounding-box center to the table plane places a 3D toast model at that spot.",
+    "exercise_zh": "用 MediaPipe Object Detection 或 Lens Studio 物体识别找到桌上的一个水果，在它的位置放一个替换模型；变体：让替换物是这个水果的“未来形态”（如烂掉或变成果汁）。"
+  },
+  "laan-labs--neural-brush": {
+    "technique": "A style-transfer network (CoreML) converts a photo into a painted texture, which is applied to a framed quad placed on a detected vertical plane.",
+    "exercise_zh": "用在线风格迁移工具生成一张画作，用竖直平面检测把它挂在墙上并加画框；变体：拍下墙本身，风格化后贴回原处，让墙变成画。"
+  },
+  "laan-labs--ar-parallel-parking": {
+    "technique": "The user marks the corners of the parking gap by raycasting to the ground plane, and the measured length is compared to a car-sized bounding box shown in place.",
+    "exercise_zh": "在地面上点两点测出一段空位长度，放入一个指定大小的虚拟盒子并用红绿颜色提示是否放得下；变体：用它判断家具能否放进宿舍某个角落。"
+  },
+  "laan-labs--arkit-1-5-planes": {
+    "technique": "ARKit 1.5 vertical plane detection and irregular plane-boundary polygons are rendered as semi-transparent meshes that update as the planes grow and merge.",
+    "exercise_zh": "用 AR Foundation 可视化水平和竖直平面，给不同朝向不同颜色并显示面积；变体：让平面面积变化时播放音调，让房间扫描变成一段音乐。"
+  },
+  "laan-labs--ar-soccer-foot": {
+    "technique": "A foot-segmentation network produces a mask each frame, and the foot's estimated position is used as a kinematic collider that transfers velocity to a physics ball.",
+    "exercise_zh": "用 MediaPipe Pose 追踪脚踝位置，在网页中用 three.js 生成一个虚拟球，脚靠近时把球踢飞；变体：做成颠球计数游戏。"
+  },
+  "laan-labs--arkit-home-robot": {
+    "technique": "The robot's iPhone runs ARKit with a Placenote persistent map for relocalization, so its pose is known in a shared map and remote commands are expressed as map-space targets.",
+    "exercise_zh": "把手机固定在遥控小车上运行 AR 追踪，把小车位置实时发送到另一台手机上显示；变体：在另一台手机上点地面让小车自动开过去。"
+  },
+  "laan-labs--ar-roaches": {
+    "technique": "6D.ai real-time meshing provides a room mesh used both as an occlusion material and as a navigation surface, so agents crawl over and hide behind real objects.",
+    "exercise_zh": "在 LiDAR 设备上用 ARMeshManager 生成房间网格并设置遮挡材质，让小虫沿网格随机爬动；变体：让小虫躲避手机的光（屏幕中心射线）。"
+  },
+  "laan-labs--ar-bocce": {
+    "technique": "Ball positions are detected (likely by color segmentation or tap-to-mark) and projected onto the ground plane, then distances to the jack are computed and ranked.",
+    "exercise_zh": "在地面上点击标记几个真实物体（如硬币）和一个目标点，显示离目标最近的是哪个；变体：做成在教室地面玩的弹瓶盖比赛裁判。"
+  },
+  "laan-labs--ar-hide": {
+    "technique": "The LiDAR scene mesh is used to cut out a real object's region, which is filled with background captured earlier or rendered with reduced alpha to make the object vanish or turn translucent.",
+    "exercise_zh": "用 LiDAR 网格选中一件家具，用事先拍好的背景贴图把它覆盖掉；变体：让物体按时间逐渐变透明，像在“褪色”。"
+  },
+  "laan-labs--metal-particles": {
+    "technique": "GPU particles sample positions and normals from the LiDAR scene mesh (or depth map) so they flow and collide along the real room surfaces.",
+    "exercise_zh": "用 Unity VFX Graph 从 AR 网格表面发射粒子，让粒子沿重力流过家具；变体：让粒子流动方向跟随手机移动方向。"
+  },
+  "laan-labs--ar-gaussian-splats": {
+    "technique": "Captured Gaussian-splat sequences are sorted and rasterized in a custom Metal renderer each frame and placed at an ARKit anchor, so volumetric people appear in the real room.",
+    "exercise_zh": "用 Luma 或 Polycam 拍一个人的高斯泼溅，用 three.js + WebXR（或 Unity 插件）放到地面上；变体：拍同一人不同姿势的多个泼溅，按顺序切换做成定格动画。"
+  },
+  "laan-labs--airdraw-vision-pro": {
+    "technique": "visionOS hand tracking gives fingertip joint positions each frame, and a pinch gesture starts appending those points to a stroke mesh in RealityKit.",
+    "exercise_zh": "用 MediaPipe Hands 在网页里追踪食指尖，捏合时在 three.js 场景中留下 3D 线条；变体：把笔刷换成方块体素，做一个空中积木。"
+  },
+  "matthew-hallberg--arkit-minecraft": {
+    "technique": "Raycasts onto detected planes and existing cube faces snap new blocks to a grid, and tapping a block removes it, reproducing Minecraft's voxel build logic in world space.",
+    "exercise_zh": "在地面平面上建立 10cm 网格，点击放置方块、长按删除方块，新方块可以堆叠在已有方块表面；变体：每种方块对应一个音符，搭出一段音乐。"
+  },
+  "matthew-hallberg--arkit-pokemon-go": {
+    "technique": "Mapbox converts creature GPS coordinates into positions relative to the device's GPS location and compass heading, which are then placed in the ARKit world frame.",
+    "exercise_zh": "用 AR + GPS 把一个虚拟生物放在校园某个经纬度上，走到附近才能看见并点击捕捉；变体：生物只在特定时间段或天气出现。"
+  },
+  "matthew-hallberg--portal-upside-down": {
+    "technique": "A stencil-buffer portal renders the alternate world only through the door frame, and the stencil test flips when the camera crosses the portal plane so the user is inside the other world.",
+    "exercise_zh": "用 AR Foundation 放一扇门，门内用 Stencil 渲染一个暗色雾气世界，穿过门后切换为全屏渲染；变体：把门内世界做成你家乡的街道。"
+  },
+  "matthew-hallberg--valve-portal-arkit": {
+    "technique": "Portals placed on detected vertical planes use render textures from paired virtual cameras whose pose mirrors the viewer's relative pose to the other portal.",
+    "exercise_zh": "在两面墙上各放一个传送门，每个门显示另一个门后方虚拟相机的 RenderTexture，让一个虚拟球从一个门进另一个门出；变体：门两侧的时间不同（一侧是白天一侧是夜晚）。"
+  },
+  "matthew-hallberg--memes-ar": {
+    "technique": "Speech-to-text (IBM Watson) extracts a phrase, an image search API returns a matching image, and the image is spawned as a textured quad on a detected ground plane.",
+    "exercise_zh": "用 Web Speech API 识别一句话，从本地图库中按关键词找图并在 WebXR 地面上生成一张图片卡片；变体：图片大小随说话音量变化。"
+  },
+  "matthew-hallberg--ar-web-browser": {
+    "technique": "Web pages are rendered to textures by an embedded browser plugin and mapped onto world-anchored quads in ARCore, with raycast input translated into page coordinates for clicks and resizing.",
+    "exercise_zh": "在 WebXR 场景里放三块悬浮面板，每块显示一张网页截图或 iframe 纹理，可拖动和缩放；变体：面板离你越远内容越简化（只剩标题）。"
+  },
+  "matthew-hallberg--iron-man-hud": {
+    "technique": "A phone-in-headset stereo view renders a HUD overlay, while Vuforia tracks a second physical phone as a target and voice commands are routed through Alexa skills.",
+    "exercise_zh": "用 HoloKit 双目模式做一个头部锁定的 HUD，显示时间和语音识别到的指令；变体：盯着桌上某个真实物体时 HUD 弹出它的“扫描信息”。"
+  },
+  "matthew-hallberg--real-life-doodles": {
+    "technique": "A photographed doodle is segmented from the white paper (thresholding or background removal) and applied as a cutout texture to a billboard or extruded mesh placed with plane detection.",
+    "exercise_zh": "用手机拍一张纸上涂鸦，去白底后作为贴图放到桌面上并让它轻轻弹跳；变体：给涂鸦加一个简单骨骼让它走路。"
+  },
+  "matthew-hallberg--ar-photoshop-plugin": {
+    "technique": "A Photoshop plugin exports each layer as an image over WebSockets, and the phone stacks them as quads offset in depth on the monitor (tracked by Vuforia), letting the user pull layers apart in space.",
+    "exercise_zh": "把一张分层海报的各图层导出为 PNG，在图像追踪的海报上按深度分层叠放，捏合手势拉开层间距；变体：让层间距随手机离海报的距离自动变化。"
+  },
+  "matthew-hallberg--specs-ar-blasters": {
+    "technique": "The phone's IMU orientation and button presses are sent over BLE to Spectacles, where they drive the aim direction of a raycast blaster in the glasses' world-tracked scene.",
+    "exercise_zh": "用 WebSocket 把手机陀螺仪方向实时传给另一台运行 WebXR 的设备，作为射击方向打飞虚拟目标；变体：把手机换成挥动的真实物品（如扫帚）绑上手机。"
+  },
+  "matthew-hallberg--pokemon-cards-ar": {
+    "technique": "Card artwork is recognized as image targets (or by a classifier) on Spectacles, and the matching 3D creature is spawned on the card's tracked pose on the table.",
+    "exercise_zh": "用 Lens Studio 或 AR Foundation 图像追踪识别三张自制卡牌，每张卡上出现对应的 3D 生物；变体：两张卡靠近时生物开始对战或互动。"
+  },
+  "jerome-etienne--ar-in-browser-2012": {
+    "technique": "WebRTC getUserMedia streams the webcam into a canvas, JSARToolKit detects square fiducial markers and estimates their pose, and three.js renders 3D content with that pose over the video.",
+    "exercise_zh": "用 AR.js（或 MindAR）在网页中识别打印的 Hiro 标记并显示一个旋转的 3D 模型；变体：让模型根据标记倾斜的角度改变颜色。"
+  },
+  "jerome-etienne--augmented-pong-3d": {
+    "technique": "Two fiducial markers are tracked from the webcam, and their screen positions are mapped to paddle positions in a three.js Pong game.",
+    "exercise_zh": "用 AR.js 追踪两张标记卡作为球拍，在它们之间用 three.js 做一个来回弹的球；变体：球速随两张卡的距离变化。"
+  },
+  "jerome-etienne--augmented-gesture-postit": {
+    "technique": "Color thresholding on the webcam image finds the centroids of brightly colored Post-its on the fingers, which serve as low-cost gesture input points.",
+    "exercise_zh": "在网页中用颜色阈值追踪手指上的彩色便利贴，用它们的位置旋转一个 three.js 物体；变体：两种颜色距离变小时判定为“捏合”。"
+  },
+  "jerome-etienne--punch-doom": {
+    "technique": "Frame differencing (motion detection) in regions of the webcam image registers punches at the monster's screen position, rendered in three.js over the video.",
+    "exercise_zh": "用 p5.js 做摄像头帧差检测，在画面某区域检测到大幅运动时让怪物被击飞；变体：怪物会躲闪，需要从不同方向出拳。"
+  },
+  "jerome-etienne--arjs-launch": {
+    "technique": "An Emscripten-compiled ARToolKit runs marker pose estimation in the browser and feeds the pose to a three.js camera, giving marker AR with no app install.",
+    "exercise_zh": "用 AR.js + A-Frame 写不超过 10 行 HTML 的标记 AR 网页，部署到 GitHub Pages 用手机打开；变体：设计自己的图案标记替换默认 Hiro。"
+  },
+  "jerome-etienne--ar-code": {
+    "technique": "A QR code encodes the URL of a web AR page and doubles as the tracking marker (or sits beside one), so scanning it launches AR content aligned to the same printed code.",
+    "exercise_zh": "生成一个包含 AR 网页地址的二维码并在旁边印上 AR.js 标记，扫码后内容直接出现在标记上；变体：把它做成课程作业的“会说话的名片”。"
+  },
+  "jerome-etienne--hole-in-the-wall": {
+    "technique": "An inverted box rendered behind the marker plane is surrounded by an invisible depth-only occluder mesh, so the virtual interior is only visible through the opening.",
+    "exercise_zh": "用 three.js 或 AR.js 在标记下方做一个开口向上的盒子，四周用只写深度的遮挡面挡住，形成桌面上的洞；变体：洞里放一个会往外看的小生物。"
+  },
+  "jerome-etienne--invisibility-cloak": {
+    "technique": "An occluder mesh over the marker writes depth only, and a background patch (a captured or procedural texture) is drawn in its place so the marker and objects appear to vanish.",
+    "exercise_zh": "在标记上方放一块显示预拍背景照片的平面，让标记上的小物件“隐形”；变体：隐形区域边缘加一圈波纹扭曲，像魔法斗篷。"
+  },
+  "jerome-etienne--liquid-marker": {
+    "technique": "The video texture around the marker is remapped in a fragment shader with time-varying sinusoidal UV offsets centered on the marker pose, producing a ripple distortion.",
+    "exercise_zh": "在 three.js 中用着色器对摄像头画面做以标记为圆心的正弦波纹扭曲；变体：用手指点击屏幕位置投下新的“水滴”。"
+  },
+  "jerome-etienne--refraction": {
+    "technique": "The live camera frame is used as an environment texture, and a refraction shader offsets its lookup by the surface normal so glass objects bend the real scene behind them.",
+    "exercise_zh": "在 three.js + WebXR 中把摄像头画面作为环境贴图，给一个玻璃球加折射材质放在桌上；变体：让玻璃物体的形状是你自己的名字 3D 字。"
+  },
+  "jerome-etienne--ar-swimming-pool": {
+    "technique": "A pool geometry sunk below the marker plane is framed by a depth-only occluder around the opening, creating the illusion of a cavity cut into the table.",
+    "exercise_zh": "在标记下方做一个小水池模型，用遮挡面让它看起来像桌子里挖出的洞，里面放会游动的鱼；变体：把水池换成一个地下蚁穴。"
+  },
+  "jerome-etienne--hologram-bird": {
+    "technique": "A marker on a business card triggers an animated bird rendered with an additive, scanline hologram shader and synced audio message.",
+    "exercise_zh": "用 AR.js 在自己的名片标记上显示一个带扫描线全息着色器的小角色，播放 10 秒自我介绍；变体：角色根据时间段说不同问候语。"
+  },
+  "jerome-etienne--measure-it": {
+    "technique": "Two tracked markers each give a pose in camera space, and the distance between their origins is drawn as a line with a live numeric label.",
+    "exercise_zh": "用两个标记测量桌上两物体的距离并实时显示数字；变体：距离达到某个值时播放提示音，做成“保持社交距离”游戏。"
+  },
+  "jerome-etienne--area-learning-multimarkers": {
+    "technique": "Relative poses between several markers are learned once, so any visible marker can recover the shared coordinate frame, keeping content anchored when others are occluded.",
+    "exercise_zh": "在桌上贴四张标记，先记录它们的相对位置，再让任意一张可见时都能显示同一个大模型；变体：用手挡住标记，比较单标记和多标记的稳定性。"
+  },
+  "jerome-etienne--augmenting-webpage": {
+    "technique": "A JavaScript snippet overlays a transparent WebGL canvas on the page and ties 3D content to DOM elements (or a marker), so models appear to pop out of ordinary HTML.",
+    "exercise_zh": "给自己的作品集网页加一个 three.js 透明画布，让某张图片滚动到视口时有 3D 物体从中弹出；变体：用 WebXR 让同一页面在手机上可以把物体放到桌面。"
+  },
+  "jerome-etienne--arjs-tango-markerless": {
+    "technique": "Tango's depth camera and motion tracking provide 6DoF pose and surface hits in the browser, letting A-Frame entities be placed on real surfaces without markers.",
+    "exercise_zh": "用 WebXR Hit Test API（Chrome Android）在地面放一个 A-Frame 物体，对比 AR.js 标记方式的差别；变体：每点一次地面就种下一棵会长大的树。"
+  },
+  "jerome-etienne--hatsune-miku-living-room": {
+    "technique": "An MMD character with dance animation is loaded in A-Frame and placed on the floor using Tango's markerless tracking, so it stays fixed while the viewer walks around.",
+    "exercise_zh": "用 WebXR 平面检测把一个 Mixamo 跳舞角色放到地面并播放音乐；变体：角色跳舞节奏跟随麦克风检测到的节拍。"
+  },
+  "jerome-etienne--two-way-portal": {
+    "technique": "A stencil-masked door shows a 360 panorama from outside, and when the camera crosses the door plane the rendering inverts so the panorama surrounds the viewer and the real room is seen through the door.",
+    "exercise_zh": "用 three.js + WebXR 放一扇门，门里显示一张 360 全景照片，走进门后全景包围你、门外看到真实房间；变体：用你自己拍的全景照片。"
+  },
+  "jerome-etienne--walking-in-vr-arjs": {
+    "technique": "AR positional tracking drives the VR camera, so physical walking translates 1:1 into movement through a fully virtual A-Frame scene.",
+    "exercise_zh": "用 WebXR 追踪手机位置，把画面替换成全虚拟场景，让学生在教室里走进一个巨大 logo；变体：虚拟场景的墙壁与真实教室墙对齐，防止撞墙。"
+  },
+  "jerome-etienne--webxr-studio-augmented-website": {
+    "technique": "A browser editor serializes a scene graph of 3D assets and anchor settings to a URL, and a WebXR/AR.js viewer loads that description on any phone.",
+    "exercise_zh": "用 A-Frame 做一个简单编辑页面，拖拽三个物体后生成分享链接，别人打开链接在 AR 中看到同样布局；变体：让访问者也能添加一个物体，场景越积越多。"
+  },
+  "takashi-yoshinaga--ar-tele-echography": {
+    "technique": "Fiducial markers on the probe and patient are tracked with OpenCV, and the remote doctor's target probe pose is streamed and rendered as an overlay guiding the local operator.",
+    "exercise_zh": "用两台手机，一人在远端屏幕上拖动虚拟箭头，另一人的 AR 画面中同步显示箭头指引他移动桌上的真实物体；变体：用于远程教别人叠一只纸鹤。"
+  },
+  "takashi-yoshinaga--holoportation-arcore": {
+    "technique": "Multiple calibrated Azure Kinect RGB-D streams are fused into a colored point cloud, streamed over the network, and rendered at life size at an ARCore anchor.",
+    "exercise_zh": "用 iPhone 的深度相机（Record3D 等）录一段人的 RGB-D 视频，转为点云在 AR 地面上以真人大小回放；变体：让点云随声音大小抖动或散开。"
+  },
+  "takashi-yoshinaga--hologram-via-youtube": {
+    "technique": "Depth and color are packed side by side into a regular video frame, streamed via YouTube Live, and a client shader decodes depth per pixel to rebuild a point cloud in AR.",
+    "exercise_zh": "把一段 RGB 和深度拼接成左右并排的视频，在 three.js 中用着色器把深度还原成点云并放到 WebXR 场景中；变体：尝试不同深度编码方式，比较压缩后的噪点。"
+  },
+  "takashi-yoshinaga--spatial-copy-paste": {
+    "technique": "A bounding box selects part of the HoloLens 2 spatial mesh, the cropped mesh with colors is sent over the network, and the ARCore client places it at a chosen anchor.",
+    "exercise_zh": "用 Polycam 扫描桌面一角导出模型，在另一台手机的 AR 中把它“粘贴”到另一张桌子上；变体：粘贴时把尺寸缩小十倍，做成微缩景观。"
+  },
+  "takashi-yoshinaga--lidar-room-scan-ar": {
+    "technique": "ARKit scene reconstruction produces a LiDAR mesh, vertex colors are sampled by projecting camera frames onto it, and the colored mesh is overlaid back on the room.",
+    "exercise_zh": "用 AR Foundation ARMeshManager 实时生成房间网格，用线框材质叠回真实空间；变体：按网格法线方向给墙、地、天花板上不同颜色。"
+  },
+  "takashi-yoshinaga--lidar-point-cloud-streaming": {
+    "technique": "Depth-map pixels are unprojected to world-space points using camera intrinsics and pose each frame, then compressed and streamed over the network for remote rendering.",
+    "exercise_zh": "从 iPhone 深度图中每 N 个像素取一个点反投影成点云，通过 WebSocket 发送到电脑上的 three.js 页面显示；变体：接收端把点渲染成不同风格（如方块或文字）。"
+  },
+  "takashi-yoshinaga--lidar-cartoon-stream": {
+    "technique": "The received point cloud is rendered with a non-photorealistic shader (edge detection from depth discontinuities plus flat color quantization) to look hand-drawn.",
+    "exercise_zh": "对一段点云或深度视频加色阶量化和描边着色器，做出卡通风格；变体：让风格随说话人的情绪（音量高低）切换。"
+  },
+  "takashi-yoshinaga--holobox": {
+    "technique": "The box display renders an off-axis perspective matched to the HoloLens user's head pose, and a shared coordinate frame lets objects hand over seamlessly between screen rendering and headset rendering.",
+    "exercise_zh": "用一台显示器做离轴透视窗口（用手机追踪头部位置），物体离开屏幕边缘时在 AR 手机中接着出现；变体：物体从屏幕“掉”到桌上会弹跳。"
+  },
+  "takashi-yoshinaga--holo-cat": {
+    "technique": "The viewer's head is tracked (likely by a webcam face tracker) and the 3D scene is rendered with an off-axis projection matched to the screen rectangle, creating motion parallax so the display acts as a window.",
+    "exercise_zh": "用 MediaPipe Face Mesh 追踪头部位置，在 three.js 中做离轴投影，让屏幕里的小盒子像真的有深度；变体：盒子里的角色会转头看向你。"
+  },
+  "takashi-yoshinaga--ar-shooter-nreal-ipad": {
+    "technique": "Both devices align to a shared reference (likely a common image marker or anchor) so their coordinate frames match, and target states and hits are synced over the network.",
+    "exercise_zh": "用一张打印图片作为共同原点，让 HoloKit 头显和手机两端看到同一组靶子并同步击中状态；变体：两人能力不对称，一人射击一人移动靶子。"
+  },
+  "takashi-yoshinaga--ar-lightsaber-mediapipe": {
+    "technique": "MediaPipe Hands returns 2D landmarks each frame, and a glowing line is drawn along the direction from the wrist through the knuckles in p5.js over the webcam feed.",
+    "exercise_zh": "用 MediaPipe Hands + p5.js 从手腕沿手指方向画一根发光光剑，挥动时留下拖影；变体：两只手的光剑相交时发出火花和声音。"
+  },
+  "takashi-yoshinaga--ar-effect-on-cat": {
+    "technique": "An animal detection or segmentation model tracks the cat's bounding box or mask in real time, and particle effects are emitted from its position in screen or world space.",
+    "exercise_zh": "用 MediaPipe Object Detection（或 YOLO）在网页中识别猫或宠物玩偶，在它周围生成跟随的粒子光环；变体：动物移动越快，特效越夸张。"
+  },
+  "takashi-yoshinaga--mr-door-quest3": {
+    "technique": "A virtual portal plane is aligned to the real door frame in passthrough, with a stencil or depth mask so the virtual world is visible only where the real door opening is.",
+    "exercise_zh": "用 AR Foundation 在一扇真实门框位置手动对齐一个 Stencil 门，门内渲染森林；变体：门后的世界根据当天日期或天气变化。"
+  },
+  "takashi-yoshinaga--copy-paste-room-mesh": {
+    "technique": "The Quest scene mesh is cropped with a user-placed bounding box, duplicated, and re-rendered with passthrough-sampled colors at a new position.",
+    "exercise_zh": "在 LiDAR 手机上用网格截取一块“椅子”区域并复制一份放到房间另一侧；变体：复制出的家具慢慢融化或长出植物。"
+  },
+  "takashi-yoshinaga--dejaviewer": {
+    "technique": "Passthrough color and depth frames are recorded, frame differencing isolates moving regions, and those regions are unprojected to point clouds that replay in place with fading transparency.",
+    "exercise_zh": "用手机深度相机录下一段人走过的画面，只保留运动部分转成点云，在原地以半透明“残影”循环回放；变体：残影越旧越碎。"
+  },
+  "takashi-yoshinaga--stickar": {
+    "technique": "OCR or speech recognition converts handwritten or spoken input to text, which is spawned as a 3D sticky-note panel anchored at the hand or gaze position.",
+    "exercise_zh": "用 Web Speech API 把说的话变成文字，生成一张 3D 便利贴贴在屏幕中心射线命中的墙面上；变体：便利贴颜色根据内容类型（待办/想法）自动区分。"
+  },
+  "kitasenju-design--jido-rhythm": {
+    "technique": "ARKit face tracking provides a face mesh whose vertices are displaced by audio-analysis values (beat and amplitude), so the face deforms in time with music.",
+    "exercise_zh": "用 Lens Studio 或 MediaPipe Face Mesh 做一个随音乐节拍拉伸脸部的滤镜；变体：用你自己的哼唱而不是背景音乐驱动变形。"
+  },
+  "kitasenju-design--ar-glitch": {
+    "technique": "A full-screen shader slices the camera image into blocks and offsets them with noise-driven displacement and RGB channel splitting, likely modulated by device motion.",
+    "exercise_zh": "在 Unity 或 three.js 里对摄像头画面写一个块状错位加 RGB 分离的故障着色器；变体：手机晃得越厉害故障越强。"
+  },
+  "kitasenju-design--particles-face": {
+    "technique": "Face-mesh vertices are sampled as spawn points for a compute-shader particle system, and curl noise advects the particles away so the face appears to dissolve.",
+    "exercise_zh": "用 MediaPipe Face Mesh 的顶点作为粒子发射点，在 three.js 中让粒子随噪声飘散；变体：张嘴时脸部整体消散，闭嘴时重新聚合。"
+  },
+  "kitasenju-design--arkit3-body-tracking": {
+    "technique": "ARKit 3 body tracking provides a 3D skeleton, and generative meshes and trails are attached to joint transforms so they follow the dancer.",
+    "exercise_zh": "用 MediaPipe Pose 追踪全身关节，在手腕和脚踝上挂彩色拖尾；变体：不同关节触发不同乐器的声音。"
+  },
+  "kitasenju-design--human-segmentation-pixelation": {
+    "technique": "ARKit 3 person segmentation outputs a human stencil mask, and a shader pixelates only the masked region of the camera image.",
+    "exercise_zh": "用 MediaPipe Selfie Segmentation 抠出人物，只对人物区域做马赛克像素化；变体：像素块大小随人离镜头的距离变化。"
+  },
+  "kitasenju-design--meisai": {
+    "technique": "Person segmentation and depth masks drive full-screen shaders that re-texture people and space with generative camouflage patterns in real time.",
+    "exercise_zh": "用人体分割把人物区域替换成周围背景的采样纹理，做一个“迷彩隐身”滤镜；变体：只在人静止不动时隐身，一动就显形。"
+  },
+  "kitasenju-design--ar-drawing": {
+    "technique": "Camera positions sampled while touching are converted into ribbon or tube meshes with stylized shading, anchored in world space.",
+    "exercise_zh": "用 AR Foundation 记录手机移动轨迹生成带状网格，并加卡通描边着色；变体：画完的线会慢慢被“风”吹动。"
+  },
+  "kitasenju-design--fast-plane-classification": {
+    "technique": "ARKit scene reconstruction on LiDAR provides per-face semantic classification (floor, wall, ceiling, table, seat), which is visualized by coloring mesh faces by class.",
+    "exercise_zh": "用 AR Foundation ARMeshManager 读取网格分类，给地板、墙、桌子不同颜色；变体：只在“座椅”类表面上放一只会坐下的角色。"
+  },
+  "kitasenju-design--100-dollar-wallpaper": {
+    "technique": "Wall-classified LiDAR mesh faces receive a triplanar or world-space UV texture, with people occlusion so the wallpaper sits behind people in the room.",
+    "exercise_zh": "用竖直平面检测识别墙面并贴上重复图案的壁纸，开启人体遮挡；变体：壁纸图案随时间慢慢流动或变色。"
+  },
+  "kitasenju-design--physics-lidar": {
+    "technique": "The LiDAR scene mesh is used as a MeshCollider, so rigidbodies spawned in Unity bounce off and pile up on real furniture.",
+    "exercise_zh": "给 AR 网格加 MeshCollider，点击屏幕从相机位置抛出小球，让它们落在真实沙发上；变体：只有打到某件家具才得分。"
+  },
+  "kitasenju-design--unity-chan-occlusion": {
+    "technique": "ARKit people occlusion and LiDAR environment depth are used in AR Foundation's AROcclusionManager, so the depth test hides the character behind real people and furniture.",
+    "exercise_zh": "在 AR Foundation 中开启 AROcclusionManager，让一个跳舞角色在人和椅子后面被正确遮挡；变体：角色被挡住时会探头出来“偷看”。"
+  },
+  "kitasenju-design--virtual-flowers": {
+    "technique": "Points are sampled on the scanned mesh surface with their normals, and procedural flower instances grow along those normals with animated scale.",
+    "exercise_zh": "在 AR 网格或平面上随机采样点，沿法线生成逐渐长大的花；变体：花只长在手机镜头对准超过三秒的地方。"
+  },
+  "kitasenju-design--realtime-boxelization": {
+    "technique": "The depth map is unprojected to world points each frame and quantized into a voxel grid, which is rendered as GPU-instanced cubes.",
+    "exercise_zh": "把 iPhone 深度图反投影成点并按 5cm 网格取整，用 GPU 实例化渲染成方块；变体：方块大小随音乐音量变化。"
+  },
+  "kitasenju-design--minecraft-filter": {
+    "technique": "Scene depth or mesh is voxelized and each voxel is textured by sampling the camera color at its projected position, giving a blocky Minecraft-like rendering.",
+    "exercise_zh": "把房间网格体素化，每个方块用摄像头画面对应颜色上色，做出方块风格的房间；变体：只让手机前方一个球形范围内变成方块。"
+  },
+  "kitasenju-design--drawing-in-the-air": {
+    "technique": "Strokes are recorded as world-space points from the camera pose and converted into ribbon meshes that persist at their anchors (likely with physics-based settling).",
+    "exercise_zh": "用 AR Foundation 画出空中丝带，松手后让丝带受重力轻轻飘落到地面平面上；变体：丝带落地后变成花或文字。"
+  },
+  "kitasenju-design--super-slit-scan": {
+    "technique": "Recent camera frames are stored in a 3D texture (ring buffer), and a shader samples each pixel row or column from a different time slice to produce slit-scan distortion.",
+    "exercise_zh": "在 p5.js 或 three.js 中保存最近 120 帧摄像头画面，每一行像素取不同帧的内容做出时间扫描效果；变体：把时间偏移改为按离画面中心的距离分布。"
+  },
+  "kitasenju-design--kohkoku-reality-illusion": {
+    "technique": "Printed magazine pages are registered as tracking images, and animations or 3D elements are rendered on the tracked page pose.",
+    "exercise_zh": "用 8th Wall 或 MindAR 识别一张自己设计的海报，让画面元素从纸上浮起来动起来；变体：海报被翻转时显示隐藏的另一层内容。"
+  },
+  "lucas-rizzotto--mylab-holographic-chemistry": {
+    "technique": "Atoms and molecules are 3D models in world space on HoloLens, manipulated with gaze-and-air-tap or hand gestures, and bonding rules are computed in the app logic.",
+    "exercise_zh": "用 AR Foundation 在桌上放几个原子小球，拖动靠近时按规则自动成键形成水分子；变体：换成你本专业的其他“拼装单元”，如音符或电路元件。"
+  },
+  "lucas-rizzotto--cybersnake": {
+    "technique": "The player's head position in world space is the snake's head, and a trail of body segments is stored as a path of past head positions, with collisions checked against the camera.",
+    "exercise_zh": "用手机相机位置作为蛇头，记录走过的路径生成蛇身，碰到地面上的虚拟汉堡就变长，碰到自己的身体就输；变体：两人各当一条蛇在同一空间对战。"
+  },
+  "lucas-rizzotto--1000-michael-scotts": {
+    "technique": "A large number of animated character instances (GPU instancing or LOD) are scattered on detected planes with randomized timing, and spatialized audio fills the room.",
+    "exercise_zh": "在地面平面上批量生成 100 个同一角色，随机播放动作和空间音效；变体：角色都会转头盯着手机。"
+  },
+  "lucas-rizzotto--audio-reactive-holograms": {
+    "technique": "Painted stroke meshes have shader parameters (scale, emission, displacement) driven by real-time FFT bands of the playing music.",
+    "exercise_zh": "用空中画线生成 3D 笔画，再用音乐的 FFT 频段控制笔画粗细和亮度；变体：每条笔画绑定不同频段，低音粗高音亮。"
+  },
+  "lucas-rizzotto--portal-to-best-friend": {
+    "technique": "A remote person's video or volumetric capture is shown inside a portal anchored to a wall, likely with stencil masking and live streaming to create a shared window between two homes.",
+    "exercise_zh": "在墙上放一个门框，门内实时显示朋友的视频通话画面（WebRTC）；变体：两边都能往门里“扔”一个虚拟物体给对方。"
+  },
+  "lucas-rizzotto--marauders-map": {
+    "technique": "The parchment is tracked as an image target, and each participant's GPS coordinates are converted into map-space positions on it, where footprint animations and name labels are drawn.",
+    "exercise_zh": "用图像追踪识别一张校园手绘地图，把几位同学的 GPS 位置实时显示为走动的脚印；变体：地图上只显示“正在移动”的人。"
+  },
+  "lucas-rizzotto--girlfriend-musical-instrument": {
+    "technique": "Body tracking gives joint positions, and when limbs enter defined trigger zones or exceed a speed threshold, notes are played and visual effects spawn.",
+    "exercise_zh": "用 MediaPipe Pose 在画面中划出几个区域，手或脚进入不同区域时弹奏不同音符；变体：两个人合奏，各自控制旋律和鼓点。"
+  },
+  "lucas-rizzotto--music-with-clothes": {
+    "technique": "Body or surface tracking locates regions of the outfit, and hand-to-region proximity triggers instrument samples and AR visuals (likely via body segmentation plus hand tracking).",
+    "exercise_zh": "用 MediaPipe Pose 把胸口、肩膀、膝盖设为“按键”，手碰到时播放对应乐器音色；变体：按键位置随衣服上贴的彩色贴纸决定。"
+  },
+  "lucas-rizzotto--pillow-mr": {
+    "technique": "The ceiling is identified from room setup or plane classification, and UI and game content are placed on it so they face a user lying down, with input adapted to a supine posture.",
+    "exercise_zh": "用 AR Foundation 检测天花板（朝下的平面），在上面显示一个躺着玩的冥想呼吸动画；变体：用手机麦克风检测呼吸节奏控制动画。"
+  },
+  "lucas-rizzotto--ceiling-planetarium": {
+    "technique": "The ceiling plane from the Quest room model is masked out of passthrough and replaced with a rendered sky dome, so stars appear through the ceiling while the walls stay real.",
+    "exercise_zh": "检测天花板平面后用遮罩把它替换成星空球面，通过手机仰头观看；变体：用手机指南针让星座方位与真实方向一致。"
+  },
+  "andrew-hart--arkit-corelocation": {
+    "technique": "GPS coordinates of landmarks are converted to bearings and distances from the device's location and heading, then placed as labels in ARKit's gravity-and-heading aligned world frame.",
+    "exercise_zh": "用 AR + GPS 在校园几栋楼的经纬度上放悬浮文字标签，走动时标签固定在建筑方向；变体：标签显示这栋楼里你的一段个人记忆。"
+  },
+  "andrew-hart--arkit-corelocation-navigation": {
+    "technique": "Route waypoints from a directions API are converted from GPS to local AR coordinates and drawn as arrows and lines on the ground plane, re-aligned as location updates arrive.",
+    "exercise_zh": "从地图 API 获取一条步行路线的几个点，用 AR 在地面上画出箭头引导到下一个路口；变体：路线不是最短路，而是经过校园里最安静的地方。"
+  },
+  "andrew-hart--dent-reality-indoor": {
+    "technique": "Indoor positioning likely relies on a pre-built visual map or image anchors for relocalization, with a pathfinding graph producing routes drawn as anchored AR overlays.",
+    "exercise_zh": "在教学楼走廊贴几张图像标记作为定位点，扫描后显示去某个教室的箭头；变体：导航到的目标是一件藏起来的“宝物”。"
+  },
+  "nathan-gitter--rainbrow": {
+    "technique": "ARKit face tracking on the TrueDepth camera exposes the browInnerUp/browDown blend-shape coefficients, which are mapped directly to the character's vertical position.",
+    "exercise_zh": "用 ARKit 面部 blendshape（或 MediaPipe Face Landmarker）读取眉毛高度，控制一个小鸟上下飞过障碍；变体：改用张嘴程度或挑一边眉毛控制。"
+  },
+  "nathan-gitter--living-newspaper": {
+    "technique": "Newspaper photos are ARKit 2 reference images, and a video plane is placed exactly over each detected image so the printed picture appears to play.",
+    "exercise_zh": "用图像追踪识别报纸上的一张照片，在其上覆盖同尺寸视频让照片动起来；变体：视频内容是你们自己拍的“新闻后续”。"
+  },
+  "nathan-gitter--exploring-paintings": {
+    "technique": "The painting is tracked as a reference image, and tappable hotspots are placed at known 2D coordinates on the image plane, opening info panels when hit.",
+    "exercise_zh": "识别一幅名画的打印件，在画中几个人物上放可点击热点，点开显示介绍；变体：点击人物时让他开口说一句台词。"
+  },
+  "nathan-gitter--time-travel-graffiti": {
+    "technique": "Wall sections are tracked with image recognition (likely against earlier photos), and archived photos of past graffiti are overlaid at the detected image pose.",
+    "exercise_zh": "拍下校园某面墙今天的样子作为识别图，以后扫描时把旧照片叠回去，用滑块在不同日期间切换；变体：让同学在墙上留下只能在 AR 中看到的涂鸦。"
+  },
+  "matt-moss--eye-control-iphone": {
+    "technique": "ARKit 2 face tracking provides a lookAtPoint and per-eye transforms, which are intersected with the screen plane to get a gaze cursor, and eyeBlink blend shapes act as clicks.",
+    "exercise_zh": "用 ARKit 面部追踪的 lookAtPoint（或 WebGazer.js）在屏幕上显示凝视光标，眨眼触发按钮；变体：做一个只能用眼睛玩的简单游戏。"
+  },
+  "matt-moss--hawkeye-access": {
+    "technique": "Calibrated gaze estimation from ARKit face tracking is smoothed and mapped to web page link targets, with dwell or blink detection triggering navigation.",
+    "exercise_zh": "用 WebGazer.js 做一个网页，盯着某个链接 1.5 秒自动打开；变体：为一位特定用户（如手部受伤的人）设计凝视界面。"
+  },
+  "brad-dwyer--magic-sudoku": {
+    "technique": "Vision detects the Sudoku grid rectangle, a CoreML digit classifier reads the cells, a solver fills in the answers, and the digits are rendered on the paper's plane via ARKit.",
+    "exercise_zh": "用 OCR（Tesseract.js）识别纸上的一道算术题，在答案位置用 AR 显示结果；变体：不直接给答案，而是给出一步提示。"
+  },
+  "brad-dwyer--arkit2-eye-transforms": {
+    "technique": "ARKit 2 leftEyeTransform and rightEyeTransform are read each frame and rays are cast from each eye along its forward axis to visualize gaze direction.",
+    "exercise_zh": "用 ARKit 面部追踪从双眼位置发出两条射线显示你在看哪里；变体：用鼻尖朝向代替眼睛做控制，比较两者精度。"
+  },
+  "morten-just--kitchen-timers": {
+    "technique": "Timers are placed as world anchors above detected pots, and renderer features (light estimation, motion blur, depth of field) make the overlay match the camera image.",
+    "exercise_zh": "点击锅的位置放一个悬浮倒计时，到时间变红并响铃；变体：多个计时器同时运行，按剩余时间自动排序高亮。"
+  },
+  "morten-just--counting-money": {
+    "technique": "Each banknote design is a reference image, so detected notes get an anchor with a label showing its value converted with an exchange rate.",
+    "exercise_zh": "用图像追踪识别几种钞票（或自制代币卡），在每张上显示换算后的金额并计算总和；变体：把金额换算成能买几杯奶茶。"
+  },
+  "morten-just--instructions-in-ar": {
+    "technique": "A photo of the device's panel is used as a reference image, and handwritten instruction images are attached as overlays at fixed offsets on the tracked image.",
+    "exercise_zh": "拍下打印机或咖啡机的面板作为识别图，在对应按钮旁贴上手写步骤说明；变体：步骤按顺序逐个出现，完成一步点一下再显示下一步。"
+  },
+  "morten-just--ar-web-pages-on-books": {
+    "technique": "The book cover is tracked as a reference image, and web content (reviews, details) is rendered as panels around the cover's tracked pose.",
+    "exercise_zh": "识别一本书的封面，在旁边显示评分和一句评论卡片；变体：显示的是你的同学给这本书写的一句话。"
+  },
+  "morten-just--stenciling-ar": {
+    "technique": "A semi-transparent reference image is anchored to the paper's plane (via plane detection or image tracking), so it stays registered while the user traces it by hand.",
+    "exercise_zh": "用平面检测把一张半透明线稿固定在桌面白纸上，照着描画；变体：线稿分步显示，先轮廓后细节。"
+  },
+  "morten-just--design-camera-ar": {
+    "technique": "A photoreal phone model with the app design as a screen texture is placed on a detected plane, using light estimation and contact shadows for realistic mockup shots.",
+    "exercise_zh": "用 Reality Composer 或 AR Foundation 把一个带自己设计截图的手机模型放到桌面并加阴影拍照；变体：可以把它放大到楼房那么大再拍一张。"
+  },
+  "mark-dawson--van-gogh-bedroom": {
+    "technique": "A 1:1 3D reconstruction of the painted room is placed on the detected floor plane, so the viewer walks through it using world tracking.",
+    "exercise_zh": "用 Blender 按一幅画搭一个简单 3D 房间，在 AR 中以真实尺寸放在教室里走进去；变体：选一幅不可能存在的超现实画作。"
+  },
+  "mark-dawson--light-estimation": {
+    "technique": "ARKit light estimation returns ambient intensity and color temperature each frame, which are applied to the scene's lights so virtual objects match the room lighting.",
+    "exercise_zh": "在 AR Foundation 中开启光照估计，把估计值赋给场景灯光，开关房间灯观察虚拟物体明暗变化；变体：房间越暗，虚拟物体自己越亮，像夜灯。"
+  },
+  "mark-dawson--lidar-scene-reconstruction": {
+    "technique": "ARKit scene reconstruction mesh anchors are rendered in Metal with a normal-based shading and a world-space grid shader, updating as the mesh grows.",
+    "exercise_zh": "用 AR Foundation 网格管理器显示扫描出的房间网格，并用世界坐标网格线着色器渲染；变体：网格线按扫描先后时间渐变颜色。"
+  },
+  "mark-dawson--lidar-matrix": {
+    "technique": "The LiDAR mesh is shaded with a world-space projected shader that scrolls glyph textures downward over time, producing Matrix-style digital rain on every surface.",
+    "exercise_zh": "给 AR 网格写一个按世界坐标 Y 轴向下滚动字符贴图的着色器；变体：把字符换成你名字的字母或诗句。"
+  },
+  "glen-rhodes--building-a-city": {
+    "technique": "Building prefabs chosen from a UI menu are placed with raycasts onto a detected surface, with grid snapping for a tidy miniature city layout.",
+    "exercise_zh": "在桌面平面上做一个网格，从菜单选楼房、树、路放上去拼成小城；变体：放下的建筑会自动“生活”，比如路上出现小车。"
+  },
+  "glen-rhodes--armada-arrives": {
+    "technique": "Very large models are placed far from the camera in world space with correct scale, atmospheric fog and shadows, so world tracking conveys their size above the house.",
+    "exercise_zh": "在户外放一个几百米大小的飞船悬在空中，加雾和阴影让它看起来够远够大；变体：飞船投下的阴影会随时间在地面上移动。"
+  },
+  "glen-rhodes--titanic-ar": {
+    "technique": "A full-scale ship model is placed at a distance on the water with a horizon-aligned anchor, and animated motion makes it sail away while tracking holds the world frame.",
+    "exercise_zh": "在操场或湖边放一艘真实尺寸的大船并让它缓慢驶远；变体：船只在你背对它时移动，转身才发现位置变了。"
+  },
+  "glen-rhodes--real-world-occlusion": {
+    "technique": "Invisible occluder meshes that write only to the depth buffer are placed on detected wall planes at runtime, so real architecture hides virtual objects behind it.",
+    "exercise_zh": "在竖直平面上放只写深度不写颜色的遮挡材质，让一个虚拟角色走到墙后消失；变体：墙上开一个小窗，只能透过窗看到角色。"
+  },
+  "isaac-cohen--arqua": {
+    "technique": "Objects are spawned at or along the phone's camera pose as the user moves, so body movement becomes the placement controller, with flocking behaviors for fish schools.",
+    "exercise_zh": "在房间里按住屏幕走动时，沿路径放下水草和鱼群，鱼群用简单 Boids 算法游动；变体：鱼群会被手机靠近吓散。"
+  }
+}

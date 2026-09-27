@@ -1,0 +1,3418 @@
+{
+  "batch": "artists",
+  "creators": [
+    {
+      "id": "keiichi-matsuda",
+      "name": "Keiichi Matsuda",
+      "role": "Designer and filmmaker; founder of Liquid City",
+      "based": "London, UK",
+      "bio": "Architect-trained designer and filmmaker whose speculative AR films (Augmented City, HYPER-REALITY, Merger) became the reference images of what an overlaid city could feel like. He later led design at Leap Motion and founded the XR/AI studio Liquid City.",
+      "why": "HYPER-REALITY is arguably the most-cited piece of critical AR design fiction ever made.",
+      "links": {
+        "site": "https://km.cx",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@chocobaby2000",
+        "github": ""
+      },
+      "connected_to": [
+        "julian-oliver",
+        "james-alliban"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "julian-oliver",
+      "name": "Julian Oliver",
+      "role": "Critical engineer and artist",
+      "based": "Berlin, DE",
+      "bio": "New Zealand-born artist and co-author of the Critical Engineering Manifesto, working with networks, surveillance and 'improved reality'. His early AR works used hacked binoculars and marker-tracked cubes to question who owns the view.",
+      "why": "The Artvertiser (2008) is one of the first artworks to use AR to take back public visual space from advertising.",
+      "links": {
+        "site": "https://julianoliver.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/JulianOliver"
+      },
+      "connected_to": [
+        "keiichi-matsuda",
+        "mark-skwarek"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "nobumichi-asai",
+      "name": "Nobumichi Asai",
+      "role": "Technical and creative director (WOW / Asai studio)",
+      "based": "Tokyo, JP",
+      "bio": "Japanese visual artist who pioneered real-time face-tracking projection mapping, painting moving digital makeup onto performers' faces with near-zero latency.",
+      "why": "OMOTE and INORI turned the human face into a live, tracked AR canvas years before phone face filters.",
+      "links": {
+        "site": "https://www.nobumichiasai.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@nobumichiasai9823",
+        "github": ""
+      },
+      "connected_to": [
+        "daito-manabe"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "bot-and-dolly",
+      "name": "Bot & Dolly",
+      "role": "Robotics and film studio (acquired by Google, 2013)",
+      "based": "San Francisco, US",
+      "bio": "Studio that repurposed industrial robot arms for film motion control. With director Bradley 'GMUNK' Munkowitz they made Box, a live performance of projection mapping onto robot-moved surfaces shot in-camera.",
+      "why": "Box showed projection mapping synchronised with robots and camera as a new 'in-camera' mixed-reality language.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "daito-manabe",
+      "name": "Daito Manabe / Rhizomatiks",
+      "role": "Artist, programmer and DJ; co-founder of Rhizomatiks",
+      "based": "Tokyo, JP",
+      "bio": "Daito Manabe and Rhizomatiks (with Motoi Ishibashi and choreographer MIKIKO / ELEVENPLAY) build live shows that mix drones, projection, motion capture and AR broadcast, including Perfume's stage shows and the Rio 2016 Tokyo handover.",
+      "why": "They made AR a live-performance medium, from mixed-reality wheelchair dance (border) to AR sports broadcasts (Fencing Visualized).",
+      "links": {
+        "site": "https://rhizomatiks.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@daito",
+        "github": ""
+      },
+      "connected_to": [
+        "nobumichi-asai"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "universal-everything",
+      "name": "Universal Everything (Matt Pyke)",
+      "role": "Digital art and design studio founded by Matt Pyke",
+      "based": "Sheffield, UK",
+      "bio": "Matt Pyke's studio makes digital lifeforms, crowds and walking figures for galleries, brands and architecture, increasingly as camera-driven mirrors and AR apps that let audiences see themselves transformed.",
+      "why": "Future You and Chameleon turned motion-capture mirrors into poetic, public-facing mixed-reality portraits of the viewer.",
+      "links": {
+        "site": "https://www.universaleverything.com",
+        "x": "",
+        "instagram": "https://instagram.com/universaleverything",
+        "vimeo": "https://vimeo.com/universaleverything",
+        "youtube": "https://www.youtube.com/@universaleverythingstudio",
+        "github": ""
+      },
+      "connected_to": [
+        "moment-factory",
+        "teamlab"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "acute-art",
+      "name": "Acute Art",
+      "role": "AR/VR art production platform (director Daniel Birnbaum)",
+      "based": "London, UK",
+      "bio": "Production studio and app that commissions blue-chip artists (Olafur Eliasson, KAWS, Marina Abramović, Precious Okoyomon and others) to make AR sculptures placeable anywhere through a phone.",
+      "why": "Acute Art brought AR into the contemporary-art canon at museum and global public-space scale.",
+      "links": {
+        "site": "https://acuteart.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@AcuteArtVR",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "tamiko-thiel",
+      "name": "Tamiko Thiel",
+      "role": "Media artist; co-founder of Manifest.AR",
+      "based": "Munich, DE",
+      "bio": "Pioneering VR/AR artist (and designer of the Connection Machine CM-1/CM-2) who uses geolocated AR to insert political and ecological 'what-ifs' into specific sites, from the Venice Biennale to the Whitney.",
+      "why": "A founding figure of AR public art whose site-specific interventions span 15 years.",
+      "links": {
+        "site": "https://tamikothiel.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@tamikothiel",
+        "github": ""
+      },
+      "connected_to": [
+        "john-craig-freeman",
+        "mark-skwarek",
+        "sander-veenhof"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "john-craig-freeman",
+      "name": "John Craig Freeman",
+      "role": "Artist; professor at Emerson College; Manifest.AR founding member",
+      "based": "Boston, US",
+      "bio": "Public artist who uses geolocated AR to build memorials and stories in real landscapes, most famously marking migrant deaths along the US-Mexico border.",
+      "why": "Border Memorial showed AR as a tool for memorialising the invisible at the exact place it happened.",
+      "links": {
+        "site": "https://johncraigfreeman.wordpress.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@JohnCraigFreeman",
+        "github": ""
+      },
+      "connected_to": [
+        "tamiko-thiel",
+        "mark-skwarek"
+      ],
+      "discovered_via": "tamiko-thiel"
+    },
+    {
+      "id": "mark-skwarek",
+      "name": "Mark Skwarek",
+      "role": "Artist; NYU Mobile AR Lab director; Manifest.AR co-founder",
+      "based": "New York, US",
+      "bio": "AR activist-artist behind unauthorised AR interventions such as 'The Leak in Your Hometown', which turned every BP logo into a gushing oil pipe during the 2010 spill.",
+      "why": "He made marker-based AR a medium of protest and culture jamming.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@markskwarek0",
+        "github": ""
+      },
+      "connected_to": [
+        "sander-veenhof",
+        "tamiko-thiel",
+        "john-craig-freeman"
+      ],
+      "discovered_via": "tamiko-thiel"
+    },
+    {
+      "id": "sander-veenhof",
+      "name": "Sander Veenhof",
+      "role": "AR artist; co-organiser of 'We AR in MoMA'",
+      "based": "Amsterdam, NL",
+      "bio": "Dutch artist who has staged uninvited AR interventions since 2010 (MoMA, Venice Biennale) and now prototypes playful social experiments for AR glasses.",
+      "why": "His guerrilla 'We AR in MoMA' show launched AR as a medium for occupying institutions without permission.",
+      "links": {
+        "site": "https://sndrv.nl",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@sndrv",
+        "github": ""
+      },
+      "connected_to": [
+        "mark-skwarek",
+        "tamiko-thiel"
+      ],
+      "discovered_via": "tamiko-thiel"
+    },
+    {
+      "id": "nancy-baker-cahill",
+      "name": "Nancy Baker Cahill",
+      "role": "Artist; founder of the 4th Wall AR app",
+      "based": "Los Angeles, US",
+      "bio": "Artist who builds monumental drawn AR sculptures and sited public artworks (Desert X, Liberty Bell) through her free 4th Wall app.",
+      "why": "She uses AR to make large-scale, politically charged public art that needs no permit or plinth.",
+      "links": {
+        "site": "https://nancybakercahill.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@nancybakercahillstudio",
+        "github": ""
+      },
+      "connected_to": [
+        "tamiko-thiel"
+      ],
+      "discovered_via": "tamiko-thiel"
+    },
+    {
+      "id": "jeremy-bailey",
+      "name": "Jeremy Bailey",
+      "role": "Artist, 'Famous New Media Artist'",
+      "based": "Toronto, CA",
+      "bio": "Canadian performance artist who has used webcam tracking and AR since the mid-2000s to satirise the art world and tech industry with deadpan software demos.",
+      "why": "His AR performances made camera-based AR a comic, self-aware art form before the ARKit wave.",
+      "links": {
+        "site": "https://www.jeremybailey.net",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@JeremyBailey",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "theo-triantafyllidis",
+      "name": "Theo Triantafyllidis",
+      "role": "Artist working with games, simulation and mixed reality",
+      "based": "Los Angeles, US",
+      "bio": "Greek-born artist whose live simulations and mixed-reality performances (Anti-Gone, All My Confusing Pets) blur performer, avatar and game engine.",
+      "why": "He treats mixed reality as a stage for absurd, feral performance rather than utility.",
+      "links": {
+        "site": "https://theotriantafyllidis.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@theotrian",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "sutu",
+      "name": "Sutu (Stuart Campbell)",
+      "role": "Artist, comic creator and XR director",
+      "based": "Melbourne, AU",
+      "bio": "Australian comic artist and XR director whose Modern Polaxis was one of the first AR comic books, later known for Tilt Brush work and XR art at festivals and museums.",
+      "why": "Modern Polaxis made printed comics come alive through the phone camera in 2014.",
+      "links": {
+        "site": "https://sutueatsflies.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@thenawlz",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "james-alliban",
+      "name": "James Alliban",
+      "role": "Media artist and AR developer",
+      "based": "London, UK",
+      "bio": "One of the first artists to make webcam AR widely shared online (2009's AR business card), later building Kinect installations and co-creating CELL with Keiichi Matsuda.",
+      "why": "His Flash-era AR experiments showed millions what marker-based AR could feel like before smartphones.",
+      "links": {
+        "site": "https://jamesalliban.wordpress.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "keiichi-matsuda"
+      ],
+      "discovered_via": "keiichi-matsuda"
+    },
+    {
+      "id": "nexus-studios",
+      "name": "Nexus Studios",
+      "role": "Film, animation and interactive studio",
+      "based": "London, UK",
+      "bio": "Oscar-nominated animation studio whose interactive arm made some of the best-known narrative AR apps for Google, the BBC and The New Yorker.",
+      "why": "They brought character animation craft to phone AR, from HotStepper wayfinding to BBC Civilisations AR.",
+      "links": {
+        "site": "https://nexusstudios.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "pablo-valbuena",
+      "name": "Pablo Valbuena",
+      "role": "Artist working with light, space and time",
+      "based": "Madrid, ES",
+      "bio": "Spanish artist whose 2007 'Augmented Sculpture' at Ars Electronica fused projected light with physical geometry, a founding work of art projection mapping.",
+      "why": "He named and defined 'augmented' sculpture and space with projection before the term was mainstream.",
+      "links": {
+        "site": "http://www.pablovalbuena.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "joanie-lemercier"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "joanie-lemercier",
+      "name": "Joanie Lemercier (AntiVJ)",
+      "role": "Visual artist; co-founder of the AntiVJ label",
+      "based": "Brussels, BE",
+      "bio": "French artist who co-founded AntiVJ and pioneered projection mapping on architecture and on drawn landscapes, later turning to environmental activism.",
+      "why": "His projections on line drawings (Eyjafjallajökull, FUJI) made light itself look like matter.",
+      "links": {
+        "site": "https://joanielemercier.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "pablo-valbuena"
+      ],
+      "discovered_via": "pablo-valbuena"
+    },
+    {
+      "id": "teamlab",
+      "name": "teamLab",
+      "role": "Art collective (founded by Toshiyuki Inoko)",
+      "based": "Tokyo, JP",
+      "bio": "Interdisciplinary art collective building room-scale interactive projection worlds where visitors' drawings and bodies change the artwork.",
+      "why": "Sketch Aquarium made 'your drawing comes alive in the room' a mass-audience mixed-reality experience.",
+      "links": {
+        "site": "https://www.teamlab.art",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@teamLabART",
+        "github": ""
+      },
+      "connected_to": [
+        "moment-factory"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "moment-factory",
+      "name": "Moment Factory",
+      "role": "Multimedia entertainment studio",
+      "based": "Montreal, CA",
+      "bio": "Studio known for architectural projection mapping, illuminated night walks (Lumina) and interactive projected play spaces worldwide.",
+      "why": "They scaled projection AR to cathedrals, forests and arenas as public storytelling.",
+      "links": {
+        "site": "https://momentfactory.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "https://www.youtube.com/@MomentFactory",
+        "github": ""
+      },
+      "connected_to": [
+        "teamlab"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "heavy-projects",
+      "name": "The Heavy Projects (B.C. Biermann)",
+      "role": "AR public art studio; Re+Public",
+      "based": "Los Angeles, US",
+      "bio": "B.C. 'Heavy' Biermann's studio behind Re+Public, which animated large street murals and billboards with AR from the early 2010s.",
+      "why": "Early, large-scale AR street art that reclaimed urban surfaces.",
+      "links": {
+        "site": "",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "mark-skwarek"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "studio-drift",
+      "name": "Studio DRIFT",
+      "role": "Artist duo Lonneke Gordijn and Ralph Nauta",
+      "based": "Amsterdam, NL",
+      "bio": "Dutch studio known for kinetic and drone light works; made one of the first gallery mixed-reality artworks for HoloLens.",
+      "why": "Concrete Storm used spatial MR to make viewers physically feel virtual architecture.",
+      "links": {
+        "site": "https://studiodrift.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "marina-abramovic",
+      "name": "Marina Abramović",
+      "role": "Performance artist",
+      "based": "New York, US",
+      "bio": "The 'grandmother of performance art', who worked with Acute Art (Rising, VR) and Tin Drum (The Life, mixed reality) to extend presence into virtual bodies.",
+      "why": "The Life was billed as the first mixed-reality performance artwork sold at auction.",
+      "links": {
+        "site": "https://mai.art",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [
+        "acute-art"
+      ],
+      "discovered_via": "acute-art"
+    },
+    {
+      "id": "kimchi-and-chips",
+      "name": "Kimchi and Chips",
+      "role": "Art studio of Mimi Son and Elliot Woods",
+      "based": "Seoul, KR",
+      "bio": "Korean-British duo working with light fields, projection and robotic mirrors to make images that occupy real space.",
+      "why": "Light Barrier made projected light hang in mid-air as volumetric drawings.",
+      "links": {
+        "site": "https://kimchiandchips.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "connected_to": [],
+      "discovered_via": "seed"
+    }
+  ],
+  "works": [
+    {
+      "id": "keiichi-matsuda--domestic-robocop",
+      "creator_ids": [
+        "keiichi-matsuda"
+      ],
+      "title": "Augmented (hyper)Reality: Domestic Robocop",
+      "year": 2010,
+      "description": "A first-person walk through a kitchen where every surface is covered in AR labels, recipes, ads and reward points; the film imagines how an 'augmented' home would be monetised.",
+      "idea_zh": "把家里每个平面都变成广告与界面，预演被信息淹没的增强生活",
+      "interaction": [
+        "data-information",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "After Effects",
+        "design fiction"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "fSfKlCmYcLc",
+        "url": "https://www.youtube.com/watch?v=fSfKlCmYcLc"
+      },
+      "source_url": "https://km.cx/projects/domestic-robocop"
+    },
+    {
+      "id": "keiichi-matsuda--augmented-city-3d",
+      "creator_ids": [
+        "keiichi-matsuda"
+      ],
+      "title": "Augmented City 3D",
+      "year": 2010,
+      "description": "A stereoscopic film of a walk through a city whose AR layers can be customised, shared and hijacked, questioning who designs the augmented urban space.",
+      "idea_zh": "城市空间变成可订阅、可定制的AR图层，每个人看到不同的城市",
+      "interaction": [
+        "location-geo",
+        "data-information",
+        "portal-world"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "3D film",
+        "design fiction"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "3TL80ScTLlM",
+        "url": "https://www.youtube.com/watch?v=3TL80ScTLlM"
+      },
+      "source_url": "https://km.cx/projects/augmented-city-3d"
+    },
+    {
+      "id": "keiichi-matsuda--cell",
+      "creator_ids": [
+        "keiichi-matsuda",
+        "james-alliban"
+      ],
+      "title": "CELL (with James Alliban)",
+      "year": 2011,
+      "description": "An interactive installation where a depth camera tracks visitors and attaches floating identity tags drawn from social media to their bodies on a large mirror-screen.",
+      "idea_zh": "摄像头追踪人体，给每个路人实时贴上网络身份标签的数字镜子",
+      "interaction": [
+        "hand-body",
+        "data-information"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Kinect",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "lfzNF7igHzY",
+        "url": "https://www.youtube.com/watch?v=lfzNF7igHzY"
+      },
+      "source_url": "https://km.cx/projects/cell"
+    },
+    {
+      "id": "keiichi-matsuda--hyper-reality",
+      "creator_ids": [
+        "keiichi-matsuda"
+      ],
+      "title": "HYPER-REALITY",
+      "year": 2016,
+      "description": "A POV short in Medellín where a woman's view is saturated with AR ads, game points and assistant UI; when her identity is hacked the overlay collapses.",
+      "idea_zh": "当AR完全接管视野，现实被游戏化与广告化后的眩晕与脆弱",
+      "interaction": [
+        "data-information",
+        "perception-art",
+        "location-geo"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "design fiction",
+        "3D compositing"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "YJg02ivYzSs",
+        "url": "https://www.youtube.com/watch?v=YJg02ivYzSs"
+      },
+      "source_url": "http://hyper-reality.co"
+    },
+    {
+      "id": "keiichi-matsuda--merger",
+      "creator_ids": [
+        "keiichi-matsuda"
+      ],
+      "title": "Merger",
+      "year": 2018,
+      "description": "A 360-degree film of an office worker whose entire workspace is a floating AR interface, controlled by hand and voice, as she fights to stay relevant against automation.",
+      "idea_zh": "未来白领被全息工作界面包围，用手势对抗AI取代的焦虑",
+      "interaction": [
+        "data-information",
+        "hand-body"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "360 video",
+        "design fiction"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "SqW2dEkiD-Y",
+        "url": "https://www.youtube.com/watch?v=SqW2dEkiD-Y"
+      },
+      "source_url": "https://km.cx/projects/merger"
+    },
+    {
+      "id": "keiichi-matsuda--reality-channels",
+      "creator_ids": [
+        "keiichi-matsuda"
+      ],
+      "title": "Reality Channels (Liquid City)",
+      "year": 2022,
+      "description": "A prototype of the 'real-world metaverse' in which users switch between channels that re-skin the same street with different AR layers, characters and information.",
+      "idea_zh": "像换电视频道一样切换城市的AR皮肤",
+      "interaction": [
+        "portal-world",
+        "location-geo"
+      ],
+      "platform": [
+        "phone",
+        "headset"
+      ],
+      "tech": [
+        "Unity",
+        "Niantic Lightship"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "0tyswdePMmA",
+        "url": "https://www.youtube.com/watch?v=0tyswdePMmA"
+      },
+      "source_url": "https://liquidcity.io"
+    },
+    {
+      "id": "keiichi-matsuda--agents",
+      "creator_ids": [
+        "keiichi-matsuda"
+      ],
+      "title": "Agents (Liquid City)",
+      "year": 2023,
+      "description": "A short film where AI agents appear as characters in AR glasses and negotiate a person's day, asking what kind of relationship we want with AI in mixed reality.",
+      "idea_zh": "把AI助手具象为住在AR眼镜里的角色，思考人与智能体的关系",
+      "interaction": [
+        "data-information",
+        "voice-sound"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "design fiction",
+        "AI"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "bkKv2AHpn8E",
+        "url": "https://www.youtube.com/watch?v=bkKv2AHpn8E"
+      },
+      "source_url": "https://liquidcity.io"
+    },
+    {
+      "id": "keiichi-matsuda--wisp-world",
+      "creator_ids": [
+        "keiichi-matsuda"
+      ],
+      "title": "Wisp World (Liquid City)",
+      "year": 2025,
+      "description": "An AR/AI game for Snap Spectacles and Vision Pro where the player talks with a small spirit character, Wisp, who explores and comments on the real room.",
+      "idea_zh": "与会说话的小精灵在真实房间里冒险的AI+AR游戏",
+      "interaction": [
+        "voice-sound",
+        "game-play",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "Apple Vision Pro",
+        "LLM"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "CtP9FERiL0w",
+        "url": "https://www.youtube.com/watch?v=CtP9FERiL0w"
+      },
+      "source_url": "https://liquidcity.io"
+    },
+    {
+      "id": "keiichi-matsuda--project-jade",
+      "creator_ids": [
+        "keiichi-matsuda"
+      ],
+      "title": "Project Jade - Spatial Agents (Liquid City)",
+      "year": 2025,
+      "description": "A spatial AI agent for AR glasses that sees what the wearer sees and responds with embodied, placed UI, shown at Snap Lens Fest 2025.",
+      "idea_zh": "能看见你所见、在空间中回应你的AI伙伴",
+      "interaction": [
+        "voice-sound",
+        "spatial-mapping",
+        "data-information"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles",
+        "LLM"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ZwyGUZIoa8Q",
+        "url": "https://www.youtube.com/watch?v=ZwyGUZIoa8Q"
+      },
+      "source_url": "https://liquidcity.io"
+    },
+    {
+      "id": "julian-oliver--the-artvertiser",
+      "creator_ids": [
+        "julian-oliver"
+      ],
+      "title": "The Artvertiser",
+      "year": 2008,
+      "description": "Custom binoculars recognise street billboards and replace each advert live with an artwork, turning advertising space into an exhibition surface.",
+      "idea_zh": "用改装望远镜把街头广告实时替换成艺术作品",
+      "interaction": [
+        "portal-world",
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "OpenCV",
+        "Ferns tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "z4a8n8hotI4",
+        "url": "https://www.youtube.com/watch?v=z4a8n8hotI4"
+      },
+      "source_url": "https://julianoliver.com/projects/the-artvertiser/"
+    },
+    {
+      "id": "julian-oliver--levelhead",
+      "creator_ids": [
+        "julian-oliver"
+      ],
+      "title": "levelHead",
+      "year": 2007,
+      "description": "A spatial memory game: tilting a real cube with printed markers moves a tiny character through rooms that appear inside the cube on screen.",
+      "idea_zh": "手中的方块里藏着多个房间，转动实物方块来引导小人",
+      "interaction": [
+        "tangible-object",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "ARToolKit",
+        "Blender Game Engine"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "UJYKSFANuaQ",
+        "url": "https://www.youtube.com/watch?v=UJYKSFANuaQ"
+      },
+      "source_url": "https://julianoliver.com/projects/levelhead/"
+    },
+    {
+      "id": "nobumichi-asai--omote",
+      "creator_ids": [
+        "nobumichi-asai"
+      ],
+      "title": "OMOTE",
+      "year": 2014,
+      "description": "Real-time face tracking and projection mapping paint shifting digital makeup, cracks and masks onto a model's moving face.",
+      "idea_zh": "把人脸变成实时追踪的投影画布，数字妆容随表情移动",
+      "interaction": [
+        "face",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "face tracking",
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "18y9RsYNLYw",
+        "url": "https://www.youtube.com/watch?v=18y9RsYNLYw"
+      },
+      "source_url": "https://www.nobumichiasai.com"
+    },
+    {
+      "id": "nobumichi-asai--connected-colors",
+      "creator_ids": [
+        "nobumichi-asai"
+      ],
+      "title": "connected colors",
+      "year": 2016,
+      "description": "Face-tracked projection mapping blooms plants, birds and patterns across a performer's face in sync with her movement.",
+      "idea_zh": "花鸟纹样在追踪的面孔上实时绽放",
+      "interaction": [
+        "face",
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "face tracking",
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "nMvFwC3bo_E",
+        "url": "https://www.youtube.com/watch?v=nMvFwC3bo_E"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nobumichi-asai--kacho-fugetsu",
+      "creator_ids": [
+        "nobumichi-asai"
+      ],
+      "title": "Kacho-fugetsu",
+      "year": 2017,
+      "description": "Seasonal Japanese motifs of flowers, birds, wind and moon are projected onto a moving face using real-time tracking.",
+      "idea_zh": "花鸟风月四季意象投映在活动的人脸上",
+      "interaction": [
+        "face",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "face tracking",
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "5cS7KLUPfZQ",
+        "url": "https://www.youtube.com/watch?v=5cS7KLUPfZQ"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nobumichi-asai--inori",
+      "creator_ids": [
+        "nobumichi-asai"
+      ],
+      "title": "INORI (Prayer)",
+      "year": 2017,
+      "description": "Dancers AyaBambi's faces are mapped with high-speed projection (1000 fps tracking) so skulls, tears and eyes follow their fast choreography.",
+      "idea_zh": "千帧级高速追踪投影，让面部图像跟上激烈舞蹈",
+      "interaction": [
+        "face",
+        "projection",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "high-speed projector",
+        "face tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "9n0ZAwt23VU",
+        "url": "https://www.youtube.com/watch?v=9n0ZAwt23VU"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nobumichi-asai--dockyard-yokohama",
+      "creator_ids": [
+        "nobumichi-asai"
+      ],
+      "title": "Dockyard 3D Projection Mapping / Yokohama Odyssey",
+      "year": 2018,
+      "description": "Large-scale 3D projection mapping in the historic stone dry dock of Yokohama, turning the dock walls into an animated voyage.",
+      "idea_zh": "把百年石砌船坞变成航海史诗的投影舞台",
+      "interaction": [
+        "projection",
+        "location-geo"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "vguPITbNorQ",
+        "url": "https://www.youtube.com/watch?v=vguPITbNorQ"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "bot-and-dolly--box",
+      "creator_ids": [
+        "bot-and-dolly"
+      ],
+      "title": "Box",
+      "year": 2013,
+      "description": "Two industrial robots move large panels while projection-mapped imagery on them stays locked to a robot-moved camera, creating illusions shot entirely in-camera.",
+      "idea_zh": "机械臂移动画布与摄像机，投影与运动精确同步的现场魔术",
+      "interaction": [
+        "projection",
+        "perception-art",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "industrial robots",
+        "projection mapping",
+        "motion control"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "lX6JcybgDFo",
+        "url": "https://www.youtube.com/watch?v=lX6JcybgDFo"
+      },
+      "source_url": "https://gmunk.com/BOX"
+    },
+    {
+      "id": "daito-manabe--eclipse-blue",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "Nosaj Thing 'Eclipse/Blue' music video",
+      "year": 2013,
+      "description": "A dancer performs inside real-time projected graphics driven by motion capture, so the visuals wrap her body and the space live.",
+      "idea_zh": "动作捕捉驱动的投影随舞者身体实时变形",
+      "interaction": [
+        "projection",
+        "hand-body",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "motion capture",
+        "projection mapping",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "_woNBiIyOKI",
+        "url": "https://www.youtube.com/watch?v=_woNBiIyOKI"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "daito-manabe--perfume-cannes-lions",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "Perfume at Cannes Lions",
+      "year": 2013,
+      "description": "Perfume perform in white costumes that become projection screens, with tracked projection mapping splitting and multiplying their bodies on stage.",
+      "idea_zh": "服装即屏幕，追踪投影让偶像身体分裂和变形",
+      "interaction": [
+        "projection",
+        "performance-stage",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping",
+        "motion tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "CFEXrVs-RtM",
+        "url": "https://www.youtube.com/watch?v=CFEXrVs-RtM"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "daito-manabe--seamless-mr",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "Seamless MR (hanacam test)",
+      "year": 2014,
+      "description": "A test of seamless mixed-reality video where a tracked camera composites CG into a live scene in real time.",
+      "idea_zh": "追踪摄像机把CG无缝合成进实景的MR实验",
+      "interaction": [
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "camera tracking",
+        "real-time compositing"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "FPMkIWUTVXo",
+        "url": "https://www.youtube.com/watch?v=FPMkIWUTVXo"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "daito-manabe--border",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "border (Rhizomatiks Research x ELEVENPLAY)",
+      "year": 2015,
+      "description": "Audience members ride automated wheelchairs wearing headsets whose view mixes live dancers with virtual ones, so they cannot tell which bodies are real.",
+      "idea_zh": "坐着自动轮椅戴头显，真假舞者在眼前交错",
+      "interaction": [
+        "performance-stage",
+        "portal-world",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HMD",
+        "robotic wheelchairs",
+        "motion capture"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "DdYw3ZZ0XLQ",
+        "url": "https://www.youtube.com/watch?v=DdYw3ZZ0XLQ"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "daito-manabe--drone-ar-test",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "drone + AR test",
+      "year": 2015,
+      "description": "Tests where flying drones are tracked and AR graphics are composited onto them in real time, previewing AR for live drone performances.",
+      "idea_zh": "给飞行中的无人机实时叠加AR图形",
+      "interaction": [
+        "perception-art",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "drones",
+        "motion capture",
+        "AR compositing"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Wvr81vk2STU",
+        "url": "https://www.youtube.com/watch?v=Wvr81vk2STU"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "daito-manabe--fencing-visualized",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "Fencing Visualized",
+      "year": 2016,
+      "description": "An AR sports-broadcast system that tracks the tips of fencing swords and draws their trajectories over live footage so audiences can follow the fast bouts.",
+      "idea_zh": "把剑尖轨迹实时叠加在直播画面上，让看不清的击剑变得可见",
+      "interaction": [
+        "data-information",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "computer vision",
+        "AR broadcast"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "h2DXCAWI8gU",
+        "url": "https://www.youtube.com/watch?v=h2DXCAWI8gU"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "daito-manabe--live-ar-system",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "live AR system test",
+      "year": 2016,
+      "description": "A test of a live AR system for stage shows, with virtual graphics anchored to the physical stage as the broadcast camera moves.",
+      "idea_zh": "舞台直播中虚拟图形与真实舞台锁定的实时AR系统",
+      "interaction": [
+        "performance-stage",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "camera tracking",
+        "real-time rendering"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "B-RHS6Y4Onk",
+        "url": "https://www.youtube.com/watch?v=B-RHS6Y4Onk"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "daito-manabe--discrete-figures",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "discrete figures (with Kyle McDonald)",
+      "year": 2018,
+      "description": "A dance performance mixing dancers, drones, projection and machine-learning 'generated dancers' that appear alongside and on the performers.",
+      "idea_zh": "机器学习生成的虚拟舞者与真人同台",
+      "interaction": [
+        "performance-stage",
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "machine learning",
+        "drones",
+        "motion capture"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "hauXQQhwbgM",
+        "url": "https://www.youtube.com/watch?v=hauXQQhwbgM"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "daito-manabe--terminal-slam",
+      "creator_ids": [
+        "daito-manabe"
+      ],
+      "title": "Squarepusher 'Terminal Slam' music video",
+      "year": 2020,
+      "description": "Through mixed-reality glasses, Shibuya's billboards and ads are erased and replaced by glitching visuals synced to the music (diminished reality).",
+      "idea_zh": "戴上MR眼镜，涩谷的广告被抹去并替换成音乐视觉",
+      "interaction": [
+        "portal-world",
+        "location-geo",
+        "voice-sound"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "diminished reality",
+        "computer vision"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "GlhV-OKHecI",
+        "url": "https://www.youtube.com/watch?v=GlhV-OKHecI"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "universal-everything--1000-hands",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "1000 Hands",
+      "year": 2013,
+      "description": "Visitors contribute line drawings through a mobile app; each drawing is grown into a 3D form that joins a collective, evolving projected landscape in the gallery.",
+      "idea_zh": "上千名观众的手绘被生长成立体形态，汇入共同的投影风景",
+      "interaction": [
+        "drawing-creation",
+        "multiplayer-social",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "iPad",
+        "real-time 3D"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "yECE20Cq0mE",
+        "url": "https://www.youtube.com/watch?v=yECE20Cq0mE"
+      },
+      "source_url": "https://www.universaleverything.com/art/1000-hands"
+    },
+    {
+      "id": "universal-everything--future-you",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "Future You",
+      "year": 2019,
+      "description": "A motion-capture mirror that turns each viewer into a synthetic robotic figure; the harder you move, the stranger its 47,000 possible responses become.",
+      "idea_zh": "照见'未来的你'的动捕镜子，越动越奇异",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "depth camera",
+        "real-time generative"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "718890921",
+        "url": "https://vimeo.com/718890921"
+      },
+      "source_url": "https://www.universaleverything.com/art/future-you"
+    },
+    {
+      "id": "universal-everything--super-you",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "Super You (AR app)",
+      "year": 2020,
+      "description": "An iPhone AR app that tracks your body and transforms you into a flowing digital being in real time.",
+      "idea_zh": "手机一扫，把自己变成流动的数字生命体",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit body tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "-zPQczdMCVc",
+        "url": "https://www.youtube.com/watch?v=-zPQczdMCVc"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "universal-everything--hyperspace-ar",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "HyperSpace AR",
+      "year": 2021,
+      "description": "A LiDAR-based AR app for iPhone 12 / iPad Pro that fills your room with generative forms that respond to the scanned walls and furniture.",
+      "idea_zh": "用LiDAR扫描房间，让生成形态沿真实表面生长",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "LiDAR",
+        "ARKit"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "1KuwkTdab0o",
+        "url": "https://www.youtube.com/watch?v=1KuwkTdab0o"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "universal-everything--infinity",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "Infinity",
+      "year": 2021,
+      "description": "A generative installation of endlessly evolving digital beings; the interactive version lets visitors' presence and movement influence the figures on screen.",
+      "idea_zh": "观众的出现改变无尽行走的人群",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "real-time generative",
+        "camera tracking"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "523660693",
+        "url": "https://vimeo.com/523660693"
+      },
+      "source_url": "https://www.universaleverything.com/art/infinity"
+    },
+    {
+      "id": "universal-everything--look-up",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "Look Up - Augmented Reality Architecture",
+      "year": 2024,
+      "description": "AR experiments that attach digital sculptures and animated beings to building facades, inviting people to look up at architecture.",
+      "idea_zh": "在建筑立面上长出AR雕塑，邀请人们抬头看城市",
+      "interaction": [
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "e5ELC-FcJXs",
+        "url": "https://www.youtube.com/watch?v=e5ELC-FcJXs"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "universal-everything--chameleon",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "Chameleon",
+      "year": 2024,
+      "description": "A camera-driven digital being that mimics passers-by's movement and appearance, shown on screens in East London streets, malls and later Venice and Beijing.",
+      "idea_zh": "街头会模仿你的数字变色龙生物",
+      "interaction": [
+        "hand-body",
+        "perception-art",
+        "location-geo"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "computer vision",
+        "real-time generative"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "EkGLZ_Ck_-w",
+        "url": "https://www.youtube.com/watch?v=EkGLZ_Ck_-w"
+      },
+      "source_url": "https://www.universaleverything.com/art/chameleon-venice"
+    },
+    {
+      "id": "universal-everything--hydrogen-wave",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "Hydrogen Wave",
+      "year": 2024,
+      "description": "An interactive space at Hyundai Motorstudio Senayan Park, Jakarta, where visitors' movements send waves through a large projected field of animated particles themed on hydrogen energy.",
+      "idea_zh": "用身体推动'氢能'粒子之浪",
+      "interaction": [
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "depth camera",
+        "real-time particles"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "M2SOCYnWIiU",
+        "url": "https://www.youtube.com/watch?v=M2SOCYnWIiU"
+      },
+      "source_url": "https://www.universaleverything.com/design/hydrogen-wave"
+    },
+    {
+      "id": "universal-everything--someone-random-mirror",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "Prototype: Someone - a random mirror",
+      "year": 2024,
+      "description": "A mirror prototype that reflects the viewer's pose but replaces them with a randomly generated other person.",
+      "idea_zh": "镜子里照出的永远是'别人'",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "pose tracking",
+        "generative"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "OS3rX7QU468",
+        "url": "https://www.youtube.com/watch?v=OS3rX7QU468"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "universal-everything--ultrasound-vision-pro",
+      "creator_ids": [
+        "universal-everything"
+      ],
+      "title": "Ultrasound for Apple Vision Pro",
+      "year": 2025,
+      "description": "An immersive piece for Apple Vision Pro in which pulsing ultrasound-like forms emerge and surround the viewer (headset work; largely immersive).",
+      "idea_zh": "把超声波般的生命形态带进Vision Pro的空间",
+      "interaction": [
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Apple Vision Pro",
+        "visionOS"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "95_WMsapSuA",
+        "url": "https://www.youtube.com/watch?v=95_WMsapSuA"
+      },
+      "source_url": "https://www.universaleverything.com/art/ultrasound-vr"
+    },
+    {
+      "id": "acute-art--wunderkammer",
+      "creator_ids": [
+        "acute-art"
+      ],
+      "title": "Olafur Eliasson: WUNDERKAMMER",
+      "year": 2020,
+      "description": "A collection of AR objects by Olafur Eliasson (a sun, rain cloud, rainbow, puffin, compass) placed in the viewer's home during lockdown; the AR sun even charges a virtual Little Sun lamp.",
+      "idea_zh": "疫情期间把太阳、云、彩虹等自然现象用AR带进家里",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Acute Art app",
+        "ARKit/ARCore"
+      ],
+      "video": {
+        "platform": "vimeo",
+        "id": "418385263",
+        "url": "https://vimeo.com/418385263"
+      },
+      "source_url": "https://acuteart.com"
+    },
+    {
+      "id": "acute-art--kaws-expanded-holiday",
+      "creator_ids": [
+        "acute-art"
+      ],
+      "title": "KAWS: Expanded Holiday",
+      "year": 2020,
+      "description": "KAWS's giant COMPANION figure released as AR sculptures placed simultaneously in cities worldwide and in users' homes, sold as limited AR editions.",
+      "idea_zh": "全球同时出现的巨型AR玩偶雕塑，也可买回家",
+      "interaction": [
+        "location-geo",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Acute Art app"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "YI8bG4KAB_w",
+        "url": "https://www.youtube.com/watch?v=YI8bG4KAB_w"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "acute-art--unreal-city",
+      "creator_ids": [
+        "acute-art"
+      ],
+      "title": "Unreal City",
+      "year": 2020,
+      "description": "An AR public art walk along London's Thames with 36 works by artists such as Olafur Eliasson, Cao Fei and Tomás Saraceno, curated with Dazed.",
+      "idea_zh": "泰晤士河畔的AR雕塑步道",
+      "interaction": [
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Acute Art app"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "-gO3oz5UfUY",
+        "url": "https://www.youtube.com/watch?v=-gO3oz5UfUY"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "tamiko-thiel--art-critic-face-matrix",
+      "creator_ids": [
+        "tamiko-thiel"
+      ],
+      "title": "Art Critic Face Matrix (We AR in MoMA)",
+      "year": 2010,
+      "description": "Part of the uninvited AR show in MoMA: a matrix of critics' faces floats in the galleries, visible only through the Layar browser.",
+      "idea_zh": "在MoMA内部未经许可放置批评家面孔矩阵",
+      "interaction": [
+        "location-geo",
+        "portal-world"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Layar"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "OlgjnO0asjM",
+        "url": "https://www.youtube.com/watch?v=OlgjnO0asjM"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "tamiko-thiel--shades-of-absence",
+      "creator_ids": [
+        "tamiko-thiel"
+      ],
+      "title": "Shades of Absence: Public Voids",
+      "year": 2011,
+      "description": "Geolocated AR at the Venice Biennale placing golden silhouettes of censored artists in public squares.",
+      "idea_zh": "在威尼斯公共空间放置被审查艺术家的金色剪影",
+      "interaction": [
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Layar",
+        "GPS"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "cykHsfW1NQs",
+        "url": "https://www.youtube.com/watch?v=cykHsfW1NQs"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "tamiko-thiel--newtown-creek",
+      "creator_ids": [
+        "tamiko-thiel"
+      ],
+      "title": "Newtown Creek (oil spill)",
+      "year": 2011,
+      "description": "Geolocated AR on Brooklyn's Newtown Creek visualising the huge hidden oil spill beneath it.",
+      "idea_zh": "让地下看不见的石油泄漏浮现在河面上",
+      "interaction": [
+        "location-geo",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Layar",
+        "GPS"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "i_G8jm5qPS8",
+        "url": "https://www.youtube.com/watch?v=i_G8jm5qPS8"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "tamiko-thiel--carnation-rain",
+      "creator_ids": [
+        "tamiko-thiel"
+      ],
+      "title": "Carnation Rain (Largo do Carmo)",
+      "year": 2011,
+      "description": "An AR rain of red carnations over Lisbon's Largo do Carmo, where the 1974 Carnation Revolution ended.",
+      "idea_zh": "在革命发生的广场上空下起AR康乃馨雨",
+      "interaction": [
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Layar",
+        "GPS"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "VxBEr_bq_0k",
+        "url": "https://www.youtube.com/watch?v=VxBEr_bq_0k"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "tamiko-thiel--gardens-of-the-anthropocene",
+      "creator_ids": [
+        "tamiko-thiel"
+      ],
+      "title": "Gardens of the Anthropocene",
+      "year": 2016,
+      "description": "AR plants mutated by climate change (such as giant red algae) grow over real harbours and gardens.",
+      "idea_zh": "气候变化下变异的植物在真实港湾里生长",
+      "interaction": [
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Layar",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "lQWPHmLB_OY",
+        "url": "https://www.youtube.com/watch?v=lQWPHmLB_OY"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "tamiko-thiel--evolution-of-fish",
+      "creator_ids": [
+        "tamiko-thiel"
+      ],
+      "title": "Evolution of Fish",
+      "year": 2019,
+      "description": "An AR artwork of fish evolving into plastic-bag creatures; here the artist plays with video feedback in the AR view.",
+      "idea_zh": "鱼在AR中进化成塑料袋生物",
+      "interaction": [
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Wi9RCNHJ6RQ",
+        "url": "https://www.youtube.com/watch?v=Wi9RCNHJ6RQ"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "tamiko-thiel--enter-the-plastocene",
+      "creator_ids": [
+        "tamiko-thiel"
+      ],
+      "title": "Enter the Plastocene",
+      "year": 2021,
+      "description": "An AR/VR installation where plastic waste creatures swim through the exhibition space around visitors, shown at MEET Milan.",
+      "idea_zh": "塑料生物在展厅中游动的塑料纪",
+      "interaction": [
+        "perception-art",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "6p6eYXCsV9g",
+        "url": "https://www.youtube.com/watch?v=6p6eYXCsV9g"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "john-craig-freeman--border-memorial",
+      "creator_ids": [
+        "john-craig-freeman"
+      ],
+      "title": "Border Memorial: Frontera de los Muertos",
+      "year": 2012,
+      "description": "Geolocated AR skeletal effigies (inspired by Día de los Muertos) mark the exact places where migrants died crossing the US-Mexico border.",
+      "idea_zh": "在移民死亡的确切地点放置AR亡灵纪念碑",
+      "interaction": [
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Layar",
+        "GPS"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "E-xFY4zS2DQ",
+        "url": "https://www.youtube.com/watch?v=E-xFY4zS2DQ"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "john-craig-freeman--orators-rostrums",
+      "creator_ids": [
+        "john-craig-freeman"
+      ],
+      "title": "Orators, Rostrums and Propaganda Stands",
+      "year": 2011,
+      "description": "Virtual orators' podiums, inspired by early Soviet agitprop, are placed in public squares via AR for anyone to 'speak' from.",
+      "idea_zh": "在公共广场放置可发声的AR演讲台",
+      "interaction": [
+        "location-geo",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Layar",
+        "GPS"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "vlUhVIBjLZY",
+        "url": "https://www.youtube.com/watch?v=vlUhVIBjLZY"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "john-craig-freeman--climate-change-migration-stories",
+      "creator_ids": [
+        "john-craig-freeman"
+      ],
+      "title": "Climate Change Migration Stories AR",
+      "year": 2023,
+      "description": "Life-size volumetric AR portraits of people displaced by climate change appear in public space and tell their own stories.",
+      "idea_zh": "气候移民以真人大小的AR形象现身讲述自己的故事",
+      "interaction": [
+        "location-geo",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "volumetric capture",
+        "AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "wBvqwbcMUJ8",
+        "url": "https://www.youtube.com/watch?v=wBvqwbcMUJ8"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "mark-skwarek--leak-in-your-hometown",
+      "creator_ids": [
+        "mark-skwarek"
+      ],
+      "title": "The Leak in Your Hometown",
+      "year": 2010,
+      "description": "Point a phone at any BP logo and an AR broken pipe gushes oil out of it, bringing the Deepwater Horizon spill to your own street.",
+      "idea_zh": "对准任何BP标志，都会喷出AR原油",
+      "interaction": [
+        "tangible-object",
+        "perception-art",
+        "location-geo"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "marker tracking",
+        "junaio"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "V6-BbqANr04",
+        "url": "https://www.youtube.com/watch?v=V6-BbqANr04"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "mark-skwarek--warcraft-armor",
+      "creator_ids": [
+        "mark-skwarek"
+      ],
+      "title": "Warcraft ARmor",
+      "year": 2010,
+      "description": "A marker-based AR demo that dresses the user's body in World of Warcraft-style armour on screen.",
+      "idea_zh": "把游戏盔甲穿到真人身上",
+      "interaction": [
+        "hand-body",
+        "game-play"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "marker tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "1i2Qxlln_B0",
+        "url": "https://www.youtube.com/watch?v=1i2Qxlln_B0"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "sander-veenhof--we-ar-in-moma",
+      "creator_ids": [
+        "sander-veenhof",
+        "mark-skwarek"
+      ],
+      "title": "We AR in MoMA",
+      "year": 2010,
+      "description": "An uninvited AR exhibition inside MoMA New York: artworks by Manifest.AR members were geolocated into the galleries and visible only via the Layar app.",
+      "idea_zh": "不请自来，用AR在MoMA里开了一场展览",
+      "interaction": [
+        "location-geo",
+        "portal-world"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Layar",
+        "GPS"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "b9T2LVM7ynM",
+        "url": "https://www.youtube.com/watch?v=b9T2LVM7ynM"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "sander-veenhof--subway-pong",
+      "creator_ids": [
+        "sander-veenhof"
+      ],
+      "title": "Subway PONG",
+      "year": 2021,
+      "description": "A playful AR glasses experiment: a game of Pong played across a real subway carriage with fellow passengers.",
+      "idea_zh": "在地铁车厢里用AR眼镜打乒乓",
+      "interaction": [
+        "game-play",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Snap Spectacles"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "n8FF1kxm11o",
+        "url": "https://www.youtube.com/watch?v=n8FF1kxm11o"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "sander-veenhof--distant-hand",
+      "creator_ids": [
+        "sander-veenhof"
+      ],
+      "title": "Distant Hand",
+      "year": 2021,
+      "description": "A hand-tracked AR prototype that extends your hand far into the space in front of you to touch distant objects.",
+      "idea_zh": "伸出一只能触到远方的AR长手",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "hand tracking",
+        "Snap Spectacles"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ZdudbnDh7tk",
+        "url": "https://www.youtube.com/watch?v=ZdudbnDh7tk"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "sander-veenhof--multi-person-ar-fashion",
+      "creator_ids": [
+        "sander-veenhof"
+      ],
+      "title": "Multi-person AR fashion",
+      "year": 2021,
+      "description": "Real-time AR garments dress several people at once, exploring shared digital fashion on the street.",
+      "idea_zh": "多人同时穿上AR数字时装",
+      "interaction": [
+        "hand-body",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "body tracking",
+        "Lens Studio"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "pYutRPaBYFM",
+        "url": "https://www.youtube.com/watch?v=pYutRPaBYFM"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "sander-veenhof--urban-lasergame",
+      "creator_ids": [
+        "sander-veenhof"
+      ],
+      "title": "Urban Lasergame AR",
+      "year": 2021,
+      "description": "A location-based AR laser tag game played in city streets.",
+      "idea_zh": "把城市街道变成AR激光枪战场",
+      "interaction": [
+        "game-play",
+        "location-geo",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "8wDKckP55tM",
+        "url": "https://www.youtube.com/watch?v=8wDKckP55tM"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "sander-veenhof--ai-style-transfer-ar",
+      "creator_ids": [
+        "sander-veenhof"
+      ],
+      "title": "AI style transfer on live AR camera",
+      "year": 2023,
+      "description": "Live AI style transfer applied to an AR glasses camera, turning the surroundings into a painting in real time.",
+      "idea_zh": "用AI把眼前世界实时变成画作",
+      "interaction": [
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "style transfer",
+        "AR glasses"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "XU8D91ljJ9A",
+        "url": "https://www.youtube.com/watch?v=XU8D91ljJ9A"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nancy-baker-cahill--4th-wall",
+      "creator_ids": [
+        "nancy-baker-cahill"
+      ],
+      "title": "4th Wall (app and Contested Landscapes)",
+      "year": 2018,
+      "description": "Monumental drawn sculptures by the artist appear in galleries and public sites through her free 4th Wall AR app.",
+      "idea_zh": "用免费App让巨型手绘雕塑出现在任何地方",
+      "interaction": [
+        "location-geo",
+        "drawing-creation"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "4th Wall app",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "i9cFUDshxMQ",
+        "url": "https://www.youtube.com/watch?v=i9cFUDshxMQ"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nancy-baker-cahill--margin-of-error",
+      "creator_ids": [
+        "nancy-baker-cahill"
+      ],
+      "title": "Revolutions / Margin of Error (Desert X)",
+      "year": 2019,
+      "description": "Geolocated AR sculptures in the Coachella Valley desert for Desert X, including a writhing mass of drawn lines rising over a landfill site.",
+      "idea_zh": "沙漠中缠绕升起的巨型AR线条雕塑",
+      "interaction": [
+        "location-geo",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "4th Wall app"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "rb-9x1pH_4M",
+        "url": "https://www.youtube.com/watch?v=rb-9x1pH_4M"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nancy-baker-cahill--liberty-bell",
+      "creator_ids": [
+        "nancy-baker-cahill"
+      ],
+      "title": "Liberty Bell",
+      "year": 2020,
+      "description": "A giant AR Liberty Bell rings over historic US sites (Philadelphia, Selma, Washington) as a call to civic action.",
+      "idea_zh": "在美国历史地点上空敲响AR自由钟",
+      "interaction": [
+        "location-geo",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "4th Wall app"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "_SrpZZv1aNU",
+        "url": "https://www.youtube.com/watch?v=_SrpZZv1aNU"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nancy-baker-cahill--siren-songs",
+      "creator_ids": [
+        "nancy-baker-cahill"
+      ],
+      "title": "Siren Songs",
+      "year": 2021,
+      "description": "An animated, immersive AR public artwork for Elevation 1049 in Gstaad and St. Moritz: drawn forms float in the Alpine landscape with a sung soundtrack.",
+      "idea_zh": "阿尔卑斯山间会唱歌的AR声音雕塑",
+      "interaction": [
+        "location-geo",
+        "voice-sound"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "4th Wall app"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "mzfqln_s0cE",
+        "url": "https://www.youtube.com/watch?v=mzfqln_s0cE"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "jeremy-bailey--video-terraform-dance-party",
+      "creator_ids": [
+        "jeremy-bailey"
+      ],
+      "title": "Video Terraform Dance Party",
+      "year": 2008,
+      "description": "A webcam performance where the artist's body movements sculpt a 3D landscape around him live on screen.",
+      "idea_zh": "用舞蹈动作在屏幕中塑造地形",
+      "interaction": [
+        "hand-body",
+        "drawing-creation",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "webcam tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "nWfAJyIfmn4",
+        "url": "https://www.youtube.com/watch?v=nWfAJyIfmn4"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "jeremy-bailey--nail-art-museum",
+      "creator_ids": [
+        "jeremy-bailey"
+      ],
+      "title": "Nail Art Museum",
+      "year": 2014,
+      "description": "An AR 'museum' that places tiny artworks and gallery spaces on the artist's fingernails, parodying the art market.",
+      "idea_zh": "把美术馆缩小搬到指甲上",
+      "interaction": [
+        "hand-body",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "marker tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "40pSU5ZM784",
+        "url": "https://www.youtube.com/watch?v=40pSU5ZM784"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "jeremy-bailey--ai-weiwei-urn",
+      "creator_ids": [
+        "jeremy-bailey"
+      ],
+      "title": "Dropping an Ai Weiwei Urn in AR",
+      "year": 2015,
+      "description": "The artist re-enacts Ai Weiwei's famous urn-dropping photo with a virtual urn in AR.",
+      "idea_zh": "用AR重演艾未未摔瓮",
+      "interaction": [
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "JJhF4j8XkKk",
+        "url": "https://www.youtube.com/watch?v=JJhF4j8XkKk"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "jeremy-bailey--art-2019",
+      "creator_ids": [
+        "jeremy-bailey"
+      ],
+      "title": "ARt",
+      "year": 2019,
+      "description": "A deadpan performance-demo (for TEDxTheWrong) launching 'the world's first platform for augmented reality art', satirising AR hype with face- and body-tracked artworks.",
+      "idea_zh": "一本正经地演示AR艺术的荒诞",
+      "interaction": [
+        "hand-body",
+        "performance-stage"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "w0Gl5WR3A6o",
+        "url": "https://www.youtube.com/watch?v=w0Gl5WR3A6o"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "theo-triantafyllidis--studio-visit-portal",
+      "creator_ids": [
+        "theo-triantafyllidis"
+      ],
+      "title": "Studio Visit (mobile portal)",
+      "year": 2018,
+      "description": "A site-specific mixed-reality installation: a mobile AR portal opens from the gallery into a surreal virtual version of the artist's studio.",
+      "idea_zh": "手机AR传送门通往艺术家的怪诞工作室",
+      "interaction": [
+        "portal-world"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "ARKit"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "zCc_qfNEAeM",
+        "url": "https://www.youtube.com/watch?v=zCc_qfNEAeM"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "theo-triantafyllidis--all-my-confusing-pets",
+      "creator_ids": [
+        "theo-triantafyllidis"
+      ],
+      "title": "All My Confusing Pets",
+      "year": 2019,
+      "description": "A mixed-reality performance where the artist interacts with glitchy virtual pets composited into the real space.",
+      "idea_zh": "与一群混乱的虚拟宠物同台的混合现实表演",
+      "interaction": [
+        "performance-stage",
+        "game-play"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "Unity",
+        "mixed reality"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "WqdZMLGUfnE",
+        "url": "https://www.youtube.com/watch?v=WqdZMLGUfnE"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "theo-triantafyllidis--anti-gone",
+      "creator_ids": [
+        "theo-triantafyllidis"
+      ],
+      "title": "Anti-Gone",
+      "year": 2020,
+      "description": "A live mixed-reality performance (Sundance 2020) where a motion-captured performer drives an ork-like avatar through a simulated swamp in real time.",
+      "idea_zh": "动捕表演者实时驱动虚拟生物的沼泽剧场",
+      "interaction": [
+        "performance-stage",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "motion capture",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "qMvq9pYd2PI",
+        "url": "https://www.youtube.com/watch?v=qMvq9pYd2PI"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "sutu--modern-polaxis",
+      "creator_ids": [
+        "sutu"
+      ],
+      "title": "Modern Polaxis",
+      "year": 2014,
+      "description": "A printed comic about a paranoid time-traveller; pointing a phone at each page brings panels to life with animation, sound and 3D depth.",
+      "idea_zh": "用手机扫描实体漫画，每一页都活了起来",
+      "interaction": [
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "Unity",
+        "Vuforia"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "5jhDF0CJToA",
+        "url": "https://www.youtube.com/watch?v=5jhDF0CJToA"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "james-alliban--ar-business-card",
+      "creator_ids": [
+        "james-alliban"
+      ],
+      "title": "Augmented Reality Business Card",
+      "year": 2009,
+      "description": "Holding up his printed business card to a webcam makes a 3D video of the artist pop out of it and introduce himself.",
+      "idea_zh": "举起名片，名片上弹出会说话的3D本人",
+      "interaction": [
+        "tangible-object",
+        "voice-sound"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "FLARToolKit",
+        "Papervision3D",
+        "Flash"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "5qoucBw60jM",
+        "url": "https://www.youtube.com/watch?v=5qoucBw60jM"
+      },
+      "source_url": "https://jamesalliban.wordpress.com/2009/06/03/ar-business-card/"
+    },
+    {
+      "id": "james-alliban--augmented-ribbons",
+      "creator_ids": [
+        "james-alliban"
+      ],
+      "title": "Augmented Reality Ribbons",
+      "year": 2009,
+      "description": "Marker-tracked AR where flowing 3D ribbons spill out of a printed marker and follow its movement, reacting to music.",
+      "idea_zh": "从标记中涌出、随音乐飘动的AR丝带",
+      "interaction": [
+        "tangible-object",
+        "voice-sound",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "FLARToolKit",
+        "Flash"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "0K6YcVHhG1k",
+        "url": "https://www.youtube.com/watch?v=0K6YcVHhG1k"
+      },
+      "source_url": "https://jamesalliban.wordpress.com/2009/11/09/augmented-ribbons"
+    },
+    {
+      "id": "james-alliban--wallpaper-ar-issue",
+      "creator_ids": [
+        "james-alliban"
+      ],
+      "title": "Wallpaper* Augmented Reality issue",
+      "year": 2009,
+      "description": "A set of webcam AR pieces for Wallpaper* magazine's AR issue, bringing printed pages to life with animated 3D artworks.",
+      "idea_zh": "让设计杂志的纸页在摄像头前长出3D作品",
+      "interaction": [
+        "tangible-object",
+        "perception-art"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "FLARToolKit",
+        "Flash"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "hzSHcdwFuXs",
+        "url": "https://www.youtube.com/watch?v=hzSHcdwFuXs"
+      },
+      "source_url": "https://jamesalliban.wordpress.com/2009/12/23/wallpaper-augmented-reality-issue/"
+    },
+    {
+      "id": "james-alliban--traces",
+      "creator_ids": [
+        "james-alliban"
+      ],
+      "title": "Traces",
+      "year": 2011,
+      "description": "An interactive artwork using a Kinect camera that reflects visitors as trails of light, turning movement into drawings.",
+      "idea_zh": "Kinect把观众的动作变成光的轨迹",
+      "interaction": [
+        "hand-body",
+        "drawing-creation"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Kinect",
+        "openFrameworks"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "0KvCqF-dS2U",
+        "url": "https://www.youtube.com/watch?v=0KvCqF-dS2U"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nexus-studios--hotstepper",
+      "creator_ids": [
+        "nexus-studios"
+      ],
+      "title": "HotStepper",
+      "year": 2017,
+      "description": "The first AR character-based wayfinding app: enter any address and an animated character walks ahead of you through the real street to lead the way.",
+      "idea_zh": "一个AR小人走在你前面为你带路",
+      "interaction": [
+        "location-geo",
+        "game-play"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Mapbox"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "kR7RBUhnQmU",
+        "url": "https://www.youtube.com/watch?v=kR7RBUhnQmU"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nexus-studios--new-yorker-ar-cover",
+      "creator_ids": [
+        "nexus-studios"
+      ],
+      "title": "The New Yorker Innovators Issue AR Cover (with Christoph Niemann)",
+      "year": 2017,
+      "description": "Christoph Niemann's New Yorker cover of a subway platform opens in AR into a 3D Manhattan that rises out of the magazine.",
+      "idea_zh": "杂志封面上的地铁站升起整座立体曼哈顿",
+      "interaction": [
+        "tangible-object",
+        "portal-world"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ZIlFhkmSZEU",
+        "url": "https://www.youtube.com/watch?v=ZIlFhkmSZEU"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nexus-studios--bbc-civilisations-ar",
+      "creator_ids": [
+        "nexus-studios"
+      ],
+      "title": "BBC Civilisations AR",
+      "year": 2018,
+      "description": "An AR app with BBC R&D that places over 30 museum artefacts in your room, which you can inspect, x-ray and hear narrated.",
+      "idea_zh": "把博物馆文物搬进客厅，还能透视观察",
+      "interaction": [
+        "data-information",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "ARCore",
+        "Unity"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "YkOrx5xcgss",
+        "url": "https://www.youtube.com/watch?v=YkOrx5xcgss"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nexus-studios--childish-gambino-playmoji",
+      "creator_ids": [
+        "nexus-studios"
+      ],
+      "title": "Childish Gambino Playmoji (Google Pixel)",
+      "year": 2018,
+      "description": "A dancing AR Childish Gambino character for Pixel's Playground that reacts to the user and dances alongside people in the camera view.",
+      "idea_zh": "会和你同框跳舞的AR明星",
+      "interaction": [
+        "hand-body",
+        "performance-stage"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "Pixel Playground"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "DQTwJQfLH5M",
+        "url": "https://www.youtube.com/watch?v=DQTwJQfLH5M"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nexus-studios--whitehouse-ar",
+      "creator_ids": [
+        "nexus-studios"
+      ],
+      "title": "1600: White House AR (dollar bill)",
+      "year": 2018,
+      "description": "Point a phone at a US one-dollar bill to see a 3D White House rise from it and experience a year in the life of 1600 Pennsylvania Avenue.",
+      "idea_zh": "一美元钞票上长出立体白宫",
+      "interaction": [
+        "tangible-object",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "image tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "emiGJNa9gwg",
+        "url": "https://www.youtube.com/watch?v=emiGJNa9gwg"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nexus-studios--changdeok-arirang",
+      "creator_ids": [
+        "nexus-studios"
+      ],
+      "title": "Changdeok ARirang",
+      "year": 2019,
+      "description": "A location-based AR tour of Seoul's Changdeokgung palace with animated guides and historical stories anchored to the grounds.",
+      "idea_zh": "在昌德宫里由AR角色讲述历史",
+      "interaction": [
+        "location-geo",
+        "data-information"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "5G",
+        "AR"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "3-CEMYrtD-M",
+        "url": "https://www.youtube.com/watch?v=3-CEMYrtD-M"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nexus-studios--notable-women",
+      "creator_ids": [
+        "nexus-studios"
+      ],
+      "title": "Notable Women",
+      "year": 2019,
+      "description": "With Google and former US Treasurer Rosie Rios, the app puts portraits of historic American women onto US banknotes in AR.",
+      "idea_zh": "用AR把杰出女性的头像印到美元上",
+      "interaction": [
+        "tangible-object",
+        "face"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "image tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "DuxXeeGg-T0",
+        "url": "https://www.youtube.com/watch?v=DuxXeeGg-T0"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "nexus-studios--back-to-the-moon-ar",
+      "creator_ids": [
+        "nexus-studios"
+      ],
+      "title": "Back to the Moon AR",
+      "year": 2019,
+      "description": "An AR version of the Emmy-nominated Google Spotlight Story about Georges Méliès, letting the animated film play out on your table.",
+      "idea_zh": "梅里爱的月球奇遇在桌面上AR重演",
+      "interaction": [
+        "spatial-mapping",
+        "portal-world"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARCore",
+        "Google Spotlight Stories"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "WX9KuX7F9y0",
+        "url": "https://www.youtube.com/watch?v=WX9KuX7F9y0"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "pablo-valbuena--augmented-sculpture",
+      "creator_ids": [
+        "pablo-valbuena"
+      ],
+      "title": "Augmented Sculpture v1.2",
+      "year": 2007,
+      "description": "A white geometric sculpture is overlaid with precisely mapped projected light, so edges, planes and shadows appear to move, fold and rebuild the physical form.",
+      "idea_zh": "用精确投影让静止的白色体块产生时空变形",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "5nzhV0x3_qM",
+        "url": "https://www.youtube.com/watch?v=5nzhV0x3_qM"
+      },
+      "source_url": "http://www.pablovalbuena.com"
+    },
+    {
+      "id": "pablo-valbuena--augmented-space-hague",
+      "creator_ids": [
+        "pablo-valbuena"
+      ],
+      "title": "Augmented Space (The Hague City Hall)",
+      "year": 2008,
+      "description": "Architectural projection on The Hague city hall that traces and animates the building's own structural lines.",
+      "idea_zh": "沿着建筑自身结构线投影，让市政厅立面'活'过来",
+      "interaction": [
+        "projection",
+        "location-geo"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "eGzBayXZOJw",
+        "url": "https://www.youtube.com/watch?v=eGzBayXZOJw"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "pablo-valbuena--para-site",
+      "creator_ids": [
+        "pablo-valbuena"
+      ],
+      "title": "Para-Site (Mattress Factory)",
+      "year": 2011,
+      "description": "Site-specific video projection on the architecture of the Mattress Factory, with light that seems to crawl along corners and surfaces.",
+      "idea_zh": "寄生在建筑角落上的光线投影",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "h4XQAOH7liE",
+        "url": "https://www.youtube.com/watch?v=h4XQAOH7liE"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "pablo-valbuena--re-flex",
+      "creator_ids": [
+        "pablo-valbuena"
+      ],
+      "title": "re-flex (Z33)",
+      "year": 2012,
+      "description": "A projected light installation for Z33 that reveals and distorts the geometry of the room, discussed by the artist.",
+      "idea_zh": "光线揭示并扭曲房间几何的装置",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "ixrj2kFhGik",
+        "url": "https://www.youtube.com/watch?v=ixrj2kFhGik"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "joanie-lemercier--antivj-projection-on-building",
+      "creator_ids": [
+        "joanie-lemercier"
+      ],
+      "title": "AntiVJ - projection on building",
+      "year": 2006,
+      "description": "An early experiment projecting live visuals onto a building and playing with its existing architecture, a seed of the AntiVJ label's mapping style.",
+      "idea_zh": "早期把实时视觉投到建筑上并与其结构互动的实验",
+      "interaction": [
+        "projection",
+        "location-geo"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping",
+        "VJ software"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "L64-nqZsgjo",
+        "url": "https://www.youtube.com/watch?v=L64-nqZsgjo"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "joanie-lemercier--antivj-grote-kerk",
+      "creator_ids": [
+        "joanie-lemercier"
+      ],
+      "title": "AntiVJ - Grote Kerk",
+      "year": 2008,
+      "description": "A live audiovisual projection performance on the interior of the Grote Kerk cathedral in Breda.",
+      "idea_zh": "在大教堂内部进行的现场投影表演",
+      "interaction": [
+        "projection",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "OksyXOMTnG4",
+        "url": "https://www.youtube.com/watch?v=OksyXOMTnG4"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "joanie-lemercier--antivj-songdo",
+      "creator_ids": [
+        "joanie-lemercier"
+      ],
+      "title": "AntiVJ - SONGDO",
+      "year": 2009,
+      "description": "An audiovisual projection performance on architecture in New Songdo City, South Korea.",
+      "idea_zh": "在韩国新松岛城建筑上的视听投影",
+      "interaction": [
+        "projection",
+        "performance-stage",
+        "location-geo"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "8tQpubnD0LQ",
+        "url": "https://www.youtube.com/watch?v=8tQpubnD0LQ"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "joanie-lemercier--eyjafjallajokull",
+      "creator_ids": [
+        "joanie-lemercier"
+      ],
+      "title": "Eyjafjallajökull",
+      "year": 2011,
+      "description": "Light is projected onto a hand-drawn wireframe mountain so the drawing appears to erupt, shift and transform into a volcano.",
+      "idea_zh": "投影让手绘线稿山体仿佛火山喷发",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "hmV1rTUlJ2s",
+        "url": "https://www.youtube.com/watch?v=hmV1rTUlJ2s"
+      },
+      "source_url": "https://joanielemercier.com"
+    },
+    {
+      "id": "joanie-lemercier--fuji",
+      "creator_ids": [
+        "joanie-lemercier"
+      ],
+      "title": "FUJI",
+      "year": 2014,
+      "description": "A 14-minute installation where projection over a large drawing of Mount Fuji creates shifting light, weather and geometric illusions.",
+      "idea_zh": "投影在富士山素描上营造光影与天气",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "gVuWcyXHMoI",
+        "url": "https://www.youtube.com/watch?v=gVuWcyXHMoI"
+      },
+      "source_url": "https://joanielemercier.com/fuji/"
+    },
+    {
+      "id": "joanie-lemercier--blueprint",
+      "creator_ids": [
+        "joanie-lemercier"
+      ],
+      "title": "Blueprint",
+      "year": 2015,
+      "description": "A 15-minute audiovisual installation of projected light on a technical line drawing, exploring the blueprint as the origin of structures.",
+      "idea_zh": "光在蓝图线稿上建构与解构",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "OozmLRPL1zQ",
+        "url": "https://www.youtube.com/watch?v=OozmLRPL1zQ"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "teamlab--sketch-aquarium",
+      "creator_ids": [
+        "teamlab"
+      ],
+      "title": "Sketch Aquarium",
+      "year": 2013,
+      "description": "Children colour paper fish that are scanned and immediately swim in a giant projected aquarium, where they react when touched.",
+      "idea_zh": "孩子画的鱼被扫描进投影水族馆里游动",
+      "interaction": [
+        "drawing-creation",
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "scanner",
+        "real-time rendering"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "AnAqB7LZUb8",
+        "url": "https://www.youtube.com/watch?v=AnAqB7LZUb8"
+      },
+      "source_url": "https://www.teamlab.art/w/aquarium/"
+    },
+    {
+      "id": "teamlab--sketch-town",
+      "creator_ids": [
+        "teamlab"
+      ],
+      "title": "Sketch Town",
+      "year": 2014,
+      "description": "Hand-drawn cars, buildings and UFOs are scanned into a shared 3D projected town where they drive and fly, and can be touched.",
+      "idea_zh": "手绘的车与房子进入共享的投影城市",
+      "interaction": [
+        "drawing-creation",
+        "projection",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "scanner",
+        "real-time 3D"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "kQ_17zapssI",
+        "url": "https://www.youtube.com/watch?v=kQ_17zapssI"
+      },
+      "source_url": "https://www.teamlab.art/w/sketchtown"
+    },
+    {
+      "id": "teamlab--flowers-and-people",
+      "creator_ids": [
+        "teamlab"
+      ],
+      "title": "Flowers and People, Cannot be Controlled but Live Together",
+      "year": 2015,
+      "description": "Projected flowers bloom and wither across the walls through the seasons; when visitors touch or stand still, petals scatter or grow around them.",
+      "idea_zh": "投影花朵因观众的触碰与停留而绽放或凋落",
+      "interaction": [
+        "projection",
+        "hand-body",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "real-time rendering",
+        "sensors"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "arafX3Es6JQ",
+        "url": "https://www.youtube.com/watch?v=arafX3Es6JQ"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "teamlab--graffiti-nature",
+      "creator_ids": [
+        "teamlab"
+      ],
+      "title": "Graffiti Nature",
+      "year": 2016,
+      "description": "Drawn animals and plants are scanned into a projected room-sized ecosystem where they eat each other and flee when visitors step on them.",
+      "idea_zh": "画出的动物进入会被踩、会捕食的投影生态",
+      "interaction": [
+        "drawing-creation",
+        "projection",
+        "game-play"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "scanner",
+        "real-time rendering"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "OomhbW3bffs",
+        "url": "https://www.youtube.com/watch?v=OomhbW3bffs"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "moment-factory--sagrada-familia",
+      "creator_ids": [
+        "moment-factory"
+      ],
+      "title": "Sagrada Familia - Ode à la Vie",
+      "year": 2012,
+      "description": "A monumental projection-mapping show on Gaudí's Sagrada Família façade for La Mercè festival, making the stone appear to grow, flood and bloom.",
+      "idea_zh": "让圣家堂石墙生长、涌流、开花的投影秀",
+      "interaction": [
+        "projection",
+        "location-geo",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "RS-OTtIsBKY",
+        "url": "https://www.youtube.com/watch?v=RS-OTtIsBKY"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "moment-factory--foresta-lumina",
+      "creator_ids": [
+        "moment-factory"
+      ],
+      "title": "Foresta Lumina",
+      "year": 2014,
+      "description": "An illuminated night walk through a forest in Coaticook, Quebec, with projection, light and sound that tell a story along the trail.",
+      "idea_zh": "夜晚森林步道上的光影叙事",
+      "interaction": [
+        "projection",
+        "location-geo"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection",
+        "interactive lighting"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "AIMcZtSUiFo",
+        "url": "https://www.youtube.com/watch?v=AIMcZtSUiFo"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "moment-factory--aura-notre-dame",
+      "creator_ids": [
+        "moment-factory"
+      ],
+      "title": "AURA",
+      "year": 2017,
+      "description": "Projection mapping and light transform the interior of Montreal's Notre-Dame Basilica into an immersive audiovisual experience.",
+      "idea_zh": "把教堂内部变成沉浸式光影空间",
+      "interaction": [
+        "projection",
+        "location-geo",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "FV3XdOda3zM",
+        "url": "https://www.youtube.com/watch?v=FV3XdOda3zM"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "moment-factory--augmented-games",
+      "creator_ids": [
+        "moment-factory"
+      ],
+      "title": "Augmented Games",
+      "year": 2021,
+      "description": "Motion-tracked floor and wall projection that turns any space into a physical video-game playground and sports court.",
+      "idea_zh": "把任何场地变成可以跑跳的投影游戏场",
+      "interaction": [
+        "projection",
+        "game-play",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "motion tracking",
+        "projection"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "jhLKSY6NB5I",
+        "url": "https://www.youtube.com/watch?v=jhLKSY6NB5I"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "heavy-projects--re-public-mural",
+      "creator_ids": [
+        "heavy-projects"
+      ],
+      "title": "Re+Public AR mural",
+      "year": 2014,
+      "description": "Re+Public's AR app animates large street murals: pointing a phone at the wall makes the painted characters and shapes come alive.",
+      "idea_zh": "对准街头壁画，画中形象立刻动起来",
+      "interaction": [
+        "location-geo",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "image tracking"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "S20tCj5veFw",
+        "url": "https://www.youtube.com/watch?v=S20tCj5veFw"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "studio-drift--concrete-storm",
+      "creator_ids": [
+        "studio-drift"
+      ],
+      "title": "Concrete Storm",
+      "year": 2017,
+      "description": "Commissioned by Microsoft and Artsy, a mixed-reality artwork on HoloLens where virtual concrete pillars appear in a real room and shift as the viewer walks between them.",
+      "idea_zh": "HoloLens里的虚拟混凝土柱林随脚步变化",
+      "interaction": [
+        "spatial-mapping",
+        "perception-art"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "HoloLens"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Qurs9QSz_KA",
+        "url": "https://www.youtube.com/watch?v=Qurs9QSz_KA"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "marina-abramovic--the-life",
+      "creator_ids": [
+        "marina-abramovic"
+      ],
+      "title": "The Life",
+      "year": 2019,
+      "description": "The first mixed-reality performance artwork: a 19-minute volumetric capture of Abramović appears in the room through an MR headset, walking within a marked circle.",
+      "idea_zh": "通过MR头显，艺术家的全息分身在你面前表演",
+      "interaction": [
+        "performance-stage",
+        "spatial-mapping"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "volumetric capture",
+        "Magic Leap"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "VeajXYdTEiE",
+        "url": "https://www.youtube.com/watch?v=VeajXYdTEiE"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "kimchi-and-chips--light-barrier",
+      "creator_ids": [
+        "kimchi-and-chips"
+      ],
+      "title": "Light Barrier",
+      "year": 2014,
+      "description": "Projected light is reflected by 200 curved mirrors into haze, forming floating volumetric shapes that seem to exist in mid-air.",
+      "idea_zh": "镜面阵列把投影光折射进雾中，形成悬浮光体",
+      "interaction": [
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection",
+        "mirror arrays",
+        "haze"
+      ],
+      "video": {
+        "platform": "youtube",
+        "id": "Dp7c_0v2TRw",
+        "url": "https://www.youtube.com/watch?v=Dp7c_0v2TRw"
+      },
+      "source_url": ""
+    }
+  ],
+  "leads": [
+    {
+      "name": "Simon Pyke (Freefarm)",
+      "why": "Sound designer and Matt Pyke's brother; long-time audio collaborator on Universal Everything works.",
+      "link": "https://www.universaleverything.com/people",
+      "found_via": "universal-everything"
+    },
+    {
+      "name": "Benjamin Millepied / L.A. Dance Project",
+      "why": "Choreographer whose motion-captured dancers drove Universal Everything's Presence and 1000 Hands era works.",
+      "link": "https://www.universaleverything.com/art/presence",
+      "found_via": "universal-everything"
+    },
+    {
+      "name": "The Designers Republic (Ian Anderson)",
+      "why": "Sheffield studio where Matt Pyke worked before founding Universal Everything.",
+      "link": "https://www.thedesignersrepublic.com",
+      "found_via": "universal-everything"
+    },
+    {
+      "name": "Stanley Donwood / Radiohead PolyFauna",
+      "why": "Radiohead's PolyFauna app (with Universal Everything) is an early generative, camera/gyro-driven spatial art app.",
+      "link": "https://www.universaleverything.com/design/polyfauna",
+      "found_via": "universal-everything"
+    },
+    {
+      "name": "Bradley 'GMUNK' Munkowitz",
+      "why": "Director of Bot & Dolly's Box; projection and motion-control design.",
+      "link": "https://gmunk.com/BOX",
+      "found_via": "bot-and-dolly"
+    },
+    {
+      "name": "Romain Tardy",
+      "why": "AntiVJ co-founder; architectural projection works such as O (Omicron) in Wroclaw and The Drift.",
+      "link": "https://www.youtube.com/watch?v=NvtKhJM87rU",
+      "found_via": "joanie-lemercier"
+    },
+    {
+      "name": "Yannick Jacquet (Legoman)",
+      "why": "AntiVJ co-founder working with projection on architecture and sculpture.",
+      "link": "https://www.youtube.com/watch?v=OksyXOMTnG4",
+      "found_via": "joanie-lemercier"
+    },
+    {
+      "name": "Damian Stewart",
+      "why": "Co-developer of The Artvertiser's AR tracking; Berlin media artist.",
+      "link": "https://www.youtube.com/watch?v=2xs7ybQjpGI",
+      "found_via": "julian-oliver"
+    },
+    {
+      "name": "Danja Vasiliev",
+      "why": "Critical engineer; collaborator of Julian Oliver (Newstweek, reality-manipulation devices).",
+      "link": "https://www.youtube.com/watch?v=-Oig5BTGhcc",
+      "found_via": "julian-oliver"
+    },
+    {
+      "name": "Motoi Ishibashi / MIKIKO (ELEVENPLAY)",
+      "why": "Rhizomatiks co-founder and choreographer behind the drone/AR dance works.",
+      "link": "https://rhizomatiks.com",
+      "found_via": "daito-manabe"
+    },
+    {
+      "name": "Will Pappenheimer",
+      "why": "Manifest.AR founding member making geolocated AR interventions.",
+      "link": "https://www.willpap-projects.com",
+      "found_via": "tamiko-thiel"
+    },
+    {
+      "name": "Christopher Manzione",
+      "why": "Manifest.AR member; AR sculptures in public space.",
+      "link": "",
+      "found_via": "tamiko-thiel"
+    },
+    {
+      "name": "Raymond Salvatore Harmon",
+      "why": "MIRAGE: architectural-scale painting that becomes an AR app.",
+      "link": "https://www.youtube.com/watch?v=rhtFEY1Bk54",
+      "found_via": "heavy-projects"
+    },
+    {
+      "name": "Marshmallow Laser Feast",
+      "why": "Immersive studio; mostly VR/installations, check for projection/MR pieces (Laser Forest, Meet Your Creator).",
+      "link": "https://www.marshmallowlaserfeast.com",
+      "found_via": "universal-everything"
+    },
+    {
+      "name": "Anna Zhilyaeva",
+      "why": "Live VR painter; work is VR not AR, but mixed-reality performances could qualify.",
+      "link": "https://www.youtube.com/@Annadreambrush",
+      "found_via": "seed"
+    },
+    {
+      "name": "Olafur Eliasson",
+      "why": "Could be his own creator entry: Wunderkammer (AR) plus Rainbow and other Acute Art works.",
+      "link": "https://olafureliasson.net/press/wunderkammer",
+      "found_via": "acute-art"
+    },
+    {
+      "name": "KAWS",
+      "why": "Expanded Holiday AR and KAWS: New Fiction (Serpentine, 2022) AR/game show.",
+      "link": "https://acuteart.com",
+      "found_via": "acute-art"
+    },
+    {
+      "name": "Precious Okoyomon / The Looking Glass (The Shed)",
+      "why": "Acute Art AR group show at The Shed (2021) with Darren Bader, Alicja Kwade, Okoyomon and others.",
+      "link": "https://www.youtube.com/watch?v=AG_NXEvKxBU",
+      "found_via": "acute-art"
+    },
+    {
+      "name": "Rachel Rossin",
+      "why": "Artist working across VR/AR and painting; AR works to check.",
+      "link": "https://rossin.co",
+      "found_via": "theo-triantafyllidis"
+    },
+    {
+      "name": "Kyle McDonald",
+      "why": "Co-created discrete figures with Rhizomatiks (covered by creative-coding cluster).",
+      "link": "https://kylemcdonald.net",
+      "found_via": "daito-manabe"
+    },
+    {
+      "name": "Marlena Myles (Dakota Spirit Walk)",
+      "why": "Permanent AR public art honouring Dakota culture in St. Paul.",
+      "link": "https://www.youtube.com/watch?v=nxo1UIyZR-Y",
+      "found_via": "nancy-baker-cahill"
+    },
+    {
+      "name": "Tin Drum",
+      "why": "Producer of Marina Abramović's The Life; mixed-reality art production.",
+      "link": "https://www.youtube.com/watch?v=VeajXYdTEiE",
+      "found_via": "marina-abramovic"
+    }
+  ]
+}
