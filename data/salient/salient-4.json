@@ -1,142 +1,177 @@
 {
-  "random-international--rain-room": {
-    "why_en": "Rain falls everywhere except on you, so your body becomes the one dry spot in a storm.",
-    "why_zh": "雨处处落下，唯独避开你，你的身体成了暴雨中唯一干燥的地方。"
-  },
-  "camille-utterback--text-rain": {
-    "why_en": "Letters of a poem fall like rain and pile up on your silhouette, so reading becomes a physical act.",
-    "why_zh": "诗句的字母像雨一样落下，堆在你的身影上，阅读变成了身体动作。"
-  },
-  "ivan-poupyrev--ishin-den-shin": {
-    "why_en": "Touching someone's ear passes a whisper through your finger, so a message travels by touch alone.",
-    "why_zh": "用手指碰一下对方的耳朵，悄悄话就顺着身体传过去，信息只靠触碰传递。"
-  },
-  "oliver-kreylos--ar-sandbox": {
-    "why_en": "Pile up real sand and contour lines and water follow it instantly, so shaping a landscape is just moving sand.",
-    "why_zh": "用手堆沙，等高线和水流立刻跟着变化，塑造地形就是推动沙子。"
-  },
-  "nintendo--face-raiders": {
-    "why_en": "Your own face turns into the enemy that bursts through the walls of your room.",
-    "why_zh": "你自己的脸变成敌人，从房间墙壁里破墙而出。"
-  },
-  "otavio-good--word-lens": {
-    "why_en": "Point the camera at a foreign sign and the words are replaced in place by your language.",
-    "why_zh": "把镜头对准外文招牌，上面的字就地换成你的语言。"
-  },
-  "scott-snibbe--shadow": {
-    "why_en": "After you walk away your shadow stays behind and repeats what you just did.",
-    "why_zh": "你走开之后，影子留在原地，重复你刚才的动作。"
-  },
-  "rafael-lozano-hemmer--under-scan": {
-    "why_en": "A stranger's portrait appears inside your shadow and looks up at you, turning a passing shadow into a meeting.",
-    "why_zh": "陌生人的影像出现在你的影子里抬头看你，路过的影子变成了一次相遇。"
-  },
-  "rafael-lozano-hemmer--body-movies": {
-    "why_en": "Hidden portraits on a facade only show inside passers-by's giant shadows, so your shadow is the window.",
-    "why_zh": "建筑立面上的肖像只在路人的巨大影子里显现，你的影子就是窗口。"
-  },
-  "theo-watson--daisies": {
-    "why_en": "Flowers wilt under your feet and grow back after you leave, so your presence leaves a visible mark.",
-    "why_zh": "花朵在你脚下枯萎，你离开后又重新长出，你的存在留下看得见的痕迹。"
-  },
-  "camille-utterback--liquid-time": {
-    "why_en": "The closer you step to the image, the further that patch slips into the past, so distance becomes time.",
-    "why_zh": "你离画面越近，那一块就越退回过去，距离变成了时间。"
-  },
-  "scott-snibbe--boundary-functions": {
-    "why_en": "Lines drawn between people on the floor show each person's personal space, which shrinks as more people arrive.",
-    "why_zh": "地面上人与人之间画出的线标出每个人的个人空间，人越多，空间越小。"
-  },
-  "rafael-lozano-hemmer--sandbox": {
-    "why_en": "The hand you put in a small sandbox appears as a giant hand over the whole beach.",
-    "why_zh": "你伸进小沙盒的手，被投影成覆盖整片海滩的巨手。"
-  },
-  "chris-oshea--hand-from-above": {
-    "why_en": "A giant hand reaches into the big-screen feed of a square and picks up passers-by like toys.",
-    "why_zh": "一只巨手伸进广场大屏幕的实时画面，把路人像玩具一样拎起来。"
-  },
-  "mark-skwarek--leak-in-your-hometown": {
-    "why_en": "Point at any BP logo and crude oil gushes out of it, turning a brand into the scene of its own spill.",
-    "why_zh": "对准任何 BP 标志，原油就从里面喷涌而出，品牌变成了它自己的漏油现场。"
-  },
-  "julian-oliver--the-artvertiser": {
-    "why_en": "Look through binoculars and street ads are replaced by artworks, so you can switch off advertising.",
-    "why_zh": "透过望远镜看，街头广告被换成艺术作品，广告可以被你关掉。"
-  },
-  "golan-levin--eyeshine": {
-    "why_en": "The glint in your own eyes is caught and shown back so they glow like a night animal's.",
-    "why_zh": "捕捉你眼中的反光再显示给你看，你的眼睛像夜行动物一样发亮。"
-  },
-  "olafur-eliasson--your-uncertain-shadow-colour": {
-    "why_en": "Five colored lamps split one shadow into a row of colored shadows that move with you.",
-    "why_zh": "五盏彩色灯把一个影子拆成一排彩色影子，跟着你一起移动。"
-  },
-  "golan-levin--messa-di-voce-installation": {
-    "why_en": "Your voice grows visible shapes out of your mouth that you can then push around with your body.",
-    "why_zh": "你的声音从嘴里长出看得见的形状，你还能用身体推动它们。"
-  },
-  "chris-oshea--body-swap": {
-    "why_en": "You control the on-screen body of the person beside you while they control yours.",
-    "why_zh": "你操控身旁那个人在屏幕上的身体，对方则操控你的。"
-  },
-  "msr-benko-wilson--lightspace": {
-    "why_en": "Scoop a projected photo off the table, carry it in your hand and pour it onto the wall, as if data were liquid.",
-    "why_zh": "把投影照片从桌上捧起，托在手里，再倒到墙上，数据像液体一样可以搬运。"
-  },
-  "jun-rekimoto--pick-and-drop": {
-    "why_en": "Pick up a file with a pen on one screen and drop it on another, treating data as a physical object.",
-    "why_zh": "用笔在一块屏幕上拿起文件，放到另一块屏幕上，数据被当作实物对待。"
-  },
-  "chris-oshea--out-of-bounds": {
-    "why_en": "Shine an X-ray flashlight at a wall and see the hidden room behind it.",
-    "why_zh": "用一支 X 光手电照向墙壁，就能看到墙后隐藏的空间。"
-  },
-  "tamiko-thiel--carnation-rain": {
-    "why_en": "Virtual carnations rain down on the square where the Carnation Revolution happened, marking history in place.",
-    "why_zh": "虚拟康乃馨落在康乃馨革命发生的广场上，在原地标记这段历史。"
-  },
-  "blair-macintyre--voices-of-oakland": {
-    "why_en": "Walk through a cemetery and hear the people buried there tell their stories at their own graves.",
-    "why_zh": "走进墓园，在每座坟前听安葬在那里的人讲自己的故事。"
-  },
-  "sander-veenhof--we-ar-in-moma": {
-    "why_en": "An uninvited AR show hangs inside MoMA, showing that no one controls who exhibits in virtual space.",
-    "why_zh": "一场未经邀请的 AR 展览挂进了 MoMA，说明虚拟空间里没人能决定谁来展出。"
-  },
-  "teamlab--sketch-aquarium": {
-    "why_en": "A fish a child colors on paper is scanned in and swims away in the shared aquarium.",
-    "why_zh": "孩子在纸上涂色的鱼被扫描进去，在共享的水族馆里游走。"
-  },
-  "krzysztof-wodiczko--tijuana-projection": {
-    "why_en": "A factory worker's live face and voice fill a giant public dome, so an unheard person takes over a monument.",
-    "why_zh": "工厂女工的实时面孔和声音占满巨大的公共球幕，平时无人倾听的人接管了一座地标。"
-  },
-  "rafael-lozano-hemmer--subtitled-public": {
-    "why_en": "Each visitor is labeled with a projected verb, and the only way to pass it on is to touch someone else.",
-    "why_zh": "每位访客身上都投着一个动词，要摆脱它，只能去触碰别人。"
-  },
-  "chris-sugrue--delicate-boundaries": {
-    "why_en": "Light bugs crawl out of the screen and onto the hand that touches it, so the image escapes its frame.",
-    "why_zh": "光做的小虫从屏幕里爬出来，爬到触碰屏幕的手上，画面逃出了边框。"
-  },
-  "zach-lieberman--the-eyewriter": {
-    "why_en": "A paralyzed graffiti artist draws with his eyes and the tags appear live on city buildings.",
-    "why_zh": "一位瘫痪的涂鸦艺术家用眼睛画画，作品实时出现在城市建筑上。"
-  },
-  "karolina-sobecka--wildlife": {
-    "why_en": "A projected tiger runs along the buildings beside a moving car, keeping pace and stopping when the car stops.",
-    "why_zh": "投影出的老虎沿着街边建筑与行驶的汽车并肩奔跑，车停它也停。"
-  },
-  "julian-oliver--levelhead": {
-    "why_en": "Rooms hide inside a cube in your hand, and tilting the real cube walks a tiny figure through them.",
-    "why_zh": "几个房间藏在你手中的方块里，倾斜真实的方块就能带小人穿过它们。"
-  },
-  "random-international--audience": {
-    "why_en": "A crowd of mirrors turns in unison to stare at you, so the visitor becomes the one being watched.",
-    "why_zh": "一群镜子齐刷刷转向盯着你，观众变成了被观看的人。"
-  },
-  "valentin-heun--reality-editor-programming": {
-    "why_en": "Drag a line between two real objects on your phone and they are wired together.",
-    "why_zh": "在手机画面里从一个实物拉一条线到另一个实物，它们就被连接起来。"
-  }
+ "random-international--rain-room": {
+  "why_en": "Rain falls everywhere except on you, so your body becomes the one dry spot in a storm.",
+  "why_zh": "雨处处落下，唯独避开你，你的身体成了暴雨中唯一干燥的地方。",
+  "cat": "body"
+ },
+ "camille-utterback--text-rain": {
+  "why_en": "Letters of a poem fall like rain and pile up on your silhouette, so reading becomes a physical act.",
+  "why_zh": "诗句的字母像雨一样落下，堆在你的身影上，阅读变成了身体动作。",
+  "cat": "shadow"
+ },
+ "ivan-poupyrev--ishin-den-shin": {
+  "why_en": "Touching someone's ear passes a whisper through your finger, so a message travels by touch alone.",
+  "why_zh": "用手指碰一下对方的耳朵，悄悄话就顺着身体传过去，信息只靠触碰传递。",
+  "cat": "sound"
+ },
+ "oliver-kreylos--ar-sandbox": {
+  "why_en": "Pile up real sand and contour lines and water follow it instantly, so shaping a landscape is just moving sand.",
+  "why_zh": "用手堆沙，等高线和水流立刻跟着变化，塑造地形就是推动沙子。",
+  "cat": "alive"
+ },
+ "nintendo--face-raiders": {
+  "why_en": "Your own face turns into the enemy that bursts through the walls of your room.",
+  "why_zh": "你自己的脸变成敌人，从房间墙壁里破墙而出。",
+  "cat": "play"
+ },
+ "otavio-good--word-lens": {
+  "why_en": "Point the camera at a foreign sign and the words are replaced in place by your language.",
+  "why_zh": "把镜头对准外文招牌，上面的字就地换成你的语言。",
+  "cat": "rewrite"
+ },
+ "scott-snibbe--shadow": {
+  "why_en": "After you walk away your shadow stays behind and repeats what you just did.",
+  "why_zh": "你走开之后，影子留在原地，重复你刚才的动作。",
+  "cat": "shadow"
+ },
+ "rafael-lozano-hemmer--under-scan": {
+  "why_en": "A stranger's portrait appears inside your shadow and looks up at you, turning a passing shadow into a meeting.",
+  "why_zh": "陌生人的影像出现在你的影子里抬头看你，路过的影子变成了一次相遇。",
+  "cat": "shadow"
+ },
+ "rafael-lozano-hemmer--body-movies": {
+  "why_en": "Hidden portraits on a facade only show inside passers-by's giant shadows, so your shadow is the window.",
+  "why_zh": "建筑立面上的肖像只在路人的巨大影子里显现，你的影子就是窗口。",
+  "cat": "shadow"
+ },
+ "theo-watson--daisies": {
+  "why_en": "Flowers wilt under your feet and grow back after you leave, so your presence leaves a visible mark.",
+  "why_zh": "花朵在你脚下枯萎，你离开后又重新长出，你的存在留下看得见的痕迹。",
+  "cat": "time"
+ },
+ "camille-utterback--liquid-time": {
+  "why_en": "The closer you step to the image, the further that patch slips into the past, so distance becomes time.",
+  "why_zh": "你离画面越近，那一块就越退回过去，距离变成了时间。",
+  "cat": "time"
+ },
+ "scott-snibbe--boundary-functions": {
+  "why_en": "Lines drawn between people on the floor show each person's personal space, which shrinks as more people arrive.",
+  "why_zh": "地面上人与人之间画出的线标出每个人的个人空间，人越多，空间越小。",
+  "cat": "invisible"
+ },
+ "rafael-lozano-hemmer--sandbox": {
+  "why_en": "The hand you put in a small sandbox appears as a giant hand over the whole beach.",
+  "why_zh": "你伸进小沙盒的手，被投影成覆盖整片海滩的巨手。",
+  "cat": "body"
+ },
+ "chris-oshea--hand-from-above": {
+  "why_en": "A giant hand reaches into the big-screen feed of a square and picks up passers-by like toys.",
+  "why_zh": "一只巨手伸进广场大屏幕的实时画面，把路人像玩具一样拎起来。",
+  "cat": "play"
+ },
+ "mark-skwarek--leak-in-your-hometown": {
+  "why_en": "Point at any BP logo and crude oil gushes out of it, turning a brand into the scene of its own spill.",
+  "why_zh": "对准任何 BP 标志，原油就从里面喷涌而出，品牌变成了它自己的漏油现场。",
+  "cat": "rewrite"
+ },
+ "julian-oliver--the-artvertiser": {
+  "why_en": "Look through binoculars and street ads are replaced by artworks, so you can switch off advertising.",
+  "why_zh": "透过望远镜看，街头广告被换成艺术作品，广告可以被你关掉。",
+  "cat": "rewrite"
+ },
+ "golan-levin--eyeshine": {
+  "why_en": "The glint in your own eyes is caught and shown back so they glow like a night animal's.",
+  "why_zh": "捕捉你眼中的反光再显示给你看，你的眼睛像夜行动物一样发亮。",
+  "cat": "body"
+ },
+ "olafur-eliasson--your-uncertain-shadow-colour": {
+  "why_en": "Five colored lamps split one shadow into a row of colored shadows that move with you.",
+  "why_zh": "五盏彩色灯把一个影子拆成一排彩色影子，跟着你一起移动。",
+  "cat": "shadow"
+ },
+ "golan-levin--messa-di-voce-installation": {
+  "why_en": "Your voice grows visible shapes out of your mouth that you can then push around with your body.",
+  "why_zh": "你的声音从嘴里长出看得见的形状，你还能用身体推动它们。",
+  "cat": "sound"
+ },
+ "chris-oshea--body-swap": {
+  "why_en": "You control the on-screen body of the person beside you while they control yours.",
+  "why_zh": "你操控身旁那个人在屏幕上的身体，对方则操控你的。",
+  "cat": "body"
+ },
+ "msr-benko-wilson--lightspace": {
+  "why_en": "Scoop a projected photo off the table, carry it in your hand and pour it onto the wall, as if data were liquid.",
+  "why_zh": "把投影照片从桌上捧起，托在手里，再倒到墙上，数据像液体一样可以搬运。",
+  "cat": "alive"
+ },
+ "jun-rekimoto--pick-and-drop": {
+  "why_en": "Pick up a file with a pen on one screen and drop it on another, treating data as a physical object.",
+  "why_zh": "用笔在一块屏幕上拿起文件，放到另一块屏幕上，数据被当作实物对待。",
+  "cat": "alive"
+ },
+ "chris-oshea--out-of-bounds": {
+  "why_en": "Shine an X-ray flashlight at a wall and see the hidden room behind it.",
+  "why_zh": "用一支 X 光手电照向墙壁，就能看到墙后隐藏的空间。",
+  "cat": "portal"
+ },
+ "tamiko-thiel--carnation-rain": {
+  "why_en": "Virtual carnations rain down on the square where the Carnation Revolution happened, marking history in place.",
+  "why_zh": "虚拟康乃馨落在康乃馨革命发生的广场上，在原地标记这段历史。",
+  "cat": "time"
+ },
+ "blair-macintyre--voices-of-oakland": {
+  "why_en": "Walk through a cemetery and hear the people buried there tell their stories at their own graves.",
+  "why_zh": "走进墓园，在每座坟前听安葬在那里的人讲自己的故事。",
+  "cat": "sound"
+ },
+ "sander-veenhof--we-ar-in-moma": {
+  "why_en": "An uninvited AR show hangs inside MoMA, showing that no one controls who exhibits in virtual space.",
+  "why_zh": "一场未经邀请的 AR 展览挂进了 MoMA，说明虚拟空间里没人能决定谁来展出。",
+  "cat": "rewrite"
+ },
+ "teamlab--sketch-aquarium": {
+  "why_en": "A fish a child colors on paper is scanned in and swims away in the shared aquarium.",
+  "why_zh": "孩子在纸上涂色的鱼被扫描进去，在共享的水族馆里游走。",
+  "cat": "alive"
+ },
+ "krzysztof-wodiczko--tijuana-projection": {
+  "why_en": "A factory worker's live face and voice fill a giant public dome, so an unheard person takes over a monument.",
+  "why_zh": "工厂女工的实时面孔和声音占满巨大的公共球幕，平时无人倾听的人接管了一座地标。",
+  "cat": "rewrite"
+ },
+ "rafael-lozano-hemmer--subtitled-public": {
+  "why_en": "Each visitor is labeled with a projected verb, and the only way to pass it on is to touch someone else.",
+  "why_zh": "每位访客身上都投着一个动词，要摆脱它，只能去触碰别人。",
+  "cat": "play"
+ },
+ "chris-sugrue--delicate-boundaries": {
+  "why_en": "Light bugs crawl out of the screen and onto the hand that touches it, so the image escapes its frame.",
+  "why_zh": "光做的小虫从屏幕里爬出来，爬到触碰屏幕的手上，画面逃出了边框。",
+  "cat": "portal"
+ },
+ "zach-lieberman--the-eyewriter": {
+  "why_en": "A paralyzed graffiti artist draws with his eyes and the tags appear live on city buildings.",
+  "why_zh": "一位瘫痪的涂鸦艺术家用眼睛画画，作品实时出现在城市建筑上。",
+  "cat": "draw"
+ },
+ "karolina-sobecka--wildlife": {
+  "why_en": "A projected tiger runs along the buildings beside a moving car, keeping pace and stopping when the car stops.",
+  "why_zh": "投影出的老虎沿着街边建筑与行驶的汽车并肩奔跑，车停它也停。",
+  "cat": "alive"
+ },
+ "julian-oliver--levelhead": {
+  "why_en": "Rooms hide inside a cube in your hand, and tilting the real cube walks a tiny figure through them.",
+  "why_zh": "几个房间藏在你手中的方块里，倾斜真实的方块就能带小人穿过它们。",
+  "cat": "portal"
+ },
+ "random-international--audience": {
+  "why_en": "A crowd of mirrors turns in unison to stare at you, so the visitor becomes the one being watched.",
+  "why_zh": "一群镜子齐刷刷转向盯着你，观众变成了被观看的人。",
+  "cat": "shadow"
+ },
+ "valentin-heun--reality-editor-programming": {
+  "why_en": "Drag a line between two real objects on your phone and they are wired together.",
+  "why_zh": "在手机画面里从一个实物拉一条线到另一个实物，它们就被连接起来。",
+  "cat": "alive"
+ }
 }

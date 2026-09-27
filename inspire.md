@@ -236,138 +236,192 @@ Universal Everything, founded by Matt Pyke in Sheffield, is known for moving hum
 
 Simple works where the concept jumps out: one idea, minimal means, understood in seconds.
 
-- **A picture frame that is a window** — Ian Curtis (2026): A picture frame on the wall is really a window: look into it and another 3D world sits behind the wall. https://x.com/XRarchitect/status/2052418499516170377
-- **Micro Art** — Stijn Spanhove, Pavlo Tkachenko (2026): Point at a rock or leaf and see the imagined microscopic world living inside it. https://www.youtube.com/watch?v=esOODTn0RVU
-- **TouchPort / Allow me into your dream** — Botao 'Amber' Hu (2026): A handshake and a pull is all it takes to merge two people's separate mixed realities into one. https://www.youtube.com/watch?v=uMSXnUxnxd4
-- **Ultrasound VR** — Universal Everything (Matt Pyke) (2026): Drawing becomes composing: every stroke you paint in the air turns into a sound that plays from where you drew it. https://www.youtube.com/watch?v=95_WMsapSuA
-- **1D ARCADE** — 1024 Architecture (François Wunschel & Pier Schneider) (2025): A whole arcade game squeezed into a single line of light, and you still understand it at a glance. https://vimeo.com/1098205588
-- **Ad Block** — Stijn Spanhove (2025): An ad blocker for the street: billboards in front of you simply get covered up. https://www.youtube.com/watch?v=KLiEm74cw9Q
-- **Audio Personas** — Sean Follmer (2025): Everyone carries a personal sound around their body, so you hear who is nearby before you look. https://www.youtube.com/watch?v=l8lis-JPIzA
+### Borrowed senses
+
+Perceive the world through a sense you don't have, or someone else's.
+
 - **FeltSight** — Botao 'Amber' Hu (2025): Borrow a star-nosed mole's sense: you feel the space around you through your fingertips instead of seeing it. https://www.youtube.com/watch?v=7Pq6s3VnD0A
-- **I/O Brush re-creation (Genuary)** — Torin Blankensmith (2025): Dip your hand into the real world to pick up its color and texture, then paint with it. https://x.com/blankensmithing/status/1875375318946795571
-- **Chameleon** — Universal Everything (Matt Pyke) (2024): A digital creature on the street copies how passers-by move and look, like a chameleon. https://www.youtube.com/watch?v=EkGLZ_Ck_-w
 - **EchoVision** — Botao 'Amber' Hu (2024): Put on the mask and call out: your voice lights up the room in echoes, so you see like a bat. https://www.youtube.com/watch?v=0JyHmEApctg
+- **Visual Noise Reduction HMD** — Kiyoshi Kiyokawa (2019): Noise-cancelling headphones, but for the eyes: moving distractions around you fade to grey. https://www.youtube.com/watch?v=vIKYG9NIeIU
+- **ChromaGlasses** — Tobias Langlotz, Stefanie Zollmann (2018): Glasses that correct color instead of focus, so people with color-vision deficiency can tell confused colors apart. https://www.youtube.com/watch?v=kBe-pfc7PrY
+- **Somen-to-Ramen Taste Modulation** — Kiyoshi Kiyokawa (2018): Plain noodles shown as ramen start to taste like ramen, so sight changes flavor. https://www.youtube.com/watch?v=z53xW_BIaZE
+- **AdaptiVisor** — Yuta Itoh (2017): Sunglasses that darken only the glaring pixels of the world and leave the rest untouched. https://www.youtube.com/watch?v=fi4PjGIbuu8
+- **Learning to See** — Memo Akten (2017): A neural network sees cloth and cables on a table as waves or fire, showing that a machine sees only what it was trained on. https://vimeo.com/260612034
+- **Parallel Eyes** — Shunichi Kasahara (2016): Four people see through each other's eyes at once and try to play hide-and-seek. https://vimeo.com/175105689
+- **CHILDHOOD: Egocentric Smaller-person Experience** — Jun Nishida (2015): A low camera and small hands let an adult see and grasp the world as a child does. https://vimeo.com/120369920
+- **In the Eyes of the Animal** — Marshmallow Laser Feast (2015): Stand in a forest and see it through the senses of a mosquito, frog or owl. https://vimeo.com/140057053
+
+### Invisible made visible
+
+Something that is always there but never seen (air, motion, data) becomes visible.
+
+- **Micro Art** — Stijn Spanhove, Pavlo Tkachenko (2026): Point at a rock or leaf and see the imagined microscopic world living inside it. https://www.youtube.com/watch?v=esOODTn0RVU
+- **AR CO2 Visualization System** — Kiyoshi Kiyokawa (2023): The air you share becomes visible: invisible CO2 turns into a colored cloud filling the stale corners of the room. https://www.youtube.com/watch?v=zsOv6N_jAXU
+- **Controlling Air Conditioning via Augmented Reality** — Jason Orlosky (2021): Invisible airflow becomes visible, and you steer the air conditioner by grabbing the stream itself. https://www.youtube.com/watch?v=i3OctJhaXKI
+- **Kitchen Timers in Augmented Reality** — Morten Just (2018): Countdown timers float right above the pots they are timing. https://www.youtube.com/watch?v=3c114LvhJIA
+- **Fencing Visualized** — Daito Manabe / Rhizomatiks (2016): Sword tips too fast to see are drawn as trails over live footage, so the bout becomes readable. https://www.youtube.com/watch?v=h2DXCAWI8gU
+- **Laplacian Vision** — Yuta Itoh (2016): A line in the air shows where a thrown ball is about to go, so you see a moment into the future. https://www.youtube.com/watch?v=2GD7KQOHiMs
+- **Treehugger: Wawona** — Marshmallow Laser Feast (2016): Hugging a tree is the interface that reveals the water flowing inside it. https://www.youtube.com/watch?v=if0wfysmoMU
+- **Thermal Touch** — Metaio (Thomas Alt & Peter Meier) (2014): The warm spot your fingertip leaves on any surface becomes the click. https://www.youtube.com/watch?v=K2XL0qnu4Z4
+- **Boundary Functions** — Scott Snibbe (1998): Lines drawn between people on the floor show each person's personal space, which shrinks as more people arrive. https://www.youtube.com/watch?v=5wA3lKcDrlM
+
+### Sound in space
+
+Sound gets a place, a shape or a body in space.
+
+- **Ultrasound VR** — Universal Everything (Matt Pyke) (2026): Drawing becomes composing: every stroke you paint in the air turns into a sound that plays from where you drew it. https://www.youtube.com/watch?v=95_WMsapSuA
+- **Audio Personas** — Sean Follmer (2025): Everyone carries a personal sound around their body, so you hear who is nearby before you look. https://www.youtube.com/watch?v=l8lis-JPIzA
+- **Live Music with My Clothes in AR** — Lucas Rizzotto (2022): Your outfit becomes an instrument: tap different parts of your clothes to play music. https://www.youtube.com/watch?v=Vpr1i3-Ekl4
+- **I Turned My Girlfriend into a Musical Instrument** — Lucas Rizzotto (2021): Every movement of a dancer's body plays a note, so the person becomes the instrument. https://www.youtube.com/watch?v=R2KZ34OZlwk
+- **Audio in AR space** — Zach Lieberman (2017): Every sound stays where it was made, so walking back through the trail plays it again. https://vimeo.com/290238447
+- **Ishin-Den-Shin** — Ivan Poupyrev (2013): Touching someone's ear passes a whisper through your finger, so a message travels by touch alone. https://www.youtube.com/watch?v=Iw1FhmY1sIU
+- **Messa di Voce (installation)** — Golan Levin, Zach Lieberman (2005): Your voice grows visible shapes out of your mouth that you can then push around with your body. https://vimeo.com/221802940
+- **The Voices of Oakland** — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2005): Walk through a cemetery and hear the people buried there tell their stories at their own graves. https://www.youtube.com/watch?v=mHoe2NfTV7U
+
+### Body remix
+
+Your body is changed, extended, swapped or turned into something else.
+
+- **Morphing Identity** — Shunichi Kasahara (2023): Your face slowly melts into the face of the person sitting across from you, live. https://www.youtube.com/watch?v=rfmIuaV9Ny0
+- **Electrical Head Actuation** — Jun Nishida, Pedro Lopes (2022): Instead of drawing an arrow to show you where to look, the interface turns your head for you. https://www.youtube.com/watch?v=vqpH9gNGpts
+- **Parallel Ping-Pong** — Shunichi Kasahara (2022): One mind, two bodies: a single person plays two ping-pong matches at the same time. https://www.youtube.com/watch?v=q1XAmaMdEiE
+- **Distant Hand** — Sander Veenhof (2021): Your hand stretches far out in AR so you can touch things across the room. https://www.youtube.com/watch?v=ZdudbnDh7tk
+- **HandMorph** — Jun Nishida, Pedro Lopes (2020): Wearing a child-sized mechanical hand makes the real world feel oversized, with no screen at all. https://www.youtube.com/watch?v=5o2wPy5hl0w
+- **Super You (AR app)** — Universal Everything (Matt Pyke) (2020): Point the phone at yourself and your body becomes a giant flowing digital being; the whole work is that one transformation. https://www.youtube.com/watch?v=-zPQczdMCVc
+- **YoPuppet** — Hart Woolery (2020CV) (2019): Open and close your hand and a cartoon puppet talks, the oldest puppet trick redone in AR. https://www.youtube.com/watch?v=zd-LKYu5QDQ
+- **Affordance++** — Pedro Lopes (2015): Objects move your hand with electrical stimulation to show you how to use them. https://www.youtube.com/watch?v=Gz4dphzBb6I
+- **Augmented Hand Series** — Golan Levin, Chris Sugrue, Kyle McDonald (2014): Your own hand grows an extra finger on screen, live, and it feels uncanny. https://vimeo.com/111951283
+- **Rain Room** — Random International (Hannes Koch & Florian Ortkrass) (2012): Rain falls everywhere except on you, so your body becomes the one dry spot in a storm. https://www.youtube.com/watch?v=FslABAyj2OA
+- **Body Swap** — Chris O'Shea (2011): You control the on-screen body of the person beside you while they control yours. https://vimeo.com/20745353
+- **Eyeshine** — Golan Levin, Kyle McDonald (2011): The glint in your own eyes is caught and shown back so they glow like a night animal's. https://vimeo.com/29356492
+- **Sandbox (Relational Architecture 17)** — Rafael Lozano-Hemmer (2010): The hand you put in a small sandbox appears as a giant hand over the whole beach. https://www.youtube.com/watch?v=GotOBu_14fc
+
+### Shadows & mirrors
+
+Your shadow or reflection starts to behave differently.
+
+- **Chameleon** — Universal Everything (Matt Pyke) (2024): A digital creature on the street copies how passers-by move and look, like a chameleon. https://www.youtube.com/watch?v=EkGLZ_Ck_-w
+- **Prototype: Someone - a random mirror** — Universal Everything (Matt Pyke) (2024): A mirror that never shows you, only someone else moving the way you move. https://www.youtube.com/watch?v=OS3rX7QU468
+- **CMY Shadows Mirror** — Daniel Rozin (2021): Three colored shadows overlap on the wall and mix into a colored reflection of you. https://vimeo.com/1198095563
+- **Painted Mirror** — Theo Watson, Emily Gobeille (2020): A mirror that paints you: the longer you stand still, the clearer your portrait becomes. https://vimeo.com/416474904
+- **Fragment Shadow** — Shunichi Kasahara (2019): One body casts several colored shadows at once, turning an everyday shadow into something strange. https://vimeo.com/322671485
+- **Floating by shadow offset** — Shengzhi Wu (2018): Move only the shadow and the object seems to lift off the table, showing the cheapest depth cue there is. https://x.com/Wu_Shengzhi/status/1059284500159578113
+- **Move Mirror** — Irene Alvarado, Google Creative Lab (2018): Your pose becomes a search query that finds strangers striking the same pose, frame by frame. https://www.youtube.com/watch?v=JvzkFJW6LIU
+- **Penguins Mirror** — Daniel Rozin (2015): Hundreds of toy penguins turn their black backs or white bellies to form your silhouette. https://www.youtube.com/watch?v=QlrnjjfLkTI
+- **shadow (drone with a spotlight)** — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2015): Drones carry the spotlights, so as they fly the dancer's shadows multiply and turn. https://www.youtube.com/watch?v=hX2TneyE41Q
+- **Your uncertain shadow (colour)** — Olafur Eliasson (2010): Five colored lamps split one shadow into a row of colored shadows that move with you. https://www.youtube.com/watch?v=PeBH6fTQNSc
+- **Audience** — Random International (Hannes Koch & Florian Ortkrass), Chris O'Shea (2008): A crowd of mirrors turns in unison to stare at you, so the visitor becomes the one being watched. https://www.youtube.com/watch?v=JuKi35j3Dwk
+- **Under Scan (Relational Architecture 11)** — Rafael Lozano-Hemmer (2005): A stranger's portrait appears inside your shadow and looks up at you, turning a passing shadow into a meeting. https://www.youtube.com/watch?v=Bfn14sLJmyU
+- **Shadow (Screen Series)** — Scott Snibbe (2002): After you walk away your shadow stays behind and repeats what you just did. https://www.youtube.com/watch?v=pdxYv-_70-s
+- **Body Movies (Relational Architecture 6)** — Rafael Lozano-Hemmer (2001): Hidden portraits on a facade only show inside passers-by's giant shadows, so your shadow is the window. https://www.youtube.com/watch?v=g-CNxFiXZDY
+- **Text Rain (with Romy Achituv)** — Camille Utterback (1999): Letters of a poem fall like rain and pile up on your silhouette, so reading becomes a physical act. https://www.youtube.com/watch?v=GYvyuL-Mkjg
+
+### Windows & portals
+
+A frame, door or hole opens onto another place.
+
+- **A picture frame that is a window** — Ian Curtis (2026): A picture frame on the wall is really a window: look into it and another 3D world sits behind the wall. https://x.com/XRarchitect/status/2052418499516170377
+- **Mixed Reality Door for Meta Quest 3** — Takashi Yoshinaga (2023): Open the real door in your home and a virtual world is waiting on the other side. https://www.youtube.com/watch?v=VW7ELpkVmIQ
+- **A Futuristic Portal to My Best Friend** — Lucas Rizzotto (2020): A portal in the wall opens into a friend's home during lockdown, so two people live as virtual roommates. https://www.youtube.com/watch?v=713T4x89kMk
+- **'Hole in the head' occlusion effect** — Luke Hurd (2019): A hole opens in your head and there is a tiny world inside. https://www.youtube.com/watch?v=j7klMWrJFHs
+- **The Ring Brought to Life in AR** — Abhishek Singh (2018): The girl from The Ring crawls out of your own TV and into your living room. https://www.youtube.com/watch?v=g_WBVi-bu9Q
+- **Augmented Reality's A-ha Moment (Take On Me AR portal)** — Trixi Studios (Chip Sineni) (2017): Step through a door into a pencil-sketch world where even your own hand turns into line art. https://www.youtube.com/watch?v=ZBdRAdSosv4
+- **Delicate Boundaries** — Chris Sugrue (2007): Light bugs crawl out of the screen and onto the hand that touches it, so the image escapes its frame. https://vimeo.com/1007230
+- **Out of Bounds** — Chris O'Shea (2007): Shine an X-ray flashlight at a wall and see the hidden room behind it. https://vimeo.com/1333176
+- **levelHead** — Julian Oliver (2007): Rooms hide inside a cube in your hand, and tilting the real cube walks a tiny figure through them. https://www.youtube.com/watch?v=UJYKSFANuaQ
+
+### Time & traces
+
+The past stays in place, replays, or leaves a visible trace.
+
 - **Hand-frame photos left in space** — Aidan Wolf (2024): Frame a shot with your fingers and the photo stays hanging at that spot for the next person to find. https://x.com/Aidan_Wolf/status/1838941247148278146
-- **Head-tracked Subtitles** — Jason Orlosky (2024): Real life gets subtitles, shown beneath whoever is speaking, the way films caption dialogue. https://www.youtube.com/watch?v=Oc91ouDpgio
 - **Paris 1924** — Paris AR Studio (Snap) (2024): Hold up your phone and the street you are standing on goes back exactly one hundred years. https://www.youtube.com/watch?v=XqI0etsPbKo
 - **Project Revival** — Anrick Bregman (Studio ANRK), Nexus Studios (2024): Stand before a broken artefact and see it whole again, exactly where it sits. https://www.youtube.com/watch?v=nr9tFXYf0Iw
-- **Prototype: Someone - a random mirror** — Universal Everything (Matt Pyke) (2024): A mirror that never shows you, only someone else moving the way you move. https://www.youtube.com/watch?v=OS3rX7QU468
 - **Spatial Vacuuming** — Daniel Beauchamp (Pushmatrix) (2024): While you vacuum, the floor you have cleaned gets painted over, so the missed spots stand out. https://x.com/pushmatrix/status/1749797146961006716
-- **AR CO2 Visualization System** — Kiyoshi Kiyokawa (2023): The air you share becomes visible: invisible CO2 turns into a colored cloud filling the stale corners of the room. https://www.youtube.com/watch?v=zsOv6N_jAXU
 - **Echoes** — Torin Blankensmith (2023): Every pose you strike is answered by the most similar pose of someone who stood there before you. https://x.com/blankensmithing/status/1737307286572298738
-- **Mixed Reality Door for Meta Quest 3** — Takashi Yoshinaga (2023): Open the real door in your home and a virtual world is waiting on the other side. https://www.youtube.com/watch?v=VW7ELpkVmIQ
-- **Morphing Identity** — Shunichi Kasahara (2023): Your face slowly melts into the face of the person sitting across from you, live. https://www.youtube.com/watch?v=rfmIuaV9Ny0
-- **The Floor Is Lava!** — Figmin XR (Overlay) (2023): The childhood game made literal: the floor really turns to lava and only the furniture is safe. https://www.youtube.com/watch?v=aOXpbDBwNyM
-- **Touch Grass lens** — Aidan Wolf (2023): The internet joke taken literally: the lens checks that you really touched grass and gives you proof. https://x.com/Aidan_Wolf/status/1701565816385179877
-- **Electrical Head Actuation** — Jun Nishida, Pedro Lopes (2022): Instead of drawing an arrow to show you where to look, the interface turns your head for you. https://www.youtube.com/watch?v=vqpH9gNGpts
-- **Live Music with My Clothes in AR** — Lucas Rizzotto (2022): Your outfit becomes an instrument: tap different parts of your clothes to play music. https://www.youtube.com/watch?v=Vpr1i3-Ekl4
-- **Parallel Ping-Pong** — Shunichi Kasahara (2022): One mind, two bodies: a single person plays two ping-pong matches at the same time. https://www.youtube.com/watch?v=q1XAmaMdEiE
+- **SUPER SLIT SCAN** — Kitasenju Design (Takayuki Watanabe) (2022): Time is smeared across the frame, so moving people turn into stretched sculptures of their own motion. https://www.youtube.com/watch?v=y3HyKMhGeTI
+- **The Life** — Marina Abramović (2019): The artist's holographic double performs in the room with you, so a performance piece can exist without the performer. https://www.youtube.com/watch?v=VeajXYdTEiE
+- **Time Travel in AR** — Nathan Gitter (2018): A wall painted over every day shows its earlier layers in place, so the phone becomes a window into the past. https://x.com/nathangitter/status/1020733723183124480
+- **AR Wormhole** — Jonas Jongejan, Google Creative Lab (2017): Step through a portal and look around the same place as it was ten seconds ago. https://www.youtube.com/watch?v=Xo0_B3pNNnA
+- **Light Capsules x Neon Museum** — Craig Winslow (2017): Projection fakes the glow of broken neon signs so they seem lit again. https://vimeo.com/207339810
+- **Carnation Rain (Largo do Carmo)** — Tamiko Thiel (2011): Virtual carnations rain down on the square where the Carnation Revolution happened, marking history in place. https://www.youtube.com/watch?v=VxBEr_bq_0k
+- **Daisies** — Theo Watson (2005): Flowers wilt under your feet and grow back after you leave, so your presence leaves a visible mark. https://vimeo.com/463536634
+- **Liquid Time Series** — Camille Utterback (2002): The closer you step to the image, the further that patch slips into the past, so distance becomes time. https://www.youtube.com/watch?v=qSHmx45AF_k
+
+### Rewriting reality
+
+What is already there is erased, replaced or re-labelled, often as a statement.
+
+- **Ad Block** — Stijn Spanhove (2025): An ad blocker for the street: billboards in front of you simply get covered up. https://www.youtube.com/watch?v=KLiEm74cw9Q
+- **Head-tracked Subtitles** — Jason Orlosky (2024): Real life gets subtitles, shown beneath whoever is speaking, the way films caption dialogue. https://www.youtube.com/watch?v=Oc91ouDpgio
 - **Reality Channels (Liquid City)** — Keiichi Matsuda (2022): Flip through the city like TV channels: the same street, re-skinned with each switch. https://www.youtube.com/watch?v=0tyswdePMmA
 - **Reverse AR** — Russ Maschmeyer, Shopify Spatial Commerce Team (2022): AR turned inside out: the product stays real and the room around it becomes virtual. https://x.com/russ_maschmeyer/status/1562450155080597505
-- **SUPER SLIT SCAN** — Kitasenju Design (Takayuki Watanabe) (2022): Time is smeared across the frame, so moving people turn into stretched sculptures of their own motion. https://www.youtube.com/watch?v=y3HyKMhGeTI
+- **Squarepusher 'Terminal Slam' music video** — Daito Manabe / Rhizomatiks (2020): Through the glasses, Shibuya's billboards are erased and replaced by music visuals, AR that subtracts instead of adds. https://www.youtube.com/watch?v=GlhV-OKHecI
+- **Landmarkers** — Snap Inc. (Snapchat Lenses) (2019): The real Eiffel Tower melts or sprays rainbows on camera, turning a monument into a toy. https://www.youtube.com/watch?v=jNs9kdSAOCA
+- **Notable Women** — Nexus Studios (2019): AR puts portraits of historic women onto US banknotes, asking who deserves to be on money. https://www.youtube.com/watch?v=DuxXeeGg-T0
+- **ARKit re-code of Jeffrey Shaw's Golden Calf** — Golan Levin (2017): An empty plinth holds a golden calf that exists only through the phone. https://vimeo.com/269478756
+- **Halo Content** — Jason Orlosky, Kiyoshi Kiyokawa (2015): Notifications move out of the way when a person walks into view and form a halo around their face. https://www.youtube.com/watch?v=9Vbs1oLpk38
+- **Level of Confidence** — Rafael Lozano-Hemmer (2015): A face-recognition camera searches every visitor's face for 43 missing students, turning surveillance into a memorial. https://vimeo.com/953969845
+- **Queen Victoria** — Krzysztof Wodiczko (2014): A colonial statue takes on the faces and voices of local residents and tells their stories. https://www.youtube.com/watch?v=oRmT13QlY78
+- **The Leak in Your Hometown** — Mark Skwarek (2010): Point at any BP logo and crude oil gushes out of it, turning a brand into the scene of its own spill. https://www.youtube.com/watch?v=V6-BbqANr04
+- **We AR in MoMA** — Sander Veenhof, Mark Skwarek (2010): An uninvited AR show hangs inside MoMA, showing that no one controls who exhibits in virtual space. https://www.youtube.com/watch?v=b9T2LVM7ynM
+- **Word Lens** — Otavio Good (Quest Visual) (2010): Point the camera at a foreign sign and the words are replaced in place by your language. https://www.youtube.com/watch?v=h2OfQdYrHRs
+- **The Artvertiser** — Julian Oliver (2008): Look through binoculars and street ads are replaced by artworks, so you can switch off advertising. https://www.youtube.com/watch?v=z4a8n8hotI4
+- **Tijuana Projection** — Krzysztof Wodiczko (2001): A factory worker's live face and voice fill a giant public dome, so an unheard person takes over a monument. https://www.youtube.com/watch?v=dI_85KyAFWk
+
+### Things come alive
+
+Paper, drawings and everyday objects become interactive or animate.
+
 - **Sketched Reality** — Ryo Suzuki — Programmable Reality Lab (2022): A spring you draw on paper can bounce a real robot, and the robot can push your drawings back. https://www.youtube.com/watch?v=xy-IeVgoEpY
-- **CMY Shadows Mirror** — Daniel Rozin (2021): Three colored shadows overlap on the wall and mix into a colored reflection of you. https://vimeo.com/1198095563
-- **Controlling Air Conditioning via Augmented Reality** — Jason Orlosky (2021): Invisible airflow becomes visible, and you steer the air conditioner by grabbing the stream itself. https://www.youtube.com/watch?v=i3OctJhaXKI
-- **Distant Hand** — Sander Veenhof (2021): Your hand stretches far out in AR so you can touch things across the room. https://www.youtube.com/watch?v=ZdudbnDh7tk
-- **Hot Potato multiplayer lens** — Aidan Wolf (2021): Friends pass a ticking virtual potato phone to phone until it blows up on someone, a party game anyone already knows. https://x.com/Aidan_Wolf/status/1395445443333476352
-- **I Turned My Girlfriend into a Musical Instrument** — Lucas Rizzotto (2021): Every movement of a dancer's body plays a note, so the person becomes the instrument. https://www.youtube.com/watch?v=R2KZ34OZlwk
-- **Poem World (Snap Spectacles)** — Zach Lieberman, Shantell Martin (2021): A poem is laid out in space, so reading it means walking through it. https://x.com/zachlieberman/status/1408879174429949953
-- **A Futuristic Portal to My Best Friend** — Lucas Rizzotto (2020): A portal in the wall opens into a friend's home during lockdown, so two people live as virtual roommates. https://www.youtube.com/watch?v=713T4x89kMk
 - **A Working Marauder's Map – Harry Potter AR** — Lucas Rizzotto (2020): A parchment Marauder's Map that really shows where everyone in the castle is right now. https://www.youtube.com/watch?v=A3v6dLlylU8
 - **Bosch AR** — Anrick Bregman (Studio ANRK) (2020): Monsters from a 500-year-old Bosch painting walk out of the canvas into your street. https://www.youtube.com/watch?v=iznOf-dOIbw
 - **Earth Speakr** — Olafur Eliasson (2020): Children lend their faces and voices to trees and rivers so the planet can speak. https://www.youtube.com/watch?v=oneExExNwZw
 - **ElaMorph Projection** — Ishikawa Watanabe Laboratory (University of Tokyo) (2020): Projected light alone makes a rigid object look as stretchy as rubber. https://www.youtube.com/watch?v=uWq-a52X-7g
-- **HandMorph** — Jun Nishida, Pedro Lopes (2020): Wearing a child-sized mechanical hand makes the real world feel oversized, with no screen at all. https://www.youtube.com/watch?v=5o2wPy5hl0w
-- **Painted Mirror** — Theo Watson, Emily Gobeille (2020): A mirror that paints you: the longer you stand still, the clearer your portrait becomes. https://vimeo.com/416474904
-- **Squarepusher 'Terminal Slam' music video** — Daito Manabe / Rhizomatiks (2020): Through the glasses, Shibuya's billboards are erased and replaced by music visuals, AR that subtracts instead of adds. https://www.youtube.com/watch?v=GlhV-OKHecI
-- **Super You (AR app)** — Universal Everything (Matt Pyke) (2020): Point the phone at yourself and your body becomes a giant flowing digital being; the whole work is that one transformation. https://www.youtube.com/watch?v=-zPQczdMCVc
-- **Weird Type skate trails** — Zach Lieberman, Molmol Kuo (2020): A skateboard leaves a trail of words behind it, so a ride becomes a sentence in the air. https://x.com/zachlieberman/status/1271947807709069317
-- **'Hole in the head' occlusion effect** — Luke Hurd (2019): A hole opens in your head and there is a tiny world inside. https://www.youtube.com/watch?v=j7klMWrJFHs
 - **AR eyedropper for smart lights** — Shengzhi Wu (2019): An eyedropper sucks a color from any real object and squirts it into a lamp, so the world becomes a palette. https://x.com/Wu_Shengzhi/status/1113284624355135489
 - **Bringing Tattoos to Life Using AR** — Abhishek Singh (2019): Point at a tattoo and it animates and tells the personal story behind it. https://www.youtube.com/watch?v=ojnAHSCNFLk
 - **DoodleLens** — Aidan Wolf (2019): A doodle on paper peels off the page and comes alive in the room. https://x.com/Aidan_Wolf/status/1124997833159929856
-- **Drawalong AR** — Google Creative Lab (2019): A drawing tutorial video floats over your sketchbook as tracing paper. https://www.youtube.com/watch?v=S9g1PqY19jE
-- **Fragment Shadow** — Shunichi Kasahara (2019): One body casts several colored shadows at once, turning an everyday shadow into something strange. https://vimeo.com/322671485
-- **Landmarkers** — Snap Inc. (Snapchat Lenses) (2019): The real Eiffel Tower melts or sprays rainbows on camera, turning a monument into a toy. https://www.youtube.com/watch?v=jNs9kdSAOCA
-- **Musical Chairs Against the Avengers in AR** — Abhishek Singh (2019): Musical chairs where the rivals are life-size virtual Avengers competing for real chairs. https://www.youtube.com/watch?v=mqd_6gdXgpk
-- **Notable Women** — Nexus Studios (2019): AR puts portraits of historic women onto US banknotes, asking who deserves to be on money. https://www.youtube.com/watch?v=DuxXeeGg-T0
 - **Pull a sticky note out of an iPad** — Shengzhi Wu (2019): You pinch a sketch and pull it out of the iPad screen like a page from a book, which a child grasps at once. https://x.com/Wu_Shengzhi/status/1127773999876976640
-- **The Life** — Marina Abramović (2019): The artist's holographic double performs in the room with you, so a performance piece can exist without the performer. https://www.youtube.com/watch?v=VeajXYdTEiE
-- **Visual Noise Reduction HMD** — Kiyoshi Kiyokawa (2019): Noise-cancelling headphones, but for the eyes: moving distractions around you fade to grey. https://www.youtube.com/watch?v=vIKYG9NIeIU
-- **Weird Cuts** — Zach Lieberman, Molmol Kuo (2019): Cut shapes out of the camera image and hang them in mid-air, making a collage in space. https://www.youtube.com/watch?v=fU0iFi0PXxI
-- **YoPuppet** — Hart Woolery (2020CV) (2019): Open and close your hand and a cartoon puppet talks, the oldest puppet trick redone in AR. https://www.youtube.com/watch?v=zd-LKYu5QDQ
-- **ChromaGlasses** — Tobias Langlotz, Stefanie Zollmann (2018): Glasses that correct color instead of focus, so people with color-vision deficiency can tell confused colors apart. https://www.youtube.com/watch?v=kBe-pfc7PrY
-- **Floating by shadow offset** — Shengzhi Wu (2018): Move only the shadow and the object seems to lift off the table, showing the cheapest depth cue there is. https://x.com/Wu_Shengzhi/status/1059284500159578113
-- **Just a Line** — Google Creative Lab (2018): You can only draw one white line in the air, and that constraint makes spatial drawing obvious to anyone. https://www.youtube.com/watch?v=IOKwGCQJVCw
-- **Kitchen Timers in Augmented Reality** — Morten Just (2018): Countdown timers float right above the pots they are timing. https://www.youtube.com/watch?v=3c114LvhJIA
-- **Move Mirror** — Irene Alvarado, Google Creative Lab (2018): Your pose becomes a search query that finds strangers striking the same pose, frame by frame. https://www.youtube.com/watch?v=JvzkFJW6LIU
-- **Somen-to-Ramen Taste Modulation** — Kiyoshi Kiyokawa (2018): Plain noodles shown as ramen start to taste like ramen, so sight changes flavor. https://www.youtube.com/watch?v=z53xW_BIaZE
-- **Stenciling in Augmented Reality** — Morten Just (2018): A picture cast onto paper lets anyone trace a good drawing by hand. https://www.youtube.com/watch?v=KjWL_zHOysM
-- **The Ring Brought to Life in AR** — Abhishek Singh (2018): The girl from The Ring crawls out of your own TV and into your living room. https://www.youtube.com/watch?v=g_WBVi-bu9Q
-- **Time Travel in AR** — Nathan Gitter (2018): A wall painted over every day shows its earlier layers in place, so the phone becomes a window into the past. https://x.com/nathangitter/status/1020733723183124480
-- **AR Wormhole** — Jonas Jongejan, Google Creative Lab (2017): Step through a portal and look around the same place as it was ten seconds ago. https://www.youtube.com/watch?v=Xo0_B3pNNnA
-- **ARKit re-code of Jeffrey Shaw's Golden Calf** — Golan Levin (2017): An empty plinth holds a golden calf that exists only through the phone. https://vimeo.com/269478756
-- **AdaptiVisor** — Yuta Itoh (2017): Sunglasses that darken only the glaring pixels of the world and leave the rest untouched. https://www.youtube.com/watch?v=fi4PjGIbuu8
-- **Audio in AR space** — Zach Lieberman (2017): Every sound stays where it was made, so walking back through the trail plays it again. https://vimeo.com/290238447
-- **Augmented Reality's A-ha Moment (Take On Me AR portal)** — Trixi Studios (Chip Sineni) (2017): Step through a door into a pencil-sketch world where even your own hand turns into line art. https://www.youtube.com/watch?v=ZBdRAdSosv4
-- **CyberSnake – Holographic Snake** — Lucas Rizzotto (2017): You are the snake, walking through your home and dodging your own growing tail. https://www.youtube.com/watch?v=1SprJQz_pGU
 - **HotStepper** — Nexus Studios (2017): A small character walks ahead of you on the real street to show the way. https://www.youtube.com/watch?v=kR7RBUhnQmU
 - **InstaSaber** — Hart Woolery (2020CV) (2017): A rolled-up sheet of paper turns into a glowing lightsaber in your hand. https://www.youtube.com/watch?v=MWd7shj59PA
-- **Invisible Highway** — Judith Amores, Anna Fusté (2017): Draw a road in AR and a real toy car drives along it. https://www.youtube.com/watch?v=9ZhqsuWF96I
-- **Laser Cat AR** — Abhishek Singh (2017): The whole game is one gesture: tease a virtual kitten on your floor with a laser dot. https://www.youtube.com/watch?v=LYszXfkwYeQ
-- **Learning to See** — Memo Akten (2017): A neural network sees cloth and cables on a table as waves or fire, showing that a machine sees only what it was trained on. https://vimeo.com/260612034
-- **Light Capsules x Neon Museum** — Craig Winslow (2017): Projection fakes the glow of broken neon signs so they seem lit again. https://vimeo.com/207339810
 - **Magic Sudoku** — Brad Dwyer (2017): Point at a paper Sudoku and the answers appear written in its empty squares. https://x.com/braddwyer/status/910030265006923776
-- **Rainbrow – Eyebrow-Controlled Game** — Nathan Gitter (2017): Raise your eyebrows to fly up: your face is the whole controller. https://www.youtube.com/watch?v=9k_9BKA3w_Q
-- **Fencing Visualized** — Daito Manabe / Rhizomatiks (2016): Sword tips too fast to see are drawn as trails over live footage, so the bout becomes readable. https://www.youtube.com/watch?v=h2DXCAWI8gU
-- **Laplacian Vision** — Yuta Itoh (2016): A line in the air shows where a thrown ball is about to go, so you see a moment into the future. https://www.youtube.com/watch?v=2GD7KQOHiMs
-- **Parallel Eyes** — Shunichi Kasahara (2016): Four people see through each other's eyes at once and try to play hide-and-seek. https://vimeo.com/175105689
-- **Treehugger: Wawona** — Marshmallow Laser Feast (2016): Hugging a tree is the interface that reveals the water flowing inside it. https://www.youtube.com/watch?v=if0wfysmoMU
-- **Affordance++** — Pedro Lopes (2015): Objects move your hand with electrical stimulation to show you how to use them. https://www.youtube.com/watch?v=Gz4dphzBb6I
-- **CHILDHOOD: Egocentric Smaller-person Experience** — Jun Nishida (2015): A low camera and small hands let an adult see and grasp the world as a child does. https://vimeo.com/120369920
-- **Halo Content** — Jason Orlosky, Kiyoshi Kiyokawa (2015): Notifications move out of the way when a person walks into view and form a halo around their face. https://www.youtube.com/watch?v=9Vbs1oLpk38
-- **In the Eyes of the Animal** — Marshmallow Laser Feast (2015): Stand in a forest and see it through the senses of a mosquito, frog or owl. https://vimeo.com/140057053
-- **Level of Confidence** — Rafael Lozano-Hemmer (2015): A face-recognition camera searches every visitor's face for 43 missing students, turning surveillance into a memorial. https://vimeo.com/953969845
-- **Penguins Mirror** — Daniel Rozin (2015): Hundreds of toy penguins turn their black backs or white bellies to form your silhouette. https://www.youtube.com/watch?v=QlrnjjfLkTI
-- **shadow (drone with a spotlight)** — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2015): Drones carry the spotlights, so as they fly the dancer's shadows multiply and turn. https://www.youtube.com/watch?v=hX2TneyE41Q
-- **Augmented Hand Series** — Golan Levin, Chris Sugrue, Kyle McDonald (2014): Your own hand grows an extra finger on screen, live, and it feels uncanny. https://vimeo.com/111951283
-- **Queen Victoria** — Krzysztof Wodiczko (2014): A colonial statue takes on the faces and voices of local residents and tells their stories. https://www.youtube.com/watch?v=oRmT13QlY78
-- **Thermal Touch** — Metaio (Thomas Alt & Peter Meier) (2014): The warm spot your fingertip leaves on any surface becomes the click. https://www.youtube.com/watch?v=K2XL0qnu4Z4
-- **Ishin-Den-Shin** — Ivan Poupyrev (2013): Touching someone's ear passes a whisper through your finger, so a message travels by touch alone. https://www.youtube.com/watch?v=Iw1FhmY1sIU
 - **Reality Editor: Programming Smarter Objects** — Valentin Heun, MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2013): Drag a line between two real objects on your phone and they are wired together. https://vimeo.com/74073989
 - **Sketch Aquarium** — teamLab (2013): A fish a child colors on paper is scanned in and swims away in the shared aquarium. https://www.youtube.com/watch?v=AnAqB7LZUb8
 - **Augmented Reality Sandbox** — Oliver Kreylos (2012): Pile up real sand and contour lines and water follow it instantly, so shaping a landscape is just moving sand. https://www.youtube.com/watch?v=j9JXtTj0mzE
-- **Rain Room** — Random International (Hannes Koch & Florian Ortkrass) (2012): Rain falls everywhere except on you, so your body becomes the one dry spot in a storm. https://www.youtube.com/watch?v=FslABAyj2OA
-- **Body Swap** — Chris O'Shea (2011): You control the on-screen body of the person beside you while they control yours. https://vimeo.com/20745353
-- **Carnation Rain (Largo do Carmo)** — Tamiko Thiel (2011): Virtual carnations rain down on the square where the Carnation Revolution happened, marking history in place. https://www.youtube.com/watch?v=VxBEr_bq_0k
-- **Eyeshine** — Golan Levin, Kyle McDonald (2011): The glint in your own eyes is caught and shown back so they glow like a night animal's. https://vimeo.com/29356492
-- **Face Raiders** — Nintendo (2011): Your own face turns into the enemy that bursts through the walls of your room. https://www.youtube.com/watch?v=bh-YrWvdUCs
 - **LightSpace** — Microsoft Research — Hrvoje Benko & Andy Wilson (2010): Scoop a projected photo off the table, carry it in your hand and pour it onto the wall, as if data were liquid. https://www.youtube.com/watch?v=xx5kBqxyaHE
-- **Sandbox (Relational Architecture 17)** — Rafael Lozano-Hemmer (2010): The hand you put in a small sandbox appears as a giant hand over the whole beach. https://www.youtube.com/watch?v=GotOBu_14fc
-- **The Leak in Your Hometown** — Mark Skwarek (2010): Point at any BP logo and crude oil gushes out of it, turning a brand into the scene of its own spill. https://www.youtube.com/watch?v=V6-BbqANr04
-- **We AR in MoMA** — Sander Veenhof, Mark Skwarek (2010): An uninvited AR show hangs inside MoMA, showing that no one controls who exhibits in virtual space. https://www.youtube.com/watch?v=b9T2LVM7ynM
-- **Word Lens** — Otavio Good (Quest Visual) (2010): Point the camera at a foreign sign and the words are replaced in place by your language. https://www.youtube.com/watch?v=h2OfQdYrHRs
-- **Your uncertain shadow (colour)** — Olafur Eliasson (2010): Five colored lamps split one shadow into a row of colored shadows that move with you. https://www.youtube.com/watch?v=PeBH6fTQNSc
-- **Hand from Above** — Chris O'Shea (2009): A giant hand reaches into the big-screen feed of a square and picks up passers-by like toys. https://vimeo.com/7042266
-- **The EyeWriter** — Zach Lieberman, Theo Watson, Chris Sugrue (2009): A paralyzed graffiti artist draws with his eyes and the tags appear live on city buildings. https://www.youtube.com/watch?v=84H-xLrLvvk
-- **Audience** — Random International (Hannes Koch & Florian Ortkrass), Chris O'Shea (2008): A crowd of mirrors turns in unison to stare at you, so the visitor becomes the one being watched. https://www.youtube.com/watch?v=JuKi35j3Dwk
-- **The Artvertiser** — Julian Oliver (2008): Look through binoculars and street ads are replaced by artworks, so you can switch off advertising. https://www.youtube.com/watch?v=z4a8n8hotI4
-- **Delicate Boundaries** — Chris Sugrue (2007): Light bugs crawl out of the screen and onto the hand that touches it, so the image escapes its frame. https://vimeo.com/1007230
-- **Out of Bounds** — Chris O'Shea (2007): Shine an X-ray flashlight at a wall and see the hidden room behind it. https://vimeo.com/1333176
-- **levelHead** — Julian Oliver (2007): Rooms hide inside a cube in your hand, and tilting the real cube walks a tiny figure through them. https://www.youtube.com/watch?v=UJYKSFANuaQ
 - **Wildlife** — Karolina Sobecka (2006): A projected tiger runs along the buildings beside a moving car, keeping pace and stopping when the car stops. https://vimeo.com/6400445
-- **Daisies** — Theo Watson (2005): Flowers wilt under your feet and grow back after you leave, so your presence leaves a visible mark. https://vimeo.com/463536634
-- **Messa di Voce (installation)** — Golan Levin, Zach Lieberman (2005): Your voice grows visible shapes out of your mouth that you can then push around with your body. https://vimeo.com/221802940
-- **Subtitled Public** — Rafael Lozano-Hemmer (2005): Each visitor is labeled with a projected verb, and the only way to pass it on is to touch someone else. https://vimeo.com/1089123902
-- **The Voices of Oakland** — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2005): Walk through a cemetery and hear the people buried there tell their stories at their own graves. https://www.youtube.com/watch?v=mHoe2NfTV7U
-- **Under Scan (Relational Architecture 11)** — Rafael Lozano-Hemmer (2005): A stranger's portrait appears inside your shadow and looks up at you, turning a passing shadow into a meeting. https://www.youtube.com/watch?v=Bfn14sLJmyU
-- **Liquid Time Series** — Camille Utterback (2002): The closer you step to the image, the further that patch slips into the past, so distance becomes time. https://www.youtube.com/watch?v=qSHmx45AF_k
-- **Shadow (Screen Series)** — Scott Snibbe (2002): After you walk away your shadow stays behind and repeats what you just did. https://www.youtube.com/watch?v=pdxYv-_70-s
-- **Body Movies (Relational Architecture 6)** — Rafael Lozano-Hemmer (2001): Hidden portraits on a facade only show inside passers-by's giant shadows, so your shadow is the window. https://www.youtube.com/watch?v=g-CNxFiXZDY
-- **Tijuana Projection** — Krzysztof Wodiczko (2001): A factory worker's live face and voice fill a giant public dome, so an unheard person takes over a monument. https://www.youtube.com/watch?v=dI_85KyAFWk
-- **Text Rain (with Romy Achituv)** — Camille Utterback (1999): Letters of a poem fall like rain and pile up on your silhouette, so reading becomes a physical act. https://www.youtube.com/watch?v=GYvyuL-Mkjg
-- **Boundary Functions** — Scott Snibbe (1998): Lines drawn between people on the floor show each person's personal space, which shrinks as more people arrive. https://www.youtube.com/watch?v=5wA3lKcDrlM
 - **Pick-and-Drop** — Jun Rekimoto (1997): Pick up a file with a pen on one screen and drop it on another, treating data as a physical object. https://www.youtube.com/watch?v=rFw9aMubL-Y
+
+### Drawing in space
+
+Drawing or writing directly in the air, where the mark itself is the idea.
+
+- **I/O Brush re-creation (Genuary)** — Torin Blankensmith (2025): Dip your hand into the real world to pick up its color and texture, then paint with it. https://x.com/blankensmithing/status/1875375318946795571
+- **Poem World (Snap Spectacles)** — Zach Lieberman, Shantell Martin (2021): A poem is laid out in space, so reading it means walking through it. https://x.com/zachlieberman/status/1408879174429949953
+- **Weird Type skate trails** — Zach Lieberman, Molmol Kuo (2020): A skateboard leaves a trail of words behind it, so a ride becomes a sentence in the air. https://x.com/zachlieberman/status/1271947807709069317
+- **Drawalong AR** — Google Creative Lab (2019): A drawing tutorial video floats over your sketchbook as tracing paper. https://www.youtube.com/watch?v=S9g1PqY19jE
+- **Weird Cuts** — Zach Lieberman, Molmol Kuo (2019): Cut shapes out of the camera image and hang them in mid-air, making a collage in space. https://www.youtube.com/watch?v=fU0iFi0PXxI
+- **Just a Line** — Google Creative Lab (2018): You can only draw one white line in the air, and that constraint makes spatial drawing obvious to anyone. https://www.youtube.com/watch?v=IOKwGCQJVCw
+- **Stenciling in Augmented Reality** — Morten Just (2018): A picture cast onto paper lets anyone trace a good drawing by hand. https://www.youtube.com/watch?v=KjWL_zHOysM
+- **Invisible Highway** — Judith Amores, Anna Fusté (2017): Draw a road in AR and a real toy car drives along it. https://www.youtube.com/watch?v=9ZhqsuWF96I
+- **The EyeWriter** — Zach Lieberman, Theo Watson, Chris Sugrue (2009): A paralyzed graffiti artist draws with his eyes and the tags appear live on city buildings. https://www.youtube.com/watch?v=84H-xLrLvvk
+
+### Play & together
+
+A game or shared moment built on one simple rule.
+
+- **TouchPort / Allow me into your dream** — Botao 'Amber' Hu (2026): A handshake and a pull is all it takes to merge two people's separate mixed realities into one. https://www.youtube.com/watch?v=uMSXnUxnxd4
+- **1D ARCADE** — 1024 Architecture (François Wunschel & Pier Schneider) (2025): A whole arcade game squeezed into a single line of light, and you still understand it at a glance. https://vimeo.com/1098205588
+- **The Floor Is Lava!** — Figmin XR (Overlay) (2023): The childhood game made literal: the floor really turns to lava and only the furniture is safe. https://www.youtube.com/watch?v=aOXpbDBwNyM
+- **Touch Grass lens** — Aidan Wolf (2023): The internet joke taken literally: the lens checks that you really touched grass and gives you proof. https://x.com/Aidan_Wolf/status/1701565816385179877
+- **Hot Potato multiplayer lens** — Aidan Wolf (2021): Friends pass a ticking virtual potato phone to phone until it blows up on someone, a party game anyone already knows. https://x.com/Aidan_Wolf/status/1395445443333476352
+- **Musical Chairs Against the Avengers in AR** — Abhishek Singh (2019): Musical chairs where the rivals are life-size virtual Avengers competing for real chairs. https://www.youtube.com/watch?v=mqd_6gdXgpk
+- **CyberSnake – Holographic Snake** — Lucas Rizzotto (2017): You are the snake, walking through your home and dodging your own growing tail. https://www.youtube.com/watch?v=1SprJQz_pGU
+- **Laser Cat AR** — Abhishek Singh (2017): The whole game is one gesture: tease a virtual kitten on your floor with a laser dot. https://www.youtube.com/watch?v=LYszXfkwYeQ
+- **Rainbrow – Eyebrow-Controlled Game** — Nathan Gitter (2017): Raise your eyebrows to fly up: your face is the whole controller. https://www.youtube.com/watch?v=9k_9BKA3w_Q
+- **Face Raiders** — Nintendo (2011): Your own face turns into the enemy that bursts through the walls of your room. https://www.youtube.com/watch?v=bh-YrWvdUCs
+- **Hand from Above** — Chris O'Shea (2009): A giant hand reaches into the big-screen feed of a square and picks up passers-by like toys. https://vimeo.com/7042266
+- **Subtitled Public** — Rafael Lozano-Hemmer (2005): Each visitor is labeled with a projected verb, and the only way to pass it on is to touch someone else. https://vimeo.com/1089123902
 
 ## All creators and works
 

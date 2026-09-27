@@ -1,34 +1,162 @@
 {
-  "universal-everything--super-you": {"why_en": "Point the phone at yourself and your body becomes a giant flowing digital being; the whole work is that one transformation.", "why_zh": "用手机对准自己，身体就变成一个巨大、流动的数字生命，整件作品就只做这一次变身。"},
-  "google-creative-lab--just-a-line": {"why_en": "You can only draw one white line in the air, and that constraint makes spatial drawing obvious to anyone.", "why_zh": "只能在空中画一条白线，正是这个限制让任何人一看就懂什么是空间绘画。"},
-  "zach-lieberman--x949953": {"why_en": "A poem is laid out in space, so reading it means walking through it.", "why_zh": "一首诗被摆放在空间里，读诗就变成了在诗中行走。"},
-  "shunichi-kasahara--fragment-shadow": {"why_en": "One body casts several colored shadows at once, turning an everyday shadow into something strange.", "why_zh": "一个人同时投下好几道彩色影子，让最日常的影子变得陌生。"},
-  "shengzhi-wu--sticky-note-from-ipad": {"why_en": "You pinch a sketch and pull it out of the iPad screen like a page from a book, which a child grasps at once.", "why_zh": "捏住平板上的草图，像从书里抽出一页纸一样把它拉进房间，孩子一看就懂。"},
-  "shengzhi-wu--ar-eyedropper": {"why_en": "An eyedropper sucks a color from any real object and squirts it into a lamp, so the world becomes a palette.", "why_zh": "用滴管从任何真实物体上吸取颜色，再挤进台灯，整个世界就成了调色盘。"},
-  "kiyoshi-kiyokawa--visual-noise-reduction": {"why_en": "Noise-cancelling headphones, but for the eyes: moving distractions around you fade to grey.", "why_zh": "给眼睛用的降噪耳机：周围晃动的干扰被淡化成灰色。"},
-  "jun-nishida--handmorph": {"why_en": "Wearing a child-sized mechanical hand makes the real world feel oversized, with no screen at all.", "why_zh": "戴上一只孩子大小的机械手，真实世界就显得变大了，全程不需要任何屏幕。"},
-  "olafur-eliasson--earth-speakr": {"why_en": "Children lend their faces and voices to trees and rivers so the planet can speak.", "why_zh": "孩子把自己的脸和声音借给树木与河流，让地球开口说话。"},
-  "hart-woolery--yopuppet": {"why_en": "Open and close your hand and a cartoon puppet talks, the oldest puppet trick redone in AR.", "why_zh": "手一张一合，卡通木偶就开口说话，这是最古老的手偶把戏在 AR 里的重演。"},
-  "irene-alvarado--move-mirror": {"why_en": "Your pose becomes a search query that finds strangers striking the same pose, frame by frame.", "why_zh": "你的姿势就是搜索词，每一帧都找出一个摆着同样姿势的陌生人。"},
-  "aidan-wolf--doodlelens": {"why_en": "A doodle on paper peels off the page and comes alive in the room.", "why_zh": "纸上的涂鸦从纸面上揭下来，在房间里活了过来。"},
-  "aidan-wolf--hot-potato-lens": {"why_en": "Friends pass a ticking virtual potato phone to phone until it blows up on someone, a party game anyone already knows.", "why_zh": "朋友们用手机互相传一个滴答作响的虚拟土豆，直到它在某人手里爆炸，规则人人都懂。"},
-  "luke-hurd--hole-in-the-head": {"why_en": "A hole opens in your head and there is a tiny world inside.", "why_zh": "头上开了一个洞，里面藏着一个微小的世界。"},
-  "abhishek-singh--musical-chairs-avengers": {"why_en": "Musical chairs where the rivals are life-size virtual Avengers competing for real chairs.", "why_zh": "抢椅子游戏里的对手是真人大小的虚拟复仇者，抢的却是真椅子。"},
-  "abhishek-singh--tattoos-to-life": {"why_en": "Point at a tattoo and it animates and tells the personal story behind it.", "why_zh": "对准一个纹身，它就动起来，讲出纹身背后的个人故事。"},
-  "nexus-studios--notable-women": {"why_en": "AR puts portraits of historic women onto US banknotes, asking who deserves to be on money.", "why_zh": "AR 把历史上杰出女性的肖像印到美元上，追问谁才配出现在钞票上。"},
-  "shengzhi-wu--shadow-float": {"why_en": "Move only the shadow and the object seems to lift off the table, showing the cheapest depth cue there is.", "why_zh": "只移动影子，物体就像离开了桌面，一眼看出最廉价的深度线索。"},
-  "lucas-rizzotto--marauders-map": {"why_en": "A parchment Marauder's Map that really shows where everyone in the castle is right now.", "why_zh": "一张真正能显示城堡里每个人此刻位置的活点地图。"},
-  "lucas-rizzotto--girlfriend-musical-instrument": {"why_en": "Every movement of a dancer's body plays a note, so the person becomes the instrument.", "why_zh": "舞者身体的每个动作都奏出一个音，人本身就成了乐器。"},
-  "tobias-langlotz--chromaglasses": {"why_en": "Glasses that correct color instead of focus, so people with color-vision deficiency can tell confused colors apart.", "why_zh": "这副眼镜矫正的不是焦距而是颜色，让色觉障碍者能分清原本混淆的颜色。"},
-  "google-creative-lab--drawalong-ar": {"why_en": "A drawing tutorial video floats over your sketchbook as tracing paper.", "why_zh": "绘画教程视频浮在你的速写本上，变成一张描图纸。"},
-  "zach-lieberman--weird-cuts": {"why_en": "Cut shapes out of the camera image and hang them in mid-air, making a collage in space.", "why_zh": "从相机画面里剪下形状挂在半空，在空间里做拼贴。"},
-  "zach-lieberman--x069317": {"why_en": "A skateboard leaves a trail of words behind it, so a ride becomes a sentence in the air.", "why_zh": "滑板身后拖出一串文字，一次滑行就成了空中的一句话。"},
-  "ishikawa-watanabe-lab--elamorph": {"why_en": "Projected light alone makes a rigid object look as stretchy as rubber.", "why_zh": "仅靠投影，就让一个坚硬的物体看起来像橡胶一样有弹性。"},
-  "theo-watson--painted-mirror": {"why_en": "A mirror that paints you: the longer you stand still, the clearer your portrait becomes.", "why_zh": "一面会画你的镜子：你站得越久越静，画像就越清晰。"},
-  "snap-inc--landmarkers": {"why_en": "The real Eiffel Tower melts or sprays rainbows on camera, turning a monument into a toy.", "why_zh": "镜头里真实的埃菲尔铁塔融化或喷出彩虹，地标变成了玩具。"},
-  "daito-manabe--terminal-slam": {"why_en": "Through the glasses, Shibuya's billboards are erased and replaced by music visuals, AR that subtracts instead of adds.", "why_zh": "透过眼镜，涩谷的广告牌被抹去、换成音乐影像，这是做减法而不是做加法的 AR。"},
-  "morten-just--kitchen-timers": {"why_en": "Countdown timers float right above the pots they are timing.", "why_zh": "倒计时直接浮在正在计时的锅上方。"},
-  "marina-abramovic--the-life": {"why_en": "The artist's holographic double performs in the room with you, so a performance piece can exist without the performer.", "why_zh": "艺术家的全息分身在房间里为你表演，行为艺术从此可以脱离表演者本人存在。"},
-  "anrick-bregman--bosch-ar": {"why_en": "Monsters from a 500-year-old Bosch painting walk out of the canvas into your street.", "why_zh": "五百年前博斯画中的怪物走出画布，来到你的街道上。"},
-  "lucas-rizzotto--portal-to-best-friend": {"why_en": "A portal in the wall opens into a friend's home during lockdown, so two people live as virtual roommates.", "why_zh": "封控期间，墙上的一扇传送门通向朋友家，两人成了虚拟室友。"}
+ "universal-everything--super-you": {
+  "why_en": "Point the phone at yourself and your body becomes a giant flowing digital being; the whole work is that one transformation.",
+  "why_zh": "用手机对准自己，身体就变成一个巨大、流动的数字生命，整件作品就只做这一次变身。",
+  "cat": "body"
+ },
+ "google-creative-lab--just-a-line": {
+  "why_en": "You can only draw one white line in the air, and that constraint makes spatial drawing obvious to anyone.",
+  "why_zh": "只能在空中画一条白线，正是这个限制让任何人一看就懂什么是空间绘画。",
+  "cat": "draw"
+ },
+ "zach-lieberman--x949953": {
+  "why_en": "A poem is laid out in space, so reading it means walking through it.",
+  "why_zh": "一首诗被摆放在空间里，读诗就变成了在诗中行走。",
+  "cat": "draw"
+ },
+ "shunichi-kasahara--fragment-shadow": {
+  "why_en": "One body casts several colored shadows at once, turning an everyday shadow into something strange.",
+  "why_zh": "一个人同时投下好几道彩色影子，让最日常的影子变得陌生。",
+  "cat": "shadow"
+ },
+ "shengzhi-wu--sticky-note-from-ipad": {
+  "why_en": "You pinch a sketch and pull it out of the iPad screen like a page from a book, which a child grasps at once.",
+  "why_zh": "捏住平板上的草图，像从书里抽出一页纸一样把它拉进房间，孩子一看就懂。",
+  "cat": "alive"
+ },
+ "shengzhi-wu--ar-eyedropper": {
+  "why_en": "An eyedropper sucks a color from any real object and squirts it into a lamp, so the world becomes a palette.",
+  "why_zh": "用滴管从任何真实物体上吸取颜色，再挤进台灯，整个世界就成了调色盘。",
+  "cat": "alive"
+ },
+ "kiyoshi-kiyokawa--visual-noise-reduction": {
+  "why_en": "Noise-cancelling headphones, but for the eyes: moving distractions around you fade to grey.",
+  "why_zh": "给眼睛用的降噪耳机：周围晃动的干扰被淡化成灰色。",
+  "cat": "senses"
+ },
+ "jun-nishida--handmorph": {
+  "why_en": "Wearing a child-sized mechanical hand makes the real world feel oversized, with no screen at all.",
+  "why_zh": "戴上一只孩子大小的机械手，真实世界就显得变大了，全程不需要任何屏幕。",
+  "cat": "body"
+ },
+ "olafur-eliasson--earth-speakr": {
+  "why_en": "Children lend their faces and voices to trees and rivers so the planet can speak.",
+  "why_zh": "孩子把自己的脸和声音借给树木与河流，让地球开口说话。",
+  "cat": "alive"
+ },
+ "hart-woolery--yopuppet": {
+  "why_en": "Open and close your hand and a cartoon puppet talks, the oldest puppet trick redone in AR.",
+  "why_zh": "手一张一合，卡通木偶就开口说话，这是最古老的手偶把戏在 AR 里的重演。",
+  "cat": "body"
+ },
+ "irene-alvarado--move-mirror": {
+  "why_en": "Your pose becomes a search query that finds strangers striking the same pose, frame by frame.",
+  "why_zh": "你的姿势就是搜索词，每一帧都找出一个摆着同样姿势的陌生人。",
+  "cat": "shadow"
+ },
+ "aidan-wolf--doodlelens": {
+  "why_en": "A doodle on paper peels off the page and comes alive in the room.",
+  "why_zh": "纸上的涂鸦从纸面上揭下来，在房间里活了过来。",
+  "cat": "alive"
+ },
+ "aidan-wolf--hot-potato-lens": {
+  "why_en": "Friends pass a ticking virtual potato phone to phone until it blows up on someone, a party game anyone already knows.",
+  "why_zh": "朋友们用手机互相传一个滴答作响的虚拟土豆，直到它在某人手里爆炸，规则人人都懂。",
+  "cat": "play"
+ },
+ "luke-hurd--hole-in-the-head": {
+  "why_en": "A hole opens in your head and there is a tiny world inside.",
+  "why_zh": "头上开了一个洞，里面藏着一个微小的世界。",
+  "cat": "portal"
+ },
+ "abhishek-singh--musical-chairs-avengers": {
+  "why_en": "Musical chairs where the rivals are life-size virtual Avengers competing for real chairs.",
+  "why_zh": "抢椅子游戏里的对手是真人大小的虚拟复仇者，抢的却是真椅子。",
+  "cat": "play"
+ },
+ "abhishek-singh--tattoos-to-life": {
+  "why_en": "Point at a tattoo and it animates and tells the personal story behind it.",
+  "why_zh": "对准一个纹身，它就动起来，讲出纹身背后的个人故事。",
+  "cat": "alive"
+ },
+ "nexus-studios--notable-women": {
+  "why_en": "AR puts portraits of historic women onto US banknotes, asking who deserves to be on money.",
+  "why_zh": "AR 把历史上杰出女性的肖像印到美元上，追问谁才配出现在钞票上。",
+  "cat": "rewrite"
+ },
+ "shengzhi-wu--shadow-float": {
+  "why_en": "Move only the shadow and the object seems to lift off the table, showing the cheapest depth cue there is.",
+  "why_zh": "只移动影子，物体就像离开了桌面，一眼看出最廉价的深度线索。",
+  "cat": "shadow"
+ },
+ "lucas-rizzotto--marauders-map": {
+  "why_en": "A parchment Marauder's Map that really shows where everyone in the castle is right now.",
+  "why_zh": "一张真正能显示城堡里每个人此刻位置的活点地图。",
+  "cat": "alive"
+ },
+ "lucas-rizzotto--girlfriend-musical-instrument": {
+  "why_en": "Every movement of a dancer's body plays a note, so the person becomes the instrument.",
+  "why_zh": "舞者身体的每个动作都奏出一个音，人本身就成了乐器。",
+  "cat": "sound"
+ },
+ "tobias-langlotz--chromaglasses": {
+  "why_en": "Glasses that correct color instead of focus, so people with color-vision deficiency can tell confused colors apart.",
+  "why_zh": "这副眼镜矫正的不是焦距而是颜色，让色觉障碍者能分清原本混淆的颜色。",
+  "cat": "senses"
+ },
+ "google-creative-lab--drawalong-ar": {
+  "why_en": "A drawing tutorial video floats over your sketchbook as tracing paper.",
+  "why_zh": "绘画教程视频浮在你的速写本上，变成一张描图纸。",
+  "cat": "draw"
+ },
+ "zach-lieberman--weird-cuts": {
+  "why_en": "Cut shapes out of the camera image and hang them in mid-air, making a collage in space.",
+  "why_zh": "从相机画面里剪下形状挂在半空，在空间里做拼贴。",
+  "cat": "draw"
+ },
+ "zach-lieberman--x069317": {
+  "why_en": "A skateboard leaves a trail of words behind it, so a ride becomes a sentence in the air.",
+  "why_zh": "滑板身后拖出一串文字，一次滑行就成了空中的一句话。",
+  "cat": "draw"
+ },
+ "ishikawa-watanabe-lab--elamorph": {
+  "why_en": "Projected light alone makes a rigid object look as stretchy as rubber.",
+  "why_zh": "仅靠投影，就让一个坚硬的物体看起来像橡胶一样有弹性。",
+  "cat": "alive"
+ },
+ "theo-watson--painted-mirror": {
+  "why_en": "A mirror that paints you: the longer you stand still, the clearer your portrait becomes.",
+  "why_zh": "一面会画你的镜子：你站得越久越静，画像就越清晰。",
+  "cat": "shadow"
+ },
+ "snap-inc--landmarkers": {
+  "why_en": "The real Eiffel Tower melts or sprays rainbows on camera, turning a monument into a toy.",
+  "why_zh": "镜头里真实的埃菲尔铁塔融化或喷出彩虹，地标变成了玩具。",
+  "cat": "rewrite"
+ },
+ "daito-manabe--terminal-slam": {
+  "why_en": "Through the glasses, Shibuya's billboards are erased and replaced by music visuals, AR that subtracts instead of adds.",
+  "why_zh": "透过眼镜，涩谷的广告牌被抹去、换成音乐影像，这是做减法而不是做加法的 AR。",
+  "cat": "rewrite"
+ },
+ "morten-just--kitchen-timers": {
+  "why_en": "Countdown timers float right above the pots they are timing.",
+  "why_zh": "倒计时直接浮在正在计时的锅上方。",
+  "cat": "invisible"
+ },
+ "marina-abramovic--the-life": {
+  "why_en": "The artist's holographic double performs in the room with you, so a performance piece can exist without the performer.",
+  "why_zh": "艺术家的全息分身在房间里为你表演，行为艺术从此可以脱离表演者本人存在。",
+  "cat": "time"
+ },
+ "anrick-bregman--bosch-ar": {
+  "why_en": "Monsters from a 500-year-old Bosch painting walk out of the canvas into your street.",
+  "why_zh": "五百年前博斯画中的怪物走出画布，来到你的街道上。",
+  "cat": "alive"
+ },
+ "lucas-rizzotto--portal-to-best-friend": {
+  "why_en": "A portal in the wall opens into a friend's home during lockdown, so two people live as virtual roommates.",
+  "why_zh": "封控期间，墙上的一扇传送门通向朋友家，两人成了虚拟室友。",
+  "cat": "portal"
+ }
 }

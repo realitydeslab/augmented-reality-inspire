@@ -26,9 +26,17 @@ Platforms, SDKs and tools; products or games with many features; research system
 
 Be selective: roughly **one in ten** works. When unsure, leave it out.
 
+## Categories
+
+Every pick has one primary category (`cat`), defined in `data/salient_categories.json`:
+`senses` Borrowed senses · `invisible` Invisible made visible · `sound` Sound in space · `body` Body remix ·
+`shadow` Shadows & mirrors · `portal` Windows & portals · `time` Time & traces · `rewrite` Rewriting reality ·
+`alive` Things come alive · `draw` Drawing in space · `play` Play & together.
+Choose the category that names the single idea the work is remembered for, not its technology.
+
 ## Data
 
-- Picks: `data/salient/*.json` — `{ "work-id": { "why_en": "…", "why_zh": "…" } }`
+- Picks: `data/salient/*.json` — `{ "work-id": { "why_en": "…", "why_zh": "…", "cat": "sound" } }`
   - `why_en`: one short sentence naming the single idea and why it lands. No marketing words.
   - `why_zh`: the same in natural Simplified Chinese.
 - Owner's manual additions/removals: `data/salient/manual.json` (`null` removes a work). Applied last.

@@ -31,6 +31,7 @@ OVERRIDES = ROOT / "data" / "overrides.json"
 KEYS = ROOT / "data" / "key_creators.json"
 I18N = ROOT / "data" / "i18n" / "out"
 SALIENT = ROOT / "data" / "salient"
+SALIENT_CATS = ROOT / "data" / "salient_categories.json"
 CACHE = ROOT / "data" / "video_cache.json"
 
 INTERACTIONS = {
@@ -310,7 +311,13 @@ def main() -> None:
     for c in out_creators:
         if c["id"] in key_of:
             c["key"] = key_of[c["id"]]
-    data = {"generated": date.today().isoformat(), "creators": out_creators, "works": kept, "keys": keys}
+    cats = json.loads(SALIENT_CATS.read_text()).get("categories", []) if SALIENT_CATS.exists() else []
+    cat_ids = {c["id"] for c in cats}
+    uncategorized = [w["id"] for w in kept if w.get("salient") and w["salient"].get("cat") not in cat_ids]
+    if uncategorized:
+        logger.warning("salient works without a valid category: %d (e.g. %s)", len(uncategorized), uncategorized[:5])
+    data = {"generated": date.today().isoformat(), "creators": out_creators, "works": kept, "keys": keys,
+            "salient_categories": cats}
     (ROOT / "data" / "entries.json").write_text(json.dumps(data, indent=1, ensure_ascii=False))
     (ROOT / "data" / "entries.js").write_text("window.INSPIRE = " + json.dumps(data, ensure_ascii=False) + ";\n")
     (ROOT / "data" / "leads.json").write_text(json.dumps(open_leads, indent=1, ensure_ascii=False))

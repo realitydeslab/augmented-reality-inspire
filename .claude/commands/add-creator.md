@@ -38,7 +38,7 @@ Read `data/SCHEMA.md` first. It defines the JSON format, the interaction vocabul
 
 7. **Check for duplicates.** `python3 tools/audit.py` — if the new creator or works show up as possible duplicates, resolve them (see `/tidy`).
 
-8. **Salient.** For each new work, ask whether it is *salient*: one idea explainable in a sentence, minimal means, concept over technology, readable in ~5 seconds of video (anchors: Universal Everything's Ultrasound VR and Super You, Zach Lieberman's Audio in AR space, EchoVision). Add the ones that qualify to `data/salient/manual.json` as `{ "work-id": { "why_en": "…", "why_zh": "…" } }`. Be selective (roughly one in ten works).
+8. **Salient.** For each new work, ask whether it is *salient*: one idea explainable in a sentence, minimal means, concept over technology, readable in ~5 seconds of video (anchors: Universal Everything's Ultrasound VR and Super You, Zach Lieberman's Audio in AR space, EchoVision). Add the ones that qualify to `data/salient/manual.json` as `{ "work-id": { "why_en": "…", "why_zh": "…", "cat": "<category id from data/salient_categories.json>" } }`. Be selective (roughly one in ten works).
 
 9. **Key Creator (optional).** Only if the user asked, or the creator is clearly of Key-Creator stature, propose adding them to `data/key_creators.json` with a 4–5 stop tour (`tagline/intro/learn` and highlight notes in both `_en` and `_zh`) and ask before adding.
 

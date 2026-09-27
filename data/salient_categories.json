@@ -1,0 +1,82 @@
+{
+ "_note": "Categories for the Salient column; each salient pick has one primary `cat`.",
+ "categories": [
+  {
+   "id": "senses",
+   "en": "Borrowed senses",
+   "zh": "借来的感官",
+   "desc_en": "Perceive the world through a sense you don't have, or someone else's.",
+   "desc_zh": "用你本来没有的感官、或别人的感官去感知世界。"
+  },
+  {
+   "id": "invisible",
+   "en": "Invisible made visible",
+   "zh": "让看不见的被看见",
+   "desc_en": "Something that is always there but never seen (air, motion, data) becomes visible.",
+   "desc_zh": "一直存在却看不见的东西（空气、运动、数据）变得可见。"
+  },
+  {
+   "id": "sound",
+   "en": "Sound in space",
+   "zh": "声音进入空间",
+   "desc_en": "Sound gets a place, a shape or a body in space.",
+   "desc_zh": "声音在空间里有了位置、形状或身体。"
+  },
+  {
+   "id": "body",
+   "en": "Body remix",
+   "zh": "身体变形",
+   "desc_en": "Your body is changed, extended, swapped or turned into something else.",
+   "desc_zh": "你的身体被改变、延伸、交换，或变成别的东西。"
+  },
+  {
+   "id": "shadow",
+   "en": "Shadows & mirrors",
+   "zh": "影子与镜子",
+   "desc_en": "Your shadow or reflection starts to behave differently.",
+   "desc_zh": "你的影子或镜像开始有了自己的行为。"
+  },
+  {
+   "id": "portal",
+   "en": "Windows & portals",
+   "zh": "窗与传送门",
+   "desc_en": "A frame, door or hole opens onto another place.",
+   "desc_zh": "一个画框、一扇门或一个洞，通向另一个地方。"
+  },
+  {
+   "id": "time",
+   "en": "Time & traces",
+   "zh": "时间与痕迹",
+   "desc_en": "The past stays in place, replays, or leaves a visible trace.",
+   "desc_zh": "过去停留在原地、重新播放，或留下看得见的痕迹。"
+  },
+  {
+   "id": "rewrite",
+   "en": "Rewriting reality",
+   "zh": "改写现实",
+   "desc_en": "What is already there is erased, replaced or re-labelled, often as a statement.",
+   "desc_zh": "把已经存在的东西抹去、替换或重新标注，往往带着观点。"
+  },
+  {
+   "id": "alive",
+   "en": "Things come alive",
+   "zh": "让物件活过来",
+   "desc_en": "Paper, drawings and everyday objects become interactive or animate.",
+   "desc_zh": "纸、画和日常物件变得可以交互，或者活了过来。"
+  },
+  {
+   "id": "draw",
+   "en": "Drawing in space",
+   "zh": "空间书写",
+   "desc_en": "Drawing or writing directly in the air, where the mark itself is the idea.",
+   "desc_zh": "直接在空中画画或写字，笔迹本身就是想法。"
+  },
+  {
+   "id": "play",
+   "en": "Play & together",
+   "zh": "一起玩",
+   "desc_en": "A game or shared moment built on one simple rule.",
+   "desc_zh": "建立在一条简单规则上的游戏或共同时刻。"
+  }
+ ]
+}

@@ -341,3 +341,9 @@ main { padding: 22px clamp(16px, 4vw, 56px) 60px; min-height: 60vh; }
 /* ---------- salient ---------- */
 .salient-mark { color: var(--accent-text); margin-right: 6px; font-size: .8em; vertical-align: .08em; }
 .note--salient { border-left-color: var(--accent); }
+.scat-chips { margin: 0 0 8px; }
+.scat { border-top: 1px solid var(--line); padding: 26px 0 8px; }
+.scat__head { display: flex; align-items: baseline; gap: 12px; }
+.scat__title { font: 400 30px/1.05 var(--serif); letter-spacing: -.02em; margin: 0; }
+.scat__n { font-size: 12px; color: var(--accent-text); }
+.scat__desc { color: var(--muted); font-size: 14px; margin: 6px 0 18px; max-width: 62ch; }

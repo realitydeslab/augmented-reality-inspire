@@ -29,7 +29,7 @@
   const ixName = (k) => { const r = INTERACTIONS.find((x) => x[0] === k); return r ? (lang === "zh" ? r[2] : r[1]) : k; };
   const src = (p) => S().sources[p] || p;
 
-  const state = { view: "keys", q: "", ix: new Set(), plat: new Set(), era: "", sort: "new", creator: "", keyOnly: false, salientOnly: false };
+  const state = { view: "keys", q: "", ix: new Set(), plat: new Set(), era: "", sort: "new", creator: "", keyOnly: false, salientOnly: false, salientCat: "" };
   let currentList = [];
   let openIndex = -1;
   let tour = null;
@@ -47,6 +47,7 @@
     state.creator = p.get("c") || "";
     state.keyOnly = p.get("key") === "1";
     state.salientOnly = p.get("s") === "1";
+    state.salientCat = p.get("sc") || "";
     return { work: p.get("w"), tour: p.get("t") };
   }
   function writeHash(workId) {
@@ -54,6 +55,7 @@
     if (state.view !== "keys") p.set("view", state.view);
     if (state.keyOnly) p.set("key", "1");
     if (state.salientOnly) p.set("s", "1");
+    if (state.salientCat && state.view === "salient") p.set("sc", state.salientCat);
     if (state.q) p.set("q", state.q);
     if (state.ix.size) p.set("ix", [...state.ix].join(","));
     if (state.plat.size) p.set("p", [...state.plat].join(","));
@@ -201,15 +203,37 @@
     }).join("");
     return n;
   }
+  const SCATS = DATA.salient_categories || [];
+  const scatName = (c) => (lang === "zh" ? c.zh : c.en);
   function renderSalient() {
-    const list = sorted(DATA.works.filter((w) => w.salient));
-    currentList = list;
+    const all = sorted(DATA.works.filter((w) => w.salient));
+    const byCat = (id) => all.filter((w) => (w.salient.cat || "") === id);
+    const known = new Set(SCATS.map((c) => c.id));
+    const other = all.filter((w) => !known.has(w.salient.cat));
+    const chip = (id, label, n) => `<button class="chip" data-scat="${esc(id)}" aria-pressed="${state.salientCat === id}">${esc(label)}<small>${n}</small></button>`;
+    const chips = [chip("", S().all_cats, all.length), ...SCATS.map((c) => chip(c.id, scatName(c), byCat(c.id).length)),
+      ...(other.length ? [chip("_other", S().other_cat, other.length)] : [])].join("");
     $("#salientHead").innerHTML = `<div class="starred__head">
         <h2 class="starred__title">✦ ${esc(S().salient_title)}</h2>
         <p class="starred__lede">${esc(S().salient_lede)}</p>
-        <p class="count mono">${esc(S().salient_count(list.length))}</p></div>`;
-    $("#salientGrid").innerHTML = list.map((w) => card(w, true)).join("");
-    return list.length;
+        <p class="count mono">${esc(S().salient_count(all.length))}</p></div>
+      <div class="chips scat-chips">${chips}</div>`;
+    const section = (c, works) => works.length ? `<section class="scat" id="scat-${esc(c.id)}">
+        <div class="scat__head"><h3 class="scat__title">${esc(scatName(c))}</h3><span class="scat__n mono">${works.length}</span></div>
+        <p class="scat__desc">${esc(lang === "zh" ? c.desc_zh : c.desc_en)}</p>
+        <div class="grid">${works.map((w) => card(w, true)).join("")}</div></section>` : "";
+    let list;
+    if (!state.salientCat) {
+      list = [...SCATS.flatMap((c) => byCat(c.id)), ...other];
+      $("#salientGrid").innerHTML = SCATS.map((c) => section(c, byCat(c.id))).join("") +
+        section({ id: "_other", en: S().other_cat, zh: S().other_cat, desc_en: "", desc_zh: "" }, other);
+    } else {
+      const c = SCATS.find((x) => x.id === state.salientCat) || { id: "_other", en: S().other_cat, zh: S().other_cat, desc_en: "", desc_zh: "" };
+      list = c.id === "_other" ? other : byCat(c.id);
+      $("#salientGrid").innerHTML = section(c, list);
+    }
+    currentList = list;
+    return all.length;
   }
   function renderStarred() {
     const list = DATA.works.filter((w) => stars.has(w.id));
@@ -424,6 +448,7 @@
     if (t.classList.contains("tab")) { state.view = t.dataset.view; render(); return; }
     if (t.dataset.ix) { state.ix.has(t.dataset.ix) ? state.ix.delete(t.dataset.ix) : state.ix.add(t.dataset.ix); render(); return; }
     if (t.dataset.plat) { state.plat.has(t.dataset.plat) ? state.plat.delete(t.dataset.plat) : state.plat.add(t.dataset.plat); render(); return; }
+    if (t.dataset.scat !== undefined) { state.salientCat = t.dataset.scat; render(); return; }
     if (t.dataset.era) { state.era = state.era === t.dataset.era ? "" : t.dataset.era; render(); return; }
     if (t.dataset.module) { state.ix = new Set([t.dataset.module]); state.view = "works"; render(); return; }
     if (t.dataset.tour) { openTour(t.dataset.tour); return; }

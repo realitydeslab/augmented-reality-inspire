@@ -28,7 +28,8 @@ Input: `$ARGUMENTS`
 3. **Judge each work** against the four criteria. Compare with the anchors: would it sit comfortably next to *Ultrasound VR*, *Super You*, *Audio in AR space* and *EchoVision*? When unsure, leave it out.
 
 4. **Write the picks** into `data/salient/manual.json` (or the subagent's own file):
-   `"work-id": { "why_en": "One short sentence naming the single idea.", "why_zh": "同一句话的自然中文。" }`
+   `"work-id": { "why_en": "One short sentence naming the single idea.", "why_zh": "同一句话的自然中文。", "cat": "<category id>" }`
+   `cat` is one id from `data/salient_categories.json` (see `data/SALIENT.md`). If a new kind of idea keeps appearing that fits no category, propose a new category to the user instead of forcing it.
    To take a work out of the column, set `"work-id": null` in `manual.json`.
 
 5. **Record what you reviewed** (picked or not), so the next `/salient` skips them:

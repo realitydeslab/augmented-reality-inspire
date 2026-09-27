@@ -108,11 +108,20 @@ def catalog_md(data: dict, lang: str) -> str:
     sal = [w for w in data["works"] if w.get("salient")]
     if sal:
         out += [f"## {s['salient']}", "", s["salient_intro"], ""]
-        for w in sal:
-            who = ", ".join(names.get(c, c) for c in w["creator_ids"])
-            why = w["salient"]["why_zh" if zh else "why_en"]
-            out.append(f"- **{w['title']}** — {who}" + (f" ({w['year']})" if w.get("year") else "") + f": {why} {w['video']['url']}")
-        out.append("")
+        cats = data.get("salient_categories", []) + [{"id": None, "en": "Other", "zh": "其他", "desc_en": "", "desc_zh": ""}]
+        known = {c["id"] for c in cats}
+        for c in cats:
+            group = [w for w in sal if w["salient"].get("cat") == c["id"] or (c["id"] is None and w["salient"].get("cat") not in known)]
+            if not group:
+                continue
+            out += [f"### {c['zh'] if zh else c['en']}", ""]
+            if c.get("desc_zh" if zh else "desc_en"):
+                out += [c["desc_zh" if zh else "desc_en"], ""]
+            for w in group:
+                who = ", ".join(names.get(x, x) for x in w["creator_ids"])
+                why = w["salient"]["why_zh" if zh else "why_en"]
+                out.append(f"- **{w['title']}** — {who}" + (f" ({w['year']})" if w.get("year") else "") + f": {why} {w['video']['url']}")
+            out.append("")
     out += [f"## {s['all']}", ""]
     by_creator = defaultdict(list)
     for w in data["works"]:
