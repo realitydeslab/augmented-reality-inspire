@@ -33,6 +33,9 @@ T = {
             "Do not invent details that are not stated here; the video link is the reference.",
         ],
         "keys": "Key creators and guided tours", "all": "All creators and works",
+        "vfx": "Visual effects (with source code)",
+        "vfx_intro": "Real-time visual effects from the Unity VFX community, most with open source code; building blocks that translate easily to AR.",
+        "code": "Source code",
         "salient": "Salient works", "salient_intro": "Simple works where the concept jumps out: one idea, minimal means, understood in seconds.",
         "learn": "What to learn", "why": "Why it matters", "video": "Video", "ix": "Interaction",
         "plat": "Platform & tech", "idea": "Idea", "what": "What it is", "tech": "Technique", "try": "Try it",
@@ -50,6 +53,9 @@ T = {
             "不要编造这里没有写到的细节，以视频链接为准。",
         ],
         "keys": "关键创作者与导览", "all": "全部创作者与作品",
+        "vfx": "视觉特效（附源代码）",
+        "vfx_intro": "来自 Unity 视觉特效社区的实时特效，大多附有开源代码，是很容易搬进 AR 的积木。",
+        "code": "源代码",
         "salient": "一眼即懂的作品", "salient_intro": "做法简单、但概念非常突出的作品：一个想法、极简的手段，几秒就能看懂。",
         "learn": "向他学什么", "why": "策展说明", "video": "视频", "ix": "交互类型",
         "plat": "平台与技术", "idea": "创意点子", "what": "作品内容", "tech": "关键技术", "try": "课堂练习",
@@ -75,6 +81,7 @@ def _work_block(w: dict, lang: str, names: dict, level: str = "####") -> str:
     lines = [
         f"{level} {w['title']} — {who}" + (f" ({w['year']})" if w.get("year") else ""),
         f"- {s['video']}: {w['video']['url']}",
+        f"- {s['code']}: {w['code_url']}" if w.get("code_url") else "",
         f"- {s['ix']}: " + ", ".join(IX.get(x, (x, x))[i] for x in w.get("interaction", [])),
         f"- {s['plat']}: {tech}" if tech else "",
         f"- {s['idea']}: {t['idea']}" if t["idea"] else "",
@@ -122,6 +129,20 @@ def catalog_md(data: dict, lang: str) -> str:
                 why = w["salient"]["why_zh" if zh else "why_en"]
                 out.append(f"- **{w['title']}** — {who}" + (f" ({w['year']})" if w.get("year") else "") + f": {why} {w['video']['url']}")
             out.append("")
+    vfx = [w for w in data["works"] if w.get("vfx_cat")]
+    if vfx:
+        out += [f"## {s['vfx']}", "", s["vfx_intro"], ""]
+        for c in data.get("vfx_categories", []):
+            group = [w for w in vfx if w["vfx_cat"] == c["id"]]
+            if not group:
+                continue
+            out += [f"### {c['zh'] if zh else c['en']}", "", c["desc_zh" if zh else "desc_en"], ""]
+            for w in group:
+                who = ", ".join(names.get(x, x) for x in w["creator_ids"])
+                idea = _w(w, lang)["idea"] or ""
+                code = f" · {s['code']}: {w['code_url']}" if w.get("code_url") else ""
+                out.append(f"- **{w['title']}** — {who}" + (f" ({w['year']})" if w.get("year") else "") + f": {idea} {w['video']['url']}{code}")
+            out.append("")
     out += [f"## {s['all']}", ""]
     by_creator = defaultdict(list)
     for w in data["works"]:
@@ -147,7 +168,9 @@ def llms_txt(data: dict) -> str:
         "",
         f"> {T['en']['intro']}",
         "",
-        f"{len(data['creators'])} creators, {len(data['works'])} works, updated {data['generated']}. "
+        f"{len(data['creators'])} creators, {len(data['works'])} works "
+        f"({sum(bool(w.get('vfx_cat')) for w in data['works'])} visual effects, "
+        f"{sum(bool(w.get('code_url')) for w in data['works'])} with source code), updated {data['generated']}. "
         "Bilingual (English / Simplified Chinese).",
         "",
         "## Full catalog",

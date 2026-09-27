@@ -493,6 +493,37 @@ A game or shared moment built on one simple rule.
 - **Hand from Above** — Chris O'Shea (2009): A giant hand reaches into the big-screen feed of a square and picks up passers-by like toys. https://vimeo.com/7042266
 - **Subtitled Public** — Rafael Lozano-Hemmer (2005): Each visitor is labeled with a projected verb, and the only way to pass it on is to touch someone else. https://vimeo.com/1089123902
 
+## Visual effects (with source code)
+
+Real-time visual effects from the Unity VFX community, most with open source code; building blocks that translate easily to AR.
+
+### Particles & swarms
+
+Thousands of points that flow, flock, burst or trail.
+
+- **Holographic ribbons for VRDG+H** — Keijiro Takahashi (2016): An optical virtual image makes a Unity statue and ribbons float in the air and dance to music. https://x.com/_kzr/status/709712057235406848
+
+### Point clouds & depth
+
+Depth cameras, LiDAR and volumetric video turned into living 3D material.
+
+- **Metavido VFX (WebGPU)** — Keijiro Takahashi (2024): Put a phone video with depth onto a web page, so anyone can walk around its effects in a browser. https://x.com/_kzr/status/1828366682689061280 · Source code: https://github.com/keijiro/MetavidoVFX
+- **Rcam3 for Masaya Matsuura's concert** — Keijiro Takahashi (2024): Use a phone's LiDAR as a volumetric camera on stage to generate live show visuals. https://x.com/_kzr/status/1871169155254435978 · Source code: https://github.com/keijiro/Rcam3
+- **VFX with Unity AR Foundation** — Keijiro Takahashi (2022): Grow light effects along the real environment live on a phone. https://x.com/_kzr/status/1601509152395706369 · Source code: https://github.com/keijiro/Rcam2
+- **Walking a Taiwanese street with iPhone LiDAR** — Keijiro Takahashi (2022): Turn LiDAR's short sight into a dreamlike style of street scene. https://x.com/_kzr/status/1607672355710709760
+- **Adding VFX to a Bibcam clip** — Keijiro Takahashi (2021): Add space-aware post effects to a depth video that has already been recorded. https://x.com/_kzr/status/1460618910990929926 · Source code: https://github.com/keijiro/BibcamVfx
+- **Bibcam test in Shibuya** — Keijiro Takahashi (2021): Burn depth and camera pose into the video as you record, so you can later add effects that fit the street space. https://vimeo.com/651111230 · Source code: https://github.com/keijiro/Bibcam
+- **Rcam2: Volumetric AR camera rig** — Keijiro Takahashi (2020): Use an iPad's LiDAR as a mobile volumetric camera so effects grow right on the real room. https://vimeo.com/461782810 · Source code: https://github.com/keijiro/Rcam2
+- **Rcam at Channel #20 (live with umio)** — Keijiro Takahashi (2019): Scan a performer into a live point cloud, then let particles tear the body apart and rebuild it as concert visuals. https://vimeo.com/346711967 · Source code: https://github.com/keijiro/Rcam
+
+### Body & face effects
+
+Effects driven by segmentation, pose, hands or face tracking.
+
+- **BodyPix visual effects (NNCam)** — Keijiro Takahashi (2021): Cut the person out of the background in real time so effects only touch the body. https://vimeo.com/580670067 · Source code: https://github.com/keijiro/NNCam
+- **FaceMeshBarracuda face & eye tracker** — Keijiro Takahashi (2021): Get a face mesh and eye tracking from one camera in Unity for mask and gaze effects. https://vimeo.com/545493860 · Source code: https://github.com/keijiro/FaceMeshBarracuda
+- **HandPoseBarracuda hand tracker** — Keijiro Takahashi (2021): Get finger joints in Unity from an ordinary camera as a building block for gesture effects. https://vimeo.com/545493967 · Source code: https://github.com/keijiro/HandPoseBarracuda
+
 ## All creators and works
 
 ### Ian Curtis
@@ -4955,6 +4986,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### Rcam at Channel #20 (live with umio) — Keijiro Takahashi (2019)
 - Video: https://vimeo.com/346711967
+- Source code: https://github.com/keijiro/Rcam
 - Interaction: Performance, Hands & Body, Perception & Effects
 - Platform & tech: Projection, Desktop, Unity, VFX Graph, Intel RealSense
 - Idea: Scan a performer into a live point cloud, then let particles tear the body apart and rebuild it as concert visuals.
@@ -4964,6 +4996,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### Rcam2: Volumetric AR camera rig — Keijiro Takahashi (2020)
 - Video: https://vimeo.com/461782810
+- Source code: https://github.com/keijiro/Rcam2
 - Interaction: Spatial Mapping, Perception & Effects, Performance
 - Platform & tech: Phone, Desktop, Unity, ARKit, LiDAR, VFX Graph, NDI
 - Idea: Use an iPad's LiDAR as a mobile volumetric camera so effects grow right on the real room.
@@ -4973,6 +5006,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### Adding VFX to a Bibcam clip — Keijiro Takahashi (2021)
 - Video: https://x.com/_kzr/status/1460618910990929926
+- Source code: https://github.com/keijiro/BibcamVfx
 - Interaction: Perception & Effects, Spatial Mapping
 - Platform & tech: Phone, Desktop, Unity, VFX Graph, LiDAR
 - Idea: Add space-aware post effects to a depth video that has already been recorded.
@@ -4982,6 +5016,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### Bibcam test in Shibuya — Keijiro Takahashi (2021)
 - Video: https://vimeo.com/651111230
+- Source code: https://github.com/keijiro/Bibcam
 - Interaction: Spatial Mapping, Perception & Effects, Location & City
 - Platform & tech: Phone, Unity, ARKit, LiDAR, VFX Graph
 - Idea: Burn depth and camera pose into the video as you record, so you can later add effects that fit the street space.
@@ -4991,6 +5026,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### BodyPix visual effects (NNCam) — Keijiro Takahashi (2021)
 - Video: https://vimeo.com/580670067
+- Source code: https://github.com/keijiro/NNCam
 - Interaction: Hands & Body, Perception & Effects
 - Platform & tech: Desktop, Unity, Barracuda, BodyPix
 - Idea: Cut the person out of the background in real time so effects only touch the body.
@@ -5000,6 +5036,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### FaceMeshBarracuda face & eye tracker — Keijiro Takahashi (2021)
 - Video: https://vimeo.com/545493860
+- Source code: https://github.com/keijiro/FaceMeshBarracuda
 - Interaction: Face, Gaze & Attention
 - Platform & tech: Desktop, Phone, Unity, Barracuda, MediaPipe
 - Idea: Get a face mesh and eye tracking from one camera in Unity for mask and gaze effects.
@@ -5009,6 +5046,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### HandPoseBarracuda hand tracker — Keijiro Takahashi (2021)
 - Video: https://vimeo.com/545493967
+- Source code: https://github.com/keijiro/HandPoseBarracuda
 - Interaction: Hands & Body
 - Platform & tech: Desktop, Phone, Unity, Barracuda, MediaPipe
 - Idea: Get finger joints in Unity from an ordinary camera as a building block for gesture effects.
@@ -5018,6 +5056,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### VFX with Unity AR Foundation — Keijiro Takahashi (2022)
 - Video: https://x.com/_kzr/status/1601509152395706369
+- Source code: https://github.com/keijiro/Rcam2
 - Interaction: Spatial Mapping, Perception & Effects
 - Platform & tech: Phone, Unity, AR Foundation, ARKit, LiDAR, VFX Graph
 - Idea: Grow light effects along the real environment live on a phone.
@@ -5036,6 +5075,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### Metavido VFX (WebGPU) — Keijiro Takahashi (2024)
 - Video: https://x.com/_kzr/status/1828366682689061280
+- Source code: https://github.com/keijiro/MetavidoVFX
 - Interaction: Perception & Effects, Spatial Mapping
 - Platform & tech: Phone, Web, Unity, WebGPU, VFX Graph, LiDAR
 - Idea: Put a phone video with depth onto a web page, so anyone can walk around its effects in a browser.
@@ -5045,6 +5085,7 @@ Unity Japan engineer who open-sources hundreds of real-time VFX, depth-camera an
 
 #### Rcam3 for Masaya Matsuura's concert — Keijiro Takahashi (2024)
 - Video: https://x.com/_kzr/status/1871169155254435978
+- Source code: https://github.com/keijiro/Rcam3
 - Interaction: Performance, Hands & Body, Perception & Effects
 - Platform & tech: Phone, Projection, Unity, VFX Graph, ARKit, LiDAR
 - Idea: Use a phone's LiDAR as a volumetric camera on stage to generate live show visuals.

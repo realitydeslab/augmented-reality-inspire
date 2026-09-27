@@ -1,0 +1,25 @@
+{
+ "_note": "Categories for the Visual Effects column: real-time effects (mostly Unity VFX Graph / shaders) that translate easily to AR. Each VFX work has one `vfx_cat`; `code_url` links its source code.",
+ "categories": [
+  {"id": "particles", "en": "Particles & swarms", "zh": "粒子与群体",
+   "desc_en": "Thousands of points that flow, flock, burst or trail.", "desc_zh": "成千上万的点在流动、聚集、迸发或拖尾。"},
+  {"id": "pointcloud", "en": "Point clouds & depth", "zh": "点云与深度",
+   "desc_en": "Depth cameras, LiDAR and volumetric video turned into living 3D material.", "desc_zh": "把深度相机、LiDAR 和体积视频变成会动的三维材料。"},
+  {"id": "body", "en": "Body & face effects", "zh": "身体与面部特效",
+   "desc_en": "Effects driven by segmentation, pose, hands or face tracking.", "desc_zh": "由人像分割、姿态、手部或面部追踪驱动的特效。"},
+  {"id": "audio", "en": "Audio-reactive", "zh": "声音驱动",
+   "desc_en": "Visuals that listen: sound and music shape the effect.", "desc_zh": "会“听”的画面：声音和音乐决定特效的形态。"},
+  {"id": "procedural", "en": "Procedural forms & growth", "zh": "程序化形态与生长",
+   "desc_en": "Geometry that grows, extrudes, tiles or deforms by rules.", "desc_zh": "按规则生长、挤出、平铺或变形的几何体。"},
+  {"id": "surface", "en": "Shaders & surfaces", "zh": "着色器与表面",
+   "desc_en": "Dissolves, holograms, glitches and materials that change what a surface looks like.", "desc_zh": "溶解、全息、故障和各种材质：改变一个表面看起来的样子。"},
+  {"id": "sdf", "en": "Raymarching & SDF", "zh": "光线步进与 SDF",
+   "desc_en": "Shapes defined by distance fields: smooth blends, infinite detail, impossible spaces.", "desc_zh": "用距离场定义形状：平滑融合、无限细节、不可能的空间。"},
+  {"id": "sim", "en": "Fluids & physics", "zh": "流体与物理",
+   "desc_en": "Simulated fluid, smoke, cloth and soft bodies.", "desc_zh": "模拟的流体、烟雾、布料和软体。"},
+  {"id": "screen", "en": "Camera & screen effects", "zh": "镜头与画面效果",
+   "desc_en": "Post-processing on the camera image: datamosh, slit-scan, feedback, stylisation.", "desc_zh": "对相机画面做后期：数据损坏、狭缝扫描、反馈、风格化。"},
+  {"id": "ml", "en": "AI-driven effects", "zh": "AI 驱动的特效",
+   "desc_en": "Neural networks running in the engine: segmentation, style transfer, generative models.", "desc_zh": "在引擎里实时运行的神经网络：分割、风格迁移、生成模型。"}
+ ]
+}

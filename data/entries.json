@@ -16776,6 +16776,8 @@
    "exercise_zh": "用 Record3D 或手机深度视频导入 three.js，在网页里把一段舞蹈重建成点云；加一个变化：观众点击后切换成'沙子'材质坍塌。",
    "source_url": "https://github.com/keijiro/MetavidoVFX",
    "batch": "r2-phone",
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/MetavidoVFX",
    "description_zh": "用 iPhone Pro 拍摄的体积视频片段在网页浏览器中播放，被记录下来的人和空间以粒子和特效的形式在 3D 中重新渲染。",
    "idea_en": "Put a phone video with depth onto a web page, so anyone can walk around its effects in a browser.",
    "technique_zh": "Metavido 把 LiDAR 深度和相机元数据存储在标准视频流中，Unity 的 WebGPU 构建版本对其解码，在浏览器中重建点云用于视觉特效。",
@@ -17414,6 +17416,8 @@
    "exercise_zh": "用一台手机拍乐手，在 TouchDesigner 里把人体轮廓转成粒子投影到身后；加一个变化：鼓点触发粒子爆开。",
    "source_url": "https://github.com/keijiro/Rcam3",
    "batch": "r2-phone",
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Rcam3",
    "description_zh": "在松浦雅也的演唱会上，舞台上固定的一部 iPhone 捕捉表演者的深度信息，Unity 把他们的剪影转化为大尺度视觉特效，显示在乐队身后。",
    "idea_en": "Use a phone's LiDAR as a volumetric camera on stage to generate live show visuals.",
    "technique_zh": "iPhone 控制端应用把彩色画面和 LiDAR 深度串流到主机，主机把深度转换为点的位置，驱动 VFX Graph 生成投影画面。",
@@ -26788,6 +26792,8 @@
    "exercise_zh": "用 AR Foundation 或 Lens Studio 的深度纹理，让房间表面冒出萤火虫；加一个变化：人走过的地方萤火虫会散开。",
    "source_url": "https://github.com/keijiro/Rcam2",
    "batch": "r2-phone",
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Rcam2",
    "description_zh": "在 iPhone 上实时运行：发光的粒子和线条在真实房间和镜头前的人身上生长，并锚定在 LiDAR 扫描出的环境中。",
    "idea_en": "Grow light effects along the real environment live on a phone.",
    "technique_zh": "AR Foundation 提供 LiDAR 环境深度和人体模板纹理，VFX Graph 在设备端对其采样，从真实表面发射粒子。",
@@ -26865,6 +26871,7 @@
    "technique": "LiDAR depth samples are reprojected into world-space points each frame and accumulated, so the scene is reconstructed as a trail of colored points around the walker.",
    "exercise_zh": "用 Polycam/Scaniverse 扫一条走廊，导出点云并用 three.js 只显示离你 5 米内的点；加一个变化：点云随脚步声闪烁。",
    "batch": "r2-phone",
+   "vfx_cat": "pointcloud",
    "description_zh": "在台湾一条街道上的夜间漫步，被呈现为一个由 iPhone LiDAR 实时构建的稀疏点云世界，既展现了这种传感器的神奇之处，也暴露了它 5 米的探测距离限制。",
    "idea_en": "Turn LiDAR's short sight into a dreamlike style of street scene.",
    "technique_zh": "每一帧的 LiDAR 深度采样被重投影为世界空间中的点并不断累积，让场景重建为行走者周围的一道彩色点迹。",
@@ -27411,6 +27418,8 @@
    "exercise_zh": "把一段深度视频导入 TouchDesigner，用深度通道控制粒子密度，让近处的人变成光点；加一个变化：粒子颜色随时间从白天过渡到夜晚。",
    "source_url": "https://github.com/keijiro/BibcamVfx",
    "batch": "r2-phone",
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/BibcamVfx",
    "description_zh": "对一段用 Bibcam 录制的行走视频进行后期处理，让粒子和光迹环绕真实的建筑与行人，特效随街道的真实深度而变化。",
    "idea_en": "Add space-aware post effects to a depth video that has already been recorded.",
    "technique_zh": "视频中嵌入的深度和位姿信息让 VFX Graph 能逐帧采样真实几何，使粒子可以在画面中的表面上生成并与之碰撞。",
@@ -27644,6 +27653,8 @@
    "exercise_zh": "用带 LiDAR 的手机录一段校园短片（或用 Record3D 导出），在 Unity/Blender 里给真实空间补上下雪或发光线条；加一个变化：特效只出现在离镜头 2 米之外。",
    "source_url": "https://github.com/keijiro/Bibcam",
    "batch": "r2-phone",
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Bibcam",
    "description_zh": "用 iPhone 13 Pro Max 拍摄的街头影像把深度和相机运动直接记录在视频里，之后就能为涩谷十字路口重新打光，并填入三维特效。",
    "idea_en": "Burn depth and camera pose into the video as you record, so you can later add effects that fit the street space.",
    "technique_zh": "Bibcam 将 LiDAR 深度图和相机位姿作为元数据编码进每一帧录制画面，Unity 之后可据此重建三维场景，用于后期制作 AR 视觉特效。",
@@ -27682,6 +27693,8 @@
    "exercise_zh": "用 MediaPipe Selfie Segmentation 或 TouchDesigner 把同学的身体变成流动的墨水而背景保持不动；加一个变化：只有举起的手会燃烧。",
    "source_url": "https://github.com/keijiro/NNCam",
    "batch": "r2-phone",
+   "vfx_cat": "body",
+   "code_url": "https://github.com/keijiro/NNCam",
    "description_zh": "网络摄像头实时把人从背景中分割出来，并区分身体各部位，于是粒子、轮廓线和故障效果只会包裹实时画面中的人体。",
    "idea_en": "Cut the person out of the background in real time so effects only touch the body.",
    "technique_zh": "BodyPix 人体及部位分割网络通过 Unity Barracuda 运行，其遮罩纹理用于发射 VFX Graph 粒子，并把粒子限制在人体范围内。",
@@ -28598,6 +28611,8 @@
    "exercise_zh": "用 Spark/Lens Studio 或 MediaPipe FaceMesh 做一个跟着眼球转动的'第三只眼'面具；加一个变化：眨眼时面具换一张脸。",
    "source_url": "https://github.com/keijiro/FaceMeshBarracuda",
    "batch": "r2-phone",
+   "vfx_cat": "body",
+   "code_url": "https://github.com/keijiro/FaceMeshBarracuda",
    "description_zh": "一个在 Unity 中运行的网络摄像头面部与虹膜追踪器，在实时视频上叠加密集的面部网格和眼部关键点，可直接用于面具和视线特效。",
    "idea_en": "Get a face mesh and eye tracking from one camera in Unity for mask and gaze effects.",
    "technique_zh": "MediaPipe 面部网格与虹膜模型通过 Barracuda 运行，返回 468 个面部顶点和虹膜关键点，用于给叠加网格贴图并使其变形。",
@@ -28755,6 +28770,8 @@
    "exercise_zh": "用 MediaPipe Hands（网页版即可）追踪手指，让指尖在摄像头画面上拖出彩色光带；加一个变化：捏合手指时光带变成可抓的绳子。",
    "source_url": "https://github.com/keijiro/HandPoseBarracuda",
    "batch": "r2-phone",
+   "vfx_cat": "body",
+   "code_url": "https://github.com/keijiro/HandPoseBarracuda",
    "description_zh": "只用一个网络摄像头，就能在 Unity 中实时追踪所有手指关节，并在实时画面上绘制三维手部骨架，作为手势驱动特效的基础构件。",
    "idea_en": "Get finger joints in Unity from an ordinary camera as a building block for gesture effects.",
    "technique_zh": "MediaPipe 手掌检测与手部关键点神经网络通过 Unity Barracuda 在 GPU 上运行，每帧输出 21 个三维关键点。",
@@ -34194,6 +34211,8 @@
    "exercise_zh": "用 Reality Composer 或 Unity AR Foundation 的 mesh 扫描，让粒子沿着真实墙面和家具流动；加一个变化：只在你指过的物体表面发光。",
    "source_url": "https://github.com/keijiro/Rcam2",
    "batch": "r2-phone",
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Rcam2",
    "description_zh": "一套基于 iPad Pro LiDAR 的拍摄装置，把彩色画面、深度和相机位姿实时传到 PC，由 Unity 在真实场景外包裹上发光的粒子和线条特效，并始终锁定在房间中。",
    "idea_en": "Use an iPad's LiDAR as a mobile volumetric camera so effects grow right on the real room.",
    "technique_zh": "iPad Pro 上的 ARKit 采集 LiDAR 深度、彩色画面和相机位姿，通过 NDI 传输到 PC，Unity 再把深度重投影到世界空间，生成 VFX Graph 特效。",
@@ -39281,6 +39300,8 @@
    "exercise_zh": "用 Kinect/手机深度或 MediaPipe 人体分割把一位同学变成粒子剪影投影在墙上；加一个变化：音乐音量越大粒子越散。",
    "source_url": "https://github.com/keijiro/Rcam",
    "batch": "r2-phone",
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Rcam",
    "description_zh": "舞台上的深度相机把表演者的体积点云串流进 Unity，VFX Graph 粒子在现场演唱会中实时将她的身体拆散又重建。",
    "idea_en": "Scan a performer into a live point cloud, then let particles tear the body apart and rebuild it as concert visuals.",
    "technique_zh": "RealSense 深度相机把彩色和深度帧发送给 Unity，转换成点云，驱动投影在表演者身后的 VFX Graph 粒子。",
@@ -53332,6 +53353,7 @@
    "technique": "Unity renders are shown through a holographic / Pepper's-ghost-style optical element so the image is perceived as a virtual image floating in space (likely a half-mirror or holographic screen).",
    "exercise_zh": "用一块斜放的透明亚克力和手机屏幕做佩珀尔幻象，让一个 3D 小雕像悬浮；加一个变化：拍手时缎带绕着它旋转。",
    "batch": "r2-phone",
+   "vfx_cat": "particles",
    "description_zh": "在 VRDG+H 演出中，借助全息光学装置，一座雕像和几条缎带以虚像的形式悬浮在半空，随 DUB-Russell 的音乐舞动。",
    "idea_en": "An optical virtual image makes a Unity statue and ribbons float in the air and dance to music.",
    "technique_zh": "Unity 渲染的画面经由全息或佩珀尔幻象类光学元件呈现，使图像被感知为悬浮在空间中的虚像（可能是半透镜或全息屏幕）。",
@@ -81023,6 +81045,78 @@
    "zh": "一起玩",
    "desc_en": "A game or shared moment built on one simple rule.",
    "desc_zh": "建立在一条简单规则上的游戏或共同时刻。"
+  }
+ ],
+ "vfx_categories": [
+  {
+   "id": "particles",
+   "en": "Particles & swarms",
+   "zh": "粒子与群体",
+   "desc_en": "Thousands of points that flow, flock, burst or trail.",
+   "desc_zh": "成千上万的点在流动、聚集、迸发或拖尾。"
+  },
+  {
+   "id": "pointcloud",
+   "en": "Point clouds & depth",
+   "zh": "点云与深度",
+   "desc_en": "Depth cameras, LiDAR and volumetric video turned into living 3D material.",
+   "desc_zh": "把深度相机、LiDAR 和体积视频变成会动的三维材料。"
+  },
+  {
+   "id": "body",
+   "en": "Body & face effects",
+   "zh": "身体与面部特效",
+   "desc_en": "Effects driven by segmentation, pose, hands or face tracking.",
+   "desc_zh": "由人像分割、姿态、手部或面部追踪驱动的特效。"
+  },
+  {
+   "id": "audio",
+   "en": "Audio-reactive",
+   "zh": "声音驱动",
+   "desc_en": "Visuals that listen: sound and music shape the effect.",
+   "desc_zh": "会“听”的画面：声音和音乐决定特效的形态。"
+  },
+  {
+   "id": "procedural",
+   "en": "Procedural forms & growth",
+   "zh": "程序化形态与生长",
+   "desc_en": "Geometry that grows, extrudes, tiles or deforms by rules.",
+   "desc_zh": "按规则生长、挤出、平铺或变形的几何体。"
+  },
+  {
+   "id": "surface",
+   "en": "Shaders & surfaces",
+   "zh": "着色器与表面",
+   "desc_en": "Dissolves, holograms, glitches and materials that change what a surface looks like.",
+   "desc_zh": "溶解、全息、故障和各种材质：改变一个表面看起来的样子。"
+  },
+  {
+   "id": "sdf",
+   "en": "Raymarching & SDF",
+   "zh": "光线步进与 SDF",
+   "desc_en": "Shapes defined by distance fields: smooth blends, infinite detail, impossible spaces.",
+   "desc_zh": "用距离场定义形状：平滑融合、无限细节、不可能的空间。"
+  },
+  {
+   "id": "sim",
+   "en": "Fluids & physics",
+   "zh": "流体与物理",
+   "desc_en": "Simulated fluid, smoke, cloth and soft bodies.",
+   "desc_zh": "模拟的流体、烟雾、布料和软体。"
+  },
+  {
+   "id": "screen",
+   "en": "Camera & screen effects",
+   "zh": "镜头与画面效果",
+   "desc_en": "Post-processing on the camera image: datamosh, slit-scan, feedback, stylisation.",
+   "desc_zh": "对相机画面做后期：数据损坏、狭缝扫描、反馈、风格化。"
+  },
+  {
+   "id": "ml",
+   "en": "AI-driven effects",
+   "zh": "AI 驱动的特效",
+   "desc_en": "Neural networks running in the engine: segmentation, style transfer, generative models.",
+   "desc_zh": "在引擎里实时运行的神经网络：分割、风格迁移、生成模型。"
   }
  ]
 }

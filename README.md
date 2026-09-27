@@ -7,6 +7,7 @@ Forty years of augmented-reality ideas. A gallery of the most inventive AR creat
 ## What's inside
 
 - **Salient**: simple works where the concept jumps out — one idea, minimal means, understood in seconds (`data/salient/`).
+- **Visual Effects**: real-time effects from the Unity VFX community (Keijiro Takahashi and others), grouped into 10 categories, most with open source code — building blocks that are easy to bring into AR (`data/vfx_categories.json`).
 - **Key Creators**: 15 creators in four groups, each with a guided tour of 4–5 highlight works and a curator's note.
 - **Works**: filter by 15 interaction types, platform and era; full-text search.
 - **Creators**: every creator with bio, links, who led to them, and all their works.
@@ -73,6 +74,7 @@ YouTube embeds need `http://`; they do not play from `file://`.
 | `data/teach/*.json` | Technique + classroom exercise per work |
 | `data/i18n/out/*.json` | English / Chinese translations |
 | `data/salient/*.json` | Salient picks with a one-line reason; `manual.json` adds or removes (`null`) by hand |
+| `data/vfx_categories.json` | The 10 Visual Effects categories; a work joins the column with `vfx_cat`, and `code_url` links its source code |
 | `data/key_creators.json` | Key Creators, groups and guided tours |
 | `data/overrides.json` | Manual curation: merge creators, hide or patch works, lead status, confirmed non-duplicates |
 | `data/entries.json`, `data/entries.js` | Built dataset used by the site |
@@ -95,6 +97,7 @@ All videos belong to their creators and are embedded from YouTube, Vimeo, X and 
 ## 内容
 
 - **一眼即懂**：做法简单、但概念非常突出的作品——一个想法、极简的手段，几秒就能看懂（`data/salient/`）。
+- **视觉特效**：来自 Unity 视觉特效社区（Keijiro Takahashi 等人）的实时特效，分为 10 类，大多附有开源代码，是很容易搬进 AR 的积木（`data/vfx_categories.json`）。
 - **关键创作者导览**：分成四组的 15 位创作者，每位都有 4–5 件代表作的导览和策展说明。
 - **作品**：按 15 种交互类型、平台和年代筛选，支持全文搜索。
 - **创作者**：每位创作者的简介、链接、发现路径，以及全部作品。

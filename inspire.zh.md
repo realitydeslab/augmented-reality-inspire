@@ -493,6 +493,37 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Hand from Above** — Chris O'Shea (2009): 一只巨手伸进广场大屏幕的实时画面，把路人像玩具一样拎起来。 https://vimeo.com/7042266
 - **Subtitled Public** — Rafael Lozano-Hemmer (2005): 每位访客身上都投着一个动词，要摆脱它，只能去触碰别人。 https://vimeo.com/1089123902
 
+## 视觉特效（附源代码）
+
+来自 Unity 视觉特效社区的实时特效，大多附有开源代码，是很容易搬进 AR 的积木。
+
+### 粒子与群体
+
+成千上万的点在流动、聚集、迸发或拖尾。
+
+- **Holographic ribbons for VRDG+H** — Keijiro Takahashi (2016): 用光学'虚像'让 Unity 做的雕像和缎带悬浮在空中随音乐舞动。 https://x.com/_kzr/status/709712057235406848
+
+### 点云与深度
+
+把深度相机、LiDAR 和体积视频变成会动的三维材料。
+
+- **Metavido VFX (WebGPU)** — Keijiro Takahashi (2024): 把手机拍的'带深度的视频'放进网页，任何人都能在浏览器里围着它看特效。 https://x.com/_kzr/status/1828366682689061280 · 源代码: https://github.com/keijiro/MetavidoVFX
+- **Rcam3 for Masaya Matsuura's concert** — Keijiro Takahashi (2024): 把手机 LiDAR 当成舞台上的体积摄像头，实时生成演出视觉。 https://x.com/_kzr/status/1871169155254435978 · 源代码: https://github.com/keijiro/Rcam3
+- **VFX with Unity AR Foundation** — Keijiro Takahashi (2022): 直接在手机上实时让光效沿真实环境生长。 https://x.com/_kzr/status/1601509152395706369 · 源代码: https://github.com/keijiro/Rcam2
+- **Walking a Taiwanese street with iPhone LiDAR** — Keijiro Takahashi (2022): 用 LiDAR 的'看不远'这一缺陷，本身做成一种梦境般的街景风格。 https://x.com/_kzr/status/1607672355710709760
+- **Adding VFX to a Bibcam clip** — Keijiro Takahashi (2021): 对一段已录好的深度视频做'空间感知'的后期特效。 https://x.com/_kzr/status/1460618910990929926 · 源代码: https://github.com/keijiro/BibcamVfx
+- **Bibcam test in Shibuya** — Keijiro Takahashi (2021): 录像时把深度和相机位姿一起'烙'进视频，之后就能给街景补上贴合空间的特效。 https://vimeo.com/651111230 · 源代码: https://github.com/keijiro/Bibcam
+- **Rcam2: Volumetric AR camera rig** — Keijiro Takahashi (2020): 把 iPad 的 LiDAR 当成可移动的体积摄像机，让特效贴着真实房间长出来。 https://vimeo.com/461782810 · 源代码: https://github.com/keijiro/Rcam2
+- **Rcam at Channel #20 (live with umio)** — Keijiro Takahashi (2019): 把舞台上的人实时扫成点云，再让粒子把人拆散、重组，成为现场演出的视觉。 https://vimeo.com/346711967 · 源代码: https://github.com/keijiro/Rcam
+
+### 身体与面部特效
+
+由人像分割、姿态、手部或面部追踪驱动的特效。
+
+- **BodyPix visual effects (NNCam)** — Keijiro Takahashi (2021): 实时把人从背景里'抠'出来，特效只作用在人身上。 https://vimeo.com/580670067 · 源代码: https://github.com/keijiro/NNCam
+- **FaceMeshBarracuda face & eye tracker** — Keijiro Takahashi (2021): 在 Unity 里用一个摄像头实现脸部网格与眼球追踪，做面具和视线特效。 https://vimeo.com/545493860 · 源代码: https://github.com/keijiro/FaceMeshBarracuda
+- **HandPoseBarracuda hand tracker** — Keijiro Takahashi (2021): 只用普通摄像头就能在 Unity 里拿到手指关节，做手势特效的基础件。 https://vimeo.com/545493967 · 源代码: https://github.com/keijiro/HandPoseBarracuda
+
 ## 全部创作者与作品
 
 ### Ian Curtis
@@ -4955,6 +4986,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### Rcam at Channel #20 (live with umio) — Keijiro Takahashi (2019)
 - 视频: https://vimeo.com/346711967
+- 源代码: https://github.com/keijiro/Rcam
 - 交互类型: 表演与舞台, 手势与身体, 感知与视觉艺术
 - 平台与技术: 投影, 桌面, Unity, VFX Graph, Intel RealSense
 - 创意点子: 把舞台上的人实时扫成点云，再让粒子把人拆散、重组，成为现场演出的视觉。
@@ -4964,6 +4996,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### Rcam2: Volumetric AR camera rig — Keijiro Takahashi (2020)
 - 视频: https://vimeo.com/461782810
+- 源代码: https://github.com/keijiro/Rcam2
 - 交互类型: 空间理解, 感知与视觉艺术, 表演与舞台
 - 平台与技术: 手机, 桌面, Unity, ARKit, LiDAR, VFX Graph, NDI
 - 创意点子: 把 iPad 的 LiDAR 当成可移动的体积摄像机，让特效贴着真实房间长出来。
@@ -4973,6 +5006,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### Adding VFX to a Bibcam clip — Keijiro Takahashi (2021)
 - 视频: https://x.com/_kzr/status/1460618910990929926
+- 源代码: https://github.com/keijiro/BibcamVfx
 - 交互类型: 感知与视觉艺术, 空间理解
 - 平台与技术: 手机, 桌面, Unity, VFX Graph, LiDAR
 - 创意点子: 对一段已录好的深度视频做'空间感知'的后期特效。
@@ -4982,6 +5016,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### Bibcam test in Shibuya — Keijiro Takahashi (2021)
 - 视频: https://vimeo.com/651111230
+- 源代码: https://github.com/keijiro/Bibcam
 - 交互类型: 空间理解, 感知与视觉艺术, 地点与城市
 - 平台与技术: 手机, Unity, ARKit, LiDAR, VFX Graph
 - 创意点子: 录像时把深度和相机位姿一起'烙'进视频，之后就能给街景补上贴合空间的特效。
@@ -4991,6 +5026,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### BodyPix visual effects (NNCam) — Keijiro Takahashi (2021)
 - 视频: https://vimeo.com/580670067
+- 源代码: https://github.com/keijiro/NNCam
 - 交互类型: 手势与身体, 感知与视觉艺术
 - 平台与技术: 桌面, Unity, Barracuda, BodyPix
 - 创意点子: 实时把人从背景里'抠'出来，特效只作用在人身上。
@@ -5000,6 +5036,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### FaceMeshBarracuda face & eye tracker — Keijiro Takahashi (2021)
 - 视频: https://vimeo.com/545493860
+- 源代码: https://github.com/keijiro/FaceMeshBarracuda
 - 交互类型: 面部, 注视
 - 平台与技术: 桌面, 手机, Unity, Barracuda, MediaPipe
 - 创意点子: 在 Unity 里用一个摄像头实现脸部网格与眼球追踪，做面具和视线特效。
@@ -5009,6 +5046,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### HandPoseBarracuda hand tracker — Keijiro Takahashi (2021)
 - 视频: https://vimeo.com/545493967
+- 源代码: https://github.com/keijiro/HandPoseBarracuda
 - 交互类型: 手势与身体
 - 平台与技术: 桌面, 手机, Unity, Barracuda, MediaPipe
 - 创意点子: 只用普通摄像头就能在 Unity 里拿到手指关节，做手势特效的基础件。
@@ -5018,6 +5056,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### VFX with Unity AR Foundation — Keijiro Takahashi (2022)
 - 视频: https://x.com/_kzr/status/1601509152395706369
+- 源代码: https://github.com/keijiro/Rcam2
 - 交互类型: 空间理解, 感知与视觉艺术
 - 平台与技术: 手机, Unity, AR Foundation, ARKit, LiDAR, VFX Graph
 - 创意点子: 直接在手机上实时让光效沿真实环境生长。
@@ -5036,6 +5075,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### Metavido VFX (WebGPU) — Keijiro Takahashi (2024)
 - 视频: https://x.com/_kzr/status/1828366682689061280
+- 源代码: https://github.com/keijiro/MetavidoVFX
 - 交互类型: 感知与视觉艺术, 空间理解
 - 平台与技术: 手机, 网页, Unity, WebGPU, VFX Graph, LiDAR
 - 创意点子: 把手机拍的'带深度的视频'放进网页，任何人都能在浏览器里围着它看特效。
@@ -5045,6 +5085,7 @@ Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深
 
 #### Rcam3 for Masaya Matsuura's concert — Keijiro Takahashi (2024)
 - 视频: https://x.com/_kzr/status/1871169155254435978
+- 源代码: https://github.com/keijiro/Rcam3
 - 交互类型: 表演与舞台, 手势与身体, 感知与视觉艺术
 - 平台与技术: 手机, 投影, Unity, VFX Graph, ARKit, LiDAR
 - 创意点子: 把手机 LiDAR 当成舞台上的体积摄像头，实时生成演出视觉。

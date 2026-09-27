@@ -48,6 +48,8 @@ Each research batch writes one file: `data/raw/<batch>.json`
   "video": { "platform": "vimeo", "id": "290238447", "url": "https://vimeo.com/290238447" },  // youtube | vimeo | x
   "source_url": "https://…",  // project page / article / tweet, optional
   "found_via": { "source": "pinterest", "url": "https://www.pinterest.com/pin/…" }  // optional: where we discovered it (pinterest, article, x, …)
+  "code_url": "https://github.com/<owner>/<repo>",  // optional: public source code of this work (shown as "Source code")
+  "vfx_cat": "particles"  // optional: puts the work in the Visual Effects column; one id from data/vfx_categories.json
 }
 ```
 
@@ -92,3 +94,11 @@ Places where we *discover* works but that are not the works themselves (Pinteres
 `data/sources/pinterest.json` — one entry per pin looked at:
 `{ "pin": "https://www.pinterest.com/pin/…", "image": "…", "note": "…", "status": "traced" | "untraced" | "not_ar" | "duplicate", "work_id": "…" (when traced), "creator_id": "…", "original_url": "…" }`
 Rule: a work only enters the gallery once it is traced to its original creator and a playable original video; untraced pins stay here only.
+
+## Visual Effects column
+
+Real-time visual effects (mostly Unity VFX Graph, compute shaders and shader work) that translate easily to AR.
+A work joins the column when it has `vfx_cat` (one id from `data/vfx_categories.json`:
+particles, pointcloud, body, audio, procedural, surface, sdf, sim, screen, ml).
+Strongly prefer works with public source code in `code_url` (the repository itself, not a profile).
+The video must still be playable (YouTube, Vimeo, X or mp4); a README GIF alone is not enough.

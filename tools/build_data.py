@@ -32,6 +32,7 @@ KEYS = ROOT / "data" / "key_creators.json"
 I18N = ROOT / "data" / "i18n" / "out"
 SALIENT = ROOT / "data" / "salient"
 SALIENT_CATS = ROOT / "data" / "salient_categories.json"
+VFX_CATS = ROOT / "data" / "vfx_categories.json"
 CACHE = ROOT / "data" / "video_cache.json"
 
 INTERACTIONS = {
@@ -46,7 +47,9 @@ def _check_mp4(url: str) -> dict:
     try:
         req = urllib.request.Request(url, headers={**UA, "Range": "bytes=0-1"})
         with urllib.request.urlopen(req, timeout=15) as r:
-            return {"url": url, "ok": r.status in (200, 206), "platform": "mp4", "id": url}
+            ctype = r.headers.get("Content-Type", "")
+            ok = r.status in (200, 206) and (ctype.startswith("video/") or ctype == "application/octet-stream")
+            return {"url": url, "ok": ok, "platform": "mp4", "id": url, "content_type": ctype}
     except Exception as e:  # noqa: BLE001 - any failure means the file is not playable
         return {"url": url, "ok": False, "platform": "mp4", "id": url, "error": str(e)}
 
@@ -317,8 +320,12 @@ def main() -> None:
     uncategorized = [w["id"] for w in kept if w.get("salient") and w["salient"].get("cat") not in cat_ids]
     if uncategorized:
         logger.warning("salient works without a valid category: %d (e.g. %s)", len(uncategorized), uncategorized[:5])
+    vfx_cats = json.loads(VFX_CATS.read_text()).get("categories", []) if VFX_CATS.exists() else []
+    bad_vfx = [w["id"] for w in kept if w.get("vfx_cat") and w["vfx_cat"] not in {c["id"] for c in vfx_cats}]
+    if bad_vfx:
+        logger.warning("VFX works with an unknown vfx_cat: %d (e.g. %s)", len(bad_vfx), bad_vfx[:5])
     data = {"generated": date.today().isoformat(), "creators": out_creators, "works": kept, "keys": keys,
-            "salient_categories": cats}
+            "salient_categories": cats, "vfx_categories": vfx_cats}
     (ROOT / "data" / "entries.json").write_text(json.dumps(data, indent=1, ensure_ascii=False))
     (ROOT / "data" / "entries.js").write_text("window.INSPIRE = " + json.dumps(data, ensure_ascii=False) + ";\n")
     (ROOT / "data" / "leads.json").write_text(json.dumps(open_leads, indent=1, ensure_ascii=False))
@@ -330,9 +337,10 @@ def main() -> None:
     index = ROOT / "index.html"
     stamp = str(int(time.time()))
     index.write_text(re.sub(r'(assets/(?:app|i18n|export)\.(?:js|css)|data/entries\.js)(\?v=\d+)?"', rf'\1?v={stamp}"', index.read_text()))
-    logger.info("creators=%d works=%d dropped=%d open_leads=%d with_teaching=%d salient=%d",
+    logger.info("creators=%d works=%d dropped=%d open_leads=%d with_teaching=%d salient=%d vfx=%d with_code=%d",
                 len(out_creators), len(kept), len(dropped), len(open_leads),
-                sum(bool(w.get("exercise_zh")) for w in kept), sum(bool(w.get("salient")) for w in kept))
+                sum(bool(w.get("exercise_zh")) for w in kept), sum(bool(w.get("salient")) for w in kept),
+                sum(bool(w.get("vfx_cat")) for w in kept), sum(bool(w.get("code_url")) for w in kept))
 
 
 if __name__ == "__main__":

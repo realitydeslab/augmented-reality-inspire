@@ -61,6 +61,52 @@
     "marco-tempest",
     "onformative"
    ]
+  },
+  "keijiro-takahashi--metavido-vfx": {
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/MetavidoVFX"
+  },
+  "keijiro-takahashi--rcam3": {
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Rcam3"
+  },
+  "keijiro-takahashi--ar-foundation-vfx": {
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Rcam2"
+  },
+  "keijiro-takahashi--lidar-street-walk": {
+   "vfx_cat": "pointcloud"
+  },
+  "keijiro-takahashi--bibcam-vfx": {
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/BibcamVfx"
+  },
+  "keijiro-takahashi--bibcam-shibuya": {
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Bibcam"
+  },
+  "keijiro-takahashi--bodypix-vfx": {
+   "vfx_cat": "body",
+   "code_url": "https://github.com/keijiro/NNCam"
+  },
+  "keijiro-takahashi--facemesh-barracuda": {
+   "vfx_cat": "body",
+   "code_url": "https://github.com/keijiro/FaceMeshBarracuda"
+  },
+  "keijiro-takahashi--handpose-barracuda": {
+   "vfx_cat": "body",
+   "code_url": "https://github.com/keijiro/HandPoseBarracuda"
+  },
+  "keijiro-takahashi--rcam2": {
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Rcam2"
+  },
+  "keijiro-takahashi--rcam-channel-20": {
+   "vfx_cat": "pointcloud",
+   "code_url": "https://github.com/keijiro/Rcam"
+  },
+  "keijiro-takahashi--vrdg-holography": {
+   "vfx_cat": "particles"
   }
  },
  "merge_creators": {},

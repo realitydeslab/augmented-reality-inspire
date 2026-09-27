@@ -8,7 +8,7 @@
   const INTERACTIONS = I18N.interactions;
   const PLATFORMS = ["phone", "headset", "projection", "web", "wearable", "desktop"];
   const ERAS = [["2005", 1990, 2009, "≤2009"], ["2010", 2010, 2014, "2010–14"], ["2015", 2015, 2019, "2015–19"], ["2020", 2020, 2030, "2020–26"]];
-  const VIEWS = ["keys", "salient", "works", "creators", "modules", "starred"];
+  const VIEWS = ["keys", "salient", "vfx", "works", "creators", "modules", "starred"];
 
   const creatorsById = Object.fromEntries(DATA.creators.map((c) => [c.id, c]));
   const worksById = Object.fromEntries(DATA.works.map((w) => [w.id, w]));
@@ -29,7 +29,7 @@
   const ixName = (k) => { const r = INTERACTIONS.find((x) => x[0] === k); return r ? (lang === "zh" ? r[2] : r[1]) : k; };
   const src = (p) => S().sources[p] || p;
 
-  const state = { view: "keys", q: "", ix: new Set(), plat: new Set(), era: "", sort: "new", creator: "", keyOnly: false, salientOnly: false, salientCat: "" };
+  const state = { view: "keys", q: "", ix: new Set(), plat: new Set(), era: "", sort: "new", creator: "", keyOnly: false, salientOnly: false, salientCat: "", vfxCat: "", codeOnly: false };
   let currentList = [];
   let openIndex = -1;
   let tour = null;
@@ -48,6 +48,8 @@
     state.keyOnly = p.get("key") === "1";
     state.salientOnly = p.get("s") === "1";
     state.salientCat = p.get("sc") || "";
+    state.vfxCat = p.get("vc") || "";
+    state.codeOnly = p.get("code") === "1";
     return { work: p.get("w"), tour: p.get("t") };
   }
   function writeHash(workId) {
@@ -56,6 +58,8 @@
     if (state.keyOnly) p.set("key", "1");
     if (state.salientOnly) p.set("s", "1");
     if (state.salientCat && state.view === "salient") p.set("sc", state.salientCat);
+    if (state.vfxCat && state.view === "vfx") p.set("vc", state.vfxCat);
+    if (state.codeOnly) p.set("code", "1");
     if (state.q) p.set("q", state.q);
     if (state.ix.size) p.set("ix", [...state.ix].join(","));
     if (state.plat.size) p.set("p", [...state.plat].join(","));
@@ -77,6 +81,7 @@
     if (state.creator && !w.creator_ids.includes(state.creator)) return false;
     if (state.keyOnly && !w.creator_ids.some(isKeyCreator)) return false;
     if (state.salientOnly && !w.salient) return false;
+    if (state.codeOnly && !w.code_url) return false;
     if (!ignoreIx && state.ix.size && !(w.interaction || []).some((i) => state.ix.has(i))) return false;
     if (state.plat.size && !(w.platform || []).some((p) => state.plat.has(p))) return false;
     if (state.era) {
@@ -113,7 +118,7 @@
           <span class="card__src">${src(w.video.platform)}${w.video.embeddable === false ? " ↗" : ""}</span>
           ${w.year ? `<span class="card__year">${w.year}</span>` : ""}
         </div>
-        <div class="card__title">${w.salient ? '<span class="salient-mark" aria-hidden="true">✦</span>' : ""}${esc(w.title)}</div>
+        <div class="card__title">${w.salient ? '<span class="salient-mark" aria-hidden="true">✦</span>' : ""}${w.code_url ? '<span class="code-mark mono" aria-hidden="true">&lt;/&gt;</span>' : ""}${esc(w.title)}</div>
         <div class="card__meta">${esc(who)}</div>
         <div class="card__idea">${esc((useWhy && salientWhy(w)) || TX.work(w, lang).idea || "")}</div>
         <div class="tags">${tags}</div>
@@ -131,6 +136,7 @@
     const years = DATA.works.map((w) => w.year).filter(Boolean);
     $("#stats").innerHTML = [
       [S().stat_keys, KEYS.creators.length], [S().tab_salient, DATA.works.filter((w) => w.salient).length],
+      [S().tab_vfx, DATA.works.filter((w) => w.vfx_cat).length],
       [S().stat_creators, DATA.creators.length], [S().stat_works, DATA.works.length],
       [S().stat_span, years.length ? `${Math.min(...years)}–${Math.max(...years)}` : "—"],
       [S().stat_ix, INTERACTIONS.filter(([k]) => DATA.works.some((w) => (w.interaction || []).includes(k))).length],
@@ -204,36 +210,51 @@
     return n;
   }
   const SCATS = DATA.salient_categories || [];
-  const scatName = (c) => (lang === "zh" ? c.zh : c.en);
-  function renderSalient() {
-    const all = sorted(DATA.works.filter((w) => w.salient));
-    const byCat = (id) => all.filter((w) => (w.salient.cat || "") === id);
-    const known = new Set(SCATS.map((c) => c.id));
-    const other = all.filter((w) => !known.has(w.salient.cat));
-    const chip = (id, label, n) => `<button class="chip" data-scat="${esc(id)}" aria-pressed="${state.salientCat === id}">${esc(label)}<small>${n}</small></button>`;
-    const chips = [chip("", S().all_cats, all.length), ...SCATS.map((c) => chip(c.id, scatName(c), byCat(c.id).length)),
+  const VCATS = DATA.vfx_categories || [];
+  const catName = (c) => (lang === "zh" ? c.zh : c.en);
+  /* A column of works grouped by category, with category chips (Salient, Visual Effects). */
+  function renderGrouped({ all, cats, catOf, current, attr, prefix, head, grid, title, lede, count, extra = "", useWhy = false }) {
+    const byCat = (id) => all.filter((w) => catOf(w) === id);
+    const known = new Set(cats.map((c) => c.id));
+    const other = all.filter((w) => !known.has(catOf(w)));
+    const otherCat = { id: "_other", en: S().other_cat, zh: S().other_cat, desc_en: "", desc_zh: "" };
+    const chip = (id, label, n) => `<button class="chip" data-${attr}="${esc(id)}" aria-pressed="${current === id}">${esc(label)}<small>${n}</small></button>`;
+    const chips = [chip("", S().all_cats, all.length), ...cats.map((c) => chip(c.id, catName(c), byCat(c.id).length)),
       ...(other.length ? [chip("_other", S().other_cat, other.length)] : [])].join("");
-    $("#salientHead").innerHTML = `<div class="starred__head">
-        <h2 class="starred__title">✦ ${esc(S().salient_title)}</h2>
-        <p class="starred__lede">${esc(S().salient_lede)}</p>
-        <p class="count mono">${esc(S().salient_count(all.length))}</p></div>
+    $(head).innerHTML = `<div class="starred__head">
+        <h2 class="starred__title">${title}</h2>
+        <p class="starred__lede">${esc(lede)}</p>
+        <p class="count mono">${esc(count)}</p>${extra}</div>
       <div class="chips scat-chips">${chips}</div>`;
-    const section = (c, works) => works.length ? `<section class="scat" id="scat-${esc(c.id)}">
-        <div class="scat__head"><h3 class="scat__title">${esc(scatName(c))}</h3><span class="scat__n mono">${works.length}</span></div>
+    const section = (c, works) => works.length ? `<section class="scat" id="${prefix}-${esc(c.id)}">
+        <div class="scat__head"><h3 class="scat__title">${esc(catName(c))}</h3><span class="scat__n mono">${works.length}</span></div>
         <p class="scat__desc">${esc(lang === "zh" ? c.desc_zh : c.desc_en)}</p>
-        <div class="grid">${works.map((w) => card(w, true)).join("")}</div></section>` : "";
+        <div class="grid">${works.map((w) => card(w, useWhy)).join("")}</div></section>` : "";
     let list;
-    if (!state.salientCat) {
-      list = [...SCATS.flatMap((c) => byCat(c.id)), ...other];
-      $("#salientGrid").innerHTML = SCATS.map((c) => section(c, byCat(c.id))).join("") +
-        section({ id: "_other", en: S().other_cat, zh: S().other_cat, desc_en: "", desc_zh: "" }, other);
+    if (!current) {
+      list = [...cats.flatMap((c) => byCat(c.id)), ...other];
+      $(grid).innerHTML = cats.map((c) => section(c, byCat(c.id))).join("") + section(otherCat, other);
     } else {
-      const c = SCATS.find((x) => x.id === state.salientCat) || { id: "_other", en: S().other_cat, zh: S().other_cat, desc_en: "", desc_zh: "" };
+      const c = cats.find((x) => x.id === current) || otherCat;
       list = c.id === "_other" ? other : byCat(c.id);
-      $("#salientGrid").innerHTML = section(c, list);
+      $(grid).innerHTML = section(c, list);
     }
     currentList = list;
     return all.length;
+  }
+  function renderSalient() {
+    const all = sorted(DATA.works.filter((w) => w.salient));
+    return renderGrouped({ all, cats: SCATS, catOf: (w) => w.salient.cat || "", current: state.salientCat, attr: "scat", prefix: "scat",
+      head: "#salientHead", grid: "#salientGrid", title: `✦ ${esc(S().salient_title)}`, lede: S().salient_lede,
+      count: S().salient_count(all.length), useWhy: true });
+  }
+  function renderVfx() {
+    const every = DATA.works.filter((w) => w.vfx_cat);
+    const all = sorted(every.filter((w) => !state.codeOnly || w.code_url));
+    const extra = `<button class="chip chip--key vfx-code" type="button" data-code-toggle aria-pressed="${state.codeOnly}">${esc(S().code_only)}</button>`;
+    return renderGrouped({ all, cats: VCATS, catOf: (w) => w.vfx_cat || "", current: state.vfxCat, attr: "vcat", prefix: "vcat",
+      head: "#vfxHead", grid: "#vfxGrid", title: `<span class="code-mark mono">&lt;/&gt;</span>${esc(S().vfx_title)}`, lede: S().vfx_lede,
+      count: S().vfx_count(every.length, every.filter((w) => w.code_url).length), extra });
   }
   function renderStarred() {
     const list = DATA.works.filter((w) => stars.has(w.id));
@@ -326,12 +347,13 @@
     document.querySelectorAll(".view").forEach((v) => v.classList.toggle("is-on", v.id === "view-" + state.view));
     $("#q").value = state.q;
     $("#sort").value = state.sort;
-    $("#filters").hidden = ["keys", "starred", "salient"].includes(state.view);
+    $("#filters").hidden = ["keys", "starred", "salient", "vfx"].includes(state.view);
     $("#keyOnly").setAttribute("aria-pressed", state.keyOnly);
     $("#salientOnly").setAttribute("aria-pressed", state.salientOnly);
+    $("#codeOnly").setAttribute("aria-pressed", state.codeOnly);
     $("#starCount").textContent = stars.size ? stars.size : "";
     renderChips();
-    const r = { keys: renderKeys, salient: renderSalient, works: renderWorks, creators: renderCreators, modules: renderModules, starred: renderStarred }[state.view];
+    const r = { keys: renderKeys, salient: renderSalient, vfx: renderVfx, works: renderWorks, creators: renderCreators, modules: renderModules, starred: renderStarred }[state.view];
     $("#empty").hidden = r() > 0;
     lazyVideos();
     writeHash();
@@ -377,7 +399,9 @@
     const stop = tour && fromTour ? tour.key.highlights.find((h) => h.work === w.id) : null;
     const who = w.creator_ids.map((cid) => `<button data-creator="${esc(cid)}">${isKeyCreator(cid) ? "★ " : ""}${esc(creatorsById[cid]?.name || cid)}</button>`).join("");
     const ix = (w.interaction || []).map((i) => `<span class="tag">${esc(ixName(i))}</span>`).join("");
-    const tech = [...(w.platform || []).map((p) => S().platforms[p] || p), ...(w.tech || [])].map((x) => `<span class="tag">${esc(x)}</span>`).join("");
+    const vcat = VCATS.find((c) => c.id === w.vfx_cat);
+    const tech = [...(vcat ? [`${S().effect_type}: ${catName(vcat)}`] : []), ...(w.platform || []).map((p) => S().platforms[p] || p), ...(w.tech || [])]
+      .map((x) => `<span class="tag">${esc(x)}</span>`).join("");
     const note = (label, body, cls = "") => (body ? `<div class="note ${cls}"><b>${esc(label)}</b><p>${esc(body)}</p></div>` : "");
     $("#playerInfo").innerHTML = `
       ${stop ? `<div class="tour-bar mono">${esc(S().tour_bar(keyName(tour.key), openIndex + 1, tour.list.length))}</div>` : ""}
@@ -390,8 +414,9 @@
       ${t.description ? `<p>${esc(t.description)}</p>` : ""}
       ${note(S().idea, t.idea)}${note(S().technique, t.technique)}${note(S().try_it, t.exercise)}
       <div class="tags">${ix}</div><div class="tags">${tech}</div>
+      ${w.code_url ? `<a class="watch watch--code" href="${esc(w.code_url)}" target="_blank" rel="noopener"><span class="mono">&lt;/&gt;</span> ${esc(S().source_code)}</a>` : ""}
       <a class="watch" href="${esc(w.video.url)}" target="_blank" rel="noopener">${esc(S().watch_on(src(w.video.platform)))}</a>
-      ${w.source_url ? `<a class="watch" href="${esc(w.source_url)}" target="_blank" rel="noopener">${esc(S().project_page)}</a>` : ""}
+      ${w.source_url && w.source_url !== w.code_url ? `<a class="watch" href="${esc(w.source_url)}" target="_blank" rel="noopener">${esc(S().project_page)}</a>` : ""}
       ${w.found_via && w.found_via.url ? `<a class="watch watch--muted" href="${esc(w.found_via.url)}" target="_blank" rel="noopener">${esc(S().found_via(S().src_names[w.found_via.source] || w.found_via.source))}</a>` : ""}`;
     document.querySelectorAll(".star-inline").forEach((b) => { b.textContent = stars.has(w.id) ? S().starred : S().star; });
   }
@@ -450,6 +475,8 @@
     if (t.dataset.ix) { state.ix.has(t.dataset.ix) ? state.ix.delete(t.dataset.ix) : state.ix.add(t.dataset.ix); render(); return; }
     if (t.dataset.plat) { state.plat.has(t.dataset.plat) ? state.plat.delete(t.dataset.plat) : state.plat.add(t.dataset.plat); render(); return; }
     if (t.dataset.scat !== undefined) { state.salientCat = t.dataset.scat; render(); return; }
+    if (t.dataset.vcat !== undefined) { state.vfxCat = t.dataset.vcat; render(); return; }
+    if ("codeToggle" in t.dataset) { state.codeOnly = !state.codeOnly; render(); return; }
     if (t.dataset.era) { state.era = state.era === t.dataset.era ? "" : t.dataset.era; render(); return; }
     if (t.dataset.module) { state.ix = new Set([t.dataset.module]); state.view = "works"; render(); return; }
     if (t.dataset.tour) { openTour(t.dataset.tour); return; }
@@ -460,9 +487,10 @@
     if ("clearCreator" in t.dataset) { state.creator = ""; render(); return; }
     if (t.classList.contains("card")) { tourMode = false; openWork(t.dataset.id); return; }
   });
-  $("#clear").addEventListener("click", () => { Object.assign(state, { q: "", ix: new Set(), plat: new Set(), era: "", creator: "", keyOnly: false, salientOnly: false }); render(); });
+  $("#clear").addEventListener("click", () => { Object.assign(state, { q: "", ix: new Set(), plat: new Set(), era: "", creator: "", keyOnly: false, salientOnly: false, codeOnly: false }); render(); });
   $("#keyOnly").addEventListener("click", () => { state.keyOnly = !state.keyOnly; render(); });
   $("#salientOnly").addEventListener("click", () => { state.salientOnly = !state.salientOnly; render(); });
+  $("#codeOnly").addEventListener("click", () => { state.codeOnly = !state.codeOnly; render(); });
   let qTimer;
   $("#q").addEventListener("input", (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 160); });
   $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; render(); });

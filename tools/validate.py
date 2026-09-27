@@ -30,6 +30,7 @@ WORK_ZH = ("description_zh", "idea_zh", "technique_zh", "exercise_zh")
 CREATOR_EN = ("name", "role", "bio", "why")
 CREATOR_ZH = ("role_zh", "bio_zh", "why_zh")
 LEAD_STATUS = {"open", "no_video", "not_ar", "duplicate"}
+VFX_CATS = {c["id"] for c in json.loads((ROOT / "data" / "vfx_categories.json").read_text())["categories"]}
 
 
 def _load(path: Path) -> dict:
@@ -111,6 +112,10 @@ def validate(path: Path) -> list[str]:
             errs.append(f"work {wid}: video url not recognised (YouTube, Vimeo, X or mp4)")
         elif key in other_vkeys or key in seen_v:
             errs.append(f"work {wid}: video {key} already used")
+        if w.get("code_url") and not re.match(r"https://(github\.com|gitlab\.com|codeberg\.org|bitbucket\.org)/[^/]+/[^/]+", w["code_url"]):
+            errs.append(f"work {wid}: code_url must be a repository URL (GitHub/GitLab/Codeberg/Bitbucket)")
+        if w.get("vfx_cat") and w["vfx_cat"] not in VFX_CATS:
+            errs.append(f"work {wid}: vfx_cat must be one of {sorted(VFX_CATS)}")
         if wid in other_wids or wid in seen_w:
             errs.append(f"work {wid}: duplicate work id")
         seen_w.add(wid)

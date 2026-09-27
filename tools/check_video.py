@@ -66,6 +66,9 @@ def parse(url: str) -> tuple[str, str]:
 
 
 def check(url: str) -> dict:
+    if re.match(r"https://github\.com/user-attachments/assets/", url) or re.search(r"\.(mp4|webm|mov)(\?|$)", url):
+        from build_data import _check_mp4  # noqa: PLC0415 - direct video files (e.g. GitHub README attachments)
+        return _check_mp4(url)
     platform, vid = parse(url)
     out = {"url": url, "ok": False, "platform": platform, "id": vid}
     try:
