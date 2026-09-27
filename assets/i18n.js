@@ -2,8 +2,8 @@
 window.INSPIRE_I18N = {
   en: {
     brand: "REALITY DESIGN LAB · INSPIRE",
-    title: "Twenty years of <em>seeing more</em>.",
-    lede: "The most inventive AR creators since 2005 and their AR work, gathered by following one curious person to the next. Every piece has a playable video, the key technique behind it and a classroom exercise.",
+    title: "Forty years of <em>seeing more</em>.",
+    lede: "The most inventive AR creators, from the first pioneers to today, and their AR work, gathered by following one curious person to the next. Every piece has a playable video, the key technique behind it and a classroom exercise.",
     lang_toggle: "中文",
     stat_keys: "Key creators", stat_creators: "Creators", stat_works: "Works", stat_span: "Span", stat_ix: "Interactions",
     tab_keys: "Key Creators", tab_salient: "Salient", tab_works: "Works", tab_creators: "Creators", tab_modules: "Modules", tab_starred: "Starred",
@@ -47,8 +47,8 @@ window.INSPIRE_I18N = {
   },
   zh: {
     brand: "REALITY DESIGN LAB · INSPIRE",
-    title: "二十年，<em>看见更多</em>。",
-    lede: "2005 年以来最有创意的 AR 创作者和他们的 AR 作品，顺着一位好奇的人找到下一位。每件作品都附有可播放的视频、背后的关键技术和一个课堂练习。",
+    title: "四十年，<em>看见更多</em>。",
+    lede: "从早期先驱到今天最有创意的 AR 创作者和他们的 AR 作品，顺着一位好奇的人找到下一位。每件作品都附有可播放的视频、背后的关键技术和一个课堂练习。",
     lang_toggle: "EN",
     stat_keys: "关键创作者", stat_creators: "创作者", stat_works: "作品", stat_span: "年份", stat_ix: "交互类型",
     tab_keys: "关键创作者导览", tab_salient: "一眼即懂", tab_works: "作品", tab_creators: "创作者", tab_modules: "教学模块", tab_starred: "收藏",
