@@ -1,7 +1,8 @@
 {
  "_note": "Manual curation, applied at build time. drop_works: work ids to hide. patch_works: {work_id: {field: value}}. merge_creators: {duplicate_creator_id: canonical_creator_id}. lead_status: {lead name: no_video|not_ar|duplicate|covered}. audit_ignore: [\"id-a|id-b\"] pairs confirmed not duplicates.",
  "drop_works": [
-  "daito-manabe--perfume-cannes-lions"
+  "daito-manabe--perfume-cannes-lions",
+  "onformative--magic-and-storytelling"
  ],
  "patch_works": {
   "shengzhi-wu--opportunistic-interfaces": {
@@ -42,6 +43,24 @@
     "url": "https://vimeo.com/462776850"
    },
    "year": 2020
+  },
+  "collusion--the-multitude": {
+   "creator_ids": [
+    "collusion",
+    "jamie-gledhill"
+   ]
+  },
+  "tim-murray-browne--post-truth-and-beauty": {
+   "creator_ids": [
+    "tim-murray-browne",
+    "aphra-shemza"
+   ]
+  },
+  "marco-tempest--a-magical-tale": {
+   "creator_ids": [
+    "marco-tempest",
+    "onformative"
+   ]
   }
  },
  "merge_creators": {},
@@ -83,7 +102,87 @@
   "Noah Zerkin / CombineReality": "no_video",
   "Tim Stutts": "no_video",
   "Don Allen III": "covered",
-  "Anrick (Spectacles 'Poetry in the Third Dimension')": "covered"
+  "Anrick (Spectacles 'Poetry in the Third Dimension')": "covered",
+  "Brest Brest Brest": "duplicate",
+  "Jann Gallois (Cie BurnOut)": "duplicate",
+  "Benjamin Kuperberg": "covered",
+  "Crosby Studios (Harry Nuriev)": "duplicate",
+  "Marc Mahfoud": "duplicate",
+  "Amar Mulabegović": "duplicate",
+  "Béatrice Lartigue / Lab212": "covered",
+  "Seeing the Invisible (Outset / Jerusalem Botanical Garden)": "covered",
+  "Schnelle Bunte Bilder & kling klang klong": "covered",
+  "onformative": "covered",
+  "Yuri Suzuki": "covered",
+  "Tin & Ed": "covered",
+  "Random Studio": "covered",
+  "Bakken & Bæck": "duplicate",
+  "USC World Building Media Lab (Alex McDowell) — Leviathan": "covered",
+  "Michael Frei & Mario von Rickenbach (Playables)": "no_video",
+  "Dixon Lo": "no_video",
+  "Steve (@thearperson)": "no_video",
+  "Keita Higuchi": "covered",
+  "Shohei Mori": "covered",
+  "Damien Rompapas": "covered",
+  "Yujie Tao": "covered",
+  "Alexander Plopski": "duplicate",
+  "Diego Macario": "duplicate",
+  "Jon Wade": "not_ar",
+  "Raymond Lo": "covered",
+  "Meta Company (Meron Gribetz)": "covered",
+  "Mustafa Doga Dogan": "covered",
+  "Christian Holz": "covered",
+  "Jens Grubert": "covered",
+  "MSQRD (Masquerade Technologies)": "covered",
+  "Arballoon": "duplicate",
+  "Clara Bacou": "covered",
+  "Tristan Quil": "duplicate",
+  "GoSpooky": "covered",
+  "Ninsky (@Ninsky_AR)": "covered",
+  "Cyriel Verkuijlen": "duplicate",
+  "Bruno Simon": "duplicate",
+  "Matt DesLauriers": "covered",
+  "Edan Kwan": "covered",
+  "Jaume Sanchez Elias": "covered",
+  "ii studio (interactive.items) – Clay Pillar": "no_video",
+  "Tiziano Mirabella": "no_video",
+  "Gamgie": "covered",
+  "Christian Brinkmann": "covered",
+  "Augmenta / quentin.script": "no_video",
+  "André Wee": "no_video",
+  "Johnny Chung Lee": "covered",
+  "Jorge Guevara": "covered",
+  "Aphra Shemza": "covered",
+  "Jan Lee": "duplicate",
+  "Lily Hassioti": "covered",
+  "Julien Mercier": "duplicate",
+  "Simon East": "covered",
+  "Flowfal": "covered",
+  "Jamie Gledhill": "covered",
+  "Will Hurt": "no_video",
+  "Uncharted Limbo Collective": "covered",
+  "Children of the Light": "covered",
+  "Holosphere": "covered",
+  "House of Stars (Nadia Perrotta)": "no_video",
+  "Tom Ward": "covered",
+  "Sophy Millington": "not_ar",
+  "Mini Gabi World": "not_ar",
+  "Palindrome / Robert Wechsler": "covered",
+  "Mbryonic": "duplicate",
+  "visiophone (Rodrigo Carvalho)": "covered",
+  "Kat Sullivan": "covered",
+  "OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser)": "covered",
+  "Mária Júdová": "covered",
+  "Marion Tränkle / (UN)FOCUSSED": "covered",
+  "Kiani del Valle": "covered",
+  "Pablo Ventura": "covered",
+  "Jeremy Hight": "covered",
+  "Azure Carter": "duplicate",
+  "Andrew Roth": "covered",
+  "Adam Trowbridge & Jessica Westbrook": "covered",
+  "Joseph DeLappe": "covered",
+  "Zachary Brady": "duplicate",
+  "Freida Abtan": "duplicate"
  },
  "audit_ignore": [
   "julian-triveri--lasertag|theo-watson--l-a-s-e-r-tag",
@@ -98,6 +197,7 @@
   "snap-inc|paris-ar-studio",
   "stefanie-zollmann|tobias-langlotz",
   "russ-maschmeyer|shopify-spatial-commerce",
-  "gibson-martelli--man-a-vr|gibson-martelli--man-a"
+  "gibson-martelli--man-a-vr|gibson-martelli--man-a",
+  "nonotak--narcisse|lab212--narcisse"
  ]
 }

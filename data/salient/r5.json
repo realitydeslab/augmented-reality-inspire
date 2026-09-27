@@ -1,0 +1,112 @@
+{
+ "random-studio--sun": {
+  "why_en": "Bounce a giant ball and the sun rises and sets with it.",
+  "why_zh": "拍一拍巨大的弹力球，太阳就随之升起、落下。",
+  "cat": "rewrite"
+ },
+ "lab212--moc": {
+  "why_en": "Whistle and a tree grows from your breath; stop and it stops.",
+  "why_zh": "吹口哨，树就从你的气息里长出来；一停下，它也停下。",
+  "cat": "sound"
+ },
+ "lab212--appel-d-air": {
+  "why_en": "A child's breath on a tiny windmill comes back as a gust from a giant fan.",
+  "why_zh": "孩子对着小风车吹的一口气，会变成一台巨大风扇吹回来的一阵风。",
+  "cat": "play"
+ },
+ "schnelle-bunte-bilder--panic": {
+  "why_en": "Projected fish come close only if you move calmly; rush and panic ripples through the swarm.",
+  "why_zh": "投影出来的鱼只在你动作平缓时才靠近；一着急，恐慌就在鱼群里蔓延。",
+  "cat": "alive"
+ },
+ "christian-holz--imaginary-reality-gaming": {
+  "why_en": "A basketball game with no ball: players only know where it is from how everyone else moves.",
+  "why_zh": "一场没有球的篮球赛：球在哪儿，只能从其他人的动作里看出来。",
+  "cat": "play"
+ },
+ "keita-higuchi--dhalsim": {
+  "why_en": "Your live body, but your arm stretches across the room to punch or grab.",
+  "why_zh": "还是你自己的实时身体，只是手臂能伸过整个房间去出拳或抓东西。",
+  "cat": "body"
+ },
+ "yujie-tao--integrating-real-world-distractions": {
+  "why_en": "A real fan's gust becomes wind in the virtual world instead of breaking the illusion.",
+  "why_zh": "真实风扇吹来的风变成了虚拟世界里的风，而不是打破沉浸感。",
+  "cat": "rewrite"
+ },
+ "johnny-chung-lee--wii-head-tracking-desktop-vr": {
+  "why_en": "Track the viewer's head and an ordinary TV turns into a window with real depth behind it.",
+  "why_zh": "追踪观看者的头部，一台普通电视就变成一扇后面真有纵深的窗。",
+  "cat": "portal"
+ },
+ "matt-deslauriers--lumos": {
+  "why_en": "A cold blue beacon turns warm the moment it senses your body heat.",
+  "why_zh": "冷蓝色的灯塔一感受到你的体温，就立刻变暖。",
+  "cat": "invisible"
+ },
+ "ninsky--summer-snow": {
+  "why_en": "A sunny summer street is suddenly buried in snow.",
+  "why_zh": "阳光明媚的夏日街道突然被大雪覆盖。",
+  "cat": "rewrite"
+ },
+ "children-of-the-light--zerotime": {
+  "why_en": "The room stays dark until your phone torch hits the reflective tubes, and you get back only the light you send.",
+  "why_zh": "房间一片漆黑，直到你的手机手电照到反光管；你照出去多少光，就只能收回多少光。",
+  "cat": "shadow"
+ },
+ "jamie-gledhill--portals-for-mortals": {
+  "why_en": "Each doorway of the sculpture plays one part of a fanfare, so the full tune only sounds when a group walks through together.",
+  "why_zh": "雕塑的每个门洞奏响号角曲的一个声部，只有一群人一起穿过，才能听到完整的曲子。",
+  "cat": "play"
+ },
+ "palindrome--touching": {
+  "why_en": "Skin-to-skin contact between two dancers becomes audible, so every touch is heard.",
+  "why_zh": "两位舞者皮肤相触就会发声，每一次触碰都能被听见。",
+  "cat": "sound"
+ },
+ "openendedgroup--pedestrian": {
+  "why_en": "A tiny city of walking people appears inside the pavement under your feet.",
+  "why_zh": "一座住满小小行人的城市，出现在你脚下的路面里。",
+  "cat": "alive"
+ },
+ "kat-sullivan--kat-and-cassie-make-a-ballet": {
+  "why_en": "One ballerina, captured live, is multiplied into an entire corps de ballet.",
+  "why_zh": "一位芭蕾舞者被实时捕捉，复制成一整个群舞团。",
+  "cat": "body"
+ },
+ "kat-sullivan--parsing-our-silent-language": {
+  "why_en": "Body language gets live captions: 'Interested' or 'Disinterested' appears over each person.",
+  "why_zh": "肢体语言有了实时字幕：每个人身上浮现“感兴趣”或“不感兴趣”。",
+  "cat": "invisible"
+ },
+ "joseph-delappe--salt-satyagraha-online": {
+  "why_en": "Walking 240 miles on a treadmill carries an avatar along Gandhi's Salt March in Second Life.",
+  "why_zh": "在跑步机上走完 240 英里，带着化身在 Second Life 里重走甘地的食盐进军。",
+  "cat": "body"
+ },
+ "dpt--parade": {
+  "why_en": "Push the lamp and the shadows of two sad vases start to dance.",
+  "why_zh": "推一下灯，两只瘫软瓷瓶的影子就开始跳舞。",
+  "cat": "shadow"
+ },
+ "michael-fluckiger--elephant-walk": {
+  "why_en": "Ride a bike at night and its shadow is an elephant walking at your speed.",
+  "why_zh": "夜里骑车，车的影子是一头跟着你速度行走的大象。",
+  "cat": "shadow"
+ },
+ "neil-mendoza--antivanity-mirror": {
+  "why_en": "A mirror that turns away whenever you try to look at yourself.",
+  "why_zh": "一面每当你想照自己时就扭头躲开的镜子。",
+  "cat": "shadow"
+ },
+ "red-paper-heart--hidden-stories": {
+  "why_en": "Press a cup to the wallpaper and overhear the secret stories of everyday objects.",
+  "why_zh": "把杯子贴在墙纸上，就能偷听日常物件的秘密故事。",
+  "cat": "sound"
+ },
+ "seb-lee-delisle--pixelpyros": {
+  "why_en": "Wave your hand and a firework launches from that exact spot.",
+  "why_zh": "在哪儿挥手，哪儿就升起一枚烟花。",
+  "cat": "play"
+ }
+}

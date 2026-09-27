@@ -1,0 +1,1292 @@
+{
+ "batch": "r5-research",
+ "creators": [
+  {
+   "id": "keita-higuchi",
+   "name": "Keita Higuchi",
+   "role": "HCI researcher; Lead Research Scientist at SB Intuitions (PhD from Rekimoto Lab, University of Tokyo)",
+   "based": "Tokyo, Japan",
+   "bio": "Did his PhD in Jun Rekimoto's lab at the University of Tokyo, where he built drone telepresence such as Flying Head, interned twice at Microsoft Research on the ImmerseBoard telepresence whiteboard, and later worked on egocentric video, accessibility and HCI for machine learning.",
+   "why": "His early projects treat the body as the controller of a remote or virtual self: your head steers a drone, your arm stretches across a room, a remote partner writes beside you on the same board.",
+   "role_zh": "人机交互研究者；SB Intuitions 首席研究科学家（博士毕业于东京大学历本研究室）",
+   "based_zh": "东京，日本",
+   "bio_zh": "在东京大学历本纯一研究室攻读博士期间做出了 Flying Head 等无人机远程临场项目，两次在微软研究院实习并参与 ImmerseBoard 远程协作白板，之后转向第一人称视频、无障碍技术和面向机器学习的人机交互研究。",
+   "why_zh": "他早期的作品把身体当作远方或虚拟自我的控制器：用头去操纵无人机，让手臂伸过整个房间，让远方的伙伴站在你身边同一块白板上写字。",
+   "links": {
+    "site": "https://keihigu.github.io",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@keihigumovie",
+    "github": ""
+   },
+   "connected_to": [
+    "jun-rekimoto"
+   ],
+   "discovered_via": "jun-rekimoto"
+  },
+  {
+   "id": "shohei-mori",
+   "name": "Shohei Mori",
+   "role": "Mixed-reality researcher working on diminished reality and pseudo-weight illusions",
+   "based": "Japan / Europe",
+   "bio": "Trained in Japan at Ritsumeikan and Keio universities and later a researcher at TU Graz, he builds diminished-reality systems that erase or see through real objects, and with Ritsumeikan's Reality Media lab studies how visually editing an object changes how heavy it feels.",
+   "why": "He treats AR as a way to edit physical sensation: stretch a stick or extend a phone screen in AR and the very same object feels lighter or heavier.",
+   "role_zh": "混合现实研究者，研究削弱现实（diminished reality）与伪重量错觉",
+   "based_zh": "日本 / 欧洲",
+   "bio_zh": "先后在日本立命馆大学和庆应义塾大学学习研究，后在格拉茨工业大学任研究员；他开发能抹除或透视真实物体的削弱现实系统，并与立命馆大学 Reality Media 实验室一起研究：在视觉上改变一个物体，会怎样改变它拿在手里的重量感。",
+   "why_zh": "他把 AR 当作编辑身体感受的工具：在 AR 里把木棍加长、把手机屏幕延伸出去，同一个物体摸起来就变轻或变重了。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC5DM1ZCWnAAJIYfRia1QZ_g",
+    "github": ""
+   },
+   "connected_to": [
+    "peter-mohr",
+    "denis-kalkofen"
+   ],
+   "discovered_via": "peter-mohr"
+  },
+  {
+   "id": "damien-rompapas",
+   "name": "Damien Rompapas",
+   "role": "XR researcher and game developer; founder of BEER Labs",
+   "based": "Australia",
+   "bio": "Did his PhD at NAIST with Christian Sandor and Hirokazu Kato, where he led the large-scale AR game HoloRoyale and co-created AR Yōkai, then built the open-source Project Esky software for DIY headsets and founded BEER Labs to make XR games and research prototypes.",
+   "why": "He mixes game design with perception research, and his lab demos turn the user's own hand into a tool: a ruler that copies itself, or a brush that paints holograms.",
+   "role_zh": "XR 研究者与游戏开发者；BEER Labs 创始人",
+   "based_zh": "澳大利亚",
+   "bio_zh": "在奈良先端科学技术大学院大学跟随 Christian Sandor 和加藤博一攻读博士，主导了大型 AR 游戏 HoloRoyale 并参与创作 AR Yōkai；之后为 DIY 头显开发了开源的 Project Esky 软件框架，并创办 BEER Labs，制作 XR 游戏和研究原型。",
+   "why_zh": "他把游戏设计与感知研究结合起来，实验室的演示常常把用户自己的手变成工具：一把会自我复制的尺子，或一支给全息物体上色的画笔。",
+   "links": {
+    "site": "https://www.beerlabs.com.au",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCW-Ci5d5Q2sqSqsvqRfc3yw",
+    "github": ""
+   },
+   "connected_to": [
+    "christian-sandor",
+    "hirokazu-kato",
+    "mark-billinghurst"
+   ],
+   "discovered_via": "christian-sandor"
+  },
+  {
+   "id": "yujie-tao",
+   "name": "Yujie Tao",
+   "role": "HCI researcher at Stanford SHAPE Lab (previously UChicago Human Computer Integration Lab)",
+   "based": "Stanford, US",
+   "bio": "A PhD researcher in Sean Follmer's SHAPE Lab at Stanford working on audio augmented reality such as Audio Personas, after research with Pedro Lopes at the University of Chicago on haptic illusions and mixed reality.",
+   "why": "Her projects augment perception with sound, touch and even wind instead of graphics, and turn real-world interruptions into part of a virtual story.",
+   "role_zh": "斯坦福 SHAPE 实验室人机交互研究者（此前在芝加哥大学人机融合实验室）",
+   "based_zh": "斯坦福，美国",
+   "bio_zh": "在斯坦福大学 Sean Follmer 的 SHAPE 实验室攻读博士，研究 Audio Personas 等音频增强现实；此前在芝加哥大学跟随 Pedro Lopes 研究触觉错觉与混合现实。",
+   "why_zh": "她的作品不靠画面，而用声音、触感甚至风来增强感知，还把现实中的干扰变成虚拟故事的一部分。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "sean-follmer",
+    "pedro-lopes"
+   ],
+   "discovered_via": "sean-follmer"
+  },
+  {
+   "id": "raymond-lo",
+   "name": "Raymond Lo",
+   "role": "Computer-vision engineer; co-founder and former CTO of Meta (Spaceglasses); student of Steve Mann",
+   "based": "Silicon Valley, US",
+   "bio": "Studied with Steve Mann at the University of Toronto, where he built EyeTap prototypes and GPU-based HDR vision for welding glasses, co-founded the AR headset company Meta in 2012, and later worked on AI computer vision, including OpenVINO at Intel.",
+   "why": "His 2013 EyeTap X videos show bare-hand interaction and depth-based 'see in the dark' vision through a see-through wearable running on a phone processor, years before consumer headsets.",
+   "role_zh": "计算机视觉工程师；Meta（Spaceglasses）联合创始人兼前 CTO；Steve Mann 的学生",
+   "based_zh": "硅谷，美国",
+   "bio_zh": "在多伦多大学师从 Steve Mann，制作了 EyeTap 原型和基于 GPU 的焊接眼镜 HDR 视觉系统；2012 年联合创办 AR 头显公司 Meta，之后从事 AI 计算机视觉工作，包括在英特尔参与 OpenVINO。",
+   "why_zh": "他 2013 年的 EyeTap X 视频展示了徒手交互和基于深度的“黑暗中看见”视觉，全部跑在手机处理器驱动的透视可穿戴设备上，比消费级头显早了好几年。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC1SgwoN9PocSSiWM_3Hb31g",
+    "github": ""
+   },
+   "connected_to": [
+    "steve-mann",
+    "meta-company"
+   ],
+   "discovered_via": "steve-mann"
+  },
+  {
+   "id": "meta-company",
+   "name": "Meta Company (Meron Gribetz)",
+   "role": "AR headset startup behind the Meta 1 and Meta 2 (2012–2019)",
+   "based": "San Mateo, US",
+   "bio": "Founded by Meron Gribetz in 2012 with Steve Mann as chief scientist, Meta made the Meta 1 and Meta 2 see-through headsets with depth sensing for bare-hand interaction and promoted 'neuroscience-inspired' interfaces where you reach out and touch holograms. The company closed in 2019 and is unrelated to Facebook's later rename to Meta.",
+   "why": "Meta pushed the idea that AR interfaces should be touched directly with the hands like physical objects, and staged early shared-AR art such as its two-person brain journey at Sundance.",
+   "role_zh": "AR 头显创业公司，推出 Meta 1 和 Meta 2（2012–2019）",
+   "based_zh": "圣马特奥，美国",
+   "bio_zh": "由 Meron Gribetz 于 2012 年创立，Steve Mann 任首席科学家；Meta 推出了带深度传感、支持徒手交互的 Meta 1 和 Meta 2 透视头显，倡导“受神经科学启发”的界面，让人伸手直接触碰全息物体。公司于 2019 年关闭，与后来改名为 Meta 的 Facebook 无关。",
+   "why_zh": "Meta 坚持 AR 界面应该像实物一样用手直接触碰，还在圣丹斯电影节推出了双人共享的大脑之旅等早期共享 AR 艺术作品。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCJCbLhvBLWQehBEywQPVRmA",
+    "github": ""
+   },
+   "connected_to": [
+    "steve-mann",
+    "raymond-lo"
+   ],
+   "discovered_via": "steve-mann"
+  },
+  {
+   "id": "doga-dogan",
+   "name": "Mustafa Doga Dogan",
+   "role": "HCI researcher; Research Scientist at Adobe Research (PhD from MIT CSAIL)",
+   "based": "Basel, Switzerland",
+   "bio": "Did his PhD in Stefanie Mueller's HCI Engineering Group at MIT CSAIL on invisible tags and fabrication-aware interfaces, worked with Google on XR-Objects, was a visiting postdoc at the University of Tokyo, and is now a research scientist at Adobe Research in Basel.",
+   "why": "He makes everyday objects and paper machine-readable for AR by hiding markers inside them, so the physical thing itself carries its digital layer.",
+   "role_zh": "人机交互研究者；Adobe Research 研究科学家（博士毕业于 MIT CSAIL）",
+   "based_zh": "巴塞尔，瑞士",
+   "bio_zh": "在 MIT CSAIL 的 Stefanie Mueller 人机交互工程组攻读博士，研究隐形标签和面向制造的交互界面；曾与谷歌合作完成 XR-Objects，在东京大学做过访问博士后，现为 Adobe Research 巴塞尔的研究科学家。",
+   "why_zh": "他把标记藏进日常物品和纸张里，让它们能被 AR 读取，使实物本身就携带着自己的数字层。",
+   "links": {
+    "site": "https://www.dogadogan.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "mar-gonzalez-franco",
+    "ruofei-du"
+   ],
+   "discovered_via": "mar-gonzalez-franco"
+  },
+  {
+   "id": "christian-holz",
+   "name": "Christian Holz",
+   "role": "Associate professor at ETH Zurich (Sensing, Interaction & Perception Lab); formerly Microsoft Research",
+   "based": "Zurich, Switzerland",
+   "bio": "Did his PhD with Patrick Baudisch at the Hasso Plattner Institute, spent years as a researcher at Microsoft Research Redmond working on VR haptics and mixed reality with Eyal Ofek, Andy Wilson and Mar Gonzalez-Franco, and now leads SIPLAB at ETH Zurich.",
+   "why": "His projects keep asking what happens when the real and the virtual share cause and effect: a ball that exists only in the players' heads, a room whose events you can replay later, a machine that works without its key part.",
+   "role_zh": "苏黎世联邦理工学院副教授（感知、交互与知觉实验室 SIPLAB）；曾任职微软研究院",
+   "based_zh": "苏黎世，瑞士",
+   "bio_zh": "在哈索·普拉特纳研究院跟随 Patrick Baudisch 攻读博士，之后多年在微软雷德蒙德研究院与 Eyal Ofek、Andy Wilson、Mar Gonzalez-Franco 等人研究 VR 触觉与混合现实，现领导苏黎世联邦理工学院的 SIPLAB。",
+   "why_zh": "他的作品不断追问：当真实与虚拟共享因果关系时会发生什么——一颗只存在于球员脑中的球，一个可以稍后回放事件的房间，一台缺了关键部件却照样运转的机器。",
+   "links": {
+    "site": "https://www.christianholz.net",
+    "x": "https://x.com/cholz",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/user/chrholz",
+    "github": ""
+   },
+   "connected_to": [
+    "eyal-ofek",
+    "mar-gonzalez-franco",
+    "msr-benko-wilson"
+   ],
+   "discovered_via": "eyal-ofek"
+  },
+  {
+   "id": "jens-grubert",
+   "name": "Jens Grubert",
+   "role": "Professor of human-computer interaction at Coburg University; mixed-reality researcher",
+   "based": "Coburg, Germany",
+   "bio": "Did his PhD at TU Graz on mobile augmented reality in public spaces, then became a professor at Coburg University, where he researches interaction across multiple displays and mixed reality for mobile knowledge work, often with Eyal Ofek.",
+   "why": "He designs interfaces that spread across several screens at once — glasses, phone, watch, a public poster — and asks how each one should hand information to the next.",
+   "role_zh": "科堡应用科学大学人机交互教授；混合现实研究者",
+   "based_zh": "科堡，德国",
+   "bio_zh": "在格拉茨工业大学攻读博士，研究公共空间中的移动增强现实；之后在科堡应用科学大学任教授，研究跨多块显示屏的交互以及面向移动知识工作的混合现实，常与 Eyal Ofek 合作。",
+   "why_zh": "他设计同时分布在多块屏幕上的界面——眼镜、手机、手表、公共海报——并研究每一块屏幕该如何把信息交给下一块。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCBtGZ5lh21-QZrhk1LF5Kaw",
+    "github": ""
+   },
+   "connected_to": [
+    "eyal-ofek",
+    "tu-graz-wagner-schmalstieg"
+   ],
+   "discovered_via": "eyal-ofek"
+  },
+  {
+   "id": "msqrd",
+   "name": "MSQRD (Masquerade Technologies)",
+   "role": "Face-filter app studio (2015–2016), acquired by Facebook",
+   "based": "Minsk, Belarus",
+   "bio": "Masquerade Technologies, founded by Eugene Nevgen, Sergey Gonchar and Andrew Yanchurevich, launched the MSQRD selfie app in late 2015; its live face masks and face swaps went viral, and Facebook bought the company in March 2016 and folded the technology into its camera effects. The founders later started Loóna.",
+   "why": "MSQRD made live face-tracked masks a mass pastime just before Snapchat Lenses and Instagram filters took over, showing that AR on your own face is the most widely shared form of AR.",
+   "role_zh": "人脸滤镜应用工作室（2015–2016），后被 Facebook 收购",
+   "based_zh": "明斯克，白俄罗斯",
+   "bio_zh": "Masquerade Technologies 由 Eugene Nevgen、Sergey Gonchar 和 Andrew Yanchurevich 创立，2015 年底推出自拍应用 MSQRD；它的实时人脸面具和换脸效果迅速走红，Facebook 于 2016 年 3 月收购了这家公司，并把技术并入自家的相机特效。几位创始人后来创办了 Loóna。",
+   "why_zh": "就在 Snapchat Lens 和 Instagram 滤镜普及之前，MSQRD 让实时追踪人脸的面具成了大众娱乐，证明了戴在自己脸上的 AR 是传播最广的 AR 形式。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCpZp1W-UxPkUW0hUVkps2OA",
+    "github": ""
+   },
+   "connected_to": [
+    "loona-inc"
+   ],
+   "discovered_via": "loona-inc"
+  }
+ ],
+ "works": [
+  {
+   "id": "keita-higuchi--dhalsim",
+   "creator_ids": [
+    "keita-higuchi"
+   ],
+   "title": "Dhalsim: Real-Time Body Transformation",
+   "year": 2014,
+   "description": "A Kinect captures a person as a live 3D point cloud and places them in a virtual checkerboard world, where their arm stretches several metres, like the Street Fighter character, to reach a distant ball or punch a second player across the space.",
+   "description_zh": "Kinect 把人实时捕捉成三维点云放进一个棋盘格虚拟空间，他的手臂可以像《街头霸王》里的达尔锡一样伸长好几米，去够远处的球，或者隔空打到另一位玩家。",
+   "idea_en": "Your own live body, but with arms that stretch across the room.",
+   "idea_zh": "还是你自己的实时身体，只是手臂能伸过整个房间。",
+   "technique": "The depth camera's point cloud of the user is split by skeleton joints and the forearm segment is likely scaled along the arm direction in real time, so the stretched arm keeps the user's real appearance.",
+   "technique_zh": "深度相机拍到的用户点云按骨骼关节分段，前臂那一段很可能沿手臂方向被实时拉长，所以伸长的手臂仍保留用户真实的外观。",
+   "exercise_en": "Use webcam body tracking (MediaPipe Pose in p5.js) to draw the user's arm as a line that grows longer the faster they punch, and let it knock virtual objects off the screen. Twist: arms only stretch when two players point at each other.",
+   "exercise_zh": "用网页摄像头的人体追踪（p5.js 加 MediaPipe Pose）把用户的手臂画成一条线，出拳越快线就越长，并能把虚拟物体打出屏幕。变体：只有两名玩家互相指向对方时手臂才会伸长。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Kinect",
+    "point cloud"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "g2bg_vBVW1w",
+    "url": "https://www.youtube.com/watch?v=g2bg_vBVW1w"
+   },
+   "source_url": "https://keihigu.github.io"
+  },
+  {
+   "id": "keita-higuchi--immerseboard",
+   "creator_ids": [
+    "keita-higuchi"
+   ],
+   "title": "ImmerseBoard",
+   "year": 2015,
+   "description": "Two people collaborate through large touch whiteboards; a depth camera beside each board renders the remote partner life-sized and in 3D, so they seem to stand next to you or behind the glass, and their arm can stretch out to point at what they mean.",
+   "description_zh": "两个人通过大尺寸触控白板远程协作；每块白板旁的深度相机把远方的伙伴以真人大小、带立体感地渲染出来，对方仿佛就站在你身旁或玻璃后面，手臂还能伸出去指向他说的地方。",
+   "idea_en": "Let a remote collaborator share the board as if standing beside you, so gaze and pointing survive the video call.",
+   "idea_zh": "让远程伙伴像站在你身边一样共用一块白板，视线和指向在视频通话里不再丢失。",
+   "technique": "An RGB-D camera (Kinect) mounted at the side of the display captures the writer; the depth image is reprojected into a 3D scene rendered for the viewer, with modes such as a tilted board, a mirror and a stretched pointing arm.",
+   "technique_zh": "装在屏幕侧面的 RGB-D 相机（Kinect）捕捉书写者，深度图像被重投影到为观看者渲染的三维场景中，并提供倾斜白板、镜像、手臂延伸指向等多种模式。",
+   "exercise_en": "Build a shared sketch canvas between two laptops in which each person's webcam silhouette is overlaid at the side where they stand, so partners see where the other is pointing. Twist: mirror the partner so it feels like writing on two sides of a glass window.",
+   "exercise_zh": "做一个两台笔记本电脑之间的共享画板，把每个人的摄像头人像剪影叠在画布上他所站的那一侧，让双方看到对方指向哪里。变体：把对方做成镜像，感觉像隔着一扇玻璃窗两面写字。",
+   "interaction": [
+    "multiplayer-social",
+    "hand-body",
+    "drawing-creation"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Kinect",
+    "RGB-D"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "TCU1Ifr5VUc",
+    "url": "https://www.youtube.com/watch?v=TCU1Ifr5VUc"
+   },
+   "source_url": "https://doi.org/10.1145/2702123.2702160"
+  },
+  {
+   "id": "shohei-mori--pseudo-weight-ar-extended-displays",
+   "creator_ids": [
+    "shohei-mori"
+   ],
+   "title": "Exploring Pseudo-Weight in AR Extended Displays",
+   "year": 2022,
+   "description": "A user holds a phone whose screen is extended by a virtual panel shown in a headset; placing the panel farther from the hand makes the same phone feel lighter, and making the panel lag behind makes it feel heavier.",
+   "description_zh": "用户手持手机，头显里在手机旁显示一块虚拟扩展屏；扩展屏离手越远，手机感觉越轻；扩展屏跟随得越迟缓，手机就感觉越重。",
+   "idea_en": "A virtual screen attached to a real phone changes how heavy the phone feels.",
+   "idea_zh": "挂在真实手机上的一块虚拟屏幕，会改变手机拿在手里的重量感。",
+   "technique": "A video see-through headset tracks the phone and renders the virtual extension at a chosen offset and latency; the weight illusion comes purely from visual layout and delay (pseudo-haptics).",
+   "technique_zh": "视频透视头显追踪手机，并以设定的偏移距离和延迟渲染虚拟扩展屏；重量错觉完全来自视觉上的布局和延迟（伪触觉）。",
+   "exercise_en": "Anchor a virtual panel to a tracked phone or box in WebXR or AR Foundation, add sliders for its offset and follow delay, and ask classmates to rate how heavy the object feels. Twist: make the panel wobble like jelly and see whether the object feels soft.",
+   "exercise_zh": "在 WebXR 或 AR Foundation 中把一块虚拟面板锚定在被追踪的手机或盒子上，加上调节偏移距离和跟随延迟的滑块，请同学评价物体拿起来有多重。变体：让面板像果冻一样晃动，看物体会不会显得更软。",
+   "interaction": [
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "video see-through HMD",
+    "pseudo-haptics"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "5VCDReGcd40",
+    "url": "https://www.youtube.com/watch?v=5VCDReGcd40"
+   }
+  },
+  {
+   "id": "shohei-mori--mediated-reality-sticks",
+   "creator_ids": [
+    "shohei-mori"
+   ],
+   "title": "Perceived Weight of Mediated Reality Sticks",
+   "year": 2025,
+   "description": "Participants swing a real wooden stick while a headset shows it longer (AR extension), shorter (diminished reality) or with a section cut out of the middle; the longer the stick looks, the lighter it feels, while a stick with a visible gap still feels like one piece.",
+   "description_zh": "参与者挥动一根真实的木棍，头显里看到的木棍却被加长（AR 延伸）、缩短（削弱现实）或中间被挖掉一截；看起来越长，感觉越轻，而中间有缺口的棍子仍被感觉成一整根。",
+   "idea_en": "Change only how a stick looks, and your hand reports a different weight.",
+   "idea_zh": "只改变木棍的样子，手感受到的重量就跟着变了。",
+   "technique": "A tracked physical stick is visually lengthened with rendered geometry, or shortened and cut with diminished-reality inpainting, in a video see-through headset; users then judge its weight and centre of gravity by wielding it.",
+   "technique_zh": "在视频透视头显中，被追踪的真实木棍用渲染的几何体加长，或用削弱现实的图像修补把它变短、挖空，然后让用户挥动它来判断重量和重心。",
+   "exercise_en": "Track a cardboard tube in AR (an image marker on its end) and render virtual extensions of different lengths; have classmates swing it and rank which version feels heaviest. Twist: keep the length but render the tube as a feather or a hammer.",
+   "exercise_zh": "在 AR 中追踪一根纸筒（在末端贴图像标记），为它渲染不同长度的虚拟延长部分；请同学挥动并排出哪一种最重。变体：不改长度，而把纸筒渲染成羽毛或锤子。",
+   "interaction": [
+    "perception-art",
+    "tangible-object",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "diminished reality",
+    "video see-through HMD"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hN08_fS7oTk",
+    "url": "https://www.youtube.com/watch?v=hN08_fS7oTk"
+   },
+   "source_url": "https://doi.org/10.1109/TVCG.2025.3591181"
+  },
+  {
+   "id": "shohei-mori--work-area-diminished-reality",
+   "creator_ids": [
+    "shohei-mori"
+   ],
+   "title": "Work Area Visualization by Multi-View Diminished Reality",
+   "year": 2017,
+   "description": "Several cameras watch a workbench from different angles; the system removes the worker's hands and tools from the main view by filling them in from the other cameras, so the whole work piece stays visible while it is being assembled.",
+   "description_zh": "多台相机从不同角度拍摄工作台；系统用其他相机的画面把工人的手和工具从主视图中抹去并补全，让工件在装配过程中始终完整可见。",
+   "idea_en": "See through your own hands to the work they are hiding.",
+   "idea_zh": "透过自己的双手，看到被它们挡住的工作区域。",
+   "technique": "Multi-view diminished reality: the region occluded by hands in the main view is replaced with pixels from other calibrated cameras, warped into the main viewpoint.",
+   "technique_zh": "多视角削弱现实：主视图中被手遮挡的区域，用其他已标定相机的画面经视角变换后填补替换。",
+   "exercise_en": "Film a desk with two phones on stands and blend the second view into the first wherever a hand is detected (a hand-tracking mask), so hands turn semi-transparent. Twist: make only the tool vanish so it seems to move by itself.",
+   "exercise_zh": "用两部架好的手机拍同一张桌子，在检测到手的区域（手部追踪遮罩）把第二台相机的画面混合进第一台中，让双手变成半透明。变体：只让工具消失，看上去像它自己在动。",
+   "interaction": [
+    "portal-world",
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "diminished reality",
+    "multi-camera"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hcMjn_mD3uI",
+    "url": "https://www.youtube.com/watch?v=hcMjn_mD3uI"
+   },
+   "source_url": "https://doi.org/10.3390/mti1030018"
+  },
+  {
+   "id": "damien-rompapas--b-handy",
+   "creator_ids": [
+    "damien-rompapas"
+   ],
+   "title": "B-Handy",
+   "year": 2022,
+   "description": "Wearing an AR headset, a user measures objects and distances in hand-lengths: the system tracks the hand and lays virtual copies of it end to end in space, so body-based measuring no longer relies on counting in your head.",
+   "description_zh": "戴上 AR 头显后，用户可以用“几只手长”来量物体和距离：系统追踪手，并在空间中把它的虚拟复制品首尾相接地排开，用身体测量时不再需要在脑子里默数。",
+   "idea_en": "Your hand becomes a ruler that copies itself across space.",
+   "idea_zh": "你的手变成一把会自我复制、在空间里铺开的尺子。",
+   "technique": "Hand tracking on an optical see-through headset records the hand's pose and size, then places virtual duplicates of the hand mesh at successive positions to visualise the measurement.",
+   "technique_zh": "光学透视头显上的手部追踪记录手的姿态和尺寸，然后在连续位置上放置手部网格的虚拟复制品，把测量过程可视化。",
+   "exercise_en": "In a hand-tracked AR app (Quest passthrough or Lens Studio), let users stamp copies of their hand along a table edge and show the total in hands and centimetres. Twist: measure with your foot, or your whole body lying down.",
+   "exercise_zh": "在支持手部追踪的 AR 应用（Quest 透视或 Lens Studio）中，让用户沿桌边像盖章一样放下手的复制品，并显示总长是几只手、多少厘米。变体：用脚，或者整个人躺下来当尺子。",
+   "interaction": [
+    "hand-body",
+    "data-information",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "hand tracking",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "AZOsmsZHv3U",
+    "url": "https://www.youtube.com/watch?v=AZOsmsZHv3U"
+   },
+   "source_url": "https://www.beerlabs.com.au/b-handy-an-augmented-reality-system-for-biomechanical-measurement/"
+  },
+  {
+   "id": "damien-rompapas--3dcolar",
+   "creator_ids": [
+    "damien-rompapas"
+   ],
+   "title": "3DColAR",
+   "year": 2022,
+   "description": "In a head-worn AR display, users pick colours from 3D colour spaces such as an RGB cube floating in the air, then paint a virtual 3D figure with a virtual pen they can grasp or directly with their fingertip.",
+   "description_zh": "在头戴式 AR 显示中，用户从漂浮在空中的 RGB 立方体等三维色彩空间里取色，然后用可以抓起的虚拟画笔，或直接用指尖，为一个虚拟三维人偶上色。",
+   "idea_en": "Pick colours by reaching into a floating colour cube and paint holograms with your finger.",
+   "idea_zh": "伸手到漂浮的色彩立方体里取色，再用手指给全息物体上色。",
+   "technique": "Mid-air hand tracking drives both 2D sliders and 3D colour-space widgets (RGB cube, HSV shapes), and surface painting writes colour into the model's texture where the tracked pen tip or fingertip touches it.",
+   "technique_zh": "空中手部追踪同时驱动二维滑块和三维色彩空间控件（RGB 立方体、HSV 形体）；上色时，在被追踪的笔尖或指尖接触模型的位置把颜色写入模型贴图。",
+   "exercise_en": "Build a WebXR or Quest scene with a floating RGB cube: pinch inside it to pick a colour, then touch a 3D model to paint it. Twist: sample colours from real objects in the passthrough view instead of the cube.",
+   "exercise_zh": "用 WebXR 或 Quest 做一个漂浮的 RGB 立方体：在立方体内捏合取色，再触碰三维模型为它上色。变体：不用立方体，而是从透视画面里的真实物体上吸取颜色。",
+   "interaction": [
+    "drawing-creation",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "hand tracking",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PGOm-8Vf3Po",
+    "url": "https://www.youtube.com/watch?v=PGOm-8Vf3Po"
+   },
+   "source_url": "https://www.beerlabs.com.au/3dcolar-exploring-3d-color-selection-and-surface-painting-for-head-worn-ar-using-hand-gestures/"
+  },
+  {
+   "id": "yujie-tao--integrating-real-world-distractions",
+   "creator_ids": [
+    "yujie-tao",
+    "pedro-lopes"
+   ],
+   "title": "Integrating Real-World Distractions into Virtual Reality",
+   "year": 2022,
+   "description": "Instead of blocking out the real room, the VR game absorbs it: a fan's gust sways a curtain in the virtual world, a sudden bang becomes an explosion and the coffee machine's noise becomes falling debris.",
+   "description_zh": "VR 游戏不再屏蔽真实房间，而是把它“吸收”进来：风扇吹来的一阵风让虚拟世界里的帘子飘动，突然的一声巨响变成爆炸，咖啡机的噪音变成碎石落下的声音。",
+   "idea_en": "Turn real-world interruptions into events inside the virtual story.",
+   "idea_zh": "把现实中的干扰变成虚拟故事里的事件。",
+   "technique": "A small sensing module detects simple signals such as loud sounds, wind and temperature shifts, and the game maps each one to a matching virtual event at the same moment.",
+   "technique_zh": "一个小型传感模块检测响声、风、温度变化等简单信号，游戏把每一种信号即时映射成一个相应的虚拟事件。",
+   "exercise_en": "Use the phone microphone in a WebXR or Unity scene to trigger thunder, a slammed door or rustling leaves whenever a real sound passes a threshold. Twist: map a classmate's footsteps to a giant walking nearby.",
+   "exercise_zh": "在 WebXR 或 Unity 场景中使用手机麦克风，每当真实声音超过阈值时就触发雷鸣、摔门或树叶沙沙声。变体：把同学走动的脚步声映射成附近一个巨人的脚步。",
+   "interaction": [
+    "voice-sound",
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR",
+    "sensors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PO8ZlQGYMY8",
+    "url": "https://www.youtube.com/watch?v=PO8ZlQGYMY8"
+   }
+  },
+  {
+   "id": "raymond-lo--eyetap-x-depth-vision",
+   "creator_ids": [
+    "raymond-lo"
+   ],
+   "title": "EyeTap X: Depth Vision",
+   "year": 2013,
+   "description": "A home-built EyeTap X wearable overlays a colour heat-map of depth onto the wearer's see-through view in real time, so near and far surfaces glow in different colours and the room stays readable even in darkness.",
+   "description_zh": "自制的 EyeTap X 可穿戴设备把深度热力图实时叠加在佩戴者的透视视野上，远近不同的表面呈现不同颜色，即使在黑暗中也能看清房间。",
+   "idea_en": "See distance as colour, even in the dark.",
+   "idea_zh": "把距离看成颜色，黑暗里也能看见。",
+   "technique": "A PrimeSense depth sensor feeds a quad-core Android board that colour-maps each depth value and draws it on a see-through display at about 25-30 fps.",
+   "technique_zh": "PrimeSense 深度传感器把数据送到一块四核 Android 开发板，由它把每个深度值映射成颜色，以每秒约 25–30 帧画在透视显示屏上。",
+   "exercise_en": "On a LiDAR iPhone, render the depth map as a false-colour overlay in a HoloKit or phone AR view and walk a dim corridor with it. Twist: turn depth into sound pitch instead of colour.",
+   "exercise_zh": "在带 LiDAR 的 iPhone 上，把深度图渲染成伪彩色叠加在 HoloKit 或手机 AR 画面中，戴着它走过一条昏暗的走廊。变体：把深度转换成音高而不是颜色。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "EyeTap",
+    "PrimeSense",
+    "Android"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "KyZ2XUsRJXs",
+    "url": "https://www.youtube.com/watch?v=KyZ2XUsRJXs"
+   }
+  },
+  {
+   "id": "raymond-lo--eyetap-x-interface-cube",
+   "creator_ids": [
+    "raymond-lo"
+   ],
+   "title": "EyeTap X: Interface Cube",
+   "year": 2013,
+   "description": "Through the EyeTap X glass, a coloured virtual cube floats in front of the wearer; the depth camera detects the hand grasping it, and the cube follows the hand as it moves.",
+   "description_zh": "透过 EyeTap X 的镜片，一个彩色虚拟立方体漂浮在佩戴者面前；深度相机检测到手的抓握，立方体就跟着手移动。",
+   "idea_en": "Grab a hologram with your bare hand, no controller needed.",
+   "idea_zh": "不用控制器，徒手抓住一个全息物体。",
+   "technique": "Depth-map gesture recognition segments the nearest hand blob, detects an open or closed grasp and moves a 3D overlay rendered with OpenGL ES to the tracked position.",
+   "technique_zh": "基于深度图的手势识别先分割出最近的手部区域，判断张开还是握拳，再把用 OpenGL ES 渲染的三维叠加物移动到追踪到的位置。",
+   "exercise_en": "With MediaPipe Hands in the browser or Quest hand tracking, make a cube that can only be picked up with a closed fist and is dropped when the hand opens. Twist: the cube slips out if you grab it too fast.",
+   "exercise_zh": "用浏览器里的 MediaPipe Hands 或 Quest 手部追踪，做一个只能握拳拿起、张开手就放下的立方体。变体：抓得太快时立方体会滑脱。",
+   "interaction": [
+    "hand-body"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "EyeTap",
+    "PrimeSense",
+    "OpenGL ES"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "_CpL36SLk-E",
+    "url": "https://www.youtube.com/watch?v=_CpL36SLk-E"
+   }
+  },
+  {
+   "id": "raymond-lo--early-meta-headset-demo",
+   "creator_ids": [
+    "raymond-lo",
+    "meta-company"
+   ],
+   "title": "Early Meta Headset Prototype Demo",
+   "year": 2014,
+   "description": "Filmed through the lens of an early Meta headset prototype: the wearer grabs a floating Meta logo, pulls up a row of app icons, opens virtual monitors and browser windows in the living room and pokes a glowing sphere.",
+   "description_zh": "透过早期 Meta 头显原型的镜片拍摄：佩戴者抓起漂浮的 Meta 标志，调出一排应用图标，在客厅里打开虚拟显示器和浏览器窗口，还伸手去戳一个发光的球体。",
+   "idea_en": "Replace the desk monitor with windows you can grab and place anywhere in your room.",
+   "idea_zh": "用可以抓取、摆在房间任意位置的窗口取代桌上的显示器。",
+   "technique": "A see-through headset with a depth camera likely tracks the hand as a point cloud and uses simple grab gestures to move windows anchored in the room.",
+   "technique_zh": "带深度相机的透视头显很可能把手当作点云来追踪，通过简单的抓取手势移动锚定在房间里的窗口。",
+   "exercise_en": "In WebXR passthrough, let users pinch to spawn a browser panel and throw it onto a wall where it sticks. Twist: panels nobody has looked at for a minute slowly fade and drift away.",
+   "exercise_zh": "在 WebXR 透视模式中，让用户捏合生成一个浏览器面板，并把它扔到墙上贴住。变体：一分钟没人看过的面板会慢慢变淡并飘走。",
+   "interaction": [
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta headset",
+    "depth camera"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nCyyhU8Ux18",
+    "url": "https://www.youtube.com/watch?v=nCyyhU8Ux18"
+   }
+  },
+  {
+   "id": "meta-company--meta-1-planets-and-3d-printing",
+   "creator_ids": [
+    "meta-company"
+   ],
+   "title": "Meta 1: Planets and 3D Printing",
+   "year": 2014,
+   "description": "Through-the-glasses footage of the Meta 1 developer kit: the wearer holds a burning sun and planets in their palms, then sculpts a 3D object in mid-air with bare hands and sends it to a real 3D printer.",
+   "description_zh": "透过 Meta 1 开发者版眼镜拍摄的画面：佩戴者在手掌里托着燃烧的太阳和行星，接着徒手在空中雕塑一个三维物体，并把它送到一台真实的 3D 打印机上打印出来。",
+   "idea_en": "Shape a hologram with your hands, then print it into a real object.",
+   "idea_zh": "用双手捏出一个全息物体，再把它打印成真实的东西。",
+   "technique": "A depth camera on the glasses tracks hand and finger positions for 'ZeroUI' gestures in Unity, and the sculpted mesh is exported for 3D printing.",
+   "technique_zh": "眼镜上的深度相机追踪手和手指的位置，在 Unity 中实现“ZeroUI”手势操作，雕塑出的网格随后导出用于 3D 打印。",
+   "exercise_en": "Build a hand-tracked AR scene where pinching and pulling deforms a sphere, then export it as an STL file. Twist: print the class's sculptures and place them next to their AR versions.",
+   "exercise_zh": "做一个手部追踪的 AR 场景，通过捏合和拉扯让一个球体变形，然后导出为 STL 文件。变体：把全班的雕塑打印出来，再摆到它们的 AR 版本旁边。",
+   "interaction": [
+    "hand-body",
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta 1",
+    "Unity",
+    "3D printing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "aypM1qaWPck",
+    "url": "https://www.youtube.com/watch?v=aypM1qaWPck"
+   }
+  },
+  {
+   "id": "meta-company--journey-to-the-center-of-the-natural-machine",
+   "creator_ids": [
+    "meta-company"
+   ],
+   "title": "Journey to the Center of the Natural Machine",
+   "year": 2017,
+   "description": "An AR piece at the Sundance Film Festival's New Frontier: two visitors sit face to face wearing Meta 2 headsets and watch a holographic human brain grow and evolve on the table between them, reaching out together to touch it.",
+   "description_zh": "在圣丹斯电影节 New Frontier 单元展出的 AR 作品：两位观众戴着 Meta 2 头显面对面坐着，看一颗全息人脑在两人之间的桌上生长、演化，并一起伸手去触碰它。",
+   "idea_en": "Two people share one hologram face to face across a table, instead of each disappearing into their own world.",
+   "idea_zh": "两个人隔着桌子面对面共享同一个全息影像，而不是各自消失在自己的世界里。",
+   "technique": "Two Meta 2 headsets run a synchronised scene anchored to a physical table, with hand interaction so both visitors can touch the same virtual brain.",
+   "technique_zh": "两台 Meta 2 头显运行锚定在一张真实桌子上的同步场景，配合手部交互，让两位观众能触碰同一颗虚拟大脑。",
+   "exercise_en": "Make a two-phone shared AR scene anchored to a table (image marker or an ARKit collaborative session) where a virtual object only grows while both players touch it. Twist: each player sees a different stage of the object's evolution.",
+   "exercise_zh": "做一个锚定在桌面上的双手机共享 AR 场景（图像标记或 ARKit 协作会话），虚拟物体只有在两位玩家同时触碰时才会生长。变体：每位玩家看到的是物体演化的不同阶段。",
+   "interaction": [
+    "multiplayer-social",
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta 2",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "8X-TdvDwBLk",
+    "url": "https://www.youtube.com/watch?v=8X-TdvDwBLk"
+   }
+  },
+  {
+   "id": "doga-dogan--infraredtags",
+   "creator_ids": [
+    "doga-dogan"
+   ],
+   "title": "InfraredTags",
+   "year": 2022,
+   "description": "QR codes and ArUco markers are 3D printed inside everyday objects such as a mug, a router or a speaker, invisible to the eye but readable by an infrared camera on a phone, so pointing the phone at an object brings up its controls or Wi-Fi password.",
+   "description_zh": "二维码和 ArUco 标记被 3D 打印在马克杯、路由器、音箱等日常物品内部，肉眼看不见，手机上的红外相机却能读出来；把手机对准物品，就能调出它的控制界面或 Wi-Fi 密码。",
+   "idea_en": "Hide AR markers inside objects so the object itself quietly becomes the marker.",
+   "idea_zh": "把 AR 标记藏进物体内部，让物体本身悄悄成为标记。",
+   "technique": "Objects are printed with an infrared-transmitting filament and the tag's bits are air gaps inside the shell, which show up at a different intensity in a near-infrared image.",
+   "technique_zh": "物体用可透红外的耗材打印，标记的每一位是外壳内部的空气间隙，在近红外图像中呈现出不同的亮度。",
+   "exercise_en": "Glue a paper marker under a thin layer of translucent plastic, light it from behind, and build a phone AR app that reveals a control panel when the hidden marker is detected. Twist: hide a different secret message inside each classmate's object.",
+   "exercise_zh": "把纸质标记贴在一层半透明塑料下面，从背后打光，再做一个手机 AR 应用，检测到隐藏标记时弹出控制面板。变体：在每位同学的物体里藏一条不同的秘密消息。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "3D printing",
+    "infrared camera",
+    "ArUco"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "-8NWIsyY-2E",
+    "url": "https://www.youtube.com/watch?v=-8NWIsyY-2E"
+   }
+  },
+  {
+   "id": "doga-dogan--standarone",
+   "creator_ids": [
+    "doga-dogan"
+   ],
+   "title": "StandARone",
+   "year": 2023,
+   "description": "A printed restaurant menu carries its own AR app: an invisible infrared watermark in the paper encodes the AR content, so a phone scanning the page shows interactive dishes and personal options without downloading anything.",
+   "description_zh": "一张打印出来的餐厅菜单自带 AR 应用：纸上隐形的红外水印编码了 AR 内容，手机扫描页面就能显示可交互的菜品和个性化选项，无需下载任何东西。",
+   "idea_en": "The paper document itself carries its AR experience, hidden in the ink.",
+   "idea_zh": "纸质文档本身就携带着它的 AR 体验，藏在墨水里。",
+   "technique": "The AR scene description is encoded into a machine-readable watermark printed with IR-absorbing inks on an inkjet printer and decoded by a phone with an infrared camera.",
+   "technique_zh": "AR 场景描述被编码进机器可读的水印，用喷墨打印机以吸收红外的墨水印出，再由带红外相机的手机解码。",
+   "exercise_en": "Design a poster whose AR layer is encoded in a very faint QR code (light yellow on white) and write a web AR page that builds the scene from the code's text alone. Twist: two posters scanned together combine into a third scene.",
+   "exercise_zh": "设计一张海报，它的 AR 层编码在一个印得很淡（白底浅黄）的二维码里，写一个只根据码中文字生成场景的网页 AR。变体：两张海报一起被扫描时会合成第三个场景。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "infrared watermark",
+    "inkjet printing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "LGzQMHaABmg",
+    "url": "https://www.youtube.com/watch?v=LGzQMHaABmg"
+   }
+  },
+  {
+   "id": "doga-dogan--brightmarker",
+   "creator_ids": [
+    "doga-dogan"
+   ],
+   "title": "BrightMarker",
+   "year": 2023,
+   "description": "Markers made of infrared-fluorescent filament are printed into coloured objects; a small imaging module on a phone or headset sees only the glowing markers, turning objects into tracked props, such as a speaker whose knobs set the AR volume or a paddle used as a VR haptic prop.",
+   "description_zh": "用红外荧光耗材把标记打印进彩色物体里；手机或头显上的小型成像模块只看得到发光的标记，让物体变成可追踪的道具，比如用旋钮调节 AR 音量的音箱，或当作 VR 触觉道具的球拍。",
+   "idea_en": "Objects carry glowing markers that only a special camera can see, turning them into trackable props.",
+   "idea_zh": "物体里藏着只有特殊相机才看得见的发光标记，让它们变成可追踪的道具。",
+   "technique": "An infrared-fluorescent filament shifts incoming light to a longer wavelength, and an optical filter on the camera passes only that emission, so the marker stays high-contrast whatever the object's surface colour.",
+   "technique_zh": "红外荧光耗材把入射光转换成更长的波长，相机前的滤光片只让这种发射光通过，因此无论物体表面是什么颜色，标记都保持高对比度。",
+   "exercise_en": "Stick UV-reactive or retroreflective tape patterns on household objects and track them with a phone camera and flashlight to drive AR sliders and buttons. Twist: the same object controls different things depending on which face is up.",
+   "exercise_zh": "在家用物品上贴出紫外荧光或逆反射胶带图案，用手机相机加手电筒追踪它们，驱动 AR 滑块和按钮。变体：同一个物体哪一面朝上，就控制不同的东西。",
+   "interaction": [
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "phone",
+    "headset"
+   ],
+   "tech": [
+    "3D printing",
+    "fluorescent filament",
+    "infrared camera"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "M5YNR6cVIiM",
+    "url": "https://www.youtube.com/watch?v=M5YNR6cVIiM"
+   }
+  },
+  {
+   "id": "doga-dogan--xr-penter",
+   "creator_ids": [
+    "doga-dogan"
+   ],
+   "title": "XR-penter",
+   "year": 2025,
+   "description": "A casual woodworker registers a pile of scrap boards in a mixed-reality headset, designs a chair from exactly those pieces at full scale in the room, then sees cut lines overlaid on the real boards before sawing and drilling.",
+   "description_zh": "业余木工把一堆废木板录入混合现实头显，在房间里按真实尺寸用这些木板设计一把椅子，然后在锯切和钻孔之前看到叠加在真实木板上的切割线。",
+   "idea_en": "Design furniture in place from the scrap wood you actually have.",
+   "idea_zh": "用你手头真有的废木料，在原地设计家具。",
+   "technique": "The headset records each scrap board's dimensions, aligns the design frame to the floor using the scene mesh, and overlays cut positions on the physical boards.",
+   "technique_zh": "头显记录每块废木板的尺寸，借助场景网格把设计框架与地面对齐，并在实物木板上叠加切割位置。",
+   "exercise_en": "Measure five cardboard pieces, load them as virtual blocks in a Quest or phone AR scene, and have students build a full-size stool from only those blocks. Twist: the stool must fit one particular corner of the classroom.",
+   "exercise_zh": "测量五块纸板，把它们作为虚拟积木导入 Quest 或手机 AR 场景，让学生只用这些积木按真实尺寸拼出一张凳子。变体：凳子必须正好放进教室的某个角落。",
+   "interaction": [
+    "spatial-mapping",
+    "tangible-object",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "mixed reality headset",
+    "scene mesh"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "F5o5gKcjsQI",
+    "url": "https://www.youtube.com/watch?v=F5o5gKcjsQI"
+   }
+  },
+  {
+   "id": "christian-holz--reality-rifts",
+   "creator_ids": [
+    "christian-holz"
+   ],
+   "title": "Reality Rifts",
+   "year": 2023,
+   "description": "Physical contraptions are built with a key part missing, such as a water wheel that turns under a tap with no water, yet they still respond plausibly when used, so people fill in the missing part in their imagination and feel a sense of wonder.",
+   "description_zh": "一些实体装置故意缺少关键部件，比如水龙头下没有水、水车却照样转动，但使用时它们的反应依然合理，于是人们在想象中补全缺失的部分，产生一种奇妙感。",
+   "idea_en": "Remove the cause but keep the effect, and people imagine the rest.",
+   "idea_zh": "去掉原因、保留结果，人们会自己想象出其余部分。",
+   "technique": "Hidden sensors track the user's action (for example a tracked tap handle) and embedded actuators reproduce the plausible outcome by simulating the missing component's dynamics.",
+   "technique_zh": "隐藏的传感器追踪用户的动作（例如被追踪的水龙头把手），内置执行器模拟缺失部件的动态，再现合理的结果。",
+   "exercise_en": "Build a prototype in which turning a dry tap spins a paper water wheel through a hidden servo, and let classmates try it without explanation. Twist: add a phone AR view that shows the imagined water to only some of them.",
+   "exercise_zh": "做一个原型：拧动一个没有水的龙头，隐藏的舵机就让纸水车转起来，不加解释地让同学们试一试。变体：加一个手机 AR 视图，只让其中一部分人看到想象中的水。",
+   "interaction": [
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "sensors",
+    "actuators",
+    "Vive Tracker"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "68oIgasJ0hs",
+    "url": "https://www.youtube.com/watch?v=68oIgasJ0hs"
+   }
+  },
+  {
+   "id": "christian-holz--transformr",
+   "creator_ids": [
+    "christian-holz"
+   ],
+   "title": "TransforMR",
+   "year": 2021,
+   "description": "Pointing a tablet at a street, passers-by are replaced by animated creatures that copy their poses, cars become other vehicles and landmarks are swapped, composing an alternate reality from whatever happens to be in view.",
+   "description_zh": "把平板对准街道，路人被替换成模仿他们姿势的动画生物，汽车变成别的交通工具，地标也被置换，用眼前恰好出现的一切拼出另一个现实。",
+   "idea_en": "Keep reality's motion but swap every object for something from another world.",
+   "idea_zh": "保留现实中的运动，却把每个物体换成另一个世界的东西。",
+   "technique": "Semantic segmentation and 3D pose estimation find people and objects, inpainting removes them from the video, and pose-matched virtual substitutes are rendered in their place in real time with a server backend.",
+   "technique_zh": "语义分割和三维姿态估计识别出人和物体，图像修补把它们从视频中抹去，再借助服务器后端实时渲染姿态匹配的虚拟替身取而代之。",
+   "exercise_en": "Use a body-tracking AR template (Lens Studio or ARKit) to replace each passer-by with a 3D character that mirrors their skeleton, and film a street corner. Twist: choose the substitute by how fast each person walks.",
+   "exercise_zh": "用身体追踪 AR 模板（Lens Studio 或 ARKit）把每个路人替换成跟随其骨骼动作的三维角色，然后拍一段街角。变体：根据每个人走路的快慢选择不同的替身。",
+   "interaction": [
+    "portal-world",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "semantic segmentation",
+    "pose estimation",
+    "inpainting"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "RsxdGwRvvEU",
+    "url": "https://www.youtube.com/watch?v=RsxdGwRvvEU"
+   },
+   "source_url": "https://mkari.de/transformr"
+  },
+  {
+   "id": "christian-holz--asynchronous-reality",
+   "creator_ids": [
+    "christian-holz"
+   ],
+   "title": "Causality-preserving Asynchronous Reality",
+   "year": 2022,
+   "description": "While a user works in a headset, a colleague comes in and writes on the whiteboard; the room is captured volumetrically and, when the user takes a break, only the events that matter are replayed in causal order so they can catch up.",
+   "description_zh": "用户戴着头显工作时，一位同事进来在白板上写字；房间被体积化记录下来，等用户休息时，系统只按因果顺序回放重要的事件，让他补看刚才发生的事。",
+   "idea_en": "Let immersed users experience real-world events later, in the right causal order.",
+   "idea_zh": "让沉浸中的用户稍后再按正确的因果顺序经历现实中发生的事。",
+   "technique": "Depth cameras reconstruct the room as a live point cloud, the system detects causal dependencies between actions and objects, and selectively plays back segments of reality in the headset.",
+   "technique_zh": "深度相机把房间实时重建为点云，系统检测动作与物体之间的因果依赖，并在头显中有选择地回放现实片段。",
+   "exercise_en": "Record a phone video of a desk while someone moves objects, then build an AR viewer that shows ghost replays of each change anchored where it happened. Twist: replay the events in reverse and see if the story still makes sense.",
+   "exercise_zh": "用手机录一段有人在桌上挪动物品的视频，再做一个 AR 查看器，把每次变化以“幽灵”回放的形式锚定在发生的位置。变体：倒序回放这些事件，看故事是否还说得通。",
+   "interaction": [
+    "perception-art",
+    "multiplayer-social",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "depth cameras",
+    "volumetric capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "U5dZlmQYIgs",
+    "url": "https://www.youtube.com/watch?v=U5dZlmQYIgs"
+   },
+   "source_url": "https://siplab.org/projects/Asynchronous_Reality"
+  },
+  {
+   "id": "christian-holz--realitycheck",
+   "creator_ids": [
+    "christian-holz",
+    "eyal-ofek",
+    "msr-benko-wilson"
+   ],
+   "title": "RealityCheck",
+   "year": 2019,
+   "description": "Inside existing VR games, real people, furniture and objects from the player's room are blended into the virtual world as live 3D reconstructions, so players can see a spectator, sit on the real sofa or pick up a real cup without taking off the headset.",
+   "description_zh": "在现有的 VR 游戏里，玩家房间中真实的人、家具和物品以实时三维重建的形式融入虚拟世界，玩家不用摘下头显就能看到旁观者、坐到真实的沙发上或拿起真实的杯子。",
+   "idea_en": "Let the real room leak into any VR game wherever you need it.",
+   "idea_zh": "在需要的地方，让真实房间“渗入”任何一款 VR 游戏。",
+   "technique": "Room-mounted depth cameras build a real-time 3D reconstruction that is composited into seven unmodified VR titles, with several blending styles (collision cues, visible spectators, stylised objects) to resolve conflicts.",
+   "technique_zh": "安装在房间里的深度相机构建实时三维重建，并合成到七款未经修改的 VR 游戏中，用多种融合方式（碰撞提示、可见的旁观者、风格化物体）化解冲突。",
+   "exercise_en": "In a Quest passthrough scene, cut a passthrough window around real objects you tag (a chair, a table) and tint it in the game's art style. Twist: people entering the room appear as characters from the game.",
+   "exercise_zh": "在 Quest 透视场景中，给你标记的真实物体（椅子、桌子）周围切出一块透视窗口，并用游戏的美术风格着色。变体：走进房间的人以游戏角色的形象出现。",
+   "interaction": [
+    "portal-world",
+    "spatial-mapping",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "depth cameras",
+    "3D reconstruction",
+    "VR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "IInv4mPruOE",
+    "url": "https://www.youtube.com/watch?v=IInv4mPruOE"
+   }
+  },
+  {
+   "id": "christian-holz--imaginary-reality-gaming",
+   "creator_ids": [
+    "christian-holz"
+   ],
+   "title": "Imaginary Reality Gaming: Quantum Basketball",
+   "year": 2013,
+   "description": "Two teams play basketball in a hall with no ball at all; where the virtual ball is can only be inferred from how the other players act and from short audio cues, and power-ups change the rules mid-game.",
+   "description_zh": "两队人在馆里打一场根本没有球的篮球赛；虚拟球在哪儿，只能从其他球员的动作和简短的声音提示中推断，道具还会在比赛中途改变规则。",
+   "idea_en": "A ball game without a ball, where the ball lives only in the players' shared imagination.",
+   "idea_zh": "没有球的球赛，球只存在于球员们共同的想象之中。",
+   "technique": "Players wear fiducial markers tracked by overhead cameras; the game logic simulates the invisible ball and announces key events, such as receiving the ball, through audio.",
+   "technique_zh": "球员佩戴由顶部相机追踪的标记，游戏逻辑模拟那颗看不见的球，并用声音播报接球等关键事件。",
+   "exercise_en": "Play catch with an invisible ball tracked by phones: the holder's phone vibrates and a speaker announces each pass, with no screens needed. Twist: add a power-up that makes the ball 'heavy' so the holder can only walk slowly.",
+   "exercise_zh": "用手机追踪一颗看不见的球来玩传球游戏：持球者的手机会震动，扬声器播报每一次传球，完全不需要屏幕。变体：加一个让球变“重”的道具，持球者只能慢慢走。",
+   "interaction": [
+    "game-play",
+    "multiplayer-social",
+    "voice-sound"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "fiducial markers",
+    "overhead cameras",
+    "audio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "NNirAkibYGc",
+    "url": "https://www.youtube.com/watch?v=NNirAkibYGc"
+   }
+  },
+  {
+   "id": "christian-holz--soundsride",
+   "creator_ids": [
+    "christian-holz"
+   ],
+   "title": "SoundsRide",
+   "year": 2021,
+   "description": "While driving, the car's music is remixed live so that musical highlights land exactly on moments along the route, like the car bursting out of a tunnel or merging onto the highway.",
+   "description_zh": "开车时，车里的音乐被实时重新混音，让乐曲的高潮正好落在路线上的时刻，比如汽车冲出隧道或驶上高速公路的那一刻。",
+   "idea_en": "Score a car ride like a film, timing the music's drops to the road.",
+   "idea_zh": "像给电影配乐一样给一段车程配乐，让音乐的爆点对上道路。",
+   "technique": "The system predicts arrival times at route affordances (tunnel exits, highway entrances) from navigation data and rearranges and time-stretches music segments so high-contrast musical events align with them.",
+   "technique_zh": "系统根据导航数据预测到达隧道出口、高速入口等路线节点的时间，并对音乐片段重新编排和时间伸缩，让音乐里反差强烈的段落与之对齐。",
+   "exercise_en": "Write a web app that uses GPS and a list of landmarks on a walking route to fire a music drop exactly as you turn a corner or pass a gate. Twist: every walker on the route hears a different track synced to the same moments.",
+   "exercise_zh": "写一个网页应用，利用 GPS 和步行路线上的地标列表，在你转过街角或穿过大门的那一刻触发音乐的爆点。变体：同一路线上的每位行人听到不同的曲子，但都和同样的时刻同步。",
+   "interaction": [
+    "voice-sound",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "GPS",
+    "audio AR",
+    "music mixing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "tRqZnFnS6d4",
+    "url": "https://www.youtube.com/watch?v=tRqZnFnS6d4"
+   }
+  },
+  {
+   "id": "christian-holz--imaginary-phone",
+   "creator_ids": [
+    "christian-holz"
+   ],
+   "title": "Imaginary Phone",
+   "year": 2011,
+   "description": "Users operate their iPhone without taking it out of their pocket by tapping and swiping on the palm of their other hand, where they remember the phone's home-screen layout; a wearable depth camera sends those touches to the real phone.",
+   "description_zh": "用户不用把 iPhone 从口袋里拿出来，只要在另一只手的掌心上点按、滑动——他们记得手机主屏幕的布局——可穿戴深度相机就会把这些触摸传给真正的手机。",
+   "idea_en": "Use your palm as a screenless phone, relying only on memory of where the icons are.",
+   "idea_zh": "把手掌当成没有屏幕的手机，只凭记忆知道图标在哪儿。",
+   "technique": "A worn depth camera tracks the finger touching the palm and maps the touch position onto the phone's icon grid, transferring spatial memory from the physical device.",
+   "technique_zh": "佩戴的深度相机追踪手指触摸掌心的位置，并把它映射到手机的图标网格上，把人们对实体手机的空间记忆迁移过来。",
+   "exercise_en": "Use MediaPipe Hands to detect which of nine palm zones your index finger touches and map them to phone actions (play music, next track, torch). Twist: design the imaginary interface on your forearm instead of your palm.",
+   "exercise_zh": "用 MediaPipe Hands 识别食指点中了掌心九宫格中的哪一格，并把它们映射到手机操作上（播放音乐、下一首、手电筒）。变体：把想象中的界面设计在前臂上，而不是掌心。",
+   "interaction": [
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "depth camera",
+    "iPhone"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "aCARtauIS50",
+    "url": "https://www.youtube.com/watch?v=aCARtauIS50"
+   }
+  },
+  {
+   "id": "christian-holz--coolmoves",
+   "creator_ids": [
+    "christian-holz",
+    "eyal-ofek",
+    "mar-gonzalez-franco",
+    "msr-benko-wilson"
+   ],
+   "title": "CoolMoves",
+   "year": 2021,
+   "description": "From only a VR headset and two hand controllers, the user's avatar performs stylised full-body moves such as dance and martial-arts poses that follow the user's own timing but look like a trained performer.",
+   "description_zh": "只凭一台 VR 头显和两个手柄，用户的虚拟化身就能做出舞蹈、武术等风格化的全身动作，节奏跟随用户本人，看起来却像受过训练的表演者。",
+   "idea_en": "Your small movements are accentuated into expressive full-body motion.",
+   "idea_zh": "把你的小动作放大成富有表现力的全身动作。",
+   "technique": "Head and hand trajectories are matched in real time against a motion-capture database, and similar clips are interpolated to synthesise accentuated full-body motion.",
+   "technique_zh": "头部和双手的运动轨迹实时与动作捕捉数据库匹配，再对相似片段插值，合成被强化的全身动作。",
+   "exercise_en": "Map webcam-detected arm motion to a character that plays a kung-fu or dance clip whenever the arm speed passes a threshold. Twist: the less you move, the more the character exaggerates.",
+   "exercise_zh": "把网络摄像头检测到的手臂动作映射到一个角色上，手臂速度超过阈值时就播放一段功夫或舞蹈片段。变体：你动得越少，角色就夸张得越厉害。",
+   "interaction": [
+    "hand-body",
+    "performance-stage"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR",
+    "motion capture database"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PO9pMAOM4N4",
+    "url": "https://www.youtube.com/watch?v=PO9pMAOM4N4"
+   },
+   "source_url": "https://doi.org/10.1145/3463499"
+  },
+  {
+   "id": "jens-grubert--multifi",
+   "creator_ids": [
+    "jens-grubert"
+   ],
+   "title": "MultiFi",
+   "year": 2015,
+   "description": "A smartwatch, a phone and a head-mounted display act as one interface: the glasses show a large, low-resolution overview around the body, the watch or phone held in view shows the same content in sharp detail, and the forearm serves as a clipboard for widgets.",
+   "description_zh": "智能手表、手机和头戴显示器组成一个整体界面：眼镜在身体周围显示大范围、低分辨率的概览，举到视线里的手表或手机显示同一内容的清晰细节，前臂还能当作存放小组件的剪贴板。",
+   "idea_en": "Treat glasses, watch and phone as one display with different levels of detail.",
+   "idea_zh": "把眼镜、手表和手机当作一块拥有不同精细度的显示器。",
+   "technique": "The devices are tracked relative to the body, so the HMD renders the context layer and hands off detail to whichever touch display lines up with the user's gaze.",
+   "technique_zh": "各设备相对于身体被追踪，头显渲染上下文层，并把细节交给与用户视线对齐的那块触摸屏。",
+   "exercise_en": "With a HoloKit or phone headset plus a second phone, show a campus map floating around you in the headset and the detail card of whatever building the handheld points at. Twist: the handheld becomes a magnifier that sharpens only what is behind it.",
+   "exercise_zh": "用 HoloKit 或手机头显再加一部手机：头显在你周围显示漂浮的校园地图，手持手机显示它指向的那栋楼的详细信息卡。变体：手持设备变成放大镜，只把它背后的内容变清晰。",
+   "interaction": [
+    "data-information",
+    "hand-body"
+   ],
+   "platform": [
+    "headset",
+    "wearable",
+    "phone"
+   ],
+   "tech": [
+    "smartwatch",
+    "HMD",
+    "cross-device"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nf7K7-nB5os",
+    "url": "https://www.youtube.com/watch?v=nf7K7-nB5os"
+   },
+   "source_url": "https://doi.org/10.1145/2702123.2702331"
+  },
+  {
+   "id": "jens-grubert--user-perspective-ar-public-displays",
+   "creator_ids": [
+    "jens-grubert"
+   ],
+   "title": "Towards User-Perspective AR for Public Displays",
+   "year": 2014,
+   "description": "A tablet held in front of a public screen, such as a ski-resort map, shows that screen's live content as if the tablet were clear glass, rendered from the user's eye position rather than the camera's, with extra information layered on top.",
+   "description_zh": "把平板举到公共显示屏（比如滑雪场地图屏）前，平板会像一块透明玻璃一样显示那块屏幕的实时内容，画面按用户眼睛而非相机的位置渲染，并在上面叠加额外信息。",
+   "idea_en": "Make the handheld truly see-through, from your eyes rather than the camera's.",
+   "idea_zh": "让手持设备真正“透明”——从你的眼睛而不是相机的角度看出去。",
+   "technique": "The tablet decodes a QR code to receive the display's screencast over the network, tracks the display with natural-feature tracking, and re-renders the content with a user-perspective projection.",
+   "technique_zh": "平板解码二维码后通过网络接收公共屏幕的屏幕流，用自然特征追踪定位屏幕，再以用户视角投影重新渲染内容。",
+   "exercise_en": "Build a phone AR app that tracks a poster and shows it through the phone like a window, using front-camera face tracking to match the rendering to the viewer's eye position. Twist: tilt the phone to peek behind the poster into a hidden layer.",
+   "exercise_zh": "做一个手机 AR 应用，追踪一张海报并把手机当成窗户来显示它，用前置相机的人脸追踪让渲染匹配观看者眼睛的位置。变体：倾斜手机就能从海报后面偷看到一个隐藏图层。",
+   "interaction": [
+    "portal-world",
+    "gaze-attention",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "natural feature tracking",
+    "screencast"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "z0nVgk1OxSc",
+    "url": "https://www.youtube.com/watch?v=z0nVgk1OxSc"
+   }
+  },
+  {
+   "id": "jens-grubert--magic-lens-public-games",
+   "creator_ids": [
+    "jens-grubert"
+   ],
+   "title": "Playing it Real: Magic Lens Games in a Public Space",
+   "year": 2012,
+   "description": "Players hunt cartoon monsters on a large printed poster in a public place, either looking through the phone as a magic lens over the poster or using a static peephole view on screen, and the study compares how people choose to play.",
+   "description_zh": "玩家在公共场所的大幅海报上捕捉卡通怪物，可以把手机当作“魔镜”对准海报透视观看，也可以使用屏幕上的静态窥视视图，研究比较人们会怎样选择玩法。",
+   "idea_en": "Turn a public poster into a game board you play through your phone.",
+   "idea_zh": "把公共场所的海报变成一张要透过手机来玩的游戏棋盘。",
+   "technique": "Natural-feature tracking registers the phone to the printed poster so game sprites appear in place, compared with an untracked peephole mode that scrolls the same content on screen.",
+   "technique_zh": "自然特征追踪把手机与印刷海报配准，使游戏角色出现在海报的对应位置；对照的窥视模式不做追踪，只在屏幕上滚动同一内容。",
+   "exercise_en": "Print an A1 poster and build an image-tracking AR game where creatures hide in parts of the illustration and must be tapped through the phone. Twist: the creatures flee toward whichever part of the poster nobody is looking at.",
+   "exercise_zh": "打印一张 A1 海报，做一个图像追踪 AR 游戏：小怪物藏在插画的各个角落，要透过手机点中它们。变体：怪物会逃向没人在看的海报区域。",
+   "interaction": [
+    "game-play",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "natural feature tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "l0YrG9e_omI",
+    "url": "https://www.youtube.com/watch?v=l0YrG9e_omI"
+   }
+  },
+  {
+   "id": "jens-grubert--headphones",
+   "creator_ids": [
+    "jens-grubert"
+   ],
+   "title": "HeadPhones",
+   "year": 2018,
+   "description": "Several ordinary phones lying on a table join into one large display simply by seeing the user's head with their front cameras, so a map spreads across all of them and the phones can be moved around freely.",
+   "description_zh": "几部普通手机平放在桌上，只要用前置相机看到用户的头，就能组合成一块大屏幕；地图会铺满所有手机，手机也可以随意挪动。",
+   "idea_en": "Use the viewer's head as the shared reference that stitches many phones into one screen.",
+   "idea_zh": "以观看者的头为共同参照，把许多手机拼成一块屏幕。",
+   "technique": "Each phone's front camera tracks the user's head; because every device sees the same head, their relative poses can be solved into one coordinate system over a local network, without markers or external cameras.",
+   "technique_zh": "每部手机的前置相机追踪用户的头部；由于所有设备看到的是同一个头，就能通过局域网把它们的相对位置解算到同一个坐标系中，不需要标记或外部相机。",
+   "exercise_en": "Line up four phones, estimate each one's offset from the viewer with face tracking, and draw one continuous image across them in a web page. Twist: the image becomes a window into a 3D scene that shifts as you move your head.",
+   "exercise_zh": "把四部手机排成一排，用人脸追踪估计每部手机相对观看者的偏移，在网页中把一张连续的图片铺满它们。变体：图片变成一扇通向三维场景的窗户，随你的头部移动而变化。",
+   "interaction": [
+    "gaze-attention",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "face tracking",
+    "cross-device"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "l98_YozIWYc",
+    "url": "https://www.youtube.com/watch?v=l98_YozIWYc"
+   }
+  },
+  {
+   "id": "msqrd--msqrd",
+   "creator_ids": [
+    "msqrd"
+   ],
+   "title": "MSQRD",
+   "year": 2016,
+   "description": "A selfie video app that tracks the face live and turns it into a crying clown, an old man, a chimpanzee or a white dog, with masks that follow expressions and open mouths, recorded as short clips to share.",
+   "description_zh": "一款自拍视频应用：实时追踪人脸，把它变成流泪的小丑、老人、黑猩猩或白色小狗，面具会跟随表情和张嘴动作，录成短视频分享出去。",
+   "idea_en": "Wear a living mask on your face through the phone camera.",
+   "idea_zh": "通过手机相机，在脸上戴一副会动的活面具。",
+   "technique": "Real-time facial landmark tracking on the phone fits a face mesh every frame, onto which animated masks and face-swap textures are warped.",
+   "technique_zh": "手机上的实时人脸特征点追踪每帧拟合一个人脸网格，再把动态面具和换脸贴图变形贴合上去。",
+   "exercise_en": "In Lens Studio or Effect House, make a face mask that switches character when the user opens their mouth or raises their eyebrows. Twist: the mask ages a little every time the user blinks.",
+   "exercise_zh": "在 Lens Studio 或 Effect House 里做一个面部面具，用户张嘴或挑眉时就切换成另一个角色。变体：用户每眨一次眼，面具就老一点。",
+   "interaction": [
+    "face"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "face tracking",
+    "iOS",
+    "Android"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "MCZotkdo3wI",
+    "url": "https://www.youtube.com/watch?v=MCZotkdo3wI"
+   },
+   "source_url": "https://en.wikipedia.org/wiki/MSQRD"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Patrick Baudisch",
+   "why": "HPI Potsdam professor behind Imaginary Reality Gaming, Imaginary Phone and many body-scale interaction prototypes (Holz's PhD advisor).",
+   "link": "https://hpi.de/baudisch/",
+   "found_via": "christian-holz",
+   "status": "open"
+  },
+  {
+   "name": "Andreas Fender",
+   "why": "First author of Causality-preserving Asynchronous Reality and InfinitePaint (ETH Zurich); mixed-reality work on time and physical causality.",
+   "link": "https://www.youtube.com/watch?v=ij8TWHMdQeU",
+   "found_via": "christian-holz",
+   "status": "open"
+  },
+  {
+   "name": "Lung-Pan Cheng",
+   "why": "Lead author of Reality Rifts; known for TurkDeck and Haptic Turk (people as haptic props for VR); National Taiwan University.",
+   "link": "https://www.youtube.com/watch?v=68oIgasJ0hs",
+   "found_via": "christian-holz",
+   "status": "open"
+  },
+  {
+   "name": "Mohamed Kari",
+   "why": "First author of TransforMR and SoundsRide (Porsche / ETH Zurich); mixed reality that re-skins the street and the car ride.",
+   "link": "https://mkari.de/transformr",
+   "found_via": "christian-holz",
+   "status": "open"
+  }
+ ]
+}

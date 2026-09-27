@@ -1,642 +1,186 @@
 [
  {
-  "name": "Brest Brest Brest",
-  "why": "French graphic design collective that co-signed Faune, AR street posters whose printed landscapes hide animated animals.",
-  "link": "https://vimeo.com/566519444",
-  "found_via": "adrien-m-claire-b",
+  "name": "Ramesh Raskar",
+  "why": "MIT Media Lab (Camera Culture) professor and projector-AR pioneer (Shader Lamps, iLamps, RFIG Lamps with Johnny Lee); RFIG video exists at youtube.com/watch?v=MURwa1lWDsY.",
+  "link": "https://www.media.mit.edu/people/raskar/overview/",
+  "found_via": "johnny-chung-lee",
   "status": "open",
-  "batch": "add-adrien-m-more"
+  "batch": "r5-coders"
  },
  {
-  "name": "Jann Gallois (Cie BurnOut)",
-  "why": "Choreographer who co-created Just your shadow with Adrien M & Claire B; a dance-meets-live-image collaborator.",
-  "link": "https://www.youtube.com/watch?v=iWfpUCYw3Kg",
-  "found_via": "adrien-m-claire-b",
+  "name": "Karen X Cheng",
+  "why": "Director and creative technologist known for viral camera, AR and AI video tricks; co-made the Spectacles 3 butterfly film with Clara Bacou.",
+  "link": "https://x.com/karenxcheng",
+  "found_via": "clara-bacou",
   "status": "open",
-  "batch": "add-adrien-m-more"
+  "batch": "r5-coders"
  },
  {
-  "name": "Benjamin Kuperberg",
-  "why": "Creative technologist behind NecTouch, the multitouch layer used in the XYZT exhibition, and later the Chataigne show-control software.",
-  "link": "https://www.youtube.com/watch?v=zEZs2f5kNj4",
-  "found_via": "adrien-m-claire-b",
+  "name": "PHORIA (Ben Ferns)",
+  "why": "Melbourne XR studio that co-built the WebXR mixed-reality showcase Spatial Fusion with Lusion and Meta; Ben Ferns posts WebXR tech walkthroughs.",
+  "link": "https://www.phoria.com.au",
+  "found_via": "lusion",
   "status": "open",
-  "batch": "add-adrien-m-more"
+  "batch": "r5-coders"
  },
  {
-  "name": "Dixon Lo",
-  "why": "AR designer whose shadow-offset floating trick inspired Shengzhi Wu's prototype.",
-  "link": "https://www.linkedin.com/in/dixonlo/",
-  "found_via": "shengzhi-wu",
+  "name": "Yi-Wen Lin",
+  "why": "London-based Taiwanese creative coder (WENSDAY) who co-made the AR Virtual Plants demo with Matt DesLauriers; WebGL/AR sketches.",
+  "link": "https://yiwenl.github.io/",
+  "found_via": "matt-deslauriers",
   "status": "open",
-  "batch": "add-shengzhi-wu"
+  "batch": "r5-coders"
  },
  {
-  "name": "Steve (@thearperson)",
-  "why": "XR veteran whom Shengzhi recommends; posts VR/AR blending demos such as real sofas mapped into VR.",
-  "link": "https://x.com/thearperson",
-  "found_via": "shengzhi-wu",
+  "name": "Hamill Industries (Pablo Barquín & Anna Diaz)",
+  "why": "Barcelona visual studio mixing robotics, real-time graphics and computer vision; built the AI dance ensemble Engendered Otherness and CORTEX's live scenography with Kianí del Valle, plus robot-camera live shows for Floating Points.",
+  "link": "https://www.hamillindustries.com",
+  "found_via": "kiani-del-valle",
   "status": "open",
-  "batch": "add-shengzhi-wu"
+  "batch": "r5-dance-net"
  },
  {
-  "name": "Crosby Studios (Harry Nuriev)",
-  "why": "Design studio that co-created ZERO10's New York store selling digital-only clothing via an AR mirror, and a later pop-up at Fusalp Paris.",
-  "link": "https://wwd.com/fashion-news/fashion-scoops/trying-on-metaverse-clothing-irl-zero10-crosby-studio-1235304164/",
-  "found_via": "zero10",
+  "name": "Alberto Novello (JesterN)",
+  "why": "Sound artist and EEG hacker who wrote the brainwave-to-laser system of (UN)FOCUSSED and made the brain-controlled performance Fragmentation.",
+  "link": "https://www.youtube.com/watch?v=l8r_Y9d7KUw",
+  "found_via": "marion-traenkle",
   "status": "open",
-  "batch": "add-zero10-knol"
+  "batch": "r5-dance-net"
  },
  {
-  "name": "Marc Mahfoud",
-  "why": "Sound artist who co-created Roelof Knol's floor-projection installation Connected at Nxt Museum.",
-  "link": "https://nxtmuseum.com/artist/connected-roelof-knol",
-  "found_via": "roelof-knol",
+  "name": "Andrej Boleslavský (id144)",
+  "why": "Interactive artist and Mária Júdová's long-time collaborator on Camouflage, body(input); and Everywhen; also made interactive particle installations such as Flow at Signal Festival.",
+  "link": "http://id144.org",
+  "found_via": "maria-judova",
   "status": "open",
-  "batch": "add-zero10-knol"
+  "batch": "r5-dance-net"
  },
  {
-  "name": "Keita Higuchi",
-  "why": "First author of Flying Head (Rekimoto Lab); drone-telepresence and head-synchronized robot control research.",
-  "link": "https://www.youtube.com/watch?v=9HLyZqhkNKg",
-  "found_via": "jun-rekimoto",
+  "name": "Yago de Quay",
+  "why": "Musician-dancer who performs with Kinect-tracked movement driving music and visuals (Dance Jockey, Breakdown with visiophone).",
+  "link": "http://yagodequay.com",
+  "found_via": "visiophone",
   "status": "open",
-  "batch": "r3-art"
+  "batch": "r5-dance-net"
  },
  {
-  "name": "Amar Mulabegović",
-  "why": "Visual artist behind The Macula's SIM/NEBULA and Luminous Flux; may have later independent mapping works.",
-  "link": "https://vimeo.com/138894725",
-  "found_via": "the-macula",
+  "name": "Choy Ka Fai",
+  "why": "Singapore-born Berlin artist working on dance, motion capture and trance; co-directed the VR piece Constellation of the Flesh with Mária Júdová.",
+  "link": "https://www.ka5.info",
+  "found_via": "maria-judova",
   "status": "open",
-  "batch": "r3-art"
+  "batch": "r5-dance-net"
  },
  {
-  "name": "MSQRD (Masquerade Technologies)",
-  "why": "Face-filter app (2015-16, acquired by Facebook) by the founders of Loóna; a pioneer of phone face AR.",
-  "link": "https://en.wikipedia.org/wiki/MSQRD",
-  "found_via": "loona-inc",
+  "name": "The Sancho Plan (Ed Cookson)",
+  "why": "Bristol audiovisual group behind Big Screen Augmented Reality (2010) and live AR music performances with animated characters; only the big-screen piece was added here (under Neil Mendoza).",
+  "link": "https://vimeo.com/thesanchoplan",
+  "found_via": "neil-mendoza",
   "status": "open",
-  "batch": "r3-games"
+  "batch": "r5-openframeworks"
  },
  {
-  "name": "Arballoon",
-  "why": "Israeli studio that produced Put a Spell (2009) for Ogmento.",
-  "link": "https://www.youtube.com/watch?v=EB45O7-6Xrg",
-  "found_via": "ogmento",
+  "name": "Oriol Ferrer Mesià",
+  "why": "openFrameworks developer (ex-Snibbe Interactive) whose Benetton window installations include camera mirrors such as Elastic Mirror, TimeLoop and Kaleidoscope.",
+  "link": "https://vimeo.com/armadillu",
+  "found_via": "scott-snibbe",
   "status": "open",
-  "batch": "r3-games"
+  "batch": "r5-openframeworks"
  },
  {
-  "name": "Shohei Mori",
-  "why": "Diminished reality and AR pseudo-weight researcher (TU Graz / Iwate); co-author of Video-Annotated AR Assembly Tutorials; own YouTube channel with demos.",
-  "link": "https://www.youtube.com/watch?v=5VCDReGcd40",
-  "found_via": "peter-mohr",
+  "name": "Tangible Interaction",
+  "why": "Vancouver studio behind the openFrameworks Digital Graffiti Wall (2010 Olympics) and early marker AR such as AR Hippo for TELUS; mostly commercial, needs a careful pick.",
+  "link": "https://vimeo.com/tangible",
+  "found_via": "openframeworks-community",
   "status": "open",
-  "batch": "r3-lab"
+  "batch": "r5-openframeworks"
  },
  {
-  "name": "Damien Rompapas",
-  "why": "Lead of HoloRoyale and co-creator of AR Yōkai (with Christian Sandor); now BEER Labs.",
-  "link": "https://www.beerlabs.com.au/holoroyale/",
-  "found_via": "christian-sandor",
+  "name": "Parag K. Mital",
+  "why": "Artist-researcher whose 'Memory' (2010, with Agelos Papadakis) augments hanging glass sculptures with projected faces; also real-time audiovisual resynthesis mirrors.",
+  "link": "https://vimeo.com/pkmital",
+  "found_via": "openframeworks-community",
   "status": "open",
-  "batch": "r3-lab"
+  "batch": "r5-openframeworks"
  },
  {
-  "name": "Yujie Tao",
-  "why": "Lead author of Audio Personas and audio augmentation for mindfulness at Stanford SHAPE Lab; audio AR focus.",
-  "link": "https://www.youtube.com/watch?v=l8lis-JPIzA",
-  "found_via": "sean-follmer",
+  "name": "Champagne Valentine (with Aaron Meyers)",
+  "why": "Amsterdam studio that made early webcam AR musical instruments (2010) and interactive shop-window mirrors with openFrameworks developer Aaron Meyers.",
+  "link": "https://vimeo.com/champagnevalentine",
+  "found_via": "openframeworks-community",
   "status": "open",
-  "batch": "r3-lab"
+  "batch": "r5-openframeworks"
  },
  {
-  "name": "Alexander Plopski",
-  "why": "Otago/TU Graz researcher on eye-aware AR displays; co-author of saliency modulation and HoloRoyale.",
-  "link": "https://www.youtube.com/watch?v=7T55CaIzAGY",
-  "found_via": "tobias-langlotz",
+  "name": "Patrick Baudisch",
+  "why": "HPI Potsdam professor behind Imaginary Reality Gaming, Imaginary Phone and many body-scale interaction prototypes (Holz's PhD advisor).",
+  "link": "https://hpi.de/baudisch/",
+  "found_via": "christian-holz",
   "status": "open",
-  "batch": "r3-lab"
+  "batch": "r5-research"
  },
  {
-  "name": "Clara Bacou",
-  "why": "Spectacles Lens creator; original author of 'Blazer' (guide a flock of dragons), later rebuilt with Yegor Ryabtsov.",
-  "link": "https://ar.snap.com/lensfest-2025",
-  "found_via": "yegor-ryabtsov",
+  "name": "Andreas Fender",
+  "why": "First author of Causality-preserving Asynchronous Reality and InfinitePaint (ETH Zurich); mixed-reality work on time and physical causality.",
+  "link": "https://www.youtube.com/watch?v=ij8TWHMdQeU",
+  "found_via": "christian-holz",
   "status": "open",
-  "batch": "r3-lens"
+  "batch": "r5-research"
  },
  {
-  "name": "Tristan Quil",
-  "why": "Publishes the Paris AR Studio case films (JR Echoes, Daft Punk, Versailles); possibly a studio member worth checking for personal AR work.",
-  "link": "https://www.youtube.com/channel/UCVkIVoOhPKvEOXguD7qOx1Q",
-  "found_via": "paris-ar-studio",
+  "name": "Lung-Pan Cheng",
+  "why": "Lead author of Reality Rifts; known for TurkDeck and Haptic Turk (people as haptic props for VR); National Taiwan University.",
+  "link": "https://www.youtube.com/watch?v=68oIgasJ0hs",
+  "found_via": "christian-holz",
   "status": "open",
-  "batch": "r3-lens"
+  "batch": "r5-research"
  },
  {
-  "name": "Diego Macario",
-  "why": "Senior engineer on Shopify's Spatial Commerce team; builds web hand-tracking and mesh-painting experiments (Hands-In-The-Web, Mesh Painter) behind lab projects like Handy and Retail Research Kit.",
-  "link": "https://diegomacario.github.io/Hands-In-The-Web/public/index.html",
-  "found_via": "russ-maschmeyer",
+  "name": "Mohamed Kari",
+  "why": "First author of TransforMR and SoundsRide (Porsche / ETH Zurich); mixed reality that re-skins the street and the car ride.",
+  "link": "https://mkari.de/transformr",
+  "found_via": "christian-holz",
   "status": "open",
-  "batch": "r3-shopify"
+  "batch": "r5-research"
  },
  {
-  "name": "Jon Wade",
-  "why": "Early Shopify VR developer who wrote about Expo, an Unreal template for rapid VR prototyping, and a year of motion-control experiments.",
-  "link": "https://medium.com/shopify-vr/expo-towards-rapid-vr-prototyping-15356d53ea71",
-  "found_via": "shopify-spatial-commerce",
+  "name": "Philip Schuette",
+  "why": "Dutch artist behind playful interactive installations SUN (a bouncy ball moves the sun) and BODY (your pose as an image search) with Random Studio.",
+  "link": "https://www.philipschuette.com",
+  "found_via": "random-studio",
   "status": "open",
-  "batch": "r3-shopify"
+  "batch": "r5-studios"
  },
  {
-  "name": "GoSpooky",
-  "why": "Amsterdam AR studio where Max and Liisi made Holiday Lights, Treasure Hunt and the ComplexCon Dropzone and Design Museum lenses; many branded Snap lenses.",
-  "link": "https://gospooky.com",
-  "found_via": "max-van-leeuwen",
+  "name": "Nick Verstand",
+  "why": "Dutch audiovisual artist, co-creator of ANIMA with onformative; makes light-and-sound installations that respond to visitors.",
+  "link": "https://vimeo.com/110243559",
+  "found_via": "onformative",
   "status": "open",
-  "batch": "r4-aelab"
+  "batch": "r5-studios"
  },
  {
-  "name": "Ninsky (@Ninsky_AR)",
-  "why": "AR developer who co-developed Specs Racer with Max for Snap Spectacles.",
-  "link": "https://x.com/Ninsky_AR",
-  "found_via": "max-van-leeuwen",
+  "name": "Matt Clugston",
+  "why": "Creative director and motion-graphics artist behind the real-time mocap imagery in Holosphere's Waterhall performance and the University of Birmingham projection show.",
+  "link": "https://www.holosphere.co.uk/case-study/university-of-birmingham-125th-anniversary-show/",
+  "found_via": "holosphere",
   "status": "open",
-  "batch": "r4-aelab"
+  "batch": "r5-uk"
  },
  {
-  "name": "Cyriel Verkuijlen",
-  "why": "3D artist who co-made the Bold and Brash painting AR lens with Max.",
-  "link": "https://instagram.com/cyrielverkuijlen",
-  "found_via": "max-van-leeuwen",
+  "name": "Job van Nuenen",
+  "why": "Built the interactive framework and sound for Children of the Light's ZEROTIME, where visitors' phone torches are turned into a live soundscape.",
+  "link": "https://vimeo.com/129778294",
+  "found_via": "children-of-the-light",
   "status": "open",
-  "batch": "r4-aelab"
+  "batch": "r5-uk"
  },
  {
-  "name": "Jorge Guevara",
-  "why": "Dancer and long-term collaborator of Naoto Hieda in the live-coded Best Practices in Contemporary Dance series.",
-  "link": "https://www.youtube.com/@jorgeguevaralarrotta",
-  "found_via": "naoto-hieda",
+  "name": "Stuart Batchelor",
+  "why": "Computer artist who co-created the participatory shemza.digital painting apps and installations with Aphra Shemza.",
+  "link": "https://www.youtube.com/watch?v=c3_ZjolA1HE",
+  "found_via": "aphra-shemza",
   "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Aphra Shemza",
-  "why": "Light artist who co-created Post-Truth and Beauty with Tim Murray-Browne; makes interactive light sculptures.",
-  "link": "https://www.youtube.com/watch?v=tVVIV_sNlaA",
-  "found_via": "tim-murray-browne",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Jan Lee",
-  "why": "Choreographer and dancer of This Floating World with Tim Murray-Browne; works at the intersection of dance, music and technology.",
-  "link": "https://timmb.com/this-floating-world/",
-  "found_via": "tim-murray-browne",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Lily Hassioti",
-  "why": "Co-creator of the sensor-driven installation Passaggi // Presenze with Samuele Albani.",
-  "link": "https://www.samuelealbani.com/works/passaggipresenze",
-  "found_via": "samuele-albani",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Julien Mercier",
-  "why": "Co-creator of Deep Dancing (motion capture to spatial sound) with Irini Kalaitzidi at ZHdK.",
-  "link": "https://irinikalaitzidi.com/projects/deepdancing.html",
-  "found_via": "irini-kalaitzidi",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Simon East",
-  "why": "CCL 2022 (A+E Lab, Chatham) participant; not researched in this round.",
-  "link": "https://medium.com/a-e-lab/a-e-lab-hosts-the-uks-first-choreographic-coding-lab-25fc714ea88e",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Flowfal",
-  "why": "CCL 2022 (A+E Lab, Chatham) participant; not researched in this round.",
-  "link": "https://medium.com/a-e-lab/a-e-lab-hosts-the-uks-first-choreographic-coding-lab-25fc714ea88e",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Jamie Gledhill",
-  "why": "Developer of The Multitude (added under collusion), a two-player body-projection game; his other interactive work is not yet checked.",
-  "link": "http://www.collusion.org.uk/the-multitude/",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Will Hurt",
-  "why": "Norwich visual artist and creative technologist making AR and interactive drawing installations, featured in Collusion's ART // TECH // PLAY series.",
-  "link": "https://willhurt.com",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Uncharted Limbo Collective",
-  "why": "Athens/London creative coders (George Adamopoulos, Eleana Polychronaki, Chris Waters) who made the motion-responsive visuals for Anti-Body; own interactive projection works on YouTube.",
-  "link": "https://www.youtube.com/watch?v=IZpirMOBwLg",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Children of the Light",
-  "why": "Dutch light-art duo behind the kinetic light sculptures in Whitley's Overflow and the interactive grid of Strange Stranger.",
-  "link": "",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Holosphere",
-  "why": "Birmingham spatial computing studio (VR, AR, real-time projection) that built BRB's mocap-driven 35 m backdrop.",
-  "link": "https://www.youtube.com/watch?v=I0y7QCaBFm4",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "House of Stars (Nadia Perrotta)",
-  "why": "Made New Chronicles of Mudfog, an AR trail along Chatham High Street with young people's illustrations, for Electric Medway Festival 2025; not yet researched for video.",
-  "link": "https://www.electricmedway.org/festival.html",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Tom Ward",
-  "why": "Electric Medway artist behind Techno-Botanica, Tales of the Deep and Intra Stories interactive murals; videos on Electric Medway TV, not yet checked for interactivity.",
-  "link": "https://www.youtube.com/watch?v=0jexW5YmyFc",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Sophy Millington",
-  "why": "Projection artwork Hidden Voices on a Brompton wall for Electric Medway Festival 2023.",
-  "link": "https://www.youtube.com/watch?v=luE-FpPkppw",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Mini Gabi World",
-  "why": "Animated mural projection-mapping pieces for Electric Medway Festival 2023 and 2024.",
-  "link": "https://www.youtube.com/watch?v=UD4HU9DPvDM",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-aelab"
- },
- {
-  "name": "Béatrice Lartigue / Lab212",
-  "why": "Co-creator with Cyril Diagne in the Lab212 collective (Super Mario Brush, Portée/, Starfield, Galets Magiques): projection and tangible interactive installations with Vimeo videos.",
-  "link": "https://vimeo.com/lab212",
-  "found_via": "cyril-diagne",
-  "status": "open",
-  "batch": "r4-artists"
- },
- {
-  "name": "Seeing the Invisible (Outset / Jerusalem Botanical Garden)",
-  "why": "2021 AR exhibition in 12 botanical gardens with Ai Weiwei, El Anatsui, Sarah Meyohas, Isaac Julien, Mel O'Callaghan and others; individual artists may have work-specific videos.",
-  "link": "https://www.youtube.com/watch?v=Ic-agv5D5oY",
-  "found_via": "acute-art",
-  "status": "open",
-  "batch": "r4-artists"
- },
- {
-  "name": "Palindrome / Robert Wechsler",
-  "why": "Nuremberg dance company that co-developed EyeCon with Frieder Weiss (Minotaur, seine hohle Form); Wechsler later built MotionComposer, camera-interactive music for people with disabilities.",
-  "link": "https://www.palindrome.de",
-  "found_via": "frieder-weiss",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "Mbryonic",
-  "why": "London XR studio that co-developed AΦE's 0AR motion capture and AR.",
-  "link": "https://mbryonic.com",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "Schnelle Bunte Bilder & kling klang klong",
-  "why": "Berlin visual and sound studios behind MOMENTUM and the interactive sound for Christian Mio Loclair's POW2045; many body-reactive installations.",
-  "link": "https://vimeo.com/112193826",
-  "found_via": "motion-bank",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "visiophone (Rodrigo Carvalho)",
-  "why": "Audiovisual artist whose CCL prototype Gravitacional is added here; other interactive dance-visual work on Vimeo.",
-  "link": "https://vimeo.com/visiophone",
-  "found_via": "motion-bank",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "Kat Sullivan",
-  "why": "Creative technologist and dancer who built the CCL quality-visualising tool; later dance and body-tracking projects.",
-  "link": "http://katsully.com",
-  "found_via": "motion-bank",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser)",
-  "why": "Made the VR piece Again at CCL Mainz 2019 and landmark dance-data works (Ghostcatching, Loops); the Again video on the CCL site is private, other works not yet checked.",
-  "link": "http://openendedgroup.com/artworks/again.html",
-  "found_via": "motion-bank",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "Mária Júdová",
-  "why": "Media artist behind Kykeon, a VR shamanic ritual made with Taneli Törmä and tanzmainz dancers and listed on the CCL site; mostly VR.",
-  "link": "https://www.mariajudova.net/project/kykeon/",
-  "found_via": "motion-bank",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "Marion Tränkle / (UN)FOCUSSED",
-  "why": "Brain-controlled laser performance mapping two performers' EEG to sound, light and lasers, shown around CCL Amsterdam.",
-  "link": "https://vimeo.com/174162011",
-  "found_via": "motion-bank",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "onformative",
-  "why": "Berlin generative design studio, co-creator of Pathfinder with Christian Mio Loclair.",
-  "link": "https://onformative.com",
-  "found_via": "christian-mio-loclair",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "Kiani del Valle",
-  "why": "Choreographer and movement director working with digital artists; suggested for this round but not researched yet.",
-  "link": "https://www.kianidelvalle.com",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "Pablo Ventura",
-  "why": "Choreographer working with robots and algorithmic dance; suggested for this round, AR/projection content not yet checked.",
-  "link": "https://www.pabloventura.com",
-  "found_via": "aoi-esteban",
-  "status": "open",
-  "batch": "r4-dance"
- },
- {
-  "name": "Jeremy Hight",
-  "why": "Locative-narrative pioneer (34 North 118 West); staged an AR battle with Mark Skwarek at the Corcoran, 2013.",
-  "link": "https://www.youtube.com/watch?v=j2NadLDHsss",
-  "found_via": "mark-skwarek",
-  "status": "open",
-  "batch": "r4-manifest-ar"
- },
- {
-  "name": "Azure Carter",
-  "why": "Singer and performer in Alan Sondheim's mixed-reality and Second Life performances.",
-  "link": "",
-  "found_via": "alan-sondheim",
-  "status": "open",
-  "batch": "r4-manifest-ar"
- },
- {
-  "name": "Andrew Roth",
-  "why": "York University AR Lab technical lead on 52 Card Psycho and Caitlin Fisher's AR works.",
-  "link": "",
-  "found_via": "caitlin-fisher",
-  "status": "open",
-  "batch": "r4-manifest-ar"
- },
- {
-  "name": "Adam Trowbridge & Jessica Westbrook",
-  "why": "Artist duo (Channel TWo) who showed AR work at the Bushwick AR Intervention 2013.",
-  "link": "https://www.youtube.com/watch?v=0Vt9D_2Br_Q",
-  "found_via": "mark-skwarek",
-  "status": "open",
-  "batch": "r4-manifest-ar"
- },
- {
-  "name": "Joseph DeLappe",
-  "why": "Game-intervention artist (Gandhi's march re-enacted in Second Life) included in the Bushwick AR Intervention 2013.",
-  "link": "",
-  "found_via": "mark-skwarek",
-  "status": "open",
-  "batch": "r4-manifest-ar"
- },
- {
-  "name": "Zachary Brady",
-  "why": "Developer and co-author of Will Pappenheimer's Sky Petition City and Drawing Constellation.",
-  "link": "",
-  "found_via": "will-pappenheimer",
-  "status": "open",
-  "batch": "r4-manifest-ar"
- },
- {
-  "name": "Freida Abtan",
-  "why": "Artist and co-creator of Bot Party with Phoenix Perry.",
-  "link": "",
-  "found_via": "phoenix-perry",
-  "status": "open",
-  "batch": "r4-manifest-ar"
- },
- {
-  "name": "Johnny Chung Lee",
-  "why": "Led Project Tango at Google ATAP; earlier famous Wii Remote head-tracking and whiteboard hacks; co-author of XR-Objects.",
-  "link": "http://johnnylee.net",
-  "found_via": "google-atap",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Yuri Suzuki",
-  "why": "Sound designer (Pentagram partner) behind Sound Bubbles and Convolution Reverb for Everyday Experiments; many spatial sound installations.",
-  "link": "https://yurisuzuki.com",
-  "found_via": "space10",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Tin & Ed",
-  "why": "Tin Nguyen and Edward Cutting: playful AR and installation artists; Kaleidoscopic Home for Everyday Experiments (video offline since SPACE10 closed).",
-  "link": "https://tinanded.com",
-  "found_via": "space10",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Random Studio",
-  "why": "Amsterdam experience-design studio; Point and Repair AR prototype for Everyday Experiments.",
-  "link": "https://random.studio",
-  "found_via": "space10",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Bakken & Bæck",
-  "why": "Oslo/Amsterdam studio behind Room Shuffle, Shelve It and Home Applications for Everyday Experiments; Room Shuffle is credited under space10 here.",
-  "link": "https://bakkenbaeck.com",
-  "found_via": "space10",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Raymond Lo",
-  "why": "Steve Mann's student and co-founder/CTO of Meta (Spaceglasses); uploaded EyeTap X and HDRchitecture demos.",
-  "link": "https://www.youtube.com/channel/UC1SgwoN9PocSSiWM_3Hb31g",
-  "found_via": "steve-mann",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Meta Company (Meron Gribetz)",
-  "why": "Maker of the Meta 1/Meta 2 AR headsets with Steve Mann as chief scientist; hand-interaction demos 2013-2017.",
-  "link": "https://en.wikipedia.org/wiki/Meta_(company)",
-  "found_via": "steve-mann",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Mustafa Doga Dogan",
-  "why": "Lead author of XR-Objects (Augmented Object Intelligence) at Google; also tangible and fabrication-aware AR work from MIT.",
-  "link": "https://www.dogadogan.com",
-  "found_via": "mar-gonzalez-franco",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Christian Holz",
-  "why": "ETH Zurich / ex-MSR; co-author of DreamWalker, VRoamer, Mise-Unseen and SeeingVR with Eyal Ofek.",
-  "link": "https://www.christianholz.net",
-  "found_via": "eyal-ofek",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Jens Grubert",
-  "why": "Coburg University; mobile knowledge work in VR/AR, pen-based spreadsheets and physical keyboards in XR with Eyal Ofek.",
-  "link": "https://www.youtube.com/watch?v=NeyupItXLX4",
-  "found_via": "eyal-ofek",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "USC World Building Media Lab (Alex McDowell) — Leviathan",
-  "why": "Leviathan volumetric AR whale demos at CES 2014 with Intel, associated with Ronald Azuma's Intel AR storytelling work.",
-  "link": "https://www.youtube.com/watch?v=vN3Ijgsd1RE",
-  "found_via": "seed",
-  "status": "open",
-  "batch": "r4-pioneers"
- },
- {
-  "name": "Bruno Simon",
-  "why": "Creative coder who made one of the KIKK 2018 AR pieces (Paradigm shift); known for playful WebGL.",
-  "link": "https://bruno-simon.com/",
-  "found_via": "henry-daubrez-kikk",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "Matt DesLauriers",
-  "why": "Generative artist; made Quantum Spyglass for the KIKK 2018 AR exhibit.",
-  "link": "https://www.mattdesl.com/",
-  "found_via": "henry-daubrez-kikk",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "Edan Kwan",
-  "why": "WebGL creative coder; made Bilibala Holala for the KIKK 2018 AR exhibit.",
-  "link": "https://www.edankwan.com/",
-  "found_via": "henry-daubrez-kikk",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "Jaume Sanchez Elias",
-  "why": "Creative technologist; made Transcendence for the KIKK 2018 AR exhibit.",
-  "link": "https://www.clicktorelease.com/",
-  "found_via": "henry-daubrez-kikk",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "Michael Frei & Mario von Rickenbach (Playables)",
-  "why": "KIDS crowd game also shown as an interactive installation where visitors become crowd figures; no installation video verified yet.",
-  "link": "https://playkids.ch/",
-  "found_via": "seed",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "ii studio (interactive.items) – Clay Pillar",
-  "why": "Tactile clay pillar that reshapes real-time projected visuals; only Instagram/TikTok clips found.",
-  "link": "https://iitems.studio/claypillar/",
-  "found_via": "seed",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "Tiziano Mirabella",
-  "why": "TouchDesigner artist behind Window of Illusions (Illuseum Berlin), body-driven projection illusions; only Instagram clips found.",
-  "link": "https://tizianomirabella.com/",
-  "found_via": "seed",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "Gamgie",
-  "why": "French artist mixing real-time particles (Oxipital engine) with circus and dance; Oxipital video not found yet.",
-  "link": "https://en.gamgie.com/",
-  "found_via": "seed",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "Christian Brinkmann",
-  "why": "Floral Resonance: an interactive plant that shapes sound and light by touch (Manar Abu Dhabi); no original video found.",
-  "link": "https://paad.ae/manar/artist-detail/christian-brinkmann",
-  "found_via": "seed",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "Augmenta / quentin.script",
-  "why": "Body-tracked projected remakes of games (e.g. Chrome dino run where you jump for real) built on THÉORIZ's Augmenta tracker.",
-  "link": "https://www.instagram.com/quentin.script/",
-  "found_via": "theoriz",
-  "status": "open",
-  "batch": "src-pinterest"
- },
- {
-  "name": "André Wee",
-  "why": "Singapore artist using AR murals and bouquets at ArtScience Museum for sustainability themes.",
-  "link": "http://andre-wee.com/about",
-  "found_via": "seed",
-  "status": "open",
-  "batch": "src-pinterest"
+  "batch": "r5-uk"
  }
 ]

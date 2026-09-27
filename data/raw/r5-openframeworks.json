@@ -1,0 +1,2009 @@
+{
+ "batch": "r5-openframeworks",
+ "creators": [
+  {
+   "id": "marco-tempest",
+   "name": "Marco Tempest",
+   "role": "Illusionist and techno-magician; MIT Media Lab Director's Fellow",
+   "based": "New York, US",
+   "bio": "Swiss-born magician who has combined illusion with augmented reality, projection tracking and robotics since the late 2000s, building his early AR card tricks and projection routines with Zach Lieberman in openFrameworks.",
+   "why": "He uses AR as a stage-magic tool, so the audience experiences virtual objects as tricks rather than as technology.",
+   "links": {
+    "site": "https://www.marcotempest.com",
+    "vimeo": "https://vimeo.com/magician"
+   },
+   "role_zh": "魔术师、科技魔术师；MIT Media Lab 主任研究员",
+   "bio_zh": "出生于瑞士的魔术师，从 2000 年代末起把魔术与增强现实、投影追踪和机器人结合；早期的 AR 纸牌魔术和投影表演是与 Zach Lieberman 一起用 openFrameworks 开发的。",
+   "why_zh": "他把 AR 当作舞台魔术的道具，让观众把虚拟物体当成魔术本身来体验，而不是当成技术。",
+   "based_zh": "纽约，美国",
+   "connected_to": [
+    "zach-lieberman"
+   ],
+   "discovered_via": "zach-lieberman"
+  },
+  {
+   "id": "seb-lee-delisle",
+   "name": "Seb Lee-Delisle",
+   "role": "Digital artist; creator of large-scale interactive light and laser installations",
+   "based": "Brighton, UK",
+   "bio": "British artist and coder whose public installations let crowds launch projected fireworks, play laser games and make music with lasers; PixelPyros and his early pieces were built in openFrameworks.",
+   "why": "He turns whole façades and city skylines into playable light, with interactions simple enough for thirty strangers at once.",
+   "links": {
+    "site": "https://seb.ly",
+    "vimeo": "https://vimeo.com/sebly",
+    "x": "https://x.com/seb_ly",
+    "youtube": "https://www.youtube.com/@SebLeeDelisle"
+   },
+   "role_zh": "数字艺术家；大型互动灯光与激光装置创作者",
+   "bio_zh": "英国艺术家兼程序员，他的公共装置让人群发射投影烟花、玩激光游戏、用激光演奏音乐；PixelPyros 等早期作品用 openFrameworks 制作。",
+   "why_zh": "他把整面建筑和城市天际线变成可以玩的光，交互简单到三十个陌生人可以同时上手。",
+   "based_zh": "布莱顿，英国",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "dpt",
+   "name": "Dpt.",
+   "role": "Montreal interactive studio for installations, AR and mixed-reality experiences",
+   "based": "Montreal, Canada",
+   "bio": "Montreal creative studio that started with openFrameworks projection-mapping experiments and now makes interactive installations, AR journeys and generative-AI prototypes for museums, festivals and brands.",
+   "why": "Their work keeps finding poetic physical triggers for digital behaviour: a swinging lamp, a magnifying glass, a crowd's phones.",
+   "links": {
+    "site": "https://dpt.co",
+    "vimeo": "https://vimeo.com/bonjourdpt"
+   },
+   "role_zh": "蒙特利尔互动工作室，做装置、AR 和混合现实体验",
+   "bio_zh": "蒙特利尔创意工作室，从 openFrameworks 投影映射实验起步，如今为博物馆、艺术节和品牌制作互动装置、AR 路线和生成式 AI 原型。",
+   "why_zh": "他们总能为数字行为找到有诗意的实体触发物：一盏摇晃的灯、一把放大镜、观众手里的手机。",
+   "based_zh": "蒙特利尔，加拿大",
+   "connected_to": [
+    "marshmallow-laser-feast",
+    "theo-watson",
+    "emily-gobeille"
+   ],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "kuflex",
+   "name": "Kuflex (Igor Tatarnikov & Denis Perevalov)",
+   "role": "Interactive media-art lab for projection rooms and body-tracking installations",
+   "based": "Berlin, Germany (founded in Moscow)",
+   "bio": "Lab of artist Igor Tatarnikov and programmer Denis Perevalov (author of books on openFrameworks) that builds depth-camera projection rooms, body-projection pieces and interactive walls, with tracking and rendering in openFrameworks.",
+   "why": "They make whole rooms react to the body, turning visitors into particles, mirrors and projected creatures.",
+   "links": {
+    "site": "https://kuflex.com",
+    "vimeo": "https://vimeo.com/kuflex",
+    "youtube": "https://www.youtube.com/@Kuflex"
+   },
+   "role_zh": "互动媒体艺术实验室，做投影空间和身体追踪装置",
+   "bio_zh": "由艺术家 Igor Tatarnikov 和程序员 Denis Perevalov（多本 openFrameworks 书籍的作者）组成的实验室，用深度相机做投影房间、身体投影和互动墙，追踪与渲染都基于 openFrameworks。",
+   "why_zh": "他们让整个房间对身体作出反应，把观众变成粒子、镜像和投影生物。",
+   "based_zh": "柏林，德国（创立于莫斯科）",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "michael-fluckiger",
+   "name": "Michael Flückiger",
+   "role": "Interaction designer and creative coder; lecturer at Bern University of the Arts",
+   "based": "Bern, Switzerland",
+   "bio": "Swiss interaction designer who builds playful hacks and installations with openFrameworks, from a bicycle that casts an animal shadow to a game where one player remote-controls another.",
+   "why": "He gets striking AR-like effects out of the cheapest means: a projector, a speedometer and a shadow.",
+   "links": {
+    "site": "https://www.michaelflueckiger.ch",
+    "vimeo": "https://vimeo.com/michif"
+   },
+   "role_zh": "交互设计师、创意编程者；伯尔尼艺术大学讲师",
+   "bio_zh": "瑞士交互设计师，用 openFrameworks 做好玩的改装和装置，从会投出动物影子的自行车，到一个玩家遥控另一个玩家的游戏。",
+   "why_zh": "他用最便宜的手段做出类似 AR 的惊艳效果：一台投影仪、一个码表和一道影子。",
+   "based_zh": "伯尔尼，瑞士",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "peter-uithoven",
+   "name": "Peter Uithoven",
+   "role": "Interaction designer; co-founder of Doodle3D",
+   "based": "Utrecht, Netherlands",
+   "bio": "Dutch interaction designer who, as a student at HKU, made the shadow-boxing game ShadowFighter with openFrameworks, and later co-founded Doodle3D with Rick Companje.",
+   "why": "ShadowFighter proves that a real shadow plus a projected layer of feedback is already a full mixed-reality game.",
+   "links": {
+    "vimeo": "https://vimeo.com/peteruithoven",
+    "github": "https://github.com/peteruithoven"
+   },
+   "role_zh": "交互设计师；Doodle3D 联合创始人",
+   "bio_zh": "荷兰交互设计师，在 HKU 读书时用 openFrameworks 做了影子格斗游戏 ShadowFighter，后来与 Rick Companje 共同创立 Doodle3D。",
+   "why_zh": "ShadowFighter 证明：真实的影子加一层投影反馈，本身就是一个完整的混合现实游戏。",
+   "based_zh": "乌得勒支，荷兰",
+   "connected_to": [
+    "rick-companje"
+   ],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "teehan-lax-labs",
+   "name": "Teehan+Lax Labs",
+   "role": "R&D lab of the Toronto design agency Teehan+Lax",
+   "based": "Toronto, Canada",
+   "bio": "The experimental arm of the digital agency Teehan+Lax (2010-2014), which published short openFrameworks and hardware prototypes about new interfaces, from touching distant screens through a phone to physical ASCII art.",
+   "why": "Their Touch Vision Interface was an early, clear demonstration of using a phone camera view as a remote control for real surfaces.",
+   "links": {
+    "vimeo": "https://vimeo.com/tllabs"
+   },
+   "role_zh": "多伦多设计公司 Teehan+Lax 的研发实验室",
+   "bio_zh": "数字设计公司 Teehan+Lax 的实验部门（2010–2014），发布过一系列用 openFrameworks 和硬件做的界面原型，从隔着手机触摸远处屏幕到实体 ASCII 艺术。",
+   "why_zh": "他们的 Touch Vision Interface 很早就清楚展示了：可以把手机取景画面当作遥控真实表面的界面。",
+   "based_zh": "多伦多，加拿大",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "beam-art",
+   "name": "Beam'Art (Benjamin Petit & Antoine Vanel)",
+   "role": "French visual-performance duo for interactive projection mapping",
+   "based": "Lyon, France",
+   "bio": "Duo of Benjamin Petit and Antoine Vanel who built their own openFrameworks and OpenNI tools for depth-camera projection: augmented dance floors on building façades and real-time mapping onto moving dancers.",
+   "why": "They were among the first to project live, body-tracked visuals back onto dancers and crowds with a Kinect.",
+   "links": {
+    "vimeo": "https://vimeo.com/beamart"
+   },
+   "role_zh": "法国视觉表演二人组，做互动投影映射",
+   "bio_zh": "Benjamin Petit 和 Antoine Vanel 组成的二人组，用 openFrameworks 和 OpenNI 自研深度相机投影工具：把“增强舞池”投到建筑立面上，并实时把画面映射到移动的舞者身上。",
+   "why_zh": "他们是最早用 Kinect 把实时追踪身体的影像投回舞者和人群身上的团队之一。",
+   "based_zh": "里昂，法国",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "gene-kogan",
+   "name": "Gene Kogan",
+   "role": "Artist and programmer; creator of ml4a and the Kinect Projector Toolkit",
+   "based": "New York, US and Berlin, Germany",
+   "bio": "Artist and educator working with machine learning and interactive projection; his openFrameworks Kinect Projector Toolkit aligns a projector with a depth camera, and his ml4a project teaches machine learning to artists.",
+   "why": "He opened body-aligned projection to many artists with a free toolkit, then turned neural style transfer into a live mirror.",
+   "links": {
+    "site": "https://genekogan.com",
+    "vimeo": "https://vimeo.com/genekogan",
+    "github": "https://github.com/genekogan"
+   },
+   "role_zh": "艺术家、程序员；ml4a 和 Kinect Projector Toolkit 的作者",
+   "bio_zh": "从事机器学习与互动投影的艺术家和教育者；他的 openFrameworks 工具 Kinect Projector Toolkit 能把投影仪和深度相机对齐，ml4a 项目则面向艺术家教授机器学习。",
+   "why_zh": "他用一个免费工具包让许多艺术家能做贴合身体的投影，又把神经风格迁移变成一面实时镜子。",
+   "based_zh": "纽约，美国；柏林，德国",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "jayson-haebich",
+   "name": "Jayson Haebich",
+   "role": "Light and laser artist",
+   "based": "Melbourne, Australia and Berlin, Germany",
+   "bio": "Artist who writes his own openFrameworks laser software to draw beams through haze and make them respond to people tracked by a depth camera.",
+   "why": "He treats laser beams as touchable objects in mid-air, a physical cousin of holographic AR interfaces.",
+   "links": {
+    "site": "https://jaysonh.com",
+    "vimeo": "https://vimeo.com/jaysonh"
+   },
+   "role_zh": "光与激光艺术家",
+   "bio_zh": "自己用 openFrameworks 编写激光控制软件的艺术家，让光束穿过烟雾显形，并对深度相机追踪到的人作出反应。",
+   "why_zh": "他把激光束当成空中可以触摸的物体，是全息 AR 界面在物理世界里的近亲。",
+   "based_zh": "墨尔本，澳大利亚；柏林，德国",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "local-projects",
+   "name": "Local Projects",
+   "role": "Experience design studio for museums and public spaces (founded by Jake Barton)",
+   "based": "New York, US",
+   "bio": "New York studio behind media installations for the 9/11 Memorial Museum, Cooper Hewitt and the Cleveland Museum of Art's Gallery One, many built with openFrameworks.",
+   "why": "Their Gallery One pieces made visitors use their own bodies to look closely at art.",
+   "links": {
+    "site": "https://localprojects.com",
+    "vimeo": "https://vimeo.com/localprojects"
+   },
+   "role_zh": "面向博物馆和公共空间的体验设计工作室（Jake Barton 创立）",
+   "bio_zh": "纽约工作室，为 9/11 纪念博物馆、Cooper Hewitt 和克利夫兰艺术博物馆 Gallery One 等做媒体装置，其中许多用 openFrameworks 制作。",
+   "why_zh": "他们在 Gallery One 的作品让观众用自己的身体去仔细观察艺术品。",
+   "based_zh": "纽约，美国",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "rick-companje",
+   "name": "Rick Companje",
+   "role": "Creative technologist; creator of Globe4D and co-founder of Doodle3D",
+   "based": "Utrecht, Netherlands",
+   "bio": "Dutch creative technologist who co-created Globe4D, a physical globe you turn by hand while projected data and time layers move with it, and later co-founded Doodle3D.",
+   "why": "Globe4D makes a projected sphere into a tangible interface where turning the object is the whole interaction.",
+   "links": {
+    "site": "https://globe4d.com",
+    "vimeo": "https://vimeo.com/companje",
+    "github": "https://github.com/companje"
+   },
+   "role_zh": "创意技术专家；Globe4D 作者、Doodle3D 联合创始人",
+   "bio_zh": "荷兰创意技术专家，共同开发了 Globe4D：一个用手转动的实体地球仪，投影的数据和时间层随之转动；后来共同创立 Doodle3D。",
+   "why_zh": "Globe4D 把投影球体变成实体界面，转动物体本身就是全部交互。",
+   "based_zh": "乌得勒支，荷兰",
+   "connected_to": [
+    "peter-uithoven"
+   ],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "red-paper-heart",
+   "name": "Red Paper Heart",
+   "role": "Brooklyn art and technology studio for interactive installations",
+   "based": "New York, US",
+   "bio": "Brooklyn studio that makes interactive installations with sensors, projection and light, often using openFrameworks, for museums and brands.",
+   "why": "They hide digital behaviour inside familiar domestic things: wallpaper, a pendant lamp, stained glass.",
+   "links": {
+    "site": "https://redpaperheart.com",
+    "vimeo": "https://vimeo.com/redpaperheart"
+   },
+   "role_zh": "布鲁克林艺术与技术工作室，做互动装置",
+   "bio_zh": "布鲁克林工作室，用传感器、投影和灯光为博物馆和品牌做互动装置，常用 openFrameworks。",
+   "why_zh": "他们把数字行为藏进熟悉的家居物件里：墙纸、吊灯、彩色玻璃窗。",
+   "based_zh": "纽约，美国",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "neil-mendoza",
+   "name": "Neil Mendoza",
+   "role": "Artist making robotic and interactive sculptures from everyday objects",
+   "based": "Los Angeles, US (formerly Bristol, UK)",
+   "bio": "Artist and openFrameworks developer who began with AR and big-screen pieces in Bristol (The Sancho Plan) and now builds humorous machines that watch, avoid or talk back to their viewers.",
+   "why": "His objects look back at you: screens that stare, a mirror that refuses your gaze.",
+   "links": {
+    "site": "https://www.neilmendoza.com",
+    "vimeo": "https://vimeo.com/neilmendoza",
+    "github": "https://github.com/neilmendoza"
+   },
+   "role_zh": "用日常物品做机械与互动雕塑的艺术家",
+   "bio_zh": "艺术家兼 openFrameworks 开发者，早年在布里斯托参与 The Sancho Plan 的 AR 和大屏作品，如今做会注视、躲避或回应观众的幽默机器。",
+   "why_zh": "他的物件会反过来看你：盯着你的屏幕、拒绝你目光的镜子。",
+   "based_zh": "洛杉矶，美国（曾在英国布里斯托）",
+   "connected_to": [
+    "chris-oshea"
+   ],
+   "discovered_via": "openframeworks-community"
+  },
+  {
+   "id": "luxloop",
+   "name": "Luxloop",
+   "role": "New York creative technology studio",
+   "based": "New York, US",
+   "bio": "New York studio that builds interactive installations and location-based audio experiences; its projection piece If The Walls Had Eyes was shown at Refest 2014.",
+   "why": "If The Walls Had Eyes turns online surveillance into a wall of eyes that physically follow you.",
+   "links": {
+    "vimeo": "https://vimeo.com/luxloop"
+   },
+   "role_zh": "纽约创意技术工作室",
+   "bio_zh": "纽约工作室，做互动装置和基于位置的音频体验；投影作品 If The Walls Had Eyes 曾在 Refest 2014 展出。",
+   "why_zh": "If The Walls Had Eyes 把网络监视变成一面真的会跟着你转的眼睛墙。",
+   "based_zh": "纽约，美国",
+   "connected_to": [],
+   "discovered_via": "openframeworks-community"
+  }
+ ],
+ "works": [
+  {
+   "id": "marco-tempest--augmented-reality-magic",
+   "creator_ids": [
+    "marco-tempest"
+   ],
+   "title": "Augmented Reality Magic 1.0",
+   "year": 2009,
+   "description": "Tempest lays real playing cards on a table in front of a camera; on the screen animated jokers climb out of the cards, comment on the trick and help him find the chosen card.",
+   "description_zh": "Tempest 把真实的扑克牌放在摄像头前的桌上；屏幕里，动画小丑从牌里爬出来，对魔术评头论足，还帮他找出观众选的牌。",
+   "idea_en": "Marker-based AR as a close-up magic trick: the cards themselves are the markers.",
+   "idea_zh": "把基于标记的 AR 做成近景魔术：扑克牌本身就是标记。",
+   "technique": "Each card face works as a fiducial marker tracked with ARToolKit inside an openFrameworks app written with Zach Lieberman and Theo Watson, and pre-animated characters are rendered on top of the live camera image.",
+   "technique_zh": "每张牌面都作为 ARToolKit 追踪的标记，运行在与 Zach Lieberman、Theo Watson 合作编写的 openFrameworks 程序里，预先做好的角色动画叠加在实时摄像画面上。",
+   "exercise_en": "Print five image markers as playing cards and build a phone AR trick in which a character appears on the card the audience picked. Twist: the character must lie once, and the performer has to catch it.",
+   "exercise_zh": "把五张图像标记打印成扑克牌，用手机 AR 做一个魔术：角色只出现在观众选中的那张牌上。变体：让角色撒一次谎，表演者要当场识破。",
+   "interaction": [
+    "tangible-object",
+    "performance-stage",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "openFrameworks",
+    "ARToolKit",
+    "OpenCV"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "4336830",
+    "url": "https://vimeo.com/4336830"
+   },
+   "source_url": "http://www.marcotempest.com"
+  },
+  {
+   "id": "marco-tempest--magic-projection-live",
+   "creator_ids": [
+    "marco-tempest"
+   ],
+   "title": "Magic Projection (live at TEDxTokyo)",
+   "year": 2010,
+   "description": "Tempest walks on stage holding a blank white board; a tracked projector keeps an animated stick man on the board as he moves it, and the character jumps, falls and interacts with Tempest's hands.",
+   "description_zh": "Tempest 手持一块空白白板上台；被追踪的投影始终把一个动画火柴人投在白板上，他移动白板时，火柴人会跳、会摔，还会和他的手互动。",
+   "idea_en": "A handheld blank board becomes a living screen because the projection follows it.",
+   "idea_zh": "投影跟着走，手里的空白板就成了一块活的屏幕。",
+   "technique": "The board is tracked in the camera image (likely with infrared markers or brightness tracking, built with Zach Lieberman in openFrameworks) and the projected animation is warped to its corners in real time.",
+   "technique_zh": "在摄像画面中追踪白板（很可能用红外标记或亮度追踪，与 Zach Lieberman 用 openFrameworks 开发），并实时把投影动画按白板四角变形贴合。",
+   "exercise_en": "Track a sheet of white cardboard with a webcam and keep a projected character on it while you move it around. Twist: when the board tilts past 45 degrees, the character slides off and lands on the floor projection.",
+   "exercise_zh": "用摄像头追踪一张白色卡纸，移动它时让投影角色始终留在纸上。变体：纸板倾斜超过 45 度时，角色滑下来落到地面投影上。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "OpenCV"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "11801074",
+    "url": "https://vimeo.com/11801074"
+   },
+   "source_url": "http://www.marcotempest.com"
+  },
+  {
+   "id": "marco-tempest--a-magical-tale",
+   "creator_ids": [
+    "marco-tempest"
+   ],
+   "title": "A magical tale (with augmented reality)",
+   "year": 2012,
+   "description": "On the TED stage Tempest tells a story about magic while a camera-projector rig augments what he holds: projected graphics land on cards and a small screen, and the live mixed image is shown to the audience.",
+   "description_zh": "在 TED 舞台上，Tempest 一边讲关于魔术的故事，一边用摄像头加投影的装置增强他手里的东西：图像落在纸牌和小屏幕上，混合后的实时画面同时投给观众。",
+   "idea_en": "Storytelling in which every AR effect is timed like a magic reveal.",
+   "idea_zh": "讲故事时，每个 AR 效果都像魔术揭晓那样精确卡点。",
+   "technique": "A head-mounted or tripod camera feeds an openFrameworks application that tracks the props and composites or projects synchronized graphics in real time; the exact rig is likely custom.",
+   "technique_zh": "头戴或三脚架上的摄像头把画面送入 openFrameworks 程序，程序追踪道具，并实时合成或投射同步图像；具体装置很可能是定制的。",
+   "exercise_en": "Write a 90-second story and stage it with three AR reveals on handheld objects, rehearsed so each effect lands on a spoken line. Twist: one reveal must happen in the audience's view but not in the performer's.",
+   "exercise_zh": "写一个 90 秒的小故事，在手持物上安排三个 AR 揭晓点，排练到每个效果都卡在台词上。变体：其中一个揭晓只有观众看得见，表演者自己看不见。",
+   "interaction": [
+    "performance-stage",
+    "tangible-object",
+    "projection"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "openFrameworks"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "39487725",
+    "url": "https://vimeo.com/39487725"
+   },
+   "source_url": "https://www.ted.com/talks/marco_tempest_a_magical_tale_with_augmented_reality"
+  },
+  {
+   "id": "marco-tempest--cyber-cards-live",
+   "creator_ids": [
+    "marco-tempest"
+   ],
+   "title": "Cyber Cards Live",
+   "year": 2013,
+   "description": "Four real cards lie on a table; with a wave of the hand their faces change, swap and vanish in the live HD camera image shown to the audience.",
+   "description_zh": "桌上放着四张真实的纸牌；手一挥，观众看到的高清实时画面里，牌面就会变换、互换或消失。",
+   "idea_en": "Hand gestures over real cards trigger virtual changes that look like sleight of hand.",
+   "idea_zh": "在真实纸牌上方做手势，触发看起来像手法魔术的虚拟变化。",
+   "technique": "Cards are recognized with SURF feature tracking and hand movement with motion-template gradients, and new card faces are composited onto the camera feed in openFrameworks.",
+   "technique_zh": "用 SURF 特征追踪识别纸牌，用运动模板梯度检测手部动作，再在 openFrameworks 中把新的牌面合成进摄像画面。",
+   "exercise_en": "Use image tracking on four cards and a simple hand-motion detector so a swipe over a card swaps its face in the phone view. Twist: the swap only happens if nobody in the frame is looking at the card.",
+   "exercise_zh": "对四张牌做图像追踪，再加一个简单的手部运动检测，手在牌上一扫，手机画面里的牌面就被换掉。变体：只有当画面里没人盯着那张牌时才会换。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "performance-stage"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "openFrameworks",
+    "OpenCV"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "63112943",
+    "url": "https://vimeo.com/63112943"
+   }
+  },
+  {
+   "id": "marco-tempest--nikola-tesla-in-sound-and-light",
+   "creator_ids": [
+    "marco-tempest"
+   ],
+   "title": "Nikola Tesla in Sound and Light",
+   "year": 2012,
+   "description": "Tempest tells the story of Nikola Tesla on a tabletop stage of pop-up paper structures; projection mapping lights up the paper, animates Tesla's inventions and syncs with sound and the performer's actions.",
+   "description_zh": "Tempest 在一个由立体纸雕搭成的桌面舞台上讲述 Nikola Tesla 的故事；投影映射点亮纸雕，让 Tesla 的发明动起来，并与声音和表演者的动作同步。",
+   "idea_en": "A pop-up book becomes a projection-mapped stage for a live magic story.",
+   "idea_zh": "把立体书变成投影映射的舞台，演一场现场魔术故事。",
+   "technique": "White pop-up paper sculptures are mapped with pre-calibrated projection from an openFrameworks show system, with Arduino-triggered cues keeping the projection in step with the performance.",
+   "technique_zh": "由 openFrameworks 演出系统对白色立体纸雕做预先校准的投影映射，并用 Arduino 触发的提示让投影与表演同步。",
+   "exercise_en": "Build a small pop-up scene from white paper and projection-map three animated states onto it with a phone projector or cheap projector. Twist: opening or closing a paper flap must switch the scene.",
+   "exercise_zh": "用白纸做一个小立体场景，用手机投影或廉价投影仪给它映射三种动画状态。变体：打开或合上某个纸片时，场景随之切换。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Arduino"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "42402467",
+    "url": "https://vimeo.com/42402467"
+   }
+  },
+  {
+   "id": "seb-lee-delisle--pixelpyros",
+   "creator_ids": [
+    "seb-lee-delisle"
+   ],
+   "title": "PixelPyros",
+   "year": 2012,
+   "description": "A 20-metre projected fireworks display where the audience launches every rocket by waving a hand over sensors along the bottom of the screen; up to thirty people play at once.",
+   "description_zh": "一场 20 米宽的投影烟花秀，每一枚烟花都由观众在屏幕底部的传感器上挥手发射；最多三十人同时参与。",
+   "idea_en": "Wave your hand and a firework launches from that spot; the crowd choreographs the show.",
+   "idea_zh": "在哪里挥手，哪里就升起一枚烟花；整场烟花由人群编排。",
+   "technique": "Motion sensing along the base of the screen (likely camera-based in the original openFrameworks version) maps each hand position to a launch point, and particle fireworks are projected with high-power projectors and lasers.",
+   "technique_zh": "屏幕底部的动作感应（最初的 openFrameworks 版本很可能用摄像头）把每只手的位置对应到一个发射点，粒子烟花由大功率投影仪和激光投出。",
+   "exercise_en": "Project a row of launch pads on a wall and use a webcam to detect hands passing over them; each detection fires a particle firework. Twist: fireworks launched within one second of each other combine into a bigger one.",
+   "exercise_zh": "在墙上投一排发射台，用摄像头检测手掠过，每次检测发射一枚粒子烟花。变体：一秒内相继发射的烟花会合并成更大的一朵。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "61174060",
+    "url": "https://vimeo.com/61174060"
+   },
+   "source_url": "https://seb.ly/work/pixelpyros/"
+  },
+  {
+   "id": "seb-lee-delisle--lunar-trails",
+   "creator_ids": [
+    "seb-lee-delisle"
+   ],
+   "title": "Lunar Trails",
+   "year": 2012,
+   "description": "Visitors play the 1979 arcade game Lunar Lander on a real cabinet, and a large hanging drawing robot plots each player's flight path onto the gallery wall, building up a collective drawing.",
+   "description_zh": "观众在真实的街机上玩 1979 年的游戏 Lunar Lander，一台悬挂在墙上的大型绘图机器人把每位玩家的飞行轨迹画到展墙上，逐渐叠成一幅集体作品。",
+   "idea_en": "Your path through a screen game is drawn out physically on the wall.",
+   "idea_zh": "你在屏幕游戏里的飞行路径被实体地画在墙上。",
+   "technique": "The game's lander position is read in software and sent as coordinates to a polargraph-style hanging plotter that draws the trajectories in pen.",
+   "technique_zh": "软件读取游戏中着陆器的位置，把坐标发给一台悬挂式绘图仪，用笔画出轨迹。",
+   "exercise_en": "Record the path of a player in a simple phone game and replay it as a drawing on paper with a pen plotter, or as a persistent AR trail in the room. Twist: overlay the trails of everyone in the class and see where they all crash.",
+   "exercise_zh": "记录玩家在一个简单手机游戏里的路径，用绘图仪画在纸上，或者作为留在房间里的 AR 轨迹。变体：把全班的轨迹叠在一起，看大家都在哪里坠毁。",
+   "interaction": [
+    "game-play",
+    "drawing-creation",
+    "data-information"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "drawing robot"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "54043239",
+    "url": "https://vimeo.com/54043239"
+   },
+   "source_url": "https://seb.ly/work/lunar-trails/"
+  },
+  {
+   "id": "seb-lee-delisle--laser-light-synths",
+   "creator_ids": [
+    "seb-lee-delisle"
+   ],
+   "title": "Laser Light Synths",
+   "year": 2016,
+   "description": "Visitors play large illuminated touch synthesizers; every note triggers laser graphics that sweep across the building and surround the players with beams.",
+   "description_zh": "观众弹奏发光的大型触摸合成器；每个音符都会触发激光图形扫过建筑，把演奏者包围在光束之中。",
+   "idea_en": "Anyone can play music, and every note becomes light that fills the space.",
+   "idea_zh": "谁都能演奏，每个音符都化成充满空间的光。",
+   "technique": "Custom touch-sensitive synths are locked to a musical scale so there are no wrong notes, and their input drives laser animations through laser-show software written by the artist.",
+   "technique_zh": "定制的触摸合成器锁定在一个音阶上，不会弹错音，输入信号驱动艺术家自己编写的激光秀软件生成激光动画。",
+   "exercise_en": "Make a four-key instrument (touch pads or phone buttons) in a pentatonic scale, where each note sends a coloured beam or shape across a projected wall. Twist: two players must play the same note together to unlock a big effect.",
+   "exercise_zh": "做一个四键乐器（触摸板或手机按键），用五声音阶，每个音符在投影墙上发出一道彩色光束或图形。变体：两位演奏者必须同时弹同一个音，才能触发一个大效果。",
+   "interaction": [
+    "voice-sound",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "lasers",
+    "custom synthesizers"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "314844029",
+    "url": "https://vimeo.com/314844029"
+   },
+   "source_url": "https://seb.ly/work/laser-light-synths/"
+  },
+  {
+   "id": "seb-lee-delisle--lightning-catchers",
+   "creator_ids": [
+    "seb-lee-delisle"
+   ],
+   "title": "Lightning Catchers",
+   "year": 2018,
+   "description": "Laser lightning bolts strike down onto a courtyard, and players run with glowing LED sticks to catch them before they hit the ground.",
+   "description_zh": "激光闪电劈向广场，玩家举着发光的 LED 光棒奔跑，在闪电落地前把它接住。",
+   "idea_en": "Catch virtual lightning with a real glowing stick.",
+   "idea_zh": "用一根真实的发光棒去接虚拟的闪电。",
+   "technique": "A camera likely tracks the bright LED sticks and the software aims laser-drawn bolts, detecting a catch when a stick's position meets a bolt's end point.",
+   "technique_zh": "摄像头很可能追踪明亮的 LED 光棒，软件控制激光画出闪电，当光棒位置碰到闪电末端时判定为接住。",
+   "exercise_en": "Track a phone flashlight or LED with a webcam and project falling objects that players must catch with the light. Twist: each catch makes the next object fall somewhere else in the room.",
+   "exercise_zh": "用摄像头追踪手机闪光灯或 LED，投影下落的物体，玩家要用光去接住。变体：每接住一个，下一个就落到房间的另一处。",
+   "interaction": [
+    "game-play",
+    "tangible-object",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "lasers",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "264245459",
+    "url": "https://vimeo.com/264245459"
+   }
+  },
+  {
+   "id": "seb-lee-delisle--laser-duck-hunt",
+   "creator_ids": [
+    "seb-lee-delisle"
+   ],
+   "title": "Laser Duck Hunt",
+   "year": 2018,
+   "description": "The NES game Duck Hunt is redrawn in laser light on a wall, and players shoot the ducks with a hacked Zapper gun that puffs smoke when fired.",
+   "description_zh": "把任天堂红白机游戏 Duck Hunt 用激光重新画在墙上，玩家用改装过的 Zapper 光枪射鸭子，开枪时还会喷出烟雾。",
+   "idea_en": "A screen game escapes onto the wall as laser light, played with its original toy gun.",
+   "idea_zh": "屏幕游戏以激光的形式跑到墙上，用原版玩具枪来玩。",
+   "technique": "The hacked Zapper's aim is likely tracked with a camera or photo sensor, and the game is rendered as vector laser graphics through a laser DAC.",
+   "technique_zh": "改装 Zapper 的瞄准很可能用摄像头或光电传感器追踪，游戏以矢量激光图形通过激光 DAC 输出。",
+   "exercise_en": "Pick a classic screen game and rebuild one level as a projected wall game played with a physical prop tracked by a webcam or phone. Twist: the prop must also produce a real-world effect (sound, air, light) when used.",
+   "exercise_zh": "选一个经典屏幕游戏，把其中一关改成投在墙上的游戏，用摄像头或手机追踪的实体道具来玩。变体：道具使用时必须同时产生一个真实效果（声音、风或光）。",
+   "interaction": [
+    "game-play",
+    "tangible-object",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "lasers"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "263303651",
+    "url": "https://vimeo.com/263303651"
+   }
+  },
+  {
+   "id": "seb-lee-delisle--laser-light-city",
+   "creator_ids": [
+    "seb-lee-delisle"
+   ],
+   "title": "Laser Light City",
+   "year": 2020,
+   "description": "During the Covid lockdowns, powerful lasers on a rooftop draw patterns across Brighton's sky and buildings, and people at home can take control of the beams from their phones.",
+   "description_zh": "疫情封城期间，屋顶上的大功率激光在布莱顿的天空和建筑上绘出图案，居民可以在家用手机接管这些光束。",
+   "idea_en": "Control lasers over your city from your window, together with neighbours you cannot meet.",
+   "idea_zh": "隔着窗户和见不到面的邻居一起，用手机操控城市上空的激光。",
+   "technique": "A web interface sends each participant's input to the laser-show server, which turns it into beam positions and colours for the rooftop lasers.",
+   "technique_zh": "网页界面把每位参与者的输入发送到激光秀服务器，再转换成屋顶激光的光束位置和颜色。",
+   "exercise_en": "Build a web page that lets classmates move a shape on a shared projected wall from their own phones. Twist: the shape only moves when at least three people push in the same direction.",
+   "exercise_zh": "做一个网页，让同学用自己的手机移动共享投影墙上的一个图形。变体：至少三个人朝同一方向推时，图形才会移动。",
+   "interaction": [
+    "location-geo",
+    "multiplayer-social",
+    "projection"
+   ],
+   "platform": [
+    "projection",
+    "web"
+   ],
+   "tech": [
+    "lasers",
+    "web"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "466618882",
+    "url": "https://vimeo.com/466618882"
+   },
+   "source_url": "https://laserlight.city"
+  },
+  {
+   "id": "dpt--parade",
+   "creator_ids": [
+    "dpt"
+   ],
+   "title": "Parade",
+   "year": 2014,
+   "description": "Inside a wooden cube a work lamp hangs over two slumped porcelain vases; when a visitor pushes the lamp, the vases' shadows on the wall come alive and dance in rhythm with the swinging light.",
+   "description_zh": "木箱里挂着一盏工作灯，灯下是两只瘫软的瓷瓶；观众一推灯，墙上瓷瓶的影子就活了过来，随着摇晃的灯光跳舞。",
+   "idea_en": "Push the lamp and the shadows start to dance.",
+   "idea_zh": "推一下灯，影子就开始跳舞。",
+   "technique": "The lamp's swing is motion-tracked, and projected shadow animations are rendered in real-time 3D so they match the position of the real light source (with ceramicist Laurent Craste).",
+   "technique_zh": "对灯的摆动做动作追踪，实时 3D 渲染投影出的影子动画，让它和真实光源的位置一致（与陶艺家 Laurent Craste 合作）。",
+   "exercise_en": "Place a real object under a lamp, track the lamp with a phone or webcam, and project a fake shadow that follows the light but moves on its own. Twist: the shadow reacts differently when the lamp swings fast.",
+   "exercise_zh": "在灯下放一个真实物体，用手机或摄像头追踪灯的位置，投出一道跟随光源、却会自己动的假影子。变体：灯摆得快时，影子的反应完全不同。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "motion tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "96615251",
+    "url": "https://vimeo.com/96615251"
+   },
+   "source_url": "https://dpt.co/en/projects/parade/"
+  },
+  {
+   "id": "dpt--when-the-crowd-becomes-circus",
+   "creator_ids": [
+    "dpt"
+   ],
+   "title": "When the Crowd Becomes Circus",
+   "year": 2017,
+   "description": "A festival app lets the audience influence a live circus show by shaking, tapping or shouting into their phones, and its AR mode places tiny circus performers on the street.",
+   "description_zh": "一款艺术节应用让观众通过摇手机、点屏幕或对着麦克风喊叫来影响现场马戏表演；它的 AR 模式还把迷你马戏演员放到街道上。",
+   "idea_en": "The crowd's phones become both a remote control for the show and a window onto a miniature street circus.",
+   "idea_zh": "观众的手机既是演出的遥控器，也是看见街头迷你马戏的窗口。",
+   "technique": "A real-time server collects phone sensor input from the crowd and can push cues back to the phones' screens, speakers and flash, while an ARKit/ARCore-style mode anchors animated performers on the ground.",
+   "technique_zh": "实时服务器收集观众手机的传感器输入，也能反向控制手机的屏幕、扬声器和闪光灯；AR 模式（类似 ARKit/ARCore）把动画演员锚定在地面上。",
+   "exercise_en": "Make a web app that turns classmates' phone shakes into a shared meter that changes a projected performer's action. Twist: at the end, the projection takes over everyone's phone flashlights for a finale.",
+   "exercise_zh": "做一个网页应用，把同学们摇手机的数据汇成一个共享数值，用来改变投影中表演者的动作。变体：结尾时由投影系统接管所有人的手机闪光灯来收场。",
+   "interaction": [
+    "multiplayer-social",
+    "performance-stage",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "ARCore",
+    "WebSockets"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "231449288",
+    "url": "https://vimeo.com/231449288"
+   },
+   "source_url": "https://dpt.co/en/projects/when-the-crowd-becomes-circus/"
+  },
+  {
+   "id": "dpt--human-scales",
+   "creator_ids": [
+    "dpt"
+   ],
+   "title": "Human Scales (Échelles Humaines)",
+   "year": 2021,
+   "description": "An AR walk through Montreal neighbourhoods where monumental virtual statues of local unsung heroes stand in parks and streets, each with a podcast telling their story.",
+   "description_zh": "一条穿行蒙特利尔街区的 AR 路线：公园和街道上矗立着为本地无名英雄塑造的巨型虚拟雕像，每座雕像都配有讲述其故事的播客。",
+   "idea_en": "Put giant statues of ordinary neighbours in public space, where only monuments to famous people usually stand.",
+   "idea_zh": "把普通邻居的巨型雕像放进公共空间，那里通常只有名人才能被立像。",
+   "technique": "People were 3D-scanned, turned into stylized sculptures and anchored at geolocated sites in a mobile AR app with accompanying audio.",
+   "technique_zh": "对真人做 3D 扫描，转成风格化雕塑，放进移动 AR 应用中锚定在地理位置上，并配上音频。",
+   "exercise_en": "3D-scan a classmate with a phone and place a giant version of them at a campus spot in AR, with a 30-second recorded story. Twist: the statue's pose must be chosen by the person it honours.",
+   "exercise_zh": "用手机 3D 扫描一位同学，把巨大的他/她以 AR 形式放在校园某处，并配一段 30 秒的录音故事。变体：雕像的姿势必须由被纪念的人自己决定。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "photogrammetry",
+    "mobile AR"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "653004912",
+    "url": "https://vimeo.com/653004912"
+   },
+   "source_url": "https://dpt.co/en/projects/human-scales/"
+  },
+  {
+   "id": "dpt--ar-with-a-magnifying-glass",
+   "creator_ids": [
+    "dpt"
+   ],
+   "title": "AR with a magnifying glass",
+   "year": 2024,
+   "description": "A real magnifying glass is moved over a table of drawings and objects; only the area inside the lens is transformed on screen by generative AI into detailed landscapes and hidden worlds.",
+   "description_zh": "一把真实的放大镜在摆满画和物件的桌面上移动；屏幕上只有镜片里的区域被生成式 AI 变成细致的风景和隐藏的世界。",
+   "idea_en": "A magnifying glass that reveals imaginary worlds inside ordinary things.",
+   "idea_zh": "一把能在普通物件里看见想象世界的放大镜。",
+   "technique": "The lens is tracked in real time and only its crop of the camera image is fed to a real-time diffusion model (StreamDiffusion-style), whose output is composited back inside the lens outline.",
+   "technique_zh": "实时追踪放大镜，只把镜片范围内的摄像画面送入实时扩散模型（类似 StreamDiffusion），生成结果再合成回镜片轮廓内。",
+   "exercise_en": "Track a cardboard ring with a webcam and apply a strong filter or AI style only inside the ring. Twist: what appears inside depends on the colour of the object under it.",
+   "exercise_zh": "用摄像头追踪一个纸板圆环，只在圆环内部施加强烈滤镜或 AI 风格。变体：圆环里出现什么，取决于下面物体的颜色。",
+   "interaction": [
+    "tangible-object",
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "StreamDiffusion",
+    "computer vision"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "973282394",
+    "url": "https://vimeo.com/973282394"
+   }
+  },
+  {
+   "id": "dpt--reflexions",
+   "creator_ids": [
+    "dpt"
+   ],
+   "title": "Réflexions",
+   "year": 2013,
+   "description": "A digital mirror shows each visitor as a digital twin that reacts to how they move and how loudly they speak, never reproducing them faithfully.",
+   "description_zh": "一面数字镜子把每位观众显示成一个数字分身，它会对观众的动作和说话音量作出反应，却从不忠实地复制他们。",
+   "idea_en": "A mirror that listens and deliberately gets you wrong.",
+   "idea_zh": "一面会听你说话、却故意把你照错的镜子。",
+   "technique": "A camera and microphone feed body silhouette and sound level into generative graphics, likely built with openFrameworks.",
+   "technique_zh": "摄像头和麦克风把身体轮廓和音量输入生成式图形，很可能用 openFrameworks 制作。",
+   "exercise_en": "Build a webcam mirror in p5.js or Lens Studio where your outline is drawn with particles whose size follows your voice volume. Twist: when you are silent, the mirror image slowly walks away.",
+   "exercise_zh": "用 p5.js 或 Lens Studio 做一面摄像头镜子，用粒子画出你的轮廓，粒子大小随声音音量变化。变体：你不说话时，镜中的你会慢慢走开。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "openFrameworks"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "83617391",
+    "url": "https://vimeo.com/83617391"
+   }
+  },
+  {
+   "id": "dpt--kinetic-projection-mapping",
+   "creator_ids": [
+    "dpt"
+   ],
+   "title": "Kinetic projection mapping",
+   "year": 2013,
+   "description": "Graphics are projected onto a rotating icosahedron and stay locked to its faces as it spins.",
+   "description_zh": "图像投射在一个旋转的二十面体上，随着它转动始终贴合各个面。",
+   "idea_en": "Projection mapping that stays glued to a moving object.",
+   "idea_zh": "紧紧贴在运动物体上的投影映射。",
+   "technique": "The object's rotation angle is known in software, and a modified version of Kyle McDonald's openFrameworks tool mapamok re-renders the 3D model from the projector's calibrated viewpoint every frame.",
+   "technique_zh": "软件知道物体的旋转角度，用改造过的 Kyle McDonald 的 openFrameworks 工具 mapamok，每帧从校准后的投影仪视角重新渲染 3D 模型。",
+   "exercise_en": "Put a white box on a lazy Susan, measure its rotation with a phone gyroscope, and keep a projected pattern on each face as it turns. Twist: let each face show a different character who looks at the viewer.",
+   "exercise_zh": "把一个白盒子放在转盘上，用手机陀螺仪测量旋转角度，让每个面上的投影图案随之转动。变体：每个面上放一个不同的角色，始终看向观众。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "mapamok"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "83618926",
+    "url": "https://vimeo.com/83618926"
+   }
+  },
+  {
+   "id": "kuflex--quantum-space",
+   "creator_ids": [
+    "kuflex"
+   ],
+   "title": "Quantum Space",
+   "year": 2015,
+   "description": "A room whose walls are fully covered with interactive projection: as visitors move, their bodies dissolve into streams of light particles across all the walls.",
+   "description_zh": "一个四壁布满互动投影的房间：观众一动，身体就化作光粒子流，蔓延到所有墙面。",
+   "idea_en": "Walk into a room and your body dissolves into quanta of light.",
+   "idea_zh": "走进房间，你的身体就分解成一粒粒光。",
+   "technique": "Six depth cameras and six projectors driven by three computers track everyone in the room; tracking and rendering modules are written in openFrameworks, with Max for automation.",
+   "technique_zh": "三台电脑驱动六台深度相机和六台投影仪，追踪房间里所有人；追踪与渲染模块用 openFrameworks 编写，自动化控制用 Max。",
+   "exercise_en": "Project a particle system on one wall and emit particles from a webcam silhouette of whoever stands in front of it. Twist: particles from two people who touch hands change colour.",
+   "exercise_zh": "在一面墙上投一个粒子系统，粒子从站在前面的人的摄像头轮廓中发射。变体：两个人牵手时，他们的粒子会变色。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "depth camera",
+    "Max"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "120944206",
+    "url": "https://vimeo.com/120944206"
+   },
+   "source_url": "https://kuflex.com/gallery/93863537/Quantum-Space"
+  },
+  {
+   "id": "kuflex--symbiosis",
+   "creator_ids": [
+    "kuflex"
+   ],
+   "title": "Symbiosis",
+   "year": 2017,
+   "description": "A person stands in front of a dark wall and a projected creature grows around and over their body, with wings, antennae and patterns extending from their silhouette as they move.",
+   "description_zh": "一个人站在黑色墙前，投影的生物在其身体周围和身上生长，翅膀、触角和花纹随着动作从轮廓中延伸出来。",
+   "idea_en": "Your body becomes the core of a projected creature.",
+   "idea_zh": "你的身体成了一只投影生物的躯干。",
+   "technique": "A depth camera captures the visitor's silhouette and pose, and generative graphics are projected back aligned to the body, likely with openFrameworks.",
+   "technique_zh": "深度相机捕捉观众的轮廓和姿态，生成式图形对齐身体投射回去，很可能用 openFrameworks 制作。",
+   "exercise_en": "Use body tracking (webcam pose estimation or Lens Studio) to attach generated wings and horns to a person and project them back at life size. Twist: the creature's shape depends on how still the person stands.",
+   "exercise_zh": "用身体追踪（摄像头姿态估计或 Lens Studio）给人加上生成的翅膀和角，再按真人大小投射回去。变体：生物的形态取决于这个人站得有多稳。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "depth camera"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "226068670",
+    "url": "https://vimeo.com/226068670"
+   }
+  },
+  {
+   "id": "kuflex--portal",
+   "creator_ids": [
+    "kuflex"
+   ],
+   "title": "Portal",
+   "year": 2017,
+   "description": "A visitor stands in a mirrored room while kaleidoscopic projections react to their movement, multiplying their body into an endless symmetric pattern.",
+   "description_zh": "观众站在镜面房间里，万花筒式投影随动作变化，把身体复制成无尽的对称图案。",
+   "idea_en": "Step inside a kaleidoscope and become its pattern.",
+   "idea_zh": "走进万花筒，自己成为其中的图案。",
+   "technique": "Movement is likely tracked with a depth camera and drives symmetric generative projection, multiplied optically by mirrors on the walls and floor.",
+   "technique_zh": "很可能用深度相机追踪动作，驱动对称的生成式投影，再由墙面和地面的镜子光学地复制。",
+   "exercise_en": "Tape two mirrors at 60 degrees, point a phone camera into them and make an app that paints your movement into the reflected pattern. Twist: the pattern freezes whenever you stop moving.",
+   "exercise_zh": "把两面镜子以 60 度角粘好，手机摄像头对准其中，做一个把你的动作画进反射图案的应用。变体：你一停止动作，图案就冻结。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "portal-world"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "depth camera",
+    "mirrors"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "246672516",
+    "url": "https://vimeo.com/246672516"
+   }
+  },
+  {
+   "id": "kuflex--eyemote",
+   "creator_ids": [
+    "kuflex"
+   ],
+   "title": "Eyemote",
+   "year": 2017,
+   "description": "A visitor sits at a stand with household devices and switches on a lamp, a TV or a kettle just by looking at it, with projected animation and sound confirming each action.",
+   "description_zh": "观众坐在摆着家用电器的展台前，只要看一眼，就能打开台灯、电视或水壶，投影动画和声音会确认每个操作。",
+   "idea_en": "Turn things on with a glance.",
+   "idea_zh": "看一眼就能打开东西。",
+   "technique": "An affordable Tobii EyeX eye tracker is calibrated to the user, and gaze dwell on each device's region triggers relays and projected feedback.",
+   "technique_zh": "用平价的 Tobii EyeX 眼动仪为用户校准，视线在某个设备区域停留足够久时，就触发继电器和投影反馈。",
+   "exercise_en": "Use head direction in AR (or a webcam gaze estimate) to switch a real LED or a virtual object on when you look at it for two seconds. Twist: looking away turns it off, so two people must cooperate to keep everything on.",
+   "exercise_zh": "用 AR 中的头部朝向（或摄像头视线估计），注视两秒就打开一盏真实 LED 或一个虚拟物体。变体：一移开视线就关掉，所以要两个人合作才能让所有东西保持亮着。",
+   "interaction": [
+    "gaze-attention",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop",
+    "projection"
+   ],
+   "tech": [
+    "Tobii EyeX",
+    "Arduino"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "245804445",
+    "url": "https://vimeo.com/245804445"
+   }
+  },
+  {
+   "id": "michael-fluckiger--elephant-walk",
+   "creator_ids": [
+    "michael-fluckiger"
+   ],
+   "title": "Elephant Walk",
+   "year": 2015,
+   "description": "At night a bicycle rides through the city and casts the shadow of a walking elephant on the walls beside it; the faster the bike goes, the faster the elephant walks.",
+   "description_zh": "夜里，一辆自行车穿过城市，在旁边的墙上投下一头行走大象的影子；车骑得越快，大象走得越快。",
+   "idea_en": "Your bike casts the shadow of an elephant.",
+   "idea_zh": "你的自行车投下的是一头大象的影子。",
+   "technique": "A projector and car battery on the bike show a looped elephant animation driven by speedometer data, played by an openFrameworks app on an iPad mini.",
+   "technique_zh": "车上装着投影仪和汽车电池，iPad mini 上的 openFrameworks 程序根据码表数据播放循环的大象动画。",
+   "exercise_en": "Mount a phone projector or phone screen on a moving object (bike, trolley, skateboard) and play a walk-cycle animation whose speed follows the phone's accelerometer. Twist: when the object stops, the creature sits down.",
+   "exercise_zh": "把手机投影仪或手机屏幕装在移动的物体（自行车、推车、滑板）上，播放一段行走循环动画，速度跟随手机加速度计。变体：物体停下时，这只生物就坐下来。",
+   "interaction": [
+    "projection",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "wearable"
+   ],
+   "tech": [
+    "openFrameworks",
+    "iPad"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "142179343",
+    "url": "https://vimeo.com/142179343"
+   },
+   "source_url": "https://www.michaelflueckiger.ch"
+  },
+  {
+   "id": "michael-fluckiger--real-life-arcade-game",
+   "creator_ids": [
+    "michael-fluckiger"
+   ],
+   "title": "Real Life Arcade Game",
+   "year": 2017,
+   "description": "One player holds a game controller in front of a screen; every button press is sent as a spoken order to a second player in another room, whose tracked movements move the on-screen figure.",
+   "description_zh": "一位玩家拿着手柄站在屏幕前；每按一个键，指令就以语音传给另一个房间里的第二位玩家，他被追踪的动作再驱动屏幕上的小人。",
+   "idea_en": "A video game whose character is a real person following your button presses.",
+   "idea_zh": "一个游戏角色是真人的电子游戏：真人按你的按键去行动。",
+   "technique": "An openFrameworks game converts controller input into audio instructions and moves the avatar from Pozyx ultra-wideband position tracking of the second player.",
+   "technique_zh": "openFrameworks 游戏把手柄输入转成语音指令，并用 Pozyx 超宽带定位追踪第二位玩家，驱动屏幕上的角色。",
+   "exercise_en": "Pair students: one sends commands from a phone, the other hears them in headphones and walks, while a webcam turns the walker's position into a game character. Twist: add a delay so the controller must plan ahead.",
+   "exercise_zh": "两人一组：一人用手机发指令，另一人戴耳机听指令行走，摄像头把行走者的位置变成游戏角色。变体：加入延迟，逼控制者提前规划。",
+   "interaction": [
+    "game-play",
+    "hand-body",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Pozyx",
+    "Arduino"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "199587998",
+    "url": "https://vimeo.com/199587998"
+   }
+  },
+  {
+   "id": "peter-uithoven--shadowfighter",
+   "creator_ids": [
+    "peter-uithoven"
+   ],
+   "title": "ShadowFighter",
+   "year": 2010,
+   "description": "Two players stand side by side in front of a white wall lit by two lamps and box in the air; their real shadows hit each other on the wall, and projected comic-book 'BANG!' effects and sounds score the fight.",
+   "description_zh": "两位玩家并排站在被两盏灯照亮的白墙前，对着空气出拳；墙上真实的影子互相击打，投影的漫画式“BANG!”特效和音效为比赛计分。",
+   "idea_en": "Your shadow fights your opponent's shadow.",
+   "idea_zh": "你的影子和对手的影子打一架。",
+   "technique": "A camera detects when the two shadows overlap on the wall, and an openFrameworks app projects hit effects and plays sounds; the game starts automatically when two players step in.",
+   "technique_zh": "摄像头检测墙上两道影子何时重叠，openFrameworks 程序投射击中特效并播放音效；两位玩家站定后游戏自动开始。",
+   "exercise_en": "Light a wall with two desk lamps, detect shadow overlap with a webcam, and project a score and hit effects. Twist: make the shadows grow when a player gets hit.",
+   "exercise_zh": "用两盏台灯照亮一面墙，用摄像头检测影子重叠，并投射比分和击中特效。变体：被击中的玩家影子会变大。",
+   "interaction": [
+    "hand-body",
+    "game-play",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "OpenCV"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "12486954",
+    "url": "https://vimeo.com/12486954"
+   }
+  },
+  {
+   "id": "teehan-lax-labs--touch-vision-interface",
+   "creator_ids": [
+    "teehan-lax-labs"
+   ],
+   "title": "Touch Vision Interface",
+   "year": 2011,
+   "description": "A user points a phone camera at a distant screen or projection and draws or drags on the phone's live camera view; the change appears on the real surface as if touched directly.",
+   "description_zh": "用户把手机摄像头对准远处的屏幕或投影，在手机的实时取景画面上绘画或拖动；变化出现在真实表面上，就像直接摸到了它。",
+   "idea_en": "Touch a far-away screen through your phone's camera view.",
+   "idea_zh": "透过手机取景画面去触摸远处的屏幕。",
+   "technique": "The phone image is matched to the target display, and touch coordinates are transformed through that homography and sent over the network to the openFrameworks app running the screen.",
+   "technique_zh": "把手机画面与目标屏幕做匹配，触摸坐标经过单应性变换后，通过网络发送给驱动该屏幕的 openFrameworks 程序。",
+   "exercise_en": "Use image tracking on a projected wall so that tapping it in a phone AR view places a sticker at the same spot on the real wall. Twist: several phones draw on the same wall at once.",
+   "exercise_zh": "对投影墙做图像追踪，在手机 AR 画面中点一下，真实墙面同一位置就出现一张贴纸。变体：几部手机同时在同一面墙上画。",
+   "interaction": [
+    "data-information",
+    "multiplayer-social",
+    "projection"
+   ],
+   "platform": [
+    "phone",
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "iOS"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "28792538",
+    "url": "https://vimeo.com/28792538"
+   },
+   "source_url": "http://www.teehanlax.com/labs/tvi/"
+  },
+  {
+   "id": "teehan-lax-labs--digit",
+   "creator_ids": [
+    "teehan-lax-labs"
+   ],
+   "title": "D.I.G.I.T.",
+   "year": 2013,
+   "description": "A wall of hundreds of seven-segment displays acts as a mirror: the camera image of the person in front is drawn with digital number segments.",
+   "description_zh": "一面由数百个七段数码管组成的墙像镜子一样工作：用数码管的笔画画出站在前面的人的摄像画面。",
+   "idea_en": "A mirror made of calculator digits.",
+   "idea_zh": "一面由计算器数字组成的镜子。",
+   "technique": "The camera feed is downsampled and each cell's brightness pattern is matched to the closest seven-segment character, then sent to driver boards.",
+   "technique_zh": "对摄像画面降采样，把每个格子的亮度图案匹配到最接近的七段字符，再发送给驱动板。",
+   "exercise_en": "Make a webcam mirror that redraws the image with only characters from a limited set (digits, emoji or letters of your name). Twist: the set of allowed characters changes with the time of day.",
+   "exercise_zh": "做一面摄像头镜子，只用有限的字符集合（数字、表情符号或你名字里的字母）重绘画面。变体：可用字符随一天中的时间变化。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "seven-segment displays",
+    "camera"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "79332227",
+    "url": "https://vimeo.com/79332227"
+   },
+   "source_url": "http://labs.teehanlax.com/project/digit"
+  },
+  {
+   "id": "teehan-lax-labs--painting-with-a-digital-brush",
+   "creator_ids": [
+    "teehan-lax-labs"
+   ],
+   "title": "Painting with a Digital Brush",
+   "year": 2012,
+   "description": "An ASCII-art image is painted into physical space in long-exposure photographs: a light stick moved across the room displays characters that build up the picture in mid-air.",
+   "description_zh": "在长曝光照片中把 ASCII 字符画“画”进真实空间：一根光棒在房间中移动，显示的字符在空中逐步拼出图像。",
+   "idea_en": "Free ASCII art from the screen and paint it into the air with light.",
+   "idea_zh": "让 ASCII 艺术离开屏幕，用光画在空气里。",
+   "technique": "The image is converted to characters and played column by column on an LED strip whose position is synchronized with the camera's long exposure.",
+   "technique_zh": "把图像转成字符，按列在 LED 灯条上播放，并让灯条位置与相机的长曝光同步。",
+   "exercise_en": "Use a phone screen as a brush: show one slice of an image at a time while walking in front of a long-exposure camera. Twist: paint a message that is only readable from one position in the room.",
+   "exercise_zh": "把手机屏幕当画笔：在长曝光相机前边走边一次显示图像的一条切片。变体：画一句只有从房间某个位置才能读出来的话。",
+   "interaction": [
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "LED strip",
+    "long-exposure photography"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "46636045",
+    "url": "https://vimeo.com/46636045"
+   },
+   "source_url": "http://www.teehanlax.com/labs/painting-with-a-digital-brush/"
+  },
+  {
+   "id": "beam-art--augmented-dance-floor",
+   "creator_ids": [
+    "beam-art"
+   ],
+   "title": "Augmented Dance Floor (ADF')",
+   "year": 2011,
+   "description": "At an outdoor music festival in Geneva, the crowd dancing in front of the Palais Eynard is captured in 3D and projected onto the building's façade as glowing point clouds inside a virtual grid room.",
+   "description_zh": "在日内瓦的户外音乐节上，Palais Eynard 前跳舞的人群被 3D 捕捉，并以发光点云的形式投射到建筑立面上的虚拟网格房间里。",
+   "idea_en": "The dancing crowd sees itself as light on the building in front of it.",
+   "idea_zh": "跳舞的人群在面前的建筑上看见自己化作的光。",
+   "technique": "Kinect depth data processed with OpenNI and openFrameworks is rendered as point clouds and 3D optical flow, then projection-mapped onto the façade.",
+   "technique_zh": "用 OpenNI 和 openFrameworks 处理 Kinect 深度数据，渲染成点云和 3D 光流，再投影映射到建筑立面上。",
+   "exercise_en": "Capture a group with a depth camera or phone LiDAR and project their point cloud large on a wall behind them. Twist: the point cloud lags a few seconds, so the crowd dances with its past self.",
+   "exercise_zh": "用深度相机或手机 LiDAR 捕捉一群人，把点云大尺寸投到他们身后的墙上。变体：点云延迟几秒出现，让人群和过去的自己一起跳舞。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Kinect",
+    "OpenNI"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "26668124",
+    "url": "https://vimeo.com/26668124"
+   }
+  },
+  {
+   "id": "beam-art--interactive-body-projection-mapping",
+   "creator_ids": [
+    "beam-art"
+   ],
+   "title": "Interactive Body Projection Mapping (Hypermetrop)",
+   "year": 2011,
+   "description": "During a residency with hip-hop dancers, audio-reactive textures are projected precisely onto the dancers' moving bodies while they perform.",
+   "description_zh": "在与街舞舞者的驻留创作中，随音乐变化的纹理被精确投射到正在表演的舞者身上。",
+   "idea_en": "Clothe moving dancers in live projected light.",
+   "idea_zh": "给正在移动的舞者穿上一件实时投影的光之衣。",
+   "technique": "A Kinect calibrated to the projector segments the dancers' bodies, and openFrameworks renders audio-reactive graphics masked to their silhouettes.",
+   "technique_zh": "与投影仪校准的 Kinect 分割出舞者身体，openFrameworks 渲染随音频变化、只落在身体轮廓内的图形。",
+   "exercise_en": "Calibrate a depth camera or webcam segmentation to a projector and project a pattern only onto a moving person. Twist: the pattern changes each time the dancer claps.",
+   "exercise_zh": "把深度相机或摄像头人像分割与投影仪校准，只在移动的人身上投射图案。变体：舞者每拍一次手，图案就换一次。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Kinect",
+    "OpenNI"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "34609484",
+    "url": "https://vimeo.com/34609484"
+   }
+  },
+  {
+   "id": "beam-art--augmented-silhouette",
+   "creator_ids": [
+    "beam-art"
+   ],
+   "title": "Augmented Silhouette",
+   "year": 2012,
+   "description": "Visitors see their glowing silhouettes on a wall, and colourful particles pour out of their hands and bounce between people as they move.",
+   "description_zh": "观众在墙上看到自己发光的剪影，彩色粒子从手中涌出，随动作在人与人之间弹跳。",
+   "idea_en": "Your silhouette becomes a light body that throws particles.",
+   "idea_zh": "你的剪影变成一个会抛洒粒子的光体。",
+   "technique": "OpenNI user tracking extracts silhouettes and hand joints from a Kinect, and openFrameworks renders particles emitted from the hands.",
+   "technique_zh": "OpenNI 用户追踪从 Kinect 中提取剪影和手部关节，openFrameworks 渲染从手中发射的粒子。",
+   "exercise_en": "Use webcam body segmentation and hand tracking to draw a glowing silhouette that emits particles from the hands. Twist: particles thrown by one person stick to anyone else they touch.",
+   "exercise_zh": "用摄像头人体分割和手部追踪画出发光剪影，并从手中发射粒子。变体：一个人抛出的粒子碰到别人就粘在对方身上。",
+   "interaction": [
+    "hand-body",
+    "multiplayer-social",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Kinect",
+    "OpenNI"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "39887510",
+    "url": "https://vimeo.com/39887510"
+   }
+  },
+  {
+   "id": "gene-kogan--cubist-mirror",
+   "creator_ids": [
+    "gene-kogan"
+   ],
+   "title": "Cubist Mirror",
+   "year": 2016,
+   "description": "A screen shows the room and the people in front of it re-painted live in the style of a Cubist painting.",
+   "description_zh": "一块屏幕把房间和面前的人实时重绘成立体主义绘画的样子。",
+   "idea_en": "A mirror that reflects you as a Cubist painting.",
+   "idea_zh": "一面把你照成立体主义画作的镜子。",
+   "technique": "Real-time neural style transfer, a network trained on a Cubist painting, is applied frame by frame to the webcam feed.",
+   "technique_zh": "对摄像头画面逐帧应用实时神经风格迁移，所用网络以一幅立体主义画作训练。",
+   "exercise_en": "Build a webcam or phone camera mirror that applies a real-time style model (for example ml5.js style transfer) chosen from three artworks. Twist: the style switches to whichever painting best matches the colours you are wearing.",
+   "exercise_zh": "做一面摄像头或手机镜子，从三件艺术作品中选择实时风格模型（例如 ml5.js 风格迁移）。变体：自动切换到与你衣服颜色最接近的那幅画的风格。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "neural style transfer",
+    "openFrameworks"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "167910860",
+    "url": "https://vimeo.com/167910860"
+   },
+   "source_url": "https://genekogan.com"
+  },
+  {
+   "id": "gene-kogan--projection-and-dance",
+   "creator_ids": [
+    "gene-kogan"
+   ],
+   "title": "Projection + Dance",
+   "year": 2013,
+   "description": "At a workshop in Ho Chi Minh City, real-time visuals are projected onto and around improvising dancers, following their bodies across the stage.",
+   "description_zh": "在胡志明市的一次工作坊中，实时影像被投射到即兴舞者身上和周围，随着身体在舞台上移动。",
+   "idea_en": "Projection that knows where the dancer's body is in 3D.",
+   "idea_zh": "知道舞者身体在三维空间中位置的投影。",
+   "technique": "His openFrameworks Kinect Projector Toolkit calibrates a projector to a depth camera so depth-camera points can be mapped directly to projector pixels.",
+   "technique_zh": "他的 openFrameworks 工具 Kinect Projector Toolkit 把投影仪和深度相机校准在一起，使深度相机中的点可以直接对应到投影像素。",
+   "exercise_en": "Calibrate a projector to a depth camera (or use a webcam and four-point homography) and project a trail that follows a performer's hand. Twist: the trail stays on the floor after the dancer leaves.",
+   "exercise_zh": "把投影仪与深度相机校准（或用摄像头加四点单应性），投射一道跟随表演者手部的轨迹。变体：舞者离开后，轨迹留在地面上。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Kinect",
+    "Kinect Projector Toolkit"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "81914893",
+    "url": "https://vimeo.com/81914893"
+   },
+   "source_url": "https://github.com/genekogan/KinectProjectorToolkit"
+  },
+  {
+   "id": "gene-kogan--silhouettes",
+   "creator_ids": [
+    "gene-kogan"
+   ],
+   "title": "Silhouettes",
+   "year": 2014,
+   "description": "People walking past a wall see their shadows painted onto it in swirling fluid colours that linger after they move on.",
+   "description_zh": "从墙前走过的人会看到自己的影子被画成旋转流动的彩色液体，人走开后颜色还会停留一会儿。",
+   "idea_en": "Paint walls with your shadow.",
+   "idea_zh": "用你的影子给墙上色。",
+   "technique": "A Kinect calibrated to the projector with his toolkit feeds body contours into a fluid simulation (ofxFluid) that is projected back aligned with the real shadow.",
+   "technique_zh": "用他的工具包把 Kinect 与投影仪校准，身体轮廓输入流体模拟（ofxFluid），再对齐真实影子投回墙上。",
+   "exercise_en": "Use webcam segmentation to inject colour into a fluid simulation wherever a person's shadow falls on a projected wall. Twist: each visitor gets their own colour that mixes with others.",
+   "exercise_zh": "用摄像头人像分割，把颜色注入流体模拟，落在人影在投影墙上的位置。变体：每位观众有自己的颜色，与别人的颜色混合。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "drawing-creation"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Kinect",
+    "ofxFluid"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "113887700",
+    "url": "https://vimeo.com/113887700"
+   }
+  },
+  {
+   "id": "gene-kogan--story-of-light",
+   "creator_ids": [
+    "gene-kogan"
+   ],
+   "title": "Story of Light (Star Stomp)",
+   "year": 2015,
+   "description": "An interactive floor where stomping makes strange sounds from 350 hidden contact microphones while projected graphics bloom around people's feet.",
+   "description_zh": "一块互动地板：跺脚时，地下 350 个接触式麦克风发出奇特的声音，同时投影图形在人们脚边绽放。",
+   "idea_en": "Stomp on the floor to make both sound and light.",
+   "idea_zh": "在地上跺脚，同时产生声音和光。",
+   "technique": "Piezo contact microphones under the floor produce the sound, and a ceiling Kinect and projector track feet and project graphics around them (with Alec Schachner).",
+   "technique_zh": "地板下的压电接触麦克风产生声音，天花板上的 Kinect 和投影仪追踪双脚并在周围投射图形（与 Alec Schachner 合作）。",
+   "exercise_en": "Tape contact microphones or a phone under a board and trigger projected ripples at the spot where someone stomps (found with a webcam). Twist: louder stomps make ripples that travel to the other players.",
+   "exercise_zh": "在木板下贴接触麦克风或放一部手机，用摄像头找出跺脚的位置，在那里投射涟漪。变体：跺得越响，涟漪传得越远，能传到其他玩家脚下。",
+   "interaction": [
+    "voice-sound",
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "piezo microphones",
+    "openFrameworks"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "120653546",
+    "url": "https://vimeo.com/120653546"
+   }
+  },
+  {
+   "id": "jayson-haebich--laser-interaction-prototype",
+   "creator_ids": [
+    "jayson-haebich"
+   ],
+   "title": "Laser interaction prototype",
+   "year": 2012,
+   "description": "Laser beams cut through haze to form planes of light, and they bend and react when a person reaches into them.",
+   "description_zh": "激光束穿过烟雾形成光的平面，人伸手进去时，光束会弯曲并作出反应。",
+   "idea_en": "Laser beams you can touch.",
+   "idea_zh": "可以触摸的激光束。",
+   "technique": "Custom openFrameworks software sends vectors to the laser via a DAC, and a Kinect calibrated to the laser's 3D field detects when a hand intersects a beam.",
+   "technique_zh": "自制的 openFrameworks 软件通过 DAC 向激光器发送矢量，与激光三维空间校准的 Kinect 检测手何时与光束相交。",
+   "exercise_en": "In a hazy room (or with a projector and a fog of dust), project thin lines through the air and use a webcam to detect when a hand blocks one, which then changes it. Twist: each line plays a note when touched.",
+   "exercise_zh": "在有烟雾的房间里（或用投影仪照亮空气中的灰尘），把细线投过空中，用摄像头检测手何时挡住某条线并改变它。变体：每条线被碰到时都会发出一个音符。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "lasers",
+    "Kinect"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "44904580",
+    "url": "https://vimeo.com/44904580"
+   }
+  },
+  {
+   "id": "jayson-haebich--elastic-light",
+   "creator_ids": [
+    "jayson-haebich"
+   ],
+   "title": "Elastic Light",
+   "year": 2014,
+   "description": "A series of simple puzzles made from laser lines in the air: visitors rotate, stretch and warp the beams with their hands to complete each shape.",
+   "description_zh": "一组由空中激光线构成的简单谜题：观众用手旋转、拉伸和弯曲光束来完成每个形状。",
+   "idea_en": "A gesture interface made of pure light in mid-air.",
+   "idea_zh": "悬在半空、完全由光构成的手势界面。",
+   "technique": "Laser vectors are drawn through haze by openFrameworks software, and depth-camera hand tracking maps gestures onto beam transformations.",
+   "technique_zh": "openFrameworks 软件把激光矢量画进烟雾中，深度相机追踪手部，把手势映射成光束的变换。",
+   "exercise_en": "Design three AR puzzles where a floating line must be rotated or stretched by hand tracking to match a target outline. Twist: the line resists like a rubber band and snaps back if you let go too early.",
+   "exercise_zh": "设计三个 AR 谜题：用手部追踪旋转或拉伸一条悬浮的线，使它与目标轮廓吻合。变体：线像橡皮筋一样有阻力，松手太早就弹回原状。",
+   "interaction": [
+    "hand-body",
+    "game-play",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "lasers",
+    "depth camera"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "103230160",
+    "url": "https://vimeo.com/103230160"
+   }
+  },
+  {
+   "id": "jayson-haebich--the-diffusion-of-light",
+   "creator_ids": [
+    "jayson-haebich"
+   ],
+   "title": "The Diffusion of Light",
+   "year": 2015,
+   "description": "A white laser beam sweeps across a large pile of broken glass and mirrors, splitting into coloured reflections that move across the whole room.",
+   "description_zh": "一束白色激光扫过一大堆碎玻璃和镜子，分裂成彩色反射光，在整个房间里移动。",
+   "idea_en": "One beam of white light turned into a room full of colour by broken glass.",
+   "idea_zh": "一束白光被碎玻璃变成满屋的色彩。",
+   "technique": "Programmed laser paths are aimed across the glass pile so refraction and reflection scatter the light around the space.",
+   "technique_zh": "编程控制激光路径扫过玻璃堆，让折射和反射把光散射到整个空间。",
+   "exercise_en": "Shine a moving phone flashlight or projector spot across a pile of clear objects and film how the room changes; then script the path to 'play' the reflections. Twist: add one coloured object and make it the star of the piece.",
+   "exercise_zh": "用移动的手机闪光灯或投影光点照过一堆透明物体，拍下房间的变化；再编排光点路径来“演奏”这些反射。变体：加入一个彩色物体，让它成为作品主角。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "lasers"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "127403161",
+    "url": "https://vimeo.com/127403161"
+   }
+  },
+  {
+   "id": "local-projects--strike-a-pose",
+   "creator_ids": [
+    "local-projects"
+   ],
+   "title": "Strike A Pose (Gallery One)",
+   "year": 2013,
+   "description": "In the Cleveland Museum of Art's Gallery One, visitors copy the pose of a sculpture from the collection and a screen scores how closely their body matches it.",
+   "description_zh": "在克利夫兰艺术博物馆的 Gallery One，观众模仿馆藏雕塑的姿势，屏幕会为身体与雕塑的相似度打分。",
+   "idea_en": "Understand a sculpture by imitating it with your own body.",
+   "idea_zh": "用自己的身体去模仿雕塑，从而理解它。",
+   "technique": "A Kinect skeleton is compared joint by joint with a stored pose of each sculpture, and the similarity percentage is shown next to the artwork.",
+   "technique_zh": "把 Kinect 骨架与每件雕塑预存的姿势逐个关节比对，并在作品旁显示相似度百分比。",
+   "exercise_en": "Use webcam pose estimation to score how well students match the pose of three artworks or photos. Twist: two people must together match a sculpture of two figures.",
+   "exercise_zh": "用摄像头姿态估计，为同学模仿三件艺术品或照片的姿势打分。变体：两个人要一起摆出一件双人雕塑的姿势。",
+   "interaction": [
+    "hand-body",
+    "game-play",
+    "data-information"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Kinect",
+    "openFrameworks"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "60866008",
+    "url": "https://vimeo.com/60866008"
+   },
+   "source_url": "https://localprojects.com"
+  },
+  {
+   "id": "rick-companje--globe4d",
+   "creator_ids": [
+    "rick-companje"
+   ],
+   "title": "Globe4D",
+   "year": 2015,
+   "description": "A large touch-sensitive sphere shows a projected Earth from the inside; visitors spin it with their hands and move through time to watch continental drift, seasons, disasters or flight routes change on the globe.",
+   "description_zh": "一个大型触摸球面从内部投射出地球；观众用手拨动它旋转，并在时间中前进，观看大陆漂移、季节、灾害或航线在球面上的变化。",
+   "idea_en": "Touch and spin a glowing globe to travel through space and time.",
+   "idea_zh": "触摸并拨动一个发光的地球，在空间和时间中穿行。",
+   "technique": "An acrylic hemisphere coated for rear projection is lit from inside by a projector with a wide lens, maps are rendered in real time with a shader (the early versions in openFrameworks), and infrared multi-touch tracking reads the hands.",
+   "technique_zh": "涂有背投涂层的亚克力半球由内部广角投影仪照亮，地图用着色器实时渲染（早期版本基于 openFrameworks），红外多点触控追踪双手。",
+   "exercise_en": "Project a map onto a white ball (or use AR image tracking on a ball) and let rotating a second object, like a jar lid, scrub through ten years of data. Twist: the ball shows another planet when turned upside down.",
+   "exercise_zh": "把地图投射到一个白色球上（或对球体做 AR 图像追踪），再让转动另一个物体（比如瓶盖）来拖动十年的数据。变体：把球倒过来，就显示另一颗行星。",
+   "interaction": [
+    "tangible-object",
+    "projection",
+    "data-information"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "rear projection",
+    "multi-touch"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "WUL-u_Cx6uM",
+    "url": "https://www.youtube.com/watch?v=WUL-u_Cx6uM"
+   },
+   "source_url": "https://globe4d.com"
+  },
+  {
+   "id": "rick-companje--pong-on-globe4d",
+   "creator_ids": [
+    "rick-companje"
+   ],
+   "title": "Multi-player Pong on Globe4D",
+   "year": 2016,
+   "description": "Several players stand around the projected sphere and play Pong on its curved surface, each defending a segment of the globe.",
+   "description_zh": "几位玩家围着投影球站成一圈，在球面上玩 Pong，每人防守球体的一段。",
+   "idea_en": "A classic flat game wrapped onto a sphere so players stand around it.",
+   "idea_zh": "把经典平面游戏包到球面上，让玩家围着它站。",
+   "technique": "The game is rendered in spherical coordinates and rear-projected inside the Globe4D sphere, with each player moving a paddle by touching the surface.",
+   "technique_zh": "游戏在球面坐标系中渲染，从 Globe4D 球体内部背投出来，每位玩家触摸球面来移动自己的球拍。",
+   "exercise_en": "Take a simple two-player game and redesign it for a round table or ball so that players face each other around it. Twist: the ball's speed depends on how many people are playing.",
+   "exercise_zh": "把一个简单的双人游戏重新设计到圆桌或球体上，让玩家围着它面对面。变体：球速取决于参与人数。",
+   "interaction": [
+    "game-play",
+    "multiplayer-social",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Globe4D"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "170910332",
+    "url": "https://vimeo.com/170910332"
+   }
+  },
+  {
+   "id": "red-paper-heart--hidden-stories",
+   "creator_ids": [
+    "red-paper-heart"
+   ],
+   "title": "Hidden Stories",
+   "year": 2015,
+   "description": "Visitors press a cup-shaped listening device against a patterned wallpaper; each shape in the pattern plays a real person's story about an everyday object.",
+   "description_zh": "观众把一个杯子形状的聆听装置贴在花纹墙纸上；图案中的每个形状都会播放一个真人讲述的关于日常物品的故事。",
+   "idea_en": "Wallpaper you can eavesdrop on, like pressing a glass to the wall.",
+   "idea_zh": "可以偷听的墙纸，就像把杯子贴在墙上听隔壁。",
+   "technique": "Sensors hidden behind each wallpaper shape detect the listening cup, which plays the matching audio clip.",
+   "technique_zh": "藏在每个墙纸图形后的传感器检测聆听杯，然后播放对应的音频片段。",
+   "exercise_en": "Put image markers or NFC tags behind a printed pattern and play a recorded story when a phone or cup touches each shape. Twist: two stories play only when two people listen at the same time.",
+   "exercise_zh": "在印花图案后面放图像标记或 NFC 标签，手机或杯子碰到某个形状时就播放一段录音。变体：有两个故事只有两个人同时听才会播放。",
+   "interaction": [
+    "voice-sound",
+    "tangible-object"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "sensors",
+    "audio"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "132444721",
+    "url": "https://vimeo.com/132444721"
+   },
+   "source_url": "https://redpaperheart.com"
+  },
+  {
+   "id": "red-paper-heart--the-reading-light",
+   "creator_ids": [
+    "red-paper-heart"
+   ],
+   "title": "The Reading Light",
+   "year": 2022,
+   "description": "A motion-tracked pendant lamp is swung past a textured wall, and digital letters appear only where its light falls, as if the words were part of the room.",
+   "description_zh": "一盏被动作追踪的吊灯在有纹理的墙前摆动，数字字母只在灯光照到的地方显现，仿佛文字本来就是房间的一部分。",
+   "idea_en": "Words that exist only where the light shines.",
+   "idea_zh": "只在光照到的地方才存在的文字。",
+   "technique": "The lamp's position is tracked and a projector likely renders text masked to the lamp's virtual light cone, so it appears to be revealed by the real light.",
+   "technique_zh": "追踪吊灯的位置，投影仪很可能只在灯的虚拟光锥范围内渲染文字，看起来像是被真实灯光照出来的。",
+   "exercise_en": "Track a flashlight with a webcam and project a hidden poem that is only visible inside the flashlight's circle. Twist: the poem changes depending on how long the light rests on each line.",
+   "exercise_zh": "用摄像头追踪手电筒，投射一首隐藏的诗，只有在手电筒光圈里才看得见。变体：光在每一行停留的时间长短会改变诗的内容。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "motion tracking",
+    "projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "759623238",
+    "url": "https://vimeo.com/759623238"
+   },
+   "source_url": "https://redpaperheart.com"
+  },
+  {
+   "id": "red-paper-heart--moving-stained-glass",
+   "creator_ids": [
+    "red-paper-heart"
+   ],
+   "title": "Moving Stained Glass",
+   "year": 2016,
+   "description": "Sunlight shines through a window whose coloured panes are generated and animated by a display, casting moving stained-glass patterns across the room.",
+   "description_zh": "阳光穿过一扇窗，窗上的彩色玻璃图案由显示屏生成并变化，把流动的彩色玻璃光影投满整个房间。",
+   "idea_en": "Stained glass that moves, lit only by the sun.",
+   "idea_zh": "会动的彩色玻璃，只靠阳光照亮。",
+   "technique": "Likely a transparent LCD without a backlight acts as a filter for natural sunlight, showing a generative art system that casts real coloured light.",
+   "technique_zh": "很可能用一块去掉背光的透明 LCD 作为自然阳光的滤镜，显示生成式图案，投下真实的彩色光。",
+   "exercise_en": "Put a coloured transparent sheet (or an old phone screen with the backlight removed, if possible) in a sunny window and design patterns for the shadows it casts at different hours. Twist: the pattern tells the time.",
+   "exercise_zh": "在有阳光的窗户上放一张彩色透明片（如果可以，用拆掉背光的旧手机屏），为它在不同时间投下的光影设计图案。变体：让图案能显示时间。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "transparent LCD",
+    "generative graphics"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "151795207",
+    "url": "https://vimeo.com/151795207"
+   },
+   "source_url": "https://redpaperheart.com"
+  },
+  {
+   "id": "red-paper-heart--playground",
+   "creator_ids": [
+    "red-paper-heart"
+   ],
+   "title": "PLAYGROUND",
+   "year": 2013,
+   "description": "A small shed is turned into a black-and-white projected world that reacts to music and to visitors' movements, and whoever holds the music controller conducts the whole room.",
+   "description_zh": "一间小木屋被变成黑白投影的世界，随音乐和观众的动作作出反应，拿着音乐控制器的人可以指挥整个房间。",
+   "idea_en": "Walk into the music and see the room answer every sound.",
+   "idea_zh": "走进音乐里，看房间回应每一个声音。",
+   "technique": "Five projectors map the interior walls, and a Kinect tracks movement while audio analysis of the playing track drives the geometric visuals (with Fake Love and Aramique).",
+   "technique_zh": "五台投影仪覆盖室内墙面，Kinect 追踪动作，对正在播放的音乐做音频分析来驱动几何图形（与 Fake Love 和 Aramique 合作）。",
+   "exercise_en": "Project audio-reactive line drawings onto the corner of a room and let the position of the nearest person change the style. Twist: the room goes silent and still when nobody is inside.",
+   "exercise_zh": "把随音频变化的线条图投到房间一角，让离得最近的人的位置改变画风。变体：房间里没人时，画面和声音都静止。",
+   "interaction": [
+    "voice-sound",
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Kinect",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "61893280",
+    "url": "https://vimeo.com/61893280"
+   },
+   "source_url": "https://redpaperheart.com/work/sonosplayground"
+  },
+  {
+   "id": "neil-mendoza--antivanity-mirror",
+   "creator_ids": [
+    "neil-mendoza"
+   ],
+   "title": "Antivanity Mirror",
+   "year": 2020,
+   "description": "A small robotic mirror turns its face away whenever someone tries to look into it, so you can never see yourself.",
+   "description_zh": "一面小小的机械镜子，每当有人想照它时就把脸转开，让你永远看不到自己。",
+   "idea_en": "A mirror that refuses to let you look at yourself.",
+   "idea_zh": "一面拒绝让你照见自己的镜子。",
+   "technique": "A camera detects the viewer's face and servos rotate the mirror away from it in real time.",
+   "technique_zh": "摄像头检测观众的脸，舵机实时把镜子转离观众。",
+   "exercise_en": "Make a phone app that shows the front camera but always pans or blurs the image away from any detected face. Twist: it only lets you see yourself when you close your eyes.",
+   "exercise_zh": "做一个显示前置摄像头的手机应用，但只要检测到人脸，就把画面移开或模糊掉。变体：只有当你闭上眼睛时，它才让你看见自己。",
+   "interaction": [
+    "face",
+    "gaze-attention",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "face tracking",
+    "servos"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "398041909",
+    "url": "https://vimeo.com/398041909"
+   },
+   "source_url": "https://www.neilmendoza.com"
+  },
+  {
+   "id": "neil-mendoza--i-spy",
+   "creator_ids": [
+    "neil-mendoza"
+   ],
+   "title": "I Spy",
+   "year": 2012,
+   "description": "A hanging mobile of four tablets showing eyes and mouths turns to follow visitors as they walk through the room, as if the gadgets were watching them.",
+   "description_zh": "由四台显示眼睛和嘴巴的平板组成的吊饰，会随着观众在房间中走动而转向他们，好像这些设备在监视人。",
+   "idea_en": "Our gadgets finally stare back at us.",
+   "idea_zh": "我们的电子设备终于反过来盯着我们看。",
+   "technique": "Two Kinects track people in the space and an openFrameworks app computes the servo angles of the mobile's arms so each tablet faces the nearest viewer.",
+   "technique_zh": "两台 Kinect 追踪空间中的人，openFrameworks 程序计算吊饰各臂的舵机角度，让每台平板都朝向最近的观众。",
+   "exercise_en": "Place a phone showing an animated eye in the room and use body tracking so the eye always looks at the nearest person. Twist: with two people present, the eye looks at whoever is not looking at it.",
+   "exercise_zh": "在房间里放一部显示动画眼睛的手机，用人体追踪让眼睛始终看向最近的人。变体：有两个人时，眼睛看向没在看它的那个人。",
+   "interaction": [
+    "gaze-attention",
+    "hand-body"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "openFrameworks",
+    "Kinect",
+    "servos",
+    "Android"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "55122295",
+    "url": "https://vimeo.com/55122295"
+   }
+  },
+  {
+   "id": "neil-mendoza--big-screen-augmented-reality",
+   "creator_ids": [
+    "neil-mendoza"
+   ],
+   "title": "Big Screen Augmented Reality (with The Sancho Plan)",
+   "year": 2010,
+   "description": "In Bristol's Millennium Square, people hold up white boards to the music and the BBC Big Screen shows animated characters and instruments standing on the boards in the live image.",
+   "description_zh": "在布里斯托千禧广场，人们随着音乐举起白板，BBC 大屏幕的实时画面里，动画角色和乐器就站在这些白板上。",
+   "idea_en": "Public AR on a giant screen, where holding up a board brings a character to life for the whole square.",
+   "idea_zh": "巨型屏幕上的公共 AR：举起一块板，就为整个广场唤醒一个角色。",
+   "technique": "A camera above the square tracks the boards as markers, and characters are composited onto them and shown on the big screen (likely openFrameworks; The Sancho Plan with Neil Mendoza and Pervasive Media Studio).",
+   "technique_zh": "广场上方的摄像头把白板当作标记追踪，把角色合成到白板上并在大屏幕播放（很可能用 openFrameworks；The Sancho Plan 与 Neil Mendoza、Pervasive Media Studio 合作）。",
+   "exercise_en": "Film the class from above with a projector or big screen showing the feed, and make paper markers that each spawn a musical character when held up. Twist: characters only play when their markers are close together.",
+   "exercise_zh": "从上方拍摄全班，把画面投到大屏幕上，做几块纸标记，举起时各召唤一个音乐角色。变体：只有标记彼此靠近时，角色才一起演奏。",
+   "interaction": [
+    "multiplayer-social",
+    "tangible-object",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "marker tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "10607151",
+    "url": "https://vimeo.com/10607151"
+   }
+  },
+  {
+   "id": "luxloop--if-the-walls-had-eyes",
+   "creator_ids": [
+    "luxloop"
+   ],
+   "title": "If The Walls Had Eyes",
+   "year": 2014,
+   "description": "A wall of projected video eyes turns to watch each visitor who walks past, following them along the gallery.",
+   "description_zh": "一面投影着许多视频眼睛的墙，会转过来盯着每位走过的观众，一路跟随。",
+   "idea_en": "The digital eyes that watch us online become real eyes on the wall.",
+   "idea_zh": "网络上注视我们的数字眼睛，变成墙上真实的眼睛。",
+   "technique": "A camera tracks passers-by and the software likely picks, for each projected eye, the video frame whose gaze direction points at the tracked person.",
+   "technique_zh": "摄像头追踪路人，软件很可能为每只投影眼睛挑选视线方向正对被追踪者的视频帧。",
+   "exercise_en": "Film an eye looking in nine directions and build a webcam piece that shows the frame looking at wherever the viewer stands. Twist: the eyes blink when the viewer takes out their phone.",
+   "exercise_zh": "拍一只眼睛看向九个方向的视频，做一个摄像头作品，显示正看向观众所在位置的那一帧。变体：观众掏出手机时，眼睛会眨一下。",
+   "interaction": [
+    "gaze-attention",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "computer vision",
+    "projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "113986453",
+    "url": "https://vimeo.com/113986453"
+   }
+  },
+  {
+   "id": "chris-oshea--beacon",
+   "creator_ids": [
+    "chris-oshea"
+   ],
+   "title": "Beacon",
+   "year": 2009,
+   "description": "Visitors walk through a grid of modified emergency beacon lights that turn and brighten to follow them, filling the dark space with sweeping, responsive beams.",
+   "description_zh": "观众穿过由改装应急信标灯组成的阵列，灯会转动、变亮来跟随他们，用扫动的光束填满黑暗空间。",
+   "idea_en": "A field of lights that notices you and turns to look.",
+   "idea_zh": "一片会注意到你、并转头看你的灯。",
+   "technique": "Thermal cameras track people, and a bespoke control system (openFrameworks) drives custom hardware inside each beacon to set reflector rotation and lamp brightness (with Cinimod Studio).",
+   "technique_zh": "热成像摄像头追踪人，定制控制系统（openFrameworks）驱动每个信标内的自制硬件，控制反光罩转向和灯光亮度（与 Cinimod Studio 合作）。",
+   "exercise_en": "Line up several phones or small lamps on servos and make them all point toward the person tracked by a webcam. Twist: when two people are present, the lights split their attention unevenly.",
+   "exercise_zh": "把几部手机或小灯装在舵机上排成一排，让它们都指向摄像头追踪到的人。变体：有两个人时，灯的注意力不均匀地分配。",
+   "interaction": [
+    "gaze-attention",
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "thermal camera"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1025054392",
+    "url": "https://vimeo.com/1025054392"
+   },
+   "source_url": "https://www.chrisoshea.org/beacon/"
+  },
+  {
+   "id": "chris-oshea--cybrid-landscape",
+   "creator_ids": [
+    "chris-oshea"
+   ],
+   "title": "Cybrid Landscape",
+   "year": 2008,
+   "description": "A virtual 3D landscape represents a building's atrium; as people walk through the real space, their paths wear away the virtual terrain, leaving a visible history of movement over the day.",
+   "description_zh": "一片虚拟 3D 地形代表一栋建筑的中庭；人们在真实空间中行走时，走过的路径会磨蚀虚拟地形，留下一整天的移动痕迹。",
+   "idea_en": "Footsteps in a real building erode a virtual landscape.",
+   "idea_zh": "真实建筑中的脚步，磨蚀着一片虚拟地形。",
+   "technique": "Overhead cameras track people in the atrium, and each tracked position lowers the corresponding vertices of a 3D terrain mesh.",
+   "technique_zh": "顶部摄像头追踪中庭里的人，每个被追踪到的位置都会压低 3D 地形网格上对应的顶点。",
+   "exercise_en": "Track classmates' positions in a room from above and let each step dig into a virtual sand terrain shown in AR on the floor. Twist: the terrain slowly heals, so only popular paths stay visible.",
+   "exercise_zh": "从上方追踪同学在房间里的位置，让每一步都在地面的 AR 虚拟沙地上挖出痕迹。变体：地形会慢慢恢复，只有常走的路径会留下来。",
+   "interaction": [
+    "spatial-mapping",
+    "data-information",
+    "hand-body"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "computer vision",
+    "3D terrain"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1330818",
+    "url": "https://vimeo.com/1330818"
+   },
+   "source_url": "https://www.chrisoshea.org/cybrid-landscape/"
+  }
+ ],
+ "leads": [
+  {
+   "name": "The Sancho Plan (Ed Cookson)",
+   "why": "Bristol audiovisual group behind Big Screen Augmented Reality (2010) and live AR music performances with animated characters; only the big-screen piece was added here (under Neil Mendoza).",
+   "link": "https://vimeo.com/thesanchoplan",
+   "found_via": "neil-mendoza",
+   "status": "open"
+  },
+  {
+   "name": "Oriol Ferrer Mesià",
+   "why": "openFrameworks developer (ex-Snibbe Interactive) whose Benetton window installations include camera mirrors such as Elastic Mirror, TimeLoop and Kaleidoscope.",
+   "link": "https://vimeo.com/armadillu",
+   "found_via": "scott-snibbe",
+   "status": "open"
+  },
+  {
+   "name": "Tangible Interaction",
+   "why": "Vancouver studio behind the openFrameworks Digital Graffiti Wall (2010 Olympics) and early marker AR such as AR Hippo for TELUS; mostly commercial, needs a careful pick.",
+   "link": "https://vimeo.com/tangible",
+   "found_via": "openframeworks-community",
+   "status": "open"
+  },
+  {
+   "name": "Parag K. Mital",
+   "why": "Artist-researcher whose 'Memory' (2010, with Agelos Papadakis) augments hanging glass sculptures with projected faces; also real-time audiovisual resynthesis mirrors.",
+   "link": "https://vimeo.com/pkmital",
+   "found_via": "openframeworks-community",
+   "status": "open"
+  },
+  {
+   "name": "Champagne Valentine (with Aaron Meyers)",
+   "why": "Amsterdam studio that made early webcam AR musical instruments (2010) and interactive shop-window mirrors with openFrameworks developer Aaron Meyers.",
+   "link": "https://vimeo.com/champagnevalentine",
+   "found_via": "openframeworks-community",
+   "status": "open"
+  }
+ ]
+}

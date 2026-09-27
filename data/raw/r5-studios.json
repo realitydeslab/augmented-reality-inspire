@@ -1,0 +1,1879 @@
+{
+ "batch": "r5-studios",
+ "creators": [
+  {
+   "id": "lab212",
+   "name": "Lab212 (Béatrice Lartigue, Nicolas Guichard et al.)",
+   "role": "Art and design collective (interactive installations)",
+   "based": "Paris, France",
+   "bio": "Paris collective founded in 2007 by Gobelins graduates including Béatrice Lartigue, Nicolas Guichard, Cyril Diagne, Juliette Champain, Pierre Thirion and Tobias Muthesius. Its installations turn swings, pebbles, post-it notes, strings of light and whole forests into interfaces, and have been shown at MuDA Zurich, Signal Film & Media, KADOC Leuven and Kunstsilo.",
+   "why": "Lab212 treats the body and simple everyday objects as the controller, so each piece is one clear gesture that changes a whole space.",
+   "links": {
+    "site": "https://lab212.org",
+    "x": "",
+    "instagram": "https://www.instagram.com/lab212_collective",
+    "vimeo": "https://vimeo.com/lab212",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "艺术与设计团体（互动装置）",
+   "based_zh": "巴黎，法国",
+   "bio_zh": "2007 年由 Gobelins 毕业生在巴黎创立，成员包括 Béatrice Lartigue、Nicolas Guichard、Cyril Diagne、Juliette Champain、Pierre Thirion 和 Tobias Muthesius。他们的装置把秋千、鹅卵石、便利贴、发光的线乃至整片树林变成交互界面，曾在苏黎世 MuDA、Signal Film & Media、鲁汶 KADOC 和 Kunstsilo 等地展出。",
+   "why_zh": "Lab212 把身体和日常小物件当作控制器，每件作品都只靠一个清楚的动作，就能改变整个空间。",
+   "connected_to": [
+    "cyril-diagne"
+   ],
+   "discovered_via": "cyril-diagne"
+  },
+  {
+   "id": "benjamin-kuperberg",
+   "name": "Benjamin Kuperberg",
+   "role": "Creative technologist and tool maker (Chataigne, BenTo, NecTouch)",
+   "based": "France",
+   "bio": "French creative technologist who wrote NecTouch, the Kinect multitouch layer behind Adrien M & Claire B's XYZT floor, and later the open-source show-control tools Chataigne and Blux. With the BenTo collective he builds interactive projection, LED juggling props, drone swarms and circus visuals.",
+   "why": "His experiments show how cheap sensors, props and projectors can be wired together so that a performer's movement drives light, image and even drones live.",
+   "links": {
+    "site": "https://benjamin.kuperberg.fr",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCTbxndmzh8Dll6XmsyWzEDA",
+    "github": "https://github.com/benkuper"
+   },
+   "role_zh": "创意技术专家、工具开发者（Chataigne、BenTo、NecTouch）",
+   "based_zh": "法国",
+   "bio_zh": "法国创意技术专家，编写了 NecTouch——Adrien M & Claire B 的 XYZT 互动地面背后的 Kinect 多点触控层，之后又开发了开源演出控制软件 Chataigne 和 Blux。他与 BenTo 团队一起制作互动投影、LED 杂耍道具、无人机群和马戏视觉。",
+   "why_zh": "他的实验展示了如何把廉价的传感器、道具和投影仪连在一起，让表演者的动作实时驱动灯光、影像，甚至无人机。",
+   "connected_to": [
+    "adrien-m-claire-b",
+    "theoriz"
+   ],
+   "discovered_via": "adrien-m-claire-b"
+  },
+  {
+   "id": "schnelle-bunte-bilder",
+   "name": "Schnelle Bunte Bilder (with kling klang klong)",
+   "role": "Media art and design studio (interactive rooms and projections)",
+   "based": "Berlin, Germany",
+   "bio": "Berlin studio whose team includes Sebastian Huber, Johannes Timpernagel and Robert Pohle, often working with the sound studio kling klang klong. They build body-reactive rooms, floor projections and museum installations in vvvv, from the dance exhibits of the Deutsches Hygiene-Museum to swarms of projected fish.",
+   "why": "Their rooms make movement visible and audible at once, turning museum visitors into dancers without instructions.",
+   "links": {
+    "site": "https://schnellebuntebilder.de",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/schnellebuntebilder",
+    "youtube": "https://www.youtube.com/@SCHNELLEBUNTEBILDER",
+    "github": ""
+   },
+   "role_zh": "媒体艺术与设计工作室（互动空间与投影）",
+   "based_zh": "柏林，德国",
+   "bio_zh": "柏林工作室，团队成员包括 Sebastian Huber、Johannes Timpernagel 和 Robert Pohle，常与声音工作室 kling klang klong 合作。他们用 vvvv 制作对身体做出反应的空间、地面投影和博物馆装置，从德累斯顿德国卫生博物馆的舞蹈展项到投影出来的鱼群都有。",
+   "why_zh": "他们的空间让动作同时变得可见、可听，不需要任何说明，就能让博物馆观众跳起舞来。",
+   "connected_to": [
+    "motion-bank",
+    "christian-mio-loclair",
+    "refik-anadol"
+   ],
+   "discovered_via": "motion-bank"
+  },
+  {
+   "id": "onformative",
+   "name": "onformative (Cedric Kiefer & Julia Laub)",
+   "role": "Studio for digital art and design",
+   "based": "Berlin, Germany",
+   "bio": "Berlin studio founded by Cedric Kiefer and Julia Laub; Laub co-authored the book Generative Gestaltung. Its generative and interactive installations range from perception experiments and responsive sculptures to augmented stage magic and choreography tools such as Pathfinder.",
+   "why": "onformative shows how generative code can make an object feel alive: screens that dissolve as you approach, orbs that listen and react, magic tricks that grow virtual graphics.",
+   "links": {
+    "site": "https://onformative.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/onformative",
+    "vimeo": "https://vimeo.com/onformative",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "数字艺术与设计工作室",
+   "based_zh": "柏林，德国",
+   "bio_zh": "柏林工作室，由 Cedric Kiefer 和 Julia Laub 创立，Laub 也是《Generative Gestaltung》一书的合著者之一。他们的生成式互动装置涵盖感知实验、会回应的雕塑、增强现实舞台魔术，以及 Pathfinder 这样的编舞工具。",
+   "why_zh": "onformative 展示了生成式代码如何让物体显得有生命：靠近就会瓦解的屏幕、会聆听并回应的光球、能长出虚拟图形的魔术。",
+   "connected_to": [
+    "christian-mio-loclair"
+   ],
+   "discovered_via": "christian-mio-loclair"
+  },
+  {
+   "id": "tin-and-ed",
+   "name": "Tin & Ed (Tin Nguyen & Edward Cutting)",
+   "role": "Artist duo (AR, installation, interactive media)",
+   "based": "New York, US",
+   "bio": "Australian duo Tin Nguyen and Edward Cutting, now based in New York and alumni of the New Museum's NEW INC. Their AR apps, inflatable sculptures and body-tracked screens imagine hybrid life forms and deep time, shown at MoMA, the Getty, the Barbican and ArtScience Museum.",
+   "why": "They use AR as a lens on the living world: a phone reveals imagined plants in a museum garden, and furniture sprouts playful forms.",
+   "links": {
+    "site": "https://tinanded.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/tinanded",
+    "vimeo": "https://vimeo.com/tinanded",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "艺术家组合（AR、装置、互动媒体）",
+   "based_zh": "纽约，美国",
+   "bio_zh": "Tin Nguyen 与 Edward Cutting，来自澳大利亚、现居纽约的艺术家组合，New Museum 旗下孵化器 NEW INC 的成员。他们用 AR 应用、充气雕塑和带身体追踪的屏幕，想象杂交的生命形态和地质般漫长的时间，作品曾在 MoMA、Getty、Barbican 和新加坡艺术科学博物馆展出。",
+   "why_zh": "他们把 AR 当作观察生命世界的透镜：手机让博物馆花园里出现想象中的植物，也让家具上长出好玩的形状。",
+   "connected_to": [
+    "space10"
+   ],
+   "discovered_via": "space10"
+  },
+  {
+   "id": "yuri-suzuki",
+   "name": "Yuri Suzuki",
+   "role": "Sound artist and designer; Pentagram partner from 2018",
+   "based": "London, UK",
+   "bio": "Japanese sound artist and designer based in London, who joined Pentagram as a partner in 2018. His horn sculptures, AI choirs and playful instruments invite the public to speak, sing and listen in shared space, and he made Sound Bubbles for SPACE10's Everyday Experiments.",
+   "why": "He treats sound as a material you can place, carry and share in public space, often with nothing more than horns, paper or a phone camera.",
+   "links": {
+    "site": "https://yurisuzuki.com",
+    "x": "https://twitter.com/yurisuzuki",
+    "instagram": "https://www.instagram.com/yurisuzukilondon",
+    "vimeo": "https://vimeo.com/yurisuzuki",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "声音艺术家、设计师；2018 年起任 Pentagram 合伙人",
+   "based_zh": "伦敦，英国",
+   "bio_zh": "常驻伦敦的日本声音艺术家和设计师，2018 年成为 Pentagram 合伙人。他的号角雕塑、AI 合唱装置和好玩的乐器邀请公众在共享空间里说话、歌唱和聆听；他也为 SPACE10 的 Everyday Experiments 做了 Sound Bubbles。",
+   "why_zh": "他把声音当作一种可以摆放、传递和分享的材料，常常只用号角、纸片或一部手机的摄像头。",
+   "connected_to": [
+    "space10"
+   ],
+   "discovered_via": "space10"
+  },
+  {
+   "id": "random-studio",
+   "name": "Random Studio",
+   "role": "Experience design studio",
+   "based": "Amsterdam, Netherlands",
+   "bio": "Amsterdam studio founded by Daan Lucas that builds interactive installations, spatial scenography and retail experiences for cultural institutions and brands. It also made Hidden Characters and Point & Repair for SPACE10's Everyday Experiments and runs an innovation studio for self-initiated prototypes.",
+   "why": "Their best pieces reduce interaction to one physical act, such as bouncing a ball or striking a pose, and let the whole room answer.",
+   "links": {
+    "site": "https://random.studio",
+    "x": "",
+    "instagram": "https://www.instagram.com/random.studio",
+    "vimeo": "https://vimeo.com/randomstudio",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "体验设计工作室",
+   "based_zh": "阿姆斯特丹，荷兰",
+   "bio_zh": "由 Daan Lucas 创立的阿姆斯特丹工作室，为文化机构和品牌制作互动装置、空间场景和零售体验。他们也为 SPACE10 的 Everyday Experiments 做了 Hidden Characters 和 Point & Repair，并设有做自发原型的创新工作室。",
+   "why_zh": "他们最好的作品把交互简化成一个身体动作，比如拍一下球、摆一个姿势，然后让整个空间来回应。",
+   "connected_to": [
+    "space10"
+   ],
+   "discovered_via": "space10"
+  },
+  {
+   "id": "usc-world-building-media-lab",
+   "name": "USC World Building Media Lab (Alex McDowell, Bradley Newman et al.)",
+   "role": "Research lab for world building and immersive storytelling",
+   "based": "Los Angeles, US",
+   "bio": "Lab at the USC School of Cinematic Arts led by production designer Alex McDowell (Minority Report). With Intel Labs, including Ronald Azuma's team, it built the Leviathan Project: AR and VR experiments set in Scott Westerfeld's steampunk world, shown at CES 2014 and Sundance New Frontier 2016.",
+   "why": "Leviathan was an early large-scale demonstration of AR as shared spectacle, flying a virtual whale over a live audience of thousands.",
+   "links": {
+    "site": "https://www.bradleynewman.io/leviathan",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "世界构建与沉浸式叙事研究实验室",
+   "based_zh": "洛杉矶，美国",
+   "bio_zh": "南加州大学电影艺术学院的实验室，由《少数派报告》的美术设计师 Alex McDowell 领导。它与 Intel Labs（包括 Ronald Azuma 的团队）合作开发了 Leviathan Project：以 Scott Westerfeld 的蒸汽朋克小说世界为背景的 AR 与 VR 实验，曾在 CES 2014 和 2016 年 Sundance New Frontier 展出。",
+   "why_zh": "Leviathan 是较早的大规模 AR 公共演示之一：让一头虚拟鲸鱼飞过数千名现场观众的头顶。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "seeing-the-invisible",
+   "name": "Seeing the Invisible (Jerusalem Botanical Garden & Outset Contemporary Art Fund)",
+   "role": "Touring AR contemporary art exhibition in botanical gardens",
+   "based": "Jerusalem, Israel (worldwide)",
+   "bio": "Exhibition initiated by the Jerusalem Botanical Garden and Outset Contemporary Art Fund, curated by Hadas Maor and Tal Michael Haring, which opened in 2021 in about a dozen botanical gardens around the world at the same time. Thirteen artists, including Ai Weiwei, El Anatsui, Refik Anadol, Daito Manabe, Isaac Julien and Jakob Kudsk Steensen, made site-specific AR works viewed through one app.",
+   "why": "It shows how one AR exhibition can be staged in many gardens at once, so the same artworks meet different plants, weather and light in each place.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "在植物园巡展的 AR 当代艺术展",
+   "based_zh": "耶路撒冷，以色列（全球多地）",
+   "bio_zh": "由耶路撒冷植物园和 Outset Contemporary Art Fund 发起、Hadas Maor 与 Tal Michael Haring 策展的展览，2021 年在全球约十二座植物园同时开幕。Ai Weiwei、El Anatsui、Refik Anadol、Daito Manabe、Isaac Julien、Jakob Kudsk Steensen 等十三位艺术家创作了因地制宜的 AR 作品，观众用同一个应用观看。",
+   "why_zh": "它展示了一场 AR 展览如何同时在多座花园里上演：同样的作品在每个地方遇到不同的植物、天气和光线。",
+   "connected_to": [
+    "refik-anadol",
+    "daito-manabe",
+    "jakob-kudsk-steensen"
+   ],
+   "discovered_via": "acute-art"
+  }
+ ],
+ "works": [
+  {
+   "id": "lab212--portee",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Portée/",
+   "year": 2014,
+   "description": "Sixteen glowing electroluminescent wires are stretched across a room like the staves of a score. When visitors touch and pluck a wire, a real Disklavier grand piano plays the note assigned to it, so the room becomes a walk-in instrument.",
+   "description_zh": "十六根发光的电致发光线像乐谱的五线谱一样横跨整个房间。观众触碰、拨动其中一根线，一台真正的 Disklavier 自动钢琴就会弹出对应的音符，整个房间变成一件可以走进去演奏的乐器。",
+   "idea_en": "Unfold a music score into space and let people play it by touching the lines.",
+   "idea_zh": "把乐谱展开到空间里，让人用手触碰线条来演奏。",
+   "technique": "Vibration or touch sensors on each wire send events to a computer that triggers MIDI notes on a self-playing piano, while the wires themselves light up (sensor type likely capacitive or piezo).",
+   "technique_zh": "每根线上的振动或触摸传感器把信号传给电脑，由电脑向自动钢琴发送 MIDI 音符，同时发光线本身被点亮（传感器推测为电容或压电式）。",
+   "exercise_en": "Stretch five strings or ribbons across the classroom, attach a piezo or capacitive sensor to each with an Arduino or Makey Makey, and map each string to a note in a browser synth. Twist: each string plays a different student's recorded voice instead of a note.",
+   "exercise_zh": "在教室里拉五根绳子或丝带，用 Arduino 或 Makey Makey 给每根绳子接上压电或电容传感器，在浏览器合成器里把每根绳子对应到一个音符；变体：每根绳子播放一位同学录下的声音，而不是音符。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "electroluminescent wire",
+    "Disklavier",
+    "sensors"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "118226187",
+    "url": "https://vimeo.com/118226187"
+   },
+   "source_url": "https://lab212.org"
+  },
+  {
+   "id": "lab212--starfield",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Starfield",
+   "year": 2012,
+   "description": "A visitor sits on a real swing in front of a projection. As they swing back and forth, they fly through a galaxy of stars whose motion follows the rhythm of their body.",
+   "description_zh": "观众坐在投影前一架真实的秋千上。随着秋千前后摆动，他们在一片星空中穿行，星星的运动跟着身体的节奏走。",
+   "idea_en": "A playground swing becomes a spaceship.",
+   "idea_zh": "游乐场的秋千变成了一艘宇宙飞船。",
+   "technique": "A Kinect behind the swing tracks its position, and an openFrameworks app maps the swing's arc to the camera's forward speed through a particle starfield, with an optional anaglyph 3D mode.",
+   "technique_zh": "秋千后方的 Kinect 追踪秋千位置，openFrameworks 程序把秋千的摆动弧线映射为镜头在粒子星空中的前进速度，并可切换到红蓝立体 3D 模式。",
+   "exercise_en": "Track a swinging object (a pendulum, a chair on a rope or a student on a swing) with a webcam or phone accelerometer and drive a starfield in p5.js or Unity with its speed. Twist: the stars only move while two people swing in sync.",
+   "exercise_zh": "用摄像头或手机加速度计追踪一个摆动的物体（摆锤、吊起的椅子或荡秋千的同学），用它的速度驱动 p5.js 或 Unity 里的星空；变体：只有两个人同步摆动时星星才会动。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "openFrameworks",
+    "projector"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "36892768",
+    "url": "https://vimeo.com/36892768"
+   },
+   "source_url": "https://lab212.org"
+  },
+  {
+   "id": "lab212--galets-magiques",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Galets Magiques",
+   "year": 2013,
+   "description": "Children pick up and shake pebbles lying on a projected seashore. Each shake sends out a ripple, and fish and sea creatures hidden under the pebble swim out.",
+   "description_zh": "孩子们拿起投影出来的海滩上的鹅卵石摇一摇。每摇一次就荡开一圈波纹，藏在石头下面的鱼和海洋生物纷纷游出来。",
+   "idea_en": "Shake a real pebble to reveal the animals hiding under it.",
+   "idea_zh": "摇一摇真实的石头，下面藏着的动物就会出来。",
+   "technique": "Physical pebbles likely carry motion sensors (or are tracked by a camera) so the software knows which one was shaken, and a top-down projector draws a ripple and animated creatures around that pebble's position.",
+   "technique_zh": "实体鹅卵石里推测装有运动传感器（或由摄像头追踪），程序据此知道是哪一块被摇动，再由顶部投影仪在该石头位置周围画出波纹和动画生物。",
+   "exercise_en": "Put three objects on a table under a projector or in a Lens Studio / AR Foundation scene, detect when one is lifted or moved, and spawn creatures from that spot. Twist: creatures only come out if the object is put back gently.",
+   "exercise_zh": "在投影仪下的桌面上（或在 Lens Studio / AR Foundation 场景中）放三个物体，检测其中一个被拿起或移动时，从那个位置生成小动物；变体：只有把物体轻轻放回原处，动物才会出来。",
+   "interaction": [
+    "tangible-object",
+    "projection",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "sensors",
+    "projector"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "64186902",
+    "url": "https://vimeo.com/64186902"
+   },
+   "source_url": "http://www.lab212.org/projects/galets-magiques"
+  },
+  {
+   "id": "lab212--empreintes",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Empreintes",
+   "year": 2015,
+   "description": "Visitors move their hands in front of a projection and leave sculptural traces of their gestures. The prints hang in space for a while, then slowly warp and fade.",
+   "description_zh": "观众在投影前挥动双手，留下自己手势的雕塑般的痕迹。这些“印记”会在空间里停留一会儿，然后慢慢变形、消散。",
+   "idea_en": "Make a gesture tangible by printing it into the air.",
+   "idea_zh": "把一个手势“印”在空气里，让它变得可以触摸。",
+   "technique": "A depth sensor tracks the hands and the software sweeps their silhouettes through time into 3D forms that are rendered and projected, then deformed over time.",
+   "technique_zh": "深度传感器追踪双手，程序把手的轮廓随时间扫掠成三维形体，渲染后投影出来，并让它们逐渐变形。",
+   "exercise_en": "Use MediaPipe hand tracking in the browser to record a hand's outline every frame and stack the outlines into a 3D ribbon you can orbit around. Twist: the print only stays if the hand moves very slowly.",
+   "exercise_zh": "在浏览器里用 MediaPipe 手部追踪，每一帧记录手的轮廓，把这些轮廓叠成一条可以绕着看的三维带子；变体：只有手动得非常慢，印记才会留下来。",
+   "interaction": [
+    "hand-body",
+    "drawing-creation",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "depth sensor",
+    "projector"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "152416235",
+    "url": "https://vimeo.com/152416235"
+   },
+   "source_url": "https://lab212.org"
+  },
+  {
+   "id": "lab212--nebula",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Nebula",
+   "year": 2018,
+   "description": "A long dark room is covered with drifts of white paper particles. Nine fans switch on as visitors approach, so every step blows the particles into new landscapes that the next visitor inherits.",
+   "description_zh": "一个狭长的黑暗房间铺满了白色的纸屑。观众走近时，九台风扇依次启动，每一步都把纸屑吹成新的地貌，留给下一位观众。",
+   "idea_en": "Your presence is the wind that reshapes a landscape.",
+   "idea_zh": "你的存在就是改变地貌的风。",
+   "technique": "Proximity sensors read by Arduino boards switch fans on and off depending on where visitors move, and the system pauses to self-regulate once enough particles pile up.",
+   "technique_zh": "由 Arduino 读取的距离传感器根据观众走到的位置开关风扇；当纸屑堆积到一定程度时，系统会暂停并自我调节。",
+   "exercise_en": "Build a tabletop version: place a small USB fan and a distance sensor at each side of a tray of confetti, and blow when a hand comes near. Twist: the fans blow away from the hand, so you can never reach the confetti.",
+   "exercise_zh": "做一个桌面版：在一盘彩纸屑的四周各放一个小 USB 风扇和一个距离传感器，手靠近时对应的风扇就吹；变体：风扇总是朝远离手的方向吹，让你永远碰不到纸屑。",
+   "interaction": [
+    "hand-body",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Arduino",
+    "fans",
+    "proximity sensors"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "318206534",
+    "url": "https://vimeo.com/318206534"
+   },
+   "source_url": "https://lab212.org/oeuvres/2:art/8/Nebula"
+  },
+  {
+   "id": "lab212--narcisse",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Narcisse",
+   "year": 2018,
+   "description": "A screen acts as a mirror, but the reflection of the visitor is gradually altered and deformed, asking at what point we stop recognising ourselves.",
+   "description_zh": "一块屏幕像镜子一样映出观众，但镜中的样子会被逐渐改变、扭曲，让人追问：变到什么程度，我们就不再认得自己？",
+   "idea_en": "A mirror that slowly stops being you.",
+   "idea_zh": "一面慢慢不再像你的镜子。",
+   "technique": "A depth sensor captures the visitor's body and the software re-renders it as a live mirror image with progressive distortions (the exact deformations are likely generative).",
+   "technique_zh": "深度传感器捕捉观众的身体，程序把它实时重新渲染成镜像，并逐步加入变形（具体变形方式推测为生成式）。",
+   "exercise_en": "Build a webcam mirror in p5.js or TouchDesigner that becomes more distorted the longer a person stands still. Twist: the distortion copies the face of the previous visitor.",
+   "exercise_zh": "用 p5.js 或 TouchDesigner 做一面摄像头镜子，人站得越久，镜像扭曲得越厉害；变体：扭曲的方向是朝上一位观众的脸变形。",
+   "interaction": [
+    "hand-body",
+    "face",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "depth sensor",
+    "projector",
+    "screen"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "273004699",
+    "url": "https://vimeo.com/273004699"
+   },
+   "source_url": "https://lab212.org"
+  },
+  {
+   "id": "lab212--stop-it",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Stop-iT",
+   "year": 2012,
+   "description": "Visitors stick coloured post-it notes on a wall to compose music. Each colour is an instrument, the height of a note sets its pitch, and the melody loops while people rearrange it.",
+   "description_zh": "观众把彩色便利贴贴在墙上来作曲。每种颜色是一种乐器，贴的高度决定音高，旋律循环播放，大家可以随时重新排列。",
+   "idea_en": "A wall of post-it notes is a music sequencer.",
+   "idea_zh": "一面贴满便利贴的墙就是一台音序器。",
+   "technique": "A camera analyses the wall in real time, detects each note's colour and position, and an openFrameworks app turns the grid into MIDI loops.",
+   "technique_zh": "摄像头实时分析墙面，识别每张便利贴的颜色和位置，openFrameworks 程序把这个网格转换成循环播放的 MIDI 音乐。",
+   "exercise_en": "Point a phone or webcam at a sheet of paper, detect coloured stickers with simple colour thresholding, and play a step sequence with Tone.js. Twist: use food on a plate instead of stickers.",
+   "exercise_zh": "用手机或摄像头对着一张纸，用简单的颜色阈值识别彩色贴纸，再用 Tone.js 播放步进音序；变体：把贴纸换成盘子里的食物。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound",
+    "drawing-creation"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "camera",
+    "MIDI"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "37536157",
+    "url": "https://vimeo.com/37536157"
+   },
+   "source_url": "https://lab212.org"
+  },
+  {
+   "id": "lab212--loup-garou",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Loup-garou",
+   "year": 2012,
+   "description": "In a dark, eerie space, anyone who stands in front of a projected full moon sees their silhouette turn into a werewolf that copies their pose.",
+   "description_zh": "在昏暗诡异的空间里，只要站到投影出来的满月前，观众的剪影就会变成一只模仿他们姿势的狼人。",
+   "idea_en": "Stand in front of the moon and become a werewolf.",
+   "idea_zh": "站到月亮前面，你就变成狼人。",
+   "technique": "A camera detects body positions and silhouettes, and the software swaps the silhouette for werewolf animations triggered by pose.",
+   "technique_zh": "摄像头检测身体位置和剪影，程序根据姿势把剪影替换成对应的狼人动画。",
+   "exercise_en": "Use a pose-tracking model (MediaPipe or ml5.js) to replace a student's shadow with an animated creature when they step into a marked circle. Twist: the transformation only happens when two people stand close together.",
+   "exercise_zh": "用 MediaPipe 或 ml5.js 的姿态追踪，在同学走进地上标出的圆圈时，把他的影子替换成一个动画生物；变体：只有两个人靠在一起时才会变身。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "camera",
+    "body tracking",
+    "projector"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "119942169",
+    "url": "https://vimeo.com/119942169"
+   },
+   "source_url": "https://lab212.org"
+  },
+  {
+   "id": "lab212--moc",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Moc",
+   "year": 2010,
+   "description": "A projected landscape scrolls past. When a visitor whistles into a microphone, a tree grows in real time following the sound; when they speak, fantastic animals appear in the forest.",
+   "description_zh": "一幅投影风景缓缓流过。观众对着麦克风吹口哨，一棵树就会随着声音实时生长；开口说话时，森林里会冒出奇幻的动物。",
+   "idea_en": "Your breath makes a tree grow.",
+   "idea_zh": "你的气息让一棵树长出来。",
+   "technique": "The app extracts the dominant frequency of the incoming sound and maps it to the branching angle of a growing tree, pausing growth in silence.",
+   "technique_zh": "程序提取输入声音的主频，把它映射成树枝的分叉角度；安静时树就停止生长。",
+   "exercise_en": "Build a p5.js sketch that grows a recursive tree only while the microphone hears a whistle, with pitch controlling branch angle. Twist: make it an AR scene where the tree grows from the table you whistle at.",
+   "exercise_zh": "用 p5.js 做一棵递归生长的树，只有麦克风听到口哨声时才生长，音高控制分叉角度；变体：做成 AR 场景，让树从你吹口哨的那张桌子上长出来。",
+   "interaction": [
+    "voice-sound",
+    "drawing-creation"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "microphone",
+    "FFT",
+    "projector"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "11989814",
+    "url": "https://vimeo.com/11989814"
+   },
+   "source_url": "https://lab212.org"
+  },
+  {
+   "id": "lab212--sirenes-sylvestres",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Sirènes Sylvestres",
+   "year": 2012,
+   "description": "A night walk through the woods where small lights hidden in the trees switch on as walkers approach, luring them step by step off the lit path and deeper into the forest.",
+   "description_zh": "一场夜间森林漫步：藏在树间的小灯会在行人走近时亮起，一步步把人从有灯的小路上引开，走进森林深处。",
+   "idea_en": "Lights that wake up as you come near and lead you into the dark.",
+   "idea_zh": "你一走近就亮起来的灯，把你引入黑暗。",
+   "technique": "Autonomous light and motion-sensor modules are placed along a path in the forest; each module lights up when someone enters its range, forming a progressive trail.",
+   "technique_zh": "把自带灯和运动传感器的模块沿路线放在林中；有人进入感应范围时模块就亮起，连成一条逐步显现的光路。",
+   "exercise_en": "Place five phones or PIR-sensor lamps along a school corridor or garden path so each lights up when someone passes and guides them to a hidden spot. Twist: the lights switch off behind you so you cannot go back.",
+   "exercise_zh": "在学校走廊或花园小路上放五部手机或带人体感应的小灯，有人经过就亮起，把他们引到一个隐藏的地点；变体：灯在你身后熄灭，让你无法回头。",
+   "interaction": [
+    "location-geo",
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "motion sensors",
+    "LED",
+    "Arduino"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "74054426",
+    "url": "https://vimeo.com/74054426"
+   },
+   "source_url": "https://lab212.org"
+  },
+  {
+   "id": "lab212--wood-wide-web",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Wood Wide Web",
+   "year": 2023,
+   "description": "Prints of forest imagery come alive in augmented reality: through a device, generative networks grow across the images like the fungal web that links tree roots underground.",
+   "description_zh": "森林主题的版画在增强现实中活了过来：透过设备观看，生成式的网络在画面上生长，就像地下连接树根的真菌网络。",
+   "idea_en": "Reveal the hidden network that connects trees on top of a printed image.",
+   "idea_zh": "在一幅印刷图像上，显现出连接树木的隐秘网络。",
+   "technique": "Printed images act as AR image targets, and generative growth algorithms inspired by mycelium are rendered on top of them in real time (details of the app likely custom).",
+   "technique_zh": "印刷图像作为 AR 识别目标，受菌丝启发的生成式生长算法实时渲染在图像之上（应用细节推测为定制开发）。",
+   "exercise_en": "Print a photo of a tree, use it as an image target in Lens Studio or AR Foundation, and grow branching lines between the roots with an L-system. Twist: the network grows faster when two phones look at the print at the same time.",
+   "exercise_zh": "打印一张树的照片，在 Lens Studio 或 AR Foundation 中把它设为图像识别目标，用 L 系统在树根之间生长分叉线条；变体：两部手机同时看这张图时，网络长得更快。",
+   "interaction": [
+    "data-information",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "image tracking",
+    "generative graphics"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "940813772",
+    "url": "https://vimeo.com/940813772"
+   },
+   "source_url": "https://lab212.org/oeuvres/3:featured/60/Wood-Wide-Web"
+  },
+  {
+   "id": "lab212--appel-d-air",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Appel d'Air",
+   "year": 2012,
+   "description": "Toddlers blow on a tiny paper windmill, and an industrial fan across the room answers with a gust of wind as long and strong as their breath.",
+   "description_zh": "小朋友对着一个小小的纸风车吹气，房间另一边的工业风扇就回应一阵风，风的长短和强弱跟他们的气息一样。",
+   "idea_en": "A small breath gets a big answer.",
+   "idea_zh": "小小的一口气，换来一阵大风的回应。",
+   "technique": "A sensor on the paper windmill measures the speed and duration of its spin, and a controller drives the industrial fan in proportion.",
+   "technique_zh": "纸风车上的传感器测量它旋转的速度和时长，控制器按比例驱动工业风扇。",
+   "exercise_en": "Attach a cheap anemometer or a DC motor used as a generator to a paper windmill and map its signal to a USB fan or a projected storm. Twist: the answer comes back from a different corner every time.",
+   "exercise_zh": "给纸风车接一个便宜的风速计，或把直流电机当发电机用，把信号映射到 USB 风扇或投影出来的风暴上；变体：每次回应的风都来自不同的角落。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "sensors",
+    "industrial fan",
+    "Arduino"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "74689338",
+    "url": "https://vimeo.com/74689338"
+   },
+   "source_url": "https://lab212.org"
+  },
+  {
+   "id": "lab212--growing",
+   "creator_ids": [
+    "lab212"
+   ],
+   "title": "Growing",
+   "year": 2025,
+   "description": "A 55-metre-wide projection shows invasive species spreading across a landscape. Real-time tracking detects people and boats, and the growth reacts to them.",
+   "description_zh": "一幅 55 米宽的投影展示入侵物种在大地上蔓延。实时追踪系统识别出人和船只，生长的形态随之作出反应。",
+   "idea_en": "Let passers-by feed or disturb a spreading organism.",
+   "idea_zh": "让路人去喂养或打扰一个正在蔓延的生物。",
+   "technique": "An object-detection model classifies people and boats in a camera feed under infrared light, and their positions steer a generative growth simulation projected across a huge surface.",
+   "technique_zh": "目标检测模型在红外照明下的摄像画面中识别人和船只，把它们的位置输入生成式生长模拟，再投影到巨大的表面上。",
+   "exercise_en": "Run a YOLO or COCO-SSD detector in the browser on a window view and let each detected person or car seed a growing pattern on screen. Twist: the pattern only grows where nobody has walked for a while.",
+   "exercise_zh": "在浏览器里用 YOLO 或 COCO-SSD 检测窗外画面，让每个被识别出的人或车在屏幕上播下一个生长图案；变体：图案只在很久没人走过的地方生长。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "object detection",
+    "projectors",
+    "IR lights"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1159696549",
+    "url": "https://vimeo.com/1159696549"
+   },
+   "source_url": "https://lab212.org/oeuvres/3:featured/66/Growing"
+  },
+  {
+   "id": "benjamin-kuperberg--glove-controlled-drone-swarm",
+   "creator_ids": [
+    "benjamin-kuperberg"
+   ],
+   "title": "Realtime Glove-Controlled Drone Swarm",
+   "year": 2017,
+   "description": "A juggler wearing sensor gloves conducts a small swarm of indoor drones: each hand can pick up drones, make them follow the leader, move in sync or form shapes, as a test for a circus show.",
+   "description_zh": "一位戴着传感手套的杂耍艺人指挥一小群室内无人机：每只手都能调动无人机，让它们跟随领头者、同步移动或排成图形。这是为一场马戏演出做的测试。",
+   "idea_en": "Juggle with flying robots using only your hands.",
+   "idea_zh": "只用双手，和会飞的机器人一起杂耍。",
+   "technique": "Crazyflie drones are positioned with a TDoA radio system, Specktr touch gloves and Vive trackers give hand position and gestures, and custom software maps gestures to swarm behaviours.",
+   "technique_zh": "Crazyflie 无人机由 TDoA 无线电系统定位，Specktr 触控手套和 Vive 追踪器提供手的位置和手势，定制软件把手势映射为群体行为。",
+   "exercise_en": "Simulate the idea in WebXR or Unity: track one hand with a phone or Quest and let a flock of virtual drones follow, orbit or mirror it. Twist: each finger commands a different drone.",
+   "exercise_zh": "在 WebXR 或 Unity 里模拟这个想法：用手机或 Quest 追踪一只手，让一群虚拟无人机跟随、环绕或镜像它；变体：每根手指指挥一架不同的无人机。",
+   "interaction": [
+    "hand-body",
+    "performance-stage",
+    "tangible-object"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Crazyflie",
+    "Vive tracker",
+    "Specktr gloves"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ywpK-KrGKTY",
+    "url": "https://www.youtube.com/watch?v=ywpK-KrGKTY"
+   },
+   "source_url": "https://benjamin.kuperberg.fr"
+  },
+  {
+   "id": "benjamin-kuperberg--spinwall",
+   "creator_ids": [
+    "benjamin-kuperberg"
+   ],
+   "title": "SpinWall",
+   "year": 2018,
+   "description": "A poi spinner performs in front of a wall with projection mapping while the LED poi in his hands light up in sync with the projected patterns and music.",
+   "description_zh": "一位甩火球（poi）表演者在投影映射的墙前表演，他手中的 LED 球随着投影图案和音乐同步变换灯光。",
+   "idea_en": "Make the props in a performer's hands and the wall behind them one light show.",
+   "idea_zh": "让表演者手中的道具和身后的墙变成同一场灯光秀。",
+   "technique": "LED poi and the projection mapping are driven from the same show-control timeline (Chataigne / BenTo), so colours and patterns on the props and wall stay in sync.",
+   "technique_zh": "LED 道具和投影映射由同一条演出控制时间线（Chataigne / BenTo）驱动，因此道具和墙面的颜色与图案保持同步。",
+   "exercise_en": "Project onto a wall while a student waves a phone showing a full-screen colour, and sync both from one web page over WebSockets. Twist: the phone's motion changes the wall instead of the timeline.",
+   "exercise_zh": "向墙上投影，同时让一位同学挥动全屏显示颜色的手机，用 WebSocket 从同一个网页同步两者；变体：改由手机的动作来改变墙面，而不是时间线。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "LED poi",
+    "Chataigne"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "dUlzz_6AU3s",
+    "url": "https://www.youtube.com/watch?v=dUlzz_6AU3s"
+   },
+   "source_url": "https://benjamin.kuperberg.fr"
+  },
+  {
+   "id": "benjamin-kuperberg--interactive-video-mapping-on-canvas",
+   "creator_ids": [
+    "benjamin-kuperberg"
+   ],
+   "title": "Interactive Video Mapping on Canvas",
+   "year": 2013,
+   "description": "Photographs hung on a wall are revealed by projection only when people come closer, in different visual styles, and fade away again when nobody is there.",
+   "description_zh": "挂在墙上的照片只有在有人走近时才会被投影“显影”出来，每次方式都不同；没人的时候，它们又慢慢消失。",
+   "idea_en": "Pictures that only appear when someone is looking.",
+   "idea_zh": "只有有人在看时才会出现的照片。",
+   "technique": "A depth camera measures visitors' distance to each frame and projection-mapped masks reveal or hide the image accordingly.",
+   "technique_zh": "深度摄像头测量观众到每幅画框的距离，投影映射的遮罩据此显示或隐藏图像。",
+   "exercise_en": "Project onto three blank sheets of paper and use a webcam to detect which one a person stands in front of, then fade in a hidden drawing there. Twist: the picture shows a different image to each person.",
+   "exercise_zh": "向三张白纸投影，用摄像头判断有人站在哪一张前面，再在那张纸上淡入一幅隐藏的画；变体：每个人看到的画都不一样。",
+   "interaction": [
+    "projection",
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "EsDzHx_JTcc",
+    "url": "https://www.youtube.com/watch?v=EsDzHx_JTcc"
+   },
+   "source_url": "https://benjamin.kuperberg.fr"
+  },
+  {
+   "id": "benjamin-kuperberg--interactive-particles-la-bifurk",
+   "creator_ids": [
+    "benjamin-kuperberg"
+   ],
+   "title": "Interactive particles @ La Bifurk",
+   "year": 2013,
+   "description": "Party guests step into a box and dance; their bodies appear as sand-like particle figures, and when nobody is inside, geometric shapes animate to the music.",
+   "description_zh": "派对上的人走进一个盒子里跳舞，他们的身体变成沙粒般的粒子人形；没人时，几何图形随音乐动起来。",
+   "idea_en": "Turn a dancing body into drifting sand.",
+   "idea_zh": "把跳舞的身体变成飘散的沙。",
+   "technique": "An Intel Creative Gesture depth camera captures the dancers and the software converts the depth silhouette into particles, with the render controlled over DMX by the lighting technician.",
+   "technique_zh": "Intel Creative Gesture 深度摄像头捕捉舞者，程序把深度剪影转换成粒子，渲染效果由灯光师通过 DMX 控制。",
+   "exercise_en": "Use a webcam and body segmentation in TouchDesigner or p5.js to turn a dancing student into particles that fall when they stop moving. Twist: the particles of two dancers mix when they touch.",
+   "exercise_zh": "用摄像头加人体分割（TouchDesigner 或 p5.js），把跳舞的同学变成粒子，一停下来粒子就掉落；变体：两位舞者碰到时，粒子会混在一起。",
+   "interaction": [
+    "hand-body",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "depth camera",
+    "DMX",
+    "particles"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "9N--dSXwP9c",
+    "url": "https://www.youtube.com/watch?v=9N--dSXwP9c"
+   },
+   "source_url": "https://benjamin.kuperberg.fr"
+  },
+  {
+   "id": "benjamin-kuperberg--cyrwheel-visuals-and-interactions",
+   "creator_ids": [
+    "benjamin-kuperberg"
+   ],
+   "title": "CyrWheel Visuals and Interactions Research",
+   "year": 2022,
+   "description": "An acrobat spins inside an LED Cyr wheel whose light responds to the wheel's own rotation, synchronised with stage lighting, live music and a 3D tracking system.",
+   "description_zh": "一位杂技演员在一只 LED 西尔轮（Cyr wheel）里旋转，轮子的灯光随自身转动而变化，并与舞台灯光、现场音乐和三维追踪系统同步。",
+   "idea_en": "Let a circus apparatus light itself according to how it moves.",
+   "idea_zh": "让马戏器械根据自己的运动来点亮自己。",
+   "technique": "A motion sensor embedded in the wheel streams orientation to Chataigne, which drives the wheel's LEDs, Blux stage lighting and music, with position from Augmenta's Pleiades tracker.",
+   "technique_zh": "嵌在轮子里的运动传感器把方向数据传给 Chataigne，由它驱动轮上的 LED、Blux 舞台灯光和音乐，位置数据来自 Augmenta 的 Pleiades 追踪系统。",
+   "exercise_en": "Tape a phone to a hula hoop or a bike wheel, stream its gyroscope to a laptop, and change projected colours with the rotation speed. Twist: when it stops, the light keeps spinning on the wall.",
+   "exercise_zh": "把手机绑在呼啦圈或自行车轮上，把陀螺仪数据传到电脑，用转速改变投影颜色；变体：轮子停下时，光还在墙上继续转。",
+   "interaction": [
+    "performance-stage",
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "IMU",
+    "LED",
+    "Chataigne"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "naWtD6-Jqmo",
+    "url": "https://www.youtube.com/watch?v=naWtD6-Jqmo"
+   },
+   "source_url": "https://benjamin.kuperberg.fr"
+  },
+  {
+   "id": "benjamin-kuperberg--multitouch-wood-bar",
+   "creator_ids": [
+    "benjamin-kuperberg"
+   ],
+   "title": "Multitouch Wood Bar with NecTouch",
+   "year": 2013,
+   "description": "A wooden bar counter becomes a projected multitouch surface: particles follow fingers across the top, climb a vertical stick when they touch it, and spill onto a front panel.",
+   "description_zh": "一张木质吧台变成了投影多点触控表面：粒子跟着手指在台面上移动，碰到竖杆就往上爬，再洒落到前面板上。",
+   "idea_en": "Any piece of furniture can become a touchscreen.",
+   "idea_zh": "任何一件家具都能变成触摸屏。",
+   "technique": "NecTouch uses a Kinect to detect touches on arbitrary surfaces and sends them as TUIO to an Adobe AIR app with a custom surface-warping library that maps content onto three surfaces.",
+   "technique_zh": "NecTouch 用 Kinect 识别任意表面上的触碰，以 TUIO 协议发送给 Adobe AIR 程序，程序用定制的表面变形库把内容映射到三个表面上。",
+   "exercise_en": "Project onto a desk and detect fingertips with a depth camera or a phone above it, then let virtual marbles roll toward touches and fall off the desk's edge onto the floor. Twist: objects on the desk act as obstacles.",
+   "exercise_zh": "向一张桌子投影，用深度摄像头或架在上方的手机识别指尖，让虚拟弹珠滚向触摸点，再从桌边掉到地上；变体：桌上的实物会成为障碍。",
+   "interaction": [
+    "projection",
+    "hand-body",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "TUIO",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "T_Vm18xWYKM",
+    "url": "https://www.youtube.com/watch?v=T_Vm18xWYKM"
+   },
+   "source_url": "https://benjamin.kuperberg.fr"
+  },
+  {
+   "id": "schnelle-bunte-bilder--epilog",
+   "creator_ids": [
+    "schnelle-bunte-bilder"
+   ],
+   "title": "EPILOG",
+   "year": 2014,
+   "description": "A 25-minute room of light, sound and haze at the Deutsches Hygiene-Museum's dance exhibition: a floor projection reacts to visitors' movements and, through the haze, their movement builds three-dimensional spaces of light.",
+   "description_zh": "德累斯顿德国卫生博物馆舞蹈展中一个长达 25 分钟的光、声与雾的房间：地面投影对观众的动作作出反应，借助烟雾，他们的动作搭建出一个个三维的光之空间。",
+   "idea_en": "Move and the light around you turns into walls and tunnels.",
+   "idea_zh": "你一动，周围的光就变成墙和隧道。",
+   "technique": "Tracking cameras follow visitors on the floor, vvvv generates patterns that respond to them, and projectors shining through haze turn the flat patterns into volumetric beams.",
+   "technique_zh": "追踪摄像头跟随地面上的观众，vvvv 生成对他们作出反应的图案，投影光穿过烟雾，把平面图案变成立体光束。",
+   "exercise_en": "In a dark room with a hazer or a spray bottle of water mist, project a white circle that follows a tracked student from a ceiling projector. Twist: the circle shrinks around people who stand still.",
+   "exercise_zh": "在黑暗的房间里用烟雾机或水雾喷瓶制造雾气，从天花板投影一个跟随被追踪同学的白色光圈；变体：站着不动的人，光圈会慢慢收紧。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "vvvv",
+    "tracking cameras",
+    "haze"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "99909498",
+    "url": "https://vimeo.com/99909498"
+   },
+   "source_url": "https://schnellebuntebilder.de"
+  },
+  {
+   "id": "schnelle-bunte-bilder--stepsequencer",
+   "creator_ids": [
+    "schnelle-bunte-bilder"
+   ],
+   "title": "STEPSEQUENCER",
+   "year": 2014,
+   "description": "Instead of music that makes people dance, dancing makes the music: visitors step on a round floor-projected instrument and use three physical stations for jumping and moving, and every action adds a sound or beat.",
+   "description_zh": "不是音乐让人跳舞，而是舞蹈创造音乐：观众踩在一个圆形地面投影乐器上，再加上三个供跳跃和活动的实体装置，每个动作都会加入一个声音或节拍。",
+   "idea_en": "Your dance steps compose the beat.",
+   "idea_zh": "你的舞步谱出了节拍。",
+   "technique": "A camera tracks footsteps on a circular floor projection laid out like a step sequencer, and sensors in the side stations trigger additional sounds, all mixed live in the software.",
+   "technique_zh": "摄像头追踪踩在圆形地面投影上的脚步，这个投影的布局就像一个步进音序器；侧面装置里的传感器触发更多声音，全部由软件实时混合。",
+   "exercise_en": "Tape a 4x4 grid on the floor, detect which squares are occupied with a webcam from above, and loop a drum pattern from them in Tone.js. Twist: each square plays the voice of whoever stands on it.",
+   "exercise_zh": "在地上用胶带贴一个 4x4 网格，用顶部摄像头检测哪些格子有人，用 Tone.js 循环播放对应的鼓点；变体：每个格子播放站在上面那个人的声音。",
+   "interaction": [
+    "voice-sound",
+    "hand-body",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "vvvv",
+    "floor projection",
+    "sensors"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "101091090",
+    "url": "https://vimeo.com/101091090"
+   },
+   "source_url": "https://schnellebuntebilder.de"
+  },
+  {
+   "id": "schnelle-bunte-bilder--blink-of-an-eye",
+   "creator_ids": [
+    "schnelle-bunte-bilder"
+   ],
+   "title": "BLINK OF AN EYE",
+   "year": 2014,
+   "description": "Even the smallest movement leaves time-delayed images on the wall: wandering video strips, shadows of your past movements or painted light collages.",
+   "description_zh": "即使最细微的动作也会在墙上留下延时的影像：游走的视频条带、你过去动作的影子，或是用光拼贴出的画面。",
+   "idea_en": "See your recent past moving next to you.",
+   "idea_zh": "看见刚刚过去的你在身边移动。",
+   "technique": "A camera feed is buffered in time and re-composited as slit-scan strips, delayed shadows and painted trails before being projected at wall scale.",
+   "technique_zh": "摄像画面被按时间缓存，再重新合成成狭缝扫描条带、延迟的影子和绘画般的轨迹，以整面墙的尺度投影出来。",
+   "exercise_en": "Build a webcam slit-scan or delay mirror in p5.js where each column of pixels shows a different moment in the last five seconds. Twist: the delay grows the closer you stand to the screen.",
+   "exercise_zh": "在 p5.js 里做一面狭缝扫描或延迟镜子，让每一列像素显示过去五秒中的不同时刻；变体：离屏幕越近，延迟越长。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "vvvv",
+    "camera",
+    "slit-scan"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "101410848",
+    "url": "https://vimeo.com/101410848"
+   },
+   "source_url": "https://schnellebuntebilder.de"
+  },
+  {
+   "id": "schnelle-bunte-bilder--panic",
+   "creator_ids": [
+    "schnelle-bunte-bilder"
+   ],
+   "title": "+Panic",
+   "year": 2021,
+   "description": "Thousands of projected fish swim in an exhibition foyer and sense the visitors. If people move calmly, the fish become curious and approach; fast movements spread panic through the swarm.",
+   "description_zh": "成千上万条投影出来的鱼在展厅门厅里游动，并能感知观众。如果人动作平缓，鱼会好奇地靠近；动作一快，恐慌就会在鱼群中蔓延。",
+   "idea_en": "A school of fish that only trusts you if you are calm.",
+   "idea_zh": "一群只在你平静时才信任你的鱼。",
+   "technique": "Overhead tracking measures visitors' positions and speeds, and a GPU swarm simulation in vvvv gamma gives each fish curiosity and contagious flight behaviours, with sound linked to the swarm.",
+   "technique_zh": "顶部追踪测量观众的位置和速度，vvvv gamma 中的 GPU 群体模拟赋予每条鱼好奇和相互传染的逃逸行为，声音也与鱼群联动。",
+   "exercise_en": "Code a boids flock in p5.js that follows the mouse or a tracked hand when it moves slowly and scatters when it moves fast. Twist: panic spreads from fish to fish with a delay.",
+   "exercise_zh": "在 p5.js 里写一个 boids 鱼群，鼠标或被追踪的手慢慢移动时鱼群跟随，动作快时鱼群四散；变体：恐慌会带着延迟从一条鱼传到另一条鱼。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "vvvv gamma",
+    "GPU swarm",
+    "tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "654523297",
+    "url": "https://vimeo.com/654523297"
+   },
+   "source_url": "https://schnellebuntebilder.de"
+  },
+  {
+   "id": "schnelle-bunte-bilder--amazonia-interactive-forest",
+   "creator_ids": [
+    "schnelle-bunte-bilder"
+   ],
+   "title": "Amazonia – The Interactive Forest",
+   "year": 2023,
+   "description": "An immersive wall projection lets children explore the Amazon rainforest and discover stories of its Indigenous cultures by moving their own bodies.",
+   "description_zh": "一面沉浸式墙面投影让孩子们用自己的身体动作探索亚马孙雨林，并发现当地原住民文化的故事。",
+   "idea_en": "Walk into a rainforest wall and let your movement uncover its stories.",
+   "idea_zh": "走进一面雨林墙，用你的动作揭开它的故事。",
+   "technique": "Body tracking in front of the wall (likely depth cameras) lets children push foliage aside and trigger animated story scenes in a real-time projected environment.",
+   "technique_zh": "墙前的身体追踪（推测为深度摄像头）让孩子能拨开树叶，并在实时投影的环境中触发动画故事场景。",
+   "exercise_en": "Project a dense leaf layer over a hidden picture and use webcam body segmentation to clear leaves wherever a child moves. Twist: the leaves grow back unless several children hold them open together.",
+   "exercise_zh": "在一幅隐藏的图片上投影一层茂密的树叶，用摄像头人体分割让孩子动到哪里，哪里的树叶就被拨开；变体：除非几个孩子一起撑住，否则树叶会重新长回来。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "data-information"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "body tracking",
+    "projection",
+    "real-time 3D"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "813835066",
+    "url": "https://vimeo.com/813835066"
+   },
+   "source_url": "https://schnellebuntebilder.de"
+  },
+  {
+   "id": "schnelle-bunte-bilder--mirror-m2",
+   "creator_ids": [
+    "schnelle-bunte-bilder"
+   ],
+   "title": "MIRROR (M2)",
+   "year": 2015,
+   "description": "A headset experiment in which the user's movement becomes sound, sound becomes light, and their mirrored body dissolves into a fluid stream of particles.",
+   "description_zh": "一次头戴设备实验：使用者的动作变成声音，声音又变成光，镜中的身体溶解为流动的粒子流。",
+   "idea_en": "See yourself dissolve into the sound you make.",
+   "idea_zh": "看着自己溶进自己发出的声音里。",
+   "technique": "An Oculus Rift and a Kinect 2 capture the body, a Max/MSP patch turns head and limb positions plus microphone input into sound, and vvvv renders a mirrored particle body driven by that sound.",
+   "technique_zh": "Oculus Rift 和 Kinect 2 捕捉身体，Max/MSP 程序把头部和四肢位置以及麦克风输入转换成声音，vvvv 再用这些声音驱动一个镜像的粒子身体。",
+   "exercise_en": "Build a WebXR or phone AR mirror where your tracked skeleton is drawn as particles whose size follows the microphone level. Twist: the particles lag behind the body by one second.",
+   "exercise_zh": "做一个 WebXR 或手机 AR 镜子，把被追踪的骨架画成粒子，粒子大小跟随麦克风音量；变体：粒子比身体慢一秒。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Oculus Rift",
+    "Kinect 2",
+    "vvvv",
+    "Max/MSP"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "140405048",
+    "url": "https://vimeo.com/140405048"
+   },
+   "source_url": "https://schnellebuntebilder.de"
+  },
+  {
+   "id": "schnelle-bunte-bilder--sensescapes",
+   "creator_ids": [
+    "schnelle-bunte-bilder"
+   ],
+   "title": "SENSESCAPES",
+   "year": 2012,
+   "description": "A 360-degree room at the Grassi Museum in Leipzig where visitors call up graphic interpretations of design epochs from Art Nouveau to today, then shape and sound them with their movement.",
+   "description_zh": "莱比锡 Grassi 应用艺术博物馆里的一个 360 度房间：观众可以唤出从新艺术运动到当代各个设计时期的图形诠释，并用自己的动作改变它们的形态和声音。",
+   "idea_en": "Stir a design epoch with your body.",
+   "idea_zh": "用身体去搅动一个设计时代。",
+   "technique": "Four infrared cameras track visitors, and vvvv on five PCs drives eight projectors around the room, changing graphics and sound according to people's positions.",
+   "technique_zh": "四台红外摄像头追踪观众，五台电脑上的 vvvv 驱动房间四周的八台投影仪，根据人的位置改变图形和声音。",
+   "exercise_en": "Pick three visual styles (for example Art Nouveau curves, Bauhaus blocks, pixel art) and let each corner of the room project one of them, blending as a tracked person walks between corners. Twist: the style mixes when two people stand in different corners.",
+   "exercise_zh": "选三种视觉风格（比如新艺术运动的曲线、包豪斯的方块、像素画），让房间的每个角落各投影一种，被追踪的人在角落之间走动时风格随之渐变；变体：两个人站在不同角落时，风格会混合。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "vvvv",
+    "infrared cameras",
+    "8 projectors"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "50854847",
+    "url": "https://vimeo.com/50854847"
+   },
+   "source_url": "https://schnellebuntebilder.de"
+  },
+  {
+   "id": "schnelle-bunte-bilder--fantastic-voyage",
+   "creator_ids": [
+    "schnelle-bunte-bilder"
+   ],
+   "title": "FANTASTIC VOYAGE",
+   "year": 2017,
+   "description": "Visitors explore the abstract interior of a sculpture with a light tool inspired by endoscopes; the generative world reacts to where they shine, and the sculpture's outside glows to mirror their journey.",
+   "description_zh": "观众手持受内窥镜启发的光源工具，探索一件雕塑的抽象内部；生成的世界对光照到的地方作出反应，雕塑外壳也随之发光，映出他们的探索旅程。",
+   "idea_en": "Shine a light inside an object and it comes alive.",
+   "idea_zh": "把光照进一个物体，它就活了过来。",
+   "technique": "A tracked handheld light acts as the controller for a real-time generative environment shown inside the sculpture, while LEDs on its shell replay the visitor's path.",
+   "technique_zh": "被追踪的手持光源作为控制器，操纵雕塑内部显示的实时生成环境，雕塑外壳上的 LED 则重现观众的探索路径。",
+   "exercise_en": "Let students shine a phone flashlight into a cardboard box with a webcam inside, and grow generative shapes on a screen wherever the light hits. Twist: shapes only survive in the dark once the light moves on.",
+   "exercise_zh": "让同学用手机手电筒照进一个内置摄像头的纸箱，光照到哪里，屏幕上就在哪里长出生成图形；变体：光移开之后，图形只能在黑暗中存活。",
+   "interaction": [
+    "tangible-object",
+    "perception-art",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "tracking",
+    "generative graphics",
+    "LED"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "207717295",
+    "url": "https://vimeo.com/207717295"
+   },
+   "source_url": "https://schnellebuntebilder.de"
+  },
+  {
+   "id": "onformative--fragments-of-rgb",
+   "creator_ids": [
+    "onformative"
+   ],
+   "title": "Fragments of RGB",
+   "year": 2010,
+   "description": "What looks like a classic LED screen is simulated with projected light points; as viewers approach, the pixels change, scatter and dissolve with their movement and point of view.",
+   "description_zh": "看上去像一块传统 LED 屏幕，其实是用投影光点模拟出来的；观众走近时，像素随着他们的动作和视角改变、散开并消解。",
+   "idea_en": "A screen that falls apart into pixels when you get close.",
+   "idea_zh": "你一靠近，屏幕就碎成像素。",
+   "technique": "A camera tracks the viewer's position and a projection simulates an LED pixel grid whose pixels are displaced and dissolved according to distance and angle.",
+   "technique_zh": "摄像头追踪观众位置，投影模拟出一个 LED 像素网格，像素根据距离和角度发生位移并消散。",
+   "exercise_en": "Show a video as a grid of large dots in p5.js and use the webcam's face size to scatter the dots as the viewer leans in. Twist: the image only becomes readable from one exact spot.",
+   "exercise_zh": "在 p5.js 里把一段视频显示成大圆点网格，用摄像头检测到的人脸大小，在观众靠近时把圆点打散；变体：只有站在某一个位置时，图像才能看清。",
+   "interaction": [
+    "perception-art",
+    "gaze-attention",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "camera tracking",
+    "projection",
+    "Processing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "21235126",
+    "url": "https://vimeo.com/21235126"
+   },
+   "source_url": "https://onformative.com/work/fragments-of-rgb"
+  },
+  {
+   "id": "onformative--magic-and-storytelling",
+   "creator_ids": [
+    "onformative"
+   ],
+   "title": "Magic and Storytelling",
+   "year": 2012,
+   "description": "Cyber illusionist Marco Tempest tells the history of storytelling on stage while virtual magic appears around his hands and props in real time, created with onformative and checksum5.",
+   "description_zh": "赛博魔术师 Marco Tempest 在舞台上讲述讲故事的历史，虚拟魔法实时出现在他的双手和道具周围。作品由他与 onformative、checksum5 合作完成。",
+   "idea_en": "Augmented graphics become a magician's sleight of hand.",
+   "idea_zh": "增强图形成了魔术师的障眼法。",
+   "technique": "A real-time data-flow system tracks live elements on stage and renders generative graphics composited onto the camera view and projection, so effects react to the performer.",
+   "technique_zh": "实时数据流系统追踪舞台上的现场元素，生成图形并合成到摄像画面和投影中，让特效对表演者作出反应。",
+   "exercise_en": "Design a 60-second phone AR magic trick in Lens Studio or 8th Wall where a playing card or coin spawns a virtual effect that the audience sees on a big screen. Twist: the effect appears on a card the audience chose.",
+   "exercise_zh": "用 Lens Studio 或 8th Wall 设计一个 60 秒的手机 AR 魔术：一张扑克牌或一枚硬币变出虚拟特效，观众在大屏幕上看到；变体：特效出现在观众自己挑选的那张牌上。",
+   "interaction": [
+    "performance-stage",
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "real-time tracking",
+    "compositing",
+    "projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "39346593",
+    "url": "https://vimeo.com/39346593"
+   },
+   "source_url": "https://onformative.com/work/magic-and-storytelling"
+  },
+  {
+   "id": "onformative--anima-iki",
+   "creator_ids": [
+    "onformative"
+   ],
+   "title": "ANIMA iki",
+   "year": 2015,
+   "description": "A two-metre glowing sphere hangs in a dark room; shimmering patterns flow across it and tones change as it senses visitors' movements and sounds, like a creature getting to know them.",
+   "description_zh": "一个直径两米的发光球体悬在黑暗的房间里；闪烁的图案在球面上流动，声音也在变化，它感知观众的动作和声音，像一个正在认识他们的生物。",
+   "idea_en": "A glowing orb that behaves like a shy living being.",
+   "idea_zh": "一个像害羞生物一样行事的发光球。",
+   "technique": "Sensors read visitors' movement and sound, and generative visuals projected onto the sphere plus an interactive soundscape express the entity's changing moods.",
+   "technique_zh": "传感器读取观众的动作和声音，投影在球体上的生成式影像和互动声景一起表现这个“生物”不断变化的情绪。",
+   "exercise_en": "Project a p5.js noise pattern onto a white balloon or paper lamp and make it calm, curious or startled depending on microphone level and webcam motion. Twist: the orb remembers the loudest person and turns away from them.",
+   "exercise_zh": "把 p5.js 噪声图案投影到白色气球或纸灯罩上，根据麦克风音量和摄像头检测到的动作，让它表现出平静、好奇或受惊；变体：光球会记住最吵的人，并转身背对他。",
+   "interaction": [
+    "voice-sound",
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "sensors",
+    "generative sound"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "128767230",
+    "url": "https://vimeo.com/128767230"
+   },
+   "source_url": "https://onformative.com/work/anima-iki"
+  },
+  {
+   "id": "onformative--nikefuel-station",
+   "creator_ids": [
+    "onformative"
+   ],
+   "title": "NikeFuel Station",
+   "year": 2012,
+   "description": "The centrepiece of a London pop-up store turns anyone standing in front of it into a moving multi-pixel avatar that mirrors their body and energy.",
+   "description_zh": "伦敦一家快闪店的核心装置，把站在它前面的人变成一个由许多像素组成、会镜像其动作和活力的移动化身。",
+   "idea_en": "Your body rebuilt as a cloud of glowing pixels.",
+   "idea_zh": "你的身体被重建为一团发光的像素。",
+   "technique": "A Kinect captures the visitor's body and depth, and generative software renders it as a pixel-particle avatar on large screens (collaboration with AKQA London).",
+   "technique_zh": "Kinect 捕捉观众的身体和深度，生成式软件在大屏幕上把它渲染成像素粒子化身（与 AKQA London 合作）。",
+   "exercise_en": "Turn a webcam body segmentation into a grid of squares whose brightness follows how fast each body part moves. Twist: the avatar leaves a pixel trail that shows your whole day's activity.",
+   "exercise_zh": "把摄像头的人体分割变成方块网格，每个方块的亮度跟随对应身体部位的运动速度；变体：化身留下一条像素轨迹，显示你一整天的活动。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Kinect",
+    "generative graphics"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "44338220",
+    "url": "https://vimeo.com/44338220"
+   },
+   "source_url": "https://onformative.com/work/nike-fuel-station"
+  },
+  {
+   "id": "onformative--kinect-leap-creature",
+   "creator_ids": [
+    "onformative"
+   ],
+   "title": "Kinect / Leap controlled realtime creature",
+   "year": 2013,
+   "description": "A work-in-progress digital creature that moves and reacts in real time to a person's hands and body, controlled with a Kinect and a Leap Motion.",
+   "description_zh": "一只正在开发中的数字生物，通过 Kinect 和 Leap Motion 实时响应人的双手和身体，并随之移动。",
+   "idea_en": "Puppeteer a creature with your bare hands.",
+   "idea_zh": "徒手操纵一只生物。",
+   "technique": "Kinect body data and Leap Motion finger data drive the limbs and behaviour of a procedurally generated creature built with Processing 2.0.",
+   "technique_zh": "Kinect 的身体数据和 Leap Motion 的手指数据驱动一只用 Processing 2.0 程序化生成的生物的肢体和行为。",
+   "exercise_en": "Use MediaPipe hand tracking to drive a simple tentacle creature in p5.js, with each finger controlling one limb. Twist: place it in AR so it crawls on your real desk.",
+   "exercise_zh": "用 MediaPipe 手部追踪在 p5.js 里驱动一只简单的触手生物，每根手指控制一条肢体；变体：把它放进 AR，让它在你真实的桌面上爬。",
+   "interaction": [
+    "hand-body",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Kinect",
+    "Leap Motion",
+    "Processing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "71086950",
+    "url": "https://vimeo.com/71086950"
+   },
+   "source_url": "https://onformative.com"
+  },
+  {
+   "id": "tin-and-ed--deep-field",
+   "creator_ids": [
+    "tin-and-ed"
+   ],
+   "title": "Deep Field",
+   "year": 2023,
+   "description": "An interactive AR artwork for museum gardens and public spaces: through a phone, imagined plants that glow, shapeshift or sprout teeth grow around visitors, accompanied by recordings of animals and insects that are now gone.",
+   "description_zh": "一件为博物馆花园和公共空间创作的互动 AR 作品：透过手机，会发光、会变形、会长出牙齿的想象植物在观众周围生长，伴随着如今已经消失的动物和昆虫的录音。",
+   "idea_en": "A phone reveals a speculative garden of plants that do not exist yet.",
+   "idea_zh": "用手机看见一座由尚不存在的植物组成的推想花园。",
+   "technique": "Procedurally generated and hand-sculpted 3D plants are placed in the surroundings with markerless phone AR, while a soundscape from The Listening Planet's field recordings plays around them.",
+   "technique_zh": "程序生成和手工雕刻的三维植物通过无标记手机 AR 放置在周围环境中，同时播放来自 The Listening Planet 野外录音的声景。",
+   "exercise_en": "Design one imaginary plant from two real species, model it simply in Reality Composer, Lens Studio or WebXR, and place it in the school garden with a matching sound. Twist: the plant only blooms when someone stays still next to it.",
+   "exercise_zh": "把两种真实植物组合成一种想象植物，在 Reality Composer、Lens Studio 或 WebXR 里简单建模，把它放进学校花园并配上相应的声音；变体：只有有人在它旁边静静待着时，它才会开花。",
+   "interaction": [
+    "location-geo",
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "procedural modelling",
+    "spatial audio"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "925554115",
+    "url": "https://vimeo.com/925554115"
+   },
+   "source_url": "https://tinanded.com/projects/deepfield"
+  },
+  {
+   "id": "tin-and-ed--kaleidoscopic-home-ar",
+   "creator_ids": [
+    "tin-and-ed"
+   ],
+   "title": "Kaleidoscopic Home AR",
+   "year": 2021,
+   "description": "An Everyday Experiment for SPACE10 and IKEA: an AR app turns your home into a playground where colourful sculptural forms grow out of tables, chairs, floors and walls to nudge you into moving.",
+   "description_zh": "为 SPACE10 和 IKEA 的 Everyday Experiments 创作：一个 AR 应用把家变成游乐场，彩色的雕塑形体从桌子、椅子、地板和墙上长出来，引导你活动身体。",
+   "idea_en": "Grow playground sculptures out of your furniture to get you moving.",
+   "idea_zh": "让家具上长出游乐场雕塑，引你动起来。",
+   "technique": "Object recognition and plane detection find furniture and surfaces, and generative forms are anchored to them so they appear to emerge from the real room.",
+   "technique_zh": "物体识别和平面检测找到家具和表面，生成式形体锚定在上面，看起来就像从真实房间里长出来。",
+   "exercise_en": "Use AR Foundation or Lens Studio plane detection to spawn a twisting tube from every detected surface and ask a classmate to follow it with their body. Twist: the tube grows toward the person who has been sitting longest.",
+   "exercise_zh": "用 AR Foundation 或 Lens Studio 的平面检测，从每个识别到的表面长出一根扭曲的管子，请同学用身体沿着它走；变体：管子朝坐得最久的那个人生长。",
+   "interaction": [
+    "spatial-mapping",
+    "game-play",
+    "hand-body"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "object recognition",
+    "generative forms"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "747340367",
+    "url": "https://vimeo.com/747340367"
+   },
+   "source_url": "https://tinanded.com/projects/kaleidoscopic-home-ar"
+  },
+  {
+   "id": "tin-and-ed--life-forces",
+   "creator_ids": [
+    "tin-and-ed"
+   ],
+   "title": "Life Forces",
+   "year": 2021,
+   "description": "Three LED screens show endlessly scrolling landscapes of moss, fungi and flowers. Viewers' bodies are tracked so they can roleplay as pollen and spores, feed as slime mould or sway as rock formations.",
+   "description_zh": "三块 LED 屏幕上是无尽滚动的苔藓、真菌和花朵景观。观众的身体被追踪，可以扮演花粉和孢子、像黏菌一样觅食，或像岩石一样摇摆。",
+   "idea_en": "Your body becomes pollen, fungus or rock in a living diorama.",
+   "idea_zh": "在一座活的生态景箱里，你的身体变成花粉、真菌或岩石。",
+   "technique": "An iPad Pro under each screen runs live body tracking, and a real-time 3D scene built from scanned plants responds to the viewer's pose and movement.",
+   "technique_zh": "每块屏幕下的 iPad Pro 运行实时身体追踪，由扫描植物构成的实时三维场景对观众的姿势和动作作出反应。",
+   "exercise_en": "Use ARKit body tracking or MediaPipe pose to map a student's arms to swaying stems in a p5.js or Unity garden. Twist: each classmate controls a different species and the garden only thrives when all move together.",
+   "exercise_zh": "用 ARKit 身体追踪或 MediaPipe 姿态估计，把同学的手臂映射成 p5.js 或 Unity 花园里摇摆的茎；变体：每位同学控制一种不同的植物，只有大家一起动，花园才会繁茂。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "iPad Pro",
+    "body tracking",
+    "real-time 3D"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "906183149",
+    "url": "https://vimeo.com/906183149"
+   },
+   "source_url": "https://tinanded.com/projects/life-forces"
+  },
+  {
+   "id": "tin-and-ed--kernel",
+   "creator_ids": [
+    "tin-and-ed"
+   ],
+   "title": "Kernel",
+   "year": 2021,
+   "description": "A large inflatable sculpture shaped like a seed pod stands in a garden; through an AR app it digitally germinates, sprouting new virtual life forms from the tips of its buds.",
+   "description_zh": "一件形似种荚的大型充气雕塑立在花园里；通过 AR 应用，它会以数字形式“发芽”，从每个芽尖长出新的虚拟生命形态。",
+   "idea_en": "A physical sculpture that sprouts virtual life when you look through a phone.",
+   "idea_zh": "一件实体雕塑，透过手机看时会长出虚拟生命。",
+   "technique": "Generative patterns at the tip of each bud act as AR tracking features on the physical sculpture, so virtual growths are registered precisely to the inflatable.",
+   "technique_zh": "每个芽尖上的生成图案作为实体雕塑上的 AR 追踪特征，使虚拟生长物能精确贴合在充气雕塑上。",
+   "exercise_en": "Make a small paper or clay sculpture with printed patterns, scan it as an object target in Vuforia or Lens Studio, and let virtual sprouts grow from it. Twist: the sprouts are different for each viewer's birthday month.",
+   "exercise_zh": "做一件带印刷图案的小纸雕或黏土雕塑，在 Vuforia 或 Lens Studio 中把它扫描为物体识别目标，让虚拟嫩芽从上面长出来；变体：嫩芽的样子随观众的出生月份而不同。",
+   "interaction": [
+    "tangible-object",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "object tracking",
+    "inflatable sculpture"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "908430724",
+    "url": "https://vimeo.com/908430724"
+   },
+   "source_url": "https://tinanded.com/projects/kernel"
+  },
+  {
+   "id": "yuri-suzuki--ar-music-kit",
+   "creator_ids": [
+    "yuri-suzuki"
+   ],
+   "title": "AR Music Kit",
+   "year": 2016,
+   "description": "A few printed paper cards turn a phone into a DIY instrument: when the camera sees a patterned code, the device plays the matching note, so you compose by arranging and moving paper.",
+   "description_zh": "几张印好的纸卡就能把手机变成一件自制乐器：摄像头看到带图案的编码时，设备就播放对应的音符，你只要排列、移动纸片就能作曲。",
+   "idea_en": "Play music by showing paper to a phone camera.",
+   "idea_zh": "把纸片给手机摄像头看，就能演奏音乐。",
+   "technique": "Printed fiducial markers are recognised by the phone's camera and each code is mapped to a sound sample.",
+   "technique_zh": "手机摄像头识别印刷的标记码，每个标记对应一个声音样本。",
+   "exercise_en": "Print ArUco or image markers, recognise them in a WebAR page, and play a different sample for each marker seen. Twist: the order of markers from left to right becomes a melody.",
+   "exercise_zh": "打印 ArUco 码或图像标记，在 WebAR 网页中识别它们，每看到一个标记就播放一个不同的声音样本；变体：标记从左到右的排列顺序构成一段旋律。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "marker tracking",
+    "iOS",
+    "audio samples"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "6uUSVdQcafE",
+    "url": "https://www.youtube.com/watch?v=6uUSVdQcafE"
+   },
+   "source_url": "http://yurisuzuki.com"
+  },
+  {
+   "id": "yuri-suzuki--the-welcome-chorus",
+   "creator_ids": [
+    "yuri-suzuki"
+   ],
+   "title": "The Welcome Chorus",
+   "year": 2019,
+   "description": "Twelve horns, one for each district of Kent, sing lyrics generated live by an AI trained on words contributed by local people; visitors speak or sing into a conductor sculpture and their words enter the chorus.",
+   "description_zh": "十二只号角各代表肯特郡的一个地区，唱着由 AI 实时生成的歌词，这个 AI 由当地居民贡献的文字训练而成；观众对着一个“指挥”雕塑说话或唱歌，他们的话就会加入合唱。",
+   "idea_en": "A public choir of horns that learns new lyrics from passers-by.",
+   "idea_zh": "一支由号角组成的公共合唱团，从路人那里学习新歌词。",
+   "technique": "A site-specific text generator trained on community lyrics feeds a singing synthesis system routed to twelve horn speakers, and a microphone in the conductor sculpture adds visitors' input to the model.",
+   "technique_zh": "用社区歌词训练的在地文本生成模型，驱动一个歌声合成系统，声音送到十二只号角扬声器；“指挥”雕塑中的麦克风把观众的输入加入模型。",
+   "exercise_en": "Collect one sentence about the school from every student, generate new lines with a small text model or a random remix script, and play them from phones hidden in paper horns around the room. Twist: each horn only sings words from one class.",
+   "exercise_zh": "请每位同学写一句关于学校的话，用小型文本模型或随机重组脚本生成新句子，从藏在纸号角里的手机播放出来，分布在房间各处；变体：每只号角只唱某一个班级的句子。",
+   "interaction": [
+    "voice-sound",
+    "multiplayer-social",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "AI text generation",
+    "speech synthesis",
+    "horn speakers"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "pB1TBwACzsE",
+    "url": "https://www.youtube.com/watch?v=pB1TBwACzsE"
+   },
+   "source_url": "https://yurisuzuki.com/projects/the-welcome-chorus"
+  },
+  {
+   "id": "yuri-suzuki--sonic-bloom",
+   "creator_ids": [
+    "yuri-suzuki"
+   ],
+   "title": "Sonic Bloom",
+   "year": 2021,
+   "description": "A cluster of colourful horn-shaped structures in a London street captures and carries voices, so strangers can talk and listen to each other across the sculpture while city and nature sounds mix in.",
+   "description_zh": "伦敦街头的一组彩色号角形结构，能收集并传送人声，让陌生人隔着雕塑彼此交谈、聆听，同时混入城市和自然的声音。",
+   "idea_en": "Horns that let strangers talk to each other across a street.",
+   "idea_zh": "让陌生人隔着街道彼此交谈的号角。",
+   "technique": "Acoustic horns and pipes physically channel sound between listening points, likely combined with amplified ambient recordings.",
+   "technique_zh": "声学号角和管道在各个聆听点之间物理地传导声音，推测还结合了经过放大的环境录音。",
+   "exercise_en": "Build two cardboard or plastic tube horns connected by a garden hose so two students can whisper across a room, then map the best listening spots. Twist: add a third horn that only plays birdsong.",
+   "exercise_zh": "用纸板或塑料做两只号角，用花园水管连接，让两位同学隔着房间悄悄说话，再标出最佳聆听位置；变体：加第三只号角，只播放鸟鸣。",
+   "interaction": [
+    "voice-sound",
+    "multiplayer-social",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "acoustic horns",
+    "public sculpture"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "610583719",
+    "url": "https://vimeo.com/610583719"
+   },
+   "source_url": "https://yurisuzuki.com/projects/sonic-bloom"
+  },
+  {
+   "id": "yuri-suzuki--garden-of-russolo",
+   "creator_ids": [
+    "yuri-suzuki"
+   ],
+   "title": "Garden of Russolo",
+   "year": 2013,
+   "description": "Phonograph-like wooden boxes in the V&A's garden let visitors speak or sing into them and hear their own voice returned as a muffled, twisted atmospheric noise, a tribute to Futurist composer Luigi Russolo.",
+   "description_zh": "V&A 花园里的一组留声机般的木箱，观众对着它们说话或唱歌，听到自己的声音变成沉闷、扭曲的氛围噪声返回，以此致敬未来主义作曲家 Luigi Russolo。",
+   "idea_en": "Speak into a box and hear your voice turned into noise music.",
+   "idea_zh": "对着箱子说话，听自己的声音变成噪音音乐。",
+   "technique": "Each box captures the voice with a microphone and re-plays it through filters and amplification that distort and reinterpret the input, following Suzuki's earlier white noise machines.",
+   "technique_zh": "每个箱子用麦克风收集人声，再经过滤波和放大，把输入扭曲、重新诠释后播放出来，延续了 Suzuki 早先的“白噪音机器”系列。",
+   "exercise_en": "Build a web page that records one second of voice and loops it back through a random chain of Web Audio filters, then place phones in cardboard horns around the school. Twist: each horn replays the voice of the previous visitor.",
+   "exercise_zh": "做一个网页，录下一秒人声，再通过随机的 Web Audio 滤波器链循环播放，把手机放进纸号角里分布在校园各处；变体：每只号角播放的都是上一位观众的声音。",
+   "interaction": [
+    "voice-sound",
+    "tangible-object",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "microphones",
+    "audio filters",
+    "horns"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "75251985",
+    "url": "https://vimeo.com/75251985"
+   },
+   "source_url": "https://yurisuzuki.com/projects/garden-of-russolo"
+  },
+  {
+   "id": "random-studio--sun",
+   "creator_ids": [
+    "random-studio"
+   ],
+   "title": "SUN",
+   "year": 2017,
+   "description": "Made with artist Philip Schuette: a giant bouncy ball controls a projected sunset, so bouncing and pushing the ball makes the sun rise and fall over a hyper-real horizon.",
+   "description_zh": "与艺术家 Philip Schuette 合作：一个巨大的弹力球控制着投影出来的落日，拍打、推动这个球，太阳就会在超现实的地平线上升起、落下。",
+   "idea_en": "Bounce a ball to move the sun.",
+   "idea_zh": "拍一拍球，就能让太阳移动。",
+   "technique": "The ball's position and bounces are tracked (likely with a camera or depth sensor) and mapped to the height and colour of a rendered sun in a real-time landscape.",
+   "technique_zh": "球的位置和弹跳被追踪（推测用摄像头或深度传感器），映射为实时风景中太阳的高度和颜色。",
+   "exercise_en": "Track a coloured ball with a webcam in p5.js and map its height to the sun's position and sky colour in a simple gradient landscape. Twist: the moon is controlled by a second ball held by another student.",
+   "exercise_zh": "在 p5.js 里用摄像头追踪一个彩色球，把它的高度映射成简单渐变风景中太阳的位置和天空的颜色；变体：月亮由另一位同学手中的第二个球控制。",
+   "interaction": [
+    "tangible-object",
+    "game-play",
+    "portal-world"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "tracking",
+    "real-time rendering",
+    "projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "212766197",
+    "url": "https://vimeo.com/212766197"
+   },
+   "source_url": "https://random.studio/projects/sun"
+  },
+  {
+   "id": "random-studio--body",
+   "creator_ids": [
+    "random-studio"
+   ],
+   "title": "BODY",
+   "year": 2018,
+   "description": "A playful search engine for Cinekid Festival, made with Philip Schuette: strike a pose and it is reflected back as images from the internet that match your body's shape, cycling as you move.",
+   "description_zh": "为 Cinekid 电影节做的一个好玩的“搜索引擎”，与 Philip Schuette 合作：摆一个姿势，屏幕就用与你身体形状相符的网络图片把你映照出来，你一动，图片就随之切换。",
+   "idea_en": "Use your whole body as a search term.",
+   "idea_zh": "把整个身体当作搜索关键词。",
+   "technique": "Pose estimation turns the visitor's body into a query, and a pre-indexed library of web images is matched by pose or silhouette and shown in real time.",
+   "technique_zh": "姿态估计把观众的身体变成一个查询条件，从预先建立索引的网络图片库中按姿势或轮廓匹配，并实时显示。",
+   "exercise_en": "Collect 50 photos of people or statues, extract their poses with MediaPipe, and show the closest match to a student's live pose. Twist: search a collection of objects instead of people.",
+   "exercise_zh": "收集 50 张人物或雕像照片，用 MediaPipe 提取姿势，实时显示与同学当前姿势最接近的一张；变体：检索的不是人，而是一组物品的照片。",
+   "interaction": [
+    "hand-body",
+    "data-information",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "pose estimation",
+    "image search"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "314018273",
+    "url": "https://vimeo.com/314018273"
+   },
+   "source_url": "https://random.studio/projects/body"
+  },
+  {
+   "id": "random-studio--conduct-the-orchestra",
+   "creator_ids": [
+    "random-studio"
+   ],
+   "title": "Conduct The Orchestra",
+   "year": 2013,
+   "description": "At Amsterdam's Concertgebouw, members of the public conduct their own orchestra: their arm movements set the tempo and dynamics of a recorded performance.",
+   "description_zh": "在阿姆斯特丹音乐厅，普通观众可以指挥属于自己的乐团：手臂的动作决定一段录制演奏的速度和强弱。",
+   "idea_en": "Anyone can be the conductor of a great orchestra.",
+   "idea_zh": "谁都可以当一回伟大乐团的指挥。",
+   "technique": "Motion tracking reads the conducting gesture and its speed and size are mapped to playback tempo and volume of the orchestral recording.",
+   "technique_zh": "动作追踪读取指挥手势，把手势的速度和幅度映射为管弦乐录音的播放速度和音量。",
+   "exercise_en": "Track a hand with MediaPipe and map its up-down speed to the playback rate of a song in the browser. Twist: split the orchestra into sections that follow different students.",
+   "exercise_zh": "用 MediaPipe 追踪一只手，把它上下挥动的速度映射成浏览器中一首曲子的播放速度；变体：把乐团分成几个声部，各由一位同学指挥。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "performance-stage"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "motion tracking",
+    "audio time-stretching"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "67575564",
+    "url": "https://vimeo.com/67575564"
+   },
+   "source_url": "https://random.studio"
+  },
+  {
+   "id": "random-studio--a-moving-sanctuary",
+   "creator_ids": [
+    "random-studio"
+   ],
+   "title": "A Moving Sanctuary",
+   "year": 2026,
+   "description": "A cocoon-like pod made for Lexus at Milan Design Week: visitors lie down inside and their breathing and small body movements steer the light and sound around them.",
+   "description_zh": "为 Lexus 在米兰设计周打造的茧形空间：观众躺在里面，他们的呼吸和细微的身体动作引导着周围的光与声音。",
+   "idea_en": "A room that breathes with you.",
+   "idea_zh": "一个和你一起呼吸的房间。",
+   "technique": "Thermal sensing and computer vision detect breathing, a custom-trained AI model classifies inhale and exhale in real time, and the output drives a continuous choreography of light and sound.",
+   "technique_zh": "热成像和计算机视觉检测呼吸，定制训练的 AI 模型实时判断吸气与呼气，输出驱动光与声音的连续编排。",
+   "exercise_en": "Use a phone accelerometer on the chest or a webcam to detect breathing and slowly pulse a projected light or LED strip in the same rhythm. Twist: the light gently leads the breath by breathing a little slower than you.",
+   "exercise_zh": "把手机放在胸口用加速度计，或用摄像头检测呼吸，让投影光或 LED 灯带以同样的节奏缓慢起伏；变体：让光比你呼吸得稍慢一点，温和地引导你放慢呼吸。",
+   "interaction": [
+    "hand-body",
+    "perception-art",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "thermal camera",
+    "computer vision",
+    "AI"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1196639577",
+    "url": "https://vimeo.com/1196639577"
+   },
+   "source_url": "https://random.studio/projects/a-moving-sanctuary-for-lexus"
+  },
+  {
+   "id": "usc-world-building-media-lab--leviathan-ces-2014-keynote",
+   "creator_ids": [
+    "usc-world-building-media-lab"
+   ],
+   "title": "Leviathan at Intel CES 2014 Keynote",
+   "year": 2014,
+   "description": "During Intel's CES 2014 keynote, a giant steampunk flying whale from Scott Westerfeld's Leviathan leaves the screen and swims above an audience of 2,500 people, visible on the big screens and a handheld tablet.",
+   "description_zh": "在 Intel 的 CES 2014 主题演讲上，一头来自 Scott Westerfeld 小说《Leviathan》的巨型蒸汽朋克飞鲸离开屏幕，在 2,500 名观众头顶游过，观众可以在大屏幕和一台手持平板上看到它。",
+   "idea_en": "Fly a virtual whale over a live audience.",
+   "idea_zh": "让一头虚拟鲸鱼飞过现场观众头顶。",
+   "technique": "Cameras and a tracked tablet in the hall are registered to the auditorium, and the animated whale is composited live from several points of view onto the stage screens.",
+   "technique_zh": "场馆内的摄像机和被追踪的平板与礼堂空间对齐，动画鲸鱼从多个视角实时合成到舞台屏幕上。",
+   "exercise_en": "Anchor a large animated creature above the classroom in AR (8th Wall, Lens Studio or AR Foundation) and mirror one phone's view to the projector so everyone watches it pass overhead. Twist: the creature reacts when the class claps.",
+   "exercise_zh": "用 AR（8th Wall、Lens Studio 或 AR Foundation）在教室上空放一只巨大的动画生物，把一部手机的画面投到投影仪上，让全班一起看它从头顶飞过；变体：全班鼓掌时，生物会作出反应。",
+   "interaction": [
+    "performance-stage",
+    "multiplayer-social",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "projection"
+   ],
+   "tech": [
+    "tablet AR",
+    "camera tracking",
+    "live compositing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "vN3Ijgsd1RE",
+    "url": "https://www.youtube.com/watch?v=vN3Ijgsd1RE"
+   },
+   "source_url": "https://www.bradleynewman.io/leviathan"
+  },
+  {
+   "id": "usc-world-building-media-lab--leviathan-mixed-reality-props",
+   "creator_ids": [
+    "usc-world-building-media-lab"
+   ],
+   "title": "Leviathan Mixed Reality Props",
+   "year": 2014,
+   "description": "In a VR story set in the Leviathan world, a real chair recreated with photogrammetry and a tracked book let participants physically touch the virtual scene while embodied as a floating jellyfish.",
+   "description_zh": "在一个以《Leviathan》世界为背景的 VR 故事里，一把用摄影测量重建的真实椅子和一本被追踪的书，让参与者在化身为漂浮水母的同时，能亲手触摸虚拟场景。",
+   "idea_en": "Touch the virtual world through real furniture.",
+   "idea_zh": "通过真实的家具触摸虚拟世界。",
+   "technique": "Photogrammetry scans of physical props are placed in Unity at the exact positions reported by a motion-capture system, so what users see and touch line up.",
+   "technique_zh": "实体道具的摄影测量扫描模型被放进 Unity，位置与动作捕捉系统报告的实际位置完全一致，因此用户看到的和摸到的对得上。",
+   "exercise_en": "Scan a classroom chair with a phone photogrammetry app, place the model at the real chair's position in a Quest or WebXR scene, and have classmates sit on it blind. Twist: turn the chair into a different creature each time someone sits.",
+   "exercise_zh": "用手机摄影测量应用扫描一把教室椅子，在 Quest 或 WebXR 场景中把模型放到真实椅子的位置，让同学戴着头显坐上去；变体：每次有人坐下，椅子就变成另一种生物。",
+   "interaction": [
+    "tangible-object",
+    "spatial-mapping",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "photogrammetry",
+    "motion capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "BLH5VtcN9iE",
+    "url": "https://www.youtube.com/watch?v=BLH5VtcN9iE"
+   },
+   "source_url": "https://www.bradleynewman.io/leviathan"
+  },
+  {
+   "id": "seeing-the-invisible--seeing-the-invisible",
+   "creator_ids": [
+    "seeing-the-invisible"
+   ],
+   "title": "Seeing the Invisible",
+   "year": 2021,
+   "description": "An exhibition of thirteen AR artworks by artists such as Ai Weiwei, El Anatsui, Refik Anadol and Sigalit Landau, installed at the same time in botanical gardens around the world and viewed through one phone app while walking the grounds.",
+   "description_zh": "一场由十三件 AR 作品组成的展览，艺术家包括 Ai Weiwei、El Anatsui、Refik Anadol、Sigalit Landau 等；作品同时安放在全球多座植物园里，观众在园中漫步，用同一个手机应用观看。",
+   "idea_en": "One exhibition that exists in many gardens at once, visible only through a phone.",
+   "idea_zh": "一场同时存在于多座花园、只能用手机看见的展览。",
+   "technique": "Each artwork is geolocated to a spot in every participating garden and anchored with markerless phone AR, so visitors find the pieces by walking a route.",
+   "technique_zh": "每件作品都被定位到每座参展花园中的某个地点，并通过无标记手机 AR 锚定，观众沿着路线行走来寻找作品。",
+   "exercise_en": "Have each student make one small AR piece in Lens Studio or WebXR about something invisible on campus (wind, noise, history) and place all of them along a walking route. Twist: install the same show in a second location and compare how the site changes each piece.",
+   "exercise_zh": "请每位同学用 Lens Studio 或 WebXR 做一件关于校园中某种看不见之物（风、噪声、历史）的小型 AR 作品，把它们沿一条步行路线放置；变体：在第二个地点布置同样的展览，比较场地如何改变每件作品。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "geolocated AR",
+    "mobile app"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "u6uJhr9BPsI",
+    "url": "https://www.youtube.com/watch?v=u6uJhr9BPsI"
+   },
+   "source_url": "https://www.rbg.ca/things-to-do/art-in-the-gardens/seeing-the-invisible/"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Marco Tempest",
+   "why": "Cyber illusionist who combines stage magic with AR, projection and drones; Magic and Storytelling was made with onformative.",
+   "link": "https://vimeo.com/39346593",
+   "found_via": "onformative",
+   "status": "open"
+  },
+  {
+   "name": "Philip Schuette",
+   "why": "Dutch artist behind playful interactive installations SUN (a bouncy ball moves the sun) and BODY (your pose as an image search) with Random Studio.",
+   "link": "https://www.philipschuette.com",
+   "found_via": "random-studio",
+   "status": "open"
+  },
+  {
+   "name": "Nick Verstand",
+   "why": "Dutch audiovisual artist, co-creator of ANIMA with onformative; makes light-and-sound installations that respond to visitors.",
+   "link": "https://vimeo.com/110243559",
+   "found_via": "onformative",
+   "status": "open"
+  }
+ ]
+}

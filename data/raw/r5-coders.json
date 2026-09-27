@@ -1,0 +1,1383 @@
+{
+ "batch": "r5-coders",
+ "creators": [
+  {
+   "id": "johnny-chung-lee",
+   "name": "Johnny Chung Lee",
+   "role": "HCI researcher; Wii Remote hacker; led Project Tango at Google",
+   "based": "California, US",
+   "bio": "Did his PhD at Carnegie Mellon on projector-based tracking, where light sensors hidden in a surface let a projector find and follow it. His 2007 Wii Remote videos (head-tracked 3D, a $50 interactive whiteboard, finger tracking) reached millions; he later worked on Kinect at Microsoft and led Project Tango at Google.",
+   "why": "He showed again and again that a cheap sensor plus one clever idea (track the head, not the scene) can produce spatial illusions that expensive systems had not made popular.",
+   "role_zh": "人机交互研究者；Wii 遥控器改造达人；Google Project Tango 负责人",
+   "based_zh": "加利福尼亚，美国",
+   "bio_zh": "在卡内基梅隆大学攻读博士，研究基于投影仪的定位追踪：把光传感器藏在物体表面，投影仪就能自己找到并跟随它。2007 年他用 Wii 遥控器做的视频（头部追踪 3D、50 美元的互动白板、手指追踪）被数百万人观看；之后他在微软参与 Kinect，又在 Google 领导 Project Tango。",
+   "why_zh": "他一次次证明：一个便宜的传感器加一个巧妙的想法（追踪人的头，而不是场景），就能做出昂贵系统都没能普及的空间错觉。",
+   "links": {
+    "site": "http://johnnylee.net",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCTW58h2zg8r9O0bGmMt2L5Q",
+    "github": ""
+   },
+   "connected_to": [
+    "google-atap",
+    "mar-gonzalez-franco"
+   ],
+   "discovered_via": "google-atap"
+  },
+  {
+   "id": "clara-bacou",
+   "name": "Clara Bacou",
+   "role": "3D artist and Snapchat Lens creator",
+   "based": "London, UK",
+   "bio": "Street artist turned 3D and AR artist who makes Snapchat and Spectacles Lenses, digital sculptures and branded AR, from the 2019 Spectacles 3 launch lenses to the dragon-flock Spectacles Lens Blazer.",
+   "why": "Her Spectacles 3 lens fills everyday places with giant hand-drawn butterflies, a simple way to show how you see your own world.",
+   "role_zh": "3D 艺术家、Snapchat 镜头创作者",
+   "based_zh": "伦敦，英国",
+   "bio_zh": "从街头涂鸦转向 3D 与 AR 创作，为 Snapchat 和 Spectacles 制作镜头、数字雕塑和品牌 AR，作品从 2019 年 Spectacles 3 首发镜头到引导龙群飞行的 Spectacles 镜头 Blazer。",
+   "why_zh": "她的 Spectacles 3 镜头让巨大的手绘蝴蝶飞满日常场景，用很简单的方式表达“我眼中的世界是什么样”。",
+   "links": {
+    "site": "",
+    "x": "https://x.com/ClaraBacou",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "yegor-ryabtsov"
+   ],
+   "discovered_via": "yegor-ryabtsov"
+  },
+  {
+   "id": "ninsky",
+   "name": "Ninsky",
+   "role": "AR developer (Lens Studio, Spectacles)",
+   "based": "Netherlands",
+   "bio": "Lens Studio developer who posts AR effect experiments and co-developed the Spectacles racing game Specs Racer with Max van Leeuwen.",
+   "why": "One short experiment turns a sunny summer street into a snowfield, showing how quickly AR can overwrite the season.",
+   "role_zh": "AR 开发者（Lens Studio、Spectacles）",
+   "based_zh": "荷兰",
+   "bio_zh": "Lens Studio 开发者，发布 AR 特效实验，并与 Max van Leeuwen 合作开发了 Spectacles 赛车游戏 Specs Racer。",
+   "why_zh": "一个小实验就把阳光明媚的夏日街道变成雪地，展示了 AR 改写季节有多快。",
+   "links": {
+    "site": "",
+    "x": "https://x.com/Ninsky_AR",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "max-van-leeuwen"
+   ],
+   "discovered_via": "max-van-leeuwen"
+  },
+  {
+   "id": "gospooky",
+   "name": "GoSpooky",
+   "role": "Social and AR agency (Amsterdam / New York)",
+   "based": "Amsterdam, Netherlands",
+   "bio": "Agency founded in Amsterdam that grew out of Snapchat and Instagram AR lenses and now also runs social campaigns; its in-house R&D team publishes AR prototypes on Snap Spectacles, Quest 3 and Google's Geospatial API.",
+   "why": "Its R&D clips turn one platform feature (world meshing, LiDAR raycasts, city-scale localisation) into one playful action you understand in seconds.",
+   "role_zh": "社交媒体与 AR 创意公司（阿姆斯特丹 / 纽约）",
+   "based_zh": "阿姆斯特丹，荷兰",
+   "bio_zh": "创立于阿姆斯特丹，从 Snapchat 和 Instagram AR 镜头起家，如今也做社交媒体营销；公司内部的研发团队持续发布基于 Snap Spectacles、Quest 3 和 Google Geospatial API 的 AR 原型。",
+   "why_zh": "它的研发短片总能把一个平台功能（环境网格、LiDAR 射线检测、城市级定位）变成一个几秒就看懂的好玩动作。",
+   "links": {
+    "site": "https://gospooky.com",
+    "x": "https://x.com/GospookyHQ",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "max-van-leeuwen",
+    "lusion"
+   ],
+   "discovered_via": "max-van-leeuwen"
+  },
+  {
+   "id": "lusion",
+   "name": "Lusion (Edan Kwan & team)",
+   "role": "Real-time 3D and WebXR studio co-founded by creative technologist Edan Kwan",
+   "based": "Bristol, UK",
+   "bio": "Bristol studio known for award-winning WebGL sites and R&D; co-founder Edan Kwan also made the generative piece Bilibala Holala for the KIKK 2018 AR exhibit. Its AR work ranges from browser-based WebXR product placement to the Quest mixed-reality showcase Spatial Fusion with PHORIA and Meta.",
+   "why": "They bring film-grade real-time rendering into AR, and show that the browser alone can host serious mixed reality.",
+   "role_zh": "实时 3D 与 WebXR 工作室，由创意技术专家 Edan Kwan 联合创办",
+   "based_zh": "布里斯托，英国",
+   "bio_zh": "布里斯托的工作室，以屡获大奖的 WebGL 网站和技术研发著称；联合创始人 Edan Kwan 还为 KIKK 2018 AR 展创作了生成式作品 Bilibala Holala。他们的 AR 作品从浏览器里的 WebXR 商品摆放，到与 PHORIA 和 Meta 合作的 Quest 混合现实展示项目 Spatial Fusion。",
+   "why_zh": "他们把电影级的实时渲染带进 AR，也证明了只靠浏览器就能承载像样的混合现实体验。",
+   "links": {
+    "site": "https://lusion.co",
+    "x": "https://x.com/lusionltd",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/lusionltd",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "henry-daubrez-kikk",
+    "gospooky"
+   ],
+   "discovered_via": "henry-daubrez-kikk"
+  },
+  {
+   "id": "matt-deslauriers",
+   "name": "Matt DesLauriers",
+   "role": "Generative artist and creative coder (canvas-sketch)",
+   "based": "London, UK",
+   "bio": "Canadian artist now in the UK who works with code and generative systems, author of the open-source canvas-sketch toolkit. Beyond prints and web works he builds public installations such as LUMOS in Toronto and TEMPEST on Reykjavik's Harpa facade, and made Quantum Spyglass for the KIKK 2018 AR exhibit.",
+   "why": "His installations reduce interaction to one bodily signal (warmth, a button press) and let light carry the response.",
+   "role_zh": "生成艺术家、创意编程者（canvas-sketch 作者）",
+   "based_zh": "伦敦，英国",
+   "bio_zh": "现居英国的加拿大艺术家，用代码和生成系统创作，开源工具 canvas-sketch 的作者。除了版画和网页作品，他也做公共装置，例如多伦多的 LUMOS、雷克雅未克 Harpa 音乐厅立面上的 TEMPEST，并为 KIKK 2018 AR 展创作了 Quantum Spyglass。",
+   "why_zh": "他的装置把交互简化成一个身体信号（体温、按下按钮），再让光来回应。",
+   "links": {
+    "site": "https://www.mattdesl.com",
+    "x": "https://x.com/mattdesl",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/user50290240",
+    "youtube": "",
+    "github": "https://github.com/mattdesl"
+   },
+   "connected_to": [
+    "henry-daubrez-kikk",
+    "zach-lieberman"
+   ],
+   "discovered_via": "henry-daubrez-kikk"
+  },
+  {
+   "id": "jaume-sanchez-elias",
+   "name": "Jaume Sanchez Elias",
+   "role": "Creative technologist (WebGL, WebXR)",
+   "based": "Spain",
+   "bio": "Web developer and 'pixel burner' behind clicktorelease.com and many three.js experiments and tools, now working on WebGL and WebXR interfaces at DeepMind. He made Transcendence for the KIKK 2018 AR exhibit and keeps publishing face, hand and depth experiments in the browser.",
+   "why": "He turns each new browser capability (face mesh, hand tracking, depth photos) into a quick, playful sketch that others can copy.",
+   "role_zh": "创意技术专家（WebGL、WebXR）",
+   "based_zh": "西班牙",
+   "bio_zh": "网页开发者、自称“像素燃烧者”，clicktorelease.com 的作者，做过大量 three.js 实验和工具，现在在 DeepMind 做 WebGL 与 WebXR 界面。他为 KIKK 2018 AR 展创作了 Transcendence，并持续发布基于浏览器的人脸、手势和深度实验。",
+   "why_zh": "每当浏览器多了一项能力（人脸网格、手部追踪、深度照片），他都会很快做出一个好玩又容易模仿的小实验。",
+   "links": {
+    "site": "https://www.clicktorelease.com",
+    "x": "https://x.com/thespite",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/user/thespite",
+    "github": "https://github.com/spite"
+   },
+   "connected_to": [
+    "henry-daubrez-kikk"
+   ],
+   "discovered_via": "henry-daubrez-kikk"
+  },
+  {
+   "id": "gamgie",
+   "name": "Gamgie (Clément Rignault)",
+   "role": "Visual artist; real-time particles for circus, dance and mapping (Oxipital)",
+   "based": "France",
+   "bio": "French visual artist who performs and designs real-time particle visuals with the Oxipital engine (Unity and TouchDesigner), for circus companies tracked with Augmenta, museum projection pieces and a video-mapped show deep inside the Gouffre de Padirac cave.",
+   "why": "He treats particles as a partner that reacts to acrobats and voices, so the projected image feels alive rather than playing back.",
+   "role_zh": "视觉艺术家；为马戏、舞蹈和投影映射制作实时粒子（Oxipital）",
+   "based_zh": "法国",
+   "bio_zh": "法国视觉艺术家，用 Oxipital 引擎（Unity 与 TouchDesigner）现场操控和设计实时粒子影像：为用 Augmenta 追踪的马戏团演出配视觉，做博物馆投影作品，还在 Padirac 地下溶洞深处完成了一场投影映射演出。",
+   "why_zh": "他把粒子当作会回应杂技演员和人声的搭档，让投影画面像是活的，而不是在播放。",
+   "links": {
+    "site": "https://www.gamgie.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/gamgie",
+    "youtube": "https://www.youtube.com/@gamgie842",
+    "github": ""
+   },
+   "connected_to": [
+    "theoriz",
+    "benjamin-kuperberg"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "christian-brinkmann",
+   "name": "Christian Brinkmann",
+   "role": "Audiovisual artist working with plant electrophysiology",
+   "based": "Hamburg, Germany",
+   "bio": "Hamburg-born audiovisual artist (b. 1989) trained in audio engineering and electronic music, who now captures the electrical signals of living plants and turns them into responsive sound and light with TouchDesigner, Ableton Live and Unreal Engine.",
+   "why": "Floral Resonance makes an invisible conversation between a person and a plant audible and visible through touch.",
+   "role_zh": "研究植物电生理的视听艺术家",
+   "based_zh": "汉堡，德国",
+   "bio_zh": "1989 年生于汉堡的视听艺术家，学过音频工程、做过电子音乐，现在采集活体植物的微弱电信号，再用 TouchDesigner、Ableton Live 和 Unreal Engine 把它们变成会回应观众的声音与灯光。",
+   "why_zh": "Floral Resonance 让人与植物之间看不见的“对话”通过触摸变得可听、可见。",
+   "links": {
+    "site": "https://paad.ae/manar/artist-detail/christian-brinkmann",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "johnny-chung-lee--wii-head-tracking-desktop-vr",
+   "creator_ids": [
+    "johnny-chung-lee"
+   ],
+   "title": "Head Tracking for Desktop VR Displays",
+   "year": 2007,
+   "description": "A Wii Remote under the TV watches two infrared LEDs on the viewer's glasses; as he moves his head, a field of targets on an ordinary screen shifts in perspective like a window, and objects seem to float in front of the glass.",
+   "description_zh": "电视下方的 Wii 遥控器盯着观众眼镜上的两颗红外 LED；他一移动头部，普通屏幕上的一排靶子就像窗外景物一样改变透视，物体仿佛浮在屏幕前方。",
+   "idea_en": "Track the viewer's head instead of the scene, and a flat screen becomes a window into depth.",
+   "idea_zh": "追踪观看者的头而不是场景，平面屏幕就变成一扇有纵深的窗。",
+   "technique": "The Wii Remote's infrared camera finds two LEDs on the head, estimates head position from their spacing and offset, and renders an off-axis (view-dependent) projection each frame.",
+   "technique_zh": "Wii 遥控器的红外相机找到头上的两颗 LED，根据它们的间距和偏移估算头部位置，每帧用离轴（随视点变化的）投影重新渲染画面。",
+   "exercise_en": "Build a head-coupled 'window' on a laptop: track the face with a webcam (MediaPipe or three.js face tracking) and move an off-axis camera so a 3D box appears to sit behind the screen. Twist: make one object poke out in front of the screen plane.",
+   "exercise_zh": "在笔记本电脑上做一个随头部变化的“窗口”：用摄像头追踪人脸（MediaPipe 或 three.js 人脸追踪），驱动离轴相机，让一个 3D 盒子看起来就在屏幕后面。变体：让一个物体从屏幕平面里伸出来。",
+   "interaction": [
+    "gaze-attention",
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Wii Remote",
+    "infrared LEDs",
+    "C#",
+    "DirectX"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Jd3-eiid-Uw",
+    "url": "https://www.youtube.com/watch?v=Jd3-eiid-Uw"
+   },
+   "source_url": "http://johnnylee.net/projects/wii/"
+  },
+  {
+   "id": "johnny-chung-lee--wiimote-multitouch-whiteboard",
+   "creator_ids": [
+    "johnny-chung-lee"
+   ],
+   "title": "Low-Cost Multi-touch Whiteboard using the Wiimote",
+   "year": 2007,
+   "description": "A Wii Remote pointed at a projected image tracks pens with an infrared LED in the tip, turning any wall or screen into an interactive whiteboard with up to four pens for about the cost of the controller.",
+   "description_zh": "把 Wii 遥控器对准投影画面，它会追踪笔尖装有红外 LED 的笔，让任何墙面或屏幕都变成可同时用四支笔的互动白板，成本几乎只是一个手柄。",
+   "idea_en": "Turn any projected wall into a touch surface with a game controller and a homemade pen.",
+   "idea_zh": "用一个游戏手柄加一支自制笔，把任何投影墙变成触控表面。",
+   "technique": "The controller's IR camera sees the pen tips as bright blobs; a four-corner calibration maps camera coordinates to screen coordinates, which drive mouse events.",
+   "technique_zh": "手柄的红外相机把笔尖看成亮点；通过四角校准把相机坐标映射到屏幕坐标，再转成鼠标事件。",
+   "exercise_en": "Make a projected drawing wall: use a webcam to track a bright LED or phone flashlight on a projected sketch in p5.js, calibrated with four corner clicks. Twist: let two pens draw in different colours.",
+   "exercise_zh": "做一面投影画墙：用摄像头追踪 LED 或手机闪光灯的亮点，在 p5.js 投影画面上作画，用四角点击完成校准。变体：让两支笔画出不同颜色。",
+   "interaction": [
+    "projection",
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Wii Remote",
+    "infrared pen",
+    "C#"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "5s5EvhHy7eQ",
+    "url": "https://www.youtube.com/watch?v=5s5EvhHy7eQ"
+   },
+   "source_url": "http://johnnylee.net/projects/wii/"
+  },
+  {
+   "id": "johnny-chung-lee--wiimote-finger-tracking",
+   "creator_ids": [
+    "johnny-chung-lee"
+   ],
+   "title": "Tracking Fingers with the Wii Remote",
+   "year": 2007,
+   "description": "An infrared LED ring lights up reflective tape on the fingertips so a Wii Remote can follow them; waving fingers in the air drags and scales items on a grid, a Minority Report style interface built from a game controller.",
+   "description_zh": "一圈红外 LED 照亮指尖的反光胶带，让 Wii 遥控器跟踪手指；在空中挥动手指就能拖动、缩放网格中的内容，用游戏手柄做出《少数派报告》式的界面。",
+   "idea_en": "Mid-air gesture control from a game controller, some LEDs and reflective tape.",
+   "idea_zh": "用游戏手柄、几颗 LED 和反光胶带实现隔空手势操控。",
+   "technique": "An IR LED array next to the Wii Remote illuminates retro-reflective tape; the controller's built-in blob tracker reports up to four points at 100 Hz to a C# and DirectX program.",
+   "technique_zh": "Wii 遥控器旁的红外 LED 阵列照亮回归反光胶带，手柄内置的光点追踪以 100 Hz 输出最多四个点，交给 C# 与 DirectX 程序。",
+   "exercise_en": "Prototype a two-finger mid-air zoom: put coloured tape on thumb and index finger, track both with a webcam in p5.js and map their distance to the zoom of a photo. Twist: add a pinch gesture that 'grabs' the image.",
+   "exercise_zh": "做一个隔空双指缩放原型：在拇指和食指上贴彩色胶带，用 p5.js 通过摄像头追踪，把两点距离映射为图片缩放。变体：加一个捏合手势来“抓住”图片。",
+   "interaction": [
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Wii Remote",
+    "infrared LEDs",
+    "reflective tape"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "0awjPUkBXOU",
+    "url": "https://www.youtube.com/watch?v=0awjPUkBXOU"
+   },
+   "source_url": "http://johnnylee.net/projects/wii/"
+  },
+  {
+   "id": "johnny-chung-lee--foldable-displays",
+   "creator_ids": [
+    "johnny-chung-lee"
+   ],
+   "title": "Foldable Interactive Displays",
+   "year": 2007,
+   "description": "Sheets of paper and card that fold, roll and fan out become displays: a projector keeps its image locked onto the moving, bending surface, tracked by a Wii Remote watching infrared LEDs on the corners.",
+   "description_zh": "可以折叠、卷起、展开的纸张和卡片变成了显示屏：Wii 遥控器追踪边角上的红外 LED，投影仪让画面始终贴合这块会移动、会弯折的表面。",
+   "idea_en": "Pull a large display out of your pocket by projecting onto paper that folds.",
+   "idea_zh": "把画面投在可折叠的纸上，从口袋里掏出一块大屏幕。",
+   "technique": "IR LEDs at the corners and folds of the surface are tracked by the Wii Remote, and the projected image is warped per segment to match the surface geometry (published at UIST 2008).",
+   "technique_zh": "Wii 遥控器追踪表面边角与折痕处的红外 LED，投影画面按每一段表面的形状分别变形贴合（发表于 UIST 2008）。",
+   "exercise_en": "Project a video onto a hand-held piece of card: track its four corners with coloured stickers and a webcam, and warp the image with a homography in TouchDesigner or p5.js. Twist: fold the card in half and warp each half separately.",
+   "exercise_zh": "把视频投到手持的卡片上：用彩色贴纸标出四角，用摄像头追踪，在 TouchDesigner 或 p5.js 里用单应性变换让画面贴合。变体：把卡片对折，两半分别变形。",
+   "interaction": [
+    "projection",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Wii Remote",
+    "infrared LEDs",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nhSR_6-Y5Kg",
+    "url": "https://www.youtube.com/watch?v=nhSR_6-Y5Kg"
+   },
+   "source_url": "http://johnnylee.net/projects/thesis/"
+  },
+  {
+   "id": "johnny-chung-lee--automatic-projector-calibration",
+   "creator_ids": [
+    "johnny-chung-lee"
+   ],
+   "title": "Automatic Projector Calibration with Embedded Light Sensors",
+   "year": 2004,
+   "description": "Light sensors hidden in the corners of a screen or object read a quick sequence of black-and-white stripe patterns, so the projector instantly knows where they are and fits its image exactly onto the target, even across several projectors or onto 3D shapes.",
+   "description_zh": "藏在屏幕或物体角落的光传感器读取一串快速闪过的黑白条纹图案，投影仪立刻知道它们在哪里，把画面精确贴合到目标上，也适用于多台投影仪拼接或 3D 物体。",
+   "idea_en": "Let the surface tell the projector where it is.",
+   "idea_zh": "让被投影的表面自己告诉投影仪它在哪里。",
+   "technique": "The projector shows Gray-coded binary patterns; each embedded photosensor decodes the on/off sequence it receives into its own pixel coordinate, which is used to pre-warp the image (UIST 2004, with Paul Dietz and Ramesh Raskar).",
+   "technique_zh": "投影仪依次投出格雷码二值图案，每个嵌入的光敏传感器把自己接收到的明暗序列解码成所在的像素坐标，用来预先变形画面（UIST 2004，合作者包括 Paul Dietz 和 Ramesh Raskar）。",
+   "exercise_en": "Recreate structured-light calibration: project a sequence of stripe patterns and film them with a phone, then decode which pixel falls on a paper target to align an image to it. Twist: move the target and re-calibrate in under ten seconds.",
+   "exercise_zh": "复现结构光校准：投出一串条纹图案并用手机拍下，解码出落在纸板目标上的像素位置，再把画面对准它。变体：移动目标，在十秒内重新校准。",
+   "interaction": [
+    "projection",
+    "spatial-mapping",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "structured light",
+    "photosensors",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XgrGjJUBF_I",
+    "url": "https://www.youtube.com/watch?v=XgrGjJUBF_I"
+   },
+   "source_url": "http://johnnylee.net/projects/thesis/"
+  },
+  {
+   "id": "johnny-chung-lee--moveable-projected-displays",
+   "creator_ids": [
+    "johnny-chung-lee"
+   ],
+   "title": "Moveable Interactive Projected Displays",
+   "year": 2005,
+   "description": "A hand-held board with light sensors in its corners can be carried around under a projector, and the projected content follows and fits it in real time, turning a piece of card into a movable, interactive screen.",
+   "description_zh": "四角装有光传感器的手持板子可以在投影仪下随意移动，投影内容实时跟随并贴合它，让一块纸板变成可以拿着走的互动屏幕。",
+   "idea_en": "A projector that tracks the very surface it projects on, with no camera at all.",
+   "idea_zh": "不用任何摄像头，投影仪自己追踪它正在投射的表面。",
+   "technique": "Small structured-light patterns are projected only around the sensors' last known positions, and are frequency-modulated so they look like flat grey patches while updating fast enough for interactive tracking.",
+   "technique_zh": "只在传感器上一次的位置附近投射小块结构光图案，并做频率调制，让它们看起来只是灰色色块，同时更新速度足以支持实时追踪。",
+   "exercise_en": "Make a 'magic clipboard': track a board with a printed marker using a webcam and project a map that stays locked onto it as students carry it around. Twist: show a different layer when the board is tilted.",
+   "exercise_zh": "做一块“魔法写字板”：用摄像头追踪贴有标记的板子，把地图投影上去，同学拿着走动时画面始终贴在板上。变体：板子倾斜时显示另一图层。",
+   "interaction": [
+    "projection",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "structured light",
+    "photosensors",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "liMcMmaewig",
+    "url": "https://www.youtube.com/watch?v=liMcMmaewig"
+   },
+   "source_url": "http://johnnylee.net/projects/thesis/"
+  },
+  {
+   "id": "johnny-chung-lee--tango-research-update-2017",
+   "creator_ids": [
+    "johnny-chung-lee"
+   ],
+   "title": "Google Tango Research Update",
+   "year": 2017,
+   "description": "A short montage of research built on Google Tango phones, including rooms scanned into meshes and furniture automatically split and labelled by object type.",
+   "description_zh": "一段基于 Google Tango 手机的研究短片合集，包括把房间扫描成网格，以及自动把家具按类别分割、标注出来。",
+   "idea_en": "Phones that do not just map a room but know what is in it.",
+   "idea_zh": "手机不仅能绘制房间地图，还知道房间里有什么。",
+   "technique": "Tango's depth camera and motion tracking build a 3D reconstruction; research layers on top likely run semantic segmentation to colour each object class.",
+   "technique_zh": "Tango 的深度相机和运动追踪构建 3D 重建，研究在其上叠加的处理很可能是语义分割，为每类物体着色。",
+   "exercise_en": "Scan a classroom corner with a LiDAR phone app (Polycam or Scaniverse), then hand-label chairs, tables and walls in different colours in Blender. Twist: place one AR note that only appears on objects labelled 'table'.",
+   "exercise_zh": "用带 LiDAR 的手机应用（Polycam 或 Scaniverse）扫描教室一角，再在 Blender 里把椅子、桌子和墙分别涂上不同颜色标注。变体：放一条只会出现在“桌子”上的 AR 便签。",
+   "interaction": [
+    "spatial-mapping",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Google Tango",
+    "depth sensing",
+    "3D reconstruction"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "YulYq5P3heo",
+    "url": "https://www.youtube.com/watch?v=YulYq5P3heo"
+   },
+   "source_url": "https://get.google.com/tango/"
+  },
+  {
+   "id": "johnny-chung-lee--tango-constructor",
+   "creator_ids": [
+    "johnny-chung-lee"
+   ],
+   "title": "Google Tango Constructor",
+   "year": 2017,
+   "description": "A developer tool for Tango phones such as the Asus Zenfone AR: walk around a space to capture a textured 3D scan, then view the result in VR on the same phone.",
+   "description_zh": "为 Asus Zenfone AR 等 Tango 手机开发的工具：绕着空间走一圈就能采集带贴图的 3D 扫描，然后在同一部手机上用 VR 查看结果。",
+   "idea_en": "Capture a real room with a phone and step back into it in VR.",
+   "idea_zh": "用手机把真实房间“拍”下来，再在 VR 里走回去。",
+   "technique": "Tango's depth sensor and visual-inertial tracking fuse depth frames into a mesh and project camera colour onto it for a textured model.",
+   "technique_zh": "Tango 的深度传感器和视觉惯性追踪把深度帧融合成网格，再把相机颜色投射上去，得到带贴图的模型。",
+   "exercise_en": "Scan a small corner of the school with a phone 3D-scanning app and place the scan in a WebXR scene as a 'memory room'. Twist: scan the same spot a week later and let viewers fade between the two.",
+   "exercise_zh": "用手机 3D 扫描应用扫下学校的一个小角落，把扫描结果放进 WebXR 场景做成“记忆房间”。变体：一周后再扫一次同一地点，让观众在两次之间渐变切换。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "phone",
+    "headset"
+   ],
+   "tech": [
+    "Google Tango",
+    "3D scanning",
+    "VR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "A3WBae8dYq8",
+    "url": "https://www.youtube.com/watch?v=A3WBae8dYq8"
+   },
+   "source_url": "https://get.google.com/tango/"
+  },
+  {
+   "id": "clara-bacou--spectacles-3-butterflies",
+   "creator_ids": [
+    "clara-bacou"
+   ],
+   "title": "Butterflies Lens for Spectacles 3",
+   "year": 2019,
+   "description": "Filmed through Snap Spectacles 3 with director Karen X Cheng, huge hand-drawn butterflies flap around a person in a park and over a bridge, placed in depth in the captured scene.",
+   "description_zh": "通过 Snap Spectacles 3 拍摄，与导演 Karen X Cheng 合作：巨大的手绘蝴蝶围着公园里的人飞舞，又掠过一座桥，按深度摆放在拍下的场景中。",
+   "idea_en": "Fill your own world with oversized, hand-drawn creatures to show how you feel inside it.",
+   "idea_zh": "让超大的手绘生物飞满你的世界，表达你在其中的感受。",
+   "technique": "Spectacles 3's two cameras capture depth, and a Lens Studio lens likely uses that depth to place and occlude animated 2D butterfly sprites in 3D around the subject.",
+   "technique_zh": "Spectacles 3 的双摄像头能采集深度，Lens Studio 镜头很可能借助深度把 2D 蝴蝶动画按前后层次摆放并产生遮挡。",
+   "exercise_en": "Draw one animal on paper, scan it, and animate it as a flock in an AR scene (Lens Studio or Reality Composer) around a classmate. Twist: make the flock scatter when the person moves quickly.",
+   "exercise_zh": "在纸上画一种动物，扫描后在 AR 场景（Lens Studio 或 Reality Composer）里做成一群，围着同学飞。变体：人一快速移动，群体就四散飞开。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Snap Spectacles 3",
+    "Lens Studio",
+    "depth capture"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1192495374478393344",
+    "url": "https://x.com/specsfordevs/status/1192495374478393344"
+   },
+   "source_url": "https://x.com/ClaraBacou"
+  },
+  {
+   "id": "ninsky--summer-snow",
+   "creator_ids": [
+    "ninsky"
+   ],
+   "title": "Summer Snow",
+   "year": 2022,
+   "description": "In the middle of a hot summer day, a phone lens covers a sunny Dutch street in deep snow, with flakes still falling and a snow bank lying on the pavement.",
+   "description_zh": "在炎热的夏日，一个手机镜头让阳光下的荷兰街道铺满厚雪，雪花还在飘落，人行道上堆起雪堤。",
+   "idea_en": "Overwrite the season: bring winter into a summer street.",
+   "idea_zh": "改写季节：把冬天搬进夏天的街道。",
+   "technique": "A Lens Studio world lens likely uses ground tracking and a particle system for falling snow plus a deformable snow mesh laid on the detected ground plane.",
+   "technique_zh": "这个 Lens Studio 世界镜头很可能利用地面追踪，用粒子系统做飘雪，再在识别出的地面上铺一层可变形的雪网格。",
+   "exercise_en": "Make a 'wrong season' AR filter for the schoolyard in Lens Studio or Effect House: falling leaves in spring or snow in summer. Twist: let footprints appear where people walk.",
+   "exercise_zh": "用 Lens Studio 或 Effect House 给校园做一个“错季”AR 滤镜：春天落叶，夏天下雪。变体：人走过的地方留下脚印。",
+   "interaction": [
+    "portal-world",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Lens Studio",
+    "particles",
+    "ground tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1556994932363214852",
+    "url": "https://x.com/Ninsky_AR/status/1556994932363214852"
+   }
+  },
+  {
+   "id": "gospooky--ghost-the-most",
+   "creator_ids": [
+    "gospooky"
+   ],
+   "title": "Ghost the Most",
+   "year": 2024,
+   "description": "A Snap Spectacles prototype fills the office with a knee-high haunted mist between bare trees; players wander through it with see-through glasses to find and collect treasures hidden in the fog.",
+   "description_zh": "一个 Snap Spectacles 原型让办公室里弥漫齐膝的鬼雾，还长出光秃秃的树；玩家戴着透视眼镜在雾中游走，寻找并收集藏在雾里的宝物。",
+   "idea_en": "Hide treasures in a layer of fake fog that covers the real floor.",
+   "idea_zh": "在覆盖真实地面的一层虚拟雾里藏宝。",
+   "technique": "A Spectacles Lens anchors a volumetric-looking mist layer and props to the tracked floor; collectibles are revealed by walking close (likely distance triggers).",
+   "technique_zh": "Spectacles 镜头把看起来有体积感的雾层和道具固定在追踪到的地面上，走近时宝物才显现（很可能使用距离触发）。",
+   "exercise_en": "Build a fog treasure hunt in Lens Studio or AR Foundation: cover the floor with a semi-transparent fog plane and hide three objects that fade in only within one metre. Twist: the fog thins wherever the player has already walked.",
+   "exercise_zh": "用 Lens Studio 或 AR Foundation 做一个雾中寻宝：用半透明雾面盖住地面，藏三件只有走到一米内才浮现的物品。变体：玩家走过的地方雾会变淡。",
+   "interaction": [
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "Lens Studio"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1849095337610215550",
+    "url": "https://x.com/GospookyHQ/status/1849095337610215550"
+   }
+  },
+  {
+   "id": "gospooky--mixed-reality-snowball-fight",
+   "creator_ids": [
+    "gospooky"
+   ],
+   "title": "Mixed Reality Snowball Throwing",
+   "year": 2024,
+   "description": "On Quest 3 in passthrough, snowballs thrown with the controllers splat against a real bed, walls and floor, bouncing and breaking apart exactly on the room's surfaces.",
+   "description_zh": "在 Quest 3 的透视画面里，用手柄扔出的雪球砸在真实的床、墙和地板上，恰好沿着房间表面弹跳、碎开。",
+   "idea_en": "Use the room's own mesh as the playground for a snowball fight.",
+   "idea_zh": "把房间本身的网格当作打雪仗的场地。",
+   "technique": "Quest 3 world meshing builds a detailed scene mesh that is used as a physics collider, so thrown snowballs collide and leave splats on real furniture.",
+   "technique_zh": "Quest 3 的环境网格生成精细的场景网格并作为物理碰撞体，扔出的雪球会与真实家具碰撞并留下雪痕。",
+   "exercise_en": "Use a LiDAR phone or Quest scene mesh to make a throw-and-splat game: every hit leaves a paint mark that stays on the real wall. Twist: marks slowly melt away after a minute.",
+   "exercise_zh": "用带 LiDAR 的手机或 Quest 场景网格做一个“扔出去就留下痕迹”的游戏：每次击中都在真实墙面留下颜料印记。变体：印记一分钟后慢慢融化消失。",
+   "interaction": [
+    "spatial-mapping",
+    "game-play"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "scene mesh",
+    "Unity physics"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1755946491884044623",
+    "url": "https://x.com/GospookyHQ/status/1755946491884044623"
+   }
+  },
+  {
+   "id": "gospooky--ar-lightning",
+   "creator_ids": [
+    "gospooky"
+   ],
+   "title": "AR Lightning",
+   "year": 2023,
+   "description": "Raise your hand and lightning shoots from it into the room, zapping whatever real surface you are looking at, from a fireplace to a wall.",
+   "description_zh": "抬起手，闪电就从掌心射进房间，劈向你正看着的任何真实表面，从壁炉到墙壁。",
+   "idea_en": "Your hand becomes a lightning rod that strikes the real room.",
+   "idea_zh": "你的手变成闪电之源，劈向真实的房间。",
+   "technique": "A Snap Lens combines hand tracking, the gaze or camera direction and a LiDAR-generated world mesh, raycasting to find the hit point where the particle lightning bolt ends.",
+   "technique_zh": "Snap 镜头结合手部追踪、视线（相机朝向）和 LiDAR 生成的环境网格，通过射线检测找到命中点，粒子闪电就在那里落下。",
+   "exercise_en": "Prototype a 'magic beam' in Lens Studio or AR Foundation: raycast from the camera to the scene mesh and draw a jagged line from the hand to the hit point. Twist: scorch marks stay where the beam hits.",
+   "exercise_zh": "用 Lens Studio 或 AR Foundation 做一个“魔法光束”原型：从相机向场景网格发射射线，从手到命中点画一条锯齿线。变体：光束击中的地方留下焦痕。",
+   "interaction": [
+    "hand-body",
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Lens Studio",
+    "hand tracking",
+    "LiDAR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1729877660581736694",
+    "url": "https://x.com/GospookyHQ/status/1729877660581736694"
+   }
+  },
+  {
+   "id": "gospooky--city-scale-ar-bowling",
+   "creator_ids": [
+    "gospooky"
+   ],
+   "title": "City-Scale AR Bowling",
+   "year": 2023,
+   "description": "Giant bowling pins stand on famous buildings such as the Sacré-Cœur in Paris, and a phone player rolls a huge ball down the street to knock them over.",
+   "description_zh": "巨大的保龄球瓶立在巴黎圣心堂等著名建筑上，玩家用手机把一颗巨大的保龄球沿街滚过去，把球瓶撞倒。",
+   "idea_en": "Turn a whole city block into a bowling lane.",
+   "idea_zh": "把整条街区变成保龄球道。",
+   "technique": "Google's Geospatial API localises the phone with GPS plus Street View-based visual positioning, and ARCore in Unity simulates physics for pins anchored to the real buildings.",
+   "technique_zh": "Google Geospatial API 结合 GPS 与基于街景的视觉定位确定手机位置，Unity 中的 ARCore 为固定在真实建筑上的球瓶做物理模拟。",
+   "exercise_en": "Use Geospatial anchors (ARCore or 8th Wall) to place one giant object on a campus landmark, then add one physics interaction with it. Twist: the object reacts differently at night.",
+   "exercise_zh": "用地理空间锚点（ARCore 或 8th Wall）把一个巨大物体放在校园地标上，再为它加一个物理交互。变体：到了晚上它的反应会不同。",
+   "interaction": [
+    "location-geo",
+    "game-play"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Google Geospatial API",
+    "ARCore",
+    "Unity"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1691788241249161658",
+    "url": "https://x.com/GospookyHQ/status/1691788241249161658"
+   }
+  },
+  {
+   "id": "gospooky--furniture-portal",
+   "creator_ids": [
+    "gospooky"
+   ],
+   "title": "Furniture Portal",
+   "year": 2023,
+   "description": "A glowing portal opens outdoors when you gesture with hand or foot, and copies of household items (armchairs, chairs, lamps) tumble out and pile up with physics.",
+   "description_zh": "用手或脚做个动作，户外就打开一个发光的传送门，扶手椅、椅子、台灯等家居用品的复制品翻滚着涌出，按物理堆在一起。",
+   "idea_en": "Open a portal and let copies of your furniture spill out.",
+   "idea_zh": "打开传送门，让家具的复制品倾泻而出。",
+   "technique": "A Snap Lens duplicates 3D household objects (likely pre-scanned) and runs rigid-body physics with shadows and a VFX layer, triggered by hand and foot tracking.",
+   "technique_zh": "Snap 镜头复制 3D 家居物件（很可能是事先扫描的），加上阴影和特效层做刚体物理模拟，由手部和脚部追踪触发。",
+   "exercise_en": "Scan one object in class with a phone, then in an AR scene make a portal that spawns twenty physics copies of it on tap. Twist: each copy is slightly smaller than the last.",
+   "exercise_zh": "在课上用手机扫描一件物品，再在 AR 场景里做一个传送门，点一下就吐出二十个带物理的复制品。变体：每个复制品都比上一个小一点。",
+   "interaction": [
+    "portal-world",
+    "hand-body",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Lens Studio",
+    "physics",
+    "VFX"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1663545539449978882",
+    "url": "https://x.com/GospookyHQ/status/1663545539449978882"
+   }
+  },
+  {
+   "id": "gospooky--flower-petal-controller",
+   "creator_ids": [
+    "gospooky"
+   ],
+   "title": "Flower Petal Controller",
+   "year": 2023,
+   "description": "Hand gestures summon and steer a swirling cloud of flower petals through a living room, which scatter and gather as the fingers open and close.",
+   "description_zh": "用手势召唤并操控一团旋转的花瓣云穿过客厅，手指张开与合拢时，花瓣随之散开和聚拢。",
+   "idea_en": "Conduct a cloud of petals with your hand.",
+   "idea_zh": "用手指挥一团花瓣。",
+   "technique": "A Snap Lens uses hand tracking and gesture detection to drive forces in Lens Studio's GPU VFX particle system.",
+   "technique_zh": "Snap 镜头用手部追踪和手势识别驱动 Lens Studio GPU 特效粒子系统中的力场。",
+   "exercise_en": "Build a gesture-driven particle swarm with MediaPipe hands and three.js: open palm pushes particles away, a fist pulls them in. Twist: each gesture changes the particle colour.",
+   "exercise_zh": "用 MediaPipe 手部追踪和 three.js 做一个手势驱动的粒子群：张开手掌把粒子推开，握拳把它们吸回来。变体：每种手势改变粒子颜色。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Lens Studio",
+    "hand tracking",
+    "VFX particles"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1642900586805731328",
+    "url": "https://x.com/GospookyHQ/status/1642900586805731328"
+   }
+  },
+  {
+   "id": "gospooky--fashion-twin",
+   "creator_ids": [
+    "gospooky"
+   ],
+   "title": "Fashion Twin",
+   "year": 2022,
+   "description": "Point the camera at someone and 'steal' their outfit: their clothing style is transferred onto you in real time, creating an instant fashion twin.",
+   "description_zh": "把镜头对准别人，就能“偷走”对方的穿搭：衣服的风格实时转移到你身上，瞬间成为穿搭双胞胎。",
+   "idea_en": "Borrow someone else's outfit with your camera.",
+   "idea_zh": "用相机借穿别人的衣服。",
+   "technique": "A demo of Lens Studio 4.34's ML Garment Transfer component, which segments the upper-body garment in one image and re-renders its texture onto the tracked body.",
+   "technique_zh": "展示 Lens Studio 4.34 的机器学习“服装迁移”组件：从一张图中分割出上衣，再把它的纹理重新渲染到被追踪的身体上。",
+   "exercise_en": "Design a 'swap' filter with Lens Studio or Effect House body segmentation: take a photo of a classmate's shirt pattern and apply it to your own silhouette. Twist: swap only the colour, not the pattern.",
+   "exercise_zh": "用 Lens Studio 或 Effect House 的人体分割做一个“交换”滤镜：拍下同学衬衫的图案，贴到自己的身形上。变体：只交换颜色，不交换图案。",
+   "interaction": [
+    "hand-body",
+    "face"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Lens Studio",
+    "Garment Transfer",
+    "machine learning"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1593200088758640640",
+    "url": "https://x.com/GospookyHQ/status/1593200088758640640"
+   }
+  },
+  {
+   "id": "lusion--raytracing-x-ar-apollo",
+   "creator_ids": [
+    "lusion"
+   ],
+   "title": "Real-time Raytracing x AR (Apollo 11)",
+   "year": 2019,
+   "description": "A tribute to the 50th anniversary of the Apollo 11 landing: while moon-landing footage plays on a living-room TV, raytraced moon rocks float around the screen and through the real room, as if they had escaped the footage.",
+   "description_zh": "为阿波罗 11 号登月 50 周年致敬：客厅电视播放登月影像时，光线追踪渲染的月球岩石漂浮在屏幕周围和真实房间里，仿佛是从影像中逃出来的。",
+   "idea_en": "Let objects from the film on your TV float out into your living room.",
+   "idea_zh": "让电视画面里的东西飘进你的客厅。",
+   "technique": "Unity's HDRP with NVIDIA RTX raytracing renders reflective rocks composited over tracked camera footage (ARKit/ARCore-style tracking); likely an offline-tracked real-time render rather than a phone app.",
+   "technique_zh": "用 Unity HDRP 和 NVIDIA RTX 光线追踪渲染带反射的岩石，再叠加到经过追踪的实拍画面上（类似 ARKit/ARCore 的追踪）；很可能是离线追踪加实时渲染，而非手机应用。",
+   "exercise_en": "Make something escape from a screen: play a short clip on a monitor and, with an image target on the monitor frame, spawn AR objects that fly out when the clip reaches a certain moment. Twist: the objects fly back when the video is paused.",
+   "exercise_zh": "让东西从屏幕里逃出来：在显示器上播放一段短片，在显示器边框上放图像目标，短片播到某一刻时就有 AR 物体飞出来。变体：视频暂停时它们飞回去。",
+   "interaction": [
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity HDRP",
+    "NVIDIA RTX",
+    "raytracing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "348855347",
+    "url": "https://vimeo.com/348855347"
+   },
+   "source_url": "https://lusion.co"
+  },
+  {
+   "id": "lusion--webxr-sneakers",
+   "creator_ids": [
+    "lusion"
+   ],
+   "title": "WebXR Sneakers Demo",
+   "year": 2020,
+   "description": "A mock shoe-shop web page where tapping a button places a photoreal sneaker on the floor in AR straight from the mobile browser, without an app or plug-in.",
+   "description_zh": "一个仿造的球鞋商店网页，点一下按钮就能直接在手机浏览器里把逼真的球鞋放到地板上，不需要任何应用或插件。",
+   "idea_en": "Let a web page put its product on your floor.",
+   "idea_zh": "让网页把商品直接放到你家地板上。",
+   "technique": "The WebXR Device API's immersive-ar session with hit-testing places a three.js-rendered model on detected surfaces in Chrome on Android.",
+   "technique_zh": "WebXR Device API 的 immersive-ar 会话配合命中测试，在安卓 Chrome 中把 three.js 渲染的模型放在识别出的平面上。",
+   "exercise_en": "Build a one-page WebXR 'gallery shop' with three.js or model-viewer where each student's 3D object can be placed on a real table. Twist: let the object change when placed on the floor instead of a table.",
+   "exercise_zh": "用 three.js 或 model-viewer 做一个单页 WebXR“画廊商店”，每位同学的 3D 作品都能放到真实桌面上。变体：放在地板上而不是桌上时，物体会发生变化。",
+   "interaction": [
+    "spatial-mapping",
+    "data-information"
+   ],
+   "platform": [
+    "web",
+    "phone"
+   ],
+   "tech": [
+    "WebXR",
+    "three.js",
+    "hit-test"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "413649522",
+    "url": "https://vimeo.com/413649522"
+   },
+   "source_url": "https://webxr-sneakers.lusion.co/"
+  },
+  {
+   "id": "lusion--spatial-fusion",
+   "creator_ids": [
+    "lusion"
+   ],
+   "title": "Spatial Fusion",
+   "year": 2022,
+   "description": "A browser-based mixed-reality experience for Quest 2 and Quest Pro: a tear opens a portal in your room, and you use fusion energy to repair a gravity-defying spacecraft that appears among your real walls and furniture.",
+   "description_zh": "一个在浏览器中运行的混合现实体验，面向 Quest 2 和 Quest Pro：房间里裂开一道传送门，你要用聚变能量修复一艘出现在真实墙壁和家具之间、违反重力的飞船。",
+   "idea_en": "Open a portal in your own room straight from a web page.",
+   "idea_zh": "直接从网页在自己的房间里打开一道传送门。",
+   "technique": "WebXR immersive-ar sessions with plane detection, spatial anchors and colour passthrough, built in three.js by PHORIA and Lusion with Meta; audio by Zelig.",
+   "technique_zh": "由 PHORIA 与 Lusion 在 Meta 支持下用 three.js 开发，利用 WebXR immersive-ar 会话的平面检测、空间锚点和彩色透视；音效由 Zelig 制作。",
+   "exercise_en": "Use WebXR plane detection (or AR Foundation) to find the largest wall and cut a portal into it that shows a different world. Twist: the portal only opens when two people stand in front of it.",
+   "exercise_zh": "用 WebXR 平面检测（或 AR Foundation）找到最大的一面墙，在上面开一道通往另一个世界的门。变体：只有两个人同时站在门前时它才会打开。",
+   "interaction": [
+    "portal-world",
+    "spatial-mapping",
+    "game-play"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "WebXR",
+    "three.js",
+    "Meta Quest Pro",
+    "plane detection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "RikFV2EY-1Y",
+    "url": "https://www.youtube.com/watch?v=RikFV2EY-1Y"
+   },
+   "source_url": "https://www.spatialfusion.io/"
+  },
+  {
+   "id": "matt-deslauriers--lumos",
+   "creator_ids": [
+    "matt-deslauriers"
+   ],
+   "title": "LUMOS",
+   "year": 2018,
+   "description": "A tall geometric light sculpture in a Toronto park glows cold blue when alone; as people approach, a thermal camera senses their body heat and the light inside shifts to warm reds, oranges and yellows.",
+   "description_zh": "多伦多公园里一座高大的几何灯光雕塑，无人时发出冷蓝色的光；有人靠近时，热成像相机感知到人体热量，内部的光便转为温暖的红、橙、黄色。",
+   "idea_en": "A winter beacon that turns warm when it feels your body heat.",
+   "idea_zh": "一座冬日灯塔，感受到你的体温就变暖。",
+   "technique": "A thermal imaging camera detects warm bodies near the sculpture, and generative light code maps the detected heat to the colour of LEDs inside (with Jean-Michel Gariepy and Steven Mengin).",
+   "technique_zh": "热成像相机检测雕塑附近的人体热量，生成式灯光程序把检测到的热量映射成内部 LED 的颜色（合作者 Jean-Michel Gariepy 和 Steven Mengin）。",
+   "exercise_en": "Build a lamp that reacts to presence: use a webcam person detector (or a cheap PIR/thermal sensor with Arduino) to fade a projected or LED colour from blue to warm as people come closer. Twist: it only turns fully warm when two people stand together.",
+   "exercise_zh": "做一盏感应“有人在场”的灯：用摄像头人体检测（或 Arduino 加廉价 PIR/热传感器），在人走近时把投影或 LED 的颜色从蓝色渐变为暖色。变体：只有两个人一起站着时才完全变暖。",
+   "interaction": [
+    "hand-body",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "thermal camera",
+    "LED",
+    "generative code"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "261406016",
+    "url": "https://vimeo.com/261406016"
+   },
+   "source_url": "https://www.lumos-project.xyz"
+  },
+  {
+   "id": "matt-deslauriers--tempest",
+   "creator_ids": [
+    "matt-deslauriers"
+   ],
+   "title": "TEMPEST",
+   "year": 2019,
+   "description": "On the LED facade of Reykjavik's Harpa concert hall, visitors push a button to set off blinding lightning flashes and loud thunder across the building, placing the audience inside a storm.",
+   "description_zh": "在雷克雅未克 Harpa 音乐厅的 LED 立面上，观众按下按钮，整栋建筑便闪过刺眼的闪电，响起巨大的雷声，把观众置于一场风暴之中。",
+   "idea_en": "One button lets a passer-by throw lightning across a whole building.",
+   "idea_zh": "一个按钮就让路人把闪电劈满整栋建筑。",
+   "technique": "A real-time generative storm is rendered to the facade's low-resolution LED grid, and a physical button triggers lightning and synchronised thunder audio.",
+   "technique_zh": "实时生成的风暴画面输出到立面的低分辨率 LED 网格上，一个实体按钮触发闪电和同步的雷声。",
+   "exercise_en": "Map a p5.js storm onto a classroom window or wall with a projector and wire one big button (Makey Makey or keyboard key) that triggers lightning and thunder. Twist: the storm grows calmer the longer nobody presses it.",
+   "exercise_zh": "用投影仪把一个 p5.js 风暴映射到教室窗户或墙上，再接一个大按钮（Makey Makey 或键盘键）触发闪电和雷声。变体：越久没人按，风暴越平静。",
+   "interaction": [
+    "projection",
+    "voice-sound",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "LED facade",
+    "generative code",
+    "Web Audio"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "317006348",
+    "url": "https://vimeo.com/317006348"
+   }
+  },
+  {
+   "id": "matt-deslauriers--ar-virtual-plants",
+   "creator_ids": [
+    "matt-deslauriers"
+   ],
+   "title": "AR Technical Demo: Virtual Plants",
+   "year": 2019,
+   "description": "A short iOS 12 AR test in which a delicate stem of purple and white flowers grows and sways in real time on a wooden table next to a laptop.",
+   "description_zh": "一段 iOS 12 AR 测试：一枝紫白相间的纤细花茎在笔记本电脑旁的木桌上实时生长、摇曳。",
+   "idea_en": "Grow a generative plant on your desk.",
+   "idea_zh": "在书桌上长出一株生成式植物。",
+   "technique": "Procedurally generated plant geometry is animated in real time and anchored to a detected horizontal plane with ARKit on iOS 12 (with Yi-Wen Lin).",
+   "technique_zh": "程序化生成的植物几何体实时动画，并通过 iOS 12 的 ARKit 固定在检测到的水平面上（与 Yi-Wen Lin 合作）。",
+   "exercise_en": "Write an L-system plant in three.js and place it on a table with WebXR hit-test so it grows over ten seconds. Twist: each tap on the table plants a different random species.",
+   "exercise_zh": "用 three.js 写一株 L 系统植物，通过 WebXR 命中测试放到桌上，让它在十秒内长出来。变体：每点一次桌面就种下一株随机的新品种。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "procedural geometry"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "319348489",
+    "url": "https://vimeo.com/319348489"
+   }
+  },
+  {
+   "id": "jaume-sanchez-elias--crazy-facemesh",
+   "creator_ids": [
+    "jaume-sanchez-elias"
+   ],
+   "title": "Gnarls Barkley 'Crazy' + FaceMesh",
+   "year": 2020,
+   "description": "A browser toy that recreates the Rorschach-inkblot look of the 'Crazy' music video on your own face: a live webcam face mesh is rendered as a symmetrical, shifting ink blot while the song plays.",
+   "description_zh": "一个浏览器小玩具，把《Crazy》音乐录像带里的罗夏墨迹风格搬到你自己的脸上：摄像头实时捕捉的人脸网格被渲染成对称、流动的墨迹，同时播放这首歌。",
+   "idea_en": "Turn your face into a living Rorschach inkblot.",
+   "idea_zh": "把你的脸变成一团活的罗夏墨迹。",
+   "technique": "TensorFlow.js FaceMesh tracks 468 face landmarks from the webcam; three.js turns them into a mesh shaded with a mirrored, noise-driven ink shader.",
+   "technique_zh": "TensorFlow.js FaceMesh 从摄像头追踪 468 个人脸关键点，three.js 把它们变成网格，并用镜像的、由噪声驱动的墨水着色器渲染。",
+   "exercise_en": "Pick a music video with a strong visual style and rebuild it as a face filter with MediaPipe Face Mesh and three.js (or Effect House). Twist: the effect reacts to the loudness of the song.",
+   "exercise_zh": "挑一支视觉风格鲜明的音乐录像带，用 MediaPipe Face Mesh 加 three.js（或 Effect House）把它做成人脸滤镜。变体：效果随歌曲音量变化。",
+   "interaction": [
+    "face",
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "web"
+   ],
+   "tech": [
+    "TensorFlow.js FaceMesh",
+    "three.js",
+    "WebGL"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "R-NEWO9Rbog",
+    "url": "https://www.youtube.com/watch?v=R-NEWO9Rbog"
+   },
+   "source_url": "https://github.com/spite/FaceMeshFaceGeometry"
+  },
+  {
+   "id": "jaume-sanchez-elias--lens-blur-depth-player",
+   "creator_ids": [
+    "jaume-sanchez-elias"
+   ],
+   "title": "Depth Player (Android Lens Blur)",
+   "year": 2014,
+   "description": "A web player that pulls the hidden depth map out of photos taken with Android's Lens Blur camera mode and shows them as 3D reliefs you can orbit in the browser, such as a window seen from inside a room.",
+   "description_zh": "一个网页播放器，从用安卓“镜头模糊”模式拍的照片中提取隐藏的深度图，把照片变成可以在浏览器里环绕查看的 3D 浮雕，比如从房间里望出去的一扇窗。",
+   "idea_en": "Every phone photo secretly holds a 3D scene; pull it out.",
+   "idea_zh": "每张手机照片里都藏着一个 3D 场景，把它拉出来。",
+   "technique": "A JavaScript extractor reads the depth map stored in the Lens Blur JPEG's XMP metadata, and three.js displaces a mesh or point cloud by that depth.",
+   "technique_zh": "一个 JavaScript 提取器读取“镜头模糊”JPEG 的 XMP 元数据中保存的深度图，three.js 按深度把网格或点云推出立体感。",
+   "exercise_en": "Take portrait-mode photos on a phone, extract the depth map (or estimate it with a depth model), and display each as a displaced mesh in three.js that tilts with the mouse or phone gyroscope. Twist: animate a slow 'breathing' of the depth.",
+   "exercise_zh": "用手机人像模式拍照，提取深度图（或用深度估计模型生成），在 three.js 中把每张照片显示成随鼠标或手机陀螺仪倾斜的位移网格。变体：让深度缓慢地“呼吸”起伏。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "web"
+   ],
+   "tech": [
+    "three.js",
+    "depth maps",
+    "WebGL"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "eabttaSmLPE",
+    "url": "https://www.youtube.com/watch?v=eabttaSmLPE"
+   },
+   "source_url": "https://www.clicktorelease.com"
+  },
+  {
+   "id": "jaume-sanchez-elias--webxr-hand-trails",
+   "creator_ids": [
+    "jaume-sanchez-elias"
+   ],
+   "title": "WebXR Hand Trails",
+   "year": 2020,
+   "description": "In a WebXR session with hand tracking, every fingertip drags its own glowing ribbon through space, so waving your hands leaves a bundle of flowing trails around you.",
+   "description_zh": "在支持手部追踪的 WebXR 会话中，每个指尖都拖着一条发光的丝带在空中移动，挥动双手就会在身边留下一束流动的轨迹。",
+   "idea_en": "Every fingertip paints a ribbon in the air.",
+   "idea_zh": "每个指尖都在空中画出一条丝带。",
+   "technique": "The WebXR Hand Input API provides joint poses each frame; three.js extrudes camera-facing ribbon geometry along the recent positions of each fingertip.",
+   "technique_zh": "WebXR 手部输入 API 每帧提供关节姿态，three.js 沿每个指尖最近的位置挤出面向相机的丝带几何体。",
+   "exercise_en": "Record fingertip positions with WebXR hands (Quest browser) or MediaPipe on a webcam and draw fading ribbons from them in three.js. Twist: ribbons play a note whenever two of them cross.",
+   "exercise_zh": "用 WebXR 手部追踪（Quest 浏览器）或摄像头加 MediaPipe 记录指尖位置，在 three.js 中画出会淡出的丝带。变体：两条丝带交叉时发出一个音。",
+   "interaction": [
+    "hand-body",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "WebXR Hand Input",
+    "three.js"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1300429595989217280",
+    "url": "https://x.com/thespite/status/1300429595989217280"
+   }
+  },
+  {
+   "id": "gamgie--la-tournoyante",
+   "creator_ids": [
+    "gamgie"
+   ],
+   "title": "La Tournoyante x Gamgie",
+   "year": 2025,
+   "description": "In an improvised session with the circus company La Tournoyante, acrobats spin and move on a theatre stage while projected particle fields follow, swirl around and react to their bodies in real time.",
+   "description_zh": "在与马戏团 La Tournoyante 的即兴排练中，杂技演员在剧场舞台上旋转、移动，投影出的粒子场实时追随他们，在身体周围旋绕、回应。",
+   "idea_en": "Projected particles that dance with acrobats as a live partner.",
+   "idea_zh": "投影粒子像现场搭档一样与杂技演员共舞。",
+   "technique": "Augmenta LiDAR tracking sends performers' positions to the Oxipital particle engine (Unity/TouchDesigner), which Gamgie plays live like an instrument.",
+   "technique_zh": "Augmenta 激光雷达追踪把演员的位置传给 Oxipital 粒子引擎（Unity/TouchDesigner），由 Gamgie 像演奏乐器一样现场操控。",
+   "exercise_en": "Track one dancer from above with a webcam or Kinect in TouchDesigner and project particles that swirl around their position on the floor. Twist: the particles slowly remember and redraw the dancer's path.",
+   "exercise_zh": "在 TouchDesigner 中用俯拍摄像头或 Kinect 追踪一名舞者，把粒子投影到地面并围绕其位置旋转。变体：粒子慢慢记住并重绘舞者走过的路线。",
+   "interaction": [
+    "performance-stage",
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Augmenta",
+    "Oxipital",
+    "TouchDesigner",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XBd41JohXq8",
+    "url": "https://www.youtube.com/watch?v=XBd41JohXq8"
+   },
+   "source_url": "https://augmenta.tech/"
+  },
+  {
+   "id": "gamgie--padirac-cave-mapping",
+   "creator_ids": [
+    "gamgie"
+   ],
+   "title": "Voyage au Centre de la Terre (Padirac cave mapping)",
+   "year": 2024,
+   "description": "Deep inside the Gouffre de Padirac cave in France, an immersive theatre play ends with video mapping on the rock walls as the character Queen Siggi reawakens her powers.",
+   "description_zh": "在法国 Padirac 溶洞深处，一场沉浸式戏剧以岩壁上的投影映射收尾：角色 Siggi 女王重新唤醒了她的力量。",
+   "idea_en": "Use a real cave as the screen and the stage for a journey to the centre of the Earth.",
+   "idea_zh": "把真实的溶洞当作屏幕和舞台，演一场“地心游记”。",
+   "technique": "Particle and light content generated with Oxipital (Unity, TouchDesigner) is projection-mapped onto irregular cave rock and triggered through a custom web cue interface and Chataigne show control.",
+   "technique_zh": "用 Oxipital（Unity、TouchDesigner）生成的粒子与光影内容投影映射到不规则的洞壁岩石上，通过自制网页触发界面和 Chataigne 演出控制系统按需播放。",
+   "exercise_en": "Project-map a short scene onto a rough, non-flat surface (crumpled paper, stones, a corner of the school) using MadMapper or TouchDesigner. Twist: let a performer trigger the next cue by stepping into a pool of light.",
+   "exercise_zh": "用 MadMapper 或 TouchDesigner 把一段短场景投影映射到粗糙、不平整的表面（揉皱的纸、石头、校园角落）。变体：让表演者踩进一片光中来触发下一段。",
+   "interaction": [
+    "projection",
+    "location-geo",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Oxipital",
+    "TouchDesigner",
+    "Unity",
+    "Chataigne"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Lsv5H5XheLk",
+    "url": "https://www.youtube.com/watch?v=Lsv5H5XheLk"
+   },
+   "source_url": "https://www.crumble-production.com/"
+  },
+  {
+   "id": "gamgie--propagason",
+   "creator_ids": [
+    "gamgie"
+   ],
+   "title": "Propagason",
+   "year": 2019,
+   "description": "An interactive installation that asks visitors to speak or sing their wishes into the sky; each voice becomes a ring of light that travels outward through space, joining a collective picture of everyone's sounds.",
+   "description_zh": "一件互动装置，邀请观众把愿望说出来或唱给天空；每一个声音都化作一圈向外传播的光环，汇入由所有人声音组成的集体画面。",
+   "idea_en": "Send your voice into space and watch it travel.",
+   "idea_zh": "把你的声音送上太空，看它一路远去。",
+   "technique": "Microphone input is analysed in real time and drives the size and brightness of expanding particle rings, likely built with Gamgie's Oxipital/TouchDesigner pipeline.",
+   "technique_zh": "实时分析麦克风输入，驱动不断扩散的粒子光环的大小和亮度，很可能基于 Gamgie 的 Oxipital/TouchDesigner 流程制作。",
+   "exercise_en": "Make a 'voice to the sky' projection in p5.js: each sound above a threshold spawns a ring whose size follows loudness and whose colour follows pitch. Twist: rings from two voices at once merge into one.",
+   "exercise_zh": "用 p5.js 做一个“向天空发声”的投影：每个超过阈值的声音生成一个光环，大小随音量、颜色随音高变化。变体：两个人同时发声时，光环合二为一。",
+   "interaction": [
+    "voice-sound",
+    "projection",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "TouchDesigner",
+    "audio analysis",
+    "particles"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "362786908",
+    "url": "https://vimeo.com/362786908"
+   },
+   "source_url": "https://www.gamgie.com"
+  },
+  {
+   "id": "gamgie--morphose",
+   "creator_ids": [
+    "gamgie"
+   ],
+   "title": "Morphose (Cie Ultreia)",
+   "year": 2023,
+   "description": "In a museum about to close for two years, nine projectors bring 21 paintings, the ceiling and the walls to life, extending and transforming the canvases around the visitors.",
+   "description_zh": "在一座即将闭馆两年的博物馆里，九台投影仪让 21 幅画作以及天花板和墙面动了起来，把画布延伸、变形到观众四周。",
+   "idea_en": "Let old paintings spill beyond their frames onto the room.",
+   "idea_zh": "让老画溢出画框，漫到整个房间。",
+   "technique": "Nine projectors and four computers map content from TouchDesigner, Resolume, Chataigne and Oxipital onto the paintings, with some backgrounds expanded by DALL-E outpainting.",
+   "technique_zh": "九台投影仪和四台电脑把来自 TouchDesigner、Resolume、Chataigne 和 Oxipital 的内容映射到画作上，部分背景用 DALL-E 外扩生成。",
+   "exercise_en": "Pick one painting (or a printed reproduction on the wall) and project an animated extension of it beyond the frame. Twist: the extension changes when a visitor stands in front of the painting.",
+   "exercise_zh": "选一幅画（或贴在墙上的复制品），把它的动画延伸部分投影到画框之外。变体：有观众站到画前时，延伸部分随之变化。",
+   "interaction": [
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "TouchDesigner",
+    "Resolume",
+    "Oxipital",
+    "projection mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nBenQHOFNK8",
+    "url": "https://www.youtube.com/watch?v=nBenQHOFNK8"
+   },
+   "source_url": "https://compagnieultreia.fr/"
+  },
+  {
+   "id": "christian-brinkmann--floral-resonance",
+   "creator_ids": [
+    "christian-brinkmann"
+   ],
+   "title": "Floral Resonance",
+   "year": 2024,
+   "description": "An interactive audiovisual installation in which a living plant responds to people: touching or approaching it shifts the surrounding sound and light, shown at Manar Abu Dhabi with the artist explaining the piece.",
+   "description_zh": "一件互动视听装置，活的植物会回应人：触摸或靠近它，周围的声音和灯光就会发生变化；视频拍摄于 Manar Abu Dhabi，艺术家本人讲解作品。",
+   "idea_en": "Make the silent relationship between a person and a plant audible and visible.",
+   "idea_zh": "让人与植物之间无声的关系变得可听、可见。",
+   "technique": "Electrodes pick up the plant's bioelectrical signals, which change with touch, and TouchDesigner and Ableton Live map them to generative sound and light.",
+   "technique_zh": "电极采集植物的生物电信号，这些信号会随触摸变化，再由 TouchDesigner 和 Ableton Live 映射成生成式声音和灯光。",
+   "exercise_en": "Wire a houseplant to a Makey Makey or capacitive touch sensor (Arduino) and let each touch change a projected colour and a synth note. Twist: the plant 'sulks' and stays dark if it is touched too often.",
+   "exercise_zh": "把一盆绿植接到 Makey Makey 或电容触摸传感器（Arduino）上，每次触摸都改变投影颜色和一个合成器音符。变体：被摸得太频繁时，植物会“生气”并暗下来。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "plant electrophysiology",
+    "TouchDesigner",
+    "Ableton Live"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2005927172448698436",
+    "url": "https://x.com/publicartad/status/2005927172448698436"
+   },
+   "source_url": "https://paad.ae/manar/artist-detail/christian-brinkmann"
+  },
+  {
+   "id": "paris-ar-studio--seven-wonders-augmented",
+   "creator_ids": [
+    "paris-ar-studio"
+   ],
+   "title": "Seven Wonders of the Ancient World",
+   "year": 2025,
+   "description": "An 'augmented documentary series' made with Sandstone Global: Snapchat Lenses accompany the TV programme and rebuild the Seven Wonders, from the pyramids to the Colossus, as 3D models viewers can explore around them.",
+   "description_zh": "与 Sandstone Global 合作的“增强纪录片系列”：Snapchat 镜头配合电视节目播出，把从金字塔到太阳神巨像的古代七大奇迹重建成观众可以在身边探索的 3D 模型。",
+   "idea_en": "Let a TV documentary spill its monuments into the viewer's room.",
+   "idea_zh": "让电视纪录片里的古迹走进观众的房间。",
+   "technique": "Snapchat world Lenses likely place detailed reconstructions of each wonder on the floor or table, paired with each episode of the programme.",
+   "technique_zh": "Snapchat 世界镜头很可能把每处奇迹的精细复原模型放在地面或桌面上，与节目的每一集配套。",
+   "exercise_en": "Pick a documentary topic and build a companion AR scene (Lens Studio or model-viewer) that places one reconstructed object at true scale in the classroom. Twist: the object is revealed layer by layer as the documentary narration progresses.",
+   "exercise_zh": "选一个纪录片主题，做一个配套 AR 场景（Lens Studio 或 model-viewer），在教室里按真实比例放一个复原物体。变体：随着纪录片旁白推进，物体一层层显现。",
+   "interaction": [
+    "data-information",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Snapchat Lenses",
+    "Lens Studio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "HZ0sseutYoE",
+    "url": "https://www.youtube.com/watch?v=HZ0sseutYoE"
+   }
+  },
+  {
+   "id": "paris-ar-studio--huit-mars-huit-femmes",
+   "creator_ids": [
+    "paris-ar-studio"
+   ],
+   "title": "8 Mars 8 Femmes",
+   "year": 2023,
+   "description": "For International Women's Day 2023, AR Lenses bring eight women from French history, including Simone Veil, Simone de Beauvoir, Joséphine Baker and Olympe de Gouges, to life as illustrated figures with their stories, likely placed at locations around Paris.",
+   "description_zh": "为 2023 年国际妇女节制作的 AR 镜头，把 Simone Veil、Simone de Beauvoir、Joséphine Baker、Olympe de Gouges 等八位法国历史女性以插画形象呈现并讲述她们的故事，很可能分布在巴黎各处的相关地点。",
+   "idea_en": "Put forgotten women back into the city as life-size AR portraits.",
+   "idea_zh": "让被忽略的女性以真人大小的 AR 肖像重回城市。",
+   "technique": "Snapchat Lenses likely combine location-based placement around Paris with illustrated 2D/3D characters and short narrated stories.",
+   "technique_zh": "Snapchat 镜头很可能结合巴黎各地的定位摆放、插画风格的 2D/3D 人物和简短的讲述。",
+   "exercise_en": "Choose five people connected to your school or neighbourhood and place an AR portrait of each at a meaningful spot with 8th Wall or Lens Studio. Twist: each portrait only speaks when the visitor stands where that person once stood.",
+   "exercise_zh": "选五位与学校或街区有关的人物，用 8th Wall 或 Lens Studio 在有意义的地点放置他们的 AR 肖像。变体：只有当观众站在那个人曾经站过的位置时，肖像才开口说话。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Snapchat Lenses",
+    "Lens Studio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "pXp_CRjJp1I",
+    "url": "https://www.youtube.com/watch?v=pXp_CRjJp1I"
+   }
+  }
+ ],
+ "leads": [
+  {
+   "name": "Ramesh Raskar",
+   "why": "MIT Media Lab (Camera Culture) professor and projector-AR pioneer (Shader Lamps, iLamps, RFIG Lamps with Johnny Lee); RFIG video exists at youtube.com/watch?v=MURwa1lWDsY.",
+   "link": "https://www.media.mit.edu/people/raskar/overview/",
+   "found_via": "johnny-chung-lee",
+   "status": "open"
+  },
+  {
+   "name": "Karen X Cheng",
+   "why": "Director and creative technologist known for viral camera, AR and AI video tricks; co-made the Spectacles 3 butterfly film with Clara Bacou.",
+   "link": "https://x.com/karenxcheng",
+   "found_via": "clara-bacou",
+   "status": "open"
+  },
+  {
+   "name": "PHORIA (Ben Ferns)",
+   "why": "Melbourne XR studio that co-built the WebXR mixed-reality showcase Spatial Fusion with Lusion and Meta; Ben Ferns posts WebXR tech walkthroughs.",
+   "link": "https://www.phoria.com.au",
+   "found_via": "lusion",
+   "status": "open"
+  },
+  {
+   "name": "Yi-Wen Lin",
+   "why": "London-based Taiwanese creative coder (WENSDAY) who co-made the AR Virtual Plants demo with Matt DesLauriers; WebGL/AR sketches.",
+   "link": "https://yiwenl.github.io/",
+   "found_via": "matt-deslauriers",
+   "status": "open"
+  }
+ ]
+}
