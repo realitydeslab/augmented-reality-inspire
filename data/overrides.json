@@ -1,7 +1,20 @@
 {
- "_note": "Manual curation. drop_works: work ids to hide. patch_works: {work_id: {field: value}} applied after merge.",
+ "_note": "Manual curation, applied at build time. drop_works: work ids to hide. patch_works: {work_id: {field: value}}. merge_creators: {duplicate_creator_id: canonical_creator_id}. lead_status: {lead name: no_video|not_ar|duplicate|covered}. audit_ignore: [\"id-a|id-b\"] pairs confirmed not duplicates.",
  "drop_works": [
   "daito-manabe--perfume-cannes-lions"
  ],
- "patch_works": {}
+ "patch_works": {},
+ "merge_creators": {},
+ "lead_status": {},
+ "audit_ignore": [
+  "julian-triveri--lasertag|theo-watson--l-a-s-e-r-tag",
+  "disney-research-ar|ivan-poupyrev",
+  "sce-london-studio|sce-japan-studio",
+  "anna-fuste--hypercubes|anna-fuste--paper-cubes",
+  "msr-izadi-holoportation--mobile-holoportation|msr-izadi-holoportation--holoportation",
+  "niantic--pok-mon-go-ar|niantic--pok-mon-go",
+  "ken-nakagaki--lineform|mit-tangible-media--inform",
+  "sce-london-studio--wonderbook-book-of-potions|sce-london-studio--wonderbook-book-of-spells",
+  "james-alliban--traces|chris-oshea--traces"
+ ]
 }

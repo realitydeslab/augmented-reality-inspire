@@ -21,6 +21,7 @@ Each research batch writes one file: `data/raw/<batch>.json`
   "bio": "1-2 sentences, English.",
   "why": "Why they are among the most creative AR people (1 sentence).",
   "links": { "site": "", "x": "", "instagram": "", "vimeo": "", "youtube": "", "github": "" },
+  "role_zh": "…", "bio_zh": "…", "why_zh": "…", "based_zh": "纽约，美国",   // REQUIRED Chinese versions (natural Simplified Chinese)
   "connected_to": ["molmol-kuo", "golan-levin"],   // other creator ids (collaborators, mutual follows, shared lab/studio)
   "discovered_via": "zach-lieberman"               // creator id that led to this person ("seed" for seeds)
 }
@@ -34,7 +35,13 @@ Each research batch writes one file: `data/raw/<batch>.json`
   "title": "Audio in AR space",
   "year": 2018,
   "description": "1-2 sentences, English: what you see and what the interaction is.",
+  "description_zh": "中文描述（自然流畅，不逐字翻译）",
+  "idea_en": "One-line core idea in English.",
   "idea_zh": "一句话中文：核心创意点子是什么",
+  "technique": "One English sentence: the key technique and how it works (mark guesses with 'likely').",
+  "technique_zh": "关键技术的中文说明。",
+  "exercise_en": "Imperative 1–3 hour classroom exercise. Twist: …",
+  "exercise_zh": "以动词开头的 1–3 小时课堂练习；变体：……",
   "interaction": ["voice-sound", "spatial-mapping"],  // 1-3 from the vocabulary below
   "platform": ["phone"],                               // phone | headset | projection | web | wearable | desktop
   "tech": ["ARKit", "openFrameworks"],
@@ -64,8 +71,16 @@ Each research batch writes one file: `data/raw/<batch>.json`
 
 ## Lead  (person found but not researched in this batch — next snowball round)
 ```json
-{ "name": "…", "why": "…", "link": "…", "found_via": "creator id" }
+{ "name": "…", "why": "…", "link": "…", "found_via": "creator id",
+  "status": "open" }   // open | no_video | not_ar | duplicate  (anything but "open" = checked, won't be re-researched)
 ```
+
+## Language rule
+Every user-facing text exists in BOTH languages, never mixed inside one field
+(proper nouns — work titles, people, studios, products like ARKit — stay in the original).
+English fields: description, idea_en, technique, exercise_en, role, bio, why, based.
+Chinese fields: description_zh, idea_zh, technique_zh, exercise_zh, role_zh, bio_zh, why_zh, based_zh.
+Run `python3 tools/validate.py <file>` before building.
 
 ## Video rules
 - Verify every video with `python3 tools/check_video.py <url>`; include only `"ok": true`.

@@ -1,0 +1,506 @@
+[
+ {
+  "name": "Daniel Beauchamp (@pushmatrix)",
+  "why": "Shopify AR/VR lead who posts playful AR and Quest hand-tracking prototypes (Beat Saber AR concept, hand walking).",
+  "link": "https://x.com/pushmatrix",
+  "found_via": "ian-curtis",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Keijiro Takahashi",
+  "why": "Unity Japan creative coder whose ARKit/LiDAR VFX experiments (Rcam, depth effects) circulate widely; overlaps creative-coding cluster.",
+  "link": "https://x.com/_kzr",
+  "found_via": "kitasenju-design",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Stuart Langfield",
+  "why": "Made a widely shared Super Mario ARKit demo in 2017 (mirror: youtube.com/watch?v=_6oHfN71gB0).",
+  "link": "https://twitter.com/stuartlangfield",
+  "found_via": "laan-labs",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Fabin Rasheed",
+  "why": "Indian designer-artist who made an early ARKit sculpting and painting tool (youtube.com/watch?v=gc5tL6ASlww).",
+  "link": "https://nurecas.com/",
+  "found_via": "laan-labs",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Jelle Vermandere",
+  "why": "Belgian YouTuber building mixed-reality games with real objects (AR boxing, real-ball soccer, CV-tracked RC-car pets).",
+  "link": "https://www.youtube.com/channel/UCTi0V5iwClvjUba6nI2bI3w",
+  "found_via": "matthew-hallberg",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Tomás García",
+  "why": "Argentine character designer behind early viral ARKit animation demos (dancing robot, 2017).",
+  "link": "https://www.youtube.com/@TomásGarcía",
+  "found_via": "laan-labs",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Can Büyükberber",
+  "why": "Artist who staged ARKit art experiments at the de Young Museum (2017).",
+  "link": "https://www.youtube.com/watch?v=ph06QzRB9sM",
+  "found_via": "laan-labs",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Trixi Studios",
+  "why": "Made the viral 'Take On Me' AR portal (a-ha music video world) in 2018; overlaps AR studio cluster.",
+  "link": "https://www.trixistudios.com/",
+  "found_via": "matthew-hallberg",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Judith Amores",
+  "why": "MIT Media Lab researcher with AR experiments 'Draw and Dance' on ARCore; overlaps HCI cluster.",
+  "link": "https://www.youtube.com/watch?v=q_0HZ14EA_Y",
+  "found_via": "takashi-yoshinaga",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Hart Woolery (2020CV)",
+  "why": "Built viral hand- and body-tracking AR experiments for phones and Snap Lenses.",
+  "link": "https://twitter.com/hartwoolery",
+  "found_via": "brad-dwyer",
+  "batch": "arkit-prototypers",
+  "status": "covered"
+ },
+ {
+  "name": "Romain Tardy",
+  "why": "AntiVJ co-founder; architectural projection works such as O (Omicron) in Wroclaw and The Drift.",
+  "link": "https://www.youtube.com/watch?v=NvtKhJM87rU",
+  "found_via": "joanie-lemercier",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Yannick Jacquet (Legoman)",
+  "why": "AntiVJ co-founder working with projection on architecture and sculpture.",
+  "link": "https://www.youtube.com/watch?v=OksyXOMTnG4",
+  "found_via": "joanie-lemercier",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Motoi Ishibashi / MIKIKO (ELEVENPLAY)",
+  "why": "Rhizomatiks co-founder and choreographer behind the drone/AR dance works.",
+  "link": "https://rhizomatiks.com",
+  "found_via": "daito-manabe",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Will Pappenheimer",
+  "why": "Manifest.AR founding member making geolocated AR interventions.",
+  "link": "https://www.willpap-projects.com",
+  "found_via": "tamiko-thiel",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Raymond Salvatore Harmon",
+  "why": "MIRAGE: architectural-scale painting that becomes an AR app.",
+  "link": "https://www.youtube.com/watch?v=rhtFEY1Bk54",
+  "found_via": "heavy-projects",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Olafur Eliasson",
+  "why": "Could be his own creator entry: Wunderkammer (AR) plus Rainbow and other Acute Art works.",
+  "link": "https://olafureliasson.net/press/wunderkammer",
+  "found_via": "acute-art",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Kyle McDonald",
+  "why": "Co-created discrete figures with Rhizomatiks (covered by creative-coding cluster).",
+  "link": "https://kylemcdonald.net",
+  "found_via": "daito-manabe",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Marlena Myles (Dakota Spirit Walk)",
+  "why": "Permanent AR public art honouring Dakota culture in St. Paul.",
+  "link": "https://www.youtube.com/watch?v=nxo1UIyZR-Y",
+  "found_via": "nancy-baker-cahill",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Shunichi Kasahara",
+  "why": "Second Surface; Sony CSL — perception-altering AR/telepresence (JackIn, Superception)",
+  "link": "https://www.shunichikasahara.com",
+  "found_via": "valentin-heun",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Michael Nebeling",
+  "why": "ProtoAR, 360proto, XRDirector — AR/VR prototyping tools (UMich)",
+  "link": "https://michael-nebeling.de",
+  "found_via": "ryo-suzuki",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Fraser Anderson / Tovi Grossman (Autodesk Research)",
+  "why": "YouMove AR mirror for movement training (UIST 2013)",
+  "link": "https://www.youtube.com/watch?v=DsZ-9opi150",
+  "found_via": "chris-harrison-figlab",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Yuta Itoh",
+  "why": "Vision augmentation / OST-HMD calibration, perception-altering AR (Univ. of Tokyo)",
+  "link": "https://www.ar.c.titech.ac.jp",
+  "found_via": "mark-billinghurst",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Ivan Poupyrev",
+  "why": "Could be split out as own creator: REVEL, AIREAL, Touché; later Google ATAP Soli/Jacquard",
+  "link": "https://www.ipoupyrev.com",
+  "found_via": "disney-research-ar",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Denis Kalkofen",
+  "why": "X-ray / explosion-diagram visualizations in AR (TU Graz)",
+  "link": "https://www.tugraz.at",
+  "found_via": "tu-graz-wagner-schmalstieg",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Brett Jones",
+  "why": "IllumiRoom/RoomAlive lead intern; later Lightform projection-mapping startup",
+  "link": "https://lightform.com",
+  "found_via": "msr-benko-wilson",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Rajinder Sodhi",
+  "why": "AIREAL, LightGuide (projected movement guidance, CHI 2012), Mano-a-Mano",
+  "link": "",
+  "found_via": "msr-benko-wilson",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Pedro Lopes",
+  "why": "Electrical muscle stimulation for AR/VR haptics (UChicago)",
+  "link": "https://lab.plopes.org",
+  "found_via": "chris-harrison-figlab",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Ken Nakagaki",
+  "why": "Shape-changing and actuated tangibles (inFORCE, Sketched Reality co-author), UChicago",
+  "link": "https://www.ken-nakagaki.com",
+  "found_via": "ryo-suzuki",
+  "batch": "hci-research",
+  "status": "covered"
+ },
+ {
+  "name": "Keiichi Matsuda",
+  "why": "Led Leap Motion's AR interaction design (North Star UI, Virtual Wearables); covered by the artists/speculative batch.",
+  "link": "https://km.cx",
+  "found_via": "leap-motion-design",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Martin Schubert",
+  "why": "Leap Motion designer (Weightless, Mirrors embodiment experiment, Cat Explorer); mostly VR hand interaction, a few AR talks.",
+  "link": "https://www.youtube.com/watch?v=VMnes2xKO88",
+  "found_via": "leap-motion-design",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Barrett Fox",
+  "why": "Leap Motion interaction engineer (Interaction Engine, Shortcuts/Scaffolding experiments); North Star interaction work.",
+  "link": "https://www.youtube.com/watch?v=LFRKEmzrzP8",
+  "found_via": "leap-motion-design",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Takashi Yoshinaga",
+  "why": "Prolific AR prototyper combining Leap Motion hands with tabletop AR and Meta2 headsets.",
+  "link": "https://www.youtube.com/watch?v=CICZqMf9QwA",
+  "found_via": "leap-motion-design",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Alessio Grancini",
+  "why": "Magic Leap prototype engineer, now Snap Spectacles developer advocate; architecture-to-AR prototypes (Shilo XR).",
+  "link": "https://www.youtube.com/watch?v=t1feZfOTdK8",
+  "found_via": "stijn-spanhove",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Jiabao Li",
+  "why": "Artist and co-creator of EchoVision (bat echolocation MR mask) with Botao Hu; likely belongs to artists batch.",
+  "link": "https://www.youtube.com/watch?v=7LqsKpEZy4g",
+  "found_via": "botao-amber-hu",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Danlin Huang",
+  "why": "Co-creator of FeltSight and EchoVision; haptic mixed-reality design research.",
+  "link": "https://www.youtube.com/watch?v=7Pq6s3VnD0A",
+  "found_via": "botao-amber-hu",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Magic Leap Studios / ILMxLAB",
+  "why": "Lost Droids MR test (2015) and Magic Leap Create; corporate but historically important.",
+  "link": "https://www.youtube.com/watch?v=lP5ZZI05A3g",
+  "found_via": "greg-broadmore",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Microsoft Studios (RoboRaid)",
+  "why": "HoloLens launch shooter where robots break through your real walls; corporate.",
+  "link": "https://www.youtube.com/watch?v=Hf9qkURqtbM",
+  "found_via": "asobo-studio",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Apple (Encounter Dinosaurs, Jon Favreau)",
+  "why": "Vision Pro showcase with a dinosaur stepping through a portal and reacting to your hand; corporate.",
+  "link": "https://www.youtube.com/watch?v=kFqvDYfjVL0",
+  "found_via": "ryan-mcleod",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Owlchemy Labs",
+  "why": "Hand-tracking and MR design (Job Simulator MR, Cosmonious High); no MR-specific creator-uploaded demo found yet.",
+  "link": "https://owlchemylabs.com",
+  "found_via": "resolution-games",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Figmin XR (Overlay team)",
+  "why": "Mixed-reality creation tool for placing and sculpting holograms on Quest.",
+  "link": "https://www.youtube.com/watch?v=uNWhiYDcitg",
+  "found_via": "greg-madison",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Aidan Wolf",
+  "why": "Snap AR developer known for Spectacles 'downloadable theme park' lenses; belongs to headset/Spectacles batch.",
+  "link": "https://www.youtube.com/watch?v=kY_m7_v6jpI",
+  "found_via": "snap-inc",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Phil Walton",
+  "why": "Official Snap Lens Creator behind the viral 'Potato Boss' lens and author of The Designer's Guide to Snapchat's Lens Studio.",
+  "link": "https://www.youtube.com/watch?v=mk3Lvvb7hxY",
+  "found_via": "snap-inc",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Luke Hurd",
+  "why": "Early Spark AR and Lens Studio educator; custom Landmarker experiments (Charlie Parker memorial).",
+  "link": "https://www.youtube.com/watch?v=PdiAQvRs-50",
+  "found_via": "snap-inc",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Nancy Baker Cahill (4th Wall)",
+  "why": "Artist making geolocated AR public art via her 4th Wall app; belongs to artists batch.",
+  "link": "https://www.youtube.com/watch?v=i9cFUDshxMQ",
+  "found_via": "google-creative-lab",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Zach Lieberman & Molmol Kuo — Weird Cuts (Google Arts & Culture, 2019)",
+  "why": "AR collage app made with Google Arts & Culture; verified video kpj4J8RrYwQ. Belongs to Zach Lieberman batch.",
+  "link": "https://www.youtube.com/watch?v=kpj4J8RrYwQ",
+  "found_via": "google-creative-lab",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Liquid City / Keiichi Matsuda — Wol (8th Wall, 2023)",
+  "why": "WebAR mixed-reality piece built on 8th Wall; verified video GUgAw-uU46o. Belongs to artists batch.",
+  "link": "https://www.youtube.com/watch?v=GUgAw-uU46o",
+  "found_via": "8th-wall",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Julian Oliver — levelHead (2007)",
+  "why": "Tangible AR cube game using marker tracking; also The Artvertiser. Artist/critical engineer.",
+  "link": "https://julianoliver.com/levelhead",
+  "found_via": "novarama",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Georgia Tech Augmented Environments Lab — ARhrrrr! (2009)",
+  "why": "Early phone AR zombie shooter on a printed city map; belongs to HCI labs batch.",
+  "link": "https://ael.gatech.edu",
+  "found_via": "tonchidot",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Sander Veenhof & Mark Skwarek — We AR in MoMA (2010)",
+  "why": "Unauthorised AR art intervention in MoMA using the Layar browser.",
+  "link": "https://www.sndrv.nl/moma/",
+  "found_via": "layar",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Claire Boonstra",
+  "why": "Layar co-founder; later focused on AR in education and interactive print.",
+  "link": "https://www.youtube.com/watch?v=5UFm5JXHp1o",
+  "found_via": "layar",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Motoi Ishibashi (Rhizomatiks)",
+  "why": "Co-director of Rhizomatiks R&D who designed the light drones and AR systems behind ELEVENPLAY works; could be credited as a separate creator.",
+  "link": "https://rhizomatiks.com",
+  "found_via": "elevenplay-mikiko",
+  "batch": "r2-art",
+  "status": "covered"
+ },
+ {
+  "name": "Shantell Martin",
+  "why": "Co-created 'Poem World' Spectacles lens with Zach Lieberman (2021); Snap's video (youtube.com/watch?v=gnjUM9LNmEg) has embedding disabled, so no playable video yet.",
+  "link": "https://newsroom.snap.com/introducing-the-next-generation-of-spectacles",
+  "found_via": "seed",
+  "batch": "r2-phone",
+  "status": "covered"
+ },
+ {
+  "name": "Joel Gethin Lewis (Hellicar & Lewis)",
+  "why": "YesYesNo collaborator on Lights On/Night Lights; Hellicar & Lewis made body-interactive projection work such as Somantics.",
+  "link": "https://vimeo.com/hellicarandlewis",
+  "found_via": "zach-lieberman",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "Torin Blankensmith & Anthony Tripaldi",
+  "why": "Co-built AR Wormhole with Jonas Jongejan at Google Creative Lab; Torin later made hand-tracking creative-coding tools.",
+  "link": "https://experiments.withgoogle.com/ar-wormhole",
+  "found_via": "jonas-jongejan",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "Google Creative Lab (Just a Line, Sounds in Space, Lines of Play, Drawalong AR)",
+  "why": "Collection of ARCore art experiments; Just a Line grew out of Jonas Jongejan's ARCore Drawing. Phone-AR cluster.",
+  "link": "https://experiments.withgoogle.com/collection/ar",
+  "found_via": "jonas-jongejan",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "Anna Fusté & Judith Amores",
+  "why": "Draw and Dance AR experiment (MIT Media Lab alumni); HCI/phone-AR clusters.",
+  "link": "https://experiments.withgoogle.com/draw-and-dance",
+  "found_via": "jonas-jongejan",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "Jakob Kudsk Steensen",
+  "why": "The Deep Listener: Serpentine augmented architecture AR piece; artist cluster.",
+  "link": "https://experiments.withgoogle.com/augmentedarchitecture",
+  "found_via": "jonas-jongejan",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "MIKIKO / ELEVENPLAY",
+  "why": "Choreographer and dance company behind border, discrete figures and 24 drones with Rhizomatiks.",
+  "link": "https://elevenplay.net",
+  "found_via": "daito-manabe",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "rAndom International",
+  "why": "Chris O'Shea wrote software for Audience, You Fade to Light and a Study of Three Mirrors; mirror/robotic responsive installations (artist cluster).",
+  "link": "https://vimeo.com/chrisoshea",
+  "found_via": "chris-oshea",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "Camille Utterback",
+  "why": "Body-shadow projection pioneer (Text Rain, Entangled); influence and peer of Golan Levin/Zach Lieberman's camera-based work.",
+  "link": "http://camilleutterback.com",
+  "found_via": "golan-levin",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "Scott Snibbe",
+  "why": "Boundary Functions / Deep Walls projection works and later AR apps; peer of Golan Levin from Interval Research.",
+  "link": "https://www.snibbe.com",
+  "found_via": "golan-levin",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "Karolina Sobecka",
+  "why": "Sniff (2009): projected dog that responds to passers-by on the street; camera-based public AR.",
+  "link": "https://vimeo.com/6400266",
+  "found_via": "chris-oshea",
+  "batch": "zach-circle",
+  "status": "covered"
+ },
+ {
+  "name": "Klaus Obermaier",
+  "why": "Apparition and interactive projection-on-body dance works; Chris Sugrue developed software for his Le Sacre du Printemps.",
+  "link": "http://www.exile.at",
+  "found_via": "chris-sugrue",
+  "batch": "zach-circle",
+  "status": "covered"
+ }
+]

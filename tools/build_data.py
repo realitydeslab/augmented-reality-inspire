@@ -126,6 +126,55 @@ def load_teach() -> dict:
     return out
 
 
+def _name_tokens(name: str) -> set[str]:
+    """Distinctive name parts: 'Zach Lieberman & Molmol Kuo — Weird Cuts' -> {'zachlieberman', 'molmolkuo', ...}."""
+    parts = re.split(r"[—–\-/(),&@|]| and ", name or "")
+    return {t for t in (re.sub(r"[^a-z0-9]", "", p.lower()) for p in parts) if len(t) >= 5}
+
+
+def merge_creators(creators: dict, works: dict, mapping: dict) -> None:
+    """Apply overrides.merge_creators {duplicate_id: canonical_id} in place."""
+    for src, dst in mapping.items():
+        if src not in creators or dst not in creators or src == dst:
+            logger.warning("merge_creators: skip %s -> %s (unknown id)", src, dst)
+            continue
+        a, b = creators.pop(src), creators[dst]
+        for k, v in a.items():
+            if k == "links":
+                b["links"] = {**v, **b.get("links", {})}
+            elif k == "connected_to":
+                b["connected_to"] = sorted(set(b.get("connected_to", [])) | set(v))
+            elif v and not b.get(k):
+                b[k] = v
+        for w in works.values():
+            w["creator_ids"] = list(dict.fromkeys(dst if c == src else c for c in w["creator_ids"]))
+        for c in creators.values():
+            c["connected_to"] = [dst if x == src else x for x in c.get("connected_to", [])]
+            if c.get("discovered_via") == src:
+                c["discovered_via"] = dst
+
+
+def classify_leads(leads: list, creators: dict, manual: dict) -> tuple[list, list]:
+    """Split leads into open (to research) and checked (covered / no_video / not_ar / duplicate)."""
+    tokens = set()
+    for c in creators.values():
+        tokens |= _name_tokens(c.get("name", "")) | {c["id"].replace("-", "")}
+    open_, checked, seen = [], [], set()
+    for lead in leads:
+        name = (lead.get("name") or "").strip()
+        key = name.lower()
+        if not name or key in seen:
+            continue
+        seen.add(key)
+        status = manual.get(key) or lead.get("status") or "open"
+        if status == "open" and _name_tokens(name) & tokens:
+            status = "covered"
+        (open_ if status == "open" else checked).append({**lead, "status": status})
+    # a person checked in one batch stays checked even if another batch lists them as open
+    done = {x["name"].lower() for x in checked}
+    return [x for x in open_ if x["name"].lower() not in done], checked
+
+
 def load_i18n() -> tuple[dict, dict]:
     """Translations: works-*.json -> work fields, creators.json -> creator fields."""
     works: dict[str, dict] = {}
@@ -182,10 +231,11 @@ def write_markdown(data: dict) -> None:
 def main() -> None:
     recheck = "--recheck" in sys.argv
     creators, works, leads = load_raw()
+    ov = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
+    merge_creators(creators, works, ov.get("merge_creators", {}))
     cache = verify(works, recheck)
 
     teach = load_teach()
-    ov = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
     drop_ids = set(ov.get("drop_works", []))
     patches = ov.get("patch_works", {})
     seen_ids: set[str] = set()
@@ -221,12 +271,7 @@ def main() -> None:
         c["work_count"] = sum(c["id"] in w["creator_ids"] for w in kept)
 
     kept.sort(key=lambda w: (-(w.get("year") or 0), w.get("title", "")))
-    known = {c.get("name", "").lower() for c in creators.values()}
-    open_leads = {}
-    for lead in leads:
-        n = (lead.get("name") or "").strip()
-        if n and n.lower() not in known:
-            open_leads.setdefault(n.lower(), lead)
+    open_leads, checked_leads = classify_leads(leads, creators, {k.lower(): v for k, v in ov.get("lead_status", {}).items()})
 
     tw, tc = load_i18n()
     for w in kept:
@@ -244,7 +289,8 @@ def main() -> None:
     data = {"generated": date.today().isoformat(), "creators": out_creators, "works": kept, "keys": keys}
     (ROOT / "data" / "entries.json").write_text(json.dumps(data, indent=1, ensure_ascii=False))
     (ROOT / "data" / "entries.js").write_text("window.INSPIRE = " + json.dumps(data, ensure_ascii=False) + ";\n")
-    (ROOT / "data" / "leads.json").write_text(json.dumps(list(open_leads.values()), indent=1, ensure_ascii=False))
+    (ROOT / "data" / "leads.json").write_text(json.dumps(open_leads, indent=1, ensure_ascii=False))
+    (ROOT / "data" / "leads_checked.json").write_text(json.dumps(checked_leads, indent=1, ensure_ascii=False))
     (ROOT / "data" / "dropped.json").write_text(json.dumps(dropped, indent=1, ensure_ascii=False))
     write_markdown(data)
     index = ROOT / "index.html"
