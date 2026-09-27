@@ -2840,6 +2840,14 @@
   "batch": "src-pinterest"
  },
  {
+  "name": "Aras Pranckevičius",
+  "why": "Graphics engineer (ex-Unity) whose open-source UnityGaussianSplatting renders 3D Gaussian Splatting scenes in Unity; Keijiro's SplatVFX README recommends it as the more complete implementation.",
+  "link": "https://github.com/aras-p/UnityGaussianSplatting",
+  "found_via": "keijiro-takahashi",
+  "status": "covered",
+  "batch": "vfx-keijiro-new"
+ },
+ {
   "name": "hecomi",
   "why": "Author of uRaymarching and UnityFurURP, widely used open-source Unity shader and raymarching tools.",
   "link": "https://github.com/hecomi",

@@ -248,14 +248,6 @@
   "batch": "vfx-community"
  },
  {
-  "name": "Aras Pranckevičius",
-  "why": "Graphics engineer (ex-Unity) whose open-source UnityGaussianSplatting renders 3D Gaussian Splatting scenes in Unity; Keijiro's SplatVFX README recommends it as the more complete implementation.",
-  "link": "https://github.com/aras-p/UnityGaussianSplatting",
-  "found_via": "keijiro-takahashi",
-  "status": "open",
-  "batch": "vfx-keijiro-new"
- },
- {
   "name": "Ronald van Wijnen",
   "why": "Author of spectral.js, an open-source Kubelka-Munk pigment color-mixing library with web demos; Keijiro ported it to Unity for Fluo and his pigment fluid-art tests.",
   "link": "https://github.com/rvanwijnen/spectral.js",
@@ -286,5 +278,69 @@
   "found_via": "keijiro-takahashi",
   "status": "open",
   "batch": "vfx-keijiro-old"
+ },
+ {
+  "name": "Koki Ibukuro (asus4)",
+  "why": "Unity AR developer (ARKitStreamer, ARFoundationReplay, tf-lite-unity-sample); WorldEnsemble plays music in the geospatial AR world, with source.",
+  "link": "https://github.com/asus4",
+  "found_via": "tasuku-takahashi",
+  "status": "open",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "Jason Tsorlinis",
+  "why": "BoidsUnity: GPU boids in Unity compute shaders (~100 stars), shown on X with video.",
+  "link": "https://github.com/jtsorlinis/BoidsUnity",
+  "found_via": "rngtm",
+  "status": "open",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "MatrixRex",
+  "why": "Uber-Stylized-Water, a 500-star open stylized water shader for Unity 6 with many water types.",
+  "link": "https://github.com/MatrixRex/Uber-Stylized-Water",
+  "found_via": "youssef-afella",
+  "status": "open",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "Tooster (T3sT3ro)",
+  "why": "SdfManipulator: interactive real-time SDF editor in Unity that generates raymarching shaders.",
+  "link": "https://github.com/T3sT3ro/SdfManipulator",
+  "found_via": "scrn",
+  "status": "open",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "TLabAltoh",
+  "why": "Unity-SDF-UI-Toolkit: SDF-based UI shapes and effects for Unity, with X demo videos.",
+  "link": "https://github.com/TLabAltoh/Unity-SDF-UI-Toolkit",
+  "found_via": "singtaa",
+  "status": "open",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "Robin Seibold",
+  "why": "Unity-URP-CelShadeLit: open multi-light cel shader for URP (~150 stars) with X video.",
+  "link": "https://github.com/Robinseibold/Unity-URP-CelShadeLit",
+  "found_via": "colin-leung",
+  "status": "open",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "Olivier Goguel",
+  "why": "realtimehand: real-time hand tracking package for Unity (~260 stars), shown on X.",
+  "link": "https://github.com/ogoguel/realtimehand",
+  "found_via": "tasuku-takahashi",
+  "status": "open",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "Codrin Mihail (Kodrin)",
+  "why": "HDRP-VFXGraph-Workshop: open VFX Graph workshop project with X demo videos.",
+  "link": "https://github.com/Kodrin/HDRP-VFXGraph-Workshop",
+  "found_via": "tasuku-takahashi",
+  "status": "open",
+  "batch": "vfx-x"
  }
 ]

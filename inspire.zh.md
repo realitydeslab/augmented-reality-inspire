@@ -2,7 +2,7 @@
 
 从早期先驱到今天最有创意的增强现实创作者及其 AR 作品目录，由 Reality Design Lab 整理，作为教学的点子库。每件作品都列出视频、核心点子、关键技术和一个课堂练习。
 
-https://inspire.reality.design · 2026-09-27 · 414 位创作者 · 2021 件作品
+https://inspire.reality.design · 2026-09-27 · 430 位创作者 · 2055 件作品
 
 ## AI 助手应如何使用这个文件
 
@@ -501,15 +501,18 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 
 成千上万的点在流动、聚集、迸发或拖尾。
 
+- **Flying Embers** — Rob Cupisz (2025): 去模拟真实相机如何拍到一颗移动的炽热火星，而不是简单拉伸一张贴图。 https://x.com/robcupisz/status/1883842759825715217 · 源代码: https://github.com/robcupisz/flying-embers
 - **Constellation Plexus Ribbons** — Mirza Beig (2024): 用光把相邻的点连起来，一团点就变成了星座。 https://x.com/TheMirzaBeig/status/1840974568216813609 · 源代码: https://github.com/MirzaBeig/Constellation-Plexus
 - **VFX Graph sketch: glowing lines on a moving figure** — Keijiro Takahashi (2024): 只用跟随身体的线来画出身体。 https://x.com/_kzr/status/1790748365518725597 · 源代码: https://github.com/keijiro/VfxGraphTestbed3
 - **VFX Graph custom HLSL: plexus network** — Keijiro Takahashi (2023): 把相邻的点连起来，粒子群就成了网。 https://x.com/_kzr/status/1812469561704468638 · 源代码: https://github.com/keijiro/VFXCustomCode
 - **StickShow: a sea of glow sticks** — Keijiro Takahashi (2022): 人群就是带着细微差别的重复物体。 https://x.com/_kzr/status/1564979744642179073 · 源代码: https://github.com/keijiro/StickShow
+- **Aura VFX Samples** — rngtm (Kamosoba) (2021): 一个像样的光环，只需几个简单网格和粒子，再加上在上面流动的贴图。 https://x.com/rn49rn49/status/1346612720234205185 · 源代码: https://github.com/rngtm/Unity-VFXToolBox
 - **Coding Adventure: Ant and Slime Simulations** — Sebastian Lague (2021): 只会感知和留下痕迹的简单个体，能长出活的网络。 https://www.youtube.com/watch?v=X-iSQQgOd1A · 源代码: https://github.com/SebLague/Slime-Simulation
 - **Compute shader data into VFX Graph** — Keijiro Takahashi (2021): 在哪里模拟都行，用 VFX Graph 来渲染。 https://x.com/_kzr/status/1418439725631754244 · 源代码: https://github.com/keijiro/VfxGraphGraphicsBufferTest
 - **GPU Fog Particles** — Mirza Beig (2021): 纯粹由噪声构成的雾，能贴着世界而没有生硬边缘。 https://x.com/TheMirzaBeig/status/1471820398056677376 · 源代码: https://github.com/MirzaBeig/GPU-Fog-Particles
 - **GPU Instanced Flocking on URP** — Kodai Takao (2021): 上千条鱼的鱼群只需要局部规则和 GPU。 https://www.youtube.com/watch?v=FXcFn8QM8dk · 源代码: https://github.com/kodai100/Unity_BoidsSimulationOnURP
 - **SushiVfx: vaporizing a sushi** — Keijiro Takahashi (2021): 把真实食物扫描下来，就能变成有趣的特效。 https://x.com/_kzr/status/1442857433483726859 · 源代码: https://github.com/keijiro/SushiVfx
+- **VFX Graph Dragon** — Tasuku Takahashi (2021): 用粒子来搭一个生物，一条龙就能零成本变成一千条。 https://x.com/supertask_jp/status/1463189020964364289 · 源代码: https://github.com/TranscendVFX/VFXGraphIntermediate
 - **VFX Graph with 300,000 particles** — Keijiro Takahashi (2021): 数量改变感受：足够多的粒子就成了一种材质。 https://x.com/_kzr/status/1400753544999817216 · 源代码: https://github.com/keijiro/VfxGraphTestbed2
 - **Abcvfx: Alembic animation to VFX Graph** — Keijiro Takahashi (2020): 任何烘焙好的动画都能喂给粒子系统。 https://x.com/_kzr/status/1269876564486807552 · 源代码: https://github.com/keijiro/Abcvfx
 - **Krbv: colorful particle strip tunnel** — Keijiro Takahashi (2020): 光带从镜头旁掠过，就有了速度感。 https://x.com/_kzr/status/1219572530236641285 · 源代码: https://github.com/keijiro/Krbv
@@ -517,6 +520,7 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Sword fighting effects with VFX Graph** — Keijiro Takahashi (2020): 拖尾把快速动作变成看得清的形状。 https://x.com/_kzr/status/1276106752728031232 · 源代码: https://github.com/keijiro/VfxGraphTestbed
 - **Coding Adventure: Boids** — Sebastian Lague (2019): 分离、对齐、聚合三条规则就足以形成鸟群。 https://www.youtube.com/watch?v=bqtqltqcQhw · 源代码: https://github.com/SebLague/Boids
 - **GeoVfx: world population as particles** — Keijiro Takahashi (2019): 每个数值变成一颗粒子，数据就变成了地形。 https://x.com/_kzr/status/1429739880259612685 · 源代码: https://github.com/keijiro/GeoVfx
+- **Project North Star: Strange Attractors in VFX Graph** — Tasuku Takahashi (2019): 让一个混沌方程而不是动画师，来编排房间里的一群光点。 https://www.youtube.com/watch?v=kLG291XVf_k · 源代码: https://github.com/supertask/VFXNorthStar
 - **Smrvfx: particles from a skinned mesh** — Keijiro Takahashi (2019): 任何会动的身体都可以变成粒子发射器。 https://x.com/_kzr/status/1114513038302830592 · 源代码: https://github.com/keijiro/Smrvfx
 - **VFX Graph Sketch1012** — Keijiro Takahashi (2019): 每天做一个小草图，是学会一个工具的方法。 https://x.com/_kzr/status/1187004957821505536 · 源代码: https://github.com/keijiro/VfxGraphTestbed
 - **VFX Graph Sun with 2 Million Particles** — Dilmer Valecillos (2019): 数百万个小点就足以造出一颗恒星。 https://www.youtube.com/watch?v=f1BHXqeokSE · 源代码: https://github.com/dilmerv/UnityVFXMillionsOfParticles
@@ -539,12 +543,16 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 把深度相机、LiDAR 和体积视频变成会动的三维材料。
 
 - **Triangle Splatting importer** — Keijiro Takahashi (2025): 用三角形采集的场景，普通渲染器就能跑。 https://x.com/_kzr/status/1939302534285582621 · 源代码: https://github.com/keijiro/TriangleSplattingTest
+- **Depth Scanner for Meta Quest 3** — Appletea (2024): 头显本来就能看见深度，那就把它看到的东西直接展示给用户。 https://x.com/Appletea_VRC/status/1861910477389086953 · 源代码: https://github.com/Appletea0673/Depth-Scanner-Project
 - **Metavido VFX (WebGPU)** — Keijiro Takahashi (2024): 把手机拍的'带深度的视频'放进网页，任何人都能在浏览器里围着它看特效。 https://x.com/_kzr/status/1828366682689061280 · 源代码: https://github.com/keijiro/MetavidoVFX
 - **Rcam3 for Masaya Matsuura's concert** — Keijiro Takahashi (2024): 把手机 LiDAR 当成舞台上的体积摄像头，实时生成演出视觉。 https://x.com/_kzr/status/1871169155254435978 · 源代码: https://github.com/keijiro/Rcam3
 - **SplatVFX: 3D Gaussian Splatting in VFX Graph** — Keijiro Takahashi (2023): 一个写实采集，同时也是一个粒子系统。 https://x.com/_kzr/status/1714214841265856932 · 源代码: https://github.com/keijiro/SplatVFX
+- **Unity Gaussian Splatting** — Aras Pranckevičius (2023): 照片扫描可以直接渲染成数百万个模糊的点，不需要网格和贴图。 https://www.youtube.com/watch?v=iccfV0YlWVI · 源代码: https://github.com/aras-p/UnityGaussianSplatting
+- **AR VJing + Volumetric Video** — Tasuku Takahashi (2022): 像给视频片段打 VJ 一样，在 AR 里给一段被捕捉下来的人体打 VJ。 https://x.com/supertask_jp/status/1504792152315871238 · 源代码: https://github.com/supertask/4DVFXProject
 - **BibcamStage: live show at Channel 22** — Keijiro Takahashi (2022): 用手机记录的日常散步，成了舞台素材。 https://www.youtube.com/watch?v=v3mRlMx_6Is · 源代码: https://github.com/keijiro/BibcamStage
 - **VFX with Unity AR Foundation** — Keijiro Takahashi (2022): 直接在手机上实时让光效沿真实环境生长。 https://x.com/_kzr/status/1601509152395706369 · 源代码: https://github.com/keijiro/Rcam2
 - **Walking a Taiwanese street with iPhone LiDAR** — Keijiro Takahashi (2022): 用 LiDAR 的'看不远'这一缺陷，本身做成一种梦境般的街景风格。 https://x.com/_kzr/status/1607672355710709760
+- **AR MeshWave** — Takahiro "Poly" Horikawa (2021): 一道只存在于真实表面上的光波，让扫描出的房间本身成为特效。 https://x.com/thorikawa/status/1387068106757992449 · 源代码: https://github.com/thorikawa/ar-meshwave
 - **Adding VFX to a Bibcam clip** — Keijiro Takahashi (2021): 对一段已录好的深度视频做'空间感知'的后期特效。 https://x.com/_kzr/status/1460618910990929926 · 源代码: https://github.com/keijiro/BibcamVfx
 - **Bibcam test in Shibuya** — Keijiro Takahashi (2021): 录像时把深度和相机位姿一起'烙'进视频，之后就能给街景补上贴合空间的特效。 https://vimeo.com/651111230 · 源代码: https://github.com/keijiro/Bibcam
 - **KinFuSDFVFX** — Kaito Tsutsumi (にー兄さん / drumath2237) (2021): 把真实空间扫描一次，让粒子能够贴住它的形状。 https://www.youtube.com/watch?v=ApPVp6Z3cgE · 源代码: https://github.com/drumath2237/KinFuSDFVFX
@@ -556,6 +564,7 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Rcam2: Volumetric AR camera rig** — Keijiro Takahashi (2020): 把 iPad 的 LiDAR 当成可移动的体积摄像机，让特效贴着真实房间长出来。 https://vimeo.com/461782810 · 源代码: https://github.com/keijiro/Rcam2
 - **Akvfx: Azure Kinect with VFX Graph** — Keijiro Takahashi (2019): 把深度传感器当成实时粒子源。 https://x.com/_kzr/status/1163456709894922240 · 源代码: https://github.com/keijiro/Akvfx
 - **Dkvfx: Depthkit volumetric video with VFX Graph** — Keijiro Takahashi (2019): 录好的体积视频，可以当作粒子特效的原材料。 https://x.com/_kzr/status/1105456612162994177 · 源代码: https://github.com/keijiro/Dkvfx
+- **Project North Star: VFX Graph with RealSense** — Tasuku Takahashi (2019): 把实时深度相机的数据送回 AR 头显，让房间本身变成粒子的原材料。 https://www.youtube.com/watch?v=oYYl_ALUDQI · 源代码: https://github.com/supertask/VFXNorthStar
 - **Rcam at Channel #20 (live with umio)** — Keijiro Takahashi (2019): 把舞台上的人实时扫成点云，再让粒子把人拆散、重组，成为现场演出的视觉。 https://vimeo.com/346711967 · 源代码: https://github.com/keijiro/Rcam
 - **Rsvfx: RealSense depth to VFX Graph** — Keijiro Takahashi (2019): 一台便宜的深度相机，就能把真人实时变成粒子材料。 https://x.com/_kzr/status/1099299041463066624 · 源代码: https://github.com/keijiro/Rsvfx
 - **VFX sketches with Depthkit and Unity** — Keijiro Takahashi (2019): 同一段录像，可以有许多种视觉性格。 https://vimeo.com/383216987 · 源代码: https://github.com/keijiro/DkvfxSketches
@@ -569,6 +578,10 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 由人像分割、姿态、手部或面部追踪驱动的特效。
 
 - **BodyPix body part tracking** — Keijiro Takahashi (2023): 知道身体每个部位在哪里，就能给每个部位不同的特效。 https://x.com/_kzr/status/1626200056033599491 · 源代码: https://github.com/keijiro/BodyPixSample
+- **Interactive VJ with Azure Kinect** — Tasuku Takahashi (2023): 让自己的身体成为 VJ 素材，而不是一段视频。 https://x.com/supertask_jp/status/1612166613931032577 · 源代码: https://github.com/supertask/InteractiveVJ
+- **Virtual Wearable** — Tasuku Takahashi (2023): 用像首饰一样戴在身上的界面，取代长方形的屏幕。 https://x.com/supertask_jp/status/1635235099989143552 · 源代码: https://github.com/supertask/VirtualWearable
+- **VFX Dancer** — Tasuku Takahashi (2022): 让身体把自己的运动历史留成光，动作就被看见了。 https://x.com/supertask_jp/status/1524424117948088321 · 源代码: https://github.com/TranscendVFX/VFXGraphIntermediate
+- **3D Face Landmarks in Shaders** — SCRN (2021): 把整条人脸追踪管线放到 GPU 上，让角色无需插件就能“看见”自己的主人。 https://x.com/SCRNinVR/status/1404187468153327617 · 源代码: https://github.com/SCRN-VRC/3D-Face-Landmark-in-UnityCG-HLSL
 - **BlazeFace face filters on Barracuda** — Keijiro Takahashi (2021): 六个关键点就足够装饰一张脸。 https://x.com/_kzr/status/1378352493134929926 · 源代码: https://github.com/keijiro/BlazeFaceBarracuda
 - **BodyPix visual effects (NNCam)** — Keijiro Takahashi (2021): 实时把人从背景里'抠'出来，特效只作用在人身上。 https://vimeo.com/580670067 · 源代码: https://github.com/keijiro/NNCam
 - **FaceMeshBarracuda face & eye tracker** — Keijiro Takahashi (2021): 在 Unity 里用一个摄像头实现脸部网格与眼球追踪，做面具和视线特效。 https://vimeo.com/545493860 · 源代码: https://github.com/keijiro/FaceMeshBarracuda
@@ -586,8 +599,12 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 会“听”的画面：声音和音乐决定特效的形态。
 
 - **DrumPadVFX: finger drum visualizer** — Keijiro Takahashi (2024): 每个鼓垫都有自己的视觉声音。 https://x.com/_kzr/status/1849430841119973885 · 源代码: https://github.com/keijiro/DrumPadVFX
+- **Pollen VFX Composition** — Jonathan Thorpe (Sonosthesia) (2024): 培育一个有机形态，让它的绽放与飘落都由声音来定时。 https://www.youtube.com/watch?v=MOeGDgMatwg · 源代码: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- **Sonosthesia: GPU Sound Visualisation** — Jonathan Thorpe (Sonosthesia) (2024): 把声音拆成几路特征信号，每一路接到一个视觉参数上。 https://x.com/johnnyfrenchy/status/1752349779223330997 · 源代码: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- **Spark VFX Composition** — Jonathan Thorpe (Sonosthesia) (2024): 让音乐的每个部分各自掌管特效的一部分：核心、火花、光晕。 https://www.youtube.com/watch?v=_2siOZ5pIWQ · 源代码: https://github.com/jbat100/sonosthesia-unity-demo-deform
 - **Generative VFX Music Video (Bitwig x Unity)** — Kaito Tsutsumi (にー兄さん / drumath2237) (2022): 让概率而不是时间线同时导演音乐和画面。 https://www.youtube.com/watch?v=gARJwIS5VGc · 源代码: https://github.com/drumath2237/Generative-VFX-Bitwig-Sandbox
 - **VzoVfx: triggering VFX from Bitwig** — Keijiro Takahashi (2022): 让音乐软件直接驱动画面。 https://x.com/_kzr/status/1492752963206406148 · 源代码: https://github.com/keijiro/VzoVfx
+- **Voice Recognition with Shaders** — SCRN (2021): 拿不到原始音频时，就从口型同步信号里还原语音。 https://x.com/SCRNinVR/status/1367343416644886531 · 源代码: https://github.com/SCRN-VRC/Voice-Recognition-Shader
 - **Khoreo: procedural dance with the MC-101** — Keijiro Takahashi (2020): 音乐在“演奏”舞者。 https://x.com/_kzr/status/1291723680490254336 · 源代码: https://github.com/keijiro/Khoreo
 - **Grubo: MC-101 live performance at Channel #21** — Keijiro Takahashi (2019): 一台小小的音乐盒，同时驱动音乐和画面。 https://vimeo.com/379562830 · 源代码: https://github.com/keijiro/Grubo
 - **LaspVfx: audio-reactive VFX with LASP** — Keijiro Takahashi (2019): 让声音自己画出形状。 https://x.com/_kzr/status/1116337708782067713 · 源代码: https://github.com/keijiro/LaspVfx
@@ -610,9 +627,12 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 按规则生长、挤出、平铺或变形的几何体。
 
 - **MeshSlicer: cutting objects in real time** — Keijiro Takahashi (2026): 切开任意网格，并把切口补上。 https://x.com/_kzr/status/2074120483688374287 · 源代码: https://github.com/keijiro/MeshSlicer
+- **Infinite Grass Field** — Youssef Afella (2024): 只在镜头看得到的地方长草，这样草地可以无限大，而开销保持不变。 https://x.com/Youssef_Afella/status/1831049793629724836 · 源代码: https://github.com/Youssef-Afella/UnityURP-InfiniteGrass
+- **Unity Runtime Shader** — Wita (witalosk) (2024): 在特效运行时直接修改它，让调试发生在观众面前或场景之中。 https://x.com/witalosk/status/1805984379543638156 · 源代码: https://github.com/witalosk/UnityRuntimeShader
 - **Metawire: wireframe primitives for VFX** — Keijiro Takahashi (2022): 线框只用很少的几何体，就有科技感和全息感。 https://x.com/_kzr/status/1537797028817735680 · 源代码: https://github.com/keijiro/Metawire
 - **Procedural walk with Animation Rigging** — Keijiro Takahashi (2022): 动作可以算出来，而不是逐帧摆出来。 https://x.com/_kzr/status/1574788205010112513 · 源代码: https://github.com/keijiro/CharacterRigTest
 - **NoiseBall6: compute shader mesh on mobile** — Keijiro Takahashi (2021): 直接在 GPU 上变形几何体，让手机也能跑重特效。 https://x.com/_kzr/status/1402611991118712841 · 源代码: https://github.com/keijiro/NoiseBall6
+- **Procedural Ring Mesh VFX** — rngtm (Kamosoba) (2021): 用代码生成特效的几何体，形状就能像参数一样调节。 https://x.com/rn49rn49/status/1347823897211666432 · 源代码: https://github.com/rngtm/Unity-VFXToolBox
 - **3D Moebius Transformations** — Shahriar Shahrabi (2020): 弯曲的是空间而不是物体：把场景送到四维球面上旋转，再投影回来。 https://www.youtube.com/watch?v=81XDjBiuuEI · 源代码: https://github.com/IRCSS/3D-Moebius-Transformations-Vertex-shader-in-Unity-3D
 - **Mesh Deformation with Compute Shaders on Quest** — Shahriar Shahrabi (2020): 在一体机上让虚拟表面摸起来是软的。 https://www.youtube.com/watch?v=IVy6T5_9r2c · 源代码: https://github.com/IRCSS/Mesh-Deformation-With-Compute-Shader-Oculus-Quest-Unity
 - **Procedural Painting with Genetic Evolution** — Shahriar Shahrabi (2020): 让进化算法而不是滤镜来决定每一笔该落在哪里。 https://www.youtube.com/watch?v=--YygVe0Eu4 · 源代码: https://github.com/IRCSS/Procedural-painting
@@ -639,18 +659,22 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 
 溶解、全息、故障和各种材质：改变一个表面看起来的样子。
 
+- **Fake Real Glass** — Youssef Afella (2026): 玻璃只要从相机看过去是对的就行，那就在屏幕空间里伪造光的弯折。 https://x.com/Youssef_Afella/status/2020632755399213068 · 源代码: https://github.com/Youssef-Afella/UnityURP-FakeRealGlass
 - **Galaxy Water** — Mirza Beig (2026): 倒映的是整个宇宙，而不是天空的水。 https://x.com/TheMirzaBeig/status/2008528798397198550 · 源代码: https://github.com/MirzaBeig/Galaxy-Water
 - **LightGridShader: LED display look** — Keijiro Takahashi (2025): 模仿实体屏幕的结构，让画面更真实。 https://x.com/_kzr/status/1962445754007765480 · 源代码: https://github.com/keijiro/LightGridShader
+- **Radiance Cascades 2D GI** — Youssef Afella (2025): 让光按真实的方式传播，但通过在相邻点之间共享光线来降低成本。 https://x.com/Youssef_Afella/status/1896237865484636513 · 源代码: https://github.com/Youssef-Afella/UnityURP-RadianceCascades2DGI
 - **Chromatic Distortion Sphere** — Mirza Beig (2024): 一个带彩虹边缘、折射世界的球，一眼就像魔法。 https://www.youtube.com/watch?v=IkBZLo4ROU0 · 源代码: https://github.com/MirzaBeig/Chromatic-Distortion-Sphere
 - **FloatingHUD: floating interface effect** — Keijiro Takahashi (2024): 把界面图形当作空间中的视觉特效。 https://x.com/_kzr/status/1897620890919280893 · 源代码: https://github.com/keijiro/FloatingHUD
 - **AIShader: ChatGPT shader generator** — Keijiro Takahashi (2023): 用文字描述一个表面，就得到一个着色器。 https://x.com/_kzr/status/1632634562399600640 · 源代码: https://github.com/keijiro/AIShader
 - **Impossible Geometry with Stencil Shaders** — Daniel Ilett (2022): 如果每扇窗只显示自己的世界，空间里面可以比外面大。 https://www.youtube.com/watch?v=EzM8LGzMjmc · 源代码: https://github.com/daniel-ilett/shaders-impossible-geom
+- **LEDScreenShader** — Tatsuro Ogata (llcheesell) (2022): 要让虚拟屏幕可信，模仿的不只是画面，还有显示器的物理结构。 https://x.com/llcheesell/status/1492332637976936448 · 源代码: https://github.com/llcheesell/LEDScreenShader
 - **Fully Functional Portals in URP** — Daniel Ilett (2021): 在现代渲染管线中用渲染纹理重现《Portal》的魔法。 https://www.youtube.com/watch?v=PkGjYig8avo · 源代码: https://github.com/daniel-ilett/portals-urp
 - **Stencil Portal Halloween Scene** — Shahriar Shahrabi (2021): 一扇门里可以装下一个只有透过它才存在的世界。 https://www.youtube.com/watch?v=gGeP34_6d2A · 源代码: https://github.com/IRCSS/Unity-Stencil-Portal
 - **UnityFurURP (Shell / Fin Fur Shader)** — hecomi (2021): 把一个表面叠上许多层透明副本，它就变成了毛发。 https://www.youtube.com/watch?v=Hab3dcumtXU · 源代码: https://github.com/hecomi/UnityFurURP
 - **Coding Adventure: Portals** — Sebastian Lague (2020): 传送门就是第二台相机，把它的画面精确贴在门洞上。 https://www.youtube.com/watch?v=cWpFZbjtSQg · 源代码: https://github.com/SebLague/Portals
 - **Eyeball: procedural iris that follows you** — Keijiro Takahashi (2020): 会回看你的物体，就像活的。 https://x.com/_kzr/status/1321000166585856000 · 源代码: https://github.com/keijiro/Eyeball
 - **Matrix VFX** — Shahriar Shahrabi (2020): 任何物体都能被改写成顺着它形状流下的数字雨。 https://www.youtube.com/watch?v=8l7cujPLw84 · 源代码: https://github.com/IRCSS/MatrixVFX
+- **Unity URP Toon Lit Shader Example** — Colin Leung (NiloCat) (2020): 风格化光照是在真实光源之上加几条刻意的规则，而不是一个滤镜。 https://www.youtube.com/watch?v=gcUCTLF5hwE · 源代码: https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample
 - **Texture Painting on Meshes** — Shahriar Shahrabi (2019): 在物体上作画应该像在真实物体上画，而不是在屏幕上画。 https://www.youtube.com/watch?v=GmCZZrV004A · 源代码: https://github.com/IRCSS/TexturePaint
 - **Flipper (ADIRECTOR Channel)** — Keijiro Takahashi (2018): 让数字演出感觉像在翻一本印刷的书。 https://va.media.tumblr.com/tumblr_pd1oevl48u1qio469.mp4 · 源代码: https://github.com/keijiro/Flipper
 - **PortalGate** — fuqunaga (2018): 墙上两个相连的洞，改写了空间的连接方式。 https://www.youtube.com/watch?v=jzud9m-NgnA · 源代码: https://github.com/fuqunaga/PortalGate
@@ -671,7 +695,10 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 
 用距离场定义形状：平滑融合、无限细节、不可能的空间。
 
+- **Spark2D** — Singtaa (2024): 把每个形状都当成距离函数，描边、光晕和融合就都是现成的。 https://x.com/Singtaa/status/1837274411667444140 · 源代码: https://github.com/Singtaa/Spark2D
 - **Mesh-to-SDF** — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2022): 每帧给运动的身体生成距离场，特效就能感知它的形状。 https://user-images.githubusercontent.com/6276154/201238758-cc87ec4a-a65a-4cb2-b3cc-123576ab9ea2.mov · 源代码: https://github.com/Unity-Technologies/com.unity.demoteam.mesh-to-sdf
+- **Raymarching with ShadowCaster** — SCRN (2022): 让距离场形状在阴影通道里也做光线步进，它们就能表现得像真实物体一样。 https://x.com/SCRNinVR/status/1536860644758245379 · 源代码: https://github.com/SCRN-VRC/Raymarching-with-ShadowCaster
+- **mesh-to-sdf VFX Examples** — Rob Cupisz (2022): 每帧把角色的形状重建成一个场，任意数量的特效都能贴附、避开或填满它。 https://x.com/robcupisz/status/1591063441225437187 · 源代码: https://github.com/robcupisz/mesh-to-sdf-examples
 - **ComputeMarchingCubes: GPU isosurfaces** — Keijiro Takahashi (2021): 把任何三维场实时变成实体表面。 https://x.com/_kzr/status/1403359710577786881 · 源代码: https://github.com/keijiro/ComputeMarchingCubes
 - **4D Explorer (4D Raymarching)** — Jelle Vermandere (2020): 通过在三维切片中行走来看见一个四维世界。 https://www.youtube.com/watch?v=nUExziADzjc · 源代码: https://github.com/Jellevermandere/4D-Raymarching
 - **Coding Adventure: Clouds** — Sebastian Lague (2019): 云就是光线穿过的一团噪声。 https://www.youtube.com/watch?v=4QOcCGI6xOU · 源代码: https://github.com/SebLague/Clouds
@@ -693,7 +720,10 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Coding Adventure: Simulating Fluids** — Sebastian Lague (2023): 水不过是许多努力保持密度恒定的粒子。 https://www.youtube.com/watch?v=rSKMYc1CQHE · 源代码: https://github.com/SebLague/Fluid-Sim
 - **VFX Graph Smoke Portal Sample** — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2023): 像真实烟雾一样受光的烟，让传送门显得有实体感。 https://www.youtube.com/watch?v=57cKxN3XdEY · 源代码: https://github.com/Unity-Technologies/VisualEffectGraph-Samples
 - **Volumetric fog from VFX Graph** — Keijiro Takahashi (2023): 粒子可以写进雾里，而不只是贴图片。 https://x.com/_kzr/status/1615973816286744578 · 源代码: https://github.com/keijiro/VolumetricVfxTest
+- **3D Volumetric Fire** — Tasuku Takahashi (2021): 把火当作真正的三维气体来模拟，而不是用贴图公告板去假装。 https://x.com/supertask_jp/status/1358792459543662592 · 源代码: https://github.com/supertask/UnityVolumetricFire3D
 - **Interactive Volumetric Fog with Fluid Dynamics (The Vast Land)** — Shahriar Shahrabi (2021): 让雾变成可以被推开的东西：用流体模拟驱动光线步进的体积雾。 https://www.youtube.com/watch?v=hMhNhgnOGN8 · 源代码: https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-
+- **MLS-MPM Fluid in Unity** — Tasuku Takahashi (2021): 用电影特效同款的粒子-网格方法，在可交互的速度下得到可信的液体。 https://x.com/supertask_jp/status/1416315883832561673 · 源代码: https://github.com/supertask/Unity-MLS-MPM-Fluid-Test
+- **WaterRW** — Noboru Seto (ruccho) (2021): 只模拟水的表面，它就能既便宜又可交互。 https://x.com/ruccho_vector/status/1461970803428405248 · 源代码: https://github.com/ruccho/WaterRW
 - **BurstWig: flowing hair-like strands** — Keijiro Takahashi (2020): 加上简单弹簧物理的细丝，就有了生命感。 https://x.com/_kzr/status/1258039132372135941 · 源代码: https://github.com/keijiro/BurstWig
 - **Fluid Simulation in Compute Shaders** — Shahriar Shahrabi (2020): 一个完整的流体解算器只需几个计算着色器 pass，就能让任何表面流动起墨水。 https://www.youtube.com/watch?v=GkrQy5JUyZk · 源代码: https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-
 - **HdrpVatExample: baked fluid and cloth with VAT** — Keijiro Takahashi (2020): 离线模拟一次，就能在任何地方回放。 https://x.com/_kzr/status/1220338439117127680 · 源代码: https://github.com/keijiro/HdrpVatExample
@@ -722,8 +752,10 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Anime Speed Lines** — Mirza Beig (2022): 把漫画表现速度和惊讶的符号变成实时镜头效果。 https://user-images.githubusercontent.com/37354140/151656459-d99d2d36-06ed-4889-8a10-17cabd1626d8.mp4 · 源代码: https://github.com/MirzaBeig/Anime-Speed-Lines
 - **Post-Processing Scan** — Mirza Beig (2022): 一个不断扩张的球面就能揭示世界隐藏的形状。 https://x.com/TheMirzaBeig/status/1809173668456792524 · 源代码: https://github.com/MirzaBeig/Post-Processing-Scan
 - **Speed lines post effect** — Keijiro Takahashi (2022): 把漫画的表现手法变成画面特效。 https://x.com/_kzr/status/1506969479158243331 · 源代码: https://github.com/keijiro/SimplePostEffects
+- **Fake Stop Motion** — Eric Freeman (2021): 改变动作的时间节奏，而不是像素的外观，就能得到手工制作的感觉。 https://x.com/_ericfreeman/status/1369299130678382593 · 源代码: https://github.com/EricFreeman/FakeStopMotion
 - **Flipbook2: flip book with watercolor** — Keijiro Takahashi (2021): 把视频变成实体：一叠书页。 https://x.com/_kzr/status/1398540851941314568 · 源代码: https://github.com/keijiro/Flipbook2
 - **KinoAqua: watercolor effect with VFX Graph** — Keijiro Takahashi (2021): 绘画风格的滤镜让电脑图形有手作感。 https://x.com/_kzr/status/1392482946393677829 · 源代码: https://github.com/keijiro/KinoAqua
+- **URP Screen Space Cavity** — MalyaWka (Pavel) (2021): 通过画出曲率来强调几何形体，就像插画师给边缘勾墨线一样。 https://x.com/_malyawka_/status/1471816770604441603 · 源代码: https://github.com/malyawka/URP-ScreenSpaceCavity
 - **Cubism Shader** — Shahriar Shahrabi (2020): 像毕加索那样同时呈现多个视角，只不过是实时的。 https://www.youtube.com/watch?v=_DwnvbPxZTM · 源代码: https://github.com/IRCSS/Cubism-Shader
 - **KinoFeedback2: frame feedback with emoji particles** — Keijiro Takahashi (2020): 把上一帧喂回下一帧。 https://x.com/_kzr/status/1306955390513364992 · 源代码: https://github.com/keijiro/KinoFeedback2
 - **MonoFxSketches: monochrome screen effects** — Keijiro Takahashi (2020): 只用黑白两色，图形效果最有力量。 https://x.com/_kzr/status/1333749477732098048 · 源代码: https://github.com/keijiro/MonoFxSketches
@@ -751,6 +783,8 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **M-LSD line detection as VFX** — Keijiro Takahashi (2021): 房间的结构本身就成了画。 https://x.com/_kzr/status/1413426397054332930 · 源代码: https://github.com/keijiro/MlsdBarracuda
 - **SelfieBarracuda: virtual background on phones** — Keijiro Takahashi (2021): 分割把人和世界分开，两者可以各自加特效。 https://x.com/_kzr/status/1405518336230793223 · 源代码: https://github.com/keijiro/SelfieBarracuda
 - **TinyYOLOv2 object detection in Unity** — Keijiro Takahashi (2021): 让引擎知道自己在看什么。 https://x.com/_kzr/status/1353349183252533249 · 源代码: https://github.com/keijiro/TinyYOLOv2Barracuda
+- **YOLOv4-tiny in Fragment Shaders** — SCRN (2021): 在不允许写脚本的地方运行神经网络：就在着色器里。 https://x.com/SCRNinVR/status/1380238589238206465 · 源代码: https://github.com/SCRN-VRC/YOLOv4-Tiny-in-UnityCG-HLSL
+- **Pix2Pix in a Fragment Shader** — SCRN (2020): 生成对抗网络也可以只是物体表面上的另一种材质。 https://x.com/SCRNinVR/status/1317299768301735936 · 源代码: https://github.com/SCRN-VRC/Pix2Pix-in-a-Fragment-Shader
 - **Ngx** — Keijiro Takahashi (2018): 让神经网络从一小段视频出发，幻想出一部永不结束的音乐影像。 https://vimeo.com/294399440 · 源代码: https://github.com/keijiro/Ngx
 - **Pix2Pix for Unity** — Keijiro Takahashi (2018): 把实时的图像到图像翻译变成一种绘画工具。 https://vimeo.com/287778343 · 源代码: https://github.com/keijiro/Pix2Pix
 
@@ -10226,6 +10260,102 @@ Marc Downie、Shelley Eshkar 和 Paul Kaiser 与 Merce Cunningham、Bill T. Jone
 - 关键技术: 桌体内的接触式麦克风拾取画画的声音，摄像机读取笔迹，Field 中的 AI 代理生成回应的笔触，以立体 3D 投影到画面上。
 - 课堂练习: 用手机摄像头对准纸面，用简单的帧差法检测新笔画，并在 AR 中用一条镜像或旋转后的虚拟笔画悬浮在纸上方回应；变体：机器只在你停笔后才回应，像一场对话。
 
+### Tasuku Takahashi
+
+*teamLab 互动艺术工程师；VFX Graph 与 XR 原型开发者*
+
+teamLab 的工程师，业余时间做 Unity 实时特效：在开源 AR 头显 Project North Star 上跑 VFX Graph，用 Depthkit Studio 拍体积视频舞者，写 GPU 火焰和流体求解器，做科幻风的手部界面。几乎每个实验都在 GitHub 上公开。
+
+#### Project North Star: Strange Attractors in VFX Graph — Tasuku Takahashi (2019)
+- 视频: https://www.youtube.com/watch?v=kLG291XVf_k
+- 源代码: https://github.com/supertask/VFXNorthStar
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 头显, Unity, VFX Graph, Project North Star
+- 创意点子: 让一个混沌方程而不是动画师，来编排房间里的一群光点。
+- 作品内容: 由成千上万个 VFX Graph 粒子画出的 Thomas 与 Lorenz 奇异吸引子，悬浮在佩戴 Project North Star AR 头显的人眼前。
+- 关键技术: 在 VFX Graph 的 Update 阶段，用吸引子的微分方程（Thomas 循环对称系统和 Lorenz 系统）计算每个粒子的速度，粒子群在运动中就描出了吸引子的形状。
+- 课堂练习: 用 AR Foundation 检测桌面，在上面放一个 Lorenz 吸引子粒子系统，用手机或 HoloKit 观看。变体：把吸引子的参数和你与它的距离绑定，走近时混沌的形状随之改变。
+
+#### Project North Star: VFX Graph with RealSense — Tasuku Takahashi (2019)
+- 视频: https://www.youtube.com/watch?v=oYYl_ALUDQI
+- 源代码: https://github.com/supertask/VFXNorthStar
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 头显, Unity, VFX Graph, Intel RealSense, Project North Star, Leap Motion
+- 创意点子: 把实时深度相机的数据送回 AR 头显，让房间本身变成粒子的原材料。
+- 作品内容: 透过开源 AR 头显 Project North Star 看出去，Intel RealSense 深度相机拍到的房间被重新画成一团发光的 VFX Graph 粒子，漂浮在真实空间之上。
+- 关键技术: 借助 Keijiro Takahashi 的 Rsvfx，把 RealSense 每帧的深度和颜色转换成位置贴图与颜色贴图，由 VFX Graph 采样生成粒子；再用 Leap Motion 的 North Star 相机设置渲染到头显的半透反射镜上。
+- 课堂练习: 把 iPhone LiDAR 深度图送进 VFX Graph（AR Foundation 加上 Keijiro 式的深度转位置贴图），在手机或 HoloKit 里把房间重画成漂浮的点。变体：当你站着不动时，让这些点像沙子一样慢慢落到地上。
+
+#### 3D Volumetric Fire — Tasuku Takahashi (2021)
+- 视频: https://x.com/supertask_jp/status/1358792459543662592
+- 源代码: https://github.com/supertask/UnityVolumetricFire3D
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, compute shader, raymarching
+- 创意点子: 把火当作真正的三维气体来模拟，而不是用贴图公告板去假装。
+- 作品内容: 一个网格燃起三维的体积火焰，火苗卷曲上升，呈现为发光的气体，而不是扁平的火焰贴图。
+- 关键技术: 用计算着色器写的 GPU 网格流体求解器（参考 GPU Gems 3 的三维流体章节）在体素网格上平流速度、温度和密度；发火源网格先被体素化来释放燃料，最后对体积做光线步进来显示。
+- 课堂练习: 把一个小型体素网格烟雾求解器移植到手机上，用 AR Foundation 把体积锚定在真实的蜡烛或杯子上方。变体：对着麦克风吹气，把烟吹向一边。
+
+#### MLS-MPM Fluid in Unity — Tasuku Takahashi (2021)
+- 视频: https://x.com/supertask_jp/status/1416315883832561673
+- 源代码: https://github.com/supertask/Unity-MLS-MPM-Fluid-Test
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, compute shader, MLS-MPM
+- 创意点子: 用电影特效同款的粒子-网格方法，在可交互的速度下得到可信的液体。
+- 作品内容: 成千上万的粒子在盒子里像液体一样晃动、飞溅，在 Unity 中由 GPU 实时模拟。
+- 关键技术: 移动最小二乘物质点法（MLS-MPM）在计算着色器中每一步把粒子动量转到背景网格，更新网格后再把速度传回粒子，并用无锁原子写入和双调排序让相邻粒子保持在一起。
+- 课堂练习: 用计算着色器实现一个 2D MLS-MPM（例如 88 行的 mpm88 算法），在 AR 中把它显示在立于真实桌面上的一块虚拟玻璃板里。变体：倾斜手机来改变重力方向。
+
+#### VFX Graph Dragon — Tasuku Takahashi (2021)
+- 视频: https://x.com/supertask_jp/status/1463189020964364289
+- 源代码: https://github.com/TranscendVFX/VFXGraphIntermediate
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Shader Graph
+- 创意点子: 用粒子来搭一个生物，一条龙就能零成本变成一千条。
+- 作品内容: 一群完全由粒子条带和鳞片状面片组成的龙，在黑暗空间里蜿蜒游动，数量几乎可以无限增加。
+- 关键技术: 很可能是：一个头部粒子沿随机游走路径前进，身后生成的拖尾条带粒子和实例化鳞片面片构成身体，全部在 VFX Graph 中完成，不需要蒙皮网格。
+- 课堂练习: 在手机上做一条粒子蛇，让它沿随机游走路径绕着检测到的 AR 平面游动。变体：当你靠近时，让它躲开手机摄像头。
+
+#### AR VJing + Volumetric Video — Tasuku Takahashi (2022)
+- 视频: https://x.com/supertask_jp/status/1504792152315871238
+- 源代码: https://github.com/supertask/4DVFXProject
+- 交互类型: 表演与舞台, 感知与视觉艺术
+- 平台与技术: 手机, Unity, VFX Graph, Depthkit Studio, volumetric video
+- 创意点子: 像给视频片段打 VJ 一样，在 AR 里给一段被捕捉下来的人体打 VJ。
+- 作品内容: 在 Rememory 棚里拍下的体积视频舞者，化作桌上的一个小全息人像；敲击控制器按键就能切换缠绕在她身体周围的 VFX Graph 特效（落叶、雨、环绕轨道）。
+- 关键技术: Depthkit Studio 把拍摄结果导出成打包了颜色与深度的 mp4，外加记录相机参数的 JSON；Unity 逐帧把它解码成点云，点的位置再喂给 VFX Graph 发射器，实时输入负责在不同特效之间切换。
+- 课堂练习: 用 iPhone LiDAR 体积拍摄 App（或 Record3D）拍一位朋友，在 AR Foundation 里把片段以点云回放，并把三种 VFX Graph 风格绑定到三个屏幕按钮。变体：不用按钮，改由音乐节拍来触发切换。
+
+#### VFX Dancer — Tasuku Takahashi (2022)
+- 视频: https://x.com/supertask_jp/status/1524424117948088321
+- 源代码: https://github.com/TranscendVFX/VFXGraphIntermediate
+- 交互类型: 手势与身体, 表演与舞台
+- 平台与技术: 桌面, Unity, VFX Graph, Mixamo
+- 创意点子: 让身体把自己的运动历史留成光，动作就被看见了。
+- 作品内容: 一位动画舞者从全身甩出长长的发光拖尾和粒子，舞蹈的每一次转身都在空中留下光带。
+- 关键技术: 受 Keijiro Takahashi 的 Skinner 启发，VFX Graph 每帧在动画蒙皮网格表面采样位置，并在那里生成粒子和拖尾条带；舞蹈动画来自 Mixamo。
+- 课堂练习: 用会发出拖尾的 VFX Graph 驱动一个 Mixamo 或 ARKit 人体追踪的角色，在 AR 中让它以真人尺寸站在真实舞者旁边。变体：按每个肢体的速度给拖尾上色。
+
+#### Interactive VJ with Azure Kinect — Tasuku Takahashi (2023)
+- 视频: https://x.com/supertask_jp/status/1612166613931032577
+- 源代码: https://github.com/supertask/InteractiveVJ
+- 交互类型: 手势与身体, 表演与舞台
+- 平台与技术: 桌面, Unity, VFX Graph, Azure Kinect
+- 创意点子: 让自己的身体成为 VJ 素材，而不是一段视频。
+- 作品内容: 一套自制的 VJ 系统：Azure Kinect 拍到的表演者被勾勒上发光的蓝色线条，周围环绕着各种特效，可以在屏幕控制面板上切换。
+- 关键技术: Azure Kinect 的彩色和深度帧被转换成点的位置和人体遮罩，送入 VFX Graph 特效（轮廓线、粒子），参数通过运行时界面调节；很可能基于 Keijiro 式的 Kinect 转 VFX 工具。
+- 课堂练习: 做一面手机 VJ 镜子：用 ARKit 人像分割给自己描上一圈发光的 VFX Graph 轮廓，轻点屏幕在三种风格间切换。变体：用房间里音乐的音量控制光晕的宽度。
+
+#### Virtual Wearable — Tasuku Takahashi (2023)
+- 视频: https://x.com/supertask_jp/status/1635235099989143552
+- 源代码: https://github.com/supertask/VirtualWearable
+- 交互类型: 手势与身体, 信息与界面
+- 平台与技术: 桌面, Unity, VFX Graph, Ultraleap, Vuforia
+- 创意点子: 用像首饰一样戴在身上的界面，取代长方形的屏幕。
+- 作品内容: 全息圆环和应用图标缠绕在使用者的手腕和手上；转动、握拳就能调出并选择应用，像科幻电影里的界面。
+- 关键技术: Ultraleap 手部追踪提供手的骨骼，VFX Graph 和 Shader Graph 绘制锚定在手腕和手掌关节上的环形全息界面，Vuforia 用于对齐相机画面。
+- 课堂练习: 用手机上的手部追踪（例如 MediaPipe Hands 或 visionOS 手部锚点）在 AR 中把一圈三个发光图标戴到手腕上。变体：只有当你看向掌心时，这圈图标才会出现。
+
 ### Thad Starner
 
 *可穿戴计算先驱；佐治亚理工学院教授；Google Glass 技术负责人之一*
@@ -15416,6 +15546,62 @@ Sony 的 London Studio 开创了摄像头游戏，从 EyeToy 到 EyePet，再到
 - 关键技术: 书本标记用于锚定虚拟坩埚，系统根据 IMU 数据识别研磨、倾倒等手柄动作模式，从而加入相应材料。
 - 课堂练习: 在图像标记上放一口 AR 锅，用手机的摇晃、倾倒动作（加速度计）添加不同原料，配方正确时冒出彩色烟雾；变体：配方需要按正确顺序加入。
 
+### SCRN
+
+*着色器开发者、机器学习玩家（VRChat）*
+
+VRChat 创作者，把神经网络完整地写进 Unity 片元着色器：YOLOv4-tiny 物体检测、pix2pix、人脸关键点追踪、Transformer 翻译器、口型音素分类器，还有光线步进实验，全部开源。
+
+#### Pix2Pix in a Fragment Shader — SCRN (2020)
+- 视频: https://x.com/SCRNinVR/status/1317299768301735936
+- 源代码: https://github.com/SCRN-VRC/Pix2Pix-in-a-Fragment-Shader
+- 交互类型: 空间绘画与创作, 感知与视觉艺术
+- 平台与技术: 桌面, 头显, Unity, HLSL, pix2pix, VRChat
+- 创意点子: 生成对抗网络也可以只是物体表面上的另一种材质。
+- 作品内容: 一个完全运行在 Unity 着色器中的图像到图像生成网络，在 VRChat 里把简单的线稿实时变成皮卡丘、马里奥或树木的生成图像。
+- 关键技术: 把缩小到原模型四分之一的 pix2pix U-Net 生成器逐层写成作用于渲染纹理的 Cg/HLSL 片元通道，权重在 Keras 中训练后存进纹理，推理就成了渲染的一部分。
+- 课堂练习: 让人们在 AR 中的虚拟画布上涂鸦，并用设备端的图像到图像模型在旁边显示风格化后的版本。变体：画布改为通过相机读取真实纸上的画。
+
+#### 3D Face Landmarks in Shaders — SCRN (2021)
+- 视频: https://x.com/SCRNinVR/status/1404187468153327617
+- 源代码: https://github.com/SCRN-VRC/3D-Face-Landmark-in-UnityCG-HLSL
+- 交互类型: 面部, 感知与视觉艺术
+- 平台与技术: 桌面, 头显, Unity, HLSL, MediaPipe Facemesh, VRChat
+- 创意点子: 把整条人脸追踪管线放到 GPU 上，让角色无需插件就能“看见”自己的主人。
+- 作品内容: 一个 VRChat 角色实时模仿真人的脸，包括眨眼、眉毛动作和视线方向，追踪由运行在着色器中的神经网络完成。
+- 关键技术: 把 MediaPipe 的 Facemesh 和 Iris 模型改写成串联的 UnityCG/HLSL 片元通道，输出三维人脸关键点，再用它们驱动眨眼、眉毛和视线的混合形状。
+- 课堂练习: 用手机上的 ARKit 人脸追踪驱动一个粒子面具，让粒子发射跟随你的眨眼和挑眉。变体：只有皱眉时面具才会掉落粒子。
+
+#### Voice Recognition with Shaders — SCRN (2021)
+- 视频: https://x.com/SCRNinVR/status/1367343416644886531
+- 源代码: https://github.com/SCRN-VRC/Voice-Recognition-Shader
+- 交互类型: 声音, 多人与社交
+- 平台与技术: 桌面, 头显, Unity, HLSL, VRChat
+- 创意点子: 拿不到原始音频时，就从口型同步信号里还原语音。
+- 作品内容: 挂在 VRChat 角色身上的一只小机器狗会听从口头命令；识别命令的是一个基于着色器的神经网络，它能看到的只有平台提供的口型音素数据。
+- 关键技术: 随时间变化的口型音素权重构成输入序列，送入一个用片元着色器实现的小型分类器；分类结果驱动机器狗的动作，说明口型音素保留了足以识别词语的信息。
+- 课堂练习: 用设备端语音识别把说出的关键词映射到三种 VFX Graph 法术，在 AR 中出现在说话者面前。变体：只有两个人同时说出咒语时才生效。
+
+#### YOLOv4-tiny in Fragment Shaders — SCRN (2021)
+- 视频: https://x.com/SCRNinVR/status/1380238589238206465
+- 源代码: https://github.com/SCRN-VRC/YOLOv4-Tiny-in-UnityCG-HLSL
+- 交互类型: 感知与视觉艺术, 信息与界面
+- 平台与技术: 桌面, 头显, Unity, HLSL, YOLOv4-tiny, VRChat
+- 创意点子: 在不允许写脚本的地方运行神经网络：就在着色器里。
+- 作品内容: 一个完全用 Unity 片元着色器写成的物体检测器，在 VRChat 里的实时视频画面中给人和物体画出带标签的框。
+- 关键技术: 把 YOLOv4-tiny 的每一层（卷积、池化、激活）重写成一个片元着色器通道，把激活值写进渲染纹理，逐帧串联；训练好的权重被烘焙进纹理。
+- 课堂练习: 在 AR 相机画面上运行一个小型检测器（Unity Sentis 或着色器移植版），给每个检测到的杯子绑定一个 VFX Graph 爆发特效。变体：特效随画面中同类物体的数量而改变。
+
+#### Raymarching with ShadowCaster — SCRN (2022)
+- 视频: https://x.com/SCRNinVR/status/1536860644758245379
+- 源代码: https://github.com/SCRN-VRC/Raymarching-with-ShadowCaster
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HLSL, raymarching, SDF
+- 创意点子: 让距离场形状在阴影通道里也做光线步进，它们就能表现得像真实物体一样。
+- 作品内容: 盒子里一个用光线步进绘制的 SDF 物体，能投下正确的阴影，并像普通网格一样处在场景深度中。
+- 关键技术: 在 ShadowCaster 通道里同样对 SDF 做光线步进，使其能投射阴影；其他通道再读取这一步得到的深度，让形状写入正确深度并接收阴影。
+- 课堂练习: 在 AR 中对放在真实桌面上的软泡状 SDF 雕塑做光线步进，并让它写入深度，使真实遮挡和虚拟阴影对齐。变体：两部手机对准同一处时，让这些泡泡融合在一起。
+
 ### Scatter / Depthkit (James George, Alexander Porter, Yasmin Elayat)
 
 *体积影像工作室，Depthkit 捕捉软件的开发者*
@@ -18494,6 +18680,42 @@ XR 开发者，在 YouTube 上教授 AR Foundation、Quest 和 VFX Graph，并�
 - 关键技术: 动画龙卷风模型很可能被地理定位在风景中，观众转动手机时它固定在地平线上的某个位置。
 - 课堂练习: 用基于罗盘的定位，在远处地平线上锚定一个大尺度 AR 天气事件（龙卷风、雷雨云、极光）。变体：真实风力变大时，它会向你靠近。
 
+### Jonathan Thorpe (Sonosthesia)
+
+*XR 开发者；Opuscope 软件架构师；Sonosthesia 作者*
+
+2013 年起做 XR 和移动开发，现为巴黎 Opuscope 的软件架构师。他的开源 Unity 工具包 Sonosthesia 把音频特征、MIDI 和手势变成信号，用来驱动着色器、VFX Graph 和网格形变。
+
+#### Pollen VFX Composition — Jonathan Thorpe (Sonosthesia) (2024)
+- 视频: https://www.youtube.com/watch?v=MOeGDgMatwg
+- 源代码: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- 交互类型: 声音, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Sonosthesia
+- 创意点子: 培育一个有机形态，让它的绽放与飘落都由声音来定时。
+- 作品内容: 花瓣般的光带像花一样绽放、旋转，成团的花粉粒子随音乐节奏飘散、闪亮。
+- 关键技术: 音轨的各频段能量通过 Sonosthesia 的映射包，驱动花瓣程序化网格的形变，以及 VFX Graph 中花粉的生成速率；在 M3 Pro 上约 260 fps。
+- 课堂练习: 在真实花盆上放一朵 AR 花，由手机麦克风决定它何时绽放、何时释放花粉。变体：房间安静下来时，花会重新合上。
+
+#### Sonosthesia: GPU Sound Visualisation — Jonathan Thorpe (Sonosthesia) (2024)
+- 视频: https://x.com/johnnyfrenchy/status/1752349779223330997
+- 源代码: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- 交互类型: 声音, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Shader Graph, Sonosthesia
+- 创意点子: 把声音拆成几路特征信号，每一路接到一个视觉参数上。
+- 作品内容: 一圈发光的光环随着音乐实时抖动、膨胀、变色，是为 XR 设计的声音控制物体原型。
+- 关键技术: Sonosthesia 从音源中提取多个频段的能量，把这些特征信号实时传入 Shader Graph 属性，每帧驱动网格的位移和颜色。
+- 课堂练习: 把手机麦克风的声音分成低、中、高三个频段，分别映射到漂浮在 AR 中的 Shader Graph 光环的一个属性上。变体：让光环只对正在注视它的那个人的声音作出反应。
+
+#### Spark VFX Composition — Jonathan Thorpe (Sonosthesia) (2024)
+- 视频: https://www.youtube.com/watch?v=_2siOZ5pIWQ
+- 源代码: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- 交互类型: 声音, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Shader Graph, Sonosthesia
+- 创意点子: 让音乐的每个部分各自掌管特效的一部分：核心、火花、光晕。
+- 作品内容: 一个不断变形的球体向外甩出分叉的电火花，火花随着音乐噼啪闪烁、脉动。
+- 关键技术: 由 Timeline 播放的音轨提取出音频特征，经 Sonosthesia 的信号包分别送到球体的网格形变和 VFX Graph 属性上，控制火花条带的生成与形态；在 M1 Pro 上约 98 fps。
+- 课堂练习: 在 AR 中把一个会放电的球锚定在真实音箱上，用手机麦克风检测到的起音驱动火花。变体：让火花跳向离它最近的人。
+
 ### Joon Moon (Joon Y. Moon / 문준용)
 
 *媒体艺术家；「增强影子」（Augmented Shadow）系列作者*
@@ -19378,6 +19600,42 @@ Oliver Kreylos 开发了开源的 Augmented Reality Sandbox：Kinect 扫描真�
 - 作品内容: 一件由投影映射面板和声音构成的全景多联画，缓缓拼合出一幅由记忆组成的画面风景，也曾以现场演出的形式呈现。
 - 关键技术: 视频被映射到多块大小和深度各不相同的实体面板上，使单一画面构图横跨整幅多联画。
 - 课堂练习: 用5块不同大小的白板组成多联画，投影一段老照片动画跨越所有面板；变化：每块面板代表一个人讲述的记忆片段。
+
+### Youssef Afella
+
+*特效与技术美术；图形程序员*
+
+技术美术兼图形程序员，发布了一系列精简的 Unity URP 渲染项目：无限延伸的 GPU 实例化草地、用 Radiance Cascades 做的 2D 全局光照，以及不用光线追踪就能“假装”折射的玻璃着色器。
+
+#### Infinite Grass Field — Youssef Afella (2024)
+- 视频: https://x.com/Youssef_Afella/status/1831049793629724836
+- 源代码: https://github.com/Youssef-Afella/UnityURP-InfiniteGrass
+- 交互类型: 感知与视觉艺术, 空间理解
+- 平台与技术: 桌面, Unity, URP, compute shader, GPU instancing
+- 创意点子: 只在镜头看得到的地方长草，这样草地可以无限大，而开销保持不变。
+- 作品内容: 一片无边无际的草地在镜头周围随风摇摆；无论飞到哪里，新的草都已经长在那里。
+- 关键技术: 计算着色器在跟随镜头的世界空间网格上排布草叶位置，用视锥剔除掉看不到的部分，再用 GPU 实例化绘制剩下的草叶；草叶随滚动的风噪声弯曲（参考了 NiloCat 的实例化草地示例）。
+- 课堂练习: 在手机上用 GPU 实例化草地铺满检测到的 AR 地面，并根据相机位置让草从你脚边弯开。变体：只在 LiDAR 网格显示为空地的地方长草。
+
+#### Radiance Cascades 2D GI — Youssef Afella (2025)
+- 视频: https://x.com/Youssef_Afella/status/1896237865484636513
+- 源代码: https://github.com/Youssef-Afella/UnityURP-RadianceCascades2DGI
+- 交互类型: 感知与视觉艺术, 游戏与玩法
+- 平台与技术: 桌面, Unity, URP, Radiance Cascades
+- 创意点子: 让光按真实的方式传播，但通过在相邻点之间共享光线来降低成本。
+- 作品内容: 发光形状发出的彩色光在 2D 场景中实时扩散、反弹，并投下柔和的阴影，光源可以是任意形状。
+- 关键技术: Radiance Cascades 把光照存放在多层探针里：近处的层探针密、光线短，远处的层探针稀、光线长；每帧从远到近合并各层，得到完整的 2D 全局光照。
+- 课堂练习: 在 AR 中把 Radiance Cascades 光照投到真实桌面上，把相机看到的纸片形状当作遮挡物。变体：玩家放置虚拟灯，照亮一条通往终点的路。
+
+#### Fake Real Glass — Youssef Afella (2026)
+- 视频: https://x.com/Youssef_Afella/status/2020632755399213068
+- 源代码: https://github.com/Youssef-Afella/UnityURP-FakeRealGlass
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, shader
+- 创意点子: 玻璃只要从相机看过去是对的就行，那就在屏幕空间里伪造光的弯折。
+- 作品内容: 玻璃物体让背后的场景发生逼真的折射和着色，边缘带有高光，完全不需要光线追踪。
+- 关键技术: 着色器读取物体背后的不透明场景颜色，用表面法线和估算的厚度偏移采样位置，再加上菲涅尔反射和边缘压暗，而不是去追踪光线。
+- 课堂练习: 在 AR 中把一个假玻璃雕塑放在真实桌面上，让实时相机画面透过它折射（AR 背景就是场景颜色）。变体：点击时让玻璃慢慢融化成一滩水。
 
 ### Zelia ZZ Tan
 
@@ -20729,6 +20987,32 @@ Otavio Good 创立了 Quest Visual，并开发了 Word Lens（2010）——它�
 - 关键技术: 游戏在球面坐标系中渲染，从 Globe4D 球体内部背投出来，每位玩家触摸球面来移动自己的球拍。
 - 课堂练习: 把一个简单的双人游戏重新设计到圆桌或球体上，让玩家围着它面对面。变体：球速取决于参与人数。
 
+### Rob Cupisz
+
+*Unity Demo Team 技术负责人*
+
+Unity Demo Team（《The Heretic》《Enemies》）的技术负责人，也是经典体积光影效果 LightShafts 的作者。他会发布小型示例工程，讲清团队的实时 SDF 和粒子技术是怎么做的。
+
+#### mesh-to-sdf VFX Examples — Rob Cupisz (2022)
+- 视频: https://x.com/robcupisz/status/1591063441225437187
+- 源代码: https://github.com/robcupisz/mesh-to-sdf-examples
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, mesh-to-sdf, HDRP
+- 创意点子: 每帧把角色的形状重建成一个场，任意数量的特效都能贴附、避开或填满它。
+- 作品内容: 一个动画角色每帧都被转换成有向距离场；粉色粒子人形贴合它，电光“Sparky”粒子与它碰撞，绿色气泡则通过光线步进环绕着它。
+- 关键技术: Unity 的 mesh-to-sdf 包每帧把动画角色的低多边形代理体素化成三维 SDF 纹理；VFX Graph 用 Position (SDF)、Conform to SDF 和 Collide with SDF 节点采样它，另有一个着色器对它做光线步进。
+- 课堂练习: 为扫描得到的真实物体（或 ARKit 人体追踪角色）烘焙一个 SDF，让 VFX Graph 粒子在 AR 中蜂拥贴到它的表面。变体：当人停止移动时，粒子群离开身体。
+
+#### Flying Embers — Rob Cupisz (2025)
+- 视频: https://x.com/robcupisz/status/1883842759825715217
+- 源代码: https://github.com/robcupisz/flying-embers
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Shader Graph
+- 创意点子: 去模拟真实相机如何拍到一颗移动的炽热火星，而不是简单拉伸一张贴图。
+- 作品内容: 发光的火星在角色周围飘浮翻滚，即使在特写和掠射角度下也依然自然。
+- 关键技术: 这个 VFX Graph 加 Shader Graph 特效不是沿速度方向拉伸面片，而是把每颗火星画成朝向相机的光痕，用其长度和衰减近似运动模糊与景深，因此从任何角度看都成立。
+- 课堂练习: 在 AR 中放一堆篝火，绕着它走，对比按速度拉伸的火星和考虑相机的光痕。变体：让火星向手机手电筒的光飘去。
+
 ### Sallia Goldstein
 
 *技术美术、Snap 镜头创作者*
@@ -21071,6 +21355,32 @@ LEGO 的 Hidden Side 系列（2019）把实体积木套装与手机应用相结�
 - 关键技术: 共享空间锚点让两台头显获得同一个桌面坐标系；当一名玩家从另一名玩家手中抓取拼图块时，其归属权通过网络转移。
 - 课堂练习: 用两台手机和一个共同的图像标记对齐坐标，一起把一个拆成 4 块的 3D 模型拼回原样；变体：每个人只能看到一半碎片。
 
+### rngtm (Kamosoba)
+
+*Unity 技术美术；Shader Graph 与特效工具作者*
+
+日本的 Unity 技术美术，在 Qiita 和 Hatena 上写了许多被广泛阅读的 Shader Graph 与特效文章，并公开配套工程，例如 Unity-VFXToolBox，其中有光环特效以及用于粒子特效的程序化圆环、圆柱网格。
+
+#### Aura VFX Samples — rngtm (Kamosoba) (2021)
+- 视频: https://x.com/rn49rn49/status/1346612720234205185
+- 源代码: https://github.com/rngtm/Unity-VFXToolBox
+- 交互类型: 感知与视觉艺术, 游戏与玩法
+- 平台与技术: 桌面, Unity, ParticleSystem, URP, Shader Graph
+- 创意点子: 一个像样的光环，只需几个简单网格和粒子，再加上在上面流动的贴图。
+- 作品内容: 盘旋上升的光环特效在一个点周围升起，用粒子系统和滚动贴图做成，是典型的游戏特效风格。
+- 关键技术: Unity ParticleSystem 发射器通过自定义顶点流和自定义数据，把每个粒子的参数传给 URP 着色器，着色器滚动并遮罩噪声贴图；工具箱负责生成所需的空粒子系统和着色器预设。
+- 课堂练习: 用 ARKit 人体追踪定位，在 AR 中把光环特效围绕在一个人的脚边。变体：光环的颜色随这个人说话的音量变化。
+
+#### Procedural Ring Mesh VFX — rngtm (Kamosoba) (2021)
+- 视频: https://x.com/rn49rn49/status/1347823897211666432
+- 源代码: https://github.com/rngtm/Unity-VFXToolBox
+- 交互类型: 感知与视觉艺术, 传送门与世界替换
+- 平台与技术: 桌面, Unity, C#, procedural mesh, ParticleSystem
+- 创意点子: 用代码生成特效的几何体，形状就能像参数一样调节。
+- 作品内容: 由程序化生成的网格构成的暗色旋转圆环和圆盘特效，动态贴图在网格上滑过。
+- 关键技术: 一个 C# 脚本生成半径、分段数和 UV 布局都可调的圆环、圆盘和圆柱网格，粒子着色器沿生成的 UV 滚动渐变和噪声。
+- 课堂练习: 用代码生成一个圆环网格，把它作为检测到的 AR 墙面上的传送门边框。变体：走远时圆环的分段数减少，变成低多边形形状。
+
 ### Adrián Ciborro Montes
 
 *从事图形与 AI 驱动直播的软件工程师*
@@ -21101,6 +21411,38 @@ LEGO 的 Hidden Side 系列（2019）把实体积木套装与手机应用相结�
 - 作品内容: 四件可交互的 AR 雕塑：你走近时会把头埋进地里的台灯、永不停转的银色陀螺、条纹像火星一样悬浮在空中的西瓜，以及可以拖动拼合的“平行宇宙”拼图块。
 - 关键技术: 通过 Acute Art App 在手机上放置 AR 作品，并使用距离触发（台灯根据用户距离做出反应）以及点击、拖动等手势来操作其他作品。
 - 课堂练习: 做一个会根据观众距离做出反应的 AR 物件：被靠近时它会躲起来、缩小或转身；变体：只有当没人用手机看着它时，它才恢复正常。
+
+### Appletea
+
+*VRChat 与 Meta Quest 开发者*
+
+日本的 VRChat 与 Quest 开发者，擅长大量使用着色器的工具。代表作 Depth Scanner 读取 Meta Quest 3 的深度传感器，把周围环境变成实时点云，并能导出 PLY 文件。
+
+#### Depth Scanner for Meta Quest 3 — Appletea (2024)
+- 视频: https://x.com/Appletea_VRC/status/1861910477389086953
+- 源代码: https://github.com/Appletea0673/Depth-Scanner-Project
+- 交互类型: 空间理解, 地点与城市
+- 平台与技术: 头显, Unity, Meta XR SDK, Meta Quest 3, shader
+- 创意点子: 头显本来就能看见深度，那就把它看到的东西直接展示给用户。
+- 作品内容: 戴着 Meta Quest 3 在户外行走，头显的深度传感器在透视画面上把周围环境实时画成一片点云；走动的人和手也会被跟踪，扫描结果可以保存成 PLY 文件。
+- 关键技术: Meta XR SDK 的深度 API 提供 Quest 3 的深度纹理；着色器和计算通道用相机内参与位姿把每个深度像素反投影成世界空间的点，实时渲染，并累积起来导出为 PLY。
+- 课堂练习: 在 AR 中把 Quest 3 或 LiDAR iPhone 的深度图变成 VFX Graph 点云，按距离着色，并导出一张快照。变体：只让与上一张快照相比发生变化的点发光，于是走动的人会亮起来。
+
+### Aras Pranckevičius
+
+*图形工程师；前 Unity 工程师（2006–2021）；开源开发者*
+
+Unity 最早的一批图形工程师之一，2006 至 2021 年参与引擎开发，现在为 Blender 做贡献。2023 年他发布了开源的 UnityGaussianSplatting，可实时显示 3D 高斯泼溅扫描，成为很多人的起点。
+
+#### Unity Gaussian Splatting — Aras Pranckevičius (2023)
+- 视频: https://www.youtube.com/watch?v=iccfV0YlWVI
+- 源代码: https://github.com/aras-p/UnityGaussianSplatting
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, 3D Gaussian Splatting, compute shader
+- 创意点子: 照片扫描可以直接渲染成数百万个模糊的点，不需要网格和贴图。
+- 作品内容: 一个拍摄得到的花园工具场景可以实时穿行，由数百万个柔和的彩色泼溅点渲染，数据被压缩到 8 MB 以内。
+- 关键技术: 训练好的 3D 高斯泼溅数据被压缩进 GPU 缓冲区，计算着色器每帧按深度对泼溅点排序，每个高斯被画成屏幕空间椭圆并从后往前混合。
+- 课堂练习: 用 Luma、Polycam 或 Scaniverse 把教室里的一件物品拍成高斯泼溅，再在 AR 中把它放回同一个房间。变体：当你穿过物体时，让泼溅点像尘埃一样散开。
 
 ### Bjarne Lundgren
 
@@ -21252,6 +21594,22 @@ Adam Trowbridge 和 Jess Parris Westbrook 以 Channel TWo（CH2）为名，创�
 - 关键技术: Spectacles 3 的双摄像头能采集深度，Lens Studio 镜头很可能借助深度把 2D 蝴蝶动画按前后层次摆放并产生遮挡。
 - 课堂练习: 在纸上画一种动物，扫描后在 AR 场景（Lens Studio 或 Reality Composer）里做成一群，围着同学飞。变体：人一快速移动，群体就四散飞开。
 
+### Colin Leung (NiloCat)
+
+*技术美术；NiloToon 作者*
+
+为二次元风格游戏编写渲染代码的技术美术，开发了 Unity URP 卡通着色器 NiloToon。他免费公开的 UnityURPToonLitShaderExample 是学习自定义 URP 着色器时最受欢迎的仓库之一。
+
+#### Unity URP Toon Lit Shader Example — Colin Leung (NiloCat) (2020)
+- 视频: https://www.youtube.com/watch?v=gcUCTLF5hwE
+- 源代码: https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, HLSL
+- 创意点子: 风格化光照是在真实光源之上加几条刻意的规则，而不是一个滤镜。
+- 作品内容: 一个动漫角色以干净的赛璐璐风格着色，带有轮廓描边和专门的面部光照选项，光源移动时脸上的阴影依然整洁。
+- 关键技术: 一个手写的 URP 着色器把 Lambert 光照量化成色阶，加上边缘光和反向外壳描边通道；面部选项则用专门的光照规则代替基于法线的着色，让阴影保持平滑。
+- 课堂练习: 在 AR 中给角色使用卡通光照着色器，并把 AR Foundation 的光照估计作为主光方向。变体：真实房间变暗时，描边随之变粗。
+
 ### Cyborn
 
 *比利时 VR/MR 游戏工作室*
@@ -21281,6 +21639,22 @@ Hubris 以及 Quest 3 混合现实小镇建造游戏 Wall Town Wonders 的开发
 - 作品内容: Elly Oldman 的“无尽之画”被做成铺满墙面的巨型黑白壁画和地面拼图；观众把平板对准画面，她那则生态寓言里的角色便动了起来。
 - 关键技术: 印刷画面的各个局部作为平板 AR 应用（由 Artefacto 开发）的识别图，叠加 &Friends 用相同线条风格制作的逐帧动画。
 - 课堂练习: 在长卷纸上合作画一幅黑白长画，挑出五个细节，用 Artivive 或 Lens Studio 的图像识别让它们在 AR 中动起来；变体：藏一段只有两台平板同时对准才会出现的动画。
+
+### Eric Freeman
+
+*游戏开发者*
+
+分享小型 Unity 工具的游戏开发者，其中 FakeStopMotion 脚本能让任何动画角色以低帧率、一顿一顿地播放，像定格动画里的木偶。
+
+#### Fake Stop Motion — Eric Freeman (2021)
+- 视频: https://x.com/_ericfreeman/status/1369299130678382593
+- 源代码: https://github.com/EricFreeman/FakeStopMotion
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, C#, Animator
+- 创意点子: 改变动作的时间节奏，而不是像素的外观，就能得到手工制作的感觉。
+- 作品内容: 一个原本动作流畅的 3D 角色，被改成像定格动画木偶一样一顿一顿地摆出姿势，而游戏的其余部分仍以全帧率运行。
+- 关键技术: 一个脚本以设定的低帧率手动驱动 Animator，按离散步长推进，而不是每帧更新，因此可以与任何复古或 PS1 风格着色器搭配。
+- 课堂练习: 在真实桌面上放一个定格动画风格的 AR 角色，让它以 8 fps 更新，而相机画面保持流畅。变体：有人注视得越久，它的帧率就越高。
 
 ### Filipe Peregrino
 
@@ -21627,6 +22001,22 @@ Masquerade Technologies 由 Eugene Nevgen、Sergey Gonchar 和 Andrew Yanchurevi
 - 关键技术: 手机上的实时人脸特征点追踪每帧拟合一个人脸网格，再把动态面具和换脸贴图变形贴合上去。
 - 课堂练习: 在 Lens Studio 或 Effect House 里做一个面部面具，用户张嘴或挑眉时就切换成另一个角色。变体：用户每眨一次眼，面具就老一点。
 
+### MalyaWka (Pavel)
+
+*技术美术；着色器开发者*
+
+分享 Unity URP 渲染功能的技术美术，代表作 URP-ScreenSpaceCavity 把 Blender 视口里的 Cavity 效果搬进 Unity：在屏幕空间里压暗凹缝、提亮边缘。
+
+#### URP Screen Space Cavity — MalyaWka (Pavel) (2021)
+- 视频: https://x.com/_malyawka_/status/1471816770604441603
+- 源代码: https://github.com/malyawka/URP-ScreenSpaceCavity
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, HLSL
+- 创意点子: 通过画出曲率来强调几何形体，就像插画师给边缘勾墨线一样。
+- 作品内容: 低多边形场景出现清晰的白色棱线和深色凹缝，也就是 Blender 视口里的 Cavity 效果，在 Unity 中作用于整个相机画面。
+- 关键技术: 一个 URP 渲染器功能读取屏幕空间法线和深度，通过采样相邻像素估算曲率（凸棱与凹谷）和 Cavity 项，再把亮暗强调叠加到光照后的画面上。
+- 课堂练习: 给 AR 场景中的虚拟物体加上 Cavity 通道，让它们的边缘在杂乱的相机背景前依然清晰。变体：也把它应用到 LiDAR 房间网格上，把真实房间画成素描。
+
 ### Marc Wakefield
 
 *AR 特效艺术家；Augmented Reality Design Studio 联合创始人*
@@ -21806,6 +22196,22 @@ Lens Studio 开发者，发布 AR 特效实验，并与 Max van Leeuwen 合作�
 - 作品内容: 在炎热的夏日，一个手机镜头让阳光下的荷兰街道铺满厚雪，雪花还在飘落，人行道上堆起雪堤。
 - 关键技术: 这个 Lens Studio 世界镜头很可能利用地面追踪，用粒子系统做飘雪，再在识别出的地面上铺一层可变形的雪网格。
 - 课堂练习: 用 Lens Studio 或 Effect House 给校园做一个“错季”AR 滤镜：春天落叶，夏天下雪。变体：人走过的地方留下脚印。
+
+### Noboru Seto (ruccho)
+
+*游戏与工具开发者*
+
+以 ruccho 为名发布 Unity 工具的日本开发者，代表作 WaterRW 是一套 2D 可交互水面系统：水波在 GPU 上模拟，并会对刚体作出反应。
+
+#### WaterRW — Noboru Seto (ruccho) (2021)
+- 视频: https://x.com/ruccho_vector/status/1461970803428405248
+- 源代码: https://github.com/ruccho/WaterRW
+- 交互类型: 游戏与玩法, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, compute shader, 2D physics
+- 创意点子: 只模拟水的表面，它就能既便宜又可交互。
+- 作品内容: 一片 2D 水面在物体落入时泛起涟漪、溅起水花，漂浮的刚体自然地随波起伏。
+- 关键技术: 在 GPU 上沿水面求解波动方程，并用结果形变水面网格；刚体推动高度场并得到回馈的浮力，着色器负责绘制反射与折射。
+- 课堂练习: 在 AR 中把一个 GPU 高度场水池放在真实桌面上，用手机的位置往里面投下虚拟石子。变体：LiDAR 网格检测到的真实物体会挡住涟漪。
 
 ### NoiseCrime
 
@@ -22078,6 +22484,22 @@ Sony 的 Japan Studio 与 Wizards of the Coast 合作推出了 The Eye of Judgme
 - 关键技术: 锚定在房间中的生物智能体各自携带一段音乐分轨或采样，手部追踪检测到的接触或接近会触发、叠加并调制这些音源。
 - 课堂练习: 在房间里散布 5 个会发光的 AR 生物，每个对应一段音乐分轨，靠近时该分轨淡入；变体：把它们聚到一起时音乐合成一首完整的曲子。
 
+### Singtaa
+
+*OneJS 开发者；Unity 计算着色器玩家*
+
+OneJS（把 JavaScript 界面带进 Unity）的开发者，也做了 Spark2D：一个开源计算着色器库，包含噪声、2D 有向距离场、跳跃泛洪 SDF 生成和渐变等功能。
+
+#### Spark2D — Singtaa (2024)
+- 视频: https://x.com/Singtaa/status/1837274411667444140
+- 源代码: https://github.com/Singtaa/Spark2D
+- 交互类型: 空间绘画与创作, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, compute shader, OneJS, SDF
+- 创意点子: 把每个形状都当成距离函数，描边、光晕和融合就都是现成的。
+- 作品内容: Inigo Quilez 的 2D 距离场形状（心形、星形、圆角矩形等）在 Unity 界面里实时变形、发光、融合，并由 JavaScript 脚本控制。
+- 关键技术: 计算着色器把 2D 有向距离函数、fBm 噪声和跳跃泛洪 SDF 生成的结果写入纹理，再由渐变和模糊内核上色；OneJS 绑定把这些功能开放给 JavaScript。
+- 课堂练习: 用 2D SDF 形状做漂浮的 AR 贴纸，让光晕半径随观看距离变化。变体：把两张贴纸推近时，用平滑最小值混合让它们融在一起。
+
 ### Stuart Langfield
 
 *导演、设计师*
@@ -22138,6 +22560,38 @@ Daan Roosegaarde 的工作室以“技术诗意”的公共作品著称；DUNE �
 - 关键技术: 用 Vuforia 图像目标识别每一页印刷漫画，由 Unity 渲染锚定在页面上的动画图层、三维纵深和声音。
 - 课堂练习: 画一页四格漫画并打印，用 MindAR 或 AR Foundation 图像追踪让其中一格动起来并加声音；变体：让 AR 层讲述与纸面相矛盾的“真相”。
 
+### Takahiro "Poly" Horikawa
+
+*Curiosity Inc. CEO 兼工程师；AR 开发者*
+
+东京 Curiosity Inc. 的工程师兼 CEO（Rememory 体积视频棚就是这家公司运营的），也是 Placeholder 的成员。他常把商业 App 里的 AR 效果用几行 Unity 代码重新实现，并公开源码。
+
+#### AR MeshWave — Takahiro "Poly" Horikawa (2021)
+- 视频: https://x.com/thorikawa/status/1387068106757992449
+- 源代码: https://github.com/thorikawa/ar-meshwave
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 手机, Unity, AR Foundation, ARKit, LiDAR
+- 创意点子: 一道只存在于真实表面上的光波，让扫描出的房间本身成为特效。
+- 作品内容: 一道彩虹般的“电竞灯光”扫过真实房间的墙壁、地板和家具，在 Unity 里重现了 Apple Clips 的 LiDAR AR Spaces 效果。
+- 关键技术: AR Foundation 的网格重建把 LiDAR 扫描变成房间网格；一个约 50 行的着色器根据每个片元到起点的世界空间距离减去时间来着色，于是彩虹色带在每个真实表面上向外扩散。
+- 课堂练习: 在带 LiDAR 的 iPhone 上用 AR Foundation 网格重建和基于距离的 Shader Graph 材质重现这种网格波。变体：在你点击的位置发出新的波，并让不同点击产生的波互相叠加干涉。
+
+### Tatsuro Ogata (llcheesell)
+
+*XR 项目导演、制作人*
+
+东京的虚拟演唱会与 XR 项目导演、制作人，会自己开发制作工具，其中包括用于虚拟舞台的逼真 LED 屏幕着色器 LEDScreenShader。
+
+#### LEDScreenShader — Tatsuro Ogata (llcheesell) (2022)
+- 视频: https://x.com/llcheesell/status/1492332637976936448
+- 源代码: https://github.com/llcheesell/LEDScreenShader
+- 交互类型: 表演与舞台, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HLSL, HDRP, URP
+- 创意点子: 要让虚拟屏幕可信，模仿的不只是画面，还有显示器的物理结构。
+- 作品内容: 一块虚拟舞台屏幕看起来就像真实的 LED 墙：远看是干净的画面，走近后能看到一颗颗红、绿、蓝发光二极管和箱体接缝。
+- 关键技术: 这个 HLSL 着色器把输入画面乘上 RGB 子像素遮罩（贴图或程序化的条纹、网格、蜂窝布局），画出箱体接缝，并用屏幕空间导数（ddx/ddy）在远处淡化 LED 细节以避免摩尔纹。
+- 课堂练习: 在 AR 中把一块虚拟 LED 广告牌挂到真实墙面上，把手机相机或一段视频作为输入，让观众走近去发现一颗颗二极管。变体：广告牌根据观众的距离给每个人显示不同的信息。
+
 ### Tender Claws (Samantha Gorman & Danny Cannizzaro)
 
 *沉浸式游戏与艺术工作室*
@@ -22167,6 +22621,22 @@ Daan Roosegaarde 的工作室以“技术诗意”的公共作品著称；DUNE �
 - 作品内容: 在 2017 年 WWDC 舞台上，一台 iPad 把一个荒凉的前哨基地放在真实桌面上；演示者绕着桌子走动时，飞艇飞来轰炸基地并炸出满地碎片，全部由 Unreal Engine 渲染。
 - 关键技术: ARKit 的世界追踪和水平面检测把 Unreal Engine 4 场景锚定到桌面上，并配合实时光照估计和粒子特效。
 - 课堂练习: 在检测到的桌面平面上放置一个微缩场景，编排一段 30 秒的电影式事件（到来、冲突、余波），当观众走到指定观察点时触发播放。变体：让观众与桌子的距离控制时间流速。
+
+### Wita (witalosk)
+
+*创意技术人；Unity 工具与着色器开发者*
+
+东京的开发者，为现场视觉编写 Unity 工具，其中包括一个能在运行时编译片元着色器和计算着色器的插件，也做基于位置的流体和粒子流体实验。
+
+#### Unity Runtime Shader — Wita (witalosk) (2024)
+- 视频: https://x.com/witalosk/status/1805984379543638156
+- 源代码: https://github.com/witalosk/UnityRuntimeShader
+- 交互类型: 空间绘画与创作, 表演与舞台
+- 平台与技术: 桌面, Unity, HLSL, compute shader, DirectX 11
+- 创意点子: 在特效运行时直接修改它，让调试发生在观众面前或场景之中。
+- 作品内容: 在运行中的 Unity 程序里输入片元着色器和计算着色器代码，画面立刻重新编译并刷新，就像一场视觉 live coding。
+- 关键技术: 该插件在运行时通过 DirectX 11 着色器编译器编译 HLSL，把结果写进 RenderTexture 或 GraphicsBuffer，供场景其他部分使用（仅支持 Windows 和 DX11）。
+- 课堂练习: 在 WebXR 网页里做一个小型 live coding 面板：一段 GLSL 代码绘制漂浮在 AR 中的画布，保存即生效。变体：两名学生用两部手机同时编辑同一块画布。
 
 ### Yujie Tao
 

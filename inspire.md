@@ -2,7 +2,7 @@
 
 A catalog of the most creative augmented-reality creators, from the first pioneers to today, and their AR works, compiled by Reality Design Lab as idea material for teaching. Each work lists its video, core idea, key technique and a classroom exercise.
 
-https://inspire.reality.design · 2026-09-27 · 414 creators · 2021 works
+https://inspire.reality.design · 2026-09-27 · 430 creators · 2055 works
 
 ## How an AI assistant should use this file
 
@@ -501,15 +501,18 @@ Real-time visual effects from the Unity VFX community, most with open source cod
 
 Thousands of points that flow, flock, burst or trail.
 
+- **Flying Embers** — Rob Cupisz (2025): Model how a real camera sees a moving hot spark instead of stretching a sprite. https://x.com/robcupisz/status/1883842759825715217 · Source code: https://github.com/robcupisz/flying-embers
 - **Constellation Plexus Ribbons** — Mirza Beig (2024): Connect nearby points with light and a cloud of dots becomes a constellation. https://x.com/TheMirzaBeig/status/1840974568216813609 · Source code: https://github.com/MirzaBeig/Constellation-Plexus
 - **VFX Graph sketch: glowing lines on a moving figure** — Keijiro Takahashi (2024): Draw a body only with the lines that follow it. https://x.com/_kzr/status/1790748365518725597 · Source code: https://github.com/keijiro/VfxGraphTestbed3
 - **VFX Graph custom HLSL: plexus network** — Keijiro Takahashi (2023): Connect nearby points and a swarm becomes a web. https://x.com/_kzr/status/1812469561704468638 · Source code: https://github.com/keijiro/VFXCustomCode
 - **StickShow: a sea of glow sticks** — Keijiro Takahashi (2022): A crowd is a repeated object with small differences. https://x.com/_kzr/status/1564979744642179073 · Source code: https://github.com/keijiro/StickShow
+- **Aura VFX Samples** — rngtm (Kamosoba) (2021): A convincing aura is a few simple meshes and particles with textures that flow over them. https://x.com/rn49rn49/status/1346612720234205185 · Source code: https://github.com/rngtm/Unity-VFXToolBox
 - **Coding Adventure: Ant and Slime Simulations** — Sebastian Lague (2021): Simple agents that sense and deposit trails grow living networks. https://www.youtube.com/watch?v=X-iSQQgOd1A · Source code: https://github.com/SebLague/Slime-Simulation
 - **Compute shader data into VFX Graph** — Keijiro Takahashi (2021): Simulate anywhere, render with VFX Graph. https://x.com/_kzr/status/1418439725631754244 · Source code: https://github.com/keijiro/VfxGraphGraphicsBufferTest
 - **GPU Fog Particles** — Mirza Beig (2021): Fog made purely from noise can hug the world without hard edges. https://x.com/TheMirzaBeig/status/1471820398056677376 · Source code: https://github.com/MirzaBeig/GPU-Fog-Particles
 - **GPU Instanced Flocking on URP** — Kodai Takao (2021): A school of thousands only needs local rules and the GPU. https://www.youtube.com/watch?v=FXcFn8QM8dk · Source code: https://github.com/kodai100/Unity_BoidsSimulationOnURP
 - **SushiVfx: vaporizing a sushi** — Keijiro Takahashi (2021): Real food, scanned, becomes a playful effect. https://x.com/_kzr/status/1442857433483726859 · Source code: https://github.com/keijiro/SushiVfx
+- **VFX Graph Dragon** — Tasuku Takahashi (2021): Build a creature out of particles, so one dragon becomes a thousand for free. https://x.com/supertask_jp/status/1463189020964364289 · Source code: https://github.com/TranscendVFX/VFXGraphIntermediate
 - **VFX Graph with 300,000 particles** — Keijiro Takahashi (2021): Scale changes the feeling: a crowd of particles becomes a material. https://x.com/_kzr/status/1400753544999817216 · Source code: https://github.com/keijiro/VfxGraphTestbed2
 - **Abcvfx: Alembic animation to VFX Graph** — Keijiro Takahashi (2020): Any baked animation can feed a particle system. https://x.com/_kzr/status/1269876564486807552 · Source code: https://github.com/keijiro/Abcvfx
 - **Krbv: colorful particle strip tunnel** — Keijiro Takahashi (2020): Ribbons moving past the camera create a sense of speed. https://x.com/_kzr/status/1219572530236641285 · Source code: https://github.com/keijiro/Krbv
@@ -517,6 +520,7 @@ Thousands of points that flow, flock, burst or trail.
 - **Sword fighting effects with VFX Graph** — Keijiro Takahashi (2020): A trail turns a fast motion into a readable shape. https://x.com/_kzr/status/1276106752728031232 · Source code: https://github.com/keijiro/VfxGraphTestbed
 - **Coding Adventure: Boids** — Sebastian Lague (2019): Separation, alignment and cohesion are enough to make a flock. https://www.youtube.com/watch?v=bqtqltqcQhw · Source code: https://github.com/SebLague/Boids
 - **GeoVfx: world population as particles** — Keijiro Takahashi (2019): Data becomes landscape when every value is a particle. https://x.com/_kzr/status/1429739880259612685 · Source code: https://github.com/keijiro/GeoVfx
+- **Project North Star: Strange Attractors in VFX Graph** — Tasuku Takahashi (2019): Let a chaotic equation, not an animator, choreograph a swarm of light in the room. https://www.youtube.com/watch?v=kLG291XVf_k · Source code: https://github.com/supertask/VFXNorthStar
 - **Smrvfx: particles from a skinned mesh** — Keijiro Takahashi (2019): Any animated body can become an emitter. https://x.com/_kzr/status/1114513038302830592 · Source code: https://github.com/keijiro/Smrvfx
 - **VFX Graph Sketch1012** — Keijiro Takahashi (2019): Daily small sketches are a way to learn a tool. https://x.com/_kzr/status/1187004957821505536 · Source code: https://github.com/keijiro/VfxGraphTestbed
 - **VFX Graph Sun with 2 Million Particles** — Dilmer Valecillos (2019): Millions of tiny points are enough to build a star. https://www.youtube.com/watch?v=f1BHXqeokSE · Source code: https://github.com/dilmerv/UnityVFXMillionsOfParticles
@@ -539,12 +543,16 @@ Thousands of points that flow, flock, burst or trail.
 Depth cameras, LiDAR and volumetric video turned into living 3D material.
 
 - **Triangle Splatting importer** — Keijiro Takahashi (2025): Scenes captured as triangles run on any normal renderer. https://x.com/_kzr/status/1939302534285582621 · Source code: https://github.com/keijiro/TriangleSplattingTest
+- **Depth Scanner for Meta Quest 3** — Appletea (2024): The headset already sees depth; just show the user what it sees. https://x.com/Appletea_VRC/status/1861910477389086953 · Source code: https://github.com/Appletea0673/Depth-Scanner-Project
 - **Metavido VFX (WebGPU)** — Keijiro Takahashi (2024): Put a phone video with depth onto a web page, so anyone can walk around its effects in a browser. https://x.com/_kzr/status/1828366682689061280 · Source code: https://github.com/keijiro/MetavidoVFX
 - **Rcam3 for Masaya Matsuura's concert** — Keijiro Takahashi (2024): Use a phone's LiDAR as a volumetric camera on stage to generate live show visuals. https://x.com/_kzr/status/1871169155254435978 · Source code: https://github.com/keijiro/Rcam3
 - **SplatVFX: 3D Gaussian Splatting in VFX Graph** — Keijiro Takahashi (2023): A photoreal capture that is also a particle system. https://x.com/_kzr/status/1714214841265856932 · Source code: https://github.com/keijiro/SplatVFX
+- **Unity Gaussian Splatting** — Aras Pranckevičius (2023): A photo capture can be rendered directly as millions of fuzzy points, with no meshes or textures. https://www.youtube.com/watch?v=iccfV0YlWVI · Source code: https://github.com/aras-p/UnityGaussianSplatting
+- **AR VJing + Volumetric Video** — Tasuku Takahashi (2022): VJ a captured human body in AR the way you would VJ a video clip. https://x.com/supertask_jp/status/1504792152315871238 · Source code: https://github.com/supertask/4DVFXProject
 - **BibcamStage: live show at Channel 22** — Keijiro Takahashi (2022): Everyday walks recorded with a phone become stage material. https://www.youtube.com/watch?v=v3mRlMx_6Is · Source code: https://github.com/keijiro/BibcamStage
 - **VFX with Unity AR Foundation** — Keijiro Takahashi (2022): Grow light effects along the real environment live on a phone. https://x.com/_kzr/status/1601509152395706369 · Source code: https://github.com/keijiro/Rcam2
 - **Walking a Taiwanese street with iPhone LiDAR** — Keijiro Takahashi (2022): Turn LiDAR's short sight into a dreamlike style of street scene. https://x.com/_kzr/status/1607672355710709760
+- **AR MeshWave** — Takahiro "Poly" Horikawa (2021): A light wave that only exists on real surfaces makes the scanned room itself the effect. https://x.com/thorikawa/status/1387068106757992449 · Source code: https://github.com/thorikawa/ar-meshwave
 - **Adding VFX to a Bibcam clip** — Keijiro Takahashi (2021): Add space-aware post effects to a depth video that has already been recorded. https://x.com/_kzr/status/1460618910990929926 · Source code: https://github.com/keijiro/BibcamVfx
 - **Bibcam test in Shibuya** — Keijiro Takahashi (2021): Burn depth and camera pose into the video as you record, so you can later add effects that fit the street space. https://vimeo.com/651111230 · Source code: https://github.com/keijiro/Bibcam
 - **KinFuSDFVFX** — Kaito Tsutsumi (にー兄さん / drumath2237) (2021): Scan a real space once and give particles its shape to hold on to. https://www.youtube.com/watch?v=ApPVp6Z3cgE · Source code: https://github.com/drumath2237/KinFuSDFVFX
@@ -556,6 +564,7 @@ Depth cameras, LiDAR and volumetric video turned into living 3D material.
 - **Rcam2: Volumetric AR camera rig** — Keijiro Takahashi (2020): Use an iPad's LiDAR as a mobile volumetric camera so effects grow right on the real room. https://vimeo.com/461782810 · Source code: https://github.com/keijiro/Rcam2
 - **Akvfx: Azure Kinect with VFX Graph** — Keijiro Takahashi (2019): Treat a depth sensor as a live particle source. https://x.com/_kzr/status/1163456709894922240 · Source code: https://github.com/keijiro/Akvfx
 - **Dkvfx: Depthkit volumetric video with VFX Graph** — Keijiro Takahashi (2019): Recorded volumetric video becomes raw material for particle effects. https://x.com/_kzr/status/1105456612162994177 · Source code: https://github.com/keijiro/Dkvfx
+- **Project North Star: VFX Graph with RealSense** — Tasuku Takahashi (2019): Feed a live depth camera back into an AR headset so the room itself becomes particle material. https://www.youtube.com/watch?v=oYYl_ALUDQI · Source code: https://github.com/supertask/VFXNorthStar
 - **Rcam at Channel #20 (live with umio)** — Keijiro Takahashi (2019): Scan a performer into a live point cloud, then let particles tear the body apart and rebuild it as concert visuals. https://vimeo.com/346711967 · Source code: https://github.com/keijiro/Rcam
 - **Rsvfx: RealSense depth to VFX Graph** — Keijiro Takahashi (2019): A cheap depth camera turns a live person into particle material. https://x.com/_kzr/status/1099299041463066624 · Source code: https://github.com/keijiro/Rsvfx
 - **VFX sketches with Depthkit and Unity** — Keijiro Takahashi (2019): One recording, many visual personalities. https://vimeo.com/383216987 · Source code: https://github.com/keijiro/DkvfxSketches
@@ -569,6 +578,10 @@ Depth cameras, LiDAR and volumetric video turned into living 3D material.
 Effects driven by segmentation, pose, hands or face tracking.
 
 - **BodyPix body part tracking** — Keijiro Takahashi (2023): Know which part of the body is where, and give each part its own effect. https://x.com/_kzr/status/1626200056033599491 · Source code: https://github.com/keijiro/BodyPixSample
+- **Interactive VJ with Azure Kinect** — Tasuku Takahashi (2023): Turn your own body into the VJ source instead of a video clip. https://x.com/supertask_jp/status/1612166613931032577 · Source code: https://github.com/supertask/InteractiveVJ
+- **Virtual Wearable** — Tasuku Takahashi (2023): Replace rectangular screens with interfaces that are worn on the body like jewellery. https://x.com/supertask_jp/status/1635235099989143552 · Source code: https://github.com/supertask/VirtualWearable
+- **VFX Dancer** — Tasuku Takahashi (2022): Make motion visible by letting the body leave its own history behind as light. https://x.com/supertask_jp/status/1524424117948088321 · Source code: https://github.com/TranscendVFX/VFXGraphIntermediate
+- **3D Face Landmarks in Shaders** — SCRN (2021): Put the whole face-tracking pipeline on the GPU so an avatar can see its owner without plugins. https://x.com/SCRNinVR/status/1404187468153327617 · Source code: https://github.com/SCRN-VRC/3D-Face-Landmark-in-UnityCG-HLSL
 - **BlazeFace face filters on Barracuda** — Keijiro Takahashi (2021): Six keypoints are enough to decorate a face. https://x.com/_kzr/status/1378352493134929926 · Source code: https://github.com/keijiro/BlazeFaceBarracuda
 - **BodyPix visual effects (NNCam)** — Keijiro Takahashi (2021): Cut the person out of the background in real time so effects only touch the body. https://vimeo.com/580670067 · Source code: https://github.com/keijiro/NNCam
 - **FaceMeshBarracuda face & eye tracker** — Keijiro Takahashi (2021): Get a face mesh and eye tracking from one camera in Unity for mask and gaze effects. https://vimeo.com/545493860 · Source code: https://github.com/keijiro/FaceMeshBarracuda
@@ -586,8 +599,12 @@ Effects driven by segmentation, pose, hands or face tracking.
 Visuals that listen: sound and music shape the effect.
 
 - **DrumPadVFX: finger drum visualizer** — Keijiro Takahashi (2024): Each pad gets its own visual voice. https://x.com/_kzr/status/1849430841119973885 · Source code: https://github.com/keijiro/DrumPadVFX
+- **Pollen VFX Composition** — Jonathan Thorpe (Sonosthesia) (2024): Grow an organic form whose opening and shedding are timed by sound. https://www.youtube.com/watch?v=MOeGDgMatwg · Source code: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- **Sonosthesia: GPU Sound Visualisation** — Jonathan Thorpe (Sonosthesia) (2024): Break sound into a few descriptor streams and wire each one to a visual parameter. https://x.com/johnnyfrenchy/status/1752349779223330997 · Source code: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- **Spark VFX Composition** — Jonathan Thorpe (Sonosthesia) (2024): Let each part of the music own one part of the effect: the core, the sparks, the glow. https://www.youtube.com/watch?v=_2siOZ5pIWQ · Source code: https://github.com/jbat100/sonosthesia-unity-demo-deform
 - **Generative VFX Music Video (Bitwig x Unity)** — Kaito Tsutsumi (にー兄さん / drumath2237) (2022): Let probability, not a timeline, direct both the music and the visuals. https://www.youtube.com/watch?v=gARJwIS5VGc · Source code: https://github.com/drumath2237/Generative-VFX-Bitwig-Sandbox
 - **VzoVfx: triggering VFX from Bitwig** — Keijiro Takahashi (2022): Let the music software drive the visuals directly. https://x.com/_kzr/status/1492752963206406148 · Source code: https://github.com/keijiro/VzoVfx
+- **Voice Recognition with Shaders** — SCRN (2021): Recover speech from lip-sync signals when the raw audio is out of reach. https://x.com/SCRNinVR/status/1367343416644886531 · Source code: https://github.com/SCRN-VRC/Voice-Recognition-Shader
 - **Khoreo: procedural dance with the MC-101** — Keijiro Takahashi (2020): The music plays the dancer. https://x.com/_kzr/status/1291723680490254336 · Source code: https://github.com/keijiro/Khoreo
 - **Grubo: MC-101 live performance at Channel #21** — Keijiro Takahashi (2019): One small groovebox drives both the music and the visuals. https://vimeo.com/379562830 · Source code: https://github.com/keijiro/Grubo
 - **LaspVfx: audio-reactive VFX with LASP** — Keijiro Takahashi (2019): Let the sound itself draw the shape. https://x.com/_kzr/status/1116337708782067713 · Source code: https://github.com/keijiro/LaspVfx
@@ -610,9 +627,12 @@ Visuals that listen: sound and music shape the effect.
 Geometry that grows, extrudes, tiles or deforms by rules.
 
 - **MeshSlicer: cutting objects in real time** — Keijiro Takahashi (2026): Cut any mesh and fill the wound. https://x.com/_kzr/status/2074120483688374287 · Source code: https://github.com/keijiro/MeshSlicer
+- **Infinite Grass Field** — Youssef Afella (2024): Grow grass only where the camera can see it, so a field can be infinite at a fixed cost. https://x.com/Youssef_Afella/status/1831049793629724836 · Source code: https://github.com/Youssef-Afella/UnityURP-InfiniteGrass
+- **Unity Runtime Shader** — Wita (witalosk) (2024): Edit an effect while it is running, so tuning happens in front of the audience or inside the scene. https://x.com/witalosk/status/1805984379543638156 · Source code: https://github.com/witalosk/UnityRuntimeShader
 - **Metawire: wireframe primitives for VFX** — Keijiro Takahashi (2022): Wireframes give a technical, holographic look with very little geometry. https://x.com/_kzr/status/1537797028817735680 · Source code: https://github.com/keijiro/Metawire
 - **Procedural walk with Animation Rigging** — Keijiro Takahashi (2022): Motion can be computed instead of keyframed. https://x.com/_kzr/status/1574788205010112513 · Source code: https://github.com/keijiro/CharacterRigTest
 - **NoiseBall6: compute shader mesh on mobile** — Keijiro Takahashi (2021): Deform geometry directly on the GPU for heavy effects on phones. https://x.com/_kzr/status/1402611991118712841 · Source code: https://github.com/keijiro/NoiseBall6
+- **Procedural Ring Mesh VFX** — rngtm (Kamosoba) (2021): Generate the effect's geometry in code, so its shape can be tuned like a parameter. https://x.com/rn49rn49/status/1347823897211666432 · Source code: https://github.com/rngtm/Unity-VFXToolBox
 - **3D Moebius Transformations** — Shahriar Shahrabi (2020): Bend space instead of objects: send the scene to a 4D sphere, rotate it, and bring it back. https://www.youtube.com/watch?v=81XDjBiuuEI · Source code: https://github.com/IRCSS/3D-Moebius-Transformations-Vertex-shader-in-Unity-3D
 - **Mesh Deformation with Compute Shaders on Quest** — Shahriar Shahrabi (2020): Make virtual surfaces soft to the touch on standalone mobile hardware. https://www.youtube.com/watch?v=IVy6T5_9r2c · Source code: https://github.com/IRCSS/Mesh-Deformation-With-Compute-Shader-Oculus-Quest-Unity
 - **Procedural Painting with Genetic Evolution** — Shahriar Shahrabi (2020): Let evolution, not a filter, decide where each brush stroke goes. https://www.youtube.com/watch?v=--YygVe0Eu4 · Source code: https://github.com/IRCSS/Procedural-painting
@@ -639,18 +659,22 @@ Geometry that grows, extrudes, tiles or deforms by rules.
 
 Dissolves, holograms, glitches and materials that change what a surface looks like.
 
+- **Fake Real Glass** — Youssef Afella (2026): Glass only has to look right from the camera, so fake the bending of light in screen space. https://x.com/Youssef_Afella/status/2020632755399213068 · Source code: https://github.com/Youssef-Afella/UnityURP-FakeRealGlass
 - **Galaxy Water** — Mirza Beig (2026): Water that reflects a universe instead of the sky. https://x.com/TheMirzaBeig/status/2008528798397198550 · Source code: https://github.com/MirzaBeig/Galaxy-Water
 - **LightGridShader: LED display look** — Keijiro Takahashi (2025): Imitate a physical display's structure to make screens feel real. https://x.com/_kzr/status/1962445754007765480 · Source code: https://github.com/keijiro/LightGridShader
+- **Radiance Cascades 2D GI** — Youssef Afella (2025): Compute light the way it really travels, but cheaply, by sharing rays between nearby points. https://x.com/Youssef_Afella/status/1896237865484636513 · Source code: https://github.com/Youssef-Afella/UnityURP-RadianceCascades2DGI
 - **Chromatic Distortion Sphere** — Mirza Beig (2024): A sphere that refracts the world with a rainbow edge instantly reads as magic. https://www.youtube.com/watch?v=IkBZLo4ROU0 · Source code: https://github.com/MirzaBeig/Chromatic-Distortion-Sphere
 - **FloatingHUD: floating interface effect** — Keijiro Takahashi (2024): Interface graphics as a visual effect in space. https://x.com/_kzr/status/1897620890919280893 · Source code: https://github.com/keijiro/FloatingHUD
 - **AIShader: ChatGPT shader generator** — Keijiro Takahashi (2023): Describe a surface in words and get a shader. https://x.com/_kzr/status/1632634562399600640 · Source code: https://github.com/keijiro/AIShader
 - **Impossible Geometry with Stencil Shaders** — Daniel Ilett (2022): Space can be bigger on the inside if each window only shows its own world. https://www.youtube.com/watch?v=EzM8LGzMjmc · Source code: https://github.com/daniel-ilett/shaders-impossible-geom
+- **LEDScreenShader** — Tatsuro Ogata (llcheesell) (2022): Imitate the physical structure of a display, not just its image, to make a virtual screen believable. https://x.com/llcheesell/status/1492332637976936448 · Source code: https://github.com/llcheesell/LEDScreenShader
 - **Fully Functional Portals in URP** — Daniel Ilett (2021): Recreate the magic of Portal with render textures in a modern pipeline. https://www.youtube.com/watch?v=PkGjYig8avo · Source code: https://github.com/daniel-ilett/portals-urp
 - **Stencil Portal Halloween Scene** — Shahriar Shahrabi (2021): A doorway can hold a whole world that exists only when you look through it. https://www.youtube.com/watch?v=gGeP34_6d2A · Source code: https://github.com/IRCSS/Unity-Stencil-Portal
 - **UnityFurURP (Shell / Fin Fur Shader)** — hecomi (2021): Stack many transparent copies of a surface and it turns into fur. https://www.youtube.com/watch?v=Hab3dcumtXU · Source code: https://github.com/hecomi/UnityFurURP
 - **Coding Adventure: Portals** — Sebastian Lague (2020): A portal is a second camera whose image is pasted exactly where the doorway is. https://www.youtube.com/watch?v=cWpFZbjtSQg · Source code: https://github.com/SebLague/Portals
 - **Eyeball: procedural iris that follows you** — Keijiro Takahashi (2020): An object that looks back at you feels alive. https://x.com/_kzr/status/1321000166585856000 · Source code: https://github.com/keijiro/Eyeball
 - **Matrix VFX** — Shahriar Shahrabi (2020): Any object can be rewritten as digital rain that follows its shape. https://www.youtube.com/watch?v=8l7cujPLw84 · Source code: https://github.com/IRCSS/MatrixVFX
+- **Unity URP Toon Lit Shader Example** — Colin Leung (NiloCat) (2020): Stylised lighting is a few deliberate rules on top of real lights, not a filter. https://www.youtube.com/watch?v=gcUCTLF5hwE · Source code: https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample
 - **Texture Painting on Meshes** — Shahriar Shahrabi (2019): Painting on an object should feel like painting on the real thing, not on a screen. https://www.youtube.com/watch?v=GmCZZrV004A · Source code: https://github.com/IRCSS/TexturePaint
 - **Flipper (ADIRECTOR Channel)** — Keijiro Takahashi (2018): Make a digital show feel like flipping through a printed book. https://va.media.tumblr.com/tumblr_pd1oevl48u1qio469.mp4 · Source code: https://github.com/keijiro/Flipper
 - **PortalGate** — fuqunaga (2018): Two linked holes in walls rewrite how space connects. https://www.youtube.com/watch?v=jzud9m-NgnA · Source code: https://github.com/fuqunaga/PortalGate
@@ -671,7 +695,10 @@ Dissolves, holograms, glitches and materials that change what a surface looks li
 
 Shapes defined by distance fields: smooth blends, infinite detail, impossible spaces.
 
+- **Spark2D** — Singtaa (2024): Treat every shape as a distance function, and outlines, glows and blends come for free. https://x.com/Singtaa/status/1837274411667444140 · Source code: https://github.com/Singtaa/Spark2D
 - **Mesh-to-SDF** — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2022): Give a moving body a distance field every frame and effects can feel its shape. https://user-images.githubusercontent.com/6276154/201238758-cc87ec4a-a65a-4cb2-b3cc-123576ab9ea2.mov · Source code: https://github.com/Unity-Technologies/com.unity.demoteam.mesh-to-sdf
+- **Raymarching with ShadowCaster** — SCRN (2022): Make distance-field shapes behave like real objects by marching them in the shadow pass too. https://x.com/SCRNinVR/status/1536860644758245379 · Source code: https://github.com/SCRN-VRC/Raymarching-with-ShadowCaster
+- **mesh-to-sdf VFX Examples** — Rob Cupisz (2022): Rebuild the character's shape as a field every frame, and any number of effects can hug, avoid or fill it. https://x.com/robcupisz/status/1591063441225437187 · Source code: https://github.com/robcupisz/mesh-to-sdf-examples
 - **ComputeMarchingCubes: GPU isosurfaces** — Keijiro Takahashi (2021): Turn any 3D field into a solid surface in real time. https://x.com/_kzr/status/1403359710577786881 · Source code: https://github.com/keijiro/ComputeMarchingCubes
 - **4D Explorer (4D Raymarching)** — Jelle Vermandere (2020): See a 4D world by walking through its 3D slices. https://www.youtube.com/watch?v=nUExziADzjc · Source code: https://github.com/Jellevermandere/4D-Raymarching
 - **Coding Adventure: Clouds** — Sebastian Lague (2019): Clouds are noise that light travels through. https://www.youtube.com/watch?v=4QOcCGI6xOU · Source code: https://github.com/SebLague/Clouds
@@ -693,7 +720,10 @@ Simulated fluid, smoke, cloth and soft bodies.
 - **Coding Adventure: Simulating Fluids** — Sebastian Lague (2023): Water is just many particles that try to keep a constant density. https://www.youtube.com/watch?v=rSKMYc1CQHE · Source code: https://github.com/SebLague/Fluid-Sim
 - **VFX Graph Smoke Portal Sample** — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2023): Smoke that is lit like real smoke makes a portal feel physical. https://www.youtube.com/watch?v=57cKxN3XdEY · Source code: https://github.com/Unity-Technologies/VisualEffectGraph-Samples
 - **Volumetric fog from VFX Graph** — Keijiro Takahashi (2023): Particles can write into the fog instead of being sprites. https://x.com/_kzr/status/1615973816286744578 · Source code: https://github.com/keijiro/VolumetricVfxTest
+- **3D Volumetric Fire** — Tasuku Takahashi (2021): Simulate fire as a real 3D gas instead of faking it with billboards. https://x.com/supertask_jp/status/1358792459543662592 · Source code: https://github.com/supertask/UnityVolumetricFire3D
 - **Interactive Volumetric Fog with Fluid Dynamics (The Vast Land)** — Shahriar Shahrabi (2021): Fog becomes something you can push: a fluid simulation drives a raymarched fog volume. https://www.youtube.com/watch?v=hMhNhgnOGN8 · Source code: https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-
+- **MLS-MPM Fluid in Unity** — Tasuku Takahashi (2021): Use the same particle-grid method as film VFX to get believable liquid at interactive speed. https://x.com/supertask_jp/status/1416315883832561673 · Source code: https://github.com/supertask/Unity-MLS-MPM-Fluid-Test
+- **WaterRW** — Noboru Seto (ruccho) (2021): Simulate only the surface of the water, and it can be both cheap and interactive. https://x.com/ruccho_vector/status/1461970803428405248 · Source code: https://github.com/ruccho/WaterRW
 - **BurstWig: flowing hair-like strands** — Keijiro Takahashi (2020): Strands with simple spring physics feel organic. https://x.com/_kzr/status/1258039132372135941 · Source code: https://github.com/keijiro/BurstWig
 - **Fluid Simulation in Compute Shaders** — Shahriar Shahrabi (2020): A full fluid solver fits in a handful of compute-shader passes and can paint any surface with moving ink. https://www.youtube.com/watch?v=GkrQy5JUyZk · Source code: https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-
 - **HdrpVatExample: baked fluid and cloth with VAT** — Keijiro Takahashi (2020): Simulate once offline, play it back anywhere. https://x.com/_kzr/status/1220338439117127680 · Source code: https://github.com/keijiro/HdrpVatExample
@@ -722,8 +752,10 @@ Post-processing on the camera image: datamosh, slit-scan, feedback, stylisation.
 - **Anime Speed Lines** — Mirza Beig (2022): Borrow the manga shorthand for speed and surprise as a live camera effect. https://user-images.githubusercontent.com/37354140/151656459-d99d2d36-06ed-4889-8a10-17cabd1626d8.mp4 · Source code: https://github.com/MirzaBeig/Anime-Speed-Lines
 - **Post-Processing Scan** — Mirza Beig (2022): A single expanding sphere reveals the hidden shape of the world. https://x.com/TheMirzaBeig/status/1809173668456792524 · Source code: https://github.com/MirzaBeig/Post-Processing-Scan
 - **Speed lines post effect** — Keijiro Takahashi (2022): A comic convention turned into a screen effect. https://x.com/_kzr/status/1506969479158243331 · Source code: https://github.com/keijiro/SimplePostEffects
+- **Fake Stop Motion** — Eric Freeman (2021): Change the time signature of motion, not the look of pixels, to get a hand-made feel. https://x.com/_ericfreeman/status/1369299130678382593 · Source code: https://github.com/EricFreeman/FakeStopMotion
 - **Flipbook2: flip book with watercolor** — Keijiro Takahashi (2021): Show video as a physical object: a stack of pages. https://x.com/_kzr/status/1398540851941314568 · Source code: https://github.com/keijiro/Flipbook2
 - **KinoAqua: watercolor effect with VFX Graph** — Keijiro Takahashi (2021): A painterly filter makes computer graphics feel handmade. https://x.com/_kzr/status/1392482946393677829 · Source code: https://github.com/keijiro/KinoAqua
+- **URP Screen Space Cavity** — MalyaWka (Pavel) (2021): Emphasise geometry by drawing its curvature, the way an illustrator inks edges. https://x.com/_malyawka_/status/1471816770604441603 · Source code: https://github.com/malyawka/URP-ScreenSpaceCavity
 - **Cubism Shader** — Shahriar Shahrabi (2020): Show several viewpoints at once, as Picasso did, but live. https://www.youtube.com/watch?v=_DwnvbPxZTM · Source code: https://github.com/IRCSS/Cubism-Shader
 - **KinoFeedback2: frame feedback with emoji particles** — Keijiro Takahashi (2020): Feed the last frame back into the next one. https://x.com/_kzr/status/1306955390513364992 · Source code: https://github.com/keijiro/KinoFeedback2
 - **MonoFxSketches: monochrome screen effects** — Keijiro Takahashi (2020): Strong graphic effects work best with only two colors. https://x.com/_kzr/status/1333749477732098048 · Source code: https://github.com/keijiro/MonoFxSketches
@@ -751,6 +783,8 @@ Neural networks running in the engine: segmentation, style transfer, generative 
 - **M-LSD line detection as VFX** — Keijiro Takahashi (2021): The architecture of a room becomes the drawing. https://x.com/_kzr/status/1413426397054332930 · Source code: https://github.com/keijiro/MlsdBarracuda
 - **SelfieBarracuda: virtual background on phones** — Keijiro Takahashi (2021): Segmentation separates the person from the world, and each can get its own effect. https://x.com/_kzr/status/1405518336230793223 · Source code: https://github.com/keijiro/SelfieBarracuda
 - **TinyYOLOv2 object detection in Unity** — Keijiro Takahashi (2021): Let the engine know what it is looking at. https://x.com/_kzr/status/1353349183252533249 · Source code: https://github.com/keijiro/TinyYOLOv2Barracuda
+- **YOLOv4-tiny in Fragment Shaders** — SCRN (2021): Run a neural network where scripts are not allowed: inside the shader itself. https://x.com/SCRNinVR/status/1380238589238206465 · Source code: https://github.com/SCRN-VRC/YOLOv4-Tiny-in-UnityCG-HLSL
+- **Pix2Pix in a Fragment Shader** — SCRN (2020): A GAN can be just another material on a surface. https://x.com/SCRNinVR/status/1317299768301735936 · Source code: https://github.com/SCRN-VRC/Pix2Pix-in-a-Fragment-Shader
 - **Ngx** — Keijiro Takahashi (2018): A neural network that hallucinates an infinite music video from a short clip. https://vimeo.com/294399440 · Source code: https://github.com/keijiro/Ngx
 - **Pix2Pix for Unity** — Keijiro Takahashi (2018): Use real-time image-to-image translation as a drawing tool. https://vimeo.com/287778343 · Source code: https://github.com/keijiro/Pix2Pix
 
@@ -10226,6 +10260,102 @@ Marc Downie, Shelley Eshkar and Paul Kaiser made landmark dance-and-data works w
 - Technique: Contact microphones in the table body pick up the sound of drawing, cameras read the marks, and AI agents built in Field generate responsive strokes projected in stereo 3D onto the drawing.
 - Try it: Point a phone camera at paper, detect new pen strokes with simple frame differencing, and answer each one with a mirrored or rotated virtual stroke floating above the page in AR. Twist: let the machine answer only after you stop drawing, like a conversation.
 
+### Tasuku Takahashi
+
+*Interactive art engineer at teamLab; VFX Graph and XR prototyper*
+
+An engineer at teamLab who spends his own time on real-time VFX in Unity: VFX Graph on the open-source Project North Star AR headset, volumetric dancers captured with Depthkit Studio, GPU fire and fluid solvers, and sci-fi hand interfaces. Almost every experiment is published on GitHub.
+
+#### Project North Star: Strange Attractors in VFX Graph — Tasuku Takahashi (2019)
+- Video: https://www.youtube.com/watch?v=kLG291XVf_k
+- Source code: https://github.com/supertask/VFXNorthStar
+- Interaction: Perception & Effects
+- Platform & tech: Headset, Unity, VFX Graph, Project North Star
+- Idea: Let a chaotic equation, not an animator, choreograph a swarm of light in the room.
+- What it is: Thomas and Lorenz strange attractors, drawn by thousands of VFX Graph particles, hang in the air in front of the wearer of a Project North Star AR headset.
+- Technique: In the VFX Graph update context each particle's velocity is computed from the attractor's differential equations (Thomas cyclically symmetric and Lorenz systems), so the swarm traces the attractor's shape as it moves.
+- Try it: Place a Lorenz-attractor particle system on a detected table with AR Foundation and view it on a phone or HoloKit. Twist: map the attractor's parameters to your distance from it, so walking closer reshapes the chaos.
+
+#### Project North Star: VFX Graph with RealSense — Tasuku Takahashi (2019)
+- Video: https://www.youtube.com/watch?v=oYYl_ALUDQI
+- Source code: https://github.com/supertask/VFXNorthStar
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Headset, Unity, VFX Graph, Intel RealSense, Project North Star, Leap Motion
+- Idea: Feed a live depth camera back into an AR headset so the room itself becomes particle material.
+- What it is: Seen through the open-source Project North Star AR headset, the room captured by an Intel RealSense depth camera is redrawn as a cloud of glowing VFX Graph particles floating over the real space.
+- Technique: Keijiro Takahashi's Rsvfx converts each RealSense depth and colour frame into position and colour maps, which VFX Graph samples to spawn particles; the scene is rendered for North Star's see-through reflectors with Leap Motion's North Star rig.
+- Try it: Stream the iPhone LiDAR depth map into a VFX Graph (AR Foundation plus a Keijiro-style depth-to-position map) and redraw the room as drifting points on the phone or in HoloKit. Twist: when you stand still, let the points slowly fall to the floor like sand.
+
+#### 3D Volumetric Fire — Tasuku Takahashi (2021)
+- Video: https://x.com/supertask_jp/status/1358792459543662592
+- Source code: https://github.com/supertask/UnityVolumetricFire3D
+- Interaction: Perception & Effects
+- Platform & tech: Desktop, Unity, compute shader, raymarching
+- Idea: Simulate fire as a real 3D gas instead of faking it with billboards.
+- What it is: A mesh bursts into volumetric flames that curl and rise in 3D, rendered as a glowing gas rather than flat fire sprites.
+- Technique: A GPU grid fluid solver in compute shaders (after GPU Gems 3's 3D fluid chapter) advects velocity, temperature and density on a voxel grid, the source mesh is voxelised to emit fuel, and the volume is raymarched for display.
+- Try it: Port a small voxel-grid smoke solver to a phone and anchor the volume above a real candle or cup with AR Foundation. Twist: let blowing into the microphone push the smoke sideways.
+
+#### MLS-MPM Fluid in Unity — Tasuku Takahashi (2021)
+- Video: https://x.com/supertask_jp/status/1416315883832561673
+- Source code: https://github.com/supertask/Unity-MLS-MPM-Fluid-Test
+- Interaction: Perception & Effects
+- Platform & tech: Desktop, Unity, compute shader, MLS-MPM
+- Idea: Use the same particle-grid method as film VFX to get believable liquid at interactive speed.
+- What it is: Thousands of particles slosh and splash as a liquid inside a box, simulated in real time on the GPU in Unity.
+- Technique: The Moving Least Squares Material Point Method moves particle momentum onto a background grid, updates the grid, and transfers velocities back each step in compute shaders, with lock-free atomic writes and a bitonic sort to keep neighbours together.
+- Try it: Run a 2D MLS-MPM (for example the 88-line mpm88 algorithm) in a compute shader and show it on a virtual glass panel standing on a real table in AR. Twist: tilt the phone to change gravity.
+
+#### VFX Graph Dragon — Tasuku Takahashi (2021)
+- Video: https://x.com/supertask_jp/status/1463189020964364289
+- Source code: https://github.com/TranscendVFX/VFXGraphIntermediate
+- Interaction: Perception & Effects
+- Platform & tech: Desktop, Unity, VFX Graph, Shader Graph
+- Idea: Build a creature out of particles, so one dragon becomes a thousand for free.
+- What it is: A flock of dragons made only of particle strips and scale-like quads snakes through a dark space; the number of dragons can be increased almost without limit.
+- Technique: Likely a head particle follows a random-walk path while trail (strip) particles and instanced scale quads spawned behind it form the body, all inside VFX Graph without skinned meshes.
+- Try it: Make a particle serpent that follows a random-walk path around a detected AR plane on a phone. Twist: make the serpent flee from the phone camera when you get close.
+
+#### AR VJing + Volumetric Video — Tasuku Takahashi (2022)
+- Video: https://x.com/supertask_jp/status/1504792152315871238
+- Source code: https://github.com/supertask/4DVFXProject
+- Interaction: Performance, Perception & Effects
+- Platform & tech: Phone, Unity, VFX Graph, Depthkit Studio, volumetric video
+- Idea: VJ a captured human body in AR the way you would VJ a video clip.
+- What it is: A dancer captured as volumetric video at the Rememory studio appears as a small hologram on a desk; hitting keys on a controller switches the VFX Graph effects (leaves, rain, orbits) that wrap around her body.
+- Technique: Depthkit Studio exports the capture as an mp4 with packed colour and depth plus a JSON of camera metadata; Unity decodes each frame into a point cloud whose positions feed VFX Graph emitters, and live input switches between effect graphs.
+- Try it: Record a friend with an iPhone LiDAR volumetric app (or Record3D), play the clip back in AR Foundation as points, and bind three VFX Graph looks to three on-screen buttons. Twist: let the music's beat, not the buttons, trigger the switches.
+
+#### VFX Dancer — Tasuku Takahashi (2022)
+- Video: https://x.com/supertask_jp/status/1524424117948088321
+- Source code: https://github.com/TranscendVFX/VFXGraphIntermediate
+- Interaction: Hands & Body, Performance
+- Platform & tech: Desktop, Unity, VFX Graph, Mixamo
+- Idea: Make motion visible by letting the body leave its own history behind as light.
+- What it is: An animated dancer sheds long glowing trails and particles from her whole body, so every turn of the choreography leaves ribbons of light in the air.
+- Technique: VFX Graph samples positions on the animated skinned mesh every frame and spawns particles and trail strips there, inspired by Keijiro Takahashi's Skinner; the animation is a Mixamo clip.
+- Try it: Drive a Mixamo or ARKit body-tracked avatar with a trail-emitting VFX Graph and view it at full scale in AR next to a real dancer. Twist: colour the trails by the speed of each limb.
+
+#### Interactive VJ with Azure Kinect — Tasuku Takahashi (2023)
+- Video: https://x.com/supertask_jp/status/1612166613931032577
+- Source code: https://github.com/supertask/InteractiveVJ
+- Interaction: Hands & Body, Performance
+- Platform & tech: Desktop, Unity, VFX Graph, Azure Kinect
+- Idea: Turn your own body into the VJ source instead of a video clip.
+- What it is: A DIY VJ system: the performer, seen by an Azure Kinect, is outlined in glowing blue lines and surrounded by effects that are switched from an on-screen control panel.
+- Technique: Azure Kinect colour and depth frames are converted to point positions and a body mask that feed VFX Graph effects (outlines, particles), with parameters exposed in a runtime GUI; likely built on Keijiro-style Kinect-to-VFX helpers.
+- Try it: Build a phone VJ mirror: use ARKit people segmentation to outline yourself with a glowing VFX Graph edge and switch between three looks with a tap. Twist: let the room's music volume set the glow width.
+
+#### Virtual Wearable — Tasuku Takahashi (2023)
+- Video: https://x.com/supertask_jp/status/1635235099989143552
+- Source code: https://github.com/supertask/VirtualWearable
+- Interaction: Hands & Body, Information & UI
+- Platform & tech: Desktop, Unity, VFX Graph, Ultraleap, Vuforia
+- Idea: Replace rectangular screens with interfaces that are worn on the body like jewellery.
+- What it is: Holographic rings and app icons wrap around the user's wrist and hand; turning and closing the hand calls up and selects apps in a sci-fi interface.
+- Technique: Ultraleap hand tracking gives the hand skeleton, VFX Graph and Shader Graph draw the circular holographic UI anchored to wrist and palm joints, and Vuforia registers the camera view.
+- Try it: Use a phone's hand tracking (for example MediaPipe Hands or visionOS hand anchors) to attach a ring of three glowing icons to your wrist in AR. Twist: the ring only appears when you look at your palm.
+
 ### Thad Starner
 
 *Wearable-computing pioneer; professor at Georgia Tech; technical lead on Google Glass*
@@ -15416,6 +15546,62 @@ Sony's London Studio pioneered camera games from EyeToy to EyePet and the Wonder
 - Technique: The book marker anchors a virtual cauldron, and controller motion patterns such as grinding and pouring are recognized from IMU data to add ingredients.
 - Try it: Put an AR cauldron on an image marker and add different ingredients by shaking or tilting the phone (accelerometer), with colored smoke rising when the recipe is right. Twist: the ingredients must be added in the correct order.
 
+### SCRN
+
+*Shader developer and machine-learning tinkerer (VRChat)*
+
+A VRChat creator who implements neural networks entirely inside Unity fragment shaders: YOLOv4-tiny object detection, pix2pix, face-landmark tracking, a transformer translator and a voice-viseme classifier, plus raymarching experiments. Everything is open source.
+
+#### Pix2Pix in a Fragment Shader — SCRN (2020)
+- Video: https://x.com/SCRNinVR/status/1317299768301735936
+- Source code: https://github.com/SCRN-VRC/Pix2Pix-in-a-Fragment-Shader
+- Interaction: Drawing & Making, Perception & Effects
+- Platform & tech: Desktop, Headset, Unity, HLSL, pix2pix, VRChat
+- Idea: A GAN can be just another material on a surface.
+- What it is: A generative image-to-image network running entirely in a Unity shader turns simple line drawings into generated Pikachu, Mario or tree images in real time inside VRChat.
+- Technique: A pix2pix U-Net generator cut to a quarter of the original size is implemented layer by layer in Cg/HLSL fragment passes over render textures, with weights trained in Keras and stored in textures, so inference happens as part of rendering.
+- Try it: Let people doodle on a virtual canvas in AR and show a style-transferred version beside it using an on-device image-to-image model. Twist: the canvas reads a real paper drawing through the camera instead.
+
+#### 3D Face Landmarks in Shaders — SCRN (2021)
+- Video: https://x.com/SCRNinVR/status/1404187468153327617
+- Source code: https://github.com/SCRN-VRC/3D-Face-Landmark-in-UnityCG-HLSL
+- Interaction: Face, Perception & Effects
+- Platform & tech: Desktop, Headset, Unity, HLSL, MediaPipe Facemesh, VRChat
+- Idea: Put the whole face-tracking pipeline on the GPU so an avatar can see its owner without plugins.
+- What it is: A VRChat avatar mirrors a real face in real time, including blinks, brow movements and eye direction, tracked by networks that run inside shaders.
+- Technique: MediaPipe's Facemesh and Iris models are rewritten as chained UnityCG/HLSL fragment passes that output 3D landmarks, which then drive blend shapes for blinking, brows and gaze.
+- Try it: Use ARKit face tracking on a phone to drive a particle mask whose emission follows your blinks and brow raises. Twist: the mask sheds particles only when you frown.
+
+#### Voice Recognition with Shaders — SCRN (2021)
+- Video: https://x.com/SCRNinVR/status/1367343416644886531
+- Source code: https://github.com/SCRN-VRC/Voice-Recognition-Shader
+- Interaction: Voice & Sound, Shared & Social
+- Platform & tech: Desktop, Headset, Unity, HLSL, VRChat
+- Idea: Recover speech from lip-sync signals when the raw audio is out of reach.
+- What it is: A small robot dog attached to a VRChat avatar obeys spoken commands, recognised by a shader-based neural network that only sees the lip-sync visemes the platform exposes.
+- Technique: Viseme weights over time form the input sequence to a small classifier implemented in fragment shaders; its output drives the robot dog's animation, showing that visemes retain enough information to recognise words.
+- Try it: Map spoken keywords (via on-device speech recognition) to three VFX Graph spells that appear in front of the speaker in AR. Twist: the spell only works if two people say it together.
+
+#### YOLOv4-tiny in Fragment Shaders — SCRN (2021)
+- Video: https://x.com/SCRNinVR/status/1380238589238206465
+- Source code: https://github.com/SCRN-VRC/YOLOv4-Tiny-in-UnityCG-HLSL
+- Interaction: Perception & Effects, Information & UI
+- Platform & tech: Desktop, Headset, Unity, HLSL, YOLOv4-tiny, VRChat
+- Idea: Run a neural network where scripts are not allowed: inside the shader itself.
+- What it is: An object detector written entirely in Unity fragment shaders draws labelled boxes around people and objects in a live video feed inside VRChat.
+- Technique: Each YOLOv4-tiny layer (convolutions, pooling, activations) is re-implemented as a fragment-shader pass that writes activations into render textures, chained frame by frame, with the trained weights baked into textures.
+- Try it: Run a tiny detector on the AR camera image (Unity Sentis or a shader port) and attach a VFX Graph burst to every detected cup. Twist: the effect changes depending on how many objects of the same class are visible.
+
+#### Raymarching with ShadowCaster — SCRN (2022)
+- Video: https://x.com/SCRNinVR/status/1536860644758245379
+- Source code: https://github.com/SCRN-VRC/Raymarching-with-ShadowCaster
+- Interaction: Perception & Effects
+- Platform & tech: Desktop, Unity, HLSL, raymarching, SDF
+- Idea: Make distance-field shapes behave like real objects by marching them in the shadow pass too.
+- What it is: A raymarched SDF object inside a box casts correct shadows and sits in the scene depth like a normal mesh.
+- Technique: The SDF is also raymarched in the ShadowCaster pass so it casts shadows, and the resulting depth is read by the other passes so the shape writes correct depth and receives shadows.
+- Try it: Raymarch a blobby SDF sculpture on a real table in AR and make it write depth so real-world occlusion and virtual shadows line up. Twist: let the blobs merge when two phones point at the same spot.
+
 ### Scatter / Depthkit (James George, Alexander Porter, Yasmin Elayat)
 
 *Volumetric filmmaking studio and makers of the Depthkit capture software*
@@ -18494,6 +18680,42 @@ Architect who began using the Layar AR browser in 2011 to float animated 'Sky Pa
 - Technique: An animated tornado model is likely geolocated in the landscape so it stays fixed to a spot on the horizon as the viewer pans the phone.
 - Try it: Build a large-scale AR weather event (tornado, storm cloud, aurora) anchored far away on the horizon with a compass-based placement. Twist: it moves closer when the real wind picks up.
 
+### Jonathan Thorpe (Sonosthesia)
+
+*XR developer; software architect at Opuscope; author of Sonosthesia*
+
+An XR and mobile developer since 2013 and software architect at Opuscope in Paris. Through his open-source Sonosthesia packages for Unity he turns audio descriptors, MIDI and hand gestures into signals that drive shaders, VFX Graph and mesh deformation.
+
+#### Pollen VFX Composition — Jonathan Thorpe (Sonosthesia) (2024)
+- Video: https://www.youtube.com/watch?v=MOeGDgMatwg
+- Source code: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- Interaction: Voice & Sound, Perception & Effects
+- Platform & tech: Desktop, Unity, VFX Graph, Sonosthesia
+- Idea: Grow an organic form whose opening and shedding are timed by sound.
+- What it is: Petal-like ribbons open and turn like a flower while clouds of pollen particles drift and flare with the rhythm of the music.
+- Technique: Spectral band energies from the track drive procedural mesh deformation of the petals and VFX Graph spawn rates for the pollen through Sonosthesia's mapping packages; it runs at about 260 fps on an M3 Pro.
+- Try it: Place an AR flower on a real plant pot and let the phone's microphone decide when it opens and releases pollen. Twist: the flower closes again when the room goes quiet.
+
+#### Sonosthesia: GPU Sound Visualisation — Jonathan Thorpe (Sonosthesia) (2024)
+- Video: https://x.com/johnnyfrenchy/status/1752349779223330997
+- Source code: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- Interaction: Voice & Sound, Perception & Effects
+- Platform & tech: Desktop, Unity, Shader Graph, Sonosthesia
+- Idea: Break sound into a few descriptor streams and wire each one to a visual parameter.
+- What it is: A glowing ring of light wobbles, swells and changes colour in real time with the music, prototyped as a sound-controlled object for XR.
+- Technique: Sonosthesia extracts energy in several spectral bands from the audio source and streams these descriptors into Shader Graph properties that displace and colour the mesh every frame.
+- Try it: Split the phone microphone into bass, mid and treble bands and map each to one property of a Shader Graph ring floating in AR. Twist: make the ring react only to the voice of the person looking at it.
+
+#### Spark VFX Composition — Jonathan Thorpe (Sonosthesia) (2024)
+- Video: https://www.youtube.com/watch?v=_2siOZ5pIWQ
+- Source code: https://github.com/jbat100/sonosthesia-unity-demo-deform
+- Interaction: Voice & Sound, Perception & Effects
+- Platform & tech: Desktop, Unity, VFX Graph, Shader Graph, Sonosthesia
+- Idea: Let each part of the music own one part of the effect: the core, the sparks, the glow.
+- What it is: A deforming sphere throws out branching electric sparks that crackle and pulse in sync with a piece of music.
+- Technique: Audio descriptors from a Timeline-played track are routed through Sonosthesia signal packages to mesh deformation on the sphere and to VFX Graph properties that spawn and shape the spark strips; it runs at about 98 fps on an M1 Pro.
+- Try it: Anchor a sparking orb to a real speaker in AR and drive its sparks from the phone microphone's onsets. Twist: sparks jump towards whoever is standing closest.
+
 ### Joon Moon (Joon Y. Moon / 문준용)
 
 *Media artist; creator of the Augmented Shadow series*
@@ -19378,6 +19600,42 @@ Visual artist known as Legoman in the AntiVJ label; his mapped installations mix
 - What it is: A panoramic polyptych of projection-mapped panels and sound that slowly assembles a pictorial landscape of memories, also performed live.
 - Technique: Video is mapped across several physical panels of different sizes and depths so a single composition spans the polyptych.
 - Try it: Arrange five whiteboards of different sizes into a polyptych and project an animation of old photos across all the panels. Twist: each panel stands for a fragment of memory told by a different person.
+
+### Youssef Afella
+
+*VFX and technical artist; graphics programmer*
+
+A technical artist and graphics programmer who releases compact Unity URP rendering projects: an infinite GPU-instanced grass field, 2D global illumination with Radiance Cascades, and a glass shader that fakes refraction without ray tracing.
+
+#### Infinite Grass Field — Youssef Afella (2024)
+- Video: https://x.com/Youssef_Afella/status/1831049793629724836
+- Source code: https://github.com/Youssef-Afella/UnityURP-InfiniteGrass
+- Interaction: Perception & Effects, Spatial Mapping
+- Platform & tech: Desktop, Unity, URP, compute shader, GPU instancing
+- Idea: Grow grass only where the camera can see it, so a field can be infinite at a fixed cost.
+- What it is: An endless meadow of grass blades sways in the wind around the camera; wherever you fly, fresh grass is already there.
+- Technique: A compute shader lays out blade positions on a world-space grid that follows the camera, culls them against the view frustum, and draws the survivors with GPU instancing; blades bend with scrolling wind noise (based on NiloCat's instanced grass example).
+- Try it: Cover a detected AR floor with GPU-instanced grass on a phone and let the grass bend away from your feet using the camera position. Twist: grass only grows where the LiDAR mesh says the floor is empty.
+
+#### Radiance Cascades 2D GI — Youssef Afella (2025)
+- Video: https://x.com/Youssef_Afella/status/1896237865484636513
+- Source code: https://github.com/Youssef-Afella/UnityURP-RadianceCascades2DGI
+- Interaction: Perception & Effects, Play
+- Platform & tech: Desktop, Unity, URP, Radiance Cascades
+- Idea: Compute light the way it really travels, but cheaply, by sharing rays between nearby points.
+- What it is: Coloured light from glowing shapes spreads, bounces and casts soft shadows across a 2D scene in real time, with lights of any shape.
+- Technique: Radiance Cascades stores light in several cascades of probes: near cascades are dense with short rays, far ones sparse with long rays; the cascades are merged from far to near to give full 2D global illumination each frame.
+- Try it: Project a Radiance Cascades light pass onto a real tabletop in AR, treating paper shapes seen by the camera as occluders. Twist: players place virtual lamps to light a path to a goal.
+
+#### Fake Real Glass — Youssef Afella (2026)
+- Video: https://x.com/Youssef_Afella/status/2020632755399213068
+- Source code: https://github.com/Youssef-Afella/UnityURP-FakeRealGlass
+- Interaction: Perception & Effects
+- Platform & tech: Desktop, Unity, URP, shader
+- Idea: Glass only has to look right from the camera, so fake the bending of light in screen space.
+- What it is: Glass objects bend and tint the scene behind them with convincing refraction and edge highlights, without any ray tracing.
+- Technique: The shader reads the opaque scene colour behind the object and offsets the lookup using surface normals and an estimated thickness, adding Fresnel reflection and edge darkening instead of tracing rays.
+- Try it: Put a fake-glass sculpture on a real table in AR and refract the live camera image through it (the AR background is the scene colour). Twist: let the glass slowly melt into a puddle when you tap it.
 
 ### Zelia ZZ Tan
 
@@ -20729,6 +20987,32 @@ Dutch creative technologist who co-created Globe4D, a physical globe you turn by
 - Technique: The game is rendered in spherical coordinates and rear-projected inside the Globe4D sphere, with each player moving a paddle by touching the surface.
 - Try it: Take a simple two-player game and redesign it for a round table or ball so that players face each other around it. Twist: the ball's speed depends on how many people are playing.
 
+### Rob Cupisz
+
+*Tech lead, Unity Demo Team*
+
+Tech lead of Unity's Demo Team (The Heretic, Enemies) and author of the classic LightShafts volumetric-shadow effect. He publishes small example projects that show how the team's real-time SDF and particle techniques work.
+
+#### mesh-to-sdf VFX Examples — Rob Cupisz (2022)
+- Video: https://x.com/robcupisz/status/1591063441225437187
+- Source code: https://github.com/robcupisz/mesh-to-sdf-examples
+- Interaction: Hands & Body, Perception & Effects
+- Platform & tech: Desktop, Unity, VFX Graph, mesh-to-sdf, HDRP
+- Idea: Rebuild the character's shape as a field every frame, and any number of effects can hug, avoid or fill it.
+- What it is: An animated character is turned into a signed distance field every frame; a pink particle figure conforms to it, electric 'Sparky' particles collide with it, and green bubbles are raymarched around it.
+- Technique: Unity's mesh-to-sdf package voxelises a low-poly proxy of the animated character into a 3D SDF texture each frame; VFX Graph samples it with Position (SDF), Conform to SDF and Collide with SDF nodes, and a shader raymarches it.
+- Try it: Bake an SDF of a scanned real object (or an ARKit body-tracked avatar) and make VFX Graph particles swarm onto its surface in AR. Twist: the swarm leaves the body when the person stops moving.
+
+#### Flying Embers — Rob Cupisz (2025)
+- Video: https://x.com/robcupisz/status/1883842759825715217
+- Source code: https://github.com/robcupisz/flying-embers
+- Interaction: Perception & Effects
+- Platform & tech: Desktop, Unity, VFX Graph, Shader Graph
+- Idea: Model how a real camera sees a moving hot spark instead of stretching a sprite.
+- What it is: Glowing embers drift and tumble through the air around a character and still look right in close-up and at grazing angles.
+- Technique: Instead of stretching quads along velocity, the VFX Graph and Shader Graph effect draws each ember as a camera-facing streak whose length and falloff approximate motion blur and depth-of-field, so it holds up from any angle.
+- Try it: Place a campfire in AR and compare velocity-stretched embers with camera-aware streaks while walking around it. Twist: the embers drift towards the phone's flashlight.
+
 ### Sallia Goldstein
 
 *Technical artist and Snap Lens Creator*
@@ -21071,6 +21355,32 @@ Small studio that builds 3D jigsaw puzzles from photogrammetry scans of real pla
 - Technique: Shared spatial anchors give both headsets the same table frame, and piece ownership is transferred over the network when one player grabs a piece from the other.
 - Try it: Align coordinates on two phones with a shared image marker and work together to put a 3D model split into four pieces back together. Twist: each person can see only half of the pieces.
 
+### rngtm (Kamosoba)
+
+*Unity technical artist; Shader Graph and VFX tool author*
+
+A Japanese Unity technical artist who writes widely read Shader Graph and VFX articles on Qiita and Hatena and publishes the matching projects, such as Unity-VFXToolBox with aura effects and procedural ring and cylinder meshes for particle effects.
+
+#### Aura VFX Samples — rngtm (Kamosoba) (2021)
+- Video: https://x.com/rn49rn49/status/1346612720234205185
+- Source code: https://github.com/rngtm/Unity-VFXToolBox
+- Interaction: Perception & Effects, Play
+- Platform & tech: Desktop, Unity, ParticleSystem, URP, Shader Graph
+- Idea: A convincing aura is a few simple meshes and particles with textures that flow over them.
+- What it is: Swirling aura effects rise around a point, built from particle systems and scrolling textures in a game-VFX style.
+- Technique: Unity ParticleSystem emitters use custom vertex streams and custom data to pass per-particle parameters to URP shaders that scroll and mask noise textures, and the toolbox generates the needed empty systems and shader presets.
+- Try it: Wrap an aura effect around a person's feet in AR using ARKit body tracking to place it. Twist: the aura's colour follows the loudness of the person's voice.
+
+#### Procedural Ring Mesh VFX — rngtm (Kamosoba) (2021)
+- Video: https://x.com/rn49rn49/status/1347823897211666432
+- Source code: https://github.com/rngtm/Unity-VFXToolBox
+- Interaction: Perception & Effects, Portals & Worlds
+- Platform & tech: Desktop, Unity, C#, procedural mesh, ParticleSystem
+- Idea: Generate the effect's geometry in code, so its shape can be tuned like a parameter.
+- What it is: Dark, spinning ring and disc effects are built from procedurally generated meshes with animated textures sliding across them.
+- Technique: A C# script builds ring, disc and cylinder meshes with tunable radius, segments and UV layout, and particle shaders scroll gradients and noise along the generated UVs.
+- Try it: Generate a ring mesh in code and use it as a portal rim on a detected AR wall. Twist: the ring's segment count drops as you walk away, turning it into a low-poly shape.
+
 ### Adrián Ciborro Montes
 
 *Software engineer working on graphics and AI-driven streaming*
@@ -21101,6 +21411,38 @@ Polish-born, Berlin-based artist whose sculptures question time, space and how w
 - What it is: Four interactive AR sculptures: a lamp that buries its head in the ground when you walk toward it, a silver spinning top that never stops, a watermelon striped like Mars floating in the air, and puzzle pieces of parallel universes you drag together.
 - Technique: Phone AR placement via the Acute Art app with proximity triggers (the lamp reacts to the user's distance) and tap or drag gestures on the other pieces.
 - Try it: Make an AR object that reacts to how close the viewer comes: it hides, shrinks or turns away when approached. Twist: it only behaves normally when nobody is looking at it through the phone.
+
+### Appletea
+
+*VRChat and Meta Quest developer*
+
+A Japanese VRChat and Quest developer who builds shader-heavy tools, including Depth Scanner, which reads the Meta Quest 3 depth sensor and turns the surroundings into a live point cloud that can be exported as PLY.
+
+#### Depth Scanner for Meta Quest 3 — Appletea (2024)
+- Video: https://x.com/Appletea_VRC/status/1861910477389086953
+- Source code: https://github.com/Appletea0673/Depth-Scanner-Project
+- Interaction: Spatial Mapping, Location & City
+- Platform & tech: Headset, Unity, Meta XR SDK, Meta Quest 3, shader
+- Idea: The headset already sees depth; just show the user what it sees.
+- What it is: Walking outdoors with a Meta Quest 3, the headset's depth sensor paints the surroundings as a live cloud of points over passthrough; moving people and hands are tracked too, and the scan can be saved as a PLY file.
+- Technique: The Meta XR SDK depth API provides the Quest 3 ToF/stereo depth texture; a shader and compute pass unproject each depth pixel with the camera intrinsics and pose into world-space points that are rendered in real time and accumulated for PLY export.
+- Try it: Turn the depth map of a Quest 3 or LiDAR iPhone into VFX Graph points in AR, colour them by distance, and export one snapshot. Twist: only points that changed since the last snapshot glow, so moving people light up.
+
+### Aras Pranckevičius
+
+*Graphics engineer; ex-Unity (2006–2021); open-source developer*
+
+One of Unity's earliest graphics engineers, who worked on the engine from 2006 to 2021 and now contributes to Blender. In 2023 he released UnityGaussianSplatting, an open-source real-time viewer for 3D Gaussian Splatting captures that became a standard starting point.
+
+#### Unity Gaussian Splatting — Aras Pranckevičius (2023)
+- Video: https://www.youtube.com/watch?v=iccfV0YlWVI
+- Source code: https://github.com/aras-p/UnityGaussianSplatting
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Desktop, Unity, 3D Gaussian Splatting, compute shader
+- Idea: A photo capture can be rendered directly as millions of fuzzy points, with no meshes or textures.
+- What it is: A photographed garden scene with tools is flown through in real time, rendered from millions of soft coloured splats and compressed to under 8 MB.
+- Technique: Trained 3D Gaussian Splatting data is compressed into GPU buffers, a compute shader sorts the splats by depth every frame, and each Gaussian is drawn as a screen-space ellipse blended back to front.
+- Try it: Capture a classroom object as a Gaussian splat (Luma, Polycam or Scaniverse) and place it back in the same room in AR. Twist: let the splats scatter like dust when you walk through the object.
 
 ### Bjarne Lundgren
 
@@ -21252,6 +21594,22 @@ Street artist turned 3D and AR artist who makes Snapchat and Spectacles Lenses, 
 - Technique: Spectacles 3's two cameras capture depth, and a Lens Studio lens likely uses that depth to place and occlude animated 2D butterfly sprites in 3D around the subject.
 - Try it: Draw one animal on paper, scan it, and animate it as a flock in an AR scene (Lens Studio or Reality Composer) around a classmate. Twist: make the flock scatter when the person moves quickly.
 
+### Colin Leung (NiloCat)
+
+*Technical artist; creator of NiloToon*
+
+A technical artist who writes rendering code for anime-style games and created NiloToon, a toon shader for Unity URP. His free UnityURPToonLitShaderExample is one of the most-starred learning repositories for custom URP shaders.
+
+#### Unity URP Toon Lit Shader Example — Colin Leung (NiloCat) (2020)
+- Video: https://www.youtube.com/watch?v=gcUCTLF5hwE
+- Source code: https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample
+- Interaction: Perception & Effects
+- Platform & tech: Desktop, Unity, URP, HLSL
+- Idea: Stylised lighting is a few deliberate rules on top of real lights, not a filter.
+- What it is: An anime character is lit with clean cel shading, rim outlines and a special face-lighting option that keeps facial shadows tidy as the light moves.
+- Technique: A hand-written URP shader quantises the Lambert term into a ramp, adds rim light and an inverted-hull outline pass, and for the face option replaces normal-based shading with a lighting rule that keeps shadows smooth.
+- Try it: Apply a toon lit shader to a character in AR and use AR Foundation light estimation as its main light direction. Twist: the outline thickens when the real room gets darker.
+
 ### Cyborn
 
 *Belgian VR/MR game studio*
@@ -21281,6 +21639,22 @@ French illustrator who has drawn a single endless black-and-white picture, The I
 - What it is: A monumental black-and-white fresco of Elly Oldman's endless drawing covers a wall and a floor puzzle; visitors point tablets at it and the characters of her ecological fable start moving.
 - Technique: Sections of the printed drawing serve as image targets for a tablet AR app (AR by Artefacto) that overlays frame-by-frame animations by &Friends in the same line style.
 - Try it: Draw one long collaborative black-and-white strip on paper, then pick five details and make each one move in AR with Artivive or Lens Studio image markers. Twist: hide one animation that only appears when two tablets look at it together.
+
+### Eric Freeman
+
+*Game developer*
+
+A game developer who shares small Unity utilities, including FakeStopMotion, a script that makes any animated character play back at a low, choppy frame rate like stop-motion puppetry.
+
+#### Fake Stop Motion — Eric Freeman (2021)
+- Video: https://x.com/_ericfreeman/status/1369299130678382593
+- Source code: https://github.com/EricFreeman/FakeStopMotion
+- Interaction: Perception & Effects
+- Platform & tech: Desktop, Unity, C#, Animator
+- Idea: Change the time signature of motion, not the look of pixels, to get a hand-made feel.
+- What it is: A smoothly animated 3D character is made to move in choppy, held poses like a stop-motion puppet, while the rest of the game runs at full frame rate.
+- Technique: A script drives the Animator manually at a chosen low frame rate, advancing it in discrete steps instead of every frame, so it can be combined with any retro or PSX-style shader.
+- Try it: Put a stop-motion AR character on a real desk that updates at 8 fps while the camera image stays smooth. Twist: the frame rate rises the longer someone watches it.
 
 ### Filipe Peregrino
 
@@ -21627,6 +22001,22 @@ Masquerade Technologies, founded by Eugene Nevgen, Sergey Gonchar and Andrew Yan
 - Technique: Real-time facial landmark tracking on the phone fits a face mesh every frame, onto which animated masks and face-swap textures are warped.
 - Try it: In Lens Studio or Effect House, make a face mask that switches character when the user opens their mouth or raises their eyebrows. Twist: the mask ages a little every time the user blinks.
 
+### MalyaWka (Pavel)
+
+*Technical artist; shader developer*
+
+A technical artist who shares Unity URP rendering features, most notably URP-ScreenSpaceCavity, a port of Blender's viewport cavity effect that darkens creases and brightens edges in screen space.
+
+#### URP Screen Space Cavity — MalyaWka (Pavel) (2021)
+- Video: https://x.com/_malyawka_/status/1471816770604441603
+- Source code: https://github.com/malyawka/URP-ScreenSpaceCavity
+- Interaction: Perception & Effects
+- Platform & tech: Desktop, Unity, URP, HLSL
+- Idea: Emphasise geometry by drawing its curvature, the way an illustrator inks edges.
+- What it is: Low-poly scenes gain crisp white ridges and dark creases, the Blender viewport 'cavity' look, applied to the whole camera image in Unity.
+- Technique: A URP renderer feature reads screen-space normals and depth, estimates curvature (ridges and valleys) and a cavity term by sampling neighbours, and composites light and dark accents into the lit image.
+- Try it: Add a cavity pass to virtual objects in an AR scene so their edges stay readable against the busy camera background. Twist: apply it to the LiDAR room mesh too and draw the real room like a sketch.
+
 ### Marc Wakefield
 
 *AR effects artist; co-founder of Augmented Reality Design Studio*
@@ -21806,6 +22196,22 @@ Lens Studio developer who posts AR effect experiments and co-developed the Spect
 - What it is: In the middle of a hot summer day, a phone lens covers a sunny Dutch street in deep snow, with flakes still falling and a snow bank lying on the pavement.
 - Technique: A Lens Studio world lens likely uses ground tracking and a particle system for falling snow plus a deformable snow mesh laid on the detected ground plane.
 - Try it: Make a 'wrong season' AR filter for the schoolyard in Lens Studio or Effect House: falling leaves in spring or snow in summer. Twist: let footprints appear where people walk.
+
+### Noboru Seto (ruccho)
+
+*Game and tool developer*
+
+A Japanese developer who publishes Unity tools under the name ruccho, best known for WaterRW, a 2D interactive water system whose waves are simulated on the GPU and react to rigidbodies.
+
+#### WaterRW — Noboru Seto (ruccho) (2021)
+- Video: https://x.com/ruccho_vector/status/1461970803428405248
+- Source code: https://github.com/ruccho/WaterRW
+- Interaction: Play, Perception & Effects
+- Platform & tech: Desktop, Unity, compute shader, 2D physics
+- Idea: Simulate only the surface of the water, and it can be both cheap and interactive.
+- What it is: A 2D water surface ripples and splashes when objects fall in; floating rigidbodies bob naturally on the waves.
+- Technique: The wave equation is solved on the GPU along the water surface and the result deforms the surface mesh; rigidbodies push the height field and receive buoyancy back, and a shader renders reflection and refraction.
+- Try it: Put a GPU height-field pond on a real table in AR and let the phone's position drop virtual pebbles into it. Twist: real objects detected by the LiDAR mesh block the ripples.
 
 ### NoiseCrime
 
@@ -22078,6 +22484,22 @@ Icelandic band that spent five years with Magic Leap Studios building Tónandi, 
 - Technique: Room-anchored creature agents each carry a music stem or sample, and hand-tracking contact or proximity triggers, layers and modulates those audio sources.
 - Try it: Scatter five glowing AR creatures around a room, each tied to a music stem that fades in as you approach. Twist: when they are gathered together, the stems combine into a complete piece.
 
+### Singtaa
+
+*Developer of OneJS; Unity compute-shader tinkerer*
+
+The developer behind OneJS, which brings JavaScript UI to Unity, and Spark2D, an open library of compute shaders for noise, 2D signed distance fields, jump-flood SDF generation and gradients.
+
+#### Spark2D — Singtaa (2024)
+- Video: https://x.com/Singtaa/status/1837274411667444140
+- Source code: https://github.com/Singtaa/Spark2D
+- Interaction: Drawing & Making, Perception & Effects
+- Platform & tech: Desktop, Unity, compute shader, OneJS, SDF
+- Idea: Treat every shape as a distance function, and outlines, glows and blends come for free.
+- What it is: Inigo Quilez's 2D distance-field shapes (hearts, stars, rounded boxes and more) morph, glow and blend live in a Unity UI, scripted from JavaScript.
+- Technique: Compute shaders evaluate 2D signed distance functions, fBm noise and jump-flood SDF generation into textures, which gradient and blur kernels then colour; OneJS bindings expose them to JavaScript.
+- Try it: Draw floating AR stickers from 2D SDF shapes whose glow radius follows the viewer's distance. Twist: two stickers melt together with a smooth-min blend when you push them close.
+
 ### Stuart Langfield
 
 *Director and designer*
@@ -22138,6 +22560,38 @@ Australian comic artist and XR director whose Modern Polaxis was one of the firs
 - Technique: Vuforia image targets recognise each printed comic page, and Unity renders animated layers, 3D depth and sound anchored to the page.
 - Try it: Draw and print a four-panel comic, then use MindAR or AR Foundation image tracking to animate one panel and add sound. Twist: have the AR layer tell a "truth" that contradicts the page.
 
+### Takahiro "Poly" Horikawa
+
+*CEO and engineer at Curiosity Inc.; AR developer*
+
+Engineer and CEO of Curiosity Inc. in Tokyo (the company behind the Rememory volumetric capture studio) and a member of Placeholder. He rebuilds AR effects from commercial apps in a few lines of Unity code and shares the source.
+
+#### AR MeshWave — Takahiro "Poly" Horikawa (2021)
+- Video: https://x.com/thorikawa/status/1387068106757992449
+- Source code: https://github.com/thorikawa/ar-meshwave
+- Interaction: Spatial Mapping, Perception & Effects
+- Platform & tech: Phone, Unity, AR Foundation, ARKit, LiDAR
+- Idea: A light wave that only exists on real surfaces makes the scanned room itself the effect.
+- What it is: A rainbow of 'gaming light' sweeps across the walls, floor and furniture of a real room, re-creating the LiDAR AR Spaces effect of Apple Clips in Unity.
+- Technique: AR Foundation meshing turns LiDAR scans into a room mesh; a roughly 50-line shader colours each fragment by its world-space distance from an origin minus time, so rainbow bands expand over every real surface.
+- Try it: Re-create the mesh wave on a LiDAR iPhone with AR Foundation meshing and a distance-based Shader Graph material. Twist: start a new wave wherever you tap, and let waves from different taps interfere.
+
+### Tatsuro Ogata (llcheesell)
+
+*Director and producer of XR projects*
+
+A Tokyo-based director and producer of virtual live events and XR projects who builds his own production tools, including LEDScreenShader, a realistic LED-panel shader for Unity used for virtual stages.
+
+#### LEDScreenShader — Tatsuro Ogata (llcheesell) (2022)
+- Video: https://x.com/llcheesell/status/1492332637976936448
+- Source code: https://github.com/llcheesell/LEDScreenShader
+- Interaction: Performance, Perception & Effects
+- Platform & tech: Desktop, Unity, HLSL, HDRP, URP
+- Idea: Imitate the physical structure of a display, not just its image, to make a virtual screen believable.
+- What it is: A virtual stage screen looks like a real LED wall: from far away it shows a clean image, and up close individual red, green and blue diodes and cabinet seams appear.
+- Technique: The HLSL shader multiplies the input image by an RGB subpixel mask (texture or procedural stripe, grid or honeycomb layout), draws cabinet seams, and uses screen-space derivatives (ddx/ddy) to fade LED detail and avoid moiré at a distance.
+- Try it: Hang a virtual LED billboard on a real wall in AR, feed it the phone camera or a video, and let viewers walk up to discover the diodes. Twist: the billboard shows a different message to each viewer depending on their distance.
+
 ### Tender Claws (Samantha Gorman & Danny Cannizzaro)
 
 *Immersive game and art studio*
@@ -22167,6 +22621,22 @@ Wellington studio staffed largely by former Weta Digital artists; creative direc
 - What it is: On the WWDC 2017 stage, an iPad placed a desolate outpost on a real table; as the presenter walked around it, airships arrived, bombed the base and exploded into debris, all in Unreal Engine.
 - Technique: ARKit world tracking and horizontal plane detection anchor an Unreal Engine 4 scene to the table, with real-time lighting estimation and particle effects.
 - Try it: Place a miniature diorama on a detected table plane and script a 30-second cinematic event (arrival, conflict, aftermath) that plays when the viewer walks to a marked viewpoint. Twist: let the viewer's distance to the table control the time scale.
+
+### Wita (witalosk)
+
+*Creative technologist; Unity tool and shader developer*
+
+A Tokyo-based developer who writes Unity tools for live visuals, including a package that compiles fragment and compute shaders at runtime, and experiments with position-based and particle fluids.
+
+#### Unity Runtime Shader — Wita (witalosk) (2024)
+- Video: https://x.com/witalosk/status/1805984379543638156
+- Source code: https://github.com/witalosk/UnityRuntimeShader
+- Interaction: Drawing & Making, Performance
+- Platform & tech: Desktop, Unity, HLSL, compute shader, DirectX 11
+- Idea: Edit an effect while it is running, so tuning happens in front of the audience or inside the scene.
+- What it is: Fragment and compute shader code typed into a running Unity app recompiles instantly and repaints the output, like a live-coding session for visuals.
+- Technique: The package compiles HLSL at runtime through the DirectX 11 shader compiler and writes the results into a RenderTexture or GraphicsBuffer that the rest of the scene can use (Windows and DX11 only).
+- Try it: Build a tiny live-coding panel in a WebXR page where a GLSL snippet paints a floating AR canvas and edits apply on save. Twist: two students edit the same canvas from two phones.
 
 ### Yujie Tao
 
