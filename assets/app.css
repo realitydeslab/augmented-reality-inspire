@@ -337,3 +337,7 @@ main { padding: 22px clamp(16px, 4vw, 56px) 60px; min-height: 60vh; }
 }
 .foot a { color: var(--ink); }
 .card__idea { font-size: 13px; color: var(--muted); margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* ---------- salient ---------- */
+.salient-mark { color: var(--accent-text); margin-right: 6px; font-size: .8em; vertical-align: .08em; }
+.note--salient { border-left-color: var(--accent); }

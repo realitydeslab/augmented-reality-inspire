@@ -33,6 +33,7 @@ T = {
             "Do not invent details that are not stated here; the video link is the reference.",
         ],
         "keys": "Key creators and guided tours", "all": "All creators and works",
+        "salient": "Salient works", "salient_intro": "Simple works where the concept jumps out: one idea, minimal means, understood in seconds.",
         "learn": "What to learn", "why": "Why it matters", "video": "Video", "ix": "Interaction",
         "plat": "Platform & tech", "idea": "Idea", "what": "What it is", "tech": "Technique", "try": "Try it",
         "role": "Role", "works_n": "works",
@@ -49,6 +50,7 @@ T = {
             "不要编造这里没有写到的细节，以视频链接为准。",
         ],
         "keys": "关键创作者与导览", "all": "全部创作者与作品",
+        "salient": "一眼即懂的作品", "salient_intro": "做法简单、但概念非常突出的作品：一个想法、极简的手段，几秒就能看懂。",
         "learn": "向他学什么", "why": "策展说明", "video": "视频", "ix": "交互类型",
         "plat": "平台与技术", "idea": "创意点子", "what": "作品内容", "tech": "关键技术", "try": "课堂练习",
         "role": "身份", "works_n": "件作品",
@@ -103,6 +105,14 @@ def catalog_md(data: dict, lang: str) -> str:
                 if w:
                     out.append(f"{n}. **{w['title']}** ({w.get('year', '')}) — {h['note_zh' if zh else 'note_en']} {w['video']['url']}")
             out.append("")
+    sal = [w for w in data["works"] if w.get("salient")]
+    if sal:
+        out += [f"## {s['salient']}", "", s["salient_intro"], ""]
+        for w in sal:
+            who = ", ".join(names.get(c, c) for c in w["creator_ids"])
+            why = w["salient"]["why_zh" if zh else "why_en"]
+            out.append(f"- **{w['title']}** — {who}" + (f" ({w['year']})" if w.get("year") else "") + f": {why} {w['video']['url']}")
+        out.append("")
     out += [f"## {s['all']}", ""]
     by_creator = defaultdict(list)
     for w in data["works"]:

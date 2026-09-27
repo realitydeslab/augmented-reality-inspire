@@ -38,11 +38,13 @@ All fixes go through `data/overrides.json` (or the batch file in `data/raw/` tha
 
 6. **Missing fields.** Fill any missing `description_zh / idea_en / technique_zh / exercise_en / …` in the batch file that owns the work (or via `patch_works`), following the language rule in `data/SCHEMA.md`.
 
-7. **Leads** (only with `leads`). Review `data/leads.json`: mark people who are already covered, have no usable video, or are not relevant with `lead_status`. Suggest the 5–10 most promising open leads to the user and, if they agree, run `/add-creator` on them.
+7. **Salient.** Skim the Salient column (`data/salient/*.json`): remove works that are not simple or whose idea is not clear in seconds (`{ "work-id": null }` in `data/salient/manual.json`), and add obvious missing ones. Keep it selective, around one in ten works.
 
-8. **Rebuild and verify.** `python3 tools/build_data.py` then `python3 tools/audit.py` again — the report should be clean or contain only items you explained.
+8. **Leads** (only with `leads`). Review `data/leads.json`: mark people who are already covered, have no usable video, or are not relevant with `lead_status`. Suggest the 5–10 most promising open leads to the user and, if they agree, run `/add-creator` on them.
 
-9. **Publish** (skip with `--no-push`).
+9. **Rebuild and verify.** `python3 tools/build_data.py` then `python3 tools/audit.py` again — the report should be clean or contain only items you explained.
+
+10. **Publish** (skip with `--no-push`).
    `git add data/ inspire.md inspire.zh.md llms.txt index.html && git commit -m "chore(data): tidy — <what changed>" && git push`
 
-10. **Report** in the user's language: what was merged, dropped, patched, ignored and why; dead videos replaced or removed; lead changes; before/after counts.
+11. **Report** in the user's language: what was merged, dropped, patched, ignored and why; dead videos replaced or removed; lead changes; before/after counts.

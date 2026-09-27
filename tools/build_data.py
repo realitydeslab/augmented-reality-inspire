@@ -30,6 +30,7 @@ TEACH = ROOT / "data" / "teach"
 OVERRIDES = ROOT / "data" / "overrides.json"
 KEYS = ROOT / "data" / "key_creators.json"
 I18N = ROOT / "data" / "i18n" / "out"
+SALIENT = ROOT / "data" / "salient"
 CACHE = ROOT / "data" / "video_cache.json"
 
 INTERACTIONS = {
@@ -185,6 +186,23 @@ def load_i18n() -> tuple[dict, dict]:
     return works, creators
 
 
+def load_salient() -> dict:
+    """work_id -> {why_en, why_zh}. manual.json is applied last; a null value removes a work."""
+    out: dict = {}
+    files = sorted(f for f in SALIENT.glob("*.json") if f.name != "manual.json")
+    if (SALIENT / "manual.json").exists():
+        files.append(SALIENT / "manual.json")
+    for f in files:
+        for k, v in json.loads(f.read_text()).items():
+            if k.startswith("_"):
+                continue
+            if v is None:
+                out.pop(k, None)
+            else:
+                out[k] = v
+    return out
+
+
 def load_keys(work_ids: set, creator_ids: set) -> dict:
     """Curated Key Creators + tour highlights; drops highlights whose work is missing."""
     if not KEYS.exists():
@@ -280,6 +298,10 @@ def main() -> None:
         c.update({k: v for k, v in tc.get(c["id"], {}).items() if v})
     for w in kept:  # manual patches win over teach/i18n files
         w.update(patches.get(w["id"], {}))
+    salient = load_salient()
+    for w in kept:
+        if w["id"] in salient:
+            w["salient"] = salient[w["id"]]
     missing_tr = [w["id"] for w in kept if not all(w.get(f) for f in ("description_zh", "idea_en", "technique_zh", "exercise_en"))]
     if missing_tr:
         logger.warning("works missing translations: %d (e.g. %s)", len(missing_tr), missing_tr[:5])
@@ -298,9 +320,9 @@ def main() -> None:
     index = ROOT / "index.html"
     stamp = str(int(time.time()))
     index.write_text(re.sub(r'(assets/(?:app|i18n|export)\.(?:js|css)|data/entries\.js)(\?v=\d+)?"', rf'\1?v={stamp}"', index.read_text()))
-    logger.info("creators=%d works=%d dropped=%d open_leads=%d with_teaching=%d",
+    logger.info("creators=%d works=%d dropped=%d open_leads=%d with_teaching=%d salient=%d",
                 len(out_creators), len(kept), len(dropped), len(open_leads),
-                sum(bool(w.get("exercise_zh")) for w in kept))
+                sum(bool(w.get("exercise_zh")) for w in kept), sum(bool(w.get("salient")) for w in kept))
 
 
 if __name__ == "__main__":

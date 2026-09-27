@@ -6,6 +6,7 @@ Twenty years of augmented-reality ideas. A gallery of the most inventive AR crea
 
 ## What's inside
 
+- **Salient**: simple works where the concept jumps out — one idea, minimal means, understood in seconds (`data/salient/`).
 - **Key Creators**: 15 creators in four groups, each with a guided tour of 4–5 highlight works and a curator's note.
 - **Works**: filter by 15 interaction types, platform and era; full-text search.
 - **Creators**: every creator with bio, links, who led to them, and all their works.
@@ -26,11 +27,12 @@ Starting from two seed creators (Zach Lieberman and Ian Curtis), researchers fol
 
 ## Maintain the database with AI
 
-Two AI commands live in [`.claude/commands/`](.claude/commands/). Open this folder in [Claude Code](https://claude.com/claude-code) and type:
+Three AI commands live in [`.claude/commands/`](.claude/commands/). Open this folder in [Claude Code](https://claude.com/claude-code) and type:
 
 | Command | What it does |
 |---|---|
 | `/add-creator <name or URL>` | Researches the creator (site, Vimeo, YouTube, X, press), collects **all** their AR works with verified videos, writes English + Chinese text and a technique note + classroom exercise for each, validates, rebuilds the site and the Markdown catalogs, and publishes. If the creator already exists it only adds the missing works. Several creators can be given, comma-separated. Add `--no-push` to preview locally first. |
+| `/salient [new \| all \| creator \| work]` | Quickly identifies **salient** works — simple works where the concept jumps out (criteria in [`data/SALIENT.md`](data/SALIENT.md)) — writes a one-line English + Chinese reason for each pick, rebuilds and publishes. By default it only looks at works not reviewed yet, so run it after `/add-creator`. |
 | `/tidy [recheck] [leads]` | Audits the database: duplicate creators and works, dead videos, missing translations or teaching notes, stale leads. Resolves them through `data/overrides.json` (merge, drop, patch, ignore), rebuilds and publishes. `recheck` re-verifies every video; `leads` also reviews the open leads and proposes who to add next. |
 
 Examples:
@@ -38,6 +40,7 @@ Examples:
 ```text
 /add-creator https://x.com/XRarchitect
 /add-creator Jun Rekimoto, Myron Krueger
+/salient new
 /tidy recheck leads
 ```
 
@@ -51,6 +54,7 @@ The scripts the commands rely on can also be run by hand:
 | `python3 tools/validate.py data/raw/<file>.json` | Check a new batch file: required fields, both languages, vocabulary, duplicates |
 | `python3 tools/build_data.py` | Merge everything, verify videos, write `data/entries.*`, `inspire.md`, `inspire.zh.md`, `llms.txt` |
 | `python3 tools/audit.py [--recheck]` | Read-only report of duplicates and gaps |
+| `python3 tools/salient.py stats\|candidates\|reviewed\|list` | Salient helper: counts, works still to review, mark reviewed, list picks |
 
 ## Run locally
 
@@ -67,6 +71,7 @@ YouTube embeds need `http://`; they do not play from `file://`.
 | `data/raw/*.json` | Research batches: creators, works, leads (schema: `data/SCHEMA.md`) |
 | `data/teach/*.json` | Technique + classroom exercise per work |
 | `data/i18n/out/*.json` | English / Chinese translations |
+| `data/salient/*.json` | Salient picks with a one-line reason; `manual.json` adds or removes (`null`) by hand |
 | `data/key_creators.json` | Key Creators, groups and guided tours |
 | `data/overrides.json` | Manual curation: merge creators, hide or patch works, lead status, confirmed non-duplicates |
 | `data/entries.json`, `data/entries.js` | Built dataset used by the site |
@@ -87,6 +92,7 @@ All videos belong to their creators and are embedded from YouTube, Vimeo, X and 
 
 ## 内容
 
+- **一眼即懂**：做法简单、但概念非常突出的作品——一个想法、极简的手段，几秒就能看懂（`data/salient/`）。
 - **关键创作者导览**：分成四组的 15 位创作者，每位都有 4–5 件代表作的导览和策展说明。
 - **作品**：按 15 种交互类型、平台和年代筛选，支持全文搜索。
 - **创作者**：每位创作者的简介、链接、发现路径，以及全部作品。
@@ -102,11 +108,12 @@ All videos belong to their creators and are embedded from YouTube, Vimeo, X and 
 
 ## 用 AI 维护数据库
 
-仓库里有两个 AI 命令，放在 [`.claude/commands/`](.claude/commands/)。在这个文件夹里打开 [Claude Code](https://claude.com/claude-code)，输入：
+仓库里有三个 AI 命令，放在 [`.claude/commands/`](.claude/commands/)。在这个文件夹里打开 [Claude Code](https://claude.com/claude-code)，输入：
 
 | 命令 | 作用 |
 |---|---|
 | `/add-creator <名字或链接>` | 调研这位创作者（个人网站、Vimeo、YouTube、X、媒体报道），收集他的**全部** AR 作品并验证视频，为每件作品写好中英文介绍、关键技术和课堂练习，校验后重建网页和 Markdown 目录并发布上线。已收录的创作者只补缺失的作品。可以一次输入多位，用逗号分隔。加 `--no-push` 先在本地预览。 |
+| `/salient [new \| all \| 创作者 \| 作品]` | 快速识别**一眼即懂**的作品：做法简单、但概念非常突出（标准见 [`data/SALIENT.md`](data/SALIENT.md)）。为每件入选作品写一句中英文理由，然后重建并发布。默认只看还没评估过的作品，适合在 `/add-creator` 之后运行。 |
 | `/tidy [recheck] [leads]` | 整理和去重：检查重复的创作者和作品、失效视频、缺失的翻译或教学字段、过期的 lead，通过 `data/overrides.json` 合并、隐藏、修正或忽略，然后重建并发布。`recheck` 会重新检查所有视频；`leads` 会顺便审阅待查名单，推荐下一批要录入的人。 |
 
 示例：
@@ -114,6 +121,7 @@ All videos belong to their creators and are embedded from YouTube, Vimeo, X and 
 ```text
 /add-creator https://x.com/XRarchitect
 /add-creator Jun Rekimoto, Myron Krueger
+/salient new
 /tidy recheck leads
 ```
 

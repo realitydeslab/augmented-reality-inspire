@@ -38,12 +38,14 @@ Read `data/SCHEMA.md` first. It defines the JSON format, the interaction vocabul
 
 7. **Check for duplicates.** `python3 tools/audit.py` — if the new creator or works show up as possible duplicates, resolve them (see `/tidy`).
 
-8. **Key Creator (optional).** Only if the user asked, or the creator is clearly of Key-Creator stature, propose adding them to `data/key_creators.json` with a 4–5 stop tour (`tagline/intro/learn` and highlight notes in both `_en` and `_zh`) and ask before adding.
+8. **Salient.** For each new work, ask whether it is *salient*: one idea explainable in a sentence, minimal means, concept over technology, readable in ~5 seconds of video (anchors: Universal Everything's Ultrasound VR and Super You, Zach Lieberman's Audio in AR space, EchoVision). Add the ones that qualify to `data/salient/manual.json` as `{ "work-id": { "why_en": "…", "why_zh": "…" } }`. Be selective (roughly one in ten works).
 
-9. **Preview.** Serve locally if helpful: `python3 -m http.server 8931 --bind 127.0.0.1`, open `http://localhost:8931/#view=works&q=<name>`.
+9. **Key Creator (optional).** Only if the user asked, or the creator is clearly of Key-Creator stature, propose adding them to `data/key_creators.json` with a 4–5 stop tour (`tagline/intro/learn` and highlight notes in both `_en` and `_zh`) and ask before adding.
 
-10. **Publish** (skip with `--no-push`).
-    `git add data/raw data/overrides.json data/key_creators.json data/entries.* data/leads*.json data/dropped.json data/video_cache.json inspire.md inspire.zh.md llms.txt index.html`
+10. **Preview.** Serve locally if helpful: `python3 -m http.server 8931 --bind 127.0.0.1`, open `http://localhost:8931/#view=works&q=<name>`.
+
+11. **Publish** (skip with `--no-push`).
+    `git add data/raw data/salient data/overrides.json data/key_creators.json data/entries.* data/leads*.json data/dropped.json data/video_cache.json inspire.md inspire.zh.md llms.txt index.html`
     `git commit -m "feat(data): add <Creator Name> (<n> works)"` then `git push`. GitHub Pages redeploys https://inspire.reality.design in about a minute.
 
-11. **Report** in the user's language: creator(s) added, number of works, notable pieces, new leads found, anything left out and why, and the live URL.
+12. **Report** in the user's language: creator(s) added, number of works, notable pieces, new leads found, anything left out and why, and the live URL.

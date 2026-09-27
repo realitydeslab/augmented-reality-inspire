@@ -8,7 +8,7 @@
   const INTERACTIONS = I18N.interactions;
   const PLATFORMS = ["phone", "headset", "projection", "web", "wearable", "desktop"];
   const ERAS = [["2005", 1990, 2009, "≤2009"], ["2010", 2010, 2014, "2010–14"], ["2015", 2015, 2019, "2015–19"], ["2020", 2020, 2030, "2020–26"]];
-  const VIEWS = ["keys", "works", "creators", "modules", "starred"];
+  const VIEWS = ["keys", "salient", "works", "creators", "modules", "starred"];
 
   const creatorsById = Object.fromEntries(DATA.creators.map((c) => [c.id, c]));
   const worksById = Object.fromEntries(DATA.works.map((w) => [w.id, w]));
@@ -29,7 +29,7 @@
   const ixName = (k) => { const r = INTERACTIONS.find((x) => x[0] === k); return r ? (lang === "zh" ? r[2] : r[1]) : k; };
   const src = (p) => S().sources[p] || p;
 
-  const state = { view: "keys", q: "", ix: new Set(), plat: new Set(), era: "", sort: "new", creator: "", keyOnly: false };
+  const state = { view: "keys", q: "", ix: new Set(), plat: new Set(), era: "", sort: "new", creator: "", keyOnly: false, salientOnly: false };
   let currentList = [];
   let openIndex = -1;
   let tour = null;
@@ -46,12 +46,14 @@
     state.sort = p.get("sort") || "new";
     state.creator = p.get("c") || "";
     state.keyOnly = p.get("key") === "1";
+    state.salientOnly = p.get("s") === "1";
     return { work: p.get("w"), tour: p.get("t") };
   }
   function writeHash(workId) {
     const p = new URLSearchParams();
     if (state.view !== "keys") p.set("view", state.view);
     if (state.keyOnly) p.set("key", "1");
+    if (state.salientOnly) p.set("s", "1");
     if (state.q) p.set("q", state.q);
     if (state.ix.size) p.set("ix", [...state.ix].join(","));
     if (state.plat.size) p.set("p", [...state.plat].join(","));
@@ -72,6 +74,7 @@
   function matches(w, { ignoreIx = false } = {}) {
     if (state.creator && !w.creator_ids.includes(state.creator)) return false;
     if (state.keyOnly && !w.creator_ids.some(isKeyCreator)) return false;
+    if (state.salientOnly && !w.salient) return false;
     if (!ignoreIx && state.ix.size && !(w.interaction || []).some((i) => state.ix.has(i))) return false;
     if (state.plat.size && !(w.platform || []).some((p) => state.plat.has(p))) return false;
     if (state.era) {
@@ -97,7 +100,8 @@
     return `<div class="ph">${esc(w.title)}</div>`;
   }
   const starBtn = (id, cls = "star") => `<button class="${cls}" type="button" data-star="${esc(id)}" aria-pressed="${stars.has(id)}" aria-label="${esc(S().star_aria)}">${stars.has(id) ? "★" : "☆"}</button>`;
-  function card(w) {
+  const salientWhy = (w) => (w.salient ? (lang === "zh" ? w.salient.why_zh : w.salient.why_en) : "");
+  function card(w, useWhy = false) {
     const who = creatorNames(w).join(", ");
     const tags = (w.interaction || []).map((i) => `<span class="tag">${esc(ixName(i))}</span>`).join("");
     return `<div class="cardwrap">
@@ -107,9 +111,9 @@
           <span class="card__src">${src(w.video.platform)}${w.video.embeddable === false ? " ↗" : ""}</span>
           ${w.year ? `<span class="card__year">${w.year}</span>` : ""}
         </div>
-        <div class="card__title">${esc(w.title)}</div>
+        <div class="card__title">${w.salient ? '<span class="salient-mark" aria-hidden="true">✦</span>' : ""}${esc(w.title)}</div>
         <div class="card__meta">${esc(who)}</div>
-        <div class="card__idea">${esc(TX.work(w, lang).idea || "")}</div>
+        <div class="card__idea">${esc((useWhy && salientWhy(w)) || TX.work(w, lang).idea || "")}</div>
         <div class="tags">${tags}</div>
       </button>${starBtn(w.id)}
     </div>`;
@@ -124,7 +128,8 @@
     $("#langToggle").textContent = S().lang_toggle;
     const years = DATA.works.map((w) => w.year).filter(Boolean);
     $("#stats").innerHTML = [
-      [S().stat_keys, KEYS.creators.length], [S().stat_creators, DATA.creators.length], [S().stat_works, DATA.works.length],
+      [S().stat_keys, KEYS.creators.length], [S().tab_salient, DATA.works.filter((w) => w.salient).length],
+      [S().stat_creators, DATA.creators.length], [S().stat_works, DATA.works.length],
       [S().stat_span, years.length ? `${Math.min(...years)}–${Math.max(...years)}` : "—"],
       [S().stat_ix, INTERACTIONS.filter(([k]) => DATA.works.some((w) => (w.interaction || []).includes(k))).length],
     ].map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("");
@@ -195,6 +200,16 @@
         <div class="strip">${works.map(card).join("")}</div></section>`;
     }).join("");
     return n;
+  }
+  function renderSalient() {
+    const list = sorted(DATA.works.filter((w) => w.salient));
+    currentList = list;
+    $("#salientHead").innerHTML = `<div class="starred__head">
+        <h2 class="starred__title">✦ ${esc(S().salient_title)}</h2>
+        <p class="starred__lede">${esc(S().salient_lede)}</p>
+        <p class="count mono">${esc(S().salient_count(list.length))}</p></div>`;
+    $("#salientGrid").innerHTML = list.map((w) => card(w, true)).join("");
+    return list.length;
   }
   function renderStarred() {
     const list = DATA.works.filter((w) => stars.has(w.id));
@@ -287,11 +302,12 @@
     document.querySelectorAll(".view").forEach((v) => v.classList.toggle("is-on", v.id === "view-" + state.view));
     $("#q").value = state.q;
     $("#sort").value = state.sort;
-    $("#filters").hidden = state.view === "keys" || state.view === "starred";
+    $("#filters").hidden = ["keys", "starred", "salient"].includes(state.view);
     $("#keyOnly").setAttribute("aria-pressed", state.keyOnly);
+    $("#salientOnly").setAttribute("aria-pressed", state.salientOnly);
     $("#starCount").textContent = stars.size ? stars.size : "";
     renderChips();
-    const r = { keys: renderKeys, works: renderWorks, creators: renderCreators, modules: renderModules, starred: renderStarred }[state.view];
+    const r = { keys: renderKeys, salient: renderSalient, works: renderWorks, creators: renderCreators, modules: renderModules, starred: renderStarred }[state.view];
     $("#empty").hidden = r() > 0;
     lazyVideos();
     writeHash();
@@ -346,6 +362,7 @@
       <div class="who">${who}</div>
       ${starBtn(w.id, "star-inline mono")}
       ${stop ? note(S().why_matters, TX.note(stop, lang), "note--curator") : ""}
+      ${w.salient ? note("✦ " + S().why_salient, salientWhy(w), "note--salient") : ""}
       ${t.description ? `<p>${esc(t.description)}</p>` : ""}
       ${note(S().idea, t.idea)}${note(S().technique, t.technique)}${note(S().try_it, t.exercise)}
       <div class="tags">${ix}</div><div class="tags">${tech}</div>
@@ -417,8 +434,9 @@
     if ("clearCreator" in t.dataset) { state.creator = ""; render(); return; }
     if (t.classList.contains("card")) { tourMode = false; openWork(t.dataset.id); return; }
   });
-  $("#clear").addEventListener("click", () => { Object.assign(state, { q: "", ix: new Set(), plat: new Set(), era: "", creator: "", keyOnly: false }); render(); });
+  $("#clear").addEventListener("click", () => { Object.assign(state, { q: "", ix: new Set(), plat: new Set(), era: "", creator: "", keyOnly: false, salientOnly: false }); render(); });
   $("#keyOnly").addEventListener("click", () => { state.keyOnly = !state.keyOnly; render(); });
+  $("#salientOnly").addEventListener("click", () => { state.salientOnly = !state.salientOnly; render(); });
   let qTimer;
   $("#q").addEventListener("input", (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 160); });
   $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; render(); });
