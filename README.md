@@ -2,7 +2,7 @@
 
 **https://inspire.reality.design**
 
-Forty years of augmented-reality ideas. A gallery of the most inventive AR creators, from the first pioneers to today, and their AR work: 1826 works by 399 creators, each with a playable video, its core idea, the key technique behind it and a classroom exercise. Built by [Reality Design Lab](https://reality.design) as idea material for teaching.
+Thirty years of augmented-reality ideas. A gallery of the most inventive AR creators, from the first pioneers to today, and their AR work: 1826 works by 399 creators, each with a playable video, its core idea, the key technique behind it and a classroom exercise. Built by [Reality Design Lab](https://reality.design) as idea material for teaching.
 
 ## What's inside
 
@@ -95,7 +95,7 @@ All videos belong to their creators and are embedded from YouTube, Vimeo, X and 
 
 **https://inspire.reality.design**
 
-四十年的增强现实点子。这里收录了从早期先驱到今天最有创意的 AR 创作者和他们的 AR 作品：399 位创作者的 1826 件作品。每件作品都附有可播放的视频、核心点子、背后的关键技术和一个课堂练习。由 [Reality Design Lab](https://reality.design) 整理，作为教学的点子库。
+三十年的增强现实点子。这里收录了从早期先驱到今天最有创意的 AR 创作者和他们的 AR 作品：399 位创作者的 1826 件作品。每件作品都附有可播放的视频、核心点子、背后的关键技术和一个课堂练习。由 [Reality Design Lab](https://reality.design) 整理，作为教学的点子库。
 
 ## 内容
 
