@@ -12,6 +12,7 @@
   --ink: #f4f4f4;
   --muted: #9b9b9b;
   --line: #272727;
+  --brand-sub: #6b6b6b;
   --accent: #ff5b1a;
   --accent-text: #ff6a2e;
   --accent-ink: #000;
@@ -28,6 +29,7 @@
   --ink: #000;
   --muted: #6b6b6b;
   --line: #e4e4e4;
+  --brand-sub: #b0b0b0;
   --accent: #ff5b1a;
   --accent-text: #d9430b;
   --accent-ink: #000;
@@ -37,7 +39,7 @@
 }
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="dark"]) {
-    --bg: #fff; --bg-2: #ededed; --ink: #000; --muted: #6b6b6b; --line: #e4e4e4;
+    --bg: #fff; --bg-2: #ededed; --ink: #000; --muted: #6b6b6b; --line: #e4e4e4; --brand-sub: #b0b0b0;
     --accent: #ff5b1a; --accent-text: #d9430b; --accent-ink: #000; --card: #fff; --shadow: 0 30px 80px rgba(0, 0, 0, .12);
     color-scheme: light;
   }
@@ -60,8 +62,12 @@ a { color: inherit; }
 
 /* ---------- masthead ---------- */
 .masthead { padding: 28px clamp(16px, 4vw, 56px) 20px; border-bottom: 1px solid var(--line); }
-.masthead__top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
-.tag-line { font-size: 11px; color: var(--muted); }
+.masthead__top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+/* The reality.design wordmark, same type, sizes and greys as the lab site's header. */
+.brand { display: inline-block; width: 13.25rem; max-width: 100%; text-align: right; text-decoration: none; font-family: "NeueMontreal", "Helvetica Neue", Arial, sans-serif; font-weight: 400; }
+.brand__name { display: block; white-space: nowrap; font-size: 1.875rem; line-height: 2.25rem; color: var(--ink); }
+.brand__tag { display: block; font-size: .75rem; line-height: 1.43; color: var(--brand-sub); transition: color .15s; }
+.brand:hover .brand__tag { color: var(--ink); }
 .theme-toggle { background: none; border: 1px solid var(--line); border-radius: 99px; width: 34px; height: 34px; }
 .title {
   font: 400 clamp(46px, 9vw, 128px)/.92 var(--serif); letter-spacing: -.045em;
@@ -307,8 +313,6 @@ main { padding: 22px clamp(16px, 4vw, 56px) 60px; min-height: 60vh; }
 .masthead__tools { display: flex; gap: 8px; align-items: center; }
 .lang-toggle { background: none; border: 1px solid var(--line); border-radius: 99px; height: 34px; padding: 0 14px; font-size: 12px; }
 .lang-toggle:hover, .theme-toggle:hover { border-color: var(--ink); }
-.tag-line { text-decoration: none; }
-.tag-line:hover { color: var(--ink); }
 .tab__count { font-size: 11px; color: var(--accent-text); }
 .cardwrap { position: relative; }
 .star {
