@@ -347,3 +347,4 @@ main { padding: 22px clamp(16px, 4vw, 56px) 60px; min-height: 60vh; }
 .scat__title { font: 400 30px/1.05 var(--serif); letter-spacing: -.02em; margin: 0; }
 .scat__n { font-size: 12px; color: var(--accent-text); }
 .scat__desc { color: var(--muted); font-size: 14px; margin: 6px 0 18px; max-width: 62ch; }
+.watch--muted { color: var(--muted); }

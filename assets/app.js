@@ -391,7 +391,8 @@
       ${note(S().idea, t.idea)}${note(S().technique, t.technique)}${note(S().try_it, t.exercise)}
       <div class="tags">${ix}</div><div class="tags">${tech}</div>
       <a class="watch" href="${esc(w.video.url)}" target="_blank" rel="noopener">${esc(S().watch_on(src(w.video.platform)))}</a>
-      ${w.source_url ? `<a class="watch" href="${esc(w.source_url)}" target="_blank" rel="noopener">${esc(S().project_page)}</a>` : ""}`;
+      ${w.source_url ? `<a class="watch" href="${esc(w.source_url)}" target="_blank" rel="noopener">${esc(S().project_page)}</a>` : ""}
+      ${w.found_via && w.found_via.url ? `<a class="watch watch--muted" href="${esc(w.found_via.url)}" target="_blank" rel="noopener">${esc(S().found_via(S().src_names[w.found_via.source] || w.found_via.source))}</a>` : ""}`;
     document.querySelectorAll(".star-inline").forEach((b) => { b.textContent = stars.has(w.id) ? S().starred : S().star; });
   }
   function closeWork() { $("#playerMedia").innerHTML = ""; if ($("#player").open) $("#player").close(); writeHash(); }

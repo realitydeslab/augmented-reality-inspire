@@ -40,6 +40,7 @@ Examples:
 ```text
 /add-creator https://x.com/XRarchitect
 /add-creator Jun Rekimoto, Myron Krueger
+/add-creator https://www.pinterest.com/pin/1036531670494386477/
 /salient new
 /tidy recheck leads
 ```
@@ -75,6 +76,7 @@ YouTube embeds need `http://`; they do not play from `file://`.
 | `data/key_creators.json` | Key Creators, groups and guided tours |
 | `data/overrides.json` | Manual curation: merge creators, hide or patch works, lead status, confirmed non-duplicates |
 | `data/entries.json`, `data/entries.js` | Built dataset used by the site |
+| `data/sources/pinterest.json` | Pinterest pins used as discovery leads, each marked traced / untraced / not_ar / duplicate (only traced pins become works, with `found_via`) |
 | `data/leads.json` | People found but not yet researched |
 | `data/leads_checked.json` | Leads already covered or checked (no video, not AR, duplicate) |
 

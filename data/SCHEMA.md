@@ -46,7 +46,8 @@ Each research batch writes one file: `data/raw/<batch>.json`
   "platform": ["phone"],                               // phone | headset | projection | web | wearable | desktop
   "tech": ["ARKit", "openFrameworks"],
   "video": { "platform": "vimeo", "id": "290238447", "url": "https://vimeo.com/290238447" },  // youtube | vimeo | x
-  "source_url": "https://…"   // project page / article / tweet, optional
+  "source_url": "https://…",  // project page / article / tweet, optional
+  "found_via": { "source": "pinterest", "url": "https://www.pinterest.com/pin/…" }  // optional: where we discovered it (pinterest, article, x, …)
 }
 ```
 
@@ -85,3 +86,9 @@ Run `python3 tools/validate.py <file>` before building.
 ## Video rules
 - Verify every video with `python3 tools/check_video.py <url>`; include only `"ok": true`.
 - Prefer the creator's own upload. X/Twitter tweet URLs with a native video are allowed (`platform: "x"`).
+
+## Discovery sources (`data/sources/`)
+Places where we *discover* works but that are not the works themselves (Pinterest pins, articles).
+`data/sources/pinterest.json` — one entry per pin looked at:
+`{ "pin": "https://www.pinterest.com/pin/…", "image": "…", "note": "…", "status": "traced" | "untraced" | "not_ar" | "duplicate", "work_id": "…" (when traced), "creator_id": "…", "original_url": "…" }`
+Rule: a work only enters the gallery once it is traced to its original creator and a playable original video; untraced pins stay here only.

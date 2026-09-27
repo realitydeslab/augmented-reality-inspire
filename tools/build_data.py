@@ -169,7 +169,8 @@ def classify_leads(leads: list, creators: dict, manual: dict) -> tuple[list, lis
             continue
         seen.add(key)
         status = manual.get(key) or lead.get("status") or "open"
-        if status == "open" and _name_tokens(name) & tokens:
+        lt = _name_tokens(name)
+        if status == "open" and (lt & tokens or any(len(a) >= 6 and (a in b or b in a) for a in lt for b in tokens)):
             status = "covered"
         (open_ if status == "open" else checked).append({**lead, "status": status})
     # a person checked in one batch stays checked even if another batch lists them as open
@@ -323,6 +324,8 @@ def main() -> None:
     (ROOT / "data" / "leads.json").write_text(json.dumps(open_leads, indent=1, ensure_ascii=False))
     (ROOT / "data" / "leads_checked.json").write_text(json.dumps(checked_leads, indent=1, ensure_ascii=False))
     (ROOT / "data" / "dropped.json").write_text(json.dumps(dropped, indent=1, ensure_ascii=False))
+    (ROOT / "data" / "creators_index.txt").write_text("".join(
+        f"{c['id']} | {c['name']} | {c.get('work_count', 0)} works\n" for c in sorted(out_creators, key=lambda c: c["id"])))
     write_markdown(data)
     index = ROOT / "index.html"
     stamp = str(int(time.time()))

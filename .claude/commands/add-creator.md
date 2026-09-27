@@ -5,7 +5,7 @@ argument-hint: <name, X/Instagram/site/video URL> [, another creator …] [--no-
 
 # Add a creator to Reality Design Inspire
 
-Input: `$ARGUMENTS` — one or more creators (a name, an X / Instagram / personal-site URL, or a video URL of one of their works), comma-separated. `--no-push` means build and preview locally but do not commit or publish.
+Input: `$ARGUMENTS` — one or more creators (a name, an X / Instagram / personal-site URL, or a video URL of one of their works), comma-separated. It can also be a **discovery link** — a Pinterest pin or board, or a news article: then first **trace the original creator and the original video** (follow the pin's outbound link, reverse-image search with Google Lens, read the article), add the work with `"found_via": { "source": "pinterest" | "article", "url": "<link>" }`, and log Pinterest pins in `data/sources/pinterest.json`. Anything you cannot trace to its original creator does not enter the gallery. `--no-push` means build and preview locally but do not commit or publish.
 
 The gallery collects the most creative AR creators and **all** of their AR works as idea material for teaching. Curation rule: **inspiration beats strict AR purity** — projection, camera-interactive, mixed-reality and even mostly-VR pieces are welcome if they are inspiring for spatial / AR design.
 
