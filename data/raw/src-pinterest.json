@@ -1,0 +1,1295 @@
+{
+ "batch": "src-pinterest",
+ "creators": [
+  {
+   "id": "joon-moon",
+   "name": "Joon Moon (Joon Y. Moon / 문준용)",
+   "role": "Media artist; creator of the Augmented Shadow series",
+   "based": "Seoul, South Korea",
+   "bio": "South Korean media artist and engineer whose Augmented Shadow series (since 2010) mixes real objects and light with computer-generated shadows; the first piece was shown in MoMA's 2011 Talk to Me exhibition.",
+   "why": "He turns the humble shadow into an AR display, so the magic happens on the floor and wall instead of on a screen.",
+   "links": {
+    "site": "https://joonmoon.net",
+    "x": "",
+    "instagram": "https://www.instagram.com/joon_moon/",
+    "vimeo": "https://vimeo.com/user854549",
+    "youtube": "https://www.youtube.com/@joonybangol",
+    "github": ""
+   },
+   "role_zh": "媒体艺术家；「增强影子」（Augmented Shadow）系列作者",
+   "based_zh": "首尔，韩国",
+   "bio_zh": "韩国媒体艺术家兼工程师，自 2010 年起创作 Augmented Shadow 系列，把真实物体、灯光与计算机生成的影子混在一起；系列首作曾入选 MoMA 2011 年的 Talk to Me 展览。",
+   "why_zh": "他把最普通的影子变成 AR 显示器，魔法发生在地面和墙上，而不是屏幕里。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "lee-vermeulen",
+   "name": "Lee Vermeulen",
+   "role": "Game developer (Alientrap, Modbox); XR physics prototyper",
+   "based": "Toronto, Canada",
+   "bio": "Co-founder of the indie studio Alientrap and creator of the VR/MR sandbox Modbox, he posts short passthrough-AR prototypes that combine hand tracking with liquid physics, portals and mirrors.",
+   "why": "His quick tests show how much playful magic comes from letting real hands touch simulated matter in your own room.",
+   "links": {
+    "site": "https://www.3delement.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@LeeVermeulen",
+    "github": ""
+   },
+   "role_zh": "游戏开发者（Alientrap、Modbox）；XR 物理原型作者",
+   "based_zh": "多伦多，加拿大",
+   "bio_zh": "独立工作室 Alientrap 联合创始人、VR/MR 沙盒 Modbox 的作者，常发布透视 AR 小原型，把手部追踪与液体物理、传送门和镜子结合起来。",
+   "why_zh": "他的快速实验说明：只要让真实的手去碰模拟出来的物质，自家房间就能变得好玩又神奇。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "theoriz",
+   "name": "THÉORIZ (David-Alexandre Chanel, Jonathan Richer & team)",
+   "role": "Art and technology studio; developers of the Augmenta tracking system",
+   "based": "Lyon, France",
+   "bio": "Lyon studio that builds immersive installations and live shows and developed Augmenta, a people-tracking system; in 2017 it combined VR trackers with projection mapping to create a perspective-correct mixed-reality room.",
+   "why": "They showed that a plain white room plus tracking and projectors can feel like a holodeck without anyone wearing a headset.",
+   "links": {
+    "site": "https://www.theoriz.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/theoriz",
+    "youtube": "https://www.youtube.com/channel/UCJzYlQ6T0Zae4g7m0be2KpA",
+    "github": ""
+   },
+   "role_zh": "艺术与技术工作室；Augmenta 人体追踪系统的开发者",
+   "based_zh": "里昂，法国",
+   "bio_zh": "里昂的工作室，制作沉浸式装置与现场演出，并开发了人体追踪系统 Augmenta；2017 年他们把 VR 追踪器与投影映射结合，做出了透视正确的混合现实房间。",
+   "why_zh": "他们证明了：一间白房子加上追踪和投影，不戴头显也能有“全息甲板”的感觉。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "iregular",
+   "name": "Iregular (Daniel Iregui)",
+   "role": "Digital art studio making interactive audiovisual installations",
+   "based": "Montreal, Canada",
+   "bio": "Montreal studio founded in 2010 by Colombian-Canadian artist Daniel Iregui; its minimal, generative installations react to the bodies and sounds of the visitors who enter them.",
+   "why": "Iregular's pieces make the audience the input device, turning a whole room into a reactive surface.",
+   "links": {
+    "site": "https://www.iregular.io",
+    "x": "",
+    "instagram": "https://www.instagram.com/iregular.io/",
+    "vimeo": "https://vimeo.com/iregular",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "制作交互式视听装置的数字艺术工作室",
+   "based_zh": "蒙特利尔，加拿大",
+   "bio_zh": "由哥伦比亚裔加拿大艺术家 Daniel Iregui 于 2010 年创立的蒙特利尔工作室，其极简的生成式装置会对走进来的观众的身体和声音做出反应。",
+   "why_zh": "Iregular 的作品把观众本身当成输入设备，让整个空间变成会回应的表面。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "maotik",
+   "name": "MAOTIK (Mathieu Le Sourd)",
+   "role": "New media artist; immersive and interactive installations",
+   "based": "Montreal, Canada",
+   "bio": "French digital artist based in Montreal who designs immersive environments and interactive floors where generative visuals and sound respond to how people move through the space.",
+   "why": "His projected floors turn walking into painting and composing, a clear model of whole-body spatial interaction.",
+   "links": {
+    "site": "https://www.maotik.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/maotik/",
+    "vimeo": "https://vimeo.com/maotik",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "新媒体艺术家；沉浸式与交互装置",
+   "based_zh": "蒙特利尔，加拿大",
+   "bio_zh": "旅居蒙特利尔的法国数字艺术家，设计沉浸式环境和交互地面，生成式影像与声音会随人们在空间中的移动而变化。",
+   "why_zh": "他的投影地面让走路变成作画和作曲，是全身空间交互的清晰范例。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "ksawery-komputery",
+   "name": "Ksawery Komputery (Ksawery Kirklewski)",
+   "role": "New media artist and studio; interactive light installations",
+   "based": "Poland",
+   "bio": "Studio led by new media artist Ksawery Kirklewski that builds large interactive LED installations on its own software and hardware, such as ENTER and FLUX, which mirror visitors as streams of light.",
+   "why": "His doorway-sized light pieces translate a person's silhouette and sound into light in real time, a physical cousin of the AR mirror.",
+   "links": {
+    "site": "https://ksawerykomputery.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/ksawerykomputery",
+    "youtube": "https://www.youtube.com/@ksawerykomputery",
+    "github": ""
+   },
+   "role_zh": "新媒体艺术家与工作室；交互式灯光装置",
+   "based_zh": "波兰",
+   "bio_zh": "由新媒体艺术家 Ksawery Kirklewski 领导的工作室，用自研软硬件打造大型交互 LED 装置，例如 ENTER 和 FLUX，把观众映照成一道道光流。",
+   "why_zh": "他那些门框大小的灯光作品，把人的轮廓和声音实时转译成光，像是 AR 镜子的实体版本。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "lachlan-turczan",
+   "name": "Lachlan Turczan",
+   "role": "Artist working with light, water and sound",
+   "based": "Los Angeles, US",
+   "bio": "American artist who has spent a decade exploring the optical and sonic properties of water and light; his Lucida light sculptures premiered at Milan Design Week 2025.",
+   "why": "He sculpts rooms out of pure light that responds to the body, a reminder that spatial media can be made of photons alone.",
+   "links": {
+    "site": "https://www.lachlanturczan.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/lachlanturczan/",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "以光、水和声音创作的艺术家",
+   "based_zh": "洛杉矶，美国",
+   "bio_zh": "美国艺术家，十年来一直研究水与光的光学和声学特性；他的 Lucida 光雕塑在 2025 年米兰设计周首次亮相。",
+   "why_zh": "他用会回应身体的纯光来塑造空间，提醒我们空间媒体可以只由光构成。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "studio-roosegaarde",
+   "name": "Studio Roosegaarde (Daan Roosegaarde)",
+   "role": "Design lab creating interactive landscapes of light",
+   "based": "Rotterdam, Netherlands",
+   "bio": "Daan Roosegaarde's studio makes 'techno-poetic' public works; DUNE, an interactive landscape of light fibres first installed along Rotterdam's Maastunnel, brightens as people walk and make sound.",
+   "why": "DUNE shows how responsive light can augment a public path without any screen or device.",
+   "links": {
+    "site": "https://www.studioroosegaarde.net",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@studioroosegaarde",
+    "github": ""
+   },
+   "role_zh": "创作交互式光景观的设计实验室",
+   "based_zh": "鹿特丹，荷兰",
+   "bio_zh": "Daan Roosegaarde 的工作室以“技术诗意”的公共作品著称；DUNE 是一片由光纤组成的交互光景观，最早装在鹿特丹 Maastunnel 旁，行人走过或发出声音时就会亮起。",
+   "why_zh": "DUNE 说明响应式灯光不靠任何屏幕或设备，也能增强一条公共道路。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "filipe-peregrino",
+   "name": "Filipe Peregrino",
+   "role": "Graphic designer; multilingual AR typography",
+   "based": "London, UK",
+   "bio": "Brazilian graphic designer based in London whose London College of Communication project The Languages Around Us places animated, multi-script type installations into real spaces with AR.",
+   "why": "He uses AR type to make a city's invisible linguistic diversity visible, a strong example of AR as cultural storytelling.",
+   "links": {
+    "site": "https://www.filiperegrino.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/filiperegrino/",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@filipeperegrino861",
+    "github": ""
+   },
+   "role_zh": "平面设计师；多语种 AR 字体设计",
+   "based_zh": "伦敦，英国",
+   "bio_zh": "旅居伦敦的巴西平面设计师，他在伦敦传媒学院的毕业项目 The Languages Around Us 用 AR 把会动的多文字字体装置放进真实空间。",
+   "why_zh": "他用 AR 字体把城市里看不见的语言多样性呈现出来，是把 AR 用于文化叙事的好例子。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "euphrates",
+   "name": "Masahiko Sato + EUPHRATES",
+   "role": "Creative group making educational media and experimental films",
+   "based": "Tokyo, Japan",
+   "bio": "Group founded by Masahiko Sato (creator of Pythagora Switch) that turns ways of thinking into films, exhibitions and TV; Ballet Rotoscope (2011) traces a ballerina's movement into geometric curves.",
+   "why": "Their work makes invisible structure — motion paths, rules, geometry — visible, the core move of good information-layer AR.",
+   "links": {
+    "site": "https://euphrates.jp",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@EuphratesLtd",
+    "github": ""
+   },
+   "role_zh": "制作教育媒体与实验影像的创意团体",
+   "based_zh": "东京，日本",
+   "bio_zh": "由佐藤雅彦（《毕达哥拉斯开关》创作者）发起的团体，把“思考方式”做成影像、展览和电视节目；《Ballet Rotoscope》（2011）把芭蕾舞者的动作描成几何曲线。",
+   "why_zh": "他们把看不见的结构——运动轨迹、规则、几何——变得可见，这正是好的信息层 AR 的核心手法。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "parratoro",
+   "name": "PARRATORO (Rafael Parra Toro)",
+   "role": "Kinetic and optical artist; AR op-art books",
+   "based": "Buenos Aires, Argentina",
+   "bio": "Venezuelan-born artist-engineer based in Buenos Aires who makes op-art and kinetic prints and books, from the lenticular POP ON OP to the phone-activated POP AR.",
+   "why": "He extends op art's optical tricks into AR, so printed geometry literally lifts off the page.",
+   "links": {
+    "site": "https://www.parratoro.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/parratoro/",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@parratoro",
+    "github": ""
+   },
+   "role_zh": "动态与光效艺术家；AR 欧普艺术书",
+   "based_zh": "布宜诺斯艾利斯，阿根廷",
+   "bio_zh": "出生于委内瑞拉、定居布宜诺斯艾利斯的艺术家兼工程师，创作欧普艺术和动态印刷品与书籍，从光栅书 POP ON OP 到用手机激活的 POP AR。",
+   "why_zh": "他把欧普艺术的视错觉延伸到 AR 里，让印刷的几何图形真的从书页上浮起来。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "ouchhh",
+   "name": "Ouchhh (Ferdi Alıcı & Eylül Duranağaç)",
+   "role": "New media studio; data sculptures and projection mapping",
+   "based": "Istanbul, Turkey",
+   "bio": "Studio founded by Ferdi Alıcı and Eylül Duranağaç, known for AI and data-driven projections; their 2016 Dare to Dream combined real-time face tracking with face projection mapping.",
+   "why": "Dare to Dream is a clear early case of projecting live, tracked imagery onto a moving human face.",
+   "links": {
+    "site": "https://ouchhh.tv",
+    "x": "",
+    "instagram": "https://www.instagram.com/ouchhh/",
+    "vimeo": "https://vimeo.com/ouchhh",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "新媒体工作室；数据雕塑与投影映射",
+   "based_zh": "伊斯坦布尔，土耳其",
+   "bio_zh": "由 Ferdi Alıcı 与 Eylül Duranağaç 创立的工作室，以 AI 与数据驱动的投影闻名；2016 年的 Dare to Dream 把实时人脸追踪与面部投影映射结合在一起。",
+   "why_zh": "Dare to Dream 是把实时追踪的影像投到一张会动的人脸上的早期清晰案例。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "nicola-buttari",
+   "name": "Nicola Buttari (PROFORMA Videodesign)",
+   "role": "Video designer; projection mapping on large surfaces and garments",
+   "based": "Livorno, Italy",
+   "bio": "Italian video designer behind the PROFORMA studio, specialising in projection mapping on buildings, stages and fashion, often driven by Kinect depth cameras.",
+   "why": "His t-shirt mapping turns clothing into a live, body-tracked projection canvas.",
+   "links": {
+    "site": "https://www.proformavideodesign.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/nicolabuttari",
+    "youtube": "https://www.youtube.com/@NicolaButtari",
+    "github": ""
+   },
+   "role_zh": "影像设计师；在大型表面与服装上做投影映射",
+   "based_zh": "里窝那，意大利",
+   "bio_zh": "意大利影像设计师，PROFORMA 工作室负责人，专注于在建筑、舞台和时装上做投影映射，常用 Kinect 深度相机驱动。",
+   "why_zh": "他的 T 恤投影把衣服变成一块会跟着身体走的实时投影画布。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "pixelcase",
+   "name": "Pixelcase",
+   "role": "Immersive media studio (VR, 360 video, AR)",
+   "based": "Perth, Australia",
+   "bio": "Australian immersive studio founded in 2007 that produces VR, 360 video and AR experiences; in 2018 it shared AR portals captured at the Hobbiton movie set in New Zealand.",
+   "why": "Its Hobbiton portal is a textbook example of the walk-through AR portal that later became a standard mobile AR pattern.",
+   "links": {
+    "site": "",
+    "x": "https://x.com/pixelcase",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "沉浸式媒体工作室（VR、360 视频、AR）",
+   "based_zh": "珀斯，澳大利亚",
+   "bio_zh": "成立于 2007 年的澳大利亚沉浸式工作室，制作 VR、360 视频和 AR 体验；2018 年他们分享了在新西兰霍比屯片场拍摄的 AR 传送门。",
+   "why_zh": "霍比屯传送门是“可走进的 AR 传送门”的教科书式例子，这种形式后来成了手机 AR 的常见模式。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "onat-hekimoglu",
+   "name": "Onat Hekimoglu & Tobias Kreter",
+   "role": "Game designers (Cologne Game Lab); creators of Klanglichter",
+   "based": "Cologne, Germany",
+   "bio": "Onat Hekimoglu and Tobias Kreter built Klanglichter at Cologne Game Lab, a laser harp reimagined as the controller of an audiovisual game.",
+   "why": "Klanglichter makes light beams both the interface and the instrument, a tangible alternative to screen-based play.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/onathekimoglu",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "游戏设计师（Cologne Game Lab）；Klanglichter 的作者",
+   "based_zh": "科隆，德国",
+   "bio_zh": "Onat Hekimoglu 与 Tobias Kreter 在科隆游戏实验室（Cologne Game Lab）制作了 Klanglichter，把激光竖琴改造成一款视听游戏的控制器。",
+   "why_zh": "Klanglichter 让光束同时成为界面和乐器，是屏幕游戏之外的可触摸替代方案。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "henry-daubrez-kikk",
+   "name": "Henry Daubrez & Samuel Honigstein (Dogstudio / KIKK in Town)",
+   "role": "Curators and producers of the KIKK Festival 2018 AR art exhibit",
+   "based": "Namur, Belgium",
+   "bio": "Dogstudio founders Henry Daubrez and Samuel Honigstein conceived and produced the first AR art exhibit of KIKK in Town (2018): seven code-generated pieces by creative coders such as Bruno Simon, Matt DesLauriers and Edan Kwan, unlocked around Namur.",
+   "why": "It is a compact model for curating a city-wide AR exhibition of generative art.",
+   "links": {
+    "site": "https://dogstudio.co/cases/kikk-ar/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/kikkfestival",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "KIKK 艺术节 2018 年 AR 艺术展的策展人与制作人",
+   "based_zh": "那慕尔，比利时",
+   "bio_zh": "Dogstudio 创始人 Henry Daubrez 与 Samuel Honigstein 构思并制作了首届 KIKK in Town（2018）的 AR 艺术展：七件由 Bruno Simon、Matt DesLauriers、Edan Kwan 等创意编程者创作的代码生成作品，分布在那慕尔城中等待解锁。",
+   "why_zh": "这是策划一场全城范围生成艺术 AR 展的精简范例。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "joon-moon--augmented-shadow",
+   "creator_ids": [
+    "joon-moon"
+   ],
+   "title": "Augmented Shadow",
+   "year": 2010,
+   "description": "A tabletop where visitors move real white blocks under a light; the shadows they cast are computer-generated and grow little houses, trees and characters that live only in the shadow world.",
+   "description_zh": "观众在一张桌面上移动真实的白色方块，灯光下投出的影子其实由计算机生成，影子里会长出小房子、树和角色，它们只存在于影子世界中。",
+   "idea_en": "Fake the shadows of real objects so a hidden story can live inside them.",
+   "idea_zh": "伪造真实物体的影子，让一个隐藏的故事住在影子里。",
+   "technique": "Tracked tabletop objects drive an openFrameworks renderer that projects computed shadow shapes from a virtual light, so shadow and object stay aligned as blocks move.",
+   "technique_zh": "用 openFrameworks 追踪桌面上的物体位置，再从一个虚拟光源计算阴影形状并投影出来，方块移动时影子始终与物体对齐。",
+   "exercise_en": "Track two or three paper boxes on a table with a webcam and project fake shadows from a virtual lamp with a projector; add one shadow that behaves differently from its box. Twist: let the shadows walk away when nobody touches the boxes.",
+   "exercise_zh": "用摄像头追踪桌上两三个纸盒，再用投影仪从一盏虚拟台灯投出假影子，并让其中一个影子的行为与盒子不一致；变体：没人碰盒子时，让影子自己走开。",
+   "interaction": [
+    "tangible-object",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "projector",
+    "tabletop tracking"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=0arZMuPK58w"
+   },
+   "source_url": "https://www.creativeapplications.net/project/augmented-shadow-openframeworks/",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/3659243440216381/"
+   }
+  },
+  {
+   "id": "joon-moon--hello-shadow",
+   "creator_ids": [
+    "joon-moon"
+   ],
+   "title": "Hello, Shadow!",
+   "year": 2019,
+   "description": "Visitors turn a handheld lighting device around a sculpture; the shadow on the wall is computer-generated and changes into unexpected shapes depending on the angle of the light.",
+   "description_zh": "观众手持灯具围着一件雕塑转动，墙上的影子由计算机生成，会随着灯光角度变成意想不到的形状。",
+   "idea_en": "The light in your hand becomes a lens that reveals shadows the object does not actually cast.",
+   "idea_zh": "手里的灯变成一个镜头，照出物体本不会投下的影子。",
+   "technique": "The pose of the handheld light is tracked and a shadow is rendered from that virtual light position onto the wall, likely with a projector aligned to the real lamp's frustum.",
+   "technique_zh": "追踪手持灯具的姿态，从对应的虚拟光源位置把影子渲染到墙上，可能用与真实灯光视锥对齐的投影仪实现。",
+   "exercise_en": "Use a phone flashlight as a 'lamp', track its angle with the phone's gyroscope, and render a shadow on a projected wall that morphs between two silhouettes as the angle changes. Twist: hide a secret shape that only appears at one exact angle.",
+   "exercise_zh": "把手机手电筒当作“灯”，用陀螺仪读取角度，在投影墙上渲染一个随角度在两个剪影之间变形的影子；变体：藏一个只有在某个精确角度才会出现的秘密形状。",
+   "interaction": [
+    "tangible-object",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projector",
+    "tracked lamp",
+    "real-time graphics"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=RbwEf1QGA8U"
+   },
+   "source_url": "https://joonmoon.net",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/809099889346697010/"
+   }
+  },
+  {
+   "id": "joon-moon--chasing-stars-in-shadow",
+   "creator_ids": [
+    "joon-moon"
+   ],
+   "title": "Augmented Shadow: Chasing Stars in Shadow",
+   "year": 2022,
+   "description": "An immersive room where visitors carry lanterns among white objects; shadow children cross between 2D shadows and 3D objects, fishing and chasing stars as the lights move.",
+   "description_zh": "一个沉浸式房间里，观众提着灯在白色物体之间走动；影子孩子在二维影子和三维物体之间穿梭，随着灯光移动去钓鱼、追星星。",
+   "idea_en": "Scale a tabletop shadow trick into a room-sized story that visitors light up themselves.",
+   "idea_zh": "把桌面上的影子戏法放大成房间尺度的故事，由观众自己点亮。",
+   "technique": "Several tracked handheld lights act as virtual light sources; projectors render consistent synthetic shadows and animated characters on walls and floors in real time.",
+   "technique_zh": "多个被追踪的手持灯作为虚拟光源，投影仪实时在墙面和地面上渲染一致的合成影子和动画角色。",
+   "exercise_en": "In a dark corner, give two students tracked flashlights and project a shared shadow scene where a character runs toward whichever light is closer. Twist: the character only becomes 3D (a physical cut-out) when both lights meet.",
+   "exercise_zh": "在昏暗的角落给两位同学各一支被追踪的手电筒，投出一个共享影子场景，角色会跑向离它更近的那束光；变体：只有两束光相遇时，角色才会“变成”立体的实物剪纸。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projector",
+    "tracked lights",
+    "real-time graphics"
+   ],
+   "video": {
+    "url": "https://vimeo.com/782602226"
+   },
+   "source_url": "https://joonmoon.net",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/1407443629138784/"
+   }
+  },
+  {
+   "id": "lee-vermeulen--ar-liquid-physics-puzzle",
+   "creator_ids": [
+    "lee-vermeulen"
+   ],
+   "title": "AR liquid physics puzzle game prototype",
+   "year": 2023,
+   "description": "In passthrough AR on a desk, the player builds ramps and blocks with bare hands to guide a stream of simulated liquid into a bucket.",
+   "description_zh": "在书桌上的透视 AR 中，玩家徒手搭建斜坡和方块，把一股模拟液体引导进桶里。",
+   "idea_en": "A classic marble-run puzzle becomes tactile when the liquid shares your real desk and hands.",
+   "idea_zh": "当液体与你真实的桌面和双手共处一处时，经典的导流谜题就变得可触摸。",
+   "technique": "A GPU fluid solver (ZibraAI) runs in Unity with Ultraleap hand colliders, rendered over Varjo XR-3 passthrough so the liquid appears on the real table.",
+   "technique_zh": "在 Unity 中运行 GPU 流体求解器（ZibraAI），用 Ultraleap 手部碰撞体交互，并叠加到 Varjo XR-3 的透视画面上，让液体看起来就在真实桌面上。",
+   "exercise_en": "Build a Quest passthrough or phone AR scene where particles fall from a spout and must reach a cup; let players place three planes to redirect them. Twist: the planes can only be placed on real surfaces detected by plane tracking.",
+   "exercise_zh": "用 Quest 透视或手机 AR 做一个场景：粒子从出水口落下，必须流进杯子，玩家可以放置三块板来改变方向；变体：板子只能贴在平面检测到的真实表面上。",
+   "interaction": [
+    "hand-body",
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "Varjo XR-3",
+    "Ultraleap",
+    "Zibra Liquids"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=hL9ylHVagIM"
+   },
+   "source_url": "https://www.3delement.com",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/7177680650582881/"
+   }
+  },
+  {
+   "id": "lee-vermeulen--ar-portals-liquid",
+   "creator_ids": [
+    "lee-vermeulen"
+   ],
+   "title": "Portals in the liquid physics AR puzzle",
+   "year": 2023,
+   "description": "Floating portal pairs are added to the AR liquid game; water poured into one ring pours out of another across the room, and hands can reach through the portals too.",
+   "description_zh": "在 AR 液体游戏中加入成对的漂浮传送门：倒进一个圆环的水会从房间另一头的圆环流出，手也能穿过传送门。",
+   "idea_en": "Portals make space itself a puzzle piece in your own room.",
+   "idea_zh": "传送门让空间本身成为你房间里的一块拼图。",
+   "technique": "Render-to-texture portal cameras (based on Tom Goethals' VR portal code) teleport fluid particles and hand colliders between linked transforms.",
+   "technique_zh": "用渲染到纹理的传送门相机（基于 Tom Goethals 的 VR 传送门代码），在两个相连的变换之间传送流体粒子和手部碰撞体。",
+   "exercise_en": "Create two linked portal rings in AR Foundation and teleport any ball that enters one to the other with preserved velocity. Twist: place one portal on the ceiling so gravity keeps the ball looping.",
+   "exercise_zh": "在 AR Foundation 里做一对相连的传送门圆环，进入其中一个的小球会保持速度从另一个出来；变体：把一个传送门贴在天花板上，让小球在重力下无限循环。",
+   "interaction": [
+    "hand-body",
+    "portal-world",
+    "game-play"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "Varjo XR-3",
+    "Ultraleap",
+    "Zibra Liquids"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=WzWgDNzf5lQ"
+   },
+   "source_url": "https://www.3delement.com",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/5207355814951611/"
+   }
+  },
+  {
+   "id": "lee-vermeulen--sculpting-zero-g-liquid",
+   "creator_ids": [
+    "lee-vermeulen"
+   ],
+   "title": "Sculpting Zero G Liquid in AR",
+   "year": 2023,
+   "description": "Floating blobs of weightless liquid hang in the room and can be pushed and shaped with the hands, then stay where they are left like soft clay.",
+   "description_zh": "失重的液体团悬浮在房间中，可以用双手推挤塑形，放手后会像软黏土一样停在原处。",
+   "idea_en": "Turn a fluid simulation into a sculpting material by making it forget to flow.",
+   "idea_zh": "让流体“忘记流动”，模拟就变成了雕塑材料。",
+   "technique": "A custom compute shader damps particle velocity in a zero-gravity fluid sim so hand-tracked pushes leave persistent shapes.",
+   "technique_zh": "用自定义 compute shader 对零重力流体模拟中的粒子速度做阻尼，使手部推动留下持久的形状。",
+   "exercise_en": "Spawn a cloud of particles in AR with no gravity and strong damping; let the hand (or phone position) push particles away within a radius. Twist: slowly restore gravity over one minute so the sculpture melts.",
+   "exercise_zh": "在 AR 中生成一团没有重力、阻尼很强的粒子，让手（或手机位置）推开一定半径内的粒子；变体：一分钟内逐渐恢复重力，让雕塑慢慢融化。",
+   "interaction": [
+    "hand-body",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "Varjo XR-3",
+    "Ultraleap",
+    "Zibra Effects",
+    "compute shader"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=UTbsPqY5v1E"
+   },
+   "source_url": "https://80.lv/articles/a-cool-custom-method-for-sculpting-in-ar/",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/7177680650582881/"
+   }
+  },
+  {
+   "id": "theoriz--mixed-reality-room",
+   "creator_ids": [
+    "theoriz"
+   ],
+   "title": "Mixed Reality room (RnD tests)",
+   "year": 2017,
+   "description": "An empty white room fills with projected 3D objects and spaces that look correct from a tracked camera's or visitor's point of view as they walk around.",
+   "description_zh": "一个空白房间里投满了三维物体和空间，随着被追踪的摄像机或观众走动，从他们的视角看画面始终透视正确。",
+   "idea_en": "Head-tracked projection turns bare walls into windows onto virtual space without headsets.",
+   "idea_zh": "头部追踪投影把空墙变成通向虚拟空间的窗户，不需要头显。",
+   "technique": "Vive trackers and THÉORIZ's Augmenta tracking feed the viewer position to a renderer that computes off-axis projections for each projector (fish-tank VR style).",
+   "technique_zh": "Vive 追踪器和 THÉORIZ 的 Augmenta 系统把观看者位置传给渲染器，为每台投影仪计算离轴投影（类似 fish-tank VR）。",
+   "exercise_en": "Project a 3D box into a room corner and use a phone's AR pose (or a webcam face tracker) to update an off-axis camera so the box looks solid from one moving viewpoint. Twist: add a second viewer and see how the illusion breaks.",
+   "exercise_zh": "把一个 3D 盒子投到房间墙角，用手机的 AR 位姿（或摄像头人脸追踪）更新离轴相机，让一个移动视点看到的盒子像实物；变体：加入第二位观看者，观察错觉如何失效。",
+   "interaction": [
+    "projection",
+    "hand-body",
+    "portal-world"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Augmenta",
+    "Vive Tracker",
+    "projection mapping",
+    "real-time engine"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=NrO5WYG5QIw"
+   },
+   "source_url": "https://www.engadget.com/2017-06-28-theoriz-holodeck-ar-projectors.html",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/215821007126594749/"
+   }
+  },
+  {
+   "id": "theoriz--noisy-skeleton",
+   "creator_ids": [
+    "theoriz"
+   ],
+   "title": "Noisy Skeleton",
+   "year": 2014,
+   "description": "An immersive room of abstract projected lines and digital sound that reacts to a visitor's movements, from precise control to accidental feedback.",
+   "description_zh": "一个满是抽象投影线条和数字声音的沉浸式房间，会回应观众的动作，从精确控制到偶然反馈。",
+   "idea_en": "A dialogue between a body and a machine that listens with sound and space.",
+   "idea_zh": "身体与机器之间的一场对话，机器用声音和空间来“聆听”。",
+   "technique": "Depth-camera skeleton tracking likely drives generative visuals projected around the room and a spatial soundscape that echoes the movement back.",
+   "technique_zh": "可能用深度相机追踪骨架，驱动投满房间的生成式影像和把动作回声化的空间声景。",
+   "exercise_en": "Map a webcam pose tracker's wrist heights to pitch and line density in a projected sketch (p5.js + ml5). Twist: add a delay so the room answers your gesture two seconds later.",
+   "exercise_zh": "用摄像头姿态追踪，把手腕高度映射成投影草图中的音高和线条密度（p5.js + ml5）；变体：加一个延迟，让房间在两秒后才回应你的手势。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "projection",
+    "generative sound"
+   ],
+   "video": {
+    "url": "https://vimeo.com/103438556"
+   },
+   "source_url": "https://www.theoriz.com",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/19844054605134639/"
+   }
+  },
+  {
+   "id": "iregular--control-no-control",
+   "creator_ids": [
+    "iregular"
+   ],
+   "title": "Control No Control",
+   "year": 2016,
+   "description": "A minimal geometric structure covered in projections that react when visitors touch and move near it, shifting between order and chaos.",
+   "description_zh": "一座覆盖着投影的极简几何结构，观众触碰或靠近时画面会在秩序与混乱之间切换。",
+   "idea_en": "Let the audience feel how much — and how little — control they have over a living surface.",
+   "idea_zh": "让观众体会自己对一个“活”表面的控制有多少、又有多少是失控的。",
+   "technique": "Depth sensors detect hands and bodies around the structure and feed a generative system projection-mapped onto its faces (likely custom real-time software).",
+   "technique_zh": "深度传感器检测结构周围的手和身体，把数据送进生成式系统，再投影映射到结构各个面上（可能是自研实时软件）。",
+   "exercise_en": "Build a cardboard pyramid, projection-map its faces, and use a webcam to detect how many people stand near it; more people means more chaotic patterns. Twist: one face ignores the crowd and only reacts to a single touch.",
+   "exercise_zh": "搭一个纸板金字塔并给各面做投影映射，用摄像头检测周围站了多少人，人越多图案越混乱；变体：其中一面忽略人群，只对单次触碰做出反应。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "depth cameras",
+    "projection",
+    "generative graphics"
+   ],
+   "video": {
+    "url": "https://vimeo.com/1171876250"
+   },
+   "source_url": "https://www.iregular.io/en/projects/control-no-control",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/820710732114140022/"
+   }
+  },
+  {
+   "id": "maotik--inner-life",
+   "creator_ids": [
+    "maotik"
+   ],
+   "title": "INNER LIFE",
+   "year": 2022,
+   "description": "An immersive interactive floor where visitors' footsteps generate watercolour-like, nature-inspired visuals and a changing sound composition; every two minutes the system switches to a new perspective of scale.",
+   "description_zh": "一个沉浸式交互地面，观众的脚步生成类似水彩、灵感来自自然的影像和不断变化的声音作品；系统每两分钟切换一次尺度视角。",
+   "idea_en": "Walking becomes painting and composing on a floor that behaves like a living organism.",
+   "idea_zh": "在一块像活体一样的地面上，走路就是作画和作曲。",
+   "technique": "Laser (LiDAR) touch tracking of feet feeds a TouchDesigner parametric audiovisual system projected on the floor.",
+   "technique_zh": "用激光（LiDAR）追踪脚步位置，输入 TouchDesigner 中的参数化视听系统，再投影到地面上。",
+   "exercise_en": "Point a projector at the floor and use a webcam from above to find people's positions; spawn ink blobs that spread where they stand and play a note per blob. Twist: switch the 'zoom level' every two minutes so the same steps create cells, then galaxies.",
+   "exercise_zh": "把投影仪对准地面，用俯拍摄像头找出人的位置，在脚下生成会扩散的墨团，每个墨团播放一个音符；变体：每两分钟切换一次“缩放级别”，让同样的脚步先生成细胞、再生成星系。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "TouchDesigner",
+    "laser tracking",
+    "projection"
+   ],
+   "video": {
+    "url": "https://vimeo.com/1064295716"
+   },
+   "source_url": "https://www.maotik.com",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/282952789080332739/"
+   }
+  },
+  {
+   "id": "ksawery-komputery--flux",
+   "creator_ids": [
+    "ksawery-komputery"
+   ],
+   "title": "FLUX",
+   "year": 2022,
+   "description": "A 6-by-13-metre wall of LED strips that captures passers-by with high-speed cameras and replays their silhouettes as rippling streams of light and sound.",
+   "description_zh": "一面 6 米高、13 米宽的 LED 灯带墙，用高速相机捕捉路人，再把他们的轮廓重现为波动的光流和声音。",
+   "idea_en": "Visualise the invisible signal that carries us across networks by turning bodies into flowing light data.",
+   "idea_zh": "把身体变成流动的光数据，让承载我们穿越网络的无形信号变得可见。",
+   "technique": "Four high-speed cameras feed custom software that maps silhouettes onto 144,000 LED pixels with time-delayed trails and an 8-speaker sound system.",
+   "technique_zh": "四台高速相机把画面送进自研软件，把轮廓映射到 14.4 万个 LED 像素上，带有时间延迟拖尾，并配合 8 声道音响。",
+   "exercise_en": "Use a webcam silhouette mask to drive a vertical strip visualisation in p5.js where each column shows a delayed slice of your body. Twist: make the delay depend on how fast you move.",
+   "exercise_zh": "用摄像头的人体轮廓遮罩，在 p5.js 里驱动竖条可视化，每一列显示你身体的一段延迟切片；变体：让延迟时长取决于你的移动速度。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "high-speed cameras",
+    "LED strips",
+    "custom software"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=MKt0uAd9a1w"
+   },
+   "source_url": "https://www.stashmedia.tv/flux-interactive-light-installation-by-ksawery-kirklewski/",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/68750407420/"
+   }
+  },
+  {
+   "id": "ksawery-komputery--enter",
+   "creator_ids": [
+    "ksawery-komputery"
+   ],
+   "title": "ENTER",
+   "year": 2021,
+   "description": "A door-sized frame of thirty-two 5-metre LED strips that reacts to sound and to the person standing in front of it, like a digital portal made of light.",
+   "description_zh": "一个门框大小的装置，由 32 条 5 米长的 LED 灯带组成，会对声音和站在它面前的人做出反应，像一道光做成的数字传送门。",
+   "idea_en": "A doorway that shows you as signal, as if about to step through a network.",
+   "idea_zh": "一道把你显示成信号的门，仿佛你正要穿过网络。",
+   "technique": "A high-framerate camera and audio input drive per-strip brightness patterns in custom software, turning the viewer into a stretched, time-smeared light portrait.",
+   "technique_zh": "高帧率相机和音频输入在自研软件中驱动每条灯带的亮度图案，把观众变成被拉伸、带时间拖影的光肖像。",
+   "exercise_en": "Make a 'portal' on a vertical monitor that shows a webcam feed reduced to 32 glowing columns with slit-scan delay. Twist: a clap freezes the portal for five seconds.",
+   "exercise_zh": "在竖屏显示器上做一道“传送门”，把摄像头画面简化成 32 条发光竖条并加上狭缝扫描延迟；变体：拍一下手，传送门冻结五秒。",
+   "interaction": [
+    "hand-body",
+    "portal-world",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "high-framerate camera",
+    "LED strips",
+    "custom software"
+   ],
+   "video": {
+    "url": "https://vimeo.com/606803803"
+   },
+   "source_url": "https://ksawerykomputery.com/works/enter",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/162270392815188532/"
+   }
+  },
+  {
+   "id": "lachlan-turczan--lucida",
+   "creator_ids": [
+    "lachlan-turczan"
+   ],
+   "title": "Lucida",
+   "year": 2025,
+   "description": "Rooms sculpted from curtains of light that ripple, bend and seem to solidify into planes as visitors reach into them.",
+   "description_zh": "由光幕塑造的房间，观众伸手进去时，光会泛起涟漪、弯曲，仿佛凝固成一个个平面。",
+   "idea_en": "Make light feel like a material you can touch and shape.",
+   "idea_zh": "让光变成一种可以触摸和塑形的材料。",
+   "technique": "Likely projected light passed through water optics and haze, with sound and movement modulating the ripples, so the beams read as physical sheets.",
+   "technique_zh": "可能让投射光穿过水面光学结构和雾气，并用声音和动作调制波纹，使光束看起来像实体的薄片。",
+   "exercise_en": "In a hazy dark room, shine a projector through a shallow tray of water and film how hand movements and a speaker under the tray change the light sheet. Twist: map a hand-tracking signal to the speaker so gestures 'play' the light.",
+   "exercise_zh": "在有雾的暗房里，让投影光穿过一个浅水盘，拍下手部动作和水盘下的扬声器如何改变光幕；变体：把手部追踪信号映射到扬声器上，让手势来“演奏”光。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "light sculpture",
+    "water optics",
+    "sound"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Rne2JgYM0s8"
+   },
+   "source_url": "https://www.lachlanturczan.com",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/68749288649/"
+   }
+  },
+  {
+   "id": "studio-roosegaarde--dune",
+   "creator_ids": [
+    "studio-roosegaarde"
+   ],
+   "title": "DUNE",
+   "year": 2010,
+   "description": "A long landscape of thousands of light fibres along the Maastunnel in Rotterdam that brightens and pulses as pedestrians walk past and make sound.",
+   "description_zh": "沿鹿特丹 Maastunnel 延伸的一片由数千根光纤组成的景观，行人走过或发出声音时会亮起并脉动。",
+   "idea_en": "Augment a public path with nature-like light that notices the people using it.",
+   "idea_zh": "用类似自然的光来增强一条公共道路，让它能“察觉”到经过的人。",
+   "technique": "Motion and sound sensors along the installation control LEDs at the fibre tips section by section, creating a local wave of light around each passer-by.",
+   "technique_zh": "装置沿线的动作和声音传感器分段控制光纤末端的 LED，在每位路人周围形成局部的光浪。",
+   "exercise_en": "Line a corridor with an addressable LED strip and an ultrasonic sensor every metre so light follows walkers. Twist: whispering makes it glow softer, shouting makes it hide.",
+   "exercise_zh": "在走廊里铺一条可寻址 LED 灯带，每隔一米装一个超声波传感器，让光跟随行人；变体：轻声说话时光变柔，大喊时光会“躲起来”。",
+   "interaction": [
+    "hand-body",
+    "location-geo",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "light fibres",
+    "motion sensors",
+    "microphones"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=nf-q5zs8HgE"
+   },
+   "source_url": "https://www.studioroosegaarde.net/project/dune",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/83246293107789944/"
+   }
+  },
+  {
+   "id": "filipe-peregrino--the-languages-around-us",
+   "creator_ids": [
+    "filipe-peregrino"
+   ],
+   "title": "The Languages Around Us",
+   "year": 2020,
+   "description": "Animated words in more than 40 languages appear as AR typographic installations in real London spaces, morphing from one writing system into another.",
+   "description_zh": "40 多种语言的动态文字以 AR 字体装置的形式出现在伦敦的真实空间里，从一种文字系统变形为另一种。",
+   "idea_en": "Make the many languages spoken around you visible in the places you share.",
+   "idea_zh": "让身边人们使用的多种语言，在共同生活的地方被看见。",
+   "technique": "Words with similar stroke counts in Google Noto fonts are paired, stroke-animated and morphed on a timeline, then anchored in place as AR scenes.",
+   "technique_zh": "把 Google Noto 字体中笔画数相近的词配对，逐笔动画并在时间线上相互变形，再作为 AR 场景锚定在现场。",
+   "exercise_en": "Collect the word 'hello' in the first languages of your classmates and animate a morph between two scripts, then place it in AR where that classmate usually sits. Twist: the word only appears when someone standing there speaks.",
+   "exercise_zh": "收集同学们母语里的“你好”，做一段两种文字之间的变形动画，再用 AR 放在那位同学常坐的位置；变体：只有有人站在那里说话时，这个词才会出现。",
+   "interaction": [
+    "data-information",
+    "location-geo",
+    "drawing-creation"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "AR",
+    "Noto fonts",
+    "motion design"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=WSziZQP_TOw"
+   },
+   "source_url": "https://www.filiperegrino.com/the-languages-around-us",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/89509111336908255/"
+   }
+  },
+  {
+   "id": "euphrates--ballet-rotoscope",
+   "creator_ids": [
+    "euphrates"
+   ],
+   "title": "Ballet Rotoscope",
+   "year": 2011,
+   "description": "A short film in which a ballerina's movements are precisely traced and overlaid with glowing curves, polygons and mathematical figures that reveal the geometry of each pose.",
+   "description_zh": "一部短片：精确描摹芭蕾舞者的动作，并叠加发光的曲线、多边形和数学图形，揭示每个姿态背后的几何结构。",
+   "idea_en": "Reveal the hidden geometry of a dance by drawing its trajectories on top of the body.",
+   "idea_zh": "在身体之上画出轨迹，揭示舞蹈中隐藏的几何。",
+   "technique": "Frame-by-frame rotoscoping extracts joint positions from filmed ballet, from which trajectory curves and computed geometric animations are generated and composited.",
+   "technique_zh": "逐帧描摹拍摄的芭蕾，提取关节位置，再据此生成轨迹曲线和计算得出的几何动画并合成到画面中。",
+   "exercise_en": "Film a classmate doing a slow movement, run a pose estimator on the video, and draw the trails of wrists and ankles plus the triangle between hands and head. Twist: do it live in AR so the dancer sees the geometry while moving.",
+   "exercise_zh": "拍一位同学做缓慢的动作，对视频运行姿态估计，画出手腕和脚踝的轨迹以及双手与头部构成的三角形；变体：在 AR 中实时呈现，让舞者边跳边看到几何。",
+   "interaction": [
+    "performance-stage",
+    "data-information",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "rotoscoping",
+    "motion analysis",
+    "computational geometry"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=yzJk6ww3LD0"
+   },
+   "source_url": "https://www.ignant.com/2017/10/13/rotoscope-ballet/",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/1036531670494386477/"
+   }
+  },
+  {
+   "id": "parratoro--pop-ar",
+   "creator_ids": [
+    "parratoro"
+   ],
+   "title": "POP AR",
+   "year": 2025,
+   "description": "A book of op-art pages; scanning a page with a phone makes the flat geometric artwork rise off the paper as animated 3D sculptures.",
+   "description_zh": "一本欧普艺术画册；用手机扫描书页，平面的几何作品就会以动态 3D 雕塑的形式从纸上升起。",
+   "idea_en": "Extend op art's optical illusion into a real third dimension with AR.",
+   "idea_zh": "用 AR 把欧普艺术的视错觉延伸到真正的第三维。",
+   "technique": "Each printed page is an image target; the app anchors animated 3D versions of the same geometric patterns to the page (likely image tracking in a mobile AR SDK).",
+   "technique_zh": "每一页都是一个图像目标，应用把同一图案的动态 3D 版本锚定在书页上（可能使用移动 AR SDK 的图像追踪）。",
+   "exercise_en": "Draw a black-and-white stripe pattern, use it as an image target in Lens Studio or 8th Wall, and extrude its stripes into moving 3D fins. Twist: the fins flatten back into the print when the phone moves too close.",
+   "exercise_zh": "画一张黑白条纹图案，在 Lens Studio 或 8th Wall 中作为图像目标，把条纹挤出成会动的 3D 鳍片；变体：手机靠得太近时，鳍片会压回成平面印刷。",
+   "interaction": [
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "image tracking",
+    "WebAR",
+    "3D animation"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=s8CRSKZrNJU"
+   },
+   "source_url": "https://www.parratoro.com",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/7599893118103611/"
+   }
+  },
+  {
+   "id": "ouchhh--dare-to-dream",
+   "creator_ids": [
+    "ouchhh"
+   ],
+   "title": "Dare to Dream",
+   "year": 2016,
+   "description": "Animated patterns and 'dreams' are projected onto a performer's face in real time, staying locked to her features as she moves.",
+   "description_zh": "动态图案和“梦境”被实时投影到表演者脸上，她移动时影像始终紧贴五官。",
+   "idea_en": "Let dreams appear on a face as a living, tracked mask of light.",
+   "idea_zh": "让梦以一张被追踪的光之面具出现在脸上。",
+   "technique": "Real-time face tracking (with Fikirbazzenger) estimates the face mesh each frame and re-renders the content from the projector's calibrated viewpoint.",
+   "technique_zh": "与 Fikirbazzenger 合作的实时人脸追踪每帧估计面部网格，再从标定过的投影仪视角重新渲染内容。",
+   "exercise_en": "Use a webcam face-mesh tracker and a projector aligned next to it to project a simple pattern onto a volunteer's face; calibrate with four points. Twist: the pattern reacts when the person closes their eyes.",
+   "exercise_zh": "用摄像头人脸网格追踪，配合旁边对齐的投影仪，把简单图案投到志愿者脸上，用四个点完成标定；变体：当人闭上眼睛时，图案做出反应。",
+   "interaction": [
+    "face",
+    "projection",
+    "performance-stage"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "real-time face tracking",
+    "projection mapping"
+   ],
+   "video": {
+    "url": "https://vimeo.com/160396410"
+   },
+   "source_url": "https://ouchhh.tv/Real-Time-Face-Tracking-Mapping",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/399976010666399057/"
+   }
+  },
+  {
+   "id": "nicola-buttari--t-shirt-mapping",
+   "creator_ids": [
+    "nicola-buttari"
+   ],
+   "title": "t-shirt mapping",
+   "year": 2016,
+   "description": "Generative graphics are projected onto a white t-shirt and follow the wearer's body, turning plain clothing into a moving display.",
+   "description_zh": "生成式图形被投影到一件白色 T 恤上并跟随穿着者的身体，把普通衣服变成会动的显示屏。",
+   "idea_en": "Clothing becomes a screen when projection follows the body.",
+   "idea_zh": "当投影跟着身体走，衣服就成了屏幕。",
+   "technique": "A Kinect depth camera segments the torso and drives a generative mask that is projection-mapped onto the shirt in real time.",
+   "technique_zh": "用 Kinect 深度相机分割出躯干，驱动一个生成式遮罩，并实时投影映射到 T 恤上。",
+   "exercise_en": "Use a webcam body-segmentation model to mask a projector's output so a pattern lands only on a white shirt. Twist: the pattern changes with the wearer's heartbeat or breathing sound.",
+   "exercise_zh": "用摄像头人体分割模型给投影输出加遮罩，让图案只落在白色 T 恤上；变体：图案随穿着者的心跳或呼吸声变化。",
+   "interaction": [
+    "hand-body",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "projection mapping",
+    "generative graphics"
+   ],
+   "video": {
+    "url": "https://vimeo.com/179772378"
+   },
+   "source_url": "https://www.proformavideodesign.com",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/228417012339007993/"
+   }
+  },
+  {
+   "id": "pixelcase--hobbiton-ar-portal",
+   "creator_ids": [
+    "pixelcase"
+   ],
+   "title": "AR portal at Hobbiton",
+   "year": 2018,
+   "description": "Standing on a path at the Hobbiton movie set, a phone shows a doorway hanging in the air; walking through it puts the viewer inside a captured 360° world.",
+   "description_zh": "站在霍比屯片场的小路上，手机里出现一扇悬在空中的门，走进去就置身于一个拍摄下来的 360° 世界。",
+   "idea_en": "A doorway you can physically walk through into another place.",
+   "idea_zh": "一扇可以真正走进去、通往另一个地方的门。",
+   "technique": "A mobile AR app (likely ARKit) places a portal whose interior uses stencil masking to reveal a 360° captured environment that surrounds the user after crossing the threshold.",
+   "technique_zh": "移动 AR 应用（可能是 ARKit）放置一个传送门，门内用模板遮罩显示 360° 拍摄的环境，跨过门槛后环境会包围用户。",
+   "exercise_en": "Build an AR Foundation portal with a stencil shader that shows a 360° photo of another campus spot inside the door. Twist: the portal only opens after you knock twice on the real floor.",
+   "exercise_zh": "用 AR Foundation 和模板着色器做一扇传送门，门内显示校园另一处的 360° 照片；变体：只有在真实地面上敲两下，门才会打开。",
+   "interaction": [
+    "portal-world",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "360 capture",
+    "portal rendering"
+   ],
+   "video": {
+    "url": "https://x.com/pixelcase/status/986445860442587136"
+   },
+   "source_url": "https://x.com/pixelcase/status/986445860442587136",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/786792997382222305/"
+   }
+  },
+  {
+   "id": "onat-hekimoglu--klanglichter",
+   "creator_ids": [
+    "onat-hekimoglu"
+   ],
+   "title": "Klanglichter",
+   "year": 2015,
+   "description": "A laser harp becomes a game controller: players interrupt visible laser beams with their hands to hit geometric objects in a projected world and trigger chain reactions of light and sound.",
+   "description_zh": "激光竖琴变成游戏控制器：玩家用手阻断可见的激光束，击中投影世界中的几何物体，引发光与声音的连锁反应。",
+   "idea_en": "Touch photons: make light beams both the instrument and the joystick.",
+   "idea_zh": "触摸光子：让光束同时成为乐器和摇杆。",
+   "technique": "Light sensors on an Arduino detect which beams are blocked and send events to a Unity game that renders the projected visuals and sound.",
+   "technique_zh": "Arduino 上的光敏传感器检测哪些光束被挡住，把事件发送给 Unity 游戏，由它渲染投影画面和声音。",
+   "exercise_en": "Make three 'beams' with a flashlight and light sensors (or virtual beams in AR) and map each blocked beam to a note and a projected burst. Twist: a chord of all three beams unlocks a hidden level.",
+   "exercise_zh": "用手电筒和光敏传感器做三道“光束”（或在 AR 里做虚拟光束），每挡住一道就触发一个音符和一次投影爆发；变体：三道同时挡住的“和弦”会解锁隐藏关卡。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Unity",
+    "Arduino",
+    "laser harp"
+   ],
+   "video": {
+    "url": "https://vimeo.com/128600307"
+   },
+   "source_url": "https://vimeo.com/128600307",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/5559199536691163/"
+   }
+  },
+  {
+   "id": "henry-daubrez-kikk--kikk-2018-ar-exhibit",
+   "creator_ids": [
+    "henry-daubrez-kikk"
+   ],
+   "title": "KIKK Festival 2018 – Augmented Reality Exhibit",
+   "year": 2018,
+   "description": "Seven code-generated AR artworks by creative coders are hung around the city of Namur on physical frames; festival visitors unlock each one with a phone to watch it grow out of the wall.",
+   "description_zh": "七件由创意编程者创作的代码生成 AR 作品挂在那慕尔城中的实体画框上，艺术节观众用手机逐一解锁，看它们从墙上生长出来。",
+   "idea_en": "Curate a street exhibition where the frames are real but the art only exists in AR.",
+   "idea_zh": "策划一场街头展览：画框是真的，作品只存在于 AR 中。",
+   "technique": "Each physical frame is an image target for a festival app that renders a real-time generative WebGL-style piece anchored to it (artists included Bruno Simon, Matt DesLauriers and Edan Kwan).",
+   "technique_zh": "每个实体画框都是节日应用的图像目标，应用在画框上渲染一件实时生成的作品（参与艺术家包括 Bruno Simon、Matt DesLauriers 和 Edan Kwan）。",
+   "exercise_en": "Hang five empty paper frames around the school, each an image target that loads a different student's generative sketch in WebAR. Twist: the pieces change with the time of day.",
+   "exercise_zh": "在校园里挂五个空纸画框，每个都是图像目标，在 WebAR 中加载不同同学的生成式作品；变体：作品随一天中的时间变化。",
+   "interaction": [
+    "location-geo",
+    "perception-art",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "WebGL",
+    "mobile AR",
+    "generative art"
+   ],
+   "video": {
+    "url": "https://vimeo.com/299883293"
+   },
+   "source_url": "https://thefwa.com/cases/kikk-festival-2018-augmented-reality-exhibit",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/4222193392127470/"
+   }
+  },
+  {
+   "id": "adrien-m-claire-b--effluve",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Effluve (Faire corps)",
+   "year": 2020,
+   "description": "In the Faire corps exhibition, visitors stand before a projected field of particles that drift like vapour and respond to their gestures and presence.",
+   "description_zh": "在 Faire corps 展览中，观众站在一片投影粒子场前，粒子像水汽一样飘散，并回应他们的手势和存在。",
+   "idea_en": "Let visitors breathe life into a cloud of light with their bodies.",
+   "idea_zh": "让观众用身体为一团光注入生命。",
+   "technique": "Body tracking likely drives a physics-based particle system (probably the studio's own eMotion tool) projected at human scale.",
+   "technique_zh": "可能由身体追踪驱动基于物理的粒子系统（大概率是工作室自研的 eMotion 工具），以人体尺度投影呈现。",
+   "exercise_en": "Project a particle cloud on a wall and push it with a webcam optical-flow field so gestures blow the particles like mist. Twist: particles slowly form the silhouette of the last visitor.",
+   "exercise_zh": "在墙上投出一团粒子，用摄像头光流场推动它，让手势像吹雾一样吹动粒子；变体：粒子慢慢聚成上一位观众的轮廓。",
+   "interaction": [
+    "hand-body",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection",
+    "motion tracking",
+    "particle physics"
+   ],
+   "video": {
+    "url": "https://www.youtube.com/watch?v=HC47brh6tio"
+   },
+   "source_url": "https://www.am-cb.net",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/pin/354025220716299145/"
+   }
+  }
+ ],
+ "leads": [
+  {
+   "name": "Roelof Knol",
+   "why": "Amsterdam media artist whose projection pieces draw perspective-correct 3D lines and depth contours on floors and tables; several viral Pinterest pins.",
+   "link": "https://www.roelofknol.com/",
+   "found_via": "theoriz",
+   "status": "open"
+  },
+  {
+   "name": "Bruno Simon",
+   "why": "Creative coder who made one of the KIKK 2018 AR pieces (Paradigm shift); known for playful WebGL.",
+   "link": "https://bruno-simon.com/",
+   "found_via": "henry-daubrez-kikk",
+   "status": "open"
+  },
+  {
+   "name": "Matt DesLauriers",
+   "why": "Generative artist; made Quantum Spyglass for the KIKK 2018 AR exhibit.",
+   "link": "https://www.mattdesl.com/",
+   "found_via": "henry-daubrez-kikk",
+   "status": "open"
+  },
+  {
+   "name": "Edan Kwan",
+   "why": "WebGL creative coder; made Bilibala Holala for the KIKK 2018 AR exhibit.",
+   "link": "https://www.edankwan.com/",
+   "found_via": "henry-daubrez-kikk",
+   "status": "open"
+  },
+  {
+   "name": "Jaume Sanchez Elias",
+   "why": "Creative technologist; made Transcendence for the KIKK 2018 AR exhibit.",
+   "link": "https://www.clicktorelease.com/",
+   "found_via": "henry-daubrez-kikk",
+   "status": "open"
+  },
+  {
+   "name": "Michael Frei & Mario von Rickenbach (Playables)",
+   "why": "KIDS crowd game also shown as an interactive installation where visitors become crowd figures; no installation video verified yet.",
+   "link": "https://playkids.ch/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "ii studio (interactive.items) – Clay Pillar",
+   "why": "Tactile clay pillar that reshapes real-time projected visuals; only Instagram/TikTok clips found.",
+   "link": "https://iitems.studio/claypillar/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Tiziano Mirabella",
+   "why": "TouchDesigner artist behind Window of Illusions (Illuseum Berlin), body-driven projection illusions; only Instagram clips found.",
+   "link": "https://tizianomirabella.com/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Gamgie",
+   "why": "French artist mixing real-time particles (Oxipital engine) with circus and dance; Oxipital video not found yet.",
+   "link": "https://en.gamgie.com/",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Christian Brinkmann",
+   "why": "Floral Resonance: an interactive plant that shapes sound and light by touch (Manar Abu Dhabi); no original video found.",
+   "link": "https://paad.ae/manar/artist-detail/christian-brinkmann",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Augmenta / quentin.script",
+   "why": "Body-tracked projected remakes of games (e.g. Chrome dino run where you jump for real) built on THÉORIZ's Augmenta tracker.",
+   "link": "https://www.instagram.com/quentin.script/",
+   "found_via": "theoriz",
+   "status": "open"
+  },
+  {
+   "name": "André Wee",
+   "why": "Singapore artist using AR murals and bouquets at ArtScience Museum for sustainability themes.",
+   "link": "http://andre-wee.com/about",
+   "found_via": "seed",
+   "status": "open"
+  }
+ ]
+}

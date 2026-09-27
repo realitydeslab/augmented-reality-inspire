@@ -1,0 +1,2854 @@
+{
+ "batch": "r4-manifest-ar",
+ "creators": [
+  {
+   "id": "geoffrey-alan-rhodes",
+   "name": "Geoffrey Alan Rhodes",
+   "role": "Filmmaker and AR artist; founding member of Manifest.AR",
+   "based": "Chicago, US / Shanghai, China",
+   "bio": "Experimental filmmaker who turned augmented reality into a way of re-editing cinema: his 52 Card Cinema pieces, made at York University's AR Lab, map film shots onto playing cards. He co-signed the 2011 AR Art Manifesto, taught at the School of the Art Institute of Chicago and now teaches in Shanghai, where he builds AR museum and history tours.",
+   "why": "He treats AR as a new film grammar, so a deck of cards, a banknote or a riverbank becomes a montage you can hold and rearrange.",
+   "links": {
+    "site": "http://GARhodes.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCDG-j1LP9H9zPbbkmb3-3UA",
+    "github": ""
+   },
+   "role_zh": "电影人、AR 艺术家；Manifest.AR 创始成员",
+   "based_zh": "芝加哥，美国 / 上海，中国",
+   "bio_zh": "实验电影导演，把增强现实变成重新剪辑电影的手段：他在约克大学 AR Lab 创作的 52 Card Cinema 系列，把电影镜头映射到一张张扑克牌上。他是 2011 年《AR 艺术宣言》的联署人之一，曾任教于芝加哥艺术学院，现在上海任教，继续做 AR 博物馆与历史导览项目。",
+   "why_zh": "他把 AR 当作一种新的电影语法：一副扑克、一张钞票、一段河岸，都能变成可以拿在手里重新排列的蒙太奇。",
+   "connected_to": [
+    "mark-skwarek",
+    "john-craig-freeman",
+    "tamiko-thiel",
+    "will-pappenheimer",
+    "sander-veenhof",
+    "christopher-manzione",
+    "caitlin-fisher"
+   ],
+   "discovered_via": "mark-skwarek"
+  },
+  {
+   "id": "caitlin-fisher",
+   "name": "Caitlin Fisher",
+   "role": "Digital-literature author; director of the Augmented Reality Lab, York University",
+   "based": "Toronto, Canada",
+   "bio": "Electronic-literature writer (the award-winning hypertext novel These Waves of Girls) and York University professor who founded one of the first art-focused augmented reality labs. Her lab built SnapDragonAR and a string of tabletop AR poems, pop-up books and history projects.",
+   "why": "She pioneered AR as a literary form: poems and stories that unfold on cards and tabletops in your hands.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCajXNBTrI049ePe17Sl0hsQ",
+    "github": ""
+   },
+   "role_zh": "电子文学作家；约克大学增强现实实验室（Augmented Reality Lab）主任",
+   "based_zh": "多伦多，加拿大",
+   "bio_zh": "电子文学作家（获奖超文本小说 These Waves of Girls 的作者），约克大学教授，创办了最早以艺术为导向的增强现实实验室之一。实验室开发了 SnapDragonAR 工具，并做出一系列桌面 AR 诗歌、AR 立体书和历史叙事项目。",
+   "why_zh": "她很早就把 AR 当作一种文学形式：诗和故事在你手中的卡片与桌面上展开。",
+   "connected_to": [
+    "geoffrey-alan-rhodes"
+   ],
+   "discovered_via": "geoffrey-alan-rhodes"
+  },
+  {
+   "id": "nathan-shafer",
+   "name": "Nathan Shafer",
+   "role": "AR artist, comics author and educator",
+   "based": "Anchorage, Alaska, US",
+   "bio": "Alaskan artist who uses geolocated and marker-based AR to tell Alaskan stories: vanished glacier edges, domed cities that were never built, and Indigenous-language portraits made with schools. He later moved into AR comics and games with Native and autistic characters.",
+   "why": "His Exit Glacier project made climate change visible on the spot by showing where the ice used to be.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCju1IATaYueuIuY9pHpwmFA",
+    "github": ""
+   },
+   "role_zh": "AR 艺术家、漫画作者、教育者",
+   "based_zh": "安克雷奇，阿拉斯加，美国",
+   "bio_zh": "阿拉斯加艺术家，用基于地理位置和标记的 AR 讲述阿拉斯加的故事：消失的冰川边缘、从未建成的穹顶城市，以及与学校合作、用原住民语言标注的肖像。后来他转向 AR 漫画和游戏，塑造原住民与自闭症角色。",
+   "why_zh": "他的 Exit Glacier 项目在冰川现场标出冰舌当年的位置，让气候变化一眼可见。",
+   "connected_to": [
+    "mark-skwarek",
+    "john-craig-freeman",
+    "tamiko-thiel",
+    "will-pappenheimer",
+    "sander-veenhof",
+    "patrick-lichty"
+   ],
+   "discovered_via": "mark-skwarek"
+  },
+  {
+   "id": "lily-honglei",
+   "name": "Lily & Honglei (Lily Xiying Yang & Honglei Li)",
+   "role": "Artist duo working with painting, animation, virtual worlds and AR",
+   "based": "New York, US",
+   "bio": "Chinese-American artist collaborative based in Flushing, New York, whose paintings, Second Life worlds and AR interventions reflect on censorship, urbanization in China and immigrant life. They took part in Manifest.AR's Venice, Bushwick and ZERO1 interventions and received a Creative Capital award.",
+   "why": "They place politically loaded Chinese icons, from the Great Firewall to Mao's crystal coffin, into Western public space where no one can remove them.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@lilyhonglei",
+    "github": ""
+   },
+   "role_zh": "以绘画、动画、虚拟世界与 AR 创作的艺术家二人组",
+   "based_zh": "纽约，美国",
+   "bio_zh": "旅居纽约法拉盛的华裔艺术家组合，作品横跨绘画、Second Life 虚拟世界和 AR 介入，关注审查、中国城市化与移民生活。他们参与了 Manifest.AR 在威尼斯、布什维克和 ZERO1 的 AR 介入，并获得 Creative Capital 资助。",
+   "why_zh": "他们把带有强烈政治意味的中国符号（防火长城、水晶棺）放进西方公共空间，而且谁也拆不掉。",
+   "connected_to": [
+    "john-craig-freeman",
+    "mark-skwarek",
+    "will-pappenheimer",
+    "tamiko-thiel"
+   ],
+   "discovered_via": "john-craig-freeman"
+  },
+  {
+   "id": "naoko-tosa",
+   "name": "Naoko Tosa",
+   "role": "Media artist; professor at Kyoto University",
+   "based": "Kyoto, Japan",
+   "bio": "Japanese media-art pioneer who, from the early 1990s, built interactive characters that read human emotion (Neuro-Baby), installations that reveal the unconscious feelings between two people (Unconscious Flow) and 'cultural computing' systems based on Zen. She is now best known for Sound of Ikebana, high-speed films of fluid shaped by sound.",
+   "why": "Decades before affective computing was mainstream, she made artworks that react to what you feel rather than what you click.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UChjz_ZhBlzAY99GFDT4o9gg",
+    "github": ""
+   },
+   "role_zh": "媒体艺术家；京都大学教授",
+   "based_zh": "京都，日本",
+   "bio_zh": "日本媒体艺术先驱。从 90 年代初起，她做出能读懂人类情绪的互动角色（Neuro-Baby）、揭示两人之间潜意识情感的装置（Unconscious Flow），以及基于禅宗的“文化计算”系统。如今她最有名的作品是 Sound of Ikebana：用声音塑形液体的高速摄影影像。",
+   "why_zh": "在情感计算还远未普及的年代，她就让作品回应你的“感受”，而不是你的点击。",
+   "connected_to": [
+    "mark-skwarek"
+   ],
+   "discovered_via": "mark-skwarek"
+  },
+  {
+   "id": "john-cleater",
+   "name": "John Cleater",
+   "role": "Architect and AR artist (Cleater Studio)",
+   "based": "New York, US",
+   "bio": "Architect who began using the Layar AR browser in 2011 to float animated 'Sky Pavilions' over the High Line, Venice and his own garden, and who curated Peeling Layers of Space Out of Thin Air, an open-field show of AR architecture at Omi International Arts Center.",
+   "why": "He showed how architects can build weightless, site-specific pavilions in the sky with nothing but a phone.",
+   "links": {
+    "site": "http://www.cleater.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC0DAxvEsrGLLsr1mLeBiziw",
+    "github": ""
+   },
+   "role_zh": "建筑师、AR 艺术家（Cleater Studio）",
+   "based_zh": "纽约，美国",
+   "bio_zh": "建筑师，2011 年起用 Layar AR 浏览器，把会动的“天空亭子”（Sky Pavilions）悬浮在高线公园、威尼斯和自家花园上空，并策划了在 Omi 国际艺术中心旷野中举办的 AR 建筑展 Peeling Layers of Space Out of Thin Air。",
+   "why_zh": "他证明了建筑师只用一部手机，就能在天空中搭建失重的、与场地相关的亭子。",
+   "connected_to": [
+    "mark-skwarek",
+    "john-craig-freeman",
+    "tamiko-thiel"
+   ],
+   "discovered_via": "mark-skwarek"
+  },
+  {
+   "id": "phoenix-perry",
+   "name": "Phoenix Perry",
+   "role": "Game designer, artist and educator; founder of Code Liberation Foundation",
+   "based": "London, UK",
+   "bio": "Designer of physical and embodied games who founded the Code Liberation Foundation to teach women and non-binary people to code games, and who later led physical computing at Goldsmiths and UAL's Creative Computing Institute. Her work ranges from Kinect-driven music performance to Bot Party, a game played through skin contact.",
+   "why": "She makes the body, touch and gesture the controller, turning technology into a reason for people to physically connect.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/phoenixperry",
+    "youtube": "https://www.youtube.com/channel/UCtmGPJXdGilHn_r93OlrJgA",
+    "github": ""
+   },
+   "role_zh": "游戏设计师、艺术家、教育者；Code Liberation Foundation 创始人",
+   "based_zh": "伦敦，英国",
+   "bio_zh": "专注身体与实体游戏的设计师。她创办了 Code Liberation Foundation，教女性和非二元性别者编写游戏，之后在 Goldsmiths 和 UAL 创意计算学院教授物理计算。作品从 Kinect 驱动的音乐表演，到通过皮肤接触来玩的游戏 Bot Party。",
+   "why_zh": "她把身体、触碰和手势当作控制器，让技术成为人们彼此接触的理由。",
+   "connected_to": [
+    "will-pappenheimer",
+    "mark-skwarek"
+   ],
+   "discovered_via": "will-pappenheimer"
+  },
+  {
+   "id": "patrick-lichty",
+   "name": "Patrick Lichty",
+   "role": "Media artist, curator and writer; member of Second Front",
+   "based": "United States / United Arab Emirates",
+   "bio": "Media artist and theorist who co-founded Second Front, the first performance-art group in Second Life, animated projects for The Yes Men, and joined Manifest.AR's early AR interventions. He writes widely on virtual worlds, AR and 'Techspressionism'.",
+   "why": "He carried the activist prank logic of The Yes Men and Second Front into geolocated AR.",
+   "links": {
+    "site": "http://patricklichty.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCbN6X6Qg9aMzsLide1ts07Q",
+    "github": ""
+   },
+   "role_zh": "媒体艺术家、策展人、写作者；Second Front 成员",
+   "based_zh": "美国 / 阿联酋",
+   "bio_zh": "媒体艺术家与理论家，联合创办了 Second Life 中第一个行为艺术团体 Second Front，为 The Yes Men 的项目制作动画，并参与了 Manifest.AR 早期的 AR 介入。他长期撰写关于虚拟世界、AR 与 “Techspressionism” 的文章。",
+   "why_zh": "他把 The Yes Men 和 Second Front 那种行动主义恶作剧的思路，带进了基于地理位置的 AR。",
+   "connected_to": [
+    "mark-skwarek",
+    "nathan-shafer",
+    "alan-sondheim"
+   ],
+   "discovered_via": "mark-skwarek"
+  },
+  {
+   "id": "alan-sondheim",
+   "name": "Alan Sondheim",
+   "role": "New-media artist, poet and theorist",
+   "based": "New York, US",
+   "bio": "Pioneer of internet text art and codework who has spent decades making performances that mix Second Life avatars, motion capture and live bodies, often with singer Azure Carter and choreographer Foofwa d'Imobilité. He was an Eyebeam resident and an endorser of the AR Art Manifesto.",
+   "why": "His mixed-reality performances blur where the avatar ends and the dancer begins.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC-3jN2TWEJ78LxbQ0i98QNQ",
+    "github": ""
+   },
+   "role_zh": "新媒体艺术家、诗人、理论家",
+   "based_zh": "纽约，美国",
+   "bio_zh": "网络文本艺术与 codework 的先驱，几十年来持续创作把 Second Life 化身、动作捕捉和真人身体混在一起的表演，常与歌手 Azure Carter、编舞家 Foofwa d'Imobilité 合作。他曾是 Eyebeam 驻留艺术家，也是《AR 艺术宣言》的联署人。",
+   "why_zh": "他的混合现实表演让人分不清化身在哪里结束、舞者从哪里开始。",
+   "connected_to": [
+    "foofwa-d-imobilite",
+    "mark-skwarek",
+    "patrick-lichty"
+   ],
+   "discovered_via": "mark-skwarek"
+  },
+  {
+   "id": "foofwa-d-imobilite",
+   "name": "Foofwa d'Imobilité",
+   "role": "Choreographer and dancer",
+   "based": "Geneva, Switzerland",
+   "bio": "Swiss choreographer and former Merce Cunningham Dance Company dancer, known for Dancewalk, long dance-walks through cities, and for hybrid pieces mixing dance with sport, virtual worlds and motion capture, including performances with Alan Sondheim.",
+   "why": "He brings a trained dancer's body into mixed-reality experiments, so the physical performer and the virtual layer answer each other.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/foofwa",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "编舞家、舞者",
+   "based_zh": "日内瓦，瑞士",
+   "bio_zh": "瑞士编舞家，曾是 Merce Cunningham 舞团舞者，以在城市中长距离“舞步行走”的 Dancewalk 闻名，也创作把舞蹈与运动、虚拟世界、动作捕捉混合的作品，其中包括与 Alan Sondheim 的合作表演。",
+   "why_zh": "他把专业舞者的身体带进混合现实实验，让真实表演者与虚拟图层互相呼应。",
+   "connected_to": [
+    "alan-sondheim",
+    "mark-skwarek"
+   ],
+   "discovered_via": "alan-sondheim"
+  },
+  {
+   "id": "damon-loren-baker",
+   "name": "Damon Loren Baker",
+   "role": "Artist and developer",
+   "based": "New York, US",
+   "bio": "New York artist and developer in the Manifest.AR circle who co-created the AR Sun Project with Mark Skwarek and showed LAPSE at the 2010 Bushwick Augmented Reality Intervention.",
+   "why": "The AR Sun Project he co-created is one of the simplest and most poetic early geolocated AR ideas: a replacement sun for cities that can no longer see the real one.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "艺术家、开发者",
+   "based_zh": "纽约，美国",
+   "bio_zh": "纽约的艺术家与开发者，属于 Manifest.AR 圈子，与 Mark Skwarek 合作了 AR Sun Project，并在 2010 年布什维克增强现实介入展中展出作品 LAPSE。",
+   "why_zh": "他参与创作的 AR Sun Project 是早期地理定位 AR 中最简单也最有诗意的点子之一：给看不见太阳的城市一颗替代的太阳。",
+   "connected_to": [
+    "mark-skwarek"
+   ],
+   "discovered_via": "mark-skwarek"
+  }
+ ],
+ "works": [
+  {
+   "id": "mark-skwarek--erasar-statue-of-liberty",
+   "creator_ids": [
+    "mark-skwarek"
+   ],
+   "title": "erasAR: Statue of Liberty erased",
+   "year": 2010,
+   "description": "Through a phone pointed at Liberty Island, the Statue of Liberty is gone and only her empty pedestal remains.",
+   "description_zh": "把手机对准自由岛，自由女神像消失了，只剩下空荡荡的基座。",
+   "idea_en": "Diminished reality as protest: erase a national monument instead of adding one.",
+   "idea_zh": "用“减法现实”做抗议：不是添加纪念碑，而是抹掉一座。",
+   "technique": "A geolocated 3D patch of sky and empty pedestal is rendered over the statue's GPS position in a mobile AR browser, likely Layar, hiding the real monument behind a matched backdrop.",
+   "technique_zh": "在移动 AR 浏览器（很可能是 Layar）中，于雕像的 GPS 位置叠加一块与背景匹配的天空和空基座模型，把真实纪念碑“盖住”。",
+   "exercise_en": "Pick a landmark visible from campus, photograph the empty sky behind it and build a phone-AR overlay that hides it from one viewpoint. Twist: let viewers vote on which landmark disappears next.",
+   "exercise_zh": "选一个从校园能看到的地标，拍下它背后的空天空，用手机 AR 做一个从某个视角把它“遮掉”的叠加层。变体：让观众投票决定下一个消失的地标。",
+   "interaction": [
+    "portal-world",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "afaggs_RJ7U",
+    "url": "https://www.youtube.com/watch?v=afaggs_RJ7U"
+   },
+   "source_url": "http://erasar.wordpress.com/"
+  },
+  {
+   "id": "mark-skwarek--korean-unification-project",
+   "creator_ids": [
+    "mark-skwarek"
+   ],
+   "title": "The Augmented Reality Korean Unification Project",
+   "year": 2011,
+   "description": "At the Korean Demilitarized Zone, phones erase the border fortifications and show the land returned to nature, uniting North and South in AR.",
+   "description_zh": "在朝韩非军事区，手机画面抹去边境工事，呈现土地回归自然的样子，在 AR 中让南北统一。",
+   "idea_en": "Use AR to preview a political future that is physically impossible today.",
+   "idea_zh": "用 AR 预演一个现实中暂时不可能实现的政治未来。",
+   "technique": "Geolocated 3D landscape augments are anchored at DMZ viewpoints in a mobile AR browser so the fences and watchtowers are covered by virtual terrain and greenery.",
+   "technique_zh": "在非军事区观景点用移动 AR 浏览器锚定地理定位的 3D 地景，用虚拟地形和植被覆盖铁丝网与哨塔。",
+   "exercise_en": "Find a fence, wall or barrier on campus and make a phone-AR scene that replaces it with what the space could become if it were removed. Twist: show both sides' wishes at once.",
+   "exercise_zh": "在校园里找一道围栏、墙或障碍，用手机 AR 把它替换成拆除后可能出现的景象。变体：同时呈现两侧人的不同愿望。",
+   "interaction": [
+    "location-geo",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "In8Zrk6tGpI",
+    "url": "https://www.youtube.com/watch?v=In8Zrk6tGpI"
+   },
+   "source_url": "http://koreanunificationproject.wordpress.com/"
+  },
+  {
+   "id": "mark-skwarek--protestar-occupy-wall-street",
+   "creator_ids": [
+    "mark-skwarek"
+   ],
+   "title": "protestAR / #arOCCUPYWALLSTREET",
+   "year": 2011,
+   "description": "Occupy protesters barred from Wall Street are placed back in front of the New York Stock Exchange as virtual marchers and signs that police barricades cannot stop.",
+   "description_zh": "被警方挡在华尔街外的“占领”抗议者，以虚拟游行队伍和标语的形式重新出现在纽约证券交易所门前，路障拦不住他们。",
+   "idea_en": "Virtual protesters can occupy space that real bodies are banned from.",
+   "idea_zh": "虚拟抗议者可以占领真实身体被禁止进入的空间。",
+   "technique": "Protesters' avatars and signs are uploaded as geolocated 3D points of interest on the Layar AR browser at the NYSE coordinates, so anyone at Wall Street sees them through the camera.",
+   "technique_zh": "把抗议者的化身和标语作为地理定位的 3D 兴趣点上传到 Layar AR 浏览器，锚定在纽交所的坐标上，任何人在华尔街打开相机就能看到。",
+   "exercise_en": "Let each student design a virtual placard and pin it with location-based WebXR or a Lens at a place on campus they cannot normally enter. Twist: the placards only appear when two or more phones are present.",
+   "exercise_zh": "让每位学生设计一块虚拟标语牌，用基于位置的 WebXR 或 Lens 把它放在校园里平时进不去的地方。变体：只有两部以上手机同时在场时标语才出现。",
+   "interaction": [
+    "location-geo",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "kw9fpt4JPII",
+    "url": "https://www.youtube.com/watch?v=kw9fpt4JPII"
+   },
+   "source_url": "http://protestars.wordpress.com/"
+  },
+  {
+   "id": "mark-skwarek--island-of-hope",
+   "creator_ids": [
+    "mark-skwarek"
+   ],
+   "title": "The Island of Hope (Venice Biennale AR Intervention)",
+   "year": 2011,
+   "description": "An uninvited AR island in Venice reads the day's most hopeful #hope tweets and answers the best ones with objects that erupt from its volcano and settle over the city.",
+   "description_zh": "威尼斯双年展上一座不请自来的 AR 小岛，读取当天最有希望的 #hope 推文，挑出最好的，让对应物体从火山中喷出并散落在城市上空。",
+   "idea_en": "A live social feed becomes physical-looking objects raining over a real city.",
+   "idea_zh": "把实时社交信息流变成仿佛实体、洒落在真实城市上空的物件。",
+   "technique": "A server script searches Twitter for #hope, picks tweets and spawns matching 3D objects as geolocated points of interest in a mobile AR browser around the Giardini and Venice.",
+   "technique_zh": "服务器脚本在 Twitter 上搜索 #hope，挑选推文后生成对应的 3D 物体，作为地理定位兴趣点放进威尼斯绿园城堡一带的移动 AR 浏览器。",
+   "exercise_en": "Build a phone-AR scene where messages typed into a shared form become 3D objects that float up from one spot on campus. Twist: only the most upvoted wish is granted each hour.",
+   "exercise_zh": "做一个手机 AR 场景：大家在共享表单里写的愿望，会变成从校园某处升起的 3D 物体。变体：每小时只实现得票最高的那个愿望。",
+   "interaction": [
+    "location-geo",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "Twitter API"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "QvllOmeEGtw",
+    "url": "https://www.youtube.com/watch?v=QvllOmeEGtw"
+   },
+   "source_url": "http://theislandofhope.blogspot.com/"
+  },
+  {
+   "id": "mark-skwarek--ar-sun-project",
+   "creator_ids": [
+    "mark-skwarek",
+    "damon-loren-baker"
+   ],
+   "title": "AR Sun Project",
+   "year": 2010,
+   "description": "A virtual sun hangs in the sky of Dumbo, Brooklyn, tracking the real sun's path so that polluted or overshadowed places can still see a sun.",
+   "description_zh": "一颗虚拟太阳挂在布鲁克林 Dumbo 的天空中，沿着真实太阳的轨迹移动，让被污染或被遮挡的地方也能“看到”太阳。",
+   "idea_en": "Replace a missing piece of nature with a synced virtual stand-in.",
+   "idea_zh": "用一个同步运行的虚拟替身，补上缺失的自然。",
+   "technique": "The sun's azimuth and elevation are computed from time and location, and a glowing sphere is placed at that direction in a sensor-based mobile AR browser.",
+   "technique_zh": "根据时间和地点计算太阳的方位角与高度角，在基于传感器的移动 AR 浏览器里把发光球体放在那个方向上。",
+   "exercise_en": "Use a sun-position formula and phone compass/gyro (WebXR or AR Foundation) to place a virtual sun exactly where the real one is. Twist: show the sun as it would be at this spot on your birthday.",
+   "exercise_zh": "用太阳位置公式加手机罗盘与陀螺仪（WebXR 或 AR Foundation），把虚拟太阳放在真实太阳的方向上。变体：显示你生日那天此地的太阳位置。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS",
+    "compass"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "zk2VaYlKebc",
+    "url": "https://www.youtube.com/watch?v=zk2VaYlKebc"
+   },
+   "source_url": "http://arsunproject.wordpress.com/"
+  },
+  {
+   "id": "mark-skwarek--occupation-forces",
+   "creator_ids": [
+    "mark-skwarek"
+   ],
+   "title": "Occupation Forces",
+   "year": 2011,
+   "description": "Aliens occupy a Boston park and other sites: viewers with phones discover invading ships and troops that mimic military occupation abroad.",
+   "description_zh": "外星人占领了波士顿的公园等地：拿着手机的观众会发现入侵的飞船和部队，影射海外的军事占领。",
+   "idea_en": "Borrow alien-invasion myth to make viewers feel what occupation of their own streets would be like.",
+   "idea_zh": "借外星入侵的神话，让观众体会自己的街道被占领是什么感觉。",
+   "technique": "Animated 3D alien craft and troops are placed as site-specific geolocated augments viewed on iPhone, building a narrative across several locations.",
+   "technique_zh": "把动画 3D 外星飞船和士兵作为地点特定的地理定位增强内容放在 iPhone 上观看，在多个地点串起一个叙事。",
+   "exercise_en": "Stage a three-stop AR 'invasion' trail on campus with location-based markers, each stop revealing more of a story. Twist: the invaders react to how many viewers are present.",
+   "exercise_zh": "用基于位置的标记在校园里做一条三站式的 AR“入侵”路线，每一站揭示故事的更多部分。变体：入侵者会根据在场观众人数做出反应。",
+   "interaction": [
+    "location-geo",
+    "game-play"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "iPhone"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "EpB8rngt6iM",
+    "url": "https://www.youtube.com/watch?v=EpB8rngt6iM"
+   },
+   "source_url": "http://occupationforces.wordpress.com/"
+  },
+  {
+   "id": "mark-skwarek--whitney-biennial-flood",
+   "creator_ids": [
+    "mark-skwarek"
+   ],
+   "title": "2012 Whitney Biennial AR Intervention (Flood)",
+   "year": 2012,
+   "description": "Around the Whitney Museum, a monumental virtual flood rises; cars are slowly carried off to sea and the museum lobby fills with water.",
+   "description_zh": "惠特尼美术馆周围涌起一场巨大的虚拟洪水，汽车被慢慢冲向大海，美术馆大厅也被淹没。",
+   "idea_en": "Show a future climate disaster at full scale where people already are.",
+   "idea_zh": "在人们所在的地方，以真实尺度呈现未来的气候灾难。",
+   "technique": "A large animated water plane and floating car models are geolocated around the museum in a mobile AR browser so the waterline appears at street level.",
+   "technique_zh": "在移动 AR 浏览器中，把大面积动态水面和漂浮汽车模型定位在美术馆周围，让水位线出现在街道高度。",
+   "exercise_en": "Use plane detection to place a rising water surface in a room or courtyard at a projected sea-level height. Twist: tie the height to real projections for your city in 2100.",
+   "exercise_zh": "用平面检测在房间或庭院里放置一面缓缓上升的水面，高度对应预测的海平面。变体：用你所在城市 2100 年的真实预测数据决定水位。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "UfqUgvtcGNY",
+    "url": "https://www.youtube.com/watch?v=UfqUgvtcGNY"
+   },
+   "source_url": "http://whitneybiennialarintervention.blogspot.com/"
+  },
+  {
+   "id": "mark-skwarek--bottomless-pit",
+   "creator_ids": [
+    "mark-skwarek",
+    "will-pappenheimer"
+   ],
+   "title": "The Bottomless Pit",
+   "year": 2012,
+   "description": "At the ZERO1 Biennial a virtual hole to the other side of the Earth opens in San Jose; the public drops objects through it to reach the antipode.",
+   "description_zh": "在 ZERO1 双年展上，一个通往地球另一面的虚拟洞口在圣何塞打开，公众可以把东西扔进去，送往地球对面。",
+   "idea_en": "A playful impossible hole links two opposite points on the planet.",
+   "idea_zh": "一个不可能存在的洞，俏皮地连接起地球上两个相对的点。",
+   "technique": "A geolocated 3D pit is anchored in a mobile AR browser, with a paired augment placed at the antipodal coordinates where dropped objects likely reappear.",
+   "technique_zh": "在移动 AR 浏览器中锚定一个地理定位的 3D 深坑，并在对跖点坐标放置对应的增强内容，被扔下的物体很可能会在那里出现。",
+   "exercise_en": "Build a floor portal with plane detection that shows a live or recorded view from a partner location far away. Twist: objects thrown in on one phone appear on the other.",
+   "exercise_zh": "用平面检测在地面做一个“洞口”传送门，里面显示远方合作地点的实时或录制画面。变体：在一部手机上扔进去的物体，会出现在另一部手机上。",
+   "interaction": [
+    "portal-world",
+    "location-geo",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "LuWh7DNtc9U",
+    "url": "https://www.youtube.com/watch?v=LuWh7DNtc9U"
+   },
+   "source_url": "http://thebottomlesspit3.blogspot.com/"
+  },
+  {
+   "id": "mark-skwarek--us-iraq-war-memorial",
+   "creator_ids": [
+    "mark-skwarek",
+    "john-craig-freeman"
+   ],
+   "title": "US - Iraq War Memorial",
+   "year": 2011,
+   "description": "A geolocated AR memorial lists and visualizes the dead of the Iraq war, placed in public space where no official monument exists.",
+   "description_zh": "一座地理定位的 AR 纪念碑，在没有官方纪念物的公共空间中，呈现伊拉克战争的死者。",
+   "idea_en": "An uninvited memorial that anyone can visit with a phone.",
+   "idea_zh": "一座不请自来、任何人用手机就能参观的纪念碑。",
+   "technique": "Casualty data is turned into 3D markers or text objects and published as geolocated points of interest in a mobile AR browser at symbolic sites.",
+   "technique_zh": "把伤亡数据转成 3D 标记或文字对象，作为地理定位兴趣点发布在移动 AR 浏览器中，放在具有象征意义的地点。",
+   "exercise_en": "Take a public dataset about a hidden loss (trees cut, species lost, closed shops) and place one AR marker per item on a campus lawn. Twist: markers fade unless someone visits them.",
+   "exercise_zh": "选一个关于隐性损失的公开数据集（被砍的树、消失的物种、倒闭的店铺），在校园草坪上为每一项放一个 AR 标记。变体：没人来看的标记会慢慢消失。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "-H3p7uCio4U",
+    "url": "https://www.youtube.com/watch?v=-H3p7uCio4U"
+   },
+   "source_url": "http://usiraqwarmemorial.wordpress.com/"
+  },
+  {
+   "id": "mark-skwarek--ar-human-body",
+   "creator_ids": [
+    "mark-skwarek"
+   ],
+   "title": "The Augmented Reality Human Body",
+   "year": 2012,
+   "description": "Viewers see their own lungs and heart through the phone in real time; as they slow their breathing, the virtual lungs slow down too.",
+   "description_zh": "观众透过手机实时看到自己的肺和心脏；当他们放慢呼吸，虚拟的肺也跟着慢下来。",
+   "idea_en": "Biofeedback made visible: see inside your own body and calm it by watching.",
+   "idea_zh": "把生物反馈可视化：看见自己身体内部，并通过观看让它平静下来。",
+   "technique": "Breathing and heart-rate sensor data drive animated organ models registered to the viewer's torso in mobile AR, built by Skwarek's NYU Polytechnic AR class.",
+   "technique_zh": "呼吸和心率传感器数据驱动动态器官模型，在移动 AR 中对齐到观众的躯干上；由 Skwarek 在纽约大学理工学院的 AR 课程集体制作。",
+   "exercise_en": "Use a phone camera heart-rate app or a cheap pulse sensor to drive an AR heart placed on a body-tracked chest (Lens Studio or AR Foundation). Twist: two people's hearts try to sync.",
+   "exercise_zh": "用手机摄像头心率应用或便宜的脉搏传感器，驱动一颗叠加在身体追踪胸口上的 AR 心脏（Lens Studio 或 AR Foundation）。变体：让两个人的心跳尝试同步。",
+   "interaction": [
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "biofeedback sensors",
+    "marker tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ioyE3SXsEsQ",
+    "url": "https://www.youtube.com/watch?v=ioyE3SXsEsQ"
+   },
+   "source_url": "http://augmentedrealityhumanbody.blogspot.com/"
+  },
+  {
+   "id": "mark-skwarek--eyebeam-mixed-reality-performance",
+   "creator_ids": [
+    "mark-skwarek",
+    "alan-sondheim",
+    "foofwa-d-imobilite"
+   ],
+   "title": "Eyebeam mixed-reality performance",
+   "year": 2012,
+   "description": "At Eyebeam, Alan Sondheim projects Second Life onto the wall, Foofwa d'Imobilité dances in the room, Azure Carter sings, and Mark Skwarek adds AR that viewers see on their phones.",
+   "description_zh": "在 Eyebeam，Alan Sondheim 把 Second Life 投影到墙上，Foofwa d'Imobilité 在房间里起舞，Azure Carter 演唱，Mark Skwarek 叠加观众用手机看到的 AR 层。",
+   "idea_en": "Stack three realities, a virtual world, a live dancer and an AR layer, in one room.",
+   "idea_zh": "在同一个房间里叠加三层现实：虚拟世界、现场舞者和 AR 图层。",
+   "technique": "A projected Second Life session and a live dancer share the space while geolocated or marker-based AR objects are added on smartphones as a third layer.",
+   "technique_zh": "投影出的 Second Life 画面与现场舞者共享空间，同时通过基于位置或标记的智能手机 AR 叠加第三层物件。",
+   "exercise_en": "Run a 10-minute performance where one student dances, one projects a game world and one places AR objects that the audience sees on phones. Twist: the dancer can only see the AR layer.",
+   "exercise_zh": "做一场 10 分钟的表演：一人跳舞、一人投影游戏世界、一人放置观众用手机观看的 AR 物件。变体：舞者只能看到 AR 图层。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "phone",
+    "projection"
+   ],
+   "tech": [
+    "Second Life",
+    "Layar"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "MstwSLL6RZM",
+    "url": "https://www.youtube.com/watch?v=MstwSLL6RZM"
+   },
+   "source_url": "http://markskwarek.blogspot.com/"
+  },
+  {
+   "id": "mark-skwarek--monstar-island",
+   "creator_ids": [
+    "mark-skwarek"
+   ],
+   "title": "MonstAR Island",
+   "year": 2013,
+   "description": "At the Dumbo Arts Festival, visitors on an 'island' are turned into monsters when seen through smartphones.",
+   "description_zh": "在 Dumbo 艺术节上，站在“小岛”上的参观者透过智能手机看，都变成了怪物。",
+   "idea_en": "A place that transforms anyone who enters it.",
+   "idea_zh": "一个会把走进来的每个人都变形的地方。",
+   "technique": "Monster models are overlaid on people within a geofenced area using the Semblance AR app, likely by anchoring avatars to viewer positions rather than full body tracking.",
+   "technique_zh": "借助 Semblance AR 应用，在地理围栏区域内把怪物模型叠加到人身上，很可能是把化身锚定到观众位置，而非完整身体追踪。",
+   "exercise_en": "Make a body-tracking Lens or AR Foundation scene that turns anyone standing inside a taped square into a creature. Twist: the creature changes with how many people share the square.",
+   "exercise_zh": "用身体追踪的 Lens 或 AR Foundation 做一个场景：任何站进胶带方框的人都会变成怪物。变体：怪物形态随方框中人数变化。",
+   "interaction": [
+    "hand-body",
+    "location-geo",
+    "game-play"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Semblance AR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "A_WvPrCOPcg",
+    "url": "https://www.youtube.com/watch?v=A_WvPrCOPcg"
+   },
+   "source_url": "http://monstarisland.wordpress.com/"
+  },
+  {
+   "id": "john-craig-freeman--eeg-ar-things-we-have-lost",
+   "creator_ids": [
+    "john-craig-freeman"
+   ],
+   "title": "EEG AR: Things We Have Lost",
+   "year": 2012,
+   "description": "People are asked what they have lost; wearing an EEG headset, they concentrate to make the lost object appear in AR at the site, from Liverpool to LACMA's MacArthur Park.",
+   "description_zh": "艺术家询问路人失去了什么；戴上 EEG 脑电头环后，他们只要集中注意力，那件失物就会以 AR 形式出现在现场，从利物浦一直做到洛杉矶县立美术馆的麦克阿瑟公园。",
+   "idea_en": "Summon something you lost into the world with the power of your attention.",
+   "idea_zh": "用你的专注力，把失去的东西召唤回现实世界。",
+   "technique": "A consumer EEG headset streams an attention value; above a threshold, a pre-modelled 3D object from the interviews is spawned at the geolocation in a mobile AR app.",
+   "technique_zh": "消费级 EEG 头环实时输出注意力数值，超过阈值时，就在移动 AR 应用中于该地理位置生成根据访谈预先建模的 3D 物体。",
+   "exercise_en": "Collect three 'lost things' from classmates, model them, and make them appear in phone AR only after a concentration timer (hold still, stare, or breathe slowly). Twist: use a real EEG or heart-rate sensor.",
+   "exercise_zh": "向同学征集三件“失去的东西”，建模后让它们只在专注计时结束后出现在手机 AR 中（保持不动、凝视或缓慢呼吸）。变体：接入真实的 EEG 或心率传感器。",
+   "interaction": [
+    "gaze-attention",
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone",
+    "wearable"
+   ],
+   "tech": [
+    "EEG headset",
+    "Layar"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "mfNXrBIyvYo",
+    "url": "https://www.youtube.com/watch?v=mfNXrBIyvYo"
+   },
+   "source_url": "https://johncraigfreeman.wordpress.com/"
+  },
+  {
+   "id": "john-craig-freeman--tiananmen-squared",
+   "creator_ids": [
+    "john-craig-freeman"
+   ],
+   "title": "Tiananmen SquARed",
+   "year": 2011,
+   "description": "The Goddess of Democracy statue and Tank Man from the 1989 Tiananmen protests reappear in AR at the ICA Boston, Union Square and Wall Street, and virtually in Tiananmen Square itself.",
+   "description_zh": "1989 年天安门抗议中的“民主女神”雕像和“坦克人”以 AR 形式重现在波士顿当代艺术馆、联合广场、华尔街，也虚拟地回到天安门广场。",
+   "idea_en": "Re-install a censored image at the exact coordinates where it cannot be shown.",
+   "idea_zh": "在无法展示某个被审查图像的坐标上，把它重新“安装”回去。",
+   "technique": "3D models of the statue and the tank-and-man scene are published as geolocated points of interest in a mobile AR browser, placed at multiple coordinates at once, credited to the collective 4Gentlemen.",
+   "technique_zh": "把雕像和坦克人场景做成 3D 模型，作为地理定位兴趣点发布在移动 AR 浏览器中，同时放在多个坐标上；署名为 4Gentlemen 小组。",
+   "exercise_en": "Pick an image that was removed from a public place and restore it there in phone AR at its original scale. Twist: make it visible only on an anniversary date.",
+   "exercise_zh": "选一个曾被从公共场所移除的图像，用手机 AR 以原尺寸把它放回原处。变体：只在周年纪念日那天可见。",
+   "interaction": [
+    "location-geo",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "s7JSUAJXvUY",
+    "url": "https://www.youtube.com/watch?v=s7JSUAJXvUY"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "john-craig-freeman--water-wars",
+   "creator_ids": [
+    "john-craig-freeman"
+   ],
+   "title": "Water wARs",
+   "year": 2011,
+   "description": "In front of the Venice Biennale's main pavilion, virtual shanty pavilions appear for undocumented artists, squatters and future water-war refugees.",
+   "description_zh": "在威尼斯双年展主展馆前，出现了一片为无证艺术家、占屋者和未来“水战争”难民搭建的虚拟棚屋展馆。",
+   "idea_en": "Squat the most exclusive art venue with shelters for those it excludes.",
+   "idea_zh": "用给被排斥者的避难所，去“占领”最排外的艺术场地。",
+   "technique": "Low-poly shelter models are geolocated in the Giardini through a mobile AR browser, as part of Manifest.AR's uninvited 2011 intervention.",
+   "technique_zh": "作为 Manifest.AR 2011 年不请自来的介入行动一部分，在移动 AR 浏览器中把低多边形的棚屋模型定位在绿园城堡。",
+   "exercise_en": "Design an AR 'unofficial pavilion' for a group excluded from a campus space and place it at the entrance of that space. Twist: visitors can add a room to it.",
+   "exercise_zh": "为某个被排斥在校园某空间外的群体设计一个 AR“非官方展馆”，放在那个空间的入口。变体：参观者可以给它加盖一间房。",
+   "interaction": [
+    "location-geo",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hI-ChNSjnkM",
+    "url": "https://www.youtube.com/watch?v=hI-ChNSjnkM"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "john-craig-freeman--hans-richtar",
+   "creator_ids": [
+    "john-craig-freeman",
+    "will-pappenheimer"
+   ],
+   "title": "Hans RichtAR",
+   "year": 2013,
+   "description": "In LACMA's Hans Richter exhibition, iPads show floating abstract forms inspired by Richter's avant-garde films moving through the gallery around the real works.",
+   "description_zh": "在洛杉矶县立美术馆的 Hans Richter 展览中，iPad 画面里漂浮着受 Richter 先锋电影启发的抽象形体，在真实作品周围的展厅中游移。",
+   "idea_en": "Let an abstract film escape the screen and move through the museum.",
+   "idea_zh": "让一部抽象电影逃出银幕，在美术馆里游走。",
+   "technique": "Animated geometric shapes, likely modelled on Rhythmus 21, are placed in the gallery as geolocated or image-anchored augments viewed on tablets.",
+   "technique_zh": "动画几何形体（很可能参照 Rhythmus 21）被放进展厅，作为地理定位或图像锚定的增强内容，用平板观看。",
+   "exercise_en": "Choose a short abstract animation and rebuild its shapes as 3D objects that fly around a real room with plane detection. Twist: sync their rhythm to music playing in the room.",
+   "exercise_zh": "选一段短的抽象动画，把其中的形体重建为 3D 物体，借助平面检测在真实房间里飞舞。变体：让它们的节奏与房间里播放的音乐同步。",
+   "interaction": [
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "iPad"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "B2xaxwvOEp0",
+    "url": "https://www.youtube.com/watch?v=B2xaxwvOEp0"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "john-craig-freeman--school-shootings-emorial",
+   "creator_ids": [
+    "john-craig-freeman"
+   ],
+   "title": "School Shootings eMorial",
+   "year": 2013,
+   "description": "Made with Greg Ulmer for Manifest.AR at the Corcoran, a virtual memorial for victims of US school shootings appears in AR in Washington, D.C., in sight of the Capitol.",
+   "description_zh": "与 Greg Ulmer 合作、为 Manifest.AR 在科克伦美术馆展出而作：一座献给美国校园枪击案遇难者的虚拟纪念碑，以 AR 形式出现在华盛顿、国会大厦视野之内。",
+   "idea_en": "A memorial placed where the policy decisions are made.",
+   "idea_zh": "把纪念碑放在做出政策决定的地方。",
+   "technique": "A 3D memorial composed from victim data is geolocated near the National Mall and viewed on smartphones through a mobile AR browser.",
+   "technique_zh": "由遇难者数据组成的 3D 纪念碑被地理定位在国家广场附近，通过移动 AR 浏览器在智能手机上观看。",
+   "exercise_en": "Design an AR memorial for an issue your class cares about and place it facing the decision-making building on campus. Twist: add one element per new news report.",
+   "exercise_zh": "为全班关心的一个议题设计 AR 纪念碑，放在校园里做决策的建筑对面。变体：每出现一则相关新闻就增加一个元素。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "lIOIW9_xHi0",
+    "url": "https://www.youtube.com/watch?v=lIOIW9_xHi0"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "john-craig-freeman--portal-to-an-alternative-reality",
+   "creator_ids": [
+    "john-craig-freeman"
+   ],
+   "title": "Portal to an Alternative Reality",
+   "year": 2017,
+   "description": "At Boston's Chinatown subway station, a portal opens onto photogrammetric scenes of Wuhan and Saint Petersburg, linking immigrant neighbourhoods to distant cities.",
+   "description_zh": "在波士顿唐人街地铁站，一扇传送门打开，通往用摄影测量重建的武汉和圣彼得堡街景，把移民社区与遥远城市相连。",
+   "idea_en": "A transit stop becomes a doorway to another city.",
+   "idea_zh": "一个公交站变成通往另一座城市的门。",
+   "technique": "Photogrammetry scans of real streets are placed behind a portal plane in a mobile AR app so viewers step through a subway entrance into a 3D replica.",
+   "technique_zh": "把真实街道的摄影测量扫描放在移动 AR 应用中的传送门平面之后，观众穿过地铁入口就走进 3D 复制的街景。",
+   "exercise_en": "Scan a place that matters to a classmate's family with a phone photogrammetry app and put it behind an AR doorway on campus. Twist: add their recorded voice as the portal's guide.",
+   "exercise_zh": "用手机摄影测量应用扫描对某位同学家人有意义的地方，把它放在校园里的一扇 AR 门后。变体：用他们录制的声音做传送门的向导。",
+   "interaction": [
+    "portal-world",
+    "location-geo"
+   ],
+   "platform": [
+    "phone",
+    "headset"
+   ],
+   "tech": [
+    "photogrammetry",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "bZ9fOWJPE2k",
+    "url": "https://www.youtube.com/watch?v=bZ9fOWJPE2k"
+   },
+   "source_url": "https://johncraigfreeman.wordpress.com/"
+  },
+  {
+   "id": "john-craig-freeman--14th-and-ar",
+   "creator_ids": [
+    "john-craig-freeman"
+   ],
+   "title": "14th & AR",
+   "year": 2014,
+   "description": "For Art in Odd Places on 14th Street, New York, ordinary street furniture such as a telephone booth, fire hydrant and newsstand is doubled or transformed in AR.",
+   "description_zh": "在纽约第 14 街的 Art in Odd Places 活动中，电话亭、消防栓、报亭等普通街道设施在 AR 中被复制或变形。",
+   "idea_en": "Treat overlooked street furniture as monuments.",
+   "idea_zh": "把被忽视的街道设施当作纪念碑来对待。",
+   "technique": "Photogrammetric scans of the street objects are geolocated back at or near their original spots in a mobile AR app, likely with animated distortions.",
+   "technique_zh": "把这些街道物件的摄影测量扫描，在移动 AR 应用中定位回原处或附近，很可能附带动画变形。",
+   "exercise_en": "Scan a boring campus object with photogrammetry and re-place it in AR next to the original, but giant, melting or multiplied. Twist: passers-by vote which version stays.",
+   "exercise_zh": "用摄影测量扫描一个无聊的校园物件，在 AR 中把它放回原物旁边，但变得巨大、融化或成倍复制。变体：路人投票决定留下哪个版本。",
+   "interaction": [
+    "location-geo",
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "photogrammetry",
+    "Layar"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "rVzIEmdBdQs",
+    "url": "https://www.youtube.com/watch?v=rVzIEmdBdQs"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "john-craig-freeman--sfmoma-ar",
+   "creator_ids": [
+    "john-craig-freeman",
+    "will-pappenheimer"
+   ],
+   "title": "SFMOMA AR",
+   "year": 2013,
+   "description": "An 'app-arition' by John Craig Freeman and Will Pappenheimer reimagines SFMOMA's future expansion as animated architecture and art that visitors see on the site with a phone.",
+   "description_zh": "John Craig Freeman 与 Will Pappenheimer 的“应用幽灵”，把 SFMOMA 未来扩建想象成会动的建筑和艺术，观众用手机在现场观看。",
+   "idea_en": "Preview a building that does not exist yet as a playful ghost on its site.",
+   "idea_zh": "把一座还不存在的建筑，以俏皮的幽灵形式在原址预演。",
+   "technique": "Animated 3D architectural fragments and artworks are geolocated around the museum construction site in a mobile AR app with interactive triggers.",
+   "technique_zh": "动画 3D 建筑片段和艺术品被地理定位在美术馆施工现场周围，通过带交互触发的移动 AR 应用观看。",
+   "exercise_en": "Pick a construction site or empty lot and build a phone-AR proposal of what should be built there. Twist: the proposal grows a new part each time someone taps it.",
+   "exercise_zh": "选一个工地或空地，用手机 AR 做一个“这里应该盖什么”的提案。变体：每次有人点击，提案就长出新的一部分。",
+   "interaction": [
+    "location-geo",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR app",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "uWHUORR206s",
+    "url": "https://www.youtube.com/watch?v=uWHUORR206s"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "will-pappenheimer--ows-bufo-colony",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Occupy Wall Street Bufo Colony",
+   "year": 2011,
+   "description": "A colony of AR toads breaches the barricades at the NYSE, each carrying a pie chart of wealth distribution, and clumps over the Zuccotti Park drum circle around a giant 'uber toad'.",
+   "description_zh": "一群 AR 蟾蜍越过纽交所的路障，每只头上漂浮着一张财富分配饼图，并在祖科蒂公园的鼓圈上方聚成一团，围着一只巨大的“超级蟾蜍”。",
+   "idea_en": "Absurd creatures carry hard data into a protest space.",
+   "idea_zh": "让荒诞的生物把硬数据带进抗议现场。",
+   "technique": "Animated toad models with attached chart billboards are geolocated at Wall Street and Zuccotti Park in a mobile AR browser, part of the Virta-Flaneurazine series.",
+   "technique_zh": "带有图表广告牌的动画蟾蜍模型被地理定位在华尔街和祖科蒂公园，通过移动 AR 浏览器观看，属于 Virta-Flaneurazine 系列。",
+   "exercise_en": "Pick a statistic about your campus and attach it to a swarm of small AR creatures that crowd around the relevant building. Twist: the swarm grows as the number gets worse.",
+   "exercise_zh": "选一个关于校园的统计数据，把它挂在一群小 AR 生物身上，让它们聚集在相关建筑周围。变体：数据越糟，生物越多。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "-vVowQQbq6w",
+    "url": "https://www.youtube.com/watch?v=-vVowQQbq6w"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "will-pappenheimer--skywrite-ceci-nest-pas-une-pipe",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Skywrite AR: Ceci n'est pas une pipe",
+   "year": 2012,
+   "description": "Over the Louvre and Notre Dame, Magritte's phrase 'Ceci n'est pas une pipe' is written across the sky in AR smoke letters.",
+   "description_zh": "在卢浮宫和巴黎圣母院上空，马格利特的名句“这不是一只烟斗”以 AR 烟雾字母写在天上。",
+   "idea_en": "Skywriting without a plane: a message in the sky only phones can read.",
+   "idea_zh": "不用飞机的空中写字：只有手机能读到的天空留言。",
+   "technique": "Text is rendered as smoky 3D letters and placed high above landmark coordinates as geolocated points of interest in a mobile AR browser.",
+   "technique_zh": "把文字渲染成烟雾状 3D 字母，作为地理定位兴趣点放在地标坐标的高空，通过移动 AR 浏览器观看。",
+   "exercise_en": "Write a one-line statement as AR skywriting above a campus building using sky segmentation or a far-anchored object. Twist: the letters slowly drift and dissolve like real smoke.",
+   "exercise_zh": "用天空分割或远处锚定的物体，在校园建筑上空写一句 AR 空中文字。变体：字母像真正的烟一样慢慢飘散。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "-1JWsNoqzbA",
+    "url": "https://www.youtube.com/watch?v=-1JWsNoqzbA"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "will-pappenheimer--sky-petition-city",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Sky Petition City",
+   "year": 2013,
+   "description": "Citizens' petitions are skywritten by a virtual plane in the air above centres of power such as the Capitol and the Pentagon.",
+   "description_zh": "市民的请愿内容由一架虚拟飞机写在国会大厦、五角大楼等权力中心上空。",
+   "idea_en": "Turn online petitions into skywriting over the institutions they address.",
+   "idea_zh": "把网络请愿变成写在被请愿机构上空的字。",
+   "technique": "With developer Zachary Brady, submitted petition text is rendered as a trail behind an animated plane geolocated above the target building in a mobile AR app.",
+   "technique_zh": "与开发者 Zachary Brady 合作，把提交的请愿文字渲染成一架动画飞机拖出的尾迹，地理定位在目标建筑上空，用移动 AR 应用观看。",
+   "exercise_en": "Collect short requests from classmates via a form and make an AR plane write them above the administration building. Twist: only petitions with ten supporters get written.",
+   "exercise_zh": "用表单收集同学的简短诉求，让一架 AR 飞机把它们写在行政楼上空。变体：只有获得十人支持的诉求才会被写出来。",
+   "interaction": [
+    "location-geo",
+    "multiplayer-social",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR app",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "5UvA9DjWRRA",
+    "url": "https://www.youtube.com/watch?v=5UvA9DjWRRA"
+   },
+   "source_url": "http://www.willpap-projects.com/Sky_Petition_City/Sky_Petition_City.html"
+  },
+  {
+   "id": "will-pappenheimer--parking-lot-decorator",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Parking Lot Decorator",
+   "year": 2012,
+   "description": "For the ZERO1 Biennial, the huge, dull parking lots around Silicon Valley tech campuses can be decorated with fantastic colour through a phone.",
+   "description_zh": "在 ZERO1 双年展上，硅谷科技园区周围巨大而乏味的停车场，可以通过手机被装点上奇幻的色彩。",
+   "idea_en": "Let anyone repaint the most boring corporate space.",
+   "idea_zh": "让任何人都能重新粉刷最无聊的企业空间。",
+   "technique": "Colourful patterns and objects are geolocated over large parking-lot areas in a mobile AR browser, with viewers choosing which decorations appear.",
+   "technique_zh": "在移动 AR 浏览器中，把彩色图案和物件定位在大片停车场上空，由观众选择出现哪些装饰。",
+   "exercise_en": "Use plane detection to let users paint giant patterns onto a parking lot or empty plaza in AR. Twist: the patterns are generated from the car colours the camera sees.",
+   "exercise_zh": "用平面检测让用户在停车场或空旷广场上用 AR 涂出巨大的图案。变体：图案根据相机看到的汽车颜色自动生成。",
+   "interaction": [
+    "location-geo",
+    "drawing-creation"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "mdrzvbW3hbc",
+    "url": "https://www.youtube.com/watch?v=mdrzvbW3hbc"
+   },
+   "source_url": "http://manifestarblog.wordpress.com/manifestar-zero1-biennial-2012/"
+  },
+  {
+   "id": "will-pappenheimer--vision-funnels",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Vision Funnels",
+   "year": 2012,
+   "description": "At LACMA, nested AR frames open like funnels in the museum's walls and plazas, pulling the viewer's gaze into tunnel-like views of the architecture.",
+   "description_zh": "在洛杉矶县立美术馆，层层嵌套的 AR 画框像漏斗一样在墙面和广场上打开，把观众的视线引入隧道般的建筑景象。",
+   "idea_en": "A frame within a frame turns any wall into a telescope.",
+   "idea_zh": "框中之框，把任何一面墙变成望远镜。",
+   "technique": "Concentric rectangular frames are likely placed as geolocated 3D augments at fixed spots around the museum, viewed on tablets as part of the Project-O-rators series.",
+   "technique_zh": "同心矩形画框很可能作为地理定位的 3D 增强内容放在美术馆周围的固定位置，用平板观看，属于 Project-O-rators 系列。",
+   "exercise_en": "Build a recursive AR frame (a frame containing a render of itself) on a wall with image tracking. Twist: the funnel shows the live camera feed from behind the wall.",
+   "exercise_zh": "用图像追踪在墙上做一个递归 AR 画框（框里渲染着它自己）。变体：漏斗里显示墙后面的实时摄像画面。",
+   "interaction": [
+    "perception-art",
+    "portal-world",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "iPad"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "kS4STKdk90s",
+    "url": "https://www.youtube.com/watch?v=kS4STKdk90s"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "will-pappenheimer--mymirrorcity-basel",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "MyMirrorCity",
+   "year": 2014,
+   "description": "Visitors to Basel's Marktplatz decorate the square's buildings with their selfies, continuing the fresco tradition of the painted town hall.",
+   "description_zh": "巴塞尔集市广场的游客用自拍装饰广场四周的建筑，延续市政厅外墙壁画的传统。",
+   "idea_en": "Selfies become the new civic frescoes.",
+   "idea_zh": "自拍成为新的市政壁画。",
+   "technique": "User photos are uploaded and mapped as image panels onto geolocated building facades in a mobile AR app for Virtuale Switzerland.",
+   "technique_zh": "为 Virtuale Switzerland 展而作：用户上传的照片被映射成图像面板，贴在移动 AR 应用中地理定位的建筑立面上。",
+   "exercise_en": "Let visitors take a selfie and place it as an AR mural on a campus facade using image or plane tracking. Twist: each new selfie pushes the oldest one off the wall.",
+   "exercise_zh": "让参观者拍一张自拍，用图像或平面追踪把它作为 AR 壁画贴在校园建筑立面上。变体：每张新自拍会把最早的那张挤下墙。",
+   "interaction": [
+    "location-geo",
+    "multiplayer-social",
+    "face"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR app",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "H7M6ogeE1NA",
+    "url": "https://www.youtube.com/watch?v=H7M6ogeE1NA"
+   },
+   "source_url": "http://virtualeswitzerland.wordpress.com/"
+  },
+  {
+   "id": "will-pappenheimer--ascension-of-cod",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Ascension of Cod",
+   "year": 2017,
+   "description": "At Salem Maritime National Historic Site, a great school of cod rises into the sky, a monument to the fish that built New England's economy and then collapsed.",
+   "description_zh": "在塞勒姆海事国家历史遗址，一大群鳕鱼升上天空，纪念曾支撑新英格兰经济、后来崩溃的鱼群。",
+   "idea_en": "An ecological collapse rendered as a heavenly ascension.",
+   "idea_zh": "把一场生态崩溃表现为一次“升天”。",
+   "technique": "Animated flocking cod models are geolocated above the historic wharf and viewed live on iPads for Boston Cyberarts' The Augmented Landscape.",
+   "technique_zh": "为 Boston Cyberarts 的 The Augmented Landscape 展而作：群游的鳕鱼动画模型被定位在历史码头上空，用 iPad 实时观看。",
+   "exercise_en": "Make a flocking (boids) AR swarm of a species that has declined locally and let it rise above a campus landmark. Twist: the swarm size matches historical population data.",
+   "exercise_zh": "用群集（boids）算法做一群在本地减少的物种的 AR 集群，让它们从校园地标上空升起。变体：集群数量对应历史种群数据。",
+   "interaction": [
+    "location-geo",
+    "perception-art",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR app",
+    "iPad"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "17TmoUSiKdw",
+    "url": "https://www.youtube.com/watch?v=17TmoUSiKdw"
+   },
+   "source_url": "http://bostoncyberarts.org/the-augmented-landscape/"
+  },
+  {
+   "id": "will-pappenheimer--pool-scratch",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Pool Scratch",
+   "year": 2018,
+   "description": "An unofficial AR installation at the Guggenheim: a floating pool with a medieval Norse game character performing a motion-captured dance by Freya Björg Olafson.",
+   "description_zh": "在古根海姆美术馆的一次非官方 AR 装置：一座漂浮的泳池里，一个中世纪北欧游戏角色跳着由 Freya Björg Olafson 动作捕捉的舞。",
+   "idea_en": "Drop a game character's dance into a museum that never invited it.",
+   "idea_zh": "把游戏角色的舞蹈放进一座从未邀请它的美术馆。",
+   "technique": "A motion-capture dance is retargeted onto a game character inside a 3D pool model that is anchored in the rotunda in a mobile AR app from the ACTIVATAR show.",
+   "technique_zh": "把动作捕捉的舞蹈重定向到游戏角色上，放在 3D 泳池模型里，通过 ACTIVATAR 展的移动 AR 应用锚定在圆形大厅中。",
+   "exercise_en": "Record a classmate's dance with a free mocap tool (e.g. phone video to animation), retarget it onto a game avatar and place it in AR in an unexpected space. Twist: the avatar dances only when music is detected.",
+   "exercise_zh": "用免费的动作捕捉工具（如手机视频转动画）录下同学的舞蹈，重定向到游戏化身上，放在意想不到的空间里。变体：只有检测到音乐时化身才跳舞。",
+   "interaction": [
+    "performance-stage",
+    "location-geo",
+    "hand-body"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "motion capture",
+    "mobile AR app"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FvRLh9bwRd8",
+    "url": "https://www.youtube.com/watch?v=FvRLh9bwRd8"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "will-pappenheimer--repairs",
+   "creator_ids": [
+    "will-pappenheimer"
+   ],
+   "title": "Repairs",
+   "year": 2021,
+   "description": "A mixed-reality installation where domestic objects on a shelving unit are 'repaired' by AR dancers, motion-captured performances by Freya Björg Olafson viewed on iPad.",
+   "description_zh": "一件混合现实装置：架子上的家用物件被 AR 舞者“修补”，舞者是 Freya Björg Olafson 的动作捕捉表演，用 iPad 观看。",
+   "idea_en": "Virtual bodies tending to real, broken household things.",
+   "idea_zh": "虚拟的身体照料着真实而破损的家用物件。",
+   "technique": "An iOS AR app anchors motion-captured dancers to physical objects on a formica shelf, likely using image or object tracking.",
+   "technique_zh": "iOS AR 应用把动作捕捉的舞者锚定在福米卡贴面架子上的实物上，很可能使用图像或物体追踪。",
+   "exercise_en": "Bring a broken object from home, scan or image-track it, and attach a tiny AR character that performs a 'repair' ritual on it. Twist: the ritual differs for each object's story.",
+   "exercise_zh": "从家里带来一件坏掉的物品，扫描或用图像追踪它，给它配一个小小的 AR 角色，在它身上完成一场“修补”仪式。变体：仪式根据每件物品的故事而不同。",
+   "interaction": [
+    "tangible-object",
+    "performance-stage"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "motion capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "keEhVfejlC4",
+    "url": "https://www.youtube.com/watch?v=keEhVfejlC4"
+   },
+   "source_url": "http://www.willpap-projects.com"
+  },
+  {
+   "id": "tamiko-thiel--reign-of-gold",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "Reign of Gold",
+   "year": 2011,
+   "description": "In front of the New York Stock Exchange, a rain of US gold eagle coins surrounds the viewer and their object of protest, part of the AR Occupy Wall Street project.",
+   "description_zh": "在纽约证券交易所门前，一场美国金鹰金币雨将观众和他们抗议的对象包围，属于 AR Occupy Wall Street 项目。",
+   "idea_en": "Make the abstract flow of money a literal downpour around you.",
+   "idea_zh": "把抽象的资金流动变成围绕你的一场真实的“雨”。",
+   "technique": "A particle-like field of animated coin models is geolocated around the viewer's position in a mobile AR browser, so it can be carried to any protest site.",
+   "technique_zh": "在移动 AR 浏览器中，把类似粒子场的金币动画模型定位在观众周围，因此可以被带到任何抗议现场。",
+   "exercise_en": "Make a location-independent AR particle rain of a symbolic object (coins, receipts, leaves) around the viewer. Twist: the rain rate follows a live stock or climate index.",
+   "exercise_zh": "做一场不依赖地点、围绕观众的 AR 粒子雨，雨滴是某种象征物（硬币、收据、树叶）。变体：雨量跟随实时股价或气候指数变化。",
+   "interaction": [
+    "location-geo",
+    "perception-art",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "qRJd8QzLpx8",
+    "url": "https://www.youtube.com/watch?v=qRJd8QzLpx8"
+   },
+   "source_url": "http://www.mission-base.com/tamiko/AR/reign-of-gold.html"
+  },
+  {
+   "id": "tamiko-thiel--jasmine-rain-birdcage",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "Jasmine Rain (birdcage)",
+   "year": 2011,
+   "description": "A birdcage of falling jasmine blossoms, a symbol of the Arab Spring, is placed uninvited in MoMA's atrium, and also in Tahrir Square, Tiananmen Square and other sites.",
+   "description_zh": "一个由飘落茉莉花组成的鸟笼（阿拉伯之春的象征）不请自来地出现在 MoMA 中庭，也出现在解放广场、天安门广场等地。",
+   "idea_en": "One symbolic object installed simultaneously in a museum and in sites of revolution.",
+   "idea_zh": "同一件象征物，同时装进美术馆和革命现场。",
+   "technique": "The same animated 3D sculpture is published at multiple geolocations in a mobile AR browser, so it exists in several cities at once.",
+   "technique_zh": "把同一件动画 3D 雕塑发布到移动 AR 浏览器的多个地理坐标上，让它同时存在于多座城市。",
+   "exercise_en": "Create one small AR sculpture and publish it at three distant locations with friends in other cities, then compare photos. Twist: each location changes its colour based on local news.",
+   "exercise_zh": "做一件小型 AR 雕塑，和其他城市的朋友一起把它发布到三个遥远的地点，再比较照片。变体：每个地点的颜色根据当地新闻变化。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "AzRVOqtq8M0",
+    "url": "https://www.youtube.com/watch?v=AzRVOqtq8M0"
+   },
+   "source_url": "http://mission-base.com/tamiko/AR/jasmine-rain.html"
+  },
+  {
+   "id": "tamiko-thiel--invisible-istanbul-captured",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "Invisible Istanbul: Captured (for #RSF_RWB)",
+   "year": 2011,
+   "description": "Tweets from Reporters Without Borders, with every meaningful word censored, are animated on the inside of a sphere that surrounds the viewer in Istanbul.",
+   "description_zh": "来自无国界记者组织的推文，所有有实际意义的词都被审查涂黑，在伊斯坦布尔以动画形式排列在包围观众的球体内壁上。",
+   "idea_en": "Put the viewer inside a bubble of censored speech.",
+   "idea_zh": "把观众放进一个被审查言论组成的气泡里。",
+   "technique": "Censored tweet text is mapped as animated textures onto the inner surface of a sphere geolocated around the viewer in a mobile AR browser, for ISEA2011 at the Istanbul Biennale.",
+   "technique_zh": "为伊斯坦布尔双年展期间的 ISEA2011 而作：把被审查的推文文字作为动画纹理贴在球体内壁上，并在移动 AR 浏览器中定位到观众周围。",
+   "exercise_en": "Build a WebXR or phone-AR sphere around the viewer covered with live text from a feed, with keywords blacked out. Twist: blacked-out words reveal themselves when the viewer stands still.",
+   "exercise_zh": "用 WebXR 或手机 AR 在观众周围做一个球体，内壁布满来自某个信息流的实时文字，关键词被涂黑。变体：观众站着不动时，被涂黑的词会显露出来。",
+   "interaction": [
+    "data-information",
+    "portal-world",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "Twitter API"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "72u8gwJvcQs",
+    "url": "https://www.youtube.com/watch?v=72u8gwJvcQs"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "tamiko-thiel--all-hail-damien-hirst",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "All Hail Damien Hirst",
+   "year": 2012,
+   "description": "During Damien Hirst's Tate Modern retrospective, a hail of Diamond Jubilee gold sovereigns pours down on the museum and on Hirst's own sculpture Hymn outside.",
+   "description_zh": "在达米恩·赫斯特于泰特现代美术馆举办回顾展期间，一场钻石禧年金币的“冰雹”倾泻在美术馆和门外赫斯特的雕塑 Hymn 上。",
+   "idea_en": "A pun turned into weather: art-market money literally hailing on the star artist.",
+   "idea_zh": "把双关语变成天气：艺术市场的钱真的像冰雹一样砸在明星艺术家身上。",
+   "technique": "Animated gold coin models are geolocated as a falling field above and around Tate Modern in a mobile AR browser.",
+   "technique_zh": "在移动 AR 浏览器中，把动画金币模型作为下落的粒子场，定位在泰特现代美术馆上空和周围。",
+   "exercise_en": "Pick a pun about a place or person and build a phone-AR 'weather' effect that makes it literal. Twist: the effect intensifies when more visitors are counted.",
+   "exercise_zh": "选一个关于某地或某人的双关语，用手机 AR 做一种让它“成真”的天气效果。变体：统计到的参观者越多，效果越强。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "On417tdUxFA",
+    "url": "https://www.youtube.com/watch?v=On417tdUxFA"
+   },
+   "source_url": "http://www.allhaildamienhirst.com/"
+  },
+  {
+   "id": "tamiko-thiel--transformation-marping-lehel",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "Transformation: mARping Lehel",
+   "year": 2012,
+   "description": "In Munich's Lehel neighbourhood, AR waterwheels turn where old streams once crossed the streets, alongside other visions of a sustainable city 30 years from now.",
+   "description_zh": "在慕尼黑的 Lehel 街区，AR 水车在旧时溪流穿过街道的位置转动，与其他关于 30 年后可持续城市的想象并置。",
+   "idea_en": "Map the invisible history and possible future of a neighbourhood onto its streets.",
+   "idea_zh": "把一个街区看不见的历史与可能的未来，映射到它的街道上。",
+   "technique": "Historical stream maps are used to geolocate animated 3D waterwheels and future-city objects in a mobile AR browser across the district.",
+   "technique_zh": "根据历史溪流地图，在移动 AR 浏览器中把动画 3D 水车和未来城市物件地理定位到整个街区。",
+   "exercise_en": "Find an old map of your campus area, locate a lost stream, path or building, and place an AR marker of it at the exact spot. Twist: add a second layer showing what could be there in 2050.",
+   "exercise_zh": "找一张校园周边的老地图，定位一条消失的溪流、小路或建筑，在准确位置放一个 AR 标记。变体：再加一层，展示 2050 年那里可能出现的东西。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "VbbOzKc2n98",
+    "url": "https://www.youtube.com/watch?v=VbbOzKc2n98"
+   },
+   "source_url": "https://manifestarblog.wordpress.com/"
+  },
+  {
+   "id": "tamiko-thiel--waterlily-invasion",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "Waterlily Invasion",
+   "year": 2014,
+   "description": "Mutated AR water lilies that feed on the mediated human gaze grow and engulf viewers who keep looking at them through their phones.",
+   "description_zh": "变异的 AR 睡莲以人类透过屏幕的凝视为食，谁盯着它们看得越久，就会被长大的睡莲吞没。",
+   "idea_en": "The more you look, the bigger it grows.",
+   "idea_zh": "你看得越久，它长得越大。",
+   "technique": "A geolocated plant model scales up over time while it stays in the camera view, likely using the AR browser's focus or distance events.",
+   "technique_zh": "地理定位的植物模型只要保持在相机画面中就会随时间放大，很可能利用了 AR 浏览器的聚焦或距离事件。",
+   "exercise_en": "Make an AR plant that grows only while it is in the centre of the camera view and shrinks when ignored. Twist: it spreads to a new spot when two people look at it at once.",
+   "exercise_zh": "做一株只在处于相机画面中心时才生长、被忽视时会缩小的 AR 植物。变体：两个人同时看它时，它会蔓延到新的位置。",
+   "interaction": [
+    "gaze-attention",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "B1wVL_YSodE",
+    "url": "https://www.youtube.com/watch?v=B1wVL_YSodE"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "tamiko-thiel--i-am-sound",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "I am Sound",
+   "year": 2016,
+   "description": "Your face, captured by a camera, is projected as a fractured cubist portrait on a curtain of metal plates that is also a 12-tone metallophone, which plays a composition generated from your face.",
+   "description_zh": "摄像头捕捉你的脸，把它投影成一幅破碎的立体主义肖像，投在一排金属板组成的“帘子”上，而这排金属板本身就是一台十二音金属琴，会演奏根据你的脸生成的乐曲。",
+   "idea_en": "Your face becomes a musical score played on the screen that shows it.",
+   "idea_zh": "你的脸变成乐谱，由显示它的那块“屏幕”演奏出来。",
+   "technique": "Face detection extracts features that are mapped to notes struck on real metal plates, while the video is projected onto those same plates so the vibration shakes the image.",
+   "technique_zh": "用人脸检测提取特征并映射为音符，敲击真实的金属板；同时把影像投影到这些金属板上，振动会让画面随之颤动。",
+   "exercise_en": "Use a webcam face-tracking sketch (p5.js or TouchDesigner) to turn facial landmarks into notes and project the face onto a surface. Twist: two faces together play a duet.",
+   "exercise_zh": "用网络摄像头的人脸追踪草图（p5.js 或 TouchDesigner）把面部关键点转成音符，并把人脸投影到一个表面上。变体：两张脸一起出现时演奏二重奏。",
+   "interaction": [
+    "face",
+    "voice-sound",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "face detection",
+    "metallophone",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "d66v3GFFEtU",
+    "url": "https://www.youtube.com/watch?v=d66v3GFFEtU"
+   },
+   "source_url": "http://www.mission-base.com/i-am-sound/"
+  },
+  {
+   "id": "tamiko-thiel--unexpected-growth",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "Unexpected Growth",
+   "year": 2018,
+   "description": "Commissioned by the Whitney Museum, a coral-reef-like growth made of plastic trash spreads over the museum's terrace, as if the sea had risen and the reef had adapted to our waste.",
+   "description_zh": "惠特尼美术馆委托作品：一片由塑料垃圾构成、形似珊瑚礁的生长物在美术馆露台上蔓延，仿佛海平面已经上升，珊瑚礁适应了我们的垃圾。",
+   "idea_en": "A future ecosystem built from our garbage, growing on a museum terrace.",
+   "idea_zh": "一个由我们的垃圾长成的未来生态系统，就长在美术馆露台上。",
+   "technique": "A mobile AR app anchors procedurally varied plastic-coral models to the terrace, and the growth likely changes with the time of day.",
+   "technique_zh": "移动 AR 应用把经过程序化变化的塑料珊瑚模型锚定在露台上，生长状态很可能随一天中的时间变化。",
+   "exercise_en": "Scan a few pieces of real packaging trash, turn them into 3D models and build an AR 'reef' that grows across a floor with plane detection. Twist: the reef grows faster when it rains.",
+   "exercise_zh": "扫描几件真实的包装垃圾，转成 3D 模型，用平面检测做一片在地面上蔓延的 AR“珊瑚礁”。变体：下雨时它长得更快。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "Unity"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "298681675",
+    "url": "https://vimeo.com/298681675"
+   },
+   "source_url": "https://tamikothiel.com"
+  },
+  {
+   "id": "tamiko-thiel--rewildar",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "ReWildAR",
+   "year": 2021,
+   "description": "In the rotunda of the Smithsonian Arts and Industries Building, AR plants overgrow the historic hall, a meditation on invasive species and rewilding.",
+   "description_zh": "在史密森尼艺术与工业大楼的圆形大厅里，AR 植物爬满这座历史建筑，思考外来入侵物种与“再野化”。",
+   "idea_en": "Let nature reclaim a monument to industry.",
+   "idea_zh": "让自然收复一座工业纪念建筑。",
+   "technique": "Plant models are likely anchored to the rotunda's floor and columns with plane and image tracking in a mobile AR app, spreading over the architecture.",
+   "technique_zh": "植物模型很可能通过移动 AR 应用的平面与图像追踪，锚定在圆形大厅的地面和柱子上，并在建筑上蔓延。",
+   "exercise_en": "Pick one invasive plant in your region and build an AR vine that climbs detected walls and floors in a hallway. Twist: users can 'weed' it by tapping, but it grows back somewhere else.",
+   "exercise_zh": "选一种你所在地区的入侵植物，做一株能沿着检测到的墙面和地面攀爬的 AR 藤蔓。变体：用户可以点击“除草”，但它会在别处重新长出来。",
+   "interaction": [
+    "spatial-mapping",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "Unity"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "655628879",
+    "url": "https://vimeo.com/655628879"
+   },
+   "source_url": "https://tamikothiel.com"
+  },
+  {
+   "id": "tamiko-thiel--waldwandel-forest-flux",
+   "creator_ids": [
+    "tamiko-thiel"
+   ],
+   "title": "Waldwandel / Forest Flux",
+   "year": 2023,
+   "description": "An immersive AR livestream installation, made with /p, in which Bavarian forest trees transform to show how climate change will reshape the forest, shown at Kunsthalle Munich and Chiostro del Bramante, Rome.",
+   "description_zh": "与 /p 合作的沉浸式 AR 直播装置：巴伐利亚森林中的树木不断变化，展示气候变化将如何重塑森林，曾在慕尼黑美术馆和罗马 Chiostro del Bramante 展出。",
+   "idea_en": "Watch a forest's future unfold as a live mixed-reality projection.",
+   "idea_zh": "看着一片森林的未来，以实时混合现实投影的方式展开。",
+   "technique": "An AR scene of evolving tree models is composited over a live camera feed and projected in the gallery as a livestream, based on forestry data on future species.",
+   "technique_zh": "根据关于未来树种的林业数据，把不断演变的树木模型合成到实时摄像画面上，并以直播形式投影在展厅中。",
+   "exercise_en": "Film a campus tree with a phone, composite an AR layer that ages or replaces it with a species expected in 2080, and project the live result. Twist: the audience's movement speeds up time.",
+   "exercise_zh": "用手机拍一棵校园里的树，合成一层 AR，把它变老或替换成 2080 年预计会出现的树种，并把实时结果投影出来。变体：观众的移动会加快时间流逝。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "data-information"
+   ],
+   "platform": [
+    "projection",
+    "phone"
+   ],
+   "tech": [
+    "Unity",
+    "livestream compositing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "EKYzlzC2WXU",
+    "url": "https://www.youtube.com/watch?v=EKYzlzC2WXU"
+   },
+   "source_url": "https://tamikothiel.com/waldwandel/"
+  },
+  {
+   "id": "sander-veenhof--infiltr-ar",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "infiltr.AR",
+   "year": 2011,
+   "description": "Two AR augments are placed inside the Oval Office and the Pentagon; their views are tracked live on a map to test whether anyone inside ever sees them.",
+   "description_zh": "两件 AR 作品被放进椭圆形办公室和五角大楼内部；它们被观看的记录实时显示在地图上，用来检验里面是否真的有人看到。",
+   "idea_en": "Use geo-AR to place art where no artist is allowed to go, and measure who notices.",
+   "idea_zh": "用地理 AR 把艺术放进任何艺术家都进不去的地方，并统计谁注意到了。",
+   "technique": "Augments are geolocated at the coordinates of the two buildings in the Layar browser, and each view request is logged server-side and plotted on a Google Map.",
+   "technique_zh": "在 Layar 浏览器中把作品定位到两栋建筑的坐标上，服务器记录每一次观看请求，并标注在 Google 地图上。",
+   "exercise_en": "Place an AR object inside a room on campus that students cannot enter, and log every view with a simple analytics endpoint. Twist: the object changes after its first view from inside.",
+   "exercise_zh": "在校园里学生进不去的房间内放一个 AR 物体，并用简单的统计接口记录每次观看。变体：它第一次被“里面的人”看到后就会改变。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "Google Maps"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "zai5IVT9QR4",
+    "url": "https://www.youtube.com/watch?v=zai5IVT9QR4"
+   },
+   "source_url": "http://sndrv.nl"
+  },
+  {
+   "id": "sander-veenhof--biggar",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "BiggAR",
+   "year": 2010,
+   "description": "The world's biggest interactive sculpture: 7,463,185,678 virtual blocks encapsulate the whole Earth, and anyone can change the colour of every block worldwide with one tap in the Layar app.",
+   "description_zh": "世界上最大的互动雕塑：74.6 亿个虚拟方块包裹整个地球，任何人在 Layar 应用里点一下，就能改变全球所有方块的颜色。",
+   "idea_en": "A single sculpture covering the planet that everyone shares and anyone can change.",
+   "idea_zh": "一件覆盖整个星球、人人共享、任何人都能改变的雕塑。",
+   "technique": "A server keeps one global colour state and the Layar browser generates the nearby blocks procedurally around each viewer's GPS position.",
+   "technique_zh": "服务器保存一个全球统一的颜色状态，Layar 浏览器围绕每个观众的 GPS 位置程序化生成附近的方块。",
+   "exercise_en": "Build a shared AR grid of blocks around each user with a tiny server (e.g. Firebase) storing one global colour that any user can change. Twist: the colour decays back to grey unless changed every minute.",
+   "exercise_zh": "用一个小型服务器（如 Firebase）保存一个全球颜色，在每个用户周围生成共享的 AR 方块网格，任何人都能改颜色。变体：一分钟内没人改动，颜色就会褪回灰色。",
+   "interaction": [
+    "multiplayer-social",
+    "location-geo",
+    "game-play"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "0bJJuphti-E",
+    "url": "https://www.youtube.com/watch?v=0bJJuphti-E"
+   },
+   "source_url": "http://sndrv.nl/biggar"
+  },
+  {
+   "id": "sander-veenhof--battling-pavilions",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "Battling Pavilions",
+   "year": 2011,
+   "description": "At the Venice Biennale, virtual pavilions extend the national pavilions into AR, and visitors anywhere can play a game that makes the pavilions fight for space.",
+   "description_zh": "在威尼斯双年展上，虚拟展馆把国家馆延伸到 AR 中，任何地方的访客都可以玩一个让这些展馆争夺空间的游戏。",
+   "idea_en": "Turn the competition between national pavilions into an actual game.",
+   "idea_zh": "把国家馆之间的竞争变成一场真正的游戏。",
+   "technique": "Pavilion blocks are geolocated in the Giardini in Layar, and remote and local players' actions update a shared server state that changes which pavilion occupies each spot.",
+   "technique_zh": "在 Layar 中把展馆方块定位在绿园城堡，现场和远程玩家的操作会更新共享的服务器状态，决定每个位置由哪个展馆占据。",
+   "exercise_en": "Turn a campus quad into an AR territory game where teams claim tiles by standing on them with a phone. Twist: remote players online can also claim tiles.",
+   "exercise_zh": "把校园草坪变成 AR 领地游戏，团队拿着手机站上某块地砖就能占领它。变体：线上的远程玩家也能占领。",
+   "interaction": [
+    "game-play",
+    "location-geo",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PWyA9xB4ybQ",
+    "url": "https://www.youtube.com/watch?v=PWyA9xB4ybQ"
+   },
+   "source_url": "http://sndrv.nl"
+  },
+  {
+   "id": "sander-veenhof--global-ar-dance",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "Global Augmented Reality Dance",
+   "year": 2012,
+   "description": "The typical arm-waving of people looking at AR through phones is turned into a choreography that people all over the world perform at exactly the same moment.",
+   "description_zh": "人们举着手机看 AR 时那种典型的挥臂动作，被编成一段舞蹈，全世界的人在同一时刻一起跳。",
+   "idea_en": "The awkward gestures of AR users become a synchronized global dance.",
+   "idea_zh": "AR 用户笨拙的手势，变成一场全球同步的舞蹈。",
+   "technique": "A web or AR app gives timed on-screen cues synchronized to a global clock so that users worldwide move their phones in the same pattern at the same time.",
+   "technique_zh": "网页或 AR 应用根据全球统一时钟给出定时屏幕提示，让世界各地的用户在同一时间以相同方式移动手机。",
+   "exercise_en": "Choreograph a 30-second phone dance using motion sensors, with a synced start time, and perform it simultaneously with a partner class elsewhere. Twist: score how in-sync everyone was from gyro data.",
+   "exercise_zh": "利用手机运动传感器编一段 30 秒的“手机舞”，设定同步开始时间，与别处的合作班级同时表演。变体：用陀螺仪数据给大家的同步程度打分。",
+   "interaction": [
+    "performance-stage",
+    "multiplayer-social",
+    "hand-body"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "motion sensors",
+    "web app"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "8RJSRqElfYo",
+    "url": "https://www.youtube.com/watch?v=8RJSRqElfYo"
+   },
+   "source_url": "http://sndrv.com/dance"
+  },
+  {
+   "id": "sander-veenhof--virtual-traffic-light",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "Virtual Traffic Light",
+   "year": 2011,
+   "description": "The Dutch island of Terschelling, which has no traffic lights, gets its first one: a virtual light in AR that actually tries to regulate traffic.",
+   "description_zh": "从没有红绿灯的荷兰泰尔斯海灵岛，迎来了第一盏红绿灯：一盏 AR 虚拟红绿灯，而且真的试图指挥交通。",
+   "idea_en": "Test whether a purely virtual sign can change real behaviour.",
+   "idea_zh": "检验一个纯虚拟的标志能否改变真实行为。",
+   "technique": "A traffic-light model with a timed state cycle is geolocated at a crossing in a mobile AR browser, shared by everyone viewing it.",
+   "technique_zh": "带有定时状态循环的红绿灯模型被定位在一个路口，通过移动 AR 浏览器观看，所有观看者看到的状态一致。",
+   "exercise_en": "Place a virtual sign (queue marker, stop line, quiet zone) in a busy campus spot with shared AR state, and observe whether people obey it. Twist: let the crowd vote on the sign's rule.",
+   "exercise_zh": "在校园繁忙处放一个状态共享的虚拟标志（排队线、停止线、安静区），观察人们是否遵守。变体：让人群投票决定标志的规则。",
+   "interaction": [
+    "location-geo",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "4cnPFApUyKA",
+    "url": "https://www.youtube.com/watch?v=4cnPFApUyKA"
+   },
+   "source_url": "http://sndrv.nl/oerol2011"
+  },
+  {
+   "id": "sander-veenhof--occupymoney",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "#occupymoney",
+   "year": 2011,
+   "description": "Tweet with #occupy1dollar and your message appears on every one-dollar bill in the world when viewed through Layar Vision.",
+   "description_zh": "发一条带 #occupy1dollar 的推文，你的留言就会出现在全世界每一张一美元纸币上（通过 Layar Vision 观看）。",
+   "idea_en": "Deliver a protest message straight into the core of the financial system: the banknote.",
+   "idea_zh": "把抗议留言直接送进金融系统的核心：纸币。",
+   "technique": "Layar Vision image recognition tracks the one-dollar bill design and overlays the latest tweets fetched with the hashtag.",
+   "technique_zh": "Layar Vision 的图像识别追踪一美元纸币的图案，并叠加根据话题标签抓取的最新推文。",
+   "exercise_en": "Use image tracking on a common object everyone carries (a banknote, student card, coffee cup) to show messages submitted through a form. Twist: each viewer sees a different random message.",
+   "exercise_zh": "对一种人人都带着的常见物体（纸币、学生证、咖啡杯）做图像追踪，显示通过表单提交的留言。变体：每位观众看到的是一条随机的不同留言。",
+   "interaction": [
+    "tangible-object",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar Vision",
+    "Twitter API"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "QUc0z5zL5sc",
+    "url": "https://www.youtube.com/watch?v=QUc0z5zL5sc"
+   },
+   "source_url": "http://layar.com/layers/moneytalk"
+  },
+  {
+   "id": "sander-veenhof--zoetrope-meets-ar",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "Zoetrope meets AR",
+   "year": 2011,
+   "description": "A spinning physical zoetrope is combined with augmented reality so the animation appears as 3D figures moving around the real drum.",
+   "description_zh": "一个旋转的实体走马灯与增强现实结合，动画以 3D 人偶的形式围着真实的转筒运动。",
+   "idea_en": "Merge a 2,000-year-old animation device with AR.",
+   "idea_zh": "把一件有两千年历史的动画装置与 AR 结合。",
+   "technique": "Marker or image tracking follows frames on the rotating drum and swaps in a sequence of 3D models, so the camera sees stroboscopic 3D animation.",
+   "technique_zh": "标记或图像追踪跟随转筒上的画面，逐帧替换成一系列 3D 模型，让相机看到频闪式的 3D 动画。",
+   "exercise_en": "Print 12 image markers around a lazy Susan, map a 12-frame 3D animation onto them and spin it in front of a phone. Twist: use the phone's frame rate as the shutter.",
+   "exercise_zh": "在转盘四周贴 12 张图像标记，把一段 12 帧的 3D 动画映射到上面，在手机前转动。变体：把手机的帧率当作快门。",
+   "interaction": [
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "marker tracking",
+    "zoetrope"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "9K1JBsXQG34",
+    "url": "https://www.youtube.com/watch?v=9K1JBsXQG34"
+   },
+   "source_url": "http://sndrv.nl/zoetrope"
+  },
+  {
+   "id": "sander-veenhof--watch-your-privacy",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "Watch Your Privacy",
+   "year": 2014,
+   "description": "A Google Glass app shows surveillance cameras around the wearer, plus the live positions of other Glass users.",
+   "description_zh": "一款 Google Glass 应用，在佩戴者周围标出监控摄像头的位置，以及其他 Glass 用户的实时位置。",
+   "idea_en": "Turn the watchers into the watched.",
+   "idea_zh": "让监视者变成被监视的人。",
+   "technique": "OpenStreetMap's surveillance-camera data and shared GPS positions of Glass users are drawn as a real-time location overlay in the head-worn display.",
+   "technique_zh": "把 OpenStreetMap 中的监控摄像头数据和 Glass 用户共享的 GPS 位置，作为实时位置叠加层显示在头戴屏幕上。",
+   "exercise_en": "Map the cameras on your campus into a small dataset and build a phone-AR overlay that marks them with viewing cones. Twist: add a 'blind-spot route' that avoids every cone.",
+   "exercise_zh": "把校园里的摄像头整理成一个小数据集，做一个用视锥标出它们的手机 AR 叠加层。变体：加一条避开所有视锥的“盲区路线”。",
+   "interaction": [
+    "data-information",
+    "location-geo"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Google Glass",
+    "OpenStreetMap"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "7Pbmv5LjWPY",
+    "url": "https://www.youtube.com/watch?v=7Pbmv5LjWPY"
+   },
+   "source_url": "http://sndrv.com/watchyourprivacy"
+  },
+  {
+   "id": "sander-veenhof--tango-teleport",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "Tango Teleport",
+   "year": 2018,
+   "description": "Using a depth-sensing Tango phone, a person is cut out of reality and 'teleported' into a 360-degree AR environment.",
+   "description_zh": "借助带深度传感的 Tango 手机，把一个人从现实中“抠”出来，传送进一个 360 度的 AR 环境。",
+   "idea_en": "Depth lets you keep the person and swap the world.",
+   "idea_zh": "有了深度信息，就能留下人，换掉整个世界。",
+   "technique": "Tango's depth camera segments pixels closer than a threshold, keeping the foreground person and replacing everything behind with a 360 panorama.",
+   "technique_zh": "Tango 的深度相机按距离阈值分割像素，保留前景人物，把后面的一切替换成 360 全景图。",
+   "exercise_en": "Use LiDAR depth (ARKit) or people occlusion to keep a classmate and replace the background with a 360 photo of another place. Twist: the destination changes when they jump.",
+   "exercise_zh": "用 LiDAR 深度（ARKit）或人物遮挡保留同学，把背景换成另一个地方的 360 照片。变体：他们一跳，目的地就换一个。",
+   "interaction": [
+    "portal-world",
+    "spatial-mapping",
+    "hand-body"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Google Tango",
+    "depth sensing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FZ7We6Sz05I",
+    "url": "https://www.youtube.com/watch?v=FZ7We6Sz05I"
+   },
+   "source_url": "https://play.google.com/store/apps/details?id=com.augmentnl.tangoteleport"
+  },
+  {
+   "id": "sander-veenhof--de-surveillance",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "de-surveillance",
+   "year": 2009,
+   "description": "A police surveillance camera in Rotterdam appears to malfunction: anyone hiding behind a blue object becomes invisible on its screen.",
+   "description_zh": "鹿特丹一台警局监控摄像头似乎出了故障：任何躲在蓝色物体后面的人，在它的画面里都会隐形。",
+   "idea_en": "A chroma-key hack that turns the colour blue into an invisibility cloak.",
+   "idea_zh": "一个色键技巧，把蓝色变成隐身斗篷。",
+   "technique": "A public screen shows the camera feed with blue pixels keyed out and replaced by a clean background plate, so blue objects and whoever holds them disappear.",
+   "technique_zh": "公共屏幕播放监控画面，蓝色像素被抠除并替换成干净的背景画面，蓝色物体和拿着它的人就消失了。",
+   "exercise_en": "Build a webcam chroma-key with a captured background plate so a coloured cloth becomes an invisibility cloak on a public screen. Twist: the cloak makes you invisible only to one of two cameras.",
+   "exercise_zh": "用网络摄像头加一张预先拍好的背景，做一个色键效果，让一块彩布在公共屏幕上变成隐身斗篷。变体：斗篷只能让你在两台相机中的一台里隐形。",
+   "interaction": [
+    "perception-art",
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "chroma key",
+    "surveillance camera"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "SBxdBHO9Ozo",
+    "url": "https://www.youtube.com/watch?v=SBxdBHO9Ozo"
+   },
+   "source_url": "http://sndrv.nl"
+  },
+  {
+   "id": "sander-veenhof--outdoor-game-of-life",
+   "creator_ids": [
+    "sander-veenhof"
+   ],
+   "title": "Outdoor Game of Life",
+   "year": 2012,
+   "description": "In front of the Albuquerque Museum, block organisms following Conway's Game of Life battle for the virtual space, visible through phones.",
+   "description_zh": "在阿尔伯克基博物馆门前，按照康威生命游戏规则演化的方块生物争夺虚拟空间，透过手机可见。",
+   "idea_en": "A cellular automaton living on a real plaza.",
+   "idea_zh": "一个生活在真实广场上的元胞自动机。",
+   "technique": "A server steps a Game of Life grid and publishes live cells as geolocated blocks in the Layar browser over the museum forecourt.",
+   "technique_zh": "服务器逐步运算生命游戏网格，把存活的格子作为地理定位的方块，发布到博物馆前广场上空的 Layar 浏览器中。",
+   "exercise_en": "Run Conway's Game of Life on a grid anchored to a floor with plane detection, and let users tap to seed cells. Twist: two teams' colours compete for territory.",
+   "exercise_zh": "借助平面检测，在地面锚定的网格上运行康威生命游戏，用户点击就能播种细胞。变体：两队颜色互相争夺领地。",
+   "interaction": [
+    "game-play",
+    "location-geo",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "aPGbav1aHH8",
+    "url": "https://www.youtube.com/watch?v=aPGbav1aHH8"
+   },
+   "source_url": "http://sndrv.nl/life"
+  },
+  {
+   "id": "geoffrey-alan-rhodes--52-card-psycho",
+   "creator_ids": [
+    "geoffrey-alan-rhodes"
+   ],
+   "title": "52 Card Psycho",
+   "year": 2008,
+   "description": "Fifty-two playing cards, each printed with a marker, are replaced in the viewer's view by the 52 shots of the shower scene in Hitchcock's Psycho; dealing, stacking or shuffling the cards re-edits the film.",
+   "description_zh": "52 张印有标记的扑克牌，在观众眼中被替换成希区柯克《惊魂记》浴室戏的 52 个镜头；发牌、叠牌或洗牌，就是在重新剪辑这部电影。",
+   "idea_en": "A deck of cards as a physical, playable film edit.",
+   "idea_zh": "一副扑克牌就是一段可以拿在手里玩的实体电影剪辑。",
+   "technique": "ARTag fiducial markers on each card are tracked by a camera and each marker plays its assigned video clip in place, with Max/MSP handling playback, built at York University's AR Lab.",
+   "technique_zh": "摄像头追踪每张牌上的 ARTag 标记，每个标记在原位播放对应的视频片段，由 Max/MSP 负责播放控制，在约克大学 AR Lab 完成。",
+   "exercise_en": "Cut a 20-second scene into 12 shots, assign each to a printed image marker, and let classmates arrange the cards to re-edit it in phone AR. Twist: card order also changes the soundtrack.",
+   "exercise_zh": "把一段 20 秒的场景切成 12 个镜头，每个镜头对应一张打印的图像标记，让同学在手机 AR 中通过排列卡片重新剪辑。变体：卡片顺序也会改变配乐。",
+   "interaction": [
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "ARTag",
+    "Max/MSP"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Qgmh4e_w1oc",
+    "url": "https://www.youtube.com/watch?v=Qgmh4e_w1oc"
+   },
+   "source_url": "http://52CardCinema.com"
+  },
+  {
+   "id": "geoffrey-alan-rhodes--mao-wants-this-dollar",
+   "creator_ids": [
+    "geoffrey-alan-rhodes"
+   ],
+   "title": "Mao Wants This Dollar!",
+   "year": 2011,
+   "description": "Point a phone at any US dollar bill and it becomes an IOU with Mao announcing that the United States of America owes China one dollar.",
+   "description_zh": "把手机对准任何一张美元纸币，它就变成一张欠条，毛泽东宣布：美利坚合众国欠中国一美元。",
+   "idea_en": "Every banknote in your wallet becomes a political cartoon.",
+   "idea_zh": "钱包里的每一张钞票都变成一幅政治漫画。",
+   "technique": "The Junaio AR browser's image recognition tracks the one-dollar bill design and overlays an animated IOU and portrait, made for Manifest.AR at the Boston Cyberarts Festival.",
+   "technique_zh": "Junaio AR 浏览器的图像识别追踪一美元纸币的图案，叠加动画欠条和人像，为 Manifest.AR 在波士顿 Cyberarts 艺术节的展出而作。",
+   "exercise_en": "Image-track a common printed object (ticket, receipt, banknote) and overlay a short animation that rewrites its meaning. Twist: the overlay changes with today's exchange rate.",
+   "exercise_zh": "对一种常见印刷品（车票、收据、纸币）做图像追踪，叠加一段改写它含义的短动画。变体：叠加内容随当天汇率变化。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Junaio",
+    "image tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ex-EHCLcm7I",
+    "url": "https://www.youtube.com/watch?v=ex-EHCLcm7I"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "geoffrey-alan-rhodes--twittar-ideograms",
+   "creator_ids": [
+    "geoffrey-alan-rhodes"
+   ],
+   "title": "twittAR Ideograms",
+   "year": 2012,
+   "description": "At the ZERO1 Biennial, the Bay Area's changing Twitter trends are translated into floating 3D 'internet ideograms' that appear and disappear like a rebus puzzle.",
+   "description_zh": "在 ZERO1 双年展上，湾区不断变化的 Twitter 热门话题被转换成漂浮的 3D “网络象形文字”，像画谜一样出现又消失。",
+   "idea_en": "Trending topics become cave paintings floating in the air.",
+   "idea_zh": "热门话题变成漂浮在空中的洞穴壁画。",
+   "technique": "A Layar channel polls local Twitter trends and maps keywords to 3D icon models that are placed as geolocated objects around the Biennial site.",
+   "technique_zh": "一个 Layar 频道定期抓取本地 Twitter 热门话题，把关键词映射为 3D 图标模型，作为地理定位物体放在双年展现场周围。",
+   "exercise_en": "Pull five trending words from any feed, map each to an emoji-like 3D model and float them over a campus plaza in AR. Twist: viewers have to guess the sentence the icons spell.",
+   "exercise_zh": "从任意信息流中抓取五个热门词，每个词对应一个类似表情符号的 3D 模型，让它们以 AR 形式漂浮在校园广场上空。变体：观众要猜出这些图标拼出的句子。",
+   "interaction": [
+    "data-information",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "Twitter API"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "sA-wpEq3P2U",
+    "url": "https://www.youtube.com/watch?v=sA-wpEq3P2U"
+   },
+   "source_url": "http://www.layar.com/layers/twittar/"
+  },
+  {
+   "id": "geoffrey-alan-rhodes--chicago00-eastland-disaster",
+   "creator_ids": [
+    "geoffrey-alan-rhodes"
+   ],
+   "title": "Chicago 00: The Eastland Disaster",
+   "year": 2016,
+   "description": "Along the Chicago Riverwalk, archival photographs of the 1915 capsizing of the SS Eastland are superimposed on the exact spot where it happened, in a narrated AR tour with the Chicago History Museum.",
+   "description_zh": "在芝加哥河滨步道上，1915 年 SS Eastland 号倾覆事故的档案照片被叠加在事发的准确位置，这是与芝加哥历史博物馆合作的一段有旁白的 AR 导览。",
+   "idea_en": "Stand where history happened and see the archive photo aligned with the present.",
+   "idea_zh": "站在历史发生的地方，看档案照片与现在的景象对齐。",
+   "technique": "Geolocated photo planes and 3D reconstructions from the museum's archive are anchored to riverwalk viewpoints in a mobile app, with a VR gallery for remote viewing.",
+   "technique_zh": "在移动应用中，把博物馆档案里的地理定位照片平面和 3D 重建锚定在河滨步道的观景点，另有供远程观看的 VR 画廊。",
+   "exercise_en": "Find an old photo of a campus location, stand where it was taken, and build a phone-AR overlay that aligns it with the live view. Twist: add a slider to crossfade between past and present.",
+   "exercise_zh": "找一张校园某处的老照片，站到当年拍摄的位置，做一个让它与实时画面对齐的手机 AR 叠加。变体：加一个滑块，在过去与现在之间渐变。",
+   "interaction": [
+    "location-geo",
+    "data-information",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR app",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PKJLbi-vzIc",
+    "url": "https://www.youtube.com/watch?v=PKJLbi-vzIc"
+   },
+   "source_url": "http://Chicago00.org"
+  },
+  {
+   "id": "geoffrey-alan-rhodes--ar-allegory-of-the-vr-cave",
+   "creator_ids": [
+    "geoffrey-alan-rhodes"
+   ],
+   "title": "An (AR) Allegory of the (VR) Cave",
+   "year": 2015,
+   "description": "A live lecture-performance at NYU in which the talk itself happens through AR, using Plato's cave to ask what screens, avatars and augmentation do to the self.",
+   "description_zh": "在纽约大学的一场现场讲座表演，讲座本身通过 AR 进行，借柏拉图的洞穴寓言追问屏幕、化身与增强对“自我”做了什么。",
+   "idea_en": "A lecture that stages its own argument in augmented reality.",
+   "idea_zh": "一场用增强现实上演自身论点的讲座。",
+   "technique": "Image-tracked slides and props on stage trigger AR video and 3D content that the audience sees through a projected camera view.",
+   "technique_zh": "舞台上被图像追踪的幻灯片和道具触发 AR 视频与 3D 内容，观众通过投影出来的相机画面观看。",
+   "exercise_en": "Give a 5-minute talk where every key point is revealed by pointing a phone at a printed card, with the phone mirrored to a projector. Twist: one card reveals the audience itself.",
+   "exercise_zh": "做一个 5 分钟的演讲，每个要点都要用手机对准一张打印卡片才会出现，并把手机画面投到投影仪上。变体：有一张卡片显示的是观众自己。",
+   "interaction": [
+    "performance-stage",
+    "tangible-object",
+    "projection"
+   ],
+   "platform": [
+    "projection",
+    "phone"
+   ],
+   "tech": [
+    "image tracking",
+    "projector"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "iSLpDp-pkPQ",
+    "url": "https://www.youtube.com/watch?v=iSLpDp-pkPQ"
+   },
+   "source_url": "http://GARhodes.com"
+  },
+  {
+   "id": "caitlin-fisher--requiem-ar-poem",
+   "creator_ids": [
+    "caitlin-fisher"
+   ],
+   "title": "Requiem",
+   "year": 2011,
+   "description": "An augmented reality poem: holding a marked card releases imagery and spoken sound that unfold over it, one fragment of her tabletop AR novel Cardamom of the Dead.",
+   "description_zh": "一首增强现实诗：拿起一张带标记的卡片，图像和朗读声便在它上方展开，是她的桌面 AR 小说《Cardamom of the Dead》中的一个片段。",
+   "idea_en": "A poem you hold in your hand and turn to read.",
+   "idea_zh": "一首拿在手里、转动着来读的诗。",
+   "technique": "FLARToolkit tracks a black-and-white marker card and superimposes animated imagery and sound, later rebuilt in Unity with Vuforia.",
+   "technique_zh": "FLARToolkit 追踪黑白标记卡片，叠加动画图像与声音；后来用 Unity 加 Vuforia 重新制作。",
+   "exercise_en": "Write a six-line poem, give each line its own printed card, and use image tracking to make each card release an image and a recorded voice. Twist: the poem changes meaning depending on card order.",
+   "exercise_zh": "写一首六行诗，每行对应一张打印卡片，用图像追踪让每张卡片释放一幅图像和一段录音。变体：卡片顺序不同，诗的意思也随之改变。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound"
+   ],
+   "platform": [
+    "desktop",
+    "phone"
+   ],
+   "tech": [
+    "FLARToolkit",
+    "Unity",
+    "Vuforia"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "B6xu4UI4GNE",
+    "url": "https://www.youtube.com/watch?v=B6xu4UI4GNE"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "caitlin-fisher--circle-tabletop-theatre",
+   "creator_ids": [
+    "caitlin-fisher"
+   ],
+   "title": "Circle",
+   "year": 2011,
+   "description": "A tabletop AR theatre in which small scenes and voices appear on a circle of markers, letting the reader move around the table to assemble a story; shortlisted for the UK New Media Writing Award.",
+   "description_zh": "一个桌面 AR 剧场：小小的场景和声音出现在一圈标记上，读者绕着桌子走动来拼出故事；入围英国新媒体写作奖。",
+   "idea_en": "Reading becomes walking around a miniature stage.",
+   "idea_zh": "阅读变成绕着一座微缩舞台行走。",
+   "technique": "SnapDragonAR, the York AR Lab's marker-tracking tool, maps video and sound to markers arranged in a ring; a later version was rebuilt for iPad with Vuforia.",
+   "technique_zh": "用约克 AR Lab 自己的标记追踪工具 SnapDragonAR，把视频和声音映射到围成一圈的标记上；后来的版本用 Vuforia 为 iPad 重做。",
+   "exercise_en": "Place eight image markers in a circle on a table and attach a short scene to each, so walking around tells a story. Twist: the ending depends on which direction the reader walks.",
+   "exercise_zh": "在桌上摆一圈八张图像标记，每张对应一个小场景，绕着走一圈就讲完一个故事。变体：结局取决于读者走的方向。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound",
+    "performance-stage"
+   ],
+   "platform": [
+    "desktop",
+    "phone"
+   ],
+   "tech": [
+    "SnapDragonAR",
+    "Vuforia"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "xdjRLfERsas",
+    "url": "https://www.youtube.com/watch?v=xdjRLfERsas"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "caitlin-fisher--ar-freedom-stories",
+   "creator_ids": [
+    "caitlin-fisher"
+   ],
+   "title": "Augmented Reality Freedom Stories",
+   "year": 2013,
+   "description": "Seldom-told African Canadian histories of the Underground Railroad, including Harriet Tubman's journeys, come alive as AR documents and voices over hand-crafted objects made with community partners.",
+   "description_zh": "关于地下铁路、鲜少被讲述的非裔加拿大人历史（包括哈丽特·塔布曼的行动），以 AR 文献和声音的形式在与社区伙伴共同手工制作的物件上重现。",
+   "idea_en": "Handle a replica document and hear the person it belonged to.",
+   "idea_zh": "拿起一份复制的历史文献，就能听到它的主人说话。",
+   "technique": "Primary sources are printed onto physical artefacts used as image targets, and a tablet app overlays video, audio and animated text on them.",
+   "technique_zh": "把一手史料印在实体物件上作为图像目标，平板应用在上面叠加视频、音频和动态文字。",
+   "exercise_en": "Pick a local historical figure, print three of their documents as image targets, and record a voice reading each one in AR. Twist: the voice speaks only when the document is held upright.",
+   "exercise_zh": "选一位本地历史人物，把他们的三份文献打印成图像目标，并在 AR 中为每份文献录制朗读。变体：只有把文献竖直拿着时，声音才会响起。",
+   "interaction": [
+    "tangible-object",
+    "data-information",
+    "voice-sound"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Vuforia",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ZXGcupvYnPY",
+    "url": "https://www.youtube.com/watch?v=ZXGcupvYnPY"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "caitlin-fisher--ar-pop-up-book",
+   "creator_ids": [
+    "caitlin-fisher"
+   ],
+   "title": "AR Pop-up Book (Future Stories)",
+   "year": 2010,
+   "description": "A do-it-yourself augmented reality pop-up book from York University's AR Lab: each page's marker makes images and video pop up in 3D, released as a kit anyone can fill with their own pictures.",
+   "description_zh": "约克大学 AR Lab 的自制增强现实立体书：每一页的标记会让图像和视频以 3D 形式弹出，并作为工具包发布，任何人都能放入自己的图片。",
+   "idea_en": "Anyone can make a pop-up book whose pages come alive on screen.",
+   "idea_zh": "任何人都能做一本书页会在屏幕上活起来的立体书。",
+   "technique": "A reusable FLARToolkit Flash template reads a playlist file, so each printed marker page shows the image or movie listed for it in a webcam view.",
+   "technique_zh": "一个可复用的 FLARToolkit Flash 模板读取播放列表文件，让每页打印的标记在网络摄像头画面中显示对应的图片或影片。",
+   "exercise_en": "Make a four-page zine where each page is an image target that pops up a 3D scene in WebXR or Lens Studio. Twist: the last page shows the reader's own face.",
+   "exercise_zh": "做一本四页的小册子，每页都是图像目标，用 WebXR 或 Lens Studio 弹出一个 3D 场景。变体：最后一页显示的是读者自己的脸。",
+   "interaction": [
+    "tangible-object",
+    "drawing-creation"
+   ],
+   "platform": [
+    "desktop",
+    "web"
+   ],
+   "tech": [
+    "FLARToolkit",
+    "Flash"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "4wXfk1Dcd5I",
+    "url": "https://www.youtube.com/watch?v=4wXfk1Dcd5I"
+   },
+   "source_url": "http://futurestories.ca"
+  },
+  {
+   "id": "nathan-shafer--exit-glacier-ar-terminus",
+   "creator_ids": [
+    "nathan-shafer"
+   ],
+   "title": "Exit Glacier Augmented Reality Terminus Project",
+   "year": 2012,
+   "description": "At Exit Glacier in Kenai Fjords, Alaska, visitors see where the glacier's edge stood in past decades as AR ice rising from the now-empty valley.",
+   "description_zh": "在阿拉斯加基奈峡湾的 Exit Glacier，游客能看到过去几十年冰川边缘的位置：AR 冰体从如今空荡的山谷中升起。",
+   "idea_en": "Show climate change on site by restoring what has melted.",
+   "idea_zh": "在现场复原已经融化的部分，让气候变化看得见。",
+   "technique": "Historical terminus positions from park survey markers are rebuilt as 3D ice models and geolocated along the trail in the Layar AR browser.",
+   "technique_zh": "根据公园测量标记中的历史冰舌位置，重建 3D 冰体模型，并在 Layar AR 浏览器中沿步道进行地理定位。",
+   "exercise_en": "Find historical data for something that has shrunk or moved near you (a shoreline, a tree line, a river) and place its past outline in phone AR at full scale. Twist: add a year slider.",
+   "exercise_zh": "找到你附近某种已缩小或移动的事物（海岸线、林线、河道）的历史数据，用手机 AR 以真实尺度放出它过去的轮廓。变体：加一个年份滑块。",
+   "interaction": [
+    "location-geo",
+    "data-information",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PQac4zosOVw",
+    "url": "https://www.youtube.com/watch?v=PQac4zosOVw"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "nathan-shafer--sewards-success",
+   "creator_ids": [
+    "nathan-shafer"
+   ],
+   "title": "Seward's Success (as seen in Indie Alaska)",
+   "year": 2014,
+   "description": "A documentary on Shafer's AR work, centred on Seward's Success, a futuristic domed city planned for Anchorage in the 1960s but never built, which he rebuilds in AR on its intended site.",
+   "description_zh": "一部关于 Shafer AR 创作的纪录短片，核心是 Seward's Success：一座 60 年代为安克雷奇规划、却从未建成的未来主义穹顶城市，他在原定地点用 AR 把它重建出来。",
+   "idea_en": "Build the city that was never built, where it was supposed to be.",
+   "idea_zh": "在它本该出现的地方，建起那座从未建成的城市。",
+   "technique": "Architectural drawings of the unbuilt dome are modelled in 3D and geolocated at the planned site so phones show it on the skyline.",
+   "technique_zh": "根据未建穹顶的建筑图纸建立 3D 模型，并定位到原规划地点，让手机在天际线上显示它。",
+   "exercise_en": "Find an unbuilt or demolished building plan for your city and place it in phone AR at its intended site and scale. Twist: let viewers step inside through a portal.",
+   "exercise_zh": "找一份你所在城市未建成或已拆除的建筑方案，用手机 AR 按原定位置和尺度把它放出来。变体：让观众通过传送门走进去。",
+   "interaction": [
+    "location-geo",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "8Elu87SfL98",
+    "url": "https://www.youtube.com/watch?v=8Elu87SfL98"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "nathan-shafer--languages-of-the-face",
+   "creator_ids": [
+    "nathan-shafer"
+   ],
+   "title": "Languages of the Face",
+   "year": 2018,
+   "description": "An augmented portrait made with the Sitka School District: two self-portraits, with and without glasses, reveal the names of facial features in Deg Xinag and Łingít when viewed through AR.",
+   "description_zh": "与锡特卡学区合作的增强肖像：两幅自画像（戴眼镜与不戴眼镜）在 AR 中显示用 Deg Xinag 语和 Łingít 语标注的五官名称。",
+   "idea_en": "A portrait that teaches an endangered language.",
+   "idea_zh": "一幅能教授濒危语言的肖像。",
+   "technique": "The printed portraits act as image targets, and an AR app overlays labels and likely audio pronunciations anchored to each facial feature.",
+   "technique_zh": "打印的肖像作为图像目标，AR 应用在每个五官位置叠加标注，很可能还带有语音发音。",
+   "exercise_en": "Draw a self-portrait, use it as an image target, and label each feature in a heritage or minority language with recorded pronunciation. Twist: switch to face tracking so the labels follow a live face.",
+   "exercise_zh": "画一幅自画像作为图像目标，用一种传承语言或少数民族语言标注每个五官，并录下发音。变体：改用人脸追踪，让标注跟随真实的脸。",
+   "interaction": [
+    "face",
+    "data-information",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "image tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "GBNJ2EQKRwU",
+    "url": "https://www.youtube.com/watch?v=GBNJ2EQKRwU"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "lily-honglei--crystal-coffin",
+   "creator_ids": [
+    "lily-honglei"
+   ],
+   "title": "Crystal Coffin",
+   "year": 2011,
+   "description": "During the Venice Biennale, a crystal coffin topped with a red star appears in Piazza San Marco and the Giardini, evoking Mao's embalmed body in Beijing.",
+   "description_zh": "威尼斯双年展期间，一具顶着红星的水晶棺出现在圣马可广场和绿园城堡，让人联想到北京保存的毛泽东遗体。",
+   "idea_en": "Transplant a charged political relic into a tourist square.",
+   "idea_zh": "把一件极具政治意味的圣物移植到旅游广场。",
+   "technique": "A 3D coffin model is geolocated at Venice landmarks in a mobile AR browser as part of Manifest.AR's uninvited intervention.",
+   "technique_zh": "作为 Manifest.AR 不请自来的介入行动的一部分，一个 3D 棺材模型通过移动 AR 浏览器定位在威尼斯地标处。",
+   "exercise_en": "Pick a politically loaded object from another country and place it in AR at the busiest spot on campus. Twist: its label changes language depending on who opens it.",
+   "exercise_zh": "选一件来自其他国家、带有政治意味的物件，用 AR 放在校园最热闹的地方。变体：它的说明文字随打开者的语言而变化。",
+   "interaction": [
+    "location-geo",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "6TdEWBdHwj0",
+    "url": "https://www.youtube.com/watch?v=6TdEWBdHwj0"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "lily-honglei--great-firewall-and-sunken-city",
+   "creator_ids": [
+    "lily-honglei"
+   ],
+   "title": "The Great Firewall and Sunken City",
+   "year": 2010,
+   "description": "At the Bushwick AR Intervention, a virtual Great Firewall rises across Flushing Avenue, blocking the street for anyone who looks through a phone.",
+   "description_zh": "在布什维克 AR 介入展上，一道虚拟的“防火长城”横跨法拉盛大道，任何透过手机看的人都会发现街道被挡住了。",
+   "idea_en": "Make online censorship physical by walling off a real street.",
+   "idea_zh": "把网络审查变成实体：用一堵墙封住一条真实的街道。",
+   "technique": "A wall model is geolocated across the avenue in a mobile AR browser, extending the duo's Second Life project Land of Illusion into the street.",
+   "technique_zh": "在移动 AR 浏览器中把一堵墙的模型定位在大道上，把两人在 Second Life 中的项目 Land of Illusion 延伸到街头。",
+   "exercise_en": "Choose a website your class cannot access and build an AR wall with its name across a corridor. Twist: the wall lets you pass only if you type a password.",
+   "exercise_zh": "选一个你们班无法访问的网站，用 AR 在走廊上建一堵写着它名字的墙。变体：只有输入密码才能穿过这堵墙。",
+   "interaction": [
+    "location-geo",
+    "portal-world"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "BD3BvwFIPuU",
+    "url": "https://www.youtube.com/watch?v=BD3BvwFIPuU"
+   },
+   "source_url": "http://bushwickarintervention.wordpress.com/lily-honglei/"
+  },
+  {
+   "id": "naoko-tosa--neuro-baby",
+   "creator_ids": [
+    "naoko-tosa"
+   ],
+   "title": "Neuro-Baby",
+   "year": 1993,
+   "description": "A computer-generated baby face on screen listens to the tone of your voice and responds with its own emotional expressions and sounds.",
+   "description_zh": "屏幕上一张计算机生成的婴儿脸，聆听你说话的语气，并用它自己的表情和声音回应你的情绪。",
+   "idea_en": "A virtual being that responds to how you feel, not what you say.",
+   "idea_zh": "一个回应你“感受”而非你“说了什么”的虚拟生命。",
+   "technique": "A neural network classifies emotion from the prosody of the user's voice and drives the facial animation of a 3D baby character.",
+   "technique_zh": "神经网络从用户语音的韵律中识别情绪，驱动 3D 婴儿角色的面部动画。",
+   "exercise_en": "Build a character that reacts to voice loudness and pitch (p5.js sound input or Lens Studio audio) with different facial expressions. Twist: it mirrors the opposite emotion.",
+   "exercise_zh": "做一个根据声音大小和音高做出不同表情的角色（p5.js 声音输入或 Lens Studio 音频）。变体：它表现出相反的情绪。",
+   "interaction": [
+    "voice-sound",
+    "face"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "neural network",
+    "voice analysis"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "etEIbMZ6uUY",
+    "url": "https://www.youtube.com/watch?v=etEIbMZ6uUY"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "naoko-tosa--unconscious-flow",
+   "creator_ids": [
+    "naoko-tosa"
+   ],
+   "title": "Unconscious Flow",
+   "year": 1999,
+   "description": "Two people hold sensors while two virtual mermaids represent them; the mermaids' behaviour reveals whether the pair are truly relaxed or tense with each other, whatever their faces say.",
+   "description_zh": "两人手握传感器，两条虚拟美人鱼代表他们；无论他们脸上表现如何，美人鱼的行为都会揭示两人彼此之间是真正放松还是紧张。",
+   "idea_en": "Show the hidden emotional relationship between two people.",
+   "idea_zh": "呈现两人之间隐藏的情感关系。",
+   "technique": "Heart-rate sensors measure each participant's arousal and synchrony, and the pair of values is mapped to how the CG mermaids approach, avoid or dance with each other.",
+   "technique_zh": "心率传感器测量每位参与者的兴奋度和同步程度，这组数值决定 CG 美人鱼彼此靠近、回避或共舞。",
+   "exercise_en": "Give two people pulse sensors (or phone camera heart-rate apps) and map their heart-rate difference to the distance between two AR creatures. Twist: the creatures merge when hearts sync.",
+   "exercise_zh": "给两个人戴上脉搏传感器（或用手机摄像头心率应用），把两人心率差映射为两只 AR 生物之间的距离。变体：心跳同步时，两只生物合为一体。",
+   "interaction": [
+    "hand-body",
+    "multiplayer-social",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "heart-rate sensors",
+    "CG"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "eF4DsTolxJM",
+    "url": "https://www.youtube.com/watch?v=eF4DsTolxJM"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "naoko-tosa--zenetic-computer",
+   "creator_ids": [
+    "naoko-tosa"
+   ],
+   "title": "ZENetic Computer",
+   "year": 2004,
+   "description": "The user arranges elements in a virtual ink-wash landscape, and the system answers with Zen-style riddles and stories built from Buddhist concepts, inviting reflection rather than tasks.",
+   "description_zh": "用户在虚拟水墨山水中摆放元素，系统以禅宗公案式的谜语和故事回应（基于佛教的五蕴概念），引导人反思而不是完成任务。",
+   "idea_en": "A computer that asks you questions instead of answering them.",
+   "idea_zh": "一台向你提问、而不是替你回答的计算机。",
+   "technique": "A tangible or pointer interface places symbolic objects in a sansui landscape, and a story engine maps their arrangement to the five skandhas to select koan-like dialogues.",
+   "technique_zh": "通过实体或指向式界面把象征物放进山水画中，故事引擎把它们的排列映射到五蕴，选出类似公案的对话。",
+   "exercise_en": "Design an AR sand tray where placing three physical tokens produces a short, strange question generated from their combination. Twist: the question is spoken, never shown.",
+   "exercise_zh": "设计一个 AR 沙盘：放下三枚实体标记，就会根据它们的组合生成一个简短而奇特的问题。变体：问题只读出来，从不显示。",
+   "interaction": [
+    "tangible-object",
+    "perception-art",
+    "drawing-creation"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "story engine",
+    "tangible interface"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "RYeT75F7ezQ",
+    "url": "https://www.youtube.com/watch?v=RYeT75F7ezQ"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "john-cleater--sky-pavilions",
+   "creator_ids": [
+    "john-cleater"
+   ],
+   "title": "Sky Pavilions",
+   "year": 2011,
+   "description": "Virtual 'cloudburst' pavilions filled with nonsensical and practical guidance float over the High Line in New York, land in gardens and appear in Venice; in one live performance the band Dewanatron grapples with them.",
+   "description_zh": "装满荒诞又实用“指引”的虚拟“云爆”亭子漂浮在纽约高线公园上空、降落在花园里、也出现在威尼斯；在一场现场表演中，乐队 Dewanatron 与它们“搏斗”。",
+   "idea_en": "Architecture that flies in, lands and leaves like weather.",
+   "idea_zh": "像天气一样飞来、降落又离开的建筑。",
+   "technique": "Animated 3D pavilions (about 3,000 polygons with animated textures) are served to the Layar browser through PorPOISe and placed as geolocated points of interest with tap-triggered actions.",
+   "technique_zh": "约 3000 个多边形、带动画贴图的 3D 亭子通过 PorPOISe 服务提供给 Layar 浏览器，作为可点击触发动作的地理定位兴趣点放置。",
+   "exercise_en": "Design a small AR pavilion that 'lands' on a campus lawn with an animation, and add one tap interaction that gives advice. Twist: it takes off again when too many people gather.",
+   "exercise_zh": "设计一个小型 AR 亭子，以动画“降落”在校园草坪上，并加入一个点击后给出建议的交互。变体：聚集的人太多时，它会再次起飞。",
+   "interaction": [
+    "location-geo",
+    "performance-stage"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "PorPOISe"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "7HJt6DBB8uE",
+    "url": "https://www.youtube.com/watch?v=7HJt6DBB8uE"
+   },
+   "source_url": "http://www.cleater.com"
+  },
+  {
+   "id": "john-cleater--peeling-layers-of-space",
+   "creator_ids": [
+    "john-cleater"
+   ],
+   "title": "Peeling Layers of Space Out of Thin Air: AR by Architects",
+   "year": 2011,
+   "description": "A group exhibition of AR architecture scattered over a 30-acre field at Omi International Arts Center, with a stated run time of 100 years, visited with phones.",
+   "description_zh": "一场分布在 Omi 国际艺术中心 30 英亩旷野上的 AR 建筑群展，标注的展期是 100 年，观众拿着手机参观。",
+   "idea_en": "An exhibition of buildings with no materials, open for a century.",
+   "idea_zh": "一场没有建筑材料、展期长达一个世纪的建筑展。",
+   "technique": "Architects' 3D models are geolocated as Layar points of interest across the field, so visitors walk the landscape to discover each virtual structure.",
+   "technique_zh": "建筑师们的 3D 模型作为 Layar 兴趣点分布在旷野各处，观众在地景中行走，逐一发现每座虚拟建筑。",
+   "exercise_en": "Curate a class AR exhibition in one outdoor space where each student places one virtual structure with location anchors. Twist: set an expiry date after which each piece disappears.",
+   "exercise_zh": "在一个户外空间策划全班 AR 展，每位学生用位置锚点放置一座虚拟建筑。变体：为每件作品设定到期日，到期后消失。",
+   "interaction": [
+    "location-geo",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ieA_J02l1Sc",
+    "url": "https://www.youtube.com/watch?v=ieA_J02l1Sc"
+   },
+   "source_url": "http://www.cleater.com/peeling"
+  },
+  {
+   "id": "john-cleater--ar-tornado",
+   "creator_ids": [
+    "john-cleater"
+   ],
+   "title": "AR Tornado",
+   "year": 2015,
+   "description": "On a hilltop overlooking the Catskill Mountains in Columbia County, New York, a virtual tornado spins across an otherwise beautiful day.",
+   "description_zh": "在纽约哥伦比亚县一处俯瞰卡茨基尔山的山丘上，一个虚拟龙卷风在晴朗的日子里旋转着穿过。",
+   "idea_en": "Bring a disaster into a peaceful landscape at true scale.",
+   "idea_zh": "把一场灾难以真实尺度带进宁静的风景。",
+   "technique": "An animated tornado model is likely geolocated in the landscape so it stays fixed to a spot on the horizon as the viewer pans the phone.",
+   "technique_zh": "动画龙卷风模型很可能被地理定位在风景中，观众转动手机时它固定在地平线上的某个位置。",
+   "exercise_en": "Build a large-scale AR weather event (tornado, storm cloud, aurora) anchored far away on the horizon with a compass-based placement. Twist: it moves closer when the real wind picks up.",
+   "exercise_zh": "用基于罗盘的定位，在远处地平线上锚定一个大尺度 AR 天气事件（龙卷风、雷雨云、极光）。变体：真实风力变大时，它会向你靠近。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hAVpCTmMuEY",
+    "url": "https://www.youtube.com/watch?v=hAVpCTmMuEY"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "phoenix-perry--000000swan",
+   "creator_ids": [
+    "phoenix-perry"
+   ],
+   "title": "000000swan",
+   "year": 2011,
+   "description": "A live music-and-game performance in which the performer's gestures, read by a hacked Kinect, move graphics through a real-time 3D game world.",
+   "description_zh": "一场音乐与游戏结合的现场表演：被改装的 Kinect 读取表演者的手势，驱动实时 3D 游戏世界中的图形。",
+   "idea_en": "Teach the computer your own gestures instead of using its built-in ones.",
+   "idea_zh": "教电脑认识你自己的手势，而不是使用它内置的那一套。",
+   "technique": "Kinect depth data is fed to Wekinator machine learning, trained on the performer's gestures rather than skeleton tracking, whose outputs control objects in Unity.",
+   "technique_zh": "Kinect 深度数据输入 Wekinator 机器学习，训练的是表演者自己的手势而非骨骼追踪，其输出控制 Unity 中的物体。",
+   "exercise_en": "Train Wekinator or Teachable Machine on three of your own gestures and map each to an effect in a projected scene or AR view. Twist: the gestures must come from a dance you already know.",
+   "exercise_zh": "用 Wekinator 或 Teachable Machine 训练你自己的三个手势，把每个手势映射为投影场景或 AR 视图中的一种效果。变体：手势必须取自一支你已经会跳的舞。",
+   "interaction": [
+    "hand-body",
+    "performance-stage",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Kinect",
+    "Wekinator",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "dpW0wRkijQY",
+    "url": "https://www.youtube.com/watch?v=dpW0wRkijQY"
+   },
+   "source_url": "http://000000swan.com"
+  },
+  {
+   "id": "phoenix-perry--bot-party",
+   "creator_ids": [
+    "phoenix-perry"
+   ],
+   "title": "Bot Party",
+   "year": 2017,
+   "description": "Made with Freida Abtan, a party game where players must hold hands and touch skin to skin to pass secret messages between their little bots, turning technology into a reason for physical contact.",
+   "description_zh": "与 Freida Abtan 合作的派对游戏：玩家必须牵手、皮肤相触，才能在各自的小机器人之间传递秘密信息，让技术成为身体接触的理由。",
+   "idea_en": "Human touch is the network cable.",
+   "idea_zh": "人与人的触碰就是网线。",
+   "technique": "Handheld bots send and receive signals through the players' bodies, likely by passing a low-level electrical or audio signal skin to skin, so a message only flows while people are touching.",
+   "technique_zh": "手持小机器人通过玩家的身体收发信号，很可能是让微弱的电信号或音频信号经皮肤传导，因此只有人们相互接触时信息才会流动。",
+   "exercise_en": "Prototype a two-player game with touch-sensing (Makey Makey or capacitive pads) where a sound or AR effect plays only while players hold hands. Twist: the message changes each time a third person joins the chain.",
+   "exercise_zh": "用触摸感应（Makey Makey 或电容触点）做一个双人游戏原型：只有两人牵手时才播放声音或 AR 效果。变体：每有第三个人加入链条，信息就会改变。",
+   "interaction": [
+    "multiplayer-social",
+    "tangible-object",
+    "game-play"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "custom electronics",
+    "body conductivity"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "252776298",
+    "url": "https://vimeo.com/252776298"
+   },
+   "source_url": ""
+  },
+  {
+   "id": "patrick-lichty--survival-suit-pod",
+   "creator_ids": [
+    "patrick-lichty"
+   ],
+   "title": "Survival Suit Pod",
+   "year": 2010,
+   "description": "At a Bushwick street corner, an AR survival pod designed for The Yes Men (a parody of their SurvivaBall climate-disaster suit) appears for passers-by with phones.",
+   "description_zh": "在布什维克的一个街角，一个为 The Yes Men 设计的 AR 生存舱（戏仿他们的 SurvivaBall 气候灾难防护服）出现在拿着手机的路人面前。",
+   "idea_en": "A satirical climate-survival gadget parked on an ordinary street.",
+   "idea_zh": "一件讽刺性的气候求生装置，停在一条普通的街道上。",
+   "technique": "A 3D model of the pod is geolocated at the corner of Irving and Flushing in a mobile AR browser for the Bushwick Augmented Reality Intervention.",
+   "technique_zh": "为布什维克增强现实介入展而作：生存舱的 3D 模型通过移动 AR 浏览器定位在 Irving 街和 Flushing 大道的路口。",
+   "exercise_en": "Design an absurd AR 'survival device' for a near-future disaster and park it where students wait every day. Twist: tapping it plays an infomercial.",
+   "exercise_zh": "为一场近未来灾难设计一件荒诞的 AR“求生装置”，把它放在学生每天等待的地方。变体：点击它就播放一段电视购物广告。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Layar",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XQhLqwVLKQ0",
+    "url": "https://www.youtube.com/watch?v=XQhLqwVLKQ0"
+   },
+   "source_url": "http://patricklichty.com"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Helen Papagiannis",
+   "why": "AR Art Manifesto endorser and early AR artist/author (Augmented Human); her early works (Who's Afraid of Bugs?, The Amazing Cinemagician) have no findable playable video, only keynote talks.",
+   "link": "https://www.augmentedstories.com",
+   "found_via": "mark-skwarek",
+   "status": "no_video"
+  },
+  {
+   "name": "Warren Armstrong",
+   "why": "Sydney artist and AR Art Manifesto endorser (Bushwick AR Intervention 2013); no AR work video found.",
+   "link": "",
+   "found_via": "mark-skwarek",
+   "status": "no_video"
+  },
+  {
+   "name": "Cooper Holoweski",
+   "why": "AR Art Manifesto endorser; video and print artist (Cranbrook); no AR work video found.",
+   "link": "",
+   "found_via": "mark-skwarek",
+   "status": "no_video"
+  },
+  {
+   "name": "Joseph Hocking",
+   "why": "AR Art Manifesto endorser and Unity author; only a 2010 ARToolKit iPhone tech test and a 2009 VR piece, no AR artwork video.",
+   "link": "https://www.youtube.com/channel/UCtpszsrp3m8uFXMkHcA-ojA",
+   "found_via": "mark-skwarek",
+   "status": "no_video"
+  },
+  {
+   "name": "Second Front",
+   "why": "Performance-art group inside Second Life (Patrick Lichty, Jeremy Owen Turner and others) that endorsed the AR Art Manifesto; its works are virtual-world performances, not AR.",
+   "link": "https://www.youtube.com/watch?v=SpFwxVPmPB0",
+   "found_via": "patrick-lichty",
+   "status": "not_ar"
+  },
+  {
+   "name": "Jeremy Hight",
+   "why": "Locative-narrative pioneer (34 North 118 West); staged an AR battle with Mark Skwarek at the Corcoran, 2013.",
+   "link": "https://www.youtube.com/watch?v=j2NadLDHsss",
+   "found_via": "mark-skwarek",
+   "status": "open"
+  },
+  {
+   "name": "Azure Carter",
+   "why": "Singer and performer in Alan Sondheim's mixed-reality and Second Life performances.",
+   "link": "",
+   "found_via": "alan-sondheim",
+   "status": "open"
+  },
+  {
+   "name": "Andrew Roth",
+   "why": "York University AR Lab technical lead on 52 Card Psycho and Caitlin Fisher's AR works.",
+   "link": "",
+   "found_via": "caitlin-fisher",
+   "status": "open"
+  },
+  {
+   "name": "Adam Trowbridge & Jessica Westbrook",
+   "why": "Artist duo (Channel TWo) who showed AR work at the Bushwick AR Intervention 2013.",
+   "link": "https://www.youtube.com/watch?v=0Vt9D_2Br_Q",
+   "found_via": "mark-skwarek",
+   "status": "open"
+  },
+  {
+   "name": "Joseph DeLappe",
+   "why": "Game-intervention artist (Gandhi's march re-enacted in Second Life) included in the Bushwick AR Intervention 2013.",
+   "link": "",
+   "found_via": "mark-skwarek",
+   "status": "open"
+  },
+  {
+   "name": "Freya Björg Olafson",
+   "why": "Performance artist whose motion-captured dances drive Will Pappenheimer's AR works Pool Scratch and Repairs.",
+   "link": "",
+   "found_via": "will-pappenheimer",
+   "status": "open"
+  },
+  {
+   "name": "Zachary Brady",
+   "why": "Developer and co-author of Will Pappenheimer's Sky Petition City and Drawing Constellation.",
+   "link": "",
+   "found_via": "will-pappenheimer",
+   "status": "open"
+  },
+  {
+   "name": "Freida Abtan",
+   "why": "Artist and co-creator of Bot Party with Phoenix Perry.",
+   "link": "",
+   "found_via": "phoenix-perry",
+   "status": "open"
+  }
+ ]
+}

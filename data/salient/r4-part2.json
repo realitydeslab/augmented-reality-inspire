@@ -1,0 +1,52 @@
+{
+ "steve-mann--swim-phenomenal-ar": {
+  "why_en": "A sweeping row of lights freezes a sound or radio wave in the air, exactly where the wave really is.",
+  "why_zh": "一排扫过空间的灯把声波或无线电波定格在空中，就在它真实所在的位置。",
+  "cat": "invisible"
+ },
+ "instituto-stocos--piano-and-dancer": {
+  "why_en": "A piano with no pianist plays itself in answer to a dancer who never touches it.",
+  "why_zh": "一架没有钢琴师的钢琴自己弹奏，回应一位从不触碰它的舞者。",
+  "cat": "sound"
+ },
+ "joon-moon--hello-shadow": {
+  "why_en": "Turn a light around a sculpture and its shadow on the wall becomes a shape the object could never cast.",
+  "why_zh": "拿着灯绕着雕塑转，墙上的影子却变成物体本身不可能投出的形状。",
+  "cat": "shadow"
+ },
+ "kde-dance--empa": {
+  "why_en": "Two people swap eyes and dance hand in hand, each seeing through the other's view.",
+  "why_zh": "两个人交换眼睛，手牵手跳舞，各自透过对方的视角看世界。",
+  "cat": "senses"
+ },
+ "clemence-debaig--social-distancing-shirt": {
+  "why_en": "A shirt that says 'You are too close' until the person near you steps back.",
+  "why_zh": "一件会开口说“你靠得太近了”的衬衫，直到对方退后才停下。",
+  "cat": "body"
+ },
+ "phoenix-perry--bot-party": {
+  "why_en": "Players can only pass messages between their little bots by touching skin to skin, so the body becomes the network cable.",
+  "why_zh": "玩家只有肌肤相触才能让小机器人互传消息，身体成了网线。",
+  "cat": "play"
+ },
+ "cyril-diagne--ar-cut-paste": {
+  "why_en": "Point a phone at a real object to cut it out, then point at your screen to paste it in.",
+  "why_zh": "用手机对准真实物体把它“剪”下来，再对准电脑屏幕把它“贴”进去。",
+  "cat": "portal"
+ },
+ "roelof-knol--connected": {
+  "why_en": "Lines of light on the floor join the strangers standing in the room, so each person's personal space becomes shared.",
+  "why_zh": "地面上的光线把房间里的陌生人连在一起，每个人的私人空间变成了共享空间。",
+  "cat": "invisible"
+ },
+ "cyril-diagne--enthusiast-overlay": {
+  "why_en": "Hanging tennis balls get scribbled cartoon faces and bodies and bounce around with endless enthusiasm.",
+  "why_zh": "悬挂的网球被画上潦草的卡通脸和身体，带着无尽的热情蹦来蹦去。",
+  "cat": "alive"
+ },
+ "field-io--fort-builder": {
+  "why_en": "Stack digital copies of your own cushions and chairs into a fort, then let it crash down without breaking anything.",
+  "why_zh": "用自家靠垫和椅子的数字复制品搭一座堡垒，再让它轰然倒塌，什么都不会摔坏。",
+  "cat": "play"
+ }
+}

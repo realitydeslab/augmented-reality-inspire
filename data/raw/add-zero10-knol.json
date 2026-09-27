@@ -1,0 +1,1357 @@
+{
+ "batch": "add-zero10-knol",
+ "creators": [
+  {
+   "id": "zero10",
+   "name": "ZERO10",
+   "role": "AR fashion-tech studio: digital fashion app, AR try-on, AR Mirrors and AR storefronts",
+   "based": "London, UK",
+   "bio": "Fashion-tech company led by CEO George Yashin. It launched an iPhone app for wearing digital-only garments in AR in 2021, then turned the same real-time body tracking and cloth simulation into AR Mirrors and AR storefronts for Coach, Tommy Hilfiger, UGG, JD Sports and Disney.",
+   "why": "Treats clothing as a live visual effect: burning shirts, giant bags, robot costumes and cinema characters appear on real bodies in real time, on a phone or in a shop window.",
+   "links": {
+    "site": "https://zero10.ar",
+    "x": "https://x.com/zero10_ar",
+    "instagram": "https://www.instagram.com/zero10.ar",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "AR 时尚科技工作室：数字时装 App、AR 试穿、AR 魔镜与 AR 橱窗",
+   "based_zh": "伦敦，英国",
+   "bio_zh": "由 CEO George Yashin 领导的时尚科技公司。2021 年推出可在 AR 中“穿上”纯数字服装的 iPhone App，之后把同一套实时人体追踪与布料模拟技术做成 AR 魔镜和 AR 橱窗，合作品牌包括 Coach、Tommy Hilfiger、UGG、JD Sports 和 Disney。",
+   "why_zh": "它把衣服当作实时视觉特效：燃烧的衬衫、巨型手袋、机器人战衣、电影角色造型，都能实时出现在真人身上——无论是在手机里还是在商店橱窗里。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "roelof-knol",
+   "name": "Roelof Knol",
+   "role": "Visual artist and creative developer (interactive light and projection installations)",
+   "based": "Amsterdam, Netherlands",
+   "bio": "Amsterdam-based visual artist and developer, for years building interactive museum exhibits at the studio YiPP. His minimalist projection-mapped pieces make lines, circles and light respond to paper, balls, magnets, pendulums, visitors and even cats, and have been shown at Nxt Museum Amsterdam, SMoCA Scottsdale and Signal Festival Prague.",
+   "why": "His tabletop experiments show projection mapping as the most direct and social form of AR: a sheet of paper, a ball or a pet becomes a live controller for light.",
+   "links": {
+    "site": "https://www.roelofknol.com",
+    "x": "",
+    "instagram": "https://www.instagram.com/roelofknol",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "视觉艺术家、创意开发者（互动灯光与投影装置）",
+   "based_zh": "阿姆斯特丹，荷兰",
+   "bio_zh": "常驻阿姆斯特丹的视觉艺术家和开发者，曾长期在 YiPP 工作室为博物馆开发互动展项。他的极简投影映射作品让线条、圆和光对纸张、球、磁铁、摆锤、观众甚至猫作出反应，曾在阿姆斯特丹 Nxt Museum、斯科茨代尔 SMoCA 和布拉格 Signal Festival 展出。",
+   "why_zh": "他在桌面上做的小实验证明，投影映射是最直接、最适合多人共享的 AR：一张纸、一只球或一只猫，都能成为控制光的实时“手柄”。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "dong-yoon-park",
+   "name": "Dong Yoon Park (Yoon Park)",
+   "role": "Mixed reality designer and developer (HoloLens, MRTK, Meta Quest)",
+   "based": "Seattle area, US",
+   "bio": "Designer and developer who worked for years on Microsoft's Mixed Reality team on HoloLens 2 interactions and MRTK building blocks. His personal apps Typography Insight and Type In Space treat type as physical objects you walk around, and his later Quest app Cosmic XR brings the solar system into the room.",
+   "why": "His Holographic Type Sculpture, words floating in the Bellevue Arts Museum that only HoloLens wearers could see, was reported as an early case of AR 'digital graffiti' inside a real museum.",
+   "links": {
+    "site": "https://mixedrealitynow.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCDdlcTcbclnL78ziwIW3UMw",
+    "github": "https://github.com/cre8ivepark"
+   },
+   "role_zh": "混合现实设计师与开发者（HoloLens、MRTK、Meta Quest）",
+   "based_zh": "西雅图地区，美国",
+   "bio_zh": "设计师兼开发者，多年在微软混合现实团队负责 HoloLens 2 交互与 MRTK 组件设计。他的个人作品 Typography Insight 和 Type In Space 把字体当作可以绕着走的实物来呈现；之后在 Quest 上推出的 Cosmic XR 则把太阳系搬进房间。",
+   "why_zh": "他的 Holographic Type Sculpture 让文字漂浮在贝尔维尤艺术博物馆里，只有戴 HoloLens 的人才能看到，被媒体称为真实美术馆中早期的 AR“数字涂鸦”。",
+   "connected_to": [
+    "microsoft-hololens"
+   ],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "zero10--ar-try-on-app",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "ZERO10 app: digital fashion AR try-on",
+   "year": 2021,
+   "description": "The launch film of the ZERO10 iPhone app: people on the street wear digital-only garments that follow their body in real time through the phone camera, ready to be recorded and shared.",
+   "description_zh": "ZERO10 iPhone App 的发布短片：街头的人通过手机摄像头“穿上”纯数字服装，衣服实时贴合身体动作，可以直接录制并分享。",
+   "idea_en": "Clothes that exist only as software, worn on your real body through the camera.",
+   "idea_zh": "只存在于软件里的衣服，通过摄像头穿在真实的身体上。",
+   "technique": "Full-body tracking and segmentation estimate the wearer's pose and silhouette each frame, and a real-time cloth simulation drapes the 3D garment over that body with occlusion by arms and hair (likely).",
+   "technique_zh": "全身追踪与人像分割逐帧估计穿着者的姿态和轮廓，实时布料模拟把 3D 服装披挂在身体上，并处理手臂和头发的遮挡（推测）。",
+   "exercise_en": "Use Lens Studio or Effect House body tracking to attach a simple 3D garment (a cape or oversized collar) to a person's upper body, then film a 15-second street 'outfit post'. Twist: the garment reacts to walking speed, getting bigger the faster you move.",
+   "exercise_zh": "用 Lens Studio 或 Effect House 的人体追踪，把一件简单的 3D 服装（披风或夸张的大领子）挂到人的上半身，然后拍一段 15 秒的街头“穿搭”视频；变体：衣服随走路速度变化，走得越快越大。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "iOS",
+    "body tracking",
+    "cloth simulation"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1451190331257487375",
+    "url": "https://x.com/zero10_ar/status/1451190331257487375"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1451190331257487375",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--barragan-wearable-effects",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "Barragán wearable NFT drop with visual effects",
+   "year": 2022,
+   "description": "A drop with the Mexican label Barragán in which each digital garment carries its own effect, such as a shirt that burns up, a dress with an animated oil-slick print and an X-rayed pocket vest, all worn in AR through the app.",
+   "description_zh": "与墨西哥品牌 Barragán 合作的数字服装系列，每件衣服都带有专属特效：会燃烧殆尽的衬衫、印着流动油膜图案的连衣裙、像 X 光片一样透视的口袋背心，都能在 App 里以 AR 形式穿上。",
+   "idea_en": "A garment can do what fabric cannot: burn, flow or turn transparent while you wear it.",
+   "idea_zh": "衣服可以做到布料做不到的事：穿在身上时燃烧、流动或变得透明。",
+   "technique": "Garments are authored as 3D assets with animated shaders and particle effects, then attached to the tracked body in the try-on engine so the effect plays on the wearer in real time.",
+   "technique_zh": "服装被制作成带动画着色器和粒子特效的 3D 资产，再挂到试穿引擎追踪到的身体上，让特效实时在穿着者身上播放。",
+   "exercise_en": "Design one AR garment whose material changes over time (burning, melting, freezing) using a shader graph and body tracking in Lens Studio or Effect House. Twist: the effect triggers only when the wearer strikes a specific pose.",
+   "exercise_zh": "在 Lens Studio 或 Effect House 里用着色器图和人体追踪设计一件会随时间改变材质（燃烧、融化、结冰）的 AR 服装；变体：只有当穿着者摆出某个特定姿势时特效才会触发。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "iOS",
+    "body tracking",
+    "shaders",
+    "NFT"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1487497836031791105",
+    "url": "https://x.com/zero10_ar/status/1487497836031791105"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1489256118136147969",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--edward-crutchley-ar-showpiece",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "Edward Crutchley AR showpiece",
+   "year": 2022,
+   "description": "British designer Edward Crutchley's first augmented reality showpiece: a sculptural couture look with a shimmering, wing-like bodice that is worn on a real model inside an ordinary apartment.",
+   "description_zh": "英国设计师 Edward Crutchley 的第一件增强现实高定作品：一套带有闪烁翅膀状上身结构的雕塑感礼服，穿在普通公寓里的真人模特身上。",
+   "idea_en": "Couture that ignores gravity and fabric cost, worn in an everyday room.",
+   "idea_zh": "不受重力和面料成本限制的高定礼服，穿在日常房间里。",
+   "technique": "A high-poly couture garment is simulated and rendered on the tracked body in real time, with lighting estimated from the camera image so the piece sits in the room (likely).",
+   "technique_zh": "高精度的高定服装模型在追踪到的身体上实时模拟和渲染，并根据摄像头画面估计光照，让服装融入房间（推测）。",
+   "exercise_en": "Sketch an 'impossible' accessory (floating wings, orbiting jewels, a halo) and build it as a body-tracked AR effect in Lens Studio or AR Foundation, then shoot it in a plain room. Twist: the accessory must interact with one real object in the room.",
+   "exercise_zh": "构思一件“不可能存在”的配饰（悬浮的翅膀、环绕身体的宝石、光环），在 Lens Studio 或 AR Foundation 中做成跟随身体的 AR 效果，再在一个普通房间里拍摄；变体：这件配饰必须与房间里的某个真实物体产生互动。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "body tracking",
+    "cloth simulation",
+    "digital fashion"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1505944348600504326",
+    "url": "https://x.com/zero10_ar/status/1505944348600504326"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1505944348600504326",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--crosby-studios-phygital-store",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "ZERO10 x Crosby Studios store with digital-only clothing",
+   "year": 2022,
+   "description": "A physical store in New York designed with Crosby Studios that sells clothes that exist only digitally: a visitor stands in front of a tall screen in a green-tiled room and sees herself wearing the digital jacket.",
+   "description_zh": "与 Crosby Studios 合作、位于纽约的实体店，出售只以数字形式存在的衣服：顾客站在绿色瓷砖房间里的一块竖屏前，就能看到自己穿上数字夹克的样子。",
+   "idea_en": "A real shop for unreal clothes: the fitting room becomes a mirror screen.",
+   "idea_zh": "为不存在的衣服开一家真实的店：试衣间变成了一面屏幕镜子。",
+   "technique": "A camera above a portrait display tracks the shopper's body and the try-on engine renders the selected digital garment on the live video, turning the screen into an AR mirror.",
+   "technique_zh": "竖屏上方的摄像头追踪顾客的身体，试穿引擎把选中的数字服装渲染到实时画面上，让屏幕变成一面 AR 镜子。",
+   "exercise_en": "Turn a laptop and an external monitor rotated to portrait into an AR mirror with MediaPipe Pose and three.js that dresses visitors in one digital garment. Twist: the mirror only shows the garment when two people stand in front of it together.",
+   "exercise_zh": "用一台笔记本和一块竖放的外接显示器，结合 MediaPipe Pose 和 three.js，做一面给来访者“穿上”一件数字服装的 AR 镜子；变体：只有两个人同时站在镜子前时衣服才会出现。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "AR Mirror",
+    "body tracking",
+    "cloth simulation"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1580208212518662144",
+    "url": "https://x.com/zero10_ar/status/1580208212518662144"
+   },
+   "source_url": "https://wwd.com/fashion-news/fashion-scoops/trying-on-metaverse-clothing-irl-zero10-crosby-studio-1235304164/",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--tommy-hilfiger-ar-mirror",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "Tommy Hilfiger AR Mirror",
+   "year": 2023,
+   "description": "An AR Mirror installed in Tommy Hilfiger's London store: shoppers walk up to a framed screen and see themselves wearing the digital version of the new collection, with extra visual effects.",
+   "description_zh": "安装在 Tommy Hilfiger 伦敦门店里的 AR 魔镜：顾客走到一块带框的屏幕前，就能看到自己穿上新系列的数字版本，还带有额外的视觉特效。",
+   "idea_en": "The shop mirror that lets you wear the whole collection in seconds.",
+   "idea_zh": "一面几秒钟就能让你穿遍整个系列的店内镜子。",
+   "technique": "A camera-and-screen kiosk runs real-time pose tracking, segmentation and cloth simulation to overlay digital twins of physical garments on the shopper, with a touch interface to switch looks.",
+   "technique_zh": "由摄像头和屏幕组成的终端运行实时姿态追踪、人像分割与布料模拟，把实体服装的数字孪生叠加到顾客身上，并通过触控界面切换造型。",
+   "exercise_en": "Build a browser AR mirror with MediaPipe Pose that swaps between three outfits by a raised-hand gesture instead of touch. Twist: each outfit changes the background of the room too.",
+   "exercise_zh": "用 MediaPipe Pose 在浏览器里做一面 AR 镜子，通过举手手势（而不是触屏）在三套服装之间切换；变体：每换一套衣服，房间背景也跟着改变。",
+   "interaction": [
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "AR Mirror",
+    "body tracking",
+    "cloth simulation"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1639326863662149634",
+    "url": "https://x.com/zero10_ar/status/1639326863662149634"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1639326863662149634",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--coach-tabby-ar-storefront",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "Coach Tabby AR Storefront and AR Mirror",
+   "year": 2023,
+   "description": "For Coach's Tabby bag campaign, the SoHo store window at 143 Prince Street in New York became an AR Storefront: passers-by on the sidewalk see themselves on a pink screen in the window holding and wearing digital Tabby looks.",
+   "description_zh": "为 Coach 的 Tabby 手袋宣传活动，纽约 SoHo 王子街 143 号门店的橱窗变成了 AR 橱窗：人行道上的路人能在橱窗里的粉色屏幕上看到自己拎着、穿着数字版 Tabby 造型。",
+   "idea_en": "The shop window watches the street and dresses whoever stops.",
+   "idea_zh": "橱窗看着街道，给停下脚步的人换装。",
+   "technique": "A camera behind the glass tracks people on the sidewalk and renders digital bags and outfits on them in real time on a window-facing display; a second AR Mirror inside continues the experience.",
+   "technique_zh": "玻璃后面的摄像头追踪人行道上的路人，在面向街道的屏幕上实时为他们渲染数字手袋和服装；店内的另一面 AR 魔镜延续这一体验。",
+   "exercise_en": "Point a webcam and a monitor out of a classroom window or doorway and build a 'street mirror' that adds one playful AR accessory to anyone who stops for three seconds. Twist: the accessory grows the longer they stay.",
+   "exercise_zh": "把摄像头和显示器对着教室窗外或门口，做一面“街头镜子”：任何停留三秒以上的人都会被加上一件有趣的 AR 配饰；变体：停留越久，配饰越大。",
+   "interaction": [
+    "hand-body",
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "AR Mirror",
+    "AR Storefront",
+    "body tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1655677506454982656",
+    "url": "https://x.com/zero10_ar/status/1655677506454982656"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1655677506454982656",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--giant-ar-tabby",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "Giant digital Tabby in New York",
+   "year": 2023,
+   "description": "A giant pink Coach Tabby bag hangs between New York buildings in AR, promoting a giveaway in which winners could own the AR bag in the ZERO10 app.",
+   "description_zh": "一只巨大的粉色 Coach Tabby 手袋以 AR 形式悬挂在纽约的楼宇之间，用于宣传一次抽奖活动，获奖者可以在 ZERO10 App 里拥有这只 AR 手袋。",
+   "idea_en": "Scale is the joke: a handbag the size of a building.",
+   "idea_zh": "尺度本身就是笑点：一只和大楼一样大的手袋。",
+   "technique": "A 3D bag model is anchored in world space and rendered at architectural scale over camera footage of the street, most likely as a camera-tracked composite for the campaign video.",
+   "technique_zh": "3D 手袋模型被锚定在世界坐标中，以建筑尺度渲染在街景画面上，宣传视频很可能是基于摄像机追踪的合成。",
+   "exercise_en": "Use world tracking in AR Foundation or 8th Wall to place an everyday object (a mug, a sneaker) at building scale outside, then record a short vertical video. Twist: the giant object must look like it is interacting with the architecture, for example hanging from a ledge.",
+   "exercise_zh": "用 AR Foundation 或 8th Wall 的世界追踪，把一个日常物品（杯子、球鞋）以建筑尺度放在户外，然后录一段竖屏短视频；变体：让巨物看起来在与建筑互动，比如挂在屋檐上。",
+   "interaction": [
+    "location-geo",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "world tracking",
+    "3D compositing"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1657058686798315521",
+    "url": "https://x.com/zero10_ar/status/1657058686798315521"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1657058686798315521",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--jd-sports-ar-mirror",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "JD Sports AR Mirror in a sports arena",
+   "year": 2023,
+   "description": "For a JD Sports campaign developed by the agency Rumfoords, ZERO10's AR Mirror came to a sports arena: fans try on new sportswear virtually and can start a purchase directly from the mirror screen.",
+   "description_zh": "在由 Rumfoords 代理策划的 JD Sports 宣传活动中，ZERO10 的 AR 魔镜进入了体育场馆：球迷可以虚拟试穿新款运动服，还能直接在镜子屏幕上发起购买。",
+   "idea_en": "Try-on and checkout collapse into one mirror at the stadium.",
+   "idea_zh": "在体育场里，试穿和下单合并在同一面镜子上。",
+   "technique": "The AR Mirror combines body tracking and cloth simulation with an on-screen commerce flow, so a selected digital garment links to the matching product for purchase.",
+   "technique_zh": "AR 魔镜把人体追踪、布料模拟和屏幕上的购物流程结合起来，选中的数字服装会直接关联到可购买的对应商品。",
+   "exercise_en": "Build a body-tracked AR mirror that dresses players in a team jersey and shows a QR code linking to a (mock) product page when they hold a pose for two seconds. Twist: the jersey number updates to match how many jumps the person just did.",
+   "exercise_zh": "做一面基于人体追踪的 AR 镜子，给人穿上球队球衣；当对方保持某个姿势两秒时，显示一个指向（模拟）商品页的二维码；变体：球衣号码会变成这个人刚刚跳了多少下。",
+   "interaction": [
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "AR Mirror",
+    "body tracking",
+    "e-commerce"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1688549906351271936",
+    "url": "https://x.com/zero10_ar/status/1688549906351271936"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1688549906351271936",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--generative-ai-virtual-try-on",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "Generative AI Virtual Try-on research",
+   "year": 2023,
+   "description": "A research demo in which a single photo of a person is used to generate realistic images of them wearing different garments, aimed at seeing how clothes look on you before buying online.",
+   "description_zh": "一项研究演示：只用一张人物照片，就能生成此人穿上不同服装的逼真图像，目的是在网购前看到衣服穿在自己身上的效果。",
+   "idea_en": "Swap real-time 3D for generative images: the model imagines you in the outfit.",
+   "idea_zh": "用生成式图像替代实时 3D：让模型去“想象”你穿上这件衣服的样子。",
+   "technique": "A diffusion-based image model is conditioned on the person's photo, pose and the garment image to synthesize a new photo of the person wearing it (likely).",
+   "technique_zh": "一个基于扩散模型的图像生成器，以人物照片、姿态和服装图片为条件，合成此人穿着该服装的新照片（推测）。",
+   "exercise_en": "Compare two try-on methods for the same garment: a body-tracked 3D AR filter and an open-source image try-on model, then have classmates rate realism and fun. Twist: feed the AI version an 'impossible' garment and see what it invents.",
+   "exercise_zh": "对同一件衣服比较两种试穿方式：基于人体追踪的 3D AR 滤镜，和一个开源的图像试穿模型，让同学为真实感和趣味性打分；变体：给 AI 版本输入一件“不可能存在”的衣服，看它会生成什么。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "generative AI",
+    "diffusion model",
+    "virtual try-on"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1729535657444286935",
+    "url": "https://x.com/zero10_ar/status/1729535657444286935"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1729535657444286935",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--zendaya-mugler-futures",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "Future outfits for Zendaya's Mugler robot suit",
+   "year": 2024,
+   "description": "Riffing on Zendaya's red-carpet entrance in Mugler's 1995 robot suit, ZERO10 dressed the same footage in several of its own retro-futuristic digital designs and asked viewers to pick a favourite.",
+   "description_zh": "借 Zendaya 身穿 Mugler 1995 年机器人战衣走红毯的热点，ZERO10 在同一段视频上给她换上多套自家的复古未来主义数字服装，并请观众投票选出最喜欢的一套。",
+   "idea_en": "Remix a viral fashion moment by re-dressing the same footage with AR.",
+   "idea_zh": "用 AR 给同一段爆红的时尚画面“换衣服”，二次创作热点。",
+   "technique": "Body tracking runs on existing video rather than a live camera, so digital garments are fitted frame by frame onto the celebrity footage and cut into a comparison edit.",
+   "technique_zh": "人体追踪作用于已有视频而非实时摄像头，数字服装被逐帧贴合到名人画面上，再剪辑成对比视频。",
+   "exercise_en": "Pick a short public-domain or self-shot runway clip and run a body-tracking AR effect on it in Effect House or Lens Studio (video input mode) to produce three alternative outfits. Twist: each outfit must represent a different decade.",
+   "exercise_zh": "选一段公共领域或自己拍的走秀短片，在 Effect House 或 Lens Studio（视频输入模式）中用人体追踪 AR 效果为其生成三套替代服装；变体：每套服装必须代表一个不同的年代。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "body tracking",
+    "video AR",
+    "digital fashion"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1759918269698596941",
+    "url": "https://x.com/zero10_ar/status/1759918269698596941"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1759918269698596941",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--what-others-see-what-we-see",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "What others see / What we see",
+   "year": 2024,
+   "description": "A split-screen joke after the 2024 Oscars: the top shows what everyone saw on stage, and the bottom shows what ZERO10 'sees', with the presenter dressed in AR as a boxy car-robot costume.",
+   "description_zh": "2024 年奥斯卡之后的一则分屏玩笑：上半部分是大家在舞台上看到的画面，下半部分是 ZERO10“看到的”，颁奖嘉宾被 AR 装扮成一身方方正正的汽车机器人造型。",
+   "idea_en": "AR as a second way of seeing the same moment: what others see vs what we see.",
+   "idea_zh": "AR 是看待同一时刻的第二种方式：别人看到的，和我们看到的。",
+   "technique": "The same broadcast clip is tracked for body pose and a rigid 3D costume is attached to the torso and limbs, then stacked against the original for comparison.",
+   "technique_zh": "对同一段直播片段做人体姿态追踪，把一套硬质 3D 造型绑定到躯干和四肢上，再与原画面上下并列对比。",
+   "exercise_en": "Record a 10-second clip of a classmate, then build a split-screen video where the lower half shows them in a body-tracked AR costume that changes their role (robot, knight, mascot). Twist: the costume must reveal something the top half hides.",
+   "exercise_zh": "录一段同学的 10 秒视频，做成上下分屏：下半部分用人体追踪 AR 服装改变他的身份（机器人、骑士、吉祥物）；变体：这套服装要揭示上半部分画面中隐藏的某种东西。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "body tracking",
+    "video AR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1767216132061331485",
+    "url": "https://x.com/zero10_ar/status/1767216132061331485"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1767216132061331485",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "zero10--magic-mirror-cinema-characters",
+   "creator_ids": [
+    "zero10"
+   ],
+   "title": "Magic Mirrors for cinemas and theme parks",
+   "year": 2024,
+   "description": "ZERO10 Magic Mirrors in entertainment venues turn visitors into their favourite characters, for example standing in an underwater world as an Aquaman-style superhero, and invite them to share the result.",
+   "description_zh": "ZERO10 的魔镜进入娱乐场所，把观众变成他们喜欢的角色，例如以类似 Aquaman 的超级英雄形象站在海底世界里，并鼓励他们分享出去。",
+   "idea_en": "Step into the poster: the mirror swaps you into the movie's world.",
+   "idea_zh": "走进海报里：镜子把你换进电影的世界。",
+   "technique": "Full-body tracking drives a character costume while background segmentation replaces the venue with a themed environment, all rendered live on a large portrait screen.",
+   "technique_zh": "全身追踪驱动角色服装，背景分割把场地替换为主题环境，全部实时渲染在一块大型竖屏上。",
+   "exercise_en": "Build a webcam 'poster mirror' with MediaPipe Selfie Segmentation and Pose that replaces the background with a scene of your choice and adds one character accessory. Twist: the scene reacts when the visitor raises both arms.",
+   "exercise_zh": "用 MediaPipe 人像分割和姿态追踪做一面摄像头“海报镜子”：把背景替换成你选的场景，并加上一件角色配饰；变体：当来访者举起双臂时，场景会产生反应。",
+   "interaction": [
+    "hand-body",
+    "portal-world",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "AR Mirror",
+    "body tracking",
+    "segmentation"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1792550092722806832",
+    "url": "https://x.com/zero10_ar/status/1792550092722806832"
+   },
+   "source_url": "https://x.com/zero10_ar/status/1792550092722806832",
+   "found_via": {
+    "source": "pinterest",
+    "url": "https://www.pinterest.com/zero10_ar/"
+   }
+  },
+  {
+   "id": "roelof-knol--connected",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Connected",
+   "year": 2020,
+   "description": "An immersive room at Nxt Museum made with sound artist Marc Mahfoud: light projected on the floor links the visitors standing in it, turning each person's personal space into a shared space. Here it is the set of Benny Benassi and Bloom Twins' music video DayDream.",
+   "description_zh": "与声音艺术家 Marc Mahfoud 在 Nxt Museum 合作的沉浸式空间：投在地面上的光把站在其中的观众连接起来，让每个人的私人空间变成共享空间。这段视频是 Benny Benassi 与 Bloom Twins 的音乐录像 DayDream，就在这件作品中拍摄。",
+   "idea_en": "Draw the invisible lines between strangers on the floor.",
+   "idea_zh": "把陌生人之间看不见的连线画在地板上。",
+   "technique": "Overhead tracking (likely depth or infrared cameras) finds each visitor's position and a ceiling projector draws lines and shapes between them in real time, with a spatial soundscape.",
+   "technique_zh": "顶部追踪（推测为深度或红外摄像头）获取每位观众的位置，天花板上的投影仪实时在他们之间绘制线条和图形，并配合空间声景。",
+   "exercise_en": "Mount a webcam and a cheap projector overhead, track people as blobs with OpenCV or TouchDesigner, and project a line between every pair of people. Twist: lines only appear between people who are standing still.",
+   "exercise_zh": "在头顶架设摄像头和廉价投影仪，用 OpenCV 或 TouchDesigner 把人识别为色块，在每两个人之间投出一条线；变体：只有站着不动的人之间才会出现连线。",
+   "interaction": [
+    "projection",
+    "multiplayer-social",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "people tracking",
+    "spatial audio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ArFcUEoxKfo",
+    "url": "https://www.youtube.com/watch?v=ArFcUEoxKfo"
+   },
+   "source_url": "https://nxtmuseum.com/artist/connected-roelof-knol"
+  },
+  {
+   "id": "roelof-knol--interactive-line-projection-on-paper",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Interactive projection mapping on paper",
+   "year": 2021,
+   "description": "A hand slides a small printed card across a dark table; projected lines stream out from the card's pattern and keep flowing into new patterns as it moves.",
+   "description_zh": "一只手在深色桌面上滑动一张印有图案的小卡片；投影出的线条从卡片的图案中延伸出来，并随着卡片移动不断流动、变换成新的图案。",
+   "idea_en": "A printed card becomes the source that the projected drawing grows out of.",
+   "idea_zh": "一张印刷卡片成为投影画面生长出来的源头。",
+   "technique": "A camera tracks the card's position and rotation (likely via its printed pattern or contour) and a calibrated projector draws generative lines registered to the card in real time.",
+   "technique_zh": "摄像头追踪卡片的位置和旋转（推测依靠印刷图案或轮廓），经过标定的投影仪实时绘制与卡片对齐的生成式线条。",
+   "exercise_en": "Calibrate a webcam to a projector over a table, track an ArUco-marked card with OpenCV, and project lines that radiate from its edges. Twist: two cards brought close together merge their line fields.",
+   "exercise_zh": "在桌面上方把摄像头和投影仪标定对齐，用 OpenCV 追踪贴有 ArUco 标记的卡片，并从卡片边缘投射放射状的线条；变体：两张卡片靠近时，它们的线场会融合在一起。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "drawing-creation"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "camera tracking",
+    "Unity"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1439277743212937224",
+    "url": "https://x.com/CurieuxExplorer/status/1439277743212937224"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--interactive-football-wall",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Realtime interactive football wall",
+   "year": 2021,
+   "description": "A football is kicked against a wall covered with a projected grid of rectangles; the pattern reacts in real time wherever the ball hits.",
+   "description_zh": "一只足球被踢向投满矩形网格的墙面；球击中哪里，图案就在哪里实时作出反应。",
+   "idea_en": "Any wall becomes a playable surface when the projector knows where the ball lands.",
+   "idea_zh": "只要投影仪知道球落在哪里，任何一面墙都能变成可以玩的界面。",
+   "technique": "A camera or depth sensor detects the ball's impact point on the wall, which is mapped into projector coordinates to trigger changes in the generative grid (likely).",
+   "technique_zh": "摄像头或深度传感器检测球击中墙面的位置，并映射到投影坐标中，触发生成式网格的变化（推测）。",
+   "exercise_en": "Project a grid onto a wall, detect ball hits with a webcam using frame differencing, and light up the hit cell. Twist: turn it into a two-player game where each player 'paints' cells in their own colour.",
+   "exercise_zh": "把网格投影到墙上，用摄像头帧差法检测球的击中点，并点亮被击中的格子；变体：做成双人游戏，每个玩家用自己的颜色“涂”格子。",
+   "interaction": [
+    "projection",
+    "game-play",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1535625398670614529",
+    "url": "https://x.com/Rainmaker1973/status/1535625398670614529"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--projectors-and-ar-rings",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Two projectors + augmented reality effects",
+   "year": 2022,
+   "description": "Two projectors map audio-reactive rings and circles of light onto a coffee table, combined with augmented reality effects in the same scene so that projected and virtual layers read as one.",
+   "description_zh": "两台投影仪把随音乐律动的光环和圆圈投射到茶几上，并在同一场景中叠加增强现实效果，让投影层和虚拟层看起来融为一体。",
+   "idea_en": "Stack projection and screen-based AR so light on the table and virtual content share one space.",
+   "idea_zh": "把投影和屏幕式 AR 叠在一起，让桌上的光和虚拟内容处在同一个空间里。",
+   "technique": "Two calibrated projectors cover the table surface with audio-reactive graphics while a camera-based AR view renders matching 3D elements registered to the same table (likely).",
+   "technique_zh": "两台经过标定的投影仪在桌面上投出随音频变化的图形，同时一个基于摄像头的 AR 视图渲染与同一张桌子对齐的 3D 元素（推测）。",
+   "exercise_en": "Project an audio-reactive circle onto a table, then build a phone AR scene with an image target on the table that adds a 3D element synced to the same music. Twist: the AR element should seem to cast a shadow into the projection.",
+   "exercise_zh": "把一个随音乐变化的圆投影到桌面上，再用桌上的图像标记做一个手机 AR 场景，加入一个与同一音乐同步的 3D 元素；变体：让 AR 元素看起来在投影上投下阴影。",
+   "interaction": [
+    "projection",
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "phone"
+   ],
+   "tech": [
+    "projection mapping",
+    "AR",
+    "audio-reactive"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1491350500222152704",
+    "url": "https://x.com/WevolverApp/status/1491350500222152704"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--circle-intersections-magnets",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Circle intersections: interactive magnets on whiteboard",
+   "year": 2022,
+   "description": "Magnets placed on a whiteboard each get a projected circle of light; where the circles overlap, their intersections are drawn, so moving a magnet reshapes the whole geometric composition.",
+   "description_zh": "放在白板上的每块磁铁都有一个投影光圈；光圈重叠的地方会画出交点，移动一块磁铁就会改变整个几何构图。",
+   "idea_en": "Play with geometry by hand: magnets are the control points of a live diagram.",
+   "idea_zh": "用手玩几何：磁铁就是一张实时图表的控制点。",
+   "technique": "A camera detects the magnets' positions on the board, circles are computed around each one, their intersection points are solved geometrically, and the result is projected back onto the board.",
+   "technique_zh": "摄像头检测磁铁在白板上的位置，围绕每块磁铁计算一个圆，用几何方法求出圆与圆的交点，再把结果投影回白板上。",
+   "exercise_en": "Track coloured magnets or bottle caps on a whiteboard with a webcam and project a circle around each, drawing a dot at every intersection. Twist: map the number of intersections to a musical chord.",
+   "exercise_zh": "用摄像头追踪白板上的彩色磁铁或瓶盖，在每个周围投出一个圆，并在每个交点处画一个点；变体：把交点数量映射成一个音乐和弦。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "camera tracking",
+    "computational geometry"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1526756672999288832",
+    "url": "https://x.com/CurieuxExplorer/status/1526756672999288832"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--perspective-bounce-detection",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Real-time perspective bounce detection",
+   "year": 2022,
+   "description": "A small ball bounced on a table inside a projected rectangle: each bounce is detected in real time and the projected frame reacts with a perspective effect, as if the surface had depth.",
+   "description_zh": "一只小球在投影出的矩形中弹跳：每次落地都会被实时检测到，投影框随之产生透视效果，好像桌面有了深度。",
+   "idea_en": "A bounce is enough input to make a flat table feel deep.",
+   "idea_zh": "一次弹跳就足以让平坦的桌面显得有纵深。",
+   "technique": "Bounce moments are detected from the ball's tracked height or sound (likely), and the projected image is re-rendered with an anamorphic perspective for the viewer's position.",
+   "technique_zh": "通过追踪小球的高度或声音（推测）检测弹跳瞬间，并按观看者的位置以变形透视重新渲染投影画面。",
+   "exercise_en": "Detect a ball bounce with a phone microphone or webcam and trigger a projected ripple at the bounce point. Twist: render the ripple anamorphically so it looks like a hole from one fixed viewpoint.",
+   "exercise_zh": "用手机麦克风或摄像头检测小球弹跳，在落点处触发一圈投影涟漪；变体：用变形透视渲染涟漪，让它从某个固定视角看起来像一个洞。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "anamorphic perspective",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1531553569995952129",
+    "url": "https://x.com/Rainmaker1973/status/1531553569995952129"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--depth-lines-on-paper",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Depth lines on paper",
+   "year": 2022,
+   "description": "Small paper cards on a dark table each show a projected tunnel of nested glowing squares, making the cards look like holes in the table; sliding a card by hand drags its tunnel along.",
+   "description_zh": "深色桌面上的几张小纸卡上各自投出层层嵌套的发光方框，看起来像桌面上的洞；用手滑动纸卡，“隧道”也跟着移动。",
+   "idea_en": "A plain card becomes a portal into the table.",
+   "idea_zh": "一张普通卡片变成通往桌子内部的入口。",
+   "technique": "Card positions are tracked by a camera and nested rectangles are projected with a perspective offset toward a vanishing point, creating a depth illusion on each card.",
+   "technique_zh": "摄像头追踪纸卡位置，嵌套矩形带着朝向消失点的透视偏移被投影出来，在每张卡片上形成深度错觉。",
+   "exercise_en": "Track paper rectangles on a table with a webcam and project nested shrinking squares onto each to fake a hole. Twist: drop a small virtual ball that falls into whichever hole you slide under it.",
+   "exercise_zh": "用摄像头追踪桌上的纸片，在每张上投射层层缩小的方框来伪造一个洞；变体：投下一颗虚拟小球，你把哪个洞滑到它下面，它就掉进哪个洞。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "camera tracking",
+    "Unity"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1544719441790992385",
+    "url": "https://x.com/CurieuxExplorer/status/1544719441790992385"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--voronoi-cells-pendulum",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Voronoi cells drawn by a pendulum",
+   "year": 2022,
+   "description": "A pendulum ball swings over a coffee table covered in projected Voronoi cells; the cell pattern is continuously redrawn around the moving ball.",
+   "description_zh": "一只摆锤在投满 Voronoi 细胞图案的茶几上方来回摆动；细胞图案围绕移动的小球不断重新生成。",
+   "idea_en": "Let a pendulum, not a person, conduct a generative drawing.",
+   "idea_zh": "让摆锤而不是人来指挥一幅生成式绘画。",
+   "technique": "The pendulum's position is tracked from above and used as a moving seed point in a real-time Voronoi diagram that is projected back onto the table.",
+   "technique_zh": "从上方追踪摆锤位置，把它作为实时 Voronoi 图中的一个移动种子点，再把图案投影回桌面。",
+   "exercise_en": "Hang a pendulum over a table, track it with a webcam, and project a Voronoi diagram whose seeds include the pendulum and a few fixed points. Twist: the pendulum's speed controls line thickness.",
+   "exercise_zh": "在桌子上方挂一个摆锤，用摄像头追踪它，并投影一张 Voronoi 图，种子点包括摆锤和几个固定点；变体：用摆锤速度控制线条粗细。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "Voronoi",
+    "Unity"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1553404644566507521",
+    "url": "https://x.com/CurieuxExplorer/status/1553404644566507521"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--dots-on-paper",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Dots on paper",
+   "year": 2022,
+   "description": "A plain sheet of paper on a wooden table becomes a live canvas: dots on the paper drive projected graphics that animate in sync with music, framed exactly by the sheet's edges.",
+   "description_zh": "木桌上的一张白纸变成实时画布：纸上的点驱动投影图形随音乐同步变化，画面恰好被纸张边缘框住。",
+   "idea_en": "A single sheet of paper is enough as a screen, a controller and a stage.",
+   "idea_zh": "一张纸就足以同时作为屏幕、控制器和舞台。",
+   "technique": "The sheet is detected and tracked by a camera, dots on it are found by blob detection, and generative graphics are projection-mapped precisely onto the paper (likely).",
+   "technique_zh": "摄像头检测并追踪纸张，通过色块检测找到纸上的点，再把生成式图形精确地投影映射到纸面上（推测）。",
+   "exercise_en": "Project onto an A4 sheet whose corners are tracked by a webcam, and make dots drawn with a marker become sources of animated ripples. Twist: erasing a dot makes its ripples collapse inward.",
+   "exercise_zh": "用摄像头追踪一张 A4 纸的四角并向其投影，让马克笔画上的点成为动画涟漪的源头；变体：擦掉一个点时，它的涟漪会向内塌缩。",
+   "interaction": [
+    "projection",
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "blob detection",
+    "audio-reactive"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1597712101006577664",
+    "url": "https://x.com/WevolverApp/status/1597712101006577664"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--light-particles",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Light Particles: projection mapping + LED + AR",
+   "year": 2023,
+   "description": "Swarms of bright light particles are projected onto a living-room floor and continue into LED light and an AR layer, blurring which light is physical and which is virtual.",
+   "description_zh": "一群明亮的光粒子被投射到客厅地板上，并延伸到 LED 灯光和 AR 图层中，让人分不清哪些光是真实的、哪些是虚拟的。",
+   "idea_en": "Make one particle system flow across projector, LEDs and AR without a seam.",
+   "idea_zh": "让同一个粒子系统无缝穿行于投影、LED 和 AR 之间。",
+   "technique": "A single real-time particle simulation is rendered to a floor projector, an LED fixture and a camera-based AR view that share one calibrated coordinate system (likely).",
+   "technique_zh": "同一个实时粒子模拟被分别渲染到地面投影、LED 灯具和基于摄像头的 AR 视图中，三者共享一个经过标定的坐标系（推测）。",
+   "exercise_en": "Run one particle system in Unity or TouchDesigner that renders to a projector on the floor and to a phone AR view anchored to the same spot. Twist: particles that leave the projection area continue only in AR.",
+   "exercise_zh": "在 Unity 或 TouchDesigner 中运行一个粒子系统，同时输出到地面投影和锚定在同一位置的手机 AR 视图；变体：飞出投影区域的粒子只在 AR 中继续存在。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "projection",
+    "phone"
+   ],
+   "tech": [
+    "projection mapping",
+    "LED",
+    "AR",
+    "particles"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1610939456692883456",
+    "url": "https://x.com/WevolverApp/status/1610939456692883456"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--circle-intersections-pendulum",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Circle intersections: interactive pendulum projection",
+   "year": 2023,
+   "description": "A pendulum swings over a projected frame on a dark carpet; circles drawn around the pendulum and fixed points intersect and shift as it swings, producing a constantly changing geometric figure.",
+   "description_zh": "摆锤在深色地毯上投影出的矩形框上方摆动；围绕摆锤和几个固定点画出的圆相互交叠，并随摆动不断移动，形成持续变化的几何图形。",
+   "idea_en": "Physics as a drawing tool: gravity animates the geometry.",
+   "idea_zh": "把物理当作绘图工具：由重力来驱动几何图形。",
+   "technique": "The pendulum bob is tracked from above and circle intersections between it and fixed centres are computed each frame and projected onto the floor.",
+   "technique_zh": "从上方追踪摆锤，每帧计算它与若干固定圆心之间的圆交点，并投影到地面上。",
+   "exercise_en": "Track a hanging pendulum with a webcam and project circles around it and two fixed points, highlighting their intersections. Twist: leave a fading trail of past intersections to draw a pattern over time.",
+   "exercise_zh": "用摄像头追踪一个悬挂的摆锤，围绕它和两个固定点投出圆，并高亮显示交点；变体：保留逐渐淡去的历史交点轨迹，随时间画出一幅图案。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1621037555729960960",
+    "url": "https://x.com/CurieuxExplorer/status/1621037555729960960"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--voronoi-depth",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Voronoi Depth",
+   "year": 2023,
+   "description": "A projected rectangle on a living-room floor opens into what looks like a recessed box whose Voronoi-patterned walls react to what is placed or moved inside it.",
+   "description_zh": "客厅地板上的投影矩形看起来像一个向下凹陷的盒子，盒壁上的 Voronoi 图案会对放入或移动的物体作出反应。",
+   "idea_en": "Fake depth in the floor, then let real objects disturb it.",
+   "idea_zh": "在地板上伪造出深度，再让真实物体去扰动它。",
+   "technique": "An anamorphic projection renders a box interior for a fixed viewpoint, while tracked objects act as seeds for a Voronoi pattern mapped onto the box walls (likely).",
+   "technique_zh": "变形透视投影为固定视角渲染出盒子内部，被追踪的物体作为种子点，驱动映射在盒壁上的 Voronoi 图案（推测）。",
+   "exercise_en": "Project an anamorphic 'hole' onto the floor that looks correct from one marked spot, then add a simple reaction when a foot enters it. Twist: the hole gets deeper the longer someone stands in it.",
+   "exercise_zh": "在地面投影一个变形透视的“洞”，让它从某个标记位置看起来正确，然后在脚踏入时加入简单反应；变体：有人站得越久，洞就越深。",
+   "interaction": [
+    "projection",
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "anamorphic perspective",
+    "Voronoi"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1716746012939931835",
+    "url": "https://x.com/CurieuxExplorer/status/1716746012939931835"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--the-space-in-between",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "the space in between",
+   "year": 2023,
+   "description": "An immersive installation at Scottsdale Museum of Contemporary Art: in a dark gallery, minimal lines and planes of projected light respond to visitors' movements with sound, turning the room into a playful audiovisual space.",
+   "description_zh": "斯科茨代尔当代艺术博物馆（SMoCA）的沉浸式装置：在黑暗的展厅里，极简的投影光线和光面随观众的移动与声音作出反应，把整个空间变成一个好玩的视听场域。",
+   "idea_en": "Make the empty space between people and walls the thing that reacts.",
+   "idea_zh": "让人与墙之间的“空白”成为会回应的主体。",
+   "technique": "Visitors are tracked in the gallery (likely with depth or infrared cameras) and their positions drive projected geometry and sound in real time.",
+   "technique_zh": "展厅中的观众被追踪（推测使用深度或红外摄像头），他们的位置实时驱动投影几何和声音。",
+   "exercise_en": "In a darkened classroom, project a single line across the floor that bends toward the nearest person tracked by a webcam. Twist: when two people approach each other, the line breaks into two.",
+   "exercise_zh": "在关灯的教室里，向地面投出一条线，让它弯向摄像头追踪到的最近的人；变体：当两个人彼此靠近时，这条线断成两条。",
+   "interaction": [
+    "projection",
+    "hand-body",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "people tracking",
+    "sound"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Ypd0NXoVUi0",
+    "url": "https://www.youtube.com/watch?v=Ypd0NXoVUi0"
+   },
+   "source_url": "https://www.youtube.com/watch?v=Ypd0NXoVUi0"
+  },
+  {
+   "id": "roelof-knol--cat-fish-projection",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Projected fish school for cats",
+   "year": 2024,
+   "description": "A school of small fish is projected onto the floor and scatters away from a cat that chases it, turning a projection into interactive play for pets.",
+   "description_zh": "一群小鱼被投射到地板上，在猫追扑时四散逃开，把投影变成了给宠物玩的互动游戏。",
+   "idea_en": "AR for an audience that cannot read screens: a cat.",
+   "idea_zh": "给一个不会看屏幕的观众做 AR：一只猫。",
+   "technique": "A camera tracks the cat's position and a flocking (boids) simulation makes the projected fish flee from it in real time.",
+   "technique_zh": "摄像头追踪猫的位置，集群（boids）模拟让投影出的鱼实时躲避它。",
+   "exercise_en": "Project a boids swarm onto the floor and make it flee from the largest moving blob seen by a webcam (a person's foot or a pet). Twist: the swarm slowly learns to follow instead of flee.",
+   "exercise_zh": "把一个 boids 集群投影到地面上，让它躲避摄像头看到的最大移动色块（人的脚或宠物）；变体：这个集群慢慢学会跟随而不是逃跑。",
+   "interaction": [
+    "projection",
+    "game-play",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "boids",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1772239372521263467",
+    "url": "https://x.com/Rainmaker1973/status/1772239372521263467"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--light-lines",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "light lines",
+   "year": 2024,
+   "description": "Dense parallel lines of warm light are projected across a table and react to the objects placed among them, such as a candle, so the stripes seem to flow around real things.",
+   "description_zh": "密集的暖色平行光线投射在桌面上，并对放在其间的物体（例如一支蜡烛）作出反应，让光条看起来绕着真实物体流动。",
+   "idea_en": "Real objects bend the light around them.",
+   "idea_zh": "真实的物体让光绕着它弯曲。",
+   "technique": "Object positions are detected from above and used to displace a field of projected line segments in real time (likely).",
+   "technique_zh": "从上方检测物体位置，实时用它们去扰动一片投影线段场（推测）。",
+   "exercise_en": "Project a field of parallel lines onto a table and use webcam blob detection to push the lines away from any object placed on it. Twist: the lines slowly remember where objects used to be.",
+   "exercise_zh": "在桌面上投出一片平行线，用摄像头色块检测把线条从放上去的物体周围推开；变体：线条会慢慢“记住”物体曾经的位置。",
+   "interaction": [
+    "projection",
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1812187426590200184",
+    "url": "https://x.com/orbithm/status/1812187426590200184"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--walking-in-circles",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "walking in circles",
+   "year": 2024,
+   "description": "A room-scale installation in which white bars and squares projected on the floor and walls shift around a person walking in circles, set to an ambient soundtrack.",
+   "description_zh": "一件房间尺度的装置：投在地面和墙上的白色光条与方块，围绕一个绕圈行走的人不断移动，并伴随氛围音乐。",
+   "idea_en": "Your walking path rearranges the architecture of light around you.",
+   "idea_zh": "你的行走路径会重新编排身边的光之建筑。",
+   "technique": "A person tracked in the room (likely by depth or overhead camera) drives the layout of projected geometry mapped across floor and walls.",
+   "technique_zh": "房间里的人被追踪（推测使用深度或顶部摄像头），其位置驱动映射在地面和墙面上的投影几何布局。",
+   "exercise_en": "Map a projector to a floor and wall corner and make projected bars rotate to face a tracked walker. Twist: walking clockwise and counter-clockwise produce different sounds.",
+   "exercise_zh": "把投影仪映射到地面和墙角，让投影光条随着被追踪的行人转向；变体：顺时针和逆时针行走会发出不同的声音。",
+   "interaction": [
+    "projection",
+    "hand-body",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "people tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1866604059240853525",
+    "url": "https://x.com/genmediaclub/status/1866604059240853525"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "roelof-knol--future-whiteboard",
+   "creator_ids": [
+    "roelof-knol"
+   ],
+   "title": "Future whiteboard: marker strokes that come alive",
+   "year": 2026,
+   "description": "On a whiteboard, lines drawn with a marker are detected in real time and projected light effects follow the pen and bring the strokes to life.",
+   "description_zh": "在白板上，用马克笔画出的线条被实时检测到，投影的光效追随笔尖移动，让笔画“活”起来。",
+   "idea_en": "Handwriting becomes the trigger for light.",
+   "idea_zh": "手写成为触发光的开关。",
+   "technique": "A camera watches the board and the pen tip, new strokes are detected as they appear, and a calibrated projector overlays light effects that follow them (likely).",
+   "technique_zh": "摄像头监视白板和笔尖，一出现新笔画就被检测到，经过标定的投影仪叠加追随笔画的光效（推测）。",
+   "exercise_en": "Point a webcam and projector at a whiteboard, detect new marker strokes by frame differencing, and spawn projected sparks along them. Twist: sparks travel along the strokes and jump between lines that cross.",
+   "exercise_zh": "把摄像头和投影仪对准白板，通过帧差检测新画的笔画，并沿笔画生成投影火花；变体：火花沿笔画流动，并在交叉的线之间跳跃。",
+   "interaction": [
+    "projection",
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection mapping",
+    "camera tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2072491697557361021",
+    "url": "https://x.com/tokufxug/status/2072491697557361021"
+   },
+   "source_url": "https://www.instagram.com/roelofknol"
+  },
+  {
+   "id": "dong-yoon-park--holographic-type-sculpture",
+   "creator_ids": [
+    "dong-yoon-park"
+   ],
+   "title": "Holographic Type Sculpture",
+   "year": 2016,
+   "description": "A tall sculpture of floating words and letterforms placed with HoloLens in the atrium and rooftop sculpture garden of the Bellevue Arts Museum; it stands among the physical artworks but is visible only through the headset, and each piece of type can be moved or rotated.",
+   "description_zh": "用 HoloLens 放置在贝尔维尤艺术博物馆中庭和屋顶雕塑花园里的一座高大“文字雕塑”，由漂浮的单词和字母组成；它立在实体艺术品之间，却只有戴上头显才能看到，每一块文字都可以被移动或旋转。",
+   "idea_en": "An invisible artwork added to a real museum: AR as digital graffiti in the gallery.",
+   "idea_zh": "在真实美术馆里加上一件看不见的作品：AR 就是展厅里的数字涂鸦。",
+   "technique": "Built with the author's Typography Insight app for HoloLens: 3D text objects are placed and anchored with HoloLens spatial mapping and world anchors, and recorded with Mixed Reality Capture.",
+   "technique_zh": "用作者自己的 Typography Insight for HoloLens 制作：借助 HoloLens 的空间映射和世界锚点放置并固定 3D 文字，再用混合现实捕捉录制视频。",
+   "exercise_en": "Use persistent anchors in AR Foundation or WebXR to place a stack of 3D words as a 'sculpture' in a public corner of campus that only phone viewers can see. Twist: every visitor can add one word, so the sculpture grows over the week.",
+   "exercise_zh": "用 AR Foundation 或 WebXR 的持久化锚点，在校园某个公共角落放置一座由 3D 单词堆成的“雕塑”，只有用手机才能看到；变体：每位来访者都可以加一个词，让雕塑在一周内不断长高。",
+   "interaction": [
+    "drawing-creation",
+    "location-geo",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "spatial anchors",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "sevWuuHYXXc",
+    "url": "https://www.youtube.com/watch?v=sevWuuHYXXc"
+   },
+   "source_url": "https://medium.com/@dongyoonpark/holographic-type-sculpture-with-typography-insight-for-hololens-eb188f483e6b",
+   "found_via": {
+    "source": "article",
+    "url": "https://www.digitaltrends.com/computing/hololens-digital-graffiti/"
+   }
+  },
+  {
+   "id": "dong-yoon-park--typography-insight-hololens",
+   "creator_ids": [
+    "dong-yoon-park"
+   ],
+   "title": "Typography Insight for HoloLens",
+   "year": 2016,
+   "description": "A HoloLens version of the typography learning app Typography Insight, with a 'Type Playground' where people place words in the real room in different typefaces, styles and sizes and walk around them to compare letterforms.",
+   "description_zh": "字体学习 App Typography Insight 的 HoloLens 版，带有一个“字体游乐场”：人们可以把不同字体、样式和大小的文字放进真实房间里，绕着它们走动来比较字形。",
+   "idea_en": "Learn typography by walking around letters as if they were objects.",
+   "idea_zh": "像绕着实物走一样绕着字母走，从而学习字体。",
+   "technique": "3D text meshes generated from font outlines are placed with gaze and air-tap, anchored to the room through HoloLens spatial mapping.",
+   "technique_zh": "由字体轮廓生成的 3D 文字网格通过注视和空中点击放置，并借助 HoloLens 空间映射锚定在房间中。",
+   "exercise_en": "Build a phone AR app that places the same word in three typefaces side by side on a table so students can compare them from all angles. Twist: letters grow a shadow that reveals each font's stroke contrast.",
+   "exercise_zh": "做一个手机 AR 应用，把同一个单词用三种字体并排放在桌面上，让学生从各个角度比较；变体：给字母加上投影，用阴影揭示每种字体的笔画粗细对比。",
+   "interaction": [
+    "data-information",
+    "spatial-mapping",
+    "gaze-attention"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "Unity",
+    "typography"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "eTI6NBanGkA",
+    "url": "https://www.youtube.com/watch?v=eTI6NBanGkA"
+   },
+   "source_url": "https://www.youtube.com/watch?v=eTI6NBanGkA"
+  },
+  {
+   "id": "dong-yoon-park--type-in-space",
+   "creator_ids": [
+    "dong-yoon-park"
+   ],
+   "title": "Type In Space",
+   "year": 2018,
+   "description": "A HoloLens app for laying out and experiencing type in the physical environment: two-handed gestures scale and rotate text, and snap-to-surface places lettering on real walls and tables, for prototyping signage, book covers or logotypes.",
+   "description_zh": "一款在真实环境中排版和体验文字的 HoloLens 应用：双手手势可缩放和旋转文字，“吸附到表面”功能可把字直接贴在真实的墙面和桌面上，用于推敲标识、书封或标志字。",
+   "idea_en": "Design signage where it will live, at real scale, before it is printed.",
+   "idea_zh": "在标识将要出现的地方，以真实尺寸先把它设计出来。",
+   "technique": "Uses HoloLens spatial mapping for surface snapping and two-handed manipulation from the Mixed Reality Toolkit to move, scale and rotate text objects.",
+   "technique_zh": "利用 HoloLens 的空间映射实现表面吸附，并用 Mixed Reality Toolkit 的双手操控来移动、缩放和旋转文字对象。",
+   "exercise_en": "Make a phone AR tool that snaps a line of text onto a detected wall at true scale so students can test a door sign or poster title in place. Twist: the text reflows automatically when the wall is too narrow.",
+   "exercise_zh": "做一个手机 AR 工具，把一行文字以真实尺寸吸附到检测到的墙面上，让学生在现场测试门牌或海报标题；变体：当墙面太窄时，文字自动换行重排。",
+   "interaction": [
+    "drawing-creation",
+    "spatial-mapping",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens",
+    "MRTK",
+    "spatial mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "qJyr4C6Weck",
+    "url": "https://www.youtube.com/watch?v=qJyr4C6Weck"
+   },
+   "source_url": "https://medium.com/@dongyoonpark/type-in-space-explore-spatial-typography-in-mixed-reality-with-hololens-28e1942ba2cf"
+  },
+  {
+   "id": "dong-yoon-park--type-in-space-hololens-2",
+   "creator_ids": [
+    "dong-yoon-park"
+   ],
+   "title": "Type In Space for HoloLens 2",
+   "year": 2019,
+   "description": "The HoloLens 2 redesign of Type In Space: fully articulated hand tracking lets people grab, stretch and rotate words directly with their fingers and pick fonts and colours from menus that follow the hand.",
+   "description_zh": "Type In Space 针对 HoloLens 2 的重新设计：借助完整的手部追踪，人们可以直接用手指抓取、拉伸和旋转文字，并从跟随手部的菜单中挑选字体和颜色。",
+   "idea_en": "Touch type directly: letters become objects you can grab with your hands.",
+   "idea_zh": "直接触碰文字：字母成为可以用手抓住的物体。",
+   "technique": "Built on MRTK with HoloLens 2 articulated hand tracking for near-field direct manipulation, bounding-box handles and hand-attached menus.",
+   "technique_zh": "基于 MRTK 和 HoloLens 2 的完整手部追踪，实现近距离直接操控、包围盒手柄和附着在手上的菜单。",
+   "exercise_en": "With hand tracking on Quest or Vision Pro (or MediaPipe Hands on a webcam), let students pinch and stretch a floating word to set its size and weight. Twist: squeezing a word makes the typeface bolder.",
+   "exercise_zh": "利用 Quest 或 Vision Pro 的手部追踪（或摄像头上的 MediaPipe Hands），让学生用捏合和拉伸来调整一个漂浮单词的大小和字重；变体：用力“捏”一个词会让字体变粗。",
+   "interaction": [
+    "hand-body",
+    "drawing-creation",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens 2",
+    "MRTK",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "tRoDAdLhO3I",
+    "url": "https://www.youtube.com/watch?v=tRoDAdLhO3I"
+   },
+   "source_url": "https://medium.com/@dongyoonpark/designing-type-in-space-for-hololens-2-4d926355d5b3"
+  },
+  {
+   "id": "dong-yoon-park--covid19-data-visualization",
+   "creator_ids": [
+    "dong-yoon-park"
+   ],
+   "title": "COVID-19 data visualization with HoloLens 2",
+   "year": 2020,
+   "description": "An open-source HoloLens 2 app that shows COVID-19 case numbers as volumetric bars on a 3D globe floating in the room, which people rotate and inspect directly with their hands.",
+   "description_zh": "一款开源的 HoloLens 2 应用：把新冠病例数据以立体柱状图的形式呈现在房间中漂浮的 3D 地球上，人们可以直接用手旋转和查看。",
+   "idea_en": "Put a global dataset on a globe you can hold in your hands.",
+   "idea_zh": "把全球数据放在一个可以捧在手里的地球上。",
+   "technique": "Case data from ESRI's COVID-19 feature layer is mapped to bars on a globe mesh, with MRTK hand interactions for rotating, scaling and selecting countries.",
+   "technique_zh": "把 ESRI 新冠数据图层中的病例数据映射为地球网格上的柱体，并用 MRTK 手势交互来旋转、缩放和选择国家。",
+   "exercise_en": "Load a small open dataset (for example, air quality by city) into a phone AR globe on a table, with bar height per city and tap-to-read labels. Twist: scrub time by walking around the globe.",
+   "exercise_zh": "把一个小型公开数据集（例如各城市空气质量）加载到桌面上的手机 AR 地球中，用柱高表示各城市数值，点击查看标签；变体：绕着地球走一圈就能拖动时间轴。",
+   "interaction": [
+    "data-information",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens 2",
+    "MRTK",
+    "Unity",
+    "data visualization"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "zBkNlpGHwZQ",
+    "url": "https://www.youtube.com/watch?v=zBkNlpGHwZQ"
+   },
+   "source_url": "https://github.com/cre8ivepark/COVID19DataVisualizationHoloLens2"
+  },
+  {
+   "id": "dong-yoon-park--cosmic-xr-lighting",
+   "creator_ids": [
+    "dong-yoon-park"
+   ],
+   "title": "Cosmic XR: lighting on physical surfaces",
+   "year": 2026,
+   "description": "An experiment in the Quest app Cosmic XR in which the glowing sun and planets placed in a living room cast light and reflections onto the real walls, floor and furniture.",
+   "description_zh": "Quest 应用 Cosmic XR 中的一项实验：放在客厅里的发光太阳和行星，会把光线和反射投到真实的墙面、地板和家具上。",
+   "idea_en": "Virtual objects feel present when their light lands on real surfaces.",
+   "idea_zh": "当虚拟物体的光落在真实表面上，它们才真正“在场”。",
+   "technique": "Quest scene understanding supplies a mesh of the room; virtual point lights are rendered onto that invisible mesh and blended over passthrough to fake illumination on physical surfaces.",
+   "technique_zh": "Quest 的场景理解提供房间网格；虚拟点光源照亮这层不可见的网格，再与透视画面混合，模拟真实表面上的照明效果。",
+   "exercise_en": "In AR Foundation with meshing (LiDAR iPhone) or Quest scene mesh, add a glowing virtual object and render its light onto an invisible occlusion mesh so the real table appears lit. Twist: the light colour follows the music playing in the room.",
+   "exercise_zh": "在支持网格重建的 AR Foundation（LiDAR iPhone）或 Quest 场景网格上，加入一个发光的虚拟物体，并把它的光渲染到不可见的遮挡网格上，让真实桌面看起来被照亮；变体：光的颜色随房间里播放的音乐变化。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest",
+    "scene understanding",
+    "passthrough",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "mzP3TTdPhNs",
+    "url": "https://www.youtube.com/watch?v=mzP3TTdPhNs"
+   },
+   "source_url": "https://mixedrealitynow.com/cosmic-xr-lighting-on-physical-surfaces"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Crosby Studios (Harry Nuriev)",
+   "why": "Design studio that co-created ZERO10's New York store selling digital-only clothing via an AR mirror, and a later pop-up at Fusalp Paris.",
+   "link": "https://wwd.com/fashion-news/fashion-scoops/trying-on-metaverse-clothing-irl-zero10-crosby-studio-1235304164/",
+   "found_via": "zero10",
+   "status": "open"
+  },
+  {
+   "name": "Marc Mahfoud",
+   "why": "Sound artist who co-created Roelof Knol's floor-projection installation Connected at Nxt Museum.",
+   "link": "https://nxtmuseum.com/artist/connected-roelof-knol",
+   "found_via": "roelof-knol",
+   "status": "open"
+  }
+ ]
+}

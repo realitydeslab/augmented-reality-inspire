@@ -1,0 +1,52 @@
+{
+ "max-van-leeuwen--ar-sundial": {
+  "why_en": "A virtual sundial lit by the real sun casts a shadow that tells the true time.",
+  "why_zh": "一个被真实太阳照亮的虚拟日晷，投下的影子报出真实的时间。",
+  "cat": "shadow"
+ },
+ "roelof-knol--cat-fish-projection": {
+  "why_en": "Projected fish scatter across the floor when a cat chases them: AR for an audience that cannot read screens.",
+  "why_zh": "投在地板上的鱼群被猫一追就四散逃开：给看不懂屏幕的观众做的 AR。",
+  "cat": "play"
+ },
+ "samuele-albani--con-touch-2": {
+  "why_en": "An instrument that only makes sound when two people touch each other's shoulders.",
+  "why_zh": "一件乐器，只有两个人互相触碰肩膀时才会发出声音。",
+  "cat": "sound"
+ },
+ "max-van-leeuwen--portal-gun": {
+  "why_en": "Shoot two portals onto real walls and look through one to see your room from the other.",
+  "why_zh": "在真实的墙上打出两个传送门，透过一个门，从另一个门的位置看自己的房间。",
+  "cat": "portal"
+ },
+ "max-van-leeuwen--body-clones": {
+  "why_en": "As you move, frozen 3D copies of your body stay behind in the room.",
+  "why_zh": "你一边移动，身后一边留下被定格的立体分身。",
+  "cat": "time"
+ },
+ "adrien-m-claire-b--just-your-shadow": {
+  "why_en": "A dancer negotiates with her own shadow, which refuses to simply follow.",
+  "why_zh": "舞者和自己的影子讨价还价，而影子并不肯乖乖跟随。",
+  "cat": "shadow"
+ },
+ "julie-curtiss--lune": {
+  "why_en": "However you walk around her, the painted figure keeps turning her back to you.",
+  "why_zh": "无论你怎么绕着走，画中的女人总是转过身去背对你。",
+  "cat": "alive"
+ },
+ "roelof-knol--depth-lines-on-paper": {
+  "why_en": "A plain paper card becomes a hole into the table, and the hole moves when you slide the card.",
+  "why_zh": "一张白纸卡变成桌面上的一个洞，推动纸卡，洞也跟着移动。",
+  "cat": "portal"
+ },
+ "field-io--extreme-measures": {
+  "why_en": "Measure a gap by inflating a virtual elephant until it fills the space.",
+  "why_zh": "把一头虚拟大象吹胀到塞满空隙，用它来量空间有多大。",
+  "cat": "invisible"
+ },
+ "sarah-ticho--soul-paint": {
+  "why_en": "Paint your feelings onto a body where you feel them, then walk among everyone else's.",
+  "why_zh": "把情绪画在身体上你感受到它的位置，再走进其他人画出的身体之间。",
+  "cat": "invisible"
+ }
+}

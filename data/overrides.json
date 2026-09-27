@@ -4,6 +4,13 @@
   "daito-manabe--perfume-cannes-lions"
  ],
  "patch_works": {
+  "shengzhi-wu--opportunistic-interfaces": {
+   "creator_ids": [
+    "shengzhi-wu",
+    "ruofei-du",
+    "alex-olwal"
+   ]
+  },
   "universal-everything--ultrasound-vision-pro": {
    "title": "Ultrasound VR",
    "year": 2026,
@@ -29,10 +36,55 @@
     "LiDAR",
     "hand tracking"
    ]
+  },
+  "adrien-m-claire-b--acqua-alta-crossing-the-mirror": {
+   "video": {
+    "url": "https://vimeo.com/462776850"
+   },
+   "year": 2020
   }
  },
  "merge_creators": {},
- "lead_status": {},
+ "lead_status": {
+  "Bradley 'GMUNK' Munkowitz": "duplicate",
+  "GMUNK (Bradley Munkowitz)": "duplicate",
+  "Elliot Woods": "duplicate",
+  "Evan Roth & James Powderly (Graffiti Research Lab)": "duplicate",
+  "James Powderly & Evan Roth (Graffiti Research Lab)": "duplicate",
+  "Motoi Ishibashi / Rhizomatiks Research": "duplicate",
+  "KAWS": "covered",
+  "Macula (Czech)": "covered",
+  "Meta (First Encounters)": "covered",
+  "Wall Town Wonders team": "covered",
+  "Loóna / Super Fruit Ninja / Synth Riders MR / Gravity Lab": "covered",
+  "Koei Tecmo (Spirit Camera co-developer)": "duplicate",
+  "Tomás Saraceno (Web of Life AR)": "covered",
+  "Precious Okoyomon / The Looking Glass (The Shed)": "covered",
+  "Rachel Rossin": "not_ar",
+  "Daniel Leithinger": "duplicate",
+  "Normal (normalvr)": "duplicate",
+  "Stephen Hodgson": "duplicate",
+  "Simon Pyke (Freefarm)": "not_ar",
+  "Benjamin Millepied / L.A. Dance Project": "not_ar",
+  "The Designers Republic (Ian Anderson)": "not_ar",
+  "Damian Stewart": "duplicate",
+  "Danja Vasiliev": "not_ar",
+  "Satoru Higa (BACKSPACE Productions)": "not_ar",
+  "Gemma O'Brien": "duplicate",
+  "Ke Huang / Ruoqi Wang": "not_ar",
+  "Clay Weishaar (@wabisabi / Fake Artists)": "no_video",
+  "Clay Weishaar (Fake Artists)": "no_video",
+  "Ommy Akhe": "no_video",
+  "Meng To": "no_video",
+  "Jye Trudinger": "duplicate",
+  "Eran Hilleli": "duplicate",
+  "Runze Zhang": "duplicate",
+  "Noah Zerkin / CombineReality (North Star community)": "no_video",
+  "Noah Zerkin / CombineReality": "no_video",
+  "Tim Stutts": "no_video",
+  "Don Allen III": "covered",
+  "Anrick (Spectacles 'Poetry in the Third Dimension')": "covered"
+ },
  "audit_ignore": [
   "julian-triveri--lasertag|theo-watson--l-a-s-e-r-tag",
   "disney-research-ar|ivan-poupyrev",
@@ -45,6 +97,7 @@
   "james-alliban--traces|chris-oshea--traces",
   "snap-inc|paris-ar-studio",
   "stefanie-zollmann|tobias-langlotz",
-  "russ-maschmeyer|shopify-spatial-commerce"
+  "russ-maschmeyer|shopify-spatial-commerce",
+  "gibson-martelli--man-a-vr|gibson-martelli--man-a"
  ]
 }

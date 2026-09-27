@@ -1,0 +1,57 @@
+{
+ "mark-skwarek--bottomless-pit": {
+  "why_en": "A virtual hole in a San Jose plaza goes straight through the Earth, and people drop things into it to reach the other side.",
+  "why_zh": "圣何塞广场上的一个虚拟洞口直通地球另一端，人们往里扔东西，让它们掉到对跖点。",
+  "cat": "portal"
+ },
+ "mark-skwarek--erasar-statue-of-liberty": {
+  "why_en": "Point a phone at Liberty Island and the Statue of Liberty is gone, leaving only her empty pedestal.",
+  "why_zh": "把手机对准自由岛，自由女神像消失了，只剩下空空的底座。",
+  "cat": "rewrite"
+ },
+ "frieder-weiss--shadows": {
+  "why_en": "A dancer's shadow is drawn by a computer, so it lags, mirrors and finally walks away from her.",
+  "why_zh": "舞者的影子由电脑画出，于是它会迟到、会反着动，最后干脆离她而去。",
+  "cat": "shadow"
+ },
+ "joon-moon--augmented-shadow": {
+  "why_en": "Plain white blocks cast shadows in which little houses, trees and people grow and live.",
+  "why_zh": "普通的白色积木投下影子，影子里长出小房子、树和小人，过着自己的生活。",
+  "cat": "shadow"
+ },
+ "cyril-diagne--super-mario-brush": {
+  "why_en": "A Super Mario level drawn by a child on paper becomes the level Mario actually runs on.",
+  "why_zh": "孩子在纸上画的超级马里奥关卡，直接变成马里奥真正在上面跑的关卡。",
+  "cat": "alive"
+ },
+ "nathan-shafer--exit-glacier-ar-terminus": {
+  "why_en": "In an empty Alaskan valley, the ice of Exit Glacier rises again where its edge stood decades ago.",
+  "why_zh": "在阿拉斯加空荡荡的山谷里，Exit Glacier 的冰重新升起，回到几十年前冰川边缘所在的位置。",
+  "cat": "time"
+ },
+ "sander-veenhof--de-surveillance": {
+  "why_en": "Hold up something blue and you vanish from a police surveillance camera's screen.",
+  "why_zh": "举起一块蓝色的东西，你就从警方监控摄像头的画面里消失了。",
+  "cat": "rewrite"
+ },
+ "geoffrey-alan-rhodes--mao-wants-this-dollar": {
+  "why_en": "Any dollar bill seen through a phone turns into an IOU in which Mao says the United States owes China one dollar.",
+  "why_zh": "透过手机看任何一张美元，它都会变成一张欠条，毛泽东宣布美国欠中国一美元。",
+  "cat": "rewrite"
+ },
+ "euphrates--ballet-rotoscope": {
+  "why_en": "Glowing curves and figures traced over a ballerina reveal the geometry hidden in every pose.",
+  "why_zh": "在芭蕾舞者身上描出的发光曲线和几何图形，揭示了每个姿态里隐藏的几何。",
+  "cat": "invisible"
+ },
+ "lily-honglei--great-firewall-and-sunken-city": {
+  "why_en": "The Great Firewall becomes a real wall that blocks a Brooklyn street for anyone looking through a phone.",
+  "why_zh": "“防火长城”变成一堵真的墙，挡住了布鲁克林的一条街，只要透过手机看就能看到。",
+  "cat": "rewrite"
+ },
+ "tamiko-thiel--waterlily-invasion": {
+  "why_en": "Water lilies that feed on your gaze grow over you the longer you look at them through the phone.",
+  "why_zh": "这些睡莲以你的目光为食，你透过手机看得越久，它们就长得越大，直到把你吞没。",
+  "cat": "alive"
+ }
+}

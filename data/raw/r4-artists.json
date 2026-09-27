@@ -1,0 +1,1178 @@
+{
+ "batch": "r4-artists",
+ "creators": [
+  {
+   "id": "cyril-diagne",
+   "name": "Cyril Diagne",
+   "role": "Artist, designer and ML engineer; co-founder of ClipDrop, former artist in residence at the Google Arts & Culture Lab",
+   "based": "Paris, France",
+   "bio": "French creative technologist who co-founded the Lab212 collective, taught interaction design at ECAL and spent five years at the Google Arts & Culture Lab before co-founding ClipDrop (acquired by Stability AI). His 2020 AR Cut & Paste demo, which lifts real objects into Photoshop with a phone, became one of the most shared AR+ML prototypes ever.",
+   "why": "He shows how a tiny open-source prototype that joins phone AR with a machine-learning model can redefine an everyday gesture like copy and paste.",
+   "role_zh": "艺术家、设计师与机器学习工程师；ClipDrop 联合创始人，曾任 Google Arts & Culture Lab 驻留艺术家",
+   "based_zh": "巴黎，法国",
+   "bio_zh": "法国创意技术人，曾参与创立 Lab212 艺术团体，在 ECAL 教授交互设计，并在 Google Arts & Culture Lab 工作五年，之后联合创办 ClipDrop（后被 Stability AI 收购）。他 2020 年发布的 AR Cut & Paste 演示——用手机把现实物体“剪”进 Photoshop——是传播最广的 AR+机器学习原型之一。",
+   "why_zh": "他证明了一个把手机 AR 和机器学习模型接在一起的小型开源原型，就能重新定义“复制粘贴”这样的日常动作。",
+   "links": {
+    "site": "https://cyrildiagne.com",
+    "x": "https://x.com/cyrildiagne",
+    "instagram": "",
+    "vimeo": "https://vimeo.com/kikko",
+    "youtube": "",
+    "github": "https://github.com/cyrildiagne"
+   },
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "cao-fei",
+   "name": "Cao Fei",
+   "role": "Multimedia artist working across video, virtual worlds, VR and AR",
+   "based": "Beijing, China",
+   "bio": "Chinese artist whose work on automation, labour and virtual life runs from the Second Life city RMB City (2007) to the VR piece The Eternal Wave and several AR commissions. She created the AR-enhanced BMW Art Car #18 and the Trade Eden walk for Apple's [AR]T program.",
+   "why": "She has spent two decades treating virtual worlds as real places to live and work, and brings that view into phone AR and VR.",
+   "role_zh": "横跨影像、虚拟世界、VR 与 AR 的多媒体艺术家",
+   "based_zh": "北京，中国",
+   "bio_zh": "中国艺术家，关注自动化、劳动与虚拟生活，作品从 Second Life 中的《人民城寨》（RMB City，2007）一直延伸到 VR 作品 The Eternal Wave 和多件 AR 委托作品；她为 BMW 创作了带 AR 体验的第 18 号艺术车，并为 Apple [AR]T 项目创作了街头 AR 作品 Trade Eden。",
+   "why_zh": "二十年来她一直把虚拟世界当作可以生活和劳动的真实场所，并把这种视角带进了手机 AR 和 VR。",
+   "links": {
+    "site": "https://www.caofei.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art",
+    "apple"
+   ],
+   "discovered_via": "acute-art"
+  },
+  {
+   "id": "alicja-kwade",
+   "name": "Alicja Kwade",
+   "role": "Sculptor and installation artist",
+   "based": "Berlin, Germany",
+   "bio": "Polish-born, Berlin-based artist whose sculptures question time, space and how we perceive reality. With Acute Art she made an AR version of LinienLand (2019) and the AR-BEIT series of interactive AR sculptures.",
+   "why": "Her AR sculptures turn her physical ideas about parallel worlds into objects that move, react and can be placed anywhere.",
+   "role_zh": "雕塑与装置艺术家",
+   "based_zh": "柏林，德国",
+   "bio_zh": "出生于波兰、定居柏林的艺术家，雕塑作品追问时间、空间以及我们如何感知现实。她与 Acute Art 合作完成了 LinienLand 的 AR 版本（2019）和可交互的 AR 雕塑系列 AR-BEIT。",
+   "why_zh": "她的 AR 雕塑把关于平行世界的实体构想变成了会动、会回应、可以放在任何地方的物件。",
+   "links": {
+    "site": "https://alicjakwade.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art"
+   ],
+   "discovered_via": "acute-art"
+  },
+  {
+   "id": "nick-cave",
+   "name": "Nick Cave",
+   "role": "Visual and performance artist, known for his Soundsuits",
+   "based": "Chicago, US",
+   "bio": "American artist, dancer and educator (not the musician) whose wearable Soundsuits hide the body and turn it into sound and colour. For Apple's [AR]T program he created Amass, an AR installation available inside every Apple Store, and an AR walk with his Soundsuits.",
+   "why": "He translated a body-based sculpture practice into shared AR spaces that anyone could step into inside a shop or on a street.",
+   "role_zh": "视觉与表演艺术家，以 Soundsuits（声音服装）著称",
+   "based_zh": "芝加哥，美国",
+   "bio_zh": "美国艺术家、舞者和教育者（并非同名音乐人），其可穿戴的 Soundsuits 把身体包裹起来，化为声音与色彩。他为 Apple [AR]T 项目创作了可在全球所有 Apple Store 体验的 AR 装置 Amass，以及一条以 Soundsuits 为主角的 AR 城市漫步路线。",
+   "why_zh": "他把以身体为核心的雕塑实践转译成共享的 AR 空间，任何人在商店里或街头都能走进去。",
+   "links": {
+    "site": "https://www.nickcaveart.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "apple"
+   ],
+   "discovered_via": "apple"
+  },
+  {
+   "id": "pipilotti-rist",
+   "name": "Pipilotti Rist",
+   "role": "Video and installation artist",
+   "based": "Zurich, Switzerland",
+   "bio": "Swiss artist famous for immersive, colour-saturated video installations. Her [AR]T Walk piece International Liquid Finger Prayer (2019) sent groups racing through city streets after a singing, shimmering AR form.",
+   "why": "She brings the playful, bodily energy of her projection rooms to a city-scale AR chase game.",
+   "role_zh": "影像与装置艺术家",
+   "based_zh": "苏黎世，瑞士",
+   "bio_zh": "瑞士艺术家，以色彩饱和、令人沉浸的影像装置闻名。她为 [AR]T Walk 创作的 International Liquid Finger Prayer（2019）让参与者成群在城市街道上追逐一个会唱歌、闪闪发光的 AR 形体。",
+   "why_zh": "她把投影空间里那种顽皮、身体化的能量，带进了城市尺度的 AR 追逐游戏。",
+   "links": {
+    "site": "https://www.pipilottirist.net",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "apple"
+   ],
+   "discovered_via": "apple"
+  },
+  {
+   "id": "carsten-holler",
+   "name": "Carsten Höller",
+   "role": "Artist and former scientist making participatory perception experiments",
+   "based": "Stockholm, Sweden",
+   "bio": "Belgian-born artist trained as an entomologist, known for slides, Upside-Down Goggles and flickering light works. He made the portal walk Through for Apple's [AR]T program and the 7.8 Reduced Reality App with Acute Art, which flickers phone screen, torch and vibration at 7.8 Hz.",
+   "why": "He treats AR as a perception experiment on the viewer rather than as a way to place objects.",
+   "role_zh": "曾是科学家、创作参与式感知实验的艺术家",
+   "based_zh": "斯德哥尔摩，瑞典",
+   "bio_zh": "出生于比利时、受过昆虫学训练的艺术家，以滑梯装置、倒置眼镜（Upside-Down Goggles）和闪烁灯光作品闻名。他为 Apple [AR]T 项目创作了穿越传送门的 AR 漫步作品 Through，并与 Acute Art 合作推出 7.8 Reduced Reality App：让手机屏幕、闪光灯和振动以 7.8 Hz 频率闪烁。",
+   "why_zh": "他把 AR 当作作用于观者自身的感知实验，而不仅是往空间里摆放物体。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "apple",
+    "acute-art"
+   ],
+   "discovered_via": "apple"
+  },
+  {
+   "id": "nathalie-djurberg-hans-berg",
+   "name": "Nathalie Djurberg & Hans Berg",
+   "role": "Artist duo combining clay animation, sculpture and music",
+   "based": "Berlin, Germany",
+   "bio": "Swedish duo: Djurberg makes unsettling claymation worlds and Berg composes their hypnotic scores. They made the VR piece It Will End in Stars with Acute Art (2018) and the AR fairy-tale walk This Is It for Apple's [AR]T program (2019).",
+   "why": "They carry handmade, dark fairy-tale characters into VR and AR, where the creatures watch and react to the visitor.",
+   "role_zh": "结合黏土动画、雕塑与音乐的艺术二人组",
+   "based_zh": "柏林，德国",
+   "bio_zh": "瑞典艺术二人组：Djurberg 创作令人不安的黏土动画世界，Berg 为其谱写催眠般的配乐。他们与 Acute Art 合作了 VR 作品 It Will End in Stars（2018），并为 Apple [AR]T 项目创作了童话式 AR 漫步作品 This Is It（2019）。",
+   "why_zh": "他们把手工捏制、带暗黑童话气质的角色带进 VR 和 AR，让这些生物会注视并回应观众。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "apple",
+    "acute-art"
+   ],
+   "discovered_via": "apple"
+  },
+  {
+   "id": "john-giorno",
+   "name": "John Giorno",
+   "role": "Poet and performance artist (1936-2019)",
+   "based": "New York, US",
+   "bio": "American poet who pioneered Dial-A-Poem and turned short lines of text into colourful paintings and performances. His [AR]T Walk piece Now at the Dawn of My Life (2019) placed a rainbow trail of his words over city streets.",
+   "why": "He shows that pure text, set in colour and placed in the street, can be a complete AR artwork.",
+   "role_zh": "诗人与表演艺术家（1936–2019）",
+   "based_zh": "纽约，美国",
+   "bio_zh": "美国诗人，开创了 Dial-A-Poem（拨号听诗），并把短句诗文变成彩色绘画与表演。他为 [AR]T Walk 创作的 Now at the Dawn of My Life（2019）在城市街道上铺开一条由他的诗句组成的彩虹之路。",
+   "why_zh": "他证明了只要给文字配上色彩、放进街道，纯文本本身就能成为完整的 AR 作品。",
+   "links": {
+    "site": "https://giorno.org",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "apple"
+   ],
+   "discovered_via": "apple"
+  },
+  {
+   "id": "nina-chanel-abney",
+   "name": "Nina Chanel Abney",
+   "role": "Painter and public artist",
+   "based": "New York, US",
+   "bio": "American painter whose bold, flat, graphic compositions mix abstraction and figuration to capture the pace of contemporary life. Her first AR work, Imaginary Friend (2020, Acute Art), launched in parks and squares from London to New York.",
+   "why": "She turns a flat painting style into a companion character that meets people in public space.",
+   "role_zh": "画家与公共艺术家",
+   "based_zh": "纽约，美国",
+   "bio_zh": "美国画家，以大胆、平面化的图形构图融合抽象与具象，表现当代生活的节奏。她的第一件 AR 作品 Imaginary Friend（2020，与 Acute Art 合作）在伦敦到纽约的公园和广场同步上线。",
+   "why_zh": "她把平面绘画风格变成一个在公共空间里陪伴路人的角色。",
+   "links": {
+    "site": "https://ninachanel.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art"
+   ],
+   "discovered_via": "acute-art"
+  },
+  {
+   "id": "koo-jeong-a",
+   "name": "Koo Jeong A",
+   "role": "Installation and drawing artist",
+   "based": "Seoul, South Korea",
+   "bio": "Korean artist known for quiet, site-specific works about everyday objects, scents and near-invisible gestures. Her AR ice cube density (2019) was Frieze's first augmented reality artwork, followed by the Prerequisites 7 drawings and the AR architecture OLO.",
+   "why": "Her floating AR ice cube proved that a single, almost invisible object can hold its own among bronze sculptures.",
+   "role_zh": "装置与绘画艺术家",
+   "based_zh": "首尔，韩国",
+   "bio_zh": "韩国艺术家，以安静、依场地而生的作品著称，关注日常物件、气味和近乎隐形的动作。她的 AR 冰块 density（2019）是 Frieze 艺博会第一件增强现实作品，之后又有 Prerequisites 7 系列动态素描和 AR 建筑 OLO。",
+   "why_zh": "她那块悬浮的 AR 冰块证明，一个几乎看不见的物件也能在青铜雕塑之间站稳脚跟。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art"
+   ],
+   "discovered_via": "acute-art"
+  },
+  {
+   "id": "julie-curtiss",
+   "name": "Julie Curtiss",
+   "role": "Painter and sculptor",
+   "based": "New York, US",
+   "bio": "French-born, New York-based painter whose surreal images of hair, food and female archetypes read almost like sculpture. Lune (2021) was her first AR work, made with Acute Art.",
+   "why": "Her AR figure uses the viewer's own movement against them, turning the act of looking into the subject of the work.",
+   "role_zh": "画家与雕塑家",
+   "based_zh": "纽约，美国",
+   "bio_zh": "出生于法国、定居纽约的画家，以头发、食物和女性原型为题材的超现实画面近乎雕塑。Lune（2021）是她与 Acute Art 合作的第一件 AR 作品。",
+   "why_zh": "她的 AR 人物把观众自己的移动变成对抗观众的机制，让“观看”本身成为作品的主题。",
+   "links": {
+    "site": "https://www.juliecurtiss.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art"
+   ],
+   "discovered_via": "acute-art"
+  },
+  {
+   "id": "ho-tzu-nyen",
+   "name": "Ho Tzu Nyen",
+   "role": "Artist and filmmaker working with history and theory",
+   "based": "Singapore",
+   "bio": "Singaporean artist who makes films, installations and performances that start from historical and philosophical texts; he represented Singapore at the 2011 Venice Biennale. His AR work Language (2022, Acute Art, National Gallery Singapore) stages texts of the Kyoto School depending on where you point your phone.",
+   "why": "He uses the phone's direction (sky, ground, horizon) as the structure of a story, not just as a camera.",
+   "role_zh": "以历史与理论为素材的艺术家、电影人",
+   "based_zh": "新加坡",
+   "bio_zh": "新加坡艺术家，以历史和哲学文本为起点创作电影、装置与表演，曾代表新加坡参加 2011 年威尼斯双年展。他的 AR 作品 Language（2022，Acute Art 制作、新加坡国家美术馆委托）会根据手机指向的方向，演绎京都学派的不同文本。",
+   "why_zh": "他把手机的朝向（天空、地面、地平线）当作故事结构，而不仅仅是一台摄像头。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art"
+   ],
+   "discovered_via": "acute-art"
+  },
+  {
+   "id": "marco-brambilla",
+   "name": "Marco Brambilla",
+   "role": "Video installation artist and director",
+   "based": "New York, US",
+   "bio": "Italian-Canadian artist known for dense video collages built from found footage and early use of 3D in video art. With Acute Art he made the VR work Creation (Megaplex) and The Four Temperaments AR (2020) starring Cate Blanchett.",
+   "why": "He puts a performer's direct address into floating AR objects, so the viewer's position changes the drama.",
+   "role_zh": "影像装置艺术家与导演",
+   "based_zh": "纽约，美国",
+   "bio_zh": "意大利裔加拿大艺术家，以用现成影像素材拼贴出的密集视频作品和较早在影像艺术中使用 3D 技术著称。他与 Acute Art 合作了 VR 作品 Creation (Megaplex) 和由 Cate Blanchett 主演的 The Four Temperaments AR（2020）。",
+   "why_zh": "他把演员对镜头的直接独白放进漂浮的 AR 物体里，让观众站的位置改变戏剧效果。",
+   "links": {
+    "site": "https://marcobrambilla.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "connected_to": [
+    "acute-art"
+   ],
+   "discovered_via": "acute-art"
+  }
+ ],
+ "works": [
+  {
+   "id": "cyril-diagne--ar-cut-paste",
+   "creator_ids": [
+    "cyril-diagne"
+   ],
+   "title": "AR Cut & Paste",
+   "year": 2020,
+   "description": "Point a phone at an object in a book or on the desk, tap to 'cut' it, then point the phone at a laptop screen to 'paste' it straight into Photoshop or a slide at the exact spot you are aiming at.",
+   "description_zh": "把手机对准书上或桌上的物体，点一下就把它“剪”下来，再把手机对准电脑屏幕，它就会被“粘贴”到 Photoshop 或幻灯片里你正对着的位置。",
+   "idea_en": "Copy and paste between the physical world and your computer with a phone camera.",
+   "idea_zh": "用手机摄像头在现实世界和电脑之间“复制粘贴”。",
+   "technique": "A U²Net salient-object model cuts the object out of the photo, and SIFT feature matching between the phone camera and a screenshot finds where the phone is pointing on the screen, then a local server pastes the cut-out there.",
+   "technique_zh": "用 U²Net 显著物体分割模型把物体从照片中抠出，再用 SIFT 特征匹配比对手机画面与电脑截图，算出手机正对屏幕的哪个位置，最后由本地服务器把抠图贴到那里。",
+   "exercise_en": "Build a two-step web prototype: photograph an object with a phone, remove the background with an off-the-shelf segmentation API, and send the cut-out to a laptop page where it drops at a random position. Twist: use a printed marker on the laptop bezel so the phone's aim decides where the object lands.",
+   "exercise_zh": "做一个两步的网页原型：用手机拍下物体，用现成的抠图 API 去掉背景，再把抠好的图发送到电脑网页上随机落下；变体：在电脑边框贴一个打印标记，让手机对准的位置决定物体落在哪里。",
+   "interaction": [
+    "tangible-object",
+    "data-information",
+    "drawing-creation"
+   ],
+   "platform": [
+    "phone",
+    "desktop"
+   ],
+   "tech": [
+    "U²Net",
+    "SIFT",
+    "Photoshop",
+    "Python"
+   ],
+   "source_url": "https://github.com/cyrildiagne/ar-cutpaste",
+   "video": {
+    "platform": "x",
+    "id": "1259441154606669824",
+    "url": "https://x.com/cyrildiagne/status/1259441154606669824"
+   }
+  },
+  {
+   "id": "cyril-diagne--copy-printed-text",
+   "creator_ids": [
+    "cyril-diagne"
+   ],
+   "title": "Copy printed text to desktop with AR+ML",
+   "year": 2020,
+   "description": "The sixth of his ten AI+UX prototypes: aim the phone at a paragraph in a printed book, and the recognised text is pasted into a document on the computer where the phone points.",
+   "description_zh": "他十个 AI+UX 原型中的第六个：把手机对准纸质书上的一段文字，识别出的文本会被粘贴到电脑文档里手机所指的位置。",
+   "idea_en": "Treat printed text as something you can pick up and drop into a digital document.",
+   "idea_zh": "把印刷文字当成可以“拿起来”再放进数字文档里的东西。",
+   "technique": "Likely combines on-device OCR of the camera frame with the same screen-matching trick as AR Cut & Paste to locate the target point on the desktop.",
+   "technique_zh": "很可能是先对摄像头画面做文字识别（OCR），再用与 AR Cut & Paste 相同的屏幕匹配方法确定电脑上的目标位置。",
+   "exercise_en": "Make a phone web app that reads a printed sentence with an OCR library and posts it to a shared class web page in real time. Twist: let the sentence appear in the page's font and size of the place where the phone is aimed.",
+   "exercise_zh": "做一个手机网页应用：用 OCR 库识别纸上的一句话，并实时发布到全班共享的网页上；变体：让这句话以手机所指位置的字体和字号出现在网页上。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "phone",
+    "desktop"
+   ],
+   "tech": [
+    "OCR",
+    "SIFT",
+    "Python"
+   ],
+   "source_url": "https://x.com/cyrildiagne/status/1262047009411907585",
+   "video": {
+    "platform": "x",
+    "id": "1262047009411907585",
+    "url": "https://x.com/cyrildiagne/status/1262047009411907585"
+   }
+  },
+  {
+   "id": "cyril-diagne--doodle-face-masks",
+   "creator_ids": [
+    "cyril-diagne"
+   ],
+   "title": "Doodle face masks in the browser",
+   "year": 2020,
+   "description": "Draw a doodle on a flat face template in the browser and it instantly becomes a mask that follows your real face in the webcam, stretching with every expression.",
+   "description_zh": "在浏览器里的平面脸部模板上随手涂鸦，涂鸦会立刻变成一张面具，贴合摄像头里你的真实脸部，并随每个表情拉伸变形。",
+   "idea_en": "Anyone can design a face filter by drawing on a flat map of a face.",
+   "idea_zh": "任何人只要在一张平面脸谱上画画，就能设计出自己的脸部滤镜。",
+   "technique": "TensorFlow.js FaceMesh predicts 468 face landmarks; a 3D mesh with a fixed UV layout is aligned to them each frame, so a 2D drawing on the UV texture wraps onto the moving face.",
+   "technique_zh": "TensorFlow.js 的 FaceMesh 预测 468 个人脸关键点，每一帧把一个 UV 展开固定的 3D 网格对齐到这些点上，于是画在 UV 贴图上的二维涂鸦就能包裹在运动的脸上。",
+   "exercise_en": "Use a MediaPipe FaceMesh web template to map a student's drawing onto the face texture, then hold a 'mask parade' where everyone wears a classmate's doodle. Twist: make parts of the drawing animate when the mouth opens.",
+   "exercise_zh": "用 MediaPipe FaceMesh 网页模板把学生的画贴到脸部贴图上，再办一场“面具游行”，每人戴上同学画的面具；变体：让涂鸦的某些部分在张嘴时动起来。",
+   "interaction": [
+    "face",
+    "drawing-creation"
+   ],
+   "platform": [
+    "web"
+   ],
+   "tech": [
+    "TensorFlow.js",
+    "FaceMesh",
+    "WebGL"
+   ],
+   "source_url": "https://x.com/cyrildiagne/status/1254372807531728896",
+   "video": {
+    "platform": "x",
+    "id": "1254372807531728896",
+    "url": "https://x.com/cyrildiagne/status/1254372807531728896"
+   }
+  },
+  {
+   "id": "cyril-diagne--enthusiast-overlay",
+   "creator_ids": [
+    "cyril-diagne"
+   ],
+   "title": "Enthusiast Overlay",
+   "year": 2016,
+   "description": "Twelve tennis balls hang in front of an AR screen; on the screen each ball gets a rough, hand-drawn comic face and body that bounces with endless enthusiasm, like the internet's 'realistic doodles' drawn over video clips.",
+   "description_zh": "十二个网球悬挂在一块 AR 屏幕前；屏幕上每个网球都被加上潦草的手绘漫画脸和身体，永不停歇地热情蹦跳，就像网上那种在视频上乱涂的“写实涂鸦”。",
+   "idea_en": "Scribbled cartoon characters bring ordinary hanging objects to life on a see-through screen.",
+   "idea_zh": "潦草的卡通角色让普通的悬挂物在屏幕中活了过来。",
+   "technique": "A camera behind the screen likely tracks each suspended ball and pins pre-drawn, loosely animated doodle sprites to its position in real time.",
+   "technique_zh": "屏幕后的摄像头很可能实时追踪每个悬挂的网球，并把预先画好、动作松散的涂鸦动画贴在球的位置上。",
+   "exercise_en": "Hang a few coloured balls on strings, track them by colour with a webcam in p5.js, and draw a scribbled face that sticks to each ball on a monitor placed in front. Twist: make each character react when two balls touch.",
+   "exercise_zh": "用绳子挂几个彩色小球，在 p5.js 里用摄像头按颜色追踪它们，并在前方显示器上给每个球画一张跟随的涂鸦脸；变体：两个球相碰时让角色做出反应。",
+   "interaction": [
+    "tangible-object",
+    "perception-art",
+    "drawing-creation"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "computer vision",
+    "real-time tracking"
+   ],
+   "source_url": "https://vimeo.com/224709486",
+   "video": {
+    "platform": "vimeo",
+    "id": "224709486",
+    "url": "https://vimeo.com/224709486"
+   }
+  },
+  {
+   "id": "cyril-diagne--super-mario-brush",
+   "creator_ids": [
+    "cyril-diagne"
+   ],
+   "title": "Super Mario Brush",
+   "year": 2012,
+   "description": "Children draw a Super Mario level on paper with coloured pads for ground, blocks and enemies; a camera reads the drawing and the projected game becomes playable on top of it.",
+   "description_zh": "孩子们用代表地面、砖块和敌人的彩色贴片在纸上“画”出一关 Super Mario，摄像头识别后，投影出来的游戏就能直接在这张纸上玩。",
+   "idea_en": "A paper drawing becomes a playable video game level.",
+   "idea_zh": "一张纸上的画变成可以玩的游戏关卡。",
+   "technique": "A camera above the table segments the coloured pads by colour, converts them into tile types of a Mario-style level and projects the running game back onto the paper (made with Béatrice Lartigue for Lab212).",
+   "technique_zh": "桌子上方的摄像头按颜色识别彩色贴片，转换成马里奥式关卡中的不同方块类型，再把运行中的游戏投影回纸面（与 Béatrice Lartigue 以 Lab212 名义合作）。",
+   "exercise_en": "Build a projector-and-webcam setup where red paper becomes lava and blue paper becomes platforms in a simple p5.js platformer. Twist: let a second player change the level by moving paper while the first is playing.",
+   "exercise_zh": "用投影仪和摄像头搭一个装置，在简单的 p5.js 平台游戏中，红纸变成岩浆、蓝纸变成平台；变体：让第二个玩家在第一个人玩的时候移动纸片改变关卡。",
+   "interaction": [
+    "projection",
+    "drawing-creation",
+    "game-play"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "openFrameworks",
+    "computer vision",
+    "projector"
+   ],
+   "source_url": "http://www.lab212.org/projects/p-nk",
+   "video": {
+    "platform": "vimeo",
+    "id": "46281850",
+    "url": "https://vimeo.com/46281850"
+   }
+  },
+  {
+   "id": "cao-fei--trade-eden",
+   "creator_ids": [
+    "cao-fei",
+    "apple"
+   ],
+   "title": "Trade Eden",
+   "year": 2019,
+   "description": "An AR stop on Apple's [AR]T Walk: a part fun-house, part automated factory appears in the street, where packaged goods travel through useless machines and the viewer tests their dexterity to catch them.",
+   "description_zh": "Apple [AR]T Walk 路线上的一站：街头出现一座半是游乐屋、半是自动化工厂的装置，包装好的商品在一台台无用的机器里流转，观众要靠手上功夫去接住它们。",
+   "idea_en": "A playful automated factory in the street pokes fun at consumer goods and useless machines.",
+   "idea_zh": "在街头出现的玩乐式自动化工厂，调侃消费商品和无用的机器。",
+   "technique": "Built with ARKit and anchored to specific city locations on a guided group walk; visitors used iPhones provided by Apple (likely with location-triggered scenes).",
+   "technique_zh": "基于 ARKit 开发，锚定在城市中的固定地点，以导览团形式体验；观众使用 Apple 提供的 iPhone（很可能按位置触发场景）。",
+   "exercise_en": "Design an AR 'factory' in Reality Composer or Lens Studio where tapping sends a box down a chain of pointless machines. Twist: the machine must end by delivering the box back to the player unchanged.",
+   "exercise_zh": "在 Reality Composer 或 Lens Studio 中设计一座 AR“工厂”：点击后一个盒子沿着一串毫无意义的机器前进；变体：整条流水线最后要把盒子原封不动地还给玩家。",
+   "interaction": [
+    "location-geo",
+    "game-play"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "iPhone"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2019/07/apple-offers-new-augmented-reality-art-sessions/",
+   "video": {
+    "platform": "youtube",
+    "id": "g3IJT00M3CY",
+    "url": "https://www.youtube.com/watch?v=g3IJT00M3CY"
+   }
+  },
+  {
+   "id": "cao-fei--bmw-art-car-18",
+   "creator_ids": [
+    "cao-fei"
+   ],
+   "title": "BMW Art Car #18",
+   "year": 2017,
+   "description": "A plain carbon-black BMW M6 GT3 that looks almost unpainted; seen through a phone app, trails of coloured light flow over the car's body, and a VR film extends the story of its future driver.",
+   "description_zh": "一辆看起来几乎没上色的碳黑色 BMW M6 GT3 赛车；透过手机 App 观看时，彩色光轨在车身上流动，另有一段 VR 影片延伸讲述它未来驾驶者的故事。",
+   "idea_en": "The real artwork on the car is invisible until you look through a phone.",
+   "idea_zh": "车上真正的艺术品是隐形的，只有透过手机才能看到。",
+   "technique": "A marker-less object-recognition AR app recognises the car and overlays animated light trails aligned to its body, while the physical car stays uncoloured.",
+   "technique_zh": "用无标记的物体识别 AR 应用识别整辆车，把动画光轨对齐叠加在车身上，而实体车本身保持无彩色。",
+   "exercise_en": "Pick a plain object (a white box, a bike) and build an image- or object-tracking AR scene that paints animated light lines only visible through the phone. Twist: the lines move faster the faster the phone moves around the object.",
+   "exercise_zh": "选一个朴素物体（白色盒子、自行车），用图像或物体追踪做一个 AR 场景，让只有透过手机才看得到的动态光线“涂”在它上面；变体：手机绕物体移动得越快，光线流动得越快。",
+   "interaction": [
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "phone",
+    "headset"
+   ],
+   "tech": [
+    "AR app",
+    "object tracking",
+    "VR film"
+   ],
+   "source_url": "https://www.caofei.com",
+   "video": {
+    "platform": "youtube",
+    "id": "i39mDMyn5-8",
+    "url": "https://www.youtube.com/watch?v=i39mDMyn5-8"
+   }
+  },
+  {
+   "id": "cao-fei--the-eternal-wave",
+   "creator_ids": [
+    "cao-fei",
+    "acute-art"
+   ],
+   "title": "The Eternal Wave",
+   "year": 2020,
+   "description": "Visitors in a headset start in a replica of the Hongxia Theatre kitchen from her film Nova and step through portals that jump across time and space, into early Chinese computer factories and the theatre's surroundings; an AR version later brought the kitchen to phones.",
+   "description_zh": "观众戴上头显，从她电影《新星》（Nova）中红霞剧院厨房的复制场景出发，穿过一道道传送门，在时空中跳跃，进入中国早期电子工厂和剧院周边；之后又推出了可在手机上体验的 AR 厨房版本。",
+   "idea_en": "A real stage set becomes the doorway into a VR time-travel story.",
+   "idea_zh": "一个真实的舞台布景成为进入 VR 时空旅行故事的入口。",
+   "technique": "Room-scale VR that matches a physical set, with portal transitions between scanned and modelled scenes; the AR follow-up lets users tap furniture to trigger changes.",
+   "technique_zh": "与实体布景对齐的房间级 VR，在扫描和建模场景之间用传送门转场；后续的 AR 版本让用户点击家具来触发变化。",
+   "exercise_en": "Build a WebXR or AR Foundation scene where a real doorway in the classroom opens into a different era. Twist: an everyday object in the room must be the key that opens the portal.",
+   "exercise_zh": "用 WebXR 或 AR Foundation 做一个场景，让教室里一扇真实的门通向另一个年代；变体：必须用房间里某件日常物品作为打开传送门的钥匙。",
+   "interaction": [
+    "portal-world",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "VR",
+    "HTC Vive",
+    "Unity"
+   ],
+   "source_url": "https://www.acuteart.com/discover/cao-fei",
+   "video": {
+    "platform": "youtube",
+    "id": "DdvJsIVgMx8",
+    "url": "https://www.youtube.com/watch?v=DdvJsIVgMx8"
+   }
+  },
+  {
+   "id": "alicja-kwade--ar-beit",
+   "creator_ids": [
+    "alicja-kwade",
+    "acute-art"
+   ],
+   "title": "AR-BEIT",
+   "year": 2020,
+   "description": "Four interactive AR sculptures: a lamp that buries its head in the ground when you walk toward it, a silver spinning top that never stops, a watermelon striped like Mars floating in the air, and puzzle pieces of parallel universes you drag together.",
+   "description_zh": "四件可交互的 AR 雕塑：你走近时会把头埋进地里的台灯、永不停转的银色陀螺、条纹像火星一样悬浮在空中的西瓜，以及可以拖动拼合的“平行宇宙”拼图块。",
+   "idea_en": "Everyday objects in AR behave in ways that question what is real.",
+   "idea_zh": "AR 里的日常物件以出人意料的方式行动，让人怀疑什么才是真实。",
+   "technique": "Phone AR placement via the Acute Art app with proximity triggers (the lamp reacts to the user's distance) and tap or drag gestures on the other pieces.",
+   "technique_zh": "通过 Acute Art App 在手机上放置 AR 作品，并使用距离触发（台灯根据用户距离做出反应）以及点击、拖动等手势来操作其他作品。",
+   "exercise_en": "Make an AR object that reacts to how close the viewer comes: it hides, shrinks or turns away when approached. Twist: it only behaves normally when nobody is looking at it through the phone.",
+   "exercise_zh": "做一个会根据观众距离做出反应的 AR 物件：被靠近时它会躲起来、缩小或转身；变体：只有当没人用手机看着它时，它才恢复正常。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "ARKit",
+    "ARCore"
+   ],
+   "source_url": "https://www.acuteart.com/discover/alicia-kwade",
+   "video": {
+    "platform": "youtube",
+    "id": "Zd0nL6kiUKs",
+    "url": "https://www.youtube.com/watch?v=Zd0nL6kiUKs"
+   }
+  },
+  {
+   "id": "nick-cave--amass",
+   "creator_ids": [
+    "nick-cave",
+    "apple"
+   ],
+   "title": "Amass",
+   "year": 2019,
+   "description": "Inside any Apple Store, opening the Apple Store app turns the shop into a swirling AR universe of Nick Cave's colourful 'Ikon Elements' that visitors collect and gather around them.",
+   "description_zh": "在任何一家 Apple Store 里打开 Apple Store App，店内空间就会变成一个旋转的 AR 宇宙，布满 Nick Cave 色彩缤纷的“Ikon Elements”，观众可以收集并让它们聚拢在自己周围。",
+   "idea_en": "A chain of retail stores becomes one shared, global AR artwork.",
+   "idea_zh": "全球的连锁门店变成同一件共享的 AR 艺术作品。",
+   "technique": "An ARKit experience inside the Apple Store app, likely triggered by store location and anchored to the store's floor and ceiling space.",
+   "technique_zh": "内置在 Apple Store App 中的 ARKit 体验，很可能按门店位置触发，并锚定在店内地面和天花板空间。",
+   "exercise_en": "Create an AR scene in Lens Studio or Reality Composer where tapping collects floating colourful objects that then orbit around the user. Twist: the objects only appear in one specific room of the school.",
+   "exercise_zh": "在 Lens Studio 或 Reality Composer 中做一个 AR 场景：点击漂浮的彩色物体即可收集，收集后它们会绕着用户旋转；变体：这些物体只在学校某一个特定房间出现。",
+   "interaction": [
+    "location-geo",
+    "game-play",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "Apple Store app"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2019/07/apple-offers-new-augmented-reality-art-sessions/",
+   "video": {
+    "platform": "youtube",
+    "id": "ebkkHAb6C80",
+    "url": "https://www.youtube.com/watch?v=ebkkHAb6C80"
+   }
+  },
+  {
+   "id": "nick-cave--soundsuits-art-walk",
+   "creator_ids": [
+    "nick-cave",
+    "apple"
+   ],
+   "title": "Accumul-Istic Quest ([AR]T Walk Soundsuits)",
+   "year": 2019,
+   "description": "A stop on Apple's [AR]T Walk where Nick Cave's wearable Soundsuits are reimagined as AR figures and colourful elements that accumulate around the walking group in the street.",
+   "description_zh": "Apple [AR]T Walk 路线上的一站：Nick Cave 的可穿戴 Soundsuits 被重新想象为 AR 角色和彩色元素，在街头围绕步行的观众不断聚集。",
+   "idea_en": "A wearable sculpture becomes a crowd of AR figures you can walk among.",
+   "idea_zh": "可穿戴雕塑化身为一群可以在其中穿行的 AR 角色。",
+   "technique": "Location-anchored ARKit scene on the guided [AR]T Walk, experienced on iPhones in small groups.",
+   "technique_zh": "[AR]T Walk 导览路线上锚定位置的 ARKit 场景，观众以小组形式用 iPhone 体验。",
+   "exercise_en": "Scan or model a costume and place several copies of it along a campus path as an AR procession that starts dancing when the group arrives. Twist: each copy responds to a different sound in the environment.",
+   "exercise_zh": "扫描或建模一套服装，把多个副本沿校园小路摆成 AR 游行队伍，当小组走到时开始跳舞；变体：每个副本对环境中不同的声音做出反应。",
+   "interaction": [
+    "location-geo",
+    "performance-stage"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "iPhone"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2019/07/apple-offers-new-augmented-reality-art-sessions/",
+   "video": {
+    "platform": "youtube",
+    "id": "ih-9Ww6sB8I",
+    "url": "https://www.youtube.com/watch?v=ih-9Ww6sB8I"
+   }
+  },
+  {
+   "id": "pipilotti-rist--international-liquid-finger-prayer",
+   "creator_ids": [
+    "pipilotti-rist",
+    "apple"
+   ],
+   "title": "International Liquid Finger Prayer",
+   "year": 2019,
+   "description": "On Apple's [AR]T Walk, a shimmering liquid form bounces, taunts and sings through the city while participants race to catch it on their phones.",
+   "description_zh": "在 Apple [AR]T Walk 上，一个闪闪发光的液态形体在城市中蹦跳、挑逗、歌唱，参与者拿着手机争相去“抓”住它。",
+   "idea_en": "Chase a singing, glittering blob through the city.",
+   "idea_zh": "在城市里追逐一团会唱歌、闪闪发光的液体。",
+   "technique": "Location-anchored ARKit animation with spatial audio that moves along a path, turning the walk into a chase.",
+   "technique_zh": "锚定位置的 ARKit 动画配合空间音频，沿路径移动，把漫步变成一场追逐。",
+   "exercise_en": "Make an AR creature that flees along a path when the phone gets within two metres, and plays a sound that gets louder as you close in. Twist: it can only be caught when two players corner it together.",
+   "exercise_zh": "做一个 AR 生物：手机靠近到两米内时它就沿路径逃跑，并发出越靠近越响的声音；变体：只有两名玩家一起把它逼到角落才能抓住它。",
+   "interaction": [
+    "location-geo",
+    "game-play",
+    "voice-sound"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "spatial audio"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2019/07/apple-offers-new-augmented-reality-art-sessions/",
+   "video": {
+    "platform": "youtube",
+    "id": "2Iza32cgqpg",
+    "url": "https://www.youtube.com/watch?v=2Iza32cgqpg"
+   }
+  },
+  {
+   "id": "carsten-holler--through",
+   "creator_ids": [
+    "carsten-holler",
+    "apple"
+   ],
+   "title": "Through",
+   "year": 2019,
+   "description": "On Apple's [AR]T Walk, a portal opens in the street and takes viewers into a world without perspective, where the usual depth cues of the city disappear.",
+   "description_zh": "在 Apple [AR]T Walk 上，街头打开一道传送门，把观众带进一个“没有透视”的世界，城市里惯常的深度线索全部消失。",
+   "idea_en": "Walk through a portal into a world that has no perspective.",
+   "idea_zh": "穿过传送门，进入一个没有透视的世界。",
+   "technique": "An ARKit portal: a masked doorway shows a virtual interior rendered without perspective foreshortening, which replaces the camera view once the user steps through.",
+   "technique_zh": "ARKit 传送门：用遮罩做出门洞，里面是渲染时去除透视缩短的虚拟空间，用户穿过门后它会替换整个摄像头画面。",
+   "exercise_en": "Build an AR portal whose inside world is rendered with an orthographic camera, then compare how it feels to walk through versus a normal perspective portal. Twist: make the inside world flip upside down, echoing Höller's Upside-Down Goggles.",
+   "exercise_zh": "做一个 AR 传送门，门内世界用正交相机渲染，再比较穿过它与穿过普通透视传送门的感觉差异；变体：让门内世界上下颠倒，呼应 Höller 的倒置眼镜。",
+   "interaction": [
+    "portal-world",
+    "perception-art",
+    "location-geo"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "orthographic rendering"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2019/07/apple-offers-new-augmented-reality-art-sessions/",
+   "video": {
+    "platform": "youtube",
+    "id": "SrqgNt2l91s",
+    "url": "https://www.youtube.com/watch?v=SrqgNt2l91s"
+   }
+  },
+  {
+   "id": "nathalie-djurberg-hans-berg--this-is-it",
+   "creator_ids": [
+    "nathalie-djurberg-hans-berg",
+    "apple"
+   ],
+   "title": "This Is It",
+   "year": 2019,
+   "description": "On Apple's [AR]T Walk, a seemingly hollow tree appears in the street and reveals the strange, magical digital creatures hiding inside, like an outlandish fairy tale.",
+   "description_zh": "在 Apple [AR]T Walk 上，街头出现一棵看似空心的树，树里藏着一群古怪而奇妙的数字生物，仿佛一则荒诞童话。",
+   "idea_en": "An ordinary-looking tree hides a fairy-tale world inside.",
+   "idea_zh": "一棵看起来普通的树里藏着一个童话世界。",
+   "technique": "Location-anchored ARKit scene with animated, scanned clay-style characters and Hans Berg's score as spatial audio.",
+   "technique_zh": "锚定位置的 ARKit 场景，包含扫描自黏土风格的动画角色，并以 Hans Berg 的配乐作为空间音频。",
+   "exercise_en": "Pick a real tree or cupboard on campus and build an AR scene where creatures peek out of it and hide again when you come closer. Twist: the creatures tell a story only when the viewer stays completely still.",
+   "exercise_zh": "在校园里选一棵真实的树或一个柜子，做一个 AR 场景：生物会从里面探出头，你一靠近又躲回去；变体：只有观众完全静止时，它们才开始讲故事。",
+   "interaction": [
+    "location-geo",
+    "portal-world",
+    "voice-sound"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "clay animation",
+    "spatial audio"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2019/07/apple-offers-new-augmented-reality-art-sessions/",
+   "video": {
+    "platform": "youtube",
+    "id": "req-KX02PvY",
+    "url": "https://www.youtube.com/watch?v=req-KX02PvY"
+   }
+  },
+  {
+   "id": "nathalie-djurberg-hans-berg--it-will-end-in-stars",
+   "creator_ids": [
+    "nathalie-djurberg-hans-berg",
+    "acute-art"
+   ],
+   "title": "It Will End in Stars",
+   "year": 2018,
+   "description": "A VR fairy-tale landscape of charcoal drawings, text and scanned clay sculptures; a creature at its centre meets the viewer's gaze and responds to their movements, making them feel like a watched intruder.",
+   "description_zh": "由炭笔素描、文字和扫描黏土雕塑组成的 VR 童话风景；其中的一只生物会与观众对视，并对他们的动作做出反应，让观众觉得自己是被盯着的闯入者。",
+   "idea_en": "The artwork looks back at you and reacts to your presence.",
+   "idea_zh": "作品会回看你，并对你的存在做出反应。",
+   "technique": "Room-scale VR with photogrammetry-scanned clay figures and a creature whose head and eyes follow the headset position.",
+   "technique_zh": "房间级 VR，黏土角色经摄影测量扫描建模，其中一只生物的头部和眼睛会追随头显位置。",
+   "exercise_en": "Place a character in AR or WebXR whose eyes always follow the camera, and add a rule that it steps back when stared at for three seconds. Twist: make it approach only while you look away.",
+   "exercise_zh": "在 AR 或 WebXR 中放置一个眼睛始终跟着摄像头的角色，并加一条规则：被盯着看三秒它就后退；变体：只有在你移开视线时它才靠近。",
+   "interaction": [
+    "gaze-attention",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VR",
+    "photogrammetry",
+    "Unity"
+   ],
+   "source_url": "https://www.acuteart.com/discover/nathalie-djurberg-hans-berg",
+   "video": {
+    "platform": "youtube",
+    "id": "25laN3xx2GM",
+    "url": "https://www.youtube.com/watch?v=25laN3xx2GM"
+   }
+  },
+  {
+   "id": "john-giorno--now-at-the-dawn-of-my-life",
+   "creator_ids": [
+    "john-giorno",
+    "apple"
+   ],
+   "title": "Now at the Dawn of My Life",
+   "year": 2019,
+   "description": "On Apple's [AR]T Walk, bold rainbow-coloured words from Giorno's poems rise and float in the street, forming a journey of homespun wisdom against the city backdrop.",
+   "description_zh": "在 Apple [AR]T Walk 上，Giorno 诗句中醒目的彩虹色文字在街头升起、漂浮，在城市背景中铺出一段充满朴素智慧的旅程。",
+   "idea_en": "Poetry becomes a rainbow sculpture of words in the street.",
+   "idea_zh": "诗歌化作街头的彩虹文字雕塑。",
+   "technique": "Location-anchored ARKit scene of extruded 3D typography animated in rainbow gradients, following the style of Giorno's text paintings.",
+   "technique_zh": "锚定位置的 ARKit 场景，用挤出的 3D 文字配合彩虹渐变动画，延续 Giorno 文字画作的风格。",
+   "exercise_en": "Write a four-line poem and place each line as 3D text at a different spot on a walking route using Lens Studio or WebXR. Twist: each line only appears when the previous one has been read aloud.",
+   "exercise_zh": "写一首四行诗，用 Lens Studio 或 WebXR 把每一行做成 3D 文字，放在步行路线的不同地点；变体：只有把上一行大声读出来，下一行才会出现。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "3D typography"
+   ],
+   "source_url": "https://www.apple.com/newsroom/2019/07/apple-offers-new-augmented-reality-art-sessions/",
+   "video": {
+    "platform": "youtube",
+    "id": "eZKMHjBrSQY",
+    "url": "https://www.youtube.com/watch?v=eZKMHjBrSQY"
+   }
+  },
+  {
+   "id": "nina-chanel-abney--imaginary-friend",
+   "creator_ids": [
+    "nina-chanel-abney",
+    "acute-art"
+   ],
+   "title": "Imaginary Friend",
+   "year": 2020,
+   "description": "A large, flat-coloured figure in Abney's painting style appears in parks and squares; the sage-like character offers a blessing that its friend refuses, with the line 'sometimes we believe nothing good can ever happen to us'.",
+   "description_zh": "一个具有 Abney 绘画风格的大型平涂人物出现在公园和广场上；这位智者般的角色想给朋友送上祝福，却被拒绝，并留下一句“有时我们相信好事永远不会发生在自己身上”。",
+   "idea_en": "A painted character becomes an always-available companion in public space.",
+   "idea_zh": "一个绘画角色变成公共空间里随叫随到的陪伴者。",
+   "technique": "Phone AR via the Acute Art app, with the figure available at geolocated launch sites (London, New York) and placeable anywhere.",
+   "technique_zh": "通过 Acute Art App 进行手机 AR 体验，角色在伦敦、纽约等地理定位的首发地点出现，也可以放置在任何地方。",
+   "exercise_en": "Turn a 2D character drawing into a flat, layered AR cut-out that says one short line when tapped. Twist: the line changes depending on how many people are standing in front of it.",
+   "exercise_zh": "把一幅二维角色画做成分层的平面 AR 剪影，点击时说出一句短台词；变体：台词根据站在它面前的人数而变化。",
+   "interaction": [
+    "location-geo",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "ARKit",
+    "ARCore"
+   ],
+   "source_url": "https://www.acuteart.com/discover/nina-chane-abney",
+   "video": {
+    "platform": "youtube",
+    "id": "hugy9hJlrqg",
+    "url": "https://www.youtube.com/watch?v=hugy9hJlrqg"
+   }
+  },
+  {
+   "id": "koo-jeong-a--density",
+   "creator_ids": [
+    "koo-jeong-a",
+    "acute-art"
+   ],
+   "title": "density",
+   "year": 2019,
+   "description": "A translucent, slowly dripping ice cube floats in mid-air among the bronze sculptures of Frieze Sculpture in Regent's Park, visible only on a phone screen and reflecting whatever surrounds it.",
+   "description_zh": "一块半透明、缓缓滴水的冰块悬浮在摄政公园 Frieze Sculpture 的青铜雕塑之间，只有在手机屏幕上才能看到，并映照出周围的一切。",
+   "idea_en": "An invisible melting ice cube stands among real sculptures and mirrors the park.",
+   "idea_zh": "一块看不见的融化冰块立于真实雕塑之间，并映照整座公园。",
+   "technique": "Geolocated phone AR with environment mapping: the camera feed is used as a reflection and refraction probe so the virtual ice picks up the real surroundings.",
+   "technique_zh": "带环境映射的地理定位手机 AR：把摄像头画面作为反射和折射探针，让虚拟冰块呈现出真实环境。",
+   "exercise_en": "Place a glass-like object in AR using environment texturing (AR Foundation or Reality Composer) and photograph it in three very different locations. Twist: make it melt faster the warmer the colours around it.",
+   "exercise_zh": "用环境贴图（AR Foundation 或 Reality Composer）在 AR 中放置一个玻璃质感的物体，并在三个截然不同的地点拍照；变体：周围颜色越暖，它融化得越快。",
+   "interaction": [
+    "location-geo",
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "environment mapping",
+    "ARKit"
+   ],
+   "source_url": "https://www.acuteart.com/discover/koo-jeong-a",
+   "video": {
+    "platform": "youtube",
+    "id": "PUobAocKdXE",
+    "url": "https://www.youtube.com/watch?v=PUobAocKdXE"
+   }
+  },
+  {
+   "id": "julie-curtiss--lune",
+   "creator_ids": [
+    "julie-curtiss",
+    "acute-art"
+   ],
+   "title": "Lune",
+   "year": 2021,
+   "description": "A nude woman from one of Curtiss's paintings stands in AR with her back turned; however you walk around her, she keeps turning away and avoids your gaze.",
+   "description_zh": "Curtiss 画中的一位裸体女子以 AR 形式背对观众站立；无论你怎么绕着她走，她都会不断转身，避开你的目光。",
+   "idea_en": "A figure that always turns away makes the viewer aware of their own gaze.",
+   "idea_zh": "一个永远转身背对你的人物，让观众意识到自己的凝视。",
+   "technique": "Phone AR where the figure's orientation is continuously driven by the camera position so that it always faces away from the viewer.",
+   "technique_zh": "手机 AR 中人物的朝向持续由摄像头位置驱动，使她始终背对观众。",
+   "exercise_en": "Place a 3D figure in AR that rotates to keep its back to the camera, and ask classmates to try to see its face. Twist: let it turn around only when two phones look at it from opposite sides.",
+   "exercise_zh": "在 AR 中放置一个始终转身背对摄像头的 3D 人物，让同学们尝试看到她的脸；变体：只有当两部手机从相对两侧同时看她时，她才转过身来。",
+   "interaction": [
+    "gaze-attention",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "ARKit",
+    "ARCore"
+   ],
+   "source_url": "https://www.acuteart.com/discover/julie-curtiss",
+   "video": {
+    "platform": "vimeo",
+    "id": "812460459",
+    "url": "https://vimeo.com/812460459"
+   }
+  },
+  {
+   "id": "ho-tzu-nyen--language",
+   "creator_ids": [
+    "ho-tzu-nyen",
+    "acute-art"
+   ],
+   "title": "Language",
+   "year": 2022,
+   "description": "Point the phone at the sky and giant anime-style mecha appear while one Kyoto School text is read; point it at the ground and a disintegrating scholar appears with another text; at the horizon there is nothing to see, only a voice speaking about absolute nothingness.",
+   "description_zh": "把手机指向天空，会出现巨大的动漫风格机甲，同时朗读一段京都学派的文本；指向地面，会出现一位正在瓦解的学者和另一段文本；指向地平线则什么也看不到，只听见谈论“绝对无”的声音。",
+   "idea_en": "Where you point the phone (sky, ground, horizon) decides which story you hear.",
+   "idea_zh": "手机指向哪里（天空、地面、地平线），就决定你听到哪一段故事。",
+   "technique": "Phone AR that reads the device's pitch from the gyroscope to switch between three layered scenes and audio tracks.",
+   "technique_zh": "手机 AR 通过陀螺仪读取设备俯仰角，在三层场景和音轨之间切换。",
+   "exercise_en": "Build a WebXR or phone web page that plays three different audio stories depending on whether the phone points up, down or level. Twist: the level direction shows nothing on screen at all.",
+   "exercise_zh": "做一个 WebXR 或手机网页，根据手机朝上、朝下或水平，播放三段不同的音频故事；变体：水平方向时屏幕上完全不显示任何东西。",
+   "interaction": [
+    "gaze-attention",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "gyroscope",
+    "spatial audio"
+   ],
+   "source_url": "https://www.acuteart.com/discover/ho-tzu-nyen",
+   "video": {
+    "platform": "youtube",
+    "id": "jKLx6V6FFec",
+    "url": "https://www.youtube.com/watch?v=jKLx6V6FFec"
+   }
+  },
+  {
+   "id": "marco-brambilla--the-four-temperaments-ar",
+   "creator_ids": [
+    "marco-brambilla",
+    "acute-art"
+   ],
+   "title": "The Four Temperaments AR",
+   "year": 2020,
+   "description": "Four floating crystal balls each hold Cate Blanchett playing one of Galen's temperaments; each looks at the viewer and says 'I love you', and the meaning shifts from tender to threatening as you walk between them.",
+   "description_zh": "四个漂浮的水晶球里，Cate Blanchett 分别扮演盖伦提出的四种气质；每个角色都注视观众说“我爱你”，当你在它们之间走动时，这句话的意味从温柔变为威胁。",
+   "idea_en": "The same line spoken by four versions of one actor changes meaning as you move among them.",
+   "idea_zh": "同一位演员的四个版本说出同一句台词，随着你在其间走动，意味不断变化。",
+   "technique": "Video of the actor mapped inside transparent spheres placed in phone AR, each billboarded to face the viewer, with spatial audio for each sphere.",
+   "technique_zh": "把演员影像映射到手机 AR 中放置的透明球体里，每个球体始终朝向观众，并配有各自的空间音频。",
+   "exercise_en": "Film a classmate saying one sentence in four different moods and place the four clips in AR as floating video spheres around the room. Twist: only the sphere you are closest to is audible.",
+   "exercise_zh": "拍一位同学用四种不同情绪说同一句话，把四段视频做成漂浮的 AR 视频球放在房间四周；变体：只有离你最近的那个球能被听见。",
+   "interaction": [
+    "performance-stage",
+    "voice-sound",
+    "gaze-attention"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Acute Art app",
+    "video texture",
+    "spatial audio"
+   ],
+   "source_url": "https://www.acuteart.com/discover/marco-brambilla",
+   "video": {
+    "platform": "youtube",
+    "id": "_xG8mEQ8Mk4",
+    "url": "https://www.youtube.com/watch?v=_xG8mEQ8Mk4"
+   }
+  }
+ ],
+ "leads": [
+  {
+   "name": "Daniel Arsham",
+   "why": "No AR artwork of his own was found; his digital work is mostly NFTs, film and product collaborations (e.g. Samsung The Frame), not spatial AR.",
+   "link": "https://www.danielarsham.com/",
+   "found_via": "acute-art",
+   "status": "not_ar"
+  },
+  {
+   "name": "Ai Weiwei",
+   "why": "His Acute Art piece Omni (2020) is a 360-degree VR documentary; his AR piece in the Seeing the Invisible botanical-garden show (2021) has no dedicated playable video. The Ai Weiwei urn AR in the gallery is Jeremy Bailey's work.",
+   "link": "https://www.acuteart.com/discover/ai-weiwei",
+   "found_via": "acute-art",
+   "status": "no_video"
+  },
+  {
+   "name": "Jeff Koons",
+   "why": "His AR is the 2017 Snapchat collaboration already in the gallery as snap-inc--jeff-koons-x-snapchat (could be co-credited via patch_works); his Acute Art work Phryne is VR and his BMW Art Car only appears as a scan in the BMW Art Car AR app.",
+   "link": "https://www.acuteart.com/discover/jeff-koons",
+   "found_via": "snap-inc",
+   "status": "duplicate"
+  },
+  {
+   "name": "Anish Kapoor",
+   "why": "Into Yourself, Fall (2018, Acute Art) is VR only; no AR work found.",
+   "link": "https://www.acuteart.com/discover/anish-kapoor",
+   "found_via": "acute-art",
+   "status": "not_ar"
+  },
+  {
+   "name": "Christo and Jeanne-Claude",
+   "why": "The London Mastaba AR (2020, Acute Art, Hyde Park) is genuine AR, but the only playable video is the 2018 VR drone flyover.",
+   "link": "https://www.acuteart.com/discover/christo-jeanne-claude",
+   "found_via": "acute-art",
+   "status": "no_video"
+  },
+  {
+   "name": "Precious Okoyomon",
+   "why": "Ultra Light Beams of Love (2021) is already in the gallery as acute-art--looking-glass-precious-okoyomon; no second AR video found.",
+   "link": "https://www.acuteart.com/discover/precious-okoyomon",
+   "found_via": "acute-art",
+   "status": "duplicate"
+  },
+  {
+   "name": "Darren Bader",
+   "why": "Mendes Mundi AR is already in the gallery as acute-art--looking-glass-darren-bader; no second AR video found.",
+   "link": "https://www.acuteart.com/discover/darren-bader",
+   "found_via": "acute-art",
+   "status": "duplicate"
+  },
+  {
+   "name": "Tomás Saraceno",
+   "why": "Webs of Life AR spiders are already in the gallery as acute-art--looking-glass-tomas-saraceno; other videos are talks.",
+   "link": "https://www.acuteart.com/discover/tomas-saraceno",
+   "found_via": "acute-art",
+   "status": "duplicate"
+  },
+  {
+   "name": "Bjarne Melgaard",
+   "why": "AR series of his characters (Lightbulb Man, Octo, 2020) exists in the Acute Art app, but only talks and VR (My Trip) footage were found.",
+   "link": "https://www.acuteart.com/discover/bjarne-melgaard",
+   "found_via": "acute-art",
+   "status": "no_video"
+  },
+  {
+   "name": "Felipe Pantone",
+   "why": "Data Chromesthesia (2024, Acute Art + Google Arts & Culture) uses ARCore Geospatial and live air-quality data to recolour city views; no playable video found on YouTube or Vimeo.",
+   "link": "https://www.acuteart.com/discover/felipe-pantone",
+   "found_via": "acute-art",
+   "status": "no_video"
+  },
+  {
+   "name": "Lu Yang",
+   "why": "Gigant DOKU (2020, BMW / Acute Art) is a giant dancing AR avatar, but no playable AR video found; his other work is animation and motion-capture performance.",
+   "link": "https://www.acuteart.com/discover/lu-yang",
+   "found_via": "acute-art",
+   "status": "no_video"
+  },
+  {
+   "name": "Lee Bul",
+   "why": "Willing To Be Vulnerable - Metalized Balloon AR22 (2022, Leeum / Acute Art); no playable video found.",
+   "link": "https://www.acuteart.com/discover/lee-bul",
+   "found_via": "acute-art",
+   "status": "no_video"
+  },
+  {
+   "name": "David Shrigley",
+   "why": "Worm (2021, AR for Maison Ruinart / Acute Art); only a brand promo of the digital gallery was found.",
+   "link": "https://www.acuteart.com/discover/david-shrigley",
+   "found_via": "acute-art",
+   "status": "no_video"
+  },
+  {
+   "name": "Antony Gormley",
+   "why": "Lunatick (2019, with Priyamvada Natarajan, Acute Art) is VR only.",
+   "link": "https://www.acuteart.com/discover/antony-gormley",
+   "found_via": "acute-art",
+   "status": "not_ar"
+  },
+  {
+   "name": "Louisa Clement",
+   "why": "Aporias (2019, Acute Art) is a VR piece with AI-driven talking mannequins; no AR.",
+   "link": "https://www.acuteart.com/discover/louisa-clement",
+   "found_via": "acute-art",
+   "status": "not_ar"
+  },
+  {
+   "name": "Béatrice Lartigue / Lab212",
+   "why": "Co-creator with Cyril Diagne in the Lab212 collective (Super Mario Brush, Portée/, Starfield, Galets Magiques): projection and tangible interactive installations with Vimeo videos.",
+   "link": "https://vimeo.com/lab212",
+   "found_via": "cyril-diagne",
+   "status": "open"
+  },
+  {
+   "name": "Seeing the Invisible (Outset / Jerusalem Botanical Garden)",
+   "why": "2021 AR exhibition in 12 botanical gardens with Ai Weiwei, El Anatsui, Sarah Meyohas, Isaac Julien, Mel O'Callaghan and others; individual artists may have work-specific videos.",
+   "link": "https://www.youtube.com/watch?v=Ic-agv5D5oY",
+   "found_via": "acute-art",
+   "status": "open"
+  }
+ ]
+}

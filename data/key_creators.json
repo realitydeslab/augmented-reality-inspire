@@ -598,6 +598,46 @@
    "tagline_en": "Mirror-like interaction and moving form: the digital art studio with the strongest visual language.",
    "intro_en": "Universal Everything, founded by Matt Pyke in Sheffield, is known for moving human figures: motion capture driving endlessly varied characters. Most of their interactive works are magic mirrors — you move, and another version of you transforms in the glass.",
    "learn_en": "Visual style is interaction: with the same body tracking, the form design decides whether people stop and dance in front of the mirror."
+  },
+  {
+   "id": "adrien-m-claire-b",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "group": "art",
+   "tagline_zh": "让影像像物质一样有重量、会呼吸：从杂耍舞台走到纸上和街头的 AR。",
+   "intro_zh": "Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期起用自己写的 eMotion 软件让投影里的物体遵守物理规律；2011 年起与视觉艺术家 Claire Bardainne 共同领导公司（2023 年后 Mondot 以 cie Adrien M 的名义继续独立创作）。他们的影像从不只是背景：它会被抛起、被吹散、被推开，像另一位表演者。二十年里，这套思路从舞台投影走向互动展览，再走向立体书、海报和城市墙面上的手持 AR。",
+   "learn_zh": "学把数字影像当成“材料”来设计：先定它的重量、弹性和节奏，再决定人如何与它相处；同一个动画世界可以换成舞台、展览、书本和街头四种载体。",
+   "highlights": [
+    {
+     "work": "adrien-m-claire-b--cinematique",
+     "note_zh": "起点：杂耍艺人和舞者在由 eMotion 实时生成、遵守物理规律的投影空间里表演。先看这件，理解他们“影像即物质”的思路从哪里来。",
+     "note_en": "The starting point: a juggler and a dancer perform inside projected space generated live by eMotion and governed by physics. Watch this first to see where their idea of image as matter comes from."
+    },
+    {
+     "work": "adrien-m-claire-b--hakanai",
+     "note_zh": "一位舞者站在纱幕围成的立方体里，四周的网格和文字随舞者的动作弯曲、崩散。舞台上的“投影 AR”的代表作。",
+     "note_en": "A dancer inside a cube of tulle while the surrounding grids and letters bend and scatter with the dancer's movement. The signature piece of projected, stage-scale AR."
+    },
+    {
+     "work": "adrien-m-claire-b--xyzt",
+     "note_zh": "把舞台上的技术交给观众：十件互动装置，用触摸、吹气和行走去推动字母与粒子。从“看表演”到“自己成为表演者”的一步。",
+     "note_en": "The stage technology handed to visitors: ten installations where touch, breath and footsteps push letters and particles around. The step from watching a performance to becoming the performer."
+    },
+    {
+     "work": "adrien-m-claire-b--acqua-alta-crossing-the-mirror",
+     "note_zh": "同一个故事的纸上版本：把平板对准一本黑白立体书，小小的人物在纸做的房子里经历一场墨水洪水。舞台投影第一次缩小到手掌里。",
+     "note_en": "The same story on paper: point a tablet at a black-and-white pop-up book and tiny figures live through an ink flood inside a paper house. Stage projection shrunk to the palm of your hand for the first time."
+    },
+    {
+     "work": "adrien-m-claire-b--faune",
+     "note_zh": "最后一站走上街头：与 Brest Brest Brest 合作，贴在城墙上的海报里藏着只有透过手机才会现身的动物。用 AR 训练行人的注意力。",
+     "note_en": "The last stop takes it to the street: with Brest Brest Brest, posters on city walls hide animals that only appear through a phone. AR as a way to train passers-by to pay attention."
+    }
+   ],
+   "tagline_en": "Images with weight that breathe like matter: from the juggler's stage to AR on paper and city walls.",
+   "intro_en": "Adrien Mondot was a computer science researcher and juggler who, from the mid-2000s, wrote custom software, eMotion, so projected objects would obey physics. From 2011 Mondot co-led the company with visual artist Claire Bardainne (since 2023 Mondot has continued solo as cie Adrien M). Their images are never a backdrop: they get thrown, blown away and pushed aside like another performer. Over twenty years the same idea moved from stage projection to interactive exhibitions, and then to hand-held AR on pop-up books, posters and city walls.",
+   "learn_en": "Design digital images as a material: set their weight, elasticity and rhythm first, then decide how people live with them. And notice how one animated world can be moved across four carriers: stage, exhibition, book and street."
   }
  ]
 }

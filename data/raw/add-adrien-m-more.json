@@ -1,0 +1,583 @@
+{
+ "batch": "add-adrien-m-more",
+ "creators": [],
+ "works": [
+  {
+   "id": "adrien-m-claire-b--convergence-1-0",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Convergence 1.0",
+   "year": 2005,
+   "description": "Adrien Mondot's founding piece: a juggler plays with real balls while virtual balls and objects, generated live by the software eMotion and projected behind the performer, join the routine so real and synthetic trajectories meet on stage.",
+   "description_zh": "Adrien Mondot 的起点之作：杂耍艺人抛接真实的球，身后投影出由 eMotion 软件实时生成的虚拟球和物体，它们加入同一套动作，真实轨迹和合成轨迹在舞台上相遇。",
+   "idea_en": "A juggler juggles with objects that only exist inside the computer.",
+   "idea_zh": "杂耍艺人和只存在于电脑里的物体一起抛接。",
+   "technique": "Custom real-time software (the first version of eMotion) simulates objects with physical properties and projects them behind the performer; the match between real throws and virtual balls is likely a mix of rehearsed timing and partial tracking.",
+   "technique_zh": "自研的实时软件（eMotion 的第一个版本）模拟带物理属性的物体并投影在表演者身后；真实抛接和虚拟球之间的配合，很可能一部分靠排练出的节奏，一部分靠追踪。",
+   "exercise_en": "Project a simple 2D physics scene (p5.js + matter.js) on a wall and have one student toss a real ball in front of it while a partner launches matching virtual balls with key presses; rehearse until real and virtual throws read as one routine. Twist: track a brightly colored ball with the webcam so the virtual balls bounce off the real one.",
+   "exercise_zh": "用 p5.js + matter.js 做一个简单的 2D 物理场景投到墙上，一名学生在墙前抛真球，同伴按键发射对应的虚拟球，反复排练直到真假抛接看起来是同一套动作。变体：用摄像头追踪一个颜色鲜艳的球，让虚拟球能从真球上弹开。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "physics simulation",
+    "real-time projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "954911",
+    "url": "https://vimeo.com/954911"
+   },
+   "source_url": "https://adrien-m.net/project.html#convergence-1-0"
+  },
+  {
+   "id": "adrien-m-claire-b--time-remap",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Time remap – Anamorphose temporelle",
+   "year": 2009,
+   "description": "Two people move in a park while each horizontal band of the image comes from a slightly different moment, so their bodies stretch, twist and smear through time.",
+   "description_zh": "两个人在公园里移动，画面中每一条横带都取自稍有不同的时刻，于是他们的身体在时间里被拉长、扭曲、拖出残影。",
+   "idea_en": "Turn time into an axis of space, so a moving body becomes a sculpture of its own recent past.",
+   "idea_zh": "把时间变成空间里的一条轴，运动中的身体就成了自己刚刚过去的雕塑。",
+   "technique": "A custom Quartz Composer plug-in stores the live video stream as a 3D texture (x, y, time) and samples each row from a different delay on the GPU at 60 fps; this slit-scan effect also runs live for visitors in the XYZT exhibition.",
+   "technique_zh": "自制的 Quartz Composer 插件把实时视频流存成三维纹理（x、y、时间），在 GPU 上以 60 fps 让每一行像素取自不同的延迟时刻，也就是“时间切片”（slit-scan）效果；它也在 XYZT 展览里供观众实时体验。",
+   "exercise_en": "Build a live slit-scan mirror in p5.js or TouchDesigner: keep a buffer of the last 120 webcam frames and draw each row from an older frame the lower it sits on screen, then let students hunt for poses that look impossible. Twist: make the delay depend on distance from a tracked hand instead of the row, so time bends around a point.",
+   "exercise_zh": "用 p5.js 或 TouchDesigner 做一面实时“时间切片”镜子：缓存最近 120 帧摄像头画面，屏幕上越靠下的像素行取自越早的帧，让学生去找看起来不可能的姿势。变体：把延迟改为取决于离被追踪的手有多远，而不是行号，让时间围绕一个点弯曲。",
+   "interaction": [
+    "perception-art",
+    "hand-body"
+   ],
+   "platform": [
+    "desktop",
+    "projection"
+   ],
+   "tech": [
+    "Quartz Composer",
+    "slit-scan",
+    "GPU"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "7878518",
+    "url": "https://vimeo.com/7878518"
+   },
+   "source_url": "https://adrien-m.net/project.html#retime"
+  },
+  {
+   "id": "adrien-m-claire-b--coincidence",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Coïncidence",
+   "year": 2011,
+   "description": "A 20-minute juggled and danced duet in a minimal black space: abstract shapes and words projected around Adrien Mondot come alive, fall and scatter with the juggler's gestures, while Claire Bardainne plays the images live.",
+   "description_zh": "一段约 20 分钟的杂耍与舞蹈双人作品：在极简的黑色空间里，投影在 Adrien Mondot 周围的抽象图形和文字随他的动作活过来、坠落、散开，而影像由 Claire Bardainne 现场演奏。",
+   "idea_en": "A duet between a body and a live-played image, where letters behave like juggled objects.",
+   "idea_zh": "身体和现场演奏的影像跳双人舞，文字像被抛接的物体一样运动。",
+   "technique": "Projected typography and particles are driven by eMotion's physics engine and steered live by a digital performer, so the timing comes from a human partner rather than full body tracking.",
+   "technique_zh": "投影里的文字和粒子由 eMotion 的物理引擎驱动，由一位“数字演奏者”现场操控，所以节奏来自人与人的配合，而不是全身追踪。",
+   "exercise_en": "Pair students as performer and image-player: one moves in front of a projection, the other drives falling words in a p5.js + matter.js sketch with a MIDI controller or keyboard, and they rehearse until the words seem to answer the body. Twist: swap roles without rehearsal and compare how much the illusion depends on timing.",
+   "exercise_zh": "学生两人一组，一人表演、一人演奏影像：表演者在投影前移动，演奏者用 MIDI 控制器或键盘操控 p5.js + matter.js 里下落的文字，反复排练直到文字像在回应身体。变体：不排练直接互换角色，比较这种错觉有多依赖节奏配合。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "real-time projection",
+    "live digital performance"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "35528568",
+    "url": "https://vimeo.com/35528568"
+   },
+   "source_url": "https://adrien-m.net/project.html#coincidence"
+  },
+  {
+   "id": "adrien-m-claire-b--emotion-leap-motion-peppers-ghost",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "eMotion × Leap Motion – Pepper's ghost test",
+   "year": 2013,
+   "description": "A first test with the company's own software: hands tracked by a Leap Motion controller shape glowing strands of light that seem to float inside a small glass box in front of them.",
+   "description_zh": "用公司自研软件做的一次早期测试：Leap Motion 追踪双手，手势塑造出一束束发光的线条，它们看起来就悬浮在手前方的小玻璃盒里。",
+   "idea_en": "Your hands sculpt light that hovers in mid-air, without any headset.",
+   "idea_zh": "不戴任何头显，双手就能塑造悬在半空中的光。",
+   "technique": "eMotion, the company's real-time motion and physics software, reads hand positions from a Leap Motion and renders particle strands that are reflected in an angled glass sheet (Pepper's ghost), so they appear to float in physical space.",
+   "technique_zh": "公司自研的实时运动与物理软件 eMotion 读取 Leap Motion 的手部位置，渲染出粒子线条，再经一块斜放的玻璃反射（佩珀尔幻象），看起来就像浮在真实空间里。",
+   "exercise_en": "Build a Pepper's ghost box from a clear plastic sheet angled at 45° over a tablet lying face up, run a browser particle sketch driven by MediaPipe Hands from a laptop webcam and mirror it to the tablet, and tune colors on black until the image reads as floating. Twist: let two people's hands pull on the same particles.",
+   "exercise_zh": "用一块透明塑料片以 45° 斜架在正面朝上的平板上，做一个佩珀尔幻象盒；在浏览器里跑一个由笔记本摄像头 + MediaPipe Hands 驱动的粒子草图并投屏到平板，在黑底上调整颜色，直到画面看起来像浮在空中。变体：让两个人的手同时拉扯同一团粒子。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "eMotion",
+    "Leap Motion",
+    "Pepper's ghost"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "71216887",
+    "url": "https://vimeo.com/71216887"
+   },
+   "source_url": "https://vimeo.com/71216887"
+  },
+  {
+   "id": "adrien-m-claire-b--la-neige-na-pas-de-sens",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "La neige n'a pas de sens",
+   "year": 2016,
+   "description": "The company's first monograph is also an AR book: pointing a tablet at six of its pages makes rain, a cloud, a wave, a tornado, a cocoon and grass rise out of the paper and move.",
+   "description_zh": "公司的第一本作品集同时也是一本 AR 书：把平板对准其中六页，雨、云、波浪、龙卷风、茧和草就会从纸面升起并动起来。",
+   "idea_en": "A printed art book whose pages hold living, moving matter.",
+   "idea_zh": "一本印刷画册，书页里藏着会动的“活物质”。",
+   "technique": "A custom mobile app recognizes the printed page images and anchors real-time generative animations of natural phenomena, likely eMotion-style particle systems, onto each page.",
+   "technique_zh": "定制的手机应用识别印刷页面图像，把自然现象的实时生成动画（很可能是 eMotion 风格的粒子系统）锚定在每一页上。",
+   "exercise_en": "Print three abstract black-and-white patterns, make them image targets in Lens Studio, AR Foundation or MindAR, and attach a particle effect that grows out of each (rain, smoke, grass); test how the print design changes the feel of the animation. Twist: make the matter respond to tilting the book, as if it could spill off the page.",
+   "exercise_zh": "打印三张黑白抽象图案，在 Lens Studio、AR Foundation 或 MindAR 里设为识别图，给每张图挂上从纸面长出来的粒子效果（雨、烟、草），测试印刷图案的设计如何改变动画的感觉。变体：让这些物质响应书的倾斜，好像会从书页上洒出来。",
+   "interaction": [
+    "tangible-object",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "image-tracked AR",
+    "mobile app",
+    "particle systems"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "U7-BHx3B_jA",
+    "url": "https://www.youtube.com/watch?v=U7-BHx3B_jA"
+   },
+   "source_url": "https://adrien-m.net/project.html#la-neige"
+  },
+  {
+   "id": "adrien-m-claire-b--lombre-de-la-vapeur",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "L'ombre de la vapeur",
+   "year": 2018,
+   "description": "A 900 m² immersive, interactive installation at the Fondation d'entreprise Martell in Cognac: a vast cloud of crumpled reflective material hangs over a floor of projected particles that visitors walk through and disturb, a tribute to the Torula fungus that once fed on the building's evaporating alcohol.",
+   "description_zh": "位于干邑 Fondation d'entreprise Martell 的 900 平方米沉浸式互动装置：一大片揉皱的反光材料像云一样悬在空中，下方地面铺满投影粒子，观众走进去就会搅动它们；作品向曾以建筑里蒸发的酒精为食、布满墙面的 Torula 真菌致敬。",
+   "idea_en": "Make an invisible process, alcohol evaporating and the fungus living on it, into a landscape you can walk through.",
+   "idea_zh": "把一个看不见的过程——酒精蒸发，以及靠它生存的真菌——变成一片可以走进去的风景。",
+   "technique": "Floor projection with presence sensing likely feeds eMotion particle systems that scatter around visitors, combined with a large physical sculpture that catches the light, so digital and material vapour share one space.",
+   "technique_zh": "地面投影结合人体感知，很可能由 eMotion 粒子系统驱动，让粒子绕着观众散开；再配合一个接住光线的大型实体雕塑，让数字的“蒸汽”和实物的“蒸汽”共处一室。",
+   "exercise_en": "Choose an invisible process in your building (radiator heat, humidity, Wi-Fi traffic) and project a particle field on the floor that visitors disturb when a top-down webcam sees them; add one physical object that reflects or blocks the projection. Twist: make the particles slowly drift back toward where the invisible source really is.",
+   "exercise_zh": "在你所在的建筑里选一个看不见的过程（暖气散热、湿度、Wi-Fi 流量），在地面投一片粒子，俯拍摄像头看到有人走过时粒子会被搅动；再加一件会反射或遮挡投影的实物。变体：让粒子慢慢漂回那个看不见的源头真正所在的位置。",
+   "interaction": [
+    "projection",
+    "hand-body",
+    "location-geo"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "floor projection",
+    "presence sensing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "278181935",
+    "url": "https://vimeo.com/278181935"
+   },
+   "source_url": "https://adrien-m.net/project.html#l-ombre-de-la-vapeur"
+  },
+  {
+   "id": "adrien-m-claire-b--acqua-alta-noir-dencre",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Acqua Alta – Noir d'encre",
+   "year": 2019,
+   "description": "The stage version of the Acqua Alta triptych: two performers play a couple whose house is swallowed by a sea of ink, and the projected black-and-white drawings of water and living hair move with their bodies.",
+   "description_zh": "Acqua Alta 三部曲中的舞台版本：两位演员演一对夫妻，他们的房子被墨水之海吞没，投影出的黑白手绘水流和“活着的头发”随着他们的身体流动。",
+   "idea_en": "A drawn world of ink that floods, flows and grows hair in dialogue with the performers.",
+   "idea_zh": "手绘的墨水世界会涨潮、流动、长出头发，和演员对话。",
+   "technique": "Projections on the floor and on a vertical screen are played live with eMotion, so hand-drawn animation behaves like fluid and hair that react to where the performers are.",
+   "technique_zh": "投影覆盖地面和竖立的幕，由 eMotion 现场操控，让手绘动画像流体和头发一样，对演员所在的位置作出反应。",
+   "exercise_en": "Draw a short ink-style loop (a wave, a strand of hair), project it on the floor, and use a top-down webcam with frame differencing so the strokes flow away from anyone who steps in; stage a one-minute scene in which the image is a second character. Twist: continue the same story on paper as an AR image target, as the company did with its pop-up book.",
+   "exercise_zh": "画一段水墨风格的短循环动画（一道浪、一缕头发）投到地面，用俯拍摄像头和帧差法让线条从踏进来的人身边流开；排一段 1 分钟的小场景，让影像充当第二个角色。变体：像该公司的立体书那样，把同一个故事延续到纸上，做成 AR 识别图。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "real-time projection",
+    "hand-drawn animation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FOF1xKHe7e0",
+    "url": "https://www.youtube.com/watch?v=FOF1xKHe7e0"
+   },
+   "source_url": "https://adrien-m.net/project.html#acqua-alta"
+  },
+  {
+   "id": "adrien-m-claire-b--equinoxe",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Équinoxe",
+   "year": 2019,
+   "description": "A concert-show with the band Limousine and dancer Akiko Kajihara, conceived as a nod to Hakanaï: musicians and dancer perform inside moving landscapes of projected lines and grids that unfold like a road movie.",
+   "description_zh": "与乐队 Limousine 和舞者 Akiko Kajihara 合作的音乐会演出，向 Hakanaï 致意：乐手和舞者在投影出的线条与网格风景中表演，画面像一部公路电影般展开。",
+   "idea_en": "Turn a live concert into a journey through a space built from light.",
+   "idea_zh": "把一场现场音乐会变成穿越光之空间的旅程。",
+   "technique": "Images are projected on tulle and a back screen and performed live by Adrien Mondot, likely following the music's tempo and the dancer's movement through eMotion.",
+   "technique_zh": "影像投在纱幕和背幕上，由 Adrien Mondot 现场演奏，很可能借助 eMotion 跟随音乐节奏和舞者的动作。",
+   "exercise_en": "Pick a three-minute instrumental track and build a projected perspective grid in TouchDesigner or p5.js that travels forward with the beat; one student dances in front while another plays the image live. Twist: let bass energy from audio analysis bend the grid so the space breathes with the music.",
+   "exercise_zh": "选一段 3 分钟的器乐，用 TouchDesigner 或 p5.js 做一个随节拍向前推进的透视网格投影；一名学生在前面跳舞，另一名现场操控影像。变体：用音频分析得到的低频能量让网格弯曲，让空间随音乐呼吸。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "tulle projection",
+    "live visuals"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "343654541",
+    "url": "https://vimeo.com/343654541"
+   },
+   "source_url": "https://adrien-m.net/project.html#equinoxe"
+  },
+  {
+   "id": "adrien-m-claire-b--research-lab-daniell-alnuma",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Research lab with Daniell Alnuma",
+   "year": 2020,
+   "description": "An unedited improvisation from a lockdown research lab with dancer Daniell Alnuma: the dancer spins at the center of a floor projection while white lines spiral around the body, as if the rotation were drawing the vortex.",
+   "description_zh": "与舞者 Daniell Alnuma 在封控期间进行的一次研究工作坊，未经后期的即兴录像：舞者在地面投影的中心旋转，白色线条围绕身体螺旋展开，好像是旋转本身画出了漩涡。",
+   "idea_en": "A spinning body becomes the center of gravity for a field of lines.",
+   "idea_zh": "旋转的身体成了一片线条的引力中心。",
+   "technique": "A floor projection runs a real-time line simulation, likely eMotion, whose center of attraction follows the dancer (likely via camera tracking); the video is a single improvised take with no post-production.",
+   "technique_zh": "地面投影运行实时的线条模拟（很可能是 eMotion），吸引中心跟随舞者移动（很可能通过摄像头追踪）；视频是一次即兴的一镜到底，没有后期。",
+   "exercise_en": "Project a p5.js vector field on the floor whose center follows a person tracked by a top-down webcam (blob centroid), and ask a student to improvise for two minutes using only spins and slow walks. Twist: add a second attractor for a second dancer and watch the lines negotiate between them.",
+   "exercise_zh": "在地面投一个 p5.js 向量场，场的中心跟随俯拍摄像头追踪到的人（取人形色块的中心），请一名学生只用旋转和慢走即兴两分钟。变体：为第二位舞者加上第二个吸引点，看线条如何在两人之间拉扯。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "floor projection",
+    "body tracking"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "479608301",
+    "url": "https://vimeo.com/479608301"
+   },
+   "source_url": "https://vimeo.com/479608301"
+  },
+  {
+   "id": "adrien-m-claire-b--faune",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Faune",
+   "year": 2021,
+   "description": "Ten large posters, co-signed with the graphic design collective Brest Brest Brest, are pasted on city walls; seen through a free AR app, each printed landscape expands and the animal hidden in it bounces, slips away and reappears.",
+   "description_zh": "与平面设计团体 Brest Brest Brest 联合创作的十张大幅海报被贴在城市墙上；通过免费的 AR 应用去看，每张印刷风景都会向外展开，藏在里面的动物跳动、溜走、再次出现。",
+   "idea_en": "Street posters hide animals that only appear when you stop and look through your phone.",
+   "idea_zh": "街头海报里藏着动物，只有停下来用手机看，它们才会现身。",
+   "technique": "A custom mobile app tracks each printed poster as an image target and plays hand-drawn animations that extend the graphic landscape beyond the edges of the paper.",
+   "technique_zh": "定制的手机应用把每张印刷海报当作识别图来追踪，播放手绘动画，并把平面风景延伸到纸张边界之外。",
+   "exercise_en": "Design one A3 poster whose landscape hides an animal, make it an image target in Lens Studio, AR Foundation or MindAR, and animate the animal escaping from its hiding place; paste it on campus and map a short trail. Twist: the animal only moves once the viewer has held still for three seconds.",
+   "exercise_zh": "设计一张 A3 海报，画中的风景里藏着一只动物，在 Lens Studio、AR Foundation 或 MindAR 里把它设为识别图，做一段动物从藏身处跑出来的动画；把海报贴在校园里，并设计一条小小的寻访路线。变体：只有当观看者保持静止三秒后，动物才开始动。",
+   "interaction": [
+    "tangible-object",
+    "location-geo",
+    "game-play"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "image-tracked AR",
+    "mobile app",
+    "posters"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "566519444",
+    "url": "https://vimeo.com/566519444"
+   },
+   "source_url": "https://adrien-m.net/project.html#faune"
+  },
+  {
+   "id": "adrien-m-claire-b--just-your-shadow",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Just your shadow",
+   "year": 2022,
+   "description": "A short choreographic piece co-created with choreographer Jann Gallois (Cie BurnOut) for ARTE's immersive night at the 2022 Festival d'Avignon, in the Célestins church: a body negotiates with its own shadow, which extends into luminous matter around the dancers.",
+   "description_zh": "与编舞家 Jann Gallois（Cie BurnOut）共同创作的短篇舞蹈作品，为 2022 年阿维尼翁戏剧节的 ARTE 沉浸之夜而作，在 Célestins 教堂演出：身体和自己的影子周旋，影子在舞者周围延伸成发光的物质。",
+   "idea_en": "A dancer dances with a shadow that does not quite obey.",
+   "idea_zh": "舞者和一个不太听话的影子共舞。",
+   "technique": "Live projection around the dancer; the shadow-like light matter is likely generated in real time with eMotion and played by an operator in sync with the choreography.",
+   "technique_zh": "围绕舞者进行现场投影；像影子一样的光之物质很可能由 eMotion 实时生成，并由操作者配合编舞现场演奏。",
+   "exercise_en": "Use a webcam silhouette (MediaPipe Selfie Segmentation) to project a student's shadow on a wall with a one-to-two-second delay and a small offset, then choreograph 60 seconds in which the dancer leads, follows and argues with it. Twist: let the shadow sometimes refuse to move, and design how the dancer reacts.",
+   "exercise_zh": "用摄像头人像分割（MediaPipe Selfie Segmentation）把学生的影子投到墙上，加 1–2 秒延迟和轻微偏移，然后编一段 60 秒的舞：舞者带领影子、跟随影子、和影子争执。变体：让影子偶尔“拒绝”移动，设计舞者如何回应。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "hand-body"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "real-time projection"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "iWfpUCYw3Kg",
+    "url": "https://www.youtube.com/watch?v=iWfpUCYw3Kg"
+   },
+   "source_url": "https://adrien-m.net/project.html#just-your-shadow"
+  },
+  {
+   "id": "adrien-m-claire-b--derniere-minute",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Dernière minute",
+   "year": 2022,
+   "description": "A 30-minute immersive installation-experience about thresholds, rooted in scattering a father's ashes by the sea: visitors sit and lie on a floor of projected water and particles that ripple, rise and dissolve around them to music by Olivier Mellano.",
+   "description_zh": "一个 30 分钟的沉浸式装置体验，关于“临界时刻”，源于在海边撒下父亲骨灰的经历：观众坐着或躺在投影出的水面与粒子上，它们随着 Olivier Mellano 的音乐在身边泛起涟漪、上涨、消散。",
+   "idea_en": "A ritual of passage in which the floor you lie on turns into rising water.",
+   "idea_zh": "一场过渡仪式：你躺着的地面变成了上涨的水。",
+   "technique": "Floor and wall projections of filmed and simulated water are choreographed with a composed soundtrack into a fixed 30-minute sequence, likely with parts that respond to visitors' presence.",
+   "technique_zh": "地面和墙面投影出拍摄的与模拟的水，与作曲配乐一起编排成固定的 30 分钟序列，很可能其中部分段落会对观众的存在作出反应。",
+   "exercise_en": "Design a five-minute projected ritual for one threshold moment (leaving home, a goodbye): choose one material (water, ash, light), project it on a floor where people lie down, and script how it changes with the music. Twist: let the material react to how still the group stays, measured by a top-down camera.",
+   "exercise_zh": "为一个“临界时刻”（离家、告别）设计一段 5 分钟的投影仪式：选一种物质（水、灰、光），投在人们躺下的地面上，并写好它如何随音乐变化。变体：用俯拍摄像头测量整组人有多安静，让物质对此作出反应。",
+   "interaction": [
+    "projection",
+    "multiplayer-social",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "floor projection",
+    "immersive sound"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "725276687",
+    "url": "https://vimeo.com/725276687"
+   },
+   "source_url": "https://adrien-m.net/project.html#derniere-minute"
+  },
+  {
+   "id": "adrien-m-claire-b--homme-plisse-issey-miyake",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Homme Plissé Issey Miyake show, Palais de Tokyo",
+   "year": 2023,
+   "description": "Art direction for the Homme Plissé Issey Miyake show at Paris Fashion Week: a vast fluid membrane of particles appears on the walls and floor around the runway, pulsing, rippling and folding around dancing models.",
+   "description_zh": "为巴黎时装周 Homme Plissé Issey Miyake 秀场担任艺术指导：一张由无数粒子构成的巨大流动膜出现在秀道四周的墙面和地面上，围着起舞的模特脉动、起伏、折叠。",
+   "idea_en": "A runway where the space itself pleats like the clothes.",
+   "idea_zh": "秀场空间本身像衣服一样起褶。",
+   "technique": "Large-scale projection of a real-time particle membrane, likely built with eMotion, blurs the perception of space and gravity and is timed to the models' choreography.",
+   "technique_zh": "大规模投影出实时粒子膜（很可能用 eMotion 制作），模糊了对空间和重力的感知，并与模特的编舞同步。",
+   "exercise_en": "Pick one fabric behavior (pleating, crumpling, fluttering) and build a projected particle cloth in TouchDesigner or p5.js that performs it on a wall; have a classmate walk past like a model and make the cloth fold as they pass. Twist: project onto the garment itself instead of the wall.",
+   "exercise_zh": "选一种布料的行为（打褶、揉皱、飘动），用 TouchDesigner 或 p5.js 做一块投在墙上的粒子“布”来表现它；请一位同学像模特一样走过，经过时让“布”折叠起来。变体：直接投影到衣服上，而不是墙上。",
+   "interaction": [
+    "performance-stage",
+    "projection",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "eMotion",
+    "large-scale projection"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "793397205",
+    "url": "https://vimeo.com/793397205"
+   },
+   "source_url": "https://vimeo.com/793397205"
+  },
+  {
+   "id": "adrien-m-claire-b--piano-piano",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Piano piano",
+   "year": 2023,
+   "description": "A musical and visual duet: babx plays the piano while Adrien Mondot juggles and plays live images, and the piano and both performers are immersed in a space of moving projected marks.",
+   "description_zh": "一场音乐与影像的双人演出：babx 弹钢琴，Adrien Mondot 抛接杂耍并现场演奏影像，钢琴和两位表演者都浸没在投影出的流动笔触里。",
+   "idea_en": "Music you can see: piano notes and juggled balls turn into brushstrokes in space.",
+   "idea_zh": "看得见的音乐：钢琴音符和被抛起的球变成空间里的笔触。",
+   "technique": "Projection surrounds the stage and is generated live by Mondot's own software, likely reacting to the piano's sound and to Mondot's juggling and hand gestures.",
+   "technique_zh": "投影包围整个舞台，由 Mondot 自己的软件实时生成，很可能对钢琴声音以及他的抛接和手势作出反应。",
+   "exercise_en": "Connect a MIDI keyboard (or microphone pitch detection) to a p5.js sketch so each note leaves a brushstroke whose height follows its pitch, project it behind the player, and perform a two-minute piece. Twist: add a second performer who throws a ball and catches strokes with it through webcam tracking.",
+   "exercise_zh": "把 MIDI 键盘（或麦克风音高检测）接到 p5.js，让每个音符留下一道笔触，高度随音高变化，投到演奏者身后，演一段 2 分钟的曲子。变体：加入第二位表演者抛球，通过摄像头追踪用球“接住”笔触。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "real-time projection",
+    "audio-reactive visuals"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "893723919",
+    "url": "https://vimeo.com/893723919"
+   },
+   "source_url": "https://adrien-m.net/project.html#piano-piano"
+  },
+  {
+   "id": "adrien-m-claire-b--en-amour",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "En amour",
+   "year": 2024,
+   "description": "An immersive, interactive installation-experience commissioned by the Musée de la musique – Philharmonie de Paris, with music by Laurent Bardainne and selected for the Cannes 2024 immersive competition: visitors move through projected light, colors, words and sounds that trace a symbolic metamorphosis around love and separation.",
+   "description_zh": "受巴黎爱乐音乐厅音乐博物馆委约的沉浸式互动装置体验，音乐由 Laurent Bardainne 合作，入选 2024 年戛纳电影节沉浸式单元：观众穿过投影的光、色彩、文字和声音，经历一场关于爱与分离的象征性蜕变。",
+   "idea_en": "A walk-through ritual that lets a group feel a love story as changing light and sound.",
+   "idea_zh": "一场可以走过的仪式，让一群人把一段爱情故事感受为不断变化的光和声音。",
+   "technique": "Projection on floors, walls and tulle is combined with visitor sensing and a composed soundtrack; the balance between interactive and scripted moments likely changes from scene to scene.",
+   "technique_zh": "地面、墙面和纱幕投影结合观众感知与作曲配乐；交互与预设编排之间的比例很可能随场景而变。",
+   "exercise_en": "Storyboard a three-station walk-through (meeting, closeness, parting) and give each station one projected element and one sound that respond to how many people a webcam counts there. Twist: make the final station react only to pairs standing close together.",
+   "exercise_zh": "为一段三站式的步行体验（相遇、靠近、分离）画故事板，每一站设置一个投影元素和一个声音，根据摄像头数到的人数作出反应。变体：让最后一站只对靠得很近的两人作出反应。",
+   "interaction": [
+    "projection",
+    "multiplayer-social",
+    "voice-sound"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "projection",
+    "presence sensing",
+    "spatial sound"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "963236356",
+    "url": "https://vimeo.com/963236356"
+   },
+   "source_url": "https://adrien-m.net/project.html#en-amour"
+  },
+  {
+   "id": "adrien-m-claire-b--encyclies",
+   "creator_ids": [
+    "adrien-m-claire-b"
+   ],
+   "title": "Encyclies",
+   "year": 2024,
+   "description": "A light musical and visual duet with pianist Nathalie Morazin, the second piece of Mondot's Synesthésies cycle, in which images animated live act as a full partner to the piano, between abstraction and impressionism.",
+   "description_zh": "与钢琴家 Nathalie Morazin 合作的轻量音乐影像双人作品，是 Mondot“Synesthésies”（联觉）系列的第二部：现场生成的动画影像作为钢琴的完整搭档，在抽象与印象派之间游走。",
+   "idea_en": "The image plays next to the pianist as a second instrument.",
+   "idea_zh": "影像作为第二件乐器，和钢琴家一起演奏。",
+   "technique": "A compact touring setup projects images that Mondot animates live with custom software, likely steering particle and brush systems by hand in time with the score.",
+   "technique_zh": "一套可快速搭建的巡演设备投影影像，由 Mondot 用自己的软件现场操控，很可能是随乐谱手动驱动粒子和笔刷系统。",
+   "exercise_en": "Choose a short piano piece and write an image score: three visual behaviors mapped to three controller knobs, then play the images live next to a recording until the pairing feels like a duet. Twist: replace the recording with a live musician who cannot see the screen.",
+   "exercise_zh": "选一首短钢琴曲，写一份“影像乐谱”：三种视觉行为对应三个控制旋钮，然后配合录音现场演奏影像，直到两者像一首二重奏。变体：把录音换成看不到屏幕的现场乐手。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "projection"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "real-time projection",
+    "live visuals"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "1057582668",
+    "url": "https://vimeo.com/1057582668"
+   },
+   "source_url": "https://adrien-m.net/project.html#encyclies"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Brest Brest Brest",
+   "why": "French graphic design collective that co-signed Faune, AR street posters whose printed landscapes hide animated animals.",
+   "link": "https://vimeo.com/566519444",
+   "found_via": "adrien-m-claire-b",
+   "status": "open"
+  },
+  {
+   "name": "Jann Gallois (Cie BurnOut)",
+   "why": "Choreographer who co-created Just your shadow with Adrien M & Claire B; a dance-meets-live-image collaborator.",
+   "link": "https://www.youtube.com/watch?v=iWfpUCYw3Kg",
+   "found_via": "adrien-m-claire-b",
+   "status": "open"
+  },
+  {
+   "name": "Benjamin Kuperberg",
+   "why": "Creative technologist behind NecTouch, the multitouch layer used in the XYZT exhibition, and later the Chataigne show-control software.",
+   "link": "https://www.youtube.com/watch?v=zEZs2f5kNj4",
+   "found_via": "adrien-m-claire-b",
+   "status": "open"
+  }
+ ]
+}

@@ -1,5 +1,21 @@
 [
  {
+  "name": "Ruofei Du",
+  "why": "Google XR researcher behind DepthLab, Ad hoc UI, XR Blocks and many depth-based AR interaction demos; co-author with Shengzhi Wu.",
+  "link": "https://duruofei.com",
+  "found_via": "shengzhi-wu",
+  "status": "covered",
+  "batch": "add-shengzhi-wu"
+ },
+ {
+  "name": "Alex Olwal",
+  "why": "Google research lead on AR and wearable interfaces; co-author of Opportunistic Interfaces.",
+  "link": "https://olwal.com",
+  "found_via": "shengzhi-wu",
+  "status": "covered",
+  "batch": "add-shengzhi-wu"
+ },
+ {
   "name": "Daniel Beauchamp (@pushmatrix)",
   "why": "Shopify AR/VR lead who posts playful AR and Quest hand-tracking prototypes (Beat Saber AR concept, hand walking).",
   "link": "https://x.com/pushmatrix",
@@ -72,6 +88,14 @@
   "status": "covered"
  },
  {
+  "name": "Meng To",
+  "why": "Design+Code founder who posted ARKit 2 image-tracking concepts (Angle AR).",
+  "link": "https://twitter.com/MengTo",
+  "found_via": "nathan-gitter",
+  "batch": "arkit-prototypers",
+  "status": "no_video"
+ },
+ {
   "name": "Jelle Vermandere",
   "why": "Belgian YouTuber building mixed-reality games with real objects (AR boxing, real-ball soccer, CV-tracked RC-car pets).",
   "link": "https://www.youtube.com/channel/UCTi0V5iwClvjUba6nI2bI3w",
@@ -94,6 +118,14 @@
   "found_via": "laan-labs",
   "batch": "arkit-prototypers",
   "status": "covered"
+ },
+ {
+  "name": "Normal (normalvr)",
+  "why": "VR tools studio that built a real-time mixed-reality ARKit/Unity rig driven by an HTC Vive (2017).",
+  "link": "https://twitter.com/normalvr",
+  "found_via": "laan-labs",
+  "batch": "arkit-prototypers",
+  "status": "duplicate"
  },
  {
   "name": "Can Büyükberber",
@@ -128,6 +160,14 @@
   "status": "covered"
  },
  {
+  "name": "Stephen Hodgson",
+  "why": "Mixed-reality developer who co-built Lucas Rizzotto's audio-reactive holograms.",
+  "link": "https://twitter.com/StephenHodgson",
+  "found_via": "lucas-rizzotto",
+  "batch": "arkit-prototypers",
+  "status": "duplicate"
+ },
+ {
   "name": "Hart Woolery (2020CV)",
   "why": "Built viral hand- and body-tracking AR experiments for phones and Snap Lenses.",
   "link": "https://twitter.com/hartwoolery",
@@ -136,12 +176,44 @@
   "status": "covered"
  },
  {
+  "name": "Simon Pyke (Freefarm)",
+  "why": "Sound designer and Matt Pyke's brother; long-time audio collaborator on Universal Everything works.",
+  "link": "https://www.universaleverything.com/people",
+  "found_via": "universal-everything",
+  "batch": "artists",
+  "status": "not_ar"
+ },
+ {
+  "name": "Benjamin Millepied / L.A. Dance Project",
+  "why": "Choreographer whose motion-captured dancers drove Universal Everything's Presence and 1000 Hands era works.",
+  "link": "https://www.universaleverything.com/art/presence",
+  "found_via": "universal-everything",
+  "batch": "artists",
+  "status": "not_ar"
+ },
+ {
+  "name": "The Designers Republic (Ian Anderson)",
+  "why": "Sheffield studio where Matt Pyke worked before founding Universal Everything.",
+  "link": "https://www.thedesignersrepublic.com",
+  "found_via": "universal-everything",
+  "batch": "artists",
+  "status": "not_ar"
+ },
+ {
   "name": "Stanley Donwood / Radiohead PolyFauna",
   "why": "Radiohead's PolyFauna app (with Universal Everything) is an early generative, camera/gyro-driven spatial art app.",
   "link": "https://www.universaleverything.com/design/polyfauna",
   "found_via": "universal-everything",
   "batch": "artists",
   "status": "covered"
+ },
+ {
+  "name": "Bradley 'GMUNK' Munkowitz",
+  "why": "Director of Bot & Dolly's Box; projection and motion-control design.",
+  "link": "https://gmunk.com/BOX",
+  "found_via": "bot-and-dolly",
+  "batch": "artists",
+  "status": "duplicate"
  },
  {
   "name": "Romain Tardy",
@@ -158,6 +230,22 @@
   "found_via": "joanie-lemercier",
   "batch": "artists",
   "status": "covered"
+ },
+ {
+  "name": "Damian Stewart",
+  "why": "Co-developer of The Artvertiser's AR tracking; Berlin media artist.",
+  "link": "https://www.youtube.com/watch?v=2xs7ybQjpGI",
+  "found_via": "julian-oliver",
+  "batch": "artists",
+  "status": "duplicate"
+ },
+ {
+  "name": "Danja Vasiliev",
+  "why": "Critical engineer; collaborator of Julian Oliver (Newstweek, reality-manipulation devices).",
+  "link": "https://www.youtube.com/watch?v=-Oig5BTGhcc",
+  "found_via": "julian-oliver",
+  "batch": "artists",
+  "status": "not_ar"
  },
  {
   "name": "Motoi Ishibashi / MIKIKO (ELEVENPLAY)",
@@ -216,6 +304,30 @@
   "status": "covered"
  },
  {
+  "name": "KAWS",
+  "why": "Expanded Holiday AR and KAWS: New Fiction (Serpentine, 2022) AR/game show.",
+  "link": "https://acuteart.com",
+  "found_via": "acute-art",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Precious Okoyomon / The Looking Glass (The Shed)",
+  "why": "Acute Art AR group show at The Shed (2021) with Darren Bader, Alicja Kwade, Okoyomon and others.",
+  "link": "https://www.youtube.com/watch?v=AG_NXEvKxBU",
+  "found_via": "acute-art",
+  "batch": "artists",
+  "status": "covered"
+ },
+ {
+  "name": "Rachel Rossin",
+  "why": "Artist working across VR/AR and painting; AR works to check.",
+  "link": "https://rossin.co",
+  "found_via": "theo-triantafyllidis",
+  "batch": "artists",
+  "status": "not_ar"
+ },
+ {
   "name": "Kyle McDonald",
   "why": "Co-created discrete figures with Rhizomatiks (covered by creative-coding cluster).",
   "link": "https://kylemcdonald.net",
@@ -238,6 +350,14 @@
   "found_via": "marina-abramovic",
   "batch": "artists",
   "status": "covered"
+ },
+ {
+  "name": "Daniel Leithinger",
+  "why": "Lead on inFORM/Sublimate/TRANSFORM; now CU Boulder THING Lab, shape displays + AR",
+  "link": "https://www.leithinger.com",
+  "found_via": "mit-tangible-media",
+  "batch": "hci-research",
+  "status": "duplicate"
  },
  {
   "name": "Sean Follmer",
@@ -376,6 +496,22 @@
   "status": "covered"
  },
  {
+  "name": "Noah Zerkin / CombineReality (North Star community)",
+  "why": "Built and sold North Star kits; community AR headset demos.",
+  "link": "https://docs.projectnorthstar.org",
+  "found_via": "leap-motion-design",
+  "batch": "headset-mr",
+  "status": "no_video"
+ },
+ {
+  "name": "Tim Stutts",
+  "why": "Former Magic Leap interaction designer (multimodal input, accessibility in AR); few public demo videos found.",
+  "link": "https://www.youtube.com/watch?v=6eKezZHXetE",
+  "found_via": "leap-motion-design",
+  "batch": "headset-mr",
+  "status": "no_video"
+ },
+ {
   "name": "Alessio Grancini",
   "why": "Magic Leap prototype engineer, now Snap Spectacles developer advocate; architecture-to-AR prototypes (Shilo XR).",
   "link": "https://www.youtube.com/watch?v=t1feZfOTdK8",
@@ -416,6 +552,14 @@
   "status": "covered"
  },
  {
+  "name": "Meta (First Encounters)",
+  "why": "Quest 3 bundled MR showcase where aliens break through your real walls; corporate.",
+  "link": "https://www.youtube.com/watch?v=BM0CZUHrbcw",
+  "found_via": "thomas-van-bouwel",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
   "name": "Apple (Encounter Dinosaurs, Jon Favreau)",
   "why": "Vision Pro showcase with a dinosaur stepping through a portal and reacting to your hand; corporate.",
   "link": "https://www.youtube.com/watch?v=kFqvDYfjVL0",
@@ -432,10 +576,26 @@
   "status": "covered"
  },
  {
+  "name": "Wall Town Wonders team",
+  "why": "Cozy Quest 3 MR game where tiny towns grow out of your real walls.",
+  "link": "https://www.youtube.com/watch?v=5icyAyKb9Zg",
+  "found_via": "creature",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
   "name": "Figmin XR (Overlay team)",
   "why": "Mixed-reality creation tool for placing and sculpting holograms on Quest.",
   "link": "https://www.youtube.com/watch?v=uNWhiYDcitg",
   "found_via": "greg-madison",
+  "batch": "headset-mr",
+  "status": "covered"
+ },
+ {
+  "name": "Loóna / Super Fruit Ninja / Synth Riders MR / Gravity Lab",
+  "why": "Vision Pro and Quest MR titles suggested as start points; studio-made, not yet researched.",
+  "link": "https://www.youtube.com/watch?v=30kr4v4qi2E",
+  "found_via": "ryan-mcleod",
   "batch": "headset-mr",
   "status": "covered"
  },
@@ -446,6 +606,14 @@
   "found_via": "botao-amber-hu",
   "batch": "headset-mr",
   "status": "covered"
+ },
+ {
+  "name": "Clay Weishaar (@wabisabi / Fake Artists)",
+  "why": "Influential Spark AR / Lens creator and founder of Fake Artists studio; works live mostly on Instagram, no verified video found this round.",
+  "link": "https://www.youtube.com/watch?v=UPQSdOEIH6c",
+  "found_via": "johanna-jaskowska",
+  "batch": "phone-consumer",
+  "status": "no_video"
  },
  {
   "name": "Aidan Wolf",
@@ -460,6 +628,22 @@
   "why": "Official Snap Lens Creator behind the viral 'Potato Boss' lens and author of The Designer's Guide to Snapchat's Lens Studio.",
   "link": "https://www.youtube.com/watch?v=mk3Lvvb7hxY",
   "found_via": "snap-inc",
+  "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Ommy Akhe",
+  "why": "AR creative strategist and lens creator (WIRED Smarter talk on AR retail).",
+  "link": "https://www.youtube.com/watch?v=DgSOo29xiQg",
+  "found_via": "paige-piskin",
+  "batch": "phone-consumer",
+  "status": "no_video"
+ },
+ {
+  "name": "Don Allen III",
+  "why": "Meta Spark / Lens creator and educator (DAQRI-era AR evangelist).",
+  "link": "https://www.youtube.com/watch?v=-VAG4Uar3XM",
+  "found_via": "paige-piskin",
   "batch": "phone-consumer",
   "status": "covered"
  },
@@ -568,6 +752,14 @@
   "status": "covered"
  },
  {
+  "name": "Koei Tecmo (Spirit Camera co-developer)",
+  "why": "Fatal Frame team; co-developed the 3DS AR horror game Spirit Camera.",
+  "link": "https://www.youtube.com/watch?v=d6s4AXx0A7Q",
+  "found_via": "nintendo",
+  "batch": "phone-consumer",
+  "status": "duplicate"
+ },
+ {
   "name": "Zappar (Caspar Thykier)",
   "why": "UK WebAR/ZapWorks platform behind many packaging and museum AR campaigns.",
   "link": "https://www.zappar.com",
@@ -589,6 +781,22 @@
   "link": "https://www.youtube.com/watch?v=5UFm5JXHp1o",
   "found_via": "layar",
   "batch": "phone-consumer",
+  "status": "covered"
+ },
+ {
+  "name": "Evan Roth & James Powderly (Graffiti Research Lab)",
+  "why": "GRL's L.A.S.E.R. Tag and EyeWriter are already in the gallery under Theo Watson/Zach Lieberman; Evan Roth's own uploads (Laser Tag compilation, EyeWriter) could be linked if a GRL creator record is added.",
+  "link": "https://www.youtube.com/watch?v=0Ctv7fXI3Ac",
+  "found_via": "zach-lieberman",
+  "batch": "r2-art",
+  "status": "duplicate"
+ },
+ {
+  "name": "Macula (Czech)",
+  "why": "'The 600 Years' (2010) projection mapping on the Prague Astronomical Clock is a canonical architectural mapping piece.",
+  "link": "https://www.youtube.com/watch?v=u4LVEAiZJyg",
+  "found_via": "urbanscreen",
+  "batch": "r2-art",
   "status": "covered"
  },
  {
@@ -624,12 +832,44 @@
   "status": "covered"
  },
  {
+  "name": "Tomás Saraceno (Web of Life AR)",
+  "why": "His Acute Art spider AR (2020–21) could anchor a creator record alongside Aerocene.",
+  "link": "https://www.youtube.com/watch?v=was4NsYgLBk",
+  "found_via": "acute-art",
+  "batch": "r2-art",
+  "status": "covered"
+ },
+ {
+  "name": "GMUNK (Bradley Munkowitz)",
+  "why": "Suggested lead; his main projection-mapping work 'Box' is already in the gallery under Bot & Dolly.",
+  "link": "https://www.youtube.com/watch?v=lX6JcybgDFo",
+  "found_via": "bot-and-dolly",
+  "batch": "r2-art",
+  "status": "duplicate"
+ },
+ {
+  "name": "Elliot Woods",
+  "why": "Projection-calibration expert; his work is covered through the existing Kimchi and Chips creator — extra works (Link, Halo) could be added there.",
+  "link": "https://vimeo.com/elliotwoods",
+  "found_via": "kimchi-and-chips",
+  "batch": "r2-art",
+  "status": "duplicate"
+ },
+ {
   "name": "Jun Rekimoto",
   "why": "Co-author of JackIn / JackIn Head; pioneer of NaviCam, CyberCode and Sony CSL AR (pre- and post-2005 work); University of Tokyo Rekimoto Lab.",
   "link": "https://lab.rekimoto.org",
   "found_via": "shunichi-kasahara",
   "batch": "r2-lab",
   "status": "covered"
+ },
+ {
+  "name": "Satoru Higa (BACKSPACE Productions)",
+  "why": "Visual artist co-creating Fragment Shadow multi-projector shadow art with Kasahara.",
+  "link": "https://shunichikasahara.com/portfolio/fragment-shadow-2020/",
+  "found_via": "shunichi-kasahara",
+  "batch": "r2-lab",
+  "status": "not_ar"
  },
  {
   "name": "Jun Nishida",
@@ -688,6 +928,22 @@
   "status": "covered"
  },
  {
+  "name": "Gemma O'Brien",
+  "why": "Lettering artist collaborating on projected AR murals with Lightform.",
+  "link": "https://www.youtube.com/watch?v=XTR-NhJ9em8",
+  "found_via": "lightform",
+  "batch": "r2-lab",
+  "status": "duplicate"
+ },
+ {
+  "name": "Noah Zerkin / CombineReality",
+  "why": "Builds open-source Project North Star AR headset kits (Deck X); mostly hardware videos, few experience demos.",
+  "link": "https://www.youtube.com/watch?v=47B96t2oGBs",
+  "found_via": "leap-motion-design",
+  "batch": "r2-lab",
+  "status": "no_video"
+ },
+ {
   "name": "Onix Systems",
   "why": "Early HoloKit X Unity demos (wizard duel, dragon duel) - co-located AR collaboration.",
   "link": "https://www.youtube.com/watch?v=xr0T2z9WPJc",
@@ -702,6 +958,22 @@
   "found_via": "magic-leap-studios",
   "batch": "r2-lab",
   "status": "covered"
+ },
+ {
+  "name": "Ke Huang / Ruoqi Wang",
+  "why": "Co-authors of Body Oracle Translator with Danlin Huang and Botao Amber Hu.",
+  "link": "https://www.youtube.com/watch?v=GXeLSfZnXAQ",
+  "found_via": "danlin-huang",
+  "batch": "r2-lab",
+  "status": "not_ar"
+ },
+ {
+  "name": "Clay Weishaar (Fake Artists)",
+  "why": "Lens designer behind the meditative 'Metascapes' AR lens; the Snap 'Behind the Lens' video is now private, work lives mostly on Instagram.",
+  "link": "https://www.youtube.com/watch?v=UPQSdOEIH6c",
+  "found_via": "seed",
+  "batch": "r2-phone",
+  "status": "no_video"
  },
  {
   "name": "Shantell Martin",
@@ -724,6 +996,14 @@
   "why": "SF-based digital artist of reactive creatures (New Nature); co-made the 2017 de Young 'invisible exhibition' ARKit test with Can Büyükberber.",
   "link": "https://www.museumofsciencefiction.org/marpi",
   "found_via": "can-buyukberber",
+  "batch": "r2-phone",
+  "status": "covered"
+ },
+ {
+  "name": "Anrick (Spectacles 'Poetry in the Third Dimension')",
+  "why": "Made an abstract-poetry Spectacles lens about AR as time travel, featured by Lens Studio (youtube.com/watch?v=FgyzVmxoYA4).",
+  "link": "https://www.youtube.com/watch?v=FgyzVmxoYA4",
+  "found_via": "luke-hurd",
   "batch": "r2-phone",
   "status": "covered"
  },
@@ -774,6 +1054,22 @@
   "found_via": "torin-blankensmith",
   "batch": "r2-phone",
   "status": "covered"
+ },
+ {
+  "name": "Runze Zhang",
+  "why": "Co-author of Games of Deletion (SCI-Arc 2018 Gehry Prize) world-scale AR game with Alessio Grancini.",
+  "link": "https://www.youtube.com/watch?v=cpX_b4fD54c",
+  "found_via": "alessio-grancini",
+  "batch": "r2-phone",
+  "status": "duplicate"
+ },
+ {
+  "name": "Jye Trudinger",
+  "why": "Snap lens developer; co-built 'Character Mashup' connected body-tracking lens at Lensathon 2022.",
+  "link": "https://www.youtube.com/watch?v=xwteu9chtsY",
+  "found_via": "sallia-goldstein",
+  "batch": "r2-phone",
+  "status": "duplicate"
  },
  {
   "name": "Florencia Raffa",
@@ -856,6 +1152,14 @@
   "batch": "r3-games"
  },
  {
+  "name": "Daniel Kurz (Metaio research)",
+  "why": "Researcher behind Metaio's Thermal Touch; later at Apple.",
+  "link": "https://www.youtube.com/watch?v=H0b4KZEuhfo",
+  "found_via": "metaio",
+  "status": "covered",
+  "batch": "r3-games"
+ },
+ {
   "name": "Ke Huang",
   "why": "Co-author of Body Oracle Translator (danlin-huang, botao-amber-hu). Own channel shows speculative robotics and design (Cybroc, Tuotle, Superdynamics), no further AR work.",
   "link": "https://www.youtube.com/channel/UCwsyaSTvBYvnYBisjPQ5yYA",
@@ -872,12 +1176,1020 @@
   "batch": "r3-lab"
  },
  {
+  "name": "Bruce Thomas (UniSA Wearable Computer Lab)",
+  "why": "Led the Wearable Computer Lab behind Tinmith and ARQuake; later spatial AR prototyping (Quimo deformable material, SAR rapid prototyping) with lab videos.",
+  "link": "https://www.youtube.com/watch?v=LqsMzRuDZOs",
+  "found_via": "wayne-piekarski",
+  "status": "covered",
+  "batch": "r3-lab"
+ },
+ {
   "name": "Clay Weishaar (Fake Artists / wrld.space)",
   "why": "Metascapes meditative Spectacles lens; Snap 'Behind the Lens' video (youtube.com/watch?v=Wjwfw66IUKY) is private, work only on Instagram reels.",
   "link": "https://www.instagram.com/wrld.space/reel/CPouxY4HBjt/",
   "found_via": "johanna-jaskowska",
   "status": "no_video",
   "batch": "r3-lens"
+ },
+ {
+  "name": "Liisi Mononen",
+  "why": "Max's partner in Max & Liisi and co-creator of Polygon Studio, Treasure Hunt, Neon Face Paint and the Olivia Rodrigo SOUR lens; the shared works are covered under max-van-leeuwen.",
+  "link": "https://www.instagram.com/liisimononen/",
+  "found_via": "max-van-leeuwen",
+  "status": "duplicate",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Daniel Bisig",
+  "why": "CCL facilitator (2022, 2025, RBO 2026); his interactive dance works are added in this batch under instituto-stocos (Instituto Stocos with Muriel Romero and Pablo Palacio).",
+  "link": "https://www.stocos.com/en/",
+  "found_via": "motion-bank",
+  "status": "duplicate",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Eni Brandner",
+  "why": "CCL 2022 facilitator (Troika Ranch); her own output is animation, short films and music videos, and her projection design for Troika Ranch is covered under mark-coniglio.",
+  "link": "http://www.enimation.at",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Nick Rothwell (Cassiel)",
+  "why": "CCL 2022 facilitator; composer and software architect (Choreographic Language Agent for Wayne McGregor, live algorithmic music); no spatial or interactive work with video found.",
+  "link": "https://cassiel.com",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Rebecca Bassett-Graham (Studio Wayne McGregor)",
+  "why": "CCL 2022 guest dance artist who taught Choreographic Thinking Tools; dancer, not a maker of interactive works.",
+  "link": "https://waynemcgregor.com",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Chisato Ohno",
+  "why": "Guest dance artist at CCL 2022 and input leader at CCL RBO 2026; Gaga teacher and dancer, no technology works.",
+  "link": "https://theplace.org.uk/profile/chisato-ohno/",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Allison Costa",
+  "why": "CCL 2022 participant; transdisciplinary glitch/dance/code artist in New York, but the only embedded video on her site is unavailable.",
+  "link": "https://allisoncosta.com/",
+  "found_via": "motion-bank",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Raianna Brown",
+  "why": "Dancer, choreographer and engineer who danced in Chelsi Cocking's CCL 2022 team; her public videos are choreography reels and dance films.",
+  "link": "https://www.raiannabrown.com/",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Lenataa Goka",
+  "why": "Dancer in Chelsi Cocking's CCL 2022 team (mocap-suit tests with Isabel Sun); no own works online.",
+  "link": "",
+  "found_via": "motion-bank",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Isabel Sun",
+  "why": "CCL 2022 participant; built a real-time mocap particle-dancer projected on stage, but no video of it is online (only ArtStation stills).",
+  "link": "https://www.artstation.com/user-eb7072afb914fecb",
+  "found_via": "motion-bank",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Dhanush Giridhar",
+  "why": "CCL 2022 participant (King's College London cultural programme); no project video found.",
+  "link": "https://www.kcl.ac.uk/cultural/connecting/reflections-dhanush-giridhar",
+  "found_via": "motion-bank",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Georgica Pettus",
+  "why": "CCL 2022 participant; playwright and theatre maker (TRUCK), no interactive or spatial media work.",
+  "link": "https://www.georgicapettus.com/",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Stathis Doganis",
+  "why": "CCL 2022 (with Irini Kalaitzidi) and CCL 2025 participant; filmmaker and sound-installation artist who documents dance (CCL 14 film, Pose_Transpose); his own works are films and sound installations, not interactive.",
+  "link": "https://stathisdoganis.com/",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "John Lucy",
+  "why": "CCL 2022 participant; designer/technologist of Hypergesture (two robot arms performing a kinesphere duet) and fabrication support for laser sculptures; no interactive or AR work.",
+  "link": "https://jklucy.com/all",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Max Dovey",
+  "why": "CCL 2022 participant; performance artist on AI and the internet (MA Computational Arts leader, UAL); only a residency workshop video found, no documentation of a camera-interactive piece.",
+  "link": "https://www.maxdovey.com/",
+  "found_via": "motion-bank",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Nirav Beni",
+  "why": "CCL 2022 participant (RCA 2021 graduate); no project video found.",
+  "link": "https://2021.rca.ac.uk/students/nirav-beni",
+  "found_via": "motion-bank",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Sofia Kovalenko",
+  "why": "CCL 2022 participant; site has no video and no public documentation found.",
+  "link": "https://www.sofiakovalenko.com/",
+  "found_via": "motion-bank",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Tom Scarborough",
+  "why": "CCL 2022 observer-participant; no project documentation found.",
+  "link": "",
+  "found_via": "motion-bank",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Tove Grimstad Bang",
+  "why": "CCL 2022 observer; soma-design researcher of Suspended Circles, a hanging movement-played music instrument; only a CHI paper talk video exists.",
+  "link": "https://blog.bela.io/suspended-circles-tove-grimstad-bang/",
+  "found_via": "motion-bank",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Marlon Barrios Solano",
+  "why": "CCL 2025 and RBO 2026 facilitator (dance-tech.net); his public works are AI video pieces and lecture-performances (Duets in Latent Space, Born in Latent Space) without a clear spatial or camera-interactive idea on video.",
+  "link": "https://marlonbarrios.github.io/",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "David Rittershaus",
+  "why": "Motion Bank researcher who facilitated CCL 2025; tools and research covered under motion-bank.",
+  "link": "https://motionbank.org",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Anton Koch",
+  "why": "Motion Bank research software engineer who facilitated CCL at RBO 2026; tools covered under motion-bank.",
+  "link": "https://motionbank.org",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Veronika Batzdorfer",
+  "why": "CCL 2025 participant; researcher and algorithmic musician, no spatial or interactive work with video found.",
+  "link": "https://cargocollective.com/VeronikaBatzdorfer",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Leda Sadotti",
+  "why": "CCL 2025 participant (UAL CCI); AI animation (Garden of Digital(is)) and lab collaborations, no spatial or interactive work.",
+  "link": "https://www.instagram.com/ledasadotti/",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Diana Alina Serbanescu (Neranti)",
+  "why": "CCL 2025 participant; artistic director of REPLICA, dance-theatre with AI and ethics (Gray Matters, She brings the rain); videos show staged performance without a clear interactive or spatial-tech idea.",
+  "link": "https://diananeranti.com/",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Julian Rogawski",
+  "why": "CCL 2025 participant; neural-network visualisation tool nn_vis, a desktop tool rather than a spatial work.",
+  "link": "https://github.com/julrog/nn_vis",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Ruiyang Wang",
+  "why": "CCL 2025 participant; composer and creative-coding teacher (music for Zhou Zhou's Me See I), no own spatial work with video.",
+  "link": "https://ruiyang.space",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Joseph Mayer",
+  "why": "CCL 2025 participant (UAL researcher); no project video found.",
+  "link": "https://researchers.arts.ac.uk/3252-joseph-meyer",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Delyth Field",
+  "why": "CCL RBO 2026 participant; composer who made a Leap Motion-controlled sentiment cube for Berg's Wozzeck, but no video is online.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Valentina Ugolini",
+  "why": "CCL RBO 2026 participant; interactive pose-recognition archive of RBO dance photographs, no public video yet.",
+  "link": "https://valentinaugolini.com/",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Jess Tucker (Fetter)",
+  "why": "CCL RBO 2026 participant; face/voice feedback performances with AI; her Vimeo documentation is private and public videos are music sets.",
+  "link": "https://jess-tucker.com/",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Laura Acosta",
+  "why": "CCL RBO 2026 participant; turned RBO costume textures into an interactive queer dancing body with Léo Chédin; no public video.",
+  "link": "https://www.laura-acosta.com/",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Léo Chédin",
+  "why": "CCL RBO 2026 participant; HCI PhD (ExSitu) on movement generation for choreography, performs dancer-algorithm duets with Sarah Fdili Alaoui; no public video of own work.",
+  "link": "https://leochedin.fr/",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Jeremy Osztreicher",
+  "why": "CCL RBO 2026 participant and RBO digital tech lead; AI/procedural score prototypes, no public video.",
+  "link": "https://www.linkedin.com/in/jeremy-osztreicher-72236a125/",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Melanie Pappenheim",
+  "why": "CCL RBO 2026 input leader; vocalist and composer, no technology works.",
+  "link": "https://melaniepappenheim.com/",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Joseph Reeve (ElevenLabs)",
+  "why": "CCL RBO 2026 input leader from ElevenLabs (AI voice company); not an artist.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Andric Spaeth",
+  "why": "BBWCXR 2024 panellist and screening artist; Police vs. Society is a video walkthrough of a virtual room, no spatial or interactive component.",
+  "link": "https://andricspaeth.com",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Andrea Khôra",
+  "why": "BBWCXR 2024 panellist; Rapture is a live-action and AI-animation short film.",
+  "link": "https://andreakhora.com",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Gabriel Massan",
+  "why": "BBWCXR 2024 speaker; worldbuilding through digital sculpture, video and the game Third World: The Bottom Dimension (Serpentine), screen-based only.",
+  "link": "https://www.serpentinegalleries.org/whats-on/gabriel-massan-and-collaborators-third-world-the-bottom-dimension/",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Carrie Chen",
+  "why": "BBWCXR 2024 speaker; Myth VR and Primavera are VR and AI-avatar simulations shown as video, no AR or body-interactive piece found.",
+  "link": "https://carriechen.works",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Letta Shtohryn",
+  "why": "BBWCXR 2024 panellist; Chuly? Chuly is a video-game installation with choreographed gameplay, screen-based.",
+  "link": "https://www.youtube.com/watch?v=kbRVLLEoFU4",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Teresa Fernández-Pello",
+  "why": "BBWCXR 2024 workshop leader and speaker on 'high-tech mysticism'; designer and video/installation artist, no AR or interactive spatial work with video found.",
+  "link": "https://www.youtube.com/watch?v=v6pm15OwNcQ",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Vali Lalioti",
+  "why": "BBWCXR 2024 speaker; UAL creative-robotics researcher (robots and dance workshops), no own AR/XR artwork video.",
+  "link": "https://www.youtube.com/watch?v=aoupipjDEbE",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Jona Wolf",
+  "why": "BBWCXR 2024 speaker ('Space Invaders') and co-leader of the Finding Digital Me 3D-scanning workshop; no public work videos found.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Harry Silverlock",
+  "why": "Co-led the BBWCXR Finding Digital Me workshop; his own work is VR documentary (Gimme One).",
+  "link": "https://www.youtube.com/watch?v=TrVaYLQrLEA",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Silke Grabinger / SILK Fluegge",
+  "why": "Presented SPOTSHOTBEUYS at BBWCXR: duets between a dancer and robots (Boston Dynamics Spot, robot vacuums, a soft-robotics twin); robotics performance rather than AR or projection.",
+  "link": "https://www.youtube.com/watch?v=VVX0FZCF3Kc",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Irini Mirena Papadimitriou",
+  "why": "BBWCXR 2024 speaker; curator (FutureEverything, V&A Digital Design Weekend), not a maker.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Marlies Wirth",
+  "why": "BBWCXR 2024 opening-panel moderator; digital-culture curator at MAK Vienna, not a maker.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Maria Chatzichristodoulou",
+  "why": "Co-curator of BBWCXR; UAL professor and curator of live and digital art, not a maker.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Bika Rebek / Some Place Studio",
+  "why": "Co-curator of BBWCXR; architect working with 3D scanning and exhibition design, no AR or interactive work with video.",
+  "link": "https://www.youtube.com/watch?v=samIei7FkaU",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Boyd Branch",
+  "why": "Coventry University researcher who spoke at Digital Bodies + Virtual Spaces; his channel has only design and animation fragments, no documented AR or interactive performance video.",
+  "link": "https://www.youtube.com/@BoydBranchDesign",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "James Middleton",
+  "why": "Ran the workshop at the Digital Bodies + Virtual Spaces symposium (Canterbury Christ Church University); no work videos found.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Ivan Michael Blackstock / CRXSS PLATFXRM",
+  "why": "Choreographer on the Physical-Digital panel with AΦE; his work (TRAPLORD, CRXSS PLATFXRM events) is stage and film, no AR or interactive tech piece found.",
+  "link": "https://www.youtube.com/watch?v=ox8PNWPh_Dk",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "AVA Dance Company (Avatâra Ayuso)",
+  "why": "Spoke with AΦE at the VIP Studio talk; ANGEL VR is a motion-captured solo experienced in a VR headset, no spatial or interactive idea beyond VR viewing.",
+  "link": "https://www.youtube.com/watch?v=NAX4c1UZFZ8",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Jo Mangan / The Performance Corporation",
+  "why": "Led the Performing Arts Forum AI session with AΦE; director and producer of the SPACE artist residency programme, no AR/XR work video of her own.",
+  "link": "https://www.youtube.com/watch?v=p3RiV9xDcxA",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Jasmin Vardimon Company",
+  "why": "Its ALiCE in VR Wonderland was demoed at A+E Lab; it is a 360 VR dance film, and the company's stage work uses kinetic sets rather than interactive tech.",
+  "link": "https://www.youtube.com/watch?v=W7XzS6V10Do",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Karl Woolley (Framestore)",
+  "why": "Framestore's global head of immersive, spoke with AΦE at the TCCE AI and Performance forum; commercial studio lead, no personal works.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Tom Rogers (Birmingham Royal Ballet)",
+  "why": "Creative digital producer on the Physical-Digital panel; his AR and mocap projects are added under birmingham-royal-ballet.",
+  "link": "https://www.brb.org.uk/virtual-stage",
+  "found_via": "aoi-esteban",
+  "status": "duplicate",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Electric Medway (Janet Moore)",
+  "why": "Medway digital-arts charity and A+E Lab partner; ran AR boat trails along the Medway and the geolocated AR story Forest Keep at Rochester Castle, but no public video of the AR works was found (its YouTube channel is mostly documentation).",
+  "link": "https://www.electricmedway.org",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "John Whall",
+  "why": "Digital participation artist; co-developed Electric Medway's geolocated AR story Forest Keep with young people. His own channel holds only tests (Gallery ECHO AR wireframe, thermal and 360 VR studies), no documented AR work.",
+  "link": "https://www.youtube.com/channel/UCCAHka6vTX9Ul9fbjb32PIw",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Hey Green Raven / Green Raven (Ian Ravenscroft)",
+  "why": "Led an Electric Medway Hack on immersive storytelling; Green Raven is now a strategy consultancy for arts and creative technology, with VR projects but no AR or spatial work of its own on video.",
+  "link": "https://www.heygreenraven.com",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Signals (Frazer Merrick)",
+  "why": "Colchester digital-arts charity that led a Makey Makey workshop at A+E Lab; education programme, no spatial or AR artwork.",
+  "link": "https://signals.org.uk",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Numen/For Use (Sven Jonke, Christoph Katzler, Nikola Radeljković)",
+  "why": "Made TAPE for ALT*MED at Chatham Dockyard; their walk-in tape, net and string installations are physical, non-digital sculpture without an AR or media layer.",
+  "link": "http://www.numen.eu",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Welsh National Opera",
+  "why": "Commissioned A Vixen's Tale, which is added in this batch under arcade-ltd.",
+  "link": "https://wno.org.uk",
+  "found_via": "aoi-esteban",
+  "status": "duplicate",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Xavier Segers",
+  "why": "Illustrator of A Vixen's Tale (added under arcade-ltd); illustration practice, no separate AR work.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "duplicate",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Artefacto / &Friends",
+  "why": "AR developer and animation studio behind Elly Oldman's The Great Story of the Infinite Drawing, added under elly-oldman.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "duplicate",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "FutureEverything (with Dan Hett and Paul Angus)",
+  "why": "Producer and developers of Naho Matsuda's EVERY THING EVERY TIME, added under naho-matsuda.",
+  "link": "https://futureeverything.org",
+  "found_via": "aoi-esteban",
+  "status": "duplicate",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Niki Smit",
+  "why": "Co-director of Soul Paint, added under sarah-ticho.",
+  "link": "https://soulpaint.co",
+  "found_via": "aoi-esteban",
+  "status": "duplicate",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Josh Garner",
+  "why": "Projection and visualisation artist of Cybersaur Arts; works added under cybersaur-arts.",
+  "link": "https://www.youtube.com/channel/UCqBttgoPafgGZBmU7ioDxPg",
+  "found_via": "aoi-esteban",
+  "status": "duplicate",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "51zero / MAPP (Margherita Gramegna)",
+  "why": "Medway artist-led festival and the Medway Superstars film portraits shown at A+E Lab; artists' film, no spatial or interactive component.",
+  "link": "https://www.51zero.org",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "D-Live! Theatre (Steven Vevers-Webb, animation by Andrew Revell)",
+  "why": "Deaf theatre company whose The Little Prince (shown at A+E Lab) and earlier Jack O'Kent mix BSL, Visual Vernacular and projected animation; no online video of the projection work was found.",
+  "link": "https://www.d-live.org.uk",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "MESS ROOM",
+  "why": "Inclusive Chatham arts studio that reused TAPE material for a bestiary exhibition; craft and community art, not AR.",
+  "link": "https://www.messroom.org.uk",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Kerrie Owens",
+  "why": "Medway artist who turned TAPE material into a carnival dragon puppet; puppetry, not AR.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Phil Coy",
+  "why": "Artist filmmaker whose film Grit launched at A+E Lab; moving-image work without a spatial or interactive layer.",
+  "link": "https://cementfields.org/journal/an-amphibian-vision-william-fowler-on-phil-coys-grit/",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "David Adeyemi & Jay Ee",
+  "why": "2025 A+E Lab artists in residence; 2 Darn A Severed Spirit combines batik with video and animation, but the only video is an interview and no interactive or spatial element is documented.",
+  "link": "https://d4vidprodz.cargo.site/",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Lydia Cottrell & Matthew Allen",
+  "why": "Brightside VR, a spin-bike dance-theatre VR piece shared at A+E Lab; VR-only and no public video.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Half a String",
+  "why": "Puppet theatre company (The Puppet Van: Space Chickens) in residence at A+E Lab; puppetry, not AR.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Plane Structure",
+  "why": "Listed as an A+E Lab artist in residence (sound/WFS programme); no AR or spatial-visual work found.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Jessica Warshal & Oliver Barrett",
+  "why": "Listed as A+E Lab artists in residence without project details; no suitable video found.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Bea Bidault & Max Revell",
+  "why": "Dance work-in-progress Les Nuages shown at Scratch Sunday Social; live dance without technology.",
+  "link": "https://www.bea-bidault.com/",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "R.A.W. Collective (Laure Dubanet, Ella Posti, Mina Clair)",
+  "why": "Dance work-in-progress at A+E Lab; live dance without technology.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "CKM Creatives",
+  "why": "Listed as A+E Lab artists in residence; no project details or video found.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "The Game of Life Foundation (Casper Schipper)",
+  "why": "Dutch foundation whose mobile wave field synthesis system was installed at A+E Lab for 26 composers; spatial-audio instrument and concerts, no visual or AR work.",
+  "link": "https://gameoflife.nl",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Garin Curtis",
+  "why": "Creative technologist who runs A+E Lab's Creative AI workshop, where a camera reads children's paintings and generates live visuals and sound; no video of the system found.",
+  "link": "https://garincurtis.com",
+  "found_via": "aoi-esteban",
+  "status": "no_video",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Diane Laidlaw (Afro Futcha)",
+  "why": "AI filmmaker who screened at XR Sunday Social 2026; generative AI films, not spatial or interactive.",
+  "link": "https://afrofutcha.com",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Candice Wu",
+  "why": "Unreal Engine artist on AΦE's LILITH.AEON who taught an Unreal workshop; environment art, no own interactive or AR work found.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Timothy Devlin",
+  "why": "Unreal Engine and character artist on LILITH.AEON (covered under aoi-esteban); no own AR work found.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Asha Easton (XR Diversity Initiative)",
+  "why": "Head of the Innovate UK Immersive Tech Network and XRDI co-founder; policy and community work, not an artist.",
+  "link": "",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Loop Dance Company",
+  "why": "Inclusive Medway dance company that made HANDS. FACE. SPACE with Cybersaur Arts; dance film, no AR.",
+  "link": "https://www.youtube.com/watch?v=xvBsOdgLz9g",
+  "found_via": "aoi-esteban",
+  "status": "not_ar",
+  "batch": "r4-aelab"
+ },
+ {
+  "name": "Daniel Arsham",
+  "why": "No AR artwork of his own was found; his digital work is mostly NFTs, film and product collaborations (e.g. Samsung The Frame), not spatial AR.",
+  "link": "https://www.danielarsham.com/",
+  "found_via": "acute-art",
+  "status": "not_ar",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Ai Weiwei",
+  "why": "His Acute Art piece Omni (2020) is a 360-degree VR documentary; his AR piece in the Seeing the Invisible botanical-garden show (2021) has no dedicated playable video. The Ai Weiwei urn AR in the gallery is Jeremy Bailey's work.",
+  "link": "https://www.acuteart.com/discover/ai-weiwei",
+  "found_via": "acute-art",
+  "status": "no_video",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Jeff Koons",
+  "why": "His AR is the 2017 Snapchat collaboration already in the gallery as snap-inc--jeff-koons-x-snapchat (could be co-credited via patch_works); his Acute Art work Phryne is VR and his BMW Art Car only appears as a scan in the BMW Art Car AR app.",
+  "link": "https://www.acuteart.com/discover/jeff-koons",
+  "found_via": "snap-inc",
+  "status": "duplicate",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Anish Kapoor",
+  "why": "Into Yourself, Fall (2018, Acute Art) is VR only; no AR work found.",
+  "link": "https://www.acuteart.com/discover/anish-kapoor",
+  "found_via": "acute-art",
+  "status": "not_ar",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Christo and Jeanne-Claude",
+  "why": "The London Mastaba AR (2020, Acute Art, Hyde Park) is genuine AR, but the only playable video is the 2018 VR drone flyover.",
+  "link": "https://www.acuteart.com/discover/christo-jeanne-claude",
+  "found_via": "acute-art",
+  "status": "no_video",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Precious Okoyomon",
+  "why": "Ultra Light Beams of Love (2021) is already in the gallery as acute-art--looking-glass-precious-okoyomon; no second AR video found.",
+  "link": "https://www.acuteart.com/discover/precious-okoyomon",
+  "found_via": "acute-art",
+  "status": "duplicate",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Darren Bader",
+  "why": "Mendes Mundi AR is already in the gallery as acute-art--looking-glass-darren-bader; no second AR video found.",
+  "link": "https://www.acuteart.com/discover/darren-bader",
+  "found_via": "acute-art",
+  "status": "duplicate",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Tomás Saraceno",
+  "why": "Webs of Life AR spiders are already in the gallery as acute-art--looking-glass-tomas-saraceno; other videos are talks.",
+  "link": "https://www.acuteart.com/discover/tomas-saraceno",
+  "found_via": "acute-art",
+  "status": "duplicate",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Bjarne Melgaard",
+  "why": "AR series of his characters (Lightbulb Man, Octo, 2020) exists in the Acute Art app, but only talks and VR (My Trip) footage were found.",
+  "link": "https://www.acuteart.com/discover/bjarne-melgaard",
+  "found_via": "acute-art",
+  "status": "no_video",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Felipe Pantone",
+  "why": "Data Chromesthesia (2024, Acute Art + Google Arts & Culture) uses ARCore Geospatial and live air-quality data to recolour city views; no playable video found on YouTube or Vimeo.",
+  "link": "https://www.acuteart.com/discover/felipe-pantone",
+  "found_via": "acute-art",
+  "status": "no_video",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Lu Yang",
+  "why": "Gigant DOKU (2020, BMW / Acute Art) is a giant dancing AR avatar, but no playable AR video found; his other work is animation and motion-capture performance.",
+  "link": "https://www.acuteart.com/discover/lu-yang",
+  "found_via": "acute-art",
+  "status": "no_video",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Lee Bul",
+  "why": "Willing To Be Vulnerable - Metalized Balloon AR22 (2022, Leeum / Acute Art); no playable video found.",
+  "link": "https://www.acuteart.com/discover/lee-bul",
+  "found_via": "acute-art",
+  "status": "no_video",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "David Shrigley",
+  "why": "Worm (2021, AR for Maison Ruinart / Acute Art); only a brand promo of the digital gallery was found.",
+  "link": "https://www.acuteart.com/discover/david-shrigley",
+  "found_via": "acute-art",
+  "status": "no_video",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Antony Gormley",
+  "why": "Lunatick (2019, with Priyamvada Natarajan, Acute Art) is VR only.",
+  "link": "https://www.acuteart.com/discover/antony-gormley",
+  "found_via": "acute-art",
+  "status": "not_ar",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Louisa Clement",
+  "why": "Aporias (2019, Acute Art) is a VR piece with AI-driven talking mannequins; no AR.",
+  "link": "https://www.acuteart.com/discover/louisa-clement",
+  "found_via": "acute-art",
+  "status": "not_ar",
+  "batch": "r4-artists"
+ },
+ {
+  "name": "Mourad Merzouki / Compagnie Käfig",
+  "why": "Hip-hop choreographer of Pixel, the projection dance piece made with Adrien M & Claire B; that work is already in the gallery under adrien-m-claire-b.",
+  "link": "https://www.ccncreteil.com",
+  "found_via": "aoi-esteban",
+  "status": "duplicate",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Wayne McGregor / Studio Wayne McGregor",
+  "why": "Choreographer with many tech collaborations (Choreographic Thinking Tools shared at CCL-14); his AR/interactive piece Future Self is already in the gallery under random-international.",
+  "link": "https://waynemcgregor.com",
+  "found_via": "aoi-esteban",
+  "status": "duplicate",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Gideon Obarzanek / Chunky Move",
+  "why": "Choreographer and company behind Glow and Mortal Engine; both works are added in this batch under frieder-weiss.",
+  "link": "https://chunkymove.com.au",
+  "found_via": "frieder-weiss",
+  "status": "duplicate",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Emily Fernandez",
+  "why": "Dancer-choreographer of Shadows, Schlamp, Sense and Innosense with Frieder Weiss; the works with video are added under frieder-weiss.",
+  "link": "https://frieder-weiss.de/works/all/Shadows.php",
+  "found_via": "frieder-weiss",
+  "status": "duplicate",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Tim Murray-Browne",
+  "why": "CCL-14 participant who makes body-interactive sound and AI movement installations.",
+  "link": "https://timmb.com",
+  "found_via": "aoi-esteban",
+  "status": "covered",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Chelsi Cocking",
+  "why": "CCL-14 participant; creative coder making real-time body-tracking visuals with dancers.",
+  "link": "https://medium.com/a-e-lab/a-e-lab-hosts-the-uks-first-choreographic-coding-lab-25fc714ea88e",
+  "found_via": "aoi-esteban",
+  "status": "covered",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Nonotak (Noemi Schipfer & Takami Nakamoto)",
+  "why": "Light and projection installations with performers inside moving structures; suggested for this round but not researched yet.",
+  "link": "https://www.nonotak.com",
+  "found_via": "aoi-esteban",
+  "status": "covered",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Scott deLahunta",
+  "why": "Co-director of Motion Bank and CCL facilitator; a researcher and organiser, not a maker of AR or interactive works.",
+  "link": "https://motionbank.org",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Joana Chicau",
+  "why": "Made a text-script choreography generator at CCL Amsterdam; code-as-choreography, no spatial or projection component.",
+  "link": "https://vimeo.com/218473261",
+  "found_via": "motion-bank",
+  "status": "not_ar",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Dawn Stoppiello",
+  "why": "Co-founder and choreographer of Troika Ranch; her works are covered under mark-coniglio.",
+  "link": "https://troikaranch.org",
+  "found_via": "mark-coniglio",
+  "status": "duplicate",
+  "batch": "r4-dance"
+ },
+ {
+  "name": "Helen Papagiannis",
+  "why": "AR Art Manifesto endorser and early AR artist/author (Augmented Human); her early works (Who's Afraid of Bugs?, The Amazing Cinemagician) have no findable playable video, only keynote talks.",
+  "link": "https://www.augmentedstories.com",
+  "found_via": "mark-skwarek",
+  "status": "no_video",
+  "batch": "r4-manifest-ar"
+ },
+ {
+  "name": "Warren Armstrong",
+  "why": "Sydney artist and AR Art Manifesto endorser (Bushwick AR Intervention 2013); no AR work video found.",
+  "link": "",
+  "found_via": "mark-skwarek",
+  "status": "no_video",
+  "batch": "r4-manifest-ar"
+ },
+ {
+  "name": "Cooper Holoweski",
+  "why": "AR Art Manifesto endorser; video and print artist (Cranbrook); no AR work video found.",
+  "link": "",
+  "found_via": "mark-skwarek",
+  "status": "no_video",
+  "batch": "r4-manifest-ar"
+ },
+ {
+  "name": "Joseph Hocking",
+  "why": "AR Art Manifesto endorser and Unity author; only a 2010 ARToolKit iPhone tech test and a 2009 VR piece, no AR artwork video.",
+  "link": "https://www.youtube.com/channel/UCtpszsrp3m8uFXMkHcA-ojA",
+  "found_via": "mark-skwarek",
+  "status": "no_video",
+  "batch": "r4-manifest-ar"
+ },
+ {
+  "name": "Second Front",
+  "why": "Performance-art group inside Second Life (Patrick Lichty, Jeremy Owen Turner and others) that endorsed the AR Art Manifesto; its works are virtual-world performances, not AR.",
+  "link": "https://www.youtube.com/watch?v=SpFwxVPmPB0",
+  "found_via": "patrick-lichty",
+  "status": "not_ar",
+  "batch": "r4-manifest-ar"
+ },
+ {
+  "name": "Freya Björg Olafson",
+  "why": "Performance artist whose motion-captured dances drive Will Pappenheimer's AR works Pool Scratch and Repairs.",
+  "link": "",
+  "found_via": "will-pappenheimer",
+  "status": "covered",
+  "batch": "r4-manifest-ar"
+ },
+ {
+  "name": "Ronald Azuma",
+  "why": "Author of the 1997 AR survey that defined the field; later led AR storytelling research at Intel Labs. Only talks and keynotes found on video, no demos of his own systems.",
+  "link": "https://ronaldazuma.com",
+  "found_via": "seed",
+  "status": "no_video",
+  "batch": "r4-pioneers"
+ },
+ {
+  "name": "Invisible Roommates (Nicole He + Eran Hilleli)",
+  "why": "Everyday Experiments AR app that shows home devices as characters; creator nicole-he already in gallery but the Vimeo videos were removed when SPACE10 closed.",
+  "link": "https://space10.com/project/everyday-experiments",
+  "found_via": "space10",
+  "status": "no_video",
+  "batch": "r4-pioneers"
+ },
+ {
+  "name": "Michael Marner & Ross Smith (UniSA)",
+  "why": "Spatial AR researchers in Bruce Thomas's lab; their main SAR works are already credited under bruce-thomas.",
+  "link": "http://www.20papercups.net",
+  "found_via": "bruce-thomas",
+  "status": "duplicate",
+  "batch": "r4-pioneers"
+ },
+ {
+  "name": "Sonic Healing (FIELD x SPACE10)",
+  "why": "Later FIELD sound/visual pieces for SPACE10; unclear whether spatial or AR, Vimeo clips only 14 s loops.",
+  "link": "https://vimeo.com/735722878",
+  "found_via": "field-io",
+  "status": "not_ar",
+  "batch": "r4-pioneers"
+ },
+ {
+  "name": "Roelof Knol",
+  "why": "Amsterdam media artist whose projection pieces draw perspective-correct 3D lines and depth contours on floors and tables; several viral Pinterest pins.",
+  "link": "https://www.roelofknol.com/",
+  "found_via": "theoriz",
+  "status": "covered",
+  "batch": "src-pinterest"
  },
  {
   "name": "Joel Gethin Lewis (Hellicar & Lewis)",
@@ -894,6 +2206,14 @@
   "found_via": "golan-levin",
   "batch": "zach-circle",
   "status": "covered"
+ },
+ {
+  "name": "Eran Hilleli",
+  "why": "Animator/artist who co-created the AR+voice experiment Garden Friends with Nicole He.",
+  "link": "https://eranhilleli.com/Garden-Friends-1",
+  "found_via": "nicole-he",
+  "batch": "zach-circle",
+  "status": "duplicate"
  },
  {
   "name": "Torin Blankensmith & Anthony Tripaldi",
@@ -928,12 +2248,28 @@
   "status": "covered"
  },
  {
+  "name": "Motoi Ishibashi / Rhizomatiks Research",
+  "why": "Co-director of Rhizomatiks Research with Daito Manabe (border, 24 drones, discrete figures, Perfume shows); many more MR stage works to catalog.",
+  "link": "https://rhizomatiks.com",
+  "found_via": "daito-manabe",
+  "batch": "zach-circle",
+  "status": "duplicate"
+ },
+ {
   "name": "MIKIKO / ELEVENPLAY",
   "why": "Choreographer and dance company behind border, discrete figures and 24 drones with Rhizomatiks.",
   "link": "https://elevenplay.net",
   "found_via": "daito-manabe",
   "batch": "zach-circle",
   "status": "covered"
+ },
+ {
+  "name": "James Powderly & Evan Roth (Graffiti Research Lab)",
+  "why": "Co-creators of L.A.S.E.R. Tag and the EyeWriter; street projection AR and graffiti tech.",
+  "link": "https://www.youtube.com/watch?v=LtZq2q43Jkc",
+  "found_via": "theo-watson",
+  "batch": "zach-circle",
+  "status": "duplicate"
  },
  {
   "name": "Nick Hardeman",

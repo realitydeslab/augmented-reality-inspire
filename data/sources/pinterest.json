@@ -1,0 +1,958 @@
+{
+ "_note": "Pinterest pins used as discovery leads. Only traced pins become gallery works (with found_via).",
+ "pins": [
+  {
+   "pin": "https://www.pinterest.com/pin/1036531670494386477/",
+   "image": "https://i.pinimg.com/736x/e6/93/62/e69362275255d00aee4a69c7526360e6.jpg",
+   "note": "CEREMONIA (ballet + geometric motion lines) traced via Google Lens to Masahiko Sato + EUPHRATES, Ballet Rotoscope (2011).",
+   "status": "traced",
+   "work_id": "euphrates--ballet-rotoscope",
+   "creator_id": "euphrates",
+   "original_url": "https://www.youtube.com/watch?v=yzJk6ww3LD0"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/140806231014373/",
+   "image": "https://i.pinimg.com/originals/1c/01/91/1c0191102d5fe8f5dd62d5f4132c60a7.jpg",
+   "note": "Paper cut-out figure + AR gallery repost; Lens only finds reposts (\"AR is going to change art forever\").",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1407443629138784/",
+   "image": "https://i.pinimg.com/originals/72/e1/d8/72e1d8a950e39d533bdfe13a2fa95e5a.jpg",
+   "note": "Chasing Stars in Shadow by Joon Moon (credited @joon_moon).",
+   "status": "traced",
+   "work_id": "joon-moon--chasing-stars-in-shadow",
+   "creator_id": "joon-moon",
+   "original_url": "https://vimeo.com/782602226"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/3025924739766101/",
+   "image": "https://i.pinimg.com/originals/bb/4b/5b/bb4b5b3a8d5d20402d324253f3424ac5.png",
+   "note": "AR tarot cards; Lens finds only merch/tarot images, no original creator.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/744008800972146001/",
+   "image": "https://i.pinimg.com/736x/ab/b8/96/abb896d898424d35d8cff7ee32f7ee48.jpg",
+   "note": "Tokyo street letters image; Lens found no AR source.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/93660867246825963/",
+   "image": "https://i.pinimg.com/736x/be/4c/9b/be4c9bda4086a63079e6c14e7a7b8202.jpg",
+   "note": "Virtual Curation Studio (virtual gallery service).",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/24699498005901277/",
+   "image": "https://i.pinimg.com/originals/c1/89/29/c18929c16f2659fdb4e413827cefef04.jpg",
+   "note": "Kivicube WebAR tutorial / platform marketing.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/436075176424953394/",
+   "image": "",
+   "note": "Pin data unavailable (no metadata returned).",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/10273905395014779/",
+   "image": "https://i.pinimg.com/originals/0d/e7/49/0de7498a7dc4e669404e707b4191faa5.jpg",
+   "note": "Visuosoft agency ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1618549859430392/",
+   "image": "https://i.pinimg.com/originals/31/b4/73/31b473541427c1be8a16db82dfde0767.jpg",
+   "note": "\"future cards\": viral Washington DC metro-pass Snapchat AR clip; original lens creator not identified.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/3659243440216381/",
+   "image": "https://i.pinimg.com/originals/2e/53/0b/2e530b099ebc829c8118ba47766d8675.jpg",
+   "note": "Hello, Shadow! repost that names Joon Moon's earlier Augmented Shadow; both traced to his own channel.",
+   "status": "traced",
+   "work_id": "joon-moon--augmented-shadow",
+   "creator_id": "joon-moon",
+   "original_url": "https://www.youtube.com/watch?v=0arZMuPK58w"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/348888302405437357/",
+   "image": "https://i.pinimg.com/736x/d3/e2/9b/d3e29ba4687ce82315cfd538b662f237.jpg",
+   "note": "Holographic fan display product (Lens -> retail listings).",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/79516749663741378/",
+   "image": "https://i.pinimg.com/originals/05/19/32/05193232cb366ca6c2d710ed699268cb.gif",
+   "note": "Lens -> Aakash Nihalani tape-illusion street art; perceptual, not spatial computing.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/24699498006048810/",
+   "image": "https://i.pinimg.com/736x/73/d0/6c/73d06c0d658b51db3aed5796e5dc1e6a.jpg",
+   "note": "r-evolve AR kinetic type by Siobhan Beatty; no video found.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/849139704756430544/",
+   "image": "https://i.pinimg.com/originals/05/7a/ff/057aff1c72318e64662cc331bd67f84c.jpg",
+   "note": "Man walking past projected figure; Lens inconclusive.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/759278818448432910/",
+   "image": "https://i.pinimg.com/originals/f8/fb/98/f8fb982151fb444353a21340677b43be.jpg",
+   "note": "Tetris in AR via ChatGPT by Ian Curtis (@XRarchitect, x.com/XRarchitect/status/1649220535681966080); a later Tetris-in-WebAR version is already in gallery.",
+   "status": "duplicate",
+   "work_id": "ian-curtis--x425957",
+   "creator_id": "ian-curtis",
+   "original_url": "https://x.com/XRarchitect/status/1649220535681966080"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/87538786501027559/",
+   "image": "https://i.pinimg.com/originals/75/34/fc/7534fc9ce9e45d2db31378fc471055a3.jpg",
+   "note": "Face line art drawn in VR with Gravity Sketch; uncredited repost.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/509680882842672316/",
+   "image": "https://i.pinimg.com/originals/13/8a/02/138a021b23820eb6278470e30e796ac3.jpg",
+   "note": "XYZT by Adrien M & Claire B — already in gallery.",
+   "status": "duplicate",
+   "work_id": "adrien-m-claire-b--xyzt",
+   "creator_id": "adrien-m-claire-b",
+   "original_url": "https://www.youtube.com/watch?v=N7q9k9Z3HIk"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/2251868554474178/",
+   "image": "https://i.pinimg.com/originals/6e/5c/fb/6e5cfb984e97fe70b16c0496e235f723.jpg",
+   "note": "Real-time music visualiser by Roelof Knol; artist identified (roelofknol.com) but no original YouTube/Vimeo verified in this pass — added as lead. Creator later added (roelof-knol) from credited reposts; this exact piece not matched to a video.",
+   "status": "untraced",
+   "creator_id": "roelof-knol"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/2814818512661600/",
+   "image": "https://i.pinimg.com/originals/48/e9/d6/48e9d67630b0c8124119e657efaf6dd4.jpg",
+   "note": "\"Living Painting in AR (Toon Tieland)\": Lens shows the painting is a De Saedeleer/Apol winter landscape; AR animator unknown.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/334251603601595765/",
+   "image": "",
+   "note": "GLSL interactive piece by @mengtists (repost); no original video found.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/914862416154738/",
+   "image": "https://i.pinimg.com/originals/18/9f/04/189f04445fef10c7558918b1737a9a9a.jpg",
+   "note": "DHONA projection mapping repost; Instagram-only.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/43628690136817962/",
+   "image": "https://i.pinimg.com/originals/80/4b/e1/804be170505f2075d2b0f494f59f792c.gif",
+   "note": "Abduzeedo AR typography roundup; no single work.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1548181159179746/",
+   "image": "",
+   "note": "Vogue Business: Louis Vuitton AR dots (Yayoi Kusama campaign); brand AR, no creator video.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1013591459859767417/",
+   "image": "https://i.pinimg.com/originals/a6/37/29/a6372983e300d2665e1d0e8c26eae5be.jpg",
+   "note": "Aggregator reel (@augmentedreality.official), uncredited.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/84583299244589684/",
+   "image": "https://i.pinimg.com/736x/27/87/75/27877554d2433e5766bcecdc8f5cccde.jpg",
+   "note": "CGI visual by voidzto (Visual Atelier 8).",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1196337402780414/",
+   "image": "https://i.pinimg.com/originals/90/66/c0/9066c08fee157e76b11124790b341ad6.jpg",
+   "note": "Roelof Knol depth contour lines (3 projectors); no verifiable original video — lead. Creator later added (roelof-knol) from credited reposts; this exact piece not matched to a video.",
+   "status": "untraced",
+   "creator_id": "roelof-knol"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/24699497981556136/",
+   "image": "https://i.pinimg.com/originals/23/ad/0c/23ad0cbdf6c575384acf86910758c592.jpg",
+   "note": "Art 2 AR – Synesthesia (LiDAR, mutating paintings); Lens found no creator.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/352477108330591388/",
+   "image": "https://i.pinimg.com/originals/ae/97/3d/ae973d016952a8b5d31968cb9585ae30.jpg",
+   "note": "Google AR Experiments (ARCore) — already in gallery.",
+   "status": "duplicate",
+   "work_id": "google-creative-lab--ar-experiments-arcore-launch-collection",
+   "creator_id": "google-creative-lab",
+   "original_url": "https://www.youtube.com/watch?v=7SwZUNDsWaM"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/786792997382222305/",
+   "image": "https://i.pinimg.com/736x/04/5f/0e/045f0e37966781cf08b846fe7138f473.jpg",
+   "note": "AR portal credited @pixelcase; original X post (Hobbiton, 2018).",
+   "status": "traced",
+   "work_id": "pixelcase--hobbiton-ar-portal",
+   "creator_id": "pixelcase",
+   "original_url": "https://x.com/pixelcase/status/986445860442587136"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1337074890637692/",
+   "image": "https://i.pinimg.com/736x/f7/f0/51/f7f0515ab257a6fc9e9b28f5dca7eae9.jpg",
+   "note": "CELL (James Alliban & Keiichi Matsuda) — already in gallery.",
+   "status": "duplicate",
+   "work_id": "keiichi-matsuda--cell",
+   "creator_id": "keiichi-matsuda",
+   "original_url": "https://www.youtube.com/watch?v=lfzNF7igHzY"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1829656096034834/",
+   "image": "https://i.pinimg.com/originals/66/01/ad/6601ade281445a37263fc53cb20b4c99.jpg",
+   "note": "Floral Resonance by Christian Brinkmann (Manar Abu Dhabi); Instagram-only — lead.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/703756184288412/",
+   "image": "https://i.pinimg.com/originals/53/79/9d/53799d894f6389fc33fb161dd8f4f2c2.jpg",
+   "note": "Roelof Knol MR projection line drawing; no verifiable original video — lead. Creator later added (roelof-knol) from credited reposts; this exact piece not matched to a video.",
+   "status": "untraced",
+   "creator_id": "roelof-knol"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/3025924739988097/",
+   "image": "https://i.pinimg.com/originals/4b/a7/15/4ba715c2220688d8c74e86ea3b5eb266.jpg",
+   "note": "\"Interaction Unbound\" hologram-fan marketing.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/759278818434860427/",
+   "image": "https://i.pinimg.com/originals/eb/5e/74/eb5e7454ac5d1d79c7412e1bf58ae18b.jpg",
+   "note": "VR painting \"Prometheus\" (Tilt Brush); uncredited repost.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/11259067814042636/",
+   "image": "https://i.pinimg.com/736x/25/fd/63/25fd63d058c3ab46602c6688f45b321a.jpg",
+   "note": "Interactive wall by @rebel9_ (Seoul studio REBEL9); only Instagram clips.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/363384263684831146/",
+   "image": "https://i.pinimg.com/originals/4a/4c/cd/4a4ccd4f5889fa1398dc0ec880b53593.jpg",
+   "note": "VICE: Mirages & miracles — already in gallery.",
+   "status": "duplicate",
+   "work_id": "adrien-m-claire-b--mirages-miracles",
+   "creator_id": "adrien-m-claire-b",
+   "original_url": "https://www.youtube.com/watch?v=hJBTqYbhTtA"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/7599893118103611/",
+   "image": "https://i.pinimg.com/originals/5e/ff/3a/5eff3abe2feeef74cfec47de3548fc54.jpg",
+   "note": "POP AR book by PARRATORO; his YouTube.",
+   "status": "traced",
+   "work_id": "parratoro--pop-ar",
+   "creator_id": "parratoro",
+   "original_url": "https://www.youtube.com/watch?v=s8CRSKZrNJU"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/9570217953774311/",
+   "image": "https://i.pinimg.com/originals/14/e7/3c/14e73cc76018abbaf9a09479c59d8fbe.jpg",
+   "note": "Hakanaï — already in gallery.",
+   "status": "duplicate",
+   "work_id": "adrien-m-claire-b--hakanai",
+   "creator_id": "adrien-m-claire-b",
+   "original_url": "https://www.youtube.com/watch?v=xvJNia3z11I"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/255931191315560629/",
+   "image": "https://i.pinimg.com/originals/38/b4/82/38b482a11eb26a0bff6e0f74177025fa.jpg",
+   "note": "Blueprint by Joanie Lemercier — already in gallery.",
+   "status": "duplicate",
+   "work_id": "joanie-lemercier--blueprint",
+   "creator_id": "joanie-lemercier",
+   "original_url": "https://www.youtube.com/watch?v=OozmLRPL1zQ"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/820710732114140022/",
+   "image": "https://i.pinimg.com/736x/37/90/f0/3790f0d6b0f7e225c221dfa5660b8ca5.jpg",
+   "note": "CONTROL NO CONTROL credited @iregular.io; Iregular own Vimeo clip.",
+   "status": "traced",
+   "work_id": "iregular--control-no-control",
+   "creator_id": "iregular",
+   "original_url": "https://vimeo.com/1171876250"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/68749288649/",
+   "image": "https://i.pinimg.com/originals/59/63/44/596344c193e5437c2ff9798a01fa2d99.jpg",
+   "note": "Lucida by Lachlan Turczan; his YouTube.",
+   "status": "traced",
+   "work_id": "lachlan-turczan--lucida",
+   "creator_id": "lachlan-turczan",
+   "original_url": "https://www.youtube.com/watch?v=Rne2JgYM0s8"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/410672059783709443/",
+   "image": "https://i.pinimg.com/originals/d8/40/06/d840068118240ff994700c17b2692675.jpg",
+   "note": "PORTALS by MAREO — static optical site installation.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/140806234882076/",
+   "image": "https://i.pinimg.com/originals/13/f1/67/13f167186f6ae8596dc168e808aded72.jpg",
+   "note": "Cause and Effect by Dominic Kießling — kinetic foil installation, not interactive.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/354025220716299145/",
+   "image": "https://i.pinimg.com/originals/06/e3/72/06e3729ac0b4e8971bf1660cb4921aba.jpg",
+   "note": "Effluve (Faire corps) by Adrien M & Claire B; video from Gaîté Lyrique (venue).",
+   "status": "traced",
+   "work_id": "adrien-m-claire-b--effluve",
+   "creator_id": "adrien-m-claire-b",
+   "original_url": "https://www.youtube.com/watch?v=HC47brh6tio"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/404479610293071438/",
+   "image": "https://i.pinimg.com/originals/4f/01/fa/4f01faa15ad26df384234fdceacc268d.jpg",
+   "note": "Our Future Selves by Random International (existing creator); no playable original video found (their Vimeo 376351028 fails).",
+   "status": "untraced",
+   "creator_id": "random-international"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/809099889346697010/",
+   "image": "https://i.pinimg.com/originals/2e/53/0b/2e530b099ebc829c8118ba47766d8675.jpg",
+   "note": "Hello, Shadow! by Joon Moon (36degres-style repost).",
+   "status": "traced",
+   "work_id": "joon-moon--hello-shadow",
+   "creator_id": "joon-moon",
+   "original_url": "https://www.youtube.com/watch?v=RbwEf1QGA8U"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/4081455907458755/",
+   "image": "",
+   "note": "NEST by Iregular; creator traced but NEST Vimeo (902398734) is not embeddable.",
+   "status": "untraced",
+   "creator_id": "iregular"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/464926361539694615/",
+   "image": "https://i.pinimg.com/originals/53/3e/7a/533e7a1e75939f8fac0004ca99942322.jpg",
+   "note": "Roelof Knol \"Depth hiding on the surface\"; Instagram-only — lead. Creator later added (roelof-knol) from credited reposts; this exact piece not matched to a video.",
+   "status": "untraced",
+   "creator_id": "roelof-knol"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/914862422291988/",
+   "image": "",
+   "note": "PHNTM interactive V04.24.001; Instagram-only.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/5348093304926293/",
+   "image": "https://i.pinimg.com/originals/17/44/f5/1744f548245288da213a6b9b17d49e9b.jpg",
+   "note": "Augmenta dino run by quentin.script (Instagram) using THÉORIZ Augmenta tracking; no YouTube/Vimeo original — lead.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/282952789080332739/",
+   "image": "https://i.pinimg.com/originals/b9/04/21/b904212a27d3410f2081f3277e117210.jpg",
+   "note": "INNER LIFE by MAOTIK; MAOTIK own Vimeo.",
+   "status": "traced",
+   "work_id": "maotik--inner-life",
+   "creator_id": "maotik",
+   "original_url": "https://vimeo.com/1064295716"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/68750407420/",
+   "image": "https://i.pinimg.com/originals/e4/42/c9/e442c95bf405da58c6d60855dd0fd3e6.jpg",
+   "note": "Flux by Ksawery Kirklewski et al.; studio YouTube.",
+   "status": "traced",
+   "work_id": "ksawery-komputery--flux",
+   "creator_id": "ksawery-komputery",
+   "original_url": "https://www.youtube.com/watch?v=MKt0uAd9a1w"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/555913147769153701/",
+   "image": "https://i.pinimg.com/originals/70/0e/92/700e92237f64fff2a0dcc1cffcd7fb8b.jpg",
+   "note": "Roelof Knol interactive space; Instagram-only — lead. Creator later added (roelof-knol) from credited reposts; this exact piece not matched to a video.",
+   "status": "untraced",
+   "creator_id": "roelof-knol"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/327566572909652892/",
+   "image": "https://i.pinimg.com/originals/29/29/28/292928f06ef22d50f3f616cb689f2f03.jpg",
+   "note": "Michael Kozlowski x maalavidaa experiment; Instagram-only.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/2533343538404933/",
+   "image": "https://i.pinimg.com/originals/68/77/b7/6877b779c4558b1219c745eb9ff20c6e.jpg",
+   "note": "Commercial \"interactive shadow particle projection\" vendor ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/55450639160490791/",
+   "image": "https://i.pinimg.com/originals/ce/c9/e8/cec9e832abdd4b850691183bd9b20b46.png",
+   "note": "Moment Factory \"Interactive | Ready to connect you\" demo reel (own Vimeo 272784707) — creator already in gallery; a reel is not a single work.",
+   "status": "duplicate",
+   "creator_id": "moment-factory",
+   "original_url": "https://vimeo.com/272784707"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/347480927522678595/",
+   "image": "",
+   "note": "\"antigravity\" hand-tracking particle study; uncredited Instagram.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/115756652918696361/",
+   "image": "https://i.pinimg.com/736x/d5/71/aa/d571aa04e913298e614937ac8898b4fe.jpg",
+   "note": "Window of Illusions by Tiziano Mirabella (Illuseum Berlin); Instagram-only — lead.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/5207355814951611/",
+   "image": "",
+   "note": "80.lv: Lee Vermeulen liquid physics AR game with portals.",
+   "status": "traced",
+   "work_id": "lee-vermeulen--ar-portals-liquid",
+   "creator_id": "lee-vermeulen",
+   "original_url": "https://www.youtube.com/watch?v=WzWgDNzf5lQ"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/7177680650582881/",
+   "image": "https://i.pinimg.com/736x/80/77/4d/80774d44d755fe361cf5fc052aa583ca.jpg",
+   "note": "80.lv item on Lee Vermeulen sculpting liquid in AR; traced to his YouTube (also led to the liquid puzzle prototype).",
+   "status": "traced",
+   "work_id": "lee-vermeulen--sculpting-zero-g-liquid",
+   "creator_id": "lee-vermeulen",
+   "original_url": "https://www.youtube.com/watch?v=UTbsPqY5v1E"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/310607705572152990/",
+   "image": "https://i.pinimg.com/736x/eb/ad/57/ebad57c52ea3a295b330cd4f6589d196.jpg",
+   "note": "Clay Pillar by ii studio (@interactive.items); Instagram/TikTok only — lead.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/197525133650454524/",
+   "image": "https://i.pinimg.com/736x/5c/b5/ae/5cb5ae3b575e9430088057a23bf2af02.jpg",
+   "note": "Anna Polani WebAR sculptures; no original work video found.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/42643527719856821/",
+   "image": "https://i.pinimg.com/originals/99/82/06/9982060889f3ee0aeef0591f449cf7b6.jpg",
+   "note": "AMIANGELIKA r&d.015 interactive study; Instagram-only.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/5207355815036576/",
+   "image": "https://i.pinimg.com/originals/9d/1c/e5/9d1ce5908efd064e6c4a3ec27d47572c.jpg",
+   "note": "AR/VR hype reel (marketing).",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/492649954052300/",
+   "image": "",
+   "note": "Interactive dot-and-dash wall ad in a Berlin U-Bahn station; creator not identified.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/492649953610590/",
+   "image": "https://i.pinimg.com/736x/d0/2e/f7/d02ef723dd099a8b29cb08b3bd7c3ee1.jpg",
+   "note": "HyperReality video (Keiichi Matsuda) — already in gallery.",
+   "status": "duplicate",
+   "work_id": "keiichi-matsuda--hyper-reality",
+   "creator_id": "keiichi-matsuda",
+   "original_url": "https://www.youtube.com/watch?v=YJg02ivYzSs"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/12877548931138724/",
+   "image": "https://i.pinimg.com/736x/e6/61/3c/e6613c7ff07f2e6433dc8d5c67b6fb29.jpg",
+   "note": "Oxipital by Gamgie (real-time particles by hand); no Oxipital video found — lead.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/293367363245630300/",
+   "image": "https://i.pinimg.com/originals/f4/c5/48/f4c548c87eed26f30d8faf33f70323d6.jpg",
+   "note": "Headset product image (Lens -> Vision Pro / Quest listings).",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/260505159692091929/",
+   "image": "https://i.pinimg.com/originals/ca/5a/92/ca5a92172370a3f2c03e2b15c32751cd.jpg",
+   "note": "Atelier Markgraph Vision Pro experience for Mercedes-Benz CLA press launch; Instagram-only.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/4222193392127470/",
+   "image": "https://i.pinimg.com/originals/44/5b/52/445b5290ab9ee8942e46a0beeb6b4f61.png",
+   "note": "FWA case KIKK 2018 AR exhibit; KIKK Festival Vimeo credits Henry Daubrez & Samuel Honigstein (curation) and 7 coders.",
+   "status": "traced",
+   "work_id": "henry-daubrez-kikk--kikk-2018-ar-exhibit",
+   "creator_id": "henry-daubrez-kikk",
+   "original_url": "https://vimeo.com/299883293"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/399976010666399057/",
+   "image": "https://i.pinimg.com/originals/09/02/3c/09023c2e9c6178bc1ea290198761e223.jpg",
+   "note": "Dare to Dream by Ouchhh; Ouchhh Vimeo.",
+   "status": "traced",
+   "work_id": "ouchhh--dare-to-dream",
+   "creator_id": "ouchhh",
+   "original_url": "https://vimeo.com/160396410"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/590604938679441183/",
+   "image": "",
+   "note": "PLUNGE AR exhibition (Otago Museum) sticker mirror by Max Mollison; Behance stills only.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1618549856852868/",
+   "image": "https://i.pinimg.com/736x/78/ab/ba/78abba999cabae6dc0a5b31c9fbe42e4.jpg",
+   "note": "9gag \"AR brings Van Gogh to life\"; uncredited.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/2040762327723917/",
+   "image": "https://i.pinimg.com/736x/d4/75/c8/d475c8b7f444dd7a0987966f1f47b64d.jpg",
+   "note": "AR drink coaster (l8r.it short link); creator not identified.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/8233211828722655/",
+   "image": "https://i.pinimg.com/originals/8e/5b/2c/8e5b2cc47cb20fad5be124a825d0614b.webp",
+   "note": "HoloARt (MIT Fluid Interfaces / Judith Amores) — already in gallery.",
+   "status": "duplicate",
+   "work_id": "mit-fluid-interfaces--holoart",
+   "original_url": "https://vimeo.com/202652308"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/140807925846659968/",
+   "image": "https://i.pinimg.com/736x/91/00/8a/91008a146abb0e7380406ce0b5ecc1b8.jpg",
+   "note": "Dezeen: Keiichi Matsuda Hyper-Reality/augmented city — already in gallery.",
+   "status": "duplicate",
+   "work_id": "keiichi-matsuda--hyper-reality",
+   "creator_id": "keiichi-matsuda",
+   "original_url": "https://www.youtube.com/watch?v=YJg02ivYzSs"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/215821007126594749/",
+   "image": "https://i.pinimg.com/originals/87/4b/25/874b250049e433a51758b3c6bd08cf06.jpg",
+   "note": "Mashable \"mixed reality room\" = THÉORIZ studio R&D; traced to THÉORIZ YouTube.",
+   "status": "traced",
+   "work_id": "theoriz--mixed-reality-room",
+   "creator_id": "theoriz",
+   "original_url": "https://www.youtube.com/watch?v=NrO5WYG5QIw"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/49610033372157494/",
+   "image": "https://i.pinimg.com/originals/c4/9d/23/c49d23338331bbf564c215849383156f.jpg",
+   "note": "Tactum by Madeline Gannon — already in gallery.",
+   "status": "duplicate",
+   "work_id": "madeline-gannon--tactum",
+   "creator_id": "madeline-gannon",
+   "original_url": "https://www.youtube.com/watch?v=tOVommpNzPA"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/15833036183785968/",
+   "image": "https://i.pinimg.com/originals/b4/ad/3b/b4ad3bdfcb84ec6943f64f733000c0c0.png",
+   "note": "VICE: Keiichi Matsuda Hyper-Reality Kickstarter — already in gallery.",
+   "status": "duplicate",
+   "work_id": "keiichi-matsuda--hyper-reality",
+   "creator_id": "keiichi-matsuda",
+   "original_url": "https://www.youtube.com/watch?v=YJg02ivYzSs"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/245516617171126375/",
+   "image": "",
+   "note": "\"Mixed reality installation\" by Inty (Vimeo); pin metadata missing, not verified.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/53409945578385091/",
+   "image": "https://i.pinimg.com/originals/53/a4/6e/53a46ebf0eef893e476da713545f9d81.png",
+   "note": "Kinect sphere-lines TouchDesigner study (@bsment.23); Instagram-only.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/9148005512262689/",
+   "image": "https://i.pinimg.com/originals/3d/af/e3/3dafe3188cb4b8a4448c7909b89a4d74.jpg",
+   "note": "Google Lens -> Le mouvement de l'air (Adrien M & Claire B) — already in gallery.",
+   "status": "duplicate",
+   "work_id": "adrien-m-claire-b--le-mouvement-de-lair",
+   "creator_id": "adrien-m-claire-b",
+   "original_url": "https://www.youtube.com/watch?v=xsskbGYq7lc"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/914862422292107/",
+   "image": "https://i.pinimg.com/736x/05/93/84/059384903f9793eb3f9befc39a088b8b.jpg",
+   "note": "BLCK SUN (AMIANGELIKA & 1100) — non-interactive AV installation.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/19844054605134639/",
+   "image": "https://i.pinimg.com/originals/79/af/25/79af252371f5da7ae888940d9c04992e.jpg",
+   "note": "Noisy Skeleton, THÉORIZ own Vimeo.",
+   "status": "traced",
+   "work_id": "theoriz--noisy-skeleton",
+   "creator_id": "theoriz",
+   "original_url": "https://vimeo.com/103438556"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/38069559341531926/",
+   "image": "https://i.pinimg.com/originals/28/fb/01/28fb01ec0a41ebed4102200ac941eed8.jpg",
+   "note": "Binary Garden by Marpi — already in gallery.",
+   "status": "duplicate",
+   "work_id": "marpi--binary-garden",
+   "creator_id": "marpi",
+   "original_url": "https://vimeo.com/203962961"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/3025924746682034/",
+   "image": "https://i.pinimg.com/originals/1b/76/da/1b76da2d949bc5780bd71d0b5c790128.jpg",
+   "note": "INNERLIFE by MAOTIK (laser-touch floor), same work.",
+   "status": "traced",
+   "work_id": "maotik--inner-life",
+   "creator_id": "maotik",
+   "original_url": "https://vimeo.com/1064295716"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/914862416154735/",
+   "image": "",
+   "note": "Roelof Knol \"thoughts in boxes\" bounce detection; Instagram-only — lead. Creator later added (roelof-knol) from credited reposts; this exact piece not matched to a video.",
+   "status": "untraced",
+   "creator_id": "roelof-knol"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/38280665570483262/",
+   "image": "https://i.pinimg.com/originals/5c/7e/50/5c7e50250e8287994e32c37ecb98248e.jpg",
+   "note": "Le mouvement de l'air — already in gallery.",
+   "status": "duplicate",
+   "work_id": "adrien-m-claire-b--le-mouvement-de-lair",
+   "creator_id": "adrien-m-claire-b",
+   "original_url": "https://www.youtube.com/watch?v=xsskbGYq7lc"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/4222193391691311/",
+   "image": "https://i.pinimg.com/originals/88/dd/ec/88ddec4c0216dcde737cab3d51e921ec.jpg",
+   "note": "Dimensional Sampling by Cao Yuxi — LED audiovisual, not interactive.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/228417012339007993/",
+   "image": "https://i.pinimg.com/736x/1f/af/ef/1fafeff606c3faecb3fee8f60450e298.jpg",
+   "note": "t-shirt mapping, Nicola Buttari own Vimeo (pin links it).",
+   "status": "traced",
+   "work_id": "nicola-buttari--t-shirt-mapping",
+   "creator_id": "nicola-buttari",
+   "original_url": "https://vimeo.com/179772378"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/130041507981778137/",
+   "image": "https://i.pinimg.com/originals/c9/f6/36/c9f636dbc8a5c27ed65bc347b71b11d1.jpg",
+   "note": "Interactive floor projections with Quixotic; no original video found.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/492649951345858/",
+   "image": "https://i.pinimg.com/originals/69/a2/b9/69a2b94025e215544bd4b70c31c0c160.png",
+   "note": "Universal Everything studio listing — creator already in gallery (12 works).",
+   "status": "duplicate",
+   "creator_id": "universal-everything"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/774124930293773/",
+   "image": "https://i.pinimg.com/736x/03/58/a2/0358a20318d9f6b473230f9492fcaf1d.jpg",
+   "note": "PORTALS by MAREO (artist site) — static optical installation.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/384354149474894271/",
+   "image": "https://i.pinimg.com/originals/cd/02/18/cd02182813f75e90661d939bfc433701.jpg",
+   "note": "Artivive platform marketing.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/703756184270872/",
+   "image": "https://i.pinimg.com/originals/3d/c6/f4/3dc6f43d5fbb64722e6b76e7d8810caf.jpg",
+   "note": "\"A Digital Alchemy Experience\" interactive signage (JP repost); creator not identified.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/18647785948563119/",
+   "image": "https://i.pinimg.com/originals/38/ea/86/38ea86303716df683c053bbfa628038b.jpg",
+   "note": "Facemapping by Filip Custic; no original video found.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/14214555069859526/",
+   "image": "https://i.pinimg.com/originals/80/0c/bd/800cbdbfa15f3d923b72af4d85ece04a.jpg",
+   "note": "\"Is this not real?\" Jun Suzuki & Milkorva performance; Instagram-only.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/140806231516877/",
+   "image": "https://i.pinimg.com/736x/4d/61/a3/4d61a3b728012e229cb63bfa8f882141.jpg",
+   "note": "Metamask procedural makeup by Neri; NFT clip, no original video.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/208502657743050395/",
+   "image": "https://i.pinimg.com/originals/b4/1a/d1/b41ad11449f13e0d1b51dce8dbe4b5d7.jpg",
+   "note": "Phone-unlocked mural in Berlin; artist not identified.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/393431717473315372/",
+   "image": "",
+   "note": "Ines Alpha body-extension AR (with Studio Halia) — creator already in gallery; this clip not separately traced.",
+   "status": "duplicate",
+   "creator_id": "ines-alpha"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/24699498006006914/",
+   "image": "https://i.pinimg.com/736x/ec/fc/b4/ecfcb4224a58621eba3678a53a47fc7a.jpg",
+   "note": "AR collage experiments by Taudalpoi (TikTok only).",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/312366924165755962/",
+   "image": "https://i.pinimg.com/736x/c3/6e/55/c36e55b949e5aef7a67d0d8629dc2679.jpg",
+   "note": "AR artworks by Nikita Replyanski (article stills).",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/523895369167897957/",
+   "image": "https://i.pinimg.com/736x/e9/76/4a/e9764a94d620833c6b9b6d3cf9f7a461.jpg",
+   "note": "Depth-illusion images made with Snap Lens Studio (80.lv); creator not identified.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/8725793025535283/",
+   "image": "https://i.pinimg.com/736x/4e/f0/69/4ef0690d995e71205c8fee247e073da9.jpg",
+   "note": "AR bouquet by André Wee at ArtScience Museum; no original video — lead.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/21884748185556822/",
+   "image": "https://i.pinimg.com/originals/89/6f/d6/896fd698b8fca19f549a569bd85d5bf8.png",
+   "note": "Monet AR fridge magnet (Kivicube); small promo, creator not identified.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1548181159637123/",
+   "image": "https://i.pinimg.com/originals/1d/d5/7f/1dd57f9e4a3ac1b501e986f9450ab9ab.png",
+   "note": "Crowd installation by Michael Frei & Mario von Rickenbach (KIDS); installation video not found — lead.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/684969424608170769/",
+   "image": "https://i.pinimg.com/736x/49/f4/f4/49f4f4498334197ce826a76671882365.jpg",
+   "note": "Anastasia Lapotko real-time 3D visuals (screen art).",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/5559199536691163/",
+   "image": "https://i.pinimg.com/originals/fe/8a/a3/fe8aa3c68aa4503604ac5584e0fcf24f.jpg",
+   "note": "Klanglichter laser harp, Onat Hekimoglu own Vimeo (pin links it).",
+   "status": "traced",
+   "work_id": "onat-hekimoglu--klanglichter",
+   "creator_id": "onat-hekimoglu",
+   "original_url": "https://vimeo.com/128600307"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/162270392815188532/",
+   "image": "",
+   "note": "ENTER by Ksawery Kirklewski; studio Vimeo.",
+   "status": "traced",
+   "work_id": "ksawery-komputery--enter",
+   "creator_id": "ksawery-komputery",
+   "original_url": "https://vimeo.com/606803803"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/83246293107789944/",
+   "image": "https://i.pinimg.com/originals/87/10/16/871016e3779d350651be72d3e9bad691.jpg",
+   "note": "DUNE 4.2 by Daan Roosegaarde; studioroosegaarde YouTube.",
+   "status": "traced",
+   "work_id": "studio-roosegaarde--dune",
+   "creator_id": "studio-roosegaarde",
+   "original_url": "https://www.youtube.com/watch?v=nf-q5zs8HgE"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/4503668373411081/",
+   "image": "https://i.pinimg.com/originals/9a/bc/d4/9abcd45cc04dfef5e1f0e13bb838cb2e.jpg",
+   "note": "ROW by Tundra — non-interactive AV installation.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/5981411999930661/",
+   "image": "",
+   "note": "CADENCE by NONOTAK — non-interactive light installation.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1407443631201216/",
+   "image": "https://i.pinimg.com/originals/63/e0/63/63e063dbbf109e74e73b6f30ad7d3097.jpg",
+   "note": "Installation of stacked images of people; Lens not run, no metadata.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/199073246019081937/",
+   "image": "https://i.pinimg.com/originals/c3/1e/64/c31e64761a72a294db8f08299ece3dc3.jpg",
+   "note": "Aram Bartholl shadow/projection piece; work not identified.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/16536723628077880/",
+   "image": "https://i.pinimg.com/originals/f1/e0/75/f1e075544a1246321bf7a4eba09a06f8.jpg",
+   "note": "SYNERGY – Future Home (Meerkats, animation by Sam Price, Vimeo 256365619); too little info on the interaction to add.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/6966574418551472/",
+   "image": "https://i.pinimg.com/736x/ce/a7/52/cea7527c0ad3e7a8bde3248d02a8317c.jpg",
+   "note": "Google Maps Live View travel photo (product feature).",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/139259813472534289/",
+   "image": "https://i.pinimg.com/736x/a1/5f/32/a15f326efea42049c9359272bf0668b2.jpg",
+   "note": "Smithsonian news article on museum AR.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/89509111336908255/",
+   "image": "https://i.pinimg.com/originals/61/c1/36/61c136758aba8e6b1163e4f745f6794a.png",
+   "note": "TYPE01 article on Filipe Peregrino, The Languages Around Us; his YouTube.",
+   "status": "traced",
+   "work_id": "filipe-peregrino--the-languages-around-us",
+   "creator_id": "filipe-peregrino",
+   "original_url": "https://www.youtube.com/watch?v=WSziZQP_TOw"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/2111131068755366/",
+   "image": "https://i.pinimg.com/originals/15/68/c3/1568c35c0663cb6cd0a18dc44e32aa57.jpg",
+   "note": "Morphy Vision AR agency ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/17662623534405447/",
+   "image": "https://i.pinimg.com/736x/48/57/cb/4857cb9e743f5696b046088a09f79dc6.jpg",
+   "note": "\"Hologram\" projected figure; uncredited.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1759287348321636/",
+   "image": "https://i.pinimg.com/originals/22/a4/d4/22a4d464ff3f14e8c47d5179c8369d16.jpg",
+   "note": "AR marketing stock clip.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/395402042306848502/",
+   "image": "https://i.pinimg.com/originals/c6/3c/30/c63c30e6be56daf766353032ff6c4277.jpg",
+   "note": "Hong Kong tram clip \"dmmmm\"; Lens finds only travel footage.",
+   "status": "untraced"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/6262886978450725/",
+   "image": "https://i.pinimg.com/736x/b0/a3/fe/b0a3fef473b40d73973d140bf18eda17.jpg",
+   "note": "AI brand-content ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/631137335300491393/",
+   "image": "",
+   "note": "AR clothing stock image.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/985655068426561527/",
+   "image": "https://i.pinimg.com/originals/ac/0e/d9/ac0ed9c2836e65059127d36614651642.png",
+   "note": "ZERO10 digital-fashion app marketing.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/288371182411304559/",
+   "image": "",
+   "note": "MR ideation-room concept render.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/2955555999103655/",
+   "image": "https://i.pinimg.com/originals/64/ed/95/64ed95cbdc4b488b466cb6a2504d5396.jpg",
+   "note": "Architecture VR gadgets blog.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/252060910373429356/",
+   "image": "https://i.pinimg.com/originals/48/3e/e3/483ee372a6d74791ca21e206388d91ba.png",
+   "note": "Magic Leap business news.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/7599893117076178/",
+   "image": "https://i.pinimg.com/originals/bb/bd/b2/bbbdb28a44b6f2dac495c995e70b29b2.jpg",
+   "note": "PixLED display vendor ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/9148005519899568/",
+   "image": "https://i.pinimg.com/originals/bb/40/7a/bb407adefe34efb4cd07b11e02b5631e.jpg",
+   "note": "MyWebAR platform ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/4362930883284651/",
+   "image": "https://i.pinimg.com/736x/92/0d/12/920d12dd6a7638284a4b6b7ed004f5fb.jpg",
+   "note": "AR hoodie product (Zazzle).",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/15973773673958685/",
+   "image": "https://i.pinimg.com/originals/2e/01/0c/2e010ce4a0481c0fca4207e92d605fec.jpg",
+   "note": "AR fitting-room marketing.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/13440498883712272/",
+   "image": "https://i.pinimg.com/originals/ec/0a/c0/ec0ac06a2bbc2478132c98e63907bee3.jpg",
+   "note": "KLEADER interactive-projection vendor ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/1477812374945359/",
+   "image": "https://i.pinimg.com/originals/b7/ad/41/b7ad41001b8a522a5707bce15a96f261.jpg",
+   "note": "KLEADER flashlight-projection vendor ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/815784920048898543/",
+   "image": "https://i.pinimg.com/originals/47/34/12/473412c7e49ee03a40ef061ba2222dd3.jpg",
+   "note": "Brand-activation tunnel vendor ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/545146729902730390/",
+   "image": "https://i.pinimg.com/originals/d3/8f/01/d38f01a5f7745d237967c373099773b5.jpg",
+   "note": "LedPulse vendor ad.",
+   "status": "not_ar"
+  },
+  {
+   "pin": "https://www.pinterest.com/pin/22377329393070127/",
+   "image": "https://i.pinimg.com/originals/d2/f5/2e/d2f52e79bd201a1cb7fdcc1dfbab83e3.png",
+   "note": "ZERO10 AR mirror brand activation.",
+   "status": "not_ar"
+  }
+ ]
+}

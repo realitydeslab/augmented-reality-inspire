@@ -1,0 +1,1786 @@
+{
+  "batch": "r4-dance",
+  "creators": [
+    {
+      "id": "aoi-esteban",
+      "name": "AΦE / A+E Lab (Aoi Nakamura & Esteban Lecoq)",
+      "role": "Immersive dance company and lab; creators of AR, VR and AI-driven dance works",
+      "based": "Chatham, UK",
+      "bio": "Dancer-choreographers Aoi Nakamura and Esteban Lecoq (both ex-Jasmin Vardimon Company) run AΦE, whose works move dance into VR (WHIST), shared AR (0AR) and AI-driven LED installations (LILITH.AEON); their A+E Lab in Chatham hosted the UK's first Choreographic Coding Lab in 2022.",
+      "why": "They treat AR and VR as a stage for live bodies rather than a gadget, and 0AR is one of the earliest touring multi-user AR dance pieces.",
+      "links": {
+        "site": "https://aoiesteban.com",
+        "x": "https://twitter.com/AoiEsteban",
+        "instagram": "https://www.instagram.com/aoiesteban/",
+        "vimeo": "https://vimeo.com/aoiesteban",
+        "youtube": "https://www.youtube.com/channel/UCDs51cNkOo_5EhnA-WSg7EQ",
+        "github": ""
+      },
+      "role_zh": "沉浸式舞蹈团体与实验室；AR、VR 与 AI 驱动舞蹈作品的创作者",
+      "based_zh": "查塔姆，英国",
+      "bio_zh": "舞者兼编舞 Aoi Nakamura 与 Esteban Lecoq（均曾任职 Jasmin Vardimon Company）创立 AΦE，把舞蹈带进 VR（WHIST）、多人共享 AR（0AR）和 AI 驱动的 LED 装置（LILITH.AEON）；他们在查塔姆的 A+E Lab 于 2022 年举办了英国首届 Choreographic Coding Lab。",
+      "why_zh": "他们把 AR 和 VR 当作承载真实身体的舞台而不是炫技工具，0AR 是最早进行巡演的多人 AR 舞蹈作品之一。",
+      "connected_to": [
+        "motion-bank",
+        "mark-coniglio",
+        "gibson-martelli"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "frieder-weiss",
+      "name": "Frieder Weiss",
+      "role": "Interactive video designer and 'engineer in the arts'; creator of the EyeCon motion-tracking software",
+      "based": "Berlin, Germany",
+      "bio": "Software artist who since the mid-1990s has built camera-tracking systems that turn dancers' movement into live projected light and sound, from Palindrome's EyeCon pieces to Chunky Move's Glow and Mortal Engine and stage visuals for opera, circus and pop.",
+      "why": "Glow and Mortal Engine are the reference works for projection that reacts to the body in real time, the ancestor of every body-tracked AR effect.",
+      "links": {
+        "site": "https://frieder-weiss.de",
+        "x": "",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/frieder",
+        "youtube": "",
+        "github": ""
+      },
+      "role_zh": "交互影像设计师，自称“艺术里的工程师”；动作追踪软件 EyeCon 的作者",
+      "based_zh": "柏林，德国",
+      "bio_zh": "软件艺术家，自 1990 年代中期起开发摄像头追踪系统，把舞者的动作实时转化为投影光影和声音，作品从 Palindrome 的 EyeCon 系列，到 Chunky Move 的 Glow、Mortal Engine，再到歌剧、马戏和流行音乐的舞台视觉。",
+      "why_zh": "Glow 和 Mortal Engine 是“投影实时回应身体”的标杆作品，可以说是今天所有身体追踪 AR 特效的前身。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "mark-coniglio",
+      "name": "Mark Coniglio / Troika Ranch (with Dawn Stoppiello)",
+      "role": "Interactive dance-theatre company; Mark Coniglio created the Isadora media software and the MidiDancer sensor suit",
+      "based": "Portland / New York, US",
+      "bio": "Composer-programmer Mark Coniglio and choreographer Dawn Stoppiello founded Troika Ranch in 1994, making works in which sensor suits and live camera tracking let dancers trigger and shape video, sound and light; the tool Coniglio built for this, Isadora, became a standard in live media performance.",
+      "why": "They pioneered the dancer as the controller of the media on stage, and their tools and methods still shape how artists wire bodies to projections.",
+      "links": {
+        "site": "https://troikaranch.org",
+        "x": "",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/troikaranch",
+        "youtube": "https://www.youtube.com/@troikaranch",
+        "github": ""
+      },
+      "role_zh": "交互舞蹈剧场团体；Mark Coniglio 开发了媒体软件 Isadora 和传感舞衣 MidiDancer",
+      "based_zh": "波特兰 / 纽约，美国",
+      "bio_zh": "作曲家兼程序员 Mark Coniglio 与编舞 Dawn Stoppiello 于 1994 年创立 Troika Ranch，用传感舞衣和现场摄像头追踪让舞者触发并塑造影像、声音和灯光；Coniglio 为此开发的 Isadora 后来成为现场媒体表演的常用工具。",
+      "why_zh": "他们率先让舞者成为舞台媒体的“控制器”，他们的工具和方法至今仍影响着艺术家如何把身体和投影连在一起。",
+      "connected_to": [
+        "aoi-esteban",
+        "motion-bank"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "motion-bank",
+      "name": "Motion Bank / Choreographic Coding Lab",
+      "role": "Dance research project (Forsythe Company, now Hochschule Mainz) and the travelling Choreographic Coding Lab format",
+      "based": "Mainz, Germany",
+      "bio": "Motion Bank grew out of The Forsythe Company in 2010 to build digital dance scores and annotation tools; since 2013 its Choreographic Coding Labs have gathered coders and dancers in Frankfurt, Berlin, Melbourne, New York, Amsterdam, Chatham, London and elsewhere to prototype movement-driven software and art.",
+      "why": "The CCLs are a rare, recurring place where creative coders learn choreographic thinking, and many body-tracking and projection prototypes started there.",
+      "links": {
+        "site": "https://motionbank.org",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": "https://github.com/motionbank"
+      },
+      "role_zh": "舞蹈研究项目（源自 Forsythe Company，现属美因茨应用技术大学）及巡回举办的 Choreographic Coding Lab",
+      "based_zh": "美因茨，德国",
+      "bio_zh": "Motion Bank 于 2010 年从 The Forsythe Company 发展而来，研究数字舞谱和标注工具；2013 年起，它的 Choreographic Coding Lab 在法兰克福、柏林、墨尔本、纽约、阿姆斯特丹、查塔姆、伦敦等地召集程序员和舞者，一起做由动作驱动的软件与艺术原型。",
+      "why_zh": "CCL 是创意程序员系统学习编舞思维的少有场所，许多身体追踪和投影原型都诞生于此。",
+      "connected_to": [
+        "aoi-esteban",
+        "mark-coniglio",
+        "christian-mio-loclair",
+        "gibson-martelli"
+      ],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "gibson-martelli",
+      "name": "Gibson/Martelli (Ruth Gibson & Bruno Martelli)",
+      "role": "Artist duo working with motion capture, AR and VR dance",
+      "based": "London, UK",
+      "bio": "Choreographer Ruth Gibson and VR artist Bruno Martelli have worked since 2000 with motion capture and game engines, turning dance into AR prints (MAN A), room-scale VR and participatory mocap performances (DAZZLE, PAN+TILT, nino).",
+      "why": "They find playful formats for letting audiences dance with and inside captured choreography, from dazzle-camouflage AR prints to live avatar balls.",
+      "links": {
+        "site": "https://gibsonmartelli.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/gibsonmartelli",
+        "youtube": "https://www.youtube.com/@gibsonmartelli",
+        "github": ""
+      },
+      "role_zh": "以动作捕捉、AR 与 VR 舞蹈创作的艺术家二人组",
+      "based_zh": "伦敦，英国",
+      "bio_zh": "编舞 Ruth Gibson 与 VR 艺术家 Bruno Martelli 自 2000 年起用动作捕捉和游戏引擎创作，把舞蹈变成 AR 印刷品（MAN A）、房间尺度的 VR 和观众参与的动捕演出（DAZZLE、PAN+TILT、nino）。",
+      "why_zh": "他们不断发明好玩的形式，让观众与被捕捉下来的舞蹈共舞、甚至走进舞蹈内部，从迷彩图案 AR 印刷品到现场虚拟化身舞会。",
+      "connected_to": [
+        "aoi-esteban",
+        "motion-bank"
+      ],
+      "discovered_via": "aoi-esteban"
+    },
+    {
+      "id": "nicole-seiler",
+      "name": "Compagnie Nicole Seiler",
+      "role": "Choreographer and video artist; dance works built on projection, video games and audio walks",
+      "based": "Lausanne, Switzerland",
+      "bio": "Swiss choreographer Nicole Seiler makes dance pieces that pit the body against its image: projections mapped onto dancers (Pixel Babes, Shiver), video-game bodies in public space (K Two), dancers watched through city windows (Living-Room Dancers) and a geolocated smartphone audio walk (Palimpsest).",
+      "why": "Her pieces are clear, low-tech experiments in how projected or imagined images reshape a real body and a real place.",
+      "links": {
+        "site": "https://www.nicoleseiler.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "",
+        "youtube": "",
+        "github": ""
+      },
+      "role_zh": "编舞兼影像艺术家；作品以投影、电子游戏和声音漫步为基础",
+      "based_zh": "洛桑，瑞士",
+      "bio_zh": "瑞士编舞 Nicole Seiler 的作品让身体与自身的影像对峙：投影映射到舞者身上（Pixel Babes、Shiver），电子游戏式的身体出现在公共空间（K Two），观众透过城市窗户观看舞者（Living-Room Dancers），以及基于地理定位的手机声音漫步（Palimpsest）。",
+      "why_zh": "她的作品是清晰而低技术的实验，探讨投影或想象中的影像如何重塑真实的身体和真实的场所。",
+      "connected_to": [],
+      "discovered_via": "seed"
+    },
+    {
+      "id": "christian-mio-loclair",
+      "name": "Christian Mio Loclair / Waltz Binaire",
+      "role": "Dancer (Prince Mio), creative coder and founder of Waltz Binaire",
+      "based": "Berlin, Germany",
+      "bio": "Former popping battle dancer turned creative technologist who built Kinect-projector dance pieces and dance-game prototypes before founding the Berlin studio Waltz Binaire, whose Pathfinder came out of the Choreographic Coding Lab.",
+      "why": "He comes at body tracking from street dance, so his systems are designed around improvisation and flow rather than fixed choreography.",
+      "links": {
+        "site": "https://christianmioloclair.com",
+        "x": "",
+        "instagram": "",
+        "vimeo": "https://vimeo.com/waltzbinaire",
+        "youtube": "https://www.youtube.com/channel/UCKLmdfSf_aeVi6zx3ywFE5Q",
+        "github": ""
+      },
+      "role_zh": "舞者（Prince Mio）、创意程序员，Waltz Binaire 创始人",
+      "based_zh": "柏林，德国",
+      "bio_zh": "曾是 popping 斗舞舞者，后来成为创意技术人，先后做过 Kinect 加投影的舞蹈作品和舞蹈游戏原型，之后在柏林创立工作室 Waltz Binaire；其作品 Pathfinder 诞生于 Choreographic Coding Lab。",
+      "why_zh": "他从街舞出发做身体追踪，因此他的系统围绕即兴与律动来设计，而不是固定编舞。",
+      "connected_to": [
+        "motion-bank"
+      ],
+      "discovered_via": "motion-bank"
+    }
+  ],
+  "works": [
+    {
+      "id": "aoi-esteban--0ar",
+      "creator_ids": [
+        "aoi-esteban"
+      ],
+      "title": "0AR",
+      "year": 2018,
+      "description": "A set of short AR dance pieces drawn from Akram Khan and Sidi Larbi Cherkaoui's zero degrees: five audience members on connected tablets see the dancers pop up in 3D around a shared table and interact with one another in real time.",
+      "description_zh": "一组短小的 AR 舞蹈作品，素材来自 Akram Khan 与 Sidi Larbi Cherkaoui 的 zero degrees：五位观众手持联网平板，围着同一张桌子看见舞者以 3D 形式跳出来，并彼此实时互动。",
+      "idea_en": "Bring the collective liveness of a theatre audience into AR by making it a shared, co-located viewing.",
+      "idea_zh": "让 AR 观看变成多人同场共享，把剧场观众的集体现场感带进 AR。",
+      "technique": "Motion-captured dance (made with Mbryonic) is played back as 3D characters anchored to a shared tracking target, with five iPads synced over a local network so all viewers see the same moment.",
+      "technique_zh": "与 Mbryonic 合作动捕的舞蹈以 3D 角色回放，锚定在共享的追踪目标上；五台 iPad 通过局域网同步，让所有观众看到同一时刻。",
+      "exercise_en": "Record a 20-second dance with a phone mocap app, export it as an animated FBX, and place it on an image marker in AR Foundation so a small group can watch it together around one table. Twist: let each viewer's position cue a different dancer to enter.",
+      "exercise_zh": "用手机动捕 App 录一段 20 秒的舞蹈，导出为带动画的 FBX，用 AR Foundation 把它放在图像标记上，让几个人围着一张桌子一起观看；变体：根据每位观众所站的位置，触发不同舞者登场。",
+      "interaction": [
+        "performance-stage",
+        "multiplayer-social",
+        "tangible-object"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "ARKit",
+        "Unity",
+        "motion capture",
+        "iPad"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Iz_MevAUnEk"
+      },
+      "source_url": "https://aoiesteban.com/project/0ar/"
+    },
+    {
+      "id": "aoi-esteban--whist",
+      "creator_ids": [
+        "aoi-esteban"
+      ],
+      "title": "WHIST",
+      "year": 2017,
+      "description": "A one-hour physical-theatre installation where visitors move through a set of sculptural objects wearing VR headsets; where you look and which objects you approach choose which of 76 dream-like 360° scenes of a fictional family you see.",
+      "description_zh": "一小时的肢体剧场装置：观众戴着 VR 头显穿行于雕塑般的实体布景之间，你看向哪里、靠近哪件物体，决定了你会看到一个虚构家庭 76 段梦境式 360° 场景中的哪一段。",
+      "idea_en": "The audience's own attention and wandering assemble a personal cut of a Freudian dance story.",
+      "idea_zh": "观众自己的注意力和游走路径，剪辑出一部专属于他的弗洛伊德式舞蹈故事。",
+      "technique": "Physical props act as trigger zones and gaze targets that branch between pre-filmed 360° dance scenes with 3D sound, likely via positional tracking of each headset.",
+      "technique_zh": "实体道具充当触发区和注视目标，在预先拍摄的 360° 舞蹈场景与 3D 声音之间切换分支，很可能依靠对每台头显的位置追踪实现。",
+      "exercise_en": "Film three short 360° dance clips, then build a WebXR or Cardboard scene where gazing at a real object in the room for two seconds switches to the matching clip. Twist: make the branch depend on which object the viewer ignores.",
+      "exercise_zh": "拍三段短的 360° 舞蹈片段，再用 WebXR 或 Cardboard 搭一个场景：注视房间里某件真实物体两秒，就切换到对应片段；变体：让分支取决于观众“忽略了”哪件物体。",
+      "interaction": [
+        "performance-stage",
+        "gaze-attention",
+        "tangible-object"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "VR",
+        "360 video",
+        "spatial audio"
+      ],
+      "video": {
+        "url": "https://vimeo.com/799520099"
+      },
+      "source_url": "https://aoiesteban.com/project/whist/"
+    },
+    {
+      "id": "aoi-esteban--lilith-aeon",
+      "creator_ids": [
+        "aoi-esteban"
+      ],
+      "title": "LILITH.AEON",
+      "year": 2024,
+      "description": "A 60-minute installation inside a monumental LED cube where Lilith, a virtual dancer reincarnated from a cryogenically frozen child, responds to how visitors move around her with AI-generated choreography.",
+      "description_zh": "在巨型 LED 立方体内进行的 60 分钟装置：虚拟舞者 Lilith 是一个被冷冻保存的孩子的数字化身，她会根据观众在周围的走动，以 AI 生成的舞蹈作出回应。",
+      "idea_en": "A virtual being dances back at the crowd, so every visit becomes a new duet between people and an AI.",
+      "idea_zh": "虚拟生命对着人群起舞，每一次到访都成为人与 AI 之间的一段新双人舞。",
+      "technique": "Audience positions are tracked in the space and fed to a motion-generation model that blends motion-captured dance clips of the character on the LED walls, likely with camera or depth sensing.",
+      "technique_zh": "系统追踪观众在空间中的位置，输入动作生成模型，在 LED 墙上混合角色的动捕舞蹈片段，很可能使用摄像头或深度传感。",
+      "exercise_en": "Use MediaPipe in the browser to find where a viewer stands, and have a projected avatar pick from five mocap clips so it turns towards or away from them. Twist: the avatar only dances when two viewers stand still together.",
+      "exercise_zh": "在浏览器里用 MediaPipe 找出观众站立的位置，让投影出来的虚拟角色从五段动捕片段中挑选动作，转向或背离观众；变体：只有两名观众一起静止站立时，角色才开始跳舞。",
+      "interaction": [
+        "performance-stage",
+        "hand-body",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "LED cube",
+        "AI",
+        "motion capture",
+        "Unreal Engine"
+      ],
+      "video": {
+        "url": "https://vimeo.com/925210197"
+      },
+      "source_url": "https://aoiesteban.com/project/lilithaeon/"
+    },
+    {
+      "id": "motion-bank--ccl-a-e-lab-2022",
+      "creator_ids": [
+        "motion-bank",
+        "aoi-esteban"
+      ],
+      "title": "Choreographic Coding Lab at A+E Lab (CCL-14)",
+      "year": 2022,
+      "description": "Documentation of the UK's first Choreographic Coding Lab in Chatham, where about twenty coders and dancers spent a week prototyping mocap particles, projected visuals and Isadora patches with facilitators from Motion Bank, Troika Ranch and Studio Wayne McGregor.",
+      "description_zh": "记录在查塔姆举办的英国首届 Choreographic Coding Lab：约二十位程序员和舞者用一周时间，与来自 Motion Bank、Troika Ranch 和 Studio Wayne McGregor 的引导者一起，做出动捕粒子、投影视觉和 Isadora 补丁等原型。",
+      "idea_en": "A one-week lab format where code meets choreographic thinking, and dancers test prototypes on stage the same day.",
+      "idea_zh": "为期一周的实验室形式，让代码与编舞思维相遇，舞者当天就在舞台上测试原型。",
+      "technique": "Participants worked from Motion Bank mocap datasets and Piecemaker annotations, and with live mocap suits, Isadora and TouchDesigner-style tools to drive projections from movement.",
+      "technique_zh": "参与者使用 Motion Bank 的动捕数据集和 Piecemaker 标注，并结合现场动捕服、Isadora 以及类似 TouchDesigner 的工具，用动作驱动投影。",
+      "exercise_en": "Run a mini lab: pair each coder with a dancer, give them one mocap clip or webcam pose stream, and have each pair show a projected prototype within two hours. Twist: each pair must use one card from a choreographic prompt deck as its rule.",
+      "exercise_zh": "办一个迷你实验室：每位程序员与一位舞者组队，给他们一段动捕数据或一路摄像头姿态流，两小时内各组展示一个投影原型；变体：每组必须抽一张编舞提示卡，把它当作系统规则。",
+      "interaction": [
+        "performance-stage",
+        "hand-body",
+        "projection"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "motion capture",
+        "Isadora",
+        "Piecemaker"
+      ],
+      "video": {
+        "url": "https://vimeo.com/759923547"
+      },
+      "source_url": "https://aelab.uk/project/ccl/"
+    },
+    {
+      "id": "motion-bank--gravitacional",
+      "creator_ids": [
+        "motion-bank"
+      ],
+      "title": "Gravitacional (visiophone, CCL Frankfurt 2013)",
+      "year": 2013,
+      "description": "A prototype from the first Choreographic Coding Lab by visiophone (Rodrigo Carvalho): a field of particles is pulled by a central gravity and by two extra forces that follow the dancer's hands.",
+      "description_zh": "首届 Choreographic Coding Lab 上由 visiophone（Rodrigo Carvalho）做的原型：一片粒子受中心引力牵引，另外两股力跟随舞者的双手移动。",
+      "idea_en": "Turn the dancer's hands into gravity wells that sculpt a particle cloud.",
+      "idea_zh": "把舞者的双手变成引力井，用它们雕塑一团粒子云。",
+      "technique": "Hand positions from a depth camera become attractor or repeller forces in a particle simulation, projected as a performative visual system.",
+      "technique_zh": "深度摄像头获取的双手位置在粒子模拟中变成吸引力或排斥力，作为可表演的视觉系统投影出来。",
+      "exercise_en": "Track both hands with MediaPipe in p5.js and let each hand attract particles while a fixed centre pulls them back. Twist: closing a hand flips its force from attract to repel.",
+      "exercise_zh": "在 p5.js 里用 MediaPipe 追踪双手，让每只手吸引粒子，同时一个固定中心把粒子往回拉；变体：握拳时，这只手的力从吸引切换为排斥。",
+      "interaction": [
+        "hand-body",
+        "perception-art",
+        "projection"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "Kinect",
+        "particle system",
+        "Processing"
+      ],
+      "video": {
+        "url": "https://vimeo.com/81705600"
+      },
+      "source_url": "https://choreographiccoding.org"
+    },
+    {
+      "id": "motion-bank--momentum",
+      "creator_ids": [
+        "motion-bank"
+      ],
+      "title": "MOMENTUM (Schnelle Bunte Bilder & kling klang klong)",
+      "year": 2014,
+      "description": "An interactive system shown through the Choreographic Coding Lab in which a person and their surroundings dissolve into a fluid particle creature, and body movement generates sound and music.",
+      "description_zh": "通过 Choreographic Coding Lab 展示的交互系统：人和周围环境一起溶解成流动的粒子生物，身体动作同时生成声音与音乐。",
+      "idea_en": "Your body becomes a liquid creature whose motion is also the soundtrack.",
+      "idea_zh": "你的身体变成一只液态生物，它的运动同时就是配乐。",
+      "technique": "A depth camera's point cloud seeds a particle system while movement speed and position are mapped to generative sound, built by Schnelle Bunte Bilder with sound studio kling klang klong.",
+      "technique_zh": "深度摄像头的点云生成粒子系统，动作的速度和位置映射到生成式声音上；由 Schnelle Bunte Bilder 与声音工作室 kling klang klong 共同开发。",
+      "exercise_en": "Use a phone's LiDAR or a webcam depth model to turn a person into points, let the points drift with velocity, and map total movement to the volume of a synth. Twist: when the person freezes, the creature slowly forgets their shape.",
+      "exercise_zh": "用手机 LiDAR 或摄像头深度模型把人变成点云，让点随速度漂移，并把整体运动量映射到合成器的音量；变体：人一旦静止，这只生物就慢慢忘记他的形状。",
+      "interaction": [
+        "hand-body",
+        "voice-sound",
+        "perception-art"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "Kinect",
+        "particle system",
+        "generative sound"
+      ],
+      "video": {
+        "url": "https://vimeo.com/112193826"
+      },
+      "source_url": "https://choreographiccoding.org"
+    },
+    {
+      "id": "motion-bank--quality-visualizing-tool",
+      "creator_ids": [
+        "motion-bank"
+      ],
+      "title": "Quality Visualizing Tool (Kat Sullivan & Sergio Mora-Diaz, CCL 2015)",
+      "year": 2015,
+      "description": "A set of live programs from the 4th Choreographic Coding Lab that visualise different trackable qualities of a dancer, such as speed, expansion and flow, as graphics drawn around the body.",
+      "description_zh": "第四届 Choreographic Coding Lab 上完成的一组实时程序，把舞者可追踪的不同动作质感（如速度、伸展、流动）以围绕身体的图形呈现出来。",
+      "idea_en": "Make invisible movement qualities visible, one visual rule per quality.",
+      "idea_zh": "让看不见的动作质感变得可见，每一种质感对应一条视觉规则。",
+      "technique": "An Asus Xtion depth camera feeds skeleton data to Cinder sketches that compute features like velocity or body volume and draw them in real time.",
+      "technique_zh": "Asus Xtion 深度摄像头把骨架数据传给 Cinder 程序，计算速度、身体占据体积等特征并实时绘制。",
+      "exercise_en": "Pick three movement words (sharp, heavy, expansive), compute a simple metric for each from webcam pose data, and give each its own visual layer. Twist: let a dancer perform without knowing which word is being measured.",
+      "exercise_zh": "选三个动作词（尖锐、沉重、舒展），从摄像头姿态数据中为每个词算出一个简单指标，并各自对应一层视觉；变体：让舞者在不知道哪个词正被测量的情况下表演。",
+      "interaction": [
+        "hand-body",
+        "data-information",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop",
+        "projection"
+      ],
+      "tech": [
+        "Asus Xtion",
+        "Cinder",
+        "skeleton tracking"
+      ],
+      "video": {
+        "url": "https://vimeo.com/138653312"
+      },
+      "source_url": "http://katsully.com/choreographic-coding-lab/"
+    },
+    {
+      "id": "christian-mio-loclair--pathfinder",
+      "creator_ids": [
+        "christian-mio-loclair",
+        "motion-bank"
+      ],
+      "title": "Pathfinder",
+      "year": 2014,
+      "description": "A visual language that generates choreography: animated lines and paths on screen become instructions that dancers Raphael Hillebrand, Honji Wang and Christine Joy Alpuerto Ritter read and embody.",
+      "description_zh": "一种生成编舞的视觉语言：屏幕上的动画线条和路径成为指令，由舞者 Raphael Hillebrand、Honji Wang 和 Christine Joy Alpuerto Ritter 解读并用身体演绎。",
+      "idea_en": "Reverse the usual pipeline: the graphics lead and the dancers follow.",
+      "idea_zh": "把常规流程反过来：由图形带领，舞者跟随。",
+      "technique": "Generative path systems made with onformative are designed as a readable notation, so each visual behaviour (split, loop, spiral) maps to a movement task.",
+      "technique_zh": "与 onformative 合作开发的生成式路径系统被设计成可阅读的记谱法，每种视觉行为（分裂、回环、螺旋）都对应一项动作任务。",
+      "exercise_en": "Write a p5.js sketch that draws one evolving line, show it on a projector, and ask a volunteer to dance whatever the line does. Twist: add a second line and see whether two dancers start to relate.",
+      "exercise_zh": "写一个 p5.js 草图，画出一条不断变化的线，投影出来，请一位志愿者跟着线条的变化跳舞；变体：再加第二条线，看两位舞者是否开始产生关系。",
+      "interaction": [
+        "performance-stage",
+        "perception-art",
+        "drawing-creation"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "generative design",
+        "Processing"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=8Uh0aK3ATS8"
+      },
+      "source_url": "https://christianmioloclair.com/pathfinder"
+    },
+    {
+      "id": "frieder-weiss--glow",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "Glow (Chunky Move)",
+      "year": 2006,
+      "description": "A 27-minute solo for Chunky Move in which a dancer lies and writhes on a white floor while projections react to her body, outlining it, stretching light from her limbs and hunting her with shadows.",
+      "description_zh": "为 Chunky Move 创作的 27 分钟独舞：舞者在白色地面上躺卧、扭动，投影随她的身体实时变化，勾勒轮廓、从四肢拉出光线，又用阴影追逐她。",
+      "idea_en": "Light that behaves like a living skin, growing out of the body's silhouette.",
+      "idea_zh": "像活皮肤一样的光，从身体的轮廓里长出来。",
+      "technique": "An overhead infrared camera segments the dancer's silhouette and Weiss's EyeCon-derived software draws contours, particles and fields from it, projected back onto the floor from above with minimal latency.",
+      "technique_zh": "顶部红外摄像头分割出舞者的剪影，Weiss 基于 EyeCon 的软件据此绘制轮廓、粒子和场，再以极低延迟从上方投回地面。",
+      "exercise_en": "Mount a phone or webcam above a white sheet, segment the person lying on it, and project an outline that grows lines from their extremities. Twist: the light must slowly lag behind, like a memory of the pose.",
+      "exercise_zh": "把手机或摄像头架在一块白布上方，分割出躺在上面的人，投影出从肢体末端长出线条的轮廓；变体：让光慢慢滞后，像是对姿势的记忆。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "EyeCon",
+        "infrared camera",
+        "projector"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=C4He543_a80"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Glow.php"
+    },
+    {
+      "id": "frieder-weiss--mortal-engine",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "Mortal Engine (Chunky Move)",
+      "year": 2008,
+      "description": "A full-length piece for six dancers on a steep, dark stage where projections, lasers and sound respond to their movement, turning bodies into shifting, shimmering shapes that appear and dissolve.",
+      "description_zh": "六位舞者在陡峭而黑暗的斜台上演出的完整作品，投影、激光和声音随他们的动作响应，把身体变成不断变化、闪烁、时隐时现的形体。",
+      "idea_en": "Darkness as the default, with the body only existing where the computer chooses to light it.",
+      "idea_zh": "默认一片黑暗，身体只在计算机选择照亮的地方存在。",
+      "technique": "Infrared tracking of the dancers drives a projection-based lighting system that paints only their silhouettes and extends them with graphics, combined with Robin Fox's lasers and Ben Frost's reactive score.",
+      "technique_zh": "对舞者进行红外追踪，驱动以投影作为灯光的系统，只照亮他们的剪影并用图形延伸出去，结合 Robin Fox 的激光和 Ben Frost 的响应式配乐。",
+      "exercise_en": "In a dark room, use a projector as the only light and a webcam silhouette mask so light falls only on the performer. Twist: make the light expand into the empty space whenever the performer stops moving.",
+      "exercise_zh": "在暗室里把投影仪当成唯一光源，用摄像头剪影遮罩让光只落在表演者身上；变体：表演者一停止运动，光就向空处扩散。",
+      "interaction": [
+        "performance-stage",
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "infrared camera",
+        "projector",
+        "laser"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=sbjOMualLVs"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Mortal-Engine.php"
+    },
+    {
+      "id": "frieder-weiss--seine-hohle-form",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "...seine hohle Form...",
+      "year": 2000,
+      "description": "A Palindrome duet in which the music only exists while the dancers move: their positions and gestures in video-tracked zones trigger and shape real-time synthesis.",
+      "description_zh": "Palindrome 的一段双人舞，音乐只在舞者移动时才存在：他们在视频追踪区域中的位置和手势会触发并塑造实时合成的声音。",
+      "idea_en": "A piece of music that cannot be heard unless someone dances it.",
+      "idea_zh": "一首只有被跳出来才听得见的音乐。",
+      "technique": "Weiss's EyeCon video-tracking software defines trigger lines and fields on the camera image, sending movement data to Butch Rovan's Max/MSP synthesis patch.",
+      "technique_zh": "Weiss 的 EyeCon 视频追踪软件在摄像头画面上设置触发线和触发区，把动作数据发送给 Butch Rovan 的 Max/MSP 合成补丁。",
+      "exercise_en": "Divide a webcam image into four zones, and have movement in each zone play and bend a different sound in Max, Pure Data or Web Audio. Twist: the zones slowly drift, so the dancer must chase the music.",
+      "exercise_zh": "把摄像头画面分成四个区域，在 Max、Pure Data 或 Web Audio 里让每个区域的动作播放并扭曲不同的声音；变体：区域会缓慢漂移，舞者必须追着音乐跑。",
+      "interaction": [
+        "voice-sound",
+        "hand-body",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "EyeCon",
+        "Max/MSP",
+        "video tracking"
+      ],
+      "video": {
+        "url": "https://vimeo.com/8895552"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Seine-hohle-Form.php"
+    },
+    {
+      "id": "frieder-weiss--shadows",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "Shadows",
+      "year": 2003,
+      "description": "A shadow play for dancer Emily Fernandez in which her shadow is projected by the computer, so it can lag, speed up, mirror, change colour or detach from her.",
+      "description_zh": "为舞者 Emily Fernandez 创作的影子戏：她的影子由计算机投影生成，可以延迟、加速、镜像、变色，甚至脱离她的身体。",
+      "idea_en": "Your shadow stops obeying you.",
+      "idea_zh": "你的影子不再听你的话。",
+      "technique": "A camera captures the dancer's silhouette and the software re-projects it as a shadow with digital delays, time stretching, translation and mirroring.",
+      "technique_zh": "摄像头捕捉舞者剪影，软件再把它作为影子投回，并加入延迟、时间拉伸、位移和镜像等数字处理。",
+      "exercise_en": "Capture a silhouette with a webcam, store the last few seconds in a buffer, and project the delayed shadow next to the real one. Twist: the shadow copies you only when you are not looking at it.",
+      "exercise_zh": "用摄像头捕捉剪影，缓存最近几秒的画面，把延迟后的影子投在真实影子旁边；变体：只有你不看它的时候，影子才模仿你。",
+      "interaction": [
+        "perception-art",
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "EyeCon",
+        "video delay",
+        "projector"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=gm_doxsdqG4"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Shadows.php"
+    },
+    {
+      "id": "frieder-weiss--schlamp",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "Schlamp",
+      "year": 2003,
+      "description": "An interactive video installation made with Emily Fernandez for a virtual public square in Dresden, where visitors' movement smears and stirs projected video imagery.",
+      "description_zh": "与 Emily Fernandez 为德累斯顿一个虚拟公共广场创作的交互影像装置，观众的动作会涂抹、搅动投影出来的影像。",
+      "idea_en": "Let passers-by paint with their bodies on a projected surface.",
+      "idea_zh": "让路人在投影表面上用身体作画。",
+      "technique": "EyeCon motion sensing measures movement in the camera image and uses it to distort and blend video layers in real time.",
+      "technique_zh": "EyeCon 动作感应测量摄像头画面中的运动，并据此实时扭曲、混合多层视频。",
+      "exercise_en": "Compute frame differences from a webcam and use them as a mask that reveals a hidden video beneath a live one. Twist: the revealed areas heal back after ten seconds.",
+      "exercise_zh": "计算摄像头的帧间差，把它当作遮罩，在实时画面下方揭开一段隐藏的视频；变体：被揭开的区域十秒后会慢慢愈合。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "drawing-creation"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "EyeCon",
+        "motion sensing"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=2BKTlqt4GFA"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Schlamp.php"
+    },
+    {
+      "id": "frieder-weiss--flow",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "Flow",
+      "year": 2011,
+      "description": "An interactive floor-projection installation at the Cinedans Festival in Amsterdam where people walking and dancing across the floor set flowing visual fields in motion.",
+      "description_zh": "在阿姆斯特丹 Cinedans 电影舞蹈节展出的交互地面投影装置，人们在地面上行走、舞动，带动流动的视觉场。",
+      "idea_en": "The floor behaves like water that remembers every step.",
+      "idea_zh": "地面像水一样，记住每一步。",
+      "technique": "An overhead camera tracks bodies on the floor and injects their motion into a fluid-like simulation projected from above.",
+      "technique_zh": "顶部摄像头追踪地面上的人体，把他们的运动注入一个类似流体的模拟，再从上方投影下来。",
+      "exercise_en": "Point a projector and webcam at the floor, use frame differences as forces in a 2D fluid simulation, and let people walk through it. Twist: two people moving in sync create a calm zone.",
+      "exercise_zh": "把投影仪和摄像头对准地面，用帧间差作为二维流体模拟的力，让人们从中走过；变体：两个人同步移动时，会形成一片平静区域。",
+      "interaction": [
+        "projection",
+        "hand-body",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "floor projection",
+        "camera tracking",
+        "fluid simulation"
+      ],
+      "video": {
+        "url": "https://vimeo.com/41397711"
+      },
+      "source_url": "https://frieder-weiss.de"
+    },
+    {
+      "id": "frieder-weiss--kylie-get-outta-my-way",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "Kylie Minogue — Get Outta My Way",
+      "year": 2010,
+      "description": "A music video shot at Pinewood Studios where Kylie Minogue and dancers perform inside huge interactive projections that ripple, stretch and light up in response to their bodies.",
+      "description_zh": "在 Pinewood 影棚拍摄的音乐录影带，Kylie Minogue 和舞者们在巨大的交互投影中表演，投影随他们的身体泛起涟漪、拉伸并亮起。",
+      "idea_en": "Pop choreography shot live inside a responsive light set instead of adding effects in post.",
+      "idea_zh": "流行编舞直接在会回应的光影布景中实拍，而不是靠后期加特效。",
+      "technique": "Two stages with large projector rigs ran Weiss's real-time tracking visuals, reacting to the performers while an ARRI Alexa filmed the result in camera.",
+      "technique_zh": "两个摄影棚配置大型投影系统，运行 Weiss 的实时追踪视觉，随表演者变化，由 ARRI Alexa 直接在机内拍下效果。",
+      "exercise_en": "Film a 30-second phone music video where a projected pattern reacts to the dancer via webcam tracking, with no effects added afterwards. Twist: the projection only reacts to the beat when the dancer is on it.",
+      "exercise_zh": "拍一支 30 秒的手机音乐短片，投影图案通过摄像头追踪对舞者作出反应，拍完不加任何后期特效；变体：只有舞者踩在节拍上时，投影才会响应。",
+      "interaction": [
+        "performance-stage",
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projector",
+        "camera tracking"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=BHGaW8lBlSk"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Kylie.php"
+    },
+    {
+      "id": "frieder-weiss--butterfly-under-glass",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "Butterfly under Glass",
+      "year": 2015,
+      "description": "A music-dance-theatre piece for PODIUM Esslingen in which dancer Laurie Young moves inside an interactive video scenography by Weiss, alongside live soprano and ensemble.",
+      "description_zh": "为 PODIUM Esslingen 创作的音乐舞蹈剧场：舞者 Laurie Young 在 Weiss 设计的交互影像舞台中舞动，与现场女高音和乐团同台。",
+      "idea_en": "A dancer pinned like a specimen inside living, reactive images.",
+      "idea_zh": "舞者像标本一样被“钉”在会反应的活影像里。",
+      "technique": "Likely camera tracking of the dancer drives projected imagery around and on her body in real time, as in Weiss's other stage work.",
+      "technique_zh": "很可能与 Weiss 的其他舞台作品一样，用摄像头追踪舞者，实时驱动她身体周围和身上的投影影像。",
+      "exercise_en": "Project a grid of butterfly shapes onto a wall, and use webcam pose tracking so they freeze when a performer's hand comes near. Twist: they flutter again only when the music gets quiet.",
+      "exercise_zh": "在墙上投影一片蝴蝶图形，用摄像头姿态追踪让表演者的手靠近时蝴蝶静止不动；变体：只有音乐变轻时，它们才会重新扇动翅膀。",
+      "interaction": [
+        "performance-stage",
+        "projection",
+        "voice-sound"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "interactive video",
+        "projector"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=GiSOWS9XQmM"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Butterfly.php"
+    },
+    {
+      "id": "frieder-weiss--du-liebe",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "Du, Liebe",
+      "year": 2011,
+      "description": "A chamber dance opera with dancer Eva Maria Christ and a countertenor, staged inside Weiss's projected visual stage that frames and reshapes the performers.",
+      "description_zh": "一部室内舞蹈歌剧，舞者 Eva Maria Christ 与一位假声男高音在 Weiss 设计的投影视觉舞台中演出，影像为表演者勾勒边框并改变其形态。",
+      "idea_en": "Projection mapping that follows people instead of buildings.",
+      "idea_zh": "跟随人而不是建筑的投影映射。",
+      "technique": "Mapped projection onto the set and performers, likely combined with camera tracking so graphics stay registered to the moving dancer.",
+      "technique_zh": "在布景和表演者身上做投影映射，很可能结合摄像头追踪，让图形始终贴合移动中的舞者。",
+      "exercise_en": "Map a projector onto a white box and a person standing next to it, then use pose tracking so a projected frame follows the person's torso. Twist: the frame refuses to follow when the singer's voice is loud.",
+      "exercise_zh": "把投影映射到一个白色箱子和站在旁边的人身上，再用姿态追踪让投影出的边框跟随人的躯干；变体：歌声很响时，边框拒绝跟随。",
+      "interaction": [
+        "projection",
+        "performance-stage",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping",
+        "camera tracking"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=nZojuHerXR4"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Liebe.php"
+    },
+    {
+      "id": "frieder-weiss--durers-dog",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "Dürer's Dog (Ballett Nürnberg)",
+      "year": 2017,
+      "description": "A ballet by Goyo Montero about Albrecht Dürer for Staatstheater Nürnberg, with Weiss's digital scenography projecting engraving-like imagery that shifts with the ensemble.",
+      "description_zh": "Goyo Montero 为纽伦堡国家剧院创作的关于 Albrecht Dürer 的芭蕾，Weiss 的数字舞美投影出版画般的影像，随群舞变化。",
+      "idea_en": "A painter's etchings come alive as a stage that moves with the dancers.",
+      "idea_zh": "画家的蚀刻版画活了过来，变成随舞者而动的舞台。",
+      "technique": "Large-scale stage projection of generated, print-like graphics, likely partly driven by live tracking of the dancers.",
+      "technique_zh": "大尺度舞台投影生成的版画风格图形，很可能部分由对舞者的实时追踪驱动。",
+      "exercise_en": "Take a public-domain engraving, split it into line layers, and project them so a dancer's position reveals or erases lines. Twist: the dancer can only reveal the drawing by standing still.",
+      "exercise_zh": "选一幅公有领域的版画，把线条拆成多层，投影出来，让舞者的位置显现或擦除线条；变体：舞者只有静止站立时才能让画面显现。",
+      "interaction": [
+        "performance-stage",
+        "projection",
+        "perception-art"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "digital scenography",
+        "projector"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=wopUITjQCVo"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Duerer.php"
+    },
+    {
+      "id": "frieder-weiss--dummy-lab",
+      "creator_ids": [
+        "frieder-weiss"
+      ],
+      "title": "DUMMY lab",
+      "year": 2011,
+      "description": "A circus show by Eike von Stuckenbrok and Markus Pabst where an acrobat performs with a live soundtrack by Reecode inside Weiss's reactive video installation.",
+      "description_zh": "Eike von Stuckenbrok 与 Markus Pabst 的马戏演出：杂技演员在 Weiss 的反应式影像装置中表演，由 Reecode 现场配乐。",
+      "idea_en": "Acrobatics against a wall of light that answers every fall and lift.",
+      "idea_zh": "杂技演员面对一堵光墙，每一次跌落和托举都得到它的回应。",
+      "technique": "Real-time camera tracking of the acrobat feeds generative video projected behind and onto him, likely synchronised with the live electronic music.",
+      "technique_zh": "对杂技演员进行实时摄像头追踪，驱动投影在他身后和身上的生成影像，很可能与现场电子音乐同步。",
+      "exercise_en": "Track a jumper with a webcam and project a trail that records the height of every jump on the wall. Twist: the trail becomes a staircase the performer tries to climb.",
+      "exercise_zh": "用摄像头追踪一个人跳跃，在墙上投影出记录每次跳跃高度的轨迹；变体：轨迹变成一段楼梯，表演者要试着“爬上去”。",
+      "interaction": [
+        "performance-stage",
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "camera tracking",
+        "projector",
+        "live music"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=FnbvSRylnPs"
+      },
+      "source_url": "https://frieder-weiss.de/works/all/Dummy2018.php"
+    },
+    {
+      "id": "mark-coniglio--in-plane",
+      "creator_ids": [
+        "mark-coniglio"
+      ],
+      "title": "In Plane",
+      "year": 1994,
+      "description": "A duet between dancer Dawn Stoppiello and her video double: sensors on her joints let her control the music, recall video images, change the lighting and slide a robotic projector along the stage.",
+      "description_zh": "舞者 Dawn Stoppiello 与自己的影像分身之间的双人舞：她关节上的传感器让她能控制音乐、调出影像、改变灯光，并让一台机器人投影仪沿舞台滑动。",
+      "idea_en": "The dancer's joints are the mixing desk for the whole stage.",
+      "idea_zh": "舞者的关节就是整个舞台的调音台。",
+      "technique": "The MidiDancer suit has eight flex sensors at elbows, wrists, hips and knees that send MIDI wirelessly to a computer controlling sound, LaserDisc video playback and a projector on a track.",
+      "technique_zh": "MidiDancer 舞衣在肘、腕、髋、膝装有八个弯曲传感器，把 MIDI 信号无线发送给计算机，控制声音、LaserDisc 影像播放和轨道上的投影仪。",
+      "exercise_en": "Tape a phone to a forearm, read its accelerometer in a web page, and map arm bend to video playback speed and a light's brightness. Twist: the video plays backwards when the arm moves away from the body.",
+      "exercise_zh": "把手机绑在前臂上，在网页中读取加速度计，把手臂弯曲程度映射到视频播放速度和灯光亮度；变体：手臂远离身体时，视频倒放。",
+      "interaction": [
+        "hand-body",
+        "performance-stage",
+        "projection"
+      ],
+      "platform": [
+        "wearable",
+        "projection"
+      ],
+      "tech": [
+        "MidiDancer",
+        "flex sensors",
+        "MIDI",
+        "LaserDisc"
+      ],
+      "video": {
+        "url": "https://vimeo.com/115681934"
+      },
+      "source_url": "https://troikaranch.org/portfolio-item/in-plane/"
+    },
+    {
+      "id": "mark-coniglio--reine-rien",
+      "creator_ids": [
+        "mark-coniglio"
+      ],
+      "title": "Reine Rien",
+      "year": 2001,
+      "description": "An abstract piece inspired by Midwestern flatlands where dancing brings up projected trees, water and virtual rainfall, and when the dancers stop and make small gestures the images and voices fade away.",
+      "description_zh": "一部受美国中西部平原启发的抽象作品：舞蹈唤出投影的树、水和虚拟雨，当舞者停下来做细小动作时，影像和声音随之消散。",
+      "idea_en": "Dancing makes weather; stillness makes silence.",
+      "idea_zh": "舞动就会下雨，静止就归于寂静。",
+      "technique": "Movement sensing (likely MidiDancer and camera tracking) drives Coniglio's Isadora patches that crossfade landscape video and sound according to the dancers' activity.",
+      "technique_zh": "动作感应（很可能是 MidiDancer 加摄像头追踪）驱动 Coniglio 的 Isadora 补丁，根据舞者的活跃程度交叉淡化风景影像和声音。",
+      "exercise_en": "Measure overall motion from a webcam and use it to control the density of projected rain particles and a rain sound. Twist: the smallest gesture makes lightning.",
+      "exercise_zh": "从摄像头测量整体运动量，用它控制投影雨滴粒子的密度和雨声大小；变体：最细微的手势会引发闪电。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "voice-sound"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Isadora",
+        "MidiDancer",
+        "video"
+      ],
+      "video": {
+        "url": "https://vimeo.com/111764665"
+      },
+      "source_url": "https://troikaranch.org/portfolio-item/reine-rien/"
+    },
+    {
+      "id": "mark-coniglio--future-of-memory",
+      "creator_ids": [
+        "mark-coniglio"
+      ],
+      "title": "Future of Memory",
+      "year": 2003,
+      "description": "A Bessie Award-winning piece in which four characters re-live memories while live video of their bodies is captured, looped, fragmented and replayed on stage, showing how recall rewrites the past.",
+      "description_zh": "获得 Bessie 奖的作品：四个角色重温记忆，同时他们身体的现场影像被捕捉、循环、切碎并在舞台上重放，呈现回忆如何改写过去。",
+      "idea_en": "Live video as memory: what the camera keeps is distorted each time it is replayed.",
+      "idea_zh": "把实时影像当作记忆：摄像机留下的东西每次重放都会走样。",
+      "technique": "Live cameras feed Isadora, where movement sensing triggers recording, looping and processing of the captured footage projected behind the performers.",
+      "technique_zh": "现场摄像机接入 Isadora，由动作感应触发对画面的录制、循环和处理，再投影到表演者身后。",
+      "exercise_en": "Build a TouchDesigner or browser tool that records five seconds of webcam video whenever a person raises both arms and replays it with more glitch each time. Twist: the audience decides which memory gets deleted.",
+      "exercise_zh": "用 TouchDesigner 或浏览器做一个工具：人举起双臂时录下五秒摄像头画面，之后每次重放都加入更多故障效果；变体：由观众决定删除哪一段记忆。",
+      "interaction": [
+        "performance-stage",
+        "perception-art",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Isadora",
+        "live video",
+        "projector"
+      ],
+      "video": {
+        "url": "https://vimeo.com/112552170"
+      },
+      "source_url": "https://troikaranch.org/portfolio-item/future-of-memory/"
+    },
+    {
+      "id": "mark-coniglio--surfacing",
+      "creator_ids": [
+        "mark-coniglio"
+      ],
+      "title": "Surfacing",
+      "year": 2004,
+      "description": "Onstage cameras capture the dancers and trap their images inside a three-storey video screen, where their doubles fall in slow motion while the real bodies move freely below.",
+      "description_zh": "舞台上的摄像机捕捉舞者，把他们的影像“困”在三层楼高的屏幕里，影像分身在其中慢动作坠落，而真实的身体在下方自由移动。",
+      "idea_en": "Your image is confined while your body is free, so which one are you?",
+      "idea_zh": "影像被囚禁，身体却自由，你究竟是哪一个？",
+      "technique": "Live camera feeds are processed in Isadora (time-stretching, cropping, scaling) and projected at architectural scale in sync with the choreography.",
+      "technique_zh": "现场摄像画面在 Isadora 中处理（时间拉伸、裁切、缩放），再与编舞同步投影成建筑尺度。",
+      "exercise_en": "Point a webcam at a performer, crop their image into a narrow projected box, and slow it to half speed. Twist: the box shrinks every time the performer leaves the camera's view.",
+      "exercise_zh": "用摄像头对准表演者，把画面裁进一个狭窄的投影框里，并放慢到半速；变体：表演者每离开一次镜头，框就缩小一点。",
+      "interaction": [
+        "perception-art",
+        "projection",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Isadora",
+        "live camera",
+        "projector"
+      ],
+      "video": {
+        "url": "https://vimeo.com/111712677"
+      },
+      "source_url": "https://troikaranch.org/portfolio-item/surfacing/"
+    },
+    {
+      "id": "mark-coniglio--16-revolutions",
+      "creator_ids": [
+        "mark-coniglio"
+      ],
+      "title": "16 [R]evolutions",
+      "year": 2006,
+      "description": "Four characters caught between animal and intellect are tracked by live cameras, and their movements generate real-time 3D imagery and sound that grow, trail and mutate around them.",
+      "description_zh": "四个在动物性与理性之间挣扎的角色被现场摄像机追踪，他们的动作实时生成 3D 影像与声音，在他们周围生长、拖尾、变形。",
+      "idea_en": "Each gesture leaves a living 3D trace that becomes part of the set.",
+      "idea_zh": "每一个动作都留下一道活的 3D 痕迹，成为布景的一部分。",
+      "technique": "Camera tracking of body points feeds Isadora and custom 3D rendering so dancers interactively manipulate the video and audio, as explained in the company's technology clip.",
+      "technique_zh": "对身体关键点的摄像头追踪数据输入 Isadora 和定制的 3D 渲染，让舞者交互式地操控影像与音频（舞团的技术短片有详细说明）。",
+      "exercise_en": "Track one wrist with MediaPipe and draw a 3D ribbon in Three.js that follows it and never disappears, projected behind the dancer. Twist: ribbons from two dancers merge when they touch.",
+      "exercise_zh": "用 MediaPipe 追踪一只手腕，在 Three.js 中画出一条跟随它、永不消失的 3D 丝带，并投影在舞者身后；变体：两位舞者相碰时，他们的丝带融为一体。",
+      "interaction": [
+        "hand-body",
+        "drawing-creation",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Isadora",
+        "camera tracking",
+        "3D graphics"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=LJ3_AOBX6TM"
+      },
+      "source_url": "https://troikaranch.org/portfolio-item/16-revolutions/"
+    },
+    {
+      "id": "mark-coniglio--loopdiver",
+      "creator_ids": [
+        "mark-coniglio"
+      ],
+      "title": "loopdiver",
+      "year": 2009,
+      "description": "A six-minute dance was videotaped and cut by software into a 60-minute score of loops, which the dancers then re-perform live with machine precision alongside looping video, sound and light.",
+      "description_zh": "一段六分钟的舞蹈被录像，并由软件剪成长达 60 分钟的循环舞谱，舞者随后以机器般的精确在现场重演，同步循环的还有影像、声音和灯光。",
+      "idea_en": "Humans perform an edit made by a computer, glitches and all.",
+      "idea_zh": "人类去表演一段由计算机剪辑出来的作品，连故障一起。",
+      "technique": "A custom looping tool turned the recorded performance into a timeline of repeated fragments, which became the choreographic score and cued synchronised media.",
+      "technique_zh": "定制的循环工具把录下的演出变成由重复片段组成的时间线，它既是编舞的舞谱，也用来触发同步的媒体。",
+      "exercise_en": "Record 20 seconds of improvisation, write a script that cuts it into random short loops, and have the dancer learn and perform the new sequence. Twist: project the loop behind the dancer so the audience can spot every mistake.",
+      "exercise_zh": "录下 20 秒的即兴舞蹈，写个脚本把它随机切成短循环，再让舞者学会并表演这段新序列；变体：把循环视频投在舞者身后，让观众找出每一处失误。",
+      "interaction": [
+        "performance-stage",
+        "perception-art",
+        "projection"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Isadora",
+        "video looping"
+      ],
+      "video": {
+        "url": "https://vimeo.com/15062917"
+      },
+      "source_url": "https://troikaranch.org/portfolio-item/loopdiver/"
+    },
+    {
+      "id": "mark-coniglio--swarm",
+      "creator_ids": [
+        "mark-coniglio"
+      ],
+      "title": "SWARM",
+      "year": 2014,
+      "description": "An immersive installation-performance where simple projected visual cues call the audience into action, and only when the crowd coordinates and moves together does the piece reveal its full arc.",
+      "description_zh": "沉浸式装置演出：简单的投影视觉提示召唤观众行动，只有当人群彼此协调、一起移动时，作品才会展现完整的叙事。",
+      "idea_en": "The audience is the dance company, and the piece only progresses through collective action.",
+      "idea_zh": "观众就是舞团，只有集体行动才能推动作品前进。",
+      "technique": "Projected instructions and visual stimuli are driven by Isadora, likely with camera sensing of crowd position to decide when the group has completed a task.",
+      "technique_zh": "投影指令和视觉刺激由 Isadora 驱动，很可能用摄像头感测人群位置，判断群体是否完成了任务。",
+      "exercise_en": "Project three coloured circles on the floor and use an overhead webcam to count people in each; the next scene starts only when every circle holds the same number. Twist: nobody is allowed to speak.",
+      "exercise_zh": "在地面投影三个彩色圆圈，用顶部摄像头统计每个圆里的人数，只有每个圆的人数都相同时才进入下一场景；变体：任何人都不许说话。",
+      "interaction": [
+        "multiplayer-social",
+        "projection",
+        "game-play"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Isadora",
+        "projection",
+        "camera tracking"
+      ],
+      "video": {
+        "url": "https://vimeo.com/86373749"
+      },
+      "source_url": "https://troikaranch.org/portfolio-item/swarm/"
+    },
+    {
+      "id": "gibson-martelli--man-a",
+      "creator_ids": [
+        "gibson-martelli"
+      ],
+      "title": "MAN A",
+      "year": 2014,
+      "description": "Large dazzle-camouflage wall prints that look flat until visitors scan them with a mobile app, revealing motion-captured dancers performing in AR on and around the pattern; shown at Selfridges and won a Lumen Prize Gold Award.",
+      "description_zh": "大幅“炫目迷彩”墙面印刷品，乍看是平面图案，观众用手机 App 扫描后，动作捕捉的舞者就在图案上和周围以 AR 形式起舞；曾在 Selfridges 展出，并获 Lumen Prize 金奖。",
+      "idea_en": "Camouflage that hides dancers until a phone reveals them.",
+      "idea_zh": "把舞者藏起来的迷彩，只有手机能让他们现身。",
+      "technique": "The dazzle patterns double as image-tracking markers, and the app anchors mocap-animated characters to them.",
+      "technique_zh": "炫目迷彩图案同时充当图像追踪标记，App 把动捕驱动的角色锚定在上面。",
+      "exercise_en": "Design a black-and-white geometric poster, register it as an image target in Lens Studio or AR Foundation, and attach a Mixamo dance to it. Twist: each fragment of the pattern reveals a different body part.",
+      "exercise_zh": "设计一张黑白几何海报，在 Lens Studio 或 AR Foundation 中把它注册为图像目标，再挂上一段 Mixamo 舞蹈；变体：图案的每个碎片只显现身体的一个部位。",
+      "interaction": [
+        "tangible-object",
+        "performance-stage",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "image tracking",
+        "motion capture",
+        "Unity"
+      ],
+      "video": {
+        "url": "https://vimeo.com/478965016"
+      },
+      "source_url": "https://gibsonmartelli.com/portfolio/man-a/"
+    },
+    {
+      "id": "gibson-martelli--man-a-vr",
+      "creator_ids": [
+        "gibson-martelli"
+      ],
+      "title": "MAN A VR",
+      "year": 2015,
+      "description": "A room-scale VR piece that pushes the viewer into the computer space of the MAN A dancers, surrounding them with choreographed avatars in dazzle-patterned bodies.",
+      "description_zh": "房间尺度的 VR 作品，把观众推进 MAN A 舞者所在的“计算机空间”，被身披炫目迷彩的编舞化身环绕。",
+      "idea_en": "Step inside the camouflage and be surrounded by dancers you can walk among.",
+      "idea_zh": "走进迷彩内部，在可以穿行其间的舞者中间。",
+      "technique": "Motion-captured choreography is played back on stylised avatars in a game engine, viewed through a room-scale headset or a customised mobile viewer.",
+      "technique_zh": "动作捕捉的编舞在游戏引擎中以风格化化身回放，观众通过房间尺度头显或定制的手机观看器体验。",
+      "exercise_en": "Place three looping mocap dancers around the origin of a WebXR scene and give them a bold two-colour material. Twist: dancers only move when the viewer is not looking at them.",
+      "exercise_zh": "在 WebXR 场景原点周围放三个循环播放的动捕舞者，给他们一个醒目的双色材质；变体：只有观众不看他们时，舞者才会动。",
+      "interaction": [
+        "performance-stage",
+        "gaze-attention",
+        "portal-world"
+      ],
+      "platform": [
+        "headset",
+        "phone"
+      ],
+      "tech": [
+        "VR",
+        "motion capture",
+        "Unity"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=45BOhBSF_U4"
+      },
+      "source_url": "https://gibsonmartelli.com/portfolio/man-a-vr/"
+    },
+    {
+      "id": "gibson-martelli--dazzle",
+      "creator_ids": [
+        "gibson-martelli"
+      ],
+      "title": "DAZZLE: A Re-assembly of Bodies",
+      "year": 2020,
+      "description": "A participatory VR dance ball inspired by the 1919 Chelsea Arts Club Dazzle Ball: visitors in zero-waste costumes are motion-captured and dance as avatars alongside live performers in mocap suits.",
+      "description_zh": "受 1919 年切尔西艺术俱乐部“炫目舞会”启发的参与式 VR 舞会：身着零浪费服装的观众被动作捕捉，以化身形式与穿着动捕服的现场舞者一起跳舞。",
+      "idea_en": "A ball where everyone, audience included, dances as a live avatar.",
+      "idea_zh": "一场舞会，包括观众在内的每个人都以实时化身起舞。",
+      "technique": "Live optical motion capture streams performers and visitors into a shared real-time VR world, with a virtual camera recording the event.",
+      "technique_zh": "现场光学动作捕捉把表演者和观众的动作实时传入共享的 VR 世界，并由虚拟摄像机记录全过程。",
+      "exercise_en": "Stream two people's webcam poses into one shared web scene as abstract avatars, and play music so they dance together remotely. Twist: each avatar wears the other person's colours.",
+      "exercise_zh": "把两个人的摄像头姿态实时传到同一个网页场景里，以抽象化身呈现，放音乐让他们远程共舞；变体：每个化身都穿着对方的颜色。",
+      "interaction": [
+        "multiplayer-social",
+        "hand-body",
+        "performance-stage"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "motion capture",
+        "VR",
+        "Unreal Engine"
+      ],
+      "video": {
+        "url": "https://vimeo.com/868428016"
+      },
+      "source_url": "https://gibsonmartelli.com/portfolio/dazzle/"
+    },
+    {
+      "id": "gibson-martelli--pan-tilt",
+      "creator_ids": [
+        "gibson-martelli"
+      ],
+      "title": "PAN+TILT",
+      "year": 2022,
+      "description": "A VR experience for two visitors inspired by Joan Skinner's Releasing Technique, in which motion capture and machine learning turn visitors' movement into exploration of a holographic landscape; shown at the BFI London Film Festival Expanded.",
+      "description_zh": "受 Joan Skinner 释放技巧启发、供两位观众同时体验的 VR 作品，动作捕捉和机器学习把观众的动作变成对全息风景的探索；曾在 BFI 伦敦电影节 Expanded 单元展出。",
+      "idea_en": "Use a somatic dance technique as the controller for a virtual world.",
+      "idea_zh": "用一种身心舞蹈技巧作为虚拟世界的控制器。",
+      "technique": "Visitors are motion-captured and their movement qualities, classified with machine learning, change how the Unreal environment responds.",
+      "technique_zh": "观众被动作捕捉，他们的动作质感由机器学习分类，进而改变 Unreal 环境的反应方式。",
+      "exercise_en": "Write three Skinner-style spoken prompts, train a Teachable Machine pose model on how people respond to each, and let the detected class change a WebXR landscape. Twist: the landscape only answers slow movement.",
+      "exercise_zh": "写三条 Skinner 风格的口语提示，用 Teachable Machine 训练一个姿态模型，识别人们对每条提示的反应，并让识别结果改变 WebXR 风景；变体：风景只回应缓慢的动作。",
+      "interaction": [
+        "hand-body",
+        "multiplayer-social",
+        "portal-world"
+      ],
+      "platform": [
+        "headset"
+      ],
+      "tech": [
+        "motion capture",
+        "machine learning",
+        "Unreal Engine",
+        "VR"
+      ],
+      "video": {
+        "url": "https://vimeo.com/758291757"
+      },
+      "source_url": "https://gibsonmartelli.com/portfolio/pantilt/"
+    },
+    {
+      "id": "gibson-martelli--wow-flutter",
+      "creator_ids": [
+        "gibson-martelli"
+      ],
+      "title": "WOW+FLUTTER",
+      "year": 2024,
+      "description": "A dual-site performance linking dancers in the North and South East of England, where AI-designed non-human avatars are animated live by the dancers via mocap and shown with video, virtual environments and live music.",
+      "description_zh": "连接英格兰北部与东南部两地舞者的双场地演出：由 AI 设计的非人类化身通过动捕由舞者实时驱动，并结合视频、虚拟环境和现场音乐呈现。",
+      "idea_en": "Dancers in two cities share one body of non-human avatars.",
+      "idea_zh": "两座城市的舞者共用一群非人类化身的身体。",
+      "technique": "Avatars generated from Midjourney prompts are modelled and rigged, then driven by live motion capture streamed between sites over a 10 Gb link into Unreal.",
+      "technique_zh": "由 Midjourney 提示生成的化身被建模、绑定，再由两地之间经 10 Gb 链路实时传输的动作捕捉数据在 Unreal 中驱动。",
+      "exercise_en": "Generate a creature image with an AI tool, rig it with Mixamo, and drive it with a webcam pose stream from a partner in another room. Twist: each partner controls only half of the creature.",
+      "exercise_zh": "用 AI 工具生成一个生物形象，用 Mixamo 绑定，再用另一个房间里搭档的摄像头姿态流驱动它；变体：两位搭档各自只控制生物的一半身体。",
+      "interaction": [
+        "multiplayer-social",
+        "performance-stage",
+        "hand-body"
+      ],
+      "platform": [
+        "projection",
+        "desktop"
+      ],
+      "tech": [
+        "motion capture",
+        "Unreal Engine",
+        "Midjourney"
+      ],
+      "video": {
+        "url": "https://vimeo.com/1018110955"
+      },
+      "source_url": "https://gibsonmartelli.com/portfolio/wowandflutter/"
+    },
+    {
+      "id": "gibson-martelli--nino",
+      "creator_ids": [
+        "gibson-martelli"
+      ],
+      "title": "nino",
+      "year": 2025,
+      "description": "A performance at Trafó Budapest in which dancers and then audience members animate avatars in surreal landscapes, captured without suits by an AI camera so anyone can step in and move a character.",
+      "description_zh": "在布达佩斯 Trafó 的演出：先是舞者、后是观众驱动超现实风景中的化身，由 AI 摄像头无需动捕服即可捕捉，任何人都能走进来操控一个角色。",
+      "idea_en": "Suit-free mocap turns every visitor into a puppeteer of a dreamlike avatar.",
+      "idea_zh": "无需动捕服的动作捕捉，让每位观众都成为梦幻化身的操偶师。",
+      "technique": "Markerless AI motion capture (RADiCAL) streams audience poses into Unreal Engine avatars projected on large vertical screens.",
+      "technique_zh": "无标记 AI 动作捕捉（RADiCAL）把观众姿态实时传入 Unreal Engine 化身，投映在大型竖幅屏幕上。",
+      "exercise_en": "Use a webcam pose model to drive a rigged character projected on a wall, and invite passers-by to take over. Twist: the avatar keeps the last visitor's habits for a few seconds after they leave.",
+      "exercise_zh": "用摄像头姿态模型驱动投在墙上的绑定角色，邀请路人轮流接管；变体：上一位观众离开后，化身还会保留他的动作习惯几秒钟。",
+      "interaction": [
+        "hand-body",
+        "multiplayer-social",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "RADiCAL",
+        "markerless motion capture",
+        "Unreal Engine"
+      ],
+      "video": {
+        "url": "https://vimeo.com/1081511795"
+      },
+      "source_url": "https://gibsonmartelli.com/portfolio/nino/"
+    },
+    {
+      "id": "nicole-seiler--madame-k",
+      "creator_ids": [
+        "nicole-seiler"
+      ],
+      "title": "Madame K",
+      "year": 2004,
+      "description": "A multimedia solo where Madame K, a woman who wants to escape her imperfect body, is shaped and disguised by video projections that fall on her and around her.",
+      "description_zh": "一部多媒体独舞：想要逃离自己不完美身体的 Madame K，被落在她身上和周围的影像投影塑造、伪装。",
+      "idea_en": "Projection as make-up: the image a body wants to show versus the body itself.",
+      "idea_zh": "把投影当作化妆：身体想展示的形象与身体本身之间的对峙。",
+      "technique": "Pre-edited video is projected onto the performer and set, with choreography timed so her body fits into or breaks out of the projected shapes.",
+      "technique_zh": "预先剪辑好的影像投射到表演者和布景上，编舞精确卡点，让她的身体嵌入或挣脱投影出来的形状。",
+      "exercise_en": "Project a filmed face or outfit onto a volunteer standing in a fixed spot, and choreograph 30 seconds of fitting in and slipping out of it. Twist: the projection is of a different person.",
+      "exercise_zh": "把拍好的一张脸或一套服装投到站在固定位置的志愿者身上，编排 30 秒“贴合”与“滑出”的动作；变体：投影的是另一个人。",
+      "interaction": [
+        "projection",
+        "performance-stage",
+        "face"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "video projection"
+      ],
+      "video": {
+        "url": "https://vimeo.com/190536002"
+      },
+      "source_url": "https://www.nicoleseiler.com/en/projects/madame-k/"
+    },
+    {
+      "id": "nicole-seiler--dolls-dolls-live",
+      "creator_ids": [
+        "nicole-seiler"
+      ],
+      "title": "Dolls/Dolls Live",
+      "year": 2005,
+      "description": "A walk-through video installation where filmed dancing dolls and creatures appear as ghostly projections in the dark; in the live version two real dancers step into the installation alongside their projected doubles.",
+      "description_zh": "一个可以穿行的影像装置：拍摄的跳舞玩偶和奇异生物在黑暗中以幽灵般的投影出现；现场版中，两位真实舞者走进装置，与自己的投影分身同台。",
+      "idea_en": "Put projected phantoms and living dancers in the same dark room and let visitors meet both.",
+      "idea_zh": "把投影幻影和真人舞者放进同一个暗室，让观众同时与两者相遇。",
+      "technique": "Superimposed video loops are projected onto objects and surfaces around the space, with live performers matching their positions and costumes.",
+      "technique_zh": "叠加的影像循环投射在空间中的物体和表面上，现场表演者配合它们的位置和服装。",
+      "exercise_en": "Film a friend dancing against black, project the clip onto a hanging sheet in a dark corridor, and have the same friend appear live next to it. Twist: the live dancer copies the projection a beat late.",
+      "exercise_zh": "拍朋友在黑色背景前跳舞，把视频投到暗走廊里悬挂的布上，再让这位朋友本人出现在旁边；变体：真人舞者晚一拍模仿投影。",
+      "interaction": [
+        "projection",
+        "perception-art",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "video projection",
+        "installation"
+      ],
+      "video": {
+        "url": "https://vimeo.com/190992843"
+      },
+      "source_url": "https://www.nicoleseiler.com/en/projects/dolls-dolls-live/"
+    },
+    {
+      "id": "nicole-seiler--pixel-babes",
+      "creator_ids": [
+        "nicole-seiler"
+      ],
+      "title": "Pixel Babes",
+      "year": 2006,
+      "description": "A trio in ten tableaux about the ideal body, from Jane Fonda aerobics to fashion and plastic surgery, where video images are projected directly onto the dancers' bodies.",
+      "description_zh": "关于理想身体的三人舞，分为十个场景，从 Jane Fonda 的健美操到时尚和整形手术，影像直接投射在舞者身上。",
+      "idea_en": "Media images of perfect bodies are literally pasted onto real ones.",
+      "idea_zh": "把媒体中“完美身体”的影像直接贴到真实的身体上。",
+      "technique": "Video is projection-mapped onto the performers' bodies and costumes, with choreography holding poses precisely inside the projected image.",
+      "technique_zh": "影像被投影映射到表演者的身体和服装上，编舞让他们精确地停留在投影画面之内。",
+      "exercise_en": "Project a fitness video onto a person in white clothing and ask them to follow the moves while staying aligned with the projected body. Twist: speed the video up until the alignment breaks.",
+      "exercise_zh": "把一段健身视频投到穿白衣的人身上，请他跟着做动作，同时与投影出的身体保持对齐；变体：逐渐加快视频，直到对齐崩溃。",
+      "interaction": [
+        "projection",
+        "hand-body",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "projection mapping",
+        "video"
+      ],
+      "video": {
+        "url": "https://vimeo.com/190371062"
+      },
+      "source_url": "https://www.nicoleseiler.com/en/projects/pixel-babes/"
+    },
+    {
+      "id": "nicole-seiler--k-two",
+      "creator_ids": [
+        "nicole-seiler"
+      ],
+      "title": "K Two",
+      "year": 2007,
+      "description": "An improvised street performance in which two dancers move like video game characters, with glitches, loops and stiff animation cycles, as if the game had leaked into public space.",
+      "description_zh": "一场即兴街头表演：两位舞者像电子游戏角色一样移动，带着卡顿、循环和僵硬的动画节奏，仿佛游戏泄漏到了公共空间。",
+      "idea_en": "Humans perform the limits of game animation in the street.",
+      "idea_zh": "真人在街头演出游戏动画的局限。",
+      "technique": "No screens: the choreography is built from the movement grammar of game characters (idle loops, clipping, respawns), turning the body itself into the rendering.",
+      "technique_zh": "没有屏幕：编舞取材于游戏角色的动作语法（待机循环、穿模、重生），让身体本身成为渲染画面。",
+      "exercise_en": "List five game animation glitches, turn each into a movement rule, and perform them in a corridor while classmates play a game soundtrack. Twist: passers-by can press an imaginary button to trigger a respawn.",
+      "exercise_zh": "列出五种游戏动画故障，把每种变成一条动作规则，在走廊里表演，同学们播放游戏配乐；变体：路人可以按下一个想象中的按钮，触发角色“重生”。",
+      "interaction": [
+        "performance-stage",
+        "game-play",
+        "location-geo"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "choreography",
+        "street performance"
+      ],
+      "video": {
+        "url": "https://vimeo.com/165467660"
+      },
+      "source_url": "https://www.nicoleseiler.com/en/projects/k-two/"
+    },
+    {
+      "id": "nicole-seiler--living-room-dancers",
+      "creator_ids": [
+        "nicole-seiler"
+      ],
+      "title": "Living-Room Dancers",
+      "year": 2008,
+      "description": "A choreographic city walk where the audience, with binoculars and MP3 players, watches amateur dancers (tap, tango, pole, electro) performing in private apartments seen through their windows.",
+      "description_zh": "一场编舞式城市漫步：观众拿着望远镜和 MP3 播放器，透过窗户观看在私人公寓里跳舞的业余舞者（踢踏、探戈、钢管、电音舞等）。",
+      "idea_en": "Turn a street of windows into a stage, with the soundtrack in each viewer's ears.",
+      "idea_zh": "把一整条街的窗户变成舞台，配乐只在每位观众的耳中响起。",
+      "technique": "Low-tech augmentation: timed audio tracks on personal players are synchronised with live dancers in lit windows along a guided route.",
+      "technique_zh": "低技术的现实增强：个人播放器中的定时音轨与沿导览路线亮灯窗户里的现场舞者同步。",
+      "exercise_en": "Map a short walking route, place a friend dancing in a visible window, and give walkers a geotagged audio track in a web app that starts when they arrive. Twist: the audio describes a dance that is not what they see.",
+      "exercise_zh": "规划一条短的步行路线，安排一位朋友在看得见的窗边跳舞，用网页 App 给行人一段地理定位音轨，到达时自动播放；变体：音轨描述的舞蹈和他们看到的并不一样。",
+      "interaction": [
+        "location-geo",
+        "performance-stage",
+        "voice-sound"
+      ],
+      "platform": [
+        "wearable"
+      ],
+      "tech": [
+        "binoculars",
+        "audio walk",
+        "site-specific"
+      ],
+      "video": {
+        "url": "https://vimeo.com/190519439"
+      },
+      "source_url": "https://www.nicoleseiler.com/en/projects/living-room-dancers/"
+    },
+    {
+      "id": "nicole-seiler--shiver",
+      "creator_ids": [
+        "nicole-seiler"
+      ],
+      "title": "Shiver",
+      "year": 2014,
+      "description": "A film-noir and horror-flavoured dance piece where a video system projects live, animated replicas of the dancers onto their own bodies, so reality and projection slip out of sync.",
+      "description_zh": "带有黑色电影和恐怖片风格的舞蹈作品：影像系统把舞者经过动画风格化处理的实时复制品投到他们自己的身体上，让现实与投影彼此错位。",
+      "idea_en": "Your own live double, projected onto you, starts to behave suspiciously.",
+      "idea_zh": "投在你身上的实时分身，开始变得可疑。",
+      "technique": "Live cameras capture the dancers, the feed is stylised with computer animation and re-projected onto the bodies with deliberate offsets and delays.",
+      "technique_zh": "现场摄像机拍下舞者，画面经计算机动画风格化处理后，带着刻意的偏移和延迟再投回他们身上。",
+      "exercise_en": "Aim a projector and webcam at the same person, apply an edge or cartoon filter, and project it back onto them with a one-second delay. Twist: the projection starts moving before the person does.",
+      "exercise_zh": "让投影仪和摄像头对准同一个人，加上描边或卡通滤镜，延迟一秒投回他身上；变体：投影开始比人先动。",
+      "interaction": [
+        "projection",
+        "perception-art",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "live video",
+        "projection mapping",
+        "computer animation"
+      ],
+      "video": {
+        "url": "https://vimeo.com/92021691"
+      },
+      "source_url": "https://www.nicoleseiler.com/en/projects/shiver/"
+    },
+    {
+      "id": "nicole-seiler--palimpsest",
+      "creator_ids": [
+        "nicole-seiler"
+      ],
+      "title": "Palimpsest",
+      "year": 2018,
+      "description": "A smartphone audio walk of geotagged sound compositions in the language of audio description, which narrate dancers who are not there so they gradually appear in the listener's imagination in the real city.",
+      "description_zh": "一场手机声音漫步：用口述影像的语言写成的地理定位声音作品，讲述并不在场的舞者，让他们在真实城市中逐渐浮现在听者的想象里。",
+      "idea_en": "Audio-only AR: describe a dance precisely enough and the city starts performing it.",
+      "idea_zh": "只用声音的 AR：把一段舞描述得足够精确，城市就开始上演它。",
+      "technique": "A smartphone app triggers audio-description tracks by GPS location along a route, so each description matches what the listener is standing in front of.",
+      "technique_zh": "手机 App 沿路线根据 GPS 位置触发口述影像音轨，让每段描述都对应听者眼前的场景。",
+      "exercise_en": "Write three 30-second audio descriptions of an imaginary dancer at three campus spots and trigger them by location in a web app. Twist: one description places the dancer right behind the listener.",
+      "exercise_zh": "为校园里的三个地点各写一段 30 秒的口述影像，描述一位想象中的舞者，并在网页 App 中按位置触发；变体：其中一段描述让舞者就站在听者身后。",
+      "interaction": [
+        "location-geo",
+        "voice-sound",
+        "perception-art"
+      ],
+      "platform": [
+        "phone"
+      ],
+      "tech": [
+        "GPS",
+        "audio walk",
+        "smartphone app"
+      ],
+      "video": {
+        "url": "https://vimeo.com/280331092"
+      },
+      "source_url": "https://www.nicoleseiler.com/en/projects/palimpsest/"
+    },
+    {
+      "id": "christian-mio-loclair--kinect-projector-dance",
+      "creator_ids": [
+        "christian-mio-loclair"
+      ],
+      "title": "KINECT | PROJECTOR DANCE",
+      "year": 2012,
+      "description": "A demo of a lightweight Kinect-to-projector calibration in Processing, so a dancer's 3D movement is mirrored as abstract graphics on the wall they dance in front of.",
+      "description_zh": "一个用 Processing 实现的轻量 Kinect 与投影仪标定演示，让舞者的 3D 动作在他面前的墙上被镜像为抽象图形。",
+      "idea_en": "A cheap calibration trick that turns any wall into a dancer's abstract mirror.",
+      "idea_zh": "一个低成本的标定技巧，让任何墙面都成为舞者的抽象镜子。",
+      "technique": "A simple calibration maps Kinect depth coordinates onto projector pixels without OpenCV, so tracked joints line up with the projected image.",
+      "technique_zh": "一个不依赖 OpenCV 的简易标定，把 Kinect 深度坐标映射到投影像素上，使追踪到的关节与投影画面对齐。",
+      "exercise_en": "Calibrate a webcam to a projector by clicking four projected corners, then draw circles on tracked wrists that land on the real wrists. Twist: make the circles repel each other.",
+      "exercise_zh": "点击投影出来的四个角，完成摄像头与投影仪的标定，然后在追踪到的手腕位置画圆，让圆落在真实手腕上；变体：让这些圆彼此排斥。",
+      "interaction": [
+        "projection",
+        "hand-body"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Kinect",
+        "Processing",
+        "projector calibration"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=FnulH8TrZVo"
+      },
+      "source_url": "https://christianmioloclair.com"
+    },
+    {
+      "id": "christian-mio-loclair--wiipop",
+      "creator_ids": [
+        "christian-mio-loclair"
+      ],
+      "title": "WiiPop",
+      "year": 2012,
+      "description": "A dance-game prototype that rewards freestyle instead of copying: it rates a popping dancer's spacing, musicality and use of individual body parts.",
+      "description_zh": "一个奖励自由发挥而不是照搬动作的舞蹈游戏原型：它为 popping 舞者的空间运用、音乐性和身体各部位的使用打分。",
+      "idea_en": "A dance game that scores creativity rather than imitation.",
+      "idea_zh": "一个给创造力而不是模仿打分的舞蹈游戏。",
+      "technique": "Kinect tracks large spatial movement while a body-mounted Wii Remote catches fine hits, and the two streams are fused into freestyle quality metrics.",
+      "technique_zh": "Kinect 追踪大幅度的空间运动，佩戴在身上的 Wii 遥控器捕捉细小的发力点，两路数据融合成自由舞的质量指标。",
+      "exercise_en": "Use webcam pose tracking to score a 30-second freestyle on variety (how many joints moved) and coverage (how much floor was used). Twist: repeating a move lowers the score.",
+      "exercise_zh": "用摄像头姿态追踪给一段 30 秒的自由舞打分，指标是多样性（动了多少个关节）和覆盖度（用了多少地面）；变体：重复同一个动作会扣分。",
+      "interaction": [
+        "game-play",
+        "hand-body",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop",
+        "wearable"
+      ],
+      "tech": [
+        "Kinect",
+        "Wii Remote",
+        "sensor fusion"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=erMi8kxYFIE"
+      },
+      "source_url": "https://christianmioloclair.com"
+    },
+    {
+      "id": "christian-mio-loclair--flow-1",
+      "creator_ids": [
+        "christian-mio-loclair"
+      ],
+      "title": "FLOW 1",
+      "year": 2013,
+      "description": "A duet of hip-hop dance and interactive light where a dancer's flow is translated into projected shapes and trails that move with him on the wall.",
+      "description_zh": "街舞与交互光影的双人舞：舞者的律动被转化为投影出来的形状和轨迹，在墙上与他一同移动。",
+      "idea_en": "Give the computer access to a street dancer's private flow.",
+      "idea_zh": "让计算机读取街舞舞者私人的律动。",
+      "technique": "Kinect depth tracking drives Processing graphics projected behind the dancer, calibrated so shapes attach to his silhouette.",
+      "technique_zh": "Kinect 深度追踪驱动 Processing 图形，投影在舞者身后，并经过标定使图形贴合他的剪影。",
+      "exercise_en": "Project a silhouette from a webcam segmentation model and add trails to the hands and feet that fade on the beat. Twist: the trails only appear on popping hits (sudden stops).",
+      "exercise_zh": "用摄像头分割模型投影出剪影，给手和脚加上随节拍消退的拖尾；变体：拖尾只在 popping 的发力点（突然停顿）时出现。",
+      "interaction": [
+        "hand-body",
+        "projection",
+        "performance-stage"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Kinect",
+        "Processing",
+        "projector"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ISKV1BeB3pM"
+      },
+      "source_url": "https://christianmioloclair.com"
+    },
+    {
+      "id": "christian-mio-loclair--diesel-reboot-interactive-dance",
+      "creator_ids": [
+        "christian-mio-loclair"
+      ],
+      "title": "Waltz Binaire — Dance and Interactive Media (Diesel Reboot)",
+      "year": 2014,
+      "description": "A rehearsal of a piece for Diesel's Reboot campaign at Schauspielhaus Frankfurt where two dancers mixing urban and contemporary movement drive interactive graphics projected around them.",
+      "description_zh": "为 Diesel Reboot 活动在法兰克福话剧院演出的作品排练：两位融合街舞与现代舞的舞者驱动投影在他们周围的交互图形。",
+      "idea_en": "A laptop, a Kinect and a projector are enough to make spontaneous dance visible.",
+      "idea_zh": "一台笔记本、一个 Kinect 和一台投影仪，就足以让即兴舞蹈变得可见。",
+      "technique": "A low-weight setup of Kinect, notebook and projector evaluates the dancers' movement and renders interactive graphics designed to react to improvisation.",
+      "technique_zh": "由 Kinect、笔记本和投影仪组成的轻量系统，分析舞者的动作并渲染专为即兴设计的交互图形。",
+      "exercise_en": "Pack a portable kit (laptop, webcam, pocket projector) and build a sketch that responds to two people at once, then perform it in a hallway. Twist: the graphics connect the two dancers with a line that breaks if they get too far apart.",
+      "exercise_zh": "准备一套便携设备（笔记本、摄像头、口袋投影仪），做一个能同时响应两个人的草图，然后在走廊里表演；变体：图形用一条线连接两位舞者，他们离得太远线就会断。",
+      "interaction": [
+        "performance-stage",
+        "projection",
+        "multiplayer-social"
+      ],
+      "platform": [
+        "projection"
+      ],
+      "tech": [
+        "Kinect",
+        "projector"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=TPDrSMfbaI0"
+      },
+      "source_url": "https://christianmioloclair.com"
+    },
+    {
+      "id": "christian-mio-loclair--interactive-sound-improvisation",
+      "creator_ids": [
+        "christian-mio-loclair"
+      ],
+      "title": "Prince Mio improvise to Interactive Sound",
+      "year": 2014,
+      "description": "A spontaneous rehearsal session for POW2045 in which the sound is completely attached to the dancer's body, so every pop and wave is heard as it happens.",
+      "description_zh": "为 POW2045 排练时的一段即兴：声音完全依附在舞者身体上，每一次 pop 和 wave 都即时被听见。",
+      "idea_en": "The dancer does not dance to the music; the music comes out of the dance.",
+      "idea_zh": "不是舞者跟着音乐跳，而是音乐从舞蹈中流出来。",
+      "technique": "A Kinect v2 depth camera tracks the body and maps joint motion to a sound collage by kling klang klong, with advice from Schnelle Bunte Bilder.",
+      "technique_zh": "Kinect v2 深度摄像头追踪身体，把关节运动映射到 kling klang klong 制作的声音拼贴上，并由 Schnelle Bunte Bilder 提供技术建议。",
+      "exercise_en": "Map wrist speed to a filter cutoff and sudden stops to a drum hit using webcam pose tracking and Tone.js. Twist: only the left side of the body makes sound.",
+      "exercise_zh": "用摄像头姿态追踪和 Tone.js，把手腕速度映射到滤波器截止频率，把突然停顿映射成鼓点；变体：只有身体左半边能发声。",
+      "interaction": [
+        "voice-sound",
+        "hand-body",
+        "performance-stage"
+      ],
+      "platform": [
+        "desktop"
+      ],
+      "tech": [
+        "Kinect v2",
+        "generative sound"
+      ],
+      "video": {
+        "url": "https://www.youtube.com/watch?v=RtUEML0ncJk"
+      },
+      "source_url": "https://christianmioloclair.com"
+    }
+  ],
+  "leads": [
+    {
+      "name": "Mourad Merzouki / Compagnie Käfig",
+      "why": "Hip-hop choreographer of Pixel, the projection dance piece made with Adrien M & Claire B; that work is already in the gallery under adrien-m-claire-b.",
+      "link": "https://www.ccncreteil.com",
+      "found_via": "aoi-esteban",
+      "status": "duplicate"
+    },
+    {
+      "name": "Wayne McGregor / Studio Wayne McGregor",
+      "why": "Choreographer with many tech collaborations (Choreographic Thinking Tools shared at CCL-14); his AR/interactive piece Future Self is already in the gallery under random-international.",
+      "link": "https://waynemcgregor.com",
+      "found_via": "aoi-esteban",
+      "status": "duplicate"
+    },
+    {
+      "name": "Gideon Obarzanek / Chunky Move",
+      "why": "Choreographer and company behind Glow and Mortal Engine; both works are added in this batch under frieder-weiss.",
+      "link": "https://chunkymove.com.au",
+      "found_via": "frieder-weiss",
+      "status": "duplicate"
+    },
+    {
+      "name": "Emily Fernandez",
+      "why": "Dancer-choreographer of Shadows, Schlamp, Sense and Innosense with Frieder Weiss; the works with video are added under frieder-weiss.",
+      "link": "https://frieder-weiss.de/works/all/Shadows.php",
+      "found_via": "frieder-weiss",
+      "status": "duplicate"
+    },
+    {
+      "name": "Palindrome / Robert Wechsler",
+      "why": "Nuremberg dance company that co-developed EyeCon with Frieder Weiss (Minotaur, seine hohle Form); Wechsler later built MotionComposer, camera-interactive music for people with disabilities.",
+      "link": "https://www.palindrome.de",
+      "found_via": "frieder-weiss",
+      "status": "open"
+    },
+    {
+      "name": "Mbryonic",
+      "why": "London XR studio that co-developed AΦE's 0AR motion capture and AR.",
+      "link": "https://mbryonic.com",
+      "found_via": "aoi-esteban",
+      "status": "open"
+    },
+    {
+      "name": "Schnelle Bunte Bilder & kling klang klong",
+      "why": "Berlin visual and sound studios behind MOMENTUM and the interactive sound for Christian Mio Loclair's POW2045; many body-reactive installations.",
+      "link": "https://vimeo.com/112193826",
+      "found_via": "motion-bank",
+      "status": "open"
+    },
+    {
+      "name": "visiophone (Rodrigo Carvalho)",
+      "why": "Audiovisual artist whose CCL prototype Gravitacional is added here; other interactive dance-visual work on Vimeo.",
+      "link": "https://vimeo.com/visiophone",
+      "found_via": "motion-bank",
+      "status": "open"
+    },
+    {
+      "name": "Kat Sullivan",
+      "why": "Creative technologist and dancer who built the CCL quality-visualising tool; later dance and body-tracking projects.",
+      "link": "http://katsully.com",
+      "found_via": "motion-bank",
+      "status": "open"
+    },
+    {
+      "name": "OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser)",
+      "why": "Made the VR piece Again at CCL Mainz 2019 and landmark dance-data works (Ghostcatching, Loops); the Again video on the CCL site is private, other works not yet checked.",
+      "link": "http://openendedgroup.com/artworks/again.html",
+      "found_via": "motion-bank",
+      "status": "open"
+    },
+    {
+      "name": "Mária Júdová",
+      "why": "Media artist behind Kykeon, a VR shamanic ritual made with Taneli Törmä and tanzmainz dancers and listed on the CCL site; mostly VR.",
+      "link": "https://www.mariajudova.net/project/kykeon/",
+      "found_via": "motion-bank",
+      "status": "open"
+    },
+    {
+      "name": "Tim Murray-Browne",
+      "why": "CCL-14 participant who makes body-interactive sound and AI movement installations.",
+      "link": "https://timmb.com",
+      "found_via": "aoi-esteban",
+      "status": "open"
+    },
+    {
+      "name": "Chelsi Cocking",
+      "why": "CCL-14 participant; creative coder making real-time body-tracking visuals with dancers.",
+      "link": "https://medium.com/a-e-lab/a-e-lab-hosts-the-uks-first-choreographic-coding-lab-25fc714ea88e",
+      "found_via": "aoi-esteban",
+      "status": "open"
+    },
+    {
+      "name": "Marion Tränkle / (UN)FOCUSSED",
+      "why": "Brain-controlled laser performance mapping two performers' EEG to sound, light and lasers, shown around CCL Amsterdam.",
+      "link": "https://vimeo.com/174162011",
+      "found_via": "motion-bank",
+      "status": "open"
+    },
+    {
+      "name": "onformative",
+      "why": "Berlin generative design studio, co-creator of Pathfinder with Christian Mio Loclair.",
+      "link": "https://onformative.com",
+      "found_via": "christian-mio-loclair",
+      "status": "open"
+    },
+    {
+      "name": "Nonotak (Noemi Schipfer & Takami Nakamoto)",
+      "why": "Light and projection installations with performers inside moving structures; suggested for this round but not researched yet.",
+      "link": "https://www.nonotak.com",
+      "found_via": "aoi-esteban",
+      "status": "open"
+    },
+    {
+      "name": "Kiani del Valle",
+      "why": "Choreographer and movement director working with digital artists; suggested for this round but not researched yet.",
+      "link": "https://www.kianidelvalle.com",
+      "found_via": "aoi-esteban",
+      "status": "open"
+    },
+    {
+      "name": "Pablo Ventura",
+      "why": "Choreographer working with robots and algorithmic dance; suggested for this round, AR/projection content not yet checked.",
+      "link": "https://www.pabloventura.com",
+      "found_via": "aoi-esteban",
+      "status": "open"
+    },
+    {
+      "name": "Daniel Bisig",
+      "why": "Researcher (ZHdK, Coventry, Motion Bank) building AI movement-generation tools used at several CCLs; mostly tools and papers, few standalone interactive-work videos.",
+      "link": "https://choreographiccoding.org",
+      "found_via": "motion-bank",
+      "status": "open"
+    },
+    {
+      "name": "Scott deLahunta",
+      "why": "Co-director of Motion Bank and CCL facilitator; a researcher and organiser, not a maker of AR or interactive works.",
+      "link": "https://motionbank.org",
+      "found_via": "motion-bank",
+      "status": "not_ar"
+    },
+    {
+      "name": "Joana Chicau",
+      "why": "Made a text-script choreography generator at CCL Amsterdam; code-as-choreography, no spatial or projection component.",
+      "link": "https://vimeo.com/218473261",
+      "found_via": "motion-bank",
+      "status": "not_ar"
+    },
+    {
+      "name": "Dawn Stoppiello",
+      "why": "Co-founder and choreographer of Troika Ranch; her works are covered under mark-coniglio.",
+      "link": "https://troikaranch.org",
+      "found_via": "mark-coniglio",
+      "status": "duplicate"
+    }
+  ]
+}
