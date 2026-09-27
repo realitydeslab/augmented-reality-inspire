@@ -2,7 +2,8 @@
  "_note": "Manual curation, applied at build time. drop_works: work ids to hide. patch_works: {work_id: {field: value}}. merge_creators: {duplicate_creator_id: canonical_creator_id}. lead_status: {lead name: no_video|not_ar|duplicate|covered}. audit_ignore: [\"id-a|id-b\"] pairs confirmed not duplicates.",
  "drop_works": [
   "daito-manabe--perfume-cannes-lions",
-  "onformative--magic-and-storytelling"
+  "onformative--magic-and-storytelling",
+  "maxin10sity--imapp-bucharest-555"
  ],
  "patch_works": {
   "shengzhi-wu--opportunistic-interfaces": {
@@ -107,6 +108,12 @@
   },
   "keijiro-takahashi--vrdg-holography": {
    "vfx_cat": "particles"
+  },
+  "the-macula--bucharest-555": {
+   "creator_ids": [
+    "the-macula",
+    "maxin10sity"
+   ]
   }
  },
  "merge_creators": {},
@@ -249,6 +256,14 @@
   "sebastian-lague--boids|sebastian-lague--clouds",
   "sebastian-lague--marching-cubes|sebastian-lague--ray-marching",
   "keijiro-takahashi--swarm|mark-coniglio--swarm",
-  "asobo-studio--fragments|keijiro-takahashi--fragments"
+  "asobo-studio--fragments|keijiro-takahashi--fragments",
+  "berg|timo-arnall",
+  "lab212--nebula|reuben-margolin--nebula",
+  "chris-fraser--atmosphere|judy-chicago--atmospheres",
+  "initi--the-radar|ryoji-ikeda--the-radar",
+  "zadok-ben-david|theoriz",
+  "kaws--holiday-space|kaws--holiday-japan",
+  "kaws--holiday-space|kaws--holiday-seoul",
+  "doug-aitken--mirage|raymond-salvatore-harmon--mirage"
  ]
 }

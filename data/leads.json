@@ -1,5 +1,21 @@
 [
  {
+  "name": "Per Ola Kristensson",
+  "why": "Cambridge Intelligent Interactive Systems Group lead; co-author of Unbounded and Objestures and many mixed-reality text-entry and interaction papers.",
+  "link": "https://pokristensson.com",
+  "found_via": "zhuoyue-lyu",
+  "status": "open",
+  "batch": "add-zhuoyue-lyu"
+ },
+ {
+  "name": "Fengyuan Zhu",
+  "why": "University of Toronto DGP researcher working on phones and touch inside VR/MR; first author of Touching The Droid.",
+  "link": "https://doi.org/10.1109/ISMAR55827.2022.00099",
+  "found_via": "zhuoyue-lyu",
+  "status": "open",
+  "batch": "add-zhuoyue-lyu"
+ },
+ {
   "name": "Ramesh Raskar",
   "why": "MIT Media Lab (Camera Culture) professor and projector-AR pioneer (Shader Lamps, iLamps, RFIG Lamps with Johnny Lee); RFIG video exists at youtube.com/watch?v=MURwa1lWDsY.",
   "link": "https://www.media.mit.edu/people/raskar/overview/",
@@ -182,6 +198,310 @@
   "found_via": "aphra-shemza",
   "status": "open",
   "batch": "r5-uk"
+ },
+ {
+  "name": "Pe Lang",
+  "why": "Swiss kinetic artist and Zimoun's collaborator; precise magnetic and motor-driven minimal kinetic works with gallery videos (bitforms).",
+  "link": "https://www.pelang.ch",
+  "found_via": "zimoun",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Lyman Whitaker",
+  "why": "American wind sculptor ('Whitaker Wind Sculptures'), large outdoor fields of spinning copper forms; strong land-plus-kinetic reference.",
+  "link": "https://www.whitakerstudio.com",
+  "found_via": "anthony-howe",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Tim Prentice",
+  "why": "Kinetic wind-wall pioneer whose façades of small hanging panels predate Ned Kahn's; few own videos, needs a search.",
+  "link": "https://www.timprentice.com",
+  "found_via": "ned-kahn",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Bob Potts",
+  "why": "Kinetic sculptor of slow rowing/flying mechanical forms (e.g. 'Ascension'); gallery videos exist.",
+  "link": "",
+  "found_via": "arthur-ganson",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "mischer'traxler",
+  "why": "Vienna design duo; Ephemerā and Curiosity Cloud are responsive kinetic installations where objects react to visitors.",
+  "link": "https://www.youtube.com/watch?v=hroOZy8uQqI",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Yunchul Kim",
+  "why": "Korean artist of fluid and kinetic sculptures (Chroma III, Argos); strong kinetic material.",
+  "link": "https://www.youtube.com/watch?v=c3vfFVJTfuw",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Balint Bolygo",
+  "why": "Makes pendulum and drawing machines that trace motion (trace category).",
+  "link": "https://www.youtube.com/watch?v=HqYyzP9D0ww",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Johannes Langkamp",
+  "why": "Dutch artist of kinetic light and camera installations (The Movement of Space).",
+  "link": "https://www.youtube.com/watch?v=UgUuTXFADyk",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Marcelo Coelho & Jamie Zigelbaum",
+  "why": "Six-Forty by Four-Eighty (2011): physical light 'pixels' you pick up and rearrange on a wall, which pass colours through touch — a tangible responsive display.",
+  "link": "https://www.youtube.com/watch?v=a6jSyVopYXM",
+  "found_via": "jason-bruges-studio",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Heinz Mack",
+  "why": "ZERO co-founder with Piene; Light Dynamo (1963) and light rotors are motorised light kinetics (artdone UDKw6xcHiS0, museumabteiberg kNEKdpXI2WQ).",
+  "link": "https://www.youtube.com/watch?v=UDKw6xcHiS0",
+  "found_via": "otto-piene",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Janne Parviainen",
+  "why": "Finnish light-painting artist who draws glowing figures and 'light bodies' in real rooms and landscapes; strong trace-category candidate, videos on YouTube (e.g. Cambridge Creation Lab talk).",
+  "link": "https://www.youtube.com/watch?v=W_5CogLZQz4",
+  "found_via": "lichtfaktor",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Jason D. Page",
+  "why": "Light-painting artist and founder of LightPaintingPhotography.com; documentary available, could extend the light-painting cluster.",
+  "link": "https://www.youtube.com/watch?v=-OWlgEVdjBE",
+  "found_via": "lichtfaktor",
+  "status": "open",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Nils-Udo",
+  "why": "German pioneer of nature art (nests, leaf rafts, flower paintings in landscape); only weak third-party videos found.",
+  "link": "https://www.nils-udo.com",
+  "found_via": "andy-goldsworthy",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Susumu Shingu",
+  "why": "Japanese wind sculptor (Wind Caravan, Wind Museum); makes wind visible in landscapes; only short fan clips found.",
+  "link": "https://www.shingu-susumu.com",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Heather Hansen",
+  "why": "Emptied Gestures: charcoal drawings made by her whole body's motion; own YouTube channel exists (C4oBc-o1npg), a trace/performance piece rather than landscape.",
+  "link": "https://www.youtube.com/watch?v=C4oBc-o1npg",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "James Brunt",
+  "why": "UK land artist making large stone and leaf mandalas in parks; several videos (e.g. EBdxm2DOKFs).",
+  "link": "https://www.jamesbrunt.co.uk",
+  "found_via": "jon-foreman",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Julien Berthier",
+  "why": "French artist of the half-sunk boat Love Love and a rock-camouflaged boat; illusion in landscape.",
+  "link": "https://www.julienberthier.org",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Jeppe Hein",
+  "why": "Modified Social Benches and mirror labyrinths in parks; possible overlap with an illusion batch.",
+  "link": "https://www.jeppehein.net",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Spencer Tunick",
+  "why": "Mass nude installations in landscapes and cities; relevant as bodies placed in place but sensitive content, skipped.",
+  "link": "https://www.spencertunick.com",
+  "found_via": "antony-gormley",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Michael Grab (Gravity Glue)",
+  "why": "Stone balancing in rivers; collaborator of Richard Shilling; own YouTube channel.",
+  "link": "https://www.youtube.com/@gravityglue",
+  "found_via": "richard-shilling",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Martin Hill and Philippa Jones",
+  "why": "New Zealand ephemeral land art made from ice, leaves and stone, photographed in wilderness.",
+  "link": "https://www.martin-hill.com",
+  "found_via": "andy-goldsworthy",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Mark Dion",
+  "why": "Ecological installations and follies in parks (Neukom Vivarium); nature as museum.",
+  "link": "https://www.tanyabonakdargallery.com/artists/mark-dion",
+  "found_via": "robert-smithson",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Pinar Yoldas / Superflex (One Two Three Swing!)",
+  "why": "Public installations turning parks into play; Superflex's giant swings along the landscape.",
+  "link": "https://superflex.net",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-land"
+ },
+ {
+  "name": "Digital Domain / AV Concepts — Tupac hologram (Coachella 2012)",
+  "why": "The most famous Pepper's-ghost stage 'hologram'; Snoop Dogg's channel has the performance (TGbrFmPBV0Y).",
+  "link": "https://www.youtube.com/watch?v=TGbrFmPBV0Y",
+  "found_via": "musion",
+  "status": "open",
+  "batch": "related-projection"
+ },
+ {
+  "name": "ABBA Voyage (ILM / Industrial Light & Magic)",
+  "why": "Virtual concert with 'ABBAtars' on a purpose-built stage in London, 2022 — current state of holographic theatre.",
+  "link": "https://abbavoyage.com",
+  "found_via": "musion",
+  "status": "open",
+  "batch": "related-projection"
+ },
+ {
+  "name": "Yiyun Kang",
+  "why": "Korean artist who projection-maps video onto sculptures and museum spaces (Casting at the V&A, Origin for Jaeger-LeCoultre).",
+  "link": "https://www.youtube.com/watch?v=iNSX0c4DUz0",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-projection"
+ },
+ {
+  "name": "William Kentridge / The Centre for the Less Good Idea — The Pepper's Ghost",
+  "why": "Kentridge's Pepper's-ghost theatre boxes and performances; relevant to holographic theatre if not covered by another batch.",
+  "link": "https://www.youtube.com/watch?v=o3yp0BF950g",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-projection"
+ },
+ {
+  "name": "Clément Briend",
+  "why": "French artist projecting faces and religious figures onto trees (3D tree projections), close to Craig Walsh.",
+  "link": "https://www.youtube.com/watch?v=scJm06AhAPA",
+  "found_via": "craig-walsh",
+  "status": "open",
+  "batch": "related-projection"
+ },
+ {
+  "name": "Pixel Artworks",
+  "why": "UK projection and immersive studio (daylight-visible projection for Fabergé at Harrods); possibly what 'Projection Artworks' refers to.",
+  "link": "https://www.youtube.com/watch?v=r18GicZFUmA",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-projection"
+ },
+ {
+  "name": "Kurt Hentschläger",
+  "why": "ZEE (2008): a fog-filled room lit by stroboscopic light that produces hallucinated patterns; immersive perception piece.",
+  "link": "https://www.kurthentschlager.com",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-sky-light"
+ },
+ {
+  "name": "Iván Navarro",
+  "why": "Neon and mirror 'infinity' holes and ladders in floors and walls; illusion of endless depth.",
+  "link": "https://www.ivan-navarro.com",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-sky-light"
+ },
+ {
+  "name": "Josiah McElheny",
+  "why": "Mirrored glass boxes such as An End to Modernity and Island Universe reflections; infinite regress illusions.",
+  "link": "https://www.andrearosengallery.com/artists/josiah-mcelheny",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-sky-light"
+ },
+ {
+  "name": "Lucas Samaras",
+  "why": "Mirrored Room (1966): a room entirely clad in mirrors, a precursor of Kusama's rooms; museum footage needed.",
+  "link": "https://www.albrightknox.org",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-sky-light"
+ },
+ {
+  "name": "Anila Quayyum Agha",
+  "why": "Intersections: a single lantern casting intricate Islamic-pattern shadows over a whole room; light & illusion.",
+  "link": "https://www.anilaagha.com",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-sky-light"
+ },
+ {
+  "name": "Spencer Finch",
+  "why": "Recreates specific skies and daylight (e.g. the light of Monet's pond) with filters and fluorescents.",
+  "link": "https://www.spencerfinch.com",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-sky-light"
+ },
+ {
+  "name": "Mary Corse",
+  "why": "Light-and-space painter; glass-microsphere paintings that change with the viewer's position.",
+  "link": "https://www.kaynegriffin.com/artists/mary-corse",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-sky-light"
+ },
+ {
+  "name": "Meow Wolf",
+  "why": "House of Eternal Return and later sites: narrative immersive environments; only fan walkthrough videos found in this pass.",
+  "link": "https://meowwolf.com",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-sky-light"
+ },
+ {
+  "name": "Carsten Nicolai (alva noto)",
+  "why": "Light/sound installations such as unicolor and α (alpha) pulse; kin of Ryoji Ikeda.",
+  "link": "https://www.carstennicolai.de",
+  "found_via": "related-art",
+  "status": "open",
+  "batch": "related-sky-light"
  },
  {
   "name": "Marek Simonik (Record3D)",

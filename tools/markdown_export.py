@@ -36,6 +36,8 @@ T = {
         "vfx": "Visual effects (with source code)",
         "vfx_intro": "Real-time visual effects from the Unity VFX community, most with open source code; building blocks that translate easily to AR.",
         "code": "Source code",
+        "ai": "AI × AR",
+        "ai_intro": "AR where AI is central to the idea: models that understand the scene, agents in space, generated worlds, reality restyled live.",
         "related": "Related art (not AR, but inspires AR)",
         "related_intro": "Land art, light, projection, fireworks, illusions and installations that already do in the real world what AR tries to do.",
         "salient": "Salient works", "salient_intro": "Simple works where the concept jumps out: one idea, minimal means, understood in seconds.",
@@ -58,6 +60,8 @@ T = {
         "vfx": "视觉特效（附源代码）",
         "vfx_intro": "来自 Unity 视觉特效社区的实时特效，大多附有开源代码，是很容易搬进 AR 的积木。",
         "code": "源代码",
+        "ai": "AI × AR",
+        "ai_intro": "AI 本身就是点子的 AR：看懂场景的模型、空间里的智能体、生成的世界、被实时重绘的现实。",
         "related": "相关艺术（不是 AR，但能启发 AR）",
         "related_intro": "大地艺术、光、投影、烟火、错觉和装置：它们早已在真实世界里做着 AR 想做的事。",
         "salient": "一眼即懂的作品", "salient_intro": "做法简单、但概念非常突出的作品：一个想法、极简的手段，几秒就能看懂。",
@@ -147,11 +151,14 @@ def catalog_md(data: dict, lang: str) -> str:
                 code = f" · {s['code']}: {w['code_url']}" if w.get("code_url") else ""
                 out.append(f"- **{w['title']}** — {who}" + (f" ({w['year']})" if w.get("year") else "") + f": {idea} {w['video']['url']}{code}")
             out.append("")
-    rel = [w for w in data["works"] if w.get("related_cat")]
-    if rel:
-        out += [f"## {s['related']}", "", s["related_intro"], ""]
-        for c in data.get("related_categories", []):
-            group = [w for w in rel if w["related_cat"] == c["id"]]
+    for field, cats_key, title, intro in (("ai_cat", "ai_categories", "ai", "ai_intro"),
+                                          ("related_cat", "related_categories", "related", "related_intro")):
+        rel = [w for w in data["works"] if w.get(field)]
+        if not rel:
+            continue
+        out += [f"## {s[title]}", "", s[intro], ""]
+        for c in data.get(cats_key, []):
+            group = [w for w in rel if w[field] == c["id"]]
             if not group:
                 continue
             out += [f"### {c['zh'] if zh else c['en']}", "", c["desc_zh" if zh else "desc_en"], ""]

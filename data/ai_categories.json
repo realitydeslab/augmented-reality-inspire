@@ -1,0 +1,17 @@
+{
+ "_note": "Categories for the AI × AR column: AR works where AI (vision models, LLMs, generative models) is central to the idea. A work joins with `ai_cat` (in its batch file or in data/ai/*.json).",
+ "categories": [
+  {"id": "understand", "en": "AI that sees", "zh": "会看懂世界的 AI",
+   "desc_en": "Vision and language models that recognise, read and explain what the camera sees.", "desc_zh": "视觉与语言模型：识别、读懂并解释摄像头看到的东西。"},
+  {"id": "agent", "en": "Agents & companions", "zh": "空间里的智能体与伙伴",
+   "desc_en": "Characters, guides and assistants that live in your space, talk and act.", "desc_zh": "住在你身边空间里、会说话会行动的角色、向导和助手。"},
+  {"id": "generate", "en": "Generate the world", "zh": "生成世界",
+   "desc_en": "Say or sketch it and it appears: text, voice or drawings turned into 3D content in place.", "desc_zh": "说出来或画出来，它就出现：把文字、语音或草图变成现场的三维内容。"},
+  {"id": "restyle", "en": "Restyle reality", "zh": "重绘现实",
+   "desc_en": "Live diffusion and style transfer that repaint the world you are looking at.", "desc_zh": "实时扩散模型与风格迁移，把你眼前的世界重新画一遍。"},
+  {"id": "body", "en": "AI and the body", "zh": "AI 与身体",
+   "desc_en": "Pose, face and motion models that read the body and answer it.", "desc_zh": "读懂身体、并对身体作出回应的姿态、面部与动作模型。"},
+  {"id": "cocreate", "en": "Co-creation tools", "zh": "与 AI 共同创作",
+   "desc_en": "Authoring, prototyping and design tools where AI and a person make AR together.", "desc_zh": "让人和 AI 一起做 AR 的创作、原型与设计工具。"}
+ ]
+}

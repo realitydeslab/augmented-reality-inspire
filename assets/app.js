@@ -8,7 +8,7 @@
   const INTERACTIONS = I18N.interactions;
   const PLATFORMS = ["phone", "headset", "projection", "web", "wearable", "desktop"];
   const ERAS = [["2005", 1990, 2009, "≤2009"], ["2010", 2010, 2014, "2010–14"], ["2015", 2015, 2019, "2015–19"], ["2020", 2020, 2030, "2020–26"]];
-  const VIEWS = ["keys", "salient", "vfx", "related", "works", "creators", "modules", "starred"];
+  const VIEWS = ["keys", "salient", "ai", "vfx", "related", "works", "creators", "modules", "starred"];
 
   const creatorsById = Object.fromEntries(DATA.creators.map((c) => [c.id, c]));
   const worksById = Object.fromEntries(DATA.works.map((w) => [w.id, w]));
@@ -29,7 +29,7 @@
   const ixName = (k) => { const r = INTERACTIONS.find((x) => x[0] === k); return r ? (lang === "zh" ? r[2] : r[1]) : k; };
   const src = (p) => S().sources[p] || p;
 
-  const state = { view: "keys", q: "", ix: new Set(), plat: new Set(), era: "", sort: "new", creator: "", keyOnly: false, salientOnly: false, salientCat: "", vfxCat: "", relCat: "", codeOnly: false };
+  const state = { view: "keys", q: "", ix: new Set(), plat: new Set(), era: "", sort: "new", creator: "", keyOnly: false, salientOnly: false, salientCat: "", vfxCat: "", relCat: "", aiCat: "", codeOnly: false };
   let currentList = [];
   let openIndex = -1;
   let tour = null;
@@ -50,6 +50,7 @@
     state.salientCat = p.get("sc") || "";
     state.vfxCat = p.get("vc") || "";
     state.relCat = p.get("rc") || "";
+    state.aiCat = p.get("ac") || "";
     state.codeOnly = p.get("code") === "1";
     return { work: p.get("w"), tour: p.get("t") };
   }
@@ -61,6 +62,7 @@
     if (state.salientCat && state.view === "salient") p.set("sc", state.salientCat);
     if (state.vfxCat && state.view === "vfx") p.set("vc", state.vfxCat);
     if (state.relCat && state.view === "related") p.set("rc", state.relCat);
+    if (state.aiCat && state.view === "ai") p.set("ac", state.aiCat);
     if (state.codeOnly) p.set("code", "1");
     if (state.q) p.set("q", state.q);
     if (state.ix.size) p.set("ix", [...state.ix].join(","));
@@ -138,6 +140,7 @@
     const years = DATA.works.map((w) => w.year).filter(Boolean);
     $("#stats").innerHTML = [
       [S().stat_keys, KEYS.creators.length], [S().tab_salient, DATA.works.filter((w) => w.salient).length],
+      [S().tab_ai, DATA.works.filter((w) => w.ai_cat).length],
       [S().tab_vfx, DATA.works.filter((w) => w.vfx_cat).length],
       [S().tab_related, DATA.works.filter((w) => w.related_cat).length],
       [S().stat_creators, DATA.creators.length], [S().stat_works, DATA.works.length],
@@ -215,6 +218,7 @@
   const SCATS = DATA.salient_categories || [];
   const VCATS = DATA.vfx_categories || [];
   const RCATS = DATA.related_categories || [];
+  const ACATS = DATA.ai_categories || [];
   const catName = (c) => (lang === "zh" ? c.zh : c.en);
   /* A column of works grouped by category, with category chips (Salient, Visual Effects). */
   function renderGrouped({ all, cats, catOf, current, attr, prefix, head, grid, title, lede, count, extra = "", useWhy = false }) {
@@ -251,6 +255,11 @@
     return renderGrouped({ all, cats: SCATS, catOf: (w) => w.salient.cat || "", current: state.salientCat, attr: "scat", prefix: "scat",
       head: "#salientHead", grid: "#salientGrid", title: `✦ ${esc(S().salient_title)}`, lede: S().salient_lede,
       count: S().salient_count(all.length), useWhy: true });
+  }
+  function renderAi() {
+    const all = sorted(DATA.works.filter((w) => w.ai_cat));
+    return renderGrouped({ all, cats: ACATS, catOf: (w) => w.ai_cat || "", current: state.aiCat, attr: "acat", prefix: "acat",
+      head: "#aiHead", grid: "#aiGrid", title: esc(S().ai_title), lede: S().ai_lede, count: S().ai_count(all.length) });
   }
   function renderRelated() {
     const all = sorted(DATA.works.filter((w) => w.related_cat));
@@ -357,13 +366,13 @@
     document.querySelectorAll(".view").forEach((v) => v.classList.toggle("is-on", v.id === "view-" + state.view));
     $("#q").value = state.q;
     $("#sort").value = state.sort;
-    $("#filters").hidden = ["keys", "starred", "salient", "vfx", "related"].includes(state.view);
+    $("#filters").hidden = ["keys", "starred", "salient", "ai", "vfx", "related"].includes(state.view);
     $("#keyOnly").setAttribute("aria-pressed", state.keyOnly);
     $("#salientOnly").setAttribute("aria-pressed", state.salientOnly);
     $("#codeOnly").setAttribute("aria-pressed", state.codeOnly);
     $("#starCount").textContent = stars.size ? stars.size : "";
     renderChips();
-    const r = { keys: renderKeys, salient: renderSalient, vfx: renderVfx, related: renderRelated, works: renderWorks, creators: renderCreators, modules: renderModules, starred: renderStarred }[state.view];
+    const r = { keys: renderKeys, salient: renderSalient, ai: renderAi, vfx: renderVfx, related: renderRelated, works: renderWorks, creators: renderCreators, modules: renderModules, starred: renderStarred }[state.view];
     $("#empty").hidden = r() > 0;
     lazyVideos();
     writeHash();
@@ -411,7 +420,8 @@
     const ix = (w.interaction || []).map((i) => `<span class="tag">${esc(ixName(i))}</span>`).join("");
     const vcat = VCATS.find((c) => c.id === w.vfx_cat);
     const rcat = RCATS.find((c) => c.id === w.related_cat);
-    const tech = [...(vcat ? [`${S().effect_type}: ${catName(vcat)}`] : []), ...(rcat ? [`${S().related_type}: ${catName(rcat)}`] : []), ...(w.platform || []).map((p) => S().platforms[p] || p), ...(w.tech || [])]
+    const acat = ACATS.find((c) => c.id === w.ai_cat);
+    const tech = [...(vcat ? [`${S().effect_type}: ${catName(vcat)}`] : []), ...(rcat ? [`${S().related_type}: ${catName(rcat)}`] : []), ...(acat ? [`${S().ai_type}: ${catName(acat)}`] : []), ...(w.platform || []).map((p) => S().platforms[p] || p), ...(w.tech || [])]
       .map((x) => `<span class="tag">${esc(x)}</span>`).join("");
     const note = (label, body, cls = "") => (body ? `<div class="note ${cls}"><b>${esc(label)}</b><p>${esc(body)}</p></div>` : "");
     $("#playerInfo").innerHTML = `
@@ -488,6 +498,7 @@
     if (t.dataset.scat !== undefined) { state.salientCat = t.dataset.scat; render(); return; }
     if (t.dataset.vcat !== undefined) { state.vfxCat = t.dataset.vcat; render(); return; }
     if (t.dataset.rcat !== undefined) { state.relCat = t.dataset.rcat; render(); return; }
+    if (t.dataset.acat !== undefined) { state.aiCat = t.dataset.acat; render(); return; }
     if ("codeToggle" in t.dataset) { state.codeOnly = !state.codeOnly; render(); return; }
     if (t.dataset.era) { state.era = state.era === t.dataset.era ? "" : t.dataset.era; render(); return; }
     if (t.dataset.module) { state.ix = new Set([t.dataset.module]); state.view = "works"; render(); return; }

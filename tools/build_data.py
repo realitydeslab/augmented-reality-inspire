@@ -35,6 +35,8 @@ SALIENT_CATS = ROOT / "data" / "salient_categories.json"
 VFX_CATS = ROOT / "data" / "vfx_categories.json"
 RELATED = ROOT / "data" / "related"
 RELATED_CATS = ROOT / "data" / "related_categories.json"
+AI_MAP = ROOT / "data" / "ai"
+AI_CATS = ROOT / "data" / "ai_categories.json"
 CACHE = ROOT / "data" / "video_cache.json"
 
 INTERACTIONS = {
@@ -193,12 +195,12 @@ def load_i18n() -> tuple[dict, dict]:
     return works, creators
 
 
-def load_related() -> dict:
-    """work_id -> Related Art category (or None to remove). manual.json is applied last."""
+def load_mapping(folder: Path) -> dict:
+    """work_id -> column category (or None to remove), from data/<column>/*.json. manual.json is applied last."""
     out: dict = {}
-    files = sorted(f for f in RELATED.glob("*.json") if f.name != "manual.json") if RELATED.exists() else []
-    if (RELATED / "manual.json").exists():
-        files.append(RELATED / "manual.json")
+    files = sorted(f for f in folder.glob("*.json") if f.name != "manual.json") if folder.exists() else []
+    if (folder / "manual.json").exists():
+        files.append(folder / "manual.json")
     for f in files:
         for k, v in json.loads(f.read_text()).items():
             if not k.startswith("_"):
@@ -322,14 +324,15 @@ def main() -> None:
     for w in kept:
         if w["id"] in salient:
             w["salient"] = salient[w["id"]]
-    for wid, cat in load_related().items():
-        w = next((x for x in kept if x["id"] == wid), None)
-        if w is None:
-            continue
-        if cat:
-            w["related_cat"] = cat
-        else:
-            w.pop("related_cat", None)
+    by_id = {w["id"]: w for w in kept}
+    for folder, field in ((RELATED, "related_cat"), (AI_MAP, "ai_cat")):
+        for wid, cat in load_mapping(folder).items():
+            if wid not in by_id:
+                continue
+            if cat:
+                by_id[wid][field] = cat
+            else:
+                by_id[wid].pop(field, None)
     missing_tr = [w["id"] for w in kept if not all(w.get(f) for f in ("description_zh", "idea_en", "technique_zh", "exercise_en"))]
     if missing_tr:
         logger.warning("works missing translations: %d (e.g. %s)", len(missing_tr), missing_tr[:5])
@@ -351,8 +354,10 @@ def main() -> None:
     bad_rel = [w["id"] for w in kept if w.get("related_cat") and w["related_cat"] not in {c["id"] for c in related_cats}]
     if bad_rel:
         logger.warning("Related Art works with an unknown related_cat: %d (e.g. %s)", len(bad_rel), bad_rel[:5])
+    ai_cats = json.loads(AI_CATS.read_text()).get("categories", []) if AI_CATS.exists() else []
     data = {"generated": date.today().isoformat(), "creators": out_creators, "works": kept, "keys": keys,
-            "salient_categories": cats, "vfx_categories": vfx_cats, "related_categories": related_cats}
+            "salient_categories": cats, "vfx_categories": vfx_cats, "related_categories": related_cats,
+            "ai_categories": ai_cats}
     (ROOT / "data" / "entries.json").write_text(json.dumps(data, indent=1, ensure_ascii=False))
     (ROOT / "data" / "entries.js").write_text("window.INSPIRE = " + json.dumps(data, ensure_ascii=False) + ";\n")
     (ROOT / "data" / "leads.json").write_text(json.dumps(open_leads, indent=1, ensure_ascii=False))
@@ -364,11 +369,11 @@ def main() -> None:
     index = ROOT / "index.html"
     stamp = str(int(time.time()))
     index.write_text(re.sub(r'(assets/(?:app|i18n|export)\.(?:js|css)|data/entries\.js)(\?v=\d+)?"', rf'\1?v={stamp}"', index.read_text()))
-    logger.info("creators=%d works=%d dropped=%d open_leads=%d with_teaching=%d salient=%d vfx=%d with_code=%d related=%d",
+    logger.info("creators=%d works=%d dropped=%d open_leads=%d with_teaching=%d salient=%d vfx=%d with_code=%d related=%d ai=%d",
                 len(out_creators), len(kept), len(dropped), len(open_leads),
                 sum(bool(w.get("exercise_zh")) for w in kept), sum(bool(w.get("salient")) for w in kept),
                 sum(bool(w.get("vfx_cat")) for w in kept), sum(bool(w.get("code_url")) for w in kept),
-                sum(bool(w.get("related_cat")) for w in kept))
+                sum(bool(w.get("related_cat")) for w in kept), sum(bool(w.get("ai_cat")) for w in kept))
 
 
 if __name__ == "__main__":

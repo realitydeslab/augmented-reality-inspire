@@ -2744,6 +2744,190 @@
   "batch": "r5-studios"
  },
  {
+  "name": "David C. Roy",
+  "why": "Wooden wind-up kinetic sculptures with long-running moiré motion; many own videos.",
+  "link": "https://www.woodthatworks.com",
+  "found_via": "jennifer-townley",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Robert Henke",
+  "why": "Co-author of ATOM, GRID and DEEP WEB with Christopher Bauder; his laser work Lumière is strong light/stage material (sky-light agent may cover it).",
+  "link": "https://roberthenke.com",
+  "found_via": "christopher-bauder",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "ART+COM — more kinetic works",
+  "why": "Their Vimeo also has Reactive Sparks (2008), Resonance and Infinite Cube (Reflective Kinematronic I/III), Manta Rhei (2012), Grasp Pendulum (2010) and The Invisible Shape of Things Past (1999).",
+  "link": "https://vimeo.com/artcom",
+  "found_via": "art-com",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Troika — Light Rain, Borrowed Light, The Sum of All Possibilities",
+  "why": "Further Troika works with official uploads: Light Rain (UK Pavilion Shanghai 2010, sEa_3Q7qFOA), Borrowed Light at the Barbican (L7_1z73twdE), The Sum of All Possibilities (Daelim Museum, 9CjXr9YWtio).",
+  "link": "https://www.youtube.com/watch?v=sEa_3Q7qFOA",
+  "found_via": "troika",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "United Visual Artists — Musica Universalis, Great Animal Orchestra",
+  "why": "180 Fact uploads of Musica Universalis (AZoiAeYfoVk) and The Great Animal Orchestra with Bernie Krause (immersive, o1SnSv0OQdY).",
+  "link": "https://www.youtube.com/watch?v=AZoiAeYfoVk",
+  "found_via": "united-visual-artists",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "A.A. Murakami — Floating World",
+  "why": "Immersive mist-bubble installation (MFAH, 2023) by the former Studio Swine.",
+  "link": "https://www.youtube.com/watch?v=g4D4i5Q4ZII",
+  "found_via": "studio-swine",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Miguel Chevalier",
+  "why": "Fractal Flowers and other generative responsive environments that grow virtual plants around visitors; long career in projected responsive installations.",
+  "link": "https://www.youtube.com/watch?v=9tIY4773x90",
+  "found_via": "jason-bruges-studio",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Chico MacMurtrie — Pneuma Fountain",
+  "why": "Recent inflatable responsive piece shown at Ars Electronica; year and details not verified in this pass.",
+  "link": "https://www.youtube.com/watch?v=tkRas4_rSrI",
+  "found_via": "chico-macmurtrie",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Jason Bruges Studio — Pixel Cloud / Constellation / Panda Eyes / Platform 5",
+  "why": "Further responsive works; studio videos exist (Panda Eyes WCce646GqIE, Platform 5 6hZ2Yardg4s, Aerial Dynamics l0ND7Z04YbM, Mirror Mirror QLKUMbl166U) but years and descriptions could not be confirmed without the studio site.",
+  "link": "https://www.youtube.com/@JasonBrugesStudio",
+  "found_via": "jason-bruges-studio",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Wen-Ying Tsai",
+  "why": "Cybernetic sculptor (strobe-lit vibrating steel rods that respond to sound, 1960s–70s); only YouTube hit (TSAIBERNETICS, Łaźnia Gdańsk, L6xIZ9cMXS8) is unavailable, no other playable video found.",
+  "link": "https://en.wikipedia.org/wiki/Wen-Ying_Tsai",
+  "found_via": "related-art",
+  "status": "no_video",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Naum Gabo",
+  "why": "Kinetic Construction (Standing Wave, 1919–20) is the first motorised kinetic sculpture, but no video of it moving was found (only static Tate St Ives visits).",
+  "link": "https://www.tate.org.uk/art/artworks/gabo-kinetic-construction-standing-wave-t00827",
+  "found_via": "related-art",
+  "status": "no_video",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Gruppo T (Giovanni Anceschi, Davide Boriani, Gabriele Devecchi, Grazia Varisco)",
+  "why": "Milan programmed-art group of Gianni Colombo; early interactive/kinetic environments (Ambienti del Gruppo T).",
+  "link": "https://www.youtube.com/watch?v=D77nvYSSpWc",
+  "found_via": "gianni-colombo",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Niki de Saint Phalle",
+  "why": "Co-author of Le Cyclop and the Stravinsky Fountain (with Tinguely): kinetic fountain sculptures in public space.",
+  "link": "https://en.wikipedia.org/wiki/Stravinsky_Fountain",
+  "found_via": "jean-tinguely",
+  "status": "covered",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Pablo Rochat",
+  "why": "Checked for time/motion work: his output is visual gags and ads (Nike shorts, AI work), not time or motion traces.",
+  "link": "https://www.youtube.com/watch?v=KKwT-t2w6iY",
+  "found_via": "related-art",
+  "status": "not_ar",
+  "batch": "related-kinetic"
+ },
+ {
+  "name": "Studio Roosegaarde — Waterlicht / Spark",
+  "why": "Virtual flood of light over landscapes and biodegradable fireworks; left for the light/sky batch.",
+  "link": "https://www.studioroosegaarde.net/project/waterlicht",
+  "found_via": "studio-roosegaarde",
+  "status": "covered",
+  "batch": "related-land"
+ },
+ {
+  "name": "Olafur Eliasson — Green River",
+  "why": "1998–2001 dyeing of rivers green in several cities; no playable video found.",
+  "link": "https://olafureliasson.net/archive/artwork/WEK101812/green-river",
+  "found_via": "olafur-eliasson",
+  "status": "no_video",
+  "batch": "related-land"
+ },
+ {
+  "name": "Filthy Luker",
+  "why": "Inflatable tentacles and eyes bursting from buildings (Art Is Everywhere); YouTube search returned only unrelated uploads.",
+  "link": "https://www.filthyluker.com",
+  "found_via": "related-art",
+  "status": "no_video",
+  "batch": "related-land"
+ },
+ {
+  "name": "Es Devlin",
+  "why": "Stage designer whose sets for opera, theatre and concerts (Kanye West, U2, Royal Opera) are built around projection on moving sculptural forms; no clean per-work video found on YouTube/Vimeo in this pass.",
+  "link": "https://esdevlin.com",
+  "found_via": "related-art",
+  "status": "covered",
+  "batch": "related-projection"
+ },
+ {
+  "name": "Ryoji Ikeda",
+  "why": "Sound artist of Dumb Type; datamatics, test pattern and superposition turn data into room-filling projection and stage work.",
+  "link": "https://www.ryojiikeda.com",
+  "found_via": "dumb-type",
+  "status": "covered",
+  "batch": "related-projection"
+ },
+ {
+  "name": "Simon Geilfus (AntiVJ)",
+  "why": "AntiVJ member not yet covered; PALEODICTYON and generative projection pieces on the AntiVJ Vimeo.",
+  "link": "https://vimeo.com/antivj",
+  "found_via": "olivier-ratsi",
+  "status": "covered",
+  "batch": "related-projection"
+ },
+ {
+  "name": "Vita Motus (Heather Shaw)",
+  "why": "Designed the ISAM cube stage for Amon Tobin; other projection-mapped stage sets.",
+  "link": "https://www.vitamotus.com",
+  "found_via": "amon-tobin",
+  "status": "covered",
+  "batch": "related-projection"
+ },
+ {
+  "name": "Ivana Franke",
+  "why": "Perception experiments with flickering light in dark spaces (Seeing with Eyes Closed, 2011).",
+  "link": "https://www.ivanafranke.com",
+  "found_via": "related-art",
+  "status": "covered",
+  "batch": "related-sky-light"
+ },
+ {
+  "name": "Vectorial Elevation (Rafael Lozano-Hemmer)",
+  "why": "Web-controlled robotic searchlights over a city (1999–): a sky piece by an existing creator; check if in gallery and add related_cat sky.",
+  "link": "https://www.lozano-hemmer.com/vectorial_elevation.php",
+  "found_via": "related-art",
+  "status": "covered",
+  "batch": "related-sky-light"
+ },
+ {
   "name": "Roelof Knol",
   "why": "Amsterdam media artist whose projection pieces draw perspective-correct 3D lines and depth contours on floors and tables; several viral Pinterest pins.",
   "link": "https://www.roelofknol.com/",

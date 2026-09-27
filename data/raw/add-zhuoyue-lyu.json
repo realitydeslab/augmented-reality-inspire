@@ -1,0 +1,228 @@
+{
+ "batch": "add-zhuoyue-lyu",
+ "creators": [
+  {
+   "id": "zhuoyue-lyu",
+   "name": "Zhuoyue Lyu",
+   "role": "HCI researcher in mixed-reality interaction design, PhD candidate at the University of Cambridge",
+   "based": "Cambridge, UK",
+   "bio": "PhD researcher in Per Ola Kristensson's group at Cambridge's Department of Engineering, trained in computer science at the University of Toronto and in education at Harvard, with earlier stints at the MIT Media Lab and Stanford. He designs and builds mixed-reality interactions that treat everyday objects, walls, tables and windows as partners in interaction.",
+   "why": "His CHI papers turn the plain furniture of a room into an interaction vocabulary: a ball that falls through a tabletop, a marker that writes on any wall, a coffee cup that becomes a dial.",
+   "links": {
+    "site": "https://www.zhuoyuelyu.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@zhuoyuelyu",
+    "github": "https://github.com/ZhuoyueLyu"
+   },
+   "role_zh": "混合现实交互设计方向的 HCI 研究者，剑桥大学博士生",
+   "based_zh": "剑桥，英国",
+   "bio_zh": "剑桥大学工程系 Per Ola Kristensson 课题组的博士研究者，本科在多伦多大学读计算机科学，硕士在哈佛读教育，曾在 MIT Media Lab 和斯坦福做研究。他设计并实现混合现实中的交互，把日常物品、墙、桌子和窗户当作交互中的伙伴。",
+   "why_zh": "他的 CHI 论文把房间里最普通的家具变成一套交互语汇：最后一次弹跳时穿过桌面的球、能在任何墙上写字的马克笔、变成旋钮的咖啡杯。",
+   "connected_to": [
+    "autodesk-research"
+   ],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "zhuoyue-lyu--unbounded",
+   "creator_ids": [
+    "zhuoyue-lyu"
+   ],
+   "title": "Unbounded: Object–Boundary Interaction in Mixed Reality",
+   "year": 2026,
+   "description": "Eight passthrough mixed-reality prototypes (CHI 2026, with Per Ola Kristensson) in which walls, tables, shelves, windows and mirrors become interactive boundaries: a ball falls through the tabletop on its last bounce, a document is fed through a shelf and shredded, a virtual marker writes TODO on the wall, an acoustic partition slides out of the windowsill, and a painting, a hidden wall drawer and a magic mirror turn a room into an art exhibit.",
+   "description_zh": "一组共八个透视式混合现实原型（CHI 2026，与 Per Ola Kristensson 合作），让墙、桌面、搁板、窗户和镜子都变成可交互的“边界”：球在最后一次弹跳时穿过桌面，文件从搁板缝里塞进去就被碎掉，虚拟马克笔直接在墙上写下 TODO，隔音屏从窗台里拉出来，还有能拉出画框的画、藏在墙里的抽屉和一面魔镜，把房间变成一个展厅。",
+   "idea_en": "A boundary is not just a limit: every wall, tabletop and window can let things bounce, pass through, hide, emerge or be written on.",
+   "idea_zh": "边界不只是阻挡：每一面墙、每一张桌面、每一扇窗，都可以让东西弹开、穿过、藏起来、冒出来，或者在上面写字。",
+   "technique": "Built in Unity 6 with the Meta XR All-in-One SDK on Meta Quest 3 passthrough; the headset's scene understanding supplies wall, table and window planes, and scripted objects switch between colliding with a plane, passing through it or spawning from it, with occlusion hiding what is 'behind' the surface.",
+   "technique_zh": "在 Meta Quest 3 透视模式下用 Unity 6 和 Meta XR All-in-One SDK 实现；头显的场景理解提供墙面、桌面和窗户平面，脚本控制虚拟物体在平面上反弹、穿过或从平面里生成，并用遮挡隐藏“在表面后面”的部分。",
+   "exercise_en": "Use AR Foundation plane detection on a phone to make a virtual ball that bounces on a real table three times and then sinks through it, revealing a small hidden world under the tabletop through an occlusion mask. Twist: pick one of the five motions (rebound, reemerge, vanish, emerge, along) and apply it to a wall instead.",
+   "exercise_zh": "用手机上的 AR Foundation 平面检测，做一个在真实桌面上弹三下、然后沉进桌面的虚拟球，并用遮挡蒙版露出桌面下面藏着的小世界。变体：从反弹、穿出再返回、消失、冒出、沿表面移动这五种运动里挑一种，改用在墙上。",
+   "interaction": [
+    "spatial-mapping",
+    "hand-body",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Unity",
+    "Meta XR SDK"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FL3hmRgtYUM",
+    "url": "https://www.youtube.com/watch?v=FL3hmRgtYUM"
+   },
+   "source_url": "https://doi.org/10.1145/3772318.3791741"
+  },
+  {
+   "id": "zhuoyue-lyu--objestures",
+   "creator_ids": [
+    "zhuoyue-lyu"
+   ],
+   "title": "Objestures: Everyday Objects Meet Mid-Air Gestures for Expressive Interaction",
+   "year": 2026,
+   "description": "A CHI 2026 design space (with Per Ola Kristensson) that lets each hand either handle an ordinary object or gesture in mid-air: squeeze a stuffed toy while sliding a finger along a book edge to play music, rotate a cup to change brush size while drawing, move a cup lid carrying a model building while a fist plays the sun to watch its shadow move, or steer a spaceship game along a window frame.",
+   "description_zh": "一个 CHI 2026 的设计空间（与 Per Ola Kristensson 合作）：每只手要么操作一件普通物品，要么在空中做手势。捏毛绒玩具、同时手指沿书脊滑动来演奏音乐；一边画画一边转杯子调笔刷粗细；移动托着建筑模型的杯盖，另一只握拳的手当太阳，看阴影如何移动；或者沿窗框滑动手指来操控飞船游戏。",
+   "idea_en": "Any object within reach can become a controller without sensors: a cup is a dial, a book edge is a slider, a plush toy is a pressure pad.",
+   "idea_zh": "手边任何东西都能不加传感器就变成控制器：杯子是旋钮，书脊是滑条，毛绒玩具是压力垫。",
+   "technique": "Uses only the Quest 3 built-in hand tracking in passthrough (Unity): after a thumbs-up to register an object's position, the system reads five interaction types (binary, linear, rotational, nonlinear, free) from finger and knuckle motion on the uninstrumented object, smoothed with an adaptive moving average.",
+   "technique_zh": "只用 Quest 3 自带的手部追踪（透视模式，Unity）：用竖大拇指的手势登记物体位置后，系统从手指和指节在未加改装的物体上的运动中读出五种交互类型（二值、线性、旋转、非线性、自由），并用自适应滑动平均去抖。",
+   "exercise_en": "In a headset or phone-AR hand-tracking app, register a real mug and map its rotation, read from the tracked hand, to the pitch of a synth tone; add a mid-air pinch with the other hand to trigger notes. Twist: remap the same mug to something that contradicts its meaning and discuss why it feels wrong.",
+   "exercise_zh": "在头显或支持手部追踪的手机 AR 应用里，登记一个真实马克杯，用追踪到的手部转动来控制合成器音高，另一只手在空中捏合来触发音符。变体：把同一个杯子映射到一个与它本身含义相冲突的功能上，讨论为什么会觉得别扭。",
+   "interaction": [
+    "tangible-object",
+    "hand-body",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Unity",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "p79r1l3LeQE",
+    "url": "https://www.youtube.com/watch?v=p79r1l3LeQE"
+   },
+   "source_url": "https://doi.org/10.1145/3772318.3791742"
+  },
+  {
+   "id": "zhuoyue-lyu--clook",
+   "creator_ids": [
+    "zhuoyue-lyu"
+   ],
+   "title": "Clo(o)k: Human-Time Interactions Through a Clock That \"Looks\"",
+   "year": 2023,
+   "description": "A hand-built wall clock with a camera at its centre: it keeps normal time while you look at it but speeds up when you look away, pauses when it sees people talking, and when two people in London and Hangzhou look at their Clo(o)ks at the same moment, each shows the other's time. Swappable rings turn it into a planetary model, a face or kinetic art (CHI 2025 Best Video Showcase).",
+   "description_zh": "一只亲手做的挂钟，中央藏着一个摄像头：你看着它时它正常走，你一移开视线它就加速；看到有人在聊天时它会暂停；当伦敦和杭州的两个人同时看向各自的 Clo(o)k，表盘会显示对方那里的时间。可更换的表圈还能把它变成行星模型、一张脸或动态艺术（CHI 2025 最佳视频展示奖）。",
+   "idea_en": "An everyday object that notices your attention can bend the time it shows: time rushes when ignored and stops for a conversation.",
+   "idea_zh": "一件能察觉你注意力的日常物品，可以扭曲它所显示的时间：没人看时时间飞逝，有人交谈时时间停下。",
+   "technique": "An ESP32-CAM streams video to a laptop running OpenCV face detection, and the face count returned over serial drives two stepper motors (one via a custom-milled D11C board) that turn the hand rings.",
+   "technique_zh": "ESP32-CAM 把视频传给运行 OpenCV 人脸检测的笔记本电脑，检测到的人脸数量通过串口发回，驱动两个步进电机（其中一个经由自制铣削的 D11C 电路板控制）转动指针环。",
+   "exercise_en": "Build a web or phone-AR clock anchored on a real wall whose hands run at normal speed only while the front camera detects your face, and fast-forward when you look away. Twist: let two classmates' clocks sync over the network so they only stop when both are looking.",
+   "exercise_zh": "做一个锚定在真实墙面上的网页或手机 AR 时钟，只有前置摄像头检测到你的脸时指针才正常走，移开视线就快进。变体：让两位同学的时钟联网同步，只有两人同时看着时才停止快进。",
+   "interaction": [
+    "gaze-attention",
+    "tangible-object",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "ESP32-CAM",
+    "OpenCV",
+    "Arduino",
+    "stepper motors"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "A3jYe0NNDAk",
+    "url": "https://www.youtube.com/watch?v=A3jYe0NNDAk"
+   },
+   "source_url": "https://www.zhuoyuelyu.com/clook",
+   "code_url": "https://github.com/ZhuoyueLyu/Arduino/tree/esp32",
+   "related_cat": "responsive"
+  },
+  {
+   "id": "zhuoyue-lyu--aiive",
+   "creator_ids": [
+    "zhuoyue-lyu"
+   ],
+   "title": "AIive: Interactive Visualization and Sonification of Neural Networks in Virtual Reality",
+   "year": 2021,
+   "description": "A VR piece (IEEE AIVR 2021, with Jiannan Li and Bryan Wang, Best Presentation Award) where a neural network is laid out around you as layers of glowing nodes; you grab and stretch its hyperparameters with your hands while its loss and accuracy are played back as sound during training.",
+   "description_zh": "一件 VR 作品（IEEE AIVR 2021，与 Jiannan Li、Bryan Wang 合作，获最佳报告奖）：一个神经网络以一层层发光节点的形式摆在你周围，你用双手抓取、拉伸它的超参数，训练过程中的损失和准确率会实时变成声音。",
+   "idea_en": "Make an invisible process tangible: a learning machine you can walk around, touch and hear getting better.",
+   "idea_zh": "把看不见的过程变得可以触摸：一台正在学习的机器，你可以绕着它走、用手摸，还能听见它一点点变好。",
+   "technique": "A Unity VR scene with hand tracking renders each network layer as nodes in space and maps grabbed handles to hyperparameters of a live training loop, likely streaming loss and accuracy values into pitch and rhythm of synthesized sound.",
+   "technique_zh": "在支持手部追踪的 Unity VR 场景中，把网络的每一层渲染成空间中的节点，把可抓取的手柄映射到实时训练循环的超参数上，并很可能把损失值和准确率实时转换为合成声音的音高与节奏。",
+   "exercise_en": "Place a small neural network (for example a TensorFlow.js digit classifier) in WebXR or phone AR as a stack of spheres on your desk, and map its training loss to a tone that falls as it learns. Twist: let a hand pinch-and-drag set the learning rate and hear what happens when it is too high.",
+   "exercise_zh": "把一个小型神经网络（例如 TensorFlow.js 手写数字分类器）用 WebXR 或手机 AR 以一叠小球的形式放在桌面上，把训练损失映射成随学习逐渐降低的音调。变体：用手捏合拖动来设置学习率，听听学习率过高时会发生什么。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "VR",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "kE-NDBdZ9AU",
+    "url": "https://www.youtube.com/watch?v=kE-NDBdZ9AU"
+   },
+   "source_url": "https://www.zhuoyuelyu.com/aiive",
+   "code_url": "https://github.com/ZhuoyueLyu/sonifyAI",
+   "related_cat": "immersive"
+  },
+  {
+   "id": "zhuoyue-lyu--touching-the-droid",
+   "creator_ids": [
+    "zhuoyue-lyu"
+   ],
+   "title": "Touching The Droid: Understanding and Improving Touch Precision With Mobile Devices in Virtual Reality",
+   "year": 2022,
+   "description": "An ISMAR 2022 study led by Fengyuan Zhu with Zhuoyue Lyu, Mauricio Sousa and Tovi Grossman (University of Toronto): people hold a real phone or tablet while wearing a VR headset and tap its virtual twin, first with no rendered hand at all, then with a calibration that realigns the virtual hand to the real touch.",
+   "description_zh": "ISMAR 2022 的一项研究，由 Fengyuan Zhu 主导，合作者为 Zhuoyue Lyu、Mauricio Sousa 和 Tovi Grossman（多伦多大学）：用户戴着 VR 头显、手里拿着真实的手机或平板，去点按它在虚拟世界中的替身；先在完全不显示虚拟手的情况下测试，再用一种校准方法把虚拟手重新对齐到真实触点。",
+   "idea_en": "A real phone in your hand can be a precise touch surface inside a virtual world, as long as the virtual hand is quietly corrected to match where you actually touch.",
+   "idea_zh": "只要悄悄把虚拟手校正到你真正触碰的位置，手里的真实手机就能在虚拟世界里成为一块精确的触控面板。",
+   "technique": "The phone's touch events serve as ground truth to continuously estimate the offset between the tracked physical hand and its rendered model, and a dynamic calibration shifts the virtual hand to cancel it, raising touch accuracy by 43% and reducing 'screen penetration' and 'floating touch' errors.",
+   "technique_zh": "把手机屏幕的触摸事件当作真实参照，持续估计被追踪的真实手与渲染出来的虚拟手之间的偏移，再用动态校准移动虚拟手去抵消偏移，使触控准确率提高 43%，并减少“手指穿过屏幕”和“悬空触摸”的错误。",
+   "exercise_en": "In WebXR on a headset, render a virtual copy of a phone held in the other hand and log where your fingertip appears versus where the phone registers the tap. Twist: hide the virtual hand completely and compare accuracy with and without it.",
+   "exercise_zh": "在头显的 WebXR 中，为另一只手里拿着的手机渲染一个虚拟副本，记录指尖在画面中出现的位置和手机实际记录到的点按位置。变体：完全隐藏虚拟手，对比有无虚拟手时的点按准确率。",
+   "interaction": [
+    "tangible-object",
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "VR headset",
+    "smartphone",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "8Ju-UA7FCoc",
+    "url": "https://www.youtube.com/watch?v=8Ju-UA7FCoc"
+   },
+   "source_url": "https://doi.org/10.1109/ISMAR55827.2022.00099"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Per Ola Kristensson",
+   "why": "Cambridge Intelligent Interactive Systems Group lead; co-author of Unbounded and Objestures and many mixed-reality text-entry and interaction papers.",
+   "link": "https://pokristensson.com",
+   "found_via": "zhuoyue-lyu",
+   "status": "open"
+  },
+  {
+   "name": "Fengyuan Zhu",
+   "why": "University of Toronto DGP researcher working on phones and touch inside VR/MR; first author of Touching The Droid.",
+   "link": "https://doi.org/10.1109/ISMAR55827.2022.00099",
+   "found_via": "zhuoyue-lyu",
+   "status": "open"
+  }
+ ]
+}

@@ -50,7 +50,8 @@ Each research batch writes one file: `data/raw/<batch>.json`
   "found_via": { "source": "pinterest", "url": "https://www.pinterest.com/pin/…" }  // optional: where we discovered it (pinterest, article, x, …)
   "code_url": "https://github.com/<owner>/<repo>",  // optional: public source code of this work (shown as "Source code")
   "vfx_cat": "particles",  // optional: puts the work in the Visual Effects column; one id from data/vfx_categories.json
-  "related_cat": "land"  // optional: puts the work in the Related Art column (not AR, but inspires AR); one id from data/related_categories.json
+  "related_cat": "land",  // optional: puts the work in the Related Art column (not AR, but inspires AR); one id from data/related_categories.json
+  "ai_cat": "agent"  // optional: puts the work in the AI × AR column (AI is central to the idea); one id from data/ai_categories.json
 }
 ```
 
@@ -112,3 +113,10 @@ A work joins the column with `related_cat` (one id from `data/related_categories
 land, sculpture, light, projection, sky, illusion, trace, responsive, stage, immersive), either in its batch file
 or in a mapping file `data/related/*.json` (`{ "work-id": "cat" }`, `null` removes; applied at build, like data/salient/).
 Museum, gallery or documentary uploads are acceptable videos for artists who do not publish their own; say so in the report.
+
+## AI × AR column
+
+AR works where AI is central to the idea: vision and language models that understand the scene, agents and companions in space,
+generating 3D content from words or sketches, live diffusion that restyles reality, AI that reads the body, and co-creation tools.
+A work joins with `ai_cat` (one id from `data/ai_categories.json`: understand, agent, generate, restyle, body, cocreate),
+in its batch file or in a mapping file `data/ai/*.json` (`{ "work-id": "cat" }`, `null` removes).

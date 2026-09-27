@@ -6,3 +6,4 @@ task_plan.md
 notes.md
 # translation inputs (outputs in data/i18n/out are kept)
 data/i18n/in/
+temp/
