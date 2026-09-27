@@ -49,7 +49,8 @@ Each research batch writes one file: `data/raw/<batch>.json`
   "source_url": "https://…",  // project page / article / tweet, optional
   "found_via": { "source": "pinterest", "url": "https://www.pinterest.com/pin/…" }  // optional: where we discovered it (pinterest, article, x, …)
   "code_url": "https://github.com/<owner>/<repo>",  // optional: public source code of this work (shown as "Source code")
-  "vfx_cat": "particles"  // optional: puts the work in the Visual Effects column; one id from data/vfx_categories.json
+  "vfx_cat": "particles",  // optional: puts the work in the Visual Effects column; one id from data/vfx_categories.json
+  "related_cat": "land"  // optional: puts the work in the Related Art column (not AR, but inspires AR); one id from data/related_categories.json
 }
 ```
 
@@ -102,3 +103,12 @@ A work joins the column when it has `vfx_cat` (one id from `data/vfx_categories.
 particles, pointcloud, body, audio, procedural, surface, sdf, sim, screen, ml).
 Strongly prefer works with public source code in `code_url` (the repository itself, not a profile).
 The video must still be playable (YouTube, Vimeo, X or mp4); a README GIF alone is not enough.
+
+## Related Art column
+
+Works that are **not AR** but inspire AR: land and environment art, light and space, projection mapping, fireworks and drones,
+anamorphic illusions, sculpture placed in landscapes, responsive installations, stage work, immersive rooms and VR.
+A work joins the column with `related_cat` (one id from `data/related_categories.json`:
+land, sculpture, light, projection, sky, illusion, trace, responsive, stage, immersive), either in its batch file
+or in a mapping file `data/related/*.json` (`{ "work-id": "cat" }`, `null` removes; applied at build, like data/salient/).
+Museum, gallery or documentary uploads are acceptable videos for artists who do not publish their own; say so in the report.

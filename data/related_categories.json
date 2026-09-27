@@ -1,0 +1,25 @@
+{
+ "_note": "Categories for the Related Art column: works that are not AR but inspire AR (land art, light, projection, fireworks, illusion, sculpture…). A work joins with `related_cat` (in its batch file or in data/related/*.json).",
+ "categories": [
+  {"id": "land", "en": "Land & environment", "zh": "大地与环境",
+   "desc_en": "Works made in and with the landscape: the world itself becomes the canvas.", "desc_zh": "在自然与大地中、用大地创作的作品：世界本身就是画布。"},
+  {"id": "sculpture", "en": "Bodies & figures in place", "zh": "身体与雕塑",
+   "desc_en": "Figures and objects placed where you don't expect them, changing how a place feels.", "desc_zh": "把人形和物体放在意想不到的地方，改变一个地方给人的感觉。"},
+  {"id": "light", "en": "Light & space", "zh": "光与空间",
+   "desc_en": "Light as a material: rooms, skies and volumes you walk into.", "desc_zh": "把光当作材料：可以走进去的房间、天空和光体。"},
+  {"id": "projection", "en": "Projection & mapping", "zh": "投影与映射",
+   "desc_en": "Images projected onto buildings, objects and bodies: the ancestor of AR overlays.", "desc_zh": "投射到建筑、物体和身体上的影像：AR 叠加的前身。"},
+  {"id": "sky", "en": "Sky, fire & drones", "zh": "天空：烟火与无人机",
+   "desc_en": "Drawing in the sky with fireworks, smoke, balloons and drone swarms.", "desc_zh": "用烟火、烟雾、气球和无人机群在天空中作画。"},
+  {"id": "illusion", "en": "Perspective & illusion", "zh": "透视与错觉",
+   "desc_en": "Anamorphic paintings, mirrors and tricks that only resolve from one point of view.", "desc_zh": "变形绘画、镜面和只有从某个视点才成立的视觉把戏。"},
+  {"id": "trace", "en": "Traces of time & motion", "zh": "时间与运动的痕迹",
+   "desc_en": "Making invisible paths visible: flight, movement, light painting, time made into form.", "desc_zh": "让看不见的路径显形：飞行、运动、光绘，把时间变成形状。"},
+  {"id": "responsive", "en": "Responsive installations", "zh": "会回应的装置",
+   "desc_en": "Physical installations that sense people and answer them with light, sound or motion.", "desc_zh": "感知到人、并用光、声音或运动回应的实体装置。"},
+  {"id": "stage", "en": "Stage & performance", "zh": "舞台与表演",
+   "desc_en": "Dance, theatre and concerts where digital imagery shares the stage with performers.", "desc_zh": "数字影像与表演者同台的舞蹈、剧场和演出。"},
+  {"id": "immersive", "en": "Immersive rooms & VR", "zh": "沉浸空间与 VR",
+   "desc_en": "Rooms, domes and virtual worlds that surround you completely.", "desc_zh": "把你完全包围起来的房间、穹顶和虚拟世界。"}
+ ]
+}

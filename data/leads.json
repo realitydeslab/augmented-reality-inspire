@@ -182,5 +182,109 @@
   "found_via": "aphra-shemza",
   "status": "open",
   "batch": "r5-uk"
+ },
+ {
+  "name": "Marek Simonik (Record3D)",
+  "why": "Record3D app author; open Unity VFX Graph demos stream iPhone LiDAR/TrueDepth point clouds live into VFX Graph (no own demo video found).",
+  "link": "https://github.com/marek-simonik/record3d_unity_demo",
+  "found_via": "keijiro-takahashi",
+  "status": "open",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Dan Miller",
+  "why": "Unity AR evangelist; open ARFoundation_VFX and ARBodyTrackingVFX repos (AR Foundation + VFX Graph); videos likely on X @DanMillerDev.",
+  "link": "https://github.com/DanMillerDev/ARFoundation_VFX",
+  "found_via": "dilmer-valecillos",
+  "status": "open",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Saki Komikado (komietty)",
+  "why": "Geometry programmer; open Unity moxi ink painting, CIP fluid, bitonic-sort SPH and vector-field repos; videos likely on X.",
+  "link": "https://github.com/komietty",
+  "found_via": "kodai-takao",
+  "status": "open",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Masatatsu Nakamura (mattatz)",
+  "why": "Open Unity CellularGrowth, Dendrite, voxelizer, procedural tree/flower and volume rendering repos; demo videos mostly GIF/X.",
+  "link": "https://github.com/mattatz",
+  "found_via": "hironori-sugino",
+  "status": "open",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Cyanilux",
+  "why": "Shader Graph artist with open URP repos (retro CRT, watercolour, custom lighting); showcase videos on X.",
+  "link": "https://github.com/Cyanilux",
+  "found_via": "daniel-ilett",
+  "status": "open",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Roel Kok",
+  "why": "Kinect-VFX-Graph (213 stars): Kinect depth feed into Unity VFX Graph; needs a playable video.",
+  "link": "https://github.com/roelkok/Kinect-VFX-Graph",
+  "found_via": "keijiro-takahashi",
+  "status": "open",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Codrin-Mihail (Kodrin)",
+  "why": "Open VFX-Essentials HDRP workshop and GPU-FlowField compute-shader particle repos.",
+  "link": "https://github.com/Kodrin",
+  "found_via": "keijiro-takahashi",
+  "status": "open",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Angela He (zephyo)",
+  "why": "2D-Unity-Experiments (279 stars): URP/Shader Graph visual experiments; videos likely on X @zephybite.",
+  "link": "https://github.com/zephyo/2D-Unity-Experiments",
+  "found_via": "keijiro-takahashi",
+  "status": "open",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Aras Pranckevičius",
+  "why": "Graphics engineer (ex-Unity) whose open-source UnityGaussianSplatting renders 3D Gaussian Splatting scenes in Unity; Keijiro's SplatVFX README recommends it as the more complete implementation.",
+  "link": "https://github.com/aras-p/UnityGaussianSplatting",
+  "found_via": "keijiro-takahashi",
+  "status": "open",
+  "batch": "vfx-keijiro-new"
+ },
+ {
+  "name": "Ronald van Wijnen",
+  "why": "Author of spectral.js, an open-source Kubelka-Munk pigment color-mixing library with web demos; Keijiro ported it to Unity for Fluo and his pigment fluid-art tests.",
+  "link": "https://github.com/rvanwijnen/spectral.js",
+  "found_via": "keijiro-takahashi",
+  "status": "open",
+  "batch": "vfx-keijiro-new"
+ },
+ {
+  "name": "FMS_Cat (0b5vr)",
+  "why": "Demoscene and WebGL real-time visuals artist who performed alongside Keijiro at Channel and Liquidroom; publishes source code.",
+  "link": "https://github.com/fms-cat",
+  "found_via": "keijiro-takahashi",
+  "status": "open",
+  "batch": "vfx-keijiro-old"
+ },
+ {
+  "name": "AMAGI (fand)",
+  "why": "Web graphics artist behind vfx-js and VEDA live-coding tools; active in the same Tokyo live-coding scene.",
+  "link": "https://github.com/fand",
+  "found_via": "keijiro-takahashi",
+  "status": "open",
+  "batch": "vfx-keijiro-old"
+ },
+ {
+  "name": "kaiware007",
+  "why": "Unity VJ shader developer (reaction-diffusion, hex tiling, VJ shader talks) with public repos.",
+  "link": "https://github.com/kaiware007",
+  "found_via": "keijiro-takahashi",
+  "status": "open",
+  "batch": "vfx-keijiro-old"
  }
 ]

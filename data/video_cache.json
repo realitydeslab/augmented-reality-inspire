@@ -16805,5 +16805,1880 @@
   "title": "luton lights - Tales of the Deep",
   "author": "Tom Ward",
   "thumbnail": "https://i.ytimg.com/vi/bf4EfRMeI_E/hqdefault.jpg"
+ },
+ "youtube:GkrQy5JUyZk": {
+  "url": "https://www.youtube.com/watch?v=GkrQy5JUyZk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "GkrQy5JUyZk",
+  "title": "Unity3D Fluid Simulation in Compute Shader",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/GkrQy5JUyZk/hqdefault.jpg"
+ },
+ "youtube:hMhNhgnOGN8": {
+  "url": "https://www.youtube.com/watch?v=hMhNhgnOGN8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "hMhNhgnOGN8",
+  "title": "Interactive Volumetric Fog With Fluid Dynamics in Unity 3D",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/hMhNhgnOGN8/hqdefault.jpg"
+ },
+ "youtube:8l7cujPLw84": {
+  "url": "https://www.youtube.com/watch?v=8l7cujPLw84",
+  "ok": true,
+  "platform": "youtube",
+  "id": "8l7cujPLw84",
+  "title": "Matrix VFX Real time Shader in Unity 3D",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/8l7cujPLw84/hqdefault.jpg"
+ },
+ "youtube:--YygVe0Eu4": {
+  "url": "https://www.youtube.com/watch?v=--YygVe0Eu4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "--YygVe0Eu4",
+  "title": "Procedural Painting in Unity 3D",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/--YygVe0Eu4/hqdefault.jpg"
+ },
+ "youtube:GmCZZrV004A": {
+  "url": "https://www.youtube.com/watch?v=GmCZZrV004A",
+  "ok": true,
+  "platform": "youtube",
+  "id": "GmCZZrV004A",
+  "title": "Texture Painting in Unity",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/GmCZZrV004A/hqdefault.jpg"
+ },
+ "youtube:_DwnvbPxZTM": {
+  "url": "https://www.youtube.com/watch?v=_DwnvbPxZTM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "_DwnvbPxZTM",
+  "title": "Cubism Shader in Unity 3D",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/_DwnvbPxZTM/hqdefault.jpg"
+ },
+ "youtube:81XDjBiuuEI": {
+  "url": "https://www.youtube.com/watch?v=81XDjBiuuEI",
+  "ok": true,
+  "platform": "youtube",
+  "id": "81XDjBiuuEI",
+  "title": "Moebius Transformations",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/81XDjBiuuEI/hqdefault.jpg"
+ },
+ "youtube:IVy6T5_9r2c": {
+  "url": "https://www.youtube.com/watch?v=IVy6T5_9r2c",
+  "ok": true,
+  "platform": "youtube",
+  "id": "IVy6T5_9r2c",
+  "title": "Mesh Deformation With Compute Shader on Andriod/ Oculus Quest in Unity3D",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/IVy6T5_9r2c/hqdefault.jpg"
+ },
+ "youtube:87YvrkrymG0": {
+  "url": "https://www.youtube.com/watch?v=87YvrkrymG0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "87YvrkrymG0",
+  "title": "Raymarching Unity",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/87YvrkrymG0/hqdefault.jpg"
+ },
+ "youtube:gGeP34_6d2A": {
+  "url": "https://www.youtube.com/watch?v=gGeP34_6d2A",
+  "ok": true,
+  "platform": "youtube",
+  "id": "gGeP34_6d2A",
+  "title": "Stencil Buffer in Unity - Halloween VFX Scene",
+  "author": "Shahriar Shahrabi",
+  "thumbnail": "https://i.ytimg.com/vi/gGeP34_6d2A/hqdefault.jpg"
+ },
+ "youtube:rSKMYc1CQHE": {
+  "url": "https://www.youtube.com/watch?v=rSKMYc1CQHE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "rSKMYc1CQHE",
+  "title": "Coding Adventure: Simulating Fluids",
+  "author": "Sebastian Lague",
+  "thumbnail": "https://i.ytimg.com/vi/rSKMYc1CQHE/hqdefault.jpg"
+ },
+ "youtube:X-iSQQgOd1A": {
+  "url": "https://www.youtube.com/watch?v=X-iSQQgOd1A",
+  "ok": true,
+  "platform": "youtube",
+  "id": "X-iSQQgOd1A",
+  "title": "Coding Adventure: Ant and Slime Simulations",
+  "author": "Sebastian Lague",
+  "thumbnail": "https://i.ytimg.com/vi/X-iSQQgOd1A/hqdefault.jpg"
+ },
+ "youtube:Cp5WWtMoeKg": {
+  "url": "https://www.youtube.com/watch?v=Cp5WWtMoeKg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Cp5WWtMoeKg",
+  "title": "Coding Adventure: Ray Marching",
+  "author": "Sebastian Lague",
+  "thumbnail": "https://i.ytimg.com/vi/Cp5WWtMoeKg/hqdefault.jpg"
+ },
+ "youtube:4QOcCGI6xOU": {
+  "url": "https://www.youtube.com/watch?v=4QOcCGI6xOU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "4QOcCGI6xOU",
+  "title": "Coding Adventure: Clouds",
+  "author": "Sebastian Lague",
+  "thumbnail": "https://i.ytimg.com/vi/4QOcCGI6xOU/hqdefault.jpg"
+ },
+ "youtube:bqtqltqcQhw": {
+  "url": "https://www.youtube.com/watch?v=bqtqltqcQhw",
+  "ok": true,
+  "platform": "youtube",
+  "id": "bqtqltqcQhw",
+  "title": "Coding Adventure: Boids",
+  "author": "Sebastian Lague",
+  "thumbnail": "https://i.ytimg.com/vi/bqtqltqcQhw/hqdefault.jpg"
+ },
+ "youtube:cWpFZbjtSQg": {
+  "url": "https://www.youtube.com/watch?v=cWpFZbjtSQg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "cWpFZbjtSQg",
+  "title": "Coding Adventure: Portals",
+  "author": "Sebastian Lague",
+  "thumbnail": "https://i.ytimg.com/vi/cWpFZbjtSQg/hqdefault.jpg"
+ },
+ "youtube:M3iI2l0ltbE": {
+  "url": "https://www.youtube.com/watch?v=M3iI2l0ltbE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "M3iI2l0ltbE",
+  "title": "Coding Adventure: Marching Cubes",
+  "author": "Sebastian Lague",
+  "thumbnail": "https://i.ytimg.com/vi/M3iI2l0ltbE/hqdefault.jpg"
+ },
+ "youtube:eaXk97ujbPQ": {
+  "url": "https://www.youtube.com/watch?v=eaXk97ujbPQ",
+  "ok": true,
+  "platform": "youtube",
+  "id": "eaXk97ujbPQ",
+  "title": "Coding Adventure: Hydraulic Erosion",
+  "author": "Sebastian Lague",
+  "thumbnail": "https://i.ytimg.com/vi/eaXk97ujbPQ/hqdefault.jpg"
+ },
+ "x:1809173668456792524": {
+  "url": "https://x.com/TheMirzaBeig/status/1809173668456792524",
+  "ok": true,
+  "platform": "x",
+  "id": "1809173668456792524",
+  "author": "Mirza Beig",
+  "title": "Happy #VFXFriday! 🎉 I've updated my FREE open-source GitHub repo with these latest additions.\n\nYou can now have single-pulse scans controlled by GameObject/transforms in #Unity3D! 🔵🔴🟠\n\n🔗 https://t.co/",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1809172979516936192/pu/img/kdbLLicKJI7rJbR_.jpg",
+  "has_video": true,
+  "date": "2024-07-05T10:33:10.000Z"
+ },
+ "x:1471820398056677376": {
+  "url": "https://x.com/TheMirzaBeig/status/1471820398056677376",
+  "ok": true,
+  "platform": "x",
+  "id": "1471820398056677376",
+  "author": "Mirza Beig",
+  "title": "Now on Github! Made an atmospheric fog particle shader for #Unity3D that blends w/geometry and fades as you approach.\n\nNo textures, it's all generated in the shader! 🤩\nhttps://t.co/mevE8o6RSI\n\n#madewi",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1471820307124166663/pu/img/PlSQdZrMAVwCBziB.jpg",
+  "has_video": true,
+  "date": "2021-12-17T12:31:42.000Z"
+ },
+ "mp4:https://user-images.githubusercontent.com/37354140/151656459-d99d2d36-06ed-4889-8a10-17cabd1626d8.mp4": {
+  "url": "https://user-images.githubusercontent.com/37354140/151656459-d99d2d36-06ed-4889-8a10-17cabd1626d8.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://user-images.githubusercontent.com/37354140/151656459-d99d2d36-06ed-4889-8a10-17cabd1626d8.mp4",
+  "content_type": "video/mp4"
+ },
+ "youtube:IkBZLo4ROU0": {
+  "url": "https://www.youtube.com/watch?v=IkBZLo4ROU0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "IkBZLo4ROU0",
+  "title": "Chromatic Aberration Distortion Bubble Shader",
+  "author": "Mirza",
+  "thumbnail": "https://i.ytimg.com/vi/IkBZLo4ROU0/hqdefault.jpg"
+ },
+ "x:2008528798397198550": {
+  "url": "https://x.com/TheMirzaBeig/status/2008528798397198550",
+  "ok": true,
+  "platform": "x",
+  "id": "2008528798397198550",
+  "author": "Mirza Beig",
+  "title": "💖 Cosmic water shader,\n++ particles in Unity. 🔵✨ https://t.co/QK2YqKwDZS",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2008526186423455744/img/HB3ay0tJ_Qb4xlzS.jpg",
+  "has_video": true,
+  "date": "2026-01-06T13:19:16.000Z"
+ },
+ "x:1840974568216813609": {
+  "url": "https://x.com/TheMirzaBeig/status/1840974568216813609",
+  "ok": true,
+  "platform": "x",
+  "id": "1840974568216813609",
+  "author": "Mirza Beig",
+  "title": "Constellation Ribbons VFX: a midnight gift! 🎁 \nThis project has been uploaded to GitHub.\n\n🔗 https://t.co/2aQlxXQTZx\n\n✨ Hope you find some good/cool uses for this.\n\n#unity3d #gamedev #realtimevfx https",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1840974237948948480/pu/img/5ABSOpM7hPVdiHKa.jpg",
+  "has_video": true,
+  "date": "2024-10-01T04:38:35.000Z"
+ },
+ "youtube:Hab3dcumtXU": {
+  "url": "https://www.youtube.com/watch?v=Hab3dcumtXU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Hab3dcumtXU",
+  "title": "Unity URP Fur Shader (Shell / Fin)",
+  "author": "hecomi",
+  "thumbnail": "https://i.ytimg.com/vi/Hab3dcumtXU/hqdefault.jpg"
+ },
+ "youtube:jclxfdS3a3w": {
+  "url": "https://www.youtube.com/watch?v=jclxfdS3a3w",
+  "ok": true,
+  "platform": "youtube",
+  "id": "jclxfdS3a3w",
+  "title": "Water Simulation using CustomRenderTexture from Unity 2017.1",
+  "author": "hecomi",
+  "thumbnail": "https://i.ytimg.com/vi/jclxfdS3a3w/hqdefault.jpg"
+ },
+ "youtube:G-4k8Zur7zY": {
+  "url": "https://www.youtube.com/watch?v=G-4k8Zur7zY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "G-4k8Zur7zY",
+  "title": "[Unity] Screen Space Collision GPU Particles Demo",
+  "author": "hecomi",
+  "thumbnail": "https://i.ytimg.com/vi/G-4k8Zur7zY/hqdefault.jpg"
+ },
+ "youtube:AppyVflAagc": {
+  "url": "https://www.youtube.com/watch?v=AppyVflAagc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "AppyVflAagc",
+  "title": "uRaymarching v0.0.1 Released : Raymarching Shader Generator in Unity",
+  "author": "hecomi",
+  "thumbnail": "https://i.ytimg.com/vi/AppyVflAagc/hqdefault.jpg"
+ },
+ "youtube:Nl3lxlz0qME": {
+  "url": "https://www.youtube.com/watch?v=Nl3lxlz0qME",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Nl3lxlz0qME",
+  "title": "[Unity] Draw Kinect V2 Depth Image into G-Buffer directly.",
+  "author": "hecomi",
+  "thumbnail": "https://i.ytimg.com/vi/Nl3lxlz0qME/hqdefault.jpg"
+ },
+ "youtube:TTv6YPWNLxY": {
+  "url": "https://www.youtube.com/watch?v=TTv6YPWNLxY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "TTv6YPWNLxY",
+  "title": "VR Spray Drawing With Unity",
+  "author": "Hironori SUGINO (sugi-cho)",
+  "thumbnail": "https://i.ytimg.com/vi/TTv6YPWNLxY/hqdefault.jpg"
+ },
+ "youtube:E81EVRG0SlU": {
+  "url": "https://www.youtube.com/watch?v=E81EVRG0SlU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "E81EVRG0SlU",
+  "title": "Screen Space Particle Collision",
+  "author": "Hironori SUGINO (sugi-cho)",
+  "thumbnail": "https://i.ytimg.com/vi/E81EVRG0SlU/hqdefault.jpg"
+ },
+ "youtube:r6qXq082iH4": {
+  "url": "https://www.youtube.com/watch?v=r6qXq082iH4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "r6qXq082iH4",
+  "title": "Depth Camera Voxel Particles, Unity",
+  "author": "Hironori SUGINO (sugi-cho)",
+  "thumbnail": "https://i.ytimg.com/vi/r6qXq082iH4/hqdefault.jpg"
+ },
+ "youtube:dQSLjsDAzw0": {
+  "url": "https://www.youtube.com/watch?v=dQSLjsDAzw0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "dQSLjsDAzw0",
+  "title": "Raindrops Shader, 2017",
+  "author": "Yuma Yanagisawa",
+  "thumbnail": "https://i.ytimg.com/vi/dQSLjsDAzw0/hqdefault.jpg"
+ },
+ "youtube:rK5AAb-1pgE": {
+  "url": "https://www.youtube.com/watch?v=rK5AAb-1pgE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "rK5AAb-1pgE",
+  "title": "Wave Propagation Shader (Water Ripple)",
+  "author": "Yuma Yanagisawa",
+  "thumbnail": "https://i.ytimg.com/vi/rK5AAb-1pgE/hqdefault.jpg"
+ },
+ "youtube:kuLUqNNlN4g": {
+  "url": "https://www.youtube.com/watch?v=kuLUqNNlN4g",
+  "ok": true,
+  "platform": "youtube",
+  "id": "kuLUqNNlN4g",
+  "title": "Unity | Metaballs",
+  "author": "Yuma Yanagisawa",
+  "thumbnail": "https://i.ytimg.com/vi/kuLUqNNlN4g/hqdefault.jpg"
+ },
+ "youtube:qop7sk6H4GA": {
+  "url": "https://www.youtube.com/watch?v=qop7sk6H4GA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "qop7sk6H4GA",
+  "title": "Demographics of Israel: Data Sculpture, 2018",
+  "author": "Yuma Yanagisawa",
+  "thumbnail": "https://i.ytimg.com/vi/qop7sk6H4GA/hqdefault.jpg"
+ },
+ "youtube:J6QHswn6Zdg": {
+  "url": "https://www.youtube.com/watch?v=J6QHswn6Zdg",
+  "ok": true,
+  "platform": "youtube",
+  "id": "J6QHswn6Zdg",
+  "title": "Point Cloud Garden, 2020",
+  "author": "Yuma Yanagisawa",
+  "thumbnail": "https://i.ytimg.com/vi/J6QHswn6Zdg/hqdefault.jpg"
+ },
+ "youtube:N-XVl2Jip3M": {
+  "url": "https://www.youtube.com/watch?v=N-XVl2Jip3M",
+  "ok": true,
+  "platform": "youtube",
+  "id": "N-XVl2Jip3M",
+  "title": "Fast Position Based Fluid Solver",
+  "author": "KODAI100",
+  "thumbnail": "https://i.ytimg.com/vi/N-XVl2Jip3M/hqdefault.jpg"
+ },
+ "youtube:JRTQ6Kgi_Wk": {
+  "url": "https://www.youtube.com/watch?v=JRTQ6Kgi_Wk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "JRTQ6Kgi_Wk",
+  "title": "Unity FLIP Fluid",
+  "author": "KODAI100",
+  "thumbnail": "https://i.ytimg.com/vi/JRTQ6Kgi_Wk/hqdefault.jpg"
+ },
+ "youtube:FXcFn8QM8dk": {
+  "url": "https://www.youtube.com/watch?v=FXcFn8QM8dk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "FXcFn8QM8dk",
+  "title": "GPU instanced flocking simulation on Unity Universal Render Pipeline",
+  "author": "KODAI100",
+  "thumbnail": "https://i.ytimg.com/vi/FXcFn8QM8dk/hqdefault.jpg"
+ },
+ "youtube:XqwTrwWG-_4": {
+  "url": "https://www.youtube.com/watch?v=XqwTrwWG-_4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "XqwTrwWG-_4",
+  "title": "Unity GPU Accelerated 2D Wave Simulation",
+  "author": "KODAI100",
+  "thumbnail": "https://i.ytimg.com/vi/XqwTrwWG-_4/hqdefault.jpg"
+ },
+ "youtube:sS2MYj6LceY": {
+  "url": "https://www.youtube.com/watch?v=sS2MYj6LceY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "sS2MYj6LceY",
+  "title": "100000 trails Unity",
+  "author": "fuqunaga",
+  "thumbnail": "https://i.ytimg.com/vi/sS2MYj6LceY/hqdefault.jpg"
+ },
+ "youtube:Oxo22vWgzKc": {
+  "url": "https://www.youtube.com/watch?v=Oxo22vWgzKc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "Oxo22vWgzKc",
+  "title": "Conway's Game of Life in Unity Compute shader.",
+  "author": "fuqunaga",
+  "thumbnail": "https://i.ytimg.com/vi/Oxo22vWgzKc/hqdefault.jpg"
+ },
+ "x:1209023053016924161": {
+  "url": "https://x.com/fuqunaga/status/1209023053016924161",
+  "ok": true,
+  "platform": "x",
+  "id": "1209023053016924161",
+  "author": "fuqunaga",
+  "title": "runtime pCache #VFXGraph #unity3d https://t.co/JBjgYdDURs",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1209022990010085377/pu/img/DjHZg4zYcdSvl_jd.jpg",
+  "has_video": true,
+  "date": "2019-12-23T08:08:53.000Z"
+ },
+ "youtube:jzud9m-NgnA": {
+  "url": "https://www.youtube.com/watch?v=jzud9m-NgnA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "jzud9m-NgnA",
+  "title": "PortalGate",
+  "author": "fuqunaga",
+  "thumbnail": "https://i.ytimg.com/vi/jzud9m-NgnA/hqdefault.jpg"
+ },
+ "youtube:0Byz2CEw-y8": {
+  "url": "https://www.youtube.com/watch?v=0Byz2CEw-y8",
+  "ok": true,
+  "platform": "youtube",
+  "id": "0Byz2CEw-y8",
+  "title": "• VolFx ☄ - Trailer",
+  "author": "NullTale",
+  "thumbnail": "https://i.ytimg.com/vi/0Byz2CEw-y8/hqdefault.jpg"
+ },
+ "youtube:fNq0HUg6L8o": {
+  "url": "https://www.youtube.com/watch?v=fNq0HUg6L8o",
+  "ok": true,
+  "platform": "youtube",
+  "id": "fNq0HUg6L8o",
+  "title": "Bad Apple!! [But it's 2D Raytracing] ♪",
+  "author": "NullTale",
+  "thumbnail": "https://i.ytimg.com/vi/fNq0HUg6L8o/hqdefault.jpg"
+ },
+ "youtube:rqMcPZoEc3U": {
+  "url": "https://www.youtube.com/watch?v=rqMcPZoEc3U",
+  "ok": true,
+  "platform": "youtube",
+  "id": "rqMcPZoEc3U",
+  "title": "Unity Visual Effect Graph - Spaceship demo",
+  "author": "Unity",
+  "thumbnail": "https://i.ytimg.com/vi/rqMcPZoEc3U/hqdefault.jpg"
+ },
+ "youtube:57cKxN3XdEY": {
+  "url": "https://www.youtube.com/watch?v=57cKxN3XdEY",
+  "ok": true,
+  "platform": "youtube",
+  "id": "57cKxN3XdEY",
+  "title": "Breakdown of VFX Graph smoke portal sample | Unity",
+  "author": "Unity",
+  "thumbnail": "https://i.ytimg.com/vi/57cKxN3XdEY/hqdefault.jpg"
+ },
+ "mp4:https://user-images.githubusercontent.com/6276154/201238758-cc87ec4a-a65a-4cb2-b3cc-123576ab9ea2.mov": {
+  "url": "https://user-images.githubusercontent.com/6276154/201238758-cc87ec4a-a65a-4cb2-b3cc-123576ab9ea2.mov",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://user-images.githubusercontent.com/6276154/201238758-cc87ec4a-a65a-4cb2-b3cc-123576ab9ea2.mov",
+  "content_type": "video/quicktime"
+ },
+ "youtube:f1BHXqeokSE": {
+  "url": "https://www.youtube.com/watch?v=f1BHXqeokSE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "f1BHXqeokSE",
+  "title": "Unity3d VFX Graph - How To Create A Sun With Visual Effect Graph Made Out Of 2 Million Particles?",
+  "author": "Dilmer Valecillos",
+  "thumbnail": "https://i.ytimg.com/vi/f1BHXqeokSE/hqdefault.jpg"
+ },
+ "youtube:jxvBrfuyusU": {
+  "url": "https://www.youtube.com/watch?v=jxvBrfuyusU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "jxvBrfuyusU",
+  "title": "Unity3d with AR Foundation - How to Use Body Tracking With Head And Hand Particles?",
+  "author": "Dilmer Valecillos",
+  "thumbnail": "https://i.ytimg.com/vi/jxvBrfuyusU/hqdefault.jpg"
+ },
+ "youtube:EyMF2Wo1awo": {
+  "url": "https://www.youtube.com/watch?v=EyMF2Wo1awo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "EyMF2Wo1awo",
+  "title": "How To Apply Forces To VFX Particles With Hand Tracking? (Oculus Quest Development)",
+  "author": "Dilmer Valecillos",
+  "thumbnail": "https://i.ytimg.com/vi/EyMF2Wo1awo/hqdefault.jpg"
+ },
+ "youtube:EzM8LGzMjmc": {
+  "url": "https://www.youtube.com/watch?v=EzM8LGzMjmc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "EzM8LGzMjmc",
+  "title": "Impossible Geometry with Stencil Shaders in Unity URP",
+  "author": "Daniel Ilett",
+  "thumbnail": "https://i.ytimg.com/vi/EzM8LGzMjmc/hqdefault.jpg"
+ },
+ "youtube:PkGjYig8avo": {
+  "url": "https://www.youtube.com/watch?v=PkGjYig8avo",
+  "ok": true,
+  "platform": "youtube",
+  "id": "PkGjYig8avo",
+  "title": "Fully Functional Portals in Unity URP",
+  "author": "Daniel Ilett",
+  "thumbnail": "https://i.ytimg.com/vi/PkGjYig8avo/hqdefault.jpg"
+ },
+ "youtube:5DKIP9N-OB4": {
+  "url": "https://www.youtube.com/watch?v=5DKIP9N-OB4",
+  "ok": true,
+  "platform": "youtube",
+  "id": "5DKIP9N-OB4",
+  "title": "Unity 3D - Portal Room Cubes via Stencil Buffer",
+  "author": "NoiseCrime",
+  "thumbnail": "https://i.ytimg.com/vi/5DKIP9N-OB4/hqdefault.jpg"
+ },
+ "youtube:gARJwIS5VGc": {
+  "url": "https://www.youtube.com/watch?v=gARJwIS5VGc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "gARJwIS5VGc",
+  "title": "generative mv",
+  "author": "にー兄さん",
+  "thumbnail": "https://i.ytimg.com/vi/gARJwIS5VGc/hqdefault.jpg"
+ },
+ "youtube:ApPVp6Z3cgE": {
+  "url": "https://www.youtube.com/watch?v=ApPVp6Z3cgE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "ApPVp6Z3cgE",
+  "title": "KinFuSDFVFX",
+  "author": "にー兄さん",
+  "thumbnail": "https://i.ytimg.com/vi/ApPVp6Z3cgE/hqdefault.jpg"
+ },
+ "youtube:nUExziADzjc": {
+  "url": "https://www.youtube.com/watch?v=nUExziADzjc",
+  "ok": true,
+  "platform": "youtube",
+  "id": "nUExziADzjc",
+  "title": "Making a 4D Game - 4D Explorer",
+  "author": "Jelle Vermandere",
+  "thumbnail": "https://i.ytimg.com/vi/nUExziADzjc/hqdefault.jpg"
+ },
+ "youtube:z2Kst0t0PBA": {
+  "url": "https://www.youtube.com/watch?v=z2Kst0t0PBA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "z2Kst0t0PBA",
+  "title": "Unity MoCap VFX",
+  "author": "Adrián Ciborro Montes",
+  "thumbnail": "https://i.ytimg.com/vi/z2Kst0t0PBA/hqdefault.jpg"
+ },
+ "x:1099299041463066624": {
+  "url": "https://x.com/_kzr/status/1099299041463066624",
+  "ok": true,
+  "platform": "x",
+  "id": "1099299041463066624",
+  "author": "Keijiro Takahashi",
+  "title": "RealSense D415 + Unity VFX Graph\nPretty simple one, but I like it.\nhttps://t.co/M8O67naCqW https://t.co/BqUKY6WsuI",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1099298935259115520/pu/img/0Q-Kz_fk2NFnzN_r.jpg",
+  "has_video": true,
+  "date": "2019-02-23T13:24:50.000Z"
+ },
+ "x:1105456612162994177": {
+  "url": "https://x.com/_kzr/status/1105456612162994177",
+  "ok": true,
+  "platform": "x",
+  "id": "1105456612162994177",
+  "author": "Keijiro Takahashi",
+  "title": "Depthkit + Unity VFX Graph. It also can do usual Kinect-ish effects. https://t.co/7tpQRBlhTl",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1105456490729500674/pu/img/mL6JSxz6pI_9iwpb.jpg",
+  "has_video": true,
+  "date": "2019-03-12T13:12:49.000Z"
+ },
+ "x:1114513038302830592": {
+  "url": "https://x.com/_kzr/status/1114513038302830592",
+  "ok": true,
+  "platform": "x",
+  "id": "1114513038302830592",
+  "author": "Keijiro Takahashi",
+  "title": "I added a few more effects to Smrvfx (skinned mesh to VFX example).\nhttps://t.co/jz2hQ8XpCo https://t.co/Xl7RszHhcJ",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1114512428300025856/pu/img/5gUTdNJROT52_2mp.jpg",
+  "has_video": true,
+  "date": "2019-04-06T12:59:49.000Z"
+ },
+ "x:1116337708782067713": {
+  "url": "https://x.com/_kzr/status/1116337708782067713",
+  "ok": true,
+  "platform": "x",
+  "id": "1116337708782067713",
+  "author": "Keijiro Takahashi",
+  "title": "Another example that uses LASP to render low/mid/high waveforms with a VFX graph. https://t.co/swflcCDYdg https://t.co/VCWoPRuqJR",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1116337284515655680/pu/img/ggN4hecYNjHvH8Gl.jpg",
+  "has_video": true,
+  "date": "2019-04-11T13:50:24.000Z"
+ },
+ "x:1187004957821505536": {
+  "url": "https://x.com/_kzr/status/1187004957821505536",
+  "ok": true,
+  "platform": "x",
+  "id": "1187004957821505536",
+  "author": "Keijiro Takahashi",
+  "title": "Unity VFX Graph Sketch1012 (rework)\nhttps://t.co/KombXWh0cy https://t.co/qtzZktr09R",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1187004843384172544/pu/img/ko66xwbRADqsvQ2B.jpg",
+  "has_video": true,
+  "date": "2019-10-23T13:56:50.000Z"
+ },
+ "x:1163456709894922240": {
+  "url": "https://x.com/_kzr/status/1163456709894922240",
+  "ok": true,
+  "platform": "x",
+  "id": "1163456709894922240",
+  "author": "Keijiro Takahashi",
+  "title": "Playing around with Azure Kinect and Unity VFX Graph\nhttps://t.co/VV5zCiXcUg https://t.co/OaNG9Jq44p",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1163456629347504129/pu/img/1Nwez4lGv9CXE66L.jpg",
+  "has_video": true,
+  "date": "2019-08-19T14:24:30.000Z"
+ },
+ "x:1179427868587130880": {
+  "url": "https://x.com/_kzr/status/1179427868587130880",
+  "ok": true,
+  "platform": "x",
+  "id": "1179427868587130880",
+  "author": "Keijiro Takahashi",
+  "title": "I thought that the fireworks effect is a good and simple example of VFX Graph, so I refurbished and republished it to a separate repository. Now it works on Universal Render Pipeline. It also supports",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1179427667168366592/pu/img/wfxWzji_GIooHpXF.jpg",
+  "has_video": true,
+  "date": "2019-10-02T16:08:11.000Z"
+ },
+ "vimeo:383216987": {
+  "url": "https://vimeo.com/383216987",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "383216987",
+  "embeddable": true,
+  "title": "VFX sketches with Depthkit and Unity",
+  "thumbnail": "https://i.vimeocdn.com/video/844584708-b2740908ebd60eb0d1711a636d57cf00c02d635ed74239e4433fd4bd1549ad8d-d?f=webp&region=us"
+ },
+ "x:1194287720203374592": {
+  "url": "https://x.com/_kzr/status/1194287720203374592",
+  "ok": true,
+  "platform": "x",
+  "id": "1194287720203374592",
+  "author": "Keijiro Takahashi",
+  "title": "An example that controls VFX with MIDI note input. https://t.co/6Pk2eMfXBR https://t.co/XBCUFNqDu9",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1194287620525707265/pu/img/DN9i9d0XgDGf8jSl.jpg",
+  "has_video": true,
+  "date": "2019-11-12T16:15:55.000Z"
+ },
+ "vimeo:379562830": {
+  "url": "https://vimeo.com/379562830",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "379562830",
+  "embeddable": true,
+  "title": "Roland Groovebox MC-101 live performance at Channel #21 (with Unity visualizer)",
+  "thumbnail": "https://i.vimeocdn.com/video/839660734-7f181073533e2cd54af848ee66e9d2cee4d5a80e3f0155854b998dcab12d8ba8-d?f=webp&region=us"
+ },
+ "x:1208045085452955653": {
+  "url": "https://x.com/_kzr/status/1208045085452955653",
+  "ok": true,
+  "platform": "x",
+  "id": "1208045085452955653",
+  "author": "Keijiro Takahashi",
+  "title": "KinoEight - 8 bit-ish style post-processing effect for Unity HDRP https://t.co/MWRecHwp0o https://t.co/P9rZwtsQvW",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1208045014799929344/pu/img/XFv5kG-haEF5ez6D.jpg",
+  "has_video": true,
+  "date": "2019-12-20T15:22:47.000Z"
+ },
+ "x:1209489319544549376": {
+  "url": "https://x.com/_kzr/status/1209489319544549376",
+  "ok": true,
+  "platform": "x",
+  "id": "1209489319544549376",
+  "author": "Keijiro Takahashi",
+  "title": "Matrix rain effect with procedurally generated letters (Unity Shader Graph and VFX Graph) https://t.co/imVPrzYHXI https://t.co/xziUzSx8my",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1209489199079903234/pu/img/rmcgpXKVL215DRNS.jpg",
+  "has_video": true,
+  "date": "2019-12-24T15:01:39.000Z"
+ },
+ "x:1211628843343081472": {
+  "url": "https://x.com/_kzr/status/1211628843343081472",
+  "ok": true,
+  "platform": "x",
+  "id": "1211628843343081472",
+  "author": "Keijiro Takahashi",
+  "title": "NoiseBall5 - Unity 2019.3 new Mesh API example with C# Job System. Now you can generate/modify meshes using Burst-compiled and threaded jobs without extra memory copying. https://t.co/zSlEfPhmv5 https",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1211628791124000768/pu/img/-kNWxHdtc8gKwY16.jpg",
+  "has_video": true,
+  "date": "2019-12-30T12:43:21.000Z"
+ },
+ "x:1821182526184100126": {
+  "url": "https://x.com/_kzr/status/1821182526184100126",
+  "ok": true,
+  "platform": "x",
+  "id": "1821182526184100126",
+  "author": "Keijiro Takahashi",
+  "title": "I ported my SDF (signed distance field) VFX samples to WebGPU. Now they run on browsers. https://t.co/jiIQiTru8J https://t.co/CPa4HYvMoc",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1821181744521080832/pu/img/aRyZy2LxfxWxv4vb.jpg",
+  "has_video": true,
+  "date": "2024-08-07T13:52:04.000Z"
+ },
+ "x:1429739880259612685": {
+  "url": "https://x.com/_kzr/status/1429739880259612685",
+  "ok": true,
+  "platform": "x",
+  "id": "1429739880259612685",
+  "author": "Keijiro Takahashi",
+  "title": "I updated the GeoVfx example (data visualization with VFX Graph) to use GraphicsBuffer instead of texture baking. This is a visualization of the world population based on data from NASA SEDAC. https:/",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1429739411571286020/pu/img/veJ65Hk3voXGmjtb.jpg",
+  "has_video": true,
+  "date": "2021-08-23T09:38:45.000Z"
+ },
+ "x:1220338439117127680": {
+  "url": "https://x.com/_kzr/status/1220338439117127680",
+  "ok": true,
+  "platform": "x",
+  "id": "1220338439117127680",
+  "author": "Keijiro Takahashi",
+  "title": "Added a fluid VAT (Vertex Animation Texture) example with Unity Shader Graph. https://t.co/FXOZYoLTRF https://t.co/wnePBVEGKV",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1220338402744098817/pu/img/y4YNYHqKv8hG7Ca4.jpg",
+  "has_video": true,
+  "date": "2020-01-23T13:32:11.000Z"
+ },
+ "x:1217326699714494464": {
+  "url": "https://x.com/_kzr/status/1217326699714494464",
+  "ok": true,
+  "platform": "x",
+  "id": "1217326699714494464",
+  "author": "Keijiro Takahashi",
+  "title": "Another example of vertex animation using C# Job System and the new Mesh API. This time I managed to put full load on the CPU cores. https://t.co/r0uCwVTqfx https://t.co/kUrjslmVi4",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1217326660220936199/pu/img/bZA0Dgp4VQV_Xz_s.jpg",
+  "has_video": true,
+  "date": "2020-01-15T06:04:36.000Z"
+ },
+ "x:1219572530236641285": {
+  "url": "https://x.com/_kzr/status/1219572530236641285",
+  "ok": true,
+  "platform": "x",
+  "id": "1219572530236641285",
+  "author": "Keijiro Takahashi",
+  "title": "Particle strip tunnel with Unity VFX Graph https://t.co/IHk33zFmwn https://t.co/agMaEjGfzI",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1219572433859989504/pu/img/kdxmtxcYA97e6Giq.jpg",
+  "has_video": true,
+  "date": "2020-01-21T10:48:44.000Z"
+ },
+ "x:1270712472853340167": {
+  "url": "https://x.com/_kzr/status/1270712472853340167",
+  "ok": true,
+  "platform": "x",
+  "id": "1270712472853340167",
+  "author": "Keijiro Takahashi",
+  "title": "4DViews volumetric video + Unity VFX Graph\nhttps://t.co/EiwcBO1BGc https://t.co/sYmSlEpwM7",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1270712395065724929/pu/img/Nx7uCKeO5iN1JCxF.jpg",
+  "has_video": true,
+  "date": "2020-06-10T13:40:36.000Z"
+ },
+ "x:1249358391975137282": {
+  "url": "https://x.com/_kzr/status/1249358391975137282",
+  "ok": true,
+  "platform": "x",
+  "id": "1249358391975137282",
+  "author": "Keijiro Takahashi",
+  "title": "https://t.co/HvAMCcxvtt https://t.co/jkFIoQHXx1",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1249358287184646144/pu/img/mddFvLtmWuFfLZV3.jpg",
+  "has_video": true,
+  "date": "2020-04-12T15:27:07.000Z"
+ },
+ "x:1258039132372135941": {
+  "url": "https://x.com/_kzr/status/1258039132372135941",
+  "ok": true,
+  "platform": "x",
+  "id": "1258039132372135941",
+  "author": "Keijiro Takahashi",
+  "title": "Burst Compiler, C# Job System, VFX Graph, HDRP\nhttps://t.co/Il8lqcoWzs https://t.co/OlkQiaH0BJ",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1258038776258916352/pu/img/eVfsIG80PhfrGkA6.jpg",
+  "has_video": true,
+  "date": "2020-05-06T14:21:17.000Z"
+ },
+ "x:1291723680490254336": {
+  "url": "https://x.com/_kzr/status/1291723680490254336",
+  "ok": true,
+  "platform": "x",
+  "id": "1291723680490254336",
+  "author": "Keijiro Takahashi",
+  "title": "Khoreo: An audiovisual project with Unity and Roland MC-101 groovebox. BRDG published the full-length video on YouTube. https://t.co/mfMNtUZsPV Also, I uploaded the Unity and MC-101 project files to G",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1291723482946920450/pu/img/xZ73wI0Yhtiz60nU.jpg",
+  "has_video": true,
+  "date": "2020-08-07T13:11:39.000Z"
+ },
+ "vimeo:424260614": {
+  "url": "https://vimeo.com/424260614",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "424260614",
+  "embeddable": true,
+  "title": "Akvj - Azure Kinect with Unity",
+  "thumbnail": "https://i.vimeocdn.com/video/901092504-710c6ee559e7279ecde76f251b98427e48ae1d4d35233f0e3eb46056d0195a5a-d?f=webp&region=us"
+ },
+ "x:1269876564486807552": {
+  "url": "https://x.com/_kzr/status/1269876564486807552",
+  "ok": true,
+  "platform": "x",
+  "id": "1269876564486807552",
+  "author": "Keijiro Takahashi",
+  "title": "Alembic -&gt; VFX Graph https://t.co/i2ZEYDrl8a https://t.co/p4FKoQwcQt",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1269876035970936832/pu/img/LPxeejnAgQ8xWhG-.jpg",
+  "has_video": true,
+  "date": "2020-06-08T06:19:00.000Z"
+ },
+ "x:1293928930647261184": {
+  "url": "https://x.com/_kzr/status/1293928930647261184",
+  "ok": true,
+  "platform": "x",
+  "id": "1293928930647261184",
+  "author": "Keijiro Takahashi",
+  "title": "https://t.co/O2oHp2jEGi https://t.co/hK276jF8GZ",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1293928851077074946/pu/img/x-uKxpDKGN3aeH7C.jpg",
+  "has_video": true,
+  "date": "2020-08-13T15:14:31.000Z"
+ },
+ "x:1306955390513364992": {
+  "url": "https://x.com/_kzr/status/1306955390513364992",
+  "ok": true,
+  "platform": "x",
+  "id": "1306955390513364992",
+  "author": "Keijiro Takahashi",
+  "title": "Frame feedback effect with Emoji particles\nhttps://t.co/4ympOfHrXl https://t.co/4f4gvlsZx3",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1306955174989058048/pu/img/VMVSujBZY2DtE4cu.jpg",
+  "has_video": true,
+  "date": "2020-09-18T13:57:01.000Z"
+ },
+ "x:1321000166585856000": {
+  "url": "https://x.com/_kzr/status/1321000166585856000",
+  "ok": true,
+  "platform": "x",
+  "id": "1321000166585856000",
+  "author": "Keijiro Takahashi",
+  "title": "Made it interactive. https://t.co/TvBw2K4Wuo https://t.co/GNY6aAx34F",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1321000021362274305/pu/img/6wjuRQXhUso55FIJ.jpg",
+  "has_video": true,
+  "date": "2020-10-27T08:05:57.000Z"
+ },
+ "x:1290633852990287872": {
+  "url": "https://x.com/_kzr/status/1290633852990287872",
+  "ok": true,
+  "platform": "x",
+  "id": "1290633852990287872",
+  "author": "Keijiro Takahashi",
+  "title": "Particle depth of field with Unity VFX Graph https://t.co/KombXWh0cy https://t.co/zsvztHegRF",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1290633753073598465/pu/img/rzWJSRA2-EXmpMmM.jpg",
+  "has_video": true,
+  "date": "2020-08-04T13:01:04.000Z"
+ },
+ "x:1333403226813595649": {
+  "url": "https://x.com/_kzr/status/1333403226813595649",
+  "ok": true,
+  "platform": "x",
+  "id": "1333403226813595649",
+  "author": "Keijiro Takahashi",
+  "title": "https://t.co/2p1Li86lsD https://t.co/QJEB7x5Oj8",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1333403123671388161/pu/img/FIn6g6XEg4k_hWZM.jpg",
+  "has_video": true,
+  "date": "2020-11-30T13:31:17.000Z"
+ },
+ "x:1333749477732098048": {
+  "url": "https://x.com/_kzr/status/1333749477732098048",
+  "ok": true,
+  "platform": "x",
+  "id": "1333749477732098048",
+  "author": "Keijiro Takahashi",
+  "title": "Random split https://t.co/HoU3Rn5ZKz https://t.co/189wMD5WT9",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1333749410568626177/pu/img/iVcr-VEbJdbXk2ij.jpg",
+  "has_video": true,
+  "date": "2020-12-01T12:27:10.000Z"
+ },
+ "vimeo:494895371": {
+  "url": "https://vimeo.com/494895371",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "494895371",
+  "embeddable": true,
+  "title": "Realtime Slit-Scan Camera with Unity",
+  "thumbnail": "https://i.vimeocdn.com/video/1023656929-1c5b31c0e0c43dedbe66dab210baa48e0e4cebdda06f09ea826a376ef1da9f2c-d?f=webp&region=us"
+ },
+ "x:1276106752728031232": {
+  "url": "https://x.com/_kzr/status/1276106752728031232",
+  "ok": true,
+  "platform": "x",
+  "id": "1276106752728031232",
+  "author": "Keijiro Takahashi",
+  "title": "Making sword fighting effects https://t.co/KombXWh0cy https://t.co/X7NdoMtvlg",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1276106428931964929/pu/img/KABqjn6oz43AynqI.jpg",
+  "has_video": true,
+  "date": "2020-06-25T10:55:33.000Z"
+ },
+ "x:1353349183252533249": {
+  "url": "https://x.com/_kzr/status/1353349183252533249",
+  "ok": true,
+  "platform": "x",
+  "id": "1353349183252533249",
+  "author": "Keijiro Takahashi",
+  "title": "Making a simple Tiny YOLOv2 object detector example with Unity Barracuda https://t.co/vYrx8iQ3AZ https://t.co/vu6RLlD2WD",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1353348877659693057/pu/img/HUhHjwD46sQGHWkv.jpg",
+  "has_video": true,
+  "date": "2021-01-24T14:29:23.000Z"
+ },
+ "x:1361657191401365505": {
+  "url": "https://x.com/_kzr/status/1361657191401365505",
+  "ok": true,
+  "platform": "x",
+  "id": "1361657191401365505",
+  "author": "Keijiro Takahashi",
+  "title": "Added a realtime emoji overlay effect to the UltraFace-on-Barracuda example. https://t.co/HUekatPNIt https://t.co/CEjIbXZOBO",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1361656230352023552/pu/img/L2RuYFflLK9W_GRQ.jpg",
+  "has_video": true,
+  "date": "2021-02-16T12:42:27.000Z"
+ },
+ "x:1378352493134929926": {
+  "url": "https://x.com/_kzr/status/1378352493134929926",
+  "ok": true,
+  "platform": "x",
+  "id": "1378352493134929926",
+  "author": "Keijiro Takahashi",
+  "title": "So now I can make face filters (BlazeFace on Unity Barracuda) https://t.co/6ffXyoZrtp https://t.co/taGvi2XVzE",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1378352228277252103/pu/img/WcCJuOHI0fL-brkD.jpg",
+  "has_video": true,
+  "date": "2021-04-03T14:23:37.000Z"
+ },
+ "x:1382324941861769220": {
+  "url": "https://x.com/_kzr/status/1382324941861769220",
+  "ok": true,
+  "platform": "x",
+  "id": "1382324941861769220",
+  "author": "Keijiro Takahashi",
+  "title": "MediaPipe iris landmark detection model on Unity Barracuda. https://t.co/M611pZtr9T https://t.co/76gMT70dTK",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1382322736047947778/pu/img/Kzpia4XXqd-EWWLT.jpg",
+  "has_video": true,
+  "date": "2021-04-14T13:28:43.000Z"
+ },
+ "x:1405518336230793223": {
+  "url": "https://x.com/_kzr/status/1405518336230793223",
+  "ok": true,
+  "platform": "x",
+  "id": "1405518336230793223",
+  "author": "Keijiro Takahashi",
+  "title": "Testing the virtual background sample (Unity Barracuda &amp; MediaPipe Selfie segmentation) on iPhone X and Pixel 5. It runs smoothly on both of them. https://t.co/TlYBWgHhv3 https://t.co/3JV1LhU2lX",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1405517847741145090/pu/img/JdS0LT32XYkjKbz0.jpg",
+  "has_video": true,
+  "date": "2021-06-17T13:30:59.000Z"
+ },
+ "x:1400753544999817216": {
+  "url": "https://x.com/_kzr/status/1400753544999817216",
+  "ok": true,
+  "platform": "x",
+  "id": "1400753544999817216",
+  "author": "Keijiro Takahashi",
+  "title": "Unity VFX Graph (300,000 particles)\nhttps://t.co/XOfq5Zq5v1 https://t.co/EyO4JUbRD0",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1400753425986375684/pu/img/i5LkEWLgjaVGwHyx.jpg",
+  "has_video": true,
+  "date": "2021-06-04T09:57:24.000Z"
+ },
+ "x:1392482946393677829": {
+  "url": "https://x.com/_kzr/status/1392482946393677829",
+  "ok": true,
+  "platform": "x",
+  "id": "1392482946393677829",
+  "author": "Keijiro Takahashi",
+  "title": "Watercolor effect + VFX Graph https://t.co/mVkADkWv7m https://t.co/Mf7RYXg9ve",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1392482708077506560/pu/img/6hSAPlsm9nPC71Yy.jpg",
+  "has_video": true,
+  "date": "2021-05-12T14:13:00.000Z"
+ },
+ "x:1398540851941314568": {
+  "url": "https://x.com/_kzr/status/1398540851941314568",
+  "ok": true,
+  "platform": "x",
+  "id": "1398540851941314568",
+  "author": "Keijiro Takahashi",
+  "title": "Testing Flipbook2 with a video clip (flip book + watercolor effect) https://t.co/tPgTqRRpPL https://t.co/QLVpJ6VQLs",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1398540470251188228/pu/img/RYNlPq9tsxYsVfLu.jpg",
+  "has_video": true,
+  "date": "2021-05-29T07:24:57.000Z"
+ },
+ "x:1402611991118712841": {
+  "url": "https://x.com/_kzr/status/1402611991118712841",
+  "ok": true,
+  "platform": "x",
+  "id": "1402611991118712841",
+  "author": "Keijiro Takahashi",
+  "title": "Trying the new mesh API (compute shader direct access) with mobile devices. Yes, it works on mobiles if the device supports GPU compute. https://t.co/KLUUN9eMOI https://t.co/sMnTMMnb22",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1402611500125081600/pu/img/p3oDPrWNuxXmVW6X.jpg",
+  "has_video": true,
+  "date": "2021-06-09T13:02:12.000Z"
+ },
+ "x:1403359710577786881": {
+  "url": "https://x.com/_kzr/status/1403359710577786881",
+  "ok": true,
+  "platform": "x",
+  "id": "1403359710577786881",
+  "author": "Keijiro Takahashi",
+  "title": "Added smooth normal reconstruction with marching cubes. https://t.co/OhmNGp22SB https://t.co/HDmC0696Xf",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1403359564494360576/pu/img/_AOZ1KJ-4Oi07C6v.jpg",
+  "has_video": true,
+  "date": "2021-06-11T14:33:22.000Z"
+ },
+ "x:1413426397054332930": {
+  "url": "https://x.com/_kzr/status/1413426397054332930",
+  "ok": true,
+  "platform": "x",
+  "id": "1413426397054332930",
+  "author": "Keijiro Takahashi",
+  "title": "Tried using the M-LSD line segment detector for visual effects with Unity VFX Graph. https://t.co/hWh4ZlCM7n https://t.co/ZW2OMHlf65",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1413426153277194240/pu/img/F-yn4bUwaKO7D2_i.jpg",
+  "has_video": true,
+  "date": "2021-07-09T09:14:47.000Z"
+ },
+ "x:1418439725631754244": {
+  "url": "https://x.com/_kzr/status/1418439725631754244",
+  "ok": true,
+  "platform": "x",
+  "id": "1418439725631754244",
+  "author": "Keijiro Takahashi",
+  "title": "Trying out the newly introduced GraphicsBuffer operators with VFX Graph. Now I can receive data from compute shaders via GraphicsBuffer. No texture baking is needed any more. https://t.co/Z4snnbK7M1 h",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1418438351963623428/pu/img/x1An1iWk9ZdjRUTD.jpg",
+  "has_video": true,
+  "date": "2021-07-23T05:15:58.000Z"
+ },
+ "x:1442857433483726859": {
+  "url": "https://x.com/_kzr/status/1442857433483726859",
+  "ok": true,
+  "platform": "x",
+  "id": "1442857433483726859",
+  "author": "Keijiro Takahashi",
+  "title": "Vaporizing a sushi using mesh sampling https://t.co/n6CdVlK2ra",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1442856476700151808/pu/img/NNFCNNzoyROSOMgO.jpg",
+  "has_video": true,
+  "date": "2021-09-28T14:23:13.000Z"
+ },
+ "x:1474726909917667330": {
+  "url": "https://x.com/_kzr/status/1474726909917667330",
+  "ok": true,
+  "platform": "x",
+  "id": "1474726909917667330",
+  "author": "Keijiro Takahashi",
+  "title": "Particle effects with OAK-D-Lite stereo depth\nhttps://t.co/TbUBSZ1Gys https://t.co/MpmRgov0FR",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1474726738710396928/pu/img/WBlnzs0EdmNpO74D.jpg",
+  "has_video": true,
+  "date": "2021-12-25T13:01:09.000Z"
+ },
+ "x:1492752963206406148": {
+  "url": "https://x.com/_kzr/status/1492752963206406148",
+  "ok": true,
+  "platform": "x",
+  "id": "1492752963206406148",
+  "author": "Keijiro Takahashi",
+  "title": "Triggering Unity VFX from Bitwig.\nhttps://t.co/HzpTqOQdpC https://t.co/6mFirJynlD",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1492752795362992128/pu/img/OOjohClVVZCCgQ85.jpg",
+  "has_video": true,
+  "date": "2022-02-13T06:50:15.000Z"
+ },
+ "x:1506969479158243331": {
+  "url": "https://x.com/_kzr/status/1506969479158243331",
+  "ok": true,
+  "platform": "x",
+  "id": "1506969479158243331",
+  "author": "Keijiro Takahashi",
+  "title": "Added a speed lines example. https://t.co/zjBMj2hbEx https://t.co/ZLOSCLYds2",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1506968785391013888/pu/img/uEUHx4WWYXM1lkvz.jpg",
+  "has_video": true,
+  "date": "2022-03-24T12:21:36.000Z"
+ },
+ "x:1537797028817735680": {
+  "url": "https://x.com/_kzr/status/1537797028817735680",
+  "ok": true,
+  "platform": "x",
+  "id": "1537797028817735680",
+  "author": "Keijiro Takahashi",
+  "title": "Metawire - Line mesh generator as asset importer. It's handy for making wireframe VFX. https://t.co/gW23AFj8zp https://t.co/geCmuIOlFF",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1537796545071894528/pu/img/8Df-ZBZ1tsefbimG.jpg",
+  "has_video": true,
+  "date": "2022-06-17T13:59:17.000Z"
+ },
+ "youtube:v3mRlMx_6Is": {
+  "url": "https://www.youtube.com/watch?v=v3mRlMx_6Is",
+  "ok": true,
+  "platform": "youtube",
+  "id": "v3mRlMx_6Is",
+  "title": "Audio Visual Live Performance at Channel 22 (Highlights)",
+  "author": "Keijiro Takahashi",
+  "thumbnail": "https://i.ytimg.com/vi/v3mRlMx_6Is/hqdefault.jpg"
+ },
+ "x:1564979744642179073": {
+  "url": "https://x.com/_kzr/status/1564979744642179073",
+  "ok": true,
+  "platform": "x",
+  "id": "1564979744642179073",
+  "author": "Keijiro Takahashi",
+  "title": "https://t.co/6wH933wP8k https://t.co/mMFcVVhb5g",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1564979487300657155/pu/img/mDmXXrn5dYB04smK.jpg",
+  "has_video": true,
+  "date": "2022-08-31T14:13:41.000Z"
+ },
+ "x:1574788205010112513": {
+  "url": "https://x.com/_kzr/status/1574788205010112513",
+  "ok": true,
+  "platform": "x",
+  "id": "1574788205010112513",
+  "author": "Keijiro Takahashi",
+  "title": "I just made it controllable.\n(procedural walk animation using Animation Rigging)\nhttps://t.co/6Q804qvrMh https://t.co/YCQOHqc0iM",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1574787918325256192/pu/img/-LPE8UGTkkAuFGGM.jpg",
+  "has_video": true,
+  "date": "2022-09-27T15:49:00.000Z"
+ },
+ "x:1615973816286744578": {
+  "url": "https://x.com/_kzr/status/1615973816286744578",
+  "ok": true,
+  "platform": "x",
+  "id": "1615973816286744578",
+  "author": "Keijiro Takahashi",
+  "title": "Volumetric fog output from VFX Graph (Unity 2023.1)\nhttps://t.co/FP478ufeBH https://t.co/R6GPmkyMBH",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1615973307471527937/pu/img/Y3etZvemZLtAoBnp.jpg",
+  "has_video": true,
+  "date": "2023-01-19T07:25:55.000Z"
+ },
+ "x:1626200056033599491": {
+  "url": "https://x.com/_kzr/status/1626200056033599491",
+  "ok": true,
+  "platform": "x",
+  "id": "1626200056033599491",
+  "author": "Keijiro Takahashi",
+  "title": "I made a body part tracking sample with BodyPix and Unity Barracuda. https://t.co/VallvqR493 https://t.co/fLtJowJxFo",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1626198846668943360/pu/img/Wmo5IAVvnKnY7zht.jpg",
+  "has_video": true,
+  "date": "2023-02-16T12:41:21.000Z"
+ },
+ "x:1632634562399600640": {
+  "url": "https://x.com/_kzr/status/1632634562399600640",
+  "ok": true,
+  "platform": "x",
+  "id": "1632634562399600640",
+  "author": "Keijiro Takahashi",
+  "title": "I tried creating a proof-of-concept implementation of a ChatGPT-powered shader generator for Unity.\nhttps://t.co/HQp7oqLAvC https://t.co/O1o1H1910g",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1632633624653873153/pu/img/_yeUa8xrUynRrjJv.jpg",
+  "has_video": true,
+  "date": "2023-03-06T06:49:47.000Z"
+ },
+ "youtube:iVi-7oz67OU": {
+  "url": "https://www.youtube.com/watch?v=iVi-7oz67OU",
+  "ok": true,
+  "platform": "youtube",
+  "id": "iVi-7oz67OU",
+  "title": "Realtime Stable Diffusion image-to-image in live performance",
+  "author": "Keijiro Takahashi",
+  "thumbnail": "https://i.ytimg.com/vi/iVi-7oz67OU/hqdefault.jpg"
+ },
+ "x:1714214841265856932": {
+  "url": "https://x.com/_kzr/status/1714214841265856932",
+  "ok": true,
+  "platform": "x",
+  "id": "1714214841265856932",
+  "author": "Keijiro Takahashi",
+  "title": "3D Gaussian Splatting with Unity VFX Graph\nhttps://t.co/6CXrQry5FQ https://t.co/qzGPopyHxV",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1714214571630858240/pu/img/7NfAOy5SAHs-457y.jpg",
+  "has_video": true,
+  "date": "2023-10-17T09:40:41.000Z"
+ },
+ "x:1789384955136733476": {
+  "url": "https://x.com/_kzr/status/1789384955136733476",
+  "ok": true,
+  "platform": "x",
+  "id": "1789384955136733476",
+  "author": "Keijiro Takahashi",
+  "title": "Updated the Duotone effect package.\nhttps://t.co/UgCdDpyXom https://t.co/0MwrPxNeoh",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1789384842662289408/pu/img/wUih0XYYFWv2BnrG.jpg",
+  "has_video": true,
+  "date": "2024-05-11T19:59:53.000Z"
+ },
+ "youtube:gA9beOCv8s0": {
+  "url": "https://www.youtube.com/watch?v=gA9beOCv8s0",
+  "ok": true,
+  "platform": "youtube",
+  "id": "gA9beOCv8s0",
+  "title": "Live coding session at GitHub Universe Recap party, 5h Dec 2023",
+  "author": "Keijiro Takahashi",
+  "thumbnail": "https://i.ytimg.com/vi/gA9beOCv8s0/hqdefault.jpg"
+ },
+ "x:1812469561704468638": {
+  "url": "https://x.com/_kzr/status/1812469561704468638",
+  "ok": true,
+  "platform": "x",
+  "id": "1812469561704468638",
+  "author": "Keijiro Takahashi",
+  "title": "I updated the VFX Graph custom HLSL node sample. Now it supports multiple outputs! https://t.co/KIJJrhPgK8 https://t.co/z53AM947Hh",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1812468880410902529/pu/img/3ZNcisN-SxCREamK.jpg",
+  "has_video": true,
+  "date": "2024-07-14T12:49:52.000Z"
+ },
+ "x:1790748365518725597": {
+  "url": "https://x.com/_kzr/status/1790748365518725597",
+  "ok": true,
+  "platform": "x",
+  "id": "1790748365518725597",
+  "author": "Keijiro Takahashi",
+  "title": "https://t.co/MhTSsydBmW https://t.co/B1YzE5AL2s",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1790748275907440640/pu/img/5x703sDlRhpmqSzD.jpg",
+  "has_video": true,
+  "date": "2024-05-15T14:17:35.000Z"
+ },
+ "youtube:qa4jv5JhKhM": {
+  "url": "https://www.youtube.com/watch?v=qa4jv5JhKhM",
+  "ok": true,
+  "platform": "youtube",
+  "id": "qa4jv5JhKhM",
+  "title": "DUB-Russell with Keijiro Takahashi at Channel 24",
+  "author": "Keijiro Takahashi",
+  "thumbnail": "https://i.ytimg.com/vi/qa4jv5JhKhM/hqdefault.jpg"
+ },
+ "x:1849430841119973885": {
+  "url": "https://x.com/_kzr/status/1849430841119973885",
+  "ok": true,
+  "platform": "x",
+  "id": "1849430841119973885",
+  "author": "Keijiro Takahashi",
+  "title": "I’ve started finger drumming as a new hobby, so I created a visualizer for it with Unity. It was made without coding—just using VFX Graph and Input System with a MIDI extension. https://t.co/day0HF3nW",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1849430241615507456/pu/img/xKIO_NNk1kA6DBtU.jpg",
+  "has_video": true,
+  "date": "2024-10-24T12:40:47.000Z"
+ },
+ "x:1897620890919280893": {
+  "url": "https://x.com/_kzr/status/1897620890919280893",
+  "ok": true,
+  "platform": "x",
+  "id": "1897620890919280893",
+  "author": "Keijiro Takahashi",
+  "title": "Floating HUD https://t.co/j4spHN0kWf",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1897620637591695360/pu/img/9HxAlDtZu0vca5vA.jpg",
+  "has_video": true,
+  "date": "2025-03-06T12:10:51.000Z"
+ },
+ "x:1886351525569843694": {
+  "url": "https://x.com/_kzr/status/1886351525569843694",
+  "ok": true,
+  "platform": "x",
+  "id": "1886351525569843694",
+  "author": "Keijiro Takahashi",
+  "title": "realtime glitch machine\nhttps://t.co/FAcKCNnXEV https://t.co/g4J9R5csjz",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1886351316836085760/pu/img/UaYNTMHVpYy8OOAE.jpg",
+  "has_video": true,
+  "date": "2025-02-03T09:50:25.000Z"
+ },
+ "x:1939302534285582621": {
+  "url": "https://x.com/_kzr/status/1939302534285582621",
+  "ok": true,
+  "platform": "x",
+  "id": "1939302534285582621",
+  "author": "Keijiro Takahashi",
+  "title": "Tried an agentic coding approach with Gemini CLI to create a Unity package — a custom importer for .off triangle-soup meshes generated with Triangle Splatting.\nhttps://t.co/7Ai5SAVz1O https://t.co/vCs",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1939302329838342144/img/XGLQtOyL03P4oCSR.jpg",
+  "has_video": true,
+  "date": "2025-06-29T12:38:49.000Z"
+ },
+ "x:1952365070601855069": {
+  "url": "https://x.com/_kzr/status/1952365070601855069",
+  "ok": true,
+  "platform": "x",
+  "id": "1952365070601855069",
+  "author": "Keijiro Takahashi",
+  "title": "Something like fluid art. https://t.co/K5lorJxegw https://t.co/Oq84p5j0ns",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1952364841643175936/img/ssRobSMGqRZNGvB4.jpg",
+  "has_video": true,
+  "date": "2025-08-04T13:44:40.000Z"
+ },
+ "x:1956332698592805220": {
+  "url": "https://x.com/_kzr/status/1956332698592805220",
+  "ok": true,
+  "platform": "x",
+  "id": "1956332698592805220",
+  "author": "Keijiro Takahashi",
+  "title": "Combined the multitouch plugin with the stable fluids demo. https://t.co/C4Z5vEhMy0",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1956332571564134400/img/c8jPmiZRr55ei-If.jpg",
+  "has_video": true,
+  "date": "2025-08-15T12:30:36.000Z"
+ },
+ "x:1962518821111280037": {
+  "url": "https://x.com/_kzr/status/1962518821111280037",
+  "ok": true,
+  "platform": "x",
+  "id": "1962518821111280037",
+  "author": "Keijiro Takahashi",
+  "title": "https://t.co/Ctim7fDNST https://t.co/6ByEYPtlCS",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1962518510313340929/img/1fkpURvhl2vf4v6J.jpg",
+  "has_video": true,
+  "date": "2025-09-01T14:12:03.000Z"
+ },
+ "x:1959598355149180928": {
+  "url": "https://x.com/_kzr/status/1959598355149180928",
+  "ok": true,
+  "platform": "x",
+  "id": "1959598355149180928",
+  "author": "Keijiro Takahashi",
+  "title": "Adding more test scenes to the MiniBokeh repository — a lightweight DoF for URP. https://t.co/WlTTBXsAPo https://t.co/XK90Af0e3P",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1959595282301423616/img/ml0gaQpJ5b_Yh4CD.jpg",
+  "has_video": true,
+  "date": "2025-08-24T12:47:10.000Z"
+ },
+ "x:1962445754007765480": {
+  "url": "https://x.com/_kzr/status/1962445754007765480",
+  "ok": true,
+  "platform": "x",
+  "id": "1962445754007765480",
+  "author": "Keijiro Takahashi",
+  "title": "LED display shader + MiniBokeh https://t.co/Zgi8Hx9z1T https://t.co/17WWtHs5gY",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/1962445476621606912/img/_i0oTBh9CLVwgIEz.jpg",
+  "has_video": true,
+  "date": "2025-09-01T09:21:42.000Z"
+ },
+ "x:2021954733439848713": {
+  "url": "https://x.com/_kzr/status/2021954733439848713",
+  "ok": true,
+  "platform": "x",
+  "id": "2021954733439848713",
+  "author": "Keijiro Takahashi",
+  "title": "Added some improvements to StrobePages — a flipbook-style post-processing effect for Unity URP. I’ve also updated the sample scene with a more stylized look.\nhttps://t.co/BMzVCQnlaQ https://t.co/Za0vg",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2021953585517670402/img/WBujnFzxqCuyhblB.jpg",
+  "has_video": true,
+  "date": "2026-02-12T14:29:09.000Z"
+ },
+ "x:2025558651768070209": {
+  "url": "https://x.com/_kzr/status/2025558651768070209",
+  "ok": true,
+  "platform": "x",
+  "id": "2025558651768070209",
+  "author": "Keijiro Takahashi",
+  "title": "Ported my old KinoGlitch effect package to Unity 6 URP. I refactored and improved the existing effects and added a new \"Horizontal Ripple\" effect.\nhttps://t.co/co3gOMUPTF https://t.co/U9RoNwKakl",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2025557872021786624/img/wSrWk9XK2pdS11wy.jpg",
+  "has_video": true,
+  "date": "2026-02-22T13:09:50.000Z"
+ },
+ "x:2030279235081060715": {
+  "url": "https://x.com/_kzr/status/2030279235081060715",
+  "ok": true,
+  "platform": "x",
+  "id": "2030279235081060715",
+  "author": "Keijiro Takahashi",
+  "title": "Published FlashGlitch, a glitch effect package that adds trigger-based glitch effects as a URP renderer feature. Also included a simple tester UI in the sample project.\nhttps://t.co/8kazjmlOJP https:/",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2030276646364934144/img/9qdYacetHOQ0d4i7.jpg",
+  "has_video": true,
+  "date": "2026-03-07T13:47:45.000Z"
+ },
+ "x:2028469137132114330": {
+  "url": "https://x.com/_kzr/status/2028469137132114330",
+  "ok": true,
+  "platform": "x",
+  "id": "2028469137132114330",
+  "author": "Keijiro Takahashi",
+  "title": "Tried creating a light leak effect for Unity URP. This is more of an experimental exploration than a finished package, but it was a fun exercise.\nhttps://t.co/Ru3Y7S9X8Q https://t.co/UVFMMr9Giv",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2028466054788485120/img/dlredw8uZ_8bEMsg.jpg",
+  "has_video": true,
+  "date": "2026-03-02T13:55:04.000Z"
+ },
+ "x:2034570627886239876": {
+  "url": "https://x.com/_kzr/status/2034570627886239876",
+  "ok": true,
+  "platform": "x",
+  "id": "2034570627886239876",
+  "author": "Keijiro Takahashi",
+  "title": "This time I used Novation Launchpad X with the Unity MIDI Input plugin (Minis). It supports polyphonic aftertouch, letting me control multiple effects with touch pressure. This added expressiveness re",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2034570036069978112/img/XO13De-2_cFB2h5T.jpg",
+  "has_video": true,
+  "date": "2026-03-19T10:00:12.000Z"
+ },
+ "x:2074120483688374287": {
+  "url": "https://x.com/_kzr/status/2074120483688374287",
+  "ok": true,
+  "platform": "x",
+  "id": "2074120483688374287",
+  "author": "Keijiro Takahashi",
+  "title": "Unity でメッシュをスライスするやつのテスト\nhttps://t.co/0QtqKCJtwX https://t.co/KSQfA3Wx34",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2074120127529041921/img/gPcciToe9ZOGfkvt.jpg",
+  "has_video": true,
+  "date": "2026-07-06T13:17:13.000Z"
+ },
+ "x:2101943586606678108": {
+  "url": "https://x.com/_kzr/status/2101943586606678108",
+  "ok": true,
+  "platform": "x",
+  "id": "2101943586606678108",
+  "author": "Keijiro Takahashi",
+  "title": "RVM CoreML for Unity をパッケージ化した。\nhttps://t.co/ZBmkxredml\n厳しい条件のソースでもかなり頑張ってくれる。いいね。 https://t.co/Lovoe7WzBD",
+  "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2101942545081401344/img/f5wUtTIxny_x3Brx.jpg",
+  "has_video": true,
+  "date": "2026-09-21T07:56:17.000Z"
+ },
+ "vimeo:197396746": {
+  "url": "https://vimeo.com/197396746",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "197396746",
+  "embeddable": true,
+  "title": "Skinner: Special Effects with Skinned Mesh in Unity",
+  "thumbnail": "https://i.vimeocdn.com/video/610115044-0f7f957a73c9e668af2bb155276f6b12b825eec2da1310bf5fe1a9d78a0ee2d2-d?f=webp&region=us"
+ },
+ "vimeo:198537336": {
+  "url": "https://vimeo.com/198537336",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "198537336",
+  "embeddable": true,
+  "title": "GlitchDancer iOS",
+  "thumbnail": "https://i.vimeocdn.com/video/611543553-4be4921b472aa41982b278794cf1d5a106b63e157d79302077b936df4d151953-d?f=webp&region=us"
+ },
+ "vimeo:241191777": {
+  "url": "https://vimeo.com/241191777",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "241191777",
+  "embeddable": true,
+  "title": "GVoxelizer Test",
+  "thumbnail": "https://i.vimeocdn.com/video/664701239-eb03663b3e3deab32d67710556feb47272b68fb39e252c96e46227b0a2ef5581-d?f=webp&region=us"
+ },
+ "vimeo:241520939": {
+  "url": "https://vimeo.com/241520939",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "241520939",
+  "embeddable": true,
+  "title": "GDisintegrator Test",
+  "thumbnail": "https://i.vimeocdn.com/video/665124864-8f53f406e43318e71206837bfe3da62467ef50fd0205d816957da11e8728f3fe-d?f=webp&region=us"
+ },
+ "vimeo:239850990": {
+  "url": "https://vimeo.com/239850990",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "239850990",
+  "embeddable": true,
+  "title": "Point cloud importer/shader experimentation",
+  "thumbnail": "https://i.vimeocdn.com/video/662946697-d9b98e33cd44631a1c09fa23a4acce9b931e3a675201445e37dfec0ed9424edf-d?f=webp&region=us"
+ },
+ "vimeo:219277691": {
+  "url": "https://vimeo.com/219277691",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "219277691",
+  "embeddable": true,
+  "title": "Crawler swarm test",
+  "thumbnail": "https://i.vimeocdn.com/video/636988436-90a1f2199a3493553f60c2d93162cd0bf072730c352d575ae5e44fd012547784-d?f=webp&region=us"
+ },
+ "vimeo:218961301": {
+  "url": "https://vimeo.com/218961301",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "218961301",
+  "embeddable": true,
+  "title": "Instancing Test",
+  "thumbnail": "https://i.vimeocdn.com/video/636590570-dde54f3a633aba1fa4b45b0afcc846a4a28432fe8f6a2c0801ae85c144616c6a-d?f=webp&region=us"
+ },
+ "vimeo:217373413": {
+  "url": "https://vimeo.com/217373413",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "217373413",
+  "embeddable": true,
+  "title": "Real time reaction-diffusion system with custom render texture (Unity 2017.01)",
+  "thumbnail": "https://i.vimeocdn.com/video/634570675-14421d5dfbf21e12e8fbb2f2021f4df392fee6c3ddadc0d0b86c5392574de411-d?f=webp&region=us"
+ },
+ "vimeo:134624419": {
+  "url": "https://vimeo.com/134624419",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "134624419",
+  "embeddable": true,
+  "title": "Swirl",
+  "thumbnail": "https://i.vimeocdn.com/video/528198884-1ef1f6bb46f51e4258474a221432a33e3b8ef0b8509cb4c140d276e8e6711a67-d?f=webp&region=us"
+ },
+ "vimeo:117040444": {
+  "url": "https://vimeo.com/117040444",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "117040444",
+  "embeddable": true,
+  "title": "Kvant Spray Test #1",
+  "thumbnail": "https://i.vimeocdn.com/video/503603483-dd4af3a2fd0cbb80a44c24aa10af3d867981054f0aac1b7a545f99153e33cc46-d?f=webp&region=us"
+ },
+ "vimeo:255257338": {
+  "url": "https://vimeo.com/255257338",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "255257338",
+  "embeddable": true,
+  "title": "An experiment in procedural dance animation",
+  "thumbnail": "https://i.vimeocdn.com/video/682618885-26e47c9409a8012fcd6336739281f28658cdc324d393cbc93167c97d266c7580-d?f=webp&region=us"
+ },
+ "vimeo:287778343": {
+  "url": "https://vimeo.com/287778343",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "287778343",
+  "embeddable": true,
+  "title": "Pix2Pix Unity",
+  "thumbnail": "https://i.vimeocdn.com/video/722997340-3c0db6a4999eb87289b3272e60a1e9008e0560053c7e6813cfa0560b4dec26fc-d?f=webp&region=us"
+ },
+ "vimeo:294399440": {
+  "url": "https://vimeo.com/294399440",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "294399440",
+  "embeddable": true,
+  "title": "Realtime pix2pix VJ system",
+  "thumbnail": "https://i.vimeocdn.com/video/731284392-a3b0a303ecb0680edb5c2f90f92b3b8b93810985a22f18a3c9e51612e783df34-d?f=webp&region=us"
+ },
+ "vimeo:277872734": {
+  "url": "https://vimeo.com/277872734",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "277872734",
+  "embeddable": true,
+  "title": "Fluid dynamics on Unity with Sensel Morph",
+  "thumbnail": "https://i.vimeocdn.com/video/710752841-a666c9cd36c52f484833b0dafe46d550733b7af7bbca8e219203a6c860a04ca2-d?f=webp&region=us"
+ },
+ "vimeo:87151096": {
+  "url": "https://vimeo.com/87151096",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "87151096",
+  "embeddable": true,
+  "title": "An experiment in flocking behavior",
+  "thumbnail": "https://i.vimeocdn.com/video/465095557-9a9f2d29ac082d9418cbcf02d4aba92d06b4be64d08276f9bac54048dee0edcd-d?f=webp&region=us"
+ },
+ "vimeo:102452671": {
+  "url": "https://vimeo.com/102452671",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "102452671",
+  "embeddable": true,
+  "title": "Fragments - A collection of 3D models for particle effects",
+  "thumbnail": "https://i.vimeocdn.com/video/484460078-5de1a290f0a782beaa9b39769bcc1f8d1c4dab1552950d03bdd8e58a8257e065-d?f=webp&region=us"
+ },
+ "vimeo:102444263": {
+  "url": "https://vimeo.com/102444263",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "102444263",
+  "embeddable": true,
+  "title": "SlicerFx - Surface Slicing Full Screen Effect for Unity",
+  "thumbnail": "https://i.vimeocdn.com/video/484450659-435941d9ee5bab29d4efe347bd73bf43244e0429dc283c10142248049a6f4d5c-d?f=webp&region=us"
+ },
+ "vimeo:102398137": {
+  "url": "https://vimeo.com/102398137",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "102398137",
+  "embeddable": true,
+  "title": "SonarFx - Full Screen Sonar Effect for Unity",
+  "thumbnail": "https://i.vimeocdn.com/video/484397768-b70883dbbafecd3bd50b945261c395fd0bbef9459aed9eaae4542690527b6c69-d?f=webp&region=us"
+ },
+ "vimeo:102398104": {
+  "url": "https://vimeo.com/102398104",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "102398104",
+  "embeddable": true,
+  "title": "GlitchFx - Digital Glitch VFX for Unity",
+  "thumbnail": "https://i.vimeocdn.com/video/484397323-4cfa91b81cd12d0aa1cef916ee78b056cbeab7bae3f983644aaccc1ba3a71a9b-d?f=webp&region=us"
+ },
+ "vimeo:101211958": {
+  "url": "https://vimeo.com/101211958",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "101211958",
+  "embeddable": true,
+  "title": "Depth Cue Test",
+  "thumbnail": "https://i.vimeocdn.com/video/482925549-4a9bebe143c854352d602cf7d26abf124eb1b37b4635d21b6c5846718f678214-d?f=webp&region=us"
+ },
+ "vimeo:97597887": {
+  "url": "https://vimeo.com/97597887",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "97597887",
+  "embeddable": true,
+  "title": "Sketch filter with the standard image effects (Unity)",
+  "thumbnail": "https://i.vimeocdn.com/video/478033247-bb3f0a8426eaa8742802d1263af786f842142fd869b3fe5e0ad99a4870da6e6c-d?f=webp&region=us"
+ },
+ "vimeo:84364022": {
+  "url": "https://vimeo.com/84364022",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "84364022",
+  "embeddable": true,
+  "title": "Cut-out Fx Test",
+  "thumbnail": "https://i.vimeocdn.com/video/461200953-cd4374f94d2e0f1875ba24f10c5b75c2a8be729e49ac5c09b817fac763e9e21e-d?f=webp&region=us"
+ },
+ "vimeo:80716975": {
+  "url": "https://vimeo.com/80716975",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "80716975",
+  "embeddable": true,
+  "title": "Undulation (3)",
+  "thumbnail": "https://i.vimeocdn.com/video/456699190-d34465f970772e84ffc4d7e9cabeac71318fb64071b9ae7544b5d4ca57bb46d0-d?f=webp&region=us"
+ },
+ "vimeo:80520888": {
+  "url": "https://vimeo.com/80520888",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "80520888",
+  "embeddable": true,
+  "title": "Virtual Kinetic Sculpture",
+  "thumbnail": "https://i.vimeocdn.com/video/456461140-f4d9c0f843e2b7181ecbd93c6f2e0c3afa9d67f39360ad9a0592922fab106a98-d?f=webp&region=us"
+ },
+ "vimeo:86002232": {
+  "url": "https://vimeo.com/86002232",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "86002232",
+  "embeddable": true,
+  "title": "Kvant Deformer Test",
+  "thumbnail": "https://i.vimeocdn.com/video/463513717-035128e895104e4afa8ce2e11d8fdf096c85524d11cc90510063d58e03a8623a-d?f=webp&region=us"
+ },
+ "vimeo:85640039": {
+  "url": "https://vimeo.com/85640039",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "85640039",
+  "embeddable": true,
+  "title": "Water Drops (HDR)",
+  "thumbnail": "https://i.vimeocdn.com/video/463020286-03b4b40ec42a467222aee34788dc6ed9b52aaca79760a8aeedd68fd26c089ccc-d?f=webp&region=us"
+ },
+ "vimeo:82601169": {
+  "url": "https://vimeo.com/82601169",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "82601169",
+  "embeddable": true,
+  "title": "Water Surface",
+  "thumbnail": "https://i.vimeocdn.com/video/459059500-0b3467cee2d4fab6e16f1a00d2f223c430f99cffa33e002d0ba168b63e9b4e23-d?f=webp&region=us"
+ },
+ "vimeo:76949095": {
+  "url": "https://vimeo.com/76949095",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "76949095",
+  "embeddable": true,
+  "title": "Sunburst effects with mesh animation (Unity, C#)",
+  "thumbnail": "https://i.vimeocdn.com/video/451957649-6634f9e1722e549043abc5604ceff05dfb9e757461028ffea440204e287e9f47-d?f=webp&region=us"
+ },
+ "vimeo:103702704": {
+  "url": "https://vimeo.com/103702704",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "103702704",
+  "embeddable": true,
+  "title": "HexBokeh - depth of field with hexagonal apertures",
+  "thumbnail": "https://i.vimeocdn.com/video/486015277-19c29c532fc6f1e3394d1d4edb81b4b66ae36a3f0483b82249f05b01d8d9b40c-d?f=webp&region=us"
+ },
+ "vimeo:80264404": {
+  "url": "https://vimeo.com/80264404",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "80264404",
+  "embeddable": true,
+  "title": "Turbulent Flow",
+  "thumbnail": "https://i.vimeocdn.com/video/456137713-7edb70622fb01926d35b8bfa27bd814feeeccae7f20c4318e8fe079f1677b356-d?f=webp&region=us"
+ },
+ "youtube:_QC6dXTMMwE": {
+  "url": "https://www.youtube.com/watch?v=_QC6dXTMMwE",
+  "ok": true,
+  "platform": "youtube",
+  "id": "_QC6dXTMMwE",
+  "title": "CloudSkybox Test 3",
+  "author": "Keijiro Takahashi",
+  "thumbnail": "https://i.ytimg.com/vi/_QC6dXTMMwE/hqdefault.jpg"
+ },
+ "vimeo:90006189": {
+  "url": "https://vimeo.com/90006189",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "90006189",
+  "embeddable": true,
+  "title": "VJ01: Guitar Songs",
+  "thumbnail": "https://i.vimeocdn.com/video/468970794-4b7bca57e02b2c167da28581ebafa2428a2ff3c99e9044260bc437b1e253f4db-d?f=webp&region=us"
+ },
+ "vimeo:104780871": {
+  "url": "https://vimeo.com/104780871",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "104780871",
+  "embeddable": true,
+  "title": "VJ02 - VJing software",
+  "thumbnail": "https://i.vimeocdn.com/video/487418831-6ab14444b2bdac5057c17bf64266bcb41704903e11ab6d5dcdb3fed34fbbb044-d?f=webp&region=us"
+ },
+ "youtube:jLmbjudThlA": {
+  "url": "https://www.youtube.com/watch?v=jLmbjudThlA",
+  "ok": true,
+  "platform": "youtube",
+  "id": "jLmbjudThlA",
+  "title": "[CHANNEL#10] Nyolfen / VJ Keijiro Takahashi (2015/1/23)",
+  "author": "BRDG _",
+  "thumbnail": "https://i.ytimg.com/vi/jLmbjudThlA/hqdefault.jpg"
+ },
+ "x:619489135749824513": {
+  "url": "https://x.com/shutamegai/status/619489135749824513",
+  "ok": true,
+  "platform": "x",
+  "id": "619489135749824513",
+  "author": "shutamegai",
+  "title": "Katsuhiro Chibaさん http://t.co/49sm5KuJyY",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/619488999908872193/pu/img/Bsr0mGE0JRC4XjCi.jpg",
+  "has_video": true,
+  "date": "2015-07-10T12:51:34.000Z"
+ },
+ "x:787249881899347976": {
+  "url": "https://x.com/tokyomax/status/787249881899347976",
+  "ok": true,
+  "platform": "x",
+  "id": "787249881899347976",
+  "author": "BRDG / VRDG",
+  "title": "Merzbow x BRDG / Keijiro Takahashi, vokoi #dommune https://t.co/ivhAxdA6uK",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/787249686033772545/pu/img/1odfpoJfA2gvZPZt.jpg",
+  "has_video": true,
+  "date": "2016-10-15T11:12:52.000Z"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_oj1b8wYz3O1qio469_720.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_oj1b8wYz3O1qio469_720.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_oj1b8wYz3O1qio469_720.mp4",
+  "content_type": "video/mp4"
+ },
+ "vimeo:213872212": {
+  "url": "https://vimeo.com/213872212",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "213872212",
+  "embeddable": true,
+  "title": "Live coding experiment (KodeLife &amp; Unity)",
+  "thumbnail": "https://i.vimeocdn.com/video/630199665-274689512ae4fb749d032b9856b5a04d7175f99072418380fb206dc5c76c8e87-d?f=webp&region=us"
+ },
+ "youtube:oY6uCfNb-Ng": {
+  "url": "https://www.youtube.com/watch?v=oY6uCfNb-Ng",
+  "ok": true,
+  "platform": "youtube",
+  "id": "oY6uCfNb-Ng",
+  "title": "[4K] XXX RESIDENTS ensemble with MERZBOW x VJ Keijiro Takahashi",
+  "author": "BRDG _",
+  "thumbnail": "https://i.ytimg.com/vi/oY6uCfNb-Ng/hqdefault.jpg"
+ },
+ "x:878736675228090368": {
+  "url": "https://x.com/tokyomax/status/878736675228090368",
+  "ok": true,
+  "platform": "x",
+  "id": "878736675228090368",
+  "author": "BRDG / VRDG",
+  "title": "FEMM x VJ Keijiro Takahashi @WOMB_Tokyo (2017/6/24) #REPUBLIC https://t.co/dF3XNxvOgF",
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/878734003339010048/pu/img/mET1E615y-dxBtcD.jpg",
+  "has_video": true,
+  "date": "2017-06-24T22:08:44.000Z"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_ou5rt7l30F1qio469_720.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_ou5rt7l30F1qio469_720.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_ou5rt7l30F1qio469_720.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_p19olvfZwP1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_p19olvfZwP1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_p19olvfZwP1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "youtube:r-nbIpdn-Lk": {
+  "url": "https://www.youtube.com/watch?v=r-nbIpdn-Lk",
+  "ok": true,
+  "platform": "youtube",
+  "id": "r-nbIpdn-Lk",
+  "title": "CHANNEL#18 / DUB-Russell x Keijiro Takahashi",
+  "author": "BRDG _",
+  "thumbnail": "https://i.ytimg.com/vi/r-nbIpdn-Lk/hqdefault.jpg"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_pd1oevl48u1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_pd1oevl48u1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_pd1oevl48u1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "vimeo:307285370": {
+  "url": "https://vimeo.com/307285370",
+  "ok": true,
+  "platform": "vimeo",
+  "id": "307285370",
+  "embeddable": true,
+  "title": "OP-Z videolab",
+  "thumbnail": "https://i.vimeocdn.com/video/747204710-72919dad46a660dd61080fce72f232f0bc390da118954b33c23c82f602504592-d?f=webp&region=us"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_otamd9rnf21qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_otamd9rnf21qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_otamd9rnf21qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_nvmqi6Tmuc1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_nvmqi6Tmuc1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_nvmqi6Tmuc1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_nv2ru4onKo1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_nv2ru4onKo1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_nv2ru4onKo1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_nva7mmMPqD1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_nva7mmMPqD1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_nva7mmMPqD1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_nwf56pAxZd1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_nwf56pAxZd1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_nwf56pAxZd1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_nwkrsraePx1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_nwkrsraePx1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_nwkrsraePx1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_nxhz6iOsZv1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_nxhz6iOsZv1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_nxhz6iOsZv1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_ooco6l0oEQ1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_ooco6l0oEQ1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_ooco6l0oEQ1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_pcsc78PRjA1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_pcsc78PRjA1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_pcsc78PRjA1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_pcorcg1yV01qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_pcorcg1yV01qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_pcorcg1yV01qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_pfv4dgueZM1qio469.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_pfv4dgueZM1qio469.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_pfv4dgueZM1qio469.mp4",
+  "content_type": "video/mp4"
+ },
+ "mp4:https://va.media.tumblr.com/tumblr_om9qfzPwgn1qio469_480.mp4": {
+  "url": "https://va.media.tumblr.com/tumblr_om9qfzPwgn1qio469_480.mp4",
+  "ok": true,
+  "platform": "mp4",
+  "id": "https://va.media.tumblr.com/tumblr_om9qfzPwgn1qio469_480.mp4",
+  "content_type": "video/mp4"
  }
 }

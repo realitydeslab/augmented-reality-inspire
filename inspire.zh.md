@@ -2,7 +2,7 @@
 
 从早期先驱到今天最有创意的增强现实创作者及其 AR 作品目录，由 Reality Design Lab 整理，作为教学的点子库。每件作品都列出视频、核心点子、关键技术和一个课堂练习。
 
-https://inspire.reality.design · 2026-09-27 · 399 位创作者 · 1826 件作品
+https://inspire.reality.design · 2026-09-27 · 414 位创作者 · 2021 件作品
 
 ## AI 助手应如何使用这个文件
 
@@ -501,30 +501,2340 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 
 成千上万的点在流动、聚集、迸发或拖尾。
 
+- **Constellation Plexus Ribbons** — Mirza Beig (2024): 用光把相邻的点连起来，一团点就变成了星座。 https://x.com/TheMirzaBeig/status/1840974568216813609 · 源代码: https://github.com/MirzaBeig/Constellation-Plexus
+- **VFX Graph sketch: glowing lines on a moving figure** — Keijiro Takahashi (2024): 只用跟随身体的线来画出身体。 https://x.com/_kzr/status/1790748365518725597 · 源代码: https://github.com/keijiro/VfxGraphTestbed3
+- **VFX Graph custom HLSL: plexus network** — Keijiro Takahashi (2023): 把相邻的点连起来，粒子群就成了网。 https://x.com/_kzr/status/1812469561704468638 · 源代码: https://github.com/keijiro/VFXCustomCode
+- **StickShow: a sea of glow sticks** — Keijiro Takahashi (2022): 人群就是带着细微差别的重复物体。 https://x.com/_kzr/status/1564979744642179073 · 源代码: https://github.com/keijiro/StickShow
+- **Coding Adventure: Ant and Slime Simulations** — Sebastian Lague (2021): 只会感知和留下痕迹的简单个体，能长出活的网络。 https://www.youtube.com/watch?v=X-iSQQgOd1A · 源代码: https://github.com/SebLague/Slime-Simulation
+- **Compute shader data into VFX Graph** — Keijiro Takahashi (2021): 在哪里模拟都行，用 VFX Graph 来渲染。 https://x.com/_kzr/status/1418439725631754244 · 源代码: https://github.com/keijiro/VfxGraphGraphicsBufferTest
+- **GPU Fog Particles** — Mirza Beig (2021): 纯粹由噪声构成的雾，能贴着世界而没有生硬边缘。 https://x.com/TheMirzaBeig/status/1471820398056677376 · 源代码: https://github.com/MirzaBeig/GPU-Fog-Particles
+- **GPU Instanced Flocking on URP** — Kodai Takao (2021): 上千条鱼的鱼群只需要局部规则和 GPU。 https://www.youtube.com/watch?v=FXcFn8QM8dk · 源代码: https://github.com/kodai100/Unity_BoidsSimulationOnURP
+- **SushiVfx: vaporizing a sushi** — Keijiro Takahashi (2021): 把真实食物扫描下来，就能变成有趣的特效。 https://x.com/_kzr/status/1442857433483726859 · 源代码: https://github.com/keijiro/SushiVfx
+- **VFX Graph with 300,000 particles** — Keijiro Takahashi (2021): 数量改变感受：足够多的粒子就成了一种材质。 https://x.com/_kzr/status/1400753544999817216 · 源代码: https://github.com/keijiro/VfxGraphTestbed2
+- **Abcvfx: Alembic animation to VFX Graph** — Keijiro Takahashi (2020): 任何烘焙好的动画都能喂给粒子系统。 https://x.com/_kzr/status/1269876564486807552 · 源代码: https://github.com/keijiro/Abcvfx
+- **Krbv: colorful particle strip tunnel** — Keijiro Takahashi (2020): 光带从镜头旁掠过，就有了速度感。 https://x.com/_kzr/status/1219572530236641285 · 源代码: https://github.com/keijiro/Krbv
+- **Particle depth of field with VFX Graph** — Keijiro Takahashi (2020): 在每颗粒子上假装镜头虚化，便宜地增加景深感。 https://x.com/_kzr/status/1290633852990287872 · 源代码: https://github.com/keijiro/DofVfxSamples
+- **Sword fighting effects with VFX Graph** — Keijiro Takahashi (2020): 拖尾把快速动作变成看得清的形状。 https://x.com/_kzr/status/1276106752728031232 · 源代码: https://github.com/keijiro/VfxGraphTestbed
+- **Coding Adventure: Boids** — Sebastian Lague (2019): 分离、对齐、聚合三条规则就足以形成鸟群。 https://www.youtube.com/watch?v=bqtqltqcQhw · 源代码: https://github.com/SebLague/Boids
+- **GeoVfx: world population as particles** — Keijiro Takahashi (2019): 每个数值变成一颗粒子，数据就变成了地形。 https://x.com/_kzr/status/1429739880259612685 · 源代码: https://github.com/keijiro/GeoVfx
+- **Smrvfx: particles from a skinned mesh** — Keijiro Takahashi (2019): 任何会动的身体都可以变成粒子发射器。 https://x.com/_kzr/status/1114513038302830592 · 源代码: https://github.com/keijiro/Smrvfx
+- **VFX Graph Sketch1012** — Keijiro Takahashi (2019): 每天做一个小草图，是学会一个工具的方法。 https://x.com/_kzr/status/1187004957821505536 · 源代码: https://github.com/keijiro/VfxGraphTestbed
+- **VFX Graph Sun with 2 Million Particles** — Dilmer Valecillos (2019): 数百万个小点就足以造出一颗恒星。 https://www.youtube.com/watch?v=f1BHXqeokSE · 源代码: https://github.com/dilmerv/UnityVFXMillionsOfParticles
+- **VfxPyro: interactive fireworks** — Keijiro Takahashi (2019): 烟花是讲解生成、爆开、拖尾最简单的例子。 https://x.com/_kzr/status/1179427868587130880 · 源代码: https://github.com/keijiro/VfxPyro
+- **Demographics of Israel: Data Sculpture** — Yuma Yanagisawa (2018): 不画图表，而是让数据决定一座活的粒子雕塑的大小。 https://www.youtube.com/watch?v=qop7sk6H4GA · 源代码: https://github.com/yumayanagisawa/Unity-Visual-Effects-Graph-Practice
+- **Spaceship Demo** — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2018): 在一个可玩的空间里展示 GPU 粒子图能做的一切。 https://www.youtube.com/watch?v=rqMcPZoEc3U · 源代码: https://github.com/Unity-Technologies/SpaceshipDemo
+- **GpuTrail: 100,000 Trails** — fuqunaga (2017): 原本昂贵的拖尾可以完全交给 GPU，做到极大规模。 https://www.youtube.com/watch?v=sS2MYj6LceY · 源代码: https://github.com/fuqunaga/GpuTrail
+- **Swarm** — Keijiro Takahashi (2017): 让一群由噪声驱动的粒子紧紧贴着物体表面爬动。 https://vimeo.com/219277691 · 源代码: https://github.com/keijiro/Swarm
 - **Holographic ribbons for VRDG+H** — Keijiro Takahashi (2016): 用光学'虚像'让 Unity 做的雕像和缎带悬浮在空中随音乐舞动。 https://x.com/_kzr/status/709712057235406848
+- **Screen Space Collision GPU Particles** — hecomi (2016): 只要看得见一个表面，粒子就能在它上面弹开：把深度缓冲当作碰撞体。 https://www.youtube.com/watch?v=G-4k8Zur7zY · 源代码: https://github.com/hecomi/UnityPseudoInstancedGPUParticles
+- **Screen Space Particle Collision** — Hironori Sugino (sugi-cho) (2016): 把相机看到的东西当成粒子的物理世界。 https://www.youtube.com/watch?v=E81EVRG0SlU · 源代码: https://github.com/sugi-cho/Unity-GPU-Particle
+- **Kvant Spray** — Keijiro Takahashi (2015): 把任何网格都当作粒子，并大量喷射。 https://vimeo.com/117040444 · 源代码: https://github.com/keijiro/KvantSpray
+- **Kvant Swarm** — Keijiro Takahashi (2015): 把每个粒子的路径画成一条线，粒子群就变成了流动的丝线。 https://vimeo.com/134624419 · 源代码: https://github.com/keijiro/KvantSwarm
+- **Boids** — Keijiro Takahashi (2014): 只要三条局部规则，就能做出栩栩如生的群体运动。 https://vimeo.com/87151096 · 源代码: https://github.com/keijiro/Boids
+- **Fragments** — Keijiro Takahashi (2014): 好的粒子效果来自有趣的形状，而不只是更多的粒子。 https://vimeo.com/102452671 · 源代码: https://github.com/keijiro/Fragments
+- **Turbulent Flow (particle animations)** — Keijiro Takahashi (2013): 用外力而不是发射器参数来塑造粒子系统。 https://vimeo.com/80264404 · 源代码: https://github.com/keijiro/unity-particle-animations
 
 ### 点云与深度
 
 把深度相机、LiDAR 和体积视频变成会动的三维材料。
 
+- **Triangle Splatting importer** — Keijiro Takahashi (2025): 用三角形采集的场景，普通渲染器就能跑。 https://x.com/_kzr/status/1939302534285582621 · 源代码: https://github.com/keijiro/TriangleSplattingTest
 - **Metavido VFX (WebGPU)** — Keijiro Takahashi (2024): 把手机拍的'带深度的视频'放进网页，任何人都能在浏览器里围着它看特效。 https://x.com/_kzr/status/1828366682689061280 · 源代码: https://github.com/keijiro/MetavidoVFX
 - **Rcam3 for Masaya Matsuura's concert** — Keijiro Takahashi (2024): 把手机 LiDAR 当成舞台上的体积摄像头，实时生成演出视觉。 https://x.com/_kzr/status/1871169155254435978 · 源代码: https://github.com/keijiro/Rcam3
+- **SplatVFX: 3D Gaussian Splatting in VFX Graph** — Keijiro Takahashi (2023): 一个写实采集，同时也是一个粒子系统。 https://x.com/_kzr/status/1714214841265856932 · 源代码: https://github.com/keijiro/SplatVFX
+- **BibcamStage: live show at Channel 22** — Keijiro Takahashi (2022): 用手机记录的日常散步，成了舞台素材。 https://www.youtube.com/watch?v=v3mRlMx_6Is · 源代码: https://github.com/keijiro/BibcamStage
 - **VFX with Unity AR Foundation** — Keijiro Takahashi (2022): 直接在手机上实时让光效沿真实环境生长。 https://x.com/_kzr/status/1601509152395706369 · 源代码: https://github.com/keijiro/Rcam2
 - **Walking a Taiwanese street with iPhone LiDAR** — Keijiro Takahashi (2022): 用 LiDAR 的'看不远'这一缺陷，本身做成一种梦境般的街景风格。 https://x.com/_kzr/status/1607672355710709760
 - **Adding VFX to a Bibcam clip** — Keijiro Takahashi (2021): 对一段已录好的深度视频做'空间感知'的后期特效。 https://x.com/_kzr/status/1460618910990929926 · 源代码: https://github.com/keijiro/BibcamVfx
 - **Bibcam test in Shibuya** — Keijiro Takahashi (2021): 录像时把深度和相机位姿一起'烙'进视频，之后就能给街景补上贴合空间的特效。 https://vimeo.com/651111230 · 源代码: https://github.com/keijiro/Bibcam
+- **KinFuSDFVFX** — Kaito Tsutsumi (にー兄さん / drumath2237) (2021): 把真实空间扫描一次，让粒子能够贴住它的形状。 https://www.youtube.com/watch?v=ApPVp6Z3cgE · 源代码: https://github.com/drumath2237/KinFuSDFVFX
+- **OAK-D-Lite stereo depth particles** — Keijiro Takahashi (2021): 便宜的立体相机就足以做人体粒子。 https://x.com/_kzr/status/1474726909917667330 · 源代码: https://github.com/keijiro/DepthAITestbed
+- **4DViews volumetric video with VFX Graph** — Keijiro Takahashi (2020): 影棚拍的体积视频，也能像普通素材一样被再创作。 https://x.com/_kzr/status/1270712472853340167 · 源代码: https://github.com/keijiro/4DViewsTest2
+- **Akvj: Azure Kinect VJ set** — Keijiro Takahashi (2020): 深度相机变成一件现场视觉乐器。 https://vimeo.com/424260614 · 源代码: https://github.com/keijiro/Akvj
+- **PcxEffects3: point cloud effects** — Keijiro Takahashi (2020): 静态扫描变成会呼吸的场所。 https://x.com/_kzr/status/1293928930647261184 · 源代码: https://github.com/keijiro/PcxEffects3
+- **Point Cloud Garden** — Yuma Yanagisawa (2020): 当扫描得到的点能够移动，一个地方就成了活的材料。 https://www.youtube.com/watch?v=J6QHswn6Zdg · 源代码: https://github.com/yumayanagisawa/Unity-Point-Cloud-VFX-Graph
 - **Rcam2: Volumetric AR camera rig** — Keijiro Takahashi (2020): 把 iPad 的 LiDAR 当成可移动的体积摄像机，让特效贴着真实房间长出来。 https://vimeo.com/461782810 · 源代码: https://github.com/keijiro/Rcam2
+- **Akvfx: Azure Kinect with VFX Graph** — Keijiro Takahashi (2019): 把深度传感器当成实时粒子源。 https://x.com/_kzr/status/1163456709894922240 · 源代码: https://github.com/keijiro/Akvfx
+- **Dkvfx: Depthkit volumetric video with VFX Graph** — Keijiro Takahashi (2019): 录好的体积视频，可以当作粒子特效的原材料。 https://x.com/_kzr/status/1105456612162994177 · 源代码: https://github.com/keijiro/Dkvfx
 - **Rcam at Channel #20 (live with umio)** — Keijiro Takahashi (2019): 把舞台上的人实时扫成点云，再让粒子把人拆散、重组，成为现场演出的视觉。 https://vimeo.com/346711967 · 源代码: https://github.com/keijiro/Rcam
+- **Rsvfx: RealSense depth to VFX Graph** — Keijiro Takahashi (2019): 一台便宜的深度相机，就能把真人实时变成粒子材料。 https://x.com/_kzr/status/1099299041463066624 · 源代码: https://github.com/keijiro/Rsvfx
+- **VFX sketches with Depthkit and Unity** — Keijiro Takahashi (2019): 同一段录像，可以有许多种视觉性格。 https://vimeo.com/383216987 · 源代码: https://github.com/keijiro/DkvfxSketches
+- **VFXGraphSandbox: Runtime Point Cache** — fuqunaga (2019): 现场生成点缓存而不是预先烘焙，让任何动画网格都能变成粒子。 https://x.com/fuqunaga/status/1209023053016924161 · 源代码: https://github.com/fuqunaga/VFXGraphSandbox
+- **Depth Camera Voxel Particles** — Hironori Sugino (sugi-cho) (2018): 用可以散开的方块实时重建一个身体。 https://www.youtube.com/watch?v=r6qXq082iH4 · 源代码: https://github.com/sugi-cho/RealSenseVisualize
+- **Pcx point cloud renderer** — Keijiro Takahashi (2017): 让原始扫描数据在游戏引擎里变成可以直接做动画的材料。 https://vimeo.com/239850990 · 源代码: https://github.com/keijiro/Pcx
+- **Kinect V2 Depth into the G-Buffer** — hecomi (2016): 把深度相机画面当作渲染器的一部分，而不是一张贴图。 https://www.youtube.com/watch?v=Nl3lxlz0qME · 源代码: https://github.com/hecomi/UnityKinectV2DeferredRendering
 
 ### 身体与面部特效
 
 由人像分割、姿态、手部或面部追踪驱动的特效。
 
+- **BodyPix body part tracking** — Keijiro Takahashi (2023): 知道身体每个部位在哪里，就能给每个部位不同的特效。 https://x.com/_kzr/status/1626200056033599491 · 源代码: https://github.com/keijiro/BodyPixSample
+- **BlazeFace face filters on Barracuda** — Keijiro Takahashi (2021): 六个关键点就足够装饰一张脸。 https://x.com/_kzr/status/1378352493134929926 · 源代码: https://github.com/keijiro/BlazeFaceBarracuda
 - **BodyPix visual effects (NNCam)** — Keijiro Takahashi (2021): 实时把人从背景里'抠'出来，特效只作用在人身上。 https://vimeo.com/580670067 · 源代码: https://github.com/keijiro/NNCam
 - **FaceMeshBarracuda face & eye tracker** — Keijiro Takahashi (2021): 在 Unity 里用一个摄像头实现脸部网格与眼球追踪，做面具和视线特效。 https://vimeo.com/545493860 · 源代码: https://github.com/keijiro/FaceMeshBarracuda
 - **HandPoseBarracuda hand tracker** — Keijiro Takahashi (2021): 只用普通摄像头就能在 Unity 里拿到手指关节，做手势特效的基础件。 https://vimeo.com/545493967 · 源代码: https://github.com/keijiro/HandPoseBarracuda
+- **IrisBarracuda: eye and iris tracking** — Keijiro Takahashi (2021): 知道虹膜在哪里，就能做由视线驱动的特效。 https://x.com/_kzr/status/1382324941861769220 · 源代码: https://github.com/keijiro/IrisBarracuda
+- **UltraFace: realtime emoji face overlay** — Keijiro Takahashi (2021): 人脸检测加一张贴纸，就是最简单的面部滤镜。 https://x.com/_kzr/status/1361657191401365505 · 源代码: https://github.com/keijiro/UltraFaceBarracuda
+- **Hand-Tracked Forces on VFX Particles (Quest)** — Dilmer Valecillos (2020): 双手变成粒子的力场。 https://www.youtube.com/watch?v=EyMF2Wo1awo · 源代码: https://github.com/dilmerv/OculusQuestHandTrackingPhysicsURP
+- **AR Body Tracking with Head and Hand Particles** — Dilmer Valecillos (2019): 把特效绑在人体追踪关节上，让真实的人拥有超能力。 https://www.youtube.com/watch?v=jxvBrfuyusU · 源代码: https://github.com/dilmerv/UnityARFoundationEssentials
+- **Skeletal Geometric Effects** — Keijiro Takahashi (2018): 只用骨骼的骨头，就生成丰富的几何形体。 https://va.media.tumblr.com/tumblr_pcsc78PRjA1qio469.mp4 · 源代码: https://github.com/keijiro/SkeletalGeometricEffects
+- **GlitchDancer** — Keijiro Takahashi (2017): 证明一部手机也能跑出夜店级别的实时 3D 视觉。 https://vimeo.com/198537336 · 源代码: https://github.com/keijiro/GlitchDancer
+- **Skinner** — Keijiro Takahashi (2016): 把运动身体上的每个顶点都当作发射器，让动作本身来“画”出特效。 https://vimeo.com/197396746 · 源代码: https://github.com/keijiro/Skinner
+
+### 声音驱动
+
+会“听”的画面：声音和音乐决定特效的形态。
+
+- **DrumPadVFX: finger drum visualizer** — Keijiro Takahashi (2024): 每个鼓垫都有自己的视觉声音。 https://x.com/_kzr/status/1849430841119973885 · 源代码: https://github.com/keijiro/DrumPadVFX
+- **Generative VFX Music Video (Bitwig x Unity)** — Kaito Tsutsumi (にー兄さん / drumath2237) (2022): 让概率而不是时间线同时导演音乐和画面。 https://www.youtube.com/watch?v=gARJwIS5VGc · 源代码: https://github.com/drumath2237/Generative-VFX-Bitwig-Sandbox
+- **VzoVfx: triggering VFX from Bitwig** — Keijiro Takahashi (2022): 让音乐软件直接驱动画面。 https://x.com/_kzr/status/1492752963206406148 · 源代码: https://github.com/keijiro/VzoVfx
+- **Khoreo: procedural dance with the MC-101** — Keijiro Takahashi (2020): 音乐在“演奏”舞者。 https://x.com/_kzr/status/1291723680490254336 · 源代码: https://github.com/keijiro/Khoreo
+- **Grubo: MC-101 live performance at Channel #21** — Keijiro Takahashi (2019): 一台小小的音乐盒，同时驱动音乐和画面。 https://vimeo.com/379562830 · 源代码: https://github.com/keijiro/Grubo
+- **LaspVfx: audio-reactive VFX with LASP** — Keijiro Takahashi (2019): 让声音自己画出形状。 https://x.com/_kzr/status/1116337708782067713 · 源代码: https://github.com/keijiro/LaspVfx
+- **VFX controlled by MIDI notes (Minis)** — Keijiro Takahashi (2019): 像演奏乐器一样演奏画面。 https://x.com/_kzr/status/1194287720203374592 · 源代码: https://github.com/keijiro/VfxMinisExamples
+- **Museum (Channel 18)** — Keijiro Takahashi (2018): 把即兴代码和准备好的 3D 道具混在一起，像一座现场策展的博物馆。 https://www.youtube.com/watch?v=r-nbIpdn-Lk · 源代码: https://github.com/keijiro/Museum
+- **OP-Z videolab visuals** — Keijiro Takahashi (2018): 让合成器的音序器直接演奏 3D 视觉。 https://vimeo.com/307285370 · 源代码: https://github.com/keijiro/VideolabTest
+- **Beta (live coding at Channel 16)** — Keijiro Takahashi (2017): 在音乐进行时，现场编写一个 3D 世界的纹理。 https://vimeo.com/213872212 · 源代码: https://github.com/keijiro/Beta
+- **LASP audio-reactive particles** — Keijiro Takahashi (2017): 让画面对声音的反应快到察觉不到延迟。 https://va.media.tumblr.com/tumblr_otamd9rnf21qio469.mp4 · 源代码: https://github.com/keijiro/Lasp
+- **Republic (FEMM live)** — Keijiro Takahashi (2017): 让实时 3D 视觉与流行演出的编舞和音乐相匹配。 https://x.com/tokyomax/status/878736675228090368 · 源代码: https://github.com/keijiro/Republic
+- **Seido (静動)** — Keijiro Takahashi (2017): 把一排屏幕变成一件有节奏感、并且开源到公有领域的视觉乐器。 https://va.media.tumblr.com/tumblr_p19olvfZwP1qio469.mp4 · 源代码: https://github.com/keijiro/Seido
+- **ShaderSketches** — Keijiro Takahashi (2017): 养成每天写一个小着色器草图的习惯。 https://va.media.tumblr.com/tumblr_ooco6l0oEQ1qio469.mp4 · 源代码: https://github.com/keijiro/ShaderSketches
+- **Trinity (Channel 17)** — Keijiro Takahashi (2017): 让每一个鼓点都在三块屏幕上触发不同的 GPU 效果。 https://va.media.tumblr.com/tumblr_ou5rt7l30F1qio469_720.mp4 · 源代码: https://github.com/keijiro/Trinity
+- **VJ04 (Channel #10)** — Keijiro Takahashi (2015): 用基于物理的渲染，让夜店视觉看起来像动起来的产品摄影。 https://www.youtube.com/watch?v=jLmbjudThlA · 源代码: https://github.com/keijiro/VJ04
+- **VJ05 (Channel #12)** — Keijiro Takahashi (2015): 搭建一个可复用的现场视觉系统，把所有动画参数都开放给声音和 MIDI 控制。 https://x.com/shutamegai/status/619489135749824513 · 源代码: https://github.com/keijiro/VJ05
+- **VJ01: Guitar Songs** — Keijiro Takahashi (2014): 一个会“听”歌曲的生成式视觉系统。 https://vimeo.com/90006189 · 源代码: https://github.com/keijiro/VJ01
+- **VJ02** — Keijiro Takahashi (2014): 像演奏乐器一样，用推子现场操控一个 3D 游戏引擎场景。 https://vimeo.com/104780871 · 源代码: https://github.com/keijiro/VJ02
+
+### 程序化形态与生长
+
+按规则生长、挤出、平铺或变形的几何体。
+
+- **MeshSlicer: cutting objects in real time** — Keijiro Takahashi (2026): 切开任意网格，并把切口补上。 https://x.com/_kzr/status/2074120483688374287 · 源代码: https://github.com/keijiro/MeshSlicer
+- **Metawire: wireframe primitives for VFX** — Keijiro Takahashi (2022): 线框只用很少的几何体，就有科技感和全息感。 https://x.com/_kzr/status/1537797028817735680 · 源代码: https://github.com/keijiro/Metawire
+- **Procedural walk with Animation Rigging** — Keijiro Takahashi (2022): 动作可以算出来，而不是逐帧摆出来。 https://x.com/_kzr/status/1574788205010112513 · 源代码: https://github.com/keijiro/CharacterRigTest
+- **NoiseBall6: compute shader mesh on mobile** — Keijiro Takahashi (2021): 直接在 GPU 上变形几何体，让手机也能跑重特效。 https://x.com/_kzr/status/1402611991118712841 · 源代码: https://github.com/keijiro/NoiseBall6
+- **3D Moebius Transformations** — Shahriar Shahrabi (2020): 弯曲的是空间而不是物体：把场景送到四维球面上旋转，再投影回来。 https://www.youtube.com/watch?v=81XDjBiuuEI · 源代码: https://github.com/IRCSS/3D-Moebius-Transformations-Vertex-shader-in-Unity-3D
+- **Mesh Deformation with Compute Shaders on Quest** — Shahriar Shahrabi (2020): 在一体机上让虚拟表面摸起来是软的。 https://www.youtube.com/watch?v=IVy6T5_9r2c · 源代码: https://github.com/IRCSS/Mesh-Deformation-With-Compute-Shader-Oculus-Quest-Unity
+- **Procedural Painting with Genetic Evolution** — Shahriar Shahrabi (2020): 让进化算法而不是滤镜来决定每一笔该落在哪里。 https://www.youtube.com/watch?v=--YygVe0Eu4 · 源代码: https://github.com/IRCSS/Procedural-painting
+- **VertexAnimationJob: multithreaded vertex animation** — Keijiro Takahashi (2020): 每帧推动每个顶点，静态模型就活了。 https://x.com/_kzr/status/1217326699714494464 · 源代码: https://github.com/keijiro/VertexAnimationJob
+- **VfxCrystal: growing crystals** — Keijiro Takahashi (2020): 网格粒子也能拼出看似实心的形体。 https://x.com/_kzr/status/1333403226813595649 · 源代码: https://github.com/keijiro/VfxCrystal
+- **WfcMaze: Wave Function Collapse maze** — Keijiro Takahashi (2020): 局部规则就能搭出一个完整的结构。 https://x.com/_kzr/status/1249358391975137282 · 源代码: https://github.com/keijiro/WfcMaze
+- **Coding Adventure: Hydraulic Erosion** — Sebastian Lague (2019): 让模拟的雨而不是美术来雕刻地貌。 https://www.youtube.com/watch?v=eaXk97ujbPQ · 源代码: https://github.com/SebLague/Hydraulic-Erosion
+- **Coding Adventure: Marching Cubes** — Sebastian Lague (2019): 把一片数值场变成可以雕刻的表面。 https://www.youtube.com/watch?v=M3iI2l0ltbE · 源代码: https://github.com/SebLague/Marching-Cubes
+- **NoiseBall5: mesh deformed by the Job System** — Keijiro Takahashi (2019): 一个活物般的团块，就是给顶点加上噪声。 https://x.com/_kzr/status/1211628843343081472 · 源代码: https://github.com/keijiro/NoiseBall5
+- **ProcCharVfx: procedural letters and Matrix rain** — Keijiro Takahashi (2019): 字母表可以生成，而不是加载。 https://x.com/_kzr/status/1209489319544549376 · 源代码: https://github.com/keijiro/ProcCharVfx
+- **Procedural dance (PuppetTest)** — Keijiro Takahashi (2018): 不用动作捕捉，只用几条正弦波和噪声生成舞蹈。 https://vimeo.com/255257338 · 源代码: https://github.com/keijiro/PuppetTest
+- **Cloner** — Keijiro Takahashi (2017): 用同一个简单零件的大量克隆，拼出复杂的有机形态。 https://vimeo.com/218961301 · 源代码: https://github.com/keijiro/Cloner
+- **Conway's Game of Life on the GPU** — fuqunaga (2017): 网格上的四条规则就能生出无穷的涌现生命。 https://www.youtube.com/watch?v=Oxo22vWgzKc · 源代码: https://github.com/fuqunaga/GpuLifeGame
+- **RDSystem (reaction-diffusion)** — Keijiro Takahashi (2017): 让一个类似化学反应的模拟来绘制会生长的纹理。 https://vimeo.com/217373413 · 源代码: https://github.com/keijiro/RDSystem
+- **ManyCubes** — Keijiro Takahashi (2015): 只用一个着色器和一个哈希函数就得到丰富的运动。 https://va.media.tumblr.com/tumblr_nwkrsraePx1qio469.mp4 · 源代码: https://github.com/keijiro/ManyCubes
+- **Subatomic (geometric mirroring)** — Keijiro Takahashi (2015): 做一个存在于三维空间里的万花筒。 https://va.media.tumblr.com/tumblr_nv2ru4onKo1qio469.mp4 · 源代码: https://github.com/keijiro/SpektrSubatomic
+- **TextAnimation** — Keijiro Takahashi (2015): 完全在着色器里做文字动画。 https://va.media.tumblr.com/tumblr_nxhz6iOsZv1qio469.mp4 · 源代码: https://github.com/keijiro/TextAnimation
+- **Kvant Deformer** — Keijiro Takahashi (2014): 让噪声在 GPU 上持续地雕刻一个表面。 https://vimeo.com/86002232 · 源代码: https://github.com/keijiro/Kvant
+- **Sunburst effects** — Keijiro Takahashi (2013): 把经典的放射状光芒图形做成实时网格动画。 https://vimeo.com/76949095 · 源代码: https://github.com/keijiro/unity-sunburst-effects
+- **Undulation** — Keijiro Takahashi (2013): 用场景中的慢动作和镜头的快速运动形成对比。 https://vimeo.com/80716975 · 源代码: https://github.com/keijiro/unity-undulation
+- **Virtual Kinetic Sculpture** — Keijiro Takahashi (2013): 把实体的动态雕塑搬进虚拟空间。 https://vimeo.com/80520888 · 源代码: https://github.com/keijiro/unity-kinetic-sculpture
+
+### 着色器与表面
+
+溶解、全息、故障和各种材质：改变一个表面看起来的样子。
+
+- **Galaxy Water** — Mirza Beig (2026): 倒映的是整个宇宙，而不是天空的水。 https://x.com/TheMirzaBeig/status/2008528798397198550 · 源代码: https://github.com/MirzaBeig/Galaxy-Water
+- **LightGridShader: LED display look** — Keijiro Takahashi (2025): 模仿实体屏幕的结构，让画面更真实。 https://x.com/_kzr/status/1962445754007765480 · 源代码: https://github.com/keijiro/LightGridShader
+- **Chromatic Distortion Sphere** — Mirza Beig (2024): 一个带彩虹边缘、折射世界的球，一眼就像魔法。 https://www.youtube.com/watch?v=IkBZLo4ROU0 · 源代码: https://github.com/MirzaBeig/Chromatic-Distortion-Sphere
+- **FloatingHUD: floating interface effect** — Keijiro Takahashi (2024): 把界面图形当作空间中的视觉特效。 https://x.com/_kzr/status/1897620890919280893 · 源代码: https://github.com/keijiro/FloatingHUD
+- **AIShader: ChatGPT shader generator** — Keijiro Takahashi (2023): 用文字描述一个表面，就得到一个着色器。 https://x.com/_kzr/status/1632634562399600640 · 源代码: https://github.com/keijiro/AIShader
+- **Impossible Geometry with Stencil Shaders** — Daniel Ilett (2022): 如果每扇窗只显示自己的世界，空间里面可以比外面大。 https://www.youtube.com/watch?v=EzM8LGzMjmc · 源代码: https://github.com/daniel-ilett/shaders-impossible-geom
+- **Fully Functional Portals in URP** — Daniel Ilett (2021): 在现代渲染管线中用渲染纹理重现《Portal》的魔法。 https://www.youtube.com/watch?v=PkGjYig8avo · 源代码: https://github.com/daniel-ilett/portals-urp
+- **Stencil Portal Halloween Scene** — Shahriar Shahrabi (2021): 一扇门里可以装下一个只有透过它才存在的世界。 https://www.youtube.com/watch?v=gGeP34_6d2A · 源代码: https://github.com/IRCSS/Unity-Stencil-Portal
+- **UnityFurURP (Shell / Fin Fur Shader)** — hecomi (2021): 把一个表面叠上许多层透明副本，它就变成了毛发。 https://www.youtube.com/watch?v=Hab3dcumtXU · 源代码: https://github.com/hecomi/UnityFurURP
+- **Coding Adventure: Portals** — Sebastian Lague (2020): 传送门就是第二台相机，把它的画面精确贴在门洞上。 https://www.youtube.com/watch?v=cWpFZbjtSQg · 源代码: https://github.com/SebLague/Portals
+- **Eyeball: procedural iris that follows you** — Keijiro Takahashi (2020): 会回看你的物体，就像活的。 https://x.com/_kzr/status/1321000166585856000 · 源代码: https://github.com/keijiro/Eyeball
+- **Matrix VFX** — Shahriar Shahrabi (2020): 任何物体都能被改写成顺着它形状流下的数字雨。 https://www.youtube.com/watch?v=8l7cujPLw84 · 源代码: https://github.com/IRCSS/MatrixVFX
+- **Texture Painting on Meshes** — Shahriar Shahrabi (2019): 在物体上作画应该像在真实物体上画，而不是在屏幕上画。 https://www.youtube.com/watch?v=GmCZZrV004A · 源代码: https://github.com/IRCSS/TexturePaint
+- **Flipper (ADIRECTOR Channel)** — Keijiro Takahashi (2018): 让数字演出感觉像在翻一本印刷的书。 https://va.media.tumblr.com/tumblr_pd1oevl48u1qio469.mp4 · 源代码: https://github.com/keijiro/Flipper
+- **PortalGate** — fuqunaga (2018): 墙上两个相连的洞，改写了空间的连接方式。 https://www.youtube.com/watch?v=jzud9m-NgnA · 源代码: https://github.com/fuqunaga/PortalGate
+- **Shader Graph moving-lines globe** — Keijiro Takahashi (2018): 证明用节点图也能做出惊艳的动态材质。 https://va.media.tumblr.com/tumblr_pfv4dgueZM1qio469.mp4 · 源代码: https://github.com/keijiro/ShaderGraphExamples
+- **GDisintegrator** — Keijiro Takahashi (2017): 把“解体”当成一种可以控制、可以倒回的材质状态。 https://vimeo.com/241520939 · 源代码: https://github.com/keijiro/GDisintegrator
+- **GVoxelizer** — Keijiro Takahashi (2017): 不做任何预处理，就能把任意网格变成体素化的转场。 https://vimeo.com/241191777 · 源代码: https://github.com/keijiro/GVoxelizer
+- **Prisma (VRDG+H #4)** — Keijiro Takahashi (2017): 用透明屏幕投影，把虚拟物体放在演出者和观众之间。 https://www.youtube.com/watch?v=oY6uCfNb-Ng · 源代码: https://github.com/keijiro/Prisma
+- **Projection Spray (VR Spray Drawing)** — Hironori Sugino (sugi-cho) (2017): 喷漆罐其实就是一台投影仪，把颜色写进它照到的物体的贴图里。 https://www.youtube.com/watch?v=TTv6YPWNLxY · 源代码: https://github.com/sugi-cho/ProjectionSpray
+- **Flipbook** — Keijiro Takahashi (2016): 把时间变成一本实体书的书页。 https://va.media.tumblr.com/tumblr_pcorcg1yV01qio469.mp4 · 源代码: https://github.com/keijiro/Flipbook
+- **Spektr Scatter (polygon scatter)** — Keijiro Takahashi (2015): 做一个对任何模型都适用、只需一个滑块控制的多边形溶解效果。 https://va.media.tumblr.com/tumblr_nvmqi6Tmuc1qio469.mp4 · 源代码: https://github.com/keijiro/SpektrScatter
+- **Cut-out Fx** — Keijiro Takahashi (2014): 只用着色器实现的溶解效果，可以让任何东西显现或隐去。 https://vimeo.com/84364022 · 源代码: https://github.com/keijiro/CutoutFxTest
+- **SlicerFx** — Keijiro Takahashi (2014): 让 3D 场景看起来像正在被逐层扫描。 https://vimeo.com/102444263 · 源代码: https://github.com/keijiro/SlicerFx
+- **SonarFx** — Keijiro Takahashi (2014): 用一道不断扩散的光脉冲来揭示一个空间。 https://vimeo.com/102398137 · 源代码: https://github.com/keijiro/SonarFx
+- **Water Drops (pseudo refraction)** — Keijiro Takahashi (2014): 用足够便宜的方式假装折射，可以随处使用。 https://vimeo.com/85640039 · 源代码: https://github.com/keijiro/UnityRefractionShader
+- **Portal Room Cubes via Stencil Buffer** — NoiseCrime (2013): 如果每个房间只能透过自己那一面看到，几个房间就能共享同一个空间。 https://www.youtube.com/watch?v=5DKIP9N-OB4 · 源代码: https://github.com/noisecrime/Unity-StencilPortalRoomCube
+
+### 光线步进与 SDF
+
+用距离场定义形状：平滑融合、无限细节、不可能的空间。
+
+- **Mesh-to-SDF** — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2022): 每帧给运动的身体生成距离场，特效就能感知它的形状。 https://user-images.githubusercontent.com/6276154/201238758-cc87ec4a-a65a-4cb2-b3cc-123576ab9ea2.mov · 源代码: https://github.com/Unity-Technologies/com.unity.demoteam.mesh-to-sdf
+- **ComputeMarchingCubes: GPU isosurfaces** — Keijiro Takahashi (2021): 把任何三维场实时变成实体表面。 https://x.com/_kzr/status/1403359710577786881 · 源代码: https://github.com/keijiro/ComputeMarchingCubes
+- **4D Explorer (4D Raymarching)** — Jelle Vermandere (2020): 通过在三维切片中行走来看见一个四维世界。 https://www.youtube.com/watch?v=nUExziADzjc · 源代码: https://github.com/Jellevermandere/4D-Raymarching
+- **Coding Adventure: Clouds** — Sebastian Lague (2019): 云就是光线穿过的一团噪声。 https://www.youtube.com/watch?v=4QOcCGI6xOU · 源代码: https://github.com/SebLague/Clouds
+- **Coding Adventure: Ray Marching** — Sebastian Lague (2019): 把形状写成距离公式，平滑融合和无限分形就都顺手而来。 https://www.youtube.com/watch?v=Cp5WWtMoeKg · 源代码: https://github.com/SebLague/Ray-Marching
+- **Metaballs** — Yuma Yanagisawa (2019): 能平滑融合的团块看起来是活的。 https://www.youtube.com/watch?v=kuLUqNNlN4g · 源代码: https://github.com/yumayanagisawa/Unity-Metaballs
+- **Raymarching in Unity** — Shahriar Shahrabi (2019): 把光线步进的形体和普通几何混在一起，让两者处在同一个世界。 https://www.youtube.com/watch?v=87YvrkrymG0 · 源代码: https://github.com/IRCSS/UnityRaymarching
+- **SdfVfxSamples: particles shaped by distance fields** — Keijiro Takahashi (2019): 看不见的形状，可以靠绕着它流动的东西显现出来。 https://x.com/_kzr/status/1821182526184100126 · 源代码: https://github.com/keijiro/SdfVfxSamples
+- **CloudSkybox** — Keijiro Takahashi (2016): 不用任何几何体，把真正的体积云放进天空。 https://www.youtube.com/watch?v=_QC6dXTMMwE · 源代码: https://github.com/keijiro/CloudSkybox
+- **uRaymarching** — hecomi (2016): 只写一个距离函数，就能得到一个带完整光照、表现得和其他物体一样的着色器。 https://www.youtube.com/watch?v=AppyVflAagc · 源代码: https://github.com/hecomi/uRaymarching
+- **Water Surface (isosurface)** — Keijiro Takahashi (2013): 用看不见的场而不是建模的网格来生成液体形状。 https://vimeo.com/82601169 · 源代码: https://github.com/keijiro/unity-isosurface-test
+
+### 流体与物理
+
+模拟的流体、烟雾、布料和软体。
+
+- **Fluo: fluid and spectral color visualizer** — Keijiro Takahashi (2025): 相机画面成为流体里的颜料。 https://x.com/_kzr/status/1962518821111280037 · 源代码: https://github.com/keijiro/Fluo
+- **Pigment-based color mixing: fluid art** — Keijiro Takahashi (2025): 像颜料那样混色，而不是像光那样。 https://x.com/_kzr/status/1952365070601855069 · 源代码: https://github.com/keijiro/PigmentTest
+- **TrackpadFluid: ten-finger fluid** — Keijiro Takahashi (2025): 触控板变成一个可以多指搅动的颜料池。 https://x.com/_kzr/status/1956332698592805220 · 源代码: https://github.com/keijiro/TrackpadFluid
+- **Coding Adventure: Simulating Fluids** — Sebastian Lague (2023): 水不过是许多努力保持密度恒定的粒子。 https://www.youtube.com/watch?v=rSKMYc1CQHE · 源代码: https://github.com/SebLague/Fluid-Sim
+- **VFX Graph Smoke Portal Sample** — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2023): 像真实烟雾一样受光的烟，让传送门显得有实体感。 https://www.youtube.com/watch?v=57cKxN3XdEY · 源代码: https://github.com/Unity-Technologies/VisualEffectGraph-Samples
+- **Volumetric fog from VFX Graph** — Keijiro Takahashi (2023): 粒子可以写进雾里，而不只是贴图片。 https://x.com/_kzr/status/1615973816286744578 · 源代码: https://github.com/keijiro/VolumetricVfxTest
+- **Interactive Volumetric Fog with Fluid Dynamics (The Vast Land)** — Shahriar Shahrabi (2021): 让雾变成可以被推开的东西：用流体模拟驱动光线步进的体积雾。 https://www.youtube.com/watch?v=hMhNhgnOGN8 · 源代码: https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-
+- **BurstWig: flowing hair-like strands** — Keijiro Takahashi (2020): 加上简单弹簧物理的细丝，就有了生命感。 https://x.com/_kzr/status/1258039132372135941 · 源代码: https://github.com/keijiro/BurstWig
+- **Fluid Simulation in Compute Shaders** — Shahriar Shahrabi (2020): 一个完整的流体解算器只需几个计算着色器 pass，就能让任何表面流动起墨水。 https://www.youtube.com/watch?v=GkrQy5JUyZk · 源代码: https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-
+- **HdrpVatExample: baked fluid and cloth with VAT** — Keijiro Takahashi (2020): 离线模拟一次，就能在任何地方回放。 https://x.com/_kzr/status/1220338439117127680 · 源代码: https://github.com/keijiro/HdrpVatExample
+- **StableFluids** — Keijiro Takahashi (2018): 把一块触控板变成可以用手“搅动”的液体绘画乐器。 https://vimeo.com/277872734 · 源代码: https://github.com/keijiro/StableFluids
+- **GPU Accelerated 2D Wave Simulation** — Kodai Takao (2017): GPU 上几行物理代码就能把一个表面变成活的薄膜。 https://www.youtube.com/watch?v=XqwTrwWG-_4 · 源代码: https://github.com/kodai100/Unity_Waves
+- **Position Based Fluid** — Kodai Takao (2017): 修正位置而不是力，流体模拟就能保持稳定。 https://www.youtube.com/watch?v=N-XVl2Jip3M · 源代码: https://github.com/kodai100/Unity_PositionBasedFluid
+- **Unity FLIP Fluid** — Kodai Takao (2017): 把粒子和网格结合起来，得到细节丰富又稳定的水。 https://www.youtube.com/watch?v=JRTQ6Kgi_Wk · 源代码: https://github.com/kodai100/Unity_FLIPFluid
+- **Water Surface Simulation with CustomRenderTexture** — hecomi (2017): 一个涟漪模拟可以装进一张每帧自我更新的纹理里。 https://www.youtube.com/watch?v=jclxfdS3a3w · 源代码: https://github.com/hecomi/UnityWaterSurface
+- **Wave Propagation Shader (Water Ripple)** — Yuma Yanagisawa (2017): 把任何一幅图像变成一池水。 https://www.youtube.com/watch?v=rK5AAb-1pgE · 源代码: https://github.com/yumayanagisawa/Unity-Wave-Propagation-Water-Ripple
+
+### 镜头与画面效果
+
+对相机画面做后期：数据损坏、狭缝扫描、反馈、风格化。
+
+- **FlashGlitch: trigger-based glitch** — Keijiro Takahashi (2026): 像鼓点一样打出的故障效果。 https://x.com/_kzr/status/2030279235081060715 · 源代码: https://github.com/keijiro/FlashGlitch
+- **Karbon: live camera visuals with Launchpad** — Keijiro Takahashi (2026): 像打鼓机一样演奏相机特效。 https://x.com/_kzr/status/2034570627886239876 · 源代码: https://github.com/keijiro/Karbon
+- **KinoGlitch URP: analog and digital glitch** — Keijiro Takahashi (2026): 把坏掉的信号变成一种表现风格。 https://x.com/_kzr/status/2025558651768070209 · 源代码: https://github.com/keijiro/KinoGlitchURP
+- **Light leak effect** — Keijiro Takahashi (2026): 借用胶片相机的意外，营造氛围。 https://x.com/_kzr/status/2028469137132114330 · 源代码: https://github.com/keijiro/LightLeakEffectExample
+- **StrobePages: page-turning post effect** — Keijiro Takahashi (2026): 把流畅的运动变成一叠书页。 https://x.com/_kzr/status/2021954733439848713 · 源代码: https://github.com/keijiro/StrobePages
+- **MiniBokeh: lightweight depth of field** — Keijiro Takahashi (2025): 便宜的散景虚化，让画面像被拍出来的。 https://x.com/_kzr/status/1959598355149180928 · 源代码: https://github.com/keijiro/MiniBokeh
+- **Realtime optical flow glitch machine** — Keijiro Takahashi (2025): 用运动本身去推动像素。 https://x.com/_kzr/status/1886351525569843694 · 源代码: https://github.com/keijiro/OpticalFlowTest
+- **VolFx** — Andrei Iurin (NullTale) (2024): 后期处理不必作用于整个画面，它可以是只刷在选定图层上的画笔。 https://www.youtube.com/watch?v=0Byz2CEw-y8 · 源代码: https://github.com/NullTale/VolFx
+- **Duotone image effect** — Keijiro Takahashi (2023): 减少颜色，让画面更有图形感。 https://x.com/_kzr/status/1789384955136733476 · 源代码: https://github.com/keijiro/Duotone
+- **Gamma: live coding at GitHub Universe Recap** — Keijiro Takahashi (2023): 当众写代码本身就是表演。 https://www.youtube.com/watch?v=gA9beOCv8s0 · 源代码: https://github.com/keijiro/Gamma
+- **GiLight2D: Bad Apple!! in 2D Ray Tracing** — Andrei Iurin (NullTale) (2023): 把每个亮像素都当作光源，让光线自己找到阴影。 https://www.youtube.com/watch?v=fNq0HUg6L8o · 源代码: https://github.com/NullTale/GiLight2D
+- **Anime Speed Lines** — Mirza Beig (2022): 把漫画表现速度和惊讶的符号变成实时镜头效果。 https://user-images.githubusercontent.com/37354140/151656459-d99d2d36-06ed-4889-8a10-17cabd1626d8.mp4 · 源代码: https://github.com/MirzaBeig/Anime-Speed-Lines
+- **Post-Processing Scan** — Mirza Beig (2022): 一个不断扩张的球面就能揭示世界隐藏的形状。 https://x.com/TheMirzaBeig/status/1809173668456792524 · 源代码: https://github.com/MirzaBeig/Post-Processing-Scan
+- **Speed lines post effect** — Keijiro Takahashi (2022): 把漫画的表现手法变成画面特效。 https://x.com/_kzr/status/1506969479158243331 · 源代码: https://github.com/keijiro/SimplePostEffects
+- **Flipbook2: flip book with watercolor** — Keijiro Takahashi (2021): 把视频变成实体：一叠书页。 https://x.com/_kzr/status/1398540851941314568 · 源代码: https://github.com/keijiro/Flipbook2
+- **KinoAqua: watercolor effect with VFX Graph** — Keijiro Takahashi (2021): 绘画风格的滤镜让电脑图形有手作感。 https://x.com/_kzr/status/1392482946393677829 · 源代码: https://github.com/keijiro/KinoAqua
+- **Cubism Shader** — Shahriar Shahrabi (2020): 像毕加索那样同时呈现多个视角，只不过是实时的。 https://www.youtube.com/watch?v=_DwnvbPxZTM · 源代码: https://github.com/IRCSS/Cubism-Shader
+- **KinoFeedback2: frame feedback with emoji particles** — Keijiro Takahashi (2020): 把上一帧喂回下一帧。 https://x.com/_kzr/status/1306955390513364992 · 源代码: https://github.com/keijiro/KinoFeedback2
+- **MonoFxSketches: monochrome screen effects** — Keijiro Takahashi (2020): 只用黑白两色，图形效果最有力量。 https://x.com/_kzr/status/1333749477732098048 · 源代码: https://github.com/keijiro/MonoFxSketches
+- **SlitScanCam: realtime slit-scan camera** — Keijiro Takahashi (2020): 让画面的一个方向显示时间。 https://vimeo.com/494895371 · 源代码: https://github.com/keijiro/SlitScanCam
+- **KinoEight: 8-bit style post effect** — Keijiro Takahashi (2019): 把老硬件的限制变成一种画风。 https://x.com/_kzr/status/1208045085452955653 · 源代码: https://github.com/keijiro/KinoEight
+- **Raindrops Shader** — Yuma Yanagisawa (2017): 一扇下雨的窗户可以完全用一个着色器画出来。 https://www.youtube.com/watch?v=dQSLjsDAzw0 · 源代码: https://github.com/yumayanagisawa/Unity-Raindrops
+- **VideoPlayerEffects (keying)** — Keijiro Takahashi (2017): 用一个着色器，把拍摄的人放进实时 3D 世界。 https://va.media.tumblr.com/tumblr_om9qfzPwgn1qio469_480.mp4 · 源代码: https://github.com/keijiro/VideoPlayerEffects
+- **Phantom (Phantom Sketch Mod.)** — Keijiro Takahashi (2016): 把游戏引擎的后期处理推到电影级的质感，用于现场演出。 https://x.com/tokyomax/status/787249881899347976 · 源代码: https://github.com/keijiro/Phantom
+- **Spectrum (Liquidroom 2016)** — Keijiro Takahashi (2016): 把一整套画面效果库组合成一件可以现场演奏的派对乐器。 https://va.media.tumblr.com/tumblr_oj1b8wYz3O1qio469_720.mp4 · 源代码: https://github.com/keijiro/Spectrum
+- **KinoIsoline** — Keijiro Takahashi (2015): 把 3D 场景看成不断移动的等高线。 https://va.media.tumblr.com/tumblr_nva7mmMPqD1qio469.mp4 · 源代码: https://github.com/keijiro/KinoIsoline
+- **PhotoMosaic** — Keijiro Takahashi (2015): 用一本相册来渲染一个场景。 https://va.media.tumblr.com/tumblr_nwf56pAxZd1qio469.mp4 · 源代码: https://github.com/keijiro/PhotoMosaic
+- **Depthcue** — Keijiro Takahashi (2014): 把深度当作一种有风格的颜色渐变。 https://vimeo.com/101211958 · 源代码: https://github.com/keijiro/Depthcue
+- **GlitchFx** — Keijiro Takahashi (2014): 把可控的数字损坏当作一种美学。 https://vimeo.com/102398104 · 源代码: https://github.com/keijiro/GlitchFx
+- **HexBokeh** — Keijiro Takahashi (2014): 把实体镜头光圈的特征带进实时图形。 https://vimeo.com/103702704 · 源代码: https://github.com/keijiro/HexBokeh
+- **SketchyFx** — Keijiro Takahashi (2014): 只靠叠加标准图像效果，得到手绘的质感。 https://vimeo.com/97597887 · 源代码: https://github.com/keijiro/SketchyFx
+
+### AI 驱动的特效
+
+在引擎里实时运行的神经网络：分割、风格迁移、生成模型。
+
+- **Robust Video Matting on Mac** — Keijiro Takahashi (2026): 干净的抠像让任何人都能成为合成图层。 https://x.com/_kzr/status/2101943586606678108 · 源代码: https://github.com/keijiro/unity-rvm-coreml
+- **Dcam2: Stable Diffusion VJ set with DUB-Russell** — Keijiro Takahashi (2024): 把生成式 AI 与人体追踪混合，做现场视觉。 https://www.youtube.com/watch?v=qa4jv5JhKhM · 源代码: https://github.com/keijiro/Dcam2
+- **Dcam: realtime Stable Diffusion in live performance** — Keijiro Takahashi (2023): 让图像生成快到可以当作现场视觉。 https://www.youtube.com/watch?v=iVi-7oz67OU · 源代码: https://github.com/keijiro/Dcam
+- **MoCap VFX** — Adrián Ciborro Montes (2022): 不需要动捕服：神经网络把一个摄像头变成粒子身体。 https://www.youtube.com/watch?v=z2Kst0t0PBA · 源代码: https://github.com/adcimon/mocap-vfx
+- **M-LSD line detection as VFX** — Keijiro Takahashi (2021): 房间的结构本身就成了画。 https://x.com/_kzr/status/1413426397054332930 · 源代码: https://github.com/keijiro/MlsdBarracuda
+- **SelfieBarracuda: virtual background on phones** — Keijiro Takahashi (2021): 分割把人和世界分开，两者可以各自加特效。 https://x.com/_kzr/status/1405518336230793223 · 源代码: https://github.com/keijiro/SelfieBarracuda
+- **TinyYOLOv2 object detection in Unity** — Keijiro Takahashi (2021): 让引擎知道自己在看什么。 https://x.com/_kzr/status/1353349183252533249 · 源代码: https://github.com/keijiro/TinyYOLOv2Barracuda
+- **Ngx** — Keijiro Takahashi (2018): 让神经网络从一小段视频出发，幻想出一部永不结束的音乐影像。 https://vimeo.com/294399440 · 源代码: https://github.com/keijiro/Ngx
+- **Pix2Pix for Unity** — Keijiro Takahashi (2018): 把实时的图像到图像翻译变成一种绘画工具。 https://vimeo.com/287778343 · 源代码: https://github.com/keijiro/Pix2Pix
+
+## 相关艺术（不是 AR，但能启发 AR）
+
+大地艺术、光、投影、烟火、错觉和装置：它们早已在真实世界里做着 AR 想做的事。
+
+### 身体与雕塑
+
+把人形和物体放在意想不到的地方，改变一个地方给人的感觉。
+
+- **Sound Mirrors** — Collusion (2023): 一座小镇通过一只巨大的“耳朵”和投影，倾听它的年轻人。 https://www.youtube.com/watch?v=U5ol3hcQY4w
+- **Sonic Bloom** — Yuri Suzuki (2021): 让陌生人隔着街道彼此交谈的号角。 https://vimeo.com/610583719
+- **The Cost of Your Words** — Fabio Lattanzi Antinori (2020): 让路人看到他们的词语对算法值多少钱。 https://vimeo.com/501403867
+- **EVERY THING EVERY TIME** — Naho Matsuda, AΦE / A+E Lab (Aoi Nakamura & Esteban Lecoq) (2018): 把城市的实时传感器数据写成诗，就在事件发生的街头显示。 https://www.youtube.com/watch?v=6bGqpGS-H88
+
+### 光与空间
+
+把光当作材料：可以走进去的房间、天空和光体。
+
+- **Lucida** — Lachlan Turczan (2025): 让光变成一种可以触摸和塑形的材料。 https://www.youtube.com/watch?v=Rne2JgYM0s8
+- **NARCISSE** — NONOTAK (Noemi Schipfer & Takami Nakamoto) (2025): 看着自己倒影移动的光。 https://www.youtube.com/watch?v=rXw_K5YlPOU
+- **Thanet Warn(m)ing** — Aphra Shemza (2024): 站进本地六十年的变暖之中，用颜色和音量去感受它。 https://www.youtube.com/watch?v=ZT3MwIFmRx4
+- **Between Light** — Children of the Light (Christopher Gabriel & Arnout Hulskamp) (2019): 一条光线化作地平线，在教堂里升起又落下。 https://vimeo.com/493404347
+- **Fragment Shadow** — Shunichi Kasahara (2019): 多台投影机让一个人的影子碎裂成好几个彩色影子。 https://vimeo.com/322671485
+- **TEMPEST** — Matt DesLauriers (2019): 一个按钮就让路人把闪电劈满整栋建筑。 https://vimeo.com/317006348
+- **Seconds Pass** — Aphra Shemza, Tim Murray-Browne (2018): 一个统计数字变成一阵让人无法移开目光的光之心跳。 https://www.youtube.com/watch?v=NhKyJ1yPlVw
+- **TRANSITO** — Children of the Light (Christopher Gabriel & Arnout Hulskamp) (2018): 光波让走廊显得无穷无尽，并牵引你向前走。 https://vimeo.com/278128603
+- **Warping Halos** — Children of the Light (Christopher Gabriel & Arnout Hulskamp) (2017): 一只旋转的光环，变成一道能让整个房间弯曲的光晕。 https://vimeo.com/233282594
+- **Light Barrier Third Edition** — Kimchi and Chips (2016): 更大尺度的光之屏障：光在雾中凝成体积感的影像与物体。 https://vimeo.com/218354021
+- **Moving Stained Glass** — Red Paper Heart (2016): 会动的彩色玻璃，只靠阳光照亮。 https://vimeo.com/151795207
+- **The Diffusion of Light** — Jayson Haebich (2015): 一束白光被碎玻璃变成满屋的色彩。 https://vimeo.com/127403161
+- **EPILOG** — Schnelle Bunte Bilder (with kling klang klong) (2014): 你一动，周围的光就变成墙和隧道。 https://vimeo.com/99909498
+- **Elastic Light** — Jayson Haebich (2014): 悬在半空、完全由光构成的手势界面。 https://vimeo.com/103230160
+- **Foresta Lumina** — Moment Factory (2014): 夜晚森林步道上的光影叙事 https://www.youtube.com/watch?v=AIMcZtSUiFo
+- **Light Barrier** — Kimchi and Chips (2014): 镜面阵列把投影光折射进雾中，形成悬浮光体 https://www.youtube.com/watch?v=Dp7c_0v2TRw
+- **Light Leaks** — Kyle McDonald, Jonas Jongejan (2013): 几十个迪斯科球反射投影光，整间屋子变成流动的光点空间。 https://vimeo.com/66167082
+- **Line Segments Space** — Kimchi and Chips (2013): 黑暗中一张尼龙线网，被精准投影点亮成流动的三维图形。 https://vimeo.com/111610020
+- **Netykavka** — INITI (Dan Gregor) (2013): 让一束光感觉像一个可以触摸的实体。 https://vimeo.com/72222918
+- **Laser interaction prototype** — Jayson Haebich (2012): 可以触摸的激光束。 https://vimeo.com/44904580
+- **The Walking Cube** — 1024 Architecture (François Wunschel & Pier Schneider) (2011): 把微小的实体运动和光结合起来，让一个简单几何体拥有性格。 https://vimeo.com/131077465
+- **Your uncertain shadow (colour)** — Olafur Eliasson (2010): 五盏彩色灯把你的影子分解成一串彩虹 https://www.youtube.com/watch?v=PeBH6fTQNSc
+- **Breath** — OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser) (2007): 建筑立面随着音乐一起呼吸。 https://www.youtube.com/watch?v=A6SAIdHukGg
+
+### 投影与映射
+
+投射到建筑、物体和身体上的影像：AR 叠加的前身。
+
+- **Future whiteboard: marker strokes that come alive** — Roelof Knol (2026): 手写成为触发光的开关。 https://x.com/tokufxug/status/2072491697557361021
+- **Growing** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2025): 让路人去喂养或打扰一个正在蔓延的生物。 https://vimeo.com/1159696549
+- **Pose Tracking R&D on the Aston Webb Building** — Holosphere (2025): 挥挥手臂，整栋楼就跟着你动。 https://www.youtube.com/watch?v=HBz0KWN4GJ4
+- **Shadow Tuner** — Rafael Lozano-Hemmer (2025): 路人的影子被投到巨大的地球气球上，改变地球的样子 https://vimeo.com/1067505877
+- **University of Birmingham 125th Anniversary Projection Show** — Holosphere (2025): 建筑的外墙打开，让人看见里面的空间。 https://www.youtube.com/watch?v=wt2GkcPV9DY
+- **Bioluminescence** — Cybersaur Arts (Josh Garner) (2024): 每个人手绘的深海生物，最终都在历史建筑上发光游动。 https://www.youtube.com/watch?v=V9e2UwIVXME
+- **Dynamicland intro** — Dynamicland — Bret Victor & collaborators (2024): 每一个程序都是房间里看得见摸得着的实物。 https://www.youtube.com/watch?v=5Q9r-AEzRMA
+- **Projected fish school for cats** — Roelof Knol (2024): 给一个不会看屏幕的观众做 AR：一只猫。 https://x.com/Rainmaker1973/status/1772239372521263467
+- **Voyage au Centre de la Terre (Padirac cave mapping)** — Gamgie (Clément Rignault) (2024): 把真实的溶洞当作屏幕和舞台，演一场“地心游记”。 https://www.youtube.com/watch?v=Lsv5H5XheLk
+- **light lines** — Roelof Knol (2024): 真实的物体让光绕着它弯曲。 https://x.com/orbithm/status/1812187426590200184
+- **Circle intersections: interactive pendulum projection** — Roelof Knol (2023): 把物理当作绘图工具：由重力来驱动几何图形。 https://x.com/CurieuxExplorer/status/1621037555729960960
+- **Improvising cellular playgrounds in Realtalk** — Dynamicland — Bret Victor & collaborators (2023): 用纸和马克笔即兴搭出会演化的细胞自动机游乐场。 https://www.youtube.com/watch?v=nT4E5HkpLjo
+- **Morphose (Cie Ultreia)** — Gamgie (Clément Rignault) (2023): 让老画溢出画框，漫到整个房间。 https://www.youtube.com/watch?v=nBenQHOFNK8
+- **Augmented Shadow: Chasing Stars in Shadow** — Joon Moon (Joon Y. Moon / 문준용) (2022): 把桌面上的影子戏法放大成房间尺度的故事，由观众自己点亮。 https://vimeo.com/782602226
+- **Biomolecular design in Realtalk** — Dynamicland — Bret Victor & collaborators (2022): 科学家围着桌子，用纸和实物一起设计蛋白质分子。 https://www.youtube.com/watch?v=GmY_BrwWnCA
+- **Circle intersections: interactive magnets on whiteboard** — Roelof Knol (2022): 用手玩几何：磁铁就是一张实时图表的控制点。 https://x.com/CurieuxExplorer/status/1526756672999288832
+- **Dots on paper** — Roelof Knol (2022): 一张纸就足以同时作为屏幕、控制器和舞台。 https://x.com/WevolverApp/status/1597712101006577664
+- **The Reading Light** — Red Paper Heart (2022): 只在光照到的地方才存在的文字。 https://vimeo.com/759623238
+- **Voronoi cells drawn by a pendulum** — Roelof Knol (2022): 让摆锤而不是人来指挥一幅生成式绘画。 https://x.com/CurieuxExplorer/status/1553404644566507521
+- **Innerworld Prism** — Marlena Myles (2021): 用巨型投影讲述“放下自我、回到自然”的梦境 https://www.youtube.com/watch?v=Er7oZ2n1u8s
+- **Interactive projection mapping on paper** — Roelof Knol (2021): 一张印刷卡片成为投影画面生长出来的源头。 https://x.com/CurieuxExplorer/status/1439277743212937224
+- **The Intergalactic Hanseatic League** — Collusion (2021): 历史建筑收到来自未来、关于这座小镇气候的讯息。 https://www.youtube.com/watch?v=iz8NmgJvhd0
+- **VarioLight 2: Rhythmic Gymnastics** — Ishikawa Watanabe Laboratory (University of Tokyo) (2021): 投影追着体操运动员的球和彩带，在表演中给它们'上色'。 https://www.youtube.com/watch?v=9X66YZTb_hA
+- **Dynamicland (progress report)** — Dynamicland — Bret Victor & collaborators (2020): 一座没有屏幕的计算机大楼：纸上的代码、桌上的投影、大家围在一起编程。 https://www.youtube.com/watch?v=x8-7E0IT5K0
+- **ElaMorph Projection** — Ishikawa Watanabe Laboratory (University of Tokyo) (2020): 只靠投影就让坚硬的物体看起来像橡皮一样弹性变形。 https://www.youtube.com/watch?v=uWq-a52X-7g
+- **Augmented Painting** — visiophone (Rodrigo Carvalho) (2019): 一幅静止的画变成一个供光粒子运动的物理世界。 https://vimeo.com/317035732
+- **Digital Supernova** — Miguel Chevalier (2019): 把教堂穹顶变成不断爆发的数字超新星 https://www.youtube.com/watch?v=ZbSWZL_YZ3w
+- **NightBloom at the Conservatory of Flowers** — Lightform (Brett Jones & Kevin Karsch) (2019): 把投影打在真实植物上，让温室在夜里“开花”。 https://www.youtube.com/watch?v=45tjfOd4vzg
+- **Stuck inside** — Clémence Debaig (Unwired Dance Theatre) (2019): 让一面折纸墙看起来像有“里面”。 https://www.youtube.com/watch?v=B14B_qgilMU
+- **Dockyard 3D Projection Mapping / Yokohama Odyssey** — Nobumichi Asai (2018): 把百年石砌船坞变成航海史诗的投影舞台 https://www.youtube.com/watch?v=vguPITbNorQ
+- **DynaFlash v2 and Post Reality** — Ishikawa Watanabe Laboratory (University of Tokyo) (2018): 高速投影让物体看起来像被'改写'了材质，现实本身成了屏幕。 https://www.youtube.com/watch?v=QDppJ9NWtaE
+- **It's Lit! Projected AR Murals** — Lightform (Brett Jones & Kevin Karsch) (2018): 手绘壁画 + 投影动画，让静态字母“亮”起来。 https://www.youtube.com/watch?v=XTR-NhJ9em8
+- **La Tabla** — Dynamicland — Bret Victor & collaborators (2018): 用真实卡片和棋子在投影桌上玩的'可编程'游戏。 https://www.youtube.com/watch?v=VTHvNasQyu8
+- **MIDAS Projection** — Ishikawa Watanabe Laboratory (University of Tokyo) (2018): 不需要标记和模型，让移动中的物体看起来换了一种材质。 https://www.youtube.com/watch?v=c40cxE-dfPg
+- **Renegade Projected AR in Downtown Vegas** — Lightform (Brett Jones & Kevin Karsch) (2018): 骑着投影自行车，随走随扫描随投影，把城市墙面变成AR壁画。 https://www.youtube.com/watch?v=_RFa7f8If2c
+- **VarioLight** — Ishikawa Watanabe Laboratory (University of Tokyo) (2018): 高速转镜追着舞者满场跑，把影像精确投在移动的人身上。 https://www.youtube.com/watch?v=XEseo-orRDI
+- **WDCH Dreams** — Refik Anadol (2018): 让音乐厅用AI“梦见”自己一百年的记忆，并投在外墙上 https://www.youtube.com/watch?v=PuMVVsoiLPM
+- **AURA** — Moment Factory (2017): 把教堂内部变成沉浸式光影空间 https://www.youtube.com/watch?v=FV3XdOda3zM
+- **INORI (Prayer)** — Nobumichi Asai (2017): 千帧级高速追踪投影，让面部图像跟上激烈舞蹈 https://www.youtube.com/watch?v=9n0ZAwt23VU
+- **Kacho-fugetsu** — Nobumichi Asai (2017): 花鸟风月四季意象投映在活动的人脸上 https://www.youtube.com/watch?v=5cS7KLUPfZQ
+- **Light Capsules x Neon Museum** — Craig Winslow (2017): 伪造一件“死去”物体的光，让它看起来重新活过来。 https://vimeo.com/207339810
+- **Light Sketch — El Cosmico** — Craig Winslow (2017): 计划落空时，就给身边现有的东西做投影。 https://vimeo.com/242350117
+- **Makeup Lamps** — Disney Research — Ivan Poupyrev, Robert Sumner & colleagues (2017): 用高速投影把动态妆容实时'画'在表演者移动的脸上。 https://www.youtube.com/watch?v=Ilgu3aFCphs
+- **Mudança de Dança** — Harshini J. Karunaratne (2017): 把舞者放大到一整栋楼那么大。 https://vimeo.com/248122645
+- **Combining Shape-Changing Interfaces and Spatial AR** — David Lindlbauer (2016): 投影+会变形的实物，让物体看上去能伸出自己本来的边界。 https://www.youtube.com/watch?v=fWREdKL2Kus
+- **Crystal Cloud (Fête des Lumières)** — URBANSCREEN (2016): 在解构主义建筑上表演“水晶”与“云”的对话 https://www.youtube.com/watch?v=82jYUtxbsCQ
+- **Dare to Dream** — Ouchhh (Ferdi Alıcı & Eylül Duranağaç) (2016): 让梦以一张被追踪的光之面具出现在脸上。 https://vimeo.com/160396410
+- **Down the Rabbit Hole** — The Macula (2016): 把立面当成兔子洞：建筑打开，通向另一个世界。 https://vimeo.com/181344271
+- **Dynamic Projection Mapping onto Deforming Non-Rigid Surfaces** — Ishikawa Watanabe Laboratory (University of Tokyo) (2016): 布料怎么揉捏折叠，投影的图案就怎么跟着变形，像印上去一样。 https://www.youtube.com/watch?v=-bh1MHuA5jU
+- **Hypercard in the World** — Dynamicland — Bret Victor & collaborators (2016): 把一张张纸卡变成程序，让整个房间成为可以一起编程的电脑。 https://www.youtube.com/watch?v=uI7J3II59lc
+- **Light Capsule 004 — Astoria, Oregon** — Craig Winslow (2016): 用光暂时修复城市被遗忘的历史图层。 https://vimeo.com/173006252
+- **Light Capsule 013 — Detroit x Miss Van** — Craig Winslow (2016): 给壁画加上时间维度：颜料只能定格的东西，光可以让它动起来。 https://vimeo.com/186274660
+- **Light Capsules — London Design Festival** — Craig Winslow (2016): 一条城市幽灵招牌之旅，每一块都只亮一个晚上。 https://vimeo.com/183522909
+- **Living Library** — Theo Watson, Emily Gobeille (2016): 巨大的实体书，翻页和触摸会让纸上的插画动起来。 https://vimeo.com/203193098
+- **Luminoscope** — Harshini J. Karunaratne (2016): 废旧物加投影再加手势传感器，就成了会回应人的雕塑。 https://vimeo.com/178385157
+- **Multi-player Pong on Globe4D** — Rick Companje (2016): 把经典平面游戏包到球面上，让玩家围着它站。 https://vimeo.com/170910332
+- **Parsing our Silent Language** — Kat Sullivan (2016): 把肢体语言中未说出口的信号，变成看得见的字幕。 https://vimeo.com/165629185
+- **Remote Memories (with Laurent Delforge / Before Tigers)** — Yannick Jacquet (Legoman) (2016): 把记忆碎片拼成一幅需要慢慢看的全景投影画 https://www.youtube.com/watch?v=v23ZJmWdmo4
+- **Room2Room** — Microsoft Research — Hrvoje Benko & Andy Wilson (2016): 把远方的人按真人大小投影到你家沙发上，不用戴任何设备。 https://www.youtube.com/watch?v=2o6krhxpUGk
+- **Unifield | Projection on Lasercut Sculpture** — Can Büyükberber (2016): 在激光切割雕塑上做投影映射，像一个四维物体在其中穿行。 https://www.youtube.com/watch?v=H8jOvMXsZgc
+- **connected colors** — Nobumichi Asai (2016): 花鸟纹样在追踪的面孔上实时绽放 https://www.youtube.com/watch?v=nMvFwC3bo_E
+- **t-shirt mapping** — Nicola Buttari (PROFORMA Videodesign) (2016): 当投影跟着身体走，衣服就成了屏幕。 https://vimeo.com/179772378
+- **Blueprint** — Joanie Lemercier (AntiVJ) (2015): 光在蓝图线稿上建构与解构 https://www.youtube.com/watch?v=OozmLRPL1zQ
+- **DynaFlash** — Ishikawa Watanabe Laboratory (University of Tokyo) (2015): 千帧投影仪让图像紧紧贴在你手中挥动的纸上。 https://www.youtube.com/watch?v=L8kjdObjZpY
+- **Future Ruins** — Romain Tardy (2015): 用光和结构想象未来的人如何看待今天的建筑废墟 https://vimeo.com/151385179
+- **Globe4D** — Rick Companje (2015): 触摸并拨动一个发光的地球，在空间和时间中穿行。 https://www.youtube.com/watch?v=WUL-u_Cx6uM
+- **Projecting West** — Craig Winslow (2015): 一场公路旅行，每一站都获得一个属于它自己的光之故事。 https://vimeo.com/138903302
+- **Reflection Study (interactive edition)** — Zach Lieberman (2015): 在灯箱上摆动亚克力块，软件模拟光线在实物间反射，生成图形与字体。 https://vimeo.com/159142972
+- **SIM/NEBULA** — The Macula, Can Büyükberber (2015): 给音乐厅内部做投影，让建筑与乐团同台演出。 https://vimeo.com/138894725
+- **Tactum** — Madeline Gannon, Golan Levin (2015): 在自己的手臂上用手势“捏”出一件可3D打印的饰品。 https://www.youtube.com/watch?v=tOVommpNzPA
+- **Unfold 01 | Projection on Print** — Can Büyükberber (2015): 投影精确叠在印刷画上，让平面图像像生物一样折叠、呼吸。 https://www.youtube.com/watch?v=pfeEgUcj0Ds
+- **FUJI** — Joanie Lemercier (AntiVJ) (2014): 投影在富士山素描上营造光影与天气 https://www.youtube.com/watch?v=gVuWcyXHMoI
+- **Mano-a-Mano (Dyadic Projected SAR)** — Microsoft Research — Hrvoje Benko & Andy Wilson (2014): 两个人面对面，都能在投影出的立体空间里看到对的透视，互相扔火球。 https://www.youtube.com/watch?v=Df7fZAYVAIE
+- **OMOTE** — Nobumichi Asai (2014): 把人脸变成实时追踪的投影画布，数字妆容随表情移动 https://www.youtube.com/watch?v=18y9RsYNLYw
+- **Parade** — Dpt. (2014): 推一下灯，影子就开始跳舞。 https://vimeo.com/96615251
+- **Queen Victoria** — Krzysztof Wodiczko (2014): 一座殖民时代的纪念像，变成周围社区居民的扩音器。 https://www.youtube.com/watch?v=oRmT13QlY78
+- **RoomAlive** — Microsoft Research — Hrvoje Benko & Andy Wilson (2014): 整个客厅每一面墙、每件家具都成了游戏场，怪物从沙发里爬出来。 https://www.youtube.com/watch?v=GYkRRbP7m8s
+- **RoomAlive: The Other Resident** — Microsoft Research — Hrvoje Benko & Andy Wilson (2014): 用房间级投影在自家客厅里上演一出闹鬼剧。 https://www.youtube.com/watch?v=NXxVXQYlSXc
+- **SOLANUM (Augmented Sculpture)** — URBANSCREEN (2014): 实体层叠雕塑和贴合的虚拟外衣融为一体 https://www.youtube.com/watch?v=ZSQ3N8FKyb8
+- **iMapp Bucharest 555** — The Macula (2014): 在建筑尺度上，一个错觉就能让成千上万人觉得脚下的地面在动。 https://www.youtube.com/watch?v=tcq2gG1qxwc
+- **26th Floor (Augmented Sculpture)** — URBANSCREEN (2013): 雕塑与投影一起设计，白色形体被光赋予流动的皮肤 https://www.youtube.com/watch?v=4BUhNy1iUhc
+- **IllumiRoom** — Microsoft Research — Hrvoje Benko & Andy Wilson (2013): 游戏画面冲出电视，雪花飘落在客厅墙上，爆炸时整个房间都在抖。 https://www.youtube.com/watch?v=L2w-XqW7bF4
+- **Interactive Video Mapping on Canvas** — Benjamin Kuperberg (2013): 只有有人在看时才会出现的照片。 https://www.youtube.com/watch?v=EsDzHx_JTcc
+- **Kinetic projection mapping** — Dpt. (2013): 紧紧贴在运动物体上的投影映射。 https://vimeo.com/83618926
+- **Memory of Form and Matter** — Chris Sugrue (2013): 给3D打印雕塑投上模拟动画，让静止的实物像活物一样“呼吸”。 https://vimeo.com/163678148
+- **Multitouch Wood Bar with NecTouch** — Benjamin Kuperberg (2013): 任何一件家具都能变成触摸屏。 https://www.youtube.com/watch?v=T_Vm18xWYKM
+- **The Ark (with Squeaky Lobster)** — Romain Tardy (2013): 把投影打在真实的仙人掌林上，让植物成为发光的档案 https://vimeo.com/70131252
+- **Abraham Lincoln: War Veteran Projection** — Krzysztof Wodiczko (2012): 让普通人借用纪念碑的身体，讲出它从未讲过的故事。 https://www.youtube.com/watch?v=81nxZhbqv-Y
+- **Archifon** — INITI (Dan Gregor) (2012): 用手指（激光笔）点一点，就能把建筑当乐器来演奏。 https://vimeo.com/37920250
+- **Assembly** — Kimchi and Chips (2012): 5500块悬挂的方块被投影“涂上”像素，数字形体住进真实空间。 https://vimeo.com/42707293
+- **Augmented Reality Sandbox** — Oliver Kreylos (2012): 用手堆沙子，投影实时画出等高线；伸手就能'下雨'，水顺着沙丘流下。 https://www.youtube.com/watch?v=j9JXtTj0mzE
+- **Beamatron** — Microsoft Research — Hrvoje Benko & Andy Wilson (2012): 会转头的投影机器人，让虚拟遥控车在真实房间的家具上开来开去。 https://www.youtube.com/watch?v=L9yccRm3Zu8
+- **LightGuide** — Rajinder Sodhi, Microsoft Research — Hrvoje Benko & Andy Wilson (2012): 把动作提示直接投影在你的手上，手跟着光走。 https://www.youtube.com/watch?v=vNaw9GpuVLQ
+- **Lighting the Sails (Sydney Opera House)** — URBANSCREEN (2012): 让悉尼歌剧院的“帆”在投影中被拆解、重建并呼吸 https://www.youtube.com/watch?v=snT8psrPxmA
+- **MirageTable** — Microsoft Research — Hrvoje Benko & Andy Wilson (2012): 弯曲桌面+立体投影，徒手抓取虚拟物体，并与远方的人'隔桌相对'。 https://www.youtube.com/watch?v=ll2K4tPD47E
+- **O (Omicron) (with Thomas Vaquié)** — Romain Tardy (2012): 用投影揭示一座百年混凝土穹顶的结构之美 https://vimeo.com/41486619
+- **Sagrada Familia - Ode à la Vie** — Moment Factory (2012): 让圣家堂石墙生长、涌流、开花的投影秀 https://www.youtube.com/watch?v=RS-OTtIsBKY
+- **Super Mario Brush** — Cyril Diagne (2012): 一张纸上的画变成可以玩的游戏关卡。 https://vimeo.com/46281850
+- **re-flex (Z33)** — Pablo Valbuena (2012): 光线揭示并扭曲房间几何的装置 https://www.youtube.com/watch?v=ixrj2kFhGik
+- **Augmented Dance Floor (ADF')** — Beam'Art (Benjamin Petit & Antoine Vanel) (2011): 跳舞的人群在面前的建筑上看见自己化作的光。 https://vimeo.com/26668124
+- **Chase No Face / BELL** — Zach Lieberman (2011): 音乐录影带里所有脸上的图形都是实时投影上去的，没有后期。 https://vimeo.com/26649425
+- **Dancing House** — Klaus Obermaier (2011): 你一动，整栋老建筑就跟着你扭动起舞 https://www.youtube.com/watch?v=su3Zrpck4P8
+- **Eyjafjallajökull** — Joanie Lemercier (AntiVJ) (2011): 投影让手绘线稿山体仿佛火山喷发 https://www.youtube.com/watch?v=hmV1rTUlJ2s
+- **Lit Tree** — Kimchi and Chips (2011): 把一棵真树的叶子当作三维像素投影，人的手势在树里“亮”起来。 https://vimeo.com/24049819
+- **Luminous Flux** — The Macula, INITI (Dan Gregor) (2011): 一座城市用光改写石头，来为一栋建筑庆生。 https://vimeo.com/26827092
+- **Mécaniques Discursives (with Fred Penelle)** — Yannick Jacquet (Legoman) (2011): 用投影让墙上的版画机器真的转动起来 https://www.youtube.com/watch?v=3URvRzYkSGo
+- **Para-Site (Mattress Factory)** — Pablo Valbuena (2011): 寄生在建筑角落上的光线投影 https://www.youtube.com/watch?v=h4XQAOH7liE
+- **Sony PlayStation Realtime Projection Mapping** — Marshmallow Laser Feast, Memo Akten (2011): 能追踪移动物体的投影映射，把普通房间变成电影片场。 https://vimeo.com/34021153
+- **Crossings** — OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser) (2010): 让人物把建筑破碎的几何形体当作地形来行走。 https://vimeo.com/15550692
+- **Face projection test** — Zach Lieberman, Daito Manabe / Rhizomatiks (2010): 把图形直接投影到会动的人脸上，脸成为实时屏幕。 https://www.youtube.com/watch?v=o-Ke6mu-F-c
+- **Night Lights** — Zach Lieberman (2010): 把整栋渡轮大楼变成身体的放大镜：人的剪影和手势被投影放大到五层楼高。 https://vimeo.com/8525186
+- **Perspective Lyrique** — 1024 Architecture (François Wunschel & Pier Schneider) (2010): 给建筑一张脸，让人群的声音控制它的表情。 https://vimeo.com/18888136
+- **TETRA.TENNIS** — 1024 Architecture (François Wunschel & Pier Schneider) (2010): 运动场本身就是现成的画布，场地线可以活过来。 https://vimeo.com/19163299
+- **The 600 Years** — The Macula (2010): 假装把一座建筑拆开，让它亲口讲述自己的一生。 https://vimeo.com/15749093
+- **555 KUBIK** — URBANSCREEN (2009): 假如一栋房子在做梦——让方正建筑看起来在弯曲、折叠 https://www.youtube.com/watch?v=H8qcml3smAA
+- **AntiVJ - SONGDO** — Joanie Lemercier (AntiVJ) (2009): 在韩国新松岛城建筑上的视听投影 https://www.youtube.com/watch?v=8tQpubnD0LQ
+- **Chase** — Karolina Sobecka (2009): 让投影角色在街景中追逐行驶的汽车 https://vimeo.com/6400072
+- **Déshérence (AntiVJ)** — Romain Tardy (2009): 让建筑立面在投影中剥落、崩塌再重组 https://vimeo.com/12622615
+- **Filmmuseum augmented sand sculpture** — Theo Watson, Emily Gobeille (2009): 用投影在沙雕上逐步“揭幕”未来的电影博物馆大楼。 https://vimeo.com/6521600
+- **AntiVJ - Grote Kerk** — Joanie Lemercier (AntiVJ) (2008): 在大教堂内部进行的现场投影表演 https://www.youtube.com/watch?v=OksyXOMTnG4
+- **Augmented Space (The Hague City Hall)** — Pablo Valbuena (2008): 沿着建筑自身结构线投影，让市政厅立面'活'过来 https://www.youtube.com/watch?v=eGzBayXZOJw
+- **Generative Graffiti** — Theo Watson (2008): 从酒店亮着灯的窗户里生长出粒子涂鸦，再投回建筑立面。 https://vimeo.com/463526242
+- **Augmented Sculpture v1.2** — Pablo Valbuena (2007): 用精确投影让静止的白色体块产生时空变形 https://www.youtube.com/watch?v=5nzhV0x3_qM
+- **L.A.S.E.R. Tag** — Theo Watson (2007): 用激光笔在整栋楼上“喷涂鸦”，摄像头追踪光点、投影仪实时画出巨大笔迹。 https://www.youtube.com/watch?v=LtZq2q43Jkc
+- **AntiVJ - projection on building** — Joanie Lemercier (AntiVJ) (2006): 早期把实时视觉投到建筑上并与其结构互动的实验 https://www.youtube.com/watch?v=L64-nqZsgjo
+- **Wildlife** — Karolina Sobecka (2006): 从行驶的汽车上把老虎投在街边建筑上，让它跟着车一起奔跑 https://vimeo.com/6400445
+- **Pedestrian** — OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser) (2002): 一座住满行人的微缩城市，出现在你脚下的路面里。 https://vimeo.com/186079084
+- **Hirshhorn Museum, Washington, D.C.** — Krzysztof Wodiczko (1988): 把身体投到建筑上，让建筑对周围的权力发声。 https://www.youtube.com/watch?v=XYih-aS6JK8
+
+### 天空：烟火与无人机
+
+用烟火、烟雾、气球和无人机群在天空中作画。
+
+- **Composition for a drone** — Mária Júdová (2014): 把一架会飞的机器人变成乐器，乐谱就是空间。 https://vimeo.com/96177923
+- **Meet Your Creator** — Marshmallow Laser Feast, Memo Akten (2012): 让会飞的机器人成为移动的光像素，在剧场空中作画。 https://www.youtube.com/watch?v=JLAKXJG1trU
+
+### 透视与错觉
+
+变形绘画、镜面和只有从某个视点才成立的视觉把戏。
+
+- **Reality Rifts** — Christian Holz (2023): 去掉原因、保留结果，人们会自己想象出其余部分。 https://www.youtube.com/watch?v=68oIgasJ0hs
+- **Voronoi Depth** — Roelof Knol (2023): 在地板上伪造出深度，再让真实物体去扰动它。 https://x.com/CurieuxExplorer/status/1716746012939931835
+- **Depth lines on paper** — Roelof Knol (2022): 一张普通卡片变成通往桌子内部的入口。 https://x.com/CurieuxExplorer/status/1544719441790992385
+- **Real-time perspective bounce detection** — Roelof Knol (2022): 一次弹跳就足以让平坦的桌面显得有纵深。 https://x.com/Rainmaker1973/status/1531553569995952129
+- **Holo Cat: Perspective Expression by Head Tracking** — Takashi Yoshinaga (2021): 用头部追踪让平面屏幕上的猫咪看起来立体。 https://www.youtube.com/watch?v=9kvIlsb8HQE
+- **Hello, Shadow!** — Joon Moon (Joon Y. Moon / 문준용) (2019): 手里的灯变成一个镜头，照出物体本不会投下的影子。 https://www.youtube.com/watch?v=RbwEf1QGA8U
+- **Changing the Appearance of Real-World Objects by Modifying Their Surroundings** — David Lindlbauer (2017): 不动物体本身，只改它周围的光，物体看起来就变了颜色。 https://www.youtube.com/watch?v=2gez_joXaiE
+- **Mixed Reality room (RnD tests)** — THÉORIZ (David-Alexandre Chanel, Jonathan Richer & team) (2017): 头部追踪投影把空墙变成通向虚拟空间的窗户，不需要头显。 https://www.youtube.com/watch?v=NrO5WYG5QIw
+- **Portal** — Kuflex (Igor Tatarnikov & Denis Perevalov) (2017): 走进万花筒，自己成为其中的图案。 https://vimeo.com/246672516
+- **Dynamic VR Display** — Daito Manabe / Rhizomatiks (2016): 跟踪观看者头部位置实时重绘画面，让平面屏幕与实物融成立体空间。 https://www.youtube.com/watch?v=G7ZQ4KiX1JE
+- **HoloFire (57fire)** — Ruofei Du (2014): 用手真实的热量点燃一团虚拟火焰。 https://www.youtube.com/watch?v=4cvCBN_ARlY
+- **Box** — Bot & Dolly (2013): 机械臂移动画布与摄像机，投影与运动精确同步的现场魔术 https://www.youtube.com/watch?v=lX6JcybgDFo
+- **DAYDREAM** — NONOTAK (Noemi Schipfer & Takami Nakamoto) (2013): 两层投影线条就足以让坚实的房间变得像液体一样。 https://www.youtube.com/watch?v=JZQmg-jP9CQ
+- **TESSERACT (HyperCube)** — 1024 Architecture (François Wunschel & Pier Schneider) (2013): 用真实的三维框架，让第四维度仿佛可见。 https://vimeo.com/79702430
+- **eMotion × Leap Motion – Pepper's ghost test** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2013): 不戴任何头显，双手就能塑造悬在半空中的光。 https://vimeo.com/71216887
+- **Snowflake Sculpture, Time Square Seoul** — Moritz Waldemeyer (2011): 一座变形透视雕塑，只奖励找到正确位置的那个人。 https://www.youtube.com/watch?v=dxBVrMfJtuM
+- **Base 8** — Chris Sugrue (2008): 手伸进玻璃反射出的空中世界，几何结构从指缝间长出来。 https://vimeo.com/30834797
+
+### 时间与运动的痕迹
+
+让看不见的路径显形：飞行、运动、光绘，把时间变成形状。
+
+- **Illuminate** — Chelsi Alise Cocking (2023): 如果我们能看见自己的动作，会是什么样？ https://vimeo.com/850306904
+- **Field of View** — Freya Björg Olafson (2022): 你的动作把自己画成一串故障轨迹。 https://vimeo.com/721137520
+- **SWIM: Sequential Wave Imprinting Machine** — Steve Mann (2017): “现象级”增强现实：让真实的物理现象（而不是图形）在它存在的地方直接显现。 https://www.youtube.com/watch?v=wKfwufI2hrQ
+- **Dancing with the Kinect** — Kat Sullivan (2016): 你的剪影在墙上留下彩色的回声。 https://vimeo.com/157173015
+- **Empreintes** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2015): 把一个手势“印”在空气里，让它变得可以触摸。 https://vimeo.com/152416235
+- **Quality Visualizing Tool (Kat Sullivan & Sergio Mora-Diaz, CCL 2015)** — Motion Bank / Choreographic Coding Lab (2015): 让看不见的动作质感变得可见，每一种质感对应一条视觉规则。 https://vimeo.com/138653312
+- **BLINK OF AN EYE** — Schnelle Bunte Bilder (with kling klang klong) (2014): 看见刚刚过去的你在身边移动。 https://vimeo.com/101410848
+- **Lunar Trails** — Seb Lee-Delisle (2012): 你在屏幕游戏里的飞行路径被实体地画在墙上。 https://vimeo.com/54043239
+- **Ballet Rotoscope** — Masahiko Sato + EUPHRATES (2011): 在身体之上画出轨迹，揭示舞蹈中隐藏的几何。 https://www.youtube.com/watch?v=yzJk6ww3LD0
+- **Drawing with the Body** — visiophone (Rodrigo Carvalho) (2011): 身体的每个关节都是一支在空中作画的笔。 https://vimeo.com/19142510
+- **Loops** — OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser) (2011): 用一个人的动作而不是外貌来为他画像。 https://vimeo.com/25509279
+- **Traces** — James Alliban (2011): Kinect把观众的动作变成光的轨迹 https://www.youtube.com/watch?v=0KvCqF-dS2U
+- **After Ghostcatching** — OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser) (2010): 舞者被捕捉的动作变成手绘的幽灵，挣脱画框逃逸。 https://vimeo.com/26407428
+- **Time remap – Anamorphose temporelle** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2009): 把时间变成空间里的一条轴，运动中的身体就成了自己刚刚过去的雕塑。 https://vimeo.com/7878518
+- **Cybrid Landscape** — Chris O'Shea (2008): 真实建筑中的脚步，磨蚀着一片虚拟地形。 https://vimeo.com/1330818
+- **Traces** — Chris O'Shea (2008): 人的动作在投影中留下像长曝光车灯一样的光轨。 https://vimeo.com/1821234
+- **Abundance** — Camille Utterback (2007): 广场上行人的路径被实时画成巨大的建筑投影 https://www.youtube.com/watch?v=xgRFUsVVb84
+- **Untitled 5 (External Measures series)** — Camille Utterback (2004): 人的停留与移动在墙上留下会生长的绘画笔触 https://www.youtube.com/watch?v=zOydp3DXWrk
+- **Liquid Time Series** — Camille Utterback (2002): 你离屏幕越近，那一块画面就越退回到过去 https://www.youtube.com/watch?v=qSHmx45AF_k
+
+### 会回应的装置
+
+感知到人、并用光、声音或运动回应的实体装置。
+
+- **A Moving Sanctuary** — Random Studio (2026): 一个和你一起呼吸的房间。 https://vimeo.com/1196639577
+- **The Mora Constellation** — Moritz Waldemeyer (2026): 一片会像烛火一样“察觉”你存在的光场。 https://www.youtube.com/watch?v=N9BuisYqWZM
+- **1D ARCADE** — 1024 Architecture (François Wunschel & Pier Schneider) (2025): 把一整个电子游戏压缩进一条光线里。 https://vimeo.com/1098205588
+- **Anatomy of Embodied Ecologies** — Camille Dunlop (2025): 你的动作成为一片活的数字泥滩里的自然力量。 https://vimeo.com/1085797818
+- **Buoyancé** — Ken Nakagaki (2025): 机器人拉着氦气球升降，在空中形成可交互的立体显示。 https://www.youtube.com/watch?v=v9mNKIILt_s
+- **Huk, the Jaguaress** — Violeta Ayala (2025): 一部会看着你、评判你并回答你的电影。 https://www.youtube.com/watch?v=4cDaYOr3QBM
+- **Shape n' Swarm** — Ken Nakagaki (2025): 用手比划加一句话，机器人群就排出并动起你想要的形状。 https://www.youtube.com/watch?v=5u0M9yL7tyY
+- **Chameleon** — Universal Everything (Matt Pyke) (2024): 街头会模仿你的数字变色龙生物 https://www.youtube.com/watch?v=EkGLZ_Ck_-w
+- **Floral Resonance** — Christian Brinkmann (2024): 让人与植物之间无声的关系变得可听、可见。 https://x.com/publicartad/status/2005927172448698436
+- **Hi-Tech Garden** — HsienYu Cheng (鄭先喻), AΦE / A+E Lab (Aoi Nakamura & Esteban Lecoq) (2024): 让孩子在触碰植物时“听见”它的回应。 https://vimeo.com/970162531
+- **Hydrogen Wave** — Universal Everything (Matt Pyke) (2024): 用身体推动'氢能'粒子之浪 https://www.youtube.com/watch?v=M2SOCYnWIiU
+- **Immersive Memory (AlUla)** — Torin Blankensmith (2024): 在古城遗址里，观众的身体动作唤起香料之路的记忆影像与空间声音。 https://x.com/blankensmithing/status/1858627004398268491
+- **Prototype: Someone - a random mirror** — Universal Everything (Matt Pyke) (2024): 镜子里照出的永远是'别人' https://www.youtube.com/watch?v=OS3rX7QU468
+- **Talk to the Mushrooms (Mushroom Music)** — Dom Scott (2024): 不用任何屏幕，用会“倾听”的灯光增强真实的林地。 https://www.youtube.com/watch?v=VN7wOe7Wvxw
+- **The Keywords Karaoke** — Fabio Lattanzi Antinori (2024): 唱出你所在街区的搜索记录。 https://vimeo.com/952736898
+- **walking in circles** — Roelof Knol (2024): 你的行走路径会重新编排身边的光之建筑。 https://x.com/genmediaclub/status/1866604059240853525
+- **Amazonia – The Interactive Forest** — Schnelle Bunte Bilder (with kling klang klong) (2023): 走进一面雨林墙，用你的动作揭开它的故事。 https://vimeo.com/813835066
+- **Around 7 Meters is more fun** — HsienYu Cheng (鄭先喻) (2023): 把“画”和“看”拆开在 7 米两端，逼两个陌生人必须交流才能完成一幅画。 https://vimeo.com/865813598
+- **Echoes** — Torin Blankensmith (2023): 你的每个动作，都会召唤出之前某位观众做过的最相似动作。 https://x.com/blankensmithing/status/1737307286572298738
+- **Passaggi // Presenze** — Samuele Albani (2023): 门口和脚步成为一个房间的乐谱。 https://vimeo.com/862699079
+- **Self Absorbed** — Tim Murray-Browne (2023): 用身体而不是鼠标，在 AI 对你人生的“记忆”里航行。 https://www.youtube.com/watch?v=JKg-6fHRT9U
+- **Turning RC Cars into Pets** — Jelle Vermandere (2023): 给遥控车装上'性格'，让它们像宠物一样在地上游走、回应你。 https://www.youtube.com/watch?v=9FBi0qbLiio
+- **distanze** — Samuele Albani (2023): 用两个身体之间的空间演奏音乐。 https://vimeo.com/812529965
+- **the space in between** — Roelof Knol (2023): 让人与墙之间的“空白”成为会回应的主体。 https://www.youtube.com/watch?v=Ypd0NXoVUi0
+- **FACING LIFE [In Doc Tri Nation]** — Klaus Obermaier (2022): 你的脸与动作驱动一个逐渐被社会规训的虚拟孩子 https://www.youtube.com/watch?v=DSdO6zoP1Zc
+- **FLUX** — Ksawery Komputery (Ksawery Kirklewski) (2022): 把身体变成流动的光数据，让承载我们穿越网络的无形信号变得可见。 https://www.youtube.com/watch?v=MKt0uAd9a1w
+- **INNER LIFE** — MAOTIK (Mathieu Le Sourd) (2022): 在一块像活体一样的地面上，走路就是作画和作曲。 https://vimeo.com/1064295716
+- **Motion-Reactive Physarum** — Uncharted Limbo Collective (George Adamopoulos, Eleana Polychronaki, Chris Waters) (2022): 一株会朝着眼前移动的人生长的“活”黏菌。 https://www.youtube.com/watch?v=Ir8NH9M7ZhI
+- **Unlearning Language** — Lauren Lee McCarthy, Kyle McDonald (2022): 被AI持续监测的房间里，人们要发明机器看不懂的新交流方式。 https://vimeo.com/780628671
+- **+Panic** — Schnelle Bunte Bilder (with kling klang klong) (2021): 一群只在你平静时才信任你的鱼。 https://vimeo.com/654523297
+- **Augmented Games** — Moment Factory (2021): 把任何场地变成可以跑跳的投影游戏场 https://www.youtube.com/watch?v=jhLKSY6NB5I
+- **CMY Shadows Mirror** — Daniel Rozin (2021): 用青、品、黄三色影子的叠加画出你的彩色镜像 https://vimeo.com/1198095563
+- **ENTER** — Ksawery Komputery (Ksawery Kirklewski) (2021): 一道把你显示成信号的门，仿佛你正要穿过网络。 https://vimeo.com/606803803
+- **Infinity** — Universal Everything (Matt Pyke) (2021): 观众的出现改变无尽行走的人群 https://vimeo.com/523660693
+- **Life Forces** — Tin & Ed (Tin Nguyen & Edward Cutting) (2021): 在一座活的生态景箱里，你的身体变成花粉、真菌或岩石。 https://vimeo.com/906183149
+- **Realtime interactive football wall** — Roelof Knol (2021): 只要投影仪知道球落在哪里，任何一面墙都能变成可以玩的界面。 https://x.com/Rainmaker1973/status/1535625398670614529
+- **The Multitude** — Collusion, Jamie Gledhill (2021): 你被投影出的身体就是拯救自然之旅的游戏手柄。 https://www.youtube.com/watch?v=NywjgxG6JrM
+- **shemza.digital #5** — Aphra Shemza (2021): 画里的拱门变成真的门，会亮起来欢迎你。 https://www.youtube.com/watch?v=BAdUb-LwuXs
+- **Antivanity Mirror** — Neil Mendoza (2020): 一面拒绝让你照见自己的镜子。 https://vimeo.com/398041909
+- **Connected** — Roelof Knol (2020): 把陌生人之间看不见的连线画在地板上。 https://www.youtube.com/watch?v=ArFcUEoxKfo
+- **Effluve (Faire corps)** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2020): 让观众用身体为一团光注入生命。 https://www.youtube.com/watch?v=HC47brh6tio
+- **Instrument for Dissonance** — Lily Hassioti (2020): 一台自己演奏的机器，节奏会被你的出现打断。 https://www.youtube.com/watch?v=7j4NHuRxjGU
+- **Remnant** — Theo Watson, Emily Gobeille (2020): 伸手聚集物质造一颗星，直到它爆炸成超新星、留下黑洞。 https://vimeo.com/393540065
+- **Evolution of the Garden** — Lily Hassioti (2019): 一座靠触摸叶子来演奏的花园。 https://www.youtube.com/watch?v=V6MjBPvO5gU
+- **FIELD** — Theo Watson, Emily Gobeille (2019): 用身体给虚拟花田授粉，引来蝴蝶，季节随之变化。 https://vimeo.com/322353545
+- **Faire corps** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2019): 一个用身体集体进入、共同改变影像的展览空间 https://www.youtube.com/watch?v=VJmHz4OgnMo
+- **Future You** — Universal Everything (Matt Pyke) (2019): 照见'未来的你'的动捕镜子，越动越奇异 https://vimeo.com/718890921
+- **GLADES** — Nick Hardeman (2019): 你自己的剪影成了生态破坏的来源，信息不再是读到的，而是感受到的。 https://vimeo.com/323247011
+- **Journey of Colour** — Moritz Waldemeyer (2019): 用一片实物样本，遥控整个空间的颜色。 https://www.youtube.com/watch?v=kiTv0UH4rRU
+- **Propagason** — Gamgie (Clément Rignault) (2019): 把你的声音送上太空，看它一路远去。 https://vimeo.com/362786908
+- **The Welcome Chorus** — Yuri Suzuki (2019): 一支由号角组成的公共合唱团，从路人那里学习新歌词。 https://www.youtube.com/watch?v=pB1TBwACzsE
+- **BODY** — Random Studio (2018): 把整个身体当作搜索关键词。 https://vimeo.com/314018273
+- **Friction** — visiophone (Rodrigo Carvalho) (2018): 在双手之间的空气里演奏光与声音。 https://vimeo.com/312071200
+- **L'ombre de la vapeur** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2018): 把一个看不见的过程——酒精蒸发，以及靠它生存的真菌——变成一片可以走进去的风景。 https://vimeo.com/278181935
+- **LUMOS** — Matt DesLauriers (2018): 一座冬日灯塔，感受到你的体温就变暖。 https://vimeo.com/261406016
+- **Laser Duck Hunt** — Seb Lee-Delisle (2018): 屏幕游戏以激光的形式跑到墙上，用原版玩具枪来玩。 https://vimeo.com/263303651
+- **Lightning Catchers** — Seb Lee-Delisle (2018): 用一根真实的发光棒去接虚拟的闪电。 https://vimeo.com/264245459
+- **Nebula** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2018): 你的存在就是改变地貌的风。 https://vimeo.com/318206534
+- **Strange Stranger** — Alexander Whitley Dance Company (2018): 你离开后，你的“数据影子”仍留在房间里。 https://vimeo.com/354179753
+- **Close Encounters** — visiophone (Rodrigo Carvalho) (2017): 走近一件街头设施，就开启一场与外星人的对话。 https://vimeo.com/319699135
+- **Eyemote** — Kuflex (Igor Tatarnikov & Denis Perevalov) (2017): 看一眼就能打开东西。 https://vimeo.com/245804445
+- **FANTASTIC VOYAGE** — Schnelle Bunte Bilder (with kling klang klong) (2017): 把光照进一个物体，它就活了过来。 https://vimeo.com/207717295
+- **Learning to See** — Memo Akten (2017): 手摆弄桌上的布和电线，AI实时把它们“看成”海浪、火焰或星云。 https://vimeo.com/260612034
+- **Post-Truth and Beauty** — Tim Murray-Browne, Aphra Shemza (2017): 真相只能被部分看见，取决于你的头在哪里。 https://www.youtube.com/watch?v=tVVIV_sNlaA
+- **Real Life Arcade Game** — Michael Flückiger (2017): 一个游戏角色是真人的电子游戏：真人按你的按键去行动。 https://vimeo.com/199587998
+- **SUN** — Random Studio (2017): 拍一拍球，就能让太阳移动。 https://vimeo.com/212766197
+- **Studio Play** — Theo Watson, Emily Gobeille (2017): 在美术馆里用身体动作去“揭开”和放大馆藏作品。 https://vimeo.com/203162198
+- **Symbiosis** — Kuflex (Igor Tatarnikov & Denis Perevalov) (2017): 你的身体成了一只投影生物的躯干。 https://vimeo.com/226068670
+- **Control No Control** — Iregular (Daniel Iregui) (2016): 让观众体会自己对一个“活”表面的控制有多少、又有多少是失控的。 https://vimeo.com/1171876250
+- **Demonz (INITI Playground)** — INITI (Dan Gregor) (2016): 把任何平面变成一块巨大的触摸屏，玩真实的投球游戏。 https://vimeo.com/166247151
+- **Graffiti Nature** — teamLab (2016): 画出的动物进入会被踩、会捕食的投影生态 https://www.youtube.com/watch?v=OomhbW3bffs
+- **Hag-Seed interactive** — Zach Lieberman (2016): 把小说文字变成可以用身体玩的投影场景。 https://vimeo.com/222236331
+- **I am Sound** — Tamiko Thiel (2016): 你的脸变成乐谱，由显示它的那块“屏幕”演奏出来。 https://www.youtube.com/watch?v=d66v3GFFEtU
+- **Laser Light Synths** — Seb Lee-Delisle (2016): 谁都能演奏，每个音符都化成充满空间的光。 https://vimeo.com/314844029
+- **MotionComposer** — Palindrome (Robert Wechsler) (2016): 只要乐器能“听见”一个人拥有的任何动作，人人都是舞者和音乐家。 https://www.youtube.com/watch?v=4aDj7Ma_HkE
+- **Portals for Mortals** — Jamie Gledhill (2016): 一起穿过四个门洞，才能奏出完整的号角曲。 https://vimeo.com/180005726
+- **Wilderness Wiggle** — Chris O'Shea (2016): 阿拉斯加医院里的体感荒野游戏墙，动作让动物与风景回应孩子。 https://vimeo.com/271539058
+- **Δ∞ [Infinite Delta]** — visiophone (Rodrigo Carvalho) (2016): 一面会围绕附近的人改变形状的建筑表面。 https://vimeo.com/176050475
+- **ANIMA iki** — onformative (Cedric Kiefer & Julia Laub) (2015): 一个像害羞生物一样行事的发光球。 https://vimeo.com/128767230
+- **CHOREO** — Harshini J. Karunaratne (2015): 像玩游戏角色一样“玩”一位录下来的舞者。 https://vimeo.com/191660123
+- **Composition X** — Aphra Shemza (2015): 观众仅靠自己站的位置，就能一起调出雕塑的颜色。 https://www.youtube.com/watch?v=hmh0cZxwpNw
+- **Connected Worlds** — Theo Watson, Emily Gobeille (2015): 整个大厅就是一个生态系统：孩子搬动实物木头引水、用手播种，影响六个栖息地。 https://vimeo.com/131585517
+- **EGO (with Stefano D'Alessio & Martina Menegon)** — Klaus Obermaier (2015): 镜像被你的动作扭曲成抽象形体，却依然像“你自己” https://www.youtube.com/watch?v=KzDifurF9wQ
+- **Elements** — Theo Watson, Emily Gobeille (2015): 每个人化身一种元素，用身体塑造投影世界。 https://vimeo.com/197332386
+- **Entangled** — Camille Utterback (2015): 半透明幕两侧的人互相“缠绕”对方留下的影像痕迹 https://www.youtube.com/watch?v=cmKSwen2GAw
+- **Klanglichter** — Onat Hekimoglu & Tobias Kreter (2015): 触摸光子：让光束同时成为乐器和摇杆。 https://vimeo.com/128600307
+- **Level of Confidence** — Rafael Lozano-Hemmer (2015): 用人脸识别在每位观众脸上寻找43位失踪学生，把监控技术变成纪念 https://vimeo.com/953969845
+- **Penguins Mirror** — Daniel Rozin (2015): 450只玩具企鹅转身，黑背白肚拼出你的剪影 https://www.youtube.com/watch?v=QlrnjjfLkTI
+- **Pixel Waves** — Miguel Chevalier (2015): 在像素组成的光之海浪中行走，浪花会随你而动 https://vimeo.com/1208277695
+- **Play Table** — Jamie Gledhill (2015): 一张桌子，陌生人从四面八方一起摆弄同一批投影出来的物体。 https://vimeo.com/142236663
+- **Story of Light (Star Stomp)** — Gene Kogan (2015): 在地上跺脚，同时产生声音和光。 https://vimeo.com/120653546
+- **Where things start from** — Tim Murray-Browne (2015): 用声音奖励静止和缓慢，而不是快速的手势。 https://www.youtube.com/watch?v=mhtq0pi2iYI
+- **Zoom Pavilion (with Krzysztof Wodiczko)** — Rafael Lozano-Hemmer (2015): 监控摄像头自动放大你与陌生人的关系，并投满整个房间 https://www.youtube.com/watch?v=ENWBRsvn7qA
+- **Dhalsim: Real-Time Body Transformation** — Keita Higuchi (2014): 还是你自己的实时身体，只是手臂能伸过整个房间。 https://www.youtube.com/watch?v=g2bg_vBVW1w
+- **Electricus** — Jamie Gledhill (2014): 你的动作让屏幕上的自己充满电流。 https://vimeo.com/87755772
+- **If The Walls Had Eyes** — Luxloop (2014): 网络上注视我们的数字眼睛，变成墙上真实的眼睛。 https://vimeo.com/113986453
+- **Luminescence** — Jamie Gledhill (2014): 能量线把每个走进画面的人连接在一起。 https://vimeo.com/93631167
+- **MOMENTUM (Schnelle Bunte Bilder & kling klang klong)** — Motion Bank / Choreographic Coding Lab (2014): 你的身体变成一只液态生物，它的运动同时就是配乐。 https://vimeo.com/112193826
+- **Magic Carpets** — Miguel Chevalier (2014): 让古建筑地面变成一块会随脚步变化的魔毯 https://www.youtube.com/watch?v=LvNhZrWVByM
+- **Noisy Skeleton** — THÉORIZ (David-Alexandre Chanel, Jonathan Richer & team) (2014): 身体与机器之间的一场对话，机器用声音和空间来“聆听”。 https://vimeo.com/103438556
+- **Portée/** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2014): 把乐谱展开到空间里，让人用手触碰线条来演奏。 https://vimeo.com/118226187
+- **STEPSEQUENCER** — Schnelle Bunte Bilder (with kling klang klong) (2014): 你的舞步谱出了节拍。 https://vimeo.com/101091090
+- **SWARM** — Mark Coniglio / Troika Ranch (with Dawn Stoppiello) (2014): 观众就是舞团，只有集体行动才能推动作品前进。 https://vimeo.com/86373749
+- **Silhouettes** — Gene Kogan (2014): 用你的影子给墙上色。 https://vimeo.com/113887700
+- **Sketch Town** — teamLab (2014): 手绘的车与房子进入共享的投影城市 https://www.youtube.com/watch?v=kQ_17zapssI
+- **TRANSFORM** — MIT Tangible Media Group — Hiroshi Ishii (2014): 一张会像海浪一样起伏、能自己搬运物品的'活'桌子。 https://vimeo.com/98880732
+- **1000 Hands** — Universal Everything (Matt Pyke) (2013): 上千名观众的手绘被生长成立体形态，汇入共同的投影风景 https://www.youtube.com/watch?v=yECE20Cq0mE
+- **Cave of Sounds** — Tim Murray-Browne (2013): 一圈奇特的乐器，不用说明就能把陌生人变成乐队。 https://vimeo.com/76453883
+- **Conduct The Orchestra** — Random Studio (2013): 谁都可以当一回伟大乐团的指挥。 https://vimeo.com/67575564
+- **D.I.G.I.T.** — Teehan+Lax Labs (2013): 一面由计算器数字组成的镜子。 https://vimeo.com/79332227
+- **Galets Magiques** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2013): 摇一摇真实的石头，下面藏着的动物就会出来。 https://vimeo.com/64186902
+- **Garden of Russolo** — Yuri Suzuki (2013): 对着箱子说话，听自己的声音变成噪音音乐。 https://vimeo.com/75251985
+- **Interactive particles @ La Bifurk** — Benjamin Kuperberg (2013): 把跳舞的身体变成飘散的沙。 https://www.youtube.com/watch?v=9N--dSXwP9c
+- **Kinect / Leap controlled realtime creature** — onformative (Cedric Kiefer & Julia Laub) (2013): 徒手操纵一只生物。 https://vimeo.com/71086950
+- **Laser Forest** — Marshmallow Laser Feast (2013): 一件可以走进去的乐器，每一次触碰都变成空间中的声音和光。 https://www.youtube.com/watch?v=gDZqJ4RPVYc
+- **PLAYGROUND** — Red Paper Heart (2013): 走进音乐里，看房间回应每一个声音。 https://vimeo.com/61893280
+- **Réflexions** — Dpt. (2013): 一面会听你说话、却故意把你照错的镜子。 https://vimeo.com/83617391
+- **Sharing Faces** — Kyle McDonald (2013): 跨国“镜子”：你看到的是另一国家某个人以相同表情和姿势的脸。 https://vimeo.com/96549043
+- **Sketch Aquarium** — teamLab (2013): 孩子画的鱼被扫描进投影水族馆里游动 https://www.youtube.com/watch?v=AnAqB7LZUb8
+- **Strike A Pose (Gallery One)** — Local Projects (2013): 用自己的身体去模仿雕塑，从而理解它。 https://vimeo.com/60866008
+- **Woodland Wiggle** — Chris O'Shea (2013): 医院里整面墙的互动童话森林，孩子用身体画画、奏乐、召唤天气。 https://vimeo.com/59349284
+- **Appel d'Air** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2012): 小小的一口气，换来一阵大风的回应。 https://vimeo.com/74689338
+- **Augmented Silhouette** — Beam'Art (Benjamin Petit & Antoine Vanel) (2012): 你的剪影变成一个会抛洒粒子的光体。 https://vimeo.com/39887510
+- **Botanicus Interacticus** — Ivan Poupyrev (2012): 抚摸一株真植物，它会发出声音和光影。 https://www.youtube.com/watch?v=17QOyr2d5-I
+- **Drawn Together** — OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser) (2012): 和一台机器一起画一段二重奏，它在你的纸上方用 3D 线条回应你。 https://vimeo.com/37623623
+- **Future Self (with Wayne McGregor)** — Random International (Hannes Koch & Florian Ortkrass) (2012): 用LED杆阵组成会映出你动作的“光之分身” https://www.youtube.com/watch?v=Jqn1cMY8oGM
+- **I Spy** — Neil Mendoza (2012): 我们的电子设备终于反过来盯着我们看。 https://vimeo.com/55122295
+- **It's You** — Karolina Sobecka (2012): 投影人群挡住了秘密，只有你凑近时他们才让开给你看 https://vimeo.com/35266165
+- **Loup-garou** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2012): 站到月亮前面，你就变成狼人。 https://vimeo.com/119942169
+- **NikeFuel Station** — onformative (Cedric Kiefer & Julia Laub) (2012): 你的身体被重建为一团发光的像素。 https://vimeo.com/44338220
+- **PixelPyros** — Seb Lee-Delisle (2012): 在哪里挥手，哪里就升起一枚烟花；整场烟花由人群编排。 https://vimeo.com/61174060
+- **Rain Room** — Random International (Hannes Koch & Florian Ortkrass) (2012): 在一场只为你停下的雨中行走 https://www.youtube.com/watch?v=FslABAyj2OA
+- **Sirènes Sylvestres** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2012): 你一走近就亮起来的灯，把你引入黑暗。 https://vimeo.com/74054426
+- **Starfield** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2012): 游乐场的秋千变成了一艘宇宙飞船。 https://vimeo.com/36892768
+- **Stop-iT** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2012): 一面贴满便利贴的墙就是一台音序器。 https://vimeo.com/37536157
+- **The Treachery of Sanctuary** — Chris Milk (2012): 你的影子在三块屏幕上经历“解体—被吞噬—长出翅膀飞翔” https://www.youtube.com/watch?v=I5__9hq-yas
+- **Dancing With Swarming Particles** — visiophone (Rodrigo Carvalho) (2011): 你的身体像磁铁，把一群粒子聚成你的形状。 https://vimeo.com/21052774
+- **Eyeshine** — Golan Levin, Kyle McDonald (2011): 捕捉观众眼睛的“红眼”反光，让人看到自己像夜行动物一样发光的眼睛。 https://vimeo.com/29356492
+- **Flow** — Frieder Weiss (2011): 地面像水一样，记住每一步。 https://vimeo.com/41397711
+- **Inside - Out** — Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis) (2011): 把一个空间里的人实时投进另一个空间，形成互相观看的回路 https://vimeo.com/30795891
+- **Night Bright** — Theo Watson, Emily Gobeille (2011): 用身体当手电筒照亮夜晚森林，循声寻找藏着的动物。 https://vimeo.com/29193895
+- **Puppet Parade** — Theo Watson, Emily Gobeille (2011): 用手臂操纵巨型投影木偶，其他孩子走进画面去喂它们。 https://vimeo.com/34824490
+- **XYZT, Abstract Landscapes** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2011): 用触摸、吹气、行走去改变由字母和粒子组成的风景 https://www.youtube.com/watch?v=N7q9k9Z3HIk
+- **Augmented Shadow** — Joon Moon (Joon Y. Moon / 문준용) (2010): 伪造真实物体的影子，让一个隐藏的故事住在影子里。 https://www.youtube.com/watch?v=0arZMuPK58w
+- **DUNE** — Studio Roosegaarde (Daan Roosegaarde) (2010): 用类似自然的光来增强一条公共道路，让它能“察觉”到经过的人。 https://www.youtube.com/watch?v=nf-q5zs8HgE
+- **Feedback (with Todd Vanderlin)** — Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis) (2010): 把人的动作不断回授成层层叠叠的视觉回声 https://vimeo.com/19598568
+- **Fragments of RGB** — onformative (Cedric Kiefer & Julia Laub) (2010): 你一靠近，屏幕就碎成像素。 https://vimeo.com/21235126
+- **Moc** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2010): 你的气息让一棵树长出来。 https://vimeo.com/11989814
+- **Sandbox (Relational Architecture 17)** — Rafael Lozano-Hemmer (2010): 你在小沙盒里伸出的手，被放大投射成覆盖整个海滩的巨手 https://www.youtube.com/watch?v=GotOBu_14fc
+- **ShadowFighter** — Peter Uithoven (2010): 你的影子和对手的影子打一架。 https://vimeo.com/12486954
+- **White Heat** — Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis) (2010): 一群由规则驱动的光之生物，会围着观众和书本聚散演化 https://vimeo.com/15633768
+- **Beacon** — Chris O'Shea (2009): 一片会注意到你、并转头看你的灯。 https://vimeo.com/1025054392
+- **Decrypted Reflections** — Chris Sugrue (2009): 移动一组镜子，把投影的生成图形拆散、反射到空间各处。 https://vimeo.com/7652087
+- **Interzone** — visiophone (Rodrigo Carvalho) (2009): 把每天路过的走廊变成一个会“注意到你”的区域。 https://vimeo.com/9827907
+- **Sniff (with James George)** — Karolina Sobecka (2009): 橱窗里的虚拟小狗会跟着路人走，并判断你对它是友好还是凶 https://vimeo.com/6400266
+- **Terrarium** — Theo Watson, Emily Gobeille (2009): 对着装置说话，声音变成养活虚拟生态的食物。 https://vimeo.com/5269088
+- **You Fade to Light** — Random International (Hannes Koch & Florian Ortkrass) (2009): 把你的镜像变成慢慢褪去的光 https://www.youtube.com/watch?v=aIVKVoFYvZ8
+- **Audience** — Random International (Hannes Koch & Florian Ortkrass), Chris O'Shea (2008): 一群镜子像观众一样同时转头盯着你看 https://www.youtube.com/watch?v=JuKi35j3Dwk
+- **Body Paint** — Memo Akten (2008): 身体就是画笔：在投影墙前舞动，颜料随动作飞溅流淌。 https://vimeo.com/3576457
+- **Drawing from Life** — Camille Utterback (2008): 把你的实时镜像写成由DNA四个字母组成的人像 https://www.youtube.com/watch?v=E4AJY959514
+- **Fractal Flowers** — Miguel Chevalier (2008): 一片会因你靠近而弯曲、绽放的分形花园 https://vimeo.com/796298809
+- **Mirrors Mirror** — Daniel Rozin (2008): 用无数小镜子反射房间的明暗，拼出你的样子 https://www.youtube.com/watch?v=oKum2u7oLwc
+- **Central Mosaic** — Scott Snibbe (2007): 每个路人的影子先占据中心，再被新来者推向边缘，成为分形马赛克 https://www.youtube.com/watch?v=ZdgX4PUyfvw
+- **Delicate Boundaries** — Chris Sugrue (2007): 光做的小虫从屏幕里爬出来，爬到触碰它的人手上。 https://vimeo.com/1007230
+- **Funky Forest** — Theo Watson, Emily Gobeille (2007): 孩子用身体种树、用实物“木头”改变投影河流的方向来灌溉森林。 https://vimeo.com/3872687
+- **Ghost Pole Propagator** — Golan Levin (2007): 把人的剪影提炼成骨架般的线条投影在墙上。 https://vimeo.com/222999706
+- **Interstitial Fragment Processor** — Golan Levin (2007): 把人与人影子之间的空隙变成会掉落、弹跳、发声的实体。 https://vimeo.com/86071976
+- **Out of Bounds** — Chris O'Shea (2007): 拿着“X光手电筒”照墙，就能看到墙后面隐藏的空间。 https://vimeo.com/1333176
+- **Peg Mirror** — Daniel Rozin (2007): 木钉旋转斜切面，用阴影拼出人像 https://www.youtube.com/watch?v=dghosA-zI6k
+- **Weave Mirror** — Daniel Rozin (2007): 像编织一样把你的影像“织”出来 https://www.youtube.com/watch?v=ushJnQfjbF0
+- **Close-Up (ShadowBox 2)** — Rafael Lozano-Hemmer (2006): 你的影子里装满了之前看过这件作品的人的监控视频 https://www.youtube.com/watch?v=gGbCF2oPayM
+- **Eye Contact (ShadowBox 1)** — Rafael Lozano-Hemmer (2006): 你一出现，屏幕里的上百个人同时醒来盯着你 https://www.youtube.com/watch?v=SzIwx-oX3U8
+- **Footfalls** — Golan Levin, Zach Lieberman (2006): 跺脚越用力，天上掉下的虚拟物体越多，还能用影子接住扔回去。 https://vimeo.com/227566535
+- **Third Person (ShadowBox 4)** — Rafael Lozano-Hemmer (2006): 用词典里所有的动词拼出你的影子肖像 https://www.youtube.com/watch?v=w-EWZ1r1Yos
+- **Daisies** — Theo Watson (2005): 花会在你脚下枯萎，离开后又重新长回来。 https://vimeo.com/463536634
+- **Make Like a Tree** — Scott Snibbe (2005): 你的影子变成森林里的幽灵，在树之间游荡远去 https://www.youtube.com/watch?v=CPFF3-di2PU
+- **Messa di Voce (installation)** — Golan Levin, Zach Lieberman (2005): 说话和唱歌的声音从嘴里“长出”可见的图形，并能用身体推动。 https://vimeo.com/221802940
+- **Scrapple** — Golan Levin (2005): 桌上随手摆的物件就是乐谱，实时演奏并被投影标注。 https://vimeo.com/227633208
+- **Shadow Bag** — Scott Snibbe (2005): 影子不再听话：有时跟随你，有时离开你独自行动 https://www.youtube.com/watch?v=ybt4DJ7ptpQ
+- **Subtitled Public** — Rafael Lozano-Hemmer (2005): 每个人身上被投上一个动词标签，只有触碰别人才能把它传出去 https://vimeo.com/1089123902
+- **Under Scan (Relational Architecture 11)** — Rafael Lozano-Hemmer (2005): 走在广场上，你的影子里会出现一个陌生人抬头看你 https://www.youtube.com/watch?v=Bfn14sLJmyU
+- **Visceral Cinema: Chien** — Scott Snibbe (2005): 观众的影子走进超现实主义电影，替代主角演出 https://www.youtube.com/watch?v=xgxkUH6PrIE
+- **Cause and Effect** — Scott Snibbe (2004): 你的动作被录下来，与前人的影子互相推挤，形成跨时间的因果链 https://www.youtube.com/watch?v=Db5i2Nz1jHk
+- **Compliant** — Scott Snibbe (2003): 让屏幕像橡皮膜一样被人的影子推开、挤扁 https://www.youtube.com/watch?v=PSdvN7c25mI
+- **Frequency and Volume (Relational Architecture 9)** — Rafael Lozano-Hemmer (2003): 用影子在墙上“调台”，收听城市里看不见的电波 https://www.youtube.com/watch?v=hWd8uv8U4tc
+- **Schlamp** — Frieder Weiss (2003): 让路人在投影表面上用身体作画。 https://www.youtube.com/watch?v=2BKTlqt4GFA
+- **Deep Walls** — Scott Snibbe (2002): 把路过的人影录下来，放进墙上的“影子橱柜”永远循环播放 https://www.youtube.com/watch?v=X7h9ckxlxtc
+- **Shadow (Screen Series)** — Scott Snibbe (2002): 你离开了，你的影子却留下来重复你刚才的动作 https://www.youtube.com/watch?v=pdxYv-_70-s
+- **Trash Mirror** — Daniel Rozin (2002): 用街头垃圾碎片做成会映照你的镜子 https://www.youtube.com/watch?v=R0dLo3HB4P8
+- **Body Movies (Relational Architecture 6)** — Rafael Lozano-Hemmer (2001): 你的巨大影子才是看见陌生人肖像的“窗口” https://www.youtube.com/watch?v=g-CNxFiXZDY
+- **Unconscious Flow** — Naoko Tosa (1999): 呈现两人之间隐藏的情感关系。 https://www.youtube.com/watch?v=eF4DsTolxJM
+- **Wooden Mirror** — Daniel Rozin (1999): 用会转动的木片拼出你的实时镜像 https://www.youtube.com/watch?v=1ZPJ0U_kpNg
+- **Boundary Functions** — Scott Snibbe (1998): 把看不见的“个人空间”用地面上的沃罗诺伊线画出来，人越多空间越小 https://www.youtube.com/watch?v=5wA3lKcDrlM
+- **Neuro-Baby** — Naoko Tosa (1993): 一个回应你“感受”而非你“说了什么”的虚拟生命。 https://www.youtube.com/watch?v=etEIbMZ6uUY
+- **CRITTER (VIDEOPLACE)** — Myron Krueger (1984): 一只能“读懂”你身体形状的虚拟宠物。 https://www.youtube.com/watch?v=VdrujesfIBQ
+- **VIDEOPLACE** — Myron Krueger (1975): 摄像头里的剪影就是你在计算机世界里的身体，不需要任何穿戴设备。 https://www.youtube.com/watch?v=d4DUIeXSEpk
+
+### 舞台与表演
+
+数字影像与表演者同台的舞蹈、剧场和演出。
+
+- **Inner Room (dance)** — Zhou Zhou (2026): 舞者的身体成为整个房间的天气。 https://www.youtube.com/watch?v=oZopGxgotVo
+- **Mirror** — Alexander Whitley Dance Company (2026): 一面起初忠实、后来慢慢说谎的 AI 镜子。 https://www.youtube.com/watch?v=zjHSgImXydw
+- **La Tournoyante x Gamgie** — Gamgie (Clément Rignault) (2025): 投影粒子像现场搭档一样与杂技演员共舞。 https://www.youtube.com/watch?v=XBd41JohXq8
+- **The Last Swan** — Alexander Whitley Dance Company (2025): 古典芭蕾变成观众可以走进去、继续“跳下去”的投影空间。 https://vimeo.com/1219574400
+- **The Placeholders** — Julie C. Stamm (2025): 让摄像头、数据集和舞者在台上一起即兴“发明”意义。 https://vimeo.com/1118720620
+- **nino** — Gibson/Martelli (Ruth Gibson & Bruno Martelli) (2025): 无需动捕服的动作捕捉，让每位观众都成为梦幻化身的操偶师。 https://vimeo.com/1081511795
+- **Between Information and Noise** — Jorge Guevara (2024): 让观众坐在舞蹈之中，同时看到身体和它在虚拟空间中的痕迹。 https://www.youtube.com/watch?v=QfJdhuRkY_s
+- **Encyclies** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2024): 影像作为第二件乐器，和钢琴家一起演奏。 https://vimeo.com/1057582668
+- **Monolith** — Uncharted Limbo Collective (George Adamopoulos, Eleana Polychronaki, Chris Waters) (2024): 舞者的身体搅动虚拟流体，就像在水中起舞。 https://www.youtube.com/watch?v=Hdep8X88SWA
+- **WOW+FLUTTER** — Gibson/Martelli (Ruth Gibson & Bruno Martelli) (2024): 两座城市的舞者共用一群非人类化身的身体。 https://vimeo.com/1018110955
+- **Waterhall Mocap Performance** — Holosphere (2024): 舞者的四肢在身后留下悬在空中的彩色轨迹。 https://www.youtube.com/watch?v=_p_85sK5is4
+- **Becoming Performance in VR** — Jorge Guevara (2023): 追问：戴头显的观众需要什么，才能感受到一个只以数据形式存在的舞者。 https://www.youtube.com/watch?v=aKd1FepHuiQ
+- **Homme Plissé Issey Miyake show, Palais de Tokyo** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2023): 秀场空间本身像衣服一样起褶。 https://vimeo.com/793397205
+- **Piano piano** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2023): 看得见的音乐：钢琴音符和被抛起的球变成空间里的笔触。 https://vimeo.com/893723919
+- **REfract** — Zelia ZZ Tan (2023): 舞者与她的化身共用一个身体，争论谁来领舞。 https://www.youtube.com/watch?v=PsYzQYleWsk
+- **Thermal Improvisations** — Lily Hassioti (2023): 用只有热成像摄像头才看得见的体温，来演奏这个房间。 https://www.youtube.com/watch?v=A5ROdOCii0Y
+- **Virtual Stage x Holosphere** — Birmingham Royal Ballet (Virtual Stage) (2023): 芭蕾舞者用身体实时“绘制”一面 35 米长的墙。 https://www.youtube.com/watch?v=I0y7QCaBFm4
+- **Choreographic Coding Lab at A+E Lab (CCL-14)** — Motion Bank / Choreographic Coding Lab, AΦE / A+E Lab (Aoi Nakamura & Esteban Lecoq) (2022): 为期一周的实验室形式，让代码与编舞思维相遇，舞者当天就在舞台上测试原型。 https://vimeo.com/759923547
+- **DISCORDANCE** — Clémence Debaig (Unwired Dance Theatre) (2022): 两座城市，一个虚拟舞台，三种观众。 https://www.youtube.com/watch?v=p_1sgQmuf-4
+- **Embodied Machine** — Instituto Stocos (Muriel Romero, Pablo Palacio & Daniel Bisig) (2022): 把舞台灯变成延伸舞者动作的肢体。 https://www.youtube.com/watch?v=ntp-rhbwV9c
+- **Just your shadow** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2022): 舞者和一个不太听话的影子共舞。 https://www.youtube.com/watch?v=iWfpUCYw3Kg
+- **PRE-FIGURES** — Uncharted Limbo Collective (George Adamopoulos, Eleana Polychronaki, Chris Waters), Alexander Whitley Dance Company (2022): 档案影像里的舞者走出老胶片，和活着的舞者同台共舞。 https://www.youtube.com/watch?v=i_Zr_9x_1zk
+- **Pattern Regression** — Alexander Whitley Dance Company, Memo Akten (2022): 人与灯光机器在展厅里进行一场动态对话。 https://vimeo.com/778138186
+- **Playscape: How to Build a Galaxy** — Katie Dale-Everett Dance (KDE Dance) (2022): 舞动的身体一点点搭建出一个星系，孩子们看着它长大。 https://www.youtube.com/watch?v=bhecnzfh3D4
+- **Sensing Adjacency** — Zelia ZZ Tan (2022): 为身体与它不完美的数字分身之间的缝隙编舞。 https://www.youtube.com/watch?v=drXmMBy0a_o
+- **Anti-Body** — Alexander Whitley Dance Company (2021): 实时动作捕捉让舞者本身成为演出的灯光和布景。 https://www.youtube.com/watch?v=IZpirMOBwLg
+- **Engendered Otherness (Ai Transmutations)** — Kianí del Valle (2021): 一位真人舞者带领一群 AI 生成的生物，它们只在她舞动时存在。 https://www.youtube.com/watch?v=hXiDYN1IFfY
+- **Piano&Dancer** — Instituto Stocos (Muriel Romero, Pablo Palacio & Daniel Bisig) (2021): 舞者隔着空间，只用身体弹钢琴。 https://www.youtube.com/watch?v=_3gEitmSdis
+- **Anti-Gone** — Theo Triantafyllidis (2020): 动捕表演者实时驱动虚拟生物的沼泽剧场 https://www.youtube.com/watch?v=qMvq9pYd2PI
+- **Deep Dancing** — Irini Kalaitzidi (2020): 不只是看见，还能听见一个人怎样移动。 https://vimeo.com/783283941
+- **Kat & Cassie Make A Ballet** — Kat Sullivan (2020): 一位舞者被实时捕捉，就能变成一整个群舞团。 https://www.youtube.com/watch?v=cSspDP7H5tg
+- **Research lab with Daniell Alnuma** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2020): 旋转的身体成了一片线条的引力中心。 https://vimeo.com/479608301
+- **S . P . A . C . E .** — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2020): 把舞者的身体信息拆解重组，生成身体本身做不到的几何世界 https://www.youtube.com/watch?v=bY0lMfl1rpI
+- **Acqua Alta – Noir d'encre** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2019): 手绘的墨水世界会涨潮、流动、长出头发，和演员对话。 https://www.youtube.com/watch?v=FOF1xKHe7e0
+- **BLINK** — Marion Tränkle / NOW (2019): 我们从不留意的眨眼，成了一场表演的总谱。 https://www.youtube.com/watch?v=vEc037P5tiI
+- **Bounce (elasticity test)** — Marion Tränkle / NOW (2019): 测量一个身体如何弹跳，让整个房间随之弹跳。 https://www.youtube.com/watch?v=uiQmSlH7bEo
+- **MÆ – Motion Aftereffect** — Freya Björg Olafson (2019): 把头显里的身体和房间里的身体之间的落差搬上舞台。 https://vimeo.com/428830273
+- **Équinoxe** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2019): 把一场现场音乐会变成穿越光之空间的旅程。 https://vimeo.com/343654541
+- **Camouflage** — Mária Júdová (2018): 让真人舞者与头显使用者玩捉迷藏，并在两个世界里同时观看。 https://vimeo.com/285149672
+- **Everywhen** — Mária Júdová (2018): 把历史的重演搬上舞台，表现为一个被困在循环影像里的身体。 https://vimeo.com/259204752
+- **Lightflow (performance)** — visiophone (Rodrigo Carvalho) (2018): 一片土地的水流变成舞者可以演奏的灯光乐器。 https://vimeo.com/312068065
+- **Live VR Painting at the Louvre** — Anna Zhilyaeva (Anna Dream Brush) (2018): 走进一幅名画，把它重建成一个空间。 https://www.youtube.com/watch?v=Zs3n07Clw7A
+- **See Me Now?** — Marion Tränkle / NOW (2018): 在一座为监视而建的建筑里，用光来翻转谁在看谁。 https://vimeo.com/308889681
+- **SpinWall** — Benjamin Kuperberg (2018): 让表演者手中的道具和身后的墙变成同一场灯光秀。 https://www.youtube.com/watch?v=dUlzz_6AU3s
+- **discrete figures (with Kyle McDonald)** — Daito Manabe / Rhizomatiks (2018): 机器学习生成的虚拟舞者与真人同台 https://www.youtube.com/watch?v=hauXQQhwbgM
+- **Dürer's Dog (Ballett Nürnberg)** — Frieder Weiss (2017): 画家的蚀刻版画活了过来，变成随舞者而动的舞台。 https://www.youtube.com/watch?v=wopUITjQCVo
+- **phosphere** — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2017): 舞者手腕上的标记点控制24台投影仪，把手势变成空间里的光之几何 https://www.youtube.com/watch?v=W7X6UqXm9eY
+- **CPA [Consistent Partial Attention]** — Freya Björg Olafson (2016): 通过屏幕传达的舞谱，其中一块就挂在舞者眼前。 https://vimeo.com/179255945
+- **24 drones** — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2015): 24架发光无人机组成会跳舞的光点星座 https://www.youtube.com/watch?v=cYWvKudIIJ8
+- **Butterfly under Glass** — Frieder Weiss (2015): 舞者像标本一样被“钉”在会反应的活影像里。 https://www.youtube.com/watch?v=GiSOWS9XQmM
+- **Dancing Light / D.O.PE.** — Klaus Obermaier (2015): 让投影光本身成为与舞者对舞的伙伴 https://www.youtube.com/watch?v=KXoN8zNc6sg
+- **Le mouvement de l'air** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2015): 把看不见的空气流动变成围绕舞者的可见影像 https://www.youtube.com/watch?v=xsskbGYq7lc
+- **Pattern Recognition** — Alexander Whitley Dance Company, Memo Akten (2015): 灯光装置会观察、会学习，变成舞伴。 https://vimeo.com/136252155
+- **SHIRO** — NONOTAK (Noemi Schipfer & Takami Nakamoto) (2015): 表演者消失在一个只由投影光构成的房间里。 https://www.youtube.com/watch?v=DcGHcsyuXuE
+- **TORN** — Kat Sullivan (2015): 把舞者拍成一个可以撕开、可以绕着飞的三维体积。 https://vimeo.com/137311875
+- **This Floating World** — Tim Murray-Browne (2015): 舞者“长出”她所在的风景，就像藤蔓被墙塑形。 https://www.youtube.com/watch?v=D1ZEzkMCNsI
+- **shadow (drone with a spotlight)** — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2015): 用无人机携带的聚光灯让影子成为舞蹈的一部分 https://www.youtube.com/watch?v=hX2TneyE41Q
+- **Breakdown** — visiophone (Rodrigo Carvalho) (2014): 在一个物理规则不断改变的世界里表演。 https://vimeo.com/95846156
+- **Heliopolis** — Pablo Ventura (2014): 一座把每位市民的路径都记录成可见痕迹的城市。 https://vimeo.com/109680105
+- **Jeu de modes** — Palindrome (Robert Wechsler) (2014): 把手势的尺度——细小、交谈式或爆发式——映射为不同的聆听方式。 https://vimeo.com/108061408
+- **Pathfinder** — Christian Mio Loclair / Waltz Binaire, Motion Bank / Choreographic Coding Lab (2014): 把常规流程反过来：由图形带领，舞者跟随。 https://www.youtube.com/watch?v=8Uh0aK3ATS8
+- **Pixel (with Mourad Merzouki / Compagnie Käfig)** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2014): 街舞舞者与地面上的“光点像素”一起舞动 https://www.youtube.com/watch?v=z_Hu57QTqqE
+- **Prince Mio improvise to Interactive Sound** — Christian Mio Loclair / Waltz Binaire (2014): 不是舞者跟着音乐跳，而是音乐从舞蹈中流出来。 https://www.youtube.com/watch?v=RtUEML0ncJk
+- **Shiver** — Compagnie Nicole Seiler (2014): 投在你身上的实时分身，开始变得可疑。 https://vimeo.com/92021691
+- **The Measures Taken** — Alexander Whitley Dance Company, Marshmallow Laser Feast (2014): 舞台由机器“看见”舞者的方式绘制出来。 https://vimeo.com/85073837
+- **Visions of America: Amériques** — Refik Anadol (2014): 让指挥家的手势实时“指挥”整座音乐厅的投影 https://www.youtube.com/watch?v=U-9VAPC92Bw
+- **Waltz Binaire — Dance and Interactive Media (Diesel Reboot)** — Christian Mio Loclair / Waltz Binaire (2014): 一台笔记本、一个 Kinect 和一台投影仪，就足以让即兴舞蹈变得可见。 https://www.youtube.com/watch?v=TPDrSMfbaI0
+- **fly (dance with drones)** — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2014): 让无人机成为舞伴，与舞者同步飞行 https://www.youtube.com/watch?v=HQLORg5COiU
+- **Choreophony** — Pablo Ventura (2013): 一段自己写出多声部配乐的编舞。 https://www.youtube.com/watch?v=EtQ31OHI60o
+- **FLOW 1** — Christian Mio Loclair / Waltz Binaire (2013): 让计算机读取街舞舞者私人的律动。 https://www.youtube.com/watch?v=ISKV1BeB3pM
+- **Gravitacional (visiophone, CCL Frankfurt 2013)** — Motion Bank / Choreographic Coding Lab (2013): 把舞者的双手变成引力井，用它们雕塑一团粒子云。 https://vimeo.com/81705600
+- **HYPER_** — Freya Björg Olafson (2013): 让真人身体和立体影像互换位置。 https://vimeo.com/104413592
+- **Hakanaï** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2013): 舞者在纱幕立方体中与实时投影的线条“对话”，像一首短诗 https://www.youtube.com/watch?v=xvJNia3z11I
+- **Nosaj Thing 'Eclipse/Blue' music video** — Daito Manabe / Rhizomatiks (2013): 动作捕捉驱动的投影随舞者身体实时变形 https://www.youtube.com/watch?v=_woNBiIyOKI
+- **Perfume at Cannes Lions** — Daito Manabe / Rhizomatiks (2013): 偶像团体在舞台上推动半透明幕布，实时投影与她们的动作融为一体。 https://www.youtube.com/watch?v=UbLLIhCvTQ8
+- **Projection + Dance** — Gene Kogan (2013): 知道舞者身体在三维空间中位置的投影。 https://vimeo.com/81914893
+- **cube (Sónar Tokyo)** — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2013): 舞者在立方体框架中舞动，动作被实时转成光与图形 https://www.youtube.com/watch?v=zBm3mJiJzh8
+- **Dance Jockey** — visiophone (Rodrigo Carvalho) (2012): 舞者同时是 DJ 和 VJ。 https://vimeo.com/43462444
+- **Nikola Tesla in Sound and Light** — Marco Tempest (2012): 把立体书变成投影映射的舞台，演一场现场魔术故事。 https://vimeo.com/42402467
+- **000000swan** — Phoenix Perry (2011): 教电脑认识你自己的手势，而不是使用它内置的那一套。 https://www.youtube.com/watch?v=dpW0wRkijQY
+- **Coïncidence** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2011): 身体和现场演奏的影像跳双人舞，文字像被抛接的物体一样运动。 https://vimeo.com/35528568
+- **DUMMY lab** — Frieder Weiss (2011): 杂技演员面对一堵光墙，每一次跌落和托举都得到它的回应。 https://www.youtube.com/watch?v=FnbvSRylnPs
+- **Divide By Zero** — Hellicar & Lewis (Pete Hellicar & Joel Gethin Lewis) (2011): 在催眠引导下的舞蹈，把潜意识动作变成可见的界面 https://vimeo.com/19487686
+- **Du, Liebe** — Frieder Weiss (2011): 跟随人而不是建筑的投影映射。 https://www.youtube.com/watch?v=nZojuHerXR4
+- **Interactive Body Projection Mapping (Hypermetrop)** — Beam'Art (Benjamin Petit & Antoine Vanel) (2011): 给正在移动的舞者穿上一件实时投影的光之衣。 https://vimeo.com/34609484
+- **Little Magic Stories** — Chris O'Shea (2011): 孩子在小舞台上表演，自己画的角色和布景被投影实时“变活”。 https://vimeo.com/20196781
+- **MOTIV** — Russ Maschmeyer (2011): 不用学乐器，用身体动作直接控制音乐的情绪。 https://www.youtube.com/watch?v=nKl2Wjto4zI
+- **Make the Line Dance** — 1024 Architecture (François Wunschel & Pier Schneider) (2011): 把投影映射的对象从静止的建筑换成运动的身体。 https://vimeo.com/21308228
+- **Stocos** — Instituto Stocos (Muriel Romero, Pablo Palacio & Daniel Bisig) (2011): 让舞者和一群虚拟生物在同一块地板上互相编舞。 https://www.youtube.com/watch?v=MRTGNMYyGUY
+- **Cinématique** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2010): 让投影里的文字和线条像有重量的物体一样被舞者推动 https://www.youtube.com/watch?v=CknHVdMZ5xg
+- **Ghost Projection for Richard III** — Golan Levin (2010): 舞台上只在“鬼魂”演员身上投影雪花噪点，让他们变成幽灵。 https://vimeo.com/11013624
+- **Intangible States (with Stray Dogs)** — Yannick Jacquet (Legoman) (2010): 把城市漂泊者的梦境投影到一堆箱子搭成的舞台上 https://www.youtube.com/watch?v=cgU7F42vgj4
+- **Kylie Minogue — Get Outta My Way** — Frieder Weiss (2010): 流行编舞直接在会回应的光影布景中实拍，而不是靠后期加特效。 https://www.youtube.com/watch?v=BHGaW8lBlSk
+- **Magic Projection (live at TEDxTokyo)** — Marco Tempest (2010): 投影跟着走，手里的空白板就成了一块活的屏幕。 https://vimeo.com/11801074
+- **Reactive Stage** — visiophone (Rodrigo Carvalho) (2010): 把投影叠在几层透明纱上，让舞者置身于图像之中。 https://vimeo.com/12171899
+- **the concept of ... (here and now)** — Klaus Obermaier (2010): 同时为观众和摄像机两个视角编舞，让身体在画面里拼成不可能的形体 https://www.youtube.com/watch?v=afbQQM6RTe8
+- **AVATAR** — Freya Björg Olafson (2009): 把身体演成一张活过来的网络头像。 https://vimeo.com/6602039
+- **loopdiver** — Mark Coniglio / Troika Ranch (with Dawn Stoppiello) (2009): 人类去表演一段由计算机剪辑出来的作品，连故障一起。 https://vimeo.com/15062917
+- **BOOMBOX** — 1024 Architecture (François Wunschel & Pier Schneider) (2008): 用简单箱体搭成的舞台，变成一件光的乐器。 https://vimeo.com/15734398
+- **Eye Movement** — Palindrome (Robert Wechsler) (2008): 把身体最小、最快的动作——眼睛——变成乐器。 https://www.youtube.com/watch?v=bFnqHgmNPwE
+- **Mortal Engine (Chunky Move)** — Frieder Weiss (2008): 默认一片黑暗，身体只在计算机选择照亮的地方存在。 https://www.youtube.com/watch?v=sbjOMualLVs
+- **16 [R]evolutions** — Mark Coniglio / Troika Ranch (with Dawn Stoppiello) (2006): 每一个动作都留下一道活的 3D 痕迹，成为布景的一部分。 https://www.youtube.com/watch?v=LJ3_AOBX6TM
+- **A Human Conversation** — Palindrome (Robert Wechsler) (2006): 让一场无声的手势对话被听成音乐。 https://www.youtube.com/watch?v=WFgEO5G2jsE
+- **Glow (Chunky Move)** — Frieder Weiss (2006): 像活皮肤一样的光，从身体的轮廓里长出来。 https://www.youtube.com/watch?v=C4He543_a80
+- **Jenseits der Schatten** — Palindrome (Robert Wechsler), Frieder Weiss (2006): 把柏拉图的洞穴真正搬上舞台：观众看到的是身体，以及系统为这些身体生成的影子。 https://www.youtube.com/watch?v=LQAGrlC6xnY
+- **Kubic's Cube** — Pablo Ventura (2006): 机器人成为唯一的舞者，观众像看雕塑一样绕着它走。 https://www.youtube.com/watch?v=xBki9nYeZ9Q
+- **Le Sacre du Printemps (The Rite of Spring)** — Klaus Obermaier (2006): 把舞者实时变成立体3D影像，让观众戴3D眼镜看“被重塑的身体” https://www.youtube.com/watch?v=_6NQf-a5UAc
+- **Pixel Babes** — Compagnie Nicole Seiler (2006): 把媒体中“完美身体”的影像直接贴到真实的身体上。 https://vimeo.com/190371062
+- **Convergence 1.0** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2005): 杂耍艺人和只存在于电脑里的物体一起抛接。 https://vimeo.com/954911
+- **Dolls/Dolls Live** — Compagnie Nicole Seiler (2005): 把投影幻影和真人舞者放进同一个暗室，让观众同时与两者相遇。 https://vimeo.com/190992843
+- **Talking Bodies** — Palindrome (Robert Wechsler), Frieder Weiss (2005): 把运动中的身体当成一个会发声、也会出字的说话者。 https://www.youtube.com/watch?v=4YKeRrsx9BM
+- **Apparition (with Ars Electronica Futurelab)** — Klaus Obermaier (2004): 舞者动作实时生成投影，投在背景和身体上，身体与影像相互牵引 https://www.youtube.com/watch?v=-wVq41Bi2yE
+- **Madame K** — Compagnie Nicole Seiler (2004): 把投影当作化妆：身体想展示的形象与身体本身之间的对峙。 https://vimeo.com/190536002
+- **Surfacing** — Mark Coniglio / Troika Ranch (with Dawn Stoppiello) (2004): 影像被囚禁，身体却自由，你究竟是哪一个？ https://vimeo.com/111712677
+- **Future of Memory** — Mark Coniglio / Troika Ranch (with Dawn Stoppiello) (2003): 把实时影像当作记忆：摄像机留下的东西每次重放都会走样。 https://vimeo.com/112552170
+- **Shadows** — Frieder Weiss (2003): 你的影子不再听你的话。 https://www.youtube.com/watch?v=gm_doxsdqG4
+- **Brother/Sister (Blinde Liebe)** — Palindrome (Robert Wechsler), Frieder Weiss (2002): 让舞者的身体实时演奏歌剧配乐的一部分。 https://www.youtube.com/watch?v=g8aWaOn5eNo
+- **Maibaum (Baila Mi Ritmo)** — Palindrome (Robert Wechsler), Frieder Weiss (2002): 让服装本身成为音乐的一部分，由舞者用动作去演奏它。 https://www.youtube.com/watch?v=_pHoyecfO8k
+- **Vivisector (with Chris Haring)** — Klaus Obermaier (2002): 只用投影光照亮舞者，让身体被光切片、溶解 https://www.youtube.com/watch?v=Q0YEFX6Nk9k
+- **VorOrt** — Palindrome (Robert Wechsler) (2002): 把三种“在场”——录像、屏幕直播、真人现场——缝合成一次连续的行走。 https://www.youtube.com/watch?v=9tFnMzH5UZg
+- **Heisenberg's Uncertainty Principle** — Palindrome (Robert Wechsler), Frieder Weiss (2001): 用透明幕上的投影，让舞者的位置变得“不确定”。 https://www.youtube.com/watch?v=Xgnw39zrkCc
+- **Reine Rien** — Mark Coniglio / Troika Ranch (with Dawn Stoppiello) (2001): 舞动就会下雨，静止就归于寂静。 https://vimeo.com/111764665
+- **ZONE (Kuka robot choreography)** — Pablo Ventura (2001): 把一台工业机器人当作舞者，与人同台编舞。 https://www.youtube.com/watch?v=PD1i6rItAfA
+- **...seine hohle Form...** — Frieder Weiss (2000): 一首只有被跳出来才听得见的音乐。 https://vimeo.com/8895552
+- **D.A.V.E. – digital amplified video engine (with Chris Haring)** — Klaus Obermaier (1998): 把舞者身体本身当成屏幕，投射出不可能的变形 https://www.youtube.com/watch?v=1bhNjYTQFQY
+
+### 沉浸空间与 VR
+
+把你完全包围起来的房间、穹顶和虚拟世界。
+
+- **EchoVision (Ars Electronica Deep Space 8K edition)** — Jiabao Li, Botao 'Amber' Hu (2025): 在巨大的墙面和地面上，把观众的叫声变成蝙蝠的回声定位波 https://www.youtube.com/watch?v=W0TSj-LilLw
+- **Protist Reverie** — Uncharted Limbo Collective (George Adamopoulos, Eleana Polychronaki, Chris Waters) (2025): 一个数字生物栖息在整个穹顶上，随现场音乐呼吸。 https://www.youtube.com/watch?v=zgehFbLJuZ4
+- **The Long Fall: A descent into the Ocean's Living Memory** — Jiabao Li (2025): 随浮游生物一起“下沉”，看见海洋如何记住碳 https://www.youtube.com/watch?v=fe-Xd3gxcsU
+- **En amour** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2024): 一场可以走过的仪式，让一群人把一段爱情故事感受为不断变化的光和声音。 https://vimeo.com/963236356
+- **LILITH.AEON** — AΦE / A+E Lab (Aoi Nakamura & Esteban Lecoq) (2024): 虚拟生命对着人群起舞，每一次到访都成为人与 AI 之间的一段新双人舞。 https://vimeo.com/925210197
+- **Soul Paint** — Sarah Ticho (2024): 把情绪画在它在身体里所在的位置，再看看别人的。 https://www.youtube.com/watch?v=BmYAtoJA9Wk
+- **Graphical Representation of Dance in VR (Motion Bank)** — Jorge Guevara (2023): 一份可以走进去、而不是拿来读的舞谱。 https://www.youtube.com/watch?v=DeNW3NMeh-Q
+- **Inner Room (installation)** — Zhou Zhou (2023): 你的手同时雕塑一个房间和它的声音。 https://www.youtube.com/watch?v=sa7peuzAn6w
+- **Dernière minute** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2022): 一场过渡仪式：你躺着的地面变成了上涨的水。 https://vimeo.com/725276687
+- **PAN+TILT** — Gibson/Martelli (Ruth Gibson & Bruno Martelli) (2022): 用一种身心舞蹈技巧作为虚拟世界的控制器。 https://vimeo.com/758291757
+- **Constellation of the Flesh** — Mária Júdová (2021): 出神状态下的舞蹈能否被数字化，并从内部被感受到？ https://vimeo.com/577351369
+- **KID A MNESIA EXHIBITION** — Stanley Donwood (with Radiohead) (2021): 把专辑变成建筑：每首歌都是一间可以走过的房间。 https://www.youtube.com/watch?v=AOinMjQ9jo8
+- **The Changing Same** — Scatter / Depthkit (James George, Alexander Porter, Yasmin Elayat) (2021): 在同一个地点穿越时间，展示历史如何循环往复。 https://www.youtube.com/watch?v=tugi4v7S32o
+- **DAZZLE: A Re-assembly of Bodies** — Gibson/Martelli (Ruth Gibson & Bruno Martelli) (2020): 一场舞会，包括观众在内的每个人都以实时化身起舞。 https://vimeo.com/868428016
+- **KYKEON** — Mária Júdová (2020): 用 VR 发明一场由舞者动作构成的共享仪式。 https://vimeo.com/493291875
+- **Empa** — Katie Dale-Everett Dance (KDE Dance) (2019): 一起移动时，透过搭档的眼睛看见自己。 https://www.youtube.com/watch?v=TKyzy7ttthU
+- **It Will End in Stars** — Nathalie Djurberg & Hans Berg, Acute Art (2018): 作品会回看你，并对你的存在做出反应。 https://www.youtube.com/watch?v=25laN3xx2GM
+- **The Other Way** — Shengzhi Wu (2018): 用一辆真实的自行车当控制器，让身体感受到旅程。 https://www.youtube.com/watch?v=xcUKUKx6DDo
+- **We Live in an Ocean of Air** — Marshmallow Laser Feast (2018): 在共享空间里把人与树之间的呼吸交换可视化。 https://vimeo.com/303589503
+- **A Colossal Wave** — Marshmallow Laser Feast (2017): 把头显中的画面与真实的物理冲击结合，让整个房间随虚拟事件一起震动。 https://vimeo.com/244047652
+- **DUST** — Mária Júdová (2017): 从舞蹈内部一粒尘埃的视角去体验舞蹈。 https://vimeo.com/210525711
+- **WHIST** — AΦE / A+E Lab (Aoi Nakamura & Esteban Lecoq) (2017): 观众自己的注意力和游走路径，剪辑出一部专属于他的弗洛伊德式舞蹈故事。 https://vimeo.com/799520099
+- **Zero Days VR** — Scatter / Depthkit (James George, Alexander Porter, Yasmin Elayat) (2017): 给一个看不见的事件一个身体、一个你可以站进去的空间。 https://www.youtube.com/watch?v=E_NZEdeh2cA
+- **Dead Mall Chunks** — Claire Hentschker (2016): 用别人拍下的视频，为正在消失的地方建档。 https://www.youtube.com/watch?v=QL7JgrXcJHw
+- **Flock: A Holojam Experience** — Ken Perlin — NYU Future Reality Lab (2016): 一群人在共享空间里一起变成鸟群。 https://www.youtube.com/watch?v=BZXRX-kDj5M
+- **Treehugger: Wawona** — Marshmallow Laser Feast (2016): 一个真实的拥抱，就是进入树内部隐秘生命的接口。 https://www.youtube.com/watch?v=if0wfysmoMU
+- **Flowers and People, Cannot be Controlled but Live Together** — teamLab (2015): 投影花朵因观众的触碰与停留而绽放或凋落 https://www.youtube.com/watch?v=arafX3Es6JQ
+- **Highsight** — Kyle McDonald (2015): 戴上头显，视角来自一根线上的真实摄像头，从模型里一路坠落到人群中。 https://vimeo.com/144061990
+- **Holojam** — Ken Perlin — NYU Future Reality Lab (2015): 一群人戴着无线头显在同一空间里变成卡通化身，一起在空中画画。 https://www.youtube.com/watch?v=kzx5igORwk4
+- **In the Eyes of the Animal** — Marshmallow Laser Feast (2015): 就在你站立的地方，把人类的感官换成动物的感官。 https://vimeo.com/140057053
+- **Infinity Room** — Refik Anadol (2015): 用投影和镜子让一个小房间看起来无限延伸 https://www.youtube.com/watch?v=p9Cj1PdmtMA
+- **MIRROR (M2)** — Schnelle Bunte Bilder (with kling klang klong) (2015): 看着自己溶进自己发出的声音里。 https://vimeo.com/140405048
+- **Quantum Space** — Kuflex (Igor Tatarnikov & Denis Perevalov) (2015): 走进房间，你的身体就分解成一粒粒光。 https://vimeo.com/120944206
+- **VERSUS** — NONOTAK (Noemi Schipfer & Takami Nakamoto) (2015): 整座穹顶变成一个运动中的视错觉。 https://www.youtube.com/watch?v=OrkI6WW2bIo
+- **CLOUDS** — Scatter / Depthkit (James George, Alexander Porter, Yasmin Elayat) (2014): 把人拍成数据，让纪录片本身也能像代码一样被重组和探索。 https://www.youtube.com/watch?v=KefV_ZAsOxo
+- **Leviathan Mixed Reality Props** — USC World Building Media Lab (Alex McDowell, Bradley Newman et al.) (2014): 通过真实的家具触摸虚拟世界。 https://www.youtube.com/watch?v=BLH5VtcN9iE
+- **320° Licht** — URBANSCREEN (2013): 把巨大的储气罐内壁变成不断变化的光之空间 https://www.youtube.com/watch?v=X_31XyGBL7U
+- **SENSESCAPES** — Schnelle Bunte Bilder (with kling klang klong) (2012): 用身体去搅动一个设计时代。 https://vimeo.com/50854847
+- **The Salt Satyagraha Online: Gandhi's March to Dandi** — Joseph DeLappe (2008): 房间里一个真实行走的身体，带着它的化身穿越一个共享的虚拟世界。 https://www.youtube.com/watch?v=34SxiWwOvHw
+- **Point A to B** — OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser) (2007): 把一个虚拟空间拆到两块屏幕上，让屏幕之间的空隙本身成为赛道的一部分。 https://vimeo.com/4377157
+- **dead-in-iraq** — Joseph DeLappe (2006): 把共享的虚拟空间变成一个临时纪念碑，让里面的玩家无法忽视。 https://www.youtube.com/watch?v=ejcZ3TR5YTs
+- **ZENetic Computer** — Naoko Tosa (2004): 一台向你提问、而不是替你回答的计算机。 https://www.youtube.com/watch?v=RYeT75F7ezQ
+- **Hand-drawn Spaces** — OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser) (1998): 被动捕记录、又以手绘呈现的舞者，在屏幕之间穿越整个房间。 https://vimeo.com/32776116
 
 ## 全部创作者与作品
+
+### Keijiro Takahashi
+
+*创意编程者；Unity Technologies Japan 开发者布道师*
+
+Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深度相机和机器学习追踪实验，并将它们用于现场演唱会视觉。
+
+#### Sunburst effects — Keijiro Takahashi (2013)
+- 视频: https://vimeo.com/76949095
+- 源代码: https://github.com/keijiro/unity-sunburst-effects
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, C#, mesh animation
+- 创意点子: 把经典的放射状光芒图形做成实时网格动画。
+- 作品内容: 光束从中心迸发，以不断变化的条纹旋转，像动态的漫画背景效果。
+- 关键技术: C# 脚本逐帧生成并动画化扇形三角网格，改变光束的宽度、长度和旋转。
+- 课堂练习: 用 AR 人脸追踪在真人头部后面挂一个旋转的放射光芒网格；变体：对方笑得越开，光芒转得越快。
+
+#### Turbulent Flow (particle animations) — Keijiro Takahashi (2013)
+- 视频: https://vimeo.com/80264404
+- 源代码: https://github.com/keijiro/unity-particle-animations
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Shuriken particle system
+- 创意点子: 用外力而不是发射器参数来塑造粒子系统。
+- 作品内容: 一系列小练习中，粒子云被湍流、吸引子和反弹力推来推去。
+- 关键技术: 脚本每帧读取 Shuriken 粒子，施加噪声湍流、点吸引子等自定义力，再写回粒子系统。
+- 课堂练习: 在 AR 中放一团粒子，并在手机位置加一个吸引子，让粒子跟着观众走；变体：在另一位同学的手机上再加一个吸引子，让粒子在两人之间“选择”。
+
+#### Undulation — Keijiro Takahashi (2013)
+- 视频: https://vimeo.com/80716975
+- 源代码: https://github.com/keijiro/unity-undulation
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Perlin noise
+- 创意点子: 用场景中的慢动作和镜头的快速运动形成对比。
+- 作品内容: 一片缓慢起伏的物体像波浪一样涨落，快速移动的镜头从中穿过。
+- 关键技术: Perlin 噪声驱动一片网格状物体的高度和旋转，镜头则沿一条快速路径穿过其中。
+- 课堂练习: 在 AR 中用一片随噪声起伏的立方体填满房间，让学生拿着手机从中走过；变体：观众走得越慢，波浪就越平静。
+
+#### Virtual Kinetic Sculpture — Keijiro Takahashi (2013)
+- 视频: https://vimeo.com/80520888
+- 源代码: https://github.com/keijiro/unity-kinetic-sculpture
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, C#
+- 创意点子: 把实体的动态雕塑搬进虚拟空间。
+- 作品内容: 数百个悬挂的元素以交错的波浪上下移动，像博物馆中庭里悬挂的动态雕塑。
+- 关键技术: 每个元素的高度是几条正弦波之和，相位取决于它在网格中的位置，简单的数学就能产生滚动的干涉图案。
+- 课堂练习: 在 AR 中把一组球体组成的虚拟动态雕塑挂在真实的天花板下，用正弦波计算每个球的高度；变体：镜头前举起一只手，就加入一道新的波。
+
+#### Water Surface (isosurface) — Keijiro Takahashi (2013)
+- 视频: https://vimeo.com/82601169
+- 源代码: https://github.com/keijiro/unity-isosurface-test
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, marching cubes
+- 创意点子: 用看不见的场而不是建模的网格来生成液体形状。
+- 作品内容: 一个团状的液体表面不断形成、晃动、分裂，由移动的源点生成等值面。
+- 关键技术: 类似 metaball 的源点叠加成一个标量场，再由 marching cubes 网格生成器逐帧提取等值面。
+- 课堂练习: 在 AR 中用 marching cubes 生成 metaball 液体，让它停在真实桌面上；变体：在追踪到的指尖加一个源点，让用户能从液面里拉出液体。
+
+#### Boids — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/87151096
+- 源代码: https://github.com/keijiro/Boids
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, C#
+- 创意点子: 只要三条局部规则，就能做出栩栩如生的群体运动。
+- 作品内容: 一群简单的形体像一个整体一样移动，追逐一个移动目标时分开又重新聚拢。
+- 关键技术: 经典的 Reynolds boids 算法：每个个体根据与邻居的分离、对齐和聚合，再加上对目标的吸引来转向，每帧用 C# 计算。
+- 课堂练习: 在 AR Foundation 中生成一群纸鸟，让它们跟着手机在房间里移动；变体：把 AR 平面当成障碍物，让鸟群绕开真实的桌子和墙。
+
+#### Cut-out Fx — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/84364022
+- 源代码: https://github.com/keijiro/CutoutFxTest
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, shader
+- 创意点子: 只用着色器实现的溶解效果，可以让任何东西显现或隐去。
+- 作品内容: 物体沿着不断变化的噪声边缘被“吃掉”，从而出现或消失。
+- 关键技术: 透明度裁剪着色器把噪声纹理与一个随时间变化的阈值比较，丢弃低于阈值的片元，让形状出现参差、流动的边界。
+- 课堂练习: 在 AR Foundation 场景中，让虚拟家具在放下时溶解出现、被删除时溶解消失；变体：用手绘纹理代替噪声，让每个学生的物体按自己的笔迹溶解。
+
+#### Depthcue — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/101211958
+- 源代码: https://github.com/keijiro/Depthcue
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, image effect, depth buffer
+- 创意点子: 把深度当作一种有风格的颜色渐变。
+- 作品内容: 物体越远就越融入平涂的颜色，把深度变成一道干净的图形渐变。
+- 关键技术: 图像效果读取深度缓冲，根据每个像素的线性深度把它混向一种渐变色，是一种风格化的深度提示。
+- 课堂练习: 在手机上用 AR 深度纹理（LiDAR 或 ARCore Depth）按距离给真实相机画面着色；变体：反过来，让近处的物体消失，只留下远处的墙。
+
+#### Fragments — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/102452671
+- 源代码: https://github.com/keijiro/Fragments
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Shuriken particle system
+- 创意点子: 好的粒子效果来自有趣的形状，而不只是更多的粒子。
+- 作品内容: 碎片、裂片和残块作为粒子在空中翻滚，展示一套专为粒子特效设计的模型。
+- 关键技术: 一套公有领域的低多边形碎片模型被用作 Unity Shuriken 粒子系统中的网格粒子，光照和旋转让每块碎片都显得有实体感。
+- 课堂练习: 用自定义碎片网格配合 VFX Graph 的网格输出，让 AR 中一扇真实的窗户或镜子看起来碎裂；变体：观众拍手时碎片重新飞回原位。
+
+#### GlitchFx — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/102398104
+- 源代码: https://github.com/keijiro/GlitchFx
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, image effect
+- 创意点子: 把可控的数字损坏当作一种美学。
+- 作品内容: 整个画面碎成色块、颜色错位和撕裂，像一段损坏的数字视频信号。
+- 关键技术: 一个后期着色器用不规则刷新的随机噪声纹理错位屏幕上的方块，并拆分颜色通道；它是 KinoGlitch 的前身。
+- 课堂练习: 只在虚拟物体的轮廓范围内对 AR 相机画面加上方块故障后期效果；变体：手机移动得越快，故障越强。
+
+#### HexBokeh — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/103702704
+- 源代码: https://github.com/keijiro/HexBokeh
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, image effect
+- 创意点子: 把实体镜头光圈的特征带进实时图形。
+- 作品内容: 失焦的高光绽放成六边形，就像真实相机镜头的焦外光斑。
+- 关键技术: 景深图像效果按照 McIntosh 的方法，用三次倾斜的可分离模糊，从深度缓冲中低成本地得到六边形焦外光斑。
+- 课堂练习: 给 AR 场景加上浅景深和自定义形状的焦外光斑，让虚拟物体看起来像用真实镜头拍摄；变体：让学生设计自己的光圈形状，比如星形或心形。
+
+#### Kvant Deformer — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/86002232
+- 源代码: https://github.com/keijiro/Kvant
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, vertex shader
+- 创意点子: 让噪声在 GPU 上持续地雕刻一个表面。
+- 作品内容: 一个光滑的网格在流动的噪声下鼓起、扭转、起伏，这是 Keijiro 的 GPU 特效库 Kvant 的早期测试。
+- 关键技术: 顶点着色器沿法线方向用动画的 3D 噪声推动每个顶点，并重新计算法线，让光照跟随形变。
+- 课堂练习: 在 Shader Graph 里用噪声顶点着色器让放在 AR 桌面上的虚拟团块变形；变体：把噪声强度绑定到麦克风音量，有人说话时团块就会反应。
+
+#### SketchyFx — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/97597887
+- 源代码: https://github.com/keijiro/SketchyFx
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, image effects
+- 创意点子: 只靠叠加标准图像效果，得到手绘的质感。
+- 作品内容: 一个有机器人走动的 3D 场景被渲染得像是用铅笔画在皱纸上。
+- 关键技术: 把 Unity 标准图像效果中的边缘检测、灰度转换以及铅笔和纸张纹理叠加串联起来，组成一个素描滤镜。
+- 课堂练习: 给 AR 相机画面加上铅笔素描滤镜，让真实房间看起来像手绘，而虚拟物体保持全彩；变体：反过来，只让虚拟物体变成素描。
+
+#### SlicerFx — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/102444263
+- 源代码: https://github.com/keijiro/SlicerFx
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, replacement shader
+- 创意点子: 让 3D 场景看起来像正在被逐层扫描。
+- 作品内容: 场景里的每个表面都被切成细细的发光条纹并不断滑动，好像整个世界正被一层层扫描。
+- 关键技术: 替换着色器计算每个片元的世界坐标，根据它落在重复切片间隔中的位置决定丢弃还是点亮，因此在 Unity 免费版中也能运行。
+- 课堂练习: 把切片条纹着色器应用到 AR Foundation 的 LiDAR 场景网格上，让真实房间看起来被一条条扫描；变体：让条纹从用户点击的位置开始扩散。
+
+#### SonarFx — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/102398137
+- 源代码: https://github.com/keijiro/SonarFx
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, replacement shader
+- 创意点子: 用一道不断扩散的光脉冲来揭示一个空间。
+- 作品内容: 一圈圈光环在所有表面上向外扩散，像声呐波揭示出黑暗中的场景。
+- 关键技术: 替换着色器计算每个片元到世界空间原点的距离，叠加移动的发光条带，前沿锐利，尾部渐隐。
+- 课堂练习: 把声呐着色器加到房间的 AR 网格上，让脉冲从手机的位置向外扩散；变体：麦克风每听到一次拍手就触发一道新的脉冲。
+
+#### VJ01: Guitar Songs — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/90006189
+- 源代码: https://github.com/keijiro/VJ01
+- 交互类型: 声音, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, audio analysis
+- 创意点子: 一个会“听”歌曲的生成式视觉系统。
+- 作品内容: 一个用 Unity 做的实验性视觉生成器，随着松浦雅也的吉他音乐驱动抽象形体。
+- 关键技术: Unity 中分析出的音频电平驱动程序化几何体、颜色和镜头运动，很可能用的是 Keijiro 早期版本的 Reaktion 工具包。
+- 课堂练习: 把手机麦克风的频谱接入 AR 场景，让桌面上每个频段对应的物体随之变大、发光；变体：选一首歌，每位学生为其中一种乐器设计一个物体。
+
+#### VJ02 — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/104780871
+- 源代码: https://github.com/keijiro/VJ02
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, Reaktion, MIDI
+- 创意点子: 像演奏乐器一样，用推子现场操控一个 3D 游戏引擎场景。
+- 作品内容: 滚动的抽象几何、球体和不断变换的镜头角度，被 VJ 用 MIDI 控制器现场演奏，作为 Channel #8 夜店活动的视觉。
+- 关键技术: Reaktion 工具包把音频电平和 MIDI CC 推子（KORG nanoKONTROL）映射到 Unity 场景中的滚动速度、物体选择以及镜头的偏航和俯仰。
+- 课堂练习: 在桌面上搭一个小型 AR 舞台，把三个屏幕滑块或 MIDI 推子映射到滚动速度、物体类型和镜头角度；变体：麦克风听到大声音时，自动接管滑块。
+
+#### Water Drops (pseudo refraction) — Keijiro Takahashi (2014)
+- 视频: https://vimeo.com/85640039
+- 源代码: https://github.com/keijiro/UnityRefractionShader
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, shader
+- 创意点子: 用足够便宜的方式假装折射，可以随处使用。
+- 作品内容: 透明的水滴在场景中滚动，折射并反射着身后的环境。
+- 关键技术: 伪折射着色器沿着偏折后的视线方向采样环境立方体贴图，并用菲涅尔项混合反射，只模拟第一次折射。
+- 课堂练习: 在 AR 中把虚拟水滴放到真实桌面上，并用 AR 环境探针作为立方体贴图，让水滴折射真实房间；变体：水滴相碰时融合在一起。
+
+#### KinoIsoline — Keijiro Takahashi (2015)
+- 视频: https://va.media.tumblr.com/tumblr_nva7mmMPqD1qio469.mp4
+- 源代码: https://github.com/keijiro/KinoIsoline
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, image effect, depth buffer
+- 创意点子: 把 3D 场景看成不断移动的等高线。
+- 作品内容: 发光的等高线扫过场景，把它画成一张会动的地形图。
+- 关键技术: 图像效果从深度缓冲重建世界坐标，在该坐标沿指定轴穿过重复间隔的地方画线，并让偏移不断滚动。
+- 课堂练习: 在手机上用 AR 深度图或 LiDAR 网格在真实房间上画出滚动的等高线；变体：让等高线随观众的身高上升，像房间正在被水淹没。
+
+#### Kvant Spray — Keijiro Takahashi (2015)
+- 视频: https://vimeo.com/117040444
+- 源代码: https://github.com/keijiro/KvantSpray
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, GPGPU, instancing
+- 创意点子: 把任何网格都当作粒子，并大量喷射。
+- 作品内容: 成千上万个小物体连续喷射出来，翻滚、消散，形成一股流畅的 GPU 驱动的流。
+- 关键技术: 位置、速度和旋转由片元着色器在浮点渲染纹理中模拟，再由一个预先合并好的大网格的顶点着色器读取，因此只用很少的绘制调用就能画出大量实例。
+- 课堂练习: 用 VFX Graph 的网格输出在 AR 里喷射成千上万个小网格，从用户在识别平面上点击的位置发射；变体：让粒子与 AR 平面碰撞并堆积起来。
+
+#### Kvant Swarm — Keijiro Takahashi (2015)
+- 视频: https://vimeo.com/134624419
+- 源代码: https://github.com/keijiro/KvantSwarm
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, GPGPU, render texture
+- 创意点子: 把每个粒子的路径画成一条线，粒子群就变成了流动的丝线。
+- 作品内容: 成千上万条流动的线在空间中盘旋，像烟的轨迹，又像一束束丝绸。
+- 关键技术: 粒子的位置和历史轨迹由片元着色器在浮点渲染纹理中更新（这是 Unity 普遍使用计算着色器之前的 GPGPU 做法），再沿着噪声场渲染成线条。
+- 课堂练习: 用 VFX Graph 的粒子条带重现这些流动的线，并在 AR Foundation 中锚定在桌子上方；变体：让线条避开手机弯曲，好像观众在对着它们吹气。
+
+#### ManyCubes — Keijiro Takahashi (2015)
+- 视频: https://va.media.tumblr.com/tumblr_nwkrsraePx1qio469.mp4
+- 源代码: https://github.com/keijiro/ManyCubes
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, shader, hash function
+- 创意点子: 只用一个着色器和一个哈希函数就得到丰富的运动。
+- 作品内容: 一大团密集的立方体不断洗牌、旋转、重组，形成循环动画。
+- 关键技术: 立方体簇着色器根据基于 xxHash 的随机值和时间，决定每个立方体的位置和旋转，再加上环境光遮蔽、焦外和调色完成画面。
+- 课堂练习: 在 AR 中用一团小立方体填满真实的书架，每隔几秒重新洗牌；变体：每个立方体上贴一张同学拍的照片。
+
+#### PhotoMosaic — Keijiro Takahashi (2015)
+- 视频: https://va.media.tumblr.com/tumblr_nwf56pAxZd1qio469.mp4
+- 源代码: https://github.com/keijiro/PhotoMosaic
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, image effect
+- 创意点子: 用一本相册来渲染一个场景。
+- 作品内容: 实时的 3D 场景被数百张小照片重新拼出来，每张照片都按它所在格子的颜色挑选。
+- 关键技术: 图像效果采样每个屏幕格子的平均颜色，从由 256x256 照片组成的相册纹理图集中挑出最接近的一张画进格子。
+- 课堂练习: 把 AR 相机画面变成由全班同学自己照片拼成的照片马赛克；变体：只有虚拟物体渲染成马赛克，真实世界保持原样。
+
+#### Spektr Scatter (polygon scatter) — Keijiro Takahashi (2015)
+- 视频: https://va.media.tumblr.com/tumblr_nvmqi6Tmuc1qio469.mp4
+- 源代码: https://github.com/keijiro/SpektrScatter
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, shader
+- 创意点子: 做一个对任何模型都适用、只需一个滑块控制的多边形溶解效果。
+- 作品内容: 一个实体模型分解成四散的多边形，飞出去后消散，然后还能重新聚合。
+- 关键技术: 着色器作用于三角面已被拆开的网格，随着散开程度增大，按照三角形重心和噪声哈希算出的方向和旋转移动每个三角形。
+- 课堂练习: 观众穿过 AR 中的虚拟物体时让它的多边形四散，离开时再重新聚合；变体：让碎片落到真实的地面平面上。
+
+#### Subatomic (geometric mirroring) — Keijiro Takahashi (2015)
+- 视频: https://va.media.tumblr.com/tumblr_nv2ru4onKo1qio469.mp4
+- 源代码: https://github.com/keijiro/SpektrSubatomic
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, mesh renderer
+- 创意点子: 做一个存在于三维空间里的万花筒。
+- 作品内容: 一个网格围绕一点被镜像许多次，形成一个真正的 3D 万花筒，而不是平面的画面效果。
+- 关键技术: 自定义网格渲染器在世界空间中用反射矩阵把源网格绘制多次，因此镜像像网格修改器一样工作，光照也正确（灵感来自电影《蚁人》中的亚原子片段）。
+- 课堂练习: 在 AR 中把一个小虚拟物体围绕锚点镜像八次，让观众绕着一个立体万花筒走动；变体：把 AR 人脸网格也放进去，让观众的脸成为万花筒的一部分。
+
+#### TextAnimation — Keijiro Takahashi (2015)
+- 视频: https://va.media.tumblr.com/tumblr_nxhz6iOsZv1qio469.mp4
+- 源代码: https://github.com/keijiro/TextAnimation
+- 交互类型: 信息与界面, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, shader
+- 创意点子: 完全在着色器里做文字动画。
+- 作品内容: 字母和字形不断组合、散开、闪烁，这是一个由着色器驱动的动态排版原型。
+- 关键技术: 文字动画着色器根据每个字形四边形的序号和时间做偏移和显现，所以大量字母都在 GPU 上动起来，不需要逐字脚本。
+- 课堂练习: 用 TextMeshPro 在 AR 空间中写一句短句，并用着色器为每个字母做动画，观众看向它时文字才组合起来；变体：观众把视线移开时，字母重新散开。
+
+#### VJ04 (Channel #10) — Keijiro Takahashi (2015)
+- 视频: https://www.youtube.com/watch?v=jLmbjudThlA
+- 源代码: https://github.com/keijiro/VJ04
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, Reaktion, MIDI, image-based lighting
+- 创意点子: 用基于物理的渲染，让夜店视觉看起来像动起来的产品摄影。
+- 作品内容: 光亮的 3D 形体和人物随着 Nyolfen 在 Channel #10 的现场演出脉动、变形，作为夜店视觉投影出来。
+- 关键技术: Unity 场景使用 HDR 图像照明（sIBL 素材），由映射到音频输入和 MIDI CC 的 Reaktion 控制器驱动。
+- 课堂练习: 在 AR 中用真实环境探针照亮一个虚拟镀铬物体，让它随手机听到的音乐脉动；变体：每一次鼓点都切换它的材质。
+
+#### VJ05 (Channel #12) — Keijiro Takahashi (2015)
+- 视频: https://x.com/shutamegai/status/619489135749824513
+- 源代码: https://github.com/keijiro/VJ05
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, Reaktion, MIDI
+- 创意点子: 搭建一个可复用的现场视觉系统，把所有动画参数都开放给声音和 MIDI 控制。
+- 作品内容: 为千叶加寿弘在 Channel #12 的现场演出制作的视觉：HDR 照明下的 3D 模型和动画随音乐运动；视频是观众在现场拍摄的。
+- 关键技术: 所有模型和动画都由 Reaktion 控制器（Reaktor 组件）驱动，输入来自音频分析（可选用 Data Racket）和 MIDI CC。
+- 课堂练习: 把 AR 场景的五个参数（大小、颜色、旋转速度、生成速率、镜头抖动）开放给手机麦克风，和搭档一起表演一分钟；变体：搭档用第二部手机通过网络控制这些参数。
+
+#### CloudSkybox — Keijiro Takahashi (2016)
+- 视频: https://www.youtube.com/watch?v=_QC6dXTMMwE
+- 源代码: https://github.com/keijiro/CloudSkybox
+- 交互类型: 传送门与世界替换, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, raymarching, skybox shader
+- 创意点子: 不用任何几何体，把真正的体积云放进天空。
+- 作品内容: 满天柔和的体积云缓缓飘动变化，全部在一个天空盒着色器里绘制。
+- 关键技术: 它扩展了 Unity 的程序化天空盒，在一层动态 3D 噪声密度中做光线步进，并逐步累积光散射。
+- 课堂练习: 在 AR 中给真实天花板开一个传送门，从门里看到体积云天空；变体：让云的密度跟随当地的天气预报变化。
+
+#### Flipbook — Keijiro Takahashi (2016)
+- 视频: https://va.media.tumblr.com/tumblr_pcorcg1yV01qio469.mp4
+- 源代码: https://github.com/keijiro/Flipbook
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, vertex shader
+- 创意点子: 把时间变成一本实体书的书页。
+- 作品内容: 实时 3D 场景被切成一页页，像书一样翻过，每一页都定格了动画的一个瞬间。
+- 关键技术: 画面被截取到一组循环使用的渲染纹理里，顶点着色器让书页网格绕书脊弯曲翻动，速度参数控制翻页。
+- 课堂练习: 把 AR 相机画面录成书页，在一本放在真实桌面上的虚拟书上翻动；变体：用手部追踪，让观众在空中挥手翻页。
+
+#### Holographic ribbons for VRDG+H — Keijiro Takahashi (2016)
+- 视频: https://x.com/_kzr/status/709712057235406848
+- 交互类型: 投影增强, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, Unity, holographic display
+- 创意点子: 用光学'虚像'让 Unity 做的雕像和缎带悬浮在空中随音乐舞动。
+- 作品内容: 在 VRDG+H 演出中，借助全息光学装置，一座雕像和几条缎带以虚像的形式悬浮在半空，随 DUB-Russell 的音乐舞动。
+- 关键技术: Unity 渲染的画面经由全息或佩珀尔幻象类光学元件呈现，使图像被感知为悬浮在空间中的虚像（可能是半透镜或全息屏幕）。
+- 课堂练习: 用一块斜放的透明亚克力和手机屏幕做佩珀尔幻象，让一个 3D 小雕像悬浮；加一个变化：拍手时缎带绕着它旋转。
+
+#### Phantom (Phantom Sketch Mod.) — Keijiro Takahashi (2016)
+- 视频: https://x.com/tokyomax/status/787249881899347976
+- 源代码: https://github.com/keijiro/Phantom
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, multi-display, post-processing
+- 创意点子: 把游戏引擎的后期处理推到电影级的质感，用于现场演出。
+- 作品内容: 2016 年 10 月的 Phantom Sketch Mod. 活动中，为 Merzbow 等艺人投影了厚重、电影感的实时视觉，带有泛光、景深和运动模糊。
+- 关键技术: 利用 Unity 的多显示器功能，在监视器上显示 VJ 控制界面，把干净的画面送到投影仪；SSAO、景深、运动模糊和 Kino 滤镜等高负载图像效果在 GTX 1070 上以 60 fps 运行。
+- 课堂练习: 做一个双设备 AR 演出：一部手机作为泛光、模糊和色彩的控制台，另一部向观众展示 AR 场景；变体：把控制手机交给一位观众。
+
+#### Skinner — Keijiro Takahashi (2016)
+- 视频: https://vimeo.com/197396746
+- 源代码: https://github.com/keijiro/Skinner
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, GPU particles, replacement shader
+- 创意点子: 把运动身体上的每个顶点都当作发射器，让动作本身来“画”出特效。
+- 作品内容: 一个跳舞的角色一边运动，一边从皮肤上甩出成千上万的粒子、发光拖尾和故障风的三角碎片。
+- 关键技术: 用替换着色器把蒙皮网格当前帧和上一帧的顶点位置写进渲染纹理，GPU 上的粒子、拖尾和故障渲染器读取这些纹理来生成并推动各自的元素。
+- 课堂练习: 在 Unity 里导入一个 Mixamo 舞者，用 VFX Graph 采样它的蒙皮网格发射粒子，再用 AR Foundation 把舞者放到手机识别出的地面上；变体：改用 ARKit 人体追踪，让同学自己的身体甩出粒子。
+
+#### Spectrum (Liquidroom 2016) — Keijiro Takahashi (2016)
+- 视频: https://va.media.tumblr.com/tumblr_oj1b8wYz3O1qio469_720.mp4
+- 源代码: https://github.com/keijiro/Spectrum
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, Kino post effects
+- 创意点子: 把一整套画面效果库组合成一件可以现场演奏的派对乐器。
+- 作品内容: 为 2016 年 Liquidroom 跨年派对做的实时 VJ 系统，把 3D 场景和数据损坏、画面反馈、轮廓线、二值化等画面效果叠加在一起。
+- 关键技术: 这个 Unity 项目在动画场景之上叠加 Keijiro 的 Kino 图像效果（Datamosh、Feedback、Contour、Binary 等），并在现场切换。
+- 课堂练习: 在 AR 相机画面上叠加三种画面效果（反馈、数据损坏、轮廓线），在一首歌中用屏幕按钮切换；变体：让歌曲的低音强度自动选择效果。
+
+#### Beta (live coding at Channel 16) — Keijiro Takahashi (2017)
+- 视频: https://vimeo.com/213872212
+- 源代码: https://github.com/keijiro/Beta
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, KodeLife, GLSL, Spout
+- 创意点子: 在音乐进行时，现场编写一个 3D 世界的纹理。
+- 作品内容: 在 KodeLife 里现场编写的抽象着色器图案被投射到 Unity 3D 场景中的物体上，把即兴与预先准备的素材混合在一起。
+- 关键技术: KodeLife 渲染对音频做出反应的 GLSL 片元着色器，画面通过 Spout 共享给 Unity，Unity 把它们投射到网格和叠加层上，再用 nanoKONTROL2 控制其他效果。
+- 课堂练习: 在浏览器编辑器里现场编写片元着色器，把它作为 WebXR 场景中一座虚拟雕塑的纹理；变体：每位学生只有 60 秒改代码，然后传给下一个人。
+
+#### Cloner — Keijiro Takahashi (2017)
+- 视频: https://vimeo.com/218961301
+- 源代码: https://github.com/keijiro/Cloner
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, compute shader, GPU instancing
+- 创意点子: 用同一个简单零件的大量克隆，拼出复杂的有机形态。
+- 作品内容: 成千上万个小网格副本排布在一个基础模型的顶点上，一起起伏、扭转、跳动，像一个活的整体。
+- 关键技术: 计算着色器根据噪声为基础模型的每个顶点计算一个变换，再用 GPU 程序化实例化在每个顶点上绘制模板网格，几乎不占 CPU。
+- 课堂练习: 在 AR 中放一个球体，用 VFX Graph 或 GPU 实例化在它的每个顶点上克隆一个小立方体，并用噪声控制大小；变体：以 AR 人脸网格为基础，让克隆体铺满一张真实的脸。
+
+#### GDisintegrator — Keijiro Takahashi (2017)
+- 视频: https://vimeo.com/241520939
+- 源代码: https://github.com/keijiro/GDisintegrator
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, geometry shader
+- 创意点子: 把“解体”当成一种可以控制、可以倒回的材质状态。
+- 作品内容: 人物的表面剥落成一片片三角形，像灰烬一样被卷走，随后身体又复原。
+- 关键技术: 几何着色器在移动的阈值到达时把每个三角形分离出来，再用噪声随时间移动、旋转并缩小它；这是 GVoxelizer 的姊妹效果。
+- 课堂练习: 在 AR Foundation 中给一座虚拟雕像加上三角面解体着色器，用手机与雕像的距离控制阈值；变体：让三角形朝观众的镜头飞来，而不是飞走。
+
+#### GVoxelizer — Keijiro Takahashi (2017)
+- 视频: https://vimeo.com/241191777
+- 源代码: https://github.com/keijiro/GVoxelizer
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, geometry shader
+- 创意点子: 不做任何预处理，就能把任意网格变成体素化的转场。
+- 作品内容: 一个动画角色分解成飞散的体素方块，然后又重新拼回来，像被一块一块地传送走。
+- 关键技术: 几何着色器在一个移动的效果平面扫过时把每个三角形变成立方体，再用噪声推动并缩放这些立方体，所以任何网格都能实时使用这个效果。
+- 课堂练习: 在 AR Foundation 里给一个扫描物体加上体素溶解着色器，手机越靠近它就越碎成方块；变体：反过来，只有观众后退时物体才一块块搭建起来。
+
+#### GlitchDancer — Keijiro Takahashi (2017)
+- 视频: https://vimeo.com/198537336
+- 源代码: https://github.com/keijiro/GlitchDancer
+- 交互类型: 手势与身体, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 手机, Unity, iOS, Metal, motion capture
+- 创意点子: 证明一部手机也能跑出夜店级别的实时 3D 视觉。
+- 作品内容: 一个动作捕捉的舞者不断碎裂成变化的故障碎片，在 iPhone 上以 60 fps 实时渲染，像一台口袋里的 VJ 设备。
+- 关键技术: 动作捕捉片段驱动一个蒙皮角色，Skinner 风格的故障着色器对三角面做位移和变色，并针对 iPhone 6S 优化到稳定 60 fps；其中一部分用在了 NAMM 2017 上 Teenage Engineering OP-Z 的演示。
+- 课堂练习: 做一个手机 AR 场景：动作捕捉舞者站在桌面上，麦克风每检测到一个节拍，它的三角面就故障式地散开；变体：点一下屏幕把故障定格，然后绕着定格的碎片走一圈。
+
+#### LASP audio-reactive particles — Keijiro Takahashi (2017)
+- 视频: https://va.media.tumblr.com/tumblr_otamd9rnf21qio469.mp4
+- 源代码: https://github.com/keijiro/Lasp
+- 交互类型: 声音, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, LASP, native audio plugin
+- 创意点子: 让画面对声音的反应快到察觉不到延迟。
+- 作品内容: 一个粒子系统随着实时音频输入迸发、膨胀，几乎没有延迟，演示了一个 Unity 的低延迟音频插件。
+- 关键技术: LASP 是一个原生插件，以极小的缓冲采集音频输入并运行三段滤波器组，各频段电平实时驱动粒子的发射量和大小。
+- 课堂练习: 把麦克风电平分成低、中、高三段，驱动 AR 中放在音箱周围的三个 VFX Graph 发射器；变体：用拍手测量延迟，并想办法把它缩短。
+
+#### Pcx point cloud renderer — Keijiro Takahashi (2017)
+- 视频: https://vimeo.com/239850990
+- 源代码: https://github.com/keijiro/Pcx
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, PLY, compute buffer
+- 创意点子: 让原始扫描数据在游戏引擎里变成可以直接做动画的材料。
+- 作品内容: 从 .ply 文件导入的扫描点云在 Unity 里被画成密集的彩色点，并用自定义的点着色器做动画。
+- 关键技术: 自定义导入器把二进制 PLY 文件读成点拓扑网格或 ComputeBuffer，再由点和圆盘着色器渲染并驱动数百万个点；后来的版本还能烘焙成 VFX Graph 的点缓存（视频展示的是它的前身 PlypcImporter）。
+- 课堂练习: 用带 LiDAR 的手机扫描房间一角，导出 .ply，用 Pcx 导入后在 AR Foundation 中把点云重新对齐到真实的墙角；变体：镜头前出现手的位置，点云就被吹散。
+
+#### Prisma (VRDG+H #4) — Keijiro Takahashi (2017)
+- 视频: https://www.youtube.com/watch?v=oY6uCfNb-Ng
+- 源代码: https://github.com/keijiro/Prisma
+- 交互类型: 投影增强, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, Unity, Pepper's ghost, Shadow Slicer
+- 创意点子: 用透明屏幕投影，把虚拟物体放在演出者和观众之间。
+- 作品内容: 巨大的人物和形体以佩珀尔幻象的方式悬浮在 Merzbow 与 XXX Residents 面前，它们的影子落在演出者身后的屏幕上。
+- 关键技术: DMM VR 剧场前方的大型透明屏幕形成佩珀尔幻象，Shadow Slicer 技术无需重新生成阴影贴图就能把阴影画到背景屏上，保证了演出的满帧率。
+- 课堂练习: 把 Unity 场景渲染到一部平放在倾斜亚克力板下的手机上，做一个桌面佩珀尔幻象，再用 HoloKit 观看同一场景，比较两种“全息”；变体：让虚拟人物在亚克力板后面的真实卡片上投下影子。
+
+#### RDSystem (reaction-diffusion) — Keijiro Takahashi (2017)
+- 视频: https://vimeo.com/217373413
+- 源代码: https://github.com/keijiro/RDSystem
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Custom Render Texture
+- 创意点子: 让一个类似化学反应的模拟来绘制会生长的纹理。
+- 作品内容: 有机的斑点和迷宫般的条纹在表面上实时生长、流动，背后是一个反应扩散模拟。
+- 关键技术: Gray-Scott 反应扩散系统在 Unity 的 Custom Render Texture 里逐帧自我更新，结果再用于表面着色器的颜色和位移。
+- 课堂练习: 在 AR 中把反应扩散的 Custom Render Texture 贴到一面真实墙上的平面，用户点哪里就在哪里播下新的“种子”；变体：用相机画面的边缘来播种，让真实物体长出图案。
+
+#### Republic (FEMM live) — Keijiro Takahashi (2017)
+- 视频: https://x.com/tokyomax/status/878736675228090368
+- 源代码: https://github.com/keijiro/Republic
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, multi-display
+- 创意点子: 让实时 3D 视觉与流行演出的编舞和音乐相匹配。
+- 作品内容: 为 FEMM 在涩谷 WOMB 的 REPUBLIC 活动现场制作的实时视觉，用与音乐同步的 3D 图形包围表演者。
+- 关键技术: Unity 项目在 Windows DX11 下驱动多块显示屏，随演出节奏切换预先准备的 3D 场景和效果。
+- 课堂练习: 为一首歌编排 30 秒的 AR 段落：在舞者周围放三个虚拟物体，由一部手机按节拍触发它们的动画；变体：让第二部手机的相机识别舞者的手势来触发。
+
+#### Seido (静動) — Keijiro Takahashi (2017)
+- 视频: https://va.media.tumblr.com/tumblr_p19olvfZwP1qio469.mp4
+- 源代码: https://github.com/keijiro/Seido
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, Klak, multi-display
+- 创意点子: 把一排屏幕变成一件有节奏感、并且开源到公有领域的视觉乐器。
+- 作品内容: 一个七屏系统为松浦雅也在大阪和东京的演出呈现现场视觉，静与动的画面在各屏幕间交替。
+- 关键技术: Unity 的多显示输出驱动七块屏幕，Klak 组件（音频输入、余弦渐变、插值器、游戏视图布局）根据音乐驱动颜色和运动。
+- 课堂练习: 把几部手机排在架子上，每部用不同的虚拟相机运行同一个 AR 场景，并与同一首歌同步；变体：让观众在歌曲进行中重新排列手机。
+
+#### ShaderSketches — Keijiro Takahashi (2017)
+- 视频: https://va.media.tumblr.com/tumblr_ooco6l0oEQ1qio469.mp4
+- 源代码: https://github.com/keijiro/ShaderSketches
+- 交互类型: 声音, 感知与视觉艺术
+- 平台与技术: 桌面, KodeLife, GLSL
+- 创意点子: 养成每天写一个小着色器草图的习惯。
+- 作品内容: 一组在通勤路上写的小片元着色器草图；这一幅里，几何图案随着音频频谱输入跳动。
+- 关键技术: 每幅草图都是 KodeLife 中的一个 GLSL 片元着色器；这一幅读取 KodeLife 从音频输入生成的频谱纹理，把各频段映射到形状的大小和颜色。
+- 课堂练习: 写一个一屏的声音反应着色器，把它显示在一个监听麦克风的 WebXR 场景里的虚拟海报上；变体：连续一周，每人在上课路上写一个新草图。
+
+#### Swarm — Keijiro Takahashi (2017)
+- 视频: https://vimeo.com/219277691
+- 源代码: https://github.com/keijiro/Swarm
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, compute shader, GPU instancing
+- 创意点子: 让一群由噪声驱动的粒子紧紧贴着物体表面爬动。
+- 作品内容: 成千上万条发光的线在一个形体表面爬行，像一群昆虫爬满了雕塑。
+- 关键技术: 计算着色器让粒子在无散度噪声场中运动，同时用距离场体积把它们拉向物体表面，轨迹再用程序化实例化（DrawMeshInstancedIndirect）绘制出来。
+- 课堂练习: 为一个真实物体（例如与桌子等大的盒子）烘焙有符号距离场，让 VFX Graph 粒子群在 AR Foundation 中沿它爬行；变体：改用手机 LiDAR 网格，让粒子群爬满整个房间。
+
+#### Trinity (Channel 17) — Keijiro Takahashi (2017)
+- 视频: https://va.media.tumblr.com/tumblr_ou5rt7l30F1qio469_720.mp4
+- 源代码: https://github.com/keijiro/Trinity
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, OSC, compute shader
+- 创意点子: 让每一个鼓点都在三块屏幕上触发不同的 GPU 效果。
+- 作品内容: 为 DUB-Russell 在 Channel 17 的演出制作的三投影现场视觉，随着底鼓和军鼓，用克隆、爬行和实例化的几何体做出反应。
+- 关键技术: 默认录音设备的音频和 OSC 触发信号（底鼓和军鼓）驱动 Cloner、距离场体积和实例化效果，输出到三台 XGA 投影仪。
+- 课堂练习: 把手机麦克风检测到的底鼓和军鼓分别映射为 AR 场景中两种不同的 VFX Graph 迸发；变体：把三部手机并排当作三联屏，每部显示不同的反应。
+
+#### VideoPlayerEffects (keying) — Keijiro Takahashi (2017)
+- 视频: https://va.media.tumblr.com/tumblr_om9qfzPwgn1qio469_480.mp4
+- 源代码: https://github.com/keijiro/VideoPlayerEffects
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VideoPlayer, shader
+- 创意点子: 用一个着色器，把拍摄的人放进实时 3D 世界。
+- 作品内容: Unity VideoPlayer 播放的绿幕素材被实时抠像，改进的溢色抑制让人物自然融入 3D 场景。
+- 关键技术: 色度键着色器根据绿色通道差值计算遮罩，并去除边缘的绿色溢色；这个抠像器后来迁移到了 ProcAmp 仓库。
+- 课堂练习: 让同学站在绿墙前拍一段视频，用着色器抠像后作为真人大小的视频广告牌放进 AR；变体：让广告牌始终朝向观众，好像那个人一直跟着你转。
+
+#### Flipper (ADIRECTOR Channel) — Keijiro Takahashi (2018)
+- 视频: https://va.media.tumblr.com/tumblr_pd1oevl48u1qio469.mp4
+- 源代码: https://github.com/keijiro/Flipper
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, geometry shader
+- 创意点子: 让数字演出感觉像在翻一本印刷的书。
+- 作品内容: 为表参道 ADIRECTOR Channel 活动制作的现场视觉，把翻页书式的画面翻动与从动画骨骼生长出的缎带和形体结合在一起。
+- 关键技术: Flipbook 渲染器把画面截取成书页，并用弯曲的网格翻动，再结合用几何着色器实例化制作的骨骼几何效果。
+- 课堂练习: 每半秒截取一次 AR 相机画面，让这些页面在一本放在真实桌面上的虚拟书里翻过；变体：有节拍时向前翻，安静时向后翻。
+
+#### Museum (Channel 18) — Keijiro Takahashi (2018)
+- 视频: https://www.youtube.com/watch?v=r-nbIpdn-Lk
+- 源代码: https://github.com/keijiro/Museum
+- 交互类型: 声音, 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, KodeLife, GLSL, Spout
+- 创意点子: 把即兴代码和准备好的 3D 道具混在一起，像一座现场策展的博物馆。
+- 作品内容: 在 DUB-Russell 于 Channel 18 的演出中，古典雕像漂浮在 Unity 场景里，背景和表面由 KodeLife 现场编写。
+- 关键技术: KodeLife 现场编写的 GLSL 画面通过 Spout 实时共享给 Unity，成为扫描雕像的背景和纹理，再叠加故障后期效果。
+- 课堂练习: 在 AR 中放一座扫描雕像，用学生在浏览器里现场修改的着色器作为它的纹理；变体：每到歌曲副歌就换一座雕像。
+
+#### Ngx — Keijiro Takahashi (2018)
+- 视频: https://vimeo.com/294399440
+- 源代码: https://github.com/keijiro/Ngx
+- 交互类型: 表演与舞台, 感知与视觉艺术
+- 平台与技术: 桌面, 投影, Unity, pix2pix, compute shader
+- 创意点子: 让神经网络从一小段视频出发，幻想出一部永不结束的音乐影像。
+- 作品内容: 一个预测下一帧的神经网络逐帧生成无尽的抽象 VJ 画面，两个模型还可以现场交叉淡入淡出。
+- 关键技术: 把 pix2pix 训练成下一帧预测器，训练数据是一段视频（例如 Beeple 的 VJ 素材）中相邻帧的配对，每次输出的帧再作为下一次输入；两个模型通过插值混合输出。
+- 课堂练习: 把反馈循环的生成模型显示在一块悬浮的 AR 屏幕上，观众左右移动手机即可在两个模型之间淡入淡出；变体：用房间的实时相机画面作为循环的起点。
+
+#### OP-Z videolab visuals — Keijiro Takahashi (2018)
+- 视频: https://vimeo.com/307285370
+- 源代码: https://github.com/keijiro/VideolabTest
+- 交互类型: 声音, 表演与舞台
+- 平台与技术: 手机, Unity, OP-Z videolab, iOS
+- 创意点子: 让合成器的音序器直接演奏 3D 视觉。
+- 作品内容: 用 Unity 做的简短 3D 视觉循环由 Teenage Engineering OP-Z 合成器的步进和音轨“演奏”，在 iPhone 上实时渲染。
+- 关键技术: 用 OP-Z videolab 工具包制作的场景被导出为 videopak，OP-Z 的 iOS 应用把音序器的音轨和音符映射到动画触发和顶点着色器参数。
+- 课堂练习: 在手机 AR 场景中把 MIDI 音符（或麦克风检测到的节拍）映射为 VFX Graph 事件，每种鼓一个效果；变体：把每种鼓的效果锚定到房间里不同的真实物体上。
+
+#### Pix2Pix for Unity — Keijiro Takahashi (2018)
+- 视频: https://vimeo.com/287778343
+- 源代码: https://github.com/keijiro/Pix2Pix
+- 交互类型: 空间绘画与创作, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, compute shader, pix2pix
+- 创意点子: 把实时的图像到图像翻译变成一种绘画工具。
+- 作品内容: 在屏幕上画的草图被 Unity 里运行的神经网络即时变成类似照片的图像，比如把线条变成一只猫。
+- 关键技术: 作者自己用计算着色器写了推理引擎，在 Unity 里直接运行预训练的 pix2pix 生成器（U-Net），不依赖任何外部机器学习框架。
+- 课堂练习: 用 Unity Sentis 在手机相机画面上运行一个小型图像到图像模型，把结果显示在一块悬浮的 AR 面板上；变体：让学生在 AR 空间里画线，并实时翻译他们的画。
+
+#### Procedural dance (PuppetTest) — Keijiro Takahashi (2018)
+- 视频: https://vimeo.com/255257338
+- 源代码: https://github.com/keijiro/PuppetTest
+- 交互类型: 表演与舞台, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, humanoid IK
+- 创意点子: 不用动作捕捉，只用几条正弦波和噪声生成舞蹈。
+- 作品内容: 一群人形角色在没有任何预录动画的情况下跳舞，每个人都有自己的节奏。
+- 关键技术: 正弦曲线和 Perlin 噪声决定手、脚和胯部的目标位置，再由 Unity 的人形 IK 骨架逐帧解算出完整姿势。
+- 课堂练习: 在 AR 中把几个程序化跳舞的小人放到桌面上，用正弦波和噪声驱动 Animation Rigging 的 IK 目标；变体：用手机麦克风听到的音乐来决定它们的节拍。
+
+#### Shader Graph moving-lines globe — Keijiro Takahashi (2018)
+- 视频: https://va.media.tumblr.com/tumblr_pfv4dgueZM1qio469.mp4
+- 源代码: https://github.com/keijiro/ShaderGraphExamples
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Shader Graph
+- 创意点子: 证明用节点图也能做出惊艳的动态材质。
+- 作品内容: 一个球体表面布满流动的线条，在上面不断滚动，全部由节点式着色器搭建。
+- 关键技术: 一个 Shader Graph（CC0 示例）利用球面坐标、随时间滚动的偏移和阶跃函数，画出带自发光的移动线条图案。
+- 课堂练习: 在 Shader Graph 里重做这种移动线条材质，把它贴到 AR 中锚定在真实桌面上的虚拟地球上；变体：让线条流向每位学生的出生城市。
+
+#### Skeletal Geometric Effects — Keijiro Takahashi (2018)
+- 视频: https://va.media.tumblr.com/tumblr_pcsc78PRjA1qio469.mp4
+- 源代码: https://github.com/keijiro/SkeletalGeometricEffects
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, geometry shader, instancing
+- 创意点子: 只用骨骼的骨头，就生成丰富的几何形体。
+- 作品内容: 沿着跳舞骨骼的简单线段长成复杂的缎带和几何形体，跟随动作运动。
+- 关键技术: 几何着色器实例化在 GPU 上把每根骨头的线段扩展成大量三角形，例如把 16 条线段变成约 16,000 个动态缎带三角形。
+- 课堂练习: 用 ARKit 人体追踪取得关节位置，在手机上用 VFX Graph 或线条着色器在关节之间画出缎带；变体：让缎带留下轨迹，舞者离开后仍留在房间里。
+
+#### StableFluids — Keijiro Takahashi (2018)
+- 视频: https://vimeo.com/277872734
+- 源代码: https://github.com/keijiro/StableFluids
+- 交互类型: 手势与身体, 空间绘画与创作, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, compute shader, Sensel Morph
+- 创意点子: 把一块触控板变成可以用手“搅动”的液体绘画乐器。
+- 作品内容: 彩色墨水在实时流体模拟中翻卷，随着手指在 Sensel Morph 触控板上的按压而流动。
+- 关键技术: 用计算着色器实现 Jos Stam 的 Stable Fluids（平流、扩散和压力投影），Sensel Morph 的多点触控压力向流体注入力和颜料（演示来自 SenselExamples）。
+- 课堂练习: 在 AR Foundation 的平面上运行 StableFluids 求解器，手指触摸射线打到平面的位置就注入力；变体：用手部追踪，在桌子上方挥手就能搅动流体。
+
+#### Akvfx: Azure Kinect with VFX Graph — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1163456709894922240
+- 源代码: https://github.com/keijiro/Akvfx
+- 交互类型: 手势与身体, 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Azure Kinect
+- 创意点子: 把深度传感器当成实时粒子源。
+- 作品内容: 站在 Azure Kinect 前的人以实时三维点云出现，一动就碎成火花和线条。
+- 关键技术: 插件在 GPU 上把 Azure Kinect 的彩色和深度帧转成位置和颜色属性贴图，VFX Graph 每帧从这些贴图生成粒子。
+- 课堂练习: 在手机上重做：用 AR Foundation 的人体深度或 LiDAR 深度在人身上生成点，用 HoloKit 观看。变体：让点延迟一秒，每个人身后都留下一个幽灵。
+
+#### Dkvfx: Depthkit volumetric video with VFX Graph — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1105456612162994177
+- 源代码: https://github.com/keijiro/Dkvfx
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Depthkit
+- 创意点子: 录好的体积视频，可以当作粒子特效的原材料。
+- 作品内容: 用 Depthkit 录下的舞者以三维形式回放，再被重新渲染成粒子、线条和类似 Kinect 的特效，可以从任意角度观看。
+- 关键技术: 在着色器里解码 Depthkit 的彩色加深度合成视频，得到位置贴图和颜色贴图，再交给 VFX Graph 当作点的来源。
+- 课堂练习: 用能录深度的手机应用（Record3D 或 Depthkit 导出）给朋友录 10 秒视频，在 Unity 里作为点源播放，再用 AR Foundation 放到桌面上。变体：你走得越近，人像越快散成粒子。
+
+#### GeoVfx: world population as particles — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1429739880259612685
+- 源代码: https://github.com/keijiro/GeoVfx
+- 交互类型: 信息与界面, 地点与城市
+- 平台与技术: 桌面, Unity, VFX Graph, GraphicsBuffer
+- 创意点子: 每个数值变成一颗粒子，数据就变成了地形。
+- 作品内容: 一个由粒子组成的地球，粒子的高度显示人口分布，数据来自 NASA SEDAC。
+- 关键技术: 把网格化人口数据载入 GraphicsBuffer，VFX Graph 把每个格子的经纬度映射到球面上，并按人口密度拉高粒子。
+- 课堂练习: 载入一个小型开放数据集（比如城市空气质量），渲染成粒子地球，用 AR Foundation 放在桌上。变体：双指捏合就能飞进一个国家。
+
+#### Grubo: MC-101 live performance at Channel #21 — Keijiro Takahashi (2019)
+- 视频: https://vimeo.com/379562830
+- 源代码: https://github.com/keijiro/Grubo
+- 交互类型: 声音, 表演与舞台
+- 平台与技术: 投影, 桌面, Unity, LASP, Minis, Roland MC-101
+- 创意点子: 一台小小的音乐盒，同时驱动音乐和画面。
+- 作品内容: 高桥启治郎在台上演奏 Roland MC-101 音乐盒，身后投影的 Unity 画面随每条音轨生成形状和粒子。
+- 关键技术: 用 LASP 分别分析 MC-101 多通道 USB 音频的每条音轨，再通过 Minis 接收 MIDI 时钟和音符，让每个声部触发各自的特效。
+- 课堂练习: 把一首歌分成鼓和旋律两轨，各自对应房间里的一个 AR Foundation 特效物体，然后现场演奏。变体：观众拿着手机走动时可以移动这些物体。
+
+#### KinoEight: 8-bit style post effect — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1208045085452955653
+- 源代码: https://github.com/keijiro/KinoEight
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HDRP, Post-processing
+- 创意点子: 把老硬件的限制变成一种画风。
+- 作品内容: 现代三维场景被重绘成低分辨率画面：8 色调色板、抖动和按图块限制颜色，像老式家用电脑。
+- 关键技术: 全屏后处理先降采样，再为每个 8x8 图块挑出两个最合适的调色板颜色，用 Bayer 矩阵在两者之间抖动。
+- 课堂练习: 给 AR Foundation 的相机画面加一个 8 位调色板着色器，让真实房间看起来像 80 年代游戏画面。变体：只让一个真实物体保持全彩。
+
+#### LaspVfx: audio-reactive VFX with LASP — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1116337708782067713
+- 源代码: https://github.com/keijiro/LaspVfx
+- 交互类型: 声音, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, LASP
+- 创意点子: 让声音自己画出形状。
+- 作品内容: 现场音频被分成低、中、高三个频段，画成三条发光的波形和随音乐跳动的粒子。
+- 关键技术: LASP 以低延迟采集音频并分频，属性绑定器把波形缓冲和各频段音量作为贴图和数值传给 VFX Graph。
+- 课堂练习: 用 AR Foundation 放一个 VFX Graph，读取手机麦克风音量，让粒子围绕真实音箱爆开。变体：低音控制粒子大小、高音控制颜色，换两首歌对比效果。
+
+#### NoiseBall5: mesh deformed by the Job System — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1211628843343081472
+- 源代码: https://github.com/keijiro/NoiseBall5
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, 手机, Unity, C# Job System, Burst
+- 创意点子: 一个活物般的团块，就是给顶点加上噪声。
+- 作品内容: 一个球体每帧随噪声起伏抖动，顶点由多线程 C# 任务推动，在 iPhone 上也能运行。
+- 关键技术: Unity 新的 Mesh API 让 Burst 编译的 C# 任务直接把顶点数据写进网格缓冲区，省去额外拷贝。
+- 课堂练习: 用 AR Foundation 图像追踪把一个噪声变形的球固定在真实物体上，让它脉动。变体：用麦克风音量控制噪声强度。
+
+#### ProcCharVfx: procedural letters and Matrix rain — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1209489319544549376
+- 源代码: https://github.com/keijiro/ProcCharVfx
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Shader Graph
+- 创意点子: 字母表可以生成，而不是加载。
+- 作品内容: 一列列虚构的字符像《黑客帝国》那样往下落，每个字都是着色器生成的，不是字体。
+- 关键技术: Shader Graph 用随机种子在小网格上组合笔画生成字符，VFX Graph 生成成千上万个面片并给每个面片一个种子，所以每个字都不同。
+- 课堂练习: 做一个程序化字符着色器，用 AR Foundation 的平面检测找到真实墙面，让字符雨沿墙落下。变体：字符雨遇到人的轮廓时会分开绕过。
+
+#### Rcam at Channel #20 (live with umio) — Keijiro Takahashi (2019)
+- 视频: https://vimeo.com/346711967
+- 源代码: https://github.com/keijiro/Rcam
+- 交互类型: 表演与舞台, 手势与身体, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, VFX Graph, Intel RealSense
+- 创意点子: 把舞台上的人实时扫成点云，再让粒子把人拆散、重组，成为现场演出的视觉。
+- 作品内容: 舞台上的深度相机把表演者的体积点云串流进 Unity，VFX Graph 粒子在现场演唱会中实时将她的身体拆散又重建。
+- 关键技术: RealSense 深度相机把彩色和深度帧发送给 Unity，转换成点云，驱动投影在表演者身后的 VFX Graph 粒子。
+- 课堂练习: 用 Kinect/手机深度或 MediaPipe 人体分割把一位同学变成粒子剪影投影在墙上；加一个变化：音乐音量越大粒子越散。
+
+#### Rsvfx: RealSense depth to VFX Graph — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1099299041463066624
+- 源代码: https://github.com/keijiro/Rsvfx
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Intel RealSense
+- 创意点子: 一台便宜的深度相机，就能把真人实时变成粒子材料。
+- 作品内容: 用 Intel RealSense D415 拍到的人，实时变成一团发光粒子，粒子不断从身体上飘散开。
+- 关键技术: 插件把 RealSense 每一帧深度图转换成位置贴图和颜色贴图（属性贴图），VFX Graph 读取这些贴图，在拍到的表面上生成粒子。
+- 课堂练习: 在带 LiDAR 的 iPhone 上用 AR Foundation 读取环境深度贴图，传给 VFX Graph，在同学身上生成粒子。变体：只有当人站着不动时，粒子才像沙子一样往下掉。
+
+#### SdfVfxSamples: particles shaped by distance fields — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1821182526184100126
+- 源代码: https://github.com/keijiro/SdfVfxSamples
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, 网页, Unity, VFX Graph, SDF, WebGPU
+- 创意点子: 看不见的形状，可以靠绕着它流动的东西显现出来。
+- 作品内容: 粒子轨迹被吸附到一个看不见的形状表面，一边流动一边描出它的轮廓；这些示例可以通过 WebGPU 在浏览器里运行。
+- 关键技术: 从网格烘焙出的有符号距离场告诉每个粒子到表面的距离和方向，VFX Graph 用它计算吸引力和碰撞。
+- 课堂练习: 把扫描得到的物体烘焙成 SDF，在 AR Foundation 中让粒子包裹住真实物体。变体：每 10 秒换一个 SDF，让粒子群在不同物体之间变形。
+
+#### Smrvfx: particles from a skinned mesh — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1114513038302830592
+- 源代码: https://github.com/keijiro/Smrvfx
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph
+- 创意点子: 任何会动的身体都可以变成粒子发射器。
+- 作品内容: 一个动画角色在舞动时，身体不断甩出粒子流和光带，动作在空中留下发光的轨迹。
+- 关键技术: 脚本每帧把蒙皮网格的顶点位置和速度烘焙到贴图里（后来改用 VFX Graph 自带的 Sample Skinned Mesh 节点），粒子从这些点上生成。
+- 课堂练习: 准备一个 Mixamo 角色，用 iPhone 上 AR Foundation 的人体追踪驱动它，从蒙皮网格上发射 VFX Graph 粒子，叠加在真人舞者身上。变体：只让动作最快的那只手或脚发射粒子。
+
+#### VFX Graph Sketch1012 — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1187004957821505536
+- 源代码: https://github.com/keijiro/VfxGraphTestbed
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph
+- 创意点子: 每天做一个小草图，是学会一个工具的方法。
+- 作品内容: 一段抽象小品：成千上万的粒子和光带在黑暗空间里旋转、折叠、变色。
+- 关键技术: VFX Graph 组合噪声力场、粒子条带和随生命周期变化的颜色渐变，图保持很小，一个草图大约一小时完成。
+- 课堂练习: 一小时内做一个 VFX Graph 草图，再用 AR Foundation 放进房间，让漩涡悬浮在一个真实物体上方。变体：给自己一个限制，比如只用一种颜色、一个力。
+
+#### VFX controlled by MIDI notes (Minis) — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1194287720203374592
+- 源代码: https://github.com/keijiro/VfxMinisExamples
+- 交互类型: 声音, 实体物件, 表演与舞台
+- 平台与技术: 桌面, 网页, Unity, VFX Graph, Minis, MIDI
+- 创意点子: 像演奏乐器一样演奏画面。
+- 作品内容: 敲击力度感应的 MIDI 键盘就会发射粒子，敲得越重爆得越大，可以多键同时演奏。
+- 关键技术: Minis 让 MIDI 设备进入 Unity 的 Input System，输入绑定器把音符事件和力度直接映射成 VFX Graph 事件和参数，不需要写脚本。
+- 课堂练习: 接上 MIDI 键盘（或 Web MIDI 网页），让每个键在 AR Foundation 场景中的固定位置爆出粒子，把房间变成键盘。变体：每个八度对应一面墙。
+
+#### VFX sketches with Depthkit and Unity — Keijiro Takahashi (2019)
+- 视频: https://vimeo.com/383216987
+- 源代码: https://github.com/keijiro/DkvfxSketches
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Depthkit, Azure Kinect
+- 创意点子: 同一段录像，可以有许多种视觉性格。
+- 作品内容: 一组体积视频小品：表演者被变成粒子条带、电弧和流动的点云。
+- 关键技术: 把 Depthkit 与 Azure Kinect 素材解码成点贴图，几套 VFX Graph 分别从同一份数据画出条带、闪电般的线和被噪声推动的点。
+- 课堂练习: 用一段体积视频做三种不同的 VFX Graph 风格，在 AR Foundation 里点一下就切换。变体：让每种风格对应楼里不同的房间。
+
+#### VfxPyro: interactive fireworks — Keijiro Takahashi (2019)
+- 视频: https://x.com/_kzr/status/1179427868587130880
+- 源代码: https://github.com/keijiro/VfxPyro
+- 交互类型: 游戏与玩法, 感知与视觉艺术
+- 平台与技术: 桌面, 网页, Unity, VFX Graph, URP
+- 创意点子: 烟花是讲解生成、爆开、拖尾最简单的例子。
+- 作品内容: 点一下就发射烟花，烟花升空、炸开成闪烁的礼花，再拖着尾迹消失，全部由 GPU 粒子模拟。
+- 关键技术: VFX Graph 使用 GPU 事件：火箭粒子消失时触发爆炸系统，每个火花再生成拖尾粒子，形成三级链条。
+- 课堂练习: 把烟花图移植到 AR Foundation，点击手机屏幕时从真实地面上的点击位置发射烟花。变体：改成从朋友手指指向的位置发射。
+
+#### 4DViews volumetric video with VFX Graph — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1270712472853340167
+- 源代码: https://github.com/keijiro/4DViewsTest2
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, 4DViews, Alembic
+- 创意点子: 影棚拍的体积视频，也能像普通素材一样被再创作。
+- 作品内容: 一段表演者的体积视频在 Unity 中回放，并融化成飘动的粒子和轮廓线。
+- 关键技术: 把 4DViews 片段转成 Alembic 网格加 HAP 贴图，再用转换器把网格采样成点云，交给 VFX Graph 当作粒子源。
+- 课堂练习: 用 AR Foundation 把一段免费体积视频放在地面上，观众绕着走时人像逐渐散成粒子。变体：有人站到表演者正前方时，画面定格。
+
+#### Abcvfx: Alembic animation to VFX Graph — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1269876564486807552
+- 源代码: https://github.com/keijiro/Abcvfx
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Alembic
+- 创意点子: 任何烘焙好的动画都能喂给粒子系统。
+- 作品内容: 一个 Alembic 动画形体被变成粒子流，粒子跟随它移动的表面并不断剥落。
+- 关键技术: 每帧对 Alembic 网格采样（现在可用 VFX Graph 的动态网格输入），粒子在顶点上生成并继承速度。
+- 课堂练习: 把一段 Blender 短动画导出为 Alembic，从它身上发射粒子，再用 AR Foundation 放到真实书架上。变体：粒子落到真实表面上会停住。
+
+#### Akvj: Azure Kinect VJ set — Keijiro Takahashi (2020)
+- 视频: https://vimeo.com/424260614
+- 源代码: https://github.com/keijiro/Akvj
+- 交互类型: 手势与身体, 表演与舞台
+- 平台与技术: 投影, 桌面, Unity, HDRP, VFX Graph, Azure Kinect
+- 创意点子: 深度相机变成一件现场视觉乐器。
+- 作品内容: Azure Kinect 拍到的表演者被实时变成点云、网格和粒子风暴，用于 VJ 表演。
+- 关键技术: Akvfx 把 Kinect 深度转换成属性贴图和表面网格，HDRP 渲染几套 VFX Graph 和着色器效果，由 VJ 现场切换。
+- 课堂练习: 在 LiDAR iPhone 上用 AR Foundation 做三种人体特效，在一段短表演中用 MIDI 打击垫或屏幕按钮切换。变体：让舞者用一个姿势来切换特效。
+
+#### BurstWig: flowing hair-like strands — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1258039132372135941
+- 源代码: https://github.com/keijiro/BurstWig
+- 交互类型: 面部, 感知与视觉艺术
+- 平台与技术: 桌面, 网页, Unity, Burst, C# Job System, VFX Graph, HDRP
+- 创意点子: 加上简单弹簧物理的细丝，就有了生命感。
+- 作品内容: 成千上万根长丝从一个运动的物体上长出来，像风中的头发一样摆动飘荡。
+- 关键技术: 每根丝是一串点，在 Burst 编译的任务中用类似 Verlet 的弹簧约束求解，再用 VFX Graph 粒子条带绘制。
+- 课堂练习: 用 AR Foundation 面部追踪给脸上接一顶丝状假发，转头时它会摆动。变体：风力来自麦克风。
+
+#### Eyeball: procedural iris that follows you — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1321000166585856000
+- 源代码: https://github.com/keijiro/Eyeball
+- 交互类型: 注视, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Shader Graph
+- 创意点子: 会回看你的物体，就像活的。
+- 作品内容: 一只逼真的眼球，虹膜是程序生成的，它会转动跟随鼠标，瞳孔会收缩放大。
+- 关键技术: VFX Shader Graph 用极坐标噪声和多层圆环生成虹膜，脚本让眼球朝向指针旋转。
+- 课堂练习: 在 AR Foundation 里放一只程序化眼球，它总是转向手机镜头。变体：在真实墙上铺满几十只眼睛，你靠近时它们眨眼。
+
+#### HdrpVatExample: baked fluid and cloth with VAT — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1220338439117127680
+- 源代码: https://github.com/keijiro/HdrpVatExample
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HDRP, Shader Graph, VFX Graph, Houdini
+- 创意点子: 离线模拟一次，就能在任何地方回放。
+- 作品内容: 在 Houdini 里离线模拟的液体飞溅和柔软布料，在 Unity 里以平滑的动画网格实时回放。
+- 关键技术: Houdini 导出顶点动画贴图（VAT），里面存着每帧的位置和法线；Shader Graph 在顶点阶段读取并在帧之间插值。
+- 课堂练习: 用 Houdini Apprentice 或 Blender 烘焙一个简单的飞溅或布料 VAT，在 AR Foundation 中放到真实桌面上播放。变体：把真实杯子放到图像标记上时触发飞溅。
+
+#### Khoreo: procedural dance with the MC-101 — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1291723680490254336
+- 源代码: https://github.com/keijiro/Khoreo
+- 交互类型: 声音, 手势与身体, 表演与舞台
+- 平台与技术: 投影, 桌面, Unity, VFX Graph, Roland MC-101, MIDI
+- 创意点子: 音乐在“演奏”舞者。
+- 作品内容: 一个由光组成、程序生成动作的舞者，随着 Roland MC-101 现场演奏的音乐起舞，身上不断散出粒子。
+- 关键技术: 程序化动作脚本驱动角色，MC-101 的 MIDI 时钟负责同步节拍，Smrvfx 从蒙皮网格发射粒子。
+- 课堂练习: 用 AR Foundation 在地上放一个绑定骨骼的角色，让它的动作随歌曲节拍变化。变体：用第二台手机的麦克风控制第二个舞者。
+
+#### KinoFeedback2: frame feedback with emoji particles — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1306955390513364992
+- 源代码: https://github.com/keijiro/KinoFeedback2
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HDRP, Custom Pass
+- 创意点子: 把上一帧喂回下一帧。
+- 作品内容: emoji 粒子留下不断缩放、循环的残影，就像把摄像机对准自己的监视器。
+- 关键技术: HDRP 自定义通道复制上一帧，稍微缩放、旋转并偏移色相，再混合到新一帧下面。
+- 课堂练习: 给 AR Foundation 的相机画面加反馈效果，让走动的人留下螺旋状残影。变体：只有手机静止时才出现残影。
+
+#### Krbv: colorful particle strip tunnel — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1219572530236641285
+- 源代码: https://github.com/keijiro/Krbv
+- 交互类型: 传送门与世界替换, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph
+- 创意点子: 光带从镜头旁掠过，就有了速度感。
+- 作品内容: 镜头穿过一条无尽的隧道，隧道由扭动流过的彩色光带组成。
+- 关键技术: VFX Graph 在圆柱面上生成粒子条带，让它们朝镜头移动，并随时间按渐变上色。
+- 课堂练习: 做一条光带隧道，用 AR Foundation 把入口锚定在真实门框上，走过门就像进入隧道。变体：隧道速度随你的步速变化。
+
+#### MonoFxSketches: monochrome screen effects — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1333749477732098048
+- 源代码: https://github.com/keijiro/MonoFxSketches
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Shader
+- 创意点子: 只用黑白两色，图形效果最有力量。
+- 作品内容: 一组黑白全屏特效，按节奏把画面切割、滑动、色调分离。
+- 关键技术: 全屏着色器先把画面二值化，再按时间和随机种子做随机切片偏移和镜像。
+- 课堂练习: 给 AR Foundation 相机画面加黑白随机切割着色器，并让切割与节拍器同步。变体：用人像分割让人保持完整不被切开。
+
+#### Particle depth of field with VFX Graph — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1290633852990287872
+- 源代码: https://github.com/keijiro/DofVfxSamples
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, 网页, Unity, VFX Graph, WebGPU
+- 创意点子: 在每颗粒子上假装镜头虚化，便宜地增加景深感。
+- 作品内容: 前景和背景的发光粒子虚化成柔和的光斑，只有焦点距离上的粒子保持清晰。
+- 关键技术: 自定义 VFX Graph 模块根据粒子到焦平面的距离算出弥散圆大小，并相应放大、变淡柔和的圆盘贴图。
+- 课堂练习: 在 AR Foundation 场景里使用景深粒子：靠近手机的灰尘是模糊的，围绕真实物体的灰尘是清晰的。变体：焦点自动移到屏幕中心对准的物体上。
+
+#### PcxEffects3: point cloud effects — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1293928930647261184
+- 源代码: https://github.com/keijiro/PcxEffects3
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Pcx
+- 创意点子: 静态扫描变成会呼吸的场所。
+- 作品内容: 一个摄影测量得到的扫描点云不断闪烁、散开、再重组成动画粒子。
+- 关键技术: Pcx 把 .ply 点云导入为点缓存，VFX Graph 从中读取位置和颜色来生成并驱动粒子。
+- 课堂练习: 用 Polycam 扫描房间一角，导入点云，在 AR Foundation 中把粒子版本对齐到真实角落。变体：手机指向哪里，那里的粒子就飘走。
+
+#### Rcam2: Volumetric AR camera rig — Keijiro Takahashi (2020)
+- 视频: https://vimeo.com/461782810
+- 源代码: https://github.com/keijiro/Rcam2
+- 交互类型: 空间理解, 感知与视觉艺术, 表演与舞台
+- 平台与技术: 手机, 桌面, Unity, ARKit, LiDAR, VFX Graph, NDI
+- 创意点子: 把 iPad 的 LiDAR 当成可移动的体积摄像机，让特效贴着真实房间长出来。
+- 作品内容: 一套基于 iPad Pro LiDAR 的拍摄装置，把彩色画面、深度和相机位姿实时传到 PC，由 Unity 在真实场景外包裹上发光的粒子和线条特效，并始终锁定在房间中。
+- 关键技术: iPad Pro 上的 ARKit 采集 LiDAR 深度、彩色画面和相机位姿，通过 NDI 传输到 PC，Unity 再把深度重投影到世界空间，生成 VFX Graph 特效。
+- 课堂练习: 用 Reality Composer 或 Unity AR Foundation 的 mesh 扫描，让粒子沿着真实墙面和家具流动；加一个变化：只在你指过的物体表面发光。
+
+#### SlitScanCam: realtime slit-scan camera — Keijiro Takahashi (2020)
+- 视频: https://vimeo.com/494895371
+- 源代码: https://github.com/keijiro/SlitScanCam
+- 交互类型: 感知与视觉艺术, 手势与身体
+- 平台与技术: 桌面, Unity, Shader, Webcam
+- 创意点子: 让画面的一个方向显示时间。
+- 作品内容: 实时相机画面由不同时刻的切片拼成，移动的人被拉长、弯折成有弹性的形状。
+- 关键技术: 把最近的相机帧存进纹理数组环形缓冲区，输出画面的每一行根据纵向位置读取不同的帧。
+- 课堂练习: 在 AR Foundation 相机画面上做一个狭缝扫描滤镜，然后慢慢从朋友身边走过。变体：延迟随深度变化，越近的东西越滞后。
+
+#### Sword fighting effects with VFX Graph — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1276106752728031232
+- 源代码: https://github.com/keijiro/VfxGraphTestbed
+- 交互类型: 手势与身体, 游戏与玩法
+- 平台与技术: 桌面, Unity, VFX Graph
+- 创意点子: 拖尾把快速动作变成看得清的形状。
+- 作品内容: 挥动的刀刃留下明亮的光弧和火花，像格斗游戏一样。
+- 关键技术: VFX Graph 粒子条带跟随刀尖和刀柄的位置，沿长度方向淡出，方向变化时触发火花爆发。
+- 课堂练习: 在 AR Foundation 中把光带挂在手机上，挥动手机就在房间里画出光弧。变体：两名玩家对战，光带相撞会爆出火花。
+
+#### VertexAnimationJob: multithreaded vertex animation — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1217326699714494464
+- 源代码: https://github.com/keijiro/VertexAnimationJob
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, C# Job System, Burst
+- 创意点子: 每帧推动每个顶点，静态模型就活了。
+- 作品内容: 高密度网格实时扭曲、起伏、碎裂，所有 CPU 核心一起计算顶点动画。
+- 关键技术: 用 Burst 编译的 IJobParallelFor 任务并行计算顶点位置，再通过 Unity 2019.3 的 Mesh API 直接写入网格缓冲区。
+- 课堂练习: 写一个让扫描物体泛起波纹的任务，用 AR Foundation 放在真实物体旁边。变体：波纹从你点击的位置扩散开。
+
+#### VfxCrystal: growing crystals — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1333403226813595649
+- 源代码: https://github.com/keijiro/VfxCrystal
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph
+- 创意点子: 网格粒子也能拼出看似实心的形体。
+- 作品内容: 尖锐的水晶碎片生长、旋转、散开，是一段完全由粒子做成的小循环动画。
+- 关键技术: VFX Graph 输出带光照的网格粒子，随生命周期随机改变朝向和大小，围绕中心排列成晶簇。
+- 课堂练习: 在 AR Foundation 检测到的真实表面上长出晶簇，点哪里就在哪里长出碎片。变体：房间越吵，水晶长得越快。
+
+#### WfcMaze: Wave Function Collapse maze — Keijiro Takahashi (2020)
+- 视频: https://x.com/_kzr/status/1249358391975137282
+- 源代码: https://github.com/keijiro/WfcMaze
+- 交互类型: 游戏与玩法, 空间理解
+- 平台与技术: 桌面, Unity, WFC, URP
+- 创意点子: 局部规则就能搭出一个完整的结构。
+- 作品内容: 一座三维迷宫一块一块地自动拼出来，每一块都根据邻居选择合适的形状。
+- 关键技术: 波函数坍缩为每个格子保留可选图块列表，先坍缩选项最少的格子，再把约束传播给相邻格子。
+- 课堂练习: 在 AR Foundation 检测到的桌面上用 WFC 生成一个小迷宫，让小角色在里面行走。变体：敲一下桌面，迷宫重新生成。
+
+#### Adding VFX to a Bibcam clip — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1460618910990929926
+- 源代码: https://github.com/keijiro/BibcamVfx
+- 交互类型: 感知与视觉艺术, 空间理解
+- 平台与技术: 手机, 桌面, Unity, VFX Graph, LiDAR
+- 创意点子: 对一段已录好的深度视频做'空间感知'的后期特效。
+- 作品内容: 对一段用 Bibcam 录制的行走视频进行后期处理，让粒子和光迹环绕真实的建筑与行人，特效随街道的真实深度而变化。
+- 关键技术: 视频中嵌入的深度和位姿信息让 VFX Graph 能逐帧采样真实几何，使粒子可以在画面中的表面上生成并与之碰撞。
+- 课堂练习: 把一段深度视频导入 TouchDesigner，用深度通道控制粒子密度，让近处的人变成光点；加一个变化：粒子颜色随时间从白天过渡到夜晚。
+
+#### Bibcam test in Shibuya — Keijiro Takahashi (2021)
+- 视频: https://vimeo.com/651111230
+- 源代码: https://github.com/keijiro/Bibcam
+- 交互类型: 空间理解, 感知与视觉艺术, 地点与城市
+- 平台与技术: 手机, Unity, ARKit, LiDAR, VFX Graph
+- 创意点子: 录像时把深度和相机位姿一起'烙'进视频，之后就能给街景补上贴合空间的特效。
+- 作品内容: 用 iPhone 13 Pro Max 拍摄的街头影像把深度和相机运动直接记录在视频里，之后就能为涩谷十字路口重新打光，并填入三维特效。
+- 关键技术: Bibcam 将 LiDAR 深度图和相机位姿作为元数据编码进每一帧录制画面，Unity 之后可据此重建三维场景，用于后期制作 AR 视觉特效。
+- 课堂练习: 用带 LiDAR 的手机录一段校园短片（或用 Record3D 导出），在 Unity/Blender 里给真实空间补上下雪或发光线条；加一个变化：特效只出现在离镜头 2 米之外。
+
+#### BlazeFace face filters on Barracuda — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1378352493134929926
+- 源代码: https://github.com/keijiro/BlazeFaceBarracuda
+- 交互类型: 面部
+- 平台与技术: 桌面, Unity, Barracuda, MediaPipe BlazeFace
+- 创意点子: 六个关键点就足够装饰一张脸。
+- 作品内容: 摄像头中的人脸被加上简单的 AR 装饰，贴在眼睛、鼻子和嘴巴上，实时跟随头部动作。
+- 关键技术: MediaPipe BlazeFace 在 Barracuda 上运行，输出人脸框和六个关键点，经过加权非极大值抑制稳定后再绘制装饰。
+- 课堂练习: 基于关键点设计一个面部滤镜，用手机上的 AR Foundation 面部追踪运行。变体：两张脸靠近时，装饰会产生反应。
+
+#### BodyPix visual effects (NNCam) — Keijiro Takahashi (2021)
+- 视频: https://vimeo.com/580670067
+- 源代码: https://github.com/keijiro/NNCam
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Barracuda, BodyPix
+- 创意点子: 实时把人从背景里'抠'出来，特效只作用在人身上。
+- 作品内容: 网络摄像头实时把人从背景中分割出来，并区分身体各部位，于是粒子、轮廓线和故障效果只会包裹实时画面中的人体。
+- 关键技术: BodyPix 人体及部位分割网络通过 Unity Barracuda 运行，其遮罩纹理用于发射 VFX Graph 粒子，并把粒子限制在人体范围内。
+- 课堂练习: 用 MediaPipe Selfie Segmentation 或 TouchDesigner 把同学的身体变成流动的墨水而背景保持不动；加一个变化：只有举起的手会燃烧。
+
+#### Compute shader data into VFX Graph — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1418439725631754244
+- 源代码: https://github.com/keijiro/VfxGraphGraphicsBufferTest
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Compute Shader, GraphicsBuffer
+- 创意点子: 在哪里模拟都行，用 VFX Graph 来渲染。
+- 作品内容: 粒子按照另一个计算着色器算出的图案运动，展示如何把 GPU 模拟结果直接交给 VFX Graph。
+- 关键技术: 计算着色器把位置写进 GraphicsBuffer，VFX Graph 的缓冲区节点每帧读取，无需烘焙成贴图。
+- 课堂练习: 写一个小型计算模拟（比如 boids 鸟群），用 VFX Graph 渲染，并用 AR Foundation 放在桌子上方。变体：鸟群会躲开手机。
+
+#### ComputeMarchingCubes: GPU isosurfaces — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1403359710577786881
+- 源代码: https://github.com/keijiro/ComputeMarchingCubes
+- 交互类型: 感知与视觉艺术, 信息与界面
+- 平台与技术: 桌面, 手机, Unity, Compute Shader, Marching Cubes
+- 创意点子: 把任何三维场实时变成实体表面。
+- 作品内容: 一个圆润平滑的表面从体数据中实时生成并变形，同样的代码也能显示 CT 扫描数据。
+- 关键技术: 计算着色器在标量网格上运行 marching cubes，把三角形直接写进网格的 GraphicsBuffer，并用场的梯度重建平滑法线。
+- 课堂练习: 做一个元球雕塑，其中的球跟随手机移动，用 AR Foundation 固定在房间里。变体：有人拍手的地方就多出一个球。
+
+#### FaceMeshBarracuda face & eye tracker — Keijiro Takahashi (2021)
+- 视频: https://vimeo.com/545493860
+- 源代码: https://github.com/keijiro/FaceMeshBarracuda
+- 交互类型: 面部, 注视
+- 平台与技术: 桌面, 手机, Unity, Barracuda, MediaPipe
+- 创意点子: 在 Unity 里用一个摄像头实现脸部网格与眼球追踪，做面具和视线特效。
+- 作品内容: 一个在 Unity 中运行的网络摄像头面部与虹膜追踪器，在实时视频上叠加密集的面部网格和眼部关键点，可直接用于面具和视线特效。
+- 关键技术: MediaPipe 面部网格与虹膜模型通过 Barracuda 运行，返回 468 个面部顶点和虹膜关键点，用于给叠加网格贴图并使其变形。
+- 课堂练习: 用 Spark/Lens Studio 或 MediaPipe FaceMesh 做一个跟着眼球转动的'第三只眼'面具；加一个变化：眨眼时面具换一张脸。
+
+#### Flipbook2: flip book with watercolor — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1398540851941314568
+- 源代码: https://github.com/keijiro/Flipbook2
+- 交互类型: 感知与视觉艺术, 实体物件
+- 平台与技术: 桌面, Unity, HDRP, Shader Graph, KinoAqua
+- 创意点子: 把视频变成实体：一叠书页。
+- 作品内容: 一段视频变成一本纸质翻页书，书页在三维中翻动，每一页都是水彩风格。
+- 关键技术: 把视频帧存进纹理数组，贴到用 Shader Graph 顶点变形卷曲的书页网格上，再用 KinoAqua 加上水彩效果。
+- 课堂练习: 采集手机相机帧，把它们做成一本放在真实桌面上的虚拟书，用 AR Foundation 翻页。变体：翻页速度跟随你滑动的速度。
+
+#### HandPoseBarracuda hand tracker — Keijiro Takahashi (2021)
+- 视频: https://vimeo.com/545493967
+- 源代码: https://github.com/keijiro/HandPoseBarracuda
+- 交互类型: 手势与身体
+- 平台与技术: 桌面, 手机, Unity, Barracuda, MediaPipe
+- 创意点子: 只用普通摄像头就能在 Unity 里拿到手指关节，做手势特效的基础件。
+- 作品内容: 只用一个网络摄像头，就能在 Unity 中实时追踪所有手指关节，并在实时画面上绘制三维手部骨架，作为手势驱动特效的基础构件。
+- 关键技术: MediaPipe 手掌检测与手部关键点神经网络通过 Unity Barracuda 在 GPU 上运行，每帧输出 21 个三维关键点。
+- 课堂练习: 用 MediaPipe Hands（网页版即可）追踪手指，让指尖在摄像头画面上拖出彩色光带；加一个变化：捏合手指时光带变成可抓的绳子。
+
+#### IrisBarracuda: eye and iris tracking — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1382324941861769220
+- 源代码: https://github.com/keijiro/IrisBarracuda
+- 交互类型: 面部, 注视
+- 平台与技术: 桌面, Unity, Barracuda, MediaPipe Iris
+- 创意点子: 知道虹膜在哪里，就能做由视线驱动的特效。
+- 作品内容: 实时追踪一只眼睛的特写，用点勾出眼睑轮廓和虹膜圆圈。
+- 关键技术: MediaPipe 虹膜关键点模型在 Barracuda 上对裁剪出的眼部区域运行，返回眼睑轮廓点以及虹膜中心和半径。
+- 课堂练习: 用 AR Foundation 的眼动追踪（或这个模型）让粒子从用户注视的方向射出。变体：眨眼就重置场景。
+
+#### KinoAqua: watercolor effect with VFX Graph — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1392482946393677829
+- 源代码: https://github.com/keijiro/KinoAqua
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, HDRP, VFX Graph
+- 创意点子: 绘画风格的滤镜让电脑图形有手作感。
+- 作品内容: 粒子动画像用水彩画出来一样，有柔和的边缘、纸张纹理和颜料的晕染。
+- 关键技术: 后处理通道检测边缘，把边缘加深模拟颜料积聚，加上基于噪声的晃动，再乘上纸张纹理。
+- 课堂练习: 在 AR Foundation 中加水彩后处理，让真实房间和虚拟物体都像画出来的。变体：手机停留越久的地方，画面越“湿”。
+
+#### M-LSD line detection as VFX — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1413426397054332930
+- 源代码: https://github.com/keijiro/MlsdBarracuda
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Barracuda, M-LSD, VFX Graph
+- 创意点子: 房间的结构本身就成了画。
+- 作品内容: 实时画面中检测到的直线，比如房间边缘和家具轮廓，被变成发光的线和粒子火花。
+- 关键技术: M-LSD 线段检测模型在 Barracuda 上运行，检测到的线段通过缓冲区传给 VFX Graph，沿线段生成粒子。
+- 课堂练习: 在 AR Foundation 相机画面中检测直线，用火花描出来，让房间的边缘亮起来。变体：只有水平线会发光。
+
+#### NoiseBall6: compute shader mesh on mobile — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1402611991118712841
+- 源代码: https://github.com/keijiro/NoiseBall6
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 手机, 桌面, Unity, Compute Shader, Mesh API
+- 创意点子: 直接在 GPU 上变形几何体，让手机也能跑重特效。
+- 作品内容: 一个尖刺状的噪声球每帧在 GPU 上变形，在手机和电脑上都能运行。
+- 关键技术: Mesh API 把顶点和索引缓冲暴露为 GraphicsBuffer，计算着色器直接改写网格，不占用 CPU。
+- 课堂练习: 写一个计算着色器，让 AR Foundation 锚定的网格变形，并在手机上测试帧率。变体：尖刺指向最近的人。
+
+#### OAK-D-Lite stereo depth particles — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1474726909917667330
+- 源代码: https://github.com/keijiro/DepthAITestbed
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, DepthAI, OAK-D-Lite
+- 创意点子: 便宜的立体相机就足以做人体粒子。
+- 作品内容: 小巧的 OAK-D-Lite 立体相机拍到的人，实时变成流动的粒子形象。
+- 关键技术: 一个小型原生插件读取 DepthAI 设备的立体深度，转换成位置贴图交给 VFX Graph。
+- 课堂练习: 用同一个粒子图，对比立体相机和 LiDAR iPhone（AR Foundation）的深度效果。变体：把两种来源混在一个场景里。
+
+#### SelfieBarracuda: virtual background on phones — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1405518336230793223
+- 源代码: https://github.com/keijiro/SelfieBarracuda
+- 交互类型: 手势与身体, 传送门与世界替换
+- 平台与技术: 手机, 桌面, Unity, Barracuda, MediaPipe Selfie Segmentation
+- 创意点子: 分割把人和世界分开，两者可以各自加特效。
+- 作品内容: 人被实时从环境中抠出来，放到新背景上，在 iPhone X 和 Pixel 5 上都运行流畅。
+- 关键技术: MediaPipe Selfie 分割模型通过 Barracuda 在 GPU 上运行，输出人像遮罩，用来把相机画面合成到另一个背景上。
+- 课堂练习: 在 AR Foundation 中用分割遮罩把人以外的一切换成 VFX Graph 世界。变体：背景世界随人在画面中占的面积而变化。
+
+#### SushiVfx: vaporizing a sushi — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1442857433483726859
+- 源代码: https://github.com/keijiro/SushiVfx
+- 交互类型: 实体物件, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Photogrammetry
+- 创意点子: 把真实食物扫描下来，就能变成有趣的特效。
+- 作品内容: 一块扫描得到的寿司散成一团彩色粒子，又重新组合。
+- 关键技术: VFX Graph 从扫描网格表面采样位置和颜色，粒子被噪声推开，再被拉回原来的位置。
+- 课堂练习: 用 Polycam 扫描一块零食，让它散成粒子，再用 AR Foundation 放在真实盘子上。变体：真的叉子靠近时它就散开。
+
+#### TinyYOLOv2 object detection in Unity — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1353349183252533249
+- 源代码: https://github.com/keijiro/TinyYOLOv2Barracuda
+- 交互类型: 信息与界面, 实体物件
+- 平台与技术: 桌面, Unity, Barracuda, YOLO
+- 创意点子: 让引擎知道自己在看什么。
+- 作品内容: 实时视频里的人、车和其他物体被神经网络识别出来，框上带标签的方框，全部在 Unity 里运行。
+- 关键技术: Tiny YOLOv2 ONNX 模型在 GPU 上通过 Barracuda 运行，计算着色器把输出网格解码成方框并去除重叠后再绘制。
+- 课堂练习: 在 AR Foundation 相机画面上运行目标检测，在每个识别到的杯子或人身上生成 VFX Graph 特效。变体：每个类别对应一种特效。
+
+#### UltraFace: realtime emoji face overlay — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1361657191401365505
+- 源代码: https://github.com/keijiro/UltraFaceBarracuda
+- 交互类型: 面部
+- 平台与技术: 桌面, Unity, Barracuda, UltraFace
+- 创意点子: 人脸检测加一张贴纸，就是最简单的面部滤镜。
+- 作品内容: 视频中的每张脸，即使在人群里，都被一个 emoji 实时盖住并跟随。
+- 关键技术: 轻量的 UltraFace 检测器在 Barracuda 上运行，用检测到的方框确定每张脸上 emoji 贴图的位置。
+- 课堂练习: 在 AR Foundation 相机画面里检测人脸，给每张脸盖上不同的 emoji。变体：emoji 随这个人离手机的远近而变化。
+
+#### VFX Graph with 300,000 particles — Keijiro Takahashi (2021)
+- 视频: https://x.com/_kzr/status/1400753544999817216
+- 源代码: https://github.com/keijiro/VfxGraphTestbed2
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph
+- 创意点子: 数量改变感受：足够多的粒子就成了一种材质。
+- 作品内容: 几十万颗发光粒子在密集的丝带和云团中旋转，全部在 GPU 上实时模拟。
+- 关键技术: VFX Graph 用类似卷曲噪声的湍流和加色混合模拟粒子，依靠 GPU 计算每帧更新 30 万颗粒子。
+- 课堂练习: 测试你的手机在 AR Foundation 场景中能承受多少粒子，然后在这个上限附近设计作品。变体：粒子数量随房间亮度变化。
+
+#### BibcamStage: live show at Channel 22 — Keijiro Takahashi (2022)
+- 视频: https://www.youtube.com/watch?v=v3mRlMx_6Is
+- 源代码: https://github.com/keijiro/BibcamStage
+- 交互类型: 表演与舞台, 空间理解, 地点与城市
+- 平台与技术: 投影, 手机, Unity, VFX Graph, LiDAR, Bibcam, Bitwig
+- 创意点子: 用手机记录的日常散步，成了舞台素材。
+- 作品内容: 在一场现场视听表演中，用 iPhone LiDAR 录下的城市街景被当作体积场景回放，加上粒子和故障特效，同时 Bitwig 播放生成音乐。
+- 关键技术: Bibcam 视频在一帧中存着颜色、深度、人像遮罩和相机位姿，Unity 解码后在三维中重建场景，并加上与音乐同步的 VFX Graph 特效。
+- 课堂练习: 用 LiDAR 手机（Record3D 或 Metavido）录一段散步，用 AR Foundation 在桌上以点云回放，并配上音乐。变体：场景只在节拍上重建。
+
+#### Metawire: wireframe primitives for VFX — Keijiro Takahashi (2022)
+- 视频: https://x.com/_kzr/status/1537797028817735680
+- 源代码: https://github.com/keijiro/Metawire
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Mesh, Scripted Importer
+- 创意点子: 线框只用很少的几何体，就有科技感和全息感。
+- 作品内容: 发光的线框球、立方体和圆环旋转、脉动，呈现干净的线条图形。
+- 关键技术: 脚本化资源导入器为基本形体生成线段拓扑网格，用自发光材质绘制，或作为 VFX 来源。
+- 课堂练习: 用 AR Foundation 图像或物体追踪，给真实物体套上一个跟随的线框盒子。变体：碰到物体时线框展开。
+
+#### Procedural walk with Animation Rigging — Keijiro Takahashi (2022)
+- 视频: https://x.com/_kzr/status/1574788205010112513
+- 源代码: https://github.com/keijiro/CharacterRigTest
+- 交互类型: 游戏与玩法, 空间理解
+- 平台与技术: 桌面, Unity, Animation Rigging
+- 创意点子: 动作可以算出来，而不是逐帧摆出来。
+- 作品内容: 一个角色在键盘控制下行走、转身，没有任何动画片段；双脚自己找到地面，身体自然倾斜。
+- 关键技术: 用脚本根据身体速度程序化规划落脚点，驱动 Animation Rigging 约束（双骨 IK 和多目标朝向）。
+- 课堂练习: 做一个程序化行走的小角色，用 AR Foundation 平面检测让它在真实地面上跟着手机走。变体：让它爬上检测到的真实台阶。
+
+#### Speed lines post effect — Keijiro Takahashi (2022)
+- 视频: https://x.com/_kzr/status/1506969479158243331
+- 源代码: https://github.com/keijiro/SimplePostEffects
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Shader Graph
+- 创意点子: 把漫画的表现手法变成画面特效。
+- 作品内容: 漫画风格的速度线从画面中心向外放射，叠在三维场景上，像动起来的漫画格。
+- 关键技术: 全屏 Shader Graph 用极坐标噪声绘制放射线，随时间动画，并通过 URP 渲染器功能插入画面。
+- 课堂练习: 手机快速移动时，在 AR Foundation 相机画面上加速度线。变体：速度线指向一个隐藏的虚拟物体。
+
+#### StickShow: a sea of glow sticks — Keijiro Takahashi (2022)
+- 视频: https://x.com/_kzr/status/1564979744642179073
+- 源代码: https://github.com/keijiro/StickShow
+- 交互类型: 表演与舞台, 声音
+- 平台与技术: 桌面, Unity, GPU Instancing, Shader Graph
+- 创意点子: 人群就是带着细微差别的重复物体。
+- 作品内容: 舞台前成千上万根彩色荧光棒像观众一样成片摇摆，全部用一次实例化绘制完成。
+- 关键技术: Graphics.RenderMeshInstanced 把同一根荧光棒网格绘制几千次，每个实例的数据（颜色、相位）传给 Shader Graph，用正弦波让每根棒子摆动。
+- 课堂练习: 在 AR Foundation 检测到的真实地面上铺满实例化荧光棒，让它们随音乐摇摆。变体：靠近观众的荧光棒会转向观众。
+
+#### VFX with Unity AR Foundation — Keijiro Takahashi (2022)
+- 视频: https://x.com/_kzr/status/1601509152395706369
+- 源代码: https://github.com/keijiro/Rcam2
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 手机, Unity, AR Foundation, ARKit, LiDAR, VFX Graph
+- 创意点子: 直接在手机上实时让光效沿真实环境生长。
+- 作品内容: 在 iPhone 上实时运行：发光的粒子和线条在真实房间和镜头前的人身上生长，并锚定在 LiDAR 扫描出的环境中。
+- 关键技术: AR Foundation 提供 LiDAR 环境深度和人体模板纹理，VFX Graph 在设备端对其采样，从真实表面发射粒子。
+- 课堂练习: 用 AR Foundation 或 Lens Studio 的深度纹理，让房间表面冒出萤火虫；加一个变化：人走过的地方萤火虫会散开。
+
+#### VzoVfx: triggering VFX from Bitwig — Keijiro Takahashi (2022)
+- 视频: https://x.com/_kzr/status/1492752963206406148
+- 源代码: https://github.com/keijiro/VzoVfx
+- 交互类型: 声音, 表演与舞台
+- 平台与技术: 桌面, Unity, VFX Graph, OSC, Bitwig
+- 创意点子: 让音乐软件直接驱动画面。
+- 作品内容: Bitwig 音乐工程中的鼓点在 Unity 中触发粒子爆发，与节拍精确同步。
+- 关键技术: VZO 插件把 DAW 中的音符和参数事件通过 OSC 发出，VzoVfx 绑定器把它们转换成带时间补偿的 VFX Graph 事件。
+- 课堂练习: 从音乐软件向运行 AR Foundation 的手机发送 OSC，让每个鼓点在真实物体上爆出粒子。变体：每种鼓对应房间里不同的物体。
+
+#### Walking a Taiwanese street with iPhone LiDAR — Keijiro Takahashi (2022)
+- 视频: https://x.com/_kzr/status/1607672355710709760
+- 交互类型: 空间理解, 地点与城市, 感知与视觉艺术
+- 平台与技术: 手机, Unity, ARKit, LiDAR
+- 创意点子: 用 LiDAR 的'看不远'这一缺陷，本身做成一种梦境般的街景风格。
+- 作品内容: 在台湾一条街道上的夜间漫步，被呈现为一个由 iPhone LiDAR 实时构建的稀疏点云世界，既展现了这种传感器的神奇之处，也暴露了它 5 米的探测距离限制。
+- 关键技术: 每一帧的 LiDAR 深度采样被重投影为世界空间中的点并不断累积，让场景重建为行走者周围的一道彩色点迹。
+- 课堂练习: 用 Polycam/Scaniverse 扫一条走廊，导出点云并用 three.js 只显示离你 5 米内的点；加一个变化：点云随脚步声闪烁。
+
+#### AIShader: ChatGPT shader generator — Keijiro Takahashi (2023)
+- 视频: https://x.com/_kzr/status/1632634562399600640
+- 源代码: https://github.com/keijiro/AIShader
+- 交互类型: 空间绘画与创作, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, ChatGPT, ShaderLab
+- 创意点子: 用文字描述一个表面，就得到一个着色器。
+- 作品内容: 在 Unity 编辑器里输入一句提示词，就会生成可用的着色器，屏幕上的材质立刻变成描述的样子。
+- 关键技术: 编辑器扩展把提示词套进固定模板发给 ChatGPT API，再把返回的代码导入为 Unity 着色器资源。
+- 课堂练习: 用大模型根据文字提示生成三个着色器，贴到扫描的真实物体上，再用 AR Foundation 放回房间。变体：让观众来写提示词。
+
+#### BodyPix body part tracking — Keijiro Takahashi (2023)
+- 视频: https://x.com/_kzr/status/1626200056033599491
+- 源代码: https://github.com/keijiro/BodyPixSample
+- 交互类型: 手势与身体
+- 平台与技术: 桌面, Unity, Barracuda, BodyPix
+- 创意点子: 知道身体每个部位在哪里，就能给每个部位不同的特效。
+- 作品内容: 摄像头中的人被实时分割成不同颜色的身体部位，并用关键点追踪手臂、腿和脸。
+- 关键技术: BodyPix 模型在 Barracuda/Sentis 上运行，输出 24 个部位的分割图和关键点，着色器给每个部位上色，另一个示例把关键点当作游戏输入。
+- 课堂练习: 在 AR Foundation 中用人体分割，只让手臂发射粒子，身体其他部分保持正常。变体：自动把脸打上马赛克保护隐私。
+
+#### Dcam: realtime Stable Diffusion in live performance — Keijiro Takahashi (2023)
+- 视频: https://www.youtube.com/watch?v=iVi-7oz67OU
+- 源代码: https://github.com/keijiro/Dcam
+- 交互类型: 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, Stable Diffusion, Core ML, NDI
+- 创意点子: 让图像生成快到可以当作现场视觉。
+- 作品内容: 在 Metome 的现场演出中，舞台的相机画面每秒被 Stable Diffusion 图生图重绘几次，以流动的绘画画面投影出来。
+- 关键技术: 在 Mac 上的 Unity 中运行 Apple 的 Core ML 版 Stable Diffusion 图生图，iPhone 通过 NDI 传输相机视频和控制信号。
+- 课堂练习: 把手机相机画面发给图生图模型（比如快速的 SDXL-Turbo 服务），在 AR Foundation 中把结果作为浮动面板放在真实场景旁。变体：提示词随歌曲段落变化。
+
+#### Duotone image effect — Keijiro Takahashi (2023)
+- 视频: https://x.com/_kzr/status/1789384955136733476
+- 源代码: https://github.com/keijiro/Duotone
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Render Graph
+- 创意点子: 减少颜色，让画面更有图形感。
+- 作品内容: 全彩场景被重绘成只有两种颜色加抖动的画面，像印刷海报。
+- 关键技术: URP 全屏通道把亮度映射到双色渐变上，再加暗部和高光两个颜色，并做有序抖动。
+- 课堂练习: 给 AR Foundation 相机画面加双色调滤镜，让整个房间看起来像孔版印刷。变体：每个人有自己的一对颜色。
+
+#### Gamma: live coding at GitHub Universe Recap — Keijiro Takahashi (2023)
+- 视频: https://www.youtube.com/watch?v=gA9beOCv8s0
+- 源代码: https://github.com/keijiro/Gamma
+- 交互类型: 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, KodeLife, GLSL, Syphon
+- 创意点子: 当众写代码本身就是表演。
+- 作品内容: 在东京的一场派对上，高桥启治郎在 KodeLife 里现场写着色器，DJ 同时放歌；代码把反馈漩涡和色彩叠加到 Unity 渲染的三维场景上。
+- 关键技术: Unity 渲染三维场景，推测通过 Syphon 共享给 KodeLife，在那里现场编辑的 GLSL 着色器加上反馈和色彩效果，代码同时显示在屏幕上。
+- 课堂练习: 现场编写一个处理手机相机画面的片段着色器（KodeLife 或 shadertoy 风格的 WebGL），然后显示在房间里的 AR 浮动面板上。变体：观众喊出参数值。
+
+#### SplatVFX: 3D Gaussian Splatting in VFX Graph — Keijiro Takahashi (2023)
+- 视频: https://x.com/_kzr/status/1714214841265856932
+- 源代码: https://github.com/keijiro/SplatVFX
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, 网页, Unity, VFX Graph, Gaussian Splatting
+- 创意点子: 一个写实采集，同时也是一个粒子系统。
+- 作品内容: 用高斯泼溅采集的写实三维场景在 Unity 中以数百万个柔和的泼溅点渲染，还可以像粒子一样被打散。
+- 关键技术: 把高斯泼溅数据（位置、缩放、旋转、颜色）载入缓冲区，VFX Graph 把每个泼溅画成有朝向、半透明的面片并按深度排序。
+- 课堂练习: 用手机应用（Polycam 或 Luma）采集一个物体的高斯泼溅，在 AR Foundation 中放在真实物体旁，触碰时让它散开。变体：交换真实物体和泼溅，让观众猜哪个是真的。
+
+#### VFX Graph custom HLSL: plexus network — Keijiro Takahashi (2023)
+- 视频: https://x.com/_kzr/status/1812469561704468638
+- 源代码: https://github.com/keijiro/VFXCustomCode
+- 交互类型: 感知与视觉艺术, 空间理解
+- 平台与技术: 桌面, Unity, VFX Graph, HLSL
+- 创意点子: 把相邻的点连起来，粒子群就成了网。
+- 作品内容: 发光的点在空间中漂浮，并用细线连接最近的邻居，形成一张流动的网。
+- 关键技术: VFX Graph 中的自定义 HLSL 节点在缓冲区里为每个粒子寻找最近的邻居，输出目标位置用来画连线。
+- 课堂练习: 用 AR Foundation 网格化在真实表面上生成点，把相邻点连成覆盖房间的发光网。变体：有人穿过时，线会断开。
+
+#### Volumetric fog from VFX Graph — Keijiro Takahashi (2023)
+- 视频: https://x.com/_kzr/status/1615973816286744578
+- 源代码: https://github.com/keijiro/VolumetricVfxTest
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HDRP, VFX Graph
+- 创意点子: 粒子可以写进雾里，而不只是贴图片。
+- 作品内容: 柔和的紫色烟雾从茶壶里升起，被当作真正的体积雾来照明，与场景光融为一体。
+- 关键技术: VFX Graph 的体积雾输出（Unity 2023.1 HDRP）把粒子密度写入局部体积雾缓冲区，让烟雾接收场景的光照和阴影。
+- 课堂练习: 用柔和粒子在 AR Foundation 中让真实杯子冒出烟雾，并用估计的房间光照明。变体：对麦克风吹气可以把烟吹走。
+
+#### Dcam2: Stable Diffusion VJ set with DUB-Russell — Keijiro Takahashi (2024)
+- 视频: https://www.youtube.com/watch?v=qa4jv5JhKhM
+- 源代码: https://github.com/keijiro/Dcam2
+- 交互类型: 表演与舞台, 手势与身体
+- 平台与技术: 投影, 桌面, Unity, Stable Diffusion, Core ML, BodyPix
+- 创意点子: 把生成式 AI 与人体追踪混合，做现场视觉。
+- 作品内容: 在 Channel 24，DUB-Russell 的现场演出配上的视觉中，相机画面被 Stable Diffusion 重绘成带故障感的高饱和插画。
+- 关键技术: 在 Mac 上实时运行 Stable Diffusion 图生图，并结合 BodyPix 分割和关键点给表演者加上额外特效（视频与 Dcam2 仓库的对应关系是推测，未明确说明）。
+- 课堂练习: 做一个手机 AR 滤镜：分割出人像，只把背景发给图生图模型，再把绘制好的背景合成回人身后。变体：每次节拍落下时换一种风格。
+
+#### DrumPadVFX: finger drum visualizer — Keijiro Takahashi (2024)
+- 视频: https://x.com/_kzr/status/1849430841119973885
+- 源代码: https://github.com/keijiro/DrumPadVFX
+- 交互类型: 声音, 实体物件, 表演与舞台
+- 平台与技术: 桌面, Unity, VFX Graph, Minis, MIDI
+- 创意点子: 每个鼓垫都有自己的视觉声音。
+- 作品内容: 在 Yamaha 手指鼓垫上每敲一下，屏幕上就爆出对应的形状和粒子，与节奏同步。
+- 关键技术: Minis 通过 Input System 读取鼓垫的 MIDI，输入绑定器按音符触发 VFX Graph 事件，全程不用写代码。
+- 课堂练习: 把 MIDI 控制器（或屏幕上的打击垫）的每个垫子映射到 AR Foundation 中不同真实物体上的特效。变体：特定组合触发一个把所有物体连起来的大特效。
+
+#### FloatingHUD: floating interface effect — Keijiro Takahashi (2024)
+- 视频: https://x.com/_kzr/status/1897620890919280893
+- 源代码: https://github.com/keijiro/FloatingHUD
+- 交互类型: 信息与界面, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Shader Graph, URP
+- 创意点子: 把界面图形当作空间中的视觉特效。
+- 作品内容: 透明的 HUD 面板、网格和扫描线漂浮在一个物体周围的三维空间里，像科幻电影的界面。
+- 关键技术: VFX Graph 生成面片，贴上 Shader Graph 做的 HUD 元素和经过滤镜处理的摄像头画面，围绕中心排列并动画。
+- 课堂练习: 在 AR Foundation 中用漂浮的 HUD 面板包围一个真实物体，显示关于它的虚构数据。变体：面板显示真实数据，比如房间噪音。
+
+#### Metavido VFX (WebGPU) — Keijiro Takahashi (2024)
+- 视频: https://x.com/_kzr/status/1828366682689061280
+- 源代码: https://github.com/keijiro/MetavidoVFX
+- 交互类型: 感知与视觉艺术, 空间理解
+- 平台与技术: 手机, 网页, Unity, WebGPU, VFX Graph, LiDAR
+- 创意点子: 把手机拍的'带深度的视频'放进网页，任何人都能在浏览器里围着它看特效。
+- 作品内容: 用 iPhone Pro 拍摄的体积视频片段在网页浏览器中播放，被记录下来的人和空间以粒子和特效的形式在 3D 中重新渲染。
+- 关键技术: Metavido 把 LiDAR 深度和相机元数据存储在标准视频流中，Unity 的 WebGPU 构建版本对其解码，在浏览器中重建点云用于视觉特效。
+- 课堂练习: 用 Record3D 或手机深度视频导入 three.js，在网页里把一段舞蹈重建成点云；加一个变化：观众点击后切换成'沙子'材质坍塌。
+
+#### Rcam3 for Masaya Matsuura's concert — Keijiro Takahashi (2024)
+- 视频: https://x.com/_kzr/status/1871169155254435978
+- 源代码: https://github.com/keijiro/Rcam3
+- 交互类型: 表演与舞台, 手势与身体, 感知与视觉艺术
+- 平台与技术: 手机, 投影, Unity, VFX Graph, ARKit, LiDAR
+- 创意点子: 把手机 LiDAR 当成舞台上的体积摄像头，实时生成演出视觉。
+- 作品内容: 在松浦雅也的演唱会上，舞台上固定的一部 iPhone 捕捉表演者的深度信息，Unity 把他们的剪影转化为大尺度视觉特效，显示在乐队身后。
+- 关键技术: iPhone 控制端应用把彩色画面和 LiDAR 深度串流到主机，主机把深度转换为点的位置，驱动 VFX Graph 生成投影画面。
+- 课堂练习: 用一台手机拍乐手，在 TouchDesigner 里把人体轮廓转成粒子投影到身后；加一个变化：鼓点触发粒子爆开。
+
+#### VFX Graph sketch: glowing lines on a moving figure — Keijiro Takahashi (2024)
+- 视频: https://x.com/_kzr/status/1790748365518725597
+- 源代码: https://github.com/keijiro/VfxGraphTestbed3
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph
+- 创意点子: 只用跟随身体的线来画出身体。
+- 作品内容: 红色发光线条在黑暗中绕着一个运动的人形描画、环绕，用光画出动作。
+- 关键技术: VFX Graph 在动画蒙皮网格上采样位置，画出延迟跟随这些点的粒子条带（推测使用网格采样和条带输出）。
+- 课堂练习: 用 AR Foundation 人体追踪把光带挂在真实舞者的关节上，用 HoloKit 观看。变体：光带保留最近 5 秒的动作。
+
+#### Fluo: fluid and spectral color visualizer — Keijiro Takahashi (2025)
+- 视频: https://x.com/_kzr/status/1962518821111280037
+- 源代码: https://github.com/keijiro/Fluo
+- 交互类型: 表演与舞台, 感知与视觉艺术
+- 平台与技术: 投影, 手机, Unity, Stable Fluids, spectral.js, NDI
+- 创意点子: 相机画面成为流体里的颜料。
+- 作品内容: 实时相机画面溶解成明亮流动的混色流体，用作俱乐部活动的视觉。
+- 关键技术: Stable Fluids 把相机颜色当作染料进行平流，spectral.js 像颜料一样混色；iPhone 通过 NDI 把相机画面和控制信号传给主机。
+- 课堂练习: 把手机相机画面传进流体着色器，结果显示在表演者面前的 AR 浮动面板上。变体：表演者的动作给流体加力。
+
+#### LightGridShader: LED display look — Keijiro Takahashi (2025)
+- 视频: https://x.com/_kzr/status/1962445754007765480
+- 源代码: https://github.com/keijiro/LightGridShader
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Shader Graph
+- 创意点子: 模仿实体屏幕的结构，让画面更真实。
+- 作品内容: 图像和动画像显示在巨大的 LED 屏上，能看到一颗颗发光二极管，并晕开成柔和光斑。
+- 关键技术: Shader Graph 把 UV 量化成网格，每格采样一次源图，把每格画成自发光点，再结合 MiniBokeh 虚化。
+- 课堂练习: 用 AR Foundation 在真实建筑外墙上放一块虚拟 LED 广告屏，显示手机相机画面。变体：有人影落下的地方 LED 熄灭。
+
+#### MiniBokeh: lightweight depth of field — Keijiro Takahashi (2025)
+- 视频: https://x.com/_kzr/status/1959598355149180928
+- 源代码: https://github.com/keijiro/MiniBokeh
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, 网页, Unity, URP
+- 创意点子: 便宜的散景虚化，让画面像被拍出来的。
+- 作品内容: 带有小亮光的场景在背景中出现柔和的圆形光斑虚化，开销低到可以在手机和网页上运行。
+- 关键技术: 不读深度贴图，而是假设一个参考平面，按与该平面的距离使用可分离圆形模糊。
+- 课堂练习: 给 AR Foundation 场景中的虚拟灯光加散景虚化，让它们与手机相机的真实虚化一致。变体：焦点跟随最近的人脸。
+
+#### Pigment-based color mixing: fluid art — Keijiro Takahashi (2025)
+- 视频: https://x.com/_kzr/status/1952365070601855069
+- 源代码: https://github.com/keijiro/PigmentTest
+- 交互类型: 空间绘画与创作, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, spectral.js, Shader
+- 创意点子: 像颜料那样混色，而不是像光那样。
+- 作品内容: 摄像头画面被搅成流动的颜料，颜色像真实颜料一样混合，黄加蓝变成绿色而不是灰色。
+- 关键技术: 推测使用 spectral.js 风格的 Kubelka-Munk 混色，先把颜色转换为光谱反射率再混合，并在流体平流着色器中使用。
+- 课堂练习: 把 AR Foundation 相机画面变成颜料，手指拖到哪里就在哪里搅动。变体：把画作定格在真实墙面上，成为一块虚拟画布。
+
+#### Realtime optical flow glitch machine — Keijiro Takahashi (2025)
+- 视频: https://x.com/_kzr/status/1886351525569843694
+- 源代码: https://github.com/keijiro/OpticalFlowTest
+- 交互类型: 感知与视觉艺术, 手势与身体
+- 平台与技术: 桌面, Unity, Compute Shader, Optical Flow
+- 创意点子: 用运动本身去推动像素。
+- 作品内容: 实时画面沿物体运动方向涂抹、融化，像数据损坏的故障效果，但完全实时计算。
+- 关键技术: 计算着色器用 Lucas-Kanade 方法估计光流，反馈通道沿光流向量位移上一帧，模拟数据损坏效果。
+- 课堂练习: 给 AR Foundation 相机画面加光流涂抹，挥手时会把房间一起拖走。变体：只在虚拟物体覆盖的区域涂抹。
+
+#### TrackpadFluid: ten-finger fluid — Keijiro Takahashi (2025)
+- 视频: https://x.com/_kzr/status/1956332698592805220
+- 源代码: https://github.com/keijiro/TrackpadFluid
+- 交互类型: 手势与身体, 空间绘画与创作
+- 平台与技术: 桌面, Unity, Stable Fluids, Native Plugin
+- 创意点子: 触控板变成一个可以多指搅动的颜料池。
+- 作品内容: 十根手指同时在 Mac 触控板上搅动彩色流体模拟，每根手指推出自己的漩涡。
+- 关键技术: 原生插件读取触控板的原始多点触控数据，把力和颜料注入 GPU 上的 Stable Fluids 求解器。
+- 课堂练习: 在 AR Foundation 中让一个 Stable Fluids 虚拟水池躺在真实桌面上，用手机多点触控搅动。变体：两台手机搅动同一个水池。
+
+#### Triangle Splatting importer — Keijiro Takahashi (2025)
+- 视频: https://x.com/_kzr/status/1939302534285582621
+- 源代码: https://github.com/keijiro/TriangleSplattingTest
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Triangle Splatting, Gemini CLI
+- 创意点子: 用三角形采集的场景，普通渲染器就能跑。
+- 作品内容: 用 Triangle Splatting 重建的写实场景被导入 Unity，变成一团彩色小三角形，可以从任意角度观看。
+- 关键技术: 一个自定义导入器（借助 AI 编程代理编写）读取 Triangle Splatting 导出的 .off 三角形汤，生成顶点着色网格。
+- 课堂练习: 导入采集得到的三角形汤，在 AR Foundation 中按真实尺寸摆放，触碰时让三角形像粒子一样飞散。变体：只有从拍摄位置看时场景才重新拼合。
+
+#### FlashGlitch: trigger-based glitch — Keijiro Takahashi (2026)
+- 视频: https://x.com/_kzr/status/2030279235081060715
+- 源代码: https://github.com/keijiro/FlashGlitch
+- 交互类型: 声音, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP
+- 创意点子: 像鼓点一样打出的故障效果。
+- 作品内容: 每次触发时，画面上闪过短促强烈的故障，专为与音乐节拍同步而做。
+- 关键技术: URP 渲染器功能在每次调用触发方法时，播放一段短暂的随机故障包络（位移、反色、切片）。
+- 课堂练习: 用麦克风检测底鼓，每次触发时让 AR Foundation 相机画面闪一下故障。变体：通过 HoloKit 观看时只在一只眼睛里出现故障。
+
+#### Karbon: live camera visuals with Launchpad — Keijiro Takahashi (2026)
+- 视频: https://x.com/_kzr/status/2034570627886239876
+- 源代码: https://github.com/keijiro/Karbon
+- 交互类型: 表演与舞台, 实体物件
+- 平台与技术: 投影, 桌面, Unity, URP, Minis, Launchpad
+- 创意点子: 像打鼓机一样演奏相机特效。
+- 作品内容: 歌手的实时相机画面在俱乐部活动中被实时切片、染色和故障化，通过按 Novation Launchpad 上的按键来控制。
+- 关键技术: UVC 采集设备把相机画面接入 Unity URP，一组自定义全屏效果通过 Minis 映射到 Launchpad 按键上，还支持复音触后。
+- 课堂练习: 把手机 AR 应用里的四种相机特效映射到四个屏幕按键上，配合朋友的音乐现场演奏。变体：按压力度或时长控制强度。
+
+#### KinoGlitch URP: analog and digital glitch — Keijiro Takahashi (2026)
+- 视频: https://x.com/_kzr/status/2025558651768070209
+- 源代码: https://github.com/keijiro/KinoGlitchURP
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP
+- 创意点子: 把坏掉的信号变成一种表现风格。
+- 作品内容: 画面出现扫描线抖动、色彩漂移、块状噪点和新的水平波纹，重现损坏的视频信号。
+- 关键技术: 轻量的 URP 全屏通道用噪声按行、按块偏移 UV 并分离 RGB 通道，由挂在相机上的控制组件驱动。
+- 课堂练习: 每当虚拟物体出现或消失时，让 AR Foundation 相机画面出现故障，好像现实坏掉了。变体：离隐藏锚点越近，故障越强。
+
+#### Light leak effect — Keijiro Takahashi (2026)
+- 视频: https://x.com/_kzr/status/2028469137132114330
+- 源代码: https://github.com/keijiro/LightLeakEffectExample
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, VFX Graph, Shader Graph
+- 创意点子: 借用胶片相机的意外，营造氛围。
+- 作品内容: 温暖的光条和光斑在画面上漂过，像胶片漏光一样叠在场景上。
+- 关键技术: 用 Shader Graph 和 VFX Graph 做出的漏光光源由离屏相机渲染到 RenderTexture，再模糊并合成到主画面上。
+- 课堂练习: 给 AR Foundation 相机画面加漂移的漏光，颜色跟随真实房间的光照估计。变体：漏光从最近的窗户方向进入。
+
+#### MeshSlicer: cutting objects in real time — Keijiro Takahashi (2026)
+- 视频: https://x.com/_kzr/status/2074120483688374287
+- 源代码: https://github.com/keijiro/MeshSlicer
+- 交互类型: 游戏与玩法, 手势与身体
+- 平台与技术: 桌面, Unity, Unity MCP, Physics
+- 创意点子: 切开任意网格，并把切口补上。
+- 作品内容: 木箱沿一个平面被切开，碎成带有干净新切面的几块，这是一个借助 AI 编程代理完成的交互演示。
+- 关键技术: 切割器按平面拆分三角形，为切面生成封口几何体，再把两半变成物理物体；代码通过 Unity MCP 由 AI 代理编写。
+- 课堂练习: 在 AR Foundation 中挥动手机穿过真实桌上的虚拟物体，把它们切开。变体：切开一个真实物体的扫描模型，并把真的藏起来。
+
+#### Robust Video Matting on Mac — Keijiro Takahashi (2026)
+- 视频: https://x.com/_kzr/status/2101943586606678108
+- 源代码: https://github.com/keijiro/unity-rvm-coreml
+- 交互类型: 手势与身体, 传送门与世界替换
+- 平台与技术: 桌面, Unity, Core ML, Metal, RVM
+- 创意点子: 干净的抠像让任何人都能成为合成图层。
+- 作品内容: 视频中的人在复杂背景下也能被实时干净地抠出来，连头发都保留，全部在 Unity 里完成。
+- 关键技术: Robust Video Matting 网络通过 Core ML 和 Metal 运行，利用跨帧的循环状态保持透明遮罩稳定。
+- 课堂练习: 用抠像模型抠出表演者，把人像作为漂浮的剪影放进 AR Foundation 场景。变体：让粒子围着剪影飞，但只出现在背景区域。
+
+#### StrobePages: page-turning post effect — Keijiro Takahashi (2026)
+- 视频: https://x.com/_kzr/status/2021954733439848713
+- 源代码: https://github.com/keijiro/StrobePages
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Renderer Feature
+- 创意点子: 把流畅的运动变成一叠书页。
+- 作品内容: 实时场景每隔几帧被截一张，每张新图像书页一样翻盖在上一张上，形成顿挫的翻页效果。
+- 关键技术: URP 渲染器功能按固定间隔截帧，并渲染一张书页网格，从新帧卷起翻盖到保留的上一帧上。
+- 课堂练习: 给 AR Foundation 相机画面加翻页效果，每点一次翻一页。变体：跟着歌曲的节拍自动翻页。
 
 ### Ian Curtis
 
@@ -4969,130 +7279,6 @@ Rodrigo Carvalho 以 visiophone 为名，打造让舞者、观众和声音实时
 - 关键技术: 真实人物的体积视频被以真人尺寸锚定在公共空间中，借助地平面检测把他们放置在与观众相符的尺度上。
 - 课堂练习: 用手机录一段同学讲自己迁移或搬家故事的视频，抠像后做成真人大小的 AR 视频广告牌放在对应地点；变体：只在观众走近到 2 米内时才开始讲述。
 
-### Keijiro Takahashi
-
-*创意编程者；Unity Technologies Japan 开发者布道师*
-
-Unity 日本工程师，在 GitHub 上开源了数百个实时视觉特效、深度相机和机器学习追踪实验，并将它们用于现场演唱会视觉。
-
-#### Holographic ribbons for VRDG+H — Keijiro Takahashi (2016)
-- 视频: https://x.com/_kzr/status/709712057235406848
-- 交互类型: 投影增强, 表演与舞台, 感知与视觉艺术
-- 平台与技术: 投影, Unity, holographic display
-- 创意点子: 用光学'虚像'让 Unity 做的雕像和缎带悬浮在空中随音乐舞动。
-- 作品内容: 在 VRDG+H 演出中，借助全息光学装置，一座雕像和几条缎带以虚像的形式悬浮在半空，随 DUB-Russell 的音乐舞动。
-- 关键技术: Unity 渲染的画面经由全息或佩珀尔幻象类光学元件呈现，使图像被感知为悬浮在空间中的虚像（可能是半透镜或全息屏幕）。
-- 课堂练习: 用一块斜放的透明亚克力和手机屏幕做佩珀尔幻象，让一个 3D 小雕像悬浮；加一个变化：拍手时缎带绕着它旋转。
-
-#### Rcam at Channel #20 (live with umio) — Keijiro Takahashi (2019)
-- 视频: https://vimeo.com/346711967
-- 源代码: https://github.com/keijiro/Rcam
-- 交互类型: 表演与舞台, 手势与身体, 感知与视觉艺术
-- 平台与技术: 投影, 桌面, Unity, VFX Graph, Intel RealSense
-- 创意点子: 把舞台上的人实时扫成点云，再让粒子把人拆散、重组，成为现场演出的视觉。
-- 作品内容: 舞台上的深度相机把表演者的体积点云串流进 Unity，VFX Graph 粒子在现场演唱会中实时将她的身体拆散又重建。
-- 关键技术: RealSense 深度相机把彩色和深度帧发送给 Unity，转换成点云，驱动投影在表演者身后的 VFX Graph 粒子。
-- 课堂练习: 用 Kinect/手机深度或 MediaPipe 人体分割把一位同学变成粒子剪影投影在墙上；加一个变化：音乐音量越大粒子越散。
-
-#### Rcam2: Volumetric AR camera rig — Keijiro Takahashi (2020)
-- 视频: https://vimeo.com/461782810
-- 源代码: https://github.com/keijiro/Rcam2
-- 交互类型: 空间理解, 感知与视觉艺术, 表演与舞台
-- 平台与技术: 手机, 桌面, Unity, ARKit, LiDAR, VFX Graph, NDI
-- 创意点子: 把 iPad 的 LiDAR 当成可移动的体积摄像机，让特效贴着真实房间长出来。
-- 作品内容: 一套基于 iPad Pro LiDAR 的拍摄装置，把彩色画面、深度和相机位姿实时传到 PC，由 Unity 在真实场景外包裹上发光的粒子和线条特效，并始终锁定在房间中。
-- 关键技术: iPad Pro 上的 ARKit 采集 LiDAR 深度、彩色画面和相机位姿，通过 NDI 传输到 PC，Unity 再把深度重投影到世界空间，生成 VFX Graph 特效。
-- 课堂练习: 用 Reality Composer 或 Unity AR Foundation 的 mesh 扫描，让粒子沿着真实墙面和家具流动；加一个变化：只在你指过的物体表面发光。
-
-#### Adding VFX to a Bibcam clip — Keijiro Takahashi (2021)
-- 视频: https://x.com/_kzr/status/1460618910990929926
-- 源代码: https://github.com/keijiro/BibcamVfx
-- 交互类型: 感知与视觉艺术, 空间理解
-- 平台与技术: 手机, 桌面, Unity, VFX Graph, LiDAR
-- 创意点子: 对一段已录好的深度视频做'空间感知'的后期特效。
-- 作品内容: 对一段用 Bibcam 录制的行走视频进行后期处理，让粒子和光迹环绕真实的建筑与行人，特效随街道的真实深度而变化。
-- 关键技术: 视频中嵌入的深度和位姿信息让 VFX Graph 能逐帧采样真实几何，使粒子可以在画面中的表面上生成并与之碰撞。
-- 课堂练习: 把一段深度视频导入 TouchDesigner，用深度通道控制粒子密度，让近处的人变成光点；加一个变化：粒子颜色随时间从白天过渡到夜晚。
-
-#### Bibcam test in Shibuya — Keijiro Takahashi (2021)
-- 视频: https://vimeo.com/651111230
-- 源代码: https://github.com/keijiro/Bibcam
-- 交互类型: 空间理解, 感知与视觉艺术, 地点与城市
-- 平台与技术: 手机, Unity, ARKit, LiDAR, VFX Graph
-- 创意点子: 录像时把深度和相机位姿一起'烙'进视频，之后就能给街景补上贴合空间的特效。
-- 作品内容: 用 iPhone 13 Pro Max 拍摄的街头影像把深度和相机运动直接记录在视频里，之后就能为涩谷十字路口重新打光，并填入三维特效。
-- 关键技术: Bibcam 将 LiDAR 深度图和相机位姿作为元数据编码进每一帧录制画面，Unity 之后可据此重建三维场景，用于后期制作 AR 视觉特效。
-- 课堂练习: 用带 LiDAR 的手机录一段校园短片（或用 Record3D 导出），在 Unity/Blender 里给真实空间补上下雪或发光线条；加一个变化：特效只出现在离镜头 2 米之外。
-
-#### BodyPix visual effects (NNCam) — Keijiro Takahashi (2021)
-- 视频: https://vimeo.com/580670067
-- 源代码: https://github.com/keijiro/NNCam
-- 交互类型: 手势与身体, 感知与视觉艺术
-- 平台与技术: 桌面, Unity, Barracuda, BodyPix
-- 创意点子: 实时把人从背景里'抠'出来，特效只作用在人身上。
-- 作品内容: 网络摄像头实时把人从背景中分割出来，并区分身体各部位，于是粒子、轮廓线和故障效果只会包裹实时画面中的人体。
-- 关键技术: BodyPix 人体及部位分割网络通过 Unity Barracuda 运行，其遮罩纹理用于发射 VFX Graph 粒子，并把粒子限制在人体范围内。
-- 课堂练习: 用 MediaPipe Selfie Segmentation 或 TouchDesigner 把同学的身体变成流动的墨水而背景保持不动；加一个变化：只有举起的手会燃烧。
-
-#### FaceMeshBarracuda face & eye tracker — Keijiro Takahashi (2021)
-- 视频: https://vimeo.com/545493860
-- 源代码: https://github.com/keijiro/FaceMeshBarracuda
-- 交互类型: 面部, 注视
-- 平台与技术: 桌面, 手机, Unity, Barracuda, MediaPipe
-- 创意点子: 在 Unity 里用一个摄像头实现脸部网格与眼球追踪，做面具和视线特效。
-- 作品内容: 一个在 Unity 中运行的网络摄像头面部与虹膜追踪器，在实时视频上叠加密集的面部网格和眼部关键点，可直接用于面具和视线特效。
-- 关键技术: MediaPipe 面部网格与虹膜模型通过 Barracuda 运行，返回 468 个面部顶点和虹膜关键点，用于给叠加网格贴图并使其变形。
-- 课堂练习: 用 Spark/Lens Studio 或 MediaPipe FaceMesh 做一个跟着眼球转动的'第三只眼'面具；加一个变化：眨眼时面具换一张脸。
-
-#### HandPoseBarracuda hand tracker — Keijiro Takahashi (2021)
-- 视频: https://vimeo.com/545493967
-- 源代码: https://github.com/keijiro/HandPoseBarracuda
-- 交互类型: 手势与身体
-- 平台与技术: 桌面, 手机, Unity, Barracuda, MediaPipe
-- 创意点子: 只用普通摄像头就能在 Unity 里拿到手指关节，做手势特效的基础件。
-- 作品内容: 只用一个网络摄像头，就能在 Unity 中实时追踪所有手指关节，并在实时画面上绘制三维手部骨架，作为手势驱动特效的基础构件。
-- 关键技术: MediaPipe 手掌检测与手部关键点神经网络通过 Unity Barracuda 在 GPU 上运行，每帧输出 21 个三维关键点。
-- 课堂练习: 用 MediaPipe Hands（网页版即可）追踪手指，让指尖在摄像头画面上拖出彩色光带；加一个变化：捏合手指时光带变成可抓的绳子。
-
-#### VFX with Unity AR Foundation — Keijiro Takahashi (2022)
-- 视频: https://x.com/_kzr/status/1601509152395706369
-- 源代码: https://github.com/keijiro/Rcam2
-- 交互类型: 空间理解, 感知与视觉艺术
-- 平台与技术: 手机, Unity, AR Foundation, ARKit, LiDAR, VFX Graph
-- 创意点子: 直接在手机上实时让光效沿真实环境生长。
-- 作品内容: 在 iPhone 上实时运行：发光的粒子和线条在真实房间和镜头前的人身上生长，并锚定在 LiDAR 扫描出的环境中。
-- 关键技术: AR Foundation 提供 LiDAR 环境深度和人体模板纹理，VFX Graph 在设备端对其采样，从真实表面发射粒子。
-- 课堂练习: 用 AR Foundation 或 Lens Studio 的深度纹理，让房间表面冒出萤火虫；加一个变化：人走过的地方萤火虫会散开。
-
-#### Walking a Taiwanese street with iPhone LiDAR — Keijiro Takahashi (2022)
-- 视频: https://x.com/_kzr/status/1607672355710709760
-- 交互类型: 空间理解, 地点与城市, 感知与视觉艺术
-- 平台与技术: 手机, Unity, ARKit, LiDAR
-- 创意点子: 用 LiDAR 的'看不远'这一缺陷，本身做成一种梦境般的街景风格。
-- 作品内容: 在台湾一条街道上的夜间漫步，被呈现为一个由 iPhone LiDAR 实时构建的稀疏点云世界，既展现了这种传感器的神奇之处，也暴露了它 5 米的探测距离限制。
-- 关键技术: 每一帧的 LiDAR 深度采样被重投影为世界空间中的点并不断累积，让场景重建为行走者周围的一道彩色点迹。
-- 课堂练习: 用 Polycam/Scaniverse 扫一条走廊，导出点云并用 three.js 只显示离你 5 米内的点；加一个变化：点云随脚步声闪烁。
-
-#### Metavido VFX (WebGPU) — Keijiro Takahashi (2024)
-- 视频: https://x.com/_kzr/status/1828366682689061280
-- 源代码: https://github.com/keijiro/MetavidoVFX
-- 交互类型: 感知与视觉艺术, 空间理解
-- 平台与技术: 手机, 网页, Unity, WebGPU, VFX Graph, LiDAR
-- 创意点子: 把手机拍的'带深度的视频'放进网页，任何人都能在浏览器里围着它看特效。
-- 作品内容: 用 iPhone Pro 拍摄的体积视频片段在网页浏览器中播放，被记录下来的人和空间以粒子和特效的形式在 3D 中重新渲染。
-- 关键技术: Metavido 把 LiDAR 深度和相机元数据存储在标准视频流中，Unity 的 WebGPU 构建版本对其解码，在浏览器中重建点云用于视觉特效。
-- 课堂练习: 用 Record3D 或手机深度视频导入 three.js，在网页里把一段舞蹈重建成点云；加一个变化：观众点击后切换成'沙子'材质坍塌。
-
-#### Rcam3 for Masaya Matsuura's concert — Keijiro Takahashi (2024)
-- 视频: https://x.com/_kzr/status/1871169155254435978
-- 源代码: https://github.com/keijiro/Rcam3
-- 交互类型: 表演与舞台, 手势与身体, 感知与视觉艺术
-- 平台与技术: 手机, 投影, Unity, VFX Graph, ARKit, LiDAR
-- 创意点子: 把手机 LiDAR 当成舞台上的体积摄像头，实时生成演出视觉。
-- 作品内容: 在松浦雅也的演唱会上，舞台上固定的一部 iPhone 捕捉表演者的深度信息，Unity 把他们的剪影转化为大尺度视觉特效，显示在乐队身后。
-- 关键技术: iPhone 控制端应用把彩色画面和 LiDAR 深度串流到主机，主机把深度转换为点的位置，驱动 VFX Graph 生成投影画面。
-- 课堂练习: 用一台手机拍乐手，在 TouchDesigner 里把人体轮廓转成粒子投影到身后；加一个变化：鼓点触发粒子爆开。
-
 ### Kiyoshi Kiyokawa
 
 *奈良先端科学技术大学院大学（NAIST）教授，Cybernetics and Reality Engineering Laboratory（CARE Lab）负责人*
@@ -7094,6 +9280,112 @@ IKEA 在哥本哈根设立的独立研究实验室，围绕食物、建筑和技
 - 关键技术: 房间内的摄像头拍摄观众，把他们的实时影像合成到一栋预制动画大楼的窗户区域中，同时画面中央播放预先设定好的女孩坠落动画。
 - 课堂练习: 画一栋有很多窗户的楼，把摄像头拍到的同学实时抠像贴进窗户里，再让一个角色从上往下经过；变化：角色经过谁的窗户就对谁做一个反应动作。
 
+### Shahriar Shahrabi
+
+*技术美术、图形程序员*
+
+生活在柏林的伊朗技术美术，把自己在 Unity 里做的着色器和计算着色器研究（流体、黑客帝国代码雨、程序化绘画）连同详细的博客拆解一起开源。
+
+#### Raymarching in Unity — Shahriar Shahrabi (2019)
+- 视频: https://www.youtube.com/watch?v=87YvrkrymG0
+- 源代码: https://github.com/IRCSS/UnityRaymarching
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HLSL, Raymarching, SDF
+- 创意点子: 把光线步进的形体和普通几何混在一起，让两者处在同一个世界。
+- 作品内容: 距离场定义的光滑形体在 Unity 场景里彼此融合，并把阴影投到普通网格上。
+- 关键技术: 着色器对带 smooth-min 融合的有符号距离函数做光线步进，写入深度让网格正确遮挡，并在步进体上采样 Unity 的阴影贴图。
+- 课堂练习: 在手机 AR 中把一个光线步进的团块放到真实桌面上，并写入深度让遮挡正确。变体：团块碰到桌面的地方会融进去。
+
+#### Texture Painting on Meshes — Shahriar Shahrabi (2019)
+- 视频: https://www.youtube.com/watch?v=GmCZZrV004A
+- 源代码: https://github.com/IRCSS/TexturePaint
+- 交互类型: 空间绘画与创作, 实体物件
+- 平台与技术: 桌面, Unity, HLSL, Render textures
+- 创意点子: 在物体上作画应该像在真实物体上画，而不是在屏幕上画。
+- 作品内容: 用户实时在三维模型上作画，笔触写进模型的贴图，模型转动时颜色仍留在表面上。
+- 关键技术: 用着色器把网格按 UV 空间展开渲染，逐个纹素比较其世界坐标与笔刷的距离，把颜料写入渲染纹理，并用膨胀 pass 隐藏接缝。
+- 课堂练习: 用 LiDAR 手机扫描一个真实物体，在 AR 中把扫描模型叠在它身上，让学生通过手机给物体喷漆。变体：颜料会随时间往下流。
+
+#### 3D Moebius Transformations — Shahriar Shahrabi (2020)
+- 视频: https://www.youtube.com/watch?v=81XDjBiuuEI
+- 源代码: https://github.com/IRCSS/3D-Moebius-Transformations-Vertex-shader-in-Unity-3D
+- 交互类型: 感知与视觉艺术, 传送门与世界替换
+- 平台与技术: 桌面, Unity, HLSL, Vertex shader
+- 创意点子: 弯曲的是空间而不是物体：把场景送到四维球面上旋转，再投影回来。
+- 作品内容: 整个三维场景经由一个四维球面折叠、旋转、内外翻转，仿佛空间本身被拧动。
+- 关键技术: 在顶点着色器里，把每个顶点通过逆球极投影映射到四维中的三维球面，在那里旋转后再投影回来，得到场景的 Möbius 变换。
+- 课堂练习: 在手机 AR 中放一个虚拟房间并套用这个 Möbius 顶点着色器，让墙壁绕着观众卷曲。变体：旋转角度由用户走了多远决定。
+
+#### Cubism Shader — Shahriar Shahrabi (2020)
+- 视频: https://www.youtube.com/watch?v=_DwnvbPxZTM
+- 源代码: https://github.com/IRCSS/Cubism-Shader
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HLSL, Voronoi
+- 创意点子: 像毕加索那样同时呈现多个视角，只不过是实时的。
+- 作品内容: 三维场景被切成一块块 Voronoi 碎片，每块显示略微不同角度的画面，像一幅会动的立体主义画作。
+- 关键技术: 后期处理用 Voronoi 图案把画面分块，每个单元从偏移过的相机视角采样场景，因此每块碎片都有自己的透视。
+- 课堂练习: 在手机上对 AR 相机画面做 Voronoi 立体主义处理，让每个单元有不同的延迟或缩放。变体：房间越吵，碎片越大。
+
+#### Fluid Simulation in Compute Shaders — Shahriar Shahrabi (2020)
+- 视频: https://www.youtube.com/watch?v=GkrQy5JUyZk
+- 源代码: https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-
+- 交互类型: 感知与视觉艺术, 空间绘画与创作
+- 平台与技术: 桌面, Unity, Compute Shader, HLSL
+- 创意点子: 一个完整的流体解算器只需几个计算着色器 pass，就能让任何表面流动起墨水。
+- 作品内容: 彩色染料在一个三维模型周围旋转翻卷：完整的 Navier-Stokes 流体解算在 GPU 上运行，并对用户注入力的位置作出反应。
+- 关键技术: 按 stable fluids 思路，在 Unity 计算着色器里对二维/三维渲染纹理依次做平流、散度、压力（Jacobi 迭代）和投影，再用速度场平流一张染料纹理。
+- 课堂练习: 把仓库里的二维流体解算移植到手机，用 AR Foundation 找到地面平面并投在上面，用户点击地面的位置注入染料。变体：把手机的移动当作力，让走动就能搅动墨水。
+
+#### Matrix VFX — Shahriar Shahrabi (2020)
+- 视频: https://www.youtube.com/watch?v=8l7cujPLw84
+- 源代码: https://github.com/IRCSS/MatrixVFX
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HLSL, Triplanar mapping
+- 创意点子: 任何物体都能被改写成顺着它形状流下的数字雨。
+- 作品内容: 一座三维扫描雕像被黑客帝国式的绿色代码雨覆盖，字符沿着表面流下，慢慢勾勒出形体。
+- 关键技术: 着色器用三平面映射从三个轴向把程序化动画的字符纹理投到网格上，每一列有随机速度和亮度拖尾。
+- 课堂练习: 在 LiDAR 手机上把这个 Matrix 着色器用在 ARKit 场景网格上，让整个房间变成代码雨。变体：只在用户手中虚拟手电筒照到的地方显示代码。
+
+#### Mesh Deformation with Compute Shaders on Quest — Shahriar Shahrabi (2020)
+- 视频: https://www.youtube.com/watch?v=IVy6T5_9r2c
+- 源代码: https://github.com/IRCSS/Mesh-Deformation-With-Compute-Shader-Oculus-Quest-Unity
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 头显, Unity, Compute Shader, Oculus Quest
+- 创意点子: 在一体机上让虚拟表面摸起来是软的。
+- 作品内容: 在 Oculus Quest 的 VR 中，用户用手柄按压一个柔软的网格，它会像黏土或果冻一样凹陷并回弹。
+- 关键技术: 计算着色器按衰减把每个顶点从手柄位置推开，并用弹簧积分让它回到原位，可在 Android/Quest 的 GPU 上运行。
+- 课堂练习: 在透视 MR 或手机 AR 中把一个可变形的团块放在真实桌面上，让学生用手指或手柄戳它。变体：团块记住每一次戳，并慢慢愈合。
+
+#### Procedural Painting with Genetic Evolution — Shahriar Shahrabi (2020)
+- 视频: https://www.youtube.com/watch?v=--YygVe0Eu4
+- 源代码: https://github.com/IRCSS/Procedural-painting
+- 交互类型: 感知与视觉艺术, 空间绘画与创作
+- 平台与技术: 桌面, Unity, Compute Shader, Genetic algorithm
+- 创意点子: 让进化算法而不是滤镜来决定每一笔该落在哪里。
+- 作品内容: 一张照片被一笔一笔重新画出来：成千上万的笔触在 GPU 上进化，直到拼成一幅富有表现力的肖像画。
+- 关键技术: 在计算着色器里实现的遗传算法不断变异笔触参数群体、渲染出来，并与目标图像比较打分，保留最合适的个体。
+- 课堂练习: 在手机上截取一帧相机画面，运行一个小型笔触进化循环，把生成的画作为画布挂到 AR 中真实的墙上。变体：每次有人看它，画都会继续进化。
+
+#### Interactive Volumetric Fog with Fluid Dynamics (The Vast Land) — Shahriar Shahrabi (2021)
+- 视频: https://www.youtube.com/watch?v=hMhNhgnOGN8
+- 源代码: https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-
+- 交互类型: 感知与视觉艺术, 空间理解
+- 平台与技术: 桌面, Unity, Compute Shader, Raymarching
+- 创意点子: 让雾变成可以被推开的东西：用流体模拟驱动光线步进的体积雾。
+- 作品内容: 一片风格化山谷里弥漫着体积雾，角色走过时雾被推开、翻卷，并像真实流体一样绕着地形流动。
+- 关键技术: 计算着色器流体解算在一个三维网格上运行，边界取自场景几何；得到的密度场再用光线步进渲染成带光照的体积雾。
+- 课堂练习: 在 HoloKit 或手机上用低分辨率模拟雾填满一个小 AR 房间，把 LiDAR 网格作为流体边界，让雾绕着真实家具流动。变体：用手的位置把雾吹散。
+
+#### Stencil Portal Halloween Scene — Shahriar Shahrabi (2021)
+- 视频: https://www.youtube.com/watch?v=gGeP34_6d2A
+- 源代码: https://github.com/IRCSS/Unity-Stencil-Portal
+- 交互类型: 传送门与世界替换, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Stencil buffer
+- 创意点子: 一扇门里可以装下一个只有透过它才存在的世界。
+- 作品内容: 一个小画框里藏着一个阴森的万圣节世界；镜头移动时，隐藏的场景只在传送门开口里出现。
+- 关键技术: 传送门遮罩向模板缓冲写入一个值，隐藏场景的着色器只在模板值匹配的地方绘制。
+- 课堂练习: 用 AR Foundation 图像追踪把模板传送门锚定到真实的门或画框上，让里面出现另一个世界。变体：传送门后的世界随一天中的时间变化。
+
 ### Steve Mann
 
 *可穿戴计算先驱；多伦多大学教授（EyeTap、介导现实）*
@@ -8788,6 +11080,92 @@ AR 可视化专家：研究隐藏结构的 X 光式与半透明视图、紧凑�
 - 作品内容: 一面沉浸式墙面投影让孩子们用自己的身体动作探索亚马孙雨林，并发现当地原住民文化的故事。
 - 关键技术: 墙前的身体追踪（推测为深度摄像头）让孩子能拨开树叶，并在实时投影的环境中触发动画故事场景。
 - 课堂练习: 在一幅隐藏的图片上投影一层茂密的树叶，用摄像头人体分割让孩子动到哪里，哪里的树叶就被拨开；变体：除非几个孩子一起撑住，否则树叶会重新长回来。
+
+### Sebastian Lague
+
+*程序员、教育者；《Coding Adventures》系列作者*
+
+《Coding Adventures》视频的作者：在 Unity 里从零实现流体、光线步进、体积云和鸟群，并把每个项目都放到 GitHub 上。
+
+#### Coding Adventure: Boids — Sebastian Lague (2019)
+- 视频: https://www.youtube.com/watch?v=bqtqltqcQhw
+- 源代码: https://github.com/SebLague/Boids
+- 交互类型: 感知与视觉艺术, 空间理解
+- 平台与技术: 桌面, Unity, Compute Shader
+- 创意点子: 分离、对齐、聚合三条规则就足以形成鸟群。
+- 作品内容: 一群鸟在空中盘旋，遇到障碍分开再重新聚拢，全部只由三条局部规则驱动。
+- 关键技术: 每只鸟根据计算着色器算出的邻居做分离、对齐、聚合，并沿黄金螺旋球面上的方向发射射线来避开障碍。
+- 课堂练习: 在手机 AR 中放出一群鸟，用 LiDAR 网格作为障碍，让鸟绕着真实家具飞。变体：鸟群会被手机吸引，一摇手机就四散。
+
+#### Coding Adventure: Clouds — Sebastian Lague (2019)
+- 视频: https://www.youtube.com/watch?v=4QOcCGI6xOU
+- 源代码: https://github.com/SebLague/Clouds
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HLSL, Raymarching, 3D noise
+- 创意点子: 云就是光线穿过的一团噪声。
+- 作品内容: 柔和的体积云在天空中飘动，光线在云中散射，可以实时调整三维噪声参数来控制云。
+- 关键技术: 后期处理在一个盒体内做光线步进，用平铺的三维 Worley 和 Perlin 噪声采样密度，再用 Beer 定律和相位函数累积光照。
+- 课堂练习: 在手机或 HoloKit 上用光线步进云填满一个房间大小的 AR 盒子，让学生从云中走过。变体：相机画面里越暗的地方云越浓。
+
+#### Coding Adventure: Hydraulic Erosion — Sebastian Lague (2019)
+- 视频: https://www.youtube.com/watch?v=eaXk97ujbPQ
+- 源代码: https://github.com/SebLague/Hydraulic-Erosion
+- 交互类型: 感知与视觉艺术, 实体物件
+- 平台与技术: 桌面, Unity, C#, Compute Shader
+- 创意点子: 让模拟的雨而不是美术来雕刻地貌。
+- 作品内容: 一片粗糙的噪声地形被几十万颗雨滴冲刷，最终出现逼真的山谷、山脊和河道。
+- 关键技术: 每颗雨滴被模拟成一个粒子，沿高度图梯度流动，根据速度和携沙量带走或沉积泥沙，并逐渐蒸发。
+- 课堂练习: 在 AR 中把一小块地形放在真实桌上，学生把手机举在上方就能对它下雨，直到出现河流。变体：用 LiDAR 扫描一张揉皱的纸作为初始地形。
+
+#### Coding Adventure: Marching Cubes — Sebastian Lague (2019)
+- 视频: https://www.youtube.com/watch?v=M3iI2l0ltbE
+- 源代码: https://github.com/SebLague/Marching-Cubes
+- 交互类型: 空间绘画与创作, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Compute Shader
+- 创意点子: 把一片数值场变成可以雕刻的表面。
+- 作品内容: 由三维噪声生成的无尽洞穴和星球地形被转成光滑网格，玩家可以往里挖。
+- 关键技术: 在计算着色器中按网格采样噪声密度值，再用 Marching Cubes 查找表把每个单元沿等值面转成三角形。
+- 课堂练习: 在手机 AR 中于真实桌面上生成一个 Marching Cubes 团块，让学生点击雕刻。变体：挖掉的材料会在别处长出来，总体积不变。
+
+#### Coding Adventure: Ray Marching — Sebastian Lague (2019)
+- 视频: https://www.youtube.com/watch?v=Cp5WWtMoeKg
+- 源代码: https://github.com/SebLague/Ray-Marching
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Compute Shader, Raymarching, SDF
+- 创意点子: 把形状写成距离公式，平滑融合和无限分形就都顺手而来。
+- 作品内容: 形体彼此融化，Mandelbulb 分形不断展开，物体相互挖洞，全部由距离函数渲染。
+- 关键技术: 计算着色器沿射线在有符号距离函数中步进，用并集、差集和 smooth-min 组合基本形体，并渲染 Mandelbulb 距离估计。
+- 课堂练习: 在手机 AR 中让一个光线步进的 Mandelbulb 悬浮在真实桌面上方，用捏合手势改变它的指数。变体：走得越近，分形细节越多。
+
+#### Coding Adventure: Portals — Sebastian Lague (2020)
+- 视频: https://www.youtube.com/watch?v=cWpFZbjtSQg
+- 源代码: https://github.com/SebLague/Portals
+- 交互类型: 传送门与世界替换, 游戏与玩法
+- 平台与技术: 桌面, Unity, Render textures
+- 创意点子: 传送门就是第二台相机，把它的画面精确贴在门洞上。
+- 作品内容: 玩家穿过无缝的传送门行走、扔东西，门连接远处的房间，透过门看过去毫无破绽。
+- 关键技术: 每扇门用链接的相机渲染到纹理，并按屏幕空间 UV 贴上；再使用斜近裁剪面、处理递归，并切开正穿过一半的物体。
+- 课堂练习: 在 AR 中把两扇传送门锚在两扇真实的门上，透过一扇看到另一扇门后面的房间。变体：连接的房间是教室夜晚的虚拟副本。
+
+#### Coding Adventure: Ant and Slime Simulations — Sebastian Lague (2021)
+- 视频: https://www.youtube.com/watch?v=X-iSQQgOd1A
+- 源代码: https://github.com/SebLague/Slime-Simulation
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Compute Shader
+- 创意点子: 只会感知和留下痕迹的简单个体，能长出活的网络。
+- 作品内容: 数以百万计的智能体留下发光的轨迹并追随彼此的气味，形成像黏菌一样不断分叉、汇合、脉动的网络。
+- 关键技术: 计算着色器驱动智能体：每个体用三个传感器采样轨迹图并转向最强方向，同时写入轨迹；再用扩散衰减 pass 让轨迹蔓延（Physarum 模型）。
+- 课堂练习: 把黏菌模拟投到 AR 检测到的地面平面上，用人物遮挡蒙版当作食物，让网络朝房间里站着的人生长。变体：黏菌会避开移动太快的人。
+
+#### Coding Adventure: Simulating Fluids — Sebastian Lague (2023)
+- 视频: https://www.youtube.com/watch?v=rSKMYc1CQHE
+- 源代码: https://github.com/SebLague/Fluid-Sim
+- 交互类型: 感知与视觉艺术, 游戏与玩法
+- 平台与技术: 桌面, Unity, Compute Shader, SPH
+- 创意点子: 水不过是许多努力保持密度恒定的粒子。
+- 作品内容: 成千上万的粒子在盒子里像水一样晃动、飞溅、沉积，先是二维再到三维，并响应鼠标的推拉。
+- 关键技术: 在计算着色器中运行光滑粒子流体动力学（SPH）：通过空间哈希找到邻居，计算密度和压力，再逐帧积分粒子。
+- 课堂练习: 在手机上运行一个小型二维 SPH 模拟，用 AR 把容器放在真实桌面上，用手机重力传感器让水倾斜。变体：把水倒到真实的地面平面上。
 
 ### 1024 Architecture (François Wunschel & Pier Schneider)
 
@@ -10958,6 +13336,67 @@ Dynamicland 脱胎于 Bret Victor 的 Communications Design Group（HARC）。�
 - 关键技术: 发射宽波束雷达，根据手指微动作的多普勒与距离特征，把它们分类为“虚拟工具”手势。
 - 课堂练习: 用手机AR手部追踪或MediaPipe实现“捏合转旋钮、双指点按钮”的空中微手势控制一个虚拟收音机；变化：只允许眼睛不看手完成操作。
 
+### Jelle Vermandere
+
+*游戏开发者、YouTuber*
+
+比利时创作者，打造以真实物体和自己身体为控制器的混合现实游戏：真实的足球、遥控车、智能魔方、心率监测器。
+
+#### 4D Explorer (4D Raymarching) — Jelle Vermandere (2020)
+- 视频: https://www.youtube.com/watch?v=nUExziADzjc
+- 源代码: https://github.com/Jellevermandere/4D-Raymarching
+- 交互类型: 感知与视觉艺术, 游戏与玩法
+- 平台与技术: 桌面, Unity, Raymarching, SDF
+- 创意点子: 通过在三维切片中行走来看见一个四维世界。
+- 作品内容: 玩家在一个物体会滑入滑出第四维的世界中移动；随着三维切片移动，物体变大、变小或消失。
+- 关键技术: 在四维中定义有符号距离函数，并在一个由玩家控制 W 坐标的三维切片里做光线步进，对物体施加四维旋转。
+- 课堂练习: 在手机 AR 中把一个四维物体放在真实桌上，把第四维坐标映射到手机离地面的高度。变体：站在不同高度的两位学生在同一位置看到不同的形状。
+
+#### AR Boxing Game — Jelle Vermandere (2020)
+- 视频: https://www.youtube.com/watch?v=AOUaIqQml4g
+- 交互类型: 游戏与玩法, 手势与身体
+- 平台与技术: 手机, Unity, AR Foundation
+- 创意点子: 把陪练对手放进自家客厅，对着空气打拳也能健身。
+- 作品内容: 他用 AR Foundation 把虚拟对手放进自家真实的客厅，并对着它们出拳，把日常健身变成一场 AR 拳击赛。
+- 关键技术: AR Foundation 平面检测把对手放在地面上，手机（手持或绑在身上）的位姿用于检测出拳和闪避。
+- 课堂练习: 用 AR Foundation 在地上放一个会出拳的沙袋人，玩家侧身躲避；加一个变化：心率越高对手越强。
+
+#### Controlling a Soccer Game with a Real Ball — Jelle Vermandere (2022)
+- 视频: https://www.youtube.com/watch?v=tB6Ag6VCYFY
+- 交互类型: 实体物件, 手势与身体, 游戏与玩法
+- 平台与技术: 桌面, Python, OpenCV, Unity
+- 创意点子: 踢真球，屏幕里的比赛跟着动。
+- 作品内容: 网络摄像头追踪一只真实足球和他的身体姿态，于是踢出真球就能驱动 Unity 中的一场数字足球比赛。
+- 关键技术: Python 计算机视觉程序从网络摄像头画面中检测球的位置和玩家姿态，并将数据实时传给 Unity，映射到游戏世界中。
+- 课堂练习: 用网页摄像头+颜色追踪让一个真实的纸团控制屏幕里的弹球；加一个变化：纸团撞到墙上的某块纸板区域时触发进球动画。
+
+#### Real Hole in the Wall Game — Jelle Vermandere (2022)
+- 视频: https://www.youtube.com/watch?v=tFIZ23fRHxQ
+- 交互类型: 手势与身体, 游戏与玩法
+- 平台与技术: 桌面, MoveNet, Unity, heart-rate monitor
+- 创意点子: 根据《墙来了》：用身体摆出墙上洞的形状才能过关。
+- 作品内容: 一款基于日本节目《墙来了》（Brain Wall）的全身游戏：网络摄像头读取他的姿态，心率监测器制造额外压力，而带着人形洞口的墙正朝他飞速逼近。
+- 关键技术: MoveNet 姿态估计从网络摄像头画面中提取身体关键点，并与每面来袭墙体上洞口的轮廓进行比对。
+- 课堂练习: 用 Teachable Machine 或 MoveNet 做一个'墙来了'：屏幕上出现姿势轮廓，同学要在 3 秒内摆出来；加一个变化：两个人合体才能过一面墙。
+
+#### Turning RC Cars into Pets — Jelle Vermandere (2023)
+- 视频: https://www.youtube.com/watch?v=9FBi0qbLiio
+- 交互类型: 实体物件, 游戏与玩法
+- 平台与技术: 桌面, Arduino, OpenCV, Unity
+- 创意点子: 给遥控车装上'性格'，让它们像宠物一样在地上游走、回应你。
+- 作品内容: 头顶的计算机视觉系统实时追踪几辆由 Arduino 控制的遥控车，并给每辆车赋予一种性格，让它们像宠物一样在地上游走，对他作出反应。
+- 关键技术: 摄像头通过计算机视觉标记追踪每辆车，行为脚本再通过无线电发回转向指令，让实体小车按照虚拟规则行动。
+- 课堂练习: 用 micro:bit 小车 + 头顶摄像头追踪，让小车'害怕'同学的脚并逃开；加一个变化：给每辆车一个投影在地上的情绪表情。
+
+#### A Rubik's Cube Game with a Real Cube — Jelle Vermandere (2024)
+- 视频: https://www.youtube.com/watch?v=7UXtkvvA0dI
+- 交互类型: 实体物件, 游戏与玩法
+- 平台与技术: 桌面, GAN smart cube, Bluetooth, Unity
+- 创意点子: 拧真实的魔方来操控游戏世界。
+- 作品内容: 一个蓝牙智能魔方成为游戏手柄：每次拧动真实魔方，都会旋转并改变他在 Unity 中搭建的解谜世界。
+- 关键技术: GAN 智能魔方通过蓝牙上报每一次面的转动，Unity 再把这些操作映射为游戏关卡的旋转。
+- 课堂练习: 用带陀螺仪的手机或 micro:bit 当'魔方'，转动它来旋转屏幕里的迷宫让小球滚到出口；加一个变化：摇一摇会让迷宫重新生成。
+
 ### Joanie Lemercier (AntiVJ)
 
 *视觉艺术家；AntiVJ 厂牌联合创始人*
@@ -11359,6 +13798,72 @@ Shahram Izadi 在 Microsoft Research 的团队打造了 KinectFusion 实时三�
 - 作品内容: Izadi 在 TED 舞台上演示了搭载 Gemini 的 Android XR 原型眼镜：实时翻译、记住你把东西放在了哪里，以及在透视显示屏中叠加情境化的帮助信息。
 - 关键技术: 眼镜把相机画面和音频流式发送给多模态模型（Gemini），模型返回翻译、物品记忆和回答，以文字形式呈现在单目透视显示屏上。
 - 课堂练习: 用手机摄像头 + 多模态大模型 API 做一个“记忆眼镜”原型：每隔几秒拍一帧并让模型记录物品位置，之后问“我的钥匙在哪”时在 AR 画面中标出上次看到的位置；变体：让它只记住一种你常丢的东西，并讨论隐私边界。
+
+### Mirza Beig
+
+*Unity 技术美术与特效开发者*
+
+Unity 特效开发者，几乎每周都会发布着色器和粒子实验，其中很多作为免费开源项目发布。
+
+#### GPU Fog Particles — Mirza Beig (2021)
+- 视频: https://x.com/TheMirzaBeig/status/1471820398056677376
+- 源代码: https://github.com/MirzaBeig/GPU-Fog-Particles
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Shader, Particle System
+- 创意点子: 纯粹由噪声构成的雾，能贴着世界而没有生硬边缘。
+- 作品内容: 柔和的雾气在场景中飘荡，完全不用贴图，与几何体平滑融合，镜头进入时会逐渐淡去。
+- 关键技术: 粒子面片使用一个着色器：采样动态三维噪声，根据场景深度软化交界处，并在靠近相机时淡出，而不用精灵贴图。
+- 课堂练习: 在 AR 地面平面上生成这些雾粒子，并用 AR 遮挡深度做软化，让雾积聚在真实家具周围。变体：人站的地方雾会散开。
+
+#### Anime Speed Lines — Mirza Beig (2022)
+- 视频: https://user-images.githubusercontent.com/37354140/151656459-d99d2d36-06ed-4889-8a10-17cabd1626d8.mp4
+- 源代码: https://github.com/MirzaBeig/Anime-Speed-Lines
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Post-processing
+- 创意点子: 把漫画表现速度和惊讶的符号变成实时镜头效果。
+- 作品内容: 漫画式的速度线从画面边缘向中心迸射、闪烁、跳动，仿佛观者正在向前冲。
+- 关键技术: 全屏后期在极坐标下用动态噪声程序化生成放射线，并用可调的暗角遮住中心。
+- 课堂练习: 把速度线用在手机 AR 相机画面上，手机快速移动时触发。变体：速度线指向画面中最近的人脸。
+
+#### Post-Processing Scan — Mirza Beig (2022)
+- 视频: https://x.com/TheMirzaBeig/status/1809173668456792524
+- 源代码: https://github.com/MirzaBeig/Post-Processing-Scan
+- 交互类型: 感知与视觉艺术, 空间理解
+- 平台与技术: 桌面, Unity, URP, Post-processing
+- 创意点子: 一个不断扩张的球面就能揭示世界隐藏的形状。
+- 作品内容: 一道发光的声呐脉冲从一点向外扫过场景，像三维扫描仪一样照亮它经过的每个表面。
+- 关键技术: URP 后期处理从深度缓冲重建世界坐标，在到扫描原点的距离跨过移动半径（球形 SDF）的位置画出光带。
+- 课堂练习: 把扫描效果作用在 AR 相机深度（LiDAR 或 ARCore 深度）上，让脉冲从用户点击的地方掠过真实房间。变体：脉冲速度跟随拍手的响度。
+
+#### Chromatic Distortion Sphere — Mirza Beig (2024)
+- 视频: https://www.youtube.com/watch?v=IkBZLo4ROU0
+- 源代码: https://github.com/MirzaBeig/Chromatic-Distortion-Sphere
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Shader Graph
+- 创意点子: 一个带彩虹边缘、折射世界的球，一眼就像魔法。
+- 作品内容: 一个漂浮的气泡扭曲了身后的场景，把光分成彩虹色的边缘，像肥皂泡一样晃动。
+- 关键技术: 着色器沿表面法线偏移采样不透明场景纹理，红绿蓝三个通道分别偏移，再加上菲涅尔边缘光和顶点晃动。
+- 课堂练习: 在手机 AR 中让色散气泡漂浮起来，扭曲它后面的真实相机画面，用户点击就能戳破它。变体：气泡跟着用户的手走。
+
+#### Constellation Plexus Ribbons — Mirza Beig (2024)
+- 视频: https://x.com/TheMirzaBeig/status/1840974568216813609
+- 源代码: https://github.com/MirzaBeig/Constellation-Plexus
+- 交互类型: 空间绘画与创作, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Particle System
+- 创意点子: 用光把相邻的点连起来，一团点就变成了星座。
+- 作品内容: 发光的丝带把漂浮的粒子连成星座，并跟随鼠标移动，像在空中画星图。
+- 关键技术: Unity 粒子系统发射带拖尾的粒子，脚本把相邻粒子用丝带线连接，线的透明度随距离变化（plexus 效果）。
+- 课堂练习: 在 AR 中把 plexus 发射器绑到追踪的手或手机上，让学生在房间里画星座。变体：学生站得近时，各自的星座会互相连起来。
+
+#### Galaxy Water — Mirza Beig (2026)
+- 视频: https://x.com/TheMirzaBeig/status/2008528798397198550
+- 源代码: https://github.com/MirzaBeig/Galaxy-Water
+- 交互类型: 感知与视觉艺术, 传送门与世界替换
+- 平台与技术: 桌面, Unity, URP, Shader
+- 创意点子: 倒映的是整个宇宙，而不是天空的水。
+- 作品内容: 一个空灵的平台立在黑色水面上，水中倒映着星河，闪烁的粒子在水面上漂浮。
+- 关键技术: 在 URP 中，水面着色器把法线贴图波纹和反射中的程序化星空结合起来，再叠加闪烁粒子。
+- 课堂练习: 在手机 AR 中把着色器放在检测到的地面上并开启人物遮挡，让真实地板变成星河之水。变体：脚步会激起星光涟漪。
 
 ### Molmol Kuo
 
@@ -12359,57 +14864,6 @@ Figmin XR 诞生于 HoloLens，如今登陆 Quest 和 Vision Pro；你可以在�
 - 关键技术: 对 Kinect 深度图像做阈值处理得到人体剪影，再在 openFrameworks 中随时间累积其轮廓或运动，绘制出逐渐消退的光轨。
 - 课堂练习: 用 TouchDesigner 的 Kinect 或摄像头人体分割，把人的轮廓做成缓慢消退的光轨投到墙上；变体：让轨迹只记录两个人之间的“空隙”而不是身体本身。
 
-### Jelle Vermandere
-
-*游戏开发者、YouTuber*
-
-比利时创作者，打造以真实物体和自己身体为控制器的混合现实游戏：真实的足球、遥控车、智能魔方、心率监测器。
-
-#### AR Boxing Game — Jelle Vermandere (2020)
-- 视频: https://www.youtube.com/watch?v=AOUaIqQml4g
-- 交互类型: 游戏与玩法, 手势与身体
-- 平台与技术: 手机, Unity, AR Foundation
-- 创意点子: 把陪练对手放进自家客厅，对着空气打拳也能健身。
-- 作品内容: 他用 AR Foundation 把虚拟对手放进自家真实的客厅，并对着它们出拳，把日常健身变成一场 AR 拳击赛。
-- 关键技术: AR Foundation 平面检测把对手放在地面上，手机（手持或绑在身上）的位姿用于检测出拳和闪避。
-- 课堂练习: 用 AR Foundation 在地上放一个会出拳的沙袋人，玩家侧身躲避；加一个变化：心率越高对手越强。
-
-#### Controlling a Soccer Game with a Real Ball — Jelle Vermandere (2022)
-- 视频: https://www.youtube.com/watch?v=tB6Ag6VCYFY
-- 交互类型: 实体物件, 手势与身体, 游戏与玩法
-- 平台与技术: 桌面, Python, OpenCV, Unity
-- 创意点子: 踢真球，屏幕里的比赛跟着动。
-- 作品内容: 网络摄像头追踪一只真实足球和他的身体姿态，于是踢出真球就能驱动 Unity 中的一场数字足球比赛。
-- 关键技术: Python 计算机视觉程序从网络摄像头画面中检测球的位置和玩家姿态，并将数据实时传给 Unity，映射到游戏世界中。
-- 课堂练习: 用网页摄像头+颜色追踪让一个真实的纸团控制屏幕里的弹球；加一个变化：纸团撞到墙上的某块纸板区域时触发进球动画。
-
-#### Real Hole in the Wall Game — Jelle Vermandere (2022)
-- 视频: https://www.youtube.com/watch?v=tFIZ23fRHxQ
-- 交互类型: 手势与身体, 游戏与玩法
-- 平台与技术: 桌面, MoveNet, Unity, heart-rate monitor
-- 创意点子: 根据《墙来了》：用身体摆出墙上洞的形状才能过关。
-- 作品内容: 一款基于日本节目《墙来了》（Brain Wall）的全身游戏：网络摄像头读取他的姿态，心率监测器制造额外压力，而带着人形洞口的墙正朝他飞速逼近。
-- 关键技术: MoveNet 姿态估计从网络摄像头画面中提取身体关键点，并与每面来袭墙体上洞口的轮廓进行比对。
-- 课堂练习: 用 Teachable Machine 或 MoveNet 做一个'墙来了'：屏幕上出现姿势轮廓，同学要在 3 秒内摆出来；加一个变化：两个人合体才能过一面墙。
-
-#### Turning RC Cars into Pets — Jelle Vermandere (2023)
-- 视频: https://www.youtube.com/watch?v=9FBi0qbLiio
-- 交互类型: 实体物件, 游戏与玩法
-- 平台与技术: 桌面, Arduino, OpenCV, Unity
-- 创意点子: 给遥控车装上'性格'，让它们像宠物一样在地上游走、回应你。
-- 作品内容: 头顶的计算机视觉系统实时追踪几辆由 Arduino 控制的遥控车，并给每辆车赋予一种性格，让它们像宠物一样在地上游走，对他作出反应。
-- 关键技术: 摄像头通过计算机视觉标记追踪每辆车，行为脚本再通过无线电发回转向指令，让实体小车按照虚拟规则行动。
-- 课堂练习: 用 micro:bit 小车 + 头顶摄像头追踪，让小车'害怕'同学的脚并逃开；加一个变化：给每辆车一个投影在地上的情绪表情。
-
-#### A Rubik's Cube Game with a Real Cube — Jelle Vermandere (2024)
-- 视频: https://www.youtube.com/watch?v=7UXtkvvA0dI
-- 交互类型: 实体物件, 游戏与玩法
-- 平台与技术: 桌面, GAN smart cube, Bluetooth, Unity
-- 创意点子: 拧真实的魔方来操控游戏世界。
-- 作品内容: 一个蓝牙智能魔方成为游戏手柄：每次拧动真实魔方，都会旋转并改变他在 Unity 中搭建的解谜世界。
-- 关键技术: GAN 智能魔方通过蓝牙上报每一次面的转动，Unity 再把这些操作映射为游戏关卡的旋转。
-- 课堂练习: 用带陀螺仪的手机或 micro:bit 当'魔方'，转动它来旋转屏幕里的迷宫让小球滚到出口；加一个变化：摇一摇会让迷宫重新生成。
-
 ### Jeri Ellsworth
 
 *硬件工程师；castAR 与 Tilt Five 联合创始人*
@@ -13207,6 +15661,118 @@ Snap 通过 Snapchat Lenses（2015）把面部滤镜变成了大众媒介，随�
 - 作品内容: 一个 Wonderscope 悬疑故事，发生在一座阴森的宅邸中，并在孩子的房间里徐徐展开。
 - 关键技术: 在房间尺度上放置场景道具和角色，大概率配合基于观看方向的脚本触发器，把孩子的房间变成一出悬疑剧的舞台。
 - 课堂练习: 做一个基于视线触发的 AR 悬疑场景：只有看向某个角落时才出现线索；变体：线索出现后如果你移开视线，它会换位置。
+
+### Yuma Yanagisawa
+
+*媒体艺术家、创意程序员*
+
+日本艺术家，用着色器、VFX Graph 和数据创作，从雨滴、水波着色器到大型投影数据雕塑和 AI 花卉作品。
+
+#### Raindrops Shader — Yuma Yanagisawa (2017)
+- 视频: https://www.youtube.com/watch?v=dQSLjsDAzw0
+- 源代码: https://github.com/yumayanagisawa/Unity-Raindrops
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HLSL
+- 创意点子: 一扇下雨的窗户可以完全用一个着色器画出来。
+- 作品内容: 雨滴沿着城市景色前的玻璃流下，每一滴都折射并模糊了后面的景象。
+- 关键技术: 片元着色器（借鉴 Shadertoy 的做法）在网格单元中程序化生成雨滴和水痕遮罩，用它们偏移并模糊背景采样。
+- 课堂练习: 把雨滴着色器用在手机 AR 相机画面上，让真实世界看起来在一扇下雨的窗后。变体：用手指擦屏幕能暂时擦掉雨滴。
+
+#### Wave Propagation Shader (Water Ripple) — Yuma Yanagisawa (2017)
+- 视频: https://www.youtube.com/watch?v=rK5AAb-1pgE
+- 源代码: https://github.com/yumayanagisawa/Unity-Wave-Propagation-Water-Ripple
+- 交互类型: 感知与视觉艺术, 手势与身体
+- 平台与技术: 桌面, Unity, HLSL, Render textures
+- 创意点子: 把任何一幅图像变成一池水。
+- 作品内容: 触碰画面会激起圆形涟漪，波纹传播、衰减时会扭曲整幅画面。
+- 关键技术: 多 pass 着色器把波高存在乒乓渲染纹理中，每帧求解波动方程，再用高度梯度折射图像。
+- 课堂练习: 在 AR 中把涟漪着色器加在相机画面上，在检测到人脚的地方激起涟漪。变体：涟漪只出现在地面平面上，墙上没有。
+
+#### Demographics of Israel: Data Sculpture — Yuma Yanagisawa (2018)
+- 视频: https://www.youtube.com/watch?v=qop7sk6H4GA
+- 源代码: https://github.com/yumayanagisawa/Unity-Visual-Effects-Graph-Practice
+- 交互类型: 信息与界面, 感知与视觉艺术
+- 平台与技术: 投影, 桌面, Unity, VFX Graph
+- 创意点子: 不画图表，而是让数据决定一座活的粒子雕塑的大小。
+- 作品内容: 四团彩色粒子随年份膨胀和收缩，每团的大小对应一个宗教群体的人口比例，作品投影在耶路撒冷的 Safra 广场上。
+- 关键技术: 四个 VFX Graph 系统在球体内生成粒子，球体半径由每年的人口比例驱动，再加湍流让粒子运动。
+- 课堂练习: 把一次班级问卷做成粒子雕塑，用 AR Foundation 放在校园里，每个答案一团粒子。变体：新答案进来时粒子团实时更新。
+
+#### Metaballs — Yuma Yanagisawa (2019)
+- 视频: https://www.youtube.com/watch?v=kuLUqNNlN4g
+- 源代码: https://github.com/yumayanagisawa/Unity-Metaballs
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HLSL, Raymarching
+- 创意点子: 能平滑融合的团块看起来是活的。
+- 作品内容: 光亮的液体团块漂浮、融合又分开，像一滴滴水银。
+- 关键技术: 用若干球体距离函数的 smooth-min 并集做光线步进渲染出 metaball，再用环境反射着色。
+- 课堂练习: 在 AR 中让 metaball 漂浮在真实桌面上方，每位学生被追踪的手就是其中一个球。变体：用 AR 环境探针让团块反射真实房间。
+
+#### Point Cloud Garden — Yuma Yanagisawa (2020)
+- 视频: https://www.youtube.com/watch?v=J6QHswn6Zdg
+- 源代码: https://github.com/yumayanagisawa/Unity-Point-Cloud-VFX-Graph
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, HDRP, Pcx
+- 创意点子: 当扫描得到的点能够移动，一个地方就成了活的材料。
+- 作品内容: 一座扫描的花园以数百万个彩色点呈现，镜头穿过时这些点漂移、消散又重组。
+- 关键技术: 按照 Keijiro 的 Pcx 做法，把 PLY 点云烘焙成位置和颜色贴图并输入 VFX Graph，每个纹素生成一个粒子，在 HDRP 中用噪声驱动动画。
+- 课堂练习: 用 LiDAR 手机扫描校园一角，烘焙成点云贴图，再用 AR Foundation 在原地把它作为会消散的点云重放。变体：点按当天的风向飘散。
+
+### hecomi
+
+*Unity 工程师、图形技术博主*
+
+日本 Unity 工程师，uRaymarching、UnityFurURP、uLipSync 的作者，会在博客 tips.hecomi.com 上详细记录每个实验。
+
+#### Kinect V2 Depth into the G-Buffer — hecomi (2016)
+- 视频: https://www.youtube.com/watch?v=Nl3lxlz0qME
+- 源代码: https://github.com/hecomi/UnityKinectV2DeferredRendering
+- 交互类型: 手势与身体, 空间理解
+- 平台与技术: 桌面, Unity, Kinect V2, Deferred rendering
+- 创意点子: 把深度相机画面当作渲染器的一部分，而不是一张贴图。
+- 作品内容: 实时的 Kinect 深度图在 Unity 场景中变成实体、可被照亮的几何，像其他物体一样接受虚拟光照和阴影。
+- 关键技术: 着色器把 Kinect V2 的深度和重建的法线直接写入 Unity 延迟渲染的 G-buffer，让真实的人被 Unity 的灯光照亮。
+- 课堂练习: 在 iPhone 上用 LiDAR 深度做同样的事：写入深度缓冲，用一盏移动的虚拟灯重新照亮真实房间。变体：虚拟灯让真人投下彩色影子。
+
+#### Screen Space Collision GPU Particles — hecomi (2016)
+- 视频: https://www.youtube.com/watch?v=G-4k8Zur7zY
+- 源代码: https://github.com/hecomi/UnityPseudoInstancedGPUParticles
+- 交互类型: 感知与视觉艺术, 空间理解
+- 平台与技术: 桌面, Unity, HLSL, Deferred rendering
+- 创意点子: 只要看得见一个表面，粒子就能在它上面弹开：把深度缓冲当作碰撞体。
+- 作品内容: 几十万个 GPU 粒子倾泻到场景中，在每个可见表面上弹跳，而不需要任何物理碰撞体。
+- 关键技术: 粒子位置在着色器中更新：把每个粒子投影到屏幕空间，比较它与 G-buffer 中的深度和法线，接触时反射速度。
+- 课堂练习: 用 AR 深度纹理（LiDAR 或 ARCore Depth）作为碰撞表面，让虚拟雪落在真实家具上。变体：粒子落下后会粘住并堆积起来。
+
+#### uRaymarching — hecomi (2016)
+- 视频: https://www.youtube.com/watch?v=AppyVflAagc
+- 源代码: https://github.com/hecomi/uRaymarching
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, HLSL, Raymarching, SDF
+- 创意点子: 只写一个距离函数，就能得到一个带完整光照、表现得和其他物体一样的着色器。
+- 作品内容: 光线步进的距离场形体出现在普通 Unity 场景中，光照、阴影以及与普通网格的穿插都正确。
+- 关键技术: 一个编辑器工具把用户写的距离函数套进模板，生成延迟/前向渲染着色器，并输出深度和 G-buffer 数据，让步进物体由 Unity 正常打光和投影。
+- 课堂练习: 用 uRaymarching 生成一个光线步进雕塑，在手机 AR 中放到真实底座上，并写入深度实现遮挡。变体：距离函数随一天中的时间变形。
+
+#### Water Surface Simulation with CustomRenderTexture — hecomi (2017)
+- 视频: https://www.youtube.com/watch?v=jclxfdS3a3w
+- 源代码: https://github.com/hecomi/UnityWaterSurface
+- 交互类型: 感知与视觉艺术, 实体物件
+- 平台与技术: 桌面, Unity, CustomRenderTexture, HLSL
+- 创意点子: 一个涟漪模拟可以装进一张每帧自我更新的纹理里。
+- 作品内容: 物体掉到水面上激起涟漪，涟漪向外扩散、在边缘反射并彼此干涉。
+- 关键技术: CustomRenderTexture 在着色器中求解二维波动方程，读取前两帧、在物体撞击处加入冲量，再把高度图转成水面着色器的法线。
+- 课堂练习: 在手机 AR 中把真实桌面变成水面，被追踪的手指或物体碰到哪里就激起涟漪。变体：检测到声音时也会起波纹。
+
+#### UnityFurURP (Shell / Fin Fur Shader) — hecomi (2021)
+- 视频: https://www.youtube.com/watch?v=Hab3dcumtXU
+- 源代码: https://github.com/hecomi/UnityFurURP
+- 交互类型: 感知与视觉艺术, 实体物件
+- 平台与技术: 桌面, Unity, URP, HLSL
+- 创意点子: 把一个表面叠上许多层透明副本，它就变成了毛发。
+- 作品内容: 柔软的动物毛发长在模型表面，随着模型移动而摇曳，用层叠的壳层和鳍片实时渲染。
+- 关键技术: URP 着色器沿法线把网格挤出成多层壳层（并在轮廓处生成鳍片），每层用噪声遮罩裁切，再用重力和风力让它摆动。
+- 课堂练习: 在 AR 中把壳层毛发着色器用在覆盖真实物体的 LiDAR 扫描上，让杯子或椅子在屏幕上长出毛。变体：手机快速移动时毛会炸起来。
 
 ### onformative (Cedric Kiefer & Julia Laub)
 
@@ -14053,6 +16619,52 @@ Kat Sullivan 是从舞者转型的创意技术人，她开发读取并改造身�
 - 作品内容: 美国芭蕾舞剧院首席 Cassandra Trenary 穿着动捕服独舞，她的动作在游戏引擎里被复制成一整个虚拟舞团，彼此重复、延迟、镜像。
 - 关键技术: 光学动作捕捉把 Trenary 的骨骼数据实时送进 Unreal Engine，她的化身被复制出多份，并在时间和空间上错开，用一个身体编出多人舞蹈。
 - 课堂练习: 用手机动捕 App 录一段 20 秒的舞句，导入 Unity 或 Blender，把八个副本排成一圈，每个延迟 0.25 秒，做成一段卡农；变体：用 AR 把这个舞团放到教室地板上，自己加入一起跳。
+
+### Kodai Takao
+
+*专注物理模拟与现场演出的图形工程师*
+
+东京的图形工程师，在 Unity 里用 GPU 实现流体、雪和鸟群模拟，并为现场演出制作实时视觉。
+
+#### GPU Accelerated 2D Wave Simulation — Kodai Takao (2017)
+- 视频: https://www.youtube.com/watch?v=XqwTrwWG-_4
+- 源代码: https://github.com/kodai100/Unity_Waves
+- 交互类型: 感知与视觉艺术, 实体物件
+- 平台与技术: 桌面, Unity, Compute Shader
+- 创意点子: GPU 上几行物理代码就能把一个表面变成活的薄膜。
+- 作品内容: 波从撞击点向外扩散，碰到边界反弹，相互干涉形成复杂的图案。
+- 关键技术: 在计算着色器中用有限差分对高度网格积分二维波动方程，再用网格驱动顶点位移。
+- 课堂练习: 在 AR 中把波动薄膜铺在真实桌面上，学生手指点击屏幕的地方产生波。变体：把真实的书放在桌上作为障碍物，被检测为边界。
+
+#### Position Based Fluid — Kodai Takao (2017)
+- 视频: https://www.youtube.com/watch?v=N-XVl2Jip3M
+- 源代码: https://github.com/kodai100/Unity_PositionBasedFluid
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Compute Shader
+- 创意点子: 修正位置而不是力，流体模拟就能保持稳定。
+- 作品内容: 一块水在盒子里坍塌、晃荡，由几万个粒子实时模拟。
+- 关键技术: 在 Unity 计算着色器里求解 Position Based Fluids：粒子排序进网格做邻居搜索，并迭代投影以满足密度约束。
+- 课堂练习: 在手机 AR 中把一个小型 PBF 模拟放进真实桌面上的虚拟玻璃杯，用陀螺仪让它倾斜。变体：拍桌子会让水里产生冲击波。
+
+#### Unity FLIP Fluid — Kodai Takao (2017)
+- 视频: https://www.youtube.com/watch?v=JRTQ6Kgi_Wk
+- 源代码: https://github.com/kodai100/Unity_FLIPFluid
+- 交互类型: 感知与视觉艺术, 实体物件
+- 平台与技术: 桌面, Unity, Compute Shader
+- 创意点子: 把粒子和网格结合起来，得到细节丰富又稳定的水。
+- 作品内容: 用粒子和网格混合的方法模拟飞溅的液体，既保留细小水花又保持稳定。
+- 关键技术: FLIP 方法把粒子速度转移到 MAC 网格上求解压力，再把速度变化转回粒子（在 Unity 中用 GPU 实现）。
+- 课堂练习: 在 AR 中放一个 FLIP 水箱，让学生把虚拟水从一个真实杯状标记倒进另一个。变体：两股水混合时会变色。
+
+#### GPU Instanced Flocking on URP — Kodai Takao (2021)
+- 视频: https://www.youtube.com/watch?v=FXcFn8QM8dk
+- 源代码: https://github.com/kodai100/Unity_BoidsSimulationOnURP
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Compute Shader, GPU instancing
+- 创意点子: 上千条鱼的鱼群只需要局部规则和 GPU。
+- 作品内容: 成千上万条像鱼一样的个体在通用渲染管线中实时成群游动、盘旋。
+- 关键技术: 在计算着色器中计算鸟群规则，再在 URP 中用 GPU 实例化（DrawMeshInstancedIndirect）绘制个体。
+- 课堂练习: 在手机 AR 中放出一群鱼，在房间里游动并躲避镜头。变体：鱼会游向房间里最响的声源。
 
 ### Krzysztof Wodiczko
 
@@ -15293,6 +17905,52 @@ Tin Nguyen 与 Edward Cutting，来自澳大利亚、现居纽约的艺术家组
 - 关键技术: 声学号角和管道在各个聆听点之间物理地传导声音，推测还结合了经过放大的环境录音。
 - 课堂练习: 用纸板或塑料做两只号角，用花园水管连接，让两位同学隔着房间悄悄说话，再标出最佳聆听位置；变体：加第三只号角，只播放鸟鸣。
 
+### fuqunaga
+
+*游戏与互动艺术程序员*
+
+日本互动艺术程序员，开源了 GpuTrail、VatBaker、RosettaUI 等 Unity 计算着色器工具。
+
+#### Conway's Game of Life on the GPU — fuqunaga (2017)
+- 视频: https://www.youtube.com/watch?v=Oxo22vWgzKc
+- 源代码: https://github.com/fuqunaga/GpuLifeGame
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Compute Shader
+- 创意点子: 网格上的四条规则就能生出无穷的涌现生命。
+- 作品内容: 一个巨大的生命游戏网格实时演化，滑翔机和各种图案在画面上涌动。
+- 关键技术: 在计算着色器中根据八个邻居并行更新每个单元的状态，并渲染成纹理。
+- 课堂练习: 在 AR 中把生命游戏网格贴到真实墙面上，在相机看到暗像素的地方播种活细胞。变体：模拟速度跟随房间噪音大小。
+
+#### GpuTrail: 100,000 Trails — fuqunaga (2017)
+- 视频: https://www.youtube.com/watch?v=sS2MYj6LceY
+- 源代码: https://github.com/fuqunaga/GpuTrail
+- 交互类型: 空间绘画与创作, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Compute Shader
+- 创意点子: 原本昂贵的拖尾可以完全交给 GPU，做到极大规模。
+- 作品内容: 十万条发光的拖尾同时在空间中流动，每条跟随一个粒子。
+- 关键技术: 拖尾节点位置存在 compute buffer 中，每帧由计算着色器更新，再以面向相机的条带绘制，并做视锥剔除和 LOD。
+- 课堂练习: 在 AR 中把 GPU 拖尾绑到追踪的手或手机上，移动时在房间里留下长长的光迹。变体：不同学生的光迹会互相吸引。
+
+#### PortalGate — fuqunaga (2018)
+- 视频: https://www.youtube.com/watch?v=jzud9m-NgnA
+- 源代码: https://github.com/fuqunaga/PortalGate
+- 交互类型: 传送门与世界替换, 游戏与玩法
+- 平台与技术: 桌面, Unity, Render textures
+- 创意点子: 墙上两个相连的洞，改写了空间的连接方式。
+- 作品内容: 对 Valve《Portal》的可玩复刻：玩家在墙上打出两个传送门，人和物体都能无缝穿过。
+- 关键技术: 每个传送门把链接相机的视图渲染到开口的纹理上，穿过平面的物体被复制并传送，速度方向随之旋转。
+- 课堂练习: 在 AR 中把两个传送门放在真实墙上，滚进一个的球会从另一个出来。变体：第二个传送门在另一位同学的手机里。
+
+#### VFXGraphSandbox: Runtime Point Cache — fuqunaga (2019)
+- 视频: https://x.com/fuqunaga/status/1209023053016924161
+- 源代码: https://github.com/fuqunaga/VFXGraphSandbox
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph
+- 创意点子: 现场生成点缓存而不是预先烘焙，让任何动画网格都能变成粒子。
+- 作品内容: 角色模型在运行时被转成粒子：VFX Graph 每帧采样它的表面，粒子身体跟随动画一起运动。
+- 关键技术: 脚本每帧在蒙皮网格上采样点，写入纹理并作为运行时点缓存绑定到 VFX Graph；另一个实验读取顶点动画贴图（VAT）。
+- 课堂练习: 在运行时采样 AR 人体追踪的骨骼网格，并从上面发射 VFX Graph 粒子，让手机里的同学溶解成粒子。变体：粒子留在一秒前人所在的位置。
+
 ### teamLab
 
 *艺术团体（由 Toshiyuki Inoko 创立）*
@@ -15533,6 +18191,42 @@ Benjamin Petit 和 Antoine Vanel 组成的二人组，用 openFrameworks 和 Ope
 - 关键技术: 与实体布景对齐的房间级 VR，在扫描和建模场景之间用传送门转场；后续的 AR 版本让用户点击家具来触发变化。
 - 课堂练习: 用 WebXR 或 AR Foundation 做一个场景，让教室里一扇真实的门通向另一个年代；变体：必须用房间里某件日常物品作为打开传送门的钥匙。
 
+### Dilmer Valecillos
+
+*XR 开发者与教育者（Learn XR）*
+
+XR 开发者，在 YouTube 上教授 AR Foundation、Quest 和 VFX Graph，并把每个教程工程都放在 GitHub 上。
+
+#### AR Body Tracking with Head and Hand Particles — Dilmer Valecillos (2019)
+- 视频: https://www.youtube.com/watch?v=jxvBrfuyusU
+- 源代码: https://github.com/dilmerv/UnityARFoundationEssentials
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 手机, Unity, AR Foundation, ARKit
+- 创意点子: 把特效绑在人体追踪关节上，让真实的人拥有超能力。
+- 作品内容: 在 iPhone 上，被追踪的人的头和手会喷出火焰和粒子，随着他们在真实房间中移动而跟随。
+- 关键技术: AR Foundation 的 ARKit 3 人体追踪提供关节变换，每帧把粒子发射器挂到头部和手部关节上。
+- 课堂练习: 把 VFX Graph 发射器绑到 AR 人体追踪关节上，为每位同学设计一种超能力。变体：关节移动越快，效果越强。
+
+#### VFX Graph Sun with 2 Million Particles — Dilmer Valecillos (2019)
+- 视频: https://www.youtube.com/watch?v=f1BHXqeokSE
+- 源代码: https://github.com/dilmerv/UnityVFXMillionsOfParticles
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, HDRP
+- 创意点子: 数百万个小点就足以造出一颗恒星。
+- 作品内容: 一颗由两百万个粒子构成的燃烧太阳在实时翻涌、喷发，在 VFX Graph 中一步步搭建而成。
+- 关键技术: VFX Graph 在球面上生成粒子，用湍流和 conform-to-sphere 力推动它们，并按生命周期用 HDR 渐变着色。
+- 课堂练习: 在手机 AR 中把粒子太阳放到真实桌面上，用捏合手势缩放。变体：由更少粒子组成的行星绕着用户的头旋转。
+
+#### Hand-Tracked Forces on VFX Particles (Quest) — Dilmer Valecillos (2020)
+- 视频: https://www.youtube.com/watch?v=EyMF2Wo1awo
+- 源代码: https://github.com/dilmerv/OculusQuestHandTrackingPhysicsURP
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 头显, Unity, VFX Graph, URP, Oculus Quest
+- 创意点子: 双手变成粒子的力场。
+- 作品内容: 在 Oculus Quest 的 VR 中，用户用裸手推、拉、打散一团 VFX Graph 粒子。
+- 关键技术: 把 Oculus 手部追踪的骨骼位置作为暴露属性传给 VFX Graph，用作吸引点和碰撞体，并在 Quest 上用 URP 渲染。
+- 课堂练习: 把手势力场粒子带到 Quest 3 透视 MR 或 HoloKit 中，让学生雕塑一团漂浮在真实桌子上方的粒子云。变体：两人的手从相反方向把粒子云撕开。
+
 ### Harshini J. Karunaratne
 
 *跨领域艺术家、创意技术人*
@@ -15565,6 +18259,42 @@ Benjamin Petit 和 Antoine Vanel 组成的二人组，用 openFrameworks 和 Ope
 - 作品内容: 为圣保罗保利斯塔大道 FIESP 大楼像素媒体立面创作的舞蹈作品：在 FILE LED SHOW 2017 上，舞者被抽象化的身体在整座摩天大楼上移动。
 - 关键技术: Kai-Wen Yang 编舞的影像被处理成低分辨率、高对比的动画，适配立面粗糙的 LED 网格。
 - 课堂练习: 把舞蹈片段降采样到 20×30 像素网格，在背光纸窗墙上播放，或在 AR 中贴到楼房照片上；变体：让舞者只在亮着的窗户里移动。
+
+### Hironori Sugino (sugi-cho)
+
+*自由创意程序员*
+
+东京的自由程序员，为装置和 VJ 演出制作 GPU 粒子、投影映射和深度相机视觉，也是《Unity Graphics Programming》系列的作者之一。
+
+#### Screen Space Particle Collision — Hironori Sugino (sugi-cho) (2016)
+- 视频: https://www.youtube.com/watch?v=E81EVRG0SlU
+- 源代码: https://github.com/sugi-cho/Unity-GPU-Particle
+- 交互类型: 感知与视觉艺术, 空间理解
+- 平台与技术: 桌面, Unity, HLSL, GPU particles
+- 创意点子: 把相机看到的东西当成粒子的物理世界。
+- 作品内容: 一股 GPU 粒子喷泉落到三维场景上，在表面上滑动、弹跳，全部在 GPU 上计算。
+- 关键技术: GPU 粒子系统读取相机的深度和法线缓冲，检测粒子何时穿到可见表面后面，并沿表面法线反射其速度。
+- 课堂练习: 把 AR 相机深度输入粒子着色器，让亮片从天花板洒下，在真实的人和桌子上弹开。变体：粒子在弹开处取相机像素的颜色。
+
+#### Projection Spray (VR Spray Drawing) — Hironori Sugino (sugi-cho) (2017)
+- 视频: https://www.youtube.com/watch?v=TTv6YPWNLxY
+- 源代码: https://github.com/sugi-cho/ProjectionSpray
+- 交互类型: 空间绘画与创作, 空间理解
+- 平台与技术: 头显, Unity, HLSL, SteamVR
+- 创意点子: 喷漆罐其实就是一台投影仪，把颜色写进它照到的物体的贴图里。
+- 作品内容: 在 VR 中，用户用虚拟喷罐喷漆，颜色精确地落在喷雾锥碰到的三维物体表面上。
+- 关键技术: 喷漆被建模成一台投影仪：从喷罐视角渲染深度图判断可见性，再在投影命中的地方更新每个物体 UV 空间的贴图。
+- 课堂练习: 在 AR 中把手机当作喷罐，从手机位姿投射颜料，给教室的 LiDAR 扫描喷漆。变体：每位学生的颜色取自他们指着的真实物体。
+
+#### Depth Camera Voxel Particles — Hironori Sugino (sugi-cho) (2018)
+- 视频: https://www.youtube.com/watch?v=r6qXq082iH4
+- 源代码: https://github.com/sugi-cho/RealSenseVisualize
+- 交互类型: 手势与身体, 表演与舞台
+- 平台与技术: 桌面, 投影, Unity, Intel RealSense, GPU instancing
+- 创意点子: 用可以散开的方块实时重建一个身体。
+- 作品内容: RealSense 深度相机拍到的人被重建成一团发光的体素方块，随人移动并四散。
+- 关键技术: 把 Intel RealSense 的深度帧在 Unity 中转成三维点，在这些点上按体素网格放置实例化方块，并用 GPU 动画让它们散开（很可能与他的 VJ Voxel Depth VR 演出使用同一流程）。
+- 课堂练习: 把 iPhone LiDAR 深度转成 AR 中的体素方块，让站在前面的同学变成方块雕塑。变体：人停下不动时，方块会掉到真实地板上。
 
 ### Holosphere
 
@@ -16547,6 +19277,42 @@ Oliver Kreylos 开发了开源的 Augmented Reality Sandbox：Kinect 扫描真�
 - 关键技术: 沿用同样的地理标签叠加方式，只是换到了更大的屏幕上，把设备当作观看标签图层的手持窗口。
 - 课堂练习: 对比手机和平板上同一个 AR 标签界面，调整标签密度和字号以适配大屏；变体：设计一种只在大屏上才有意义的交互。
 
+### Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team)
+
+*Unity 公司中开发 VFX Graph 及其示范样例的团队*
+
+开发 Visual Effect Graph 的 Unity 团队，公开了 Spaceship Demo、VFX Graph 样例场景以及 Mesh-to-SDF 等演示团队工具。
+
+#### Spaceship Demo — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2018)
+- 视频: https://www.youtube.com/watch?v=rqMcPZoEc3U
+- 源代码: https://github.com/Unity-Technologies/SpaceshipDemo
+- 交互类型: 感知与视觉艺术, 游戏与玩法
+- 平台与技术: 桌面, Unity, VFX Graph, HDRP
+- 创意点子: 在一个可玩的空间里展示 GPU 粒子图能做的一切。
+- 作品内容: 以第一人称走过一艘科幻飞船：火花、全息桌、烟雾和发光的反应堆核心，全部由 VFX Graph 制作。
+- 关键技术: HDRP 场景中使用 VFX Graph 系统，包括 GPU 模拟、有符号距离场碰撞、点缓存和受光粒子，并通过 Timeline 和游戏事件触发。
+- 课堂练习: 从 Spaceship Demo 中挑一个效果（全息桌针屏），在手机 AR 中按桌面尺度在真实书桌上重建。变体：让针屏显示房间的 LiDAR 深度。
+
+#### Mesh-to-SDF — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2022)
+- 视频: https://user-images.githubusercontent.com/6276154/201238758-cc87ec4a-a65a-4cb2-b3cc-123576ab9ea2.mov
+- 源代码: https://github.com/Unity-Technologies/com.unity.demoteam.mesh-to-sdf
+- 交互类型: 手势与身体, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Compute Shader, SDF
+- 创意点子: 每帧给运动的身体生成距离场，特效就能感知它的形状。
+- 作品内容: 一个动画角色被包裹在实时的有符号距离场中，粒子和烟雾绕着它移动的身体流动并贴附其上。
+- 关键技术: Unity 演示团队的计算着色器生成器每帧把蒙皮网格写入三维纹理并填充距离，VFX Graph 再采样它来做碰撞和吸附。
+- 课堂练习: 从 AR 人体追踪网格生成 SDF，让 VFX Graph 烟雾在手机屏幕上包裹一位同学。变体：一只手排斥烟雾，另一只手吸引烟雾。
+
+#### VFX Graph Smoke Portal Sample — Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team) (2023)
+- 视频: https://www.youtube.com/watch?v=57cKxN3XdEY
+- 源代码: https://github.com/Unity-Technologies/VisualEffectGraph-Samples
+- 交互类型: 传送门与世界替换, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, HDRP, Six-way lighting
+- 创意点子: 像真实烟雾一样受光的烟，让传送门显得有实体感。
+- 作品内容: 一圈被照亮的烟雾和火星旋转成一个传送门，烟雾接收来自火焰和周围场景的光照。
+- 关键技术: 翻页动画烟雾粒子使用六向光照（从六个方向烘焙的光照图），因此能响应场景灯光；再结合 VFX Graph 沿圆环生成粒子和扭曲效果。
+- 课堂练习: 用 AR Foundation 把烟雾传送门放在真实门框上，并用 AR 光照估计照亮它，让烟与房间一致。变体：只有两人站在门两侧时传送门才打开。
+
 ### Velan Studios (Karthik & Guha Bala)
 
 *游戏工作室；Mario Kart Live 与 Hot Wheels Rift Rally*
@@ -16711,6 +19477,32 @@ Oliver Kreylos 开发了开源的 Augmented Reality Sandbox：Kinect 扫描真�
 - 作品内容: 舞者带领观众穿过记忆与潜意识交织的景观，同时他的实时脑活动被可视化，驱动周围的数字环境。
 - 关键技术: 可穿戴的脑成像头戴设备（可能是 EEG 或 fNIRS）传出脑信号，映射到投影生成影像的参数上。
 - 课堂练习: 用消费级脑电头带（或用心率传感器代替）改变投影森林的密度，让表演者在平静和活跃任务之间切换；变体：不让表演者看到信号，让观众猜是什么在驱动画面。
+
+### Andrei Iurin (NullTale)
+
+*独立开发者、Unity 特效工具作者*
+
+以 NullTale 名义发布作品的独立开发者，开源了 VolFx、GiLight2D、AsciiFx、PixelationFx 等 URP 后期与光照工具。
+
+#### GiLight2D: Bad Apple!! in 2D Ray Tracing — Andrei Iurin (NullTale) (2023)
+- 视频: https://www.youtube.com/watch?v=fNq0HUg6L8o
+- 源代码: https://github.com/NullTale/GiLight2D
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Jump flooding, 2D ray tracing
+- 创意点子: 把每个亮像素都当作光源，让光线自己找到阴影。
+- 作品内容: 《Bad Apple!!》的剪影动画被二维光线追踪全局光照重新打光，每个形体都发光、投下柔和阴影并反射光线。
+- 关键技术: URP 渲染器特性用 jump flooding 构建距离场，再在其中为每个像素发射多条射线收集自发光，得到二维全局光照。
+- 课堂练习: 在俯视的 AR 地面投影上运行二维全局光照，让发光的虚拟物体在学生真实影子周围投下柔光。变体：用人物遮挡蒙版中的学生剪影作为挡光物。
+
+#### VolFx — Andrei Iurin (NullTale) (2024)
+- 视频: https://www.youtube.com/watch?v=0Byz2CEw-y8
+- 源代码: https://github.com/NullTale/VolFx
+- 交互类型: 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Render Feature
+- 创意点子: 后期处理不必作用于整个画面，它可以是只刷在选定图层上的画笔。
+- 作品内容: 画面在梦幻、故障、绘画等风格之间切换：模糊、色彩映射、流动和抖动只叠加在选定的物体上，其余部分保持不变。
+- 关键技术: URP 渲染器特性把选定图层渲染到独立缓冲中，对它们执行一组自定义全屏 pass（模糊、流动、色彩映射、抖动），再合成回画面。
+- 课堂练习: 在手机 AR 中使用按图层的后期效果，只把虚拟生物画成水彩，相机画面保持真实。变体：触摸生物时切换风格。
 
 ### Andrew Mendez
 
@@ -17014,6 +19806,32 @@ Cybersaur Arts 在梅德韦和肯特地区与青少年及社区合作做投影�
 - 作品内容: 戴上 AR 头显后，用户可以用“几只手长”来量物体和距离：系统追踪手，并在空间中把它的虚拟复制品首尾相接地排开，用身体测量时不再需要在脑子里默数。
 - 关键技术: 光学透视头显上的手部追踪记录手的姿态和尺寸，然后在连续位置上放置手部网格的虚拟复制品，把测量过程可视化。
 - 课堂练习: 在支持手部追踪的 AR 应用（Quest 透视或 Lens Studio）中，让用户沿桌边像盖章一样放下手的复制品，并显示总长是几只手、多少厘米。变体：用脚，或者整个人躺下来当尺子。
+
+### Daniel Ilett
+
+*着色器教育者、独立开发者*
+
+英国开发者和博士研究者，在 YouTube 和博客上教 Unity 着色器，复刻《Antichamber》《Portal》等游戏中的效果。
+
+#### Fully Functional Portals in URP — Daniel Ilett (2021)
+- 视频: https://www.youtube.com/watch?v=PkGjYig8avo
+- 源代码: https://github.com/daniel-ilett/portals-urp
+- 交互类型: 传送门与世界替换, 游戏与玩法
+- 平台与技术: 桌面, Unity, URP, Render textures
+- 创意点子: 在现代渲染管线中用渲染纹理重现《Portal》的魔法。
+- 作品内容: 玩家在房间之间穿过无缝传送门，透过每个开口实时看到相连的空间。
+- 关键技术: 链接的传送门相机渲染到纹理，在门面上按屏幕空间采样，配合斜裁剪和传送逻辑，适配 URP。
+- 课堂练习: 做一个 AR 门框，显示另一个房间的虚拟副本，学生穿过去就交换世界。变体：另一边是同一个房间一小时前的样子（录制的扫描）。
+
+#### Impossible Geometry with Stencil Shaders — Daniel Ilett (2022)
+- 视频: https://www.youtube.com/watch?v=EzM8LGzMjmc
+- 源代码: https://github.com/daniel-ilett/shaders-impossible-geom
+- 交互类型: 传送门与世界替换, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, URP, Stencil buffer
+- 创意点子: 如果每扇窗只显示自己的世界，空间里面可以比外面大。
+- 作品内容: 一个立方体的每个面都显示不同的世界，一条走廊通向放不进它里面的房间，就像游戏《Antichamber》。
+- 关键技术: 在 URP 中，每扇窗写入唯一的模板参考值，每个隐藏世界的材质只在模板值匹配的地方渲染。
+- 课堂练习: 在 AR 中把模板立方体锚定到一个图像标记上，每个面显示一个不同的微缩世界。变体：转动真实标记会改变哪个世界在上面。
 
 ### Directive Games
 
@@ -17326,6 +20144,32 @@ Joseph DeLappe 曾长期任教于内华达大学里诺分校，现任教于 Aber
 - 作品内容: 在安大略美术馆（Art Gallery of Ontario），参观者打开 Acute Art 应用，就能看到 KAWS 的巨型雕塑出现在 Galleria Italia 长廊中，与实体展览并置。
 - 关键技术: Acute Art 应用利用平面检测和针对场地的定点放置，将大型三维动画雕塑锚定在美术馆空间中。
 - 课堂练习: 为学校走廊设计一个超大尺寸的AR雕塑（Reality Composer/Adobe Aero），研究比例带来的震撼；变化：雕塑会看向离它最近的观众。
+
+### Kaito Tsutsumi (にー兄さん / drumath2237)
+
+*从事 WebXR、VFX Graph 和高斯泼溅的软件工程师*
+
+日本工程师，发布了 Azure Kinect + VFX Graph 样例、生成式音乐视频流程，以及 Babylon.js 和高斯泼溅工具。
+
+#### KinFuSDFVFX — Kaito Tsutsumi (にー兄さん / drumath2237) (2021)
+- 视频: https://www.youtube.com/watch?v=ApPVp6Z3cgE
+- 源代码: https://github.com/drumath2237/KinFuSDFVFX
+- 交互类型: 空间理解, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Azure Kinect, Houdini
+- 创意点子: 把真实空间扫描一次，让粒子能够贴住它的形状。
+- 作品内容: 用 Azure Kinect 扫描的真实房间变成一个距离场，VFX Graph 粒子在上面爬行、贴附。
+- 关键技术: 把 Kinect Fusion 的扫描在 Houdini 中转成有符号距离场体积，VFX Graph 在 HDRP 中采样它，让粒子贴合扫描表面。
+- 课堂练习: 用 LiDAR 手机扫描一件教室里的物体，烘焙成 SDF，让 AR 粒子在原位的真实物体上爬行。变体：粒子会躲开手机手电筒的光。
+
+#### Generative VFX Music Video (Bitwig x Unity) — Kaito Tsutsumi (にー兄さん / drumath2237) (2022)
+- 视频: https://www.youtube.com/watch?v=gARJwIS5VGc
+- 源代码: https://github.com/drumath2237/Generative-VFX-Bitwig-Sandbox
+- 交互类型: 声音, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, VFX Graph, Bitwig Studio
+- 创意点子: 让概率而不是时间线同时导演音乐和画面。
+- 作品内容: 一支生成式音乐视频：粒子、线条和颜色随机变化，并响应 Bitwig Studio 生成的音乐频谱。
+- 关键技术: Bitwig 的 Note Grid 按概率生成音符，Unity 的 VFX Graph 粒子行为随机切换，并由曲目的音频频谱驱动。
+- 课堂练习: 在手机上用实时麦克风频谱和随机状态切换驱动一座 AR 粒子雕塑，放在教室里。变体：每位学生拍手决定下一个随机场景。
 
 ### Kasimir Lehto (Reality Crisis)
 
@@ -18227,6 +21071,22 @@ LEGO 的 Hidden Side 系列（2019）把实体积木套装与手机应用相结�
 - 关键技术: 共享空间锚点让两台头显获得同一个桌面坐标系；当一名玩家从另一名玩家手中抓取拼图块时，其归属权通过网络转移。
 - 课堂练习: 用两台手机和一个共同的图像标记对齐坐标，一起把一个拆成 4 块的 3D 模型拼回原样；变体：每个人只能看到一半碎片。
 
+### Adrián Ciborro Montes
+
+*从事图形与 AI 驱动直播的软件工程师*
+
+西班牙工程师，发布了一个把基于摄像头的三维姿态估计变成 VFX Graph 粒子的 Unity 项目。
+
+#### MoCap VFX — Adrián Ciborro Montes (2022)
+- 视频: https://www.youtube.com/watch?v=z2Kst0t0PBA
+- 源代码: https://github.com/adcimon/mocap-vfx
+- 交互类型: 手势与身体, 表演与舞台
+- 平台与技术: 桌面, Unity, VFX Graph, Barracuda
+- 创意点子: 不需要动捕服：神经网络把一个摄像头变成粒子身体。
+- 作品内容: 普通摄像头拍到的人被追踪为三维骨架，发光的 VFX Graph 粒子从他们移动的四肢中涌出。
+- 关键技术: 三维姿态估计网络（ThreeDPoseUnityBarracuda）在 Unity Barracuda 中运行并驱动一个角色，角色的蒙皮网格发射 VFX Graph 粒子。
+- 课堂练习: 在 AR 中对手机相机运行姿态模型（Sentis 或 MediaPipe），从跳舞同学被追踪的关节发射粒子。变体：粒子颜色随音乐节奏变化。
+
 ### Alicja Kwade
 
 *雕塑与装置艺术家*
@@ -18946,6 +21806,22 @@ Lens Studio 开发者，发布 AR 特效实验，并与 Max van Leeuwen 合作�
 - 作品内容: 在炎热的夏日，一个手机镜头让阳光下的荷兰街道铺满厚雪，雪花还在飘落，人行道上堆起雪堤。
 - 关键技术: 这个 Lens Studio 世界镜头很可能利用地面追踪，用粒子系统做飘雪，再在识别出的地面上铺一层可变形的雪网格。
 - 课堂练习: 用 Lens Studio 或 Effect House 给校园做一个“错季”AR 滤镜：春天落叶，夏天下雪。变体：人走过的地方留下脚印。
+
+### NoiseCrime
+
+*Unity 开发者、图形实验者*
+
+资深 Unity 开发者，发布了模板缓冲传送门立方体、间接实例化等渲染实验。
+
+#### Portal Room Cubes via Stencil Buffer — NoiseCrime (2013)
+- 视频: https://www.youtube.com/watch?v=5DKIP9N-OB4
+- 源代码: https://github.com/noisecrime/Unity-StencilPortalRoomCube
+- 交互类型: 传送门与世界替换, 感知与视觉艺术
+- 平台与技术: 桌面, Unity, Stencil buffer
+- 创意点子: 如果每个房间只能透过自己那一面看到，几个房间就能共享同一个空间。
+- 作品内容: 一个小立方体的每个面后面都藏着不同的房间；绕着它走一圈，会看到好几个完整空间塞在一个盒子里。
+- 关键技术: 立方体的每个面写入自己的模板值，每个房间的着色器检测该值，因此房间只透过对应的面渲染。
+- 课堂练习: 在手机 AR 中把模板房间立方体放在真实书桌上，让学生每人设计一个面的房间。变体：房间是相通的，从一个面滚出的球会进入下一个面。
 
 ### Onat Hekimoglu & Tobias Kreter
 

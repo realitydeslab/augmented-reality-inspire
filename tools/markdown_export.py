@@ -36,6 +36,8 @@ T = {
         "vfx": "Visual effects (with source code)",
         "vfx_intro": "Real-time visual effects from the Unity VFX community, most with open source code; building blocks that translate easily to AR.",
         "code": "Source code",
+        "related": "Related art (not AR, but inspires AR)",
+        "related_intro": "Land art, light, projection, fireworks, illusions and installations that already do in the real world what AR tries to do.",
         "salient": "Salient works", "salient_intro": "Simple works where the concept jumps out: one idea, minimal means, understood in seconds.",
         "learn": "What to learn", "why": "Why it matters", "video": "Video", "ix": "Interaction",
         "plat": "Platform & tech", "idea": "Idea", "what": "What it is", "tech": "Technique", "try": "Try it",
@@ -56,6 +58,8 @@ T = {
         "vfx": "视觉特效（附源代码）",
         "vfx_intro": "来自 Unity 视觉特效社区的实时特效，大多附有开源代码，是很容易搬进 AR 的积木。",
         "code": "源代码",
+        "related": "相关艺术（不是 AR，但能启发 AR）",
+        "related_intro": "大地艺术、光、投影、烟火、错觉和装置：它们早已在真实世界里做着 AR 想做的事。",
         "salient": "一眼即懂的作品", "salient_intro": "做法简单、但概念非常突出的作品：一个想法、极简的手段，几秒就能看懂。",
         "learn": "向他学什么", "why": "策展说明", "video": "视频", "ix": "交互类型",
         "plat": "平台与技术", "idea": "创意点子", "what": "作品内容", "tech": "关键技术", "try": "课堂练习",
@@ -142,6 +146,19 @@ def catalog_md(data: dict, lang: str) -> str:
                 idea = _w(w, lang)["idea"] or ""
                 code = f" · {s['code']}: {w['code_url']}" if w.get("code_url") else ""
                 out.append(f"- **{w['title']}** — {who}" + (f" ({w['year']})" if w.get("year") else "") + f": {idea} {w['video']['url']}{code}")
+            out.append("")
+    rel = [w for w in data["works"] if w.get("related_cat")]
+    if rel:
+        out += [f"## {s['related']}", "", s["related_intro"], ""]
+        for c in data.get("related_categories", []):
+            group = [w for w in rel if w["related_cat"] == c["id"]]
+            if not group:
+                continue
+            out += [f"### {c['zh'] if zh else c['en']}", "", c["desc_zh" if zh else "desc_en"], ""]
+            for w in group:
+                who = ", ".join(names.get(x, x) for x in w["creator_ids"])
+                idea = _w(w, lang)["idea"] or ""
+                out.append(f"- **{w['title']}** — {who}" + (f" ({w['year']})" if w.get("year") else "") + f": {idea} {w['video']['url']}")
             out.append("")
     out += [f"## {s['all']}", ""]
     by_creator = defaultdict(list)

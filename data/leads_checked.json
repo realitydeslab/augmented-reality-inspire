@@ -2840,6 +2840,22 @@
   "batch": "src-pinterest"
  },
  {
+  "name": "hecomi",
+  "why": "Author of uRaymarching and UnityFurURP, widely used open-source Unity shader and raymarching tools.",
+  "link": "https://github.com/hecomi",
+  "found_via": "keijiro-takahashi",
+  "status": "covered",
+  "batch": "vfx-keijiro-old"
+ },
+ {
+  "name": "Hironori Sugino (sugi-cho)",
+  "why": "Freelance Unity programmer from the Tokyo VJ scene; open-source GPU particles and animation texture baker.",
+  "link": "https://github.com/sugi-cho",
+  "found_via": "keijiro-takahashi",
+  "status": "covered",
+  "batch": "vfx-keijiro-old"
+ },
+ {
   "name": "Joel Gethin Lewis (Hellicar & Lewis)",
   "why": "YesYesNo collaborator on Lights On/Night Lights; Hellicar & Lewis made body-interactive projection work such as Somantics.",
   "link": "https://vimeo.com/hellicarandlewis",

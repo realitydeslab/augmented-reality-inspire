@@ -1,0 +1,2061 @@
+{
+ "batch": "vfx-keijiro-old",
+ "creators": [],
+ "works": [
+  {
+   "id": "keijiro-takahashi--skinner",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Skinner",
+   "year": 2016,
+   "description": "A dancing character sheds thousands of particles, glowing trails and glitchy triangle fragments straight from its animated skin while it moves.",
+   "description_zh": "一个跳舞的角色一边运动，一边从皮肤上甩出成千上万的粒子、发光拖尾和故障风的三角碎片。",
+   "idea_en": "Use every vertex of a moving body as an emitter, so the motion itself paints the effect.",
+   "idea_zh": "把运动身体上的每个顶点都当作发射器，让动作本身来“画”出特效。",
+   "technique": "A replacement shader bakes the skinned mesh's vertex positions for the current and previous frame into render textures, and GPU particle, trail and glitch renderers read those textures to spawn and move their elements.",
+   "technique_zh": "用替换着色器把蒙皮网格当前帧和上一帧的顶点位置写进渲染纹理，GPU 上的粒子、拖尾和故障渲染器读取这些纹理来生成并推动各自的元素。",
+   "exercise_en": "Import a Mixamo dancer into Unity, sample its skinned mesh in a VFX Graph particle system and place the dancer on a detected floor with AR Foundation on a phone. Twist: switch to ARKit body tracking so a classmate's own body sheds the particles.",
+   "exercise_zh": "在 Unity 里导入一个 Mixamo 舞者，用 VFX Graph 采样它的蒙皮网格发射粒子，再用 AR Foundation 把舞者放到手机识别出的地面上；变体：改用 ARKit 人体追踪，让同学自己的身体甩出粒子。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "GPU particles",
+    "replacement shader"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "197396746",
+    "url": "https://vimeo.com/197396746"
+   },
+   "source_url": "https://github.com/keijiro/Skinner",
+   "code_url": "https://github.com/keijiro/Skinner",
+   "vfx_cat": "body"
+  },
+  {
+   "id": "keijiro-takahashi--glitchdancer",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "GlitchDancer",
+   "year": 2017,
+   "description": "A motion-captured dancer keeps breaking into shifting glitch fragments, rendered live at 60 fps on an iPhone as a pocket VJ tool.",
+   "description_zh": "一个动作捕捉的舞者不断碎裂成变化的故障碎片，在 iPhone 上以 60 fps 实时渲染，像一台口袋里的 VJ 设备。",
+   "idea_en": "Show that a phone can run club-grade real-time 3D visuals.",
+   "idea_zh": "证明一部手机也能跑出夜店级别的实时 3D 视觉。",
+   "technique": "Mocap clips drive a skinned character whose triangles are displaced and recolored by Skinner-style glitch shaders, tuned to hold 60 fps on an iPhone 6S; part of it was used for the Teenage Engineering OP-Z demo at NAMM 2017.",
+   "technique_zh": "动作捕捉片段驱动一个蒙皮角色，Skinner 风格的故障着色器对三角面做位移和变色，并针对 iPhone 6S 优化到稳定 60 fps；其中一部分用在了 NAMM 2017 上 Teenage Engineering OP-Z 的演示。",
+   "exercise_en": "Build a phone AR scene where a mocap dancer stands on a table and its triangles glitch apart on every beat the microphone detects. Twist: tap the screen to freeze the glitch and walk around the frozen fragments.",
+   "exercise_zh": "做一个手机 AR 场景：动作捕捉舞者站在桌面上，麦克风每检测到一个节拍，它的三角面就故障式地散开；变体：点一下屏幕把故障定格，然后绕着定格的碎片走一圈。",
+   "interaction": [
+    "hand-body",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Unity",
+    "iOS",
+    "Metal",
+    "motion capture"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "198537336",
+    "url": "https://vimeo.com/198537336"
+   },
+   "source_url": "https://github.com/keijiro/GlitchDancer",
+   "code_url": "https://github.com/keijiro/GlitchDancer",
+   "vfx_cat": "body"
+  },
+  {
+   "id": "keijiro-takahashi--gvoxelizer",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "GVoxelizer",
+   "year": 2017,
+   "description": "An animated character dissolves into flying voxel cubes and then reassembles, as if it were being teleported block by block.",
+   "description_zh": "一个动画角色分解成飞散的体素方块，然后又重新拼回来，像被一块一块地传送走。",
+   "idea_en": "Turn any mesh into a voxel transition without preprocessing it.",
+   "idea_zh": "不做任何预处理，就能把任意网格变成体素化的转场。",
+   "technique": "A geometry shader turns each triangle into a cube once a moving effector plane passes it, then pushes and scales the cubes with noise, so the effect runs in real time on any mesh.",
+   "technique_zh": "几何着色器在一个移动的效果平面扫过时把每个三角形变成立方体，再用噪声推动并缩放这些立方体，所以任何网格都能实时使用这个效果。",
+   "exercise_en": "Apply a voxel-dissolve shader to a scanned object placed with AR Foundation so it breaks into cubes as the phone gets closer. Twist: reverse it so the object only builds itself up when the viewer steps back.",
+   "exercise_zh": "在 AR Foundation 里给一个扫描物体加上体素溶解着色器，手机越靠近它就越碎成方块；变体：反过来，只有观众后退时物体才一块块搭建起来。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "geometry shader"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "241191777",
+    "url": "https://vimeo.com/241191777"
+   },
+   "source_url": "https://github.com/keijiro/GVoxelizer",
+   "code_url": "https://github.com/keijiro/GVoxelizer",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--gdisintegrator",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "GDisintegrator",
+   "year": 2017,
+   "description": "A figure's surface peels off into drifting triangles that swirl away like ash, and then the body is restored.",
+   "description_zh": "人物的表面剥落成一片片三角形，像灰烬一样被卷走，随后身体又复原。",
+   "idea_en": "Treat disintegration as a controllable, reversible material state.",
+   "idea_zh": "把“解体”当成一种可以控制、可以倒回的材质状态。",
+   "technique": "A geometry shader detaches each triangle when a moving threshold reaches it, then moves, spins and shrinks the triangle with noise over time; it is the companion effect to GVoxelizer.",
+   "technique_zh": "几何着色器在移动的阈值到达时把每个三角形分离出来，再用噪声随时间移动、旋转并缩小它；这是 GVoxelizer 的姊妹效果。",
+   "exercise_en": "Add a triangle-disintegration shader to a virtual statue in AR Foundation and drive the threshold with the distance between phone and statue. Twist: make the triangles fly toward the viewer's camera instead of away.",
+   "exercise_zh": "在 AR Foundation 中给一座虚拟雕像加上三角面解体着色器，用手机与雕像的距离控制阈值；变体：让三角形朝观众的镜头飞来，而不是飞走。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "geometry shader"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "241520939",
+    "url": "https://vimeo.com/241520939"
+   },
+   "source_url": "https://github.com/keijiro/GDisintegrator",
+   "code_url": "https://github.com/keijiro/GDisintegrator",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--pcx",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Pcx point cloud renderer",
+   "year": 2017,
+   "description": "Scanned point clouds imported from .ply files are drawn in Unity as dense colored dots and animated with custom point shaders.",
+   "description_zh": "从 .ply 文件导入的扫描点云在 Unity 里被画成密集的彩色点，并用自定义的点着色器做动画。",
+   "idea_en": "Make raw scan data a first-class, animatable material inside a game engine.",
+   "idea_zh": "让原始扫描数据在游戏引擎里变成可以直接做动画的材料。",
+   "technique": "A custom asset importer reads binary PLY files into point-topology meshes or ComputeBuffers, and point and disk shaders render and animate millions of points; later versions also bake them into VFX Graph point caches (the video shows its predecessor PlypcImporter).",
+   "technique_zh": "自定义导入器把二进制 PLY 文件读成点拓扑网格或 ComputeBuffer，再由点和圆盘着色器渲染并驱动数百万个点；后来的版本还能烘焙成 VFX Graph 的点缓存（视频展示的是它的前身 PlypcImporter）。",
+   "exercise_en": "Scan a room corner with a LiDAR phone app, export it as .ply, import it with Pcx and re-anchor the cloud onto the real corner in AR Foundation. Twist: make the points scatter wherever a hand appears in front of the camera.",
+   "exercise_zh": "用带 LiDAR 的手机扫描房间一角，导出 .ply，用 Pcx 导入后在 AR Foundation 中把点云重新对齐到真实的墙角；变体：镜头前出现手的位置，点云就被吹散。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "PLY",
+    "compute buffer"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "239850990",
+    "url": "https://vimeo.com/239850990"
+   },
+   "source_url": "https://github.com/keijiro/Pcx",
+   "code_url": "https://github.com/keijiro/Pcx",
+   "vfx_cat": "pointcloud"
+  },
+  {
+   "id": "keijiro-takahashi--swarm",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Swarm",
+   "year": 2017,
+   "description": "Thousands of glowing lines crawl over the surface of a shape, like insects swarming across a sculpture.",
+   "description_zh": "成千上万条发光的线在一个形体表面爬行，像一群昆虫爬满了雕塑。",
+   "idea_en": "Constrain a noise-driven swarm so it hugs the surface of an object.",
+   "idea_zh": "让一群由噪声驱动的粒子紧紧贴着物体表面爬动。",
+   "technique": "A compute shader moves particles through a divergence-free noise field while a distance-field volume pulls them toward the object surface, and the trails are drawn with procedural instancing (DrawMeshInstancedIndirect).",
+   "technique_zh": "计算着色器让粒子在无散度噪声场中运动，同时用距离场体积把它们拉向物体表面，轨迹再用程序化实例化（DrawMeshInstancedIndirect）绘制出来。",
+   "exercise_en": "Bake a signed distance field of a real object, such as a box matching a table, and let a VFX Graph swarm crawl over it in AR Foundation. Twist: use the phone's LiDAR mesh so the swarm crawls over the actual room.",
+   "exercise_zh": "为一个真实物体（例如与桌子等大的盒子）烘焙有符号距离场，让 VFX Graph 粒子群在 AR Foundation 中沿它爬行；变体：改用手机 LiDAR 网格，让粒子群爬满整个房间。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "compute shader",
+    "GPU instancing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "219277691",
+    "url": "https://vimeo.com/219277691"
+   },
+   "source_url": "https://github.com/keijiro/Swarm",
+   "code_url": "https://github.com/keijiro/Swarm",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "keijiro-takahashi--cloner",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Cloner",
+   "year": 2017,
+   "description": "Thousands of small copies of a mesh sit on the vertices of a base model and ripple, twist and pulse together as one living form.",
+   "description_zh": "成千上万个小网格副本排布在一个基础模型的顶点上，一起起伏、扭转、跳动，像一个活的整体。",
+   "idea_en": "Build a complex organic shape out of many clones of one simple part.",
+   "idea_zh": "用同一个简单零件的大量克隆，拼出复杂的有机形态。",
+   "technique": "A compute shader animates a transform for each vertex of the base model from noise, and GPU procedural instancing draws the template mesh at every vertex with very little CPU cost.",
+   "technique_zh": "计算着色器根据噪声为基础模型的每个顶点计算一个变换，再用 GPU 程序化实例化在每个顶点上绘制模板网格，几乎不占 CPU。",
+   "exercise_en": "Place a sphere in AR and clone a tiny cube onto each of its vertices with VFX Graph or GPU instancing, animating the cubes' scale with noise. Twist: use the AR face mesh as the base so the clones cover a real face.",
+   "exercise_zh": "在 AR 中放一个球体，用 VFX Graph 或 GPU 实例化在它的每个顶点上克隆一个小立方体，并用噪声控制大小；变体：以 AR 人脸网格为基础，让克隆体铺满一张真实的脸。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "compute shader",
+    "GPU instancing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "218961301",
+    "url": "https://vimeo.com/218961301"
+   },
+   "source_url": "https://github.com/keijiro/Cloner",
+   "code_url": "https://github.com/keijiro/Cloner",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--rdsystem",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "RDSystem (reaction-diffusion)",
+   "year": 2017,
+   "description": "Organic spots and maze-like stripes grow and flow across surfaces in real time, driven by a reaction-diffusion simulation.",
+   "description_zh": "有机的斑点和迷宫般的条纹在表面上实时生长、流动，背后是一个反应扩散模拟。",
+   "idea_en": "Let a chemistry-style simulation paint living textures.",
+   "idea_zh": "让一个类似化学反应的模拟来绘制会生长的纹理。",
+   "technique": "A Gray-Scott reaction-diffusion system runs inside a Unity Custom Render Texture that updates itself every frame, and the result drives the color and displacement of surface shaders.",
+   "technique_zh": "Gray-Scott 反应扩散系统在 Unity 的 Custom Render Texture 里逐帧自我更新，结果再用于表面着色器的颜色和位移。",
+   "exercise_en": "Run a reaction-diffusion Custom Render Texture on a quad anchored to a real wall in AR and seed new growth where the user taps. Twist: seed it from the edges of the camera image so real objects start the pattern.",
+   "exercise_zh": "在 AR 中把反应扩散的 Custom Render Texture 贴到一面真实墙上的平面，用户点哪里就在哪里播下新的“种子”；变体：用相机画面的边缘来播种，让真实物体长出图案。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Custom Render Texture"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "217373413",
+    "url": "https://vimeo.com/217373413"
+   },
+   "source_url": "https://github.com/keijiro/RDSystem",
+   "code_url": "https://github.com/keijiro/RDSystem",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--kvant-swarm",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Kvant Swarm",
+   "year": 2015,
+   "description": "Thousands of flowing lines swirl through space like smoke trails or bundles of silk.",
+   "description_zh": "成千上万条流动的线在空间中盘旋，像烟的轨迹，又像一束束丝绸。",
+   "idea_en": "Draw each particle's path as a line, so a swarm turns into flowing strands.",
+   "idea_zh": "把每个粒子的路径画成一条线，粒子群就变成了流动的丝线。",
+   "technique": "Particle positions and their history are updated in float render textures by fragment shaders (GPGPU before compute shaders were common in Unity) and rendered as line strips following a noise field.",
+   "technique_zh": "粒子的位置和历史轨迹由片元着色器在浮点渲染纹理中更新（这是 Unity 普遍使用计算着色器之前的 GPGPU 做法），再沿着噪声场渲染成线条。",
+   "exercise_en": "Recreate the flowing strands with VFX Graph particle strips anchored above a table in AR Foundation. Twist: make the strands bend away from the phone as if the viewer were blowing on them.",
+   "exercise_zh": "用 VFX Graph 的粒子条带重现这些流动的线，并在 AR Foundation 中锚定在桌子上方；变体：让线条避开手机弯曲，好像观众在对着它们吹气。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "GPGPU",
+    "render texture"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "134624419",
+    "url": "https://vimeo.com/134624419"
+   },
+   "source_url": "https://github.com/keijiro/KvantSwarm",
+   "code_url": "https://github.com/keijiro/KvantSwarm",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "keijiro-takahashi--kvant-spray",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Kvant Spray",
+   "year": 2015,
+   "description": "A continuous spray of thousands of small objects bursts out, tumbles and fades in a smooth GPU-driven stream.",
+   "description_zh": "成千上万个小物体连续喷射出来，翻滚、消散，形成一股流畅的 GPU 驱动的流。",
+   "idea_en": "Treat any mesh as a particle and spray huge numbers of them.",
+   "idea_zh": "把任何网格都当作粒子，并大量喷射。",
+   "technique": "Positions, velocities and rotations are simulated in float render textures by fragment shaders and read in the vertex shader of a pre-built bulk mesh, so many instances are drawn in few draw calls.",
+   "technique_zh": "位置、速度和旋转由片元着色器在浮点渲染纹理中模拟，再由一个预先合并好的大网格的顶点着色器读取，因此只用很少的绘制调用就能画出大量实例。",
+   "exercise_en": "Spray thousands of small meshes in AR with VFX Graph mesh output, emitting from wherever the user taps on a detected plane. Twist: let the particles collide with the AR plane and pile up.",
+   "exercise_zh": "用 VFX Graph 的网格输出在 AR 里喷射成千上万个小网格，从用户在识别平面上点击的位置发射；变体：让粒子与 AR 平面碰撞并堆积起来。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "GPGPU",
+    "instancing"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "117040444",
+    "url": "https://vimeo.com/117040444"
+   },
+   "source_url": "https://github.com/keijiro/KvantSpray",
+   "code_url": "https://github.com/keijiro/KvantSpray",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "keijiro-takahashi--puppettest",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Procedural dance (PuppetTest)",
+   "year": 2018,
+   "description": "A crowd of humanoid figures dances without any recorded animation, each one swaying with its own rhythm.",
+   "description_zh": "一群人形角色在没有任何预录动画的情况下跳舞，每个人都有自己的节奏。",
+   "idea_en": "Generate dance from a few sine waves and noise instead of motion capture.",
+   "idea_zh": "不用动作捕捉，只用几条正弦波和噪声生成舞蹈。",
+   "technique": "Sine curves and Perlin noise set target positions for the hands, feet and hips, and Unity's humanoid IK rig solves the full pose every frame.",
+   "technique_zh": "正弦曲线和 Perlin 噪声决定手、脚和胯部的目标位置，再由 Unity 的人形 IK 骨架逐帧解算出完整姿势。",
+   "exercise_en": "Place a few procedurally dancing figures on a table in AR, driving Animation Rigging IK targets with sine waves and noise. Twist: set their tempo from the music the phone microphone hears.",
+   "exercise_zh": "在 AR 中把几个程序化跳舞的小人放到桌面上，用正弦波和噪声驱动 Animation Rigging 的 IK 目标；变体：用手机麦克风听到的音乐来决定它们的节拍。",
+   "interaction": [
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "humanoid IK"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "255257338",
+    "url": "https://vimeo.com/255257338"
+   },
+   "source_url": "https://github.com/keijiro/PuppetTest",
+   "code_url": "https://github.com/keijiro/PuppetTest",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--pix2pix",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Pix2Pix for Unity",
+   "year": 2018,
+   "description": "A sketch drawn on screen is turned instantly into a photo-like image, such as edges into a cat, by a neural network running inside Unity.",
+   "description_zh": "在屏幕上画的草图被 Unity 里运行的神经网络即时变成类似照片的图像，比如把线条变成一只猫。",
+   "idea_en": "Use real-time image-to-image translation as a drawing tool.",
+   "idea_zh": "把实时的图像到图像翻译变成一种绘画工具。",
+   "technique": "A hand-written compute-shader inference engine runs a pre-trained pix2pix generator (a U-Net) in Unity without any external machine-learning framework.",
+   "technique_zh": "作者自己用计算着色器写了推理引擎，在 Unity 里直接运行预训练的 pix2pix 生成器（U-Net），不依赖任何外部机器学习框架。",
+   "exercise_en": "Run a small image-to-image model with Unity Sentis on the phone camera feed and show the result on a floating AR panel. Twist: let students draw strokes in AR space and translate the drawing live.",
+   "exercise_zh": "用 Unity Sentis 在手机相机画面上运行一个小型图像到图像模型，把结果显示在一块悬浮的 AR 面板上；变体：让学生在 AR 空间里画线，并实时翻译他们的画。",
+   "interaction": [
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "compute shader",
+    "pix2pix"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "287778343",
+    "url": "https://vimeo.com/287778343"
+   },
+   "source_url": "https://github.com/keijiro/Pix2Pix",
+   "code_url": "https://github.com/keijiro/Pix2Pix",
+   "vfx_cat": "ml"
+  },
+  {
+   "id": "keijiro-takahashi--ngx",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Ngx",
+   "year": 2018,
+   "description": "Endless abstract VJ footage is generated frame by frame by a neural network that predicts the next frame, and two models can be crossfaded live.",
+   "description_zh": "一个预测下一帧的神经网络逐帧生成无尽的抽象 VJ 画面，两个模型还可以现场交叉淡入淡出。",
+   "idea_en": "A neural network that hallucinates an infinite music video from a short clip.",
+   "idea_zh": "让神经网络从一小段视频出发，幻想出一部永不结束的音乐影像。",
+   "technique": "pix2pix is trained as a next-frame predictor on pairs of consecutive frames from a clip (for example Beeple's VJ loops), and each output frame is fed back as the next input; two models are mixed by interpolating their outputs.",
+   "technique_zh": "把 pix2pix 训练成下一帧预测器，训练数据是一段视频（例如 Beeple 的 VJ 素材）中相邻帧的配对，每次输出的帧再作为下一次输入；两个模型通过插值混合输出。",
+   "exercise_en": "Show a feedback-loop generative model on a floating AR screen and let viewers crossfade two models by moving the phone left or right. Twist: seed the loop with the live camera image of the room.",
+   "exercise_zh": "把反馈循环的生成模型显示在一块悬浮的 AR 屏幕上，观众左右移动手机即可在两个模型之间淡入淡出；变体：用房间的实时相机画面作为循环的起点。",
+   "interaction": [
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop",
+    "projection"
+   ],
+   "tech": [
+    "Unity",
+    "pix2pix",
+    "compute shader"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "294399440",
+    "url": "https://vimeo.com/294399440"
+   },
+   "source_url": "https://github.com/keijiro/Ngx",
+   "code_url": "https://github.com/keijiro/Ngx",
+   "vfx_cat": "ml"
+  },
+  {
+   "id": "keijiro-takahashi--stablefluids",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "StableFluids",
+   "year": 2018,
+   "description": "Colored ink swirls through a real-time fluid simulation that reacts to fingers pressing on a Sensel Morph touch pad.",
+   "description_zh": "彩色墨水在实时流体模拟中翻卷，随着手指在 Sensel Morph 触控板上的按压而流动。",
+   "idea_en": "Turn a touch surface into a hands-on liquid painting instrument.",
+   "idea_zh": "把一块触控板变成可以用手“搅动”的液体绘画乐器。",
+   "technique": "Jos Stam's Stable Fluids (advection, diffusion and pressure projection) runs in compute shaders, and multi-touch pressure from the Sensel Morph injects force and dye (demo from SenselExamples).",
+   "technique_zh": "用计算着色器实现 Jos Stam 的 Stable Fluids（平流、扩散和压力投影），Sensel Morph 的多点触控压力向流体注入力和颜料（演示来自 SenselExamples）。",
+   "exercise_en": "Run the StableFluids solver on a plane in AR Foundation and inject force where finger touches raycast onto the plane. Twist: use hand tracking so waving a hand above the table stirs the fluid.",
+   "exercise_zh": "在 AR Foundation 的平面上运行 StableFluids 求解器，手指触摸射线打到平面的位置就注入力；变体：用手部追踪，在桌子上方挥手就能搅动流体。",
+   "interaction": [
+    "hand-body",
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "compute shader",
+    "Sensel Morph"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "277872734",
+    "url": "https://vimeo.com/277872734"
+   },
+   "source_url": "https://github.com/keijiro/SenselExamples",
+   "code_url": "https://github.com/keijiro/StableFluids",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "keijiro-takahashi--boids",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Boids",
+   "year": 2014,
+   "description": "A flock of simple shapes moves as one body, splitting and regrouping as it chases a moving target.",
+   "description_zh": "一群简单的形体像一个整体一样移动，追逐一个移动目标时分开又重新聚拢。",
+   "idea_en": "Three local rules are enough to make a lifelike flock.",
+   "idea_zh": "只要三条局部规则，就能做出栩栩如生的群体运动。",
+   "technique": "Classic Reynolds boids: each agent steers by separation, alignment and cohesion with its neighbours plus attraction to a target, computed in C# every frame.",
+   "technique_zh": "经典的 Reynolds boids 算法：每个个体根据与邻居的分离、对齐和聚合，再加上对目标的吸引来转向，每帧用 C# 计算。",
+   "exercise_en": "Spawn a flock of paper birds in AR Foundation that follows the phone's position through the room. Twist: add AR planes as obstacles so the flock swerves around real tables and walls.",
+   "exercise_zh": "在 AR Foundation 中生成一群纸鸟，让它们跟着手机在房间里移动；变体：把 AR 平面当成障碍物，让鸟群绕开真实的桌子和墙。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "C#"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "87151096",
+    "url": "https://vimeo.com/87151096"
+   },
+   "source_url": "https://github.com/keijiro/Boids",
+   "code_url": "https://github.com/keijiro/Boids",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "keijiro-takahashi--fragments",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Fragments",
+   "year": 2014,
+   "description": "Shards, splinters and fragments tumble through space as particles, showing a mesh set designed for particle effects.",
+   "description_zh": "碎片、裂片和残块作为粒子在空中翻滚，展示一套专为粒子特效设计的模型。",
+   "idea_en": "Better particle effects come from interesting shapes, not just from more particles.",
+   "idea_zh": "好的粒子效果来自有趣的形状，而不只是更多的粒子。",
+   "technique": "A public-domain library of low-poly fragment meshes is used as mesh particles in Unity's Shuriken particle system, with lighting and rotation giving each shard a solid look.",
+   "technique_zh": "一套公有领域的低多边形碎片模型被用作 Unity Shuriken 粒子系统中的网格粒子，光照和旋转让每块碎片都显得有实体感。",
+   "exercise_en": "Use custom shard meshes with VFX Graph mesh output to make a real window or mirror appear to shatter in AR. Twist: gather the shards back into place when the viewer claps.",
+   "exercise_zh": "用自定义碎片网格配合 VFX Graph 的网格输出，让 AR 中一扇真实的窗户或镜子看起来碎裂；变体：观众拍手时碎片重新飞回原位。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Shuriken particle system"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "102452671",
+    "url": "https://vimeo.com/102452671"
+   },
+   "source_url": "https://github.com/keijiro/Fragments",
+   "code_url": "https://github.com/keijiro/Fragments",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "keijiro-takahashi--slicerfx",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "SlicerFx",
+   "year": 2014,
+   "description": "Every surface in the scene is cut into thin glowing stripes that slide along, as if the world were being scanned slice by slice.",
+   "description_zh": "场景里的每个表面都被切成细细的发光条纹并不断滑动，好像整个世界正被一层层扫描。",
+   "idea_en": "Make a 3D scene look like it is being scanned in slices.",
+   "idea_zh": "让 3D 场景看起来像正在被逐层扫描。",
+   "technique": "A replacement shader computes each fragment's world position and discards or lights it depending on where that position falls within a repeating slice interval, which runs even on Unity Free.",
+   "technique_zh": "替换着色器计算每个片元的世界坐标，根据它落在重复切片间隔中的位置决定丢弃还是点亮，因此在 Unity 免费版中也能运行。",
+   "exercise_en": "Apply the slicing stripe shader to the LiDAR scene mesh from AR Foundation so the real room appears to be scanned in bands. Twist: let the bands start from wherever the user taps.",
+   "exercise_zh": "把切片条纹着色器应用到 AR Foundation 的 LiDAR 场景网格上，让真实房间看起来被一条条扫描；变体：让条纹从用户点击的位置开始扩散。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "replacement shader"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "102444263",
+    "url": "https://vimeo.com/102444263"
+   },
+   "source_url": "https://github.com/keijiro/SlicerFx",
+   "code_url": "https://github.com/keijiro/SlicerFx",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--sonarfx",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "SonarFx",
+   "year": 2014,
+   "description": "Rings of light pulse outward across every surface, like a sonar wave revealing a dark scene.",
+   "description_zh": "一圈圈光环在所有表面上向外扩散，像声呐波揭示出黑暗中的场景。",
+   "idea_en": "Reveal a space with an expanding pulse of light.",
+   "idea_zh": "用一道不断扩散的光脉冲来揭示一个空间。",
+   "technique": "A replacement shader measures each fragment's distance from an origin point in world space and adds moving emissive bands with a sharp wavefront and fading tail.",
+   "technique_zh": "替换着色器计算每个片元到世界空间原点的距离，叠加移动的发光条带，前沿锐利，尾部渐隐。",
+   "exercise_en": "Put the sonar shader on the AR mesh of a room so pulses spread out from the phone's position. Twist: trigger a new pulse whenever the microphone hears a clap.",
+   "exercise_zh": "把声呐着色器加到房间的 AR 网格上，让脉冲从手机的位置向外扩散；变体：麦克风每听到一次拍手就触发一道新的脉冲。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "replacement shader"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "102398137",
+    "url": "https://vimeo.com/102398137"
+   },
+   "source_url": "https://github.com/keijiro/SonarFx",
+   "code_url": "https://github.com/keijiro/SonarFx",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--glitchfx",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "GlitchFx",
+   "year": 2014,
+   "description": "The whole image breaks into blocks, color shifts and tearing, like a corrupted digital video signal.",
+   "description_zh": "整个画面碎成色块、颜色错位和撕裂，像一段损坏的数字视频信号。",
+   "idea_en": "Use controlled digital corruption as an aesthetic.",
+   "idea_zh": "把可控的数字损坏当作一种美学。",
+   "technique": "A post-processing shader offsets blocks of the screen using a random noise texture that is refreshed at irregular intervals and splits the color channels; it is the precursor of KinoGlitch.",
+   "technique_zh": "一个后期着色器用不规则刷新的随机噪声纹理错位屏幕上的方块，并拆分颜色通道；它是 KinoGlitch 的前身。",
+   "exercise_en": "Apply a block-glitch post effect to the AR camera image only inside the silhouette of a virtual object. Twist: make the glitch stronger the faster the phone moves.",
+   "exercise_zh": "只在虚拟物体的轮廓范围内对 AR 相机画面加上方块故障后期效果；变体：手机移动得越快，故障越强。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "image effect"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "102398104",
+    "url": "https://vimeo.com/102398104"
+   },
+   "source_url": "https://github.com/keijiro/GlitchFx",
+   "code_url": "https://github.com/keijiro/GlitchFx",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "keijiro-takahashi--depthcue",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Depthcue",
+   "year": 2014,
+   "description": "Objects fade into flat color as they move away, turning depth into a clean graphic gradient.",
+   "description_zh": "物体越远就越融入平涂的颜色，把深度变成一道干净的图形渐变。",
+   "idea_en": "Use depth as a stylistic color ramp.",
+   "idea_zh": "把深度当作一种有风格的颜色渐变。",
+   "technique": "An image effect reads the depth buffer and blends each pixel toward a gradient color according to its linear depth, a stylised form of depth cueing.",
+   "technique_zh": "图像效果读取深度缓冲，根据每个像素的线性深度把它混向一种渐变色，是一种风格化的深度提示。",
+   "exercise_en": "Use the AR depth texture (LiDAR or ARCore Depth) to tint the real camera image by distance on a phone. Twist: invert it so that near objects vanish and only the far wall stays visible.",
+   "exercise_zh": "在手机上用 AR 深度纹理（LiDAR 或 ARCore Depth）按距离给真实相机画面着色；变体：反过来，让近处的物体消失，只留下远处的墙。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "image effect",
+    "depth buffer"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "101211958",
+    "url": "https://vimeo.com/101211958"
+   },
+   "source_url": "https://github.com/keijiro/Depthcue",
+   "code_url": "https://github.com/keijiro/Depthcue",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "keijiro-takahashi--sketchyfx",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "SketchyFx",
+   "year": 2014,
+   "description": "A 3D scene with a walking robot is rendered as if it were drawn in pencil on crumpled paper.",
+   "description_zh": "一个有机器人走动的 3D 场景被渲染得像是用铅笔画在皱纸上。",
+   "idea_en": "Stack standard image effects to get a hand-drawn look.",
+   "idea_zh": "只靠叠加标准图像效果，得到手绘的质感。",
+   "technique": "Edge detection, grayscale conversion and pencil and paper texture overlays from Unity's standard image effects are chained into a sketch filter.",
+   "technique_zh": "把 Unity 标准图像效果中的边缘检测、灰度转换以及铅笔和纸张纹理叠加串联起来，组成一个素描滤镜。",
+   "exercise_en": "Apply a pencil-sketch filter to the AR camera image so the real room looks drawn, while virtual objects stay in full color. Twist: reverse it so only virtual objects look sketched.",
+   "exercise_zh": "给 AR 相机画面加上铅笔素描滤镜，让真实房间看起来像手绘，而虚拟物体保持全彩；变体：反过来，只让虚拟物体变成素描。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "image effects"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "97597887",
+    "url": "https://vimeo.com/97597887"
+   },
+   "source_url": "https://github.com/keijiro/SketchyFx",
+   "code_url": "https://github.com/keijiro/SketchyFx",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "keijiro-takahashi--cutoutfx",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Cut-out Fx",
+   "year": 2014,
+   "description": "Objects appear and disappear by being eaten away along animated, noisy edges.",
+   "description_zh": "物体沿着不断变化的噪声边缘被“吃掉”，从而出现或消失。",
+   "idea_en": "A shader-only dissolve that can reveal or hide anything.",
+   "idea_zh": "只用着色器实现的溶解效果，可以让任何东西显现或隐去。",
+   "technique": "An alpha cut-out shader compares a noise texture against an animated threshold and discards fragments below it, giving shapes a ragged, moving boundary.",
+   "technique_zh": "透明度裁剪着色器把噪声纹理与一个随时间变化的阈值比较，丢弃低于阈值的片元，让形状出现参差、流动的边界。",
+   "exercise_en": "Make virtual furniture in an AR Foundation scene dissolve in when it is first placed and dissolve out when the user deletes it. Twist: use a hand-drawn texture instead of noise so each student's object dissolves in their own handwriting.",
+   "exercise_zh": "在 AR Foundation 场景中，让虚拟家具在放下时溶解出现、被删除时溶解消失；变体：用手绘纹理代替噪声，让每个学生的物体按自己的笔迹溶解。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "shader"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "84364022",
+    "url": "https://vimeo.com/84364022"
+   },
+   "source_url": "https://github.com/keijiro/CutoutFxTest",
+   "code_url": "https://github.com/keijiro/CutoutFxTest",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--undulation",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Undulation",
+   "year": 2013,
+   "description": "A field of slow-moving objects rises and falls in waves while a fast camera flies through them.",
+   "description_zh": "一片缓慢起伏的物体像波浪一样涨落，快速移动的镜头从中穿过。",
+   "idea_en": "Contrast slow motion in the scene with a fast-moving camera.",
+   "idea_zh": "用场景中的慢动作和镜头的快速运动形成对比。",
+   "technique": "Perlin noise drives the height and rotation of a grid of objects, while the camera follows a fast path through the field.",
+   "technique_zh": "Perlin 噪声驱动一片网格状物体的高度和旋转，镜头则沿一条快速路径穿过其中。",
+   "exercise_en": "Fill a room in AR with a field of cubes that rise and fall in noise waves, and let students walk through it with the phone. Twist: make the waves calmer the slower the viewer walks.",
+   "exercise_zh": "在 AR 中用一片随噪声起伏的立方体填满房间，让学生拿着手机从中走过；变体：观众走得越慢，波浪就越平静。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Perlin noise"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "80716975",
+    "url": "https://vimeo.com/80716975"
+   },
+   "source_url": "https://github.com/keijiro/unity-undulation",
+   "code_url": "https://github.com/keijiro/unity-undulation",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--kinetic-sculpture",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Virtual Kinetic Sculpture",
+   "year": 2013,
+   "description": "Hundreds of suspended elements move up and down in interlocking waves, like a kinetic sculpture hanging in a museum atrium.",
+   "description_zh": "数百个悬挂的元素以交错的波浪上下移动，像博物馆中庭里悬挂的动态雕塑。",
+   "idea_en": "Rebuild a physical kinetic sculpture as a virtual one.",
+   "idea_zh": "把实体的动态雕塑搬进虚拟空间。",
+   "technique": "Each element's height is a sum of sine waves whose phases depend on its grid position, so simple math produces rolling interference patterns.",
+   "technique_zh": "每个元素的高度是几条正弦波之和，相位取决于它在网格中的位置，简单的数学就能产生滚动的干涉图案。",
+   "exercise_en": "Hang a virtual kinetic sculpture of spheres from a real ceiling in AR and compute each sphere's height from sine waves. Twist: let a raised hand in front of the camera add a new wave.",
+   "exercise_zh": "在 AR 中把一组球体组成的虚拟动态雕塑挂在真实的天花板下，用正弦波计算每个球的高度；变体：镜头前举起一只手，就加入一道新的波。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "C#"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "80520888",
+    "url": "https://vimeo.com/80520888"
+   },
+   "source_url": "https://github.com/keijiro/unity-kinetic-sculpture",
+   "code_url": "https://github.com/keijiro/unity-kinetic-sculpture",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--kvant-deformer",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Kvant Deformer",
+   "year": 2014,
+   "description": "A smooth mesh bulges, twists and ripples under flowing noise, an early test of Keijiro's GPU effects library Kvant.",
+   "description_zh": "一个光滑的网格在流动的噪声下鼓起、扭转、起伏，这是 Keijiro 的 GPU 特效库 Kvant 的早期测试。",
+   "idea_en": "Let noise sculpt a surface continuously on the GPU.",
+   "idea_zh": "让噪声在 GPU 上持续地雕刻一个表面。",
+   "technique": "A vertex shader displaces each vertex along its normal by animated 3D noise, and normals are recalculated so lighting follows the deformation.",
+   "technique_zh": "顶点着色器沿法线方向用动画的 3D 噪声推动每个顶点，并重新计算法线，让光照跟随形变。",
+   "exercise_en": "Deform a virtual blob placed on a table in AR with a noise vertex shader in Shader Graph. Twist: tie the noise strength to the microphone volume so the blob reacts when people talk.",
+   "exercise_zh": "在 Shader Graph 里用噪声顶点着色器让放在 AR 桌面上的虚拟团块变形；变体：把噪声强度绑定到麦克风音量，有人说话时团块就会反应。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "vertex shader"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "86002232",
+    "url": "https://vimeo.com/86002232"
+   },
+   "source_url": "https://github.com/keijiro/Kvant",
+   "code_url": "https://github.com/keijiro/Kvant",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--water-drops",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Water Drops (pseudo refraction)",
+   "year": 2014,
+   "description": "Clear water drops roll through a scene, bending and reflecting the environment behind them.",
+   "description_zh": "透明的水滴在场景中滚动，折射并反射着身后的环境。",
+   "idea_en": "Fake refraction cheaply enough to use it everywhere.",
+   "idea_zh": "用足够便宜的方式假装折射，可以随处使用。",
+   "technique": "A pseudo refraction shader samples an environment cube map along a bent view vector and mixes in reflections with a Fresnel term, simulating only the first refraction.",
+   "technique_zh": "伪折射着色器沿着偏折后的视线方向采样环境立方体贴图，并用菲涅尔项混合反射，只模拟第一次折射。",
+   "exercise_en": "Drop virtual water blobs on a real table in AR and use the AR environment probe as the cube map so they refract the real room. Twist: let the blobs merge when they touch.",
+   "exercise_zh": "在 AR 中把虚拟水滴放到真实桌面上，并用 AR 环境探针作为立方体贴图，让水滴折射真实房间；变体：水滴相碰时融合在一起。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "shader"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "85640039",
+    "url": "https://vimeo.com/85640039"
+   },
+   "source_url": "https://github.com/keijiro/UnityRefractionShader",
+   "code_url": "https://github.com/keijiro/UnityRefractionShader",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--water-surface",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Water Surface (isosurface)",
+   "year": 2013,
+   "description": "A blobby liquid surface forms, wobbles and splits, generated as an isosurface from moving sources.",
+   "description_zh": "一个团状的液体表面不断形成、晃动、分裂，由移动的源点生成等值面。",
+   "idea_en": "Build liquid shapes from invisible fields instead of modelled meshes.",
+   "idea_zh": "用看不见的场而不是建模的网格来生成液体形状。",
+   "technique": "Metaball-like sources add up to a scalar field, and a marching cubes mesh generator extracts the isosurface every frame.",
+   "technique_zh": "类似 metaball 的源点叠加成一个标量场，再由 marching cubes 网格生成器逐帧提取等值面。",
+   "exercise_en": "Generate a metaball liquid with marching cubes in AR and let the blobs sit on a real table. Twist: add a source at the tracked fingertip so the user can pull liquid out of the puddle.",
+   "exercise_zh": "在 AR 中用 marching cubes 生成 metaball 液体，让它停在真实桌面上；变体：在追踪到的指尖加一个源点，让用户能从液面里拉出液体。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "marching cubes"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "82601169",
+    "url": "https://vimeo.com/82601169"
+   },
+   "source_url": "https://github.com/keijiro/unity-isosurface-test",
+   "code_url": "https://github.com/keijiro/unity-isosurface-test",
+   "vfx_cat": "sdf"
+  },
+  {
+   "id": "keijiro-takahashi--sunburst",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Sunburst effects",
+   "year": 2013,
+   "description": "Rays of light burst from a center and rotate in shifting stripes, like animated manga background effects.",
+   "description_zh": "光束从中心迸发，以不断变化的条纹旋转，像动态的漫画背景效果。",
+   "idea_en": "Generate classic radial burst graphics as live meshes.",
+   "idea_zh": "把经典的放射状光芒图形做成实时网格动画。",
+   "technique": "A C# script builds and animates triangle-fan meshes each frame, varying ray width, length and rotation.",
+   "technique_zh": "C# 脚本逐帧生成并动画化扇形三角网格，改变光束的宽度、长度和旋转。",
+   "exercise_en": "Attach a rotating sunburst mesh behind a real person's head using AR face tracking. Twist: let the burst speed up with the person's smile.",
+   "exercise_zh": "用 AR 人脸追踪在真人头部后面挂一个旋转的放射光芒网格；变体：对方笑得越开，光芒转得越快。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "C#",
+    "mesh animation"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "76949095",
+    "url": "https://vimeo.com/76949095"
+   },
+   "source_url": "https://github.com/keijiro/unity-sunburst-effects",
+   "code_url": "https://github.com/keijiro/unity-sunburst-effects",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--hexbokeh",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "HexBokeh",
+   "year": 2014,
+   "description": "Out-of-focus highlights bloom into hexagonal shapes, like the bokeh of a real camera lens.",
+   "description_zh": "失焦的高光绽放成六边形，就像真实相机镜头的焦外光斑。",
+   "idea_en": "Bring the character of a physical lens aperture into real-time graphics.",
+   "idea_zh": "把实体镜头光圈的特征带进实时图形。",
+   "technique": "A depth-of-field image effect uses three skewed separable blur passes (McIntosh's technique) to build hexagonal bokeh from the depth buffer at low cost.",
+   "technique_zh": "景深图像效果按照 McIntosh 的方法，用三次倾斜的可分离模糊，从深度缓冲中低成本地得到六边形焦外光斑。",
+   "exercise_en": "Add a shallow depth-of-field effect with custom-shaped bokeh to an AR scene so virtual objects appear photographed with a real lens. Twist: let students design their own aperture shape, such as a star or heart.",
+   "exercise_zh": "给 AR 场景加上浅景深和自定义形状的焦外光斑，让虚拟物体看起来像用真实镜头拍摄；变体：让学生设计自己的光圈形状，比如星形或心形。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "image effect"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "103702704",
+    "url": "https://vimeo.com/103702704"
+   },
+   "source_url": "https://github.com/keijiro/HexBokeh",
+   "code_url": "https://github.com/keijiro/HexBokeh",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "keijiro-takahashi--particle-animations",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Turbulent Flow (particle animations)",
+   "year": 2013,
+   "description": "Clouds of particles are pushed around by turbulence, attractors and bouncing forces in a series of short studies.",
+   "description_zh": "一系列小练习中，粒子云被湍流、吸引子和反弹力推来推去。",
+   "idea_en": "Shape a particle system with external forces instead of emitter settings.",
+   "idea_zh": "用外力而不是发射器参数来塑造粒子系统。",
+   "technique": "A script reads Shuriken particles every frame, applies custom forces such as noise turbulence and point attractors, and writes them back.",
+   "technique_zh": "脚本每帧读取 Shuriken 粒子，施加噪声湍流、点吸引子等自定义力，再写回粒子系统。",
+   "exercise_en": "Place a particle cloud in AR and add an attractor at the phone position so the cloud follows the viewer. Twist: add a second attractor at a classmate's phone and let the cloud choose between them.",
+   "exercise_zh": "在 AR 中放一团粒子，并在手机位置加一个吸引子，让粒子跟着观众走；变体：在另一位同学的手机上再加一个吸引子，让粒子在两人之间“选择”。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Shuriken particle system"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "80264404",
+    "url": "https://vimeo.com/80264404"
+   },
+   "source_url": "https://github.com/keijiro/unity-particle-animations",
+   "code_url": "https://github.com/keijiro/unity-particle-animations",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "keijiro-takahashi--cloudskybox",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "CloudSkybox",
+   "year": 2016,
+   "description": "A sky full of soft volumetric clouds drifts and changes, drawn entirely inside a skybox shader.",
+   "description_zh": "满天柔和的体积云缓缓飘动变化，全部在一个天空盒着色器里绘制。",
+   "idea_en": "Put real volumetric clouds into the sky without any geometry.",
+   "idea_zh": "不用任何几何体，把真正的体积云放进天空。",
+   "technique": "An extension of Unity's procedural skybox raymarches through a layer of animated 3D noise density and accumulates light scattering per step.",
+   "technique_zh": "它扩展了 Unity 的程序化天空盒，在一层动态 3D 噪声密度中做光线步进，并逐步累积光散射。",
+   "exercise_en": "Cut a portal in a real ceiling in AR and show the volumetric cloud sky through it. Twist: link cloud density to the local weather forecast.",
+   "exercise_zh": "在 AR 中给真实天花板开一个传送门，从门里看到体积云天空；变体：让云的密度跟随当地的天气预报变化。",
+   "interaction": [
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "raymarching",
+    "skybox shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "_QC6dXTMMwE",
+    "url": "https://www.youtube.com/watch?v=_QC6dXTMMwE"
+   },
+   "source_url": "https://github.com/keijiro/CloudSkybox",
+   "code_url": "https://github.com/keijiro/CloudSkybox",
+   "vfx_cat": "sdf"
+  },
+  {
+   "id": "keijiro-takahashi--vj01",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "VJ01: Guitar Songs",
+   "year": 2014,
+   "description": "An experimental visual generator made in Unity animates abstract forms to guitar music by Masaya Matsuura.",
+   "description_zh": "一个用 Unity 做的实验性视觉生成器，随着松浦雅也的吉他音乐驱动抽象形体。",
+   "idea_en": "A generative visual system that listens to a song.",
+   "idea_zh": "一个会“听”歌曲的生成式视觉系统。",
+   "technique": "Audio levels analysed in Unity drive procedural geometry, colors and camera moves, likely through an early version of Keijiro's Reaktion toolkit.",
+   "technique_zh": "Unity 中分析出的音频电平驱动程序化几何体、颜色和镜头运动，很可能用的是 Keijiro 早期版本的 Reaktion 工具包。",
+   "exercise_en": "Feed the phone microphone's spectrum into an AR scene where one object per frequency band grows and glows on a table. Twist: pick a song and have each student design the object for one instrument.",
+   "exercise_zh": "把手机麦克风的频谱接入 AR 场景，让桌面上每个频段对应的物体随之变大、发光；变体：选一首歌，每位学生为其中一种乐器设计一个物体。",
+   "interaction": [
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "audio analysis"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "90006189",
+    "url": "https://vimeo.com/90006189"
+   },
+   "source_url": "https://github.com/keijiro/VJ01",
+   "code_url": "https://github.com/keijiro/VJ01",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--vj02",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "VJ02",
+   "year": 2014,
+   "description": "Scrolling abstract geometry, spheres and shifting camera angles are performed live with a MIDI controller as club visuals for Channel #8.",
+   "description_zh": "滚动的抽象几何、球体和不断变换的镜头角度，被 VJ 用 MIDI 控制器现场演奏，作为 Channel #8 夜店活动的视觉。",
+   "idea_en": "Play a 3D game-engine scene like an instrument, with faders.",
+   "idea_zh": "像演奏乐器一样，用推子现场操控一个 3D 游戏引擎场景。",
+   "technique": "The Reaktion toolkit maps audio levels and MIDI CC faders (a KORG nanoKONTROL) to scroll speed, object selection and camera yaw and pitch in a Unity scene.",
+   "technique_zh": "Reaktion 工具包把音频电平和 MIDI CC 推子（KORG nanoKONTROL）映射到 Unity 场景中的滚动速度、物体选择以及镜头的偏航和俯仰。",
+   "exercise_en": "Build a small AR stage on a table and map three on-screen or MIDI sliders to scroll speed, object type and camera angle. Twist: let loud sounds from the microphone override the sliders.",
+   "exercise_zh": "在桌面上搭一个小型 AR 舞台，把三个屏幕滑块或 MIDI 推子映射到滚动速度、物体类型和镜头角度；变体：麦克风听到大声音时，自动接管滑块。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Reaktion",
+    "MIDI"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "104780871",
+    "url": "https://vimeo.com/104780871"
+   },
+   "source_url": "https://github.com/keijiro/VJ02",
+   "code_url": "https://github.com/keijiro/VJ02",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--vj04",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "VJ04 (Channel #10)",
+   "year": 2015,
+   "description": "Glossy 3D forms and figures pulse and morph to Nyolfen's live set at Channel #10, projected as club visuals.",
+   "description_zh": "光亮的 3D 形体和人物随着 Nyolfen 在 Channel #10 的现场演出脉动、变形，作为夜店视觉投影出来。",
+   "idea_en": "Use physically based rendering to make club visuals look like product shots in motion.",
+   "idea_zh": "用基于物理的渲染，让夜店视觉看起来像动起来的产品摄影。",
+   "technique": "Unity scenes lit with HDR image-based lighting (sIBL archive) are driven by Reaktion controllers mapped to audio input and MIDI CCs.",
+   "technique_zh": "Unity 场景使用 HDR 图像照明（sIBL 素材），由映射到音频输入和 MIDI CC 的 Reaktion 控制器驱动。",
+   "exercise_en": "Light a virtual chrome object in AR with the real environment probe and make it pulse to the music the phone hears. Twist: swap its material on every drum hit.",
+   "exercise_zh": "在 AR 中用真实环境探针照亮一个虚拟镀铬物体，让它随手机听到的音乐脉动；变体：每一次鼓点都切换它的材质。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Reaktion",
+    "MIDI",
+    "image-based lighting"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "jLmbjudThlA",
+    "url": "https://www.youtube.com/watch?v=jLmbjudThlA"
+   },
+   "source_url": "https://github.com/keijiro/VJ04",
+   "code_url": "https://github.com/keijiro/VJ04",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--vj05",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "VJ05 (Channel #12)",
+   "year": 2015,
+   "description": "Live visuals for Katsuhiro Chiba at Channel #12, where HDR-lit 3D models and animations move with the music; the clip is an audience recording from the club.",
+   "description_zh": "为千叶加寿弘在 Channel #12 的现场演出制作的视觉：HDR 照明下的 3D 模型和动画随音乐运动；视频是观众在现场拍摄的。",
+   "idea_en": "Build a reusable live-visual rig where every animated parameter is exposed to sound and MIDI.",
+   "idea_zh": "搭建一个可复用的现场视觉系统，把所有动画参数都开放给声音和 MIDI 控制。",
+   "technique": "All models and animations are driven by Reaktion controllers (Reaktor components) that take audio analysis, optionally via Data Racket, and MIDI CC input.",
+   "technique_zh": "所有模型和动画都由 Reaktion 控制器（Reaktor 组件）驱动，输入来自音频分析（可选用 Data Racket）和 MIDI CC。",
+   "exercise_en": "Expose five parameters of an AR scene (scale, color, rotation speed, spawn rate, camera shake) to the phone microphone and perform a one-minute set with a partner. Twist: the partner controls the parameters from a second phone over the network.",
+   "exercise_zh": "把 AR 场景的五个参数（大小、颜色、旋转速度、生成速率、镜头抖动）开放给手机麦克风，和搭档一起表演一分钟；变体：搭档用第二部手机通过网络控制这些参数。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Reaktion",
+    "MIDI"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "619489135749824513",
+    "url": "https://x.com/shutamegai/status/619489135749824513"
+   },
+   "source_url": "https://github.com/keijiro/VJ05",
+   "code_url": "https://github.com/keijiro/VJ05",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--phantom",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Phantom (Phantom Sketch Mod.)",
+   "year": 2016,
+   "description": "Heavy, cinematic real-time visuals with bloom, depth of field and motion blur were projected for Merzbow and other acts at the Phantom Sketch Mod. event in October 2016.",
+   "description_zh": "2016 年 10 月的 Phantom Sketch Mod. 活动中，为 Merzbow 等艺人投影了厚重、电影感的实时视觉，带有泛光、景深和运动模糊。",
+   "idea_en": "Push a game engine's post-processing stack to cinematic quality for a live show.",
+   "idea_zh": "把游戏引擎的后期处理推到电影级的质感，用于现场演出。",
+   "technique": "Unity's multi-display feature shows a VJ control UI on the monitor and sends clean renders to the projector, while GPU-heavy image effects (SSAO, DOF, motion blur and Kino filters) run at 60 fps on a GTX 1070.",
+   "technique_zh": "利用 Unity 的多显示器功能，在监视器上显示 VJ 控制界面，把干净的画面送到投影仪；SSAO、景深、运动模糊和 Kino 滤镜等高负载图像效果在 GTX 1070 上以 60 fps 运行。",
+   "exercise_en": "Build a two-device AR show: one phone is the control panel for bloom, blur and color, the other shows the AR scene to the audience. Twist: hand the control phone to someone in the audience.",
+   "exercise_zh": "做一个双设备 AR 演出：一部手机作为泛光、模糊和色彩的控制台，另一部向观众展示 AR 场景；变体：把控制手机交给一位观众。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "multi-display",
+    "post-processing"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "787249881899347976",
+    "url": "https://x.com/tokyomax/status/787249881899347976"
+   },
+   "source_url": "https://github.com/keijiro/Phantom",
+   "code_url": "https://github.com/keijiro/Phantom",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "keijiro-takahashi--spectrum",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Spectrum (Liquidroom 2016)",
+   "year": 2016,
+   "description": "A real-time VJ rig for the 2016 end-of-year party at Liquidroom layers 3D scenes with datamosh, feedback, contour and binary-style screen effects.",
+   "description_zh": "为 2016 年 Liquidroom 跨年派对做的实时 VJ 系统，把 3D 场景和数据损坏、画面反馈、轮廓线、二值化等画面效果叠加在一起。",
+   "idea_en": "Combine a whole library of screen effects into one playable party instrument.",
+   "idea_zh": "把一整套画面效果库组合成一件可以现场演奏的派对乐器。",
+   "technique": "The Unity project stacks Keijiro's Kino image effects (Datamosh, Feedback, Contour, Binary and others) on top of animated scenes and switches them live.",
+   "technique_zh": "这个 Unity 项目在动画场景之上叠加 Keijiro 的 Kino 图像效果（Datamosh、Feedback、Contour、Binary 等），并在现场切换。",
+   "exercise_en": "Stack three screen effects (feedback, datamosh, contour) on an AR camera view and switch them with on-screen buttons during a song. Twist: let the song's bass level choose the effect automatically.",
+   "exercise_zh": "在 AR 相机画面上叠加三种画面效果（反馈、数据损坏、轮廓线），在一首歌中用屏幕按钮切换；变体：让歌曲的低音强度自动选择效果。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Kino post effects"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_oj1b8wYz3O1qio469_720.mp4"
+   },
+   "source_url": "https://github.com/keijiro/Spectrum",
+   "code_url": "https://github.com/keijiro/Spectrum",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "keijiro-takahashi--beta",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Beta (live coding at Channel 16)",
+   "year": 2017,
+   "description": "Abstract shader patterns are live-coded in KodeLife and projected onto objects inside a Unity 3D scene, mixing improvisation with prepared assets.",
+   "description_zh": "在 KodeLife 里现场编写的抽象着色器图案被投射到 Unity 3D 场景中的物体上，把即兴与预先准备的素材混合在一起。",
+   "idea_en": "Live-code the texture of a 3D world while the music plays.",
+   "idea_zh": "在音乐进行时，现场编写一个 3D 世界的纹理。",
+   "technique": "KodeLife renders audio-reactive GLSL fragment shaders, the frames are shared with Unity through Spout, and Unity projects them onto meshes and overlays while a nanoKONTROL2 controls extra effects.",
+   "technique_zh": "KodeLife 渲染对音频做出反应的 GLSL 片元着色器，画面通过 Spout 共享给 Unity，Unity 把它们投射到网格和叠加层上，再用 nanoKONTROL2 控制其他效果。",
+   "exercise_en": "Live-code a fragment shader in a browser editor and use it as the texture of a virtual sculpture in a WebXR scene. Twist: each student gets 60 seconds to edit the code before passing it on.",
+   "exercise_zh": "在浏览器编辑器里现场编写片元着色器，把它作为 WebXR 场景中一座虚拟雕塑的纹理；变体：每位学生只有 60 秒改代码，然后传给下一个人。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "KodeLife",
+    "GLSL",
+    "Spout"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "213872212",
+    "url": "https://vimeo.com/213872212"
+   },
+   "source_url": "https://github.com/keijiro/Beta",
+   "code_url": "https://github.com/keijiro/Beta",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--prisma",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Prisma (VRDG+H #4)",
+   "year": 2017,
+   "description": "Huge floating figures and shapes appear as Pepper's ghost holograms in front of Merzbow and XXX Residents, with their shadows falling on a screen behind the performers.",
+   "description_zh": "巨大的人物和形体以佩珀尔幻象的方式悬浮在 Merzbow 与 XXX Residents 面前，它们的影子落在演出者身后的屏幕上。",
+   "idea_en": "Place virtual objects between performers and audience by projecting onto a transparent screen.",
+   "idea_zh": "用透明屏幕投影，把虚拟物体放在演出者和观众之间。",
+   "technique": "A large transparent screen at the front of DMM VR Theater creates the Pepper's ghost image, and a Shadow Slicer technique renders shadows onto the background screen without regenerating shadow maps, which kept the show at full frame rate.",
+   "technique_zh": "DMM VR 剧场前方的大型透明屏幕形成佩珀尔幻象，Shadow Slicer 技术无需重新生成阴影贴图就能把阴影画到背景屏上，保证了演出的满帧率。",
+   "exercise_en": "Render a Unity scene to a phone laid under a tilted sheet of acrylic to make a desktop Pepper's ghost, then view the same scene with HoloKit to compare the two kinds of holograms. Twist: make the virtual figure cast a shadow onto a real card behind the acrylic.",
+   "exercise_zh": "把 Unity 场景渲染到一部平放在倾斜亚克力板下的手机上，做一个桌面佩珀尔幻象，再用 HoloKit 观看同一场景，比较两种“全息”；变体：让虚拟人物在亚克力板后面的真实卡片上投下影子。",
+   "interaction": [
+    "projection",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection"
+   ],
+   "tech": [
+    "Unity",
+    "Pepper's ghost",
+    "Shadow Slicer"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "oY6uCfNb-Ng",
+    "url": "https://www.youtube.com/watch?v=oY6uCfNb-Ng"
+   },
+   "source_url": "https://github.com/keijiro/Prisma",
+   "code_url": "https://github.com/keijiro/Prisma",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--republic",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Republic (FEMM live)",
+   "year": 2017,
+   "description": "Real-time visuals for FEMM's live performance at REPUBLIC, WOMB Shibuya, surround the performers with 3D graphics synced to the music.",
+   "description_zh": "为 FEMM 在涩谷 WOMB 的 REPUBLIC 活动现场制作的实时视觉，用与音乐同步的 3D 图形包围表演者。",
+   "idea_en": "Match real-time 3D visuals to a pop act's choreography and music.",
+   "idea_zh": "让实时 3D 视觉与流行演出的编舞和音乐相匹配。",
+   "technique": "A Unity project drives multiple displays on Windows with DX11, switching prepared 3D scenes and effects in time with the set.",
+   "technique_zh": "Unity 项目在 Windows DX11 下驱动多块显示屏，随演出节奏切换预先准备的 3D 场景和效果。",
+   "exercise_en": "Choreograph a 30-second AR sequence to a song: place three virtual objects around a dancer and trigger their animations on cue from a phone. Twist: let the dancer trigger the cues with gestures seen by a second phone's camera.",
+   "exercise_zh": "为一首歌编排 30 秒的 AR 段落：在舞者周围放三个虚拟物体，由一部手机按节拍触发它们的动画；变体：让第二部手机的相机识别舞者的手势来触发。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "multi-display"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "878736675228090368",
+    "url": "https://x.com/tokyomax/status/878736675228090368"
+   },
+   "source_url": "https://github.com/keijiro/Republic",
+   "code_url": "https://github.com/keijiro/Republic",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--trinity",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Trinity (Channel 17)",
+   "year": 2017,
+   "description": "Triple-projector live visuals for DUB-Russell's set at Channel 17 react to kicks and snares with cloned, crawling and instanced geometry.",
+   "description_zh": "为 DUB-Russell 在 Channel 17 的演出制作的三投影现场视觉，随着底鼓和军鼓，用克隆、爬行和实例化的几何体做出反应。",
+   "idea_en": "Let each drum hit trigger a different GPU effect across three screens.",
+   "idea_zh": "让每一个鼓点都在三块屏幕上触发不同的 GPU 效果。",
+   "technique": "Audio from the default recording device and OSC triggers (kick and snare) drive Cloner, distance-field volume and instancing effects across three XGA projector outputs.",
+   "technique_zh": "默认录音设备的音频和 OSC 触发信号（底鼓和军鼓）驱动 Cloner、距离场体积和实例化效果，输出到三台 XGA 投影仪。",
+   "exercise_en": "Map kick and snare detection from the phone microphone to two different VFX Graph bursts in an AR scene. Twist: put three phones side by side as a triptych and let each show a different reaction.",
+   "exercise_zh": "把手机麦克风检测到的底鼓和军鼓分别映射为 AR 场景中两种不同的 VFX Graph 迸发；变体：把三部手机并排当作三联屏，每部显示不同的反应。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "OSC",
+    "compute shader"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_ou5rt7l30F1qio469_720.mp4"
+   },
+   "source_url": "https://github.com/keijiro/Trinity",
+   "code_url": "https://github.com/keijiro/Trinity",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--seido",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Seido (静動)",
+   "year": 2017,
+   "description": "A seven-display rig shows live visuals for Masaya Matsuura's concerts in Osaka and Tokyo, with calm and dynamic scenes alternating across the screens.",
+   "description_zh": "一个七屏系统为松浦雅也在大阪和东京的演出呈现现场视觉，静与动的画面在各屏幕间交替。",
+   "idea_en": "Turn a row of screens into one rhythmic, public-domain visual instrument.",
+   "idea_zh": "把一排屏幕变成一件有节奏感、并且开源到公有领域的视觉乐器。",
+   "technique": "Unity's multi-display output feeds seven screens, and Klak components (audio input, cosine gradients, interpolators, game-view layouter) animate colors and motion from the music.",
+   "technique_zh": "Unity 的多显示输出驱动七块屏幕，Klak 组件（音频输入、余弦渐变、插值器、游戏视图布局）根据音乐驱动颜色和运动。",
+   "exercise_en": "Line up several phones on a shelf, each running the same AR scene from a different virtual camera, and sync them to one song. Twist: let the audience rearrange the phones during the song.",
+   "exercise_zh": "把几部手机排在架子上，每部用不同的虚拟相机运行同一个 AR 场景，并与同一首歌同步；变体：让观众在歌曲进行中重新排列手机。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Klak",
+    "multi-display"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_p19olvfZwP1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/Seido",
+   "code_url": "https://github.com/keijiro/Seido",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--museum",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Museum (Channel 18)",
+   "year": 2018,
+   "description": "Classical statues float in a Unity scene whose backgrounds and surfaces are live-coded in KodeLife during DUB-Russell's set at Channel 18.",
+   "description_zh": "在 DUB-Russell 于 Channel 18 的演出中，古典雕像漂浮在 Unity 场景里，背景和表面由 KodeLife 现场编写。",
+   "idea_en": "Mix improvised code with prepared 3D props, like a museum curated live.",
+   "idea_zh": "把即兴代码和准备好的 3D 道具混在一起，像一座现场策展的博物馆。",
+   "technique": "KodeLife's live-coded GLSL output is shared with Unity through Spout in real time, where it becomes the backdrop and texture for scanned statues with glitch post effects.",
+   "technique_zh": "KodeLife 现场编写的 GLSL 画面通过 Spout 实时共享给 Unity，成为扫描雕像的背景和纹理，再叠加故障后期效果。",
+   "exercise_en": "Place a scanned statue in AR and texture it with a shader that students live-edit in a browser. Twist: switch statues on every chorus of the song.",
+   "exercise_zh": "在 AR 中放一座扫描雕像，用学生在浏览器里现场修改的着色器作为它的纹理；变体：每到歌曲副歌就换一座雕像。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "KodeLife",
+    "GLSL",
+    "Spout"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "r-nbIpdn-Lk",
+    "url": "https://www.youtube.com/watch?v=r-nbIpdn-Lk"
+   },
+   "source_url": "https://github.com/keijiro/Museum",
+   "code_url": "https://github.com/keijiro/Museum",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--flipper",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Flipper (ADIRECTOR Channel)",
+   "year": 2018,
+   "description": "Live visuals for ADIRECTOR Channel in Omotesando combine flip-book page turning with ribbons and shapes grown from animated skeletons.",
+   "description_zh": "为表参道 ADIRECTOR Channel 活动制作的现场视觉，把翻页书式的画面翻动与从动画骨骼生长出的缎带和形体结合在一起。",
+   "idea_en": "Make a digital show feel like flipping through a printed book.",
+   "idea_zh": "让数字演出感觉像在翻一本印刷的书。",
+   "technique": "The flipbook renderer captures frames into pages that turn with a bending mesh, combined with skeletal geometric effects built with geometry-shader instancing.",
+   "technique_zh": "Flipbook 渲染器把画面截取成书页，并用弯曲的网格翻动，再结合用几何着色器实例化制作的骨骼几何效果。",
+   "exercise_en": "Capture the AR camera view every half second and let the pages flip past on a virtual book lying on a real table. Twist: flip forward on a beat and backward on silence.",
+   "exercise_zh": "每半秒截取一次 AR 相机画面，让这些页面在一本放在真实桌面上的虚拟书里翻过；变体：有节拍时向前翻，安静时向后翻。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "geometry shader"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_pd1oevl48u1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/Flipper",
+   "code_url": "https://github.com/keijiro/Flipper",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--videolab",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "OP-Z videolab visuals",
+   "year": 2018,
+   "description": "Short 3D visual loops made in Unity are played by the steps and tracks of the Teenage Engineering OP-Z synthesizer and rendered live on an iPhone.",
+   "description_zh": "用 Unity 做的简短 3D 视觉循环由 Teenage Engineering OP-Z 合成器的步进和音轨“演奏”，在 iPhone 上实时渲染。",
+   "idea_en": "Let a synthesizer's sequencer play 3D visuals directly.",
+   "idea_zh": "让合成器的音序器直接演奏 3D 视觉。",
+   "technique": "Scenes built with the OP-Z videolab package are exported as videopaks; the OP-Z iOS app maps sequencer tracks and notes to animation triggers and vertex-shader parameters.",
+   "technique_zh": "用 OP-Z videolab 工具包制作的场景被导出为 videopak，OP-Z 的 iOS 应用把音序器的音轨和音符映射到动画触发和顶点着色器参数。",
+   "exercise_en": "Map MIDI notes (or beats detected by the microphone) to VFX Graph events in a phone AR scene, one effect per drum. Twist: anchor each drum's effect to a different real object in the room.",
+   "exercise_zh": "在手机 AR 场景中把 MIDI 音符（或麦克风检测到的节拍）映射为 VFX Graph 事件，每种鼓一个效果；变体：把每种鼓的效果锚定到房间里不同的真实物体上。",
+   "interaction": [
+    "voice-sound",
+    "performance-stage"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Unity",
+    "OP-Z videolab",
+    "iOS"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "307285370",
+    "url": "https://vimeo.com/307285370"
+   },
+   "source_url": "https://github.com/keijiro/VideolabTest",
+   "code_url": "https://github.com/keijiro/VideolabTest",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--lasp",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "LASP audio-reactive particles",
+   "year": 2017,
+   "description": "A particle system bursts and swells in tight sync with live audio input, demonstrating a low-latency audio plugin for Unity.",
+   "description_zh": "一个粒子系统随着实时音频输入迸发、膨胀，几乎没有延迟，演示了一个 Unity 的低延迟音频插件。",
+   "idea_en": "Make visuals react to sound with no perceptible delay.",
+   "idea_zh": "让画面对声音的反应快到察觉不到延迟。",
+   "technique": "LASP is a native plugin that captures audio input with minimal buffering and runs a three-band filter bank, and the band levels drive particle emission and size in real time.",
+   "technique_zh": "LASP 是一个原生插件，以极小的缓冲采集音频输入并运行三段滤波器组，各频段电平实时驱动粒子的发射量和大小。",
+   "exercise_en": "Use microphone levels split into low, mid and high bands to drive three VFX Graph emitters placed around a speaker in AR. Twist: measure the delay with a clap and try to make it shorter.",
+   "exercise_zh": "把麦克风电平分成低、中、高三段，驱动 AR 中放在音箱周围的三个 VFX Graph 发射器；变体：用拍手测量延迟，并想办法把它缩短。",
+   "interaction": [
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "LASP",
+    "native audio plugin"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_otamd9rnf21qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/Lasp",
+   "code_url": "https://github.com/keijiro/Lasp",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--spektr-scatter",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Spektr Scatter (polygon scatter)",
+   "year": 2015,
+   "description": "A solid model breaks apart into scattered polygons that fly off and dissolve, then can come back together.",
+   "description_zh": "一个实体模型分解成四散的多边形，飞出去后消散，然后还能重新聚合。",
+   "idea_en": "Build a poly-dissolve that works on any model with a single slider.",
+   "idea_zh": "做一个对任何模型都适用、只需一个滑块控制的多边形溶解效果。",
+   "technique": "A shader works on a mesh whose triangles are split apart, moving each triangle along a direction and rotation derived from its centroid and a noise hash as the scatter amount increases.",
+   "technique_zh": "着色器作用于三角面已被拆开的网格，随着散开程度增大，按照三角形重心和噪声哈希算出的方向和旋转移动每个三角形。",
+   "exercise_en": "Scatter the polygons of a virtual object in AR when the viewer walks through it, and reassemble it when they step away. Twist: let the fragments settle on the real floor plane.",
+   "exercise_zh": "观众穿过 AR 中的虚拟物体时让它的多边形四散，离开时再重新聚合；变体：让碎片落到真实的地面平面上。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "shader"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_nvmqi6Tmuc1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/SpektrScatter",
+   "code_url": "https://github.com/keijiro/SpektrScatter",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--spektr-subatomic",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Subatomic (geometric mirroring)",
+   "year": 2015,
+   "description": "A mesh is mirrored many times around a point, creating a kaleidoscope that is a real 3D object rather than a flat screen effect.",
+   "description_zh": "一个网格围绕一点被镜像许多次，形成一个真正的 3D 万花筒，而不是平面的画面效果。",
+   "idea_en": "Make a kaleidoscope that exists in 3D space.",
+   "idea_zh": "做一个存在于三维空间里的万花筒。",
+   "technique": "A custom mesh renderer draws the source mesh several times with reflection matrices in world space, so the mirroring behaves like a mesh modifier with correct lighting (inspired by the subatomic sequence in Ant-Man).",
+   "technique_zh": "自定义网格渲染器在世界空间中用反射矩阵把源网格绘制多次，因此镜像像网格修改器一样工作，光照也正确（灵感来自电影《蚁人》中的亚原子片段）。",
+   "exercise_en": "Mirror a small virtual object eight times around an anchor in AR so viewers can walk around a 3D kaleidoscope. Twist: include the AR face mesh so the viewer's face becomes part of it.",
+   "exercise_zh": "在 AR 中把一个小虚拟物体围绕锚点镜像八次，让观众绕着一个立体万花筒走动；变体：把 AR 人脸网格也放进去，让观众的脸成为万花筒的一部分。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "mesh renderer"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_nv2ru4onKo1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/SpektrSubatomic",
+   "code_url": "https://github.com/keijiro/SpektrSubatomic",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--kinoisoline",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "KinoIsoline",
+   "year": 2015,
+   "description": "Glowing contour lines sweep over the scene, drawing it like a topographic map in motion.",
+   "description_zh": "发光的等高线扫过场景，把它画成一张会动的地形图。",
+   "idea_en": "See a 3D scene as moving contour lines.",
+   "idea_zh": "把 3D 场景看成不断移动的等高线。",
+   "technique": "An image effect reconstructs world-space position from the depth buffer and draws lines wherever that position crosses a repeating interval along a chosen axis, with scrolling offset.",
+   "technique_zh": "图像效果从深度缓冲重建世界坐标，在该坐标沿指定轴穿过重复间隔的地方画线，并让偏移不断滚动。",
+   "exercise_en": "Draw scrolling contour lines on the real room using the AR depth map or LiDAR mesh on a phone. Twist: let the lines rise with the viewer's height so the room seems to flood.",
+   "exercise_zh": "在手机上用 AR 深度图或 LiDAR 网格在真实房间上画出滚动的等高线；变体：让等高线随观众的身高上升，像房间正在被水淹没。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "image effect",
+    "depth buffer"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_nva7mmMPqD1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/KinoIsoline",
+   "code_url": "https://github.com/keijiro/KinoIsoline",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "keijiro-takahashi--photomosaic",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "PhotoMosaic",
+   "year": 2015,
+   "description": "The live 3D scene is rebuilt from hundreds of small photographs, each chosen to match the color of its tile.",
+   "description_zh": "实时的 3D 场景被数百张小照片重新拼出来，每张照片都按它所在格子的颜色挑选。",
+   "idea_en": "Render a scene out of a photo album.",
+   "idea_zh": "用一本相册来渲染一个场景。",
+   "technique": "An image effect samples the average color of each screen tile and picks the closest photo from an album texture atlas of 256x256 images, drawing it in the tile.",
+   "technique_zh": "图像效果采样每个屏幕格子的平均颜色，从由 256x256 照片组成的相册纹理图集中挑出最接近的一张画进格子。",
+   "exercise_en": "Turn the AR camera view into a photo mosaic built from the class's own photos. Twist: only virtual objects are rendered as mosaic while the real world stays normal.",
+   "exercise_zh": "把 AR 相机画面变成由全班同学自己照片拼成的照片马赛克；变体：只有虚拟物体渲染成马赛克，真实世界保持原样。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "image effect"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_nwf56pAxZd1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/PhotoMosaic",
+   "code_url": "https://github.com/keijiro/PhotoMosaic",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "keijiro-takahashi--manycubes",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "ManyCubes",
+   "year": 2015,
+   "description": "A dense cluster of cubes shuffles, rotates and reorganises itself in a looping animation.",
+   "description_zh": "一大团密集的立方体不断洗牌、旋转、重组，形成循环动画。",
+   "idea_en": "Get rich motion from one shader and a hash function.",
+   "idea_zh": "只用一个着色器和一个哈希函数就得到丰富的运动。",
+   "technique": "A cube-cluster shader positions and rotates each cube from an xxHash-based random value and time, and the scene is finished with ambient occlusion, bokeh and color grading.",
+   "technique_zh": "立方体簇着色器根据基于 xxHash 的随机值和时间，决定每个立方体的位置和旋转，再加上环境光遮蔽、焦外和调色完成画面。",
+   "exercise_en": "Fill a real shelf in AR with a cluster of small cubes that shuffle every few seconds. Twist: let each cube carry a photo taken by a classmate.",
+   "exercise_zh": "在 AR 中用一团小立方体填满真实的书架，每隔几秒重新洗牌；变体：每个立方体上贴一张同学拍的照片。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "shader",
+    "hash function"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_nwkrsraePx1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/ManyCubes",
+   "code_url": "https://github.com/keijiro/ManyCubes",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--textanimation",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "TextAnimation",
+   "year": 2015,
+   "description": "Letters and glyphs assemble, scatter and flicker in a prototype of shader-driven motion typography.",
+   "description_zh": "字母和字形不断组合、散开、闪烁，这是一个由着色器驱动的动态排版原型。",
+   "idea_en": "Animate typography entirely in a shader.",
+   "idea_zh": "完全在着色器里做文字动画。",
+   "technique": "A text animation shader offsets and reveals each glyph quad using its index and time, so many letters animate on the GPU without per-letter scripts.",
+   "technique_zh": "文字动画着色器根据每个字形四边形的序号和时间做偏移和显现，所以大量字母都在 GPU 上动起来，不需要逐字脚本。",
+   "exercise_en": "Write a short sentence in AR space with TextMeshPro and animate each letter in a shader so it assembles when the viewer looks at it. Twist: letters scatter again when the viewer looks away.",
+   "exercise_zh": "用 TextMeshPro 在 AR 空间中写一句短句，并用着色器为每个字母做动画，观众看向它时文字才组合起来；变体：观众把视线移开时，字母重新散开。",
+   "interaction": [
+    "data-information",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "shader"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_nxhz6iOsZv1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/TextAnimation",
+   "code_url": "https://github.com/keijiro/TextAnimation",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "keijiro-takahashi--shadersketches",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "ShaderSketches",
+   "year": 2017,
+   "description": "A collection of small fragment-shader sketches written while commuting; in this one, geometric patterns pulse with an audio spectrum input.",
+   "description_zh": "一组在通勤路上写的小片元着色器草图；这一幅里，几何图案随着音频频谱输入跳动。",
+   "idea_en": "Keep a daily habit of tiny shader sketches.",
+   "idea_zh": "养成每天写一个小着色器草图的习惯。",
+   "technique": "Each sketch is a single GLSL fragment shader in KodeLife; this one reads the spectrum texture that KodeLife provides from audio input and maps bands to shape size and color.",
+   "technique_zh": "每幅草图都是 KodeLife 中的一个 GLSL 片元着色器；这一幅读取 KodeLife 从音频输入生成的频谱纹理，把各频段映射到形状的大小和颜色。",
+   "exercise_en": "Write a one-screen audio-reactive shader and show it on a virtual poster in a WebXR scene that listens to the microphone. Twist: everyone writes a new sketch on the way to class for a week.",
+   "exercise_zh": "写一个一屏的声音反应着色器，把它显示在一个监听麦克风的 WebXR 场景里的虚拟海报上；变体：连续一周，每人在上课路上写一个新草图。",
+   "interaction": [
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "KodeLife",
+    "GLSL"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_ooco6l0oEQ1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/ShaderSketches",
+   "code_url": "https://github.com/keijiro/ShaderSketches",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "keijiro-takahashi--skeletal-geometric",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Skeletal Geometric Effects",
+   "year": 2018,
+   "description": "Simple line segments along a dancing skeleton grow into complex ribbons and geometric shapes that follow the movement.",
+   "description_zh": "沿着跳舞骨骼的简单线段长成复杂的缎带和几何形体，跟随动作运动。",
+   "idea_en": "Build rich geometry from nothing more than a skeleton's bones.",
+   "idea_zh": "只用骨骼的骨头，就生成丰富的几何形体。",
+   "technique": "Geometry-shader instancing expands each bone's line segment into many triangles on the GPU, for example 16 line segments into about 16,000 animated ribbon triangles.",
+   "technique_zh": "几何着色器实例化在 GPU 上把每根骨头的线段扩展成大量三角形，例如把 16 条线段变成约 16,000 个动态缎带三角形。",
+   "exercise_en": "Take the joint positions from ARKit body tracking and draw ribbons between them with a VFX Graph or line shader on a phone. Twist: make the ribbons leave a trail that stays in the room after the dancer leaves.",
+   "exercise_zh": "用 ARKit 人体追踪取得关节位置，在手机上用 VFX Graph 或线条着色器在关节之间画出缎带；变体：让缎带留下轨迹，舞者离开后仍留在房间里。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "geometry shader",
+    "instancing"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_pcsc78PRjA1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/SkeletalGeometricEffects",
+   "code_url": "https://github.com/keijiro/SkeletalGeometricEffects",
+   "vfx_cat": "body"
+  },
+  {
+   "id": "keijiro-takahashi--flipbook",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Flipbook",
+   "year": 2016,
+   "description": "A live 3D scene is sliced into pages that flip over like a book, each page freezing a moment of the animation.",
+   "description_zh": "实时 3D 场景被切成一页页，像书一样翻过，每一页都定格了动画的一个瞬间。",
+   "idea_en": "Turn time into pages of a physical book.",
+   "idea_zh": "把时间变成一本实体书的书页。",
+   "technique": "Frames are captured into a ring of render textures, and a vertex shader bends page meshes around a spine with speed parameters controlling the flip.",
+   "technique_zh": "画面被截取到一组循环使用的渲染纹理里，顶点着色器让书页网格绕书脊弯曲翻动，速度参数控制翻页。",
+   "exercise_en": "Record the AR camera view into pages and flip them on a virtual book lying on a real desk. Twist: let the viewer turn pages by swiping in the air with hand tracking.",
+   "exercise_zh": "把 AR 相机画面录成书页，在一本放在真实桌面上的虚拟书上翻动；变体：用手部追踪，让观众在空中挥手翻页。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "vertex shader"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_pcorcg1yV01qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/Flipbook",
+   "code_url": "https://github.com/keijiro/Flipbook",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--shadergraph-globe",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "Shader Graph moving-lines globe",
+   "year": 2018,
+   "description": "A globe is covered with flowing lines that scroll across its surface, built entirely with a node-based shader.",
+   "description_zh": "一个球体表面布满流动的线条，在上面不断滚动，全部由节点式着色器搭建。",
+   "idea_en": "Show that a node graph can make a striking animated material.",
+   "idea_zh": "证明用节点图也能做出惊艳的动态材质。",
+   "technique": "A Shader Graph (CC0 example) uses spherical coordinates, a scrolling time offset and step functions to draw moving line patterns with emission.",
+   "technique_zh": "一个 Shader Graph（CC0 示例）利用球面坐标、随时间滚动的偏移和阶跃函数，画出带自发光的移动线条图案。",
+   "exercise_en": "Recreate the moving-lines material in Shader Graph and apply it to a virtual globe anchored on a real table in AR. Twist: make the lines flow toward the city where each student was born.",
+   "exercise_zh": "在 Shader Graph 里重做这种移动线条材质，把它贴到 AR 中锚定在真实桌面上的虚拟地球上；变体：让线条流向每位学生的出生城市。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Shader Graph"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_pfv4dgueZM1qio469.mp4"
+   },
+   "source_url": "https://github.com/keijiro/ShaderGraphExamples",
+   "code_url": "https://github.com/keijiro/ShaderGraphExamples",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "keijiro-takahashi--videoplayer-effects",
+   "creator_ids": [
+    "keijiro-takahashi"
+   ],
+   "title": "VideoPlayerEffects (keying)",
+   "year": 2017,
+   "description": "Green-screen footage played by Unity's VideoPlayer is keyed live, with improved spill suppression so the subject blends into a 3D scene.",
+   "description_zh": "Unity VideoPlayer 播放的绿幕素材被实时抠像，改进的溢色抑制让人物自然融入 3D 场景。",
+   "idea_en": "Place filmed people into a real-time 3D world with a shader.",
+   "idea_zh": "用一个着色器，把拍摄的人放进实时 3D 世界。",
+   "technique": "A chroma-key shader computes a matte from the green channel difference and removes green spill from the edges; the keyer later moved to the ProcAmp repository.",
+   "technique_zh": "色度键着色器根据绿色通道差值计算遮罩，并去除边缘的绿色溢色；这个抠像器后来迁移到了 ProcAmp 仓库。",
+   "exercise_en": "Film a classmate against a green wall, key the clip with a shader and place it as a life-size video billboard in AR. Twist: make the billboard always face the viewer so the person follows you around.",
+   "exercise_zh": "让同学站在绿墙前拍一段视频，用着色器抠像后作为真人大小的视频广告牌放进 AR；变体：让广告牌始终朝向观众，好像那个人一直跟着你转。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VideoPlayer",
+    "shader"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://va.media.tumblr.com/tumblr_om9qfzPwgn1qio469_480.mp4"
+   },
+   "source_url": "https://github.com/keijiro/VideoPlayerEffects",
+   "code_url": "https://github.com/keijiro/VideoPlayerEffects",
+   "vfx_cat": "screen"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Masatatsu Nakamura (mattatz)",
+   "why": "Tokyo creative coder with many open-source Unity GPU VFX repos (unity-voxel, triangulation, teddy).",
+   "link": "https://github.com/mattatz",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  },
+  {
+   "name": "hecomi",
+   "why": "Author of uRaymarching and UnityFurURP, widely used open-source Unity shader and raymarching tools.",
+   "link": "https://github.com/hecomi",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  },
+  {
+   "name": "Hironori Sugino (sugi-cho)",
+   "why": "Freelance Unity programmer from the Tokyo VJ scene; open-source GPU particles and animation texture baker.",
+   "link": "https://github.com/sugi-cho",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  },
+  {
+   "name": "FMS_Cat (0b5vr)",
+   "why": "Demoscene and WebGL real-time visuals artist who performed alongside Keijiro at Channel and Liquidroom; publishes source code.",
+   "link": "https://github.com/fms-cat",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  },
+  {
+   "name": "AMAGI (fand)",
+   "why": "Web graphics artist behind vfx-js and VEDA live-coding tools; active in the same Tokyo live-coding scene.",
+   "link": "https://github.com/fand",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  },
+  {
+   "name": "kaiware007",
+   "why": "Unity VJ shader developer (reaction-diffusion, hex tiling, VJ shader talks) with public repos.",
+   "link": "https://github.com/kaiware007",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  }
+ ]
+}

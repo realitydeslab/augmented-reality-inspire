@@ -1,0 +1,2546 @@
+{
+ "batch": "vfx-community",
+ "creators": [
+  {
+   "id": "shahriar-shahrabi",
+   "name": "Shahriar Shahrabi",
+   "role": "Technical artist and graphics programmer",
+   "role_zh": "技术美术、图形程序员",
+   "based": "Berlin, Germany",
+   "based_zh": "柏林，德国",
+   "bio": "Iranian technical artist in Berlin who open-sources his Unity shader and compute-shader studies (fluids, Matrix code rain, procedural painting) with long blog breakdowns.",
+   "bio_zh": "生活在柏林的伊朗技术美术，把自己在 Unity 里做的着色器和计算着色器研究（流体、黑客帝国代码雨、程序化绘画）连同详细的博客拆解一起开源。",
+   "why": "Each of his experiments turns one graphics idea into a striking image and ships the full repo plus a step-by-step article, ideal for students.",
+   "why_zh": "他的每个实验都把一个图形学点子做成一幅抓人的画面，并同时公开完整代码和逐步讲解的文章，非常适合教学。",
+   "links": {
+    "site": "https://ircss.github.io/",
+    "x": "https://x.com/IRCSS",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UChUd8YTLDZ-Bf0W_A5bOV6A",
+    "github": "https://github.com/IRCSS"
+   },
+   "connected_to": [],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "sebastian-lague",
+   "name": "Sebastian Lague",
+   "role": "Programmer and educator; creator of the Coding Adventures series",
+   "role_zh": "程序员、教育者；《Coding Adventures》系列作者",
+   "based": "Denmark",
+   "based_zh": "丹麦",
+   "bio": "Makes the Coding Adventures videos, in which he builds fluids, ray marchers, clouds and boids from scratch in Unity and releases every project on GitHub.",
+   "bio_zh": "《Coding Adventures》视频的作者：在 Unity 里从零实现流体、光线步进、体积云和鸟群，并把每个项目都放到 GitHub 上。",
+   "why": "He makes hard real-time graphics techniques feel approachable, and each video comes with a project students can open and change.",
+   "why_zh": "他把高难度的实时图形技术讲得平易近人，每个视频都配有学生可以直接打开修改的工程。",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@SebastianLague",
+    "github": "https://github.com/SebLague"
+   },
+   "connected_to": [],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "mirza-beig",
+   "name": "Mirza Beig",
+   "role": "Technical artist and VFX developer for Unity",
+   "role_zh": "Unity 技术美术与特效开发者",
+   "based": "Canada",
+   "based_zh": "加拿大",
+   "bio": "Unity VFX developer who posts shader and particle experiments almost every week and releases many of them as free open-source projects.",
+   "bio_zh": "Unity 特效开发者，几乎每周都会发布着色器和粒子实验，其中很多作为免费开源项目发布。",
+   "why": "His open repos (scan pulse, textureless fog, chromatic bubble, constellation ribbons) are compact, beautiful effects that drop straight into an AR scene.",
+   "why_zh": "他开源的扫描波、无贴图雾、色散气泡、星座丝带等特效小巧精美，可以直接放进 AR 场景。",
+   "links": {
+    "site": "http://mirzabeig.com/",
+    "x": "https://x.com/TheMirzaBeig",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC5c5JgFyiFXKXCVRh2DsRJg",
+    "github": "https://github.com/MirzaBeig"
+   },
+   "connected_to": [],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "hecomi",
+   "name": "hecomi",
+   "role": "Unity engineer and graphics blogger",
+   "role_zh": "Unity 工程师、图形技术博主",
+   "based": "Japan",
+   "based_zh": "日本",
+   "bio": "Japanese Unity engineer behind uRaymarching, UnityFurURP and uLipSync, who documents each experiment in depth on his blog tips.hecomi.com.",
+   "bio_zh": "日本 Unity 工程师，uRaymarching、UnityFurURP、uLipSync 的作者，会在博客 tips.hecomi.com 上详细记录每个实验。",
+   "why": "His raymarching generator, fur shader and depth-sensor tricks are widely used open tools for mixing shader worlds with real geometry.",
+   "why_zh": "他的光线步进生成器、毛发着色器和深度传感器技巧都是被广泛使用的开源工具，能把着色器世界和真实几何融合在一起。",
+   "links": {
+    "site": "https://tips.hecomi.com",
+    "x": "https://x.com/hecomi",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCqUGbRw4ZNU3TemCblBmsoQ",
+    "github": "https://github.com/hecomi"
+   },
+   "connected_to": [
+    "keijiro-takahashi"
+   ],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "hironori-sugino",
+   "name": "Hironori Sugino (sugi-cho)",
+   "role": "Freelance creative programmer",
+   "role_zh": "自由创意程序员",
+   "based": "Tokyo, Japan",
+   "based_zh": "东京，日本",
+   "bio": "Tokyo freelance programmer who builds GPU particle, projection-mapping and depth-camera visuals for installations and VJ sets, and co-authored the Unity Graphics Programming books.",
+   "bio_zh": "东京的自由程序员，为装置和 VJ 演出制作 GPU 粒子、投影映射和深度相机视觉，也是《Unity Graphics Programming》系列的作者之一。",
+   "why": "His projection spray and screen-space particle collision show how to make virtual paint and particles respect real surfaces, which is the core problem of AR.",
+   "why_zh": "他的投影喷漆和屏幕空间粒子碰撞展示了如何让虚拟颜料和粒子遵循真实表面，这正是 AR 的核心问题。",
+   "links": {
+    "site": "https://sugi.cc",
+    "x": "https://x.com/sugi_cho",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCoWPVpE8OYa52-Z9Nl4bE2g",
+    "github": "https://github.com/sugi-cho"
+   },
+   "connected_to": [
+    "kodai-takao",
+    "keijiro-takahashi"
+   ],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "yuma-yanagisawa",
+   "name": "Yuma Yanagisawa",
+   "role": "Media artist and creative coder",
+   "role_zh": "媒体艺术家、创意程序员",
+   "based": "Japan",
+   "based_zh": "日本",
+   "bio": "Japanese artist who works with shaders, VFX Graph and data, from raindrop and ripple shaders to large projected data sculptures and AI flower pieces.",
+   "bio_zh": "日本艺术家，用着色器、VFX Graph 和数据创作，从雨滴、水波着色器到大型投影数据雕塑和 AI 花卉作品。",
+   "why": "He publishes the Unity source of many of his shader studies, so students can go from a single effect to an installation.",
+   "why_zh": "他公开了许多着色器习作的 Unity 源码，学生可以从一个单独的特效一路做到装置作品。",
+   "links": {
+    "site": "https://www.yumayanagisawa.com",
+    "x": "https://x.com/yumayanagisawa",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC6wRzy-k0j_ki5BhqVEp2Rg",
+    "github": "https://github.com/yumayanagisawa"
+   },
+   "connected_to": [],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "kodai-takao",
+   "name": "Kodai Takao",
+   "role": "Computer graphics engineer specialising in physics simulation and live performance",
+   "role_zh": "专注物理模拟与现场演出的图形工程师",
+   "based": "Tokyo, Japan",
+   "based_zh": "东京，日本",
+   "bio": "Tokyo graphics engineer who implements fluid, snow and flocking simulations on the GPU in Unity and builds real-time visuals for live shows.",
+   "bio_zh": "东京的图形工程师，在 Unity 里用 GPU 实现流体、雪和鸟群模拟，并为现场演出制作实时视觉。",
+   "why": "His open implementations of Position Based Fluids, FLIP and GPU boids are clear starting points for physically convincing AR effects.",
+   "why_zh": "他开源的 Position Based Fluids、FLIP 流体和 GPU 鸟群实现，是做出物理上可信的 AR 特效的清晰起点。",
+   "links": {
+    "site": "https://kodai100.com",
+    "x": "https://x.com/kodai100_tw",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCzYsKlfL5JkDS4bLHVSZNvQ",
+    "github": "https://github.com/kodai100"
+   },
+   "connected_to": [
+    "hironori-sugino"
+   ],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "fuqunaga",
+   "name": "fuqunaga",
+   "role": "Game and interactive-art programmer",
+   "role_zh": "游戏与互动艺术程序员",
+   "based": "Japan",
+   "based_zh": "日本",
+   "bio": "Japanese interactive-art programmer who open-sources compute-shader tools for Unity such as GpuTrail, VatBaker and RosettaUI.",
+   "bio_zh": "日本互动艺术程序员，开源了 GpuTrail、VatBaker、RosettaUI 等 Unity 计算着色器工具。",
+   "why": "His GPU trails and VFX Graph hacks show how to push hundreds of thousands of moving lines and runtime point caches in real time.",
+   "why_zh": "他的 GPU 拖尾和 VFX Graph 技巧展示了如何实时驱动几十万条运动线条和运行时点缓存。",
+   "links": {
+    "site": "https://fuquna.ga",
+    "x": "https://x.com/fuqunaga",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCFt5mKgDe5ffx9MXhWg2XbQ",
+    "github": "https://github.com/fuqunaga"
+   },
+   "connected_to": [],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "andrei-iurin",
+   "name": "Andrei Iurin (NullTale)",
+   "role": "Indie developer and Unity VFX tool maker",
+   "role_zh": "独立开发者、Unity 特效工具作者",
+   "based": "Batumi, Georgia",
+   "based_zh": "巴统，格鲁吉亚",
+   "bio": "Indie developer publishing as NullTale, who releases URP post-processing and lighting tools such as VolFx, GiLight2D, AsciiFx and PixelationFx.",
+   "bio_zh": "以 NullTale 名义发布作品的独立开发者，开源了 VolFx、GiLight2D、AsciiFx、PixelationFx 等 URP 后期与光照工具。",
+   "why": "His tools apply stylised post effects to selected layers only, which is exactly what AR needs to restyle virtual content without touching the camera feed.",
+   "why_zh": "他的工具可以只对选定图层做风格化后期，这正是 AR 需要的：只改虚拟内容，不动相机画面。",
+   "links": {
+    "site": "https://nulltale.itch.io",
+    "x": "https://x.com/NullTale",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCdVZg6xdl7J6tKC_KaxTC0Q",
+    "github": "https://github.com/NullTale"
+   },
+   "connected_to": [],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "unity-vfx-graph-team",
+   "name": "Unity Visual Effect Graph team (Thomas Iché, Julien Fryer, Vlad Neykov and the Unity Demo Team)",
+   "role": "Unity Technologies team that builds VFX Graph and its showcase samples",
+   "role_zh": "Unity 公司中开发 VFX Graph 及其示范样例的团队",
+   "based": "Paris, France",
+   "based_zh": "巴黎，法国",
+   "bio": "The Unity team behind the Visual Effect Graph, who publish the Spaceship Demo, the VFX Graph sample scenes and demo-team tools such as Mesh-to-SDF as open projects.",
+   "bio_zh": "开发 Visual Effect Graph 的 Unity 团队，公开了 Spaceship Demo、VFX Graph 样例场景以及 Mesh-to-SDF 等演示团队工具。",
+   "why": "Their samples are the reference implementations every VFX Graph artist learns from, and they run as downloadable projects.",
+   "why_zh": "他们的样例是每个 VFX Graph 创作者都会学习的参考实现，而且都是可以下载运行的工程。",
+   "links": {
+    "site": "https://unity.com/visual-effect-graph",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@unity",
+    "github": "https://github.com/Unity-Technologies/VisualEffectGraph-Samples"
+   },
+   "connected_to": [
+    "keijiro-takahashi"
+   ],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "dilmer-valecillos",
+   "name": "Dilmer Valecillos",
+   "role": "XR developer and educator (Learn XR)",
+   "role_zh": "XR 开发者与教育者（Learn XR）",
+   "based": "Salt Lake City, US",
+   "based_zh": "盐湖城，美国",
+   "bio": "XR developer who teaches AR Foundation, Quest and VFX Graph on YouTube and shares every tutorial project on GitHub.",
+   "bio_zh": "XR 开发者，在 YouTube 上教授 AR Foundation、Quest 和 VFX Graph，并把每个教程工程都放在 GitHub 上。",
+   "why": "He was among the first to show VFX Graph running inside AR Foundation and Quest hand tracking, with code students can reuse.",
+   "why_zh": "他是最早演示 VFX Graph 在 AR Foundation 和 Quest 手部追踪中运行的人之一，代码可直接复用。",
+   "links": {
+    "site": "https://learnxr.io",
+    "x": "https://x.com/dilmerv",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCHM37DnT_QGJT5Zyl4EmqcA",
+    "github": "https://github.com/dilmerv"
+   },
+   "connected_to": [],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "daniel-ilett",
+   "name": "Daniel Ilett",
+   "role": "Shader educator and indie developer",
+   "role_zh": "着色器教育者、独立开发者",
+   "based": "Warwick, UK",
+   "based_zh": "沃里克，英国",
+   "bio": "UK developer and PhD researcher who teaches Unity shaders on YouTube and his blog, recreating effects from games such as Antichamber and Portal.",
+   "bio_zh": "英国开发者和博士研究者，在 YouTube 和博客上教 Unity 着色器，复刻《Antichamber》《Portal》等游戏中的效果。",
+   "why": "His stencil-shader projects make impossible spaces and portals easy to understand, which translates directly into AR portals.",
+   "why_zh": "他的模板缓冲着色器项目让不可能空间和传送门变得易懂，可以直接转化为 AR 传送门。",
+   "links": {
+    "site": "https://danielilett.com/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UClgoE54W_4rX7jzZGiCmrXw",
+    "github": "https://github.com/daniel-ilett"
+   },
+   "connected_to": [],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "noisecrime",
+   "name": "NoiseCrime",
+   "role": "Unity developer and graphics experimenter",
+   "role_zh": "Unity 开发者、图形实验者",
+   "based": "UK",
+   "based_zh": "英国",
+   "bio": "Long-time Unity developer who publishes rendering experiments such as stencil portal cubes and instanced-indirect examples.",
+   "bio_zh": "资深 Unity 开发者，发布了模板缓冲传送门立方体、间接实例化等渲染实验。",
+   "why": "His Portal Room Cubes demo is the classic open example of fitting several rooms inside one small box with the stencil buffer.",
+   "why_zh": "他的 Portal Room Cubes 是用模板缓冲把好几个房间塞进一个小盒子的经典开源示例。",
+   "links": {
+    "site": "http://www.noisecrime.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@noisecrime",
+    "github": "https://github.com/noisecrime"
+   },
+   "connected_to": [],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "kaito-tsutsumi",
+   "name": "Kaito Tsutsumi (にー兄さん / drumath2237)",
+   "role": "Software engineer working on WebXR, VFX Graph and Gaussian splatting",
+   "role_zh": "从事 WebXR、VFX Graph 和高斯泼溅的软件工程师",
+   "based": "Japan",
+   "based_zh": "日本",
+   "bio": "Japanese engineer who publishes Azure Kinect + VFX Graph samples, a generative music-video pipeline, and Babylon.js / Gaussian splatting tools.",
+   "bio_zh": "日本工程师，发布了 Azure Kinect + VFX Graph 样例、生成式音乐视频流程，以及 Babylon.js 和高斯泼溅工具。",
+   "why": "His small, well-documented repos connect depth sensors, SDFs and sound to VFX Graph, bridging to WebXR.",
+   "why_zh": "他的小型仓库文档清楚，把深度传感器、SDF 和声音接到 VFX Graph 上，并延伸到 WebXR。",
+   "links": {
+    "site": "",
+    "x": "https://x.com/ninisan_drumath",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@drumath2237",
+    "github": "https://github.com/drumath2237"
+   },
+   "connected_to": [
+    "keijiro-takahashi"
+   ],
+   "discovered_via": "keijiro-takahashi"
+  },
+  {
+   "id": "adrian-ciborro-montes",
+   "name": "Adrián Ciborro Montes",
+   "role": "Software engineer working on graphics and AI-driven streaming",
+   "role_zh": "从事图形与 AI 驱动直播的软件工程师",
+   "based": "Spain",
+   "based_zh": "西班牙",
+   "bio": "Spanish engineer who published a Unity project that turns webcam-based 3D pose estimation into VFX Graph particles.",
+   "bio_zh": "西班牙工程师，发布了一个把基于摄像头的三维姿态估计变成 VFX Graph 粒子的 Unity 项目。",
+   "why": "His mocap-vfx repo is a compact, open example of neural pose tracking driving particles on a normal webcam.",
+   "why_zh": "他的 mocap-vfx 仓库是一个紧凑的开源示例：用普通摄像头的神经网络姿态追踪来驱动粒子。",
+   "links": {
+    "site": "https://adcimon.github.io/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": "https://github.com/adcimon"
+   },
+   "connected_to": [
+    "keijiro-takahashi"
+   ],
+   "discovered_via": "keijiro-takahashi"
+  }
+ ],
+ "works": [
+  {
+   "id": "shahriar-shahrabi--compute-shader-fluid-simulation",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "Fluid Simulation in Compute Shaders",
+   "year": 2020,
+   "description": "Coloured dye swirls and curls around a 3D model as a full Navier-Stokes fluid solver runs on the GPU, reacting to where the user injects force.",
+   "description_zh": "彩色染料在一个三维模型周围旋转翻卷：完整的 Navier-Stokes 流体解算在 GPU 上运行，并对用户注入力的位置作出反应。",
+   "idea_en": "A full fluid solver fits in a handful of compute-shader passes and can paint any surface with moving ink.",
+   "idea_zh": "一个完整的流体解算器只需几个计算着色器 pass，就能让任何表面流动起墨水。",
+   "technique": "Stable-fluids style advection, divergence, pressure (Jacobi) and projection passes run as Unity compute shaders on 2D/3D render textures, and the velocity field advects a dye texture.",
+   "technique_zh": "按 stable fluids 思路，在 Unity 计算着色器里对二维/三维渲染纹理依次做平流、散度、压力（Jacobi 迭代）和投影，再用速度场平流一张染料纹理。",
+   "exercise_en": "Port the repo's 2D solver to a phone and project it onto an AR plane found by AR Foundation, injecting dye where the user touches the floor. Twist: use the device's motion as the force so walking stirs the ink.",
+   "exercise_zh": "把仓库里的二维流体解算移植到手机，用 AR Foundation 找到地面平面并投在上面，用户点击地面的位置注入染料。变体：把手机的移动当作力，让走动就能搅动墨水。",
+   "interaction": [
+    "perception-art",
+    "drawing-creation"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader",
+    "HLSL"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "GkrQy5JUyZk",
+    "url": "https://www.youtube.com/watch?v=GkrQy5JUyZk"
+   },
+   "source_url": "https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-",
+   "code_url": "https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "shahriar-shahrabi--interactive-volumetric-fog",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "Interactive Volumetric Fog with Fluid Dynamics (The Vast Land)",
+   "year": 2021,
+   "description": "A stylised valley is filled with volumetric fog that parts and swirls around a moving character and flows around the terrain as a real fluid.",
+   "description_zh": "一片风格化山谷里弥漫着体积雾，角色走过时雾被推开、翻卷，并像真实流体一样绕着地形流动。",
+   "idea_en": "Fog becomes something you can push: a fluid simulation drives a raymarched fog volume.",
+   "idea_zh": "让雾变成可以被推开的东西：用流体模拟驱动光线步进的体积雾。",
+   "technique": "The compute-shader fluid solver runs on a 3D grid with arbitrary boundaries taken from the scene, and the resulting density field is raymarched as volumetric fog with lighting.",
+   "technique_zh": "计算着色器流体解算在一个三维网格上运行，边界取自场景几何；得到的密度场再用光线步进渲染成带光照的体积雾。",
+   "exercise_en": "Fill a small AR room with low-resolution simulated fog on HoloKit or a phone, using the LiDAR mesh as the fluid boundary so fog flows around real furniture. Twist: let the user's hand position blow the fog away.",
+   "exercise_zh": "在 HoloKit 或手机上用低分辨率模拟雾填满一个小 AR 房间，把 LiDAR 网格作为流体边界，让雾绕着真实家具流动。变体：用手的位置把雾吹散。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader",
+    "Raymarching"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hMhNhgnOGN8",
+    "url": "https://www.youtube.com/watch?v=hMhNhgnOGN8"
+   },
+   "source_url": "https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-",
+   "code_url": "https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "shahriar-shahrabi--matrix-vfx",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "Matrix VFX",
+   "year": 2020,
+   "description": "A 3D-scanned statue is covered in falling green Matrix code that wraps around its surface and slowly reveals the shape.",
+   "description_zh": "一座三维扫描雕像被黑客帝国式的绿色代码雨覆盖，字符沿着表面流下，慢慢勾勒出形体。",
+   "idea_en": "Any object can be rewritten as digital rain that follows its shape.",
+   "idea_zh": "任何物体都能被改写成顺着它形状流下的数字雨。",
+   "technique": "A shader uses triplanar mapping to project a procedurally animated glyph texture onto the mesh from three axes, with per-column random speeds and brightness trails.",
+   "technique_zh": "着色器用三平面映射从三个轴向把程序化动画的字符纹理投到网格上，每一列有随机速度和亮度拖尾。",
+   "exercise_en": "Apply the Matrix shader to the ARKit scene mesh so the whole room turns into code rain on a LiDAR phone. Twist: only reveal the code where the user points a virtual flashlight.",
+   "exercise_zh": "在 LiDAR 手机上把这个 Matrix 着色器用在 ARKit 场景网格上，让整个房间变成代码雨。变体：只在用户手中虚拟手电筒照到的地方显示代码。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Triplanar mapping"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "8l7cujPLw84",
+    "url": "https://www.youtube.com/watch?v=8l7cujPLw84"
+   },
+   "source_url": "https://github.com/IRCSS/MatrixVFX",
+   "code_url": "https://github.com/IRCSS/MatrixVFX",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "shahriar-shahrabi--procedural-painting",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "Procedural Painting with Genetic Evolution",
+   "year": 2020,
+   "description": "A photo is repainted stroke by stroke: thousands of brush strokes evolve on the GPU until they reproduce the portrait as an expressive painting.",
+   "description_zh": "一张照片被一笔一笔重新画出来：成千上万的笔触在 GPU 上进化，直到拼成一幅富有表现力的肖像画。",
+   "idea_en": "Let evolution, not a filter, decide where each brush stroke goes.",
+   "idea_zh": "让进化算法而不是滤镜来决定每一笔该落在哪里。",
+   "technique": "A genetic algorithm implemented in compute shaders mutates populations of brush-stroke parameters, renders them, and scores each candidate against the target image to keep the fittest.",
+   "technique_zh": "在计算着色器里实现的遗传算法不断变异笔触参数群体、渲染出来，并与目标图像比较打分，保留最合适的个体。",
+   "exercise_en": "Capture a camera frame on a phone, run a small stroke-evolution loop, and hang the resulting painting as a canvas on a real wall in AR. Twist: let the painting keep evolving each time someone looks at it.",
+   "exercise_zh": "在手机上截取一帧相机画面，运行一个小型笔触进化循环，把生成的画作为画布挂到 AR 中真实的墙上。变体：每次有人看它，画都会继续进化。",
+   "interaction": [
+    "perception-art",
+    "drawing-creation"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader",
+    "Genetic algorithm"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "--YygVe0Eu4",
+    "url": "https://www.youtube.com/watch?v=--YygVe0Eu4"
+   },
+   "source_url": "https://github.com/IRCSS/Procedural-painting",
+   "code_url": "https://github.com/IRCSS/Procedural-painting",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "shahriar-shahrabi--texture-paint",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "Texture Painting on Meshes",
+   "year": 2019,
+   "description": "The user paints directly onto a 3D model in real time; strokes land in the model's texture and stay on the surface as it turns.",
+   "description_zh": "用户实时在三维模型上作画，笔触写进模型的贴图，模型转动时颜色仍留在表面上。",
+   "idea_en": "Painting on an object should feel like painting on the real thing, not on a screen.",
+   "idea_zh": "在物体上作画应该像在真实物体上画，而不是在屏幕上画。",
+   "technique": "The mesh is rendered into its UV space with a shader that tests each texel's world position against the brush, writing paint into a render texture, with a dilation pass to hide seams.",
+   "technique_zh": "用着色器把网格按 UV 空间展开渲染，逐个纹素比较其世界坐标与笔刷的距离，把颜料写入渲染纹理，并用膨胀 pass 隐藏接缝。",
+   "exercise_en": "Scan a real object with a LiDAR phone, place the scan over it in AR, and let students spray-paint the object through the phone. Twist: the paint drips downward over time.",
+   "exercise_zh": "用 LiDAR 手机扫描一个真实物体，在 AR 中把扫描模型叠在它身上，让学生通过手机给物体喷漆。变体：颜料会随时间往下流。",
+   "interaction": [
+    "drawing-creation",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Render textures"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "GmCZZrV004A",
+    "url": "https://www.youtube.com/watch?v=GmCZZrV004A"
+   },
+   "source_url": "https://github.com/IRCSS/TexturePaint",
+   "code_url": "https://github.com/IRCSS/TexturePaint",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "shahriar-shahrabi--cubism-shader",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "Cubism Shader",
+   "year": 2020,
+   "description": "A 3D scene is broken into Voronoi shards, each showing the view from a slightly different angle, like a Cubist painting in motion.",
+   "description_zh": "三维场景被切成一块块 Voronoi 碎片，每块显示略微不同角度的画面，像一幅会动的立体主义画作。",
+   "idea_en": "Show several viewpoints at once, as Picasso did, but live.",
+   "idea_zh": "像毕加索那样同时呈现多个视角，只不过是实时的。",
+   "technique": "A post-process segments the screen with a Voronoi pattern and, per cell, samples the scene rendered from offset camera transforms, so each shard has its own perspective.",
+   "technique_zh": "后期处理用 Voronoi 图案把画面分块，每个单元从偏移过的相机视角采样场景，因此每块碎片都有自己的透视。",
+   "exercise_en": "Apply the Voronoi cubism pass to the AR camera image on a phone, giving each cell a different delay or zoom. Twist: the cells grow bigger when the room gets louder.",
+   "exercise_zh": "在手机上对 AR 相机画面做 Voronoi 立体主义处理，让每个单元有不同的延迟或缩放。变体：房间越吵，碎片越大。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Voronoi"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "_DwnvbPxZTM",
+    "url": "https://www.youtube.com/watch?v=_DwnvbPxZTM"
+   },
+   "source_url": "https://github.com/IRCSS/Cubism-Shader",
+   "code_url": "https://github.com/IRCSS/Cubism-Shader",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "shahriar-shahrabi--moebius-transformations",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "3D Moebius Transformations",
+   "year": 2020,
+   "description": "A whole 3D scene folds, rotates and turns inside out through a 4D sphere, as if space itself were being twisted.",
+   "description_zh": "整个三维场景经由一个四维球面折叠、旋转、内外翻转，仿佛空间本身被拧动。",
+   "idea_en": "Bend space instead of objects: send the scene to a 4D sphere, rotate it, and bring it back.",
+   "idea_zh": "弯曲的是空间而不是物体：把场景送到四维球面上旋转，再投影回来。",
+   "technique": "In the vertex shader every vertex is mapped by inverse stereographic projection to a 3-sphere in 4D, rotated there, and projected back, producing Moebius transformations of the scene.",
+   "technique_zh": "在顶点着色器里，把每个顶点通过逆球极投影映射到四维中的三维球面，在那里旋转后再投影回来，得到场景的 Möbius 变换。",
+   "exercise_en": "Apply the Moebius vertex shader to a virtual room placed in AR on a phone, so the walls curl around the viewer. Twist: tie the rotation angle to how far the user walks.",
+   "exercise_zh": "在手机 AR 中放一个虚拟房间并套用这个 Möbius 顶点着色器，让墙壁绕着观众卷曲。变体：旋转角度由用户走了多远决定。",
+   "interaction": [
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Vertex shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "81XDjBiuuEI",
+    "url": "https://www.youtube.com/watch?v=81XDjBiuuEI"
+   },
+   "source_url": "https://github.com/IRCSS/3D-Moebius-Transformations-Vertex-shader-in-Unity-3D",
+   "code_url": "https://github.com/IRCSS/3D-Moebius-Transformations-Vertex-shader-in-Unity-3D",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "shahriar-shahrabi--mesh-deformation-quest",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "Mesh Deformation with Compute Shaders on Quest",
+   "year": 2020,
+   "description": "In VR on an Oculus Quest the user pushes into a soft mesh with a controller and it dents and springs back like clay or jelly.",
+   "description_zh": "在 Oculus Quest 的 VR 中，用户用手柄按压一个柔软的网格，它会像黏土或果冻一样凹陷并回弹。",
+   "idea_en": "Make virtual surfaces soft to the touch on standalone mobile hardware.",
+   "idea_zh": "在一体机上让虚拟表面摸起来是软的。",
+   "technique": "A compute shader displaces each vertex away from the controller with a falloff and integrates a spring back to its rest position, running on Android/Quest GPUs.",
+   "technique_zh": "计算着色器按衰减把每个顶点从手柄位置推开，并用弹簧积分让它回到原位，可在 Android/Quest 的 GPU 上运行。",
+   "exercise_en": "Place a deformable blob on a real table in passthrough MR or phone AR and let students poke it with a finger or controller. Twist: the blob remembers every poke and slowly heals.",
+   "exercise_zh": "在透视 MR 或手机 AR 中把一个可变形的团块放在真实桌面上，让学生用手指或手柄戳它。变体：团块记住每一次戳，并慢慢愈合。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader",
+    "Oculus Quest"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "IVy6T5_9r2c",
+    "url": "https://www.youtube.com/watch?v=IVy6T5_9r2c"
+   },
+   "source_url": "https://github.com/IRCSS/Mesh-Deformation-With-Compute-Shader-Oculus-Quest-Unity",
+   "code_url": "https://github.com/IRCSS/Mesh-Deformation-With-Compute-Shader-Oculus-Quest-Unity",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "shahriar-shahrabi--raymarching-unity",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "Raymarching in Unity",
+   "year": 2019,
+   "description": "Smooth distance-field shapes blend into each other inside a Unity scene and cast shadows onto normal meshes.",
+   "description_zh": "距离场定义的光滑形体在 Unity 场景里彼此融合，并把阴影投到普通网格上。",
+   "idea_en": "Mix raymarched shapes with ordinary geometry so both live in one world.",
+   "idea_zh": "把光线步进的形体和普通几何混在一起，让两者处在同一个世界。",
+   "technique": "A shader raymarches signed distance functions with smooth-min blending, writes depth so meshes occlude correctly, and samples Unity's shadow maps on the raymarched volumes.",
+   "technique_zh": "着色器对带 smooth-min 融合的有符号距离函数做光线步进，写入深度让网格正确遮挡，并在步进体上采样 Unity 的阴影贴图。",
+   "exercise_en": "Render a raymarched blob on a real table in phone AR, writing depth so the AR occlusion works. Twist: let the blob melt into the table where it touches it.",
+   "exercise_zh": "在手机 AR 中把一个光线步进的团块放到真实桌面上，并写入深度让遮挡正确。变体：团块碰到桌面的地方会融进去。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Raymarching",
+    "SDF"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "87YvrkrymG0",
+    "url": "https://www.youtube.com/watch?v=87YvrkrymG0"
+   },
+   "source_url": "https://github.com/IRCSS/UnityRaymarching",
+   "code_url": "https://github.com/IRCSS/UnityRaymarching",
+   "vfx_cat": "sdf"
+  },
+  {
+   "id": "shahriar-shahrabi--stencil-portal-halloween",
+   "creator_ids": [
+    "shahriar-shahrabi"
+   ],
+   "title": "Stencil Portal Halloween Scene",
+   "year": 2021,
+   "description": "A small frame shows a spooky Halloween world inside it; as the camera moves, the hidden scene appears only through the portal opening.",
+   "description_zh": "一个小画框里藏着一个阴森的万圣节世界；镜头移动时，隐藏的场景只在传送门开口里出现。",
+   "idea_en": "A doorway can hold a whole world that exists only when you look through it.",
+   "idea_zh": "一扇门里可以装下一个只有透过它才存在的世界。",
+   "technique": "The portal mask writes a value into the stencil buffer, and the hidden scene's shaders only draw where the stencil matches.",
+   "technique_zh": "传送门遮罩向模板缓冲写入一个值，隐藏场景的着色器只在模板值匹配的地方绘制。",
+   "exercise_en": "Anchor a stencil portal to a real door or picture frame with AR Foundation image tracking so a different world appears inside it. Twist: the world behind the portal changes with the time of day.",
+   "exercise_zh": "用 AR Foundation 图像追踪把模板传送门锚定到真实的门或画框上，让里面出现另一个世界。变体：传送门后的世界随一天中的时间变化。",
+   "interaction": [
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Stencil buffer"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "gGeP34_6d2A",
+    "url": "https://www.youtube.com/watch?v=gGeP34_6d2A"
+   },
+   "source_url": "https://github.com/IRCSS/Unity-Stencil-Portal",
+   "code_url": "https://github.com/IRCSS/Unity-Stencil-Portal",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "sebastian-lague--simulating-fluids",
+   "creator_ids": [
+    "sebastian-lague"
+   ],
+   "title": "Coding Adventure: Simulating Fluids",
+   "year": 2023,
+   "description": "Thousands of particles slosh, splash and settle as water in a box, first in 2D then in 3D, reacting to the mouse pushing and pulling them.",
+   "description_zh": "成千上万的粒子在盒子里像水一样晃动、飞溅、沉积，先是二维再到三维，并响应鼠标的推拉。",
+   "idea_en": "Water is just many particles that try to keep a constant density.",
+   "idea_zh": "水不过是许多努力保持密度恒定的粒子。",
+   "technique": "Smoothed Particle Hydrodynamics runs in compute shaders: density and pressure are computed from neighbours found through a spatial hash, and particles are integrated each frame.",
+   "technique_zh": "在计算着色器中运行光滑粒子流体动力学（SPH）：通过空间哈希找到邻居，计算密度和压力，再逐帧积分粒子。",
+   "exercise_en": "Run a small 2D SPH simulation on a phone and place its container on a real table in AR, tilting the water with the phone's gravity sensor. Twist: pour the water out onto the real floor plane.",
+   "exercise_zh": "在手机上运行一个小型二维 SPH 模拟，用 AR 把容器放在真实桌面上，用手机重力传感器让水倾斜。变体：把水倒到真实的地面平面上。",
+   "interaction": [
+    "perception-art",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader",
+    "SPH"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "rSKMYc1CQHE",
+    "url": "https://www.youtube.com/watch?v=rSKMYc1CQHE"
+   },
+   "source_url": "https://github.com/SebLague/Fluid-Sim",
+   "code_url": "https://github.com/SebLague/Fluid-Sim",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "sebastian-lague--ant-and-slime",
+   "creator_ids": [
+    "sebastian-lague"
+   ],
+   "title": "Coding Adventure: Ant and Slime Simulations",
+   "year": 2021,
+   "description": "Millions of agents leave glowing trails and follow each other's scent, forming slime-mould networks that branch, merge and pulse across the screen.",
+   "description_zh": "数以百万计的智能体留下发光的轨迹并追随彼此的气味，形成像黏菌一样不断分叉、汇合、脉动的网络。",
+   "idea_en": "Simple agents that sense and deposit trails grow living networks.",
+   "idea_zh": "只会感知和留下痕迹的简单个体，能长出活的网络。",
+   "technique": "A compute shader moves agents that sample a trail map with three sensors and steer toward the strongest, deposit into the map, and a diffuse-and-decay pass spreads the trails (Physarum model).",
+   "technique_zh": "计算着色器驱动智能体：每个体用三个传感器采样轨迹图并转向最强方向，同时写入轨迹；再用扩散衰减 pass 让轨迹蔓延（Physarum 模型）。",
+   "exercise_en": "Project the slime simulation onto a detected AR floor plane and use the people-occlusion mask as food, so the network grows toward people standing in the room. Twist: the slime avoids anyone who moves too fast.",
+   "exercise_zh": "把黏菌模拟投到 AR 检测到的地面平面上，用人物遮挡蒙版当作食物，让网络朝房间里站着的人生长。变体：黏菌会避开移动太快的人。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "X-iSQQgOd1A",
+    "url": "https://www.youtube.com/watch?v=X-iSQQgOd1A"
+   },
+   "source_url": "https://github.com/SebLague/Slime-Simulation",
+   "code_url": "https://github.com/SebLague/Slime-Simulation",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "sebastian-lague--ray-marching",
+   "creator_ids": [
+    "sebastian-lague"
+   ],
+   "title": "Coding Adventure: Ray Marching",
+   "year": 2019,
+   "description": "Shapes melt into each other, a Mandelbulb fractal unfolds, and objects cut holes into one another, all rendered from distance functions.",
+   "description_zh": "形体彼此融化，Mandelbulb 分形不断展开，物体相互挖洞，全部由距离函数渲染。",
+   "idea_en": "Describe shapes as distance formulas and you get smooth blends and infinite fractals for free.",
+   "idea_zh": "把形状写成距离公式，平滑融合和无限分形就都顺手而来。",
+   "technique": "A compute shader marches rays through signed distance functions, combining primitives with union, subtraction and smooth-min, and renders a Mandelbulb distance estimator.",
+   "technique_zh": "计算着色器沿射线在有符号距离函数中步进，用并集、差集和 smooth-min 组合基本形体，并渲染 Mandelbulb 距离估计。",
+   "exercise_en": "Place a raymarched Mandelbulb hovering above a real table in phone AR and let pinch gestures change its power. Twist: the fractal grows more detailed the closer you walk.",
+   "exercise_zh": "在手机 AR 中让一个光线步进的 Mandelbulb 悬浮在真实桌面上方，用捏合手势改变它的指数。变体：走得越近，分形细节越多。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader",
+    "Raymarching",
+    "SDF"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Cp5WWtMoeKg",
+    "url": "https://www.youtube.com/watch?v=Cp5WWtMoeKg"
+   },
+   "source_url": "https://github.com/SebLague/Ray-Marching",
+   "code_url": "https://github.com/SebLague/Ray-Marching",
+   "vfx_cat": "sdf"
+  },
+  {
+   "id": "sebastian-lague--clouds",
+   "creator_ids": [
+    "sebastian-lague"
+   ],
+   "title": "Coding Adventure: Clouds",
+   "year": 2019,
+   "description": "Soft volumetric clouds drift through the sky and light scatters through them, controlled live from 3D noise settings.",
+   "description_zh": "柔和的体积云在天空中飘动，光线在云中散射，可以实时调整三维噪声参数来控制云。",
+   "idea_en": "Clouds are noise that light travels through.",
+   "idea_zh": "云就是光线穿过的一团噪声。",
+   "technique": "A post-process raymarches a box volume, samples tiled 3D Worley and Perlin noise for density, and accumulates light with Beer's law and a phase function.",
+   "technique_zh": "后期处理在一个盒体内做光线步进，用平铺的三维 Worley 和 Perlin 噪声采样密度，再用 Beer 定律和相位函数累积光照。",
+   "exercise_en": "Fill a room-sized AR box with raymarched clouds on a phone or HoloKit so students walk through them. Twist: the clouds thicken where the room is darkest in the camera image.",
+   "exercise_zh": "在手机或 HoloKit 上用光线步进云填满一个房间大小的 AR 盒子，让学生从云中走过。变体：相机画面里越暗的地方云越浓。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Raymarching",
+    "3D noise"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "4QOcCGI6xOU",
+    "url": "https://www.youtube.com/watch?v=4QOcCGI6xOU"
+   },
+   "source_url": "https://github.com/SebLague/Clouds",
+   "code_url": "https://github.com/SebLague/Clouds",
+   "vfx_cat": "sdf"
+  },
+  {
+   "id": "sebastian-lague--boids",
+   "creator_ids": [
+    "sebastian-lague"
+   ],
+   "title": "Coding Adventure: Boids",
+   "year": 2019,
+   "description": "A flock of birds swirls through space, splitting around obstacles and regrouping, driven only by three local rules.",
+   "description_zh": "一群鸟在空中盘旋，遇到障碍分开再重新聚拢，全部只由三条局部规则驱动。",
+   "idea_en": "Separation, alignment and cohesion are enough to make a flock.",
+   "idea_zh": "分离、对齐、聚合三条规则就足以形成鸟群。",
+   "technique": "Each boid steers by separation, alignment and cohesion with neighbours computed in a compute shader, and avoids obstacles by casting rays along points of a golden-spiral sphere.",
+   "technique_zh": "每只鸟根据计算着色器算出的邻居做分离、对齐、聚合，并沿黄金螺旋球面上的方向发射射线来避开障碍。",
+   "exercise_en": "Release a flock of boids in phone AR that uses the LiDAR mesh as obstacles, so birds fly around real furniture. Twist: the flock is attracted to the phone and scatters when you shake it.",
+   "exercise_zh": "在手机 AR 中放出一群鸟，用 LiDAR 网格作为障碍，让鸟绕着真实家具飞。变体：鸟群会被手机吸引，一摇手机就四散。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "bqtqltqcQhw",
+    "url": "https://www.youtube.com/watch?v=bqtqltqcQhw"
+   },
+   "source_url": "https://github.com/SebLague/Boids",
+   "code_url": "https://github.com/SebLague/Boids",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "sebastian-lague--portals",
+   "creator_ids": [
+    "sebastian-lague"
+   ],
+   "title": "Coding Adventure: Portals",
+   "year": 2020,
+   "description": "The player walks and throws objects through seamless portals that connect distant rooms, seeing through each one without a visible seam.",
+   "description_zh": "玩家穿过无缝的传送门行走、扔东西，门连接远处的房间，透过门看过去毫无破绽。",
+   "idea_en": "A portal is a second camera whose image is pasted exactly where the doorway is.",
+   "idea_zh": "传送门就是第二台相机，把它的画面精确贴在门洞上。",
+   "technique": "Each portal renders a linked camera into a texture using screen-space UVs, applies an oblique near-clip plane, handles recursion and slices objects that are halfway through.",
+   "technique_zh": "每扇门用链接的相机渲染到纹理，并按屏幕空间 UV 贴上；再使用斜近裁剪面、处理递归，并切开正穿过一半的物体。",
+   "exercise_en": "Anchor two portals to two real doors in AR so the view through one shows the room behind the other. Twist: the linked room is a virtual copy of the classroom at night.",
+   "exercise_zh": "在 AR 中把两扇传送门锚在两扇真实的门上，透过一扇看到另一扇门后面的房间。变体：连接的房间是教室夜晚的虚拟副本。",
+   "interaction": [
+    "portal-world",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Render textures"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "cWpFZbjtSQg",
+    "url": "https://www.youtube.com/watch?v=cWpFZbjtSQg"
+   },
+   "source_url": "https://github.com/SebLague/Portals",
+   "code_url": "https://github.com/SebLague/Portals",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "sebastian-lague--marching-cubes",
+   "creator_ids": [
+    "sebastian-lague"
+   ],
+   "title": "Coding Adventure: Marching Cubes",
+   "year": 2019,
+   "description": "An endless cave and planet terrain is generated from 3D noise and turned into smooth meshes that the player can dig into.",
+   "description_zh": "由三维噪声生成的无尽洞穴和星球地形被转成光滑网格，玩家可以往里挖。",
+   "idea_en": "Turn a field of numbers into a surface you can carve.",
+   "idea_zh": "把一片数值场变成可以雕刻的表面。",
+   "technique": "Density values from noise are sampled on a grid in a compute shader, and the marching-cubes lookup table turns each cell into triangles along the iso-surface.",
+   "technique_zh": "在计算着色器中按网格采样噪声密度值，再用 Marching Cubes 查找表把每个单元沿等值面转成三角形。",
+   "exercise_en": "Generate a marching-cubes blob on a real table in phone AR and let students carve it by tapping. Twist: carving adds material somewhere else so the total volume stays the same.",
+   "exercise_zh": "在手机 AR 中于真实桌面上生成一个 Marching Cubes 团块，让学生点击雕刻。变体：挖掉的材料会在别处长出来，总体积不变。",
+   "interaction": [
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "M3iI2l0ltbE",
+    "url": "https://www.youtube.com/watch?v=M3iI2l0ltbE"
+   },
+   "source_url": "https://github.com/SebLague/Marching-Cubes",
+   "code_url": "https://github.com/SebLague/Marching-Cubes",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "sebastian-lague--hydraulic-erosion",
+   "creator_ids": [
+    "sebastian-lague"
+   ],
+   "title": "Coding Adventure: Hydraulic Erosion",
+   "year": 2019,
+   "description": "A rough noise terrain is weathered by hundreds of thousands of raindrops until it shows realistic valleys, ridges and river channels.",
+   "description_zh": "一片粗糙的噪声地形被几十万颗雨滴冲刷，最终出现逼真的山谷、山脊和河道。",
+   "idea_en": "Let simulated rain, not an artist, carve the landscape.",
+   "idea_zh": "让模拟的雨而不是美术来雕刻地貌。",
+   "technique": "Each droplet is simulated as a particle that follows the heightmap gradient, picks up and deposits sediment based on speed and capacity, and evaporates.",
+   "technique_zh": "每颗雨滴被模拟成一个粒子，沿高度图梯度流动，根据速度和携沙量带走或沉积泥沙，并逐渐蒸发。",
+   "exercise_en": "Place a small terrain on a real table in AR and let students 'rain' on it by holding the phone above it until rivers form. Twist: the terrain uses a LiDAR scan of a crumpled paper sheet as its start.",
+   "exercise_zh": "在 AR 中把一小块地形放在真实桌上，学生把手机举在上方就能对它下雨，直到出现河流。变体：用 LiDAR 扫描一张揉皱的纸作为初始地形。",
+   "interaction": [
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "C#",
+    "Compute Shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "eaXk97ujbPQ",
+    "url": "https://www.youtube.com/watch?v=eaXk97ujbPQ"
+   },
+   "source_url": "https://github.com/SebLague/Hydraulic-Erosion",
+   "code_url": "https://github.com/SebLague/Hydraulic-Erosion",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "mirza-beig--post-processing-scan",
+   "creator_ids": [
+    "mirza-beig"
+   ],
+   "title": "Post-Processing Scan",
+   "year": 2022,
+   "description": "A glowing sonar pulse sweeps outward through a scene, lighting up every surface it passes like a 3D scanner.",
+   "description_zh": "一道发光的声呐脉冲从一点向外扫过场景，像三维扫描仪一样照亮它经过的每个表面。",
+   "idea_en": "A single expanding sphere reveals the hidden shape of the world.",
+   "idea_zh": "一个不断扩张的球面就能揭示世界隐藏的形状。",
+   "technique": "A URP post-process reconstructs world position from the depth buffer and draws bands where the distance to the scan origin crosses a moving radius (a spherical SDF).",
+   "technique_zh": "URP 后期处理从深度缓冲重建世界坐标，在到扫描原点的距离跨过移动半径（球形 SDF）的位置画出光带。",
+   "exercise_en": "Run the scan over the AR camera's depth (LiDAR or ARCore depth) so a pulse ripples across the real room from where the user taps. Twist: the pulse speed follows the loudness of a clap.",
+   "exercise_zh": "把扫描效果作用在 AR 相机深度（LiDAR 或 ARCore 深度）上，让脉冲从用户点击的地方掠过真实房间。变体：脉冲速度跟随拍手的响度。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Post-processing"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1809173668456792524",
+    "url": "https://x.com/TheMirzaBeig/status/1809173668456792524"
+   },
+   "source_url": "https://github.com/MirzaBeig/Post-Processing-Scan",
+   "code_url": "https://github.com/MirzaBeig/Post-Processing-Scan",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "mirza-beig--gpu-fog-particles",
+   "creator_ids": [
+    "mirza-beig"
+   ],
+   "title": "GPU Fog Particles",
+   "year": 2021,
+   "description": "Soft atmospheric fog drifts through a scene without any textures, blending smoothly into geometry and fading as the camera moves into it.",
+   "description_zh": "柔和的雾气在场景中飘荡，完全不用贴图，与几何体平滑融合，镜头进入时会逐渐淡去。",
+   "idea_en": "Fog made purely from noise can hug the world without hard edges.",
+   "idea_zh": "纯粹由噪声构成的雾，能贴着世界而没有生硬边缘。",
+   "technique": "Particle quads use a shader that samples animated 3D noise, softens intersections with scene depth, and fades near the camera instead of using sprite textures.",
+   "technique_zh": "粒子面片使用一个着色器：采样动态三维噪声，根据场景深度软化交界处，并在靠近相机时淡出，而不用精灵贴图。",
+   "exercise_en": "Spawn the fog particles on the AR floor plane with depth softening against the AR occlusion depth, so fog pools around real furniture. Twist: the fog parts where people stand.",
+   "exercise_zh": "在 AR 地面平面上生成这些雾粒子，并用 AR 遮挡深度做软化，让雾积聚在真实家具周围。变体：人站的地方雾会散开。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Shader",
+    "Particle System"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1471820398056677376",
+    "url": "https://x.com/TheMirzaBeig/status/1471820398056677376"
+   },
+   "source_url": "https://github.com/MirzaBeig/GPU-Fog-Particles",
+   "code_url": "https://github.com/MirzaBeig/GPU-Fog-Particles",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "mirza-beig--anime-speed-lines",
+   "creator_ids": [
+    "mirza-beig"
+   ],
+   "title": "Anime Speed Lines",
+   "year": 2022,
+   "description": "Manga-style speed lines burst from the screen edges toward the centre, flickering and pulsing as if the viewer were rushing forward.",
+   "description_zh": "漫画式的速度线从画面边缘向中心迸射、闪烁、跳动，仿佛观者正在向前冲。",
+   "idea_en": "Borrow the manga shorthand for speed and surprise as a live camera effect.",
+   "idea_zh": "把漫画表现速度和惊讶的符号变成实时镜头效果。",
+   "technique": "A full-screen post-process generates radial lines procedurally in polar coordinates with animated noise, masking the centre with an adjustable vignette.",
+   "technique_zh": "全屏后期在极坐标下用动态噪声程序化生成放射线，并用可调的暗角遮住中心。",
+   "exercise_en": "Apply the speed lines to a phone's AR camera feed and trigger them when the phone moves fast. Twist: the lines point toward the nearest detected face.",
+   "exercise_zh": "把速度线用在手机 AR 相机画面上，手机快速移动时触发。变体：速度线指向画面中最近的人脸。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Post-processing"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://user-images.githubusercontent.com/37354140/151656459-d99d2d36-06ed-4889-8a10-17cabd1626d8.mp4"
+   },
+   "source_url": "https://github.com/MirzaBeig/Anime-Speed-Lines",
+   "code_url": "https://github.com/MirzaBeig/Anime-Speed-Lines",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "mirza-beig--chromatic-distortion-sphere",
+   "creator_ids": [
+    "mirza-beig"
+   ],
+   "title": "Chromatic Distortion Sphere",
+   "year": 2024,
+   "description": "A floating bubble bends the scene behind it and splits the light into rainbow fringes, wobbling like a soap bubble.",
+   "description_zh": "一个漂浮的气泡扭曲了身后的场景，把光分成彩虹色的边缘，像肥皂泡一样晃动。",
+   "idea_en": "A sphere that refracts the world with a rainbow edge instantly reads as magic.",
+   "idea_zh": "一个带彩虹边缘、折射世界的球，一眼就像魔法。",
+   "technique": "The shader samples the opaque scene texture with offsets along the surface normal, separately for red, green and blue, and adds a Fresnel rim and vertex wobble.",
+   "technique_zh": "着色器沿表面法线偏移采样不透明场景纹理，红绿蓝三个通道分别偏移，再加上菲涅尔边缘光和顶点晃动。",
+   "exercise_en": "Float the chromatic bubble in phone AR so it distorts the real camera image behind it, and let users pop it with a tap. Twist: the bubble follows the user's hand.",
+   "exercise_zh": "在手机 AR 中让色散气泡漂浮起来，扭曲它后面的真实相机画面，用户点击就能戳破它。变体：气泡跟着用户的手走。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Shader Graph"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "IkBZLo4ROU0",
+    "url": "https://www.youtube.com/watch?v=IkBZLo4ROU0"
+   },
+   "source_url": "https://github.com/MirzaBeig/Chromatic-Distortion-Sphere",
+   "code_url": "https://github.com/MirzaBeig/Chromatic-Distortion-Sphere",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "mirza-beig--galaxy-water",
+   "creator_ids": [
+    "mirza-beig"
+   ],
+   "title": "Galaxy Water",
+   "year": 2026,
+   "description": "A liminal platform stands in dark water that reflects a starry galaxy, with sparkling particles drifting above the surface.",
+   "description_zh": "一个空灵的平台立在黑色水面上，水中倒映着星河，闪烁的粒子在水面上漂浮。",
+   "idea_en": "Water that reflects a universe instead of the sky.",
+   "idea_zh": "倒映的是整个宇宙，而不是天空的水。",
+   "technique": "A water shader combines normal-map ripples with a procedural starfield in the reflection, plus particle sparkles, in URP.",
+   "technique_zh": "在 URP 中，水面着色器把法线贴图波纹和反射中的程序化星空结合起来，再叠加闪烁粒子。",
+   "exercise_en": "Turn a real floor into galaxy water in phone AR by placing the shader on the detected plane with people occlusion. Twist: footsteps create ripples of stars.",
+   "exercise_zh": "在手机 AR 中把着色器放在检测到的地面上并开启人物遮挡，让真实地板变成星河之水。变体：脚步会激起星光涟漪。",
+   "interaction": [
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Shader"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2008528798397198550",
+    "url": "https://x.com/TheMirzaBeig/status/2008528798397198550"
+   },
+   "source_url": "https://github.com/MirzaBeig/Galaxy-Water",
+   "code_url": "https://github.com/MirzaBeig/Galaxy-Water",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "mirza-beig--constellation-plexus",
+   "creator_ids": [
+    "mirza-beig"
+   ],
+   "title": "Constellation Plexus Ribbons",
+   "year": 2024,
+   "description": "Glowing ribbons connect drifting particles into constellations that follow the mouse, like star maps being drawn in the air.",
+   "description_zh": "发光的丝带把漂浮的粒子连成星座，并跟随鼠标移动，像在空中画星图。",
+   "idea_en": "Connect nearby points with light and a cloud of dots becomes a constellation.",
+   "idea_zh": "用光把相邻的点连起来，一团点就变成了星座。",
+   "technique": "Unity's particle system emits particles with trails, and a script connects neighbouring particles with ribbon lines whose opacity depends on distance (plexus effect).",
+   "technique_zh": "Unity 粒子系统发射带拖尾的粒子，脚本把相邻粒子用丝带线连接，线的透明度随距离变化（plexus 效果）。",
+   "exercise_en": "Attach the plexus emitter to a tracked hand or the phone in AR so students draw constellations around the room. Twist: each student's constellation links to the others when they stand close.",
+   "exercise_zh": "在 AR 中把 plexus 发射器绑到追踪的手或手机上，让学生在房间里画星座。变体：学生站得近时，各自的星座会互相连起来。",
+   "interaction": [
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Particle System"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1840974568216813609",
+    "url": "https://x.com/TheMirzaBeig/status/1840974568216813609"
+   },
+   "source_url": "https://github.com/MirzaBeig/Constellation-Plexus",
+   "code_url": "https://github.com/MirzaBeig/Constellation-Plexus",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "hecomi--urp-fur-shader",
+   "creator_ids": [
+    "hecomi"
+   ],
+   "title": "UnityFurURP (Shell / Fin Fur Shader)",
+   "year": 2021,
+   "description": "Soft animal fur grows on a model and sways as it moves, rendered in real time with layered shells and fins.",
+   "description_zh": "柔软的动物毛发长在模型表面，随着模型移动而摇曳，用层叠的壳层和鳍片实时渲染。",
+   "idea_en": "Stack many transparent copies of a surface and it turns into fur.",
+   "idea_zh": "把一个表面叠上许多层透明副本，它就变成了毛发。",
+   "technique": "The URP shader extrudes the mesh along its normals into many shell layers (and fin quads at silhouettes), cutting each layer with a noise mask and moving it with gravity and wind.",
+   "technique_zh": "URP 着色器沿法线把网格挤出成多层壳层（并在轮廓处生成鳍片），每层用噪声遮罩裁切，再用重力和风力让它摆动。",
+   "exercise_en": "Grow fur on a real object in AR by applying the shell shader to a LiDAR scan placed over it, so a mug or chair becomes furry on screen. Twist: the fur bristles when someone moves the phone quickly.",
+   "exercise_zh": "在 AR 中把壳层毛发着色器用在覆盖真实物体的 LiDAR 扫描上，让杯子或椅子在屏幕上长出毛。变体：手机快速移动时毛会炸起来。",
+   "interaction": [
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "HLSL"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Hab3dcumtXU",
+    "url": "https://www.youtube.com/watch?v=Hab3dcumtXU"
+   },
+   "source_url": "https://github.com/hecomi/UnityFurURP",
+   "code_url": "https://github.com/hecomi/UnityFurURP",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "hecomi--water-surface-simulation",
+   "creator_ids": [
+    "hecomi"
+   ],
+   "title": "Water Surface Simulation with CustomRenderTexture",
+   "year": 2017,
+   "description": "Objects dropped onto a water plane send out ripples that spread, reflect off the edges and interfere with each other.",
+   "description_zh": "物体掉到水面上激起涟漪，涟漪向外扩散、在边缘反射并彼此干涉。",
+   "idea_en": "A ripple simulation fits in a texture that updates itself every frame.",
+   "idea_zh": "一个涟漪模拟可以装进一张每帧自我更新的纹理里。",
+   "technique": "A CustomRenderTexture runs the 2D wave equation in a shader, reading the previous two frames, adding impulses where objects hit, and feeding the height map into the water shader's normals.",
+   "technique_zh": "CustomRenderTexture 在着色器中求解二维波动方程，读取前两帧、在物体撞击处加入冲量，再把高度图转成水面着色器的法线。",
+   "exercise_en": "Turn a real tabletop into water in phone AR and create ripples wherever a tracked finger or object touches it. Twist: ripples also start when a sound is detected.",
+   "exercise_zh": "在手机 AR 中把真实桌面变成水面，被追踪的手指或物体碰到哪里就激起涟漪。变体：检测到声音时也会起波纹。",
+   "interaction": [
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "CustomRenderTexture",
+    "HLSL"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "jclxfdS3a3w",
+    "url": "https://www.youtube.com/watch?v=jclxfdS3a3w"
+   },
+   "source_url": "https://github.com/hecomi/UnityWaterSurface",
+   "code_url": "https://github.com/hecomi/UnityWaterSurface",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "hecomi--screen-space-collision-particles",
+   "creator_ids": [
+    "hecomi"
+   ],
+   "title": "Screen Space Collision GPU Particles",
+   "year": 2016,
+   "description": "Hundreds of thousands of GPU particles pour over a scene and bounce off every visible surface without any physics colliders.",
+   "description_zh": "几十万个 GPU 粒子倾泻到场景中，在每个可见表面上弹跳，而不需要任何物理碰撞体。",
+   "idea_en": "If you can see a surface, particles can bounce off it: use the depth buffer as the collider.",
+   "idea_zh": "只要看得见一个表面，粒子就能在它上面弹开：把深度缓冲当作碰撞体。",
+   "technique": "Particle positions update in a shader that projects each particle into screen space, compares its depth with the G-buffer depth and normal, and reflects its velocity on contact.",
+   "technique_zh": "粒子位置在着色器中更新：把每个粒子投影到屏幕空间，比较它与 G-buffer 中的深度和法线，接触时反射速度。",
+   "exercise_en": "Use the AR depth texture (LiDAR or ARCore Depth) as the collision surface so virtual snow settles on real furniture. Twist: particles stick and pile up where they land.",
+   "exercise_zh": "用 AR 深度纹理（LiDAR 或 ARCore Depth）作为碰撞表面，让虚拟雪落在真实家具上。变体：粒子落下后会粘住并堆积起来。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Deferred rendering"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "G-4k8Zur7zY",
+    "url": "https://www.youtube.com/watch?v=G-4k8Zur7zY"
+   },
+   "source_url": "https://github.com/hecomi/UnityPseudoInstancedGPUParticles",
+   "code_url": "https://github.com/hecomi/UnityPseudoInstancedGPUParticles",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "hecomi--uraymarching",
+   "creator_ids": [
+    "hecomi"
+   ],
+   "title": "uRaymarching",
+   "year": 2016,
+   "description": "Raymarched distance-field shapes appear in a normal Unity scene with correct lighting, shadows and intersections with ordinary meshes.",
+   "description_zh": "光线步进的距离场形体出现在普通 Unity 场景中，光照、阴影以及与普通网格的穿插都正确。",
+   "idea_en": "Write only a distance function and get a full, lit shader that behaves like any other object.",
+   "idea_zh": "只写一个距离函数，就能得到一个带完整光照、表现得和其他物体一样的着色器。",
+   "technique": "An editor tool generates deferred/forward shaders from a template around a user-written distance function, outputting depth and G-buffer data so raymarched objects are lit and shadowed by Unity.",
+   "technique_zh": "一个编辑器工具把用户写的距离函数套进模板，生成延迟/前向渲染着色器，并输出深度和 G-buffer 数据，让步进物体由 Unity 正常打光和投影。",
+   "exercise_en": "Generate a raymarched sculpture with uRaymarching and place it on a real plinth in phone AR, writing depth for occlusion. Twist: the distance function morphs with the time of day.",
+   "exercise_zh": "用 uRaymarching 生成一个光线步进雕塑，在手机 AR 中放到真实底座上，并写入深度实现遮挡。变体：距离函数随一天中的时间变形。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Raymarching",
+    "SDF"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "AppyVflAagc",
+    "url": "https://www.youtube.com/watch?v=AppyVflAagc"
+   },
+   "source_url": "https://github.com/hecomi/uRaymarching",
+   "code_url": "https://github.com/hecomi/uRaymarching",
+   "vfx_cat": "sdf"
+  },
+  {
+   "id": "hecomi--kinect-depth-gbuffer",
+   "creator_ids": [
+    "hecomi"
+   ],
+   "title": "Kinect V2 Depth into the G-Buffer",
+   "year": 2016,
+   "description": "A live Kinect depth image becomes solid, lit geometry in a Unity scene, receiving virtual lights and shadows like any other object.",
+   "description_zh": "实时的 Kinect 深度图在 Unity 场景中变成实体、可被照亮的几何，像其他物体一样接受虚拟光照和阴影。",
+   "idea_en": "Treat the depth camera image as part of the renderer, not as a texture.",
+   "idea_zh": "把深度相机画面当作渲染器的一部分，而不是一张贴图。",
+   "technique": "A shader writes the Kinect V2 depth and reconstructed normals directly into Unity's deferred G-buffer, so the real person is lit by Unity lights.",
+   "technique_zh": "着色器把 Kinect V2 的深度和重建的法线直接写入 Unity 延迟渲染的 G-buffer，让真实的人被 Unity 的灯光照亮。",
+   "exercise_en": "Do the same with the LiDAR depth on an iPhone: write it into the depth buffer and relight the real room with a moving virtual lamp. Twist: the virtual light casts coloured shadows of real people.",
+   "exercise_zh": "在 iPhone 上用 LiDAR 深度做同样的事：写入深度缓冲，用一盏移动的虚拟灯重新照亮真实房间。变体：虚拟灯让真人投下彩色影子。",
+   "interaction": [
+    "hand-body",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Kinect V2",
+    "Deferred rendering"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Nl3lxlz0qME",
+    "url": "https://www.youtube.com/watch?v=Nl3lxlz0qME"
+   },
+   "source_url": "https://github.com/hecomi/UnityKinectV2DeferredRendering",
+   "code_url": "https://github.com/hecomi/UnityKinectV2DeferredRendering",
+   "vfx_cat": "pointcloud"
+  },
+  {
+   "id": "hironori-sugino--projection-spray",
+   "creator_ids": [
+    "hironori-sugino"
+   ],
+   "title": "Projection Spray (VR Spray Drawing)",
+   "year": 2017,
+   "description": "In VR the user sprays paint from a virtual can; colour lands on the surfaces of 3D objects exactly where the spray cone hits them.",
+   "description_zh": "在 VR 中，用户用虚拟喷罐喷漆，颜色精确地落在喷雾锥碰到的三维物体表面上。",
+   "idea_en": "A spray can is just a projector that writes into the texture of whatever it hits.",
+   "idea_zh": "喷漆罐其实就是一台投影仪，把颜色写进它照到的物体的贴图里。",
+   "technique": "The spray is modelled as a projector: a depth map from the can's view tests visibility, and each object's UV-space texture is updated where the projection hits.",
+   "technique_zh": "喷漆被建模成一台投影仪：从喷罐视角渲染深度图判断可见性，再在投影命中的地方更新每个物体 UV 空间的贴图。",
+   "exercise_en": "Spray-paint a LiDAR scan of the classroom in AR using the phone as the can, with the paint projected from the phone's pose. Twist: each student's paint colour is picked from the real object they point at.",
+   "exercise_zh": "在 AR 中把手机当作喷罐，从手机位姿投射颜料，给教室的 LiDAR 扫描喷漆。变体：每位学生的颜色取自他们指着的真实物体。",
+   "interaction": [
+    "drawing-creation",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "SteamVR"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "TTv6YPWNLxY",
+    "url": "https://www.youtube.com/watch?v=TTv6YPWNLxY"
+   },
+   "source_url": "https://github.com/sugi-cho/ProjectionSpray",
+   "code_url": "https://github.com/sugi-cho/ProjectionSpray",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "hironori-sugino--screen-space-particle-collision",
+   "creator_ids": [
+    "hironori-sugino"
+   ],
+   "title": "Screen Space Particle Collision",
+   "year": 2016,
+   "description": "A fountain of GPU particles lands on a 3D scene and slides and bounces over its surfaces, computed entirely on the GPU.",
+   "description_zh": "一股 GPU 粒子喷泉落到三维场景上，在表面上滑动、弹跳，全部在 GPU 上计算。",
+   "idea_en": "Use what the camera sees as the physics world for particles.",
+   "idea_zh": "把相机看到的东西当成粒子的物理世界。",
+   "technique": "A GPU particle system reads the camera's depth and normal buffers, detects when a particle passes behind a visible surface, and reflects its velocity along the surface normal.",
+   "technique_zh": "GPU 粒子系统读取相机的深度和法线缓冲，检测粒子何时穿到可见表面后面，并沿表面法线反射其速度。",
+   "exercise_en": "Feed the AR camera's depth into the particle shader so glitter pours from the ceiling and bounces off real people and tables. Twist: the particles take their colour from the camera pixel where they bounce.",
+   "exercise_zh": "把 AR 相机深度输入粒子着色器，让亮片从天花板洒下，在真实的人和桌子上弹开。变体：粒子在弹开处取相机像素的颜色。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "GPU particles"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "E81EVRG0SlU",
+    "url": "https://www.youtube.com/watch?v=E81EVRG0SlU"
+   },
+   "source_url": "https://github.com/sugi-cho/Unity-GPU-Particle",
+   "code_url": "https://github.com/sugi-cho/Unity-GPU-Particle",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "hironori-sugino--depth-camera-voxel-particles",
+   "creator_ids": [
+    "hironori-sugino"
+   ],
+   "title": "Depth Camera Voxel Particles",
+   "year": 2018,
+   "description": "A person captured by a RealSense depth camera is rebuilt as a cloud of glowing voxel cubes that move with them and scatter.",
+   "description_zh": "RealSense 深度相机拍到的人被重建成一团发光的体素方块，随人移动并四散。",
+   "idea_en": "Rebuild a live body from cubes that can break away.",
+   "idea_zh": "用可以散开的方块实时重建一个身体。",
+   "technique": "Depth frames from an Intel RealSense are converted to 3D points in Unity, and instanced cubes are placed on a voxel grid at those points, with GPU animation for scattering (likely the same pipeline used for his VJ Voxel Depth VR set).",
+   "technique_zh": "把 Intel RealSense 的深度帧在 Unity 中转成三维点，在这些点上按体素网格放置实例化方块，并用 GPU 动画让它们散开（很可能与他的 VJ Voxel Depth VR 演出使用同一流程）。",
+   "exercise_en": "Turn LiDAR depth from an iPhone into voxel cubes in AR so a classmate standing in front becomes a block sculpture. Twist: blocks fall to the real floor when the person stops moving.",
+   "exercise_zh": "把 iPhone LiDAR 深度转成 AR 中的体素方块，让站在前面的同学变成方块雕塑。变体：人停下不动时，方块会掉到真实地板上。",
+   "interaction": [
+    "hand-body",
+    "performance-stage"
+   ],
+   "platform": [
+    "desktop",
+    "projection"
+   ],
+   "tech": [
+    "Unity",
+    "Intel RealSense",
+    "GPU instancing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "r6qXq082iH4",
+    "url": "https://www.youtube.com/watch?v=r6qXq082iH4"
+   },
+   "source_url": "https://github.com/sugi-cho/RealSenseVisualize",
+   "code_url": "https://github.com/sugi-cho/RealSenseVisualize",
+   "vfx_cat": "pointcloud"
+  },
+  {
+   "id": "yuma-yanagisawa--raindrops-shader",
+   "creator_ids": [
+    "yuma-yanagisawa"
+   ],
+   "title": "Raindrops Shader",
+   "year": 2017,
+   "description": "Raindrops run down a pane of glass in front of a city scene, each drop refracting and blurring the view behind it.",
+   "description_zh": "雨滴沿着城市景色前的玻璃流下，每一滴都折射并模糊了后面的景象。",
+   "idea_en": "A rainy window can be drawn entirely in one shader.",
+   "idea_zh": "一扇下雨的窗户可以完全用一个着色器画出来。",
+   "technique": "A fragment shader, ported from a Shadertoy approach, generates drop and trail masks procedurally in grid cells and uses them to offset and blur the sampled background.",
+   "technique_zh": "片元着色器（借鉴 Shadertoy 的做法）在网格单元中程序化生成雨滴和水痕遮罩，用它们偏移并模糊背景采样。",
+   "exercise_en": "Apply the raindrop shader to the phone's AR camera feed so the real world looks like it is behind a rainy window. Twist: wiping the screen clears the drops for a moment.",
+   "exercise_zh": "把雨滴着色器用在手机 AR 相机画面上，让真实世界看起来在一扇下雨的窗后。变体：用手指擦屏幕能暂时擦掉雨滴。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "dQSLjsDAzw0",
+    "url": "https://www.youtube.com/watch?v=dQSLjsDAzw0"
+   },
+   "source_url": "https://github.com/yumayanagisawa/Unity-Raindrops",
+   "code_url": "https://github.com/yumayanagisawa/Unity-Raindrops",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "yuma-yanagisawa--water-ripple",
+   "creator_ids": [
+    "yuma-yanagisawa"
+   ],
+   "title": "Wave Propagation Shader (Water Ripple)",
+   "year": 2017,
+   "description": "Touching the surface sends circular ripples across an image, which bend the picture as the waves travel and fade.",
+   "description_zh": "触碰画面会激起圆形涟漪，波纹传播、衰减时会扭曲整幅画面。",
+   "idea_en": "Turn any image into a pond.",
+   "idea_zh": "把任何一幅图像变成一池水。",
+   "technique": "A multi-pass shader stores wave height in ping-pong render textures, solves the wave equation each frame, and uses the height gradient to refract the image.",
+   "technique_zh": "多 pass 着色器把波高存在乒乓渲染纹理中，每帧求解波动方程，再用高度梯度折射图像。",
+   "exercise_en": "Put the ripple shader on the camera feed in AR and trigger ripples where people's feet are detected. Twist: ripples only appear on the floor plane, not on walls.",
+   "exercise_zh": "在 AR 中把涟漪着色器加在相机画面上，在检测到人脚的地方激起涟漪。变体：涟漪只出现在地面平面上，墙上没有。",
+   "interaction": [
+    "perception-art",
+    "hand-body"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Render textures"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "rK5AAb-1pgE",
+    "url": "https://www.youtube.com/watch?v=rK5AAb-1pgE"
+   },
+   "source_url": "https://github.com/yumayanagisawa/Unity-Wave-Propagation-Water-Ripple",
+   "code_url": "https://github.com/yumayanagisawa/Unity-Wave-Propagation-Water-Ripple",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "yuma-yanagisawa--metaballs",
+   "creator_ids": [
+    "yuma-yanagisawa"
+   ],
+   "title": "Metaballs",
+   "year": 2019,
+   "description": "Glossy liquid blobs float, merge and split apart like drops of mercury.",
+   "description_zh": "光亮的液体团块漂浮、融合又分开，像一滴滴水银。",
+   "idea_en": "Blobs that merge smoothly feel alive.",
+   "idea_zh": "能平滑融合的团块看起来是活的。",
+   "technique": "Metaballs are raymarched as a smooth-min union of sphere distance functions and shaded with environment reflections.",
+   "technique_zh": "用若干球体距离函数的 smooth-min 并集做光线步进渲染出 metaball，再用环境反射着色。",
+   "exercise_en": "Float metaballs above a real table in AR and let each student's tracked hand be one of the balls. Twist: blobs reflect the real room using the AR environment probe.",
+   "exercise_zh": "在 AR 中让 metaball 漂浮在真实桌面上方，每位学生被追踪的手就是其中一个球。变体：用 AR 环境探针让团块反射真实房间。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "HLSL",
+    "Raymarching"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "kuLUqNNlN4g",
+    "url": "https://www.youtube.com/watch?v=kuLUqNNlN4g"
+   },
+   "source_url": "https://github.com/yumayanagisawa/Unity-Metaballs",
+   "code_url": "https://github.com/yumayanagisawa/Unity-Metaballs",
+   "vfx_cat": "sdf"
+  },
+  {
+   "id": "yuma-yanagisawa--demographics-of-israel",
+   "creator_ids": [
+    "yuma-yanagisawa"
+   ],
+   "title": "Demographics of Israel: Data Sculpture",
+   "year": 2018,
+   "description": "Four clouds of coloured particles swell and shrink over the years, each sized by the population share of one religious group, projected at Safra Square in Jerusalem.",
+   "description_zh": "四团彩色粒子随年份膨胀和收缩，每团的大小对应一个宗教群体的人口比例，作品投影在耶路撒冷的 Safra 广场上。",
+   "idea_en": "Let a dataset set the size of a living particle sculpture instead of drawing a chart.",
+   "idea_zh": "不画图表，而是让数据决定一座活的粒子雕塑的大小。",
+   "technique": "Four VFX Graph systems spawn particles inside spheres whose radii are driven by yearly population percentages, with turbulence for motion.",
+   "technique_zh": "四个 VFX Graph 系统在球体内生成粒子，球体半径由每年的人口比例驱动，再加湍流让粒子运动。",
+   "exercise_en": "Turn a class survey into a particle sculpture placed in the school yard with AR Foundation, one cloud per answer. Twist: the clouds update live as new answers come in.",
+   "exercise_zh": "把一次班级问卷做成粒子雕塑，用 AR Foundation 放在校园里，每个答案一团粒子。变体：新答案进来时粒子团实时更新。",
+   "interaction": [
+    "data-information",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "qop7sk6H4GA",
+    "url": "https://www.youtube.com/watch?v=qop7sk6H4GA"
+   },
+   "source_url": "https://github.com/yumayanagisawa/Unity-Visual-Effects-Graph-Practice",
+   "code_url": "https://github.com/yumayanagisawa/Unity-Visual-Effects-Graph-Practice",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "yuma-yanagisawa--point-cloud-garden",
+   "creator_ids": [
+    "yuma-yanagisawa"
+   ],
+   "title": "Point Cloud Garden",
+   "year": 2020,
+   "description": "A scanned garden appears as millions of coloured points that drift, dissolve and reform as the camera glides through it.",
+   "description_zh": "一座扫描的花园以数百万个彩色点呈现，镜头穿过时这些点漂移、消散又重组。",
+   "idea_en": "A scanned place becomes a living material when its points can move.",
+   "idea_zh": "当扫描得到的点能够移动，一个地方就成了活的材料。",
+   "technique": "A PLY point cloud is baked into position and colour maps (following Keijiro's Pcx) and fed to VFX Graph, which spawns a particle per texel and animates it with noise in HDRP.",
+   "technique_zh": "按照 Keijiro 的 Pcx 做法，把 PLY 点云烘焙成位置和颜色贴图并输入 VFX Graph，每个纹素生成一个粒子，在 HDRP 中用噪声驱动动画。",
+   "exercise_en": "Scan a corner of the campus with a LiDAR phone, bake it into point maps, and replay it as a dissolving point cloud in the same spot with AR Foundation. Twist: the points drift away in the wind direction of the day.",
+   "exercise_zh": "用 LiDAR 手机扫描校园一角，烘焙成点云贴图，再用 AR Foundation 在原地把它作为会消散的点云重放。变体：点按当天的风向飘散。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph",
+    "HDRP",
+    "Pcx"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "J6QHswn6Zdg",
+    "url": "https://www.youtube.com/watch?v=J6QHswn6Zdg"
+   },
+   "source_url": "https://github.com/yumayanagisawa/Unity-Point-Cloud-VFX-Graph",
+   "code_url": "https://github.com/yumayanagisawa/Unity-Point-Cloud-VFX-Graph",
+   "vfx_cat": "pointcloud"
+  },
+  {
+   "id": "kodai-takao--position-based-fluid",
+   "creator_ids": [
+    "kodai-takao"
+   ],
+   "title": "Position Based Fluid",
+   "year": 2017,
+   "description": "A block of water collapses and sloshes inside a box, simulated with tens of thousands of particles in real time.",
+   "description_zh": "一块水在盒子里坍塌、晃荡，由几万个粒子实时模拟。",
+   "idea_en": "Fluids stay stable if you correct positions instead of forces.",
+   "idea_zh": "修正位置而不是力，流体模拟就能保持稳定。",
+   "technique": "Position Based Fluids is solved in Unity compute shaders: particles are sorted into a grid for neighbour search and iteratively projected to satisfy a density constraint.",
+   "technique_zh": "在 Unity 计算着色器里求解 Position Based Fluids：粒子排序进网格做邻居搜索，并迭代投影以满足密度约束。",
+   "exercise_en": "Run a small PBF simulation in a virtual glass on a real table in phone AR, tilting it with the phone's gyroscope. Twist: tapping the table sends a shock wave through the water.",
+   "exercise_zh": "在手机 AR 中把一个小型 PBF 模拟放进真实桌面上的虚拟玻璃杯，用陀螺仪让它倾斜。变体：拍桌子会让水里产生冲击波。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "N-XVl2Jip3M",
+    "url": "https://www.youtube.com/watch?v=N-XVl2Jip3M"
+   },
+   "source_url": "https://github.com/kodai100/Unity_PositionBasedFluid",
+   "code_url": "https://github.com/kodai100/Unity_PositionBasedFluid",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "kodai-takao--flip-fluid",
+   "creator_ids": [
+    "kodai-takao"
+   ],
+   "title": "Unity FLIP Fluid",
+   "year": 2017,
+   "description": "Splashing liquid is simulated with a hybrid of particles and a grid, keeping fine splashes while staying stable.",
+   "description_zh": "用粒子和网格混合的方法模拟飞溅的液体，既保留细小水花又保持稳定。",
+   "idea_en": "Combine particles and grids to get detailed yet stable water.",
+   "idea_zh": "把粒子和网格结合起来，得到细节丰富又稳定的水。",
+   "technique": "The FLIP method transfers particle velocities to a MAC grid, solves pressure there, and transfers the velocity change back to the particles (implemented on the GPU in Unity).",
+   "technique_zh": "FLIP 方法把粒子速度转移到 MAC 网格上求解压力，再把速度变化转回粒子（在 Unity 中用 GPU 实现）。",
+   "exercise_en": "Place a FLIP water tank in AR and let students pour virtual water from one real cup-shaped marker into another. Twist: the water changes colour when the two streams mix.",
+   "exercise_zh": "在 AR 中放一个 FLIP 水箱，让学生把虚拟水从一个真实杯状标记倒进另一个。变体：两股水混合时会变色。",
+   "interaction": [
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "JRTQ6Kgi_Wk",
+    "url": "https://www.youtube.com/watch?v=JRTQ6Kgi_Wk"
+   },
+   "source_url": "https://github.com/kodai100/Unity_FLIPFluid",
+   "code_url": "https://github.com/kodai100/Unity_FLIPFluid",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "kodai-takao--gpu-flocking-urp",
+   "creator_ids": [
+    "kodai-takao"
+   ],
+   "title": "GPU Instanced Flocking on URP",
+   "year": 2021,
+   "description": "Thousands of fish-like agents school and swirl together in real time in the Universal Render Pipeline.",
+   "description_zh": "成千上万条像鱼一样的个体在通用渲染管线中实时成群游动、盘旋。",
+   "idea_en": "A school of thousands only needs local rules and the GPU.",
+   "idea_zh": "上千条鱼的鱼群只需要局部规则和 GPU。",
+   "technique": "Boids rules are evaluated in a compute shader and the agents are drawn with GPU instancing (DrawMeshInstancedIndirect) in URP.",
+   "technique_zh": "在计算着色器中计算鸟群规则，再在 URP 中用 GPU 实例化（DrawMeshInstancedIndirect）绘制个体。",
+   "exercise_en": "Release a school of fish in phone AR that swims around the room and flees from the camera. Twist: the fish follow the loudest sound source in the room.",
+   "exercise_zh": "在手机 AR 中放出一群鱼，在房间里游动并躲避镜头。变体：鱼会游向房间里最响的声源。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Compute Shader",
+    "GPU instancing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FXcFn8QM8dk",
+    "url": "https://www.youtube.com/watch?v=FXcFn8QM8dk"
+   },
+   "source_url": "https://github.com/kodai100/Unity_BoidsSimulationOnURP",
+   "code_url": "https://github.com/kodai100/Unity_BoidsSimulationOnURP",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "kodai-takao--gpu-2d-wave",
+   "creator_ids": [
+    "kodai-takao"
+   ],
+   "title": "GPU Accelerated 2D Wave Simulation",
+   "year": 2017,
+   "description": "Waves spread from points of impact over a surface, bouncing off walls and interfering into complex patterns.",
+   "description_zh": "波从撞击点向外扩散，碰到边界反弹，相互干涉形成复杂的图案。",
+   "idea_en": "A few lines of physics on the GPU turn a surface into a living membrane.",
+   "idea_zh": "GPU 上几行物理代码就能把一个表面变成活的薄膜。",
+   "technique": "The 2D wave equation is integrated with finite differences in a compute shader over a height grid, and the grid drives a displaced mesh.",
+   "technique_zh": "在计算着色器中用有限差分对高度网格积分二维波动方程，再用网格驱动顶点位移。",
+   "exercise_en": "Lay the wave membrane over a real table in AR and trigger waves where students' fingers touch the screen. Twist: add walls by placing real books on the table, detected as obstacles.",
+   "exercise_zh": "在 AR 中把波动薄膜铺在真实桌面上，学生手指点击屏幕的地方产生波。变体：把真实的书放在桌上作为障碍物，被检测为边界。",
+   "interaction": [
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XqwTrwWG-_4",
+    "url": "https://www.youtube.com/watch?v=XqwTrwWG-_4"
+   },
+   "source_url": "https://github.com/kodai100/Unity_Waves",
+   "code_url": "https://github.com/kodai100/Unity_Waves",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "fuqunaga--gpu-trail",
+   "creator_ids": [
+    "fuqunaga"
+   ],
+   "title": "GpuTrail: 100,000 Trails",
+   "year": 2017,
+   "description": "One hundred thousand glowing trails stream through space at once, each following its own particle.",
+   "description_zh": "十万条发光的拖尾同时在空间中流动，每条跟随一个粒子。",
+   "idea_en": "Trails, usually expensive, can be fully GPU-driven at massive scale.",
+   "idea_zh": "原本昂贵的拖尾可以完全交给 GPU，做到极大规模。",
+   "technique": "Trail node positions are stored in compute buffers and updated per frame in a compute shader, then drawn as camera-facing strips with frustum culling and LOD.",
+   "technique_zh": "拖尾节点位置存在 compute buffer 中，每帧由计算着色器更新，再以面向相机的条带绘制，并做视锥剔除和 LOD。",
+   "exercise_en": "Attach GPU trails to tracked hands or the phone in AR so movement leaves a long trace of light around the room. Twist: trails of different students attract each other.",
+   "exercise_zh": "在 AR 中把 GPU 拖尾绑到追踪的手或手机上，移动时在房间里留下长长的光迹。变体：不同学生的光迹会互相吸引。",
+   "interaction": [
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "sS2MYj6LceY",
+    "url": "https://www.youtube.com/watch?v=sS2MYj6LceY"
+   },
+   "source_url": "https://github.com/fuqunaga/GpuTrail",
+   "code_url": "https://github.com/fuqunaga/GpuTrail",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "fuqunaga--gpu-life-game",
+   "creator_ids": [
+    "fuqunaga"
+   ],
+   "title": "Conway's Game of Life on the GPU",
+   "year": 2017,
+   "description": "A huge Game of Life grid evolves in real time, with gliders and patterns rippling across the screen.",
+   "description_zh": "一个巨大的生命游戏网格实时演化，滑翔机和各种图案在画面上涌动。",
+   "idea_en": "Four rules on a grid produce endless emergent life.",
+   "idea_zh": "网格上的四条规则就能生出无穷的涌现生命。",
+   "technique": "Each cell's state is updated in parallel in a compute shader from its eight neighbours and rendered as a texture.",
+   "technique_zh": "在计算着色器中根据八个邻居并行更新每个单元的状态，并渲染成纹理。",
+   "exercise_en": "Map a Game of Life grid onto a real wall in AR and seed live cells where the camera sees dark pixels. Twist: the simulation speed follows the room's noise level.",
+   "exercise_zh": "在 AR 中把生命游戏网格贴到真实墙面上，在相机看到暗像素的地方播种活细胞。变体：模拟速度跟随房间噪音大小。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Compute Shader"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Oxo22vWgzKc",
+    "url": "https://www.youtube.com/watch?v=Oxo22vWgzKc"
+   },
+   "source_url": "https://github.com/fuqunaga/GpuLifeGame",
+   "code_url": "https://github.com/fuqunaga/GpuLifeGame",
+   "vfx_cat": "procedural"
+  },
+  {
+   "id": "fuqunaga--vfx-graph-runtime-pcache",
+   "creator_ids": [
+    "fuqunaga"
+   ],
+   "title": "VFXGraphSandbox: Runtime Point Cache",
+   "year": 2019,
+   "description": "A character model is turned into particles at runtime: VFX Graph samples its surface every frame, so the particle body follows the animation.",
+   "description_zh": "角色模型在运行时被转成粒子：VFX Graph 每帧采样它的表面，粒子身体跟随动画一起运动。",
+   "idea_en": "Generate the point cache live instead of baking it, so any animated mesh can become particles.",
+   "idea_zh": "现场生成点缓存而不是预先烘焙，让任何动画网格都能变成粒子。",
+   "technique": "A script samples points on the skinned mesh each frame and writes them into textures bound to VFX Graph as a runtime point cache; a second hack reads vertex animation textures (VAT).",
+   "technique_zh": "脚本每帧在蒙皮网格上采样点，写入纹理并作为运行时点缓存绑定到 VFX Graph；另一个实验读取顶点动画贴图（VAT）。",
+   "exercise_en": "Sample the AR body-tracking skeleton mesh at runtime and emit VFX Graph particles from it, so a classmate dissolves into particles on the phone. Twist: the particles stay behind where the person was a second ago.",
+   "exercise_zh": "在运行时采样 AR 人体追踪的骨骼网格，并从上面发射 VFX Graph 粒子，让手机里的同学溶解成粒子。变体：粒子留在一秒前人所在的位置。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1209023053016924161",
+    "url": "https://x.com/fuqunaga/status/1209023053016924161"
+   },
+   "source_url": "https://github.com/fuqunaga/VFXGraphSandbox",
+   "code_url": "https://github.com/fuqunaga/VFXGraphSandbox",
+   "vfx_cat": "pointcloud"
+  },
+  {
+   "id": "fuqunaga--portal-gate",
+   "creator_ids": [
+    "fuqunaga"
+   ],
+   "title": "PortalGate",
+   "year": 2018,
+   "description": "A functional clone of Valve's Portal: the player shoots two portals on walls and walks or drops objects through them seamlessly.",
+   "description_zh": "对 Valve《Portal》的可玩复刻：玩家在墙上打出两个传送门，人和物体都能无缝穿过。",
+   "idea_en": "Two linked holes in walls rewrite how space connects.",
+   "idea_zh": "墙上两个相连的洞，改写了空间的连接方式。",
+   "technique": "Each portal renders a linked camera view into a texture on the opening, and objects crossing the plane are cloned and teleported with their velocity rotated.",
+   "technique_zh": "每个传送门把链接相机的视图渲染到开口的纹理上，穿过平面的物体被复制并传送，速度方向随之旋转。",
+   "exercise_en": "Place two portals on real walls in AR so a ball rolled into one comes out of the other. Twist: the second portal is in a different classmate's phone.",
+   "exercise_zh": "在 AR 中把两个传送门放在真实墙上，滚进一个的球会从另一个出来。变体：第二个传送门在另一位同学的手机里。",
+   "interaction": [
+    "portal-world",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Render textures"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "jzud9m-NgnA",
+    "url": "https://www.youtube.com/watch?v=jzud9m-NgnA"
+   },
+   "source_url": "https://github.com/fuqunaga/PortalGate",
+   "code_url": "https://github.com/fuqunaga/PortalGate",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "andrei-iurin--volfx",
+   "creator_ids": [
+    "andrei-iurin"
+   ],
+   "title": "VolFx",
+   "year": 2024,
+   "description": "Scenes flip between dreamy, glitchy and painterly looks: blur, colour maps, flow and dithering are layered only onto chosen objects while the rest stays untouched.",
+   "description_zh": "画面在梦幻、故障、绘画等风格之间切换：模糊、色彩映射、流动和抖动只叠加在选定的物体上，其余部分保持不变。",
+   "idea_en": "Post-processing does not have to apply to the whole screen; it can be a brush for chosen layers.",
+   "idea_zh": "后期处理不必作用于整个画面，它可以是只刷在选定图层上的画笔。",
+   "technique": "A URP renderer feature renders selected layers into their own buffers and runs a stack of custom full-screen passes (blur, flow, colour map, dither) on them before compositing.",
+   "technique_zh": "URP 渲染器特性把选定图层渲染到独立缓冲中，对它们执行一组自定义全屏 pass（模糊、流动、色彩映射、抖动），再合成回画面。",
+   "exercise_en": "Use layer-selective post effects in phone AR so only the virtual creature is painted in watercolour while the camera feed stays real. Twist: switch the style when the creature is touched.",
+   "exercise_zh": "在手机 AR 中使用按图层的后期效果，只把虚拟生物画成水彩，相机画面保持真实。变体：触摸生物时切换风格。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Render Feature"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "0Byz2CEw-y8",
+    "url": "https://www.youtube.com/watch?v=0Byz2CEw-y8"
+   },
+   "source_url": "https://github.com/NullTale/VolFx",
+   "code_url": "https://github.com/NullTale/VolFx",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "andrei-iurin--gilight2d-bad-apple",
+   "creator_ids": [
+    "andrei-iurin"
+   ],
+   "title": "GiLight2D: Bad Apple!! in 2D Ray Tracing",
+   "year": 2023,
+   "description": "The Bad Apple!! silhouette animation is relit with 2D ray-traced global illumination, so every shape glows, casts soft shadows and bounces light.",
+   "description_zh": "《Bad Apple!!》的剪影动画被二维光线追踪全局光照重新打光，每个形体都发光、投下柔和阴影并反射光线。",
+   "idea_en": "Treat every bright pixel as a light and let rays find the shadows.",
+   "idea_zh": "把每个亮像素都当作光源，让光线自己找到阴影。",
+   "technique": "A URP render feature builds a distance field with jump flooding and casts many rays per pixel through it to gather emissive light, producing 2D global illumination.",
+   "technique_zh": "URP 渲染器特性用 jump flooding 构建距离场，再在其中为每个像素发射多条射线收集自发光，得到二维全局光照。",
+   "exercise_en": "Run 2D GI on a top-down AR floor projection so glowing virtual objects cast soft light around students' real shadows. Twist: students' silhouettes from the people-occlusion mask become the light blockers.",
+   "exercise_zh": "在俯视的 AR 地面投影上运行二维全局光照，让发光的虚拟物体在学生真实影子周围投下柔光。变体：用人物遮挡蒙版中的学生剪影作为挡光物。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Jump flooding",
+    "2D ray tracing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "fNq0HUg6L8o",
+    "url": "https://www.youtube.com/watch?v=fNq0HUg6L8o"
+   },
+   "source_url": "https://github.com/NullTale/GiLight2D",
+   "code_url": "https://github.com/NullTale/GiLight2D",
+   "vfx_cat": "screen"
+  },
+  {
+   "id": "unity-vfx-graph-team--spaceship-demo",
+   "creator_ids": [
+    "unity-vfx-graph-team"
+   ],
+   "title": "Spaceship Demo",
+   "year": 2018,
+   "description": "A first-person walk through a sci-fi spaceship full of sparks, holographic tables, smoke and a glowing reactor core, all made with VFX Graph.",
+   "description_zh": "以第一人称走过一艘科幻飞船：火花、全息桌、烟雾和发光的反应堆核心，全部由 VFX Graph 制作。",
+   "idea_en": "Show everything a GPU particle graph can do inside one playable space.",
+   "idea_zh": "在一个可玩的空间里展示 GPU 粒子图能做的一切。",
+   "technique": "HDRP scenes use VFX Graph systems with GPU simulation, signed distance field collisions, point caches and lit particles, triggered through Timeline and gameplay events.",
+   "technique_zh": "HDRP 场景中使用 VFX Graph 系统，包括 GPU 模拟、有符号距离场碰撞、点缓存和受光粒子，并通过 Timeline 和游戏事件触发。",
+   "exercise_en": "Pick one effect from the Spaceship Demo (the holo-table pin screen) and rebuild it at tabletop scale in phone AR over a real desk. Twist: the pin screen shows the LiDAR depth of the room.",
+   "exercise_zh": "从 Spaceship Demo 中挑一个效果（全息桌针屏），在手机 AR 中按桌面尺度在真实书桌上重建。变体：让针屏显示房间的 LiDAR 深度。",
+   "interaction": [
+    "perception-art",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph",
+    "HDRP"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "rqMcPZoEc3U",
+    "url": "https://www.youtube.com/watch?v=rqMcPZoEc3U"
+   },
+   "source_url": "https://github.com/Unity-Technologies/SpaceshipDemo",
+   "code_url": "https://github.com/Unity-Technologies/SpaceshipDemo",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "unity-vfx-graph-team--smoke-portal-sample",
+   "creator_ids": [
+    "unity-vfx-graph-team"
+   ],
+   "title": "VFX Graph Smoke Portal Sample",
+   "year": 2023,
+   "description": "A swirling ring of lit smoke and embers forms a portal, with the smoke catching light from the fire and the scene around it.",
+   "description_zh": "一圈被照亮的烟雾和火星旋转成一个传送门，烟雾接收来自火焰和周围场景的光照。",
+   "idea_en": "Smoke that is lit like real smoke makes a portal feel physical.",
+   "idea_zh": "像真实烟雾一样受光的烟，让传送门显得有实体感。",
+   "technique": "Flipbook smoke particles use six-way lighting (baked light maps from six directions) so they respond to scene lights, combined with VFX Graph spawning along a ring and distortion.",
+   "technique_zh": "翻页动画烟雾粒子使用六向光照（从六个方向烘焙的光照图），因此能响应场景灯光；再结合 VFX Graph 沿圆环生成粒子和扭曲效果。",
+   "exercise_en": "Place the smoke portal on a real doorway with AR Foundation and light it with AR light estimation so the smoke matches the room. Twist: the portal only opens when two people stand on either side.",
+   "exercise_zh": "用 AR Foundation 把烟雾传送门放在真实门框上，并用 AR 光照估计照亮它，让烟与房间一致。变体：只有两人站在门两侧时传送门才打开。",
+   "interaction": [
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph",
+    "HDRP",
+    "Six-way lighting"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "57cKxN3XdEY",
+    "url": "https://www.youtube.com/watch?v=57cKxN3XdEY"
+   },
+   "source_url": "https://github.com/Unity-Technologies/VisualEffectGraph-Samples",
+   "code_url": "https://github.com/Unity-Technologies/VisualEffectGraph-Samples",
+   "vfx_cat": "sim"
+  },
+  {
+   "id": "unity-vfx-graph-team--mesh-to-sdf",
+   "creator_ids": [
+    "unity-vfx-graph-team"
+   ],
+   "title": "Mesh-to-SDF",
+   "year": 2022,
+   "description": "An animated character is wrapped in a live signed distance field, so particles and smoke flow around and cling to its moving body.",
+   "description_zh": "一个动画角色被包裹在实时的有符号距离场中，粒子和烟雾绕着它移动的身体流动并贴附其上。",
+   "idea_en": "Give a moving body a distance field every frame and effects can feel its shape.",
+   "idea_zh": "每帧给运动的身体生成距离场，特效就能感知它的形状。",
+   "technique": "A compute-shader generator splats the skinned mesh into a 3D texture and flood-fills distances every frame (Unity Demo Team), which VFX Graph samples for collision and attraction.",
+   "technique_zh": "Unity 演示团队的计算着色器生成器每帧把蒙皮网格写入三维纹理并填充距离，VFX Graph 再采样它来做碰撞和吸附。",
+   "exercise_en": "Generate an SDF from the AR body-tracking mesh and let VFX Graph smoke wrap around a classmate on the phone screen. Twist: the smoke is repelled by one hand and attracted by the other.",
+   "exercise_zh": "从 AR 人体追踪网格生成 SDF，让 VFX Graph 烟雾在手机屏幕上包裹一位同学。变体：一只手排斥烟雾，另一只手吸引烟雾。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph",
+    "Compute Shader",
+    "SDF"
+   ],
+   "video": {
+    "platform": "mp4",
+    "url": "https://user-images.githubusercontent.com/6276154/201238758-cc87ec4a-a65a-4cb2-b3cc-123576ab9ea2.mov"
+   },
+   "source_url": "https://github.com/Unity-Technologies/com.unity.demoteam.mesh-to-sdf",
+   "code_url": "https://github.com/Unity-Technologies/com.unity.demoteam.mesh-to-sdf",
+   "vfx_cat": "sdf"
+  },
+  {
+   "id": "dilmer-valecillos--vfx-sun-two-million-particles",
+   "creator_ids": [
+    "dilmer-valecillos"
+   ],
+   "title": "VFX Graph Sun with 2 Million Particles",
+   "year": 2019,
+   "description": "A burning sun made of two million particles churns and flares in real time, built step by step in VFX Graph.",
+   "description_zh": "一颗由两百万个粒子构成的燃烧太阳在实时翻涌、喷发，在 VFX Graph 中一步步搭建而成。",
+   "idea_en": "Millions of tiny points are enough to build a star.",
+   "idea_zh": "数百万个小点就足以造出一颗恒星。",
+   "technique": "VFX Graph spawns particles on a sphere and moves them with turbulence and conform-to-sphere forces, colouring them by lifetime with an HDR gradient.",
+   "technique_zh": "VFX Graph 在球面上生成粒子，用湍流和 conform-to-sphere 力推动它们，并按生命周期用 HDR 渐变着色。",
+   "exercise_en": "Put the particle sun on a real table in phone AR and scale it with a pinch. Twist: planets made of fewer particles orbit around the user's head.",
+   "exercise_zh": "在手机 AR 中把粒子太阳放到真实桌面上，用捏合手势缩放。变体：由更少粒子组成的行星绕着用户的头旋转。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph",
+    "HDRP"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "f1BHXqeokSE",
+    "url": "https://www.youtube.com/watch?v=f1BHXqeokSE"
+   },
+   "source_url": "https://github.com/dilmerv/UnityVFXMillionsOfParticles",
+   "code_url": "https://github.com/dilmerv/UnityVFXMillionsOfParticles",
+   "vfx_cat": "particles"
+  },
+  {
+   "id": "dilmer-valecillos--ar-body-tracking-particles",
+   "creator_ids": [
+    "dilmer-valecillos"
+   ],
+   "title": "AR Body Tracking with Head and Hand Particles",
+   "year": 2019,
+   "description": "On an iPhone, a person's tracked head and hands emit fire and particle effects that follow them as they move in the real room.",
+   "description_zh": "在 iPhone 上，被追踪的人的头和手会喷出火焰和粒子，随着他们在真实房间中移动而跟随。",
+   "idea_en": "Give real people superpowers by attaching effects to their tracked joints.",
+   "idea_zh": "把特效绑在人体追踪关节上，让真实的人拥有超能力。",
+   "technique": "AR Foundation's ARKit 3 human body tracking provides joint transforms, and particle emitters are parented to the head and hand joints each frame.",
+   "technique_zh": "AR Foundation 的 ARKit 3 人体追踪提供关节变换，每帧把粒子发射器挂到头部和手部关节上。",
+   "exercise_en": "Attach VFX Graph emitters to AR body-tracking joints and design a superpower for each classmate. Twist: the effect grows stronger the faster the joint moves.",
+   "exercise_zh": "把 VFX Graph 发射器绑到 AR 人体追踪关节上，为每位同学设计一种超能力。变体：关节移动越快，效果越强。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Unity",
+    "AR Foundation",
+    "ARKit"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "jxvBrfuyusU",
+    "url": "https://www.youtube.com/watch?v=jxvBrfuyusU"
+   },
+   "source_url": "https://github.com/dilmerv/UnityARFoundationEssentials",
+   "code_url": "https://github.com/dilmerv/UnityARFoundationEssentials",
+   "vfx_cat": "body"
+  },
+  {
+   "id": "dilmer-valecillos--quest-hand-tracking-vfx",
+   "creator_ids": [
+    "dilmer-valecillos"
+   ],
+   "title": "Hand-Tracked Forces on VFX Particles (Quest)",
+   "year": 2020,
+   "description": "In VR on an Oculus Quest, the user's bare hands push, pull and scatter a cloud of VFX Graph particles.",
+   "description_zh": "在 Oculus Quest 的 VR 中，用户用裸手推、拉、打散一团 VFX Graph 粒子。",
+   "idea_en": "Your hands become force fields for particles.",
+   "idea_zh": "双手变成粒子的力场。",
+   "technique": "Oculus hand-tracking bone positions are passed to VFX Graph as exposed properties and used as attractors and colliders, rendered with URP on Quest.",
+   "technique_zh": "把 Oculus 手部追踪的骨骼位置作为暴露属性传给 VFX Graph，用作吸引点和碰撞体，并在 Quest 上用 URP 渲染。",
+   "exercise_en": "Bring the hand-force particles into passthrough MR on Quest 3 or HoloKit so students sculpt a particle cloud floating over a real table. Twist: two people's hands tear the cloud in opposite directions.",
+   "exercise_zh": "把手势力场粒子带到 Quest 3 透视 MR 或 HoloKit 中，让学生雕塑一团漂浮在真实桌子上方的粒子云。变体：两人的手从相反方向把粒子云撕开。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph",
+    "URP",
+    "Oculus Quest"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "EyMF2Wo1awo",
+    "url": "https://www.youtube.com/watch?v=EyMF2Wo1awo"
+   },
+   "source_url": "https://github.com/dilmerv/OculusQuestHandTrackingPhysicsURP",
+   "code_url": "https://github.com/dilmerv/OculusQuestHandTrackingPhysicsURP",
+   "vfx_cat": "body"
+  },
+  {
+   "id": "daniel-ilett--impossible-geometry",
+   "creator_ids": [
+    "daniel-ilett"
+   ],
+   "title": "Impossible Geometry with Stencil Shaders",
+   "year": 2022,
+   "description": "A cube shows a different world on each face, and a corridor leads to rooms that could not fit inside it, like in the game Antichamber.",
+   "description_zh": "一个立方体的每个面都显示不同的世界，一条走廊通向放不进它里面的房间，就像游戏《Antichamber》。",
+   "idea_en": "Space can be bigger on the inside if each window only shows its own world.",
+   "idea_zh": "如果每扇窗只显示自己的世界，空间里面可以比外面大。",
+   "technique": "Each window writes a unique stencil reference, and each hidden world's materials render only where their stencil value matches, in URP.",
+   "technique_zh": "在 URP 中，每扇窗写入唯一的模板参考值，每个隐藏世界的材质只在模板值匹配的地方渲染。",
+   "exercise_en": "Anchor a stencil cube to an image marker in AR so each face shows a different miniature world. Twist: rotating the real marker changes which world is on top.",
+   "exercise_zh": "在 AR 中把模板立方体锚定到一个图像标记上，每个面显示一个不同的微缩世界。变体：转动真实标记会改变哪个世界在上面。",
+   "interaction": [
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Stencil buffer"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "EzM8LGzMjmc",
+    "url": "https://www.youtube.com/watch?v=EzM8LGzMjmc"
+   },
+   "source_url": "https://github.com/daniel-ilett/shaders-impossible-geom",
+   "code_url": "https://github.com/daniel-ilett/shaders-impossible-geom",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "daniel-ilett--portals-urp",
+   "creator_ids": [
+    "daniel-ilett"
+   ],
+   "title": "Fully Functional Portals in URP",
+   "year": 2021,
+   "description": "The player walks through seamless portals between rooms, seeing the connected space through each opening in real time.",
+   "description_zh": "玩家在房间之间穿过无缝传送门，透过每个开口实时看到相连的空间。",
+   "idea_en": "Recreate the magic of Portal with render textures in a modern pipeline.",
+   "idea_zh": "在现代渲染管线中用渲染纹理重现《Portal》的魔法。",
+   "technique": "Linked portal cameras render into textures sampled in screen space on the portal surface, with oblique clipping and teleport logic, adapted for URP.",
+   "technique_zh": "链接的传送门相机渲染到纹理，在门面上按屏幕空间采样，配合斜裁剪和传送逻辑，适配 URP。",
+   "exercise_en": "Build an AR doorway that shows a virtual copy of another room, and let students step through it to swap worlds. Twist: the other side shows the same room one hour earlier (a recorded scan).",
+   "exercise_zh": "做一个 AR 门框，显示另一个房间的虚拟副本，学生穿过去就交换世界。变体：另一边是同一个房间一小时前的样子（录制的扫描）。",
+   "interaction": [
+    "portal-world",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "URP",
+    "Render textures"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PkGjYig8avo",
+    "url": "https://www.youtube.com/watch?v=PkGjYig8avo"
+   },
+   "source_url": "https://github.com/daniel-ilett/portals-urp",
+   "code_url": "https://github.com/daniel-ilett/portals-urp",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "noisecrime--portal-room-cubes",
+   "creator_ids": [
+    "noisecrime"
+   ],
+   "title": "Portal Room Cubes via Stencil Buffer",
+   "year": 2013,
+   "description": "A small cube holds a different room behind each face; walking around it reveals several full-size spaces packed into one box.",
+   "description_zh": "一个小立方体的每个面后面都藏着不同的房间；绕着它走一圈，会看到好几个完整空间塞在一个盒子里。",
+   "idea_en": "Several rooms can share the same space if each is only visible through its own face.",
+   "idea_zh": "如果每个房间只能透过自己那一面看到，几个房间就能共享同一个空间。",
+   "technique": "Each cube face writes its own stencil value, and each room's shaders test that value so the rooms render only through their faces.",
+   "technique_zh": "立方体的每个面写入自己的模板值，每个房间的着色器检测该值，因此房间只透过对应的面渲染。",
+   "exercise_en": "Place a stencil room cube on a real desk in phone AR and let students design one room per face. Twist: the rooms connect so a ball rolling out of one face enters the next.",
+   "exercise_zh": "在手机 AR 中把模板房间立方体放在真实书桌上，让学生每人设计一个面的房间。变体：房间是相通的，从一个面滚出的球会进入下一个面。",
+   "interaction": [
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Stencil buffer"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "5DKIP9N-OB4",
+    "url": "https://www.youtube.com/watch?v=5DKIP9N-OB4"
+   },
+   "source_url": "https://github.com/noisecrime/Unity-StencilPortalRoomCube",
+   "code_url": "https://github.com/noisecrime/Unity-StencilPortalRoomCube",
+   "vfx_cat": "surface"
+  },
+  {
+   "id": "kaito-tsutsumi--generative-vfx-bitwig",
+   "creator_ids": [
+    "kaito-tsutsumi"
+   ],
+   "title": "Generative VFX Music Video (Bitwig x Unity)",
+   "year": 2022,
+   "description": "A generative music video where particles, lines and colours change by chance and react to the spectrum of generative music made in Bitwig Studio.",
+   "description_zh": "一支生成式音乐视频：粒子、线条和颜色随机变化，并响应 Bitwig Studio 生成的音乐频谱。",
+   "idea_en": "Let probability, not a timeline, direct both the music and the visuals.",
+   "idea_zh": "让概率而不是时间线同时导演音乐和画面。",
+   "technique": "Bitwig's Note Grid generates notes by probability, while Unity VFX Graph particle behaviour switches randomly and is driven by the audio spectrum of the track.",
+   "technique_zh": "Bitwig 的 Note Grid 按概率生成音符，Unity 的 VFX Graph 粒子行为随机切换，并由曲目的音频频谱驱动。",
+   "exercise_en": "Drive an AR particle sculpture on a phone from live microphone spectrum and random state changes, placed in the classroom. Twist: each student's clap chooses the next random scene.",
+   "exercise_zh": "在手机上用实时麦克风频谱和随机状态切换驱动一座 AR 粒子雕塑，放在教室里。变体：每位学生拍手决定下一个随机场景。",
+   "interaction": [
+    "voice-sound",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph",
+    "Bitwig Studio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "gARJwIS5VGc",
+    "url": "https://www.youtube.com/watch?v=gARJwIS5VGc"
+   },
+   "source_url": "https://github.com/drumath2237/Generative-VFX-Bitwig-Sandbox",
+   "code_url": "https://github.com/drumath2237/Generative-VFX-Bitwig-Sandbox",
+   "vfx_cat": "audio"
+  },
+  {
+   "id": "kaito-tsutsumi--kinfu-sdf-vfx",
+   "creator_ids": [
+    "kaito-tsutsumi"
+   ],
+   "title": "KinFuSDFVFX",
+   "year": 2021,
+   "description": "A real room scanned with Azure Kinect becomes a distance field that VFX Graph particles crawl over and cling to.",
+   "description_zh": "用 Azure Kinect 扫描的真实房间变成一个距离场，VFX Graph 粒子在上面爬行、贴附。",
+   "idea_en": "Scan a real space once and give particles its shape to hold on to.",
+   "idea_zh": "把真实空间扫描一次，让粒子能够贴住它的形状。",
+   "technique": "Kinect Fusion scans are converted in Houdini into a signed distance field volume, which VFX Graph samples to conform particles to the scanned surfaces in HDRP.",
+   "technique_zh": "把 Kinect Fusion 的扫描在 Houdini 中转成有符号距离场体积，VFX Graph 在 HDRP 中采样它，让粒子贴合扫描表面。",
+   "exercise_en": "Scan a classroom object with a LiDAR phone, bake it into an SDF, and let AR particles crawl over the real object in place. Twist: the particles flee from the phone's flashlight.",
+   "exercise_zh": "用 LiDAR 手机扫描一件教室里的物体，烘焙成 SDF，让 AR 粒子在原位的真实物体上爬行。变体：粒子会躲开手机手电筒的光。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph",
+    "Azure Kinect",
+    "Houdini"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ApPVp6Z3cgE",
+    "url": "https://www.youtube.com/watch?v=ApPVp6Z3cgE"
+   },
+   "source_url": "https://github.com/drumath2237/KinFuSDFVFX",
+   "code_url": "https://github.com/drumath2237/KinFuSDFVFX",
+   "vfx_cat": "pointcloud"
+  },
+  {
+   "id": "jelle-vermandere--4d-raymarching",
+   "creator_ids": [
+    "jelle-vermandere"
+   ],
+   "title": "4D Explorer (4D Raymarching)",
+   "year": 2020,
+   "description": "The player moves through a world where objects slide in and out of a fourth dimension, growing, shrinking and vanishing as the 3D slice shifts.",
+   "description_zh": "玩家在一个物体会滑入滑出第四维的世界中移动；随着三维切片移动，物体变大、变小或消失。",
+   "idea_en": "See a 4D world by walking through its 3D slices.",
+   "idea_zh": "通过在三维切片中行走来看见一个四维世界。",
+   "technique": "Signed distance functions are defined in four dimensions and raymarched in a 3D slice whose W coordinate the player controls, with 4D rotations applied to the objects.",
+   "technique_zh": "在四维中定义有符号距离函数，并在一个由玩家控制 W 坐标的三维切片里做光线步进，对物体施加四维旋转。",
+   "exercise_en": "Place a 4D object on a real table in phone AR and map the fourth coordinate to the phone's height above the floor. Twist: two students at different heights see different shapes at the same spot.",
+   "exercise_zh": "在手机 AR 中把一个四维物体放在真实桌上，把第四维坐标映射到手机离地面的高度。变体：站在不同高度的两位学生在同一位置看到不同的形状。",
+   "interaction": [
+    "perception-art",
+    "game-play"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "Raymarching",
+    "SDF"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nUExziADzjc",
+    "url": "https://www.youtube.com/watch?v=nUExziADzjc"
+   },
+   "source_url": "https://github.com/Jellevermandere/4D-Raymarching",
+   "code_url": "https://github.com/Jellevermandere/4D-Raymarching",
+   "vfx_cat": "sdf"
+  },
+  {
+   "id": "adrian-ciborro-montes--mocap-vfx",
+   "creator_ids": [
+    "adrian-ciborro-montes"
+   ],
+   "title": "MoCap VFX",
+   "year": 2022,
+   "description": "A person filmed by a normal webcam is tracked as a 3D skeleton, and glowing VFX Graph particles stream from their moving limbs.",
+   "description_zh": "普通摄像头拍到的人被追踪为三维骨架，发光的 VFX Graph 粒子从他们移动的四肢中涌出。",
+   "idea_en": "No mocap suit: a neural network turns a webcam into a particle body.",
+   "idea_zh": "不需要动捕服：神经网络把一个摄像头变成粒子身体。",
+   "technique": "A 3D pose-estimation network (ThreeDPoseUnityBarracuda) runs in Unity Barracuda to drive an avatar, whose skinned mesh emits VFX Graph particles.",
+   "technique_zh": "三维姿态估计网络（ThreeDPoseUnityBarracuda）在 Unity Barracuda 中运行并驱动一个角色，角色的蒙皮网格发射 VFX Graph 粒子。",
+   "exercise_en": "Run a pose model (Sentis or MediaPipe) on the phone camera in AR and emit particles from the tracked joints of a dancing classmate. Twist: the particle colour follows the music's tempo.",
+   "exercise_zh": "在 AR 中对手机相机运行姿态模型（Sentis 或 MediaPipe），从跳舞同学被追踪的关节发射粒子。变体：粒子颜色随音乐节奏变化。",
+   "interaction": [
+    "hand-body",
+    "performance-stage"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "Unity",
+    "VFX Graph",
+    "Barracuda"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "z2Kst0t0PBA",
+    "url": "https://www.youtube.com/watch?v=z2Kst0t0PBA"
+   },
+   "source_url": "https://github.com/adcimon/mocap-vfx",
+   "code_url": "https://github.com/adcimon/mocap-vfx",
+   "vfx_cat": "ml"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Marek Simonik (Record3D)",
+   "why": "Record3D app author; open Unity VFX Graph demos stream iPhone LiDAR/TrueDepth point clouds live into VFX Graph (no own demo video found).",
+   "link": "https://github.com/marek-simonik/record3d_unity_demo",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  },
+  {
+   "name": "Dan Miller",
+   "why": "Unity AR evangelist; open ARFoundation_VFX and ARBodyTrackingVFX repos (AR Foundation + VFX Graph); videos likely on X @DanMillerDev.",
+   "link": "https://github.com/DanMillerDev/ARFoundation_VFX",
+   "found_via": "dilmer-valecillos",
+   "status": "open"
+  },
+  {
+   "name": "Saki Komikado (komietty)",
+   "why": "Geometry programmer; open Unity moxi ink painting, CIP fluid, bitonic-sort SPH and vector-field repos; videos likely on X.",
+   "link": "https://github.com/komietty",
+   "found_via": "kodai-takao",
+   "status": "open"
+  },
+  {
+   "name": "Masatatsu Nakamura (mattatz)",
+   "why": "Open Unity CellularGrowth, Dendrite, voxelizer, procedural tree/flower and volume rendering repos; demo videos mostly GIF/X.",
+   "link": "https://github.com/mattatz",
+   "found_via": "hironori-sugino",
+   "status": "open"
+  },
+  {
+   "name": "Cyanilux",
+   "why": "Shader Graph artist with open URP repos (retro CRT, watercolour, custom lighting); showcase videos on X.",
+   "link": "https://github.com/Cyanilux",
+   "found_via": "daniel-ilett",
+   "status": "open"
+  },
+  {
+   "name": "Roel Kok",
+   "why": "Kinect-VFX-Graph (213 stars): Kinect depth feed into Unity VFX Graph; needs a playable video.",
+   "link": "https://github.com/roelkok/Kinect-VFX-Graph",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  },
+  {
+   "name": "Codrin-Mihail (Kodrin)",
+   "why": "Open VFX-Essentials HDRP workshop and GPU-FlowField compute-shader particle repos.",
+   "link": "https://github.com/Kodrin",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  },
+  {
+   "name": "Angela He (zephyo)",
+   "why": "2D-Unity-Experiments (279 stars): URP/Shader Graph visual experiments; videos likely on X @zephybite.",
+   "link": "https://github.com/zephyo/2D-Unity-Experiments",
+   "found_via": "keijiro-takahashi",
+   "status": "open"
+  }
+ ]
+}

@@ -30,6 +30,7 @@ Read `data/SCHEMA.md` first. It defines the JSON format, the interaction vocabul
      - `technique`: one sentence naming the key technique and how it works; mark guesses with "likely".
      - `exercise_*`: a 1–3 hour classroom exercise that re-creates the core idea with accessible tools (phone, WebXR, Lens Studio, AR Foundation, HoloKit, a cheap projector), starting with a verb, ending with a twist ("Twist: …" / "变体：……").
      - English fields contain no Chinese; Chinese fields are natural Simplified Chinese. Keep proper nouns in the original.
+     - **Related Art** (not AR, but inspires AR: land art, light, projection, fireworks, illusions, installations, stage, VR): set `related_cat` (one id from `data/related_categories.json`); the idea should say what an AR designer learns from it, and the exercise translates it into AR.
      - **Visual effects** (real-time VFX Graph / shader / simulation work, e.g. the Unity VFX community): set `vfx_cat` (one id from `data/vfx_categories.json`) to put the work in the Visual Effects column, and `code_url` to its repository whenever source code is public (strongly preferred). The exercise should say how to bring the effect into AR. A GitHub README video (`https://github.com/user-attachments/assets/…`, recorded as `"platform": "mp4"`) is an acceptable fallback when there is no YouTube/Vimeo/X video.
    - `leads`: new people discovered through this creator (`status: "open"`), so the snowball can continue.
 

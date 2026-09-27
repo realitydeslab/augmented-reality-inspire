@@ -2,7 +2,7 @@
 
 > A catalog of the most creative augmented-reality creators, from the first pioneers to today, and their AR works, compiled by Reality Design Lab as idea material for teaching. Each work lists its video, core idea, key technique and a classroom exercise.
 
-399 creators, 1826 works (12 visual effects, 10 with source code), updated 2026-09-27. Bilingual (English / Simplified Chinese).
+414 creators, 2021 works (207 visual effects, 205 with source code), updated 2026-09-27. Bilingual (English / Simplified Chinese).
 
 ## Full catalog
 
