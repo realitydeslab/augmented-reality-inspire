@@ -16,18 +16,74 @@
   "batch": "add-zhuoyue-lyu"
  },
  {
+  "name": "Decart AI",
+  "why": "Real-time video-to-video model behind several AR restyling demos (Decart XR, Spectacles style transfer); check for their own AR demos.",
+  "link": "https://x.com/DecartAI",
+  "found_via": "roberto-coviello",
+  "status": "open",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Johannes Tscharn",
+  "why": "Uses Snap Spectacles as the interface for robotics and physical AI (point at the ground to send a robot).",
+  "link": "https://x.com/alessiograncini/status/2084687066223300860",
+  "found_via": "alessio-grancini",
+  "status": "open",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Mitchell Kuppersmith",
+  "why": "Specs design engineer who built Agent Center for Spectacles.",
+  "link": "https://www.youtube.com/watch?v=U0cA-bVxLgM",
+  "found_via": "snap-inc",
+  "status": "open",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "aulerius",
+  "why": "Early (2024) real-time Stable Diffusion AR filter prototype.",
+  "link": "https://x.com/aulerius2/status/1753098914973282345",
+  "found_via": "hugues-bruyere",
+  "status": "open",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Harrison Forsyth",
+  "why": "Local object detection on Quest 3 with Unity Sentis (small demo, overlaps QuestCameraKit).",
+  "link": "https://www.youtube.com/watch?v=ENAPv_PnKms",
+  "found_via": "roberto-coviello",
+  "status": "open",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Valem Tutorials (Quentin Valembois)",
+  "why": "Unity Sentis + Quest camera access tutorial; tutorial rather than a work.",
+  "link": "https://www.youtube.com/watch?v=V14cYfLa8Rc",
+  "found_via": "roberto-coviello",
+  "status": "open",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Rokid AI Glasses",
+  "why": "Glasses with Gemini/ChatGPT assistants; only product and review videos found.",
+  "link": "https://www.youtube.com/watch?v=Kv2nz8SePuE",
+  "found_via": "even-realities",
+  "status": "open",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Yongxiang Cai, Yincheng Jin et al. — SignGlass",
+  "why": "First-person ASL translation on wearable glasses (UIST 2025); only a conference talk and a 22-second preview found",
+  "link": "https://www.youtube.com/watch?v=_eg7TXAW7gU",
+  "found_via": "seed",
+  "status": "open",
+  "batch": "ai-research"
+ },
+ {
   "name": "Ramesh Raskar",
   "why": "MIT Media Lab (Camera Culture) professor and projector-AR pioneer (Shader Lamps, iLamps, RFIG Lamps with Johnny Lee); RFIG video exists at youtube.com/watch?v=MURwa1lWDsY.",
   "link": "https://www.media.mit.edu/people/raskar/overview/",
   "found_via": "johnny-chung-lee",
-  "status": "open",
-  "batch": "r5-coders"
- },
- {
-  "name": "Karen X Cheng",
-  "why": "Director and creative technologist known for viral camera, AR and AI video tricks; co-made the Spectacles 3 butterfly film with Clara Bacou.",
-  "link": "https://x.com/karenxcheng",
-  "found_via": "clara-bacou",
   "status": "open",
   "batch": "r5-coders"
  },
@@ -504,22 +560,6 @@
   "batch": "related-sky-light"
  },
  {
-  "name": "Marek Simonik (Record3D)",
-  "why": "Record3D app author; open Unity VFX Graph demos stream iPhone LiDAR/TrueDepth point clouds live into VFX Graph (no own demo video found).",
-  "link": "https://github.com/marek-simonik/record3d_unity_demo",
-  "found_via": "keijiro-takahashi",
-  "status": "open",
-  "batch": "vfx-community"
- },
- {
-  "name": "Dan Miller",
-  "why": "Unity AR evangelist; open ARFoundation_VFX and ARBodyTrackingVFX repos (AR Foundation + VFX Graph); videos likely on X @DanMillerDev.",
-  "link": "https://github.com/DanMillerDev/ARFoundation_VFX",
-  "found_via": "dilmer-valecillos",
-  "status": "open",
-  "batch": "vfx-community"
- },
- {
   "name": "Saki Komikado (komietty)",
   "why": "Geometry programmer; open Unity moxi ink painting, CIP fluid, bitonic-sort SPH and vector-field repos; videos likely on X.",
   "link": "https://github.com/komietty",
@@ -528,41 +568,9 @@
   "batch": "vfx-community"
  },
  {
-  "name": "Masatatsu Nakamura (mattatz)",
-  "why": "Open Unity CellularGrowth, Dendrite, voxelizer, procedural tree/flower and volume rendering repos; demo videos mostly GIF/X.",
-  "link": "https://github.com/mattatz",
-  "found_via": "hironori-sugino",
-  "status": "open",
-  "batch": "vfx-community"
- },
- {
-  "name": "Cyanilux",
-  "why": "Shader Graph artist with open URP repos (retro CRT, watercolour, custom lighting); showcase videos on X.",
-  "link": "https://github.com/Cyanilux",
-  "found_via": "daniel-ilett",
-  "status": "open",
-  "batch": "vfx-community"
- },
- {
   "name": "Roel Kok",
   "why": "Kinect-VFX-Graph (213 stars): Kinect depth feed into Unity VFX Graph; needs a playable video.",
   "link": "https://github.com/roelkok/Kinect-VFX-Graph",
-  "found_via": "keijiro-takahashi",
-  "status": "open",
-  "batch": "vfx-community"
- },
- {
-  "name": "Codrin-Mihail (Kodrin)",
-  "why": "Open VFX-Essentials HDRP workshop and GPU-FlowField compute-shader particle repos.",
-  "link": "https://github.com/Kodrin",
-  "found_via": "keijiro-takahashi",
-  "status": "open",
-  "batch": "vfx-community"
- },
- {
-  "name": "Angela He (zephyo)",
-  "why": "2D-Unity-Experiments (279 stars): URP/Shader Graph visual experiments; videos likely on X @zephybite.",
-  "link": "https://github.com/zephyo/2D-Unity-Experiments",
   "found_via": "keijiro-takahashi",
   "status": "open",
   "batch": "vfx-community"
@@ -584,52 +592,44 @@
   "batch": "vfx-keijiro-old"
  },
  {
-  "name": "AMAGI (fand)",
-  "why": "Web graphics artist behind vfx-js and VEDA live-coding tools; active in the same Tokyo live-coding scene.",
-  "link": "https://github.com/fand",
-  "found_via": "keijiro-takahashi",
+  "name": "Minions Art",
+  "why": "Influential interactive snow/grass/liquid shader tutorials with YouTube videos, but the code is shared on Patreon, not in a public repository.",
+  "link": "https://www.youtube.com/@MinionsArt",
+  "found_via": "daniel-ilett",
   "status": "open",
-  "batch": "vfx-keijiro-old"
+  "batch": "vfx-round2-leads"
  },
  {
-  "name": "kaiware007",
-  "why": "Unity VJ shader developer (reaction-diffusion, hex tiling, VJ shader talks) with public repos.",
-  "link": "https://github.com/kaiware007",
-  "found_via": "keijiro-takahashi",
+  "name": "FluvioFX (Fluvio / Thinksquirrel; demo uploaded by Greg Poole)",
+  "why": "fluviofx (702 stars): SPH fluid dynamics inside Unity VFX Graph; a playable demo exists (youtube K5Dzxn9ztiQ) but the author/studio identity needs confirming before adding a creator record.",
+  "link": "https://github.com/fluviofx/fluviofx",
+  "found_via": "seed",
   "status": "open",
-  "batch": "vfx-keijiro-old"
+  "batch": "vfx-round2-leads"
  },
  {
-  "name": "Koki Ibukuro (asus4)",
-  "why": "Unity AR developer (ARKitStreamer, ARFoundationReplay, tf-lite-unity-sample); WorldEnsemble plays music in the geospatial AR world, with source.",
-  "link": "https://github.com/asus4",
-  "found_via": "tasuku-takahashi",
+  "name": "Erik Roystan Ross (IronWarrior)",
+  "why": "Roystan.net shader tutorials with open Unity repos (outline, toon, geometry grass, toon water, ~800–940 stars each); showcase media mostly GIFs, needs a playable video.",
+  "link": "https://github.com/IronWarrior",
+  "found_via": "seed",
   "status": "open",
-  "batch": "vfx-x"
+  "batch": "vfx-round2-leads"
  },
  {
-  "name": "Jason Tsorlinis",
-  "why": "BoidsUnity: GPU boids in Unity compute shaders (~100 stars), shown on X with video.",
-  "link": "https://github.com/jtsorlinis/BoidsUnity",
-  "found_via": "rngtm",
+  "name": "Victor Meunier (MrEliptik)",
+  "why": "Godot developer whose godot_experiments (1k stars) and shader_experiments repos pair with YouTube/X clips of 2D, 3D and VR effects.",
+  "link": "https://github.com/MrEliptik/godot_experiments",
+  "found_via": "seed",
   "status": "open",
-  "batch": "vfx-x"
+  "batch": "vfx-round2-leads"
  },
  {
-  "name": "MatrixRex",
-  "why": "Uber-Stylized-Water, a 500-star open stylized water shader for Unity 6 with many water types.",
-  "link": "https://github.com/MatrixRex/Uber-Stylized-Water",
-  "found_via": "youssef-afella",
+  "name": "Matt Dean (Kink3d)",
+  "why": "Copenhagen graphics programmer; open LensRain screen-space lens rain effect and other URP rendering experiments; video not yet found.",
+  "link": "https://github.com/Kink3d/LensRain",
+  "found_via": "seed",
   "status": "open",
-  "batch": "vfx-x"
- },
- {
-  "name": "Tooster (T3sT3ro)",
-  "why": "SdfManipulator: interactive real-time SDF editor in Unity that generates raymarching shaders.",
-  "link": "https://github.com/T3sT3ro/SdfManipulator",
-  "found_via": "scrn",
-  "status": "open",
-  "batch": "vfx-x"
+  "batch": "vfx-round2-leads"
  },
  {
   "name": "TLabAltoh",
@@ -640,25 +640,9 @@
   "batch": "vfx-x"
  },
  {
-  "name": "Robin Seibold",
-  "why": "Unity-URP-CelShadeLit: open multi-light cel shader for URP (~150 stars) with X video.",
-  "link": "https://github.com/Robinseibold/Unity-URP-CelShadeLit",
-  "found_via": "colin-leung",
-  "status": "open",
-  "batch": "vfx-x"
- },
- {
   "name": "Olivier Goguel",
   "why": "realtimehand: real-time hand tracking package for Unity (~260 stars), shown on X.",
   "link": "https://github.com/ogoguel/realtimehand",
-  "found_via": "tasuku-takahashi",
-  "status": "open",
-  "batch": "vfx-x"
- },
- {
-  "name": "Codrin Mihail (Kodrin)",
-  "why": "HDRP-VFXGraph-Workshop: open VFX Graph workshop project with X demo videos.",
-  "link": "https://github.com/Kodrin/HDRP-VFXGraph-Workshop",
   "found_via": "tasuku-takahashi",
   "status": "open",
   "batch": "vfx-x"

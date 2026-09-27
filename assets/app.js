@@ -137,7 +137,7 @@
     document.querySelectorAll("[data-i18n-html]").forEach((el) => { el.innerHTML = S()[el.dataset.i18nHtml]; });
     $("#q").placeholder = S().search_ph;
     $("#langToggle").textContent = S().lang_toggle;
-    const years = DATA.works.map((w) => w.year).filter(Boolean);
+    const years = DATA.works.filter((w) => !w.related_cat).map((w) => w.year).filter(Boolean); // Related Art is not AR; keep it out of the span
     $("#stats").innerHTML = [
       [S().stat_keys, KEYS.creators.length], [S().tab_salient, DATA.works.filter((w) => w.salient).length],
       [S().tab_ai, DATA.works.filter((w) => w.ai_cat).length],

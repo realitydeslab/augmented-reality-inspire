@@ -1,0 +1,1788 @@
+{
+ "batch": "ai-research",
+ "creators": [
+  {
+   "id": "makeability-lab",
+   "name": "Makeability Lab — Jon E. Froehlich & Jaewook Lee",
+   "role": "HCI lab at the University of Washington; Jaewook Lee leads its AI-powered AR research",
+   "based": "Seattle, US",
+   "bio": "Jon E. Froehlich's Makeability Lab builds interactive tools for accessibility, cities and making. PhD student Jaewook Lee has led a run of wearable AR systems that pair real-time vision models and LLMs with the physical world, from cooking aids for low-vision users to AI-assisted outdoor AR authoring.",
+   "why": "Shows how scene-understanding AI makes AR genuinely useful, especially for people with disabilities.",
+   "links": {
+    "site": "https://makeabilitylab.cs.washington.edu/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UCHNCPwO7WDH-Q9QG66Inwdg",
+    "github": "https://github.com/makeabilitylab"
+   },
+   "role_zh": "华盛顿大学的人机交互实验室，Jaewook Lee 主导其 AI 驱动的 AR 研究",
+   "based_zh": "西雅图，美国",
+   "bio_zh": "Jon E. Froehlich 领导的 Makeability Lab 为无障碍、城市与创客制作开发交互工具。博士生 Jaewook Lee 主导了一系列可穿戴 AR 系统，把实时视觉模型和大语言模型与物理世界结合起来，从帮助低视力人群做饭的工具到 AI 辅助的户外 AR 创作。",
+   "why_zh": "展示了能看懂场景的 AI 如何让 AR 真正有用，尤其是对残障人士。",
+   "connected_to": [
+    "niantic"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "anhong-guo",
+   "name": "Anhong Guo — Human-AI Lab (University of Michigan)",
+   "role": "Assistant Professor of Computer Science & Engineering at the University of Michigan",
+   "based": "Ann Arbor, US",
+   "bio": "Anhong Guo directs the Human-AI Lab, which builds AI systems for accessibility and physical-world interaction. His group's projects include WorldScribe, live context-aware visual descriptions for blind users, and Rubikon, an AR tutor that reconfigures a physical task.",
+   "why": "Designs AI that narrates and teaches the physical world with care for context and people.",
+   "links": {
+    "site": "https://guoanhong.com/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/channel/UC_V6clOfirNNPx5rDsKgsAQ",
+    "github": "https://github.com/HumanAILab"
+   },
+   "role_zh": "密歇根大学计算机科学与工程系助理教授",
+   "based_zh": "安娜堡，美国",
+   "bio_zh": "Anhong Guo 领导 Human-AI Lab，研究面向无障碍与物理世界交互的 AI 系统。团队作品包括为盲人实时生成懂情境画面描述的 WorldScribe，以及通过重构实体任务来教学的 AR 导师 Rubikon。",
+   "why_zh": "他设计的 AI 会讲述、也会教授物理世界，而且始终关照情境与人。",
+   "connected_to": [
+    "andres-monroy-hernandez"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "shengdong-zhao",
+   "name": "Shengdong Zhao — Synteraction Lab",
+   "role": "Professor at City University of Hong Kong; formerly Associate Professor at the National University of Singapore",
+   "based": "Hong Kong, China",
+   "bio": "Shengdong Zhao leads the Synteraction Lab, which studies heads-up computing: smart-glasses interfaces that support people during everyday activities instead of pulling them into a phone. With Runze Cai and Nuwan Janaka he built PANDALens and AiGet, proactive LLM companions on optical see-through glasses.",
+   "why": "A leading voice on always-on AI glasses that fit into daily life rather than interrupt it.",
+   "links": {
+    "site": "https://www.shengdongzhao.com/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@templemountain",
+    "github": "https://github.com/Synteraction-Lab"
+   },
+   "role_zh": "香港城市大学教授，曾任新加坡国立大学副教授",
+   "based_zh": "中国香港",
+   "bio_zh": "赵晟东领导 Synteraction Lab，研究“抬头计算”：让智能眼镜界面在日常活动中辅助人，而不是把人拉回手机屏幕。他与 Runze Cai、Nuwan Janaka 合作开发了 PANDALens 和 AiGet，两者都是运行在光学透视眼镜上的主动式大模型伙伴。",
+   "why_zh": "在“融入日常而非打断日常”的常开式 AI 眼镜方向上，他是领军人物之一。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "karthik-ramani",
+   "name": "Karthik Ramani — Convergence Design Lab (Purdue)",
+   "role": "Professor of Mechanical Engineering at Purdue University",
+   "based": "West Lafayette, US",
+   "bio": "Karthik Ramani's Convergence Design Lab has produced many AR authoring, tangible and human-robot systems. Recent work such as agentAR, led by Chenfei Zhu, lets an LLM agent assemble complete AR applications from a natural-language description.",
+   "why": "Pushes AR authoring from programming an experience to describing it.",
+   "links": {
+    "site": "https://engineering.purdue.edu/cdesign/wp/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "普渡大学机械工程系教授",
+   "based_zh": "西拉法叶，美国",
+   "bio_zh": "Karthik Ramani 的 Convergence Design Lab 推出过大量 AR 创作、实体交互与人机协作系统。近期由 Chenfei Zhu 主导的 agentAR 让大语言模型智能体根据一段自然语言描述搭建出完整的 AR 应用。",
+   "why_zh": "把 AR 创作从“编程实现体验”推向“描述体验”。",
+   "connected_to": [
+    "ruofei-du"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "zinn-labs",
+   "name": "Zinn Labs (Robert Konrad, Nitish Padmanaban, Kevin Boyle)",
+   "role": "Eye-tracking company for smart eyewear, founded by alumni of Gordon Wetzstein's Stanford lab",
+   "based": "California, US",
+   "bio": "Zinn Labs develops low-power eye tracking for smart glasses. Together with Gordon Wetzstein they published GazeGPT, which uses the wearer's gaze to tell a multimodal LLM which object in the camera view the question is about.",
+   "why": "Made the case that gaze is the missing pointer for AI glasses.",
+   "links": {
+    "site": "https://www.zinnlabs.com/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@zinnlabs",
+    "github": ""
+   },
+   "role_zh": "为智能眼镜开发眼动追踪的公司，由斯坦福 Gordon Wetzstein 实验室的校友创立",
+   "based_zh": "加利福尼亚，美国",
+   "bio_zh": "Zinn Labs 为智能眼镜开发低功耗眼动追踪。他们与 Gordon Wetzstein 合作发表了 GazeGPT，用佩戴者的目光告诉多模态大模型：这个问题问的是摄像头画面里的哪个物体。",
+   "why_zh": "有力地论证了：目光正是 AI 眼镜缺失的那根“指针”。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "meta-rl-research",
+   "name": "Meta Reality Labs Research — AI assistants for AR glasses",
+   "role": "Research teams at Meta Reality Labs studying interaction with contextual AI on AR glasses",
+   "based": "US & Canada",
+   "bio": "Researchers at Meta Reality Labs Research, including Tanya Jonker's group, study how always-on AR glasses should use AI: when to explain it (XAIR), which actions to offer (OmniActions) and when to interrupt (ProMemAssist). Much of the work is led by PhD interns such as Xuhai Xu, Jiahao Nick Li and Kevin Pu.",
+   "why": "Sets out the interaction rules for AI assistants that live in your glasses.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "Meta Reality Labs 旗下研究 AR 眼镜上情境式 AI 交互的团队",
+   "based_zh": "美国与加拿大",
+   "bio_zh": "Meta Reality Labs Research 的研究者（包括 Tanya Jonker 的团队）探讨常开式 AR 眼镜应如何使用 AI：何时解释（XAIR）、提供哪些操作（OmniActions）、何时打断用户（ProMemAssist）。许多工作由 Xuhai Xu、Jiahao Nick Li、Kevin Pu 等博士实习生主导。",
+   "why_zh": "为住在眼镜里的 AI 助手制定了交互规则。",
+   "connected_to": [
+    "meta-reality-labs",
+    "msr-benko-wilson"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "ludwig-sidenmark",
+   "name": "Ludwig Sidenmark & Haoyu Wang",
+   "role": "HCI researcher known for gaze interaction in XR (University of Toronto); Haoyu Wang leads the generative haptic-prop work",
+   "based": "Toronto, Canada",
+   "bio": "Ludwig Sidenmark, who did his PhD on eye-head interaction at Lancaster University, works on gaze and mixed-reality interaction at the University of Toronto. With Haoyu Wang and colleagues he built Prop-Chromeleon, which uses generative AI to turn everyday objects into adaptive haptic props.",
+   "why": "Uses generative AI to keep what you see in MR consistent with what you touch.",
+   "links": {
+    "site": "https://ludwigsidenmark.com/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@ludwigsidenmark4715",
+    "github": ""
+   },
+   "role_zh": "以 XR 注视交互研究见长的人机交互研究者（多伦多大学）；Haoyu Wang 主导生成式触觉道具项目",
+   "based_zh": "多伦多，加拿大",
+   "bio_zh": "Ludwig Sidenmark 在兰卡斯特大学完成眼-头协同交互方向的博士研究，现于多伦多大学研究注视与混合现实交互。他与 Haoyu Wang 等人开发了 Prop-Chromeleon，用生成式 AI 把日常物品变成可自适应的触觉道具。",
+   "why_zh": "用生成式 AI 让 MR 中看到的与摸到的保持一致。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "laura-schutz",
+   "name": "Laura Schütz",
+   "role": "Researcher in sonification and multisensory AR at the Technical University of Munich",
+   "based": "Munich, Germany",
+   "bio": "Laura Schütz works with Nassir Navab's group at TU Munich on sonification and multisensory augmented reality. Sonify Anything recognizes real materials with computer vision so that virtual objects colliding with real ones sound believable.",
+   "why": "Brings sound, often an afterthought in AR, into AI scene understanding.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@lauraschuetz",
+    "github": ""
+   },
+   "role_zh": "慕尼黑工业大学的声音化与多感官 AR 研究者",
+   "based_zh": "慕尼黑，德国",
+   "bio_zh": "Laura Schütz 在慕尼黑工业大学 Nassir Navab 团队从事声音化与多感官增强现实研究。Sonify Anything 用计算机视觉识别真实材质，让虚拟物体与真实物体的碰撞听起来可信。",
+   "why_zh": "把 AR 中常被忽视的声音，纳入 AI 的场景理解。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "fabrice-matulic",
+   "name": "Fabrice Matulic (Preferred Networks)",
+   "role": "Senior researcher at Preferred Networks",
+   "based": "Tokyo, Japan",
+   "bio": "Fabrice Matulic is an HCI researcher at Preferred Networks in Tokyo who works on pen, touch and AR interaction. With Nozomu Iwai he turned household objects into LLM-driven talking AR characters (CHI 2025).",
+   "why": "Shows a playful, character-driven path for AI in everyday AR.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@preferrednet",
+    "github": ""
+   },
+   "role_zh": "Preferred Networks 资深研究员",
+   "based_zh": "东京，日本",
+   "bio_zh": "Fabrice Matulic 是东京 Preferred Networks 的人机交互研究者，研究笔、触控与 AR 交互。他与 Nozomu Iwai 一起把家居物品变成由大语言模型驱动、会说话的 AR 角色（CHI 2025）。",
+   "why_zh": "为日常 AR 中的 AI 开辟了一条俏皮、以角色为中心的路径。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "yu-wang-beihang",
+   "name": "Yu Wang & Yulu Lu (Beihang University)",
+   "role": "Researchers at the School of New Media Art and Design, Beihang University",
+   "based": "Beijing, China",
+   "bio": "Yu Wang, Yulu Lu, Shuo Yan and Xukun Shen at Beihang University explore expressive AI agents in mixed reality. Their CHI 2025 late-breaking work turns everyday objects into personalized AI characters.",
+   "why": "Treats an object's form and material as the brief for designing an AI personality.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@yululu-cb6jr",
+    "github": ""
+   },
+   "role_zh": "北京航空航天大学新媒体艺术与设计学院研究者",
+   "based_zh": "北京，中国",
+   "bio_zh": "北京航空航天大学的 Yu Wang、Yulu Lu、Shuo Yan 与 Xukun Shen 研究混合现实中富有表现力的 AI 智能体。他们在 CHI 2025 的研究把日常物品变成个性化的 AI 角色。",
+   "why_zh": "把物体的形态和材质当作设计 AI 性格的出发点。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "james-landay",
+   "name": "James Landay — Stanford HCI",
+   "role": "Professor of Computer Science at Stanford University; co-founder of Stanford HAI",
+   "based": "Stanford, US",
+   "bio": "James Landay studies user interfaces for education, health and sustainability. His group's Moon Story (CHI 2024, led by Alan Y. Cheng) combines mobile AR, narrative and LLMs to teach children astronomy and environmental science.",
+   "why": "Uses AR with LLMs to make learning immersive and culturally relevant for children.",
+   "links": {
+    "site": "https://hci.stanford.edu/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "斯坦福大学计算机科学教授，斯坦福 HAI 联合创始人",
+   "based_zh": "斯坦福，美国",
+   "bio_zh": "James Landay 研究面向教育、健康与可持续发展的用户界面。其团队的 Moon Story（CHI 2024，由 Alan Y. Cheng 主导）把手机 AR、故事叙事与大语言模型结合，给小学生讲授天文和环境科学。",
+   "why_zh": "用 AR 加大语言模型，让儿童的学习既沉浸又贴近自身文化。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "andres-monroy-hernandez",
+   "name": "Andrés Monroy-Hernández & Lei Zhang — Princeton HCI Lab",
+   "role": "Associate Professor of Computer Science at Princeton and director of the Princeton HCI Lab; Lei Zhang leads the Capybara project",
+   "based": "Princeton, US",
+   "bio": "Andrés Monroy-Hernández, formerly at Microsoft Research and Snap Research, studies social and creative computing. With Lei Zhang, known for AI-assisted XR authoring tools such as VRCopilot, he built Capybara, an AR and generative-AI programming environment where children create and program their own 3D characters.",
+   "why": "Positions children as creators of AI-powered AR, not just its consumers.",
+   "links": {
+    "site": "https://www.andresmh.com/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@raynezhang1458",
+    "github": ""
+   },
+   "role_zh": "普林斯顿大学计算机科学副教授、普林斯顿 HCI 实验室主任；Lei Zhang 主导 Capybara 项目",
+   "based_zh": "普林斯顿，美国",
+   "bio_zh": "Andrés Monroy-Hernández 曾任职于微软研究院和 Snap Research，研究社交与创意计算。他与以 VRCopilot 等 AI 辅助 XR 创作工具闻名的 Lei Zhang 合作开发了 Capybara：一个结合 AR 与生成式 AI 的编程环境，孩子们可以在其中创造并编程自己的三维角色。",
+   "why_zh": "让孩子成为 AI 驱动 AR 的创作者，而不只是使用者。",
+   "connected_to": [
+    "anhong-guo"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "boyu-li",
+   "name": "Boyu Li",
+   "role": "HCI researcher working on mixed reality and generative video, with Zeyu Wang at HKUST (Guangzhou)",
+   "based": "Guangzhou, China",
+   "bio": "Boyu Li, with Lin-Ping Yuan and Zeyu Wang, created VideoCraft (UIST 2025), a workflow that uses mixed reality to give video-generation models precise spatial control when making concept videos of real spaces.",
+   "why": "Connects MR spatial editing with generative video for spatial designers.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@boyuli6216",
+    "github": ""
+   },
+   "role_zh": "研究混合现实与生成式视频的人机交互研究者，与香港科技大学（广州）的 Zeyu Wang 合作",
+   "based_zh": "广州，中国",
+   "bio_zh": "Boyu Li 与 Lin-Ping Yuan、Zeyu Wang 共同开发了 VideoCraft（UIST 2025），在为真实空间制作概念视频时，用混合现实为视频生成模型提供精确的空间控制。",
+   "why_zh": "为空间设计师把 MR 空间编辑与生成式视频连接起来。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tianyi-xiao",
+   "name": "Tianyi Xiao (ETH Zurich)",
+   "role": "Researcher in geoinformation, spatial cognition and AR at ETH Zurich",
+   "based": "Zurich, Switzerland",
+   "bio": "Tianyi Xiao works on spatial cognition and augmented reality at ETH Zurich. Sketch2Terrain (CHI 2025) combines freehand 3D sketching with a generative model so that non-experts can map terrain in AR.",
+   "why": "Shows sketch-to-3D generation as a fast way to externalize spatial memory.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@Tianyi_ETHZurich",
+    "github": "https://github.com/TX-XR"
+   },
+   "role_zh": "苏黎世联邦理工学院地理信息、空间认知与 AR 研究者",
+   "based_zh": "苏黎世，瑞士",
+   "bio_zh": "Tianyi Xiao 在苏黎世联邦理工学院研究空间认知与增强现实。Sketch2Terrain（CHI 2025）把徒手三维草图与生成模型结合，让非专业人士也能在 AR 中绘制地形图。",
+   "why_zh": "展示了“草图生成三维”是把空间记忆外化的快捷方式。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "bangbang-yang",
+   "name": "Bangbang Yang",
+   "role": "Researcher and developer in ByteDance's PICO mixed-reality group",
+   "based": "China",
+   "bio": "Bangbang Yang received his PhD from Zhejiang University's ZJU3DV group and works on 3D vision for mixed reality at PICO (ByteDance). DreamSpace (IEEE VR 2024) restyles the textures of a real, scanned room from a text prompt.",
+   "why": "Turns diffusion models into a tool for repainting real, walkable spaces.",
+   "links": {
+    "site": "https://ybbbbt.com/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@bangbangyang9886",
+    "github": "https://github.com/ybbbbt"
+   },
+   "role_zh": "字节跳动 PICO 混合现实团队研究员与开发者",
+   "based_zh": "中国",
+   "bio_zh": "杨镑镑博士毕业于浙江大学 ZJU3DV 团队，现于字节跳动 PICO 从事面向混合现实的三维视觉研究。DreamSpace（IEEE VR 2024）能根据一句文本提示，为扫描得到的真实房间重新生成纹理风格。",
+   "why_zh": "把扩散模型变成重绘真实、可行走空间的工具。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "harvard-vcg",
+   "name": "Harvard Visual Computing Group — Hanspeter Pfister",
+   "role": "Research group at Harvard SEAS led by Hanspeter Pfister",
+   "based": "Cambridge, MA, US",
+   "bio": "Hanspeter Pfister's Visual Computing Group works on visualization, computer vision and sports analytics. ViSTAR (CHI 2026), led by Chunggi Lee and Hayato Saiki, is an AR basketball trainer with an LLM coaching agent.",
+   "why": "Joins sports analytics, AR and LLM feedback into a coach you can wear.",
+   "links": {
+    "site": "https://vcg.seas.harvard.edu/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@hayato_saiki",
+    "github": ""
+   },
+   "role_zh": "哈佛大学工程与应用科学学院的研究组，由 Hanspeter Pfister 领导",
+   "based_zh": "剑桥（马萨诸塞州），美国",
+   "bio_zh": "Hanspeter Pfister 的视觉计算组研究可视化、计算机视觉与体育数据分析。由 Chunggi Lee 与 Hayato Saiki 主导的 ViSTAR（CHI 2026）是一个带有大模型教练智能体的 AR 篮球训练系统。",
+   "why_zh": "把体育分析、AR 与大模型反馈合成了一位可以“穿戴”的教练。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "fernanda-de-la-torre",
+   "name": "Fernanda De La Torre (LLMR, with Microsoft)",
+   "role": "Researcher; lead author of LLMR with Microsoft collaborators including Jaron Lanier",
+   "based": "US",
+   "bio": "Fernanda De La Torre led LLMR (CHI 2024) with Cathy Mengying Fang, Han Huang, Andrzej Banburski-Fahey, Judith Amores and Jaron Lanier at Microsoft. LLMR lets people create and modify interactive mixed-reality worlds in real time by talking to a team of LLM agents.",
+   "why": "An early open-source demonstration of speaking a mixed-reality world into existence.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": "https://github.com/microsoft/LLMR"
+   },
+   "role_zh": "研究者，LLMR 第一作者，与包括 Jaron Lanier 在内的微软合作者共同完成",
+   "based_zh": "美国",
+   "bio_zh": "Fernanda De La Torre 与微软的 Cathy Mengying Fang、Han Huang、Andrzej Banburski-Fahey、Judith Amores 和 Jaron Lanier 共同完成了 LLMR（CHI 2024）。LLMR 让人们通过与一组大语言模型智能体对话，实时创建和修改可交互的混合现实世界。",
+   "why_zh": "较早的开源示范：用语言把混合现实世界“说出来”。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "chen-chen-fiu",
+   "name": "Chen Chen & Shaoze Zhou",
+   "role": "HCI researchers at Florida International University working on mixed reality and AI assistance",
+   "based": "Miami, US",
+   "bio": "Chen Chen's group at Florida International University studies mixed-reality and AI support for everyday activities. ChatMuse (UIST 2026), led by Shaoze Zhou with Christine Lisetti and others, is a proactive MR agent for in-person small-group conversation.",
+   "why": "Explores AI that coaches real, face-to-face social interaction.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@chenchen2253",
+    "github": ""
+   },
+   "role_zh": "佛罗里达国际大学研究混合现实与 AI 辅助的人机交互研究者",
+   "based_zh": "迈阿密，美国",
+   "bio_zh": "Chen Chen 在佛罗里达国际大学的团队研究混合现实与 AI 如何支持日常活动。由 Shaoze Zhou 主导、Christine Lisetti 等人参与的 ChatMuse（UIST 2026）是一个用于线下小组交谈的主动式 MR 智能体。",
+   "why_zh": "探索能在真实、面对面社交中给予指导的 AI。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "youngki-lee",
+   "name": "Youngki Lee (Seoul National University)",
+   "role": "Professor of Computer Science and Engineering at Seoul National University",
+   "based": "Seoul, South Korea",
+   "bio": "Youngki Lee's lab works on mobile, wearable and AR systems. Bubbleu (CHI 2023), led by Minji Kim with Kyungjin Lee and Rajesh Balan, studies how AR games should be designed around the errors of object-detection AI.",
+   "why": "Offers concrete design patterns for AR experiences built on imperfect AI.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "首尔大学计算机科学与工程系教授",
+   "based_zh": "首尔，韩国",
+   "bio_zh": "Youngki Lee 的实验室研究移动、可穿戴与 AR 系统。由 Minji Kim 主导、Kyungjin Lee 与 Rajesh Balan 参与的 Bubbleu（CHI 2023）探讨 AR 游戏应如何围绕物体检测 AI 的错误来设计。",
+   "why_zh": "为建立在不完美 AI 之上的 AR 体验提供了具体的设计模式。",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "makeability-lab--gazepointar",
+   "creator_ids": [
+    "makeability-lab"
+   ],
+   "title": "GazePointAR",
+   "year": 2024,
+   "description": "A voice assistant on HoloLens 2 that knows what 'this' and 'that' mean: it combines eye gaze, pointing and conversation history, so you can look at a plant or a math problem and simply ask 'what is this?' or 'how do I solve that?'.",
+   "description_zh": "一个运行在 HoloLens 2 上、听得懂“这个”“那个”的语音助手：它结合眼动、手指指向和对话历史，你只要看着一盆植物或一道数学题问“这是什么？”“那个怎么解？”就能得到回答。",
+   "idea_en": "Replace the pronouns in a spoken question with whatever your eyes and finger are pointing at.",
+   "idea_zh": "把语音提问里的代词，替换成你眼睛和手指正指着的东西。",
+   "technique": "Gaze and hand rays from the headset select an image crop of the target, a vision model describes it, and that description replaces the pronoun before the query goes to a GPT-style LLM.",
+   "technique_zh": "头显的眼动射线与手部射线选出目标区域的图像裁切，由视觉模型生成描述并替换问句中的代词，再交给 GPT 类大语言模型回答。",
+   "exercise_en": "Build a phone AR 'what is this?' button: on tap, capture the camera frame, crop around the screen center, send the crop plus the spoken question to a multimodal LLM API and show the answer as a floating label on the object. Twist: answer only with a small arrow and a single word anchored on the object.",
+   "exercise_zh": "做一个手机 AR“这是什么？”按钮：点击时截取相机画面并以屏幕中心裁切，把裁切图和语音问题一起发给多模态大模型 API，再把回答作为浮动标签贴在物体上。变体：只用一个小箭头加一个词来回答，并锚定在物体上。",
+   "interaction": [
+    "gaze-attention",
+    "voice-sound",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens 2",
+    "eye tracking",
+    "GPT",
+    "vision-language model"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "3DebNQ1kpe0",
+    "url": "https://www.youtube.com/watch?v=3DebNQ1kpe0"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://arxiv.org/abs/2404.08213"
+  },
+  {
+   "id": "makeability-lab--cookar",
+   "creator_ids": [
+    "makeability-lab"
+   ],
+   "title": "CookAR",
+   "year": 2024,
+   "description": "A head-mounted AR system for people with low vision that colors kitchen tools by affordance in real time: the handle of a knife or pan glows in a safe color, the blade or hot surface in a warning color.",
+   "description_zh": "为低视力人群设计的头戴式 AR 系统：实时按“能抓/别碰”给厨具上色——刀柄和锅柄亮成安全色，刀刃和高温表面亮成警示色。",
+   "idea_en": "Color the world by what is safe to grab and what can hurt you.",
+   "idea_zh": "按“能抓”和“会伤人”来给世界上色。",
+   "technique": "A segmentation model fine-tuned on a new egocentric dataset of kitchen-tool affordances runs on stereo-camera passthrough video and draws graspable and hazardous parts as colored overlays.",
+   "technique_zh": "在新采集的第一人称厨具可供性数据集上微调分割模型，处理双目相机透视视频，把可抓握部分和危险部分绘制成彩色叠加层。",
+   "exercise_en": "Train a two-class segmentation or detection model (for example with Roboflow or Teachable Machine) on photos of mugs split into 'handle' and 'hot body', then overlay green and red masks on the live camera in a phone or Lens Studio AR app. Twist: replace the colors with sound, a soft tone near the handle and a harsh one near the hot part.",
+   "exercise_zh": "用 Roboflow 或 Teachable Machine 等工具，以马克杯照片训练一个区分“把手”和“杯身”的两类分割或检测模型，再在手机或 Lens Studio AR 应用里给实时画面叠加绿、红遮罩。变体：把颜色换成声音——手靠近把手时响起柔和音，靠近高温部分时响起刺耳音。",
+   "interaction": [
+    "tangible-object",
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "stereo passthrough camera",
+    "affordance segmentation",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "gtJhme8em7U",
+    "url": "https://www.youtube.com/watch?v=gtJhme8em7U"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://arxiv.org/abs/2407.13515",
+   "code_url": "https://github.com/makeabilitylab/CookAR"
+  },
+  {
+   "id": "makeability-lab--arsports",
+   "creator_ids": [
+    "makeability-lab"
+   ],
+   "title": "ARSports",
+   "year": 2024,
+   "description": "A wearable AR prototype for low-vision players that outlines the ball and the other players with bright segmentation masks in near real time during basketball and tennis.",
+   "description_zh": "为低视力运动者打造的可穿戴 AR 原型：在篮球和网球中，近乎实时地用醒目的分割轮廓标出球和其他球员。",
+   "idea_en": "Let a vision model highlight the only things that matter in a fast game: the ball and the people.",
+   "idea_zh": "让视觉模型在快节奏比赛里只高亮最重要的东西：球和人。",
+   "technique": "Instance-segmentation models fine-tuned on new first-person basketball and tennis datasets process ZED Mini stereo video on a Quest 2 and render high-contrast masks over the passthrough view.",
+   "technique_zh": "在新采集的第一人称篮球与网球数据集上微调实例分割模型，处理 Quest 2 上 ZED Mini 双目视频，并在透视画面上渲染高对比度遮罩。",
+   "exercise_en": "Run a pretrained ball-and-person detector (YOLO or MediaPipe) on the phone camera in a web AR page and draw thick neon outlines around the ball; play catch with a partner and tune the colors until the ball is easiest to follow. Twist: leave a fading trail behind the ball so its trajectory becomes readable.",
+   "exercise_zh": "在网页 AR 页面里对手机摄像头画面运行预训练的球和人检测模型（YOLO 或 MediaPipe），给球加上粗霓虹描边；和同伴玩抛接球，调整颜色直到球最容易追踪。变体：在球身后留下渐隐的轨迹，让它的运动路线一目了然。",
+   "interaction": [
+    "game-play",
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Oculus Quest 2",
+    "ZED Mini",
+    "instance segmentation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "2IvhNwAAl4E",
+    "url": "https://www.youtube.com/watch?v=2IvhNwAAl4E"
+   },
+   "ai_cat": "understand"
+  },
+  {
+   "id": "makeability-lab--earll",
+   "creator_ids": [
+    "makeability-lab"
+   ],
+   "title": "EARLL",
+   "year": 2024,
+   "description": "A language tutor for AR glasses that notices which everyday object you pick up and quietly shows its word in the language you are learning, turning chores into vocabulary practice.",
+   "description_zh": "一个 AR 眼镜上的语言学习助手：它会注意到你拿起了哪件日常物品，悄悄显示它在目标语言里的单词，把做家务变成背单词。",
+   "idea_en": "Your hands choose the lesson: touch an object and learn its name.",
+   "idea_zh": "让你的手来决定学哪个词：碰到什么，就学它的名字。",
+   "technique": "Real-time segmentation and depth sensing localize objects around the user, a hand-object contact check detects manipulation, and a vocabulary prompt for that object is triggered in the glasses.",
+   "technique_zh": "实时分割与深度感知定位用户周围的物体，再用手与物体的接触检测判断是否被拿起，从而在眼镜中触发该物体的外语单词提示。",
+   "exercise_en": "Make a phone AR app with an object detector (Lens Studio's ML object detection or TensorFlow.js COCO-SSD) that shows the Spanish word above a cup, book or chair once it has stayed in view for two seconds. Twist: the learner must say the word aloud and pass a speech-recognition check before the label appears.",
+   "exercise_zh": "用物体检测（Lens Studio 的 ML 物体检测或 TensorFlow.js COCO-SSD）做一个手机 AR 应用：杯子、书或椅子在画面中停留两秒后，在它上方显示西班牙语单词。变体：学习者必须先大声说出这个词、通过语音识别核对，标签才会出现。",
+   "interaction": [
+    "tangible-object",
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "AR glasses",
+    "object segmentation",
+    "depth sensing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "AjdQsxkPVkU",
+    "url": "https://www.youtube.com/watch?v=AjdQsxkPVkU"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://doi.org/10.1145/3672539.3686746"
+  },
+  {
+   "id": "makeability-lab--imaginatear",
+   "creator_ids": [
+    "makeability-lab"
+   ],
+   "title": "ImaginateAR",
+   "year": 2025,
+   "description": "A mobile outdoor AR authoring tool, made by Jaewook Lee with Niantic Spatial: say a scene such as 'a dragon enjoying a campfire' and AI generates the 3D assets and arranges them in the real park or street, ready to be adjusted by hand.",
+   "description_zh": "一个户外手机 AR 创作工具，由 Jaewook Lee 与 Niantic Spatial 合作完成：说出一个场景，比如“一条在篝火旁惬意休息的龙”，AI 就生成三维素材并把它们摆进真实的公园或街道，你还能再用手调整。",
+   "idea_en": "Speak a story into the place where you stand and let AI build it there.",
+   "idea_zh": "站在一个地方把故事说出来，让 AI 当场把它搭起来。",
+   "technique": "An offline scene-understanding pipeline builds an outdoor scene graph, an LLM plans which objects to create and where, and a fast text-to-3D generator produces assets that are placed on detected surfaces.",
+   "technique_zh": "离线场景理解流程构建户外场景图，大语言模型规划要生成哪些物体、放在哪里，再用快速的文本生成三维方法制作素材，放到检测到的表面上。",
+   "exercise_en": "Prototype 'say it, place it' in Lens Studio or AR Foundation: send a spoken phrase to an LLM that returns a JSON list of objects and positions, map each object to a free 3D model (or a text-to-3D API such as Meshy) and place it on detected ground planes. Twist: photograph the site first and ask the LLM to build its story around what is already there.",
+   "exercise_zh": "在 Lens Studio 或 AR Foundation 里实现“说出来就摆出来”：把语音短语发给大语言模型，让它返回包含物体与位置的 JSON 列表，将每个物体对应到免费三维模型（或 Meshy 等文本生成三维 API），再放到检测到的地面上。变体：先给现场拍照，要求大模型围绕现场已有的东西来编故事。",
+   "interaction": [
+    "voice-sound",
+    "location-geo",
+    "drawing-creation"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR",
+    "LLM",
+    "text-to-3D",
+    "scene graph"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "G9mH1HKSPkg",
+    "url": "https://www.youtube.com/watch?v=G9mH1HKSPkg"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://nianticspatial.github.io/imaginatear/"
+  },
+  {
+   "id": "makeability-lab--sonifyar",
+   "creator_ids": [
+    "makeability-lab"
+   ],
+   "title": "SonifyAR",
+   "year": 2024,
+   "description": "An AR sound-authoring system: when a virtual ball drops onto a real wooden table, it works out what just happened and on which material, then recommends, retrieves or generates a matching sound effect.",
+   "description_zh": "一个 AR 声音创作系统：当虚拟小球落到真实木桌上时，它会判断刚刚发生了什么、撞上了什么材质，然后推荐、检索或直接生成相匹配的音效。",
+   "idea_en": "Let AI decide what an AR scene should sound like from real materials and virtual actions.",
+   "idea_zh": "让 AI 根据真实材质和虚拟动作，推断 AR 场景该发出什么声音。",
+   "technique": "A programming-by-demonstration pipeline logs AR events, vision models describe the real surface involved, and an LLM turns that context into text that drives sound recommendation, retrieval, text-to-audio generation or style transfer.",
+   "technique_zh": "通过示范编程记录 AR 事件，视觉模型描述涉及的真实表面，大语言模型把这些情境整理成文本，用于音效推荐、检索、文本生成音频或音色迁移。",
+   "exercise_en": "In a phone AR app, drop virtual objects onto detected planes and, on each collision, send a crop of the surface to a vision model asking 'what material is this?'; then play a sound from a small library (wood, metal, fabric, water) or from a text-to-audio model. Twist: give the virtual object a material too and let the LLM describe the combined sound.",
+   "exercise_zh": "在手机 AR 应用中让虚拟物体掉到检测平面上，每次碰撞时把表面截图发给视觉模型询问“这是什么材质？”，再从小音效库（木头、金属、布料、水）或文本生成音频模型中播放声音。变体：给虚拟物体也设定材质，让大模型描述两者相撞的组合声音。",
+   "interaction": [
+    "voice-sound",
+    "spatial-mapping",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "ARKit",
+    "LLM",
+    "text-to-audio",
+    "programming by demonstration"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "2iXS2tvjwKg",
+    "url": "https://www.youtube.com/watch?v=2iXS2tvjwKg"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://arxiv.org/abs/2405.07089"
+  },
+  {
+   "id": "anhong-guo--worldscribe",
+   "creator_ids": [
+    "anhong-guo"
+   ],
+   "title": "WorldScribe",
+   "year": 2024,
+   "description": "Live, context-aware visual descriptions for blind users: sweep a phone around and it speaks short, prioritized descriptions of what matters for your goal, adding detail when the scene is still and pausing when someone starts to talk.",
+   "description_zh": "为盲人用户提供实时、懂情境的画面描述：拿着手机环顾四周，它会围绕你的目标播报简短且有优先级的描述，画面静止时说得更细，有人开口说话时自动暂停。",
+   "idea_en": "A narrator for the world that decides what to say, how much, and when to stay quiet.",
+   "idea_zh": "一个为世界配旁白的 AI：自己决定说什么、说多少、什么时候闭嘴。",
+   "technique": "A cascade of fast object detectors and slower vision-language models produces descriptions at several levels of detail, ranked by semantic similarity to the user's stated intent, while sound recognition adjusts the volume and pauses speech.",
+   "technique_zh": "把快速的物体检测和较慢的视觉语言模型串联起来，生成不同详略层级的描述，并按与用户意图的语义相似度排序；声音识别则用来调节音量和暂停播报。",
+   "exercise_en": "Build a web page that grabs a camera frame every few seconds, sends it with the prompt 'I am looking for my keys; describe only what helps, in under ten words' to a multimodal LLM, and reads the answer aloud with text-to-speech. Twist: change the intent (cooking, crossing a street, finding a friend) and compare how the narration changes.",
+   "exercise_zh": "做一个网页：每隔几秒截取一帧摄像头画面，连同提示“我在找钥匙，只描述有帮助的内容，不超过十个字”发给多模态大模型，并用语音合成读出回答。变体：更换意图（做饭、过马路、找朋友），比较旁白如何随之变化。",
+   "interaction": [
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "vision-language models",
+    "object detection",
+    "text-to-speech",
+    "sound recognition"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "9dRExJzyqxw",
+    "url": "https://www.youtube.com/watch?v=9dRExJzyqxw"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://arxiv.org/abs/2408.06627",
+   "code_url": "https://github.com/HumanAILab/worldscribe"
+  },
+  {
+   "id": "anhong-guo--rubikon",
+   "creator_ids": [
+    "anhong-guo"
+   ],
+   "title": "Rubikon",
+   "year": 2025,
+   "description": "An AR tutor for learning the Rubik's Cube: you hold and twist a real cube while the display shows an AR cube set to exactly the tricky state you need to practice, generated from your weak spots.",
+   "description_zh": "学魔方的 AR 智能导师：你手里转着一只真实魔方，屏幕上的 AR 魔方却被设成你最需要练的那个难点状态，由系统根据你的薄弱环节自动生成。",
+   "idea_en": "Keep the real object in your hands but let AI rewrite its state, so every practice round targets your weak spot.",
+   "idea_zh": "手里始终是真实的物体，却让 AI 改写它的状态，让每一轮练习都命中你的弱点。",
+   "technique": "The physical cube's moves are tracked and mirrored onto an AR-rendered cube whose starting configuration is generated by an intelligent tutoring model of the learner's skill components.",
+   "technique_zh": "追踪实体魔方的转动并同步到 AR 渲染的魔方上，AR 魔方的初始状态则由基于学习者技能要素的智能导师模型生成。",
+   "exercise_en": "Pick a physical puzzle (a tangram, a knot, a guitar chord shape) and build a phone AR overlay that shows a target state; log the learner's errors and ask an LLM to choose the next target that practices the most frequent mistake. Twist: let the AI show a slightly wrong target on purpose and ask the learner to spot the error.",
+   "exercise_zh": "选一个实体谜题（七巧板、绳结、吉他和弦手型），做一个显示目标状态的手机 AR 叠加层；记录学习者的错误，让大模型挑选下一个针对最常见错误的练习目标。变体：让 AI 故意给出一个略有错误的目标，请学习者找出错在哪里。",
+   "interaction": [
+    "tangible-object",
+    "game-play",
+    "data-information"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "tech": [
+    "intelligent tutoring system",
+    "cube tracking",
+    "AR display"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "4Jes_0nd3kY",
+    "url": "https://www.youtube.com/watch?v=4Jes_0nd3kY"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://arxiv.org/abs/2503.12619"
+  },
+  {
+   "id": "shengdong-zhao--pandalens",
+   "creator_ids": [
+    "shengdong-zhao"
+   ],
+   "title": "PANDALens",
+   "year": 2024,
+   "description": "A travel companion on optical see-through glasses that notices interesting moments from what you see, hear and do, asks you short reflective questions, and then drafts a travel blog with an LLM from those moments and your answers.",
+   "description_zh": "一副光学透视眼镜上的旅行伙伴：它从你看到、听到和做的事情中捕捉有意思的瞬间，向你提几个简短的反思问题，再用大语言模型把这些瞬间和你的回答写成游记草稿。",
+   "idea_en": "Glasses that interview you during the trip and write the diary with you.",
+   "idea_zh": "旅途中采访你、并和你一起写日记的眼镜。",
+   "technique": "Multimodal context from the camera, audio and user behavior is used to detect notable moments that appear as prompts on a head-mounted display; an LLM turns the collected moments and replies into narrative text.",
+   "technique_zh": "利用摄像头、音频和用户行为等多模态情境检测值得记录的时刻，在头戴显示器上以提示呈现；大语言模型再把收集到的时刻和回答写成叙事文本。",
+   "exercise_en": "Walk around campus for 30 minutes with a phone app that takes a photo whenever you pause for more than ten seconds, asks you one spoken question about it and records your answer; at the end, send photos and answers to an LLM to write a one-page story. Twist: have the AI write in the voice of the place instead of yours.",
+   "exercise_zh": "带着一个手机应用在校园里走 30 分钟：每当你停留超过十秒，它就拍一张照片、用语音问你一个相关问题并记录回答；最后把照片和回答交给大模型写成一页小故事。变体：让 AI 以这个地方的口吻来写，而不是你的口吻。",
+   "interaction": [
+    "location-geo",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "optical see-through HMD",
+    "GPT",
+    "multimodal sensing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "WceDSG4I4cw",
+    "url": "https://www.youtube.com/watch?v=WceDSG4I4cw"
+   },
+   "ai_cat": "agent",
+   "code_url": "https://github.com/Synteraction-Lab/PANDALens"
+  },
+  {
+   "id": "shengdong-zhao--aiget",
+   "creator_ids": [
+    "shengdong-zhao"
+   ],
+   "title": "AiGet",
+   "year": 2025,
+   "description": "A proactive assistant on AR smart glasses that notices where you look while you walk or shop and slips in surprising, personal facts about things you usually overlook, such as the plant by the path or the origin of a snack.",
+   "description_zh": "AR 智能眼镜上的主动式助手：在你散步或购物时留意你的目光，适时推送与你相关的冷知识，比如路边那株植物、手中零食的来历——那些你平时会忽略的东西。",
+   "idea_en": "Turn idle moments into curiosity: the AI notices what you glance at and tells you something you did not know.",
+   "idea_zh": "把无聊的片刻变成好奇心：AI 留意你瞥过的东西，告诉你一件你不知道的事。",
+   "technique": "Gaze patterns, the egocentric camera view and a user profile are sent to an LLM that picks low-disruption, personalized knowledge and shows it briefly on the glasses.",
+   "technique_zh": "把注视模式、第一人称画面和用户画像发给大语言模型，由它挑选打扰最少、最个性化的知识，在眼镜上短暂显示。",
+   "exercise_en": "Build a phone or glasses prototype that snaps a frame every 20 seconds during a walk and asks a multimodal LLM for 'one surprising fact about something in this image that a person who loves [your hobby] would enjoy', shown as a single line. Twist: only speak the fact when the user's walking pace slows down.",
+   "exercise_zh": "做一个手机或眼镜原型：散步时每 20 秒截取一帧，询问多模态大模型“画面里某样东西的一个冷知识，要适合喜欢[你的爱好]的人”，并只显示一行字。变体：只有在用户放慢脚步时才读出这条知识。",
+   "interaction": [
+    "gaze-attention",
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "AR smart glasses",
+    "eye tracking",
+    "LLM"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Z1WACpnZodg",
+    "url": "https://www.youtube.com/watch?v=Z1WACpnZodg"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://arxiv.org/abs/2501.16240",
+   "code_url": "https://github.com/Synteraction-Lab/AiGet"
+  },
+  {
+   "id": "karthik-ramani--agentar",
+   "creator_ids": [
+    "karthik-ramani"
+   ],
+   "title": "agentAR",
+   "year": 2025,
+   "description": "An in-situ AR authoring system: describe an AR app in plain language and an LLM agent builds it on the spot, choosing tracking, interface and logic tools from a library distilled from AR research.",
+   "description_zh": "一个就地创作 AR 的系统：用自然语言描述你想要的 AR 应用，大语言模型智能体就会从提炼自 AR 研究的工具库中挑选追踪、界面和逻辑组件，当场替你搭建出来。",
+   "idea_en": "Let an AI agent assemble AR apps from research-proven building blocks while you only describe what you want.",
+   "idea_zh": "你只管描述需求，让 AI 智能体用经过研究验证的积木拼出 AR 应用。",
+   "technique": "A tool-augmented LLM agent plans against a structured AR application template and calls functions from a tool library (object detection, anchoring, UI, triggers) to generate and run the app in the headset.",
+   "technique_zh": "一个可调用工具的大语言模型智能体按照结构化的 AR 应用模板做规划，并调用工具库中的函数（物体检测、锚定、界面、触发器），在头显中生成并运行应用。",
+   "exercise_en": "Define five Unity or Lens Studio functions (spawnObject, attachLabel, onObjectSeen, playSound, showTimer), expose them to an LLM through function calling, type 'remind me to drink when I look at my cup' and watch the agent wire them together. Twist: make the agent ask one clarifying question before it builds anything.",
+   "exercise_zh": "在 Unity 或 Lens Studio 里定义五个函数（spawnObject、attachLabel、onObjectSeen、playSound、showTimer），通过函数调用开放给大语言模型，输入“当我看向杯子时提醒我喝水”，观察智能体如何把它们串起来。变体：要求智能体在动手搭建之前先问一个澄清问题。",
+   "interaction": [
+    "voice-sound",
+    "spatial-mapping",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "LLM agent",
+    "function calling",
+    "Unity",
+    "mixed reality headset"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "vVUakvZij0Q",
+    "url": "https://www.youtube.com/watch?v=vVUakvZij0Q"
+   },
+   "ai_cat": "cocreate"
+  },
+  {
+   "id": "zinn-labs--gazegpt",
+   "creator_ids": [
+    "zinn-labs"
+   ],
+   "title": "GazeGPT",
+   "year": 2024,
+   "description": "Smart eyewear that tells a multimodal LLM exactly what you are looking at: glance at a dog and ask 'what breed is this?', and the eye tracker tells the AI which of the many things in view you mean.",
+   "description_zh": "一副智能眼镜，能把你正注视的东西准确告诉多模态大模型：看向一只狗问“这是什么品种？”，眼动追踪就会告诉 AI 画面中众多物体里你指的是哪一个。",
+   "idea_en": "Use your gaze as the pointer for an AI that looks through your glasses.",
+   "idea_zh": "把你的目光当作透过眼镜看世界的 AI 的指针。",
+   "technique": "An eye tracker maps gaze into the world-facing camera image; the region around the gaze point is cropped and sent with the spoken question to a multimodal LLM.",
+   "technique_zh": "眼动仪把注视点映射到朝外摄像头的画面中，截取注视点周围区域，与语音问题一起发送给多模态大模型。",
+   "exercise_en": "Without an eye tracker, fake gaze with the phone's screen center or a fingertip tracked by MediaPipe: crop that region, send it with a spoken question to a multimodal LLM, and compare answers with and without the crop on a cluttered desk. Twist: record where the user looked for a minute and ask the AI what they seem to be interested in.",
+   "exercise_zh": "没有眼动仪时，可以用手机屏幕中心或 MediaPipe 追踪的指尖来模拟注视：截取该区域，连同语音问题发给多模态大模型，在杂乱的桌面上比较裁切与不裁切时的回答差异。变体：记录用户一分钟内看过的位置，请 AI 推测他对什么感兴趣。",
+   "interaction": [
+    "gaze-attention",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "eye tracking",
+    "multimodal LLM",
+    "smart eyewear"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "AuDFHHTK_m8",
+    "url": "https://www.youtube.com/watch?v=AuDFHHTK_m8"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://arxiv.org/abs/2401.17217"
+  },
+  {
+   "id": "meta-rl-research--omniactions",
+   "creator_ids": [
+    "meta-rl-research"
+   ],
+   "title": "OmniActions",
+   "year": 2024,
+   "description": "A pervasive-AR concept that predicts which digital action you may want to take on whatever you are seeing or hearing, such as saving a poster's date to your calendar or sharing a song, and offers it as a one-tap shortcut.",
+   "description_zh": "一个“无处不在的 AR”构想：针对你正看到或听到的东西，预测你可能想做的数字操作，比如把海报上的日期存进日历、分享正在播放的歌，并以一键快捷方式呈现。",
+   "idea_en": "Turn anything you perceive into a ready-made next action.",
+   "idea_zh": "把你感知到的一切，变成现成的下一步操作。",
+   "technique": "A diary study produced a taxonomy of follow-up actions; an LLM with chain-of-thought prompting reads multimodal sensory input and predicts the most likely action categories.",
+   "technique_zh": "作者通过日记研究总结出后续操作的分类体系，再由带思维链提示的大语言模型读取多模态感知输入，预测最可能的操作类别。",
+   "exercise_en": "Build a phone camera app with three buttons the AI fills in: point at a poster, menu or product, send the frame to a multimodal LLM that returns the three most useful actions as JSON (label and app), and render them as AR chips next to the object. Twist: have the AI also predict one action the user should not take.",
+   "exercise_zh": "做一个带三个按钮的手机相机应用，按钮内容由 AI 填写：对准海报、菜单或商品，把画面发给多模态大模型，让它以 JSON 返回最有用的三个操作（名称与对应应用），并作为 AR 小标签显示在物体旁。变体：让 AI 同时预测一个用户最好不要做的操作。",
+   "interaction": [
+    "data-information",
+    "voice-sound",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "LLM",
+    "chain-of-thought prompting",
+    "multimodal sensing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "DZ8CXS2iS0o",
+    "url": "https://www.youtube.com/watch?v=DZ8CXS2iS0o"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://arxiv.org/abs/2405.03901"
+  },
+  {
+   "id": "meta-rl-research--promemassist",
+   "creator_ids": [
+    "meta-rl-research"
+   ],
+   "title": "ProMemAssist",
+   "year": 2025,
+   "description": "Smart glasses that model your working memory in real time and time their help to it: they hold back a reminder while you are juggling numbers and deliver it at a natural break instead of interrupting.",
+   "description_zh": "一副实时建模你“工作记忆”的智能眼镜，据此决定何时提供帮助：你正在心算一串数字时，它会先按住提醒，等你自然停顿时再说，而不是打断你。",
+   "idea_en": "An assistant that knows not only what to say but when your mind has room for it.",
+   "idea_zh": "一个不仅知道说什么、还知道你脑子什么时候腾得出空间的助手。",
+   "technique": "Following cognitive theories of working memory, multimodal sensor signals are encoded as memory items subject to displacement and interference, and a timing predictor weighs the value of help against the cost of interruption.",
+   "technique_zh": "依据工作记忆的认知理论，把多模态传感信号编码为会被替换和干扰的记忆项，再由时机预测器在帮助的价值与打断的代价之间权衡。",
+   "exercise_en": "Prototype an interruption-aware notifier: log what the user is doing (typing speed, speech, head motion from a phone or headset) and queue AI-generated reminders until a simple 'busy score' drops below a threshold. Twist: show queued reminders as small objects piling up in the corner of view.",
+   "exercise_zh": "做一个懂得“别打扰”的提醒原型：记录用户当前的状态（打字速度、说话、手机或头显检测到的头部运动），把 AI 生成的提醒排队，直到简单的“忙碌分数”低于阈值才弹出。变体：把排队中的提醒显示成视野角落里越堆越高的小物件。",
+   "interaction": [
+    "gaze-attention",
+    "data-information",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "smart glasses",
+    "working-memory model",
+    "LLM",
+    "multimodal sensing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "4fd5p7sR6Mo",
+    "url": "https://www.youtube.com/watch?v=4fd5p7sR6Mo"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://arxiv.org/abs/2507.21378"
+  },
+  {
+   "id": "meta-rl-research--xair",
+   "creator_ids": [
+    "meta-rl-research"
+   ],
+   "title": "XAIR",
+   "year": 2023,
+   "description": "A design framework, with headset prototypes, for when and how AR assistants should explain their AI decisions, such as why a recipe step or a plant-watering reminder appears, and how much detail to show.",
+   "description_zh": "一个设计框架（附头显原型），回答 AR 助手应当在何时、以何种方式解释自己的 AI 决策，比如为什么弹出某个菜谱步骤或浇花提醒，以及要展示多少细节。",
+   "idea_en": "Treat 'why is the AI showing me this?' as a first-class AR design question.",
+   "idea_zh": "把“AI 为什么给我看这个？”当作 AR 设计的头等问题。",
+   "technique": "Built from a literature review, a survey of more than 500 users and expert workshops, XAIR splits explanation design into when to explain, what to explain and how to present it, and was validated with designers and a real-time AR prototype.",
+   "technique_zh": "基于文献综述、500 多人的问卷调查和专家工作坊，XAIR 把解释设计拆成“何时解释、解释什么、如何呈现”三个问题，并通过设计师研究和实时 AR 原型加以验证。",
+   "exercise_en": "Take an AI-driven AR feature you have built (a label, a recommendation, a reminder) and design three explanation levels: none, a one-word reason, and a tap-to-expand panel; test them with classmates and note when the explanation helps or annoys. Twist: show the explanation only when the user's gaze lingers on the AI output.",
+   "exercise_zh": "拿一个你做过的 AI 驱动 AR 功能（标签、推荐或提醒），设计三种解释层级：不解释、一个词的理由、点开可展开的面板；请同学测试，记录解释何时有帮助、何时惹人烦。变体：只有当用户的目光停留在 AI 输出上时才显示解释。",
+   "interaction": [
+    "data-information",
+    "gaze-attention"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "explainable AI",
+    "design framework",
+    "AR headset prototype"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "yugkzrBbTCs",
+    "url": "https://www.youtube.com/watch?v=yugkzrBbTCs"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://arxiv.org/abs/2303.16292"
+  },
+  {
+   "id": "ludwig-sidenmark--prop-chromeleon",
+   "creator_ids": [
+    "ludwig-sidenmark"
+   ],
+   "title": "Prop-Chromeleon",
+   "year": 2026,
+   "description": "A mixed-reality system that turns any everyday object into a haptic prop: type 'a magic lantern' while holding a water bottle and a virtual lantern shaped to fit the bottle is generated and overlaid on it, so what you see matches what you feel.",
+   "description_zh": "一个把日常物品变成触觉道具的混合现实系统：手里拿着水瓶输入“魔法灯笼”，系统就生成一个贴合瓶子形状的虚拟灯笼叠加在瓶子上，让看到的和摸到的保持一致。",
+   "idea_en": "Reskin the object in your hand with a prompt, using its real shape as the constraint.",
+   "idea_zh": "用一句提示词给手中的物体“换皮”，并以它真实的形状为约束。",
+   "technique": "An AI pipeline captures the prop's geometry, generates a 3D asset from the text prompt under shape constraints, and anchors it to the tracked physical object in the headset.",
+   "technique_zh": "AI 流程先获取道具的几何形状，在形状约束下根据文本提示生成三维素材，再把它锚定到头显中被追踪的实体物体上。",
+   "exercise_en": "Pick three props with different shapes (a cylinder, a box, a ball), generate three virtual skins for each with a text-to-3D or text-to-texture tool, and attach them to the tracked objects with image or object tracking in Lens Studio or AR Foundation. Twist: let a squeeze or a shake trigger a new prompt, so the object transforms in your hand.",
+   "exercise_zh": "挑三个形状不同的道具（圆柱、盒子、球），用文本生成三维或文本生成纹理工具为每个道具生成三种虚拟外观，再在 Lens Studio 或 AR Foundation 中用图像或物体追踪把它们贴到实体上。变体：握紧或摇晃物体就触发新的提示词，让它在你手中变身。",
+   "interaction": [
+    "tangible-object",
+    "hand-body",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "generative AI",
+    "text-to-3D",
+    "object tracking",
+    "mixed reality headset"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "IKRM-_YxGpM",
+    "url": "https://www.youtube.com/watch?v=IKRM-_YxGpM"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://arxiv.org/abs/2605.00804"
+  },
+  {
+   "id": "laura-schutz--sonify-anything",
+   "creator_ids": [
+    "laura-schutz"
+   ],
+   "title": "Sonify Anything",
+   "year": 2025,
+   "description": "When a virtual object hits a real one in AR, the system recognizes the real material (glass, wood, metal) and synthesizes a physically plausible impact sound on the fly instead of a generic click.",
+   "description_zh": "在 AR 中，当虚拟物体撞上真实物体时，系统会识别真实物体的材质（玻璃、木头、金属），并实时合成符合物理规律的撞击声，而不是一声千篇一律的“咔哒”。",
+   "idea_en": "Let the materials of the real world decide how virtual collisions sound.",
+   "idea_zh": "让真实世界的材质来决定虚拟碰撞的声音。",
+   "technique": "Computer-vision models segment and classify the materials of real objects, and their physical properties plus the impact dynamics drive real-time modal sound synthesis.",
+   "technique_zh": "计算机视觉模型对真实物体的材质进行分割与分类，再用材质的物理属性和撞击动力学驱动实时模态声音合成。",
+   "exercise_en": "Throw virtual balls at real furniture in a phone AR app; on each hit, classify the surface at the impact point with a material-recognition model or a vision-LLM prompt and play a synthesized sound (Tone.js or a physical-model patch) tuned to that material. Twist: exaggerate one material so the whole room sounds as if it were made of glass.",
+   "exercise_zh": "在手机 AR 应用中把虚拟小球扔向真实家具；每次击中时，用材质识别模型或视觉大模型提示判断撞击点表面的材质，播放针对该材质调好的合成音（Tone.js 或物理建模音色）。变体：夸大某一种材质，让整个房间听起来像是玻璃做的。",
+   "interaction": [
+    "voice-sound",
+    "spatial-mapping",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "material segmentation",
+    "modal sound synthesis",
+    "AR headset"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "tN6JE3kNUbk",
+    "url": "https://www.youtube.com/watch?v=tN6JE3kNUbk"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://arxiv.org/abs/2508.01789"
+  },
+  {
+   "id": "fabrice-matulic--talking-objects",
+   "creator_ids": [
+    "fabrice-matulic"
+   ],
+   "title": "Bringing Everyday Objects to Life with AI-Powered Talking Characters",
+   "year": 2025,
+   "description": "Household objects become talking AR characters: a kettle, a plant or a chair gets an animated face and a personality drawn from what it is, chats with you about the room and reacts when things around it change.",
+   "description_zh": "家里的物品变成会说话的 AR 角色：水壶、盆栽或椅子长出动画面孔，拥有由其功能和特点衍生出的性格，和你聊房间里的事，并在周围发生变化时作出反应。",
+   "idea_en": "Give every object a voice and a personality that come from what the object is.",
+   "idea_zh": "让每件物品都有声音和性格，而这些都来自它本身是什么。",
+   "technique": "Vision models recognize the object and its surroundings, an LLM generates a personality and dialogue grounded in the object's function, and speech synthesis with an animated overlay runs on HoloLens 2 or an Android phone.",
+   "technique_zh": "视觉模型识别物体及其周围环境，大语言模型依据物体的功能生成性格和对话，再配合语音合成与动画叠加，运行在 HoloLens 2 或安卓手机上。",
+   "exercise_en": "Stick AR googly eyes on three objects with Lens Studio or web image tracking, write a one-line persona for each ('I am a stapler who hates loose paper'), and connect them to an LLM and text-to-speech so students can interview them. Twist: let two objects gossip with each other about the user.",
+   "exercise_zh": "用 Lens Studio 或网页图像追踪给三件物品贴上 AR 大眼睛，为每件写一句人设（“我是一只讨厌散乱纸张的订书机”），接入大语言模型和语音合成，让学生去采访它们。变体：让两件物品互相八卦，话题就是用户本人。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound",
+    "game-play"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "HoloLens 2",
+    "Android",
+    "LLM",
+    "vision models",
+    "speech synthesis"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "RkRc7TRDPDQ",
+    "url": "https://www.youtube.com/watch?v=RkRc7TRDPDQ"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://dl.acm.org/doi/10.1145/3706599.3719978"
+  },
+  {
+   "id": "yu-wang-beihang--if-my-apple-can-talk",
+   "creator_ids": [
+    "yu-wang-beihang"
+   ],
+   "title": "If My Apple Can Talk",
+   "year": 2025,
+   "description": "A mixed-reality study that turns everyday objects such as an apple, a cup or a book into personalized AI agents, exploring how an object's shape, material and use can shape the agent's look, voice and personality.",
+   "description_zh": "一项混合现实研究：把苹果、杯子、书本等日常物品变成个性化 AI 智能体，探讨物品的形态、材质和用途如何塑造智能体的外观、声音与性格。",
+   "idea_en": "An object's physical traits become the design brief for its AI personality.",
+   "idea_zh": "物体的物理特征，就是它 AI 性格的设计说明书。",
+   "technique": "A formative study produced design dimensions for object agents; the mixed-reality prototype likely combines object recognition, an LLM persona and expressive virtual features anchored to the real object.",
+   "technique_zh": "通过前期研究得出物品智能体的设计维度；混合现实原型可能结合了物体识别、大语言模型人设以及锚定在真实物体上的表情化虚拟特征。",
+   "exercise_en": "Choose one object and write its persona from four traits (shape, material, function and age), build a phone AR character on it with an LLM voice, and compare it with a classmate's persona for the same object. Twist: let the persona change as the object is used up, like an apple being eaten or a candle burning down.",
+   "exercise_zh": "选一件物品，从形状、材质、用途和“年龄”四个特征写出它的人设，在手机 AR 里给它做一个接入大模型语音的角色，再与同学为同一物品写的人设作比较。变体：让人设随着物品被消耗而改变，比如被吃掉的苹果、越烧越短的蜡烛。",
+   "interaction": [
+    "tangible-object",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "mixed reality headset",
+    "LLM",
+    "object recognition"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "XyrT846glfE",
+    "url": "https://www.youtube.com/watch?v=XyrT846glfE"
+   },
+   "ai_cat": "agent"
+  },
+  {
+   "id": "james-landay--moon-story",
+   "creator_ids": [
+    "james-landay"
+   ],
+   "title": "Moon Story (Scientific and Fantastical)",
+   "year": 2024,
+   "description": "A mobile AR story app for elementary schoolers that blends fantasy with astronomy and environmental science: story scenes appear in the child's own surroundings and LLM-driven characters let children talk with the story as they learn.",
+   "description_zh": "一个面向小学生的手机 AR 故事应用，把奇幻故事与天文、环境科学融在一起：故事场景出现在孩子自己身边，由大语言模型驱动的角色让孩子边学边与故事对话。",
+   "idea_en": "Blend a fantasy story with real science and let the characters answer the child's own questions.",
+   "idea_zh": "把奇幻故事和真实科学揉在一起，让故事角色回答孩子自己的问题。",
+   "technique": "AR scenes are anchored in the child's environment on a phone, while an LLM drives the characters' dialogue within the narrative and the lesson content.",
+   "technique_zh": "在手机上把 AR 场景锚定到孩子所处的环境中，同时由大语言模型在故事情节和课程内容的范围内驱动角色对话。",
+   "exercise_en": "Write a five-scene AR story about the Moon for a nine-year-old, place each scene on a table with AR Foundation or Adobe Aero, and give the guide character an LLM system prompt that keeps answers scientifically accurate and under two sentences. Twist: ask the child where their family comes from and let the LLM retell one scene with a Moon myth from that culture.",
+   "exercise_zh": "为九岁孩子写一个五幕的月球 AR 故事，用 AR Foundation 或 Adobe Aero 把每一幕放到桌面上，并给向导角色写一段大模型系统提示，确保回答科学准确且不超过两句话。变体：问孩子家乡在哪里，让大模型用那种文化里关于月亮的神话重讲其中一幕。",
+   "interaction": [
+    "data-information",
+    "voice-sound",
+    "game-play"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "mobile AR",
+    "LLM",
+    "interactive narrative"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ZpKhhMcS8Jw",
+    "url": "https://www.youtube.com/watch?v=ZpKhhMcS8Jw"
+   },
+   "ai_cat": "agent"
+  },
+  {
+   "id": "andres-monroy-hernandez--capybara",
+   "creator_ids": [
+    "andres-monroy-hernandez"
+   ],
+   "title": "Capybara",
+   "year": 2025,
+   "description": "An AR visual-programming environment for children: they create 3D characters and accessories with text-to-3D AI, animate them with auto-rigging and their own body movements, and program how the characters react to real objects the camera recognizes.",
+   "description_zh": "面向儿童的 AR 可视化编程环境：孩子们用文本生成三维的 AI 创造角色和配饰，借助自动绑骨和自己的身体动作让角色动起来，再编程让角色对摄像头识别出的真实物体作出反应。",
+   "idea_en": "Make children the creators of AI-powered AR, not just its audience.",
+   "idea_zh": "让孩子成为 AI 驱动 AR 的创作者，而不只是观众。",
+   "technique": "Text-to-3D models generate the characters, auto-rigging and body tracking animate them, vision models recognize physical objects, and block-based code links recognition events to character behaviors.",
+   "technique_zh": "文本生成三维模型制作角色，自动绑骨和身体追踪让角色动起来，视觉模型识别实体物体，积木式代码把识别事件与角色行为连接起来。",
+   "exercise_en": "Run a kids' workshop: each child types a character description into a text-to-3D tool, imports the model into a phone AR app, and uses a simple rule card ('when you see a banana, dance') implemented with an object detector to make it react. Twist: let children program two characters that react to each other, not only to objects.",
+   "exercise_zh": "办一场儿童工作坊：每个孩子把角色描述输入文本生成三维工具，把模型导入手机 AR 应用，再用一张简单的规则卡（“看到香蕉就跳舞”）配合物体检测让角色作出反应。变体：让孩子为两个角色编程，让它们彼此互动，而不只对物体反应。",
+   "interaction": [
+    "drawing-creation",
+    "tangible-object",
+    "hand-body"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "text-to-3D",
+    "auto-rigging",
+    "body tracking",
+    "object recognition",
+    "visual programming"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "paJP8B8btVk",
+    "url": "https://www.youtube.com/watch?v=paJP8B8btVk"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://arxiv.org/abs/2508.08467"
+  },
+  {
+   "id": "boyu-li--videocraft",
+   "creator_ids": [
+    "boyu-li"
+   ],
+   "title": "VideoCraft",
+   "year": 2025,
+   "description": "A mixed-reality workflow for concept videos of real spaces: film a room, place and adjust new virtual objects in MR as spatial layers, and a video-to-video generation model renders the final footage with the new elements blended in.",
+   "description_zh": "一个用混合现实制作真实空间概念视频的工作流：先拍下房间，在 MR 中以空间图层的形式放置和调整新的虚拟物体，再由视频到视频生成模型渲染出新元素自然融入的成片。",
+   "idea_en": "Use MR to direct a generative video model with precise spatial layers.",
+   "idea_zh": "用 MR 提供精确的空间图层，来“导演”生成式视频模型。",
+   "technique": "Placing objects in MR yields depth-aware object layers and camera paths that condition a video-to-video diffusion model, so inserted objects stay in place across frames.",
+   "technique_zh": "在 MR 中摆放物体得到带深度的物体图层和相机路径，用它们为视频到视频扩散模型提供条件，使插入的物体在各帧中保持位置稳定。",
+   "exercise_en": "Record a short phone AR video in which a grey cube stands in for a new object, then feed the clip and a prompt ('a vintage armchair') to a video-to-video or image-to-video model and check whether the placement survives. Twist: film the same shot with and without the placeholder and discuss what the AI needs from AR.",
+   "exercise_zh": "用手机 AR 拍一段短视频，用灰色方块代替新物体，再把视频和提示词（“一把复古扶手椅”）交给视频到视频或图生视频模型，看摆放位置能否被保留。变体：同一镜头分别拍有占位物和没有占位物的两版，讨论 AI 需要 AR 提供什么。",
+   "interaction": [
+    "drawing-creation",
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "mixed reality",
+    "video diffusion",
+    "video-to-video generation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "uvozXgniRok",
+    "url": "https://www.youtube.com/watch?v=uvozXgniRok"
+   },
+   "ai_cat": "cocreate"
+  },
+  {
+   "id": "tianyi-xiao--sketch2terrain",
+   "creator_ids": [
+    "tianyi-xiao"
+   ],
+   "title": "Sketch2Terrain",
+   "year": 2025,
+   "description": "Draw a few freehand 3D strokes in AR and an AI model turns them into a complete terrain with hills and valleys in real time, so non-experts can sketch the landscapes they remember.",
+   "description_zh": "在 AR 中随手画几笔三维线条，AI 模型就会实时把它们变成带山丘和山谷的完整地形，让非专业人士也能画出记忆中的地貌。",
+   "idea_en": "Sketch a few ridgelines in the air and let AI fill in the whole landscape.",
+   "idea_zh": "在空中画几条山脊线，让 AI 补全整片地形。",
+   "technique": "Strokes are turned into a curve network and a height-map image, which a pix2pix image-to-image model completes into a terrain height map rendered as a 3D mesh in the headset.",
+   "technique_zh": "笔画被转换成曲线网络和高度图图像，由 pix2pix 图像到图像模型补全为地形高度图，再在头显中渲染成三维网格。",
+   "exercise_en": "Have students draw a few contour lines on paper or in a web canvas, turn the image into a height map with an image-to-image model (or a height-map ControlNet), and load it as a displaced plane on a table in phone AR. Twist: a second student walks a tiny virtual figure across the terrain and describes the route in words.",
+   "exercise_zh": "让学生在纸上或网页画布上画几条等高线，用图像到图像模型（或高度图 ControlNet）把图像变成高度图，再在手机 AR 中把它作为置换平面放到桌上。变体：另一位同学在地形上走一个虚拟小人，并用文字描述这条路线。",
+   "interaction": [
+    "drawing-creation",
+    "spatial-mapping",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "pix2pix",
+    "3D sketching",
+    "AR headset",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "DPvd_EmxzVg",
+    "url": "https://www.youtube.com/watch?v=DPvd_EmxzVg"
+   },
+   "ai_cat": "generate",
+   "code_url": "https://github.com/TX-XR/Sketch2Terrain-CHI25"
+  },
+  {
+   "id": "bangbang-yang--dreamspace",
+   "creator_ids": [
+    "bangbang-yang"
+   ],
+   "title": "DreamSpace",
+   "year": 2024,
+   "description": "Type a style such as 'Van Gogh' or 'cyberpunk' and your own scanned room is re-textured in that style end to end, with coherent textures across walls, floor and furniture that you can walk through in a headset.",
+   "description_zh": "输入一个风格，比如“梵高”或“赛博朋克”，你扫描下来的房间就会整体换上这种风格的纹理，墙面、地板和家具之间保持一致，戴上头显就能走进去。",
+   "idea_en": "Repaint your real room with a sentence while keeping its real geometry.",
+   "idea_zh": "用一句话重新粉刷你真实的房间，同时保留它的真实结构。",
+   "technique": "A diffusion model first imagines a stylized 360-degree panoramic texture from the room's center, which is then propagated to occluded areas with inpainting and imitation and baked onto the reconstructed mesh.",
+   "technique_zh": "先用扩散模型从房间中心“想象”出一张风格化的 360 度全景纹理，再通过补全与模仿把纹理传播到被遮挡区域，烘焙到重建的网格上。",
+   "exercise_en": "Scan a room corner with a LiDAR phone (Polycam or Reality Composer), take a 360 photo from the middle, restyle it with an image-to-image diffusion model, and project the stylized panorama back onto the mesh in Unity or Blender to view in AR or VR. Twist: restyle only the surfaces you have touched, so the room changes as you move through it.",
+   "exercise_zh": "用带 LiDAR 的手机（Polycam 或 Reality Composer）扫描房间一角，在房间中央拍一张 360 度照片，用图像到图像扩散模型改变风格，再在 Unity 或 Blender 中把风格化全景投射回网格，用 AR 或 VR 观看。变体：只重绘你摸过的表面，让房间随着你的走动逐渐变样。",
+   "interaction": [
+    "portal-world",
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "diffusion model",
+    "panoramic texturing",
+    "inpainting",
+    "mesh texturing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Ni5kXdj7cfw",
+    "url": "https://www.youtube.com/watch?v=Ni5kXdj7cfw"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://ybbbbt.com/publication/dreamspace/",
+   "code_url": "https://github.com/ybbbbt/DreamSpace"
+  },
+  {
+   "id": "harvard-vcg--vistar",
+   "creator_ids": [
+    "harvard-vcg"
+   ],
+   "title": "ViSTAR",
+   "year": 2026,
+   "description": "An AR basketball trainer: a 3D avatar demonstrates the shot, overlays and rhythm cues show your balance, posture and timing, and an AI coach turns your reconstructed 3D motion into short spoken tips.",
+   "description_zh": "一个 AR 篮球训练系统：三维虚拟人示范投篮，叠加画面和节奏提示展示你的平衡、姿势与时机，AI 教练再把重建出的三维动作转化为简短的口头建议。",
+   "idea_en": "Let an LLM read your 3D motion data and talk like a coach.",
+   "idea_zh": "让大语言模型读懂你的三维动作数据，像教练一样说话。",
+   "technique": "3D motion reconstruction extracts spatio-temporal joint features that an LLM maps to natural-language coaching cues within a behavioral-skills-training loop of instruction, modeling, rehearsal and feedback.",
+   "technique_zh": "三维动作重建提取时空关节特征，由大语言模型在“讲解、示范、练习、反馈”的行为技能训练循环中，把它们转化为自然语言的指导语。",
+   "exercise_en": "Record a squat or a free throw with MediaPipe Pose on a phone, compute three numbers (knee angle, back angle, timing), send them to an LLM with the prompt 'give one coaching cue in under eight words', and show the cue in AR next to your body. Twist: ask the LLM to coach in the style of a famous coach or a cartoon character.",
+   "exercise_zh": "用手机上的 MediaPipe Pose 录下一次深蹲或罚球，计算三个数值（膝盖角度、背部角度、时机），连同提示“用不超过八个词给一条指导”发给大语言模型，并在 AR 中把建议显示在身体旁边。变体：让大模型模仿某位著名教练或卡通角色的风格来指导。",
+   "interaction": [
+    "hand-body",
+    "game-play",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "3D motion reconstruction",
+    "LLM",
+    "AR headset"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "aaCfLeenGdE",
+    "url": "https://www.youtube.com/watch?v=aaCfLeenGdE"
+   },
+   "ai_cat": "body",
+   "source_url": "https://arxiv.org/abs/2602.22077"
+  },
+  {
+   "id": "fernanda-de-la-torre--llmr",
+   "creator_ids": [
+    "fernanda-de-la-torre"
+   ],
+   "title": "LLMR",
+   "year": 2024,
+   "description": "A framework for speaking interactive mixed-reality worlds into existence: type or say 'make a timer out of a rotating cube' or 'recolor the scene for a color-blind user' and an LLM writes and runs the Unity code live.",
+   "description_zh": "一个“用语言把可交互混合现实世界说出来”的框架：输入或说出“用一个旋转的方块做个计时器”“为色盲用户重新配色”，大语言模型就会实时编写并运行 Unity 代码。",
+   "idea_en": "Language becomes the runtime: objects, behaviors and scene edits are generated as code while you are inside the world.",
+   "idea_zh": "语言即运行时：身处世界之中时，物体、行为与场景修改都作为代码即时生成。",
+   "technique": "Several GPT-4 roles (scene analyzer, planner, builder, inspector) collaborate using a scene summary and memory, generate C# for Unity and debug it before execution.",
+   "technique_zh": "多个 GPT-4 角色（场景分析、规划、构建、检查）借助场景摘要和记忆协作，生成 Unity 的 C# 代码，并在执行前自我调试。",
+   "exercise_en": "In Unity, expose a tiny runtime command layer (a JSON command set or Roslyn scripting) and let an LLM receive a scene summary plus a user request and return commands; try five requests ranging from spawning objects to changing physics. Twist: add an 'inspector' prompt that reviews generated code before it runs and count the errors it catches.",
+   "exercise_zh": "在 Unity 中开放一个小型运行时指令层（一套 JSON 指令或 Roslyn 脚本），让大语言模型接收场景摘要和用户请求并返回指令；从生成物体到修改物理，尝试五个请求。变体：增加一个“检查员”提示，在代码运行前审查生成结果，统计它拦下了多少错误。",
+   "interaction": [
+    "voice-sound",
+    "drawing-creation",
+    "data-information"
+   ],
+   "platform": [
+    "headset",
+    "desktop"
+   ],
+   "tech": [
+    "GPT-4",
+    "Unity",
+    "DALL-E",
+    "CLIP",
+    "Sketchfab"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "9YdYkgNNpE8",
+    "url": "https://www.youtube.com/watch?v=9YdYkgNNpE8"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://arxiv.org/abs/2309.12276",
+   "code_url": "https://github.com/microsoft/LLMR"
+  },
+  {
+   "id": "chen-chen-fiu--chatmuse",
+   "creator_ids": [
+    "chen-chen-fiu"
+   ],
+   "title": "ChatMuse",
+   "year": 2026,
+   "description": "A proactive mixed-reality agent for in-person small-group conversations: it reads everyone's verbal and non-verbal cues and quietly suggests to the wearer what to say, when to jump in or how to include a quiet friend, learning from how the wearer responds.",
+   "description_zh": "一个用于线下小组交谈的主动式混合现实智能体：它读取所有人的语言与非语言线索，悄悄提示佩戴者该说什么、何时插话、如何照顾沉默的朋友，并从佩戴者的反应中不断学习。",
+   "idea_en": "An AI prompter whispering from the wings of a real conversation.",
+   "idea_zh": "在真实对话的侧幕里轻声提词的 AI。",
+   "technique": "Speech transcription and non-verbal cue sensing from all participants feed an LLM that generates real-time verbal and behavioral guidance shown as MR overlays; the wearer's reactions refine later suggestions.",
+   "technique_zh": "对所有参与者进行语音转写和非语言线索感知，交给大语言模型生成实时的说话与行为建议，以 MR 叠加层呈现；佩戴者的反应又用来改进后续建议。",
+   "exercise_en": "Run a three-person conversation in which one person sees a live transcript on a phone or headset; every 30 seconds an LLM reads the transcript and suggests one short action ('ask Mia about her trip'). Debrief on which hints felt helpful and which felt creepy. Twist: show the same hint to everyone at once and watch how the group dynamic changes.",
+   "exercise_zh": "组织一场三人对话，其中一人在手机或头显上看到实时转写；每 30 秒让大模型读取转写并给出一条简短的行动建议（“问问 Mia 她的旅行”）。结束后讨论哪些提示有帮助、哪些让人不舒服。变体：把同一条提示同时展示给所有人，观察群体氛围如何变化。",
+   "interaction": [
+    "multiplayer-social",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "mixed reality headset",
+    "LLM",
+    "speech transcription",
+    "non-verbal cue sensing"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "IMoYRhvsHsI",
+    "url": "https://www.youtube.com/watch?v=IMoYRhvsHsI"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://arxiv.org/abs/2607.18556"
+  },
+  {
+   "id": "youngki-lee--bubbleu",
+   "creator_ids": [
+    "youngki-lee"
+   ],
+   "title": "Bubbleu",
+   "year": 2023,
+   "description": "An AR pet-breeding game in which you feed your creature by pointing the camera at real objects; because object detection often fails, the game is designed around that uncertainty through ambiguity, transparency and player control.",
+   "description_zh": "一款 AR 宠物养成游戏：把相机对准真实物品来喂养你的小怪兽；由于物体检测常常出错，游戏通过“模糊性、透明度、可控性”三种设计手法来驾驭这种不确定性。",
+   "idea_en": "Treat the AI's mistakes as game material instead of hiding them.",
+   "idea_zh": "把 AI 的错误当作游戏素材，而不是把它藏起来。",
+   "technique": "An object-detection model recognizes real items as food; game variants expose or hide the model's confidence, blur what counts as a match, or let players correct results, and were compared in a user study.",
+   "technique_zh": "用物体检测模型把真实物品识别为食物；游戏的不同版本分别展示或隐藏模型置信度、模糊匹配标准、或让玩家修正结果，并在用户研究中进行比较。",
+   "exercise_en": "Build a phone game where a creature eats whatever the camera detects (COCO-SSD in the browser is enough), then make three versions: hide confidence, show confidence as the pet's mood, and let players argue with the pet when it is wrong. Twist: let the pet's personality grow out of its most frequent misrecognitions.",
+   "exercise_zh": "做一个手机游戏：小怪兽会吃掉摄像头检测到的任何东西（浏览器里的 COCO-SSD 就够用），再做三个版本——隐藏置信度、把置信度表现为宠物的心情、在识别出错时让玩家和宠物争论。变体：让宠物的性格从它最常见的误识别中长出来。",
+   "interaction": [
+    "game-play",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "object detection",
+    "mobile AR",
+    "game design"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "nrq8WfGFB8s",
+    "url": "https://www.youtube.com/watch?v=nrq8WfGFB8s"
+   },
+   "ai_cat": "understand"
+  },
+  {
+   "id": "ryo-suzuki--video2mr",
+   "creator_ids": [
+    "ryo-suzuki"
+   ],
+   "title": "Video2MR",
+   "year": 2025,
+   "description": "Turns any online sports or exercise video into a mixed-reality coach: the person in the 2D video becomes a 3D avatar in your room, with highlighted posture differences, motion trails, speed control and repositioning for other viewpoints.",
+   "description_zh": "把任意网上的运动或健身视频变成混合现实教练：视频里的人成为你房间中的三维虚拟人，并提供姿势差异高亮、动作轨迹、速度控制以及换视角的重新摆位。",
+   "idea_en": "Lift the person out of a YouTube video and make them your 3D trainer.",
+   "idea_zh": "把人从 YouTube 视频里“拎出来”，变成你的三维教练。",
+   "technique": "AI motion capture (DeepMotion) extracts 3D motion from 2D video to drive an avatar on HoloLens 2, while Azure Kinect tracks the user to compare postures and trigger augmentations.",
+   "technique_zh": "用 AI 动作捕捉（DeepMotion）从二维视频中提取三维动作，驱动 HoloLens 2 中的虚拟人，同时用 Azure Kinect 追踪用户，对比姿势并触发各种增强效果。",
+   "exercise_en": "Take a ten-second dance or yoga clip, extract 3D motion with a free AI mocap tool (DeepMotion, Rokoko Video or MediaPipe), retarget it to a Mixamo character and stand it on the floor next to you in phone AR. Twist: slow the avatar down whenever your own pose, tracked with MediaPipe, drifts too far from it.",
+   "exercise_zh": "选一段十秒的舞蹈或瑜伽片段，用免费的 AI 动作捕捉工具（DeepMotion、Rokoko Video 或 MediaPipe）提取三维动作，重定向到 Mixamo 角色，在手机 AR 中让它站在你身旁的地面上。变体：当你自己的姿势（由 MediaPipe 追踪）偏离太多时，让虚拟人自动放慢。",
+   "interaction": [
+    "hand-body",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "HoloLens 2",
+    "Azure Kinect",
+    "DeepMotion",
+    "AI motion capture"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "f1L-2US25PU",
+    "url": "https://www.youtube.com/watch?v=f1L-2US25PU"
+   },
+   "ai_cat": "body",
+   "source_url": "https://ryosuzuki.org/video2mr/"
+  },
+  {
+   "id": "ryo-suzuki--realitysummary",
+   "creator_ids": [
+    "ryo-suzuki"
+   ],
+   "title": "RealitySummary",
+   "year": 2025,
+   "description": "A mixed-reality reading assistant that always sees the page you are reading and, on demand, places summaries, timelines, comparison tables and answers next to the physical document.",
+   "description_zh": "一个混合现实阅读助手：它一直看着你正在读的纸页，需要时就在实体文档旁边放出摘要、时间线、对比表格和问答结果。",
+   "idea_en": "Printed paper gets an AI sidekick that writes in the margins of space.",
+   "idea_zh": "纸质文档多了一个 AI 搭档，在空间的“页边”写批注。",
+   "technique": "An always-on headset camera feeds OCR, and an LLM produces summaries and answers that are rendered as spatial visualizations anchored beside the tracked document.",
+   "technique_zh": "头显常开的摄像头把画面交给 OCR，大语言模型生成摘要与回答，并以空间可视化的形式锚定在被追踪的文档旁。",
+   "exercise_en": "Point a phone at a printed article, run OCR (Apple Vision, Google ML Kit or Tesseract.js), ask an LLM for a three-bullet summary and a timeline, and pin both next to the page with image tracking. Twist: have the AI generate one question you should be able to answer after reading the page.",
+   "exercise_zh": "把手机对准一篇打印的文章，运行 OCR（Apple Vision、Google ML Kit 或 Tesseract.js），请大模型生成三条要点和一条时间线，再用图像追踪把它们钉在纸页旁边。变体：让 AI 生成一个“读完这页你应该能回答”的问题。",
+   "interaction": [
+    "data-information",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "OCR",
+    "LLM",
+    "mixed reality headset"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "JxtctjERJBU",
+    "url": "https://www.youtube.com/watch?v=JxtctjERJBU"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://arxiv.org/abs/2405.18620"
+  },
+  {
+   "id": "ruofei-du--thing2reality",
+   "creator_ids": [
+    "ruofei-du"
+   ],
+   "title": "Thing2Reality",
+   "year": 2025,
+   "description": "During an XR call, grab a 2D image or a physical object from the video feed and it materializes as a 3D object between the participants, generated as multiview renderings or 3D Gaussians that everyone can move and point at.",
+   "description_zh": "在 XR 通话中，从视频画面里“抓取”一张二维图片或一个实体物体，它就会在参与者之间变成三维物体——以多视角渲染或三维高斯的形式生成，所有人都能移动它、指着它讨论。",
+   "idea_en": "Anything you can show on camera can instantly become a shared 3D object.",
+   "idea_zh": "只要能在镜头前展示的东西，都能立刻变成共享的三维物体。",
+   "technique": "Segmented 2D content is lifted to 3D with image-to-multiview diffusion and 3D Gaussian reconstruction, then shared in the immersive call space.",
+   "technique_zh": "把分割出的二维内容通过图像到多视角扩散模型和三维高斯重建提升为三维，再共享到沉浸式通话空间中。",
+   "exercise_en": "Photograph a small object, remove the background, send it to an image-to-3D service (TripoSR, Meshy or Luma) and drop the result into a shared AR scene that two phones can see, for example with Lens Studio Connected Lenses. Twist: generate the 3D object from a child's drawing instead of a photo.",
+   "exercise_zh": "给一个小物件拍照并去除背景，发送到图像生成三维服务（TripoSR、Meshy 或 Luma），再把结果放进两部手机都能看到的共享 AR 场景，比如 Lens Studio Connected Lenses。变体：用孩子画的画而不是照片来生成三维物体。",
+   "interaction": [
+    "multiplayer-social",
+    "tangible-object",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "multiview diffusion",
+    "3D Gaussian splatting",
+    "XR communication"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ZClLOeu6y5A",
+    "url": "https://www.youtube.com/watch?v=ZClLOeu6y5A"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://arxiv.org/abs/2410.07119"
+  },
+  {
+   "id": "ruofei-du--human-io",
+   "creator_ids": [
+    "ruofei-du"
+   ],
+   "title": "Human I/O",
+   "year": 2024,
+   "description": "An egocentric AI system that detects when your eyes, hands, ears or voice are busy, for example while carrying groceries or sitting in a loud café, so XR interfaces can adapt their input and output to what you can do right now.",
+   "description_zh": "一个第一人称视角的 AI 系统，能察觉你的眼睛、双手、耳朵或嗓音何时被占用，比如拎着购物袋或坐在嘈杂的咖啡馆里，从而让 XR 界面根据你此刻能做的事来调整输入和输出方式。",
+   "idea_en": "Before deciding how to talk to you, the interface first asks which of your senses and limbs are free.",
+   "idea_zh": "在决定如何与你交流之前，界面先弄清你的哪些感官和肢体是空闲的。",
+   "technique": "Egocentric video, audio and pose are analyzed by vision and audio models and reasoned over by an LLM with chain-of-thought prompting to estimate how available each human channel is.",
+   "technique_zh": "用视觉和音频模型分析第一人称视频、音频与姿态，再由大语言模型通过思维链推理，估计每个人体通道的可用程度。",
+   "exercise_en": "Film five one-minute first-person clips (cooking, carrying boxes, a noisy street, a meeting, riding as a passenger), send key frames and a transcript to a multimodal LLM asking whether the user's hands, eyes, ears and voice are available, and design how your AR app should switch between voice, gaze and touch in each case. Twist: make the app say aloud why it just switched modes.",
+   "exercise_zh": "拍五段一分钟的第一人称视频（做饭、搬箱子、嘈杂街道、开会、坐在副驾），把关键帧和转写发给多模态大模型，询问用户的手、眼、耳、嗓是否可用，并为每种情况设计你的 AR 应用该如何在语音、注视和触控之间切换。变体：让应用在切换模式时说出原因。",
+   "interaction": [
+    "hand-body",
+    "gaze-attention",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "egocentric vision",
+    "LLM",
+    "chain-of-thought prompting",
+    "audio recognition"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "vHBCLixDEYs",
+    "url": "https://www.youtube.com/watch?v=vHBCLixDEYs"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://arxiv.org/abs/2403.04008"
+  },
+  {
+   "id": "christian-holz--situationadapt",
+   "creator_ids": [
+    "christian-holz"
+   ],
+   "title": "SituationAdapt",
+   "year": 2024,
+   "description": "Mixed-reality windows that rearrange themselves as you move through the world: a vision-language model judges whether a panel would block a person you are talking to, a sign or an obstacle, and an optimizer moves it somewhere better.",
+   "description_zh": "会随你在世界中移动而自动重排的混合现实窗口：视觉语言模型判断某个面板是否会挡住正在与你交谈的人、指示牌或障碍物，再由优化器把它挪到更合适的位置。",
+   "idea_en": "Let a vision-language model act as the social and safety editor of your floating UI.",
+   "idea_zh": "让视觉语言模型充当悬浮界面的“社交与安全编辑”。",
+   "technique": "A perception module detects objects and people, a vision-and-language model scores candidate UI placements for environmental and social suitability, and an optimization module computes the final layout.",
+   "technique_zh": "感知模块检测物体和人，视觉语言模型为候选界面位置的环境与社交适宜度打分，优化模块据此计算最终布局。",
+   "exercise_en": "In a Quest passthrough or phone AR app, place three virtual panels, then every few seconds send a camera frame plus the panel positions to a vision-language model asking which panel blocks something important, and move that panel. Twist: add a rule that panels must never cover a face and test it in a crowded hallway.",
+   "exercise_zh": "在 Quest 透视或手机 AR 应用中放三个虚拟面板，每隔几秒把相机画面和面板位置发给视觉语言模型，询问哪个面板挡住了重要的东西，然后移动那个面板。变体：加上“面板绝不能遮住人脸”的规则，在拥挤的走廊里测试。",
+   "interaction": [
+    "spatial-mapping",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "vision-language model",
+    "UI optimization",
+    "mixed reality headset"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "3C_87tDsTGw",
+    "url": "https://www.youtube.com/watch?v=3C_87tDsTGw"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://siplab.org/projects/SituationAdapt"
+  },
+  {
+   "id": "pedro-lopes--generative-muscle-stimulation",
+   "creator_ids": [
+    "pedro-lopes"
+   ],
+   "title": "Generative Muscle Stimulation",
+   "year": 2026,
+   "description": "An AI that helps through your muscles: it looks at your pose and surroundings, understands a request such as opening a pill bottle, and generates electrical-muscle-stimulation instructions that physically move your hand and arm to do it.",
+   "description_zh": "一个通过你的肌肉来帮忙的 AI：它观察你的姿势与周围环境，理解诸如“打开药瓶”这样的请求，并生成肌肉电刺激指令，直接带动你的手和手臂完成动作。",
+   "idea_en": "Instead of answering in words, the AI answers by moving your body.",
+   "idea_zh": "AI 不用语言回答，而是通过移动你的身体来回答。",
+   "technique": "Computer vision and a multimodal LLM propose movement steps from the user's context, which are constrained by a muscle-stimulation knowledge base and joint limits before being sent to an EMS device.",
+   "technique_zh": "计算机视觉与多模态大语言模型根据用户情境提出动作步骤，经过肌肉电刺激知识库与关节活动范围的约束后，再发送给 EMS 设备执行。",
+   "exercise_en": "Without EMS hardware, prototype the same loop with visual guidance: send a photo of a task (open a jar, pour water) to a multimodal LLM that may only answer with a sequence of body actions from a fixed list (rotate wrist, grip, lift), and render each step as an AR ghost hand. Twist: make the AI refuse unsafe or impossible motions and discuss who is in control.",
+   "exercise_zh": "没有 EMS 硬件时，可以用视觉引导来原型化同样的流程：把任务照片（拧开罐子、倒水）发给多模态大模型，要求它只能从固定动作列表（转腕、握紧、抬起）中给出动作序列，并把每一步渲染成 AR 幽灵手。变体：要求 AI 拒绝不安全或做不到的动作，并讨论究竟是谁在掌控。",
+   "interaction": [
+    "hand-body",
+    "tangible-object"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "electrical muscle stimulation",
+    "multimodal LLM",
+    "computer vision"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "pJM2Z8mmwAw",
+    "url": "https://www.youtube.com/watch?v=pJM2Z8mmwAw"
+   },
+   "ai_cat": "body",
+   "source_url": "https://embodied-ai.tech/",
+   "code_url": "https://github.com/humancomputerintegration/EmbodiedAI"
+  },
+  {
+   "id": "mit-fluid-interfaces--memoro",
+   "creator_ids": [
+    "mit-fluid-interfaces"
+   ],
+   "title": "Memoro",
+   "year": 2024,
+   "description": "A wearable audio memory assistant: during a conversation it infers what you are trying to remember and whispers a concise hint, either when you ask or proactively without being asked.",
+   "description_zh": "一个可穿戴的音频记忆助手：在对话中推断你正想记起的内容，并轻声给出简短提示——可以在你询问时提供，也可以不等你开口就主动提供。",
+   "idea_en": "A memory prosthesis that speaks up only with the one fact you are missing.",
+   "idea_zh": "一个记忆义肢：只在你缺的那一条信息上开口。",
+   "technique": "Captured conversations become searchable memories; an LLM infers the current memory need from context, runs semantic search and returns a minimal audio suggestion in query and queryless modes.",
+   "technique_zh": "把录下的对话存为可检索的记忆；大语言模型根据上下文推断当前的记忆需求，进行语义检索，并以极简的音频提示返回，支持“提问模式”和“免提问模式”。",
+   "exercise_en": "Collect a week of class notes as text, embed them in a small vector store, and build a phone app that listens to a live discussion, detects hesitation phrases ('what was it called…') and speaks back one retrieved fact. Twist: show the fact as an AR sticky note on the person who originally said it.",
+   "exercise_zh": "把一周的课堂笔记整理成文本，存进一个小型向量库，做一个手机应用：监听现场讨论，检测到犹豫的说法（“那个叫什么来着……”）时读出一条检索到的事实。变体：把这条事实做成 AR 便利贴，贴在最初说出它的人身上。",
+   "interaction": [
+    "voice-sound",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "LLM",
+    "semantic search",
+    "wearable audio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "fOmvnHcGcXA",
+    "url": "https://www.youtube.com/watch?v=fOmvnHcGcXA"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.media.mit.edu/projects/memoro/overview/"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Chenyi Li & Claudio Silva (NYU) — Satori",
+   "why": "Proactive AR assistant with belief-desire-intention user modeling (CHI 2025); no public video found",
+   "link": "https://arxiv.org/abs/2410.16668",
+   "found_via": "meta-rl-research",
+   "status": "no_video"
+  },
+  {
+   "name": "Keiichi Ihara (Programmable Reality Lab) — MemoryDiorama, CinemaWorld",
+   "why": "Generative 3D dioramas from photos and LLM-driven movie augmentation in AR (2026); no video yet, recheck the lab channel",
+   "link": "https://arxiv.org/abs/2604.06773",
+   "found_via": "ryo-suzuki",
+   "status": "open"
+  },
+  {
+   "name": "Jaewook Lee — SonoCraftAR",
+   "why": "Sound-reactive AR interface authoring for Deaf and hard-of-hearing users with AI (2025); no video found",
+   "link": "https://arxiv.org/abs/2508.17597",
+   "found_via": "makeability-lab",
+   "status": "no_video"
+  },
+  {
+   "name": "Yanni Mei — ShadAR",
+   "why": "LLM-generated shaders that transform visual perception in AR (2026); no video found",
+   "link": "https://arxiv.org/abs/2602.17481",
+   "found_via": "seed",
+   "status": "no_video"
+  },
+  {
+   "name": "Zeyu Wang (Tsinghua) — G-VOILA",
+   "why": "Gaze-facilitated information querying with LLMs on smart glasses (IMWUT 2024) and its 2025 follow-up on ambiguity; no video found",
+   "link": "https://arxiv.org/abs/2509.21980",
+   "found_via": "zinn-labs",
+   "status": "no_video"
+  },
+  {
+   "name": "Bufang Yang — SocialMind",
+   "why": "Proactive LLM social assistant on AR glasses for live conversations (2024); no video found",
+   "link": "https://arxiv.org/abs/2412.04036",
+   "found_via": "chen-chen-fiu",
+   "status": "no_video"
+  },
+  {
+   "name": "Aven Le Zhou — Surrealism Me",
+   "why": "Generative, surreal embodiment experiences in mixed reality (SIGGRAPH 2024 demo); no video found",
+   "link": "https://arxiv.org/abs/2405.02338",
+   "found_via": "seed",
+   "status": "no_video"
+  },
+  {
+   "name": "Jingyu Shi (Purdue) — CARING-AI",
+   "why": "Generative-AI authoring of context-aware AR instructions (CHI 2025); no video found",
+   "link": "https://engineering.purdue.edu/cdesign/wp/",
+   "found_via": "karthik-ramani",
+   "status": "no_video"
+  },
+  {
+   "name": "Yongxiang Cai, Yincheng Jin et al. — SignGlass",
+   "why": "First-person ASL translation on wearable glasses (UIST 2025); only a conference talk and a 22-second preview found",
+   "link": "https://www.youtube.com/watch?v=_eg7TXAW7gU",
+   "found_via": "seed",
+   "status": "open"
+  },
+  {
+   "name": "Fengsen Gao, Ke Fang — Humanizing Artifacts",
+   "why": "Generative-AI 'knowledge actors' that let heritage artifacts narrate in first person (CHI PLAY 2024 WiP)",
+   "link": "https://www.youtube.com/watch?v=RgtQlrKAHmE",
+   "found_via": "fabrice-matulic",
+   "status": "open"
+  },
+  {
+   "name": "Haoyu Wang — Haptic Repurposing with GenAI",
+   "why": "Predecessor of Prop-Chromeleon (2024); no separate video found",
+   "link": "https://arxiv.org/abs/2406.07228",
+   "found_via": "ludwig-sidenmark",
+   "status": "no_video"
+  }
+ ]
+}

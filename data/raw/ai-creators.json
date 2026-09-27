@@ -1,0 +1,3294 @@
+{
+ "batch": "ai-creators",
+ "creators": [
+  {
+   "id": "karen-x-cheng",
+   "name": "Karen X Cheng",
+   "role": "Creative director and filmmaker; viral AR and AI video maker",
+   "based": "San Francisco, US",
+   "bio": "Karen X Cheng is a filmmaker and creative director known for short viral videos that mix practical effects, AR filters and new AI tools.",
+   "why": "She shows millions of people what AR plus generative AI feels like, one hand-made trick at a time.",
+   "links": {
+    "site": "https://karenx.com",
+    "x": "https://x.com/karenxcheng",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "创意总监、导演；以 AR 与 AI 短视频走红的创作者",
+   "bio_zh": "Karen X Cheng 是导演和创意总监，擅长把实拍特效、AR 滤镜和最新 AI 工具混在一起，做出传播很广的短视频。",
+   "why_zh": "她用一个个手工小把戏，让大众直观感受到 AR 加生成式 AI 是什么样子。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "google-android-xr",
+   "name": "Google Android XR & DeepMind (Project Astra)",
+   "role": "Google team building Android XR glasses and the Project Astra multimodal assistant",
+   "based": "Mountain View, US",
+   "bio": "Google's Android XR group, led by Shahram Izadi, and Google DeepMind's Project Astra team build glasses and headsets where Gemini sees and hears the world with you.",
+   "why": "Their live demos set the reference for what a camera-aware, memory-keeping AI assistant on your face can do.",
+   "links": {
+    "site": "https://www.android.com/xr/",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@Google",
+    "github": ""
+   },
+   "role_zh": "谷歌 Android XR 眼镜与 Project Astra 多模态助手团队",
+   "bio_zh": "谷歌 Android XR 团队（由 Shahram Izadi 领导）与 Google DeepMind 的 Project Astra 团队，打造让 Gemini 与你一起看、一起听的眼镜和头显。",
+   "why_zh": "他们的现场演示，定义了“戴在脸上、看得见、记得住”的 AI 助手能做到什么。",
+   "based_zh": "美国山景城",
+   "connected_to": [
+    "msr-izadi-holoportation",
+    "ruofei-du"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "lukas-moro",
+   "name": "Lukas Moro",
+   "role": "Interaction designer and creative technologist",
+   "based": "",
+   "bio": "Lukas Moro prototypes small, tactile interfaces where mixed reality headsets, paper and real-time AI meet.",
+   "why": "His sketches treat AI as something you touch through pencil, paper and gesture rather than a chat box.",
+   "links": {
+    "site": "https://lukasmoro.com",
+    "x": "https://x.com/lukas_moro",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "交互设计师、创意技术人",
+   "bio_zh": "Lukas Moro 做了一系列小而可触摸的原型，把混合现实头显、纸张和实时 AI 连在一起。",
+   "why_zh": "他的草图让人通过铅笔、纸和手势去触碰 AI，而不是只对着聊天框。",
+   "based_zh": "",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "hugues-bruyere",
+   "name": "Hugues Bruyère",
+   "role": "Partner and innovation lead at Dpt. (Montreal)",
+   "based": "Montreal, Canada",
+   "bio": "Hugues Bruyère leads R&D at the Montreal studio Dpt., experimenting with mixed reality, diffusion models, Gaussian splats and museum installations.",
+   "why": "His passthrough-plus-diffusion prototypes are some of the earliest hands-on demos of repainting a room live inside a headset.",
+   "links": {
+    "site": "",
+    "x": "https://x.com/smallfly",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "蒙特利尔工作室 Dpt. 合伙人、创新负责人",
+   "bio_zh": "Hugues Bruyère 在蒙特利尔工作室 Dpt. 负责研发，实验混合现实、扩散模型、高斯泼溅和博物馆装置。",
+   "why_zh": "他把头显透视画面接上扩散模型的原型，是最早一批让人在头显里实时“重画房间”的实例。",
+   "based_zh": "加拿大蒙特利尔",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "cayden-pierce",
+   "name": "Cayden Pierce (Mentra / AugmentOS)",
+   "role": "Founder of Mentra; builder of the open-source MentraOS (AugmentOS) smart-glasses OS",
+   "based": "San Francisco, US / Shenzhen, China",
+   "bio": "Cayden Pierce started TeamOpenSmartGlasses and Mentra, whose open-source OS runs AI apps such as live captions, conversation helpers and agents on many brands of display glasses.",
+   "why": "He treats smart glasses as a platform for proactive AI that helps you think in the middle of a conversation.",
+   "links": {
+    "site": "https://mentra.glass",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@caydengineer",
+    "github": "https://github.com/Mentra-Community"
+   },
+   "role_zh": "Mentra 创始人；开源智能眼镜系统 MentraOS（AugmentOS）作者",
+   "bio_zh": "Cayden Pierce 创办了 TeamOpenSmartGlasses 和 Mentra，其开源系统可以在多种显示眼镜上运行实时字幕、对话助手和智能体等 AI 应用。",
+   "why_zh": "他把智能眼镜看作“主动型 AI”的平台，在你说话的当下帮你思考。",
+   "based_zh": "美国旧金山 / 中国深圳",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "brilliant-labs",
+   "name": "Brilliant Labs",
+   "role": "Maker of open-source AI glasses (Monocle, Frame, Halo)",
+   "based": "Singapore / San Francisco, US",
+   "bio": "Brilliant Labs makes lightweight, open-source AR glasses and clip-ons whose assistant Noa sees, listens and answers in a small display.",
+   "why": "Its fully open hardware and code let students hack their own camera-aware AI wearables.",
+   "links": {
+    "site": "https://brilliant.xyz",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@brilliantlabsAR",
+    "github": "https://github.com/brilliantlabsAR"
+   },
+   "role_zh": "开源 AI 眼镜厂商（Monocle、Frame、Halo）",
+   "bio_zh": "Brilliant Labs 生产轻便、开源的 AR 眼镜和夹片，内置助手 Noa 能看、能听，并在小屏幕上回答。",
+   "why_zh": "软硬件完全开源，学生可以自己改出一副“看得见”的 AI 可穿戴设备。",
+   "based_zh": "新加坡 / 美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "tomoki-itamiya",
+   "name": "Tomoki Itamiya",
+   "role": "Professor, Aichi University of Technology; AR disaster-education researcher",
+   "based": "Aichi, Japan",
+   "bio": "Tomoki Itamiya builds AR and VR apps that let people rehearse earthquakes, floods and fires in their own rooms for disaster education.",
+   "why": "He uses generative video to turn a single photo of a real room into an overlaid earthquake rehearsal.",
+   "links": {
+    "site": "",
+    "x": "https://x.com/t_itamiya",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "爱知工科大学教授；AR 防灾教育研究者",
+   "bio_zh": "板宫朋基开发 AR/VR 应用，让人们在自己的房间里预演地震、洪水和火灾，用于防灾教育。",
+   "why_zh": "他用生成式视频，把一张真实房间照片变成叠加在现场的地震预演。",
+   "based_zh": "日本爱知",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "anhphu-nguyen",
+   "name": "AnhPhu Nguyen & Caine Ardayfio",
+   "role": "Harvard students behind I-XRAY; later founders of Halo AI glasses",
+   "based": "Cambridge / San Francisco, US",
+   "bio": "AnhPhu Nguyen and Caine Ardayfio are student hardware hackers who connected Ray-Ban Meta glasses to face search and LLMs to show how quickly strangers can be identified.",
+   "why": "I-XRAY turned an abstract privacy fear into a demo everyone understood in seconds.",
+   "links": {
+    "site": "",
+    "x": "https://x.com/AnhPhuNguyen1",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "哈佛学生，I-XRAY 作者；后创办 Halo AI 眼镜",
+   "bio_zh": "AnhPhu Nguyen 和 Caine Ardayfio 是学生硬件黑客，他们把 Ray-Ban Meta 眼镜接上人脸搜索和大语言模型，展示陌生人能被多快识别。",
+   "why_zh": "I-XRAY 把抽象的隐私担忧变成了人人几秒钟就能看懂的演示。",
+   "based_zh": "美国剑桥 / 旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "firedragon-game-studio",
+   "name": "FireDragonGameStudio",
+   "role": "Independent XR developer and tutorial maker",
+   "based": "",
+   "bio": "FireDragonGameStudio publishes open-source Quest and AR experiments, from passthrough-camera object detection to Gemini-powered indoor navigation.",
+   "why": "The Gemini Vision Navigator turns a live AI agent into a guide that reads the room and points the way.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@FireDragonGameStudio",
+    "github": "https://github.com/FireDragonGameStudio"
+   },
+   "role_zh": "独立 XR 开发者、教程作者",
+   "bio_zh": "FireDragonGameStudio 发布开源的 Quest 与 AR 实验，从透视摄像头物体检测到基于 Gemini 的室内导航。",
+   "why_zh": "Gemini Vision Navigator 让一个实时 AI 智能体变成读懂房间、指明方向的向导。",
+   "based_zh": "",
+   "connected_to": [
+    "roberto-coviello"
+   ],
+   "discovered_via": "roberto-coviello"
+  },
+  {
+   "id": "wenbo-tao",
+   "name": "Wenbo Tao",
+   "role": "Independent visionOS developer (Magic Room, Mission Hub)",
+   "based": "",
+   "bio": "Wenbo Tao makes Apple Vision Pro apps such as Magic Room, which repaints the scanned room mesh with live effects.",
+   "why": "He keeps pushing scene understanding on Vision Pro toward full, AI-driven restyling of your own room.",
+   "links": {
+    "site": "",
+    "x": "https://x.com/wenbq_me",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "独立 visionOS 开发者（Magic Room、Mission Hub）",
+   "bio_zh": "Wenbo Tao 开发 Apple Vision Pro 应用，例如用实时特效重绘房间网格的 Magic Room。",
+   "why_zh": "他不断把 Vision Pro 的场景理解推向由 AI 驱动、整间房间的重绘。",
+   "based_zh": "",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "jon-barron",
+   "name": "Jon Barron",
+   "role": "Research scientist at Google DeepMind (NeRF, mip-NeRF)",
+   "based": "San Francisco, US",
+   "bio": "Jon Barron is a Google DeepMind researcher known for neural radiance fields and 3D reconstruction.",
+   "why": "His voice-prompted AR game built inside a Quest browser shows how far 'vibe coding' in the headset itself can go.",
+   "links": {
+    "site": "https://jonbarron.info",
+    "x": "https://x.com/jon_barron",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "Google DeepMind 研究科学家（NeRF、mip-NeRF）",
+   "bio_zh": "Jon Barron 是 Google DeepMind 研究员，以神经辐射场和三维重建研究闻名。",
+   "why_zh": "他在 Quest 浏览器里用语音让 AI 写出一个 AR 游戏，展示了在头显内部“氛围编程”能走多远。",
+   "based_zh": "美国旧金山",
+   "connected_to": [
+    "google-android-xr"
+   ],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "bilawal-sidhu",
+   "name": "Bilawal Sidhu",
+   "role": "Creator and technologist; former Google Maps / AR product manager",
+   "based": "San Francisco, US",
+   "bio": "Bilawal Sidhu is a creator and former Google product manager for 3D maps and AR who experiments with reality capture, splats and multimodal AI.",
+   "why": "He shows how scans of real places become editable, AI-driven worlds.",
+   "links": {
+    "site": "",
+    "x": "https://x.com/bilawalsidhu",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@bilawalsidhu",
+    "github": ""
+   },
+   "role_zh": "创作者、技术人；前谷歌地图与 AR 产品经理",
+   "bio_zh": "Bilawal Sidhu 是创作者，曾任谷歌三维地图与 AR 产品经理，长期实验实景捕捉、高斯泼溅和多模态 AI。",
+   "why_zh": "他展示了真实地点的扫描如何变成可编辑、由 AI 驱动的世界。",
+   "based_zh": "美国旧金山",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "dotsimulate",
+   "name": "dotsimulate (Lyell Hintz)",
+   "role": "TouchDesigner artist; creator of StreamDiffusionTD",
+   "based": "",
+   "bio": "Lyell Hintz, known as dotsimulate, builds real-time AI tools for TouchDesigner, most notably StreamDiffusionTD.",
+   "why": "StreamDiffusionTD put live camera-to-diffusion restyling into the hands of installation and VJ artists.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@dotsimulate",
+    "github": ""
+   },
+   "role_zh": "TouchDesigner 艺术家；StreamDiffusionTD 作者",
+   "bio_zh": "Lyell Hintz（网名 dotsimulate）为 TouchDesigner 制作实时 AI 工具，最知名的是 StreamDiffusionTD。",
+   "why_zh": "StreamDiffusionTD 让装置艺术家和 VJ 可以把摄像头画面实时送进扩散模型重绘。",
+   "based_zh": "",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "xr-masiso",
+   "name": "xr masiso",
+   "role": "XR developer and tutorial maker",
+   "based": "",
+   "bio": "xr masiso publishes step-by-step Quest mixed-reality tutorials.",
+   "why": "The Stable Diffusion AR demo shows the passthrough camera feeding image generation on day one of camera access.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@xrmasiso",
+    "github": ""
+   },
+   "role_zh": "XR 开发者、教程作者",
+   "bio_zh": "xr masiso 发布一步步讲解的 Quest 混合现实教程。",
+   "why_zh": "其 Stable Diffusion AR 演示在摄像头权限开放当天，就把透视画面接进了图像生成。",
+   "based_zh": "",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "juampi",
+   "name": "Juampi",
+   "role": "Developer and maker",
+   "based": "",
+   "bio": "Juampi is a developer who hacks consumer AI glasses into small, useful apps.",
+   "why": "His product scanner shows how little code it takes to make camera glasses explain what you see.",
+   "links": {
+    "site": "",
+    "x": "https://x.com/juampitech",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "开发者、创客",
+   "bio_zh": "Juampi 是一名开发者，喜欢把消费级 AI 眼镜改造成小而实用的应用。",
+   "why_zh": "他的商品扫描器说明，只要很少代码，就能让摄像头眼镜解释你看到的东西。",
+   "based_zh": "",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "simular",
+   "name": "Simular",
+   "role": "AI company building the computer-use agent Sai",
+   "based": "Palo Alto, US",
+   "bio": "Simular builds Sai, an autonomous agent that operates a computer, and released an open-source bridge to Meta Ray-Ban glasses.",
+   "why": "Sai-Fi lets glasses hand a real task to an agent that then works on your computer.",
+   "links": {
+    "site": "",
+    "x": "https://x.com/SimularAI",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": "https://github.com/simular-ai"
+   },
+   "role_zh": "开发计算机操作智能体 Sai 的 AI 公司",
+   "bio_zh": "Simular 开发了能自主操作电脑的智能体 Sai，并开源了连接 Meta Ray-Ban 眼镜的桥接应用。",
+   "why_zh": "Sai-Fi 让眼镜把一个真实任务交给智能体，由它在你的电脑上完成。",
+   "based_zh": "美国帕洛阿尔托",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "virendra-suryawanshi",
+   "name": "Virendra Suryawanshi",
+   "role": "Developer",
+   "based": "",
+   "bio": "Virendra Suryawanshi builds applied computer-vision prototypes for mixed reality headsets.",
+   "why": "His pothole detector turns a headset into a road-inspection tool that grades and geotags damage.",
+   "links": {
+    "site": "",
+    "x": "https://x.com/Virendra0698",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "",
+    "github": ""
+   },
+   "role_zh": "开发者",
+   "bio_zh": "Virendra Suryawanshi 为混合现实头显开发应用型计算机视觉原型。",
+   "why_zh": "他的坑洼检测器把头显变成道路巡检工具，能给破损评级并记录位置。",
+   "based_zh": "",
+   "connected_to": [],
+   "discovered_via": "seed"
+  },
+  {
+   "id": "even-realities",
+   "name": "Even Realities",
+   "role": "Maker of the Even G1 / G2 display smart glasses",
+   "based": "Shenzhen, China / Zurich, Switzerland",
+   "bio": "Even Realities makes lightweight prescription-style glasses with a green micro-display for notes, translation, teleprompting and an AI assistant.",
+   "why": "Even AI shows how a tiny text display is enough for an assistant that listens and answers in your line of sight.",
+   "links": {
+    "site": "https://www.evenrealities.com",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@EvenRealities",
+    "github": ""
+   },
+   "role_zh": "Even G1 / G2 显示智能眼镜厂商",
+   "bio_zh": "Even Realities 生产外观接近普通眼镜的轻量显示眼镜，用绿色微显示屏呈现笔记、翻译、提词和 AI 助手。",
+   "why_zh": "Even AI 说明，一块很小的文字屏就足以承载一个会听、会在视线里回答的助手。",
+   "based_zh": "中国深圳 / 瑞士苏黎世",
+   "connected_to": [
+    "cayden-pierce"
+   ],
+   "discovered_via": "cayden-pierce"
+  },
+  {
+   "id": "physio3d",
+   "name": "Physio 3D",
+   "role": "Mixed-reality physiotherapy app studio",
+   "based": "",
+   "bio": "Physio 3D makes a Vision Pro physiotherapy app that combines 3D exercise guidance with a real-time AI voice coach.",
+   "why": "It puts a talking AI therapist next to you in the room, where the exercise actually happens.",
+   "links": {
+    "site": "",
+    "x": "",
+    "instagram": "",
+    "vimeo": "",
+    "youtube": "https://www.youtube.com/@Physio3D",
+    "github": ""
+   },
+   "role_zh": "混合现实理疗应用团队",
+   "bio_zh": "Physio 3D 开发了一款 Vision Pro 理疗应用，把三维动作指导和实时 AI 语音教练结合在一起。",
+   "why_zh": "它把一个会说话的 AI 理疗师放在你身边，就在你真正做动作的地方。",
+   "based_zh": "",
+   "connected_to": [],
+   "discovered_via": "seed"
+  }
+ ],
+ "works": [
+  {
+   "id": "stijn-spanhove--rag-embeddings-in-xr",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Standing inside your RAG embeddings",
+   "year": 2026,
+   "description": "A Vision Pro prototype places the user inside a cloud of course descriptions; semantically similar courses float next to each other, and a spoken question lights up the matches.",
+   "description_zh": "一个 Vision Pro 原型把用户放进由课程简介组成的点云里；语义相近的课程彼此靠近，用户说出问题，相关课程就会亮起来。",
+   "idea_en": "Walk around the vector space that powers a chatbot, instead of reading its answer.",
+   "idea_zh": "不看聊天机器人的答案，而是走进支撑它的向量空间里转一圈。",
+   "technique": "Text is embedded into high-dimensional vectors, reduced to 3D positions (likely with UMAP or t-SNE), and a voice query is embedded the same way so its nearest neighbours can be highlighted in space.",
+   "technique_zh": "把文本编码成高维向量，再降维成三维坐标（很可能用 UMAP 或 t-SNE），语音提问用同样方式编码，最近的邻居在空间中被高亮。",
+   "exercise_en": "Embed 50 short texts (song lyrics, class notes) with a free embedding API, project them to 3D and place them as floating labels in a WebXR room; ask a question aloud and highlight the nearest five. Twist: let two people's questions pull the cloud in different directions.",
+   "exercise_zh": "用免费的向量接口把 50 段短文本（歌词、课堂笔记）编码，降维到三维，在 WebXR 房间里做成漂浮标签；大声提问，高亮最近的五个。变体：让两个人的问题把点云往不同方向拉。",
+   "interaction": [
+    "data-information",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "embeddings",
+    "RAG",
+    "LLM"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2024877056035622974",
+    "url": "https://x.com/stspanho/status/2024877056035622974"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/stspanho/status/2024877056035622974"
+  },
+  {
+   "id": "stijn-spanhove--matrix-dojo-ai-scene",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Step inside an AI-generated movie scene",
+   "year": 2025,
+   "description": "A proof of concept that lets the viewer walk into the Dojo from The Matrix, where the environment, characters and movement were all generated by AI and replayed around them in XR.",
+   "description_zh": "一个概念验证：观众可以走进《黑客帝国》里的道场，环境、角色和动作全部由 AI 生成，并在 XR 中围绕观众回放。",
+   "idea_en": "A film scene you stand inside, rebuilt entirely by generative models.",
+   "idea_zh": "一段可以站进去的电影场景，完全由生成模型重建。",
+   "technique": "Likely a generative video model produces the fight, which is then lifted into 3D (Gaussian splats or 4D reconstruction) and streamed to the headset as a volumetric sequence.",
+   "technique_zh": "很可能先用生成式视频模型生成打斗片段，再提升成三维（高斯泼溅或四维重建），以体积序列的形式在头显中播放。",
+   "exercise_en": "Generate a 5-second clip of two characters in a room, convert key frames into splats with a single-image-to-3D tool, and play them in sequence in WebXR at room scale. Twist: let the viewer's position choose which camera angle the AI generates next.",
+   "exercise_zh": "生成一段 5 秒的双人室内片段，用单图转三维工具把关键帧做成泼溅，在 WebXR 中按房间尺度依次播放。变体：让观众站的位置决定 AI 下一段生成的机位。",
+   "interaction": [
+    "portal-world",
+    "performance-stage"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "Gaussian splatting",
+    "generative video"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2005626245166313514",
+    "url": "https://x.com/stspanho/status/2005626245166313514"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://x.com/stspanho/status/2005626245166313514"
+  },
+  {
+   "id": "stijn-spanhove--2d-video-to-4d-splats",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "From 2D video to 4D Gaussian splats on Vision Pro",
+   "year": 2025,
+   "description": "Frames of the short film Big Buck Bunny are each turned into a Gaussian splat with Apple's SHARP model, compressed, and played back as a rough volumetric animation in Vision Pro.",
+   "description_zh": "短片《Big Buck Bunny》的每一帧都用苹果的 SHARP 模型转成高斯泼溅，压缩后在 Vision Pro 中作为粗糙的体积动画播放。",
+   "idea_en": "Any flat video can become a scene you walk around, one generated frame at a time.",
+   "idea_zh": "任何平面视频都可以一帧一帧地被生成成可以绕着走的场景。",
+   "technique": "A single-image-to-3D model (SHARP) predicts a splat per frame; the splats are compressed with PlayCanvas tools and swapped every frame to fake a 4D sequence.",
+   "technique_zh": "用单图转三维模型（SHARP）为每一帧预测一个泼溅，再用 PlayCanvas 工具压缩，逐帧切换，拼出伪四维序列。",
+   "exercise_en": "Take 24 frames from a short clip, turn each into a 3D splat with a free image-to-3D tool, and flip through them in a WebXR viewer on a table. Twist: freeze time when the viewer walks behind the scene.",
+   "exercise_zh": "从一段短片里取 24 帧，每帧用免费图生三维工具转成泼溅，在桌面上的 WebXR 查看器中逐帧翻放。变体：观众绕到场景背后时，时间静止。",
+   "interaction": [
+    "portal-world",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "Apple SHARP",
+    "PlayCanvas",
+    "Gaussian splatting"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2004310347486761051",
+    "url": "https://x.com/stspanho/status/2004310347486761051"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://x.com/stspanho/status/2004310347486761051"
+  },
+  {
+   "id": "stijn-spanhove--real-time-ai-video-in-xr",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Real-time AI video restyling an XR room",
+   "year": 2025,
+   "description": "A room seen in XR is repainted by a live video model: first as a 'modern, Ikea style room', then as an 'industrial loft', with updates synced slowly to avoid dizziness.",
+   "description_zh": "XR 里看到的房间被实时视频模型重新绘制：先是“现代宜家风格”，再变成“工业风阁楼”，更新节奏刻意放慢以免头晕。",
+   "idea_en": "Type a style and your room is redecorated around you, live.",
+   "idea_zh": "输入一种风格，你身边的房间就被实时重新装修。",
+   "technique": "The headset view is streamed to a real-time video-to-video diffusion model driven by a text prompt, and the restyled frames are composited back in XR at a reduced update rate to limit motion sickness.",
+   "technique_zh": "把头显画面流式送入由文字提示驱动的实时视频扩散模型，再把重绘后的画面降频合成回 XR，以减少晕动。",
+   "exercise_en": "Capture a phone camera feed, send it to a hosted real-time diffusion API with two style prompts, and show the result full-screen in a cardboard or HoloKit viewer. Twist: let the room slowly drift from one style to another as you walk.",
+   "exercise_zh": "采集手机摄像头画面，发送到在线实时扩散接口，配两个风格提示，在纸盒或 HoloKit 眼镜里全屏显示。变体：随着你走动，房间从一种风格慢慢过渡到另一种。",
+   "interaction": [
+    "perception-art",
+    "voice-sound",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "real-time video diffusion",
+    "XR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1980751025930661934",
+    "url": "https://x.com/stspanho/status/1980751025930661934"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://x.com/stspanho/status/1980751025930661934"
+  },
+  {
+   "id": "stijn-spanhove--drawings-into-xr-worlds",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Turning a child's drawing into a playable XR world",
+   "year": 2025,
+   "description": "His niece's drawing is fed into the Mirage 2 world model and becomes a playable world that opens up in front of the viewer on Spectacles.",
+   "description_zh": "侄女画的一张画被送进 Mirage 2 世界模型，变成可以玩的世界，在 Spectacles 里展开在观者面前。",
+   "idea_en": "A paper drawing is the level design; an AI world model builds the game.",
+   "idea_zh": "纸上的画就是关卡设计，AI 世界模型把游戏造出来。",
+   "technique": "A photo of the drawing prompts an interactive world model (Mirage 2) that generates frames in response to controls; the stream is shown as a floating window or portal in the Spectacles lens.",
+   "technique_zh": "用画作照片提示一个可交互的世界模型（Mirage 2），它根据操作逐帧生成画面，画面以悬浮窗口或传送门形式显示在 Spectacles 镜片里。",
+   "exercise_en": "Have students draw a level on paper, photograph it and generate a 3D environment with a free image-to-world or image-to-3D tool; place it on the table in AR as a tiny diorama. Twist: the child who drew it gives voice commands to change the weather.",
+   "exercise_zh": "让学生在纸上画关卡，拍照后用免费的图生世界或图生三维工具生成环境，在 AR 中放在桌上当微缩场景。变体：画画的孩子用语音改天气。",
+   "interaction": [
+    "drawing-creation",
+    "game-play",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "Mirage 2",
+    "world model"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1961138591934947462",
+    "url": "https://x.com/stspanho/status/1961138591934947462"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://x.com/stspanho/status/1961138591934947462"
+  },
+  {
+   "id": "stijn-spanhove--action-figure-to-life",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Bringing an action figure to life in AR",
+   "year": 2025,
+   "description": "A photo of a toy action figure is turned into a rigged 3D character that walks around in WebAR next to the real toy.",
+   "description_zh": "一张玩具手办的照片被变成带骨骼的三维角色，在 WebAR 里和真实玩具并肩走动。",
+   "idea_en": "Photograph a toy and it steps out of its box as a living AR character.",
+   "idea_zh": "给玩具拍张照，它就从包装盒里走出来，成为会动的 AR 角色。",
+   "technique": "An image model cleans up the figure into a character sheet, Tripo AI converts it into a textured, rigged 3D model, and 8th Wall places and animates it in the browser.",
+   "technique_zh": "先用图像模型把手办整理成角色设定图，再用 Tripo AI 转成带贴图和骨骼的三维模型，最后由 8th Wall 在浏览器中放置并驱动动画。",
+   "exercise_en": "Photograph a small object, turn it into a 3D model with a free image-to-3D service, auto-rig it and place it on a table with WebAR or Reality Composer. Twist: make the AR copy mirror whatever pose you put the real toy in.",
+   "exercise_zh": "给一个小物件拍照，用免费图生三维服务生成模型并自动绑定骨骼，用 WebAR 或 Reality Composer 放到桌上。变体：你把真玩具摆成什么姿势，AR 分身就跟着摆什么姿势。",
+   "interaction": [
+    "tangible-object",
+    "game-play"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "OpenAI image generation",
+    "Tripo AI",
+    "8th Wall"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1910708661279773101",
+    "url": "https://x.com/stspanho/status/1910708661279773101"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://x.com/stspanho/status/1910708661279773101"
+  },
+  {
+   "id": "stijn-spanhove--spatial-pixel-art-lens",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Frame-a-scene spatial pixel art (first Spectacles lens)",
+   "year": 2025,
+   "description": "Making a frame with your fingers captures part of the view, and the lens generates pixel art from it that sits back in place, blending into the surroundings.",
+   "description_zh": "用手指比出一个取景框，镜片就截取这部分视野，生成像素画，并放回原位，融入周围环境。",
+   "idea_en": "Your fingers are the camera; AI turns what you frame into pixel art in place.",
+   "idea_zh": "手指就是相机，AI 把你框住的东西就地变成像素画。",
+   "technique": "A hand-tracking gesture defines a crop of the camera frame, which is sent to an image model with a pixel-art prompt, and the result is anchored as a quad at the framed location.",
+   "technique_zh": "用手势追踪确定摄像头画面的裁剪区域，送进带“像素风”提示的图像模型，结果作为平面贴片锚定在原来的位置。",
+   "exercise_en": "In Lens Studio or a phone AR app, let users drag a rectangle on the camera view, send the crop to an image API with a style prompt, and pin the result where it was taken. Twist: each classmate chooses a different art style, and the room becomes a collage.",
+   "exercise_zh": "在 Lens Studio 或手机 AR 应用里，让用户在画面上拖出矩形，把截图连同风格提示发给图像接口，结果钉回原处。变体：每位同学选一种画风，整个房间变成拼贴画。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "Lens Studio",
+    "generative AI"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1894776068600447319",
+    "url": "https://x.com/stspanho/status/1894776068600447319"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://x.com/stspanho/status/1894776068600447319"
+  },
+  {
+   "id": "stijn-spanhove--deepseek-xr-puzzles",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Chain-of-thought models designing XR puzzles",
+   "year": 2025,
+   "description": "A reasoning model is asked to invent small puzzle games, and its generated three.js code runs directly as an XR puzzle.",
+   "description_zh": "让推理模型发明小型解谜游戏，它生成的 three.js 代码直接作为 XR 谜题运行。",
+   "idea_en": "Let a reasoning model design the level, then step inside it.",
+   "idea_zh": "让推理模型来设计关卡，然后你走进去玩。",
+   "technique": "A chain-of-thought LLM (DeepSeek) is prompted for a puzzle rule set and outputs three.js scene code, which is loaded into a WebXR page.",
+   "technique_zh": "向带思维链的大语言模型（DeepSeek）索要一套谜题规则，并让它输出 three.js 场景代码，加载到 WebXR 页面中。",
+   "exercise_en": "Ask an LLM for a one-page WebXR puzzle (for example 'arrange four cubes so their shadows spell a letter'), paste the code into a template and test it on a phone. Twist: the class must solve it without knowing the rule, then guess the prompt.",
+   "exercise_zh": "请大语言模型写一个单页 WebXR 谜题（例如“摆放四个方块让影子拼出一个字母”），把代码贴进模板在手机上测试。变体：全班在不知道规则的情况下破解，再反推提示词。",
+   "interaction": [
+    "game-play"
+   ],
+   "platform": [
+    "web",
+    "headset"
+   ],
+   "tech": [
+    "DeepSeek",
+    "three.js",
+    "WebXR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1885352446806970708",
+    "url": "https://x.com/stspanho/status/1885352446806970708"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://x.com/stspanho/status/1885352446806970708"
+  },
+  {
+   "id": "stijn-spanhove--ai-try-on",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "AI-driven virtual try-on",
+   "year": 2024,
+   "description": "A browser-based try-on concept dresses the user in a chosen garment using generative AI, with default outfits and a simple shop flow.",
+   "description_zh": "一个浏览器里的试穿概念：用生成式 AI 给用户穿上选中的衣服，带默认服装和简单购物流程。",
+   "idea_en": "The mirror becomes a fitting room that can dress you in anything.",
+   "idea_zh": "镜子变成试衣间，能给你穿上任何衣服。",
+   "technique": "A photo of the user and a garment image are sent to a virtual try-on diffusion model; the result is shown inside a WebAR/Mattercraft interface.",
+   "technique_zh": "把用户照片和服装图片发送给虚拟试穿扩散模型，结果显示在 WebAR / Mattercraft 界面中。",
+   "exercise_en": "Build a webcam page that captures a selfie and calls a hosted try-on model with three garment images, then shows the results side by side. Twist: try on clothes from a painting in a museum.",
+   "exercise_zh": "做一个网页，用摄像头拍自拍，调用在线试穿模型配三件衣服，并排展示结果。变体：试穿博物馆画作里的衣服。",
+   "interaction": [
+    "hand-body",
+    "face"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "Mattercraft",
+    "Zappar",
+    "generative AI"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1869053825082134912",
+    "url": "https://x.com/stspanho/status/1869053825082134912"
+   },
+   "ai_cat": "body",
+   "source_url": "https://x.com/stspanho/status/1869053825082134912"
+  },
+  {
+   "id": "stijn-spanhove--genai-video-to-video-ar",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "WebAR capture enhanced with GenAI video-to-video",
+   "year": 2024,
+   "description": "Rough AR content captured in the browser is passed through Runway's video-to-video model so the virtual objects look far more photoreal in the final clip.",
+   "description_zh": "在浏览器里录下的粗糙 AR 画面被送进 Runway 的视频转视频模型，让虚拟物体在成片里显得更真实。",
+   "idea_en": "Use AR as a rough sketch and let AI finish the rendering.",
+   "idea_zh": "把 AR 当草图，让 AI 完成最终渲染。",
+   "technique": "A screen recording of WebAR is used as structure for a video-to-video diffusion model, which keeps the motion and layout but re-renders lighting and materials.",
+   "technique_zh": "把 WebAR 录屏当作结构参考，输入视频转视频扩散模型，保留运动和布局，重新渲染光照和材质。",
+   "exercise_en": "Record a 5-second AR clip with a grey placeholder object, then run it through any video-to-video AI tool with a prompt describing the object. Twist: keep the same clip and try three prompts that change the object's story.",
+   "exercise_zh": "录一段放着灰色占位物体的 5 秒 AR 片段，用任意视频转视频 AI 工具配上描述该物体的提示重绘。变体：同一段素材试三个提示，让物体讲三个不同的故事。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "phone",
+    "web"
+   ],
+   "tech": [
+    "WebAR",
+    "Runway Gen-3 Alpha Turbo"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1845952462517424401",
+    "url": "https://x.com/stspanho/status/1845952462517424401"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://x.com/stspanho/status/1845952462517424401"
+  },
+  {
+   "id": "stijn-spanhove--one-click-object-detector",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "One-click custom object detector for Spectacles",
+   "year": 2026,
+   "description": "A pipeline turns raw footage into a trained object detector for Spectacles in one click: SAM 3 labels the objects, a small YOLO model trains in the cloud, and a SnapML-ready ONNX file drops into Lens Studio.",
+   "description_zh": "一条流水线一键把原始视频变成 Spectacles 可用的物体检测器：SAM 3 自动标注，云端训练小型 YOLO 模型，再输出 SnapML 可用的 ONNX 文件放进 Lens Studio。",
+   "idea_en": "Teaching glasses to recognise your own objects should take a click, not a weekend.",
+   "idea_zh": "教眼镜认识你自己的物件，应该只需一次点击，而不是一个周末。",
+   "technique": "A segmentation foundation model (SAM 3) auto-labels frames, which train a YOLOv7-tiny detector exported to ONNX for on-device SnapML inference.",
+   "technique_zh": "用分割基础模型（SAM 3）自动标注视频帧，训练 YOLOv7-tiny 检测器并导出 ONNX，供 SnapML 在设备端推理。",
+   "exercise_en": "Film 30 seconds of one object, auto-label it with a free segmentation tool, train a tiny detector (Teachable Machine or YOLO in Colab) and trigger an AR label when it is seen. Twist: detect objects that should not be there and make them glow.",
+   "exercise_zh": "拍 30 秒某个物件，用免费分割工具自动标注，训练一个小检测器（Teachable Machine 或 Colab 里的 YOLO），看到它时弹出 AR 标签。变体：检测“不该出现在这里”的东西并让它发光。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "headset",
+    "desktop"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "SnapML",
+    "SAM 3",
+    "YOLOv7-tiny",
+    "ONNX"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2066207120199208985",
+    "url": "https://x.com/stspanho/status/2066207120199208985"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/stspanho/status/2066207120199208985"
+  },
+  {
+   "id": "stijn-spanhove--broadcast-to-xr-basketball",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Replaying a broadcast basketball play on a real court in XR",
+   "year": 2025,
+   "description": "From a single 2D TV broadcast, the court and players are detected and tracked, and the play is reconstructed in 3D and mapped onto a real basketball court for viewing in XR.",
+   "description_zh": "仅凭一段二维电视转播，就检测出球场与球员并跟踪，把这一回合重建成三维，映射到真实篮球场上，在 XR 中观看。",
+   "idea_en": "Watch last night's play happen again on the court you are standing on.",
+   "idea_zh": "让昨晚的那一回合在你脚下的球场上重演。",
+   "technique": "Court-line (pitch) detection gives a homography from the broadcast to the court plane, player detection and tracking give 2D paths, and these are lifted to 3D avatars placed on the real court.",
+   "technique_zh": "通过场地线检测求出转播画面到球场平面的单应变换，球员检测与追踪给出二维轨迹，再提升为三维角色放到真实球场上。",
+   "exercise_en": "Download a short sports clip, track the players with a free detection model, map their feet to the floor plane using four court corners, and replay dots on a tabletop court in AR. Twist: let the viewer pause and move one player to test a different play.",
+   "exercise_zh": "下载一小段比赛视频，用免费检测模型追踪球员，用球场四个角把脚点映射到地面，在 AR 桌面球场上用圆点重放。变体：观众可以暂停并移动一名球员，试试另一种战术。",
+   "interaction": [
+    "location-geo",
+    "game-play",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "pose estimation",
+    "player tracking",
+    "XR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1992980633652478223",
+    "url": "https://x.com/stspanho/status/1992980633652478223"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/stspanho/status/1992980633652478223"
+  },
+  {
+   "id": "stijn-spanhove--ray-ban-vlm-safety",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Ray-Ban Meta safety assistant with a cloud VLM",
+   "year": 2025,
+   "description": "Ray-Ban Meta glasses stream video to a vision-language model in the cloud that checks for safety risks, and the glasses speak back and vibrate when something is wrong.",
+   "description_zh": "Ray-Ban Meta 眼镜把视频流式传到云端的视觉语言模型，检查安全隐患；发现问题时，眼镜会语音提醒并振动。",
+   "idea_en": "Glasses that quietly watch for danger and tap you when they see it.",
+   "idea_zh": "默默帮你留意危险、看到就提醒你的眼镜。",
+   "technique": "Meta's Wearables SDK exposes the camera stream to a phone app, which sends frames to a VLM with a safety prompt and returns spoken and haptic alerts.",
+   "technique_zh": "Meta 的可穿戴 SDK 把摄像头画面开放给手机应用，应用把帧和“安全检查”提示一起发给视觉语言模型，再返回语音和振动提醒。",
+   "exercise_en": "Make a phone web app that sends a camera frame every two seconds to a vision model asking 'is anything unsafe here?' and speaks the answer. Twist: tune it for a specific place, like a kitchen or a workshop.",
+   "exercise_zh": "做一个手机网页，每两秒把一帧画面发给视觉模型，问“这里有什么不安全的吗？”，并朗读答案。变体：针对特定场所调整，比如厨房或工作坊。",
+   "interaction": [
+    "data-information",
+    "voice-sound"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Meta Wearables Device Access Toolkit",
+    "VLM",
+    "Ray-Ban Meta"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1996894608597700645",
+    "url": "https://x.com/stspanho/status/1996894608597700645"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/stspanho/status/1996894608597700645"
+  },
+  {
+   "id": "stijn-spanhove--gemini-vision-pro-assistant",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Hands-free Gemini assistant with Vision Pro camera access",
+   "year": 2025,
+   "description": "Using Vision Pro camera access, Gemini 2.0 Flash sees what the wearer sees and answers spoken questions in real time without any hands.",
+   "description_zh": "借助 Vision Pro 的摄像头权限，Gemini 2.0 Flash 看到佩戴者所见，实时回答语音提问，全程无需动手。",
+   "idea_en": "An assistant that shares your point of view instead of waiting for a photo.",
+   "idea_zh": "一个与你共享视角的助手，而不是等你拍照上传。",
+   "technique": "Main-camera frames and microphone audio are streamed to the Gemini Live (multimodal realtime) API, and responses are spoken and shown as floating text.",
+   "technique_zh": "把主摄像头画面和麦克风音频流式发送到 Gemini Live（多模态实时）接口，回答以语音和漂浮文字呈现。",
+   "exercise_en": "Use a phone in a headset viewer with a free multimodal live API to build 'ask what you see'; test it on a bookshelf or a fridge. Twist: give the assistant a persona that only speaks in questions.",
+   "exercise_zh": "把手机放进头戴式支架，用免费的多模态实时接口做一个“看到什么就问什么”的应用，在书架或冰箱前测试。变体：给助手设定一个只用问句说话的角色。",
+   "interaction": [
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "Enterprise camera access",
+    "Gemini 2.0 Flash"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1875989390344032340",
+    "url": "https://x.com/stspanho/status/1875989390344032340"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/stspanho/status/1875989390344032340"
+  },
+  {
+   "id": "stijn-spanhove--prompted-ar-droneshow",
+   "creator_ids": [
+    "stijn-spanhove"
+   ],
+   "title": "Prompt-your-own AR drone show",
+   "year": 2024,
+   "description": "Users type a prompt to design a drone formation; an image model draws it as a drone-light figure, a video model animates it, and it plays in the night sky in AR.",
+   "description_zh": "用户输入提示来设计无人机编队：图像模型把它画成灯光无人机的图案，视频模型让它动起来，再在 AR 夜空中播放。",
+   "idea_en": "Anyone can direct a drone show by describing it.",
+   "idea_zh": "描述一下，任何人都能导演一场无人机表演。",
+   "technique": "A Flux LoRA trained on drone-show imagery generates the formation, Luma's Dream Machine animates it into a clip, and the clip is placed as a large billboard in the AR sky.",
+   "technique_zh": "用无人机表演图片训练的 Flux LoRA 生成编队图案，Luma Dream Machine 把它做成动画，再作为巨大的广告板放在 AR 天空中。",
+   "exercise_en": "Generate a 'drone light' image from a prompt, turn the bright pixels into 200 glowing points, and animate them rising into formation above a real building in phone AR. Twist: the formation is chosen by the audience's votes.",
+   "exercise_zh": "用提示生成一张“无人机灯光”图，把亮像素变成 200 个发光点，在手机 AR 中让它们从真实建筑上方升起组成图案。变体：由观众投票决定图案。",
+   "interaction": [
+    "location-geo",
+    "performance-stage"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Flux LoRA",
+    "Luma Dream Machine",
+    "AR"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1843725659585294651",
+    "url": "https://x.com/stspanho/status/1843725659585294651"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://x.com/stspanho/status/1843725659585294651"
+  },
+  {
+   "id": "alessio-grancini--decart-style-transfer-specs",
+   "creator_ids": [
+    "alessio-grancini"
+   ],
+   "title": "Real-time AI style transfer on AR glasses",
+   "year": 2026,
+   "description": "An educational experiment connects Spectacles to Decart's real-time video model and projects the transformed camera feed back into the wearer's view, so the world appears restyled live.",
+   "description_zh": "一个教学实验：把 Spectacles 连到 Decart 的实时视频模型，再把转换后的摄像头画面投回佩戴者视野，眼前的世界被实时换了画风。",
+   "idea_en": "A reality filter that lives on your glasses rather than your phone screen.",
+   "idea_zh": "现实滤镜不再在手机屏幕上，而是戴在你的眼镜上。",
+   "technique": "Camera frames are streamed over WebRTC to a hosted real-time video-to-video model and the returned frames are rendered as an overlay aligned to the camera's field of view.",
+   "technique_zh": "摄像头画面通过 WebRTC 流式发送到在线实时视频转视频模型，返回的画面按摄像头视场对齐叠加显示。",
+   "exercise_en": "Stream a phone camera to a real-time diffusion API and display the result in a HoloKit or cardboard headset with a style chosen by voice. Twist: restyle only the part of the scene inside a hand-drawn frame.",
+   "exercise_zh": "把手机摄像头流式接入实时扩散接口，在 HoloKit 或纸盒头显中显示结果，用语音选择风格。变体：只重绘手比出的框里的那部分。",
+   "interaction": [
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "Decart AI",
+    "NDK",
+    "WebRTC"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2082150582467387856",
+    "url": "https://x.com/alessiograncini/status/2082150582467387856"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://x.com/alessiograncini/status/2082150582467387856"
+  },
+  {
+   "id": "alessio-grancini--decart-video-call-specs",
+   "creator_ids": [
+    "alessio-grancini"
+   ],
+   "title": "AI-transformed video call on Spectacles",
+   "year": 2026,
+   "description": "A video call experiment on Spectacles in which the caller's live video is transformed by a real-time AI video model; the prototype was built in a few hours with an agentic coding loop.",
+   "description_zh": "Spectacles 上的视频通话实验：对方的实时画面经过实时 AI 视频模型变换后再显示；原型借助智能体编程循环在几小时内完成。",
+   "idea_en": "Telepresence where the person you see is re-imagined as they talk.",
+   "idea_zh": "远程在场时，你看到的人一边说话一边被重新想象。",
+   "technique": "A native (NDK) WebRTC stream carries the call, frames pass through a hosted video-to-video model, and the transformed stream is shown as a floating panel in the lens.",
+   "technique_zh": "用原生 NDK 的 WebRTC 传输通话，画面经过在线视频转视频模型处理，转换后的视频以悬浮面板显示在镜片中。",
+   "exercise_en": "Pair two phones on a video call where one side's feed goes through a live AI filter; decide together what the filter should reveal about the speaker. Twist: the filter changes with the speaker's tone of voice.",
+   "exercise_zh": "让两部手机视频通话，其中一方的画面经过实时 AI 滤镜；两人一起决定滤镜要揭示说话者的什么。变体：滤镜随说话语气变化。",
+   "interaction": [
+    "multiplayer-social",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "Decart AI",
+    "NDK",
+    "WebRTC",
+    "agentic coding"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2079985282510631174",
+    "url": "https://x.com/alessiograncini/status/2079985282510631174"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://x.com/alessiograncini/status/2079985282510631174"
+  },
+  {
+   "id": "alessio-grancini--spectacles-reachy-mini",
+   "creator_ids": [
+    "alessio-grancini"
+   ],
+   "title": "Spectacles controlling a Reachy Mini robot",
+   "year": 2026,
+   "description": "For MIT Reality Hack 2026, Snap's developer team connected Spectacles to Hugging Face and Pollen Robotics' Reachy Mini, so AR interfaces can drive a small expressive desktop robot.",
+   "description_zh": "为 MIT Reality Hack 2026，Snap 开发者团队把 Spectacles 连上 Hugging Face 和 Pollen Robotics 的 Reachy Mini，让 AR 界面可以驱动这个表情丰富的小型桌面机器人。",
+   "idea_en": "AR glasses become the remote control and face for an AI robot on your desk.",
+   "idea_zh": "AR 眼镜成为桌上 AI 机器人的遥控器和“脸”。",
+   "technique": "A Lens Studio lens sends commands over the network to the Reachy Mini's open-source Python SDK, whose head and antennas react to hand input and AI behaviours.",
+   "technique_zh": "Lens Studio 镜头通过网络向 Reachy Mini 的开源 Python SDK 发送指令，机器人的头部和天线根据手势输入和 AI 行为做出反应。",
+   "exercise_en": "Connect a phone AR app to a cheap servo toy over WebSocket, so pointing at it in AR makes it turn toward you. Twist: give the robot an LLM personality that comments on what the AR camera sees.",
+   "exercise_zh": "用 WebSocket 把手机 AR 应用连到一个便宜的舵机玩具，在 AR 中指向它，它就转向你。变体：给机器人一个大语言模型人格，点评 AR 摄像头看到的东西。",
+   "interaction": [
+    "hand-body",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "Reachy Mini",
+    "Hugging Face",
+    "Lens Studio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "7-7kT0e0knQ",
+    "url": "https://www.youtube.com/watch?v=7-7kT0e0knQ"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=7-7kT0e0knQ",
+   "code_url": "https://github.com/agrancini-sc/Spectacles-Reachy-Mini-MIT-2026"
+  },
+  {
+   "id": "alessio-grancini--remote-object-detection-hf",
+   "creator_ids": [
+    "alessio-grancini"
+   ],
+   "title": "Remote object detection with Hugging Face on Spectacles",
+   "year": 2025,
+   "description": "A sample lens sends the Spectacles camera view to an object-detection model hosted on Hugging Face and draws labelled boxes on real objects in the wearer's view.",
+   "description_zh": "一个示例镜头把 Spectacles 的摄像头画面发送到 Hugging Face 上托管的物体检测模型，在佩戴者视野里给真实物体画出带标签的框。",
+   "idea_en": "Borrow any open vision model from the web and see its answers on the world.",
+   "idea_zh": "从网上借来任意开源视觉模型，把它的答案直接标在世界上。",
+   "technique": "Camera frames are posted to a hosted inference endpoint, and returned bounding boxes are unprojected into 3D using camera intrinsics and depth to anchor labels.",
+   "technique_zh": "把摄像头帧发送到在线推理端点，返回的边界框结合相机内参和深度反投影到三维，用来锚定标签。",
+   "exercise_en": "Use a phone WebAR page to send a frame to a free Hugging Face detection model and place floating labels at the detected positions using hit tests. Twist: label objects with what they might be thinking instead of their names.",
+   "exercise_zh": "用手机 WebAR 页面把一帧画面发给免费的 Hugging Face 检测模型，并用命中测试在检测位置放置漂浮标签。变体：标签写的不是物体名字，而是它“在想什么”。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "Hugging Face",
+    "Lens Studio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "6FuHyGiO8dc",
+    "url": "https://www.youtube.com/watch?v=6FuHyGiO8dc"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=6FuHyGiO8dc"
+  },
+  {
+   "id": "alessio-grancini--mcp-server-for-lens-studio",
+   "creator_ids": [
+    "alessio-grancini"
+   ],
+   "title": "From prompt to lens with an MCP server for Lens Studio",
+   "year": 2025,
+   "description": "A walkthrough of building a first Model Context Protocol server so an AI coding agent can create and edit AR lenses inside Lens Studio from plain-language prompts.",
+   "description_zh": "一步步搭建第一个 Model Context Protocol 服务器，让 AI 编程智能体能够根据自然语言提示，在 Lens Studio 里创建和修改 AR 镜头。",
+   "idea_en": "The AR editor becomes something an AI agent can operate for you.",
+   "idea_zh": "AR 编辑器变成 AI 智能体可以替你操作的工具。",
+   "technique": "An MCP server exposes Lens Studio actions (create objects, set properties, run scripts) as tools that an LLM agent in Cursor or Claude can call in a loop.",
+   "technique_zh": "MCP 服务器把 Lens Studio 的操作（创建物体、设置属性、运行脚本）封装成工具，供 Cursor 或 Claude 中的大语言模型智能体循环调用。",
+   "exercise_en": "Expose three functions of any 3D tool (add cube, set colour, move) through a tiny MCP server and ask an AI agent to build a scene from one sentence. Twist: the agent must explain each step aloud to a classmate who is building the same scene by hand.",
+   "exercise_zh": "用一个很小的 MCP 服务器暴露任意三维工具的三个功能（加方块、设颜色、移动），让 AI 智能体根据一句话搭场景。变体：智能体每一步都要讲给一位手工搭同样场景的同学听。",
+   "interaction": [
+    "drawing-creation",
+    "voice-sound"
+   ],
+   "platform": [
+    "desktop",
+    "headset"
+   ],
+   "tech": [
+    "Lens Studio AI",
+    "Model Context Protocol",
+    "Cursor",
+    "Claude"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "bhWIryYyVvM",
+    "url": "https://www.youtube.com/watch?v=bhWIryYyVvM"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://www.youtube.com/watch?v=bhWIryYyVvM"
+  },
+  {
+   "id": "takashi-yoshinaga--live-scene-analyzer",
+   "creator_ids": [
+    "takashi-yoshinaga"
+   ],
+   "title": "Live Scene Analyzer: describing actions and checking tasks",
+   "year": 2026,
+   "description": "A first-person AR headset feed is read by an AI model almost in real time: in Description Mode it narrates actions like typing, using a phone or petting a cat; in Scenario Mode it ticks off steps of a morning routine.",
+   "description_zh": "AI 模型几乎实时地读取第一人称 AR 头显画面：描述模式下讲出打字、看手机、摸猫等动作；场景模式下逐项核对晨间流程是否完成。",
+   "idea_en": "Your glasses watch what your hands do and keep your checklist for you.",
+   "idea_zh": "眼镜看着你的手在做什么，替你打勾完成清单。",
+   "technique": "Short clips or frames from the headset camera are sent with a system prompt to a vision-language model that returns an action description or a task-completion verdict.",
+   "technique_zh": "把头显摄像头的短片段或帧连同系统提示发给视觉语言模型，返回动作描述或任务是否完成的判断。",
+   "exercise_en": "Mount a phone on your head, send a frame every three seconds to a vision model with a five-step checklist (for example making tea), and tick steps on screen as they are seen. Twist: the checklist is a dance routine.",
+   "exercise_zh": "把手机戴在头上，每三秒发送一帧给视觉模型，配一张五步清单（例如泡茶），看到一步就在屏幕上打勾。变体：清单换成一段舞蹈动作。",
+   "interaction": [
+    "data-information",
+    "hand-body"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "VLM",
+    "first-person video",
+    "AR headset"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "O7LS4NdFOfQ",
+    "url": "https://www.youtube.com/watch?v=O7LS4NdFOfQ"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=O7LS4NdFOfQ"
+  },
+  {
+   "id": "takashi-yoshinaga--prompt-based-ocr",
+   "creator_ids": [
+    "takashi-yoshinaga"
+   ],
+   "title": "On-device vision AI: scene understanding and prompt-based OCR",
+   "year": 2026,
+   "description": "An LLM running entirely on a smartphone, without internet, either summarises the scene or reads only the text on an object you name, such as a label or a sign, and organises it into meaningful units.",
+   "description_zh": "一个完全在手机上离线运行的大语言模型：可以概括眼前场景，也可以只读取你点名的那个物体上的文字（比如标签或招牌），并整理成有意义的条目。",
+   "idea_en": "Say what to read instead of framing it inside a scan box.",
+   "idea_zh": "说出要读什么，而不是把它对准扫描框。",
+   "technique": "A small on-device multimodal model receives the camera frame plus a natural-language target and returns structured text, replacing the fixed region of interest of classic OCR.",
+   "technique_zh": "小型端侧多模态模型接收摄像头画面和一句自然语言目标，返回结构化文字，取代传统 OCR 固定的识别区域。",
+   "exercise_en": "Build a phone page that sends a photo and a spoken request ('read the ingredients on the red box') to a vision model and pins the answer next to the object in AR. Twist: ask it to read things that have no text, like a face or a plant.",
+   "exercise_zh": "做一个手机页面，把照片和一句语音请求（“读一下红盒子上的配料”）发给视觉模型，并在 AR 中把答案钉在物体旁。变体：让它“读”没有文字的东西，比如一张脸或一株植物。",
+   "interaction": [
+    "data-information",
+    "tangible-object"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "on-device LLM",
+    "OCR",
+    "smartphone"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "gVoTzhzCqSQ",
+    "url": "https://www.youtube.com/watch?v=gVoTzhzCqSQ"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=gVoTzhzCqSQ"
+  },
+  {
+   "id": "takashi-yoshinaga--memories-to-3dgs",
+   "creator_ids": [
+    "takashi-yoshinaga"
+   ],
+   "title": "Turn your memories into 3D Gaussian splats",
+   "year": 2026,
+   "description": "Ordinary photos, even old film prints, are turned into 3D Gaussian splats and viewed in AR on Quest, so a memory stands on the table as a small 3D scene.",
+   "description_zh": "普通照片，甚至老胶片照片，都被转成三维高斯泼溅，在 Quest 上以 AR 方式观看，一段回忆就像小小的三维场景立在桌上。",
+   "idea_en": "An old photo becomes a place you can lean into.",
+   "idea_zh": "一张旧照片变成可以探头进去看的地方。",
+   "technique": "A single-image-to-3D model (Apple SHARP) predicts splats from each photo, which are then rendered in passthrough AR on Quest.",
+   "technique_zh": "用单图转三维模型（Apple SHARP）从每张照片预测高斯泼溅，再在 Quest 的透视 AR 中渲染。",
+   "exercise_en": "Ask each student to bring one family photo, convert it with a free image-to-3D tool, and display it in WebAR on their desk. Twist: place the 3D photo exactly where it was originally taken.",
+   "exercise_zh": "让每位同学带一张家庭照片，用免费图生三维工具转换，在课桌上用 WebAR 展示。变体：把三维照片放回它当年拍摄的地点。",
+   "interaction": [
+    "portal-world",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple SHARP",
+    "Gaussian splatting",
+    "Meta Quest 3"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "5nlFjTWZSE8",
+    "url": "https://www.youtube.com/watch?v=5nlFjTWZSE8"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://www.youtube.com/watch?v=5nlFjTWZSE8"
+  },
+  {
+   "id": "takashi-yoshinaga--spatial-search-quest",
+   "creator_ids": [
+    "takashi-yoshinaga"
+   ],
+   "title": "Spatial Search for Meta Quest",
+   "year": 2026,
+   "description": "Type or say what you are looking for, and the matching points in Quest's spatial data of the room light up as the search result.",
+   "description_zh": "输入或说出你要找的东西，Quest 房间空间数据里匹配的点就会亮起来作为搜索结果。",
+   "idea_en": "Search your room the way you search the web.",
+   "idea_zh": "像搜网页一样搜索你的房间。",
+   "technique": "Image features from the headset camera are attached to the spatial point cloud (likely with a CLIP-style embedding), and a text query is embedded and matched against them to highlight regions.",
+   "technique_zh": "把头显摄像头的图像特征附加到空间点云上（很可能是 CLIP 类嵌入），再把文本查询编码并与之匹配，高亮相应区域。",
+   "exercise_en": "Take 20 photos around a room with their positions (from a phone AR session), embed them with CLIP, and on a text query place a glowing marker where the best photo was taken. Twist: search for feelings, like 'somewhere cosy'.",
+   "exercise_zh": "用手机 AR 会话在房间里拍 20 张带位置的照片，用 CLIP 编码；输入文字查询时，在最匹配照片的拍摄位置放一个发光标记。变体：搜索感受，比如“一个温馨的角落”。",
+   "interaction": [
+    "spatial-mapping",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "open-vocabulary search",
+    "point cloud"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "CpNNvYJ_eqo",
+    "url": "https://www.youtube.com/watch?v=CpNNvYJ_eqo"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=CpNNvYJ_eqo"
+  },
+  {
+   "id": "takashi-yoshinaga--snap2voxel-ar",
+   "creator_ids": [
+    "takashi-yoshinaga"
+   ],
+   "title": "Snap2VoxelAR",
+   "year": 2026,
+   "description": "A photo taken with the headset camera is converted by an AI workflow into voxel art and displayed back in AR next to the real object.",
+   "description_zh": "用头显摄像头拍下的照片，经 AI 工作流转换成体素艺术，再在 AR 中显示在真实物体旁边。",
+   "idea_en": "Snap a photo and get back a toy-block version of the world.",
+   "idea_zh": "拍张照，拿回一个积木版的世界。",
+   "technique": "Captured images are sent to a coding agent (Codex with GPT-5.5) that writes and runs an image-to-voxel conversion, and the resulting voxel model is loaded into the AR scene.",
+   "technique_zh": "把拍到的图像交给编程智能体（Codex 配 GPT-5.5），由它编写并运行图像转体素的程序，生成的体素模型再载入 AR 场景。",
+   "exercise_en": "Photograph an object, downsample it into a 16x16x16 voxel grid with a script (or an image-to-3D tool plus voxeliser), and place the blocks in AR beside the real thing. Twist: let the voxel copy slowly fall apart when you look away.",
+   "exercise_zh": "给物体拍照，用脚本（或图生三维加体素化工具）降采样成 16×16×16 的体素网格，在 AR 中放在实物旁。变体：你一移开视线，体素复制品就慢慢散架。",
+   "interaction": [
+    "tangible-object",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest",
+    "XREAL One",
+    "GPT-5.5",
+    "Codex",
+    "voxel"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "57gkK-xGxKQ",
+    "url": "https://www.youtube.com/watch?v=57gkK-xGxKQ"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://www.youtube.com/watch?v=57gkK-xGxKQ"
+  },
+  {
+   "id": "figmin-xr--ai-agent-vision",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "AI Agent Vision: rebuilding a photo as an XR sketch",
+   "year": 2026,
+   "description": "Claude is shown a photo of a cabin and rebuilds it inside Figmin XR as a fully editable 3D sketch in mixed reality; Claude and Codex are compared on the same task.",
+   "description_zh": "把一张小木屋照片给 Claude 看，它在 Figmin XR 里把小屋重建成可完全编辑的三维草图，并放在混合现实中；同一任务还对比了 Claude 和 Codex。",
+   "idea_en": "An AI agent that sketches in 3D next to you, starting from a photo.",
+   "idea_zh": "一个从照片出发、在你身边画三维草图的 AI 智能体。",
+   "technique": "An LLM agent with vision reads the image and calls Figmin's scripting API to place and shape primitive strokes, producing editable geometry rather than a frozen mesh.",
+   "technique_zh": "具备视觉能力的大语言模型智能体读图后调用 Figmin 的脚本 API，放置并塑形基础笔画，得到可编辑的几何体而不是固定网格。",
+   "exercise_en": "Give an AI model a photo and ask it to describe the object as a list of 10 primitives (boxes, cylinders) with positions; place them in AR with A-Frame. Twist: ask for the same object as a child would build it.",
+   "exercise_zh": "给 AI 模型一张照片，让它把物体描述成 10 个基础形体（方块、圆柱）及其位置，用 A-Frame 在 AR 中摆出来。变体：让它按小孩子的搭法来搭同一个东西。",
+   "interaction": [
+    "drawing-creation",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Figmin XR",
+    "Claude",
+    "Codex",
+    "scripting API"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Sbk1b6-lcK8",
+    "url": "https://www.youtube.com/watch?v=Sbk1b6-lcK8"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://www.youtube.com/watch?v=Sbk1b6-lcK8"
+  },
+  {
+   "id": "figmin-xr--chatgpt-5-scripting",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "ChatGPT 5 writing mixed-reality scripts in Figmin XR",
+   "year": 2025,
+   "description": "A classic AI coding challenge is taken into 3D: GPT-5 writes a script for Figmin XR's scripting API and the result runs as an interactive object in the user's room.",
+   "description_zh": "把一个经典的 AI 编程挑战带进三维：GPT-5 为 Figmin XR 的脚本 API 写代码，结果作为交互物体在用户房间里运行。",
+   "idea_en": "Describe a behaviour, and an object in your room starts doing it.",
+   "idea_zh": "描述一种行为，房间里的一个物体就开始照做。",
+   "technique": "The LLM generates Lua-style code against Figmin's documented API; the code is loaded into an object and executed in the mixed-reality scene.",
+   "technique_zh": "大语言模型针对 Figmin 的公开 API 生成脚本代码，代码被装入物体并在混合现实场景中执行。",
+   "exercise_en": "Give an LLM the documentation of a tiny AR scripting API (spin, move, change colour) and ask for a bouncing-ball script; run it in WebXR. Twist: the class writes prompts only, never code, and competes for the strangest physics.",
+   "exercise_zh": "把一个很小的 AR 脚本 API 文档（旋转、移动、变色）交给大语言模型，让它写弹球脚本，在 WebXR 中运行。变体：全班只写提示不写代码，比谁的物理最奇怪。",
+   "interaction": [
+    "game-play",
+    "drawing-creation"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Figmin XR",
+    "GPT-5",
+    "scripting API"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "eY-538AArdI",
+    "url": "https://www.youtube.com/watch?v=eY-538AArdI"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://www.youtube.com/watch?v=eY-538AArdI"
+  },
+  {
+   "id": "figmin-xr--ai-powered-scripting-fish",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "AI-powered scripting: a school of fish",
+   "year": 2025,
+   "description": "A school of fish swimming around a real room is fully controlled by an AI-generated script, previewing a feature where you describe a behaviour and watch it come to life.",
+   "description_zh": "一群在真实房间里游动的鱼，完全由 AI 生成的脚本控制，预告了“描述行为就能让它活过来”的功能。",
+   "idea_en": "Behaviours, not just objects, can be generated from words.",
+   "idea_zh": "不只是物体，连行为也可以用一句话生成。",
+   "technique": "An LLM writes a flocking (boids-style) script against Figmin's API, which moves many instanced fish while respecting the room's space.",
+   "technique_zh": "大语言模型针对 Figmin 的 API 写出群集（boids 类）脚本，驱动大量鱼在房间空间内游动。",
+   "exercise_en": "Ask an LLM for a boids script in three.js, then run it in WebXR so 50 paper birds fly around your classroom. Twist: make the flock avoid wherever people are standing.",
+   "exercise_zh": "请大语言模型写一段 three.js 的 boids 群集脚本，在 WebXR 中让 50 只纸鸟绕教室飞。变体：让鸟群避开有人站着的地方。",
+   "interaction": [
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Figmin XR",
+    "LLM",
+    "scripting API"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "o_bxxVkN1Ag",
+    "url": "https://www.youtube.com/watch?v=o_bxxVkN1Ag"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://www.youtube.com/watch?v=o_bxxVkN1Ag"
+  },
+  {
+   "id": "figmin-xr--luma-genie-3d",
+   "creator_ids": [
+    "figmin-xr"
+   ],
+   "title": "AI-generated 3D models with Luma Genie in mixed reality",
+   "year": 2024,
+   "description": "From inside Figmin XR's built-in web browser, users generate 3D models with Luma Genie from a text prompt and drop them straight into their mixed-reality scene.",
+   "description_zh": "在 Figmin XR 内置浏览器里，用户用文字提示通过 Luma Genie 生成三维模型，并直接放进自己的混合现实场景。",
+   "idea_en": "Say an object and place it on your real table a minute later.",
+   "idea_zh": "说出一个物体，一分钟后把它放在你真实的桌子上。",
+   "technique": "A text-to-3D service (Luma Genie) returns a textured mesh that is imported through the in-app browser into the MR scene graph.",
+   "technique_zh": "文生三维服务（Luma Genie）返回带贴图的网格，通过应用内浏览器导入混合现实场景。",
+   "exercise_en": "Generate three props for a tiny story with a free text-to-3D tool and stage them on a desk with WebAR. Twist: each prop must be generated from a line of dialogue spoken by another prop.",
+   "exercise_zh": "用免费文生三维工具为一个小故事生成三件道具，用 WebAR 摆在桌上。变体：每件道具都必须由另一件道具说的一句台词生成。",
+   "interaction": [
+    "drawing-creation",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Figmin XR",
+    "Luma Genie",
+    "text-to-3D"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "PFY1mk4gzjs",
+    "url": "https://www.youtube.com/watch?v=PFY1mk4gzjs"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://www.youtube.com/watch?v=PFY1mk4gzjs"
+  },
+  {
+   "id": "dilmer-valecillos--ai-building-blocks-object-detection",
+   "creator_ids": [
+    "dilmer-valecillos"
+   ],
+   "title": "AI Building Blocks: object detection in mixed reality",
+   "year": 2026,
+   "description": "The first of a series on Meta's AI Building Blocks shows real objects in the room detected and labelled in mixed reality, running either on-device or in the cloud.",
+   "description_zh": "介绍 Meta AI Building Blocks 的系列第一集：房间里的真实物体在混合现实中被检测并加上标签，可在设备端或云端运行。",
+   "idea_en": "Drop-in blocks make the headset name what it sees.",
+   "idea_zh": "即插即用的模块，让头显说出它看到了什么。",
+   "technique": "Passthrough camera frames go to an object-detection model (on-device or cloud), and boxes are projected into 3D using the environment depth to anchor labels.",
+   "technique_zh": "透视摄像头画面送入物体检测模型（端侧或云端），再结合环境深度把边界框投射到三维中锚定标签。",
+   "exercise_en": "Use Unity with a ready-made AI building block or a WebAR detection demo to label five classroom objects, then replace each label with a fun fact. Twist: only reveal a label when two people look at the same object.",
+   "exercise_zh": "用 Unity 的现成 AI 模块或 WebAR 检测示例给教室里的五件物品加标签，再把标签换成一个有趣冷知识。变体：只有两个人同时看着同一件物品时才显示标签。",
+   "interaction": [
+    "tangible-object",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Meta XR SDK AI Building Blocks",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "QIa6frPMcSQ",
+    "url": "https://www.youtube.com/watch?v=QIa6frPMcSQ"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=QIa6frPMcSQ",
+   "code_url": "https://github.com/dilmerv/AIBuildingBlocksDemos"
+  },
+  {
+   "id": "dilmer-valecillos--ai-building-blocks-llm",
+   "creator_ids": [
+    "dilmer-valecillos"
+   ],
+   "title": "AI Building Blocks: multimodal LLMs in mixed reality",
+   "year": 2026,
+   "description": "Conversational AI is added to a mixed-reality app with multimodal prompts that combine speech, images and video from the headset, for context-aware answers about the user's surroundings.",
+   "description_zh": "为混合现实应用加入对话式 AI，把头显的语音、图像和视频组合成多模态提示，针对用户周围环境给出有语境的回答。",
+   "idea_en": "Ask your room a question and let the model see it before answering.",
+   "idea_zh": "向你的房间提问，让模型先看一眼再回答。",
+   "technique": "Unity building blocks wrap speech-to-text, a multimodal LLM call with passthrough frames, and text-to-speech, so the reply is spoken and shown in space.",
+   "technique_zh": "Unity 模块封装了语音转文字、带透视画面的多模态大语言模型调用以及文字转语音，回答以语音和空间文字呈现。",
+   "exercise_en": "Chain speech-to-text, a vision LLM with one camera frame, and text-to-speech in a phone web page, and use it as a museum guide for objects on a shelf. Twist: the guide must answer as the object itself.",
+   "exercise_zh": "在手机网页里串起语音转文字、带一帧画面的视觉大语言模型和文字转语音，做成书架上物品的“博物馆讲解员”。变体：讲解员必须以物品本身的口吻回答。",
+   "interaction": [
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Meta XR SDK v83",
+    "LLM",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Q8BFLkRYOy0",
+    "url": "https://www.youtube.com/watch?v=Q8BFLkRYOy0"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=Q8BFLkRYOy0",
+   "code_url": "https://github.com/dilmerv/AIBuildingBlocksDemos"
+  },
+  {
+   "id": "dilmer-valecillos--arcade-hoops-built-with-ai",
+   "creator_ids": [
+    "dilmer-valecillos"
+   ],
+   "title": "Arcade Hoops: a mixed-reality game built with AI in 30 days",
+   "year": 2026,
+   "description": "A walkthrough of building and shipping a full mixed-reality basketball game to the Meta Horizon Store with AI agents, including net physics, tabletop play and a feature that lets players smash their real walls and ceiling.",
+   "description_zh": "完整记录如何借助 AI 智能体开发并上架一款混合现实篮球游戏，包括球网物理、桌面玩法，以及可以砸碎真实墙壁和天花板的新功能。",
+   "idea_en": "One developer plus coding agents can ship a mixed-reality game in a month.",
+   "idea_zh": "一个开发者加上编程智能体，一个月就能上架一款混合现实游戏。",
+   "technique": "Unity MCP and Meta's agentic tools let an LLM create scene objects, write C# and wire up the room mesh, with the developer prompting and reviewing each feature.",
+   "technique_zh": "Unity MCP 和 Meta 的智能体工具让大语言模型创建场景物体、编写 C# 并连接房间网格，开发者负责提示和审阅每个功能。",
+   "exercise_en": "In one class session, pair-program a tiny WebXR throwing game with an AI assistant, keeping a log of every prompt. Twist: swap logs with another team and try to rebuild their game from prompts alone.",
+   "exercise_zh": "用一节课时间，和 AI 助手结对写一个小型 WebXR 投掷游戏，记录每一条提示。变体：与另一组交换记录，只凭提示重做对方的游戏。",
+   "interaction": [
+    "game-play",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Unity MCP",
+    "Meta Quest",
+    "agentic coding"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "eS0f7W6Y6cE",
+    "url": "https://www.youtube.com/watch?v=eS0f7W6Y6cE"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://www.youtube.com/watch?v=eS0f7W6Y6cE"
+  },
+  {
+   "id": "keiichi-matsuda--life-stories-world-labs",
+   "creator_ids": [
+    "keiichi-matsuda"
+   ],
+   "title": "Life Stories × World Labs: Night Lake",
+   "year": 2025,
+   "description": "A true memory collected by Liquid City's AI interviewer is turned by their AI engine into descriptions, then images, and finally an explorable 3D Gaussian-splat world made with World Labs' Marble.",
+   "description_zh": "Liquid City 的 AI 访谈员收集到一段真实回忆，他们的 AI 引擎把它依次变成文字描述、图像，最后用 World Labs 的 Marble 生成可以探索的三维高斯泼溅世界。",
+   "idea_en": "A spoken memory becomes a place other people can walk through.",
+   "idea_zh": "一段口述回忆，变成别人可以走进去的地方。",
+   "technique": "An LLM pipeline rewrites the interview into scene descriptions, an image model renders them, and a world model (Marble) lifts the images into navigable splats.",
+   "technique_zh": "大语言模型流水线把访谈改写成场景描述，图像模型渲染成图，再由世界模型（Marble）把图像提升为可漫游的泼溅场景。",
+   "exercise_en": "Interview a classmate for two minutes about a place they miss, turn the transcript into a scene prompt, generate an image and then a 3D world, and view it in WebXR together. Twist: the interviewee must guide the others through it without seeing it first.",
+   "exercise_zh": "花两分钟采访同学一个他想念的地方，把文字稿改成场景提示，先生成图像再生成三维世界，一起用 WebXR 观看。变体：受访者在自己没看过的情况下为大家导览。",
+   "interaction": [
+    "portal-world",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "World Labs Marble",
+    "Gaussian splatting",
+    "LLM",
+    "Life Stories"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "w5fp-otQhQU",
+    "url": "https://www.youtube.com/watch?v=w5fp-otQhQU"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://lifestory.liquid.city"
+  },
+  {
+   "id": "botao-amber-hu--city-of-sparkles",
+   "creator_ids": [
+    "botao-amber-hu"
+   ],
+   "title": "City of Sparkles",
+   "year": 2022,
+   "description": "An immersive piece in which the audience embodies Zoe, an AI life form, wandering a sparkling New York built from four years of geotagged Twitter posts and reading scattered fragments of human memory.",
+   "description_zh": "一件沉浸式作品：观众化身 AI 生命体 Zoe，在由四年地理标记推文构成、闪烁着光点的纽约中游走，拾读散落的人类记忆碎片。",
+   "idea_en": "How might an AI perceive our city? Let the audience see it through the AI's eyes.",
+   "idea_zh": "AI 会如何感知我们的城市？让观众通过 AI 的眼睛去看。",
+   "technique": "Geotagged social-media posts are spatialised as sparkles sampled from a photogrammetry model of the real city, and the viewer navigates them as the AI protagonist.",
+   "technique_zh": "把带地理标记的社交媒体帖子空间化，化作从真实城市摄影测量模型上采样的光点，观众以 AI 主角的身份在其中穿行。",
+   "exercise_en": "Collect 100 geotagged posts or photos around your campus, place them as glowing points on a map-scaled WebXR model, and read them as an AI character looking for meaning. Twist: the AI can only read fragments one word at a time.",
+   "exercise_zh": "收集校园周边 100 条带地理标记的帖子或照片，在按地图比例的 WebXR 模型上化作发光点，以一个寻找意义的 AI 角色身份阅读它们。变体：AI 每次只能读到碎片中的一个词。",
+   "interaction": [
+    "data-information",
+    "location-geo",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "VR",
+    "geotagged Twitter data",
+    "photogrammetry"
+   ],
+   "video": {
+    "platform": "vimeo",
+    "id": "777136892",
+    "url": "https://vimeo.com/777136892"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://reality.design/project/city-of-sparkles"
+  },
+  {
+   "id": "snap-inc--agent-center-spectacles",
+   "creator_ids": [
+    "snap-inc"
+   ],
+   "title": "Agent Center for Spectacles",
+   "year": 2026,
+   "description": "Agent Center connects a developer's command-line coding agents to Spectacles, so they can prompt agents in AR and keep track of their code while away from the desk.",
+   "description_zh": "Agent Center 把开发者的命令行编程智能体连接到 Spectacles，让人离开工位时也能在 AR 中给智能体下指令并追踪代码进度。",
+   "idea_en": "Your coding agents follow you around as floating panels.",
+   "idea_zh": "你的编程智能体以悬浮面板的形式跟着你走。",
+   "technique": "A bridge relays prompts and agent output between CLI agents running on a computer and a Spectacles lens that shows sessions as spatial windows.",
+   "technique_zh": "一个桥接服务在电脑上的命令行智能体与 Spectacles 镜头之间转发提示和输出，镜头把各个会话显示为空间窗口。",
+   "exercise_en": "Mirror the output of a long-running script to a phone WebAR panel that floats by your door, and add a button to send one-word replies back. Twist: the panel changes colour with the agent's mood.",
+   "exercise_zh": "把一个长时间运行脚本的输出同步到手机 WebAR 面板上，让它悬在门口，并加一个按钮回复一个词。变体：面板颜色随智能体的“情绪”变化。",
+   "interaction": [
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "CLI coding agents",
+    "Lens Studio"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "U0cA-bVxLgM",
+    "url": "https://www.youtube.com/watch?v=U0cA-bVxLgM"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://www.youtube.com/watch?v=U0cA-bVxLgM",
+   "code_url": "https://github.com/specs-devs/samples"
+  },
+  {
+   "id": "snap-inc--spectacles-ai-ar-release",
+   "creator_ids": [
+    "snap-inc"
+   ],
+   "title": "Spectacles AI release: Snap 3D and LLM integrations",
+   "year": 2025,
+   "description": "The June 2025 Spectacles OS release adds OpenAI, Gemini and DeepSeek integrations, better speech-to-text, the Snap 3D generative API that creates 3D objects on demand, and new object-tracking samples.",
+   "description_zh": "2025 年 6 月的 Spectacles 系统更新加入了 OpenAI、Gemini 和 DeepSeek 集成、更好的语音转文字、可按需生成三维物体的 Snap 3D 生成接口，以及新的物体追踪示例。",
+   "idea_en": "AR glasses where you can ask for a 3D object and it appears.",
+   "idea_zh": "在 AR 眼镜里说想要一个三维物体，它就出现了。",
+   "technique": "Lens Studio exposes cloud LLMs and a text-to-3D endpoint (Snap 3D) to lenses, so a spoken prompt returns a mesh that is placed in the room.",
+   "technique_zh": "Lens Studio 向镜头开放云端大语言模型和文生三维接口（Snap 3D），一句语音提示就能返回一个网格并放进房间。",
+   "exercise_en": "Build a voice-to-3D toy: speech-to-text, then a free text-to-3D API, then place the result on a detected table in phone AR. Twist: every new object must be something the previous one would be afraid of.",
+   "exercise_zh": "做一个语音生三维小玩具：语音转文字，接免费文生三维接口，再放到手机 AR 检测到的桌面上。变体：每个新物体都必须是上一个物体会害怕的东西。",
+   "interaction": [
+    "drawing-creation",
+    "voice-sound",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "Snap 3D",
+    "OpenAI",
+    "Gemini",
+    "SnapML"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "qpi1JTnPwgs",
+    "url": "https://www.youtube.com/watch?v=qpi1JTnPwgs"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://www.youtube.com/watch?v=qpi1JTnPwgs"
+  },
+  {
+   "id": "snap-inc--spectacles-translation-challenge",
+   "creator_ids": [
+    "snap-inc"
+   ],
+   "title": "Spectacles AI-powered translation challenge",
+   "year": 2025,
+   "description": "Two people who speak different languages collaborate on a build: one instructs, one builds, and a Spectacles translation lens shows each spoken sentence as subtitles in the other's language.",
+   "description_zh": "两位说不同语言的人合作搭建：一人指挥、一人动手，Spectacles 的翻译镜头把每句话实时变成对方语言的字幕。",
+   "idea_en": "Subtitles for real life let strangers build something together.",
+   "idea_zh": "给现实生活加上字幕，让陌生人可以一起动手做东西。",
+   "technique": "Speech is transcribed, translated by an AI model and rendered as captions anchored near the speaker in the wearer's view.",
+   "technique_zh": "语音被转写后由 AI 模型翻译，再以字幕形式锚定在佩戴者视野中说话人附近。",
+   "exercise_en": "Run a LEGO challenge where the instructor speaks one language and the builder reads live translated captions on a phone held in a headset viewer. Twist: translate into emoji only.",
+   "exercise_zh": "做一个乐高挑战：指挥者说一种语言，搭建者通过放在头戴支架里的手机读实时翻译字幕。变体：只翻译成表情符号。",
+   "interaction": [
+    "multiplayer-social",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Snap Spectacles",
+    "speech-to-text",
+    "machine translation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hR4W_Qtzij4",
+    "url": "https://www.youtube.com/watch?v=hR4W_Qtzij4"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=hR4W_Qtzij4"
+  },
+  {
+   "id": "meta-reality-labs--meta-ray-ban-display",
+   "creator_ids": [
+    "meta-reality-labs"
+   ],
+   "title": "Meta Ray-Ban Display live demo (Connect 2025)",
+   "year": 2025,
+   "description": "At Connect 2025, Mark Zuckerberg demonstrates Meta Ray-Ban Display glasses with a small in-lens display and an EMG wristband: live AI answers, translation, messages and navigation appear in view, controlled by tiny finger gestures.",
+   "description_zh": "在 Connect 2025 上，扎克伯格演示了 Meta Ray-Ban Display 眼镜：镜片内的小显示屏配合肌电腕带，AI 回答、翻译、消息和导航都出现在视野里，用细微手指动作控制。",
+   "idea_en": "An AI assistant you see, not just hear, answering in the corner of your eye.",
+   "idea_zh": "一个不仅能听、还能看到的 AI 助手，在你眼角给出回答。",
+   "technique": "A monocular waveguide display shows Meta AI responses grounded in the glasses' camera and microphone, while a surface-EMG wristband decodes finger gestures as input.",
+   "technique_zh": "单眼光波导显示屏呈现基于眼镜摄像头和麦克风的 Meta AI 回答，表面肌电腕带把手指动作解码为输入。",
+   "exercise_en": "Prototype a 'corner of the eye' assistant: a phone in a headset viewer shows one line of AI answer in the top corner while the camera stays live, and one keyboard key acts as the pinch. Twist: limit every answer to five words.",
+   "exercise_zh": "做一个“眼角助手”原型：把手机放进头戴支架，摄像头画面保持实时，右上角只显示一行 AI 回答，用一个按键代替捏合手势。变体：每个回答限制在五个词以内。",
+   "interaction": [
+    "hand-body",
+    "data-information",
+    "voice-sound"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Meta Ray-Ban Display",
+    "Meta Neural Band",
+    "Meta AI",
+    "EMG"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "gZ9IsB72nVk",
+    "url": "https://www.youtube.com/watch?v=gZ9IsB72nVk"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=gZ9IsB72nVk"
+  },
+  {
+   "id": "karen-x-cheng--ar-ai-hand-filter",
+   "creator_ids": [
+    "karen-x-cheng"
+   ],
+   "title": "AR + AI effect: a generated scene that reacts to your hands",
+   "year": 2023,
+   "description": "An AR filter whose imagery was extended with Photoshop's generative AI reacts to the viewer's hands, so the AI-painted scene moves and opens around them.",
+   "description_zh": "一个 AR 滤镜：画面先用 Photoshop 的生成式 AI 扩展，再做成对手部动作有反应的效果，AI 画出的场景会随手的动作展开和移动。",
+   "idea_en": "Use generative fill to paint the world, then let your hands play inside it.",
+   "idea_zh": "先用生成式填充画出世界，再让双手在里面玩。",
+   "technique": "The background art was inpainted with Photoshop's generative fill and layered into an interactive AR filter driven by hand tracking (built with collaborator Sergey Galkin, likely in Adobe's AR tools).",
+   "technique_zh": "背景画面用 Photoshop 的生成式填充补全，再分层做成由手部追踪驱动的交互 AR 滤镜（与合作者 Sergey Galkin 完成，很可能用 Adobe 的 AR 工具）。",
+   "exercise_en": "Extend a photo of your classroom with any generative-fill tool into a fantasy scene, cut it into three depth layers and make them parallax with hand position in a web AR filter. Twist: each hand reveals a different season.",
+   "exercise_zh": "用任意生成式填充工具把教室照片扩展成奇幻场景，切成三层景深，在网页 AR 滤镜里随手的位置产生视差。变体：两只手各揭开一个不同的季节。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "phone"
+   ],
+   "tech": [
+    "Adobe Photoshop Generative Fill",
+    "AR filter",
+    "hand tracking"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1661474527673749504",
+    "url": "https://x.com/karenxcheng/status/1661474527673749504"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://x.com/karenxcheng/status/1661474527673749504"
+  },
+  {
+   "id": "google-android-xr--android-xr-io-2025",
+   "creator_ids": [
+    "google-android-xr"
+   ],
+   "title": "Android XR glasses live demo with Gemini (Google I/O 2025)",
+   "year": 2025,
+   "description": "On stage at Google I/O 2025, prototype Android XR glasses with Gemini remember where things were seen, give turn-by-turn directions, send messages and translate a conversation live, all shown in a small in-lens display.",
+   "description_zh": "在 Google I/O 2025 舞台上，搭载 Gemini 的 Android XR 原型眼镜记住东西在哪里见过、给出逐步导航、发送消息并实时翻译对话，都显示在镜片内的小屏上。",
+   "idea_en": "Glasses with an assistant that remembers what you saw a minute ago.",
+   "idea_zh": "眼镜里的助手，记得你一分钟前看到过什么。",
+   "technique": "Gemini Live receives the glasses' camera and audio stream, keeps short-term visual memory, and returns spoken answers plus minimal overlays in a monocular display.",
+   "technique_zh": "Gemini Live 接收眼镜摄像头和音频流，保留短期视觉记忆，返回语音回答和单眼显示屏上的少量叠加信息。",
+   "exercise_en": "Build a 'where did I leave it?' prototype: a phone camera logs a frame every five seconds with a caption from a vision model; later you ask by voice and get the last matching frame. Twist: the assistant can only answer by pointing, never with words.",
+   "exercise_zh": "做一个“我把它放哪了？”原型：手机摄像头每五秒记录一帧并用视觉模型生成说明；之后用语音提问，返回最后一次匹配的画面。变体：助手只能用“指”来回答，不能说话。",
+   "interaction": [
+    "voice-sound",
+    "data-information",
+    "location-geo"
+   ],
+   "platform": [
+    "wearable",
+    "headset"
+   ],
+   "tech": [
+    "Android XR",
+    "Gemini",
+    "display glasses"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "7nv1snJRCEI",
+    "url": "https://www.youtube.com/watch?v=7nv1snJRCEI"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=7nv1snJRCEI"
+  },
+  {
+   "id": "google-android-xr--project-astra",
+   "creator_ids": [
+    "google-android-xr"
+   ],
+   "title": "Project Astra: a universal AI assistant that sees",
+   "year": 2024,
+   "description": "Google DeepMind's research prototype assistant uses a phone camera or prototype glasses to understand the world live, speak several languages, use tools such as Search and Maps, and remember what it has seen.",
+   "description_zh": "Google DeepMind 的研究原型助手通过手机摄像头或原型眼镜实时理解世界，能说多种语言，会调用搜索和地图等工具，并记住看过的东西。",
+   "idea_en": "A single assistant that lives in your camera and keeps the context of your day.",
+   "idea_zh": "一个住在你摄像头里、记着你一天上下文的助手。",
+   "technique": "A low-latency multimodal model streams video and native audio, caches recent visual context as memory, and calls external tools before answering.",
+   "technique_zh": "低延迟多模态模型流式处理视频和原生音频，把最近的视觉上下文缓存为记忆，并在回答前调用外部工具。",
+   "exercise_en": "With a free multimodal live API, walk students through a neighbourhood and let the assistant narrate the street's history; log what it gets wrong. Twist: give the assistant a secret goal it must steer you toward.",
+   "exercise_zh": "用免费的多模态实时接口，带同学在街区里走一圈，让助手讲解街道历史，并记录它说错的地方。变体：给助手一个秘密目标，它要悄悄把你引过去。",
+   "interaction": [
+    "voice-sound",
+    "data-information",
+    "location-geo"
+   ],
+   "platform": [
+    "phone",
+    "wearable"
+   ],
+   "tech": [
+    "Project Astra",
+    "Gemini 2.0",
+    "prototype glasses"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "hIIlJt8JERI",
+    "url": "https://www.youtube.com/watch?v=hIIlJt8JERI"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://deepmind.google/models/project-astra/"
+  },
+  {
+   "id": "lukas-moro--diffusion-muse-paper",
+   "creator_ids": [
+    "lukas-moro"
+   ],
+   "title": "Real-time diffusion as a muse while painting on paper",
+   "year": 2024,
+   "description": "While the user paints on a real sheet of paper, a Quest 3 shows a live diffusion image next to it that reinterprets every stroke, acting as a muse rather than a replacement.",
+   "description_zh": "用户在真实纸张上作画时，Quest 3 在旁边实时显示一幅扩散模型图像，重新诠释每一笔，像缪斯一样启发而不是替代。",
+   "idea_en": "Keep the pencil; let the AI dream alongside your drawing.",
+   "idea_zh": "笔还在你手里，AI 在你的画旁边做梦。",
+   "technique": "A view of the paper is streamed to StreamDiffusion (image-to-image at low steps), and the result is shown as a floating panel beside the physical page.",
+   "technique_zh": "把纸面画面流式送入 StreamDiffusion（低步数图生图），生成结果以悬浮面板形式显示在实体纸张旁边。",
+   "exercise_en": "Point a phone at a sketchbook, send the image to a fast image-to-image model every second, and show the result in a headset viewer next to the page. Twist: the AI only sees what you erased.",
+   "exercise_zh": "把手机对准速写本，每秒把画面送进快速图生图模型，在头戴支架里把结果显示在纸旁边。变体：AI 只能看到你擦掉的部分。",
+   "interaction": [
+    "drawing-creation",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "StreamDiffusion"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1847299759603699906",
+    "url": "https://x.com/lukas_moro/status/1847299759603699906"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://x.com/lukas_moro/status/1847299759603699906"
+  },
+  {
+   "id": "lukas-moro--ai-through-paper",
+   "creator_ids": [
+    "lukas-moro"
+   ],
+   "title": "Interfacing AI through physical paper",
+   "year": 2024,
+   "description": "Highlighting and commenting on a printed page with a real pen and voice is synchronised to a digital copy, so the AI knows exactly which passage the reader is talking about.",
+   "description_zh": "用真笔在打印稿上划重点、用语音做批注，这些都会同步到数字副本中，AI 因此确切知道读者在说哪一段。",
+   "idea_en": "Paper stays the interface; the headset quietly turns it into a conversation with AI.",
+   "idea_zh": "纸依然是界面，头显悄悄把它变成与 AI 的对话。",
+   "technique": "The headset camera detects the page and highlighter marks, OCR maps them to the digital text, and spoken comments are attached to those passages for an LLM.",
+   "technique_zh": "头显摄像头识别纸页和荧光笔痕迹，OCR 把它们对应到数字文本，语音批注被挂到这些段落上交给大语言模型。",
+   "exercise_en": "Print a one-page text, highlight three lines, photograph the page and have a vision model return the highlighted lines plus a summary pinned next to the page in AR. Twist: the AI argues with your highlights.",
+   "exercise_zh": "打印一页文字，划出三行，拍照后让视觉模型返回被划的句子和一段总结，在 AR 中钉在纸旁。变体：让 AI 反驳你划的重点。",
+   "interaction": [
+    "drawing-creation",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "OCR",
+    "LLM"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1838207092471050645",
+    "url": "https://x.com/lukas_moro/status/1838207092471050645"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/lukas_moro/status/1838207092471050645"
+  },
+  {
+   "id": "lukas-moro--math-notes-on-paper",
+   "creator_ids": [
+    "lukas-moro"
+   ],
+   "title": "Math Notes on real paper",
+   "year": 2024,
+   "description": "Handwritten equations on physical paper are read by the headset and solved, with answers appearing on the page like Apple's Math Notes, but for pen and paper.",
+   "description_zh": "写在实体纸上的算式被头显读取并求解，答案直接出现在纸上，就像苹果的 Math Notes，只不过用的是纸笔。",
+   "idea_en": "Could mixed reality bring a renaissance of paper as a productivity tool?",
+   "idea_zh": "混合现实会不会让纸张作为生产力工具重新复兴？",
+   "technique": "Camera frames are sent to handwriting OCR and an LLM that evaluates the expressions; results are rendered as handwriting-style text aligned to the page.",
+   "technique_zh": "摄像头画面送入手写识别和大语言模型求值，结果以手写风格文字对齐渲染在纸面上。",
+   "exercise_en": "Photograph a handwritten sum with a phone, ask a vision model to solve it, and draw the answer in AR right after the equals sign. Twist: the AI writes the answer in the same handwriting as the student.",
+   "exercise_zh": "用手机拍下一道手写算式，让视觉模型求解，在 AR 中把答案写在等号后面。变体：AI 用和学生一样的笔迹写答案。",
+   "interaction": [
+    "drawing-creation",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "passthrough camera",
+    "OCR",
+    "LLM"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1829487148078412019",
+    "url": "https://x.com/lukas_moro/status/1829487148078412019"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/lukas_moro/status/1829487148078412019"
+  },
+  {
+   "id": "lukas-moro--motion-to-image-kinect",
+   "creator_ids": [
+    "lukas-moro"
+   ],
+   "title": "Motion as input for real-time image generation",
+   "year": 2024,
+   "description": "A person's movement captured by a Kinect drives a real-time image generator, so the picture morphs continuously as they move.",
+   "description_zh": "Kinect 捕捉的人体动作驱动实时图像生成，画面随着人的动作不断变形。",
+   "idea_en": "Dance the prompt instead of typing it.",
+   "idea_zh": "用舞蹈代替打字来写提示词。",
+   "technique": "The Kinect depth or silhouette image is used as the init image (or control) for StreamDiffusion, producing new frames at interactive rates.",
+   "technique_zh": "把 Kinect 的深度图或轮廓图作为 StreamDiffusion 的初始图（或控制信号），以交互速率生成新画面。",
+   "exercise_en": "Use a webcam body-segmentation mask as the input to a fast image-to-image model and project the output on a wall behind the dancer. Twist: freeze the prompt word only when the dancer stops moving.",
+   "exercise_zh": "用摄像头人体分割遮罩作为快速图生图模型的输入，把结果投影在舞者身后的墙上。变体：只有舞者停下来时才切换提示词。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "desktop",
+    "projection"
+   ],
+   "tech": [
+    "Kinect",
+    "StreamDiffusion"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1842953164498100617",
+    "url": "https://x.com/lukas_moro/status/1842953164498100617"
+   },
+   "ai_cat": "body",
+   "source_url": "https://x.com/lukas_moro/status/1842953164498100617"
+  },
+  {
+   "id": "hugues-bruyere--mr-diffusion-passthrough",
+   "creator_ids": [
+    "hugues-bruyere"
+   ],
+   "title": "Mixed Reality + Diffusion with the Quest Passthrough Camera API",
+   "year": 2025,
+   "description": "A mixed-reality prototype reads the Quest passthrough camera and replaces parts of the room with diffusion-generated imagery that stays in place as the wearer looks around.",
+   "description_zh": "一个混合现实原型读取 Quest 透视摄像头画面，把房间的部分区域替换成扩散模型生成的图像，佩戴者转头时图像仍留在原位。",
+   "idea_en": "Paint over the real room with a prompt, from inside the headset.",
+   "idea_zh": "在头显里，用一句提示词把真实房间重新画一遍。",
+   "technique": "Passthrough camera frames are sent to a fast diffusion model (image-to-image), and the generated images are re-projected onto the room surfaces from the capture pose.",
+   "technique_zh": "把透视摄像头帧送入快速扩散模型做图生图，再按拍摄时的位姿把生成图像重新投射到房间表面上。",
+   "exercise_en": "Capture a photo of a wall in phone AR, restyle it with a fast image-to-image model and paste it back as a textured plane on the same wall. Twist: restyle the wall only where your hand shines a virtual flashlight.",
+   "exercise_zh": "在手机 AR 中拍一面墙，用快速图生图模型重绘，再作为贴图平面贴回同一面墙。变体：只重绘你手中“虚拟手电筒”照到的地方。",
+   "interaction": [
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Passthrough Camera API",
+    "Stable Diffusion"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1901403937321750862",
+    "url": "https://x.com/smallfly/status/1901403937321750862"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://x.com/smallfly/status/1901403937321750862"
+  },
+  {
+   "id": "hugues-bruyere--prompt-engineer-and-director",
+   "creator_ids": [
+    "hugues-bruyere"
+   ],
+   "title": "The prompt engineer and the director",
+   "year": 2025,
+   "description": "A father types prompts while his son directs what the mixed-reality diffusion system should turn their living room into, making the prototype a family game.",
+   "description_zh": "父亲负责输入提示词，儿子当导演，决定混合现实扩散系统把客厅变成什么样，原型成了一个家庭游戏。",
+   "idea_en": "Generative AR works best as a conversation between two people.",
+   "idea_zh": "生成式 AR 最好玩的时候，是两个人之间的对话。",
+   "technique": "The same passthrough-plus-SDXL Turbo pipeline runs with a second person giving directions, so prompts evolve from a child's instructions.",
+   "technique_zh": "沿用透视画面加 SDXL Turbo 的流程，由第二个人发出指令，提示词随孩子的要求不断演变。",
+   "exercise_en": "In pairs, one student describes a transformation of the room aloud and the other must translate it into prompts for a live restyling demo. Twist: the director may only use sounds, not words.",
+   "exercise_zh": "两人一组：一人大声描述要把房间变成什么，另一人把它翻译成提示词，驱动实时重绘演示。变体：导演只能用声音，不能用词语。",
+   "interaction": [
+    "multiplayer-social",
+    "perception-art",
+    "voice-sound"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Passthrough Camera API",
+    "SDXL Turbo"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1911543395694027201",
+    "url": "https://x.com/smallfly/status/1911543395694027201"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://x.com/smallfly/status/1911543395694027201"
+  },
+  {
+   "id": "hugues-bruyere--art-morph-artlens",
+   "creator_ids": [
+    "hugues-bruyere"
+   ],
+   "title": "Art Morph (Hands-on Hallucinations) at the Cleveland Museum of Art",
+   "year": 2026,
+   "description": "In the new ArtLens gallery at the Cleveland Museum of Art, visitors use their hands in front of a camera and see themselves morphed into the style of artworks from the collection.",
+   "description_zh": "在克利夫兰艺术博物馆新的 ArtLens 展厅里，观众在摄像头前摆动双手，看到自己被“变形”成馆藏艺术品的风格。",
+   "idea_en": "Your own hands become the brush that turns you into a museum painting.",
+   "idea_zh": "你的双手成了画笔，把你变进博物馆的画里。",
+   "technique": "Likely a camera feed with hand or body segmentation drives an image-to-image diffusion model conditioned on artwork styles from the collection.",
+   "technique_zh": "很可能是摄像头画面经过手部或人体分割后，驱动以馆藏画作风格为条件的图生图扩散模型。",
+   "exercise_en": "Set up a webcam and projector, pick three public-domain paintings as style references, and let visitors morph into them with a fast image-to-image model. Twist: the painting chosen depends on the pose the visitor holds.",
+   "exercise_zh": "架好摄像头和投影仪，选三幅公版名画作为风格参考，用快速图生图模型让观众“变身”进去。变体：变成哪幅画，取决于观众摆的姿势。",
+   "interaction": [
+    "hand-body",
+    "perception-art"
+   ],
+   "platform": [
+    "projection",
+    "desktop"
+   ],
+   "tech": [
+    "diffusion",
+    "camera",
+    "museum installation"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2089105114183381042",
+    "url": "https://x.com/smallfly/status/2089105114183381042"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://x.com/smallfly/status/2089105114183381042"
+  },
+  {
+   "id": "hugues-bruyere--carveout",
+   "creator_ids": [
+    "hugues-bruyere"
+   ],
+   "title": "Carveout: object understanding inside Gaussian splats",
+   "year": 2026,
+   "description": "Carveout segments a captured Gaussian-splat scene down to individual Gaussians and extracts labelled 3D objects, such as the furniture of a local barbershop, as separate pieces.",
+   "description_zh": "Carveout 能把拍摄得到的高斯泼溅场景分割到单个高斯点的粒度，把带标签的三维物体（比如街角理发店的家具）逐个提取出来。",
+   "idea_en": "A scan of a real place becomes a box of named, movable objects.",
+   "idea_zh": "一次真实场所的扫描，变成一盒有名字、可以挪动的物件。",
+   "technique": "2D segmentation masks from several views are lifted onto the Gaussians, and each cluster receives a label, likely from an open-vocabulary vision model.",
+   "technique_zh": "把多个视角的二维分割掩码提升到高斯点上，每个聚类获得一个标签，很可能来自开放词汇视觉模型。",
+   "exercise_en": "Scan a desk with a free splat app, segment one object in two photos with a free segmentation tool, and hide or move only that object in a web splat viewer. Twist: swap objects between two students' scans.",
+   "exercise_zh": "用免费泼溅应用扫描一张桌子，用免费分割工具在两张照片里分割出一个物体，在网页泼溅查看器中只隐藏或移动它。变体：在两位同学的扫描之间交换物体。",
+   "interaction": [
+    "spatial-mapping",
+    "data-information"
+   ],
+   "platform": [
+    "desktop",
+    "web"
+   ],
+   "tech": [
+    "Gaussian splatting",
+    "segmentation",
+    "open-vocabulary labels"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2076061670322094401",
+    "url": "https://x.com/smallfly/status/2076061670322094401"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/smallfly/status/2076061670322094401"
+  },
+  {
+   "id": "cayden-pierce--convoscope",
+   "creator_ids": [
+    "cayden-pierce"
+   ],
+   "title": "Convoscope: live definitions and insights during conversation",
+   "year": 2023,
+   "description": "An open-source smart-glasses app listens to your conversation and overlays real-time definitions, facts and insights in your view, so you can keep talking while the AI fills in the gaps.",
+   "description_zh": "一个开源智能眼镜应用，边听你的对话，边在视野里叠加实时的名词解释、事实和见解，让你在继续交谈时由 AI 帮你补足背景。",
+   "idea_en": "An assistant that listens along and whispers context into your eye.",
+   "idea_zh": "一个跟着听、把背景信息悄悄写进你视野的助手。",
+   "technique": "Continuous speech recognition feeds an LLM that extracts rare terms and entities, and short cards are pushed to the glasses display.",
+   "technique_zh": "持续的语音识别把内容送给大语言模型，提取生僻词和实体，再把简短卡片推送到眼镜显示屏。",
+   "exercise_en": "Run live speech-to-text on a phone during a class discussion, have an LLM pick one unusual term every 30 seconds and show its definition in large text in a headset viewer. Twist: show a counter-argument instead of a definition.",
+   "exercise_zh": "在课堂讨论时用手机做实时语音转文字，让大语言模型每 30 秒挑一个生僻词，在头戴支架里用大字显示解释。变体：显示一个反方观点而不是解释。",
+   "interaction": [
+    "voice-sound",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "smart glasses",
+    "ChatGPT",
+    "speech recognition",
+    "open source"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "3n6DzuYQ_v8",
+    "url": "https://www.youtube.com/watch?v=3n6DzuYQ_v8"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=3n6DzuYQ_v8",
+   "code_url": "https://github.com/Mentra-Community/MentraOS"
+  },
+  {
+   "id": "cayden-pierce--hybrid-thinking-glasses",
+   "creator_ids": [
+    "cayden-pierce"
+   ],
+   "title": "Hybrid Thinking smart glasses",
+   "year": 2024,
+   "description": "AI smart glasses join everyday conversations and proactively surface ideas, facts and follow-up questions, a mode Cayden Pierce calls hybrid thinking.",
+   "description_zh": "AI 智能眼镜参与日常对话，主动给出想法、事实和追问问题，Cayden Pierce 称之为“混合思考”。",
+   "idea_en": "Thinking with an AI in the middle of a real conversation, not after it.",
+   "idea_zh": "在真实对话进行中就和 AI 一起思考，而不是事后再查。",
+   "technique": "Proactive agents monitor the transcript, decide when a contribution is useful, and send brief text to the display without being asked.",
+   "technique_zh": "主动型智能体持续监听转写内容，判断何时插话有用，无需提问就把简短文字发到显示屏上。",
+   "exercise_en": "Prototype a 'silent debate partner': a phone listens to a two-person discussion and every minute shows one question the listener could ask next. Twist: the partner must support the person who is losing.",
+   "exercise_zh": "做一个“沉默的辩论搭档”：手机听两人讨论，每分钟显示一个倾听者可以接着问的问题。变体：搭档必须帮正在输的那一方。",
+   "interaction": [
+    "voice-sound",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "smart glasses",
+    "LLM",
+    "proactive agents"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "DWyLFKIVrfM",
+    "url": "https://www.youtube.com/watch?v=DWyLFKIVrfM"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=DWyLFKIVrfM"
+  },
+  {
+   "id": "cayden-pierce--ai-glasses-order-big-mac",
+   "creator_ids": [
+    "cayden-pierce"
+   ],
+   "title": "AI smart glasses that order a Big Mac",
+   "year": 2025,
+   "description": "A spoken request on AugmentOS glasses launches a web agent that autonomously browses and orders a Big Mac, reporting progress in the wearer's view.",
+   "description_zh": "在 AugmentOS 眼镜上说一句话，就启动一个网页智能体，自主浏览网站并下单一个巨无霸，进度显示在佩戴者视野里。",
+   "idea_en": "Glasses as the remote control for an agent that acts in the world for you.",
+   "idea_zh": "眼镜成为一个替你在世界上办事的智能体的遥控器。",
+   "technique": "Voice commands from the glasses app are passed to Browser Use, an LLM agent that operates a web browser, and status updates stream back to the display.",
+   "technique_zh": "眼镜应用把语音指令交给 Browser Use（能操作浏览器的大语言模型智能体），状态更新再流回显示屏。",
+   "exercise_en": "Connect a speech-to-text page to a browser-automation agent that can do one harmless task (search a library catalogue) and show each step as floating text in AR. Twist: the agent must ask permission with a nod before the final click.",
+   "exercise_zh": "把语音转文字页面接到一个只做无害任务（检索图书馆目录）的浏览器自动化智能体上，每一步都以漂浮文字显示在 AR 中。变体：最后一步点击前，智能体必须等你点头批准。",
+   "interaction": [
+    "voice-sound",
+    "location-geo"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "AugmentOS",
+    "Browser Use",
+    "LLM agent"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "ILG9XfiRlPM",
+    "url": "https://www.youtube.com/watch?v=ILG9XfiRlPM"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=ILG9XfiRlPM",
+   "code_url": "https://github.com/Mentra-Community/MentraOS"
+  },
+  {
+   "id": "cayden-pierce--caption-glasses",
+   "creator_ids": [
+    "cayden-pierce"
+   ],
+   "title": "Live caption glasses for the Deaf and hard of hearing",
+   "year": 2025,
+   "description": "AugmentOS shows fast, free live captions of the people around you on several brands of display glasses, so Deaf and hard-of-hearing wearers can follow speech while looking at the speaker.",
+   "description_zh": "AugmentOS 在多个品牌的显示眼镜上免费提供快速的实时字幕，让聋人和听障佩戴者在看着说话者的同时读懂对方的话。",
+   "idea_en": "Subtitles for real life, placed where you are already looking.",
+   "idea_zh": "给现实生活加字幕，放在你本来就在看的地方。",
+   "technique": "Streaming speech recognition runs on the phone or cloud and pushes rolling text to the glasses' micro-display with low latency.",
+   "technique_zh": "在手机或云端运行流式语音识别，把滚动文字低延迟推送到眼镜微显示屏。",
+   "exercise_en": "Build a phone web page with live speech-to-text shown as large captions in a headset viewer, and test it in a noisy café. Twist: colour each speaker's words differently using voice direction.",
+   "exercise_zh": "做一个手机网页，把实时语音转文字以大字字幕显示在头戴支架里，在嘈杂咖啡馆测试。变体：根据声音方向给每个说话者的字上不同颜色。",
+   "interaction": [
+    "voice-sound",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "AugmentOS",
+    "speech recognition",
+    "Even Realities G1",
+    "Vuzix Z100"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "CRyhfPrfywU",
+    "url": "https://www.youtube.com/watch?v=CRyhfPrfywU"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=CRyhfPrfywU",
+   "code_url": "https://github.com/Mentra-Community/MentraOS"
+  },
+  {
+   "id": "cayden-pierce--ai-tour-guide-glasses",
+   "creator_ids": [
+    "cayden-pierce"
+   ],
+   "title": "Smart glasses AI tour guide",
+   "year": 2026,
+   "description": "Walking around a city with an AI tour guide on MentraOS glasses that knows the history, geography and architecture of what the wearer is looking at, built over a weekend.",
+   "description_zh": "戴着 MentraOS 眼镜在城市里走，AI 导游了解佩戴者眼前事物的历史、地理和建筑，整个应用只用一个周末就做出来。",
+   "idea_en": "A personal guide for any street, built in a weekend on open glasses.",
+   "idea_zh": "为任何一条街准备的私人导游，用开放眼镜一个周末就能做出来。",
+   "technique": "GPS location and camera frames are sent with a guide persona to an LLM, and short spoken or displayed explanations come back as the wearer walks.",
+   "technique_zh": "把 GPS 位置和摄像头画面连同导游人设发给大语言模型，佩戴者走动时返回简短的语音或文字讲解。",
+   "exercise_en": "Make a location-triggered WebAR tour of five spots on campus where a vision model describes each building from a photo, in the voice of a chosen historical figure. Twist: the guide gets the facts subtly wrong and students must catch it.",
+   "exercise_zh": "做一个基于位置触发的校园 WebAR 导览，五个点位由视觉模型根据照片介绍建筑，用选定历史人物的口吻。变体：导游故意说错一点，学生要找出来。",
+   "interaction": [
+    "location-geo",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "MentraOS",
+    "Mentra Live",
+    "LLM",
+    "GPS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "pEm8m59k3KQ",
+    "url": "https://www.youtube.com/watch?v=pEm8m59k3KQ"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=pEm8m59k3KQ",
+   "code_url": "https://github.com/Mentra-Community/MentraOS"
+  },
+  {
+   "id": "brilliant-labs--argpt-monocle",
+   "creator_ids": [
+    "brilliant-labs"
+   ],
+   "title": "arGPT fact-checking on the Monocle",
+   "year": 2023,
+   "description": "The Monocle clip-on display runs arGPT, an always-on ChatGPT assistant that can translate, act as a tour guide or fact-check what someone just said, showing the answer in a tiny eyepiece.",
+   "description_zh": "Monocle 夹片显示器运行 arGPT，这是一个常驻的 ChatGPT 助手，可以翻译、当导游，或对别人刚说的话进行事实核查，答案显示在小小的目镜里。",
+   "idea_en": "A fact-checker that sits on your glasses during a conversation.",
+   "idea_zh": "一个在对话时坐在你眼镜上的事实核查员。",
+   "technique": "Audio captured by the Monocle is transcribed on a paired phone, sent to ChatGPT with a fact-checking prompt, and the short answer is streamed back to the micro-display.",
+   "technique_zh": "Monocle 录下的声音在配对手机上转写，连同事实核查提示发给 ChatGPT，简短答案再传回微显示屏。",
+   "exercise_en": "Record a 20-second claim, transcribe it and ask an LLM to rate it true, false or unclear, showing the verdict in a headset viewer. Twist: fact-check a classmate's story about their weekend.",
+   "exercise_zh": "录下一段 20 秒的说法，转写后让大语言模型判断真、假或不确定，把结论显示在头戴支架里。变体：核查同学讲的周末故事。",
+   "interaction": [
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Brilliant Labs Monocle",
+    "ChatGPT",
+    "iOS"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "VyHFm3OrDPo",
+    "url": "https://www.youtube.com/watch?v=VyHFm3OrDPo"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://brilliant.xyz"
+  },
+  {
+   "id": "brilliant-labs--frame-open-source-ai-glasses",
+   "creator_ids": [
+    "brilliant-labs"
+   ],
+   "title": "Frame: open-source AI glasses",
+   "year": 2024,
+   "description": "Frame is a lightweight pair of open-source AR glasses with a camera, microphone and display, whose assistant Noa answers questions about what you see and hear.",
+   "description_zh": "Frame 是一副轻便的开源 AR 眼镜，带摄像头、麦克风和显示屏，内置助手 Noa 可以回答你所见所闻的相关问题。",
+   "idea_en": "Open hardware so anyone can build their own seeing, talking glasses.",
+   "idea_zh": "开放的硬件，让任何人都能做出会看、会说的眼镜。",
+   "technique": "The glasses run a small Lua runtime and send camera and audio over Bluetooth to a phone, which queries multimodal models and returns text to the display.",
+   "technique_zh": "眼镜运行一个小型 Lua 环境，通过蓝牙把摄像头和音频发给手机，由手机调用多模态模型再把文字回传到显示屏。",
+   "exercise_en": "Using any camera-equipped glasses or a phone on a strap, build 'what am I looking at?' with a free vision API and show a one-line answer. Twist: answer as a poem of exactly seven syllables.",
+   "exercise_zh": "用任何带摄像头的眼镜或挂在胸前的手机，配免费视觉接口做“我在看什么？”，只显示一行答案。变体：用恰好七个音节的诗来回答。",
+   "interaction": [
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Brilliant Labs Frame",
+    "Noa",
+    "multimodal AI",
+    "Lua",
+    "open source"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "OS6GMsYyXdo",
+    "url": "https://www.youtube.com/watch?v=OS6GMsYyXdo"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=OS6GMsYyXdo",
+   "code_url": "https://github.com/brilliantlabsAR/frame-codebase"
+  },
+  {
+   "id": "brilliant-labs--halo-noa-memory",
+   "creator_ids": [
+    "brilliant-labs"
+   ],
+   "title": "Halo and Noa: glasses that remember what you forgot",
+   "year": 2025,
+   "description": "While running errands, Halo glasses with the Noa assistant remind the wearer of the small things they meant to buy, drawing on what it heard and saw earlier.",
+   "description_zh": "跑腿时，搭载 Noa 助手的 Halo 眼镜根据之前听到和看到的内容，提醒佩戴者那些原本打算买的小东西。",
+   "idea_en": "Glasses as a memory that notices what slipped through the cracks.",
+   "idea_zh": "眼镜成为一份记忆，能注意到你遗漏的事情。",
+   "technique": "Noa keeps a searchable memory of past conversations and views, and matches it against the current location or scene to trigger a reminder.",
+   "technique_zh": "Noa 维护一份可检索的对话与画面记忆，并与当前位置或场景匹配，从而触发提醒。",
+   "exercise_en": "Keep a spoken shopping list in a notes app, then use phone geolocation to show the relevant item as floating AR text when you enter a shop. Twist: the reminder only appears if you are looking at the right shelf.",
+   "exercise_zh": "在笔记应用里口述一张购物清单，用手机定位在你走进商店时，把相关条目作为漂浮 AR 文字显示出来。变体：只有当你看向正确货架时，提醒才出现。",
+   "interaction": [
+    "voice-sound",
+    "data-information",
+    "location-geo"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Brilliant Labs Halo",
+    "Noa",
+    "long-term memory"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Xp06a3n4LZU",
+    "url": "https://www.youtube.com/watch?v=Xp06a3n4LZU"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=Xp06a3n4LZU",
+   "code_url": "https://github.com/brilliantlabsAR/halo-firmware"
+  },
+  {
+   "id": "roberto-coviello--questcamerakit",
+   "creator_ids": [
+    "roberto-coviello"
+   ],
+   "title": "QuestCameraKit: passthrough camera with object detection and more",
+   "year": 2025,
+   "description": "On the day Quest opened its passthrough cameras, a set of open-source samples showed a colour picker, on-device object detection, QR code tracking, frosted-glass shaders and camera-to-LLM questions.",
+   "description_zh": "在 Quest 开放透视摄像头当天，一组开源示例展示了取色器、端侧物体检测、二维码追踪、磨砂玻璃着色器，以及把摄像头画面发给大语言模型提问。",
+   "idea_en": "Once the headset camera is open, every AI model becomes a mixed-reality feature.",
+   "idea_zh": "头显摄像头一旦开放，每一个 AI 模型都能变成混合现实功能。",
+   "technique": "Camera frames from the Passthrough Camera API are fed to Unity Sentis (YOLO) on device or to cloud models, and results are projected into the room with depth.",
+   "technique_zh": "透视摄像头 API 的画面送入设备端的 Unity Sentis（YOLO）或云端模型，结果结合深度投射到房间中。",
+   "exercise_en": "Clone an open-source camera kit (or use a phone WebAR demo) and change the detector's output: instead of boxes, spawn a small animal on every detected cup. Twist: animals only appear on objects older than you.",
+   "exercise_zh": "克隆一个开源摄像头工具包（或用手机 WebAR 示例），改写检测器输出：不画框，而是在每个检测到的杯子上生成一只小动物。变体：只有比你年纪大的物品上才出现动物。",
+   "interaction": [
+    "tangible-object",
+    "spatial-mapping",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Passthrough Camera API",
+    "Unity Sentis",
+    "YOLO",
+    "OpenAI"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "1z3pcMJbnRA",
+    "url": "https://www.youtube.com/watch?v=1z3pcMJbnRA"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://www.youtube.com/watch?v=1z3pcMJbnRA",
+   "code_url": "https://github.com/xrdevrob/QuestCameraKit"
+  },
+  {
+   "id": "roberto-coviello--decart-xr",
+   "creator_ids": [
+    "roberto-coviello"
+   ],
+   "title": "Decart XR: speak a prompt and transform the world",
+   "year": 2025,
+   "description": "Built on QuestCameraKit, Decart XR lets the wearer speak a prompt and watch a real-time AI video model transform the passthrough view of their surroundings.",
+   "description_zh": "Decart XR 基于 QuestCameraKit，佩戴者说出一句提示，就能看到实时 AI 视频模型改变透视画面中的周围环境。",
+   "idea_en": "Say a world and step into it without leaving your room.",
+   "idea_zh": "说出一个世界，不出房间就走进去。",
+   "technique": "Passthrough frames stream to Decart's real-time video-to-video model with a spoken prompt (speech-to-text), and the transformed stream replaces the passthrough view.",
+   "technique_zh": "透视画面流式发送到 Decart 实时视频转视频模型，配合语音转成的提示，转换后的画面替代原本的透视视图。",
+   "exercise_en": "Wire speech-to-text to a real-time restyling API on a phone in a HoloKit or cardboard viewer, and hold a 'world-building' round where each student speaks one prompt. Twist: prompts must describe a smell or a sound, not a look.",
+   "exercise_zh": "在 HoloKit 或纸盒头显里的手机上，把语音转文字接到实时重绘接口，每位同学说一句提示来轮流“造世界”。变体：提示必须描述气味或声音，而不是外观。",
+   "interaction": [
+    "voice-sound",
+    "perception-art",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "QuestCameraKit",
+    "Decart AI",
+    "speech-to-text"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1974535441811677627",
+    "url": "https://x.com/xrdevrob/status/1974535441811677627"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://x.com/xrdevrob/status/1974535441811677627",
+   "code_url": "https://github.com/xrdevrob/QuestCameraKit"
+  },
+  {
+   "id": "tomoki-itamiya--ai-earthquake-overlay",
+   "creator_ids": [
+    "tomoki-itamiya"
+   ],
+   "title": "Generative-AI earthquake rehearsal overlaid on a real room",
+   "year": 2025,
+   "description": "From a single photo of a real room, a generative video model creates an earthquake scenario with falling ceiling panels, which is converted to spatial video and overlaid on the same room in Vision Pro, with rewind and slow motion.",
+   "description_zh": "仅凭一张真实房间照片，生成式视频模型就生成天花板面板掉落的地震情景，再转成空间视频，在 Vision Pro 中叠加回同一个房间，还能倒放和慢放。",
+   "idea_en": "Rehearse a disaster in the exact room where it could happen.",
+   "idea_zh": "在可能发生灾害的那个房间里，直接预演一次灾害。",
+   "technique": "An image-to-video model (such as Veo or Kling) animates the photo into a quake, a 2D-to-stereo step makes it a spatial video, and it is aligned to the real room in the headset.",
+   "technique_zh": "用图生视频模型（如 Veo 或 Kling）把照片做成地震动画，再通过二维转立体步骤变成空间视频，在头显中与真实房间对齐。",
+   "exercise_en": "Photograph a corner of the classroom, generate a 5-second 'what if the shelves fell' video with an image-to-video tool, and play it in AR aligned to the real corner. Twist: students redesign the corner and generate again to see if it is safer.",
+   "exercise_zh": "拍下教室一角，用图生视频工具生成 5 秒的“如果书架倒下”视频，在 AR 中对齐真实角落播放。变体：学生重新布置这个角落，再生成一次看是否更安全。",
+   "interaction": [
+    "spatial-mapping",
+    "data-information",
+    "portal-world"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "generative video",
+    "spatial video"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1914896389152133364",
+    "url": "https://x.com/t_itamiya/status/1914896389152133364"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://x.com/t_itamiya/status/1914896389152133364"
+  },
+  {
+   "id": "anhphu-nguyen--i-xray",
+   "creator_ids": [
+    "anhphu-nguyen"
+   ],
+   "title": "I-XRAY",
+   "year": 2024,
+   "description": "Two students stream video from Ray-Ban Meta glasses, match strangers' faces against the public web and use an LLM to assemble names, addresses and relatives within seconds, to show how exposed people already are.",
+   "description_zh": "两名学生用 Ray-Ban Meta 眼镜直播视频，把陌生人的脸与公开网络比对，再用大语言模型在几秒内拼出姓名、住址和亲属信息，以此揭示人们早已暴露到什么程度。",
+   "idea_en": "A privacy warning built as a working demo: glasses that dox at a glance.",
+   "idea_zh": "一个以可用演示形式发出的隐私警告：一眼就能人肉的眼镜。",
+   "technique": "Livestreamed frames are sent to a reverse face-search engine, the resulting URLs are read by an LLM to infer identity, and people-search sites fill in personal details; the authors did not release the code.",
+   "technique_zh": "直播画面发送到反向人脸搜索引擎，大语言模型读取结果链接推断身份，再用人员搜索网站补全个人信息；作者没有公开代码。",
+   "exercise_en": "Do not build face identification. Instead, design an AR 'privacy shield' concept: sketch and prototype in Figma or WebAR how glasses should signal recording and how bystanders could opt out. Twist: make the bystander's opt-out visible to the wearer.",
+   "exercise_zh": "不要做人脸识别。改为设计一个 AR“隐私护盾”概念：用 Figma 或 WebAR 原型化眼镜应如何提示正在录制、旁人如何选择退出。变体：让旁人的退出选择对佩戴者可见。",
+   "interaction": [
+    "face",
+    "data-information",
+    "multiplayer-social"
+   ],
+   "platform": [
+    "wearable",
+    "phone"
+   ],
+   "tech": [
+    "Ray-Ban Meta",
+    "face search",
+    "LLM",
+    "people-search databases"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1840786336992682409",
+    "url": "https://x.com/AnhPhuNguyen1/status/1840786336992682409"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/AnhPhuNguyen1/status/1840786336992682409"
+  },
+  {
+   "id": "firedragon-game-studio--gemini-vision-navigator",
+   "creator_ids": [
+    "firedragon-game-studio"
+   ],
+   "title": "Gemini Vision Navigator",
+   "year": 2026,
+   "description": "A Gemini Live agent looks through the device camera, understands the indoor scene and guides the user by voice and AR cues toward a destination, submitted to the Gemini Live Agent Challenge.",
+   "description_zh": "一个 Gemini Live 智能体通过设备摄像头观察，理解室内场景，并用语音和 AR 提示把用户引导到目的地；作品参加了 Gemini Live Agent Challenge。",
+   "idea_en": "Indoor navigation without beacons: an agent that reads the room and tells you where to go.",
+   "idea_zh": "无需信标的室内导航：一个读懂房间、告诉你往哪走的智能体。",
+   "technique": "Camera frames and speech are streamed to the Gemini Live API, whose function calls place AR arrows and markers in the passthrough view.",
+   "technique_zh": "摄像头画面和语音流式发送到 Gemini Live 接口，它通过函数调用在透视画面中放置 AR 箭头和标记。",
+   "exercise_en": "Use a multimodal live API on a phone to guide a blindfolded partner (with a spotter) from a classroom door to a chosen desk by voice only. Twist: the guide describes landmarks as characters in a story.",
+   "exercise_zh": "用手机上的多模态实时接口，只靠语音把蒙眼的同伴（旁边有人保护）从教室门口引到指定的桌子。变体：导航把地标描述成故事里的角色。",
+   "interaction": [
+    "location-geo",
+    "voice-sound",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "headset",
+    "phone"
+   ],
+   "tech": [
+    "Gemini Live API",
+    "passthrough camera",
+    "indoor navigation"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "m61hl5wy9cE",
+    "url": "https://www.youtube.com/watch?v=m61hl5wy9cE"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=m61hl5wy9cE"
+  },
+  {
+   "id": "wenbo-tao--ghibli-room-vision-pro",
+   "creator_ids": [
+    "wenbo-tao"
+   ],
+   "title": "Room restyled as Studio Ghibli, live on Vision Pro",
+   "year": 2026,
+   "description": "An AI model reconstructs virtual objects located and sized exactly like the real furniture of a room, which can then be restyled, here as a Studio Ghibli scene, in real time on Vision Pro.",
+   "description_zh": "AI 模型重建出与房间真实家具位置、尺寸完全一致的虚拟物体，并能实时重新风格化，这里在 Vision Pro 上被变成吉卜力动画风格。",
+   "idea_en": "Rebuild your room as editable objects first, then restyle it any way you like.",
+   "idea_zh": "先把房间重建成可编辑的物体，再随心所欲地改画风。",
+   "technique": "Room-scanning data and camera views are given to a multimodal model that proposes matching 3D objects, which are then placed over the real furniture and re-textured in a chosen style.",
+   "technique_zh": "把房间扫描数据和摄像头画面交给多模态模型，由它生成对应的三维物体，放在真实家具上，再按选定风格重新贴图。",
+   "exercise_en": "Scan a corner of a room with a phone LiDAR app, replace each piece of furniture by a primitive of the same size, and texture them with AI images in one art style. Twist: every visitor sees a different style.",
+   "exercise_zh": "用手机 LiDAR 应用扫描房间一角，把每件家具替换成同尺寸的基础形体，用同一画风的 AI 图像贴图。变体：每位访客看到的画风都不一样。",
+   "interaction": [
+    "spatial-mapping",
+    "perception-art"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "GPT-6",
+    "scene reconstruction"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2104174834276061569",
+    "url": "https://x.com/wenbq_me/status/2104174834276061569"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://x.com/wenbq_me/status/2104174834276061569"
+  },
+  {
+   "id": "jon-barron--vibe-coded-ar-game-quest",
+   "creator_ids": [
+    "jon-barron"
+   ],
+   "title": "Vibe-coding an AR game inside Quest 3 with Gemini 3",
+   "year": 2025,
+   "description": "Without leaving the headset, the author asks Gemini 3 by voice in the Quest browser to build a WebXR game, and plays the generated AR game in his room moments later.",
+   "description_zh": "作者不摘头显，在 Quest 浏览器里用语音让 Gemini 3 做一个 WebXR 游戏，片刻之后就在自己的房间里玩上了生成的 AR 游戏。",
+   "idea_en": "The holodeck is real: describe a game and play it in your room a minute later.",
+   "idea_zh": "“全息甲板”成真了：描述一个游戏，一分钟后就在你房间里玩。",
+   "technique": "Gemini's Canvas generates a single-page WebXR app from a spoken prompt, which runs immediately in the headset browser with passthrough.",
+   "technique_zh": "Gemini 的 Canvas 根据语音提示生成单页 WebXR 应用，在头显浏览器里带透视画面立即运行。",
+   "exercise_en": "In a headset or phone browser, ask an AI assistant for a one-file WebXR game in one sentence, play it, then improve it with three more spoken requests. Twist: the game must use the real floor as the main mechanic.",
+   "exercise_zh": "在头显或手机浏览器里，用一句话让 AI 助手写一个单文件 WebXR 游戏，玩一玩，再用三句语音请求改进它。变体：游戏的核心机制必须用到真实地板。",
+   "interaction": [
+    "voice-sound",
+    "game-play"
+   ],
+   "platform": [
+    "headset",
+    "web"
+   ],
+   "tech": [
+    "Gemini 3",
+    "Meta Quest 3",
+    "WebXR",
+    "Gemini Canvas"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1990909319701758157",
+    "url": "https://x.com/jon_barron/status/1990909319701758157"
+   },
+   "ai_cat": "cocreate",
+   "source_url": "https://x.com/jon_barron/status/1990909319701758157"
+  },
+  {
+   "id": "bilawal-sidhu--astra-editable-scan",
+   "creator_ids": [
+    "bilawal-sidhu"
+   ],
+   "title": "An LLM turns a home scan into an editable scene with a portal",
+   "year": 2026,
+   "description": "A 3D scan of his parents' old home is given to a multimodal LLM, which rebuilds it as an editable scene; he then turns down gravity and opens a portal inside it.",
+   "description_zh": "他把父母老房子的三维扫描交给多模态大语言模型，模型把它重建成可编辑场景；随后他调低了重力，并在其中打开了一扇传送门。",
+   "idea_en": "Multimodal LLMs may have crossed the chasm on inverse graphics: scans become worlds you can direct.",
+   "idea_zh": "多模态大语言模型也许已跨过“逆向图形学”的门槛：扫描变成可以导演的世界。",
+   "technique": "The model interprets the scan (likely images or mesh renders) and emits structured scene code with separate objects and physics, which can be edited by further prompts.",
+   "technique_zh": "模型解读扫描（很可能是图像或网格渲染），输出带独立物体和物理属性的结构化场景代码，之后可继续用提示修改。",
+   "exercise_en": "Photograph a room from four angles and ask a multimodal LLM to output a three.js scene with boxes for each object; load it in WebXR and change one physical law. Twist: the rebuilt room is how you remember it, not how it is.",
+   "exercise_zh": "从四个角度拍一个房间，让多模态大语言模型输出一个 three.js 场景，每件物体用盒子表示；在 WebXR 中载入并改变一条物理规律。变体：重建的是你记忆中的房间，而不是它现在的样子。",
+   "interaction": [
+    "portal-world",
+    "voice-sound"
+   ],
+   "platform": [
+    "desktop",
+    "headset"
+   ],
+   "tech": [
+    "multimodal LLM",
+    "3D scan",
+    "inverse graphics"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2096810261730505075",
+    "url": "https://x.com/bilawalsidhu/status/2096810261730505075"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://x.com/bilawalsidhu/status/2096810261730505075"
+  },
+  {
+   "id": "bilawal-sidhu--ironsight",
+   "creator_ids": [
+    "bilawal-sidhu"
+   ],
+   "title": "IronSight: 4D replays from Ray-Ban Meta clips",
+   "year": 2026,
+   "description": "Clips recorded on Ray-Ban Meta glasses at a shooting range are reconstructed into 4D scenes that can be replayed from any angle, including an AR view that sees targets through walls.",
+   "description_zh": "在射击场用 Ray-Ban Meta 眼镜拍下的片段被重建成四维场景，可以从任意角度回放，其中还有一个能透过墙看到靶子的 AR 视图。",
+   "idea_en": "First-person clips become replayable spaces you can re-enter from any angle.",
+   "idea_zh": "第一人称片段变成可以从任意角度重新进入的回放空间。",
+   "technique": "Likely a feed-forward 4D reconstruction model estimates camera motion, depth and dynamic geometry from the glasses video, which is rendered as a navigable replay.",
+   "technique_zh": "很可能用前馈式四维重建模型从眼镜视频中估计相机运动、深度和动态几何，再渲染成可漫游的回放。",
+   "exercise_en": "Record a 10-second first-person clip of a simple action (throwing a ball), reconstruct it with a free video-to-3D tool and replay it in AR at the same spot from a new angle. Twist: replay it from the ball's point of view.",
+   "exercise_zh": "录一段 10 秒的第一人称简单动作（扔球），用免费视频转三维工具重建，在原地用 AR 从新的角度回放。变体：从球的视角回放。",
+   "interaction": [
+    "data-information",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "wearable",
+    "desktop"
+   ],
+   "tech": [
+    "Ray-Ban Meta",
+    "4D reconstruction",
+    "AR view"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2074536788853665831",
+    "url": "https://x.com/bilawalsidhu/status/2074536788853665831"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/bilawalsidhu/status/2074536788853665831"
+  },
+  {
+   "id": "bilawal-sidhu--ar-videos-to-splats",
+   "creator_ids": [
+    "bilawal-sidhu"
+   ],
+   "title": "Running AR videos through NeRF and Gaussian splatting",
+   "year": 2023,
+   "description": "Phone videos that already contain AR content are fed to NeRF and Gaussian-splatting pipelines, so the virtual objects become part of a reconstructed 3D scene that can be flown through.",
+   "description_zh": "把已经含有 AR 内容的手机视频送进 NeRF 和高斯泼溅流程，虚拟物体就成了重建三维场景的一部分，可以在其中自由飞行浏览。",
+   "idea_en": "Bake AR into reality: once reconstructed, the virtual and the real are the same material.",
+   "idea_zh": "把 AR 烘焙进现实：一旦重建，虚拟与真实就是同一种材料。",
+   "technique": "Screen recordings of AR sessions are treated as multi-view captures; structure-from-motion recovers camera poses and a radiance field or splat model is trained on the composited frames.",
+   "technique_zh": "把 AR 录屏当作多视角拍摄，运动恢复结构求出相机位姿，再用合成后的帧训练辐射场或泼溅模型。",
+   "exercise_en": "Record a slow orbit around an AR object on a table, train a Gaussian splat from the video with a free app, and view the result in a web viewer. Twist: place a second AR object inside the splat and record again, stacking layers of fake reality.",
+   "exercise_zh": "绕着桌上的 AR 物体慢慢录一圈，用免费应用从视频训练高斯泼溅，在网页查看器中观看。变体：在泼溅里再放一个 AR 物体重录，一层层叠加虚假的现实。",
+   "interaction": [
+    "perception-art",
+    "spatial-mapping"
+   ],
+   "platform": [
+    "phone",
+    "desktop"
+   ],
+   "tech": [
+    "AR",
+    "NeRF",
+    "Gaussian splatting"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "1694086197029503466",
+    "url": "https://x.com/bilawalsidhu/status/1694086197029503466"
+   },
+   "ai_cat": "generate",
+   "source_url": "https://x.com/bilawalsidhu/status/1694086197029503466"
+  },
+  {
+   "id": "dotsimulate--streamdiffusiontd",
+   "creator_ids": [
+    "dotsimulate"
+   ],
+   "title": "StreamDiffusionTD: real-time diffusion in TouchDesigner",
+   "year": 2024,
+   "description": "A TouchDesigner component that runs StreamDiffusion so any live camera, 3D render or audio-reactive visual can be repainted by a diffusion model in real time for installations and VJ sets.",
+   "description_zh": "一个在 TouchDesigner 中运行 StreamDiffusion 的组件，让任意实时摄像头、三维渲染或音频响应画面都能被扩散模型实时重绘，用于装置与 VJ 演出。",
+   "idea_en": "Any live video signal can be restyled by a prompt as it happens.",
+   "idea_zh": "任何实时视频信号都能在发生的同时被一句提示重绘。",
+   "technique": "StreamDiffusion's pipelined, few-step image-to-image generation runs on an NVIDIA GPU inside TouchDesigner, taking a texture input and a prompt and outputting frames at interactive rates.",
+   "technique_zh": "StreamDiffusion 的流水线式少步数图生图在 TouchDesigner 中借助 NVIDIA 显卡运行，输入纹理和提示，以交互速率输出画面。",
+   "exercise_en": "Point a webcam at a table with objects, run a real-time diffusion node (TouchDesigner or a hosted API), and project the restyled image back onto the same table. Twist: let the audience change the prompt by moving objects.",
+   "exercise_zh": "把摄像头对准放着物品的桌子，运行实时扩散节点（TouchDesigner 或在线接口），把重绘后的画面投影回同一张桌子。变体：观众通过移动物品来改变提示词。",
+   "interaction": [
+    "perception-art",
+    "performance-stage"
+   ],
+   "platform": [
+    "desktop",
+    "projection"
+   ],
+   "tech": [
+    "TouchDesigner",
+    "StreamDiffusion",
+    "NVIDIA GPU"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "X4rlC6y1ahw",
+    "url": "https://www.youtube.com/watch?v=X4rlC6y1ahw"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://www.patreon.com/dotsimulate"
+  },
+  {
+   "id": "xr-masiso--stable-diffusion-ar-quest",
+   "creator_ids": [
+    "xr-masiso"
+   ],
+   "title": "Stable Diffusion AR with Quest passthrough camera access",
+   "year": 2025,
+   "description": "A step-by-step tutorial that reads the Quest 3 passthrough cameras in Unity, then uses them for object detection and for Stable Diffusion generations based on what the headset sees.",
+   "description_zh": "一个手把手教程：在 Unity 中读取 Quest 3 透视摄像头画面，用于物体检测，并根据头显看到的内容生成 Stable Diffusion 图像。",
+   "idea_en": "The first day the headset can see, it can also dream about what it sees.",
+   "idea_zh": "头显能“看见”的第一天，也就能对看到的东西“做梦”。",
+   "technique": "A WebCamTexture from the passthrough camera is sent to a Stable Diffusion image-to-image endpoint, and the output is displayed on a panel in the room.",
+   "technique_zh": "把透视摄像头的 WebCamTexture 发送到 Stable Diffusion 图生图接口，输出显示在房间里的面板上。",
+   "exercise_en": "Follow a camera-access tutorial for any AR device, send one frame to an image-to-image API, and hang the result as a framed picture on your real wall. Twist: the picture updates only when someone new enters the room.",
+   "exercise_zh": "照着任意 AR 设备的摄像头权限教程，发一帧画面到图生图接口，把结果作为装裱的画挂在真实墙上。变体：只有新的人走进房间时画才会更新。",
+   "interaction": [
+    "perception-art",
+    "tangible-object"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "Passthrough Camera API",
+    "Stable Diffusion",
+    "Unity"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "FXFgkAmvpgo",
+    "url": "https://www.youtube.com/watch?v=FXFgkAmvpgo"
+   },
+   "ai_cat": "restyle",
+   "source_url": "https://www.youtube.com/watch?v=FXFgkAmvpgo"
+  },
+  {
+   "id": "juampi--ray-ban-product-scanner",
+   "creator_ids": [
+    "juampi"
+   ],
+   "title": "Ray-Ban Meta product scanner",
+   "year": 2026,
+   "description": "A hacked Ray-Ban Meta app explains unfamiliar products the wearer looks at in a shop and says where to buy them.",
+   "description_zh": "一个改造过的 Ray-Ban Meta 应用，能解释佩戴者在商店里看到的陌生商品，并告诉他在哪里能买到。",
+   "idea_en": "Look at any product and hear what it is and where it comes from.",
+   "idea_zh": "看向任意商品，就能听到它是什么、从哪里来。",
+   "technique": "The Meta Wearables SDK streams frames to a phone app that queries a vision model and a shopping search, then speaks the answer through the glasses.",
+   "technique_zh": "Meta 可穿戴 SDK 把画面传到手机应用，应用调用视觉模型和购物搜索，再通过眼镜朗读答案。",
+   "exercise_en": "Build a phone 'shelf explainer' that photographs a product and reads out a two-sentence explanation plus a cheaper alternative. Twist: explain the product as if to someone from 100 years ago.",
+   "exercise_zh": "做一个手机“货架讲解员”：拍下商品，朗读两句话介绍并推荐一个更便宜的替代品。变体：像给 100 年前的人解释一样介绍它。",
+   "interaction": [
+    "tangible-object",
+    "data-information",
+    "voice-sound"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Ray-Ban Meta",
+    "Meta Wearables SDK",
+    "vision model"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2068387708276527265",
+    "url": "https://x.com/juampitech/status/2068387708276527265"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/juampitech/status/2068387708276527265"
+  },
+  {
+   "id": "oscar-falmer--glasses-fitness-coach",
+   "creator_ids": [
+    "oscar-falmer"
+   ],
+   "title": "Meta glasses fitness coach",
+   "year": 2026,
+   "description": "A proof of concept counts squats in real time with body tracking from glasses video and could add hands-free coaching such as form cues, goals and exercise variations.",
+   "description_zh": "一个概念验证：利用眼镜视频做身体追踪，实时计数深蹲，并可扩展为免手动的指导，比如动作提示、目标和动作变化。",
+   "idea_en": "A coach that watches your form from your own point of view.",
+   "idea_zh": "一个从你自己的视角看你动作的教练。",
+   "technique": "Frames from the glasses camera (likely looking at a mirror or the legs) run through a pose model, and a simple state machine counts repetitions and triggers spoken cues.",
+   "technique_zh": "眼镜摄像头的画面（很可能对着镜子或腿部）经过姿态模型，简单的状态机计数重复次数并触发语音提示。",
+   "exercise_en": "Use a webcam pose model in the browser to count squats and speak encouragement at every fifth rep; show the count as large AR text. Twist: the coach gets more sarcastic as your form gets worse.",
+   "exercise_zh": "在浏览器里用摄像头姿态模型数深蹲，每五次说一句鼓励，把计数以大号 AR 文字显示。变体：动作越不标准，教练越爱挖苦。",
+   "interaction": [
+    "hand-body",
+    "voice-sound"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Meta Wearables SDK",
+    "body tracking",
+    "Ray-Ban Meta"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2018276017089990824",
+    "url": "https://x.com/OscarFalmer/status/2018276017089990824"
+   },
+   "ai_cat": "body",
+   "source_url": "https://x.com/OscarFalmer/status/2018276017089990824"
+  },
+  {
+   "id": "simular--sai-fi",
+   "creator_ids": [
+    "simular"
+   ],
+   "title": "Sai-Fi: talk to a computer-use agent through Ray-Ban glasses",
+   "year": 2026,
+   "description": "An open-source Android companion app lets the wearer speak to Sai, an autonomous computer-use agent, through Meta Ray-Ban glasses, sending it tasks it then carries out on a computer.",
+   "description_zh": "一个开源安卓伴侣应用，让佩戴者通过 Meta Ray-Ban 眼镜与自主操作电脑的智能体 Sai 对话，给它布置任务，由它在电脑上完成。",
+   "idea_en": "Your glasses delegate; an agent does the clicking at home.",
+   "idea_zh": "眼镜负责派活，智能体在家里替你点鼠标。",
+   "technique": "The phone app relays voice (and optionally camera) input from the glasses to a cloud agent that controls a desktop through screenshots, mouse and keyboard actions.",
+   "technique_zh": "手机应用把眼镜的语音（以及可选的摄像头）输入转发给云端智能体，智能体通过截屏、鼠标和键盘操作控制电脑。",
+   "exercise_en": "Connect a voice note on your phone to a script that performs one safe desktop action (rename a file, open a playlist) and reports back by voice. Twist: the agent must describe what it did as a sports commentator.",
+   "exercise_zh": "把手机上的语音备忘接到一个脚本，执行一个安全的电脑操作（重命名文件、打开歌单），再用语音汇报。变体：智能体要像体育解说员一样讲述它做了什么。",
+   "interaction": [
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "wearable",
+    "desktop"
+   ],
+   "tech": [
+    "Ray-Ban Meta",
+    "computer-use agent",
+    "Android"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2090926852974297577",
+    "url": "https://x.com/SimularAI/status/2090926852974297577"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://x.com/SimularAI/status/2090926852974297577",
+   "code_url": "https://github.com/simular-ai/sai-fi"
+  },
+  {
+   "id": "virendra-suryawanshi--ar-pothole-detection",
+   "creator_ids": [
+    "virendra-suryawanshi"
+   ],
+   "title": "AR pothole detection, grading and geotagging",
+   "year": 2025,
+   "description": "A Quest 3 app detects potholes in the road view with a custom YOLO model, grades their severity and tags their location, turning a headset into a road-inspection tool.",
+   "description_zh": "一款 Quest 3 应用用自训练的 YOLO 模型在道路画面中检测坑洼，评估严重程度并记录位置，把头显变成道路巡检工具。",
+   "idea_en": "Inspect a street by looking at it; the headset keeps the report.",
+   "idea_zh": "看一眼街道就完成巡检，报告由头显来写。",
+   "technique": "A custom-trained YOLO detector runs on passthrough frames, and detections are graded by size and logged with coordinates.",
+   "technique_zh": "自训练的 YOLO 检测器在透视画面上运行，检测结果按大小评级，并连同坐标一起记录。",
+   "exercise_en": "Train a small detector on 50 photos of cracks or litter on campus, run it on a phone walk, and drop an AR pin with a severity colour at each detection. Twist: the pins stay for the next person who walks by.",
+   "exercise_zh": "用校园里 50 张裂缝或垃圾照片训练一个小检测器，拿手机走一圈，在每个检测处放一个按严重程度着色的 AR 图钉。变体：图钉会留给下一位路过的人看到。",
+   "interaction": [
+    "location-geo",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Meta Quest 3",
+    "YOLO",
+    "passthrough camera",
+    "GPS"
+   ],
+   "video": {
+    "platform": "x",
+    "id": "2001634595494855158",
+    "url": "https://x.com/Virendra0698/status/2001634595494855158"
+   },
+   "ai_cat": "understand",
+   "source_url": "https://x.com/Virendra0698/status/2001634595494855158"
+  },
+  {
+   "id": "even-realities--even-ai",
+   "creator_ids": [
+    "even-realities"
+   ],
+   "title": "Even AI on Even G1 glasses",
+   "year": 2024,
+   "description": "Even G1 glasses include a built-in AI that listens when asked and answers with short text in a green micro-display that only the wearer can see.",
+   "description_zh": "Even G1 眼镜内置 AI，被唤起后倾听并用简短文字回答，文字显示在只有佩戴者能看到的绿色微显示屏上。",
+   "idea_en": "An assistant whose answers are private text in your line of sight.",
+   "idea_zh": "一个把回答化作私密文字、放在你视线中的助手。",
+   "technique": "Speech is captured by the glasses' microphones, processed by a cloud LLM via the phone, and rendered as monochrome text on the waveguide display.",
+   "technique_zh": "眼镜麦克风采集语音，经手机调用云端大语言模型处理，再以单色文字渲染到光波导显示屏上。",
+   "exercise_en": "Prototype a 'one-line assistant' in a phone headset viewer: every answer must fit in 40 characters, shown in green text at the bottom of the view. Twist: the assistant speaks only when you are silent for five seconds.",
+   "exercise_zh": "在手机头戴支架里做一个“一行助手”原型：每个回答不超过 40 个字符，以绿色文字显示在视野底部。变体：只有你沉默五秒后助手才开口。",
+   "interaction": [
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "wearable"
+   ],
+   "tech": [
+    "Even Realities G1",
+    "LLM",
+    "micro-display"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "Quam8jLa8pY",
+    "url": "https://www.youtube.com/watch?v=Quam8jLa8pY"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=Quam8jLa8pY"
+  },
+  {
+   "id": "physio3d--vision-pro-ai-physio",
+   "creator_ids": [
+    "physio3d"
+   ],
+   "title": "Physio3D: mixed-reality physiotherapy with a real-time AI voice coach",
+   "year": 2026,
+   "description": "A Vision Pro app places a 3D physiotherapy guide in the patient's room and adds a real-time AI voice coach that explains exercises, answers questions and tracks activity.",
+   "description_zh": "一款 Vision Pro 应用在患者房间里放置三维理疗指导，并加入实时 AI 语音教练，讲解动作、回答问题、记录训练情况。",
+   "idea_en": "A therapist who talks back is placed where you actually exercise.",
+   "idea_zh": "一个会回话的理疗师，就站在你真正锻炼的地方。",
+   "technique": "3D exercise demonstrations are anchored in mixed reality while a speech-to-speech AI model with the training plan as context answers the user live.",
+   "technique_zh": "三维动作示范锚定在混合现实中，同时一个以训练计划为上下文的语音对语音 AI 模型实时回答用户。",
+   "exercise_en": "Place an animated 3D figure doing a stretch next to the user in WebAR and connect a voice assistant that knows the three steps of the stretch. Twist: the coach adapts the exercise if the user says it hurts.",
+   "exercise_zh": "在 WebAR 中把一个做拉伸的三维动画人放在用户旁边，并接入一个知道拉伸三个步骤的语音助手。变体：用户说疼时，教练会调整动作。",
+   "interaction": [
+    "hand-body",
+    "voice-sound",
+    "data-information"
+   ],
+   "platform": [
+    "headset"
+   ],
+   "tech": [
+    "Apple Vision Pro",
+    "real-time AI voice",
+    "3D guidance"
+   ],
+   "video": {
+    "platform": "youtube",
+    "id": "TlQLjDA5XSY",
+    "url": "https://www.youtube.com/watch?v=TlQLjDA5XSY"
+   },
+   "ai_cat": "agent",
+   "source_url": "https://www.youtube.com/watch?v=TlQLjDA5XSY"
+  }
+ ],
+ "leads": [
+  {
+   "name": "Decart AI",
+   "why": "Real-time video-to-video model behind several AR restyling demos (Decart XR, Spectacles style transfer); check for their own AR demos.",
+   "link": "https://x.com/DecartAI",
+   "found_via": "roberto-coviello",
+   "status": "open"
+  },
+  {
+   "name": "Johannes Tscharn",
+   "why": "Uses Snap Spectacles as the interface for robotics and physical AI (point at the ground to send a robot).",
+   "link": "https://x.com/alessiograncini/status/2084687066223300860",
+   "found_via": "alessio-grancini",
+   "status": "open"
+  },
+  {
+   "name": "Pavlo Tkachenko",
+   "why": "Frequent collaborator of Stijn Spanhove on Spectacles lenses (Fruit Defense, Micro Art, LEGO AR).",
+   "link": "https://x.com/pt_pavlo",
+   "found_via": "stijn-spanhove",
+   "status": "open"
+  },
+  {
+   "name": "Mitchell Kuppersmith",
+   "why": "Specs design engineer who built Agent Center for Spectacles.",
+   "link": "https://www.youtube.com/watch?v=U0cA-bVxLgM",
+   "found_via": "snap-inc",
+   "status": "open"
+  },
+  {
+   "name": "aulerius",
+   "why": "Early (2024) real-time Stable Diffusion AR filter prototype.",
+   "link": "https://x.com/aulerius2/status/1753098914973282345",
+   "found_via": "hugues-bruyere",
+   "status": "open"
+  },
+  {
+   "name": "Harrison Forsyth",
+   "why": "Local object detection on Quest 3 with Unity Sentis (small demo, overlaps QuestCameraKit).",
+   "link": "https://www.youtube.com/watch?v=ENAPv_PnKms",
+   "found_via": "roberto-coviello",
+   "status": "open"
+  },
+  {
+   "name": "Valem Tutorials (Quentin Valembois)",
+   "why": "Unity Sentis + Quest camera access tutorial; tutorial rather than a work.",
+   "link": "https://www.youtube.com/watch?v=V14cYfLa8Rc",
+   "found_via": "roberto-coviello",
+   "status": "open"
+  },
+  {
+   "name": "Ben Geskin",
+   "why": "'Apple Vision Pro AI Environments' concept render (not a built work).",
+   "link": "https://x.com/BenGeskin/status/1955326363004702968",
+   "found_via": "wenbo-tao",
+   "status": "not_ar"
+  },
+  {
+   "name": "Halo (AnhPhu Nguyen & Caine Ardayfio)",
+   "why": "Their later always-listening AI glasses startup (Halo X); product videos only so far.",
+   "link": "https://x.com/AnhPhuNguyen1/status/1958199821048705312",
+   "found_via": "anhphu-nguyen",
+   "status": "open"
+  },
+  {
+   "name": "Karen X Cheng – DALL-E + AR frames (2022)",
+   "why": "AR frames made in Adobe Aero with DALL-E outpainting added in post; AI not live in AR.",
+   "link": "https://x.com/karenxcheng/status/1559560419269828611",
+   "found_via": "karen-x-cheng",
+   "status": "not_ar"
+  },
+  {
+   "name": "Matthew Hallberg – AI assistant in AR (2020)",
+   "why": "Phone AR robot with a chatbot brain; pre-2023 and low-fi.",
+   "link": "https://www.youtube.com/watch?v=ACOjzDBh8uQ",
+   "found_via": "matthew-hallberg",
+   "status": "open"
+  },
+  {
+   "name": "Jesse McCulloch",
+   "why": "Snap Spectacles community lead; posts community showcases rather than his own AI x AR works.",
+   "link": "https://x.com/jbmcculloch",
+   "found_via": "alessio-grancini",
+   "status": "no_video"
+  },
+  {
+   "name": "Cory Strassburger",
+   "why": "MetaHuman and AI persona work in Unreal (Xanadu); not AR.",
+   "link": "https://www.youtube.com/watch?v=ITPXDJ1FTHk",
+   "found_via": "seed",
+   "status": "not_ar"
+  },
+  {
+   "name": "Paul Trillo",
+   "why": "AI filmmaker (Sora); no AR or spatial work found.",
+   "link": "https://x.com/paultrillo",
+   "found_via": "seed",
+   "status": "not_ar"
+  },
+  {
+   "name": "Magic Room (Vision Pro)",
+   "why": "Mesh-shader room restyling by Wenbo Tao; not AI-driven.",
+   "link": "https://x.com/wenbq_me/status/1758892040690311502",
+   "found_via": "wenbo-tao",
+   "status": "not_ar"
+  },
+  {
+   "name": "Xaia (Cedars-Sinai)",
+   "why": "AI mental-health therapist in Vision Pro; only third-party review videos found.",
+   "link": "https://www.youtube.com/watch?v=woVItWcriWA",
+   "found_via": "physio3d",
+   "status": "no_video"
+  },
+  {
+   "name": "Rokid AI Glasses",
+   "why": "Glasses with Gemini/ChatGPT assistants; only product and review videos found.",
+   "link": "https://www.youtube.com/watch?v=Kv2nz8SePuE",
+   "found_via": "even-realities",
+   "status": "open"
+  },
+  {
+   "name": "Komalov_ / RangeshUs",
+   "why": "Early Meta Ray-Ban Display apps (DOOM port, boxing); not AI.",
+   "link": "https://x.com/RangeshUs/status/2058480731974959329",
+   "found_via": "meta-reality-labs",
+   "status": "not_ar"
+  },
+  {
+   "name": "Tomoki Itamiya – more AI disaster sims",
+   "why": "Flood/fire generated from single photos with Kling and Veo, and PICO 4 Ultra version of the AR earthquake overlay.",
+   "link": "https://x.com/t_itamiya/status/1920310967323537810",
+   "found_via": "tomoki-itamiya",
+   "status": "open"
+  },
+  {
+   "name": "Reality Design Lab – AI Mom",
+   "why": "AI Mom installation (Jiabao Li & Botao Hu); only an unlisted Vimeo (1229285325/d98cee95d4) that check_video.py cannot verify.",
+   "link": "https://reality.design/project/aimom",
+   "found_via": "botao-amber-hu",
+   "status": "no_video"
+  },
+  {
+   "name": "Reality Design Lab – Composable Life",
+   "why": "Speculative VR about on-chain AI life forms (vimeo 950706592); AI is narrative, not technique.",
+   "link": "https://reality.design/project/composable-life",
+   "found_via": "botao-amber-hu",
+   "status": "open"
+  },
+  {
+   "name": "Max van Leeuwen",
+   "why": "Spectacles lens creator interviewed about AR lenses (possible AI works).",
+   "link": "https://x.com/GabRoXR/status/2033936397133091160",
+   "found_via": "snap-inc",
+   "status": "open"
+  }
+ ]
+}

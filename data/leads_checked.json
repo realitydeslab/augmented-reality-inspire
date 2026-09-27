@@ -72,6 +72,206 @@
   "batch": "add-zero10-knol"
  },
  {
+  "name": "Pavlo Tkachenko",
+  "why": "Frequent collaborator of Stijn Spanhove on Spectacles lenses (Fruit Defense, Micro Art, LEGO AR).",
+  "link": "https://x.com/pt_pavlo",
+  "found_via": "stijn-spanhove",
+  "status": "covered",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Ben Geskin",
+  "why": "'Apple Vision Pro AI Environments' concept render (not a built work).",
+  "link": "https://x.com/BenGeskin/status/1955326363004702968",
+  "found_via": "wenbo-tao",
+  "status": "not_ar",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Halo (AnhPhu Nguyen & Caine Ardayfio)",
+  "why": "Their later always-listening AI glasses startup (Halo X); product videos only so far.",
+  "link": "https://x.com/AnhPhuNguyen1/status/1958199821048705312",
+  "found_via": "anhphu-nguyen",
+  "status": "covered",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Karen X Cheng – DALL-E + AR frames (2022)",
+  "why": "AR frames made in Adobe Aero with DALL-E outpainting added in post; AI not live in AR.",
+  "link": "https://x.com/karenxcheng/status/1559560419269828611",
+  "found_via": "karen-x-cheng",
+  "status": "not_ar",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Matthew Hallberg – AI assistant in AR (2020)",
+  "why": "Phone AR robot with a chatbot brain; pre-2023 and low-fi.",
+  "link": "https://www.youtube.com/watch?v=ACOjzDBh8uQ",
+  "found_via": "matthew-hallberg",
+  "status": "covered",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Jesse McCulloch",
+  "why": "Snap Spectacles community lead; posts community showcases rather than his own AI x AR works.",
+  "link": "https://x.com/jbmcculloch",
+  "found_via": "alessio-grancini",
+  "status": "no_video",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Cory Strassburger",
+  "why": "MetaHuman and AI persona work in Unreal (Xanadu); not AR.",
+  "link": "https://www.youtube.com/watch?v=ITPXDJ1FTHk",
+  "found_via": "seed",
+  "status": "not_ar",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Paul Trillo",
+  "why": "AI filmmaker (Sora); no AR or spatial work found.",
+  "link": "https://x.com/paultrillo",
+  "found_via": "seed",
+  "status": "not_ar",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Magic Room (Vision Pro)",
+  "why": "Mesh-shader room restyling by Wenbo Tao; not AI-driven.",
+  "link": "https://x.com/wenbq_me/status/1758892040690311502",
+  "found_via": "wenbo-tao",
+  "status": "not_ar",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Xaia (Cedars-Sinai)",
+  "why": "AI mental-health therapist in Vision Pro; only third-party review videos found.",
+  "link": "https://www.youtube.com/watch?v=woVItWcriWA",
+  "found_via": "physio3d",
+  "status": "no_video",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Komalov_ / RangeshUs",
+  "why": "Early Meta Ray-Ban Display apps (DOOM port, boxing); not AI.",
+  "link": "https://x.com/RangeshUs/status/2058480731974959329",
+  "found_via": "meta-reality-labs",
+  "status": "not_ar",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Tomoki Itamiya – more AI disaster sims",
+  "why": "Flood/fire generated from single photos with Kling and Veo, and PICO 4 Ultra version of the AR earthquake overlay.",
+  "link": "https://x.com/t_itamiya/status/1920310967323537810",
+  "found_via": "tomoki-itamiya",
+  "status": "covered",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Reality Design Lab – AI Mom",
+  "why": "AI Mom installation (Jiabao Li & Botao Hu); only an unlisted Vimeo (1229285325/d98cee95d4) that check_video.py cannot verify.",
+  "link": "https://reality.design/project/aimom",
+  "found_via": "botao-amber-hu",
+  "status": "no_video",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Reality Design Lab – Composable Life",
+  "why": "Speculative VR about on-chain AI life forms (vimeo 950706592); AI is narrative, not technique.",
+  "link": "https://reality.design/project/composable-life",
+  "found_via": "botao-amber-hu",
+  "status": "covered",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Max van Leeuwen",
+  "why": "Spectacles lens creator interviewed about AR lenses (possible AI works).",
+  "link": "https://x.com/GabRoXR/status/2033936397133091160",
+  "found_via": "snap-inc",
+  "status": "covered",
+  "batch": "ai-creators"
+ },
+ {
+  "name": "Chenyi Li & Claudio Silva (NYU) — Satori",
+  "why": "Proactive AR assistant with belief-desire-intention user modeling (CHI 2025); no public video found",
+  "link": "https://arxiv.org/abs/2410.16668",
+  "found_via": "meta-rl-research",
+  "status": "no_video",
+  "batch": "ai-research"
+ },
+ {
+  "name": "Keiichi Ihara (Programmable Reality Lab) — MemoryDiorama, CinemaWorld",
+  "why": "Generative 3D dioramas from photos and LLM-driven movie augmentation in AR (2026); no video yet, recheck the lab channel",
+  "link": "https://arxiv.org/abs/2604.06773",
+  "found_via": "ryo-suzuki",
+  "status": "covered",
+  "batch": "ai-research"
+ },
+ {
+  "name": "Jaewook Lee — SonoCraftAR",
+  "why": "Sound-reactive AR interface authoring for Deaf and hard-of-hearing users with AI (2025); no video found",
+  "link": "https://arxiv.org/abs/2508.17597",
+  "found_via": "makeability-lab",
+  "status": "no_video",
+  "batch": "ai-research"
+ },
+ {
+  "name": "Yanni Mei — ShadAR",
+  "why": "LLM-generated shaders that transform visual perception in AR (2026); no video found",
+  "link": "https://arxiv.org/abs/2602.17481",
+  "found_via": "seed",
+  "status": "no_video",
+  "batch": "ai-research"
+ },
+ {
+  "name": "Zeyu Wang (Tsinghua) — G-VOILA",
+  "why": "Gaze-facilitated information querying with LLMs on smart glasses (IMWUT 2024) and its 2025 follow-up on ambiguity; no video found",
+  "link": "https://arxiv.org/abs/2509.21980",
+  "found_via": "zinn-labs",
+  "status": "no_video",
+  "batch": "ai-research"
+ },
+ {
+  "name": "Bufang Yang — SocialMind",
+  "why": "Proactive LLM social assistant on AR glasses for live conversations (2024); no video found",
+  "link": "https://arxiv.org/abs/2412.04036",
+  "found_via": "chen-chen-fiu",
+  "status": "no_video",
+  "batch": "ai-research"
+ },
+ {
+  "name": "Aven Le Zhou — Surrealism Me",
+  "why": "Generative, surreal embodiment experiences in mixed reality (SIGGRAPH 2024 demo); no video found",
+  "link": "https://arxiv.org/abs/2405.02338",
+  "found_via": "seed",
+  "status": "no_video",
+  "batch": "ai-research"
+ },
+ {
+  "name": "Jingyu Shi (Purdue) — CARING-AI",
+  "why": "Generative-AI authoring of context-aware AR instructions (CHI 2025); no video found",
+  "link": "https://engineering.purdue.edu/cdesign/wp/",
+  "found_via": "karthik-ramani",
+  "status": "no_video",
+  "batch": "ai-research"
+ },
+ {
+  "name": "Fengsen Gao, Ke Fang — Humanizing Artifacts",
+  "why": "Generative-AI 'knowledge actors' that let heritage artifacts narrate in first person (CHI PLAY 2024 WiP)",
+  "link": "https://www.youtube.com/watch?v=RgtQlrKAHmE",
+  "found_via": "fabrice-matulic",
+  "status": "covered",
+  "batch": "ai-research"
+ },
+ {
+  "name": "Haoyu Wang — Haptic Repurposing with GenAI",
+  "why": "Predecessor of Prop-Chromeleon (2024); no separate video found",
+  "link": "https://arxiv.org/abs/2406.07228",
+  "found_via": "ludwig-sidenmark",
+  "status": "no_video",
+  "batch": "ai-research"
+ },
+ {
   "name": "Daniel Beauchamp (@pushmatrix)",
   "why": "Shopify AR/VR lead who posts playful AR and Quest hand-tracking prototypes (Beat Saber AR concept, hand walking).",
   "link": "https://x.com/pushmatrix",
@@ -2736,6 +2936,14 @@
   "batch": "r4-pioneers"
  },
  {
+  "name": "Karen X Cheng",
+  "why": "Director and creative technologist known for viral camera, AR and AI video tricks; co-made the Spectacles 3 butterfly film with Clara Bacou.",
+  "link": "https://x.com/karenxcheng",
+  "found_via": "clara-bacou",
+  "status": "covered",
+  "batch": "r5-coders"
+ },
+ {
   "name": "Marco Tempest",
   "why": "Cyber illusionist who combines stage magic with AR, projection and drones; Magic and Storytelling was made with onformative.",
   "link": "https://vimeo.com/39346593",
@@ -3024,6 +3232,54 @@
   "batch": "src-pinterest"
  },
  {
+  "name": "Marek Simonik (Record3D)",
+  "why": "Record3D app author; open Unity VFX Graph demos stream iPhone LiDAR/TrueDepth point clouds live into VFX Graph (no own demo video found).",
+  "link": "https://github.com/marek-simonik/record3d_unity_demo",
+  "found_via": "keijiro-takahashi",
+  "status": "covered",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Dan Miller",
+  "why": "Unity AR evangelist; open ARFoundation_VFX and ARBodyTrackingVFX repos (AR Foundation + VFX Graph); videos likely on X @DanMillerDev.",
+  "link": "https://github.com/DanMillerDev/ARFoundation_VFX",
+  "found_via": "dilmer-valecillos",
+  "status": "covered",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Masatatsu Nakamura (mattatz)",
+  "why": "Open Unity CellularGrowth, Dendrite, voxelizer, procedural tree/flower and volume rendering repos; demo videos mostly GIF/X.",
+  "link": "https://github.com/mattatz",
+  "found_via": "hironori-sugino",
+  "status": "covered",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Cyanilux",
+  "why": "Shader Graph artist with open URP repos (retro CRT, watercolour, custom lighting); showcase videos on X.",
+  "link": "https://github.com/Cyanilux",
+  "found_via": "daniel-ilett",
+  "status": "covered",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Codrin-Mihail (Kodrin)",
+  "why": "Open VFX-Essentials HDRP workshop and GPU-FlowField compute-shader particle repos.",
+  "link": "https://github.com/Kodrin",
+  "found_via": "keijiro-takahashi",
+  "status": "covered",
+  "batch": "vfx-community"
+ },
+ {
+  "name": "Angela He (zephyo)",
+  "why": "2D-Unity-Experiments (279 stars): URP/Shader Graph visual experiments; videos likely on X @zephybite.",
+  "link": "https://github.com/zephyo/2D-Unity-Experiments",
+  "found_via": "keijiro-takahashi",
+  "status": "covered",
+  "batch": "vfx-community"
+ },
+ {
   "name": "Aras Pranckevičius",
   "why": "Graphics engineer (ex-Unity) whose open-source UnityGaussianSplatting renders 3D Gaussian Splatting scenes in Unity; Keijiro's SplatVFX README recommends it as the more complete implementation.",
   "link": "https://github.com/aras-p/UnityGaussianSplatting",
@@ -3046,6 +3302,94 @@
   "found_via": "keijiro-takahashi",
   "status": "covered",
   "batch": "vfx-keijiro-old"
+ },
+ {
+  "name": "AMAGI (fand)",
+  "why": "Web graphics artist behind vfx-js and VEDA live-coding tools; active in the same Tokyo live-coding scene.",
+  "link": "https://github.com/fand",
+  "found_via": "keijiro-takahashi",
+  "status": "covered",
+  "batch": "vfx-keijiro-old"
+ },
+ {
+  "name": "kaiware007",
+  "why": "Unity VJ shader developer (reaction-diffusion, hex tiling, VJ shader talks) with public repos.",
+  "link": "https://github.com/kaiware007",
+  "found_via": "keijiro-takahashi",
+  "status": "covered",
+  "batch": "vfx-keijiro-old"
+ },
+ {
+  "name": "0b5vr / FMS_Cat",
+  "why": "Demoscene WebGL intros and GLSL live sets (0mix, condition) with source; not Unity and not clearly AR-transferable.",
+  "link": "https://github.com/0b5vr",
+  "found_via": "keijiro-takahashi",
+  "status": "not_ar",
+  "batch": "vfx-round2-leads"
+ },
+ {
+  "name": "Jason Tsorlinis",
+  "why": "BoidsUnity / BoidsWebGPU GPU boids repos; no playable video found (no README video, no social account).",
+  "link": "https://github.com/jtsorlinis/BoidsUnity",
+  "found_via": "seed",
+  "status": "no_video",
+  "batch": "vfx-round2-leads"
+ },
+ {
+  "name": "Justin Hawkins (Scrawk)",
+  "why": "Ceto ocean, PBD fluid, GPU fluid and marching-cubes Unity repos; no own playable video found.",
+  "link": "https://github.com/Scrawk",
+  "found_via": "seed",
+  "status": "no_video",
+  "batch": "vfx-round2-leads"
+ },
+ {
+  "name": "mao-test-h",
+  "why": "FaceTracking-VFX (ARKit face tracking + VFX Graph) and URPGlitch; README GIF / short clip only and no identifiable author or social account.",
+  "link": "https://github.com/mao-test-h/FaceTracking-VFX",
+  "found_via": "dan-miller",
+  "status": "no_video",
+  "batch": "vfx-round2-leads"
+ },
+ {
+  "name": "Koki Ibukuro (asus4)",
+  "why": "Unity AR developer (ARKitStreamer, ARFoundationReplay, tf-lite-unity-sample); WorldEnsemble plays music in the geospatial AR world, with source.",
+  "link": "https://github.com/asus4",
+  "found_via": "tasuku-takahashi",
+  "status": "covered",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "MatrixRex",
+  "why": "Uber-Stylized-Water, a 500-star open stylized water shader for Unity 6 with many water types.",
+  "link": "https://github.com/MatrixRex/Uber-Stylized-Water",
+  "found_via": "youssef-afella",
+  "status": "covered",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "Tooster (T3sT3ro)",
+  "why": "SdfManipulator: interactive real-time SDF editor in Unity that generates raymarching shaders.",
+  "link": "https://github.com/T3sT3ro/SdfManipulator",
+  "found_via": "scrn",
+  "status": "covered",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "Robin Seibold",
+  "why": "Unity-URP-CelShadeLit: open multi-light cel shader for URP (~150 stars) with X video.",
+  "link": "https://github.com/Robinseibold/Unity-URP-CelShadeLit",
+  "found_via": "colin-leung",
+  "status": "covered",
+  "batch": "vfx-x"
+ },
+ {
+  "name": "Codrin Mihail (Kodrin)",
+  "why": "HDRP-VFXGraph-Workshop: open VFX Graph workshop project with X demo videos.",
+  "link": "https://github.com/Kodrin/HDRP-VFXGraph-Workshop",
+  "found_via": "tasuku-takahashi",
+  "status": "covered",
+  "batch": "vfx-x"
  },
  {
   "name": "Joel Gethin Lewis (Hellicar & Lewis)",
