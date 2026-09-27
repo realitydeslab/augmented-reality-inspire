@@ -70,11 +70,12 @@ a { color: inherit; }
 .brand:hover .brand__tag { color: var(--ink); }
 .theme-toggle { background: none; border: 1px solid var(--line); border-radius: 99px; width: 34px; height: 34px; }
 .title {
-  font: 400 clamp(46px, 9vw, 128px)/.92 var(--serif); letter-spacing: -.045em;
-  margin: 36px 0 18px; max-width: 12ch;
+  font: 400 clamp(22px, 8.4vw, 150px)/1 var(--serif); letter-spacing: -.045em;
+  margin: 36px 0 18px; white-space: nowrap;
   animation: rise .9s cubic-bezier(.2, .7, .1, 1) both;
 }
 .title em { color: var(--accent); font-style: normal; }
+:lang(zh) .title { font-size: clamp(28px, 9.6vw, 160px); letter-spacing: -.02em; }
 .lede { max-width: 62ch; color: var(--muted); margin: 0 0 22px; animation: rise .9s .12s cubic-bezier(.2, .7, .1, 1) both; }
 .lede .zh { display: inline-block; margin-top: 6px; font-size: 14px; }
 .stats { display: flex; flex-wrap: wrap; gap: 8px 36px; margin: 0; animation: rise .9s .22s both; }
