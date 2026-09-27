@@ -1,0 +1,17 @@
+{
+ "jr--jr-au-louvre": {"why_en": "The Louvre pyramid is covered with a photo of the palace behind it, so from one spot it simply vanishes.", "why_zh": "卢浮宫金字塔被贴上身后宫殿的照片，从某个位置看去，它就消失了。", "cat": "rewrite"},
+ "xavi-bou--ornithographies": {"why_en": "Stacking the frames of a bird's flight into one image draws the invisible shape its wings leave in the air.", "why_zh": "把鸟飞行的每一帧叠进一张图里，画出了翅膀在空中留下的、原本看不见的形状。", "cat": "time"},
+ "leandro-erlich--dalston-house": {"why_en": "A house facade lies on the ground under a tilted mirror, so visitors lying on it appear to hang and climb up the building.", "why_zh": "房屋立面平铺在地上，上方斜挂一面大镜子，躺在上面的人在镜中就像挂在楼上攀爬。", "cat": "shadow"},
+ "rafael-lozano-hemmer--voice-tunnel": {"why_en": "Your voice becomes a wave of light that runs down a real tunnel.", "why_zh": "你的声音变成一道光波，沿着真实的隧道一路跑远。", "cat": "sound"},
+ "daniel-rozin--pompom-mirror": {"why_en": "A mirror made of soft fur pom-poms that shows your silhouette as it moves.", "why_zh": "一面由毛绒球组成的镜子，用柔软的毛球映出你移动的轮廓。", "cat": "shadow"},
+ "random-international--study-for-fifteen-points": {"why_en": "Fifteen moving dots of light are enough to see a person walking.", "why_zh": "只要十五个移动的光点，就能看出一个正在走路的人。", "cat": "alive"},
+ "ai-weiwei--safe-passage": {"why_en": "Refugees' life jackets wrap the columns of a Berlin concert hall, bringing the sea crossing onto a landmark.", "why_zh": "难民留下的救生衣包裹住柏林音乐厅的立柱，把海上逃亡带到了地标建筑上。", "cat": "rewrite"},
+ "christopher-bauder--lichtgrenze": {"why_en": "A line of glowing balloons redraws the vanished Berlin Wall through the city, then lets it float away.", "why_zh": "一排发光气球在城市中重新画出已消失的柏林墙，然后让它飘向夜空。", "cat": "time"},
+ "skullmapping--le-petit-chef": {"why_en": "A tiny projected chef cooks your meal right on your dinner plate.", "why_zh": "一个投影出来的小厨师，就在你的餐盘上给你做菜。", "cat": "alive"},
+ "behnaz-farahi--caress-of-the-gaze": {"why_en": "A garment ripples wherever someone is looking at you, so a gaze becomes something you can see.", "why_zh": "别人看向你哪里，衣服的那一处就会起伏，目光变成了看得见的东西。", "cat": "invisible"},
+ "david-bowen--cloud-piano": {"why_en": "Passing clouds press the keys of a real piano, so the sky plays music.", "why_zh": "飘过的云按下真实钢琴的琴键，天空在弹奏音乐。", "cat": "sound"},
+ "maarten-baas--schiphol-clock": {"why_en": "A man inside a giant airport clock repaints the hands by hand every minute.", "why_zh": "机场巨大的时钟里有一个人，每分钟亲手重画一次指针。", "cat": "time"},
+ "bruno-catalano--les-voyageurs": {"why_en": "Travellers with their bodies torn away, so the harbour behind them shows through.", "why_zh": "旅人的身体缺了一大块，身后的港口从空洞中透出来。", "cat": "rewrite"},
+ "olafur-eliasson--ice-watch": {"why_en": "Blocks of Greenland ice melt in a city square, so people can touch climate change with their hands.", "why_zh": "格陵兰的冰块在城市广场上融化，人们可以用手摸到气候变化。", "cat": "invisible"},
+ "theo-jansen--strandbeest-evolution": {"why_en": "Creatures made of plastic tubes walk along the beach powered only by the wind.", "why_zh": "用塑料管做成的生物，只靠风力就在沙滩上行走。", "cat": "alive"}
+}

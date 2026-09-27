@@ -17978,7 +17978,12 @@
    "ai_cat": "body",
    "source_url": "https://embodied-ai.tech/",
    "code_url": "https://github.com/humancomputerintegration/EmbodiedAI",
-   "batch": "ai-research"
+   "batch": "ai-research",
+   "salient": {
+    "why_en": "Ask the AI for help and it answers by moving your own hand through your muscles.",
+    "why_zh": "向 AI 求助，它不用说话，而是通过肌肉电刺激直接带着你的手去做。",
+    "cat": "body"
+   }
   },
   {
    "id": "zhou-zhou--inner-room-dance",
@@ -18214,7 +18219,12 @@
    },
    "source_url": "https://www.jr-art.net",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Paris's oldest bridge disappears inside a rock cave.",
+    "why_zh": "巴黎最古老的桥消失在一座岩洞里。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "oscar-falmer--ray-ban-hand-tracker",
@@ -20241,7 +20251,12 @@
     "embeddable": true
    },
    "source_url": "https://doi.org/10.1145/3772318.3791741",
-   "batch": "add-zhuoyue-lyu"
+   "batch": "add-zhuoyue-lyu",
+   "salient": {
+    "why_en": "A ball rolls off a real table and keeps falling through the real floor, as if every surface were only a boundary you can switch off.",
+    "why_zh": "一个球滚下真实的桌子，又穿过真实的地板继续往下掉，好像每个表面都只是一条可以关掉的边界。",
+    "cat": "portal"
+   }
   },
   {
    "id": "harvard-vcg--vistar",
@@ -21354,7 +21369,12 @@
    },
    "ai_cat": "agent",
    "source_url": "https://dl.acm.org/doi/10.1145/3706599.3719978",
-   "batch": "ai-research"
+   "batch": "ai-research",
+   "salient": {
+    "why_en": "Every household object gets a face and a personality that come from what it is.",
+    "why_zh": "每件家居物品都长出一张脸，性格由它本身是什么来决定。",
+    "cat": "alive"
+   }
   },
   {
    "id": "stijn-spanhove--action-figure-to-life",
@@ -21394,7 +21414,12 @@
    },
    "ai_cat": "generate",
    "source_url": "https://x.com/stspanho/status/1910708661279773101",
-   "batch": "ai-creators"
+   "batch": "ai-creators",
+   "salient": {
+    "why_en": "Photograph a toy and a living copy of it walks around next to the real one.",
+    "why_zh": "给玩偶拍张照，一个活过来的它就在真玩偶旁边走来走去。",
+    "cat": "alive"
+   }
   },
   {
    "id": "pavlo-tkachenko--spectacles-bubbles",
@@ -23028,7 +23053,12 @@
    "ai_cat": "understand",
    "source_url": "https://www.youtube.com/watch?v=CRyhfPrfywU",
    "code_url": "https://github.com/Mentra-Community/MentraOS",
-   "batch": "ai-creators"
+   "batch": "ai-creators",
+   "salient": {
+    "why_en": "Subtitles for real life, floating next to the person who is speaking.",
+    "why_zh": "给现实生活加字幕，字幕就浮在说话的人旁边。",
+    "cat": "senses"
+   }
   },
   {
    "id": "ian-curtis--x955566",
@@ -23492,7 +23522,12 @@
    "source_url": "https://github.com/asus4/MyakuMyakuAR",
    "code_url": "https://github.com/asus4/MyakuMyakuAR",
    "vfx_cat": "ml",
-   "batch": "vfx-round2-leads"
+   "batch": "vfx-round2-leads",
+   "salient": {
+    "why_en": "A vase of flowers turns into a wobbling blob covered in eyes while the rest of the room stays real.",
+    "why_zh": "一瓶花变成布满眼睛、晃来晃去的团子，房间其余部分保持原样。",
+    "cat": "alive"
+   }
   },
   {
    "id": "nonotak--narcisse",
@@ -24409,7 +24444,12 @@
    },
    "ai_cat": "understand",
    "source_url": "https://x.com/stspanho/status/1992980633652478223",
-   "batch": "ai-creators"
+   "batch": "ai-creators",
+   "salient": {
+    "why_en": "Last night's televised play happens again, in 3D, on the court you are standing on.",
+    "why_zh": "昨晚电视里的那一球，在你脚下的球场上以 3D 重新打一遍。",
+    "cat": "time"
+   }
   },
   {
    "id": "mar-gonzalez-franco--put-that-there-revisited",
@@ -24766,7 +24806,12 @@
    },
    "ai_cat": "understand",
    "source_url": "https://arxiv.org/abs/2508.01789",
-   "batch": "ai-research"
+   "batch": "ai-research",
+   "salient": {
+    "why_en": "A virtual ball sounds like glass, wood or metal depending on the real thing it hits.",
+    "why_zh": "虚拟的球撞到玻璃、木头还是金属，就发出对应材质的声音。",
+    "cat": "sound"
+   }
   },
   {
    "id": "max-van-leeuwen--specs-racer",
@@ -25388,7 +25433,12 @@
     "embeddable": true
    },
    "source_url": "https://www.bloomberg.org/public-art/",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A vanished artwork returns to the exact paths in Central Park where it once stood.",
+    "why_zh": "一件早已拆除的作品，回到它当年所在的中央公园小径上。",
+    "cat": "time"
+   }
   },
   {
    "id": "alexander-whitley--the-last-swan",
@@ -27152,7 +27202,12 @@
    "ai_cat": "understand",
    "source_url": "https://arxiv.org/abs/2407.13515",
    "code_url": "https://github.com/makeabilitylab/CookAR",
-   "batch": "ai-research"
+   "batch": "ai-research",
+   "salient": {
+    "why_en": "Kitchen tools glow safe where you can grab them and warn where they can hurt you.",
+    "why_zh": "厨具上能抓的地方亮起安全色，会伤人的地方亮起警告色。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "keijiro-takahashi--dcam2",
@@ -27516,7 +27571,12 @@
    },
    "ai_cat": "understand",
    "source_url": "https://doi.org/10.1145/3672539.3686746",
-   "batch": "ai-research"
+   "batch": "ai-research",
+   "salient": {
+    "why_en": "Pick up an everyday object and its word in the language you are learning appears.",
+    "why_zh": "拿起一件日常物品，它在你正在学的语言里的名字就出现在眼前。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "botao-amber-hu--echovision",
@@ -27753,7 +27813,12 @@
    },
    "source_url": "https://xavibou.com/entomographies/",
    "related_cat": "trace",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "The flight of an insect is left behind as a glowing line in the air.",
+    "why_zh": "昆虫飞过的路径，在空中留下一条发光的线。",
+    "cat": "time"
+   }
   },
   {
    "id": "aidan-wolf--rat-prism-pet",
@@ -28633,7 +28698,12 @@
    },
    "ai_cat": "understand",
    "source_url": "https://x.com/AnhPhuNguyen1/status/1840786336992682409",
-   "batch": "ai-creators"
+   "batch": "ai-creators",
+   "salient": {
+    "why_en": "Look at a stranger and their name and address appear, showing how exposed everyone already is.",
+    "why_zh": "看一眼陌生人，他的名字和住址就浮现出来，揭示每个人早已暴露到什么程度。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "torin-blankensmith--immersive-memory-alula",
@@ -30851,7 +30921,12 @@
    },
    "source_url": "https://maartenbaas.com",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "The hands of a giant clock are people, one after another, showing the time with their bodies.",
+    "why_zh": "巨大时钟的指针是一个接一个的真人，用身体摆出时间。",
+    "cat": "time"
+   }
   },
   {
    "id": "jon-foreman--sculpt-the-world",
@@ -31126,7 +31201,12 @@
    },
    "source_url": "https://www.tate.org.uk/whats-on/tate-modern/anthony-mccall",
    "related_cat": "light",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "A projected beam becomes a solid-looking volume that you walk into and cut with your body.",
+    "why_zh": "投影光束变成看似实体的空间，你走进去，用身体把它切开。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "makeability-lab--sonifyar",
@@ -33918,7 +33998,12 @@
    "source_url": "https://www.zhuoyuelyu.com/clook",
    "code_url": "https://github.com/ZhuoyueLyu/Arduino/tree/esp32",
    "related_cat": "responsive",
-   "batch": "add-zhuoyue-lyu"
+   "batch": "add-zhuoyue-lyu",
+   "salient": {
+    "why_en": "A clock that watches you: time speeds up when you look away and stops while people talk.",
+    "why_zh": "一只会看人的钟：你不看它时时间变快，有人聊天时时间停下。",
+    "cat": "time"
+   }
   },
   {
    "id": "russ-maschmeyer--clueless-closet",
@@ -37544,7 +37629,12 @@
    },
    "source_url": "https://www.lsc.org",
    "related_cat": "illusion",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Lie on a facade laid flat on the floor and a mirror overhead shows you hanging from a building.",
+    "why_zh": "躺在铺在地上的楼房立面上，头顶的大镜子里你就挂在了楼外墙上。",
+    "cat": "shadow"
+   }
   },
   {
    "id": "figmin-xr--the-floor-is-lava",
@@ -37781,7 +37871,12 @@
    },
    "source_url": "https://www.stephenwilkes.com/",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "One photograph holds a whole day, from daylight on one side to night on the other.",
+    "why_zh": "一张照片装下一整天，一边是白昼，另一边是黑夜。",
+    "cat": "time"
+   }
   },
   {
    "id": "zero10--tommy-hilfiger-ar-mirror",
@@ -38662,7 +38757,12 @@
    "source_url": "https://github.com/asus4/WorldEnsemble",
    "code_url": "https://github.com/asus4/WorldEnsemble",
    "vfx_cat": "audio",
-   "batch": "vfx-round2-leads"
+   "batch": "vfx-round2-leads",
+   "salient": {
+    "why_en": "Tap the buildings on a street and each one becomes an instrument in a song.",
+    "why_zh": "点一下街上的楼，每栋楼就成了一首曲子里的一件乐器。",
+    "cat": "sound"
+   }
   },
   {
    "id": "meta-rl-research--xair",
@@ -44104,7 +44204,12 @@
    },
    "source_url": "https://www.dwbowen.com",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A living plant flies the drone, and its flight path is drawn in the night sky.",
+    "why_zh": "一株活的植物驾驶无人机，它的飞行轨迹被画在夜空里。",
+    "cat": "alive"
+   }
   },
   {
    "id": "aphra-shemza--shemza-digital-8",
@@ -46266,7 +46371,12 @@
    },
    "source_url": "https://www.jr-art.net",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "From one spot, a flat paper collage turns the ground into a cliff with the Eiffel Tower on its edge.",
+    "why_zh": "站在一个特定位置看，地上一张平面拼贴变成悬崖，埃菲尔铁塔就立在崖边。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "xavi-bou--emergence",
@@ -46674,7 +46784,12 @@
    "source_url": "https://github.com/satoshi0212/AR_100Days",
    "code_url": "https://github.com/satoshi0212/AR_100Days",
    "vfx_cat": "surface",
-   "batch": "vfx-round2-leads"
+   "batch": "vfx-round2-leads",
+   "salient": {
+    "why_en": "The real floor cracks into tiles and falls away, opening a pit under your feet.",
+    "why_zh": "真实的地板碎成方块掉下去，脚下出现一个深坑。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "fujiko-nakaya--fog-sculpture-neue-nationalgalerie",
@@ -46713,7 +46828,12 @@
    },
    "source_url": "https://www.smb.museum/en/museums-institutions/neue-nationalgalerie/home/",
    "related_cat": "land",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A sculpture made of fog that you walk into and that the wind keeps reshaping.",
+    "why_zh": "一件用雾做成的雕塑，人可以走进去，风不断改变它的形状。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "satoshi-hattori--fogged-line-world",
@@ -47102,7 +47222,12 @@
    },
    "source_url": "https://madisonsquarepark.org/art/exhibitions/maya-lin-ghost-forest/",
    "related_cat": "land",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Trees killed by rising seas are planted in a Manhattan park, bringing a distant climate loss into the city.",
+    "why_zh": "被海平面上升杀死的树被种进曼哈顿的公园，把远方的气候损失带进城市。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "codrin-mihail--ghost-of-tsushima-lanterns",
@@ -48006,7 +48131,12 @@
    },
    "source_url": "https://christojeanneclaude.net/artworks/larc-de-triomphe-wrapped/",
    "related_cat": "land",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Wrapping a monument in fabric makes a familiar landmark look new.",
+    "why_zh": "用布把纪念碑包起来，熟悉的地标一下子变得陌生。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "jr--la-ferita",
@@ -48045,7 +48175,12 @@
    },
    "source_url": "https://www.palazzostrozzi.org",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A paper tear in a closed museum's stone facade lets you see the halls inside.",
+    "why_zh": "在闭馆博物馆的石墙上贴出一道“裂口”，让人看见里面的大厅。",
+    "cat": "portal"
+   }
   },
   {
    "id": "sila-sveta--levitation-2",
@@ -49202,7 +49337,12 @@
    },
    "source_url": "https://www.lozano-hemmer.com/pulse_topology.php",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Thousands of bulbs each flicker with a recorded heartbeat, so you walk through a landscape of pulses.",
+    "why_zh": "成千上万个灯泡各自随一段录下的心跳闪烁，人走在一片由脉搏组成的地形里。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "tamiko-thiel--rewildar",
@@ -49281,7 +49421,12 @@
    "source_url": "https://github.com/satoshi0212/AR_100Days",
    "code_url": "https://github.com/satoshi0212/AR_100Days",
    "vfx_cat": "surface",
-   "batch": "vfx-round2-leads"
+   "batch": "vfx-round2-leads",
+   "salient": {
+    "why_en": "Paint balls splat onto your real walls and furniture, as in Splatoon.",
+    "why_zh": "像 Splatoon 一样，把颜料弹打在自己房间真实的墙面和家具上。",
+    "cat": "play"
+   }
   },
   {
    "id": "roelof-knol--interactive-football-wall",
@@ -55528,7 +55673,12 @@
    },
    "source_url": "https://xavibou.com/films/",
    "related_cat": "trace",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Tracing every starling turns a flock into one moving sculpture in the sky.",
+    "why_zh": "把每只椋鸟的轨迹描出来，整个鸟群变成天空中一件流动的雕塑。",
+    "cat": "time"
+   }
   },
   {
    "id": "acute-art--wunderkammer",
@@ -56466,7 +56616,12 @@
    },
    "source_url": "https://skullmapping.com",
    "related_cat": "projection",
-   "batch": "related-projection"
+   "batch": "related-projection",
+   "salient": {
+    "why_en": "A cupid escapes a Rubens painting, flies over travellers, and points to where the original hangs.",
+    "why_zh": "丘比特从 Rubens 的画里飞出来，掠过旅客头顶，再指向原作所在的地方。",
+    "cat": "alive"
+   }
   },
   {
    "id": "elevenplay-mikiko--space",
@@ -56661,7 +56816,12 @@
    "source_url": "https://github.com/keijiro/SlitScanCam",
    "code_url": "https://github.com/keijiro/SlitScanCam",
    "vfx_cat": "screen",
-   "batch": "vfx-keijiro-new"
+   "batch": "vfx-keijiro-new",
+   "salient": {
+    "why_en": "Each slice of the live image comes from a different moment, so moving people stretch through time.",
+    "why_zh": "实时画面的每一条切片来自不同时刻，走动的人被时间拉长、扭曲。",
+    "cat": "time"
+   }
   },
   {
    "id": "clemence-debaig--social-distancing-shirt",
@@ -59456,7 +59616,12 @@
    },
    "source_url": "https://saype-artiste.com/beyond-walls",
    "related_cat": "land",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Giant painted hands clasp each other on grass, city after city, forming a chain around the world.",
+    "why_zh": "巨大的手在一座又一座城市的草地上彼此相握，连成一条环绕世界的链。",
+    "cat": "play"
+   }
   },
   {
    "id": "saype--champ-de-mars",
@@ -60892,7 +61057,12 @@
    },
    "source_url": "http://www.smoothware.com/danny/",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Strips of cloth turn their light or dark side to weave a soft picture of whoever stands in front.",
+    "why_zh": "一条条布翻出浅色或深色的一面，织出站在面前的人的柔软影像。",
+    "cat": "shadow"
+   }
   },
   {
    "id": "adrien-m-claire-b--faire-corps",
@@ -64733,7 +64903,12 @@
    },
    "source_url": "https://www.louvre.fr",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Paper pasted on a flat courtyard makes the Louvre pyramid seem to rise out of a deep quarry.",
+    "why_zh": "贴在平整广场上的纸，让卢浮宫金字塔看起来像是从一个深深的采石坑里升起。",
+    "cat": "portal"
+   }
   },
   {
    "id": "yuri-suzuki--the-welcome-chorus",
@@ -67011,7 +67186,12 @@
    },
    "source_url": "https://en.wikipedia.org/wiki/Felice_Varini",
    "related_cat": "illusion",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Yellow shards painted across a whole medieval city snap into perfect circles from one single spot.",
+    "why_zh": "画在整座中世纪古城上的黄色碎片，只在一个位置看过去，会拼成完美的同心圆。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "nexus-studios--childish-gambino-playmoji",
@@ -70190,7 +70370,12 @@
    },
    "source_url": "https://www.palazzograssi.it/en/exhibitions/past/philippe-parreno/",
    "related_cat": "immersive",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Balloon fish drift at head height and bump into you, so the room becomes a fish tank.",
+    "why_zh": "气球做的鱼在头的高度漂浮，还会轻轻撞到你，整个房间变成了鱼缸。",
+    "cat": "alive"
+   }
   },
   {
    "id": "ken-perlin--nyu-holodeck",
@@ -70546,7 +70731,12 @@
    },
    "source_url": "https://esdevlin.com/work",
    "related_cat": "responsive",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Feed a word to a lion in Trafalgar Square and it roars back a line of poetry.",
+    "why_zh": "给 Trafalgar Square 的狮子喂一个词，它就吼出一句诗。",
+    "cat": "alive"
+   }
   },
   {
    "id": "groupe-f--eiffel-tower-2018",
@@ -73296,7 +73486,12 @@
    },
    "source_url": "https://www.chiharu-shiota.com",
    "related_cat": "immersive",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Threads knotted through a building let you walk inside a drawing in the air.",
+    "why_zh": "线在整栋建筑里穿梭打结，让你走进一幅画在空中的画里。",
+    "cat": "draw"
+   }
   },
   {
    "id": "jelmer-verhoog--ar-airplanes",
@@ -74312,7 +74507,12 @@
    },
    "source_url": "https://www.turnercontemporary.org",
    "related_cat": "sculpture",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A lone iron figure in the sea is swallowed and revealed by the tide every day.",
+    "why_zh": "海里一个孤零零的铁人，每天被潮水淹没，又被潮水露出来。",
+    "cat": "time"
+   }
   },
   {
    "id": "matthew-hallberg--arkit-minecraft",
@@ -75319,7 +75519,12 @@
    },
    "source_url": "https://www.publicartfund.org/exhibitions/view/anish-kapoor-descension/",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A black whirlpool spins in the ground as if the floor were draining into the earth.",
+    "why_zh": "一个黑色漩涡在地面上旋转，好像地板正在往地底下流走。",
+    "cat": "portal"
+   }
   },
   {
    "id": "robert-xiao--desktopography",
@@ -75547,7 +75752,12 @@
    },
    "source_url": "https://www.studiodrift.com",
    "related_cat": "illusion",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "A heavy concrete block floats slowly through the room like a cloud.",
+    "why_zh": "一块沉重的混凝土方块像云一样慢慢飘过房间。",
+    "cat": "alive"
+   }
   },
   {
    "id": "frieder-weiss--durers-dog",
@@ -76198,7 +76408,12 @@
    },
    "source_url": "https://www.jr-art.net",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A giant toddler peers over the US–Mexico border fence, turning a wall into a curious look.",
+    "why_zh": "一个巨大的幼儿从美墨边境墙上探头张望，把一堵墙变成了一次好奇的注视。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "keijiro-takahashi--glitchdancer",
@@ -78115,7 +78330,12 @@
    },
    "source_url": "https://www.dougaitkenworkshop.com",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A house covered in mirrors disappears into the desert it reflects.",
+    "why_zh": "一栋贴满镜子的房子，消失在它所映照的沙漠里。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "adrien-m-claire-b--mirages-miracles",
@@ -80213,7 +80433,12 @@
    },
    "source_url": "https://www.lorenzoquinn.com",
    "related_cat": "sculpture",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Two giant hands rise from the canal to hold up a sinking Venice building.",
+    "why_zh": "一双巨手从运河里伸出来，托住一栋正在下沉的威尼斯建筑。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "keijiro-takahashi--swarm",
@@ -81829,7 +82054,12 @@
    },
    "source_url": "https://www.alexchinneck.com",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A house built from wax bricks melts like a candle over a month.",
+    "why_zh": "一栋用蜡砖砌成的房子，在一个月里像蜡烛一样慢慢融化。",
+    "cat": "time"
+   }
   },
   {
    "id": "yuri-suzuki--ar-music-kit",
@@ -82969,7 +83199,12 @@
    },
    "source_url": "https://theartistbreakfast.com",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A wall of flip-discs clatters into your silhouette and keeps a fading echo of how you just moved.",
+    "why_zh": "一面翻转圆片墙哗啦啦地翻出你的剪影，还留着你刚才动作的渐渐消失的回声。",
+    "cat": "shadow"
+   }
   },
   {
    "id": "timoni-west--editorvr",
@@ -83365,7 +83600,12 @@
    },
    "source_url": "https://skullmapping.com",
    "related_cat": "projection",
-   "batch": "related-projection"
+   "batch": "related-projection",
+   "salient": {
+    "why_en": "A painted character escapes its frame and runs around the gallery walls.",
+    "why_zh": "画里的角色逃出画框，在展厅的墙上四处乱跑。",
+    "cat": "alive"
+   }
   },
   {
    "id": "tamiko-thiel--gardens-of-the-anthropocene",
@@ -84102,7 +84342,12 @@
    },
    "source_url": "https://www.jr-art.net",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "The Louvre pyramid is covered with a photo of the palace behind it, so from one spot it simply vanishes.",
+    "why_zh": "卢浮宫金字塔被贴上身后宫殿的照片，从某个位置看去，它就消失了。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "hecomi--kinect-depth-gbuffer",
@@ -85234,7 +85479,12 @@
    },
    "source_url": "https://xavibou.com/ornithographies/",
    "related_cat": "trace",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Stacking the frames of a bird's flight into one image draws the invisible shape its wings leave in the air.",
+    "why_zh": "把鸟飞行的每一帧叠进一张图里，画出了翅膀在空中留下的、原本看不见的形状。",
+    "cat": "time"
+   }
   },
   {
    "id": "liz-west--our-colour-reflection",
@@ -85911,7 +86161,12 @@
    },
    "source_url": "https://www.aiweiwei.com",
    "related_cat": "sculpture",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Refugees' life jackets wrap the columns of a Berlin concert hall, bringing the sea crossing onto a landmark.",
+    "why_zh": "难民留下的救生衣包裹住柏林音乐厅的立柱，把海上逃亡带到了地标建筑上。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "maarten-baas--schiphol-clock",
@@ -85950,7 +86205,12 @@
    },
    "source_url": "https://maartenbaas.com",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A man inside a giant airport clock repaints the hands by hand every minute.",
+    "why_zh": "机场巨大的时钟里有一个人，每分钟亲手重画一次指针。",
+    "cat": "time"
+   }
   },
   {
    "id": "hecomi--screen-space-collision-particles",
@@ -87916,7 +88176,12 @@
    },
    "source_url": "https://behnazfarahi.com/caress-of-the-gaze/",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A garment ripples wherever someone is looking at you, so a gaze becomes something you can see.",
+    "why_zh": "别人看向你哪里，衣服的那一处就会起伏，目光变成了看得见的东西。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "sila-sveta--central-children-store",
@@ -89770,7 +90035,12 @@
    },
    "source_url": "https://skullmapping.com",
    "related_cat": "projection",
-   "batch": "related-projection"
+   "batch": "related-projection",
+   "salient": {
+    "why_en": "A tiny projected chef cooks your meal right on your dinner plate.",
+    "why_zh": "一个投影出来的小厨师，就在你的餐盘上给你做菜。",
+    "cat": "alive"
+   }
   },
   {
    "id": "adrien-m-claire-b--le-mouvement-de-lair",
@@ -90604,7 +90874,12 @@
    },
    "source_url": "http://www.smoothware.com/danny/",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A mirror made of soft fur pom-poms that shows your silhouette as it moves.",
+    "why_zh": "一面由毛绒球组成的镜子，用柔软的毛球映出你移动的轮廓。",
+    "cat": "shadow"
+   }
   },
   {
    "id": "ivan-poupyrev--project-jacquard",
@@ -91527,7 +91802,12 @@
    },
    "source_url": "https://www.random-international.com",
    "related_cat": "sculpture",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Fifteen moving dots of light are enough to see a person walking.",
+    "why_zh": "只要十五个移动的光点，就能看出一个正在走路的人。",
+    "cat": "alive"
+   }
   },
   {
    "id": "keijiro-takahashi--spektr-subatomic",
@@ -94334,7 +94614,12 @@
    },
    "source_url": "https://olafureliasson.net/archive/artwork/WEK109190/ice-watch",
    "related_cat": "land",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Blocks of Greenland ice melt in a city square, so people can touch climate change with their hands.",
+    "why_zh": "格陵兰的冰块在城市广场上融化，人们可以用手摸到气候变化。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "luxloop--if-the-walls-had-eyes",
@@ -94645,7 +94930,12 @@
    },
    "source_url": "https://www.whitevoid.com",
    "related_cat": "light",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A line of glowing balloons redraws the vanished Berlin Wall through the city, then lets it float away.",
+    "why_zh": "一排发光气球在城市中重新画出已消失的柏林墙，然后让它飘向夜空。",
+    "cat": "time"
+   }
   },
   {
    "id": "kimchi-and-chips--light-barrier",
@@ -97672,7 +97962,12 @@
    },
    "source_url": "https://www.dwbowen.com",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Passing clouds press the keys of a real piano, so the sky plays music.",
+    "why_zh": "飘过的云按下真实钢琴的琴键，天空在弹奏音乐。",
+    "cat": "sound"
+   }
   },
   {
    "id": "elevenplay-mikiko--fly",
@@ -98808,7 +99103,12 @@
    },
    "source_url": "https://en.wikipedia.org/wiki/Leandro_Erlich",
    "related_cat": "illusion",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "A house facade lies on the ground under a tilted mirror, so visitors lying on it appear to hang and climb up the building.",
+    "why_zh": "房屋立面平铺在地上，上方斜挂一面大镜子，躺在上面的人在镜中就像挂在楼上攀爬。",
+    "cat": "shadow"
+   }
   },
   {
    "id": "denis-kalkofen--dynamic-compact-visualizations",
@@ -100134,7 +100434,12 @@
    },
    "source_url": "https://www.brunocatalano.com",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Travellers with their bodies torn away, so the harbour behind them shows through.",
+    "why_zh": "旅人的身体缺了一大块，身后的港口从空洞中透出来。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "kyle-mcdonald--light-leaks",
@@ -101431,7 +101736,12 @@
    },
    "source_url": "https://www.strandbeest.com",
    "related_cat": "land",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Creatures made of plastic tubes walk along the beach powered only by the wind.",
+    "why_zh": "用塑料管做成的生物，只靠风力就在沙滩上行走。",
+    "cat": "alive"
+   }
   },
   {
    "id": "local-projects--strike-a-pose",
@@ -102172,7 +102482,12 @@
    },
    "source_url": "https://www.lozano-hemmer.com/voice_tunnel.php",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Your voice becomes a wave of light that runs down a real tunnel.",
+    "why_zh": "你的声音变成一道光波，沿着真实的隧道一路跑远。",
+    "cat": "sound"
+   }
   },
   {
    "id": "keijiro-takahashi--water-surface",
@@ -104115,7 +104430,12 @@
    },
    "source_url": "https://en.wikipedia.org/wiki/Discovering_Columbus",
    "related_cat": "sculpture",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A living room built around a statue six storeys up lets you sit next to it on the sofa.",
+    "why_zh": "在六层楼高的雕像周围搭一间客厅，你可以坐在沙发上与它平视。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "openendedgroup--drawn-together",
@@ -107196,7 +107516,12 @@
    },
    "source_url": "https://www.robmulholland.co.uk",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Human figures made of mirrors vanish into the forest they reflect.",
+    "why_zh": "用镜子做成的人形映出周围的树林，几乎消失在森林里。",
+    "cat": "shadow"
+   }
   },
   {
    "id": "will-pappenheimer--vision-funnels",
@@ -107274,7 +107599,12 @@
    },
    "source_url": "https://www.antoninfourneau.com/2020/09/10/waterlight-graffiti/",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Paint the wall with plain water and it glows, then fades as it dries.",
+    "why_zh": "用清水在墙上画，笔迹就会发光，水干了便慢慢消失。",
+    "cat": "draw"
+   }
   },
   {
    "id": "olivier-ratsi--white-roads-in-the-red-matrix",
@@ -109315,7 +109645,12 @@
    },
    "source_url": "https://www.elasticspace.com/2011/02/light-painting-wifi",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A rod of lights walked down the street draws the invisible WiFi signal as a glowing wall.",
+    "why_zh": "扛着一根灯杆走过街道，把看不见的 WiFi 信号画成一道发光的墙。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "ogmento--in-place-3d-sketching-mechanical",
@@ -111784,7 +112119,12 @@
    },
    "source_url": "https://olafureliasson.net/artwork/your-rainbow-panorama-2006-2011/",
    "related_cat": "light",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Walk around a ring of coloured glass and the city changes colour with every step.",
+    "why_zh": "沿着一圈彩色玻璃走，城市的颜色随每一步变化。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "sander-veenhof--zoetrope-meets-ar",
@@ -113930,7 +114270,12 @@
    },
    "source_url": "https://berglondon.com/blog/2010/09/14/magic-ipad-light-painting/",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A moving iPad becomes a brush that paints solid 3D words in the air.",
+    "why_zh": "挥动的 iPad 成了画笔，在空中画出立体的文字。",
+    "cat": "draw"
+   }
   },
   {
    "id": "jason-bruges-studio--mimosa",
@@ -114245,7 +114590,12 @@
    },
    "source_url": "https://www.berndnaut.nl",
    "related_cat": "illusion",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "A real cloud floats for a moment in the middle of an empty room.",
+    "why_zh": "一朵真正的云在空房间中央飘浮片刻。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "squidsoup--ocean-of-light",
@@ -114405,7 +114755,12 @@
    },
    "source_url": "https://www.lozano-hemmer.com/please_empty_your_pockets.php",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Your object leaves the conveyor belt, but its image stays behind among everyone else's.",
+    "why_zh": "你放上传送带的东西被取走了，它的影像却留在带上，和之前所有人的物品在一起。",
+    "cat": "time"
+   }
   },
   {
    "id": "rafael-lozano-hemmer--pulse-index",
@@ -114754,7 +115109,12 @@
    },
    "source_url": "https://kumiyamashita.com",
    "related_cat": "illusion",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "A few abstract pieces on a wall cast the shadow of a detailed human face.",
+    "why_zh": "墙上几块抽象的碎片，投下的影子却是一张清晰的人脸。",
+    "cat": "shadow"
+   }
   },
   {
    "id": "peter-uithoven--shadowfighter",
@@ -116278,7 +116638,12 @@
    },
    "source_url": "https://vimeo.com/dennishlynsky",
    "related_cat": "trace",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Every bird leaves a trail, so ordinary flight turns into drawings in the sky.",
+    "why_zh": "每只鸟都留下轨迹，平常的飞行变成天空中的线条画。",
+    "cat": "time"
+   }
   },
   {
    "id": "karolina-sobecka--chase",
@@ -116434,7 +116799,12 @@
    },
    "source_url": "https://www.stephenwilkes.com/",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "One photograph of a city runs from day on the left to night on the right.",
+    "why_zh": "一张城市照片从左边的白天一路过渡到右边的夜晚。",
+    "cat": "time"
+   }
   },
   {
    "id": "chris-sugrue--decrypted-reflections",
@@ -116743,7 +117113,12 @@
    },
    "source_url": "https://maartenbaas.com",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A man living inside a grandfather clock redraws its hands by hand every minute.",
+    "why_zh": "一个人住在落地钟里，每分钟亲手擦掉再画出指针。",
+    "cat": "alive"
+   }
   },
   {
    "id": "chris-oshea--hand-from-above",
@@ -119127,7 +119502,12 @@
    },
    "source_url": "https://caiguoqiang.com",
    "related_cat": "sky",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Giant footprints of fireworks walk one by one across the city toward the stadium.",
+    "why_zh": "烟花组成的巨大脚印一步一步走过城市，走向体育场。",
+    "cat": "time"
+   }
   },
   {
    "id": "jenny-holzer--for-the-guggenheim",
@@ -121764,7 +122144,12 @@
    },
    "source_url": "https://www.florentijnhofman.nl",
    "related_cat": "sculpture",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A bath toy blown up to building size turns the whole harbour into a bathtub.",
+    "why_zh": "把洗澡用的橡皮鸭放大到楼房那么高，整个港口就成了浴缸。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "sce-japan-studio--the-eye-of-judgment",
@@ -122624,7 +123009,12 @@
    },
    "source_url": "https://slinkachu.com",
    "related_cat": "sculpture",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Tiny figures turn a drain or a crisp packet on the street into a whole scene.",
+    "why_zh": "几个微缩小人把街边的下水口或薯片袋变成一整个故事场景。",
+    "cat": "alive"
+   }
   },
   {
    "id": "ernesto-neto--leviathan-thot",
@@ -122742,7 +123132,12 @@
    },
    "source_url": "https://www.lozano-hemmer.com/pulse_room.php",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Your heartbeat becomes one flashing bulb among hundreds left by earlier visitors.",
+    "why_zh": "你的心跳变成一只闪烁的灯泡，挂在之前访客留下的几百只灯泡之间。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "chico-macmurtrie--sixteen-birds",
@@ -123180,7 +123575,12 @@
    },
    "source_url": "http://www.juliuspopp.de",
    "related_cat": "light",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Falling water drops spell words that exist only while they fall.",
+    "why_zh": "落下的水滴拼出文字，只在下落的那一瞬间存在。",
+    "cat": "draw"
+   }
   },
   {
    "id": "joseph-delappe--dead-in-iraq",
@@ -123702,7 +124102,12 @@
    },
    "source_url": "https://www.nhk.or.jp/strl/",
    "related_cat": "illusion",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Scanning light makes a solid spinning house bend and melt like rubber.",
+    "why_zh": "扫描的光让一座旋转的实心小房子像橡皮一样弯曲、融化。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "johnny-chung-lee--moveable-projected-displays",
@@ -125736,7 +126141,12 @@
    },
    "source_url": "https://yayoi-kusama.jp",
    "related_cat": "immersive",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Every visitor adds colored dots until a white room disappears under them.",
+    "why_zh": "每位观众贴上几颗彩色圆点，直到白色房间被圆点淹没。",
+    "cat": "play"
+   }
   },
   {
    "id": "wayne-piekarski--tinmith-glove-ui",
@@ -126174,7 +126584,12 @@
    },
    "source_url": "https://www.redballproject.com",
    "related_cat": "sculpture",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A giant red ball gets squeezed into a different gap in the city each day.",
+    "why_zh": "一个巨大的红球，每天被塞进城市里不同的缝隙。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "mark-coniglio--reine-rien",
@@ -126293,7 +126708,12 @@
    },
    "source_url": "https://www.depont.nl",
    "related_cat": "illusion",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "A huge dish mirror brings the sky down to the ground.",
+    "why_zh": "一面巨大的碟形镜子，把天空搬到了地面上。",
+    "cat": "portal"
+   }
   },
   {
    "id": "julio-le-parc--sphere",
@@ -126804,7 +127224,12 @@
    },
    "source_url": "https://www.govettbrewster.com",
    "related_cat": "sculpture",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "One tall bending rod shows a whole city where the wind is.",
+    "why_zh": "一根会弯的细长杆，让整座城市看见风在哪里。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "jun-rekimoto--augmented-surfaces",
@@ -127038,7 +127463,12 @@
    },
    "source_url": "https://www.leandroerlich.com.ar",
    "related_cat": "illusion",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Look down into the pool and people stand at the bottom, dry and breathing.",
+    "why_zh": "往泳池里看，池底站着人，衣服没湿，呼吸如常。",
+    "cat": "portal"
+   }
   },
   {
    "id": "camille-utterback--text-rain",
@@ -128933,7 +129363,12 @@
    },
    "source_url": "https://en.wikipedia.org/wiki/Carsten_H%C3%B6ller",
    "related_cat": "illusion",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "Goggles flip the world upside down, and you have to learn to walk and pour again.",
+    "why_zh": "戴上护目镜，世界上下颠倒，你得重新学会走路、倒水。",
+    "cat": "senses"
+   }
   },
   {
    "id": "olafur-eliasson--beauty",
@@ -129168,7 +129603,12 @@
    },
    "source_url": "https://www.lozano-hemmer.com/surface_tension.php",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A giant eye on the wall follows you wherever you move.",
+    "why_zh": "墙上一只巨大的眼睛，你走到哪里它就盯到哪里。",
+    "cat": "alive"
+   }
   },
   {
    "id": "art-com--zerseher",
@@ -129207,7 +129647,12 @@
    },
    "source_url": "https://artcom.de/en/?project=de-viewer",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Wherever you look at the painting, your gaze smears it away.",
+    "why_zh": "你的目光落在画上哪里，哪里就被抹花、溶解。",
+    "cat": "rewrite"
+   }
   },
   {
    "id": "arthur-ganson--margots-cat",
@@ -129793,7 +130238,12 @@
    },
    "source_url": "https://en.wikipedia.org/wiki/Shigeo_Fukuda",
    "related_cat": "illusion",
-   "batch": "related-sky-light"
+   "batch": "related-sky-light",
+   "salient": {
+    "why_en": "A tangle of forks and knives casts the shadow of a motorcycle.",
+    "why_zh": "一团刀叉勺，投下的影子却是一辆摩托车。",
+    "cat": "shadow"
+   }
   },
   {
    "id": "zbigniew-rybczynski--steps",
@@ -129910,7 +130360,12 @@
    },
    "source_url": "http://www.davidrokeby.com/vns.html",
    "related_cat": "responsive",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "In an empty room, your body's movement is instantly turned into music.",
+    "why_zh": "在空房间里，你身体的每个动作都立刻变成音乐。",
+    "cat": "sound"
+   }
   },
   {
    "id": "pol-bury--fontaines-palais-royal",
@@ -131081,7 +131536,12 @@
    },
    "source_url": "https://www.stedelijk.nl/en/collection",
    "related_cat": "sculpture",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A Buddha sits watching a live image of itself on a television.",
+    "why_zh": "一尊佛像坐在电视前，看着屏幕里实时的自己。",
+    "cat": "shadow"
+   }
   },
   {
    "id": "nam-june-paik--tv-garden",
@@ -131239,7 +131699,12 @@
    },
    "source_url": "https://www.moma.org/artists/3907",
    "related_cat": "trace",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "The outline of her body, pressed into earth and water, stays after she is gone.",
+    "why_zh": "她把身体的轮廓压进泥土和水里，人走了，轮廓还在。",
+    "cat": "time"
+   }
   },
   {
    "id": "norman-mclaren--ballet-adagio",
@@ -131317,7 +131782,12 @@
    },
    "source_url": "https://www.tate.org.uk/art/artists/rebecca-horn-2269",
    "related_cat": "sculpture",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Gloves with metre-long fingers let you touch the room from far away.",
+    "why_zh": "手指长达一米的手套，让你从远处就能摸到房间。",
+    "cat": "body"
+   }
   },
   {
    "id": "rebecca-horn--pencil-mask",
@@ -131356,7 +131826,12 @@
    },
    "source_url": "https://www.tate.org.uk/art/artworks/horn-pencil-mask-t07847",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "A mask of pencils turns every movement of the head into a line on the wall.",
+    "why_zh": "一副插满铅笔的面具，让头的每一次移动都在墙上留下一道线。",
+    "cat": "draw"
+   }
   },
   {
    "id": "christo-jeanne-claude--valley-curtain",
@@ -132140,7 +132615,12 @@
    },
    "source_url": "https://www.tate.org.uk/art/artworks/long-a-line-made-by-walking-p07149",
    "related_cat": "trace",
-   "batch": "related-land"
+   "batch": "related-land",
+   "salient": {
+    "why_en": "Walking back and forth across a field leaves a line in the grass.",
+    "why_zh": "在草地上来回走，草上就留下了一条线。",
+    "cat": "time"
+   }
   },
   {
    "id": "gianni-colombo--spazio-elastico",
@@ -133346,7 +133826,12 @@
    },
    "source_url": "https://en.wikipedia.org/wiki/Gjon_Mili",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Picasso draws in the air with a light, and the drawing hangs there for one exposure.",
+    "why_zh": "毕加索拿着灯在空中作画，画在一次曝光里悬停在空中。",
+    "cat": "draw"
+   }
   },
   {
    "id": "alexander-calder--triple-gong",
@@ -133697,7 +134182,12 @@
    },
    "source_url": "https://en.wikipedia.org/wiki/%C3%89tienne-Jules_Marey",
    "related_cat": "trace",
-   "batch": "related-kinetic"
+   "batch": "related-kinetic",
+   "salient": {
+    "why_en": "Lines of smoke make the invisible flow of air visible around an object.",
+    "why_zh": "一缕缕烟线，让物体周围看不见的气流显现出来。",
+    "cat": "invisible"
+   }
   },
   {
    "id": "etienne-jules-marey--chronophotographic-films",

@@ -1,0 +1,87 @@
+{
+ "carsten-holler--upside-down-goggles": {
+  "why_en": "Goggles flip the world upside down, and you have to learn to walk and pour again.",
+  "why_zh": "戴上护目镜，世界上下颠倒，你得重新学会走路、倒水。",
+  "cat": "senses"
+ },
+ "art-com--zerseher": {
+  "why_en": "Wherever you look at the painting, your gaze smears it away.",
+  "why_zh": "你的目光落在画上哪里，哪里就被抹花、溶解。",
+  "cat": "rewrite"
+ },
+ "rebecca-horn--pencil-mask": {
+  "why_en": "A mask of pencils turns every movement of the head into a line on the wall.",
+  "why_zh": "一副插满铅笔的面具，让头的每一次移动都在墙上留下一道线。",
+  "cat": "draw"
+ },
+ "rebecca-horn--finger-gloves-body-extensions": {
+  "why_en": "Gloves with metre-long fingers let you touch the room from far away.",
+  "why_zh": "手指长达一米的手套，让你从远处就能摸到房间。",
+  "cat": "body"
+ },
+ "richard-long--a-line-made-by-walking": {
+  "why_en": "Walking back and forth across a field leaves a line in the grass.",
+  "why_zh": "在草地上来回走，草上就留下了一条线。",
+  "cat": "time"
+ },
+ "anish-kapoor--sky-mirror": {
+  "why_en": "A huge dish mirror brings the sky down to the ground.",
+  "why_zh": "一面巨大的碟形镜子，把天空搬到了地面上。",
+  "cat": "portal"
+ },
+ "leandro-erlich--swimming-pool": {
+  "why_en": "Look down into the pool and people stand at the bottom, dry and breathing.",
+  "why_zh": "往泳池里看，池底站着人，衣服没湿，呼吸如常。",
+  "cat": "portal"
+ },
+ "nam-june-paik--tv-buddha": {
+  "why_en": "A Buddha sits watching a live image of itself on a television.",
+  "why_zh": "一尊佛像坐在电视前，看着屏幕里实时的自己。",
+  "cat": "shadow"
+ },
+ "len-lye--wind-wand": {
+  "why_en": "One tall bending rod shows a whole city where the wind is.",
+  "why_zh": "一根会弯的细长杆，让整座城市看见风在哪里。",
+  "cat": "invisible"
+ },
+ "etienne-jules-marey--smoke-machine": {
+  "why_en": "Lines of smoke make the invisible flow of air visible around an object.",
+  "why_zh": "一缕缕烟线，让物体周围看不见的气流显现出来。",
+  "cat": "invisible"
+ },
+ "gjon-mili--picasso-light-drawings": {
+  "why_en": "Picasso draws in the air with a light, and the drawing hangs there for one exposure.",
+  "why_zh": "毕加索拿着灯在空中作画，画在一次曝光里悬停在空中。",
+  "cat": "draw"
+ },
+ "shigeo-fukuda--lunch-with-a-helmet-on": {
+  "why_en": "A tangle of forks and knives casts the shadow of a motorcycle.",
+  "why_zh": "一团刀叉勺，投下的影子却是一辆摩托车。",
+  "cat": "shadow"
+ },
+ "david-rokeby--very-nervous-system": {
+  "why_en": "In an empty room, your body's movement is instantly turned into music.",
+  "why_zh": "在空房间里，你身体的每个动作都立刻变成音乐。",
+  "cat": "sound"
+ },
+ "yayoi-kusama--obliteration-room": {
+  "why_en": "Every visitor adds colored dots until a white room disappears under them.",
+  "why_zh": "每位观众贴上几颗彩色圆点，直到白色房间被圆点淹没。",
+  "cat": "play"
+ },
+ "kurt-perschke--redball-project": {
+  "why_en": "A giant red ball gets squeezed into a different gap in the city each day.",
+  "why_zh": "一个巨大的红球，每天被塞进城市里不同的缝隙。",
+  "cat": "rewrite"
+ },
+ "rafael-lozano-hemmer--surface-tension": {
+  "why_en": "A giant eye on the wall follows you wherever you move.",
+  "why_zh": "墙上一只巨大的眼睛，你走到哪里它就盯到哪里。",
+  "cat": "alive"
+ },
+ "ana-mendieta--siluetas": {
+  "why_en": "The outline of her body, pressed into earth and water, stays after she is gone.",
+  "why_zh": "她把身体的轮廓压进泥土和水里，人走了，轮廓还在。",
+  "cat": "time"
+ }
+}

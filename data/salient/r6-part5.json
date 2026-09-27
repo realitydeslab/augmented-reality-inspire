@@ -1,0 +1,20 @@
+{
+  "rob-mulholland--vestige": {"why_en": "Human figures made of mirrors vanish into the forest they reflect.", "why_zh": "用镜子做成的人形映出周围的树林，几乎消失在森林里。", "cat": "shadow"},
+  "antonin-fourneau--water-light-graffiti": {"why_en": "Paint the wall with plain water and it glows, then fades as it dries.", "why_zh": "用清水在墙上画，笔迹就会发光，水干了便慢慢消失。", "cat": "draw"},
+  "timo-arnall--immaterials-light-painting-wifi": {"why_en": "A rod of lights walked down the street draws the invisible WiFi signal as a glowing wall.", "why_zh": "扛着一根灯杆走过街道，把看不见的 WiFi 信号画成一道发光的墙。", "cat": "invisible"},
+  "olafur-eliasson--your-rainbow-panorama": {"why_en": "Walk around a ring of coloured glass and the city changes colour with every step.", "why_zh": "沿着一圈彩色玻璃走，城市的颜色随每一步变化。", "cat": "rewrite"},
+  "berndnaut-smilde--nimbus": {"why_en": "A real cloud floats for a moment in the middle of an empty room.", "why_zh": "一朵真正的云在空房间中央飘浮片刻。", "cat": "rewrite"},
+  "rafael-lozano-hemmer--please-empty-your-pockets": {"why_en": "Your object leaves the conveyor belt, but its image stays behind among everyone else's.", "why_zh": "你放上传送带的东西被取走了，它的影像却留在带上，和之前所有人的物品在一起。", "cat": "time"},
+  "kumi-yamashita--shadow-works": {"why_en": "A few abstract pieces on a wall cast the shadow of a detailed human face.", "why_zh": "墙上几块抽象的碎片，投下的影子却是一张清晰的人脸。", "cat": "shadow"},
+  "dennis-hlynsky--bird-watching": {"why_en": "Every bird leaves a trail, so ordinary flight turns into drawings in the sky.", "why_zh": "每只鸟都留下轨迹，平常的飞行变成天空中的线条画。", "cat": "time"},
+  "stephen-wilkes--day-to-night": {"why_en": "One photograph of a city runs from day on the left to night on the right.", "why_zh": "一张城市照片从左边的白天一路过渡到右边的夜晚。", "cat": "time"},
+  "maarten-baas--grandfather-clock": {"why_en": "A man living inside a grandfather clock redraws its hands by hand every minute.", "why_zh": "一个人住在落地钟里，每分钟亲手擦掉再画出指针。", "cat": "alive"},
+  "cai-guo-qiang--footprints-of-history": {"why_en": "Giant footprints of fireworks walk one by one across the city toward the stadium.", "why_zh": "烟花组成的巨大脚印一步一步走过城市，走向体育场。", "cat": "time"},
+  "florentijn-hofman--rubber-duck": {"why_en": "A bath toy blown up to building size turns the whole harbour into a bathtub.", "why_zh": "把洗澡用的橡皮鸭放大到楼房那么高，整个港口就成了浴缸。", "cat": "rewrite"},
+  "slinkachu--little-people": {"why_en": "Tiny figures turn a drain or a crisp packet on the street into a whole scene.", "why_zh": "几个微缩小人把街边的下水口或薯片袋变成一整个故事场景。", "cat": "alive"},
+  "rafael-lozano-hemmer--pulse-room": {"why_en": "Your heartbeat becomes one flashing bulb among hundreds left by earlier visitors.", "why_zh": "你的心跳变成一只闪烁的灯泡，挂在之前访客留下的几百只灯泡之间。", "cat": "invisible"},
+  "toshio-iwai--morphovision": {"why_en": "Scanning light makes a solid spinning house bend and melt like rubber.", "why_zh": "扫描的光让一座旋转的实心小房子像橡皮一样弯曲、融化。", "cat": "rewrite"},
+  "berg--making-future-magic": {"why_en": "A moving iPad becomes a brush that paints solid 3D words in the air.", "why_zh": "挥动的 iPad 成了画笔，在空中画出立体的文字。", "cat": "draw"},
+  "julius-popp--bit-fall": {"why_en": "Falling water drops spell words that exist only while they fall.", "why_zh": "落下的水滴拼出文字，只在下落的那一瞬间存在。", "cat": "draw"},
+  "tatzu-nishi--discovering-columbus": {"why_en": "A living room built around a statue six storeys up lets you sit next to it on the sofa.", "why_zh": "在六层楼高的雕像周围搭一间客厅，你可以坐在沙发上与它平视。", "cat": "rewrite"}
+}

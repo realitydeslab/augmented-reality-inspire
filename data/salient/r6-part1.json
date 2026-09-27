@@ -1,0 +1,18 @@
+{
+ "pedro-lopes--generative-muscle-stimulation": {"why_en": "Ask the AI for help and it answers by moving your own hand through your muscles.", "why_zh": "向 AI 求助，它不用说话，而是通过肌肉电刺激直接带着你的手去做。", "cat": "body"},
+ "zhuoyue-lyu--clook": {"why_en": "A clock that watches you: time speeds up when you look away and stops while people talk.", "why_zh": "一只会看人的钟：你不看它时时间变快，有人聊天时时间停下。", "cat": "time"},
+ "maarten-baas--schiphol-peoples-clock": {"why_en": "The hands of a giant clock are people, one after another, showing the time with their bodies.", "why_zh": "巨大时钟的指针是一个接一个的真人，用身体摆出时间。", "cat": "time"},
+ "christo-jeanne-claude--the-gates-ar": {"why_en": "A vanished artwork returns to the exact paths in Central Park where it once stood.", "why_zh": "一件早已拆除的作品，回到它当年所在的中央公园小径上。", "cat": "time"},
+ "stijn-spanhove--broadcast-to-xr-basketball": {"why_en": "Last night's televised play happens again, in 3D, on the court you are standing on.", "why_zh": "昨晚电视里的那一球，在你脚下的球场上以 3D 重新打一遍。", "cat": "time"},
+ "cayden-pierce--caption-glasses": {"why_en": "Subtitles for real life, floating next to the person who is speaking.", "why_zh": "给现实生活加字幕，字幕就浮在说话的人旁边。", "cat": "senses"},
+ "makeability-lab--cookar": {"why_en": "Kitchen tools glow safe where you can grab them and warn where they can hurt you.", "why_zh": "厨具上能抓的地方亮起安全色，会伤人的地方亮起警告色。", "cat": "invisible"},
+ "anhphu-nguyen--i-xray": {"why_en": "Look at a stranger and their name and address appear, showing how exposed everyone already is.", "why_zh": "看一眼陌生人，他的名字和住址就浮现出来，揭示每个人早已暴露到什么程度。", "cat": "invisible"},
+ "koki-ibukuro--myaku-myaku-ar": {"why_en": "A vase of flowers turns into a wobbling blob covered in eyes while the rest of the room stays real.", "why_zh": "一瓶花变成布满眼睛、晃来晃去的团子，房间其余部分保持原样。", "cat": "alive"},
+ "fabrice-matulic--talking-objects": {"why_en": "Every household object gets a face and a personality that come from what it is.", "why_zh": "每件家居物品都长出一张脸，性格由它本身是什么来决定。", "cat": "alive"},
+ "stijn-spanhove--action-figure-to-life": {"why_en": "Photograph a toy and a living copy of it walks around next to the real one.", "why_zh": "给玩偶拍张照，一个活过来的它就在真玩偶旁边走来走去。", "cat": "alive"},
+ "laura-schutz--sonify-anything": {"why_en": "A virtual ball sounds like glass, wood or metal depending on the real thing it hits.", "why_zh": "虚拟的球撞到玻璃、木头还是金属，就发出对应材质的声音。", "cat": "sound"},
+ "anthony-mccall--solid-light-tate": {"why_en": "A projected beam becomes a solid-looking volume that you walk into and cut with your body.", "why_zh": "投影光束变成看似实体的空间，你走进去，用身体把它切开。", "cat": "invisible"},
+ "jr--la-caverne-du-pont-neuf": {"why_en": "Paris's oldest bridge disappears inside a rock cave.", "why_zh": "巴黎最古老的桥消失在一座岩洞里。", "cat": "rewrite"},
+ "xavi-bou--entomographies": {"why_en": "The flight of an insect is left behind as a glowing line in the air.", "why_zh": "昆虫飞过的路径，在空中留下一条发光的线。", "cat": "time"},
+ "makeability-lab--earll": {"why_en": "Pick up an everyday object and its word in the language you are learning appears.", "why_zh": "拿起一件日常物品，它在你正在学的语言里的名字就出现在眼前。", "cat": "rewrite"}
+}

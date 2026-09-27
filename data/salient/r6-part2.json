@@ -1,0 +1,82 @@
+{
+  "leandro-erlich--the-building-liberty": {
+    "why_en": "Lie on a facade laid flat on the floor and a mirror overhead shows you hanging from a building.",
+    "why_zh": "躺在铺在地上的楼房立面上，头顶的大镜子里你就挂在了楼外墙上。",
+    "cat": "shadow"
+  },
+  "david-bowen--plant-drone": {
+    "why_en": "A living plant flies the drone, and its flight path is drawn in the night sky.",
+    "why_zh": "一株活的植物驾驶无人机，它的飞行轨迹被画在夜空里。",
+    "cat": "alive"
+  },
+  "jr--eiffel-tower-trocadero": {
+    "why_en": "From one spot, a flat paper collage turns the ground into a cliff with the Eiffel Tower on its edge.",
+    "why_zh": "站在一个特定位置看，地上一张平面拼贴变成悬崖，埃菲尔铁塔就立在崖边。",
+    "cat": "rewrite"
+  },
+  "jr--la-ferita": {
+    "why_en": "A paper tear in a closed museum's stone facade lets you see the halls inside.",
+    "why_zh": "在闭馆博物馆的石墙上贴出一道“裂口”，让人看见里面的大厅。",
+    "cat": "portal"
+  },
+  "satoshi-hattori--floor-pit": {
+    "why_en": "The real floor cracks into tiles and falls away, opening a pit under your feet.",
+    "why_zh": "真实的地板碎成方块掉下去，脚下出现一个深坑。",
+    "cat": "rewrite"
+  },
+  "christo-jeanne-claude--arc-de-triomphe-wrapped": {
+    "why_en": "Wrapping a monument in fabric makes a familiar landmark look new.",
+    "why_zh": "用布把纪念碑包起来，熟悉的地标一下子变得陌生。",
+    "cat": "rewrite"
+  },
+  "koki-ibukuro--world-ensemble": {
+    "why_en": "Tap the buildings on a street and each one becomes an instrument in a song.",
+    "why_zh": "点一下街上的楼，每栋楼就成了一首曲子里的一件乐器。",
+    "cat": "sound"
+  },
+  "satoshi-hattori--real-world-splatoon": {
+    "why_en": "Paint balls splat onto your real walls and furniture, as in Splatoon.",
+    "why_zh": "像 Splatoon 一样，把颜料弹打在自己房间真实的墙面和家具上。",
+    "cat": "play"
+  },
+  "skullmapping--rubens-cupid": {
+    "why_en": "A cupid escapes a Rubens painting, flies over travellers, and points to where the original hangs.",
+    "why_zh": "丘比特从 Rubens 的画里飞出来，掠过旅客头顶，再指向原作所在的地方。",
+    "cat": "alive"
+  },
+  "rafael-lozano-hemmer--pulse-topology": {
+    "why_en": "Thousands of bulbs each flicker with a recorded heartbeat, so you walk through a landscape of pulses.",
+    "why_zh": "成千上万个灯泡各自随一段录下的心跳闪烁，人走在一片由脉搏组成的地形里。",
+    "cat": "invisible"
+  },
+  "xavi-bou--murmurations": {
+    "why_en": "Tracing every starling turns a flock into one moving sculpture in the sky.",
+    "why_zh": "把每只椋鸟的轨迹描出来，整个鸟群变成天空中一件流动的雕塑。",
+    "cat": "time"
+  },
+  "stephen-wilkes--this-fragile-earth-day-to-night": {
+    "why_en": "One photograph holds a whole day, from daylight on one side to night on the other.",
+    "why_zh": "一张照片装下一整天，一边是白昼，另一边是黑夜。",
+    "cat": "time"
+  },
+  "keijiro-takahashi--slitscancam": {
+    "why_en": "Each slice of the live image comes from a different moment, so moving people stretch through time.",
+    "why_zh": "实时画面的每一条切片来自不同时刻，走动的人被时间拉长、扭曲。",
+    "cat": "time"
+  },
+  "saype--beyond-walls": {
+    "why_en": "Giant painted hands clasp each other on grass, city after city, forming a chain around the world.",
+    "why_zh": "巨大的手在一座又一座城市的草地上彼此相握，连成一条环绕世界的链。",
+    "cat": "play"
+  },
+  "fujiko-nakaya--fog-sculpture-neue-nationalgalerie": {
+    "why_en": "A sculpture made of fog that you walk into and that the wind keeps reshaping.",
+    "why_zh": "一件用雾做成的雕塑，人可以走进去，风不断改变它的形状。",
+    "cat": "invisible"
+  },
+  "maya-lin--ghost-forest": {
+    "why_en": "Trees killed by rising seas are planted in a Manhattan park, bringing a distant climate loss into the city.",
+    "why_zh": "被海平面上升杀死的树被种进曼哈顿的公园，把远方的气候损失带进城市。",
+    "cat": "invisible"
+  }
+}

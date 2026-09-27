@@ -1,0 +1,77 @@
+{
+  "daniel-rozin--fabric-mirror": {
+    "why_en": "Strips of cloth turn their light or dark side to weave a soft picture of whoever stands in front.",
+    "why_zh": "一条条布翻出浅色或深色的一面，织出站在面前的人的柔软影像。",
+    "cat": "shadow"
+  },
+  "breakfast--echo": {
+    "why_en": "A wall of flip-discs clatters into your silhouette and keeps a fading echo of how you just moved.",
+    "why_zh": "一面翻转圆片墙哗啦啦地翻出你的剪影，还留着你刚才动作的渐渐消失的回声。",
+    "cat": "shadow"
+  },
+  "felice-varini--concentric-eccentric-carcassonne": {
+    "why_en": "Yellow shards painted across a whole medieval city snap into perfect circles from one single spot.",
+    "why_zh": "画在整座中世纪古城上的黄色碎片，只在一个位置看过去，会拼成完美的同心圆。",
+    "cat": "rewrite"
+  },
+  "jr--the-secret-of-the-great-pyramid": {
+    "why_en": "Paper pasted on a flat courtyard makes the Louvre pyramid seem to rise out of a deep quarry.",
+    "why_zh": "贴在平整广场上的纸，让卢浮宫金字塔看起来像是从一个深深的采石坑里升起。",
+    "cat": "portal"
+  },
+  "anish-kapoor--descension": {
+    "why_en": "A black whirlpool spins in the ground as if the floor were draining into the earth.",
+    "why_zh": "一个黑色漩涡在地面上旋转，好像地板正在往地底下流走。",
+    "cat": "portal"
+  },
+  "es-devlin--please-feed-the-lions": {
+    "why_en": "Feed a word to a lion in Trafalgar Square and it roars back a line of poetry.",
+    "why_zh": "给 Trafalgar Square 的狮子喂一个词，它就吼出一句诗。",
+    "cat": "alive"
+  },
+  "jr--kikito": {
+    "why_en": "A giant toddler peers over the US–Mexico border fence, turning a wall into a curious look.",
+    "why_zh": "一个巨大的幼儿从美墨边境墙上探头张望，把一堵墙变成了一次好奇的注视。",
+    "cat": "rewrite"
+  },
+  "lorenzo-quinn--support": {
+    "why_en": "Two giant hands rise from the canal to hold up a sinking Venice building.",
+    "why_zh": "一双巨手从运河里伸出来，托住一栋正在下沉的威尼斯建筑。",
+    "cat": "rewrite"
+  },
+  "studio-drift--drifter": {
+    "why_en": "A heavy concrete block floats slowly through the room like a cloud.",
+    "why_zh": "一块沉重的混凝土方块像云一样慢慢飘过房间。",
+    "cat": "alive"
+  },
+  "skullmapping--gallery-invasion": {
+    "why_en": "A painted character escapes its frame and runs around the gallery walls.",
+    "why_zh": "画里的角色逃出画框，在展厅的墙上四处乱跑。",
+    "cat": "alive"
+  },
+  "doug-aitken--mirage": {
+    "why_en": "A house covered in mirrors disappears into the desert it reflects.",
+    "why_zh": "一栋贴满镜子的房子，消失在它所映照的沙漠里。",
+    "cat": "rewrite"
+  },
+  "alex-chinneck--a-pound-of-flesh-for-50p": {
+    "why_en": "A house built from wax bricks melts like a candle over a month.",
+    "why_zh": "一栋用蜡砖砌成的房子，在一个月里像蜡烛一样慢慢融化。",
+    "cat": "time"
+  },
+  "philippe-parreno--my-room-is-another-fish-bowl": {
+    "why_en": "Balloon fish drift at head height and bump into you, so the room becomes a fish tank.",
+    "why_zh": "气球做的鱼在头的高度漂浮，还会轻轻撞到你，整个房间变成了鱼缸。",
+    "cat": "alive"
+  },
+  "chiharu-shiota--a-walk-through-the-line": {
+    "why_en": "Threads knotted through a building let you walk inside a drawing in the air.",
+    "why_zh": "线在整栋建筑里穿梭打结，让你走进一幅画在空中的画里。",
+    "cat": "draw"
+  },
+  "antony-gormley--another-time": {
+    "why_en": "A lone iron figure in the sea is swallowed and revealed by the tide every day.",
+    "why_zh": "海里一个孤零零的铁人，每天被潮水淹没，又被潮水露出来。",
+    "cat": "time"
+  }
+}

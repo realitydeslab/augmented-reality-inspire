@@ -255,6 +255,7 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 用你本来没有的感官、或别人的感官去感知世界。
 
 - **FeltSight** — Botao 'Amber' Hu (2025): 借用星鼻鼹鼠的感官：用指尖去触摸周围的空间，而不是用眼睛去看。 https://www.youtube.com/watch?v=7Pq6s3VnD0A
+- **Live caption glasses for the Deaf and hard of hearing** — Cayden Pierce (Mentra / AugmentOS) (2025): 给现实生活加字幕，字幕就浮在说话的人旁边。 https://www.youtube.com/watch?v=CRyhfPrfywU
 - **EchoVision** — Botao 'Amber' Hu (2024): 戴上面具发出声音，回声把空间照亮，你就像蝙蝠一样“听见”了空间。 https://www.youtube.com/watch?v=0JyHmEApctg
 - **Empa** — Katie Dale-Everett Dance (KDE Dance) (2019): 两个人交换眼睛，手牵手跳舞，各自透过对方的视角看世界。 https://www.youtube.com/watch?v=TKyzy7ttthU
 - **Visual Noise Reduction HMD** — Kiyoshi Kiyokawa (2019): 给眼睛用的降噪耳机：周围晃动的干扰被淡化成灰色。 https://www.youtube.com/watch?v=vIKYG9NIeIU
@@ -265,16 +266,23 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Parallel Eyes** — Shunichi Kasahara (2016): 四个人同时看到彼此的视角，再试着玩捉迷藏。 https://vimeo.com/175105689
 - **CHILDHOOD: Egocentric Smaller-person Experience** — Jun Nishida (2015): 低处的摄像头和缩小的手，让成年人像孩子一样看世界、抓东西。 https://vimeo.com/120369920
 - **In the Eyes of the Animal** — Marshmallow Laser Feast (2015): 站在森林里，用蚊子、青蛙或猫头鹰的感官去看这片森林。 https://vimeo.com/140057053
+- **Upside-Down Goggles** — Carsten Höller (1994): 戴上护目镜，世界上下颠倒，你得重新学会走路、倒水。 https://www.youtube.com/watch?v=Ct3c9PzS6yE
 
 ### 让看不见的被看见
 
 一直存在却看不见的东西（空气、运动、数据）变得可见。
 
 - **Micro Art** — Stijn Spanhove, Pavlo Tkachenko (2026): 对准一块石头或一片叶子，就能看到它内部想象出来的微观世界。 https://www.youtube.com/watch?v=esOODTn0RVU
+- **CookAR** — Makeability Lab — Jon E. Froehlich & Jaewook Lee (2024): 厨具上能抓的地方亮起安全色，会伤人的地方亮起警告色。 https://www.youtube.com/watch?v=gtJhme8em7U
+- **I-XRAY** — AnhPhu Nguyen & Caine Ardayfio (2024): 看一眼陌生人，他的名字和住址就浮现出来，揭示每个人早已暴露到什么程度。 https://x.com/AnhPhuNguyen1/status/1840786336992682409
+- **Solid Light (Tate Modern)** — Anthony McCall (2024): 投影光束变成看似实体的空间，你走进去，用身体把它切开。 https://www.youtube.com/watch?v=1OVzjGO5iS4
 - **Soul Paint** — Sarah Ticho (2024): 把情绪画在身体上你感受到它的位置，再走进其他人画出的身体之间。 https://www.youtube.com/watch?v=BmYAtoJA9Wk
 - **AR CO2 Visualization System** — Kiyoshi Kiyokawa (2023): 让共享的空气看得见：无形的二氧化碳变成彩色的云，填满房间里不通风的角落。 https://www.youtube.com/watch?v=zsOv6N_jAXU
 - **Controlling Air Conditioning via Augmented Reality** — Jason Orlosky (2021): 让看不见的气流显形，直接抓住气流就能控制空调吹的方向。 https://www.youtube.com/watch?v=i3OctJhaXKI
 - **Extreme Measures** — FIELD (FIELD.IO / FIELD.SYSTEMS), SPACE10 (IKEA's research and design lab) (2021): 把一头虚拟大象吹胀到塞满空隙，用它来量空间有多大。 https://vimeo.com/554342553
+- **Fog Sculpture (Neue Nationalgalerie)** — Fujiko Nakaya (2021): 一件用雾做成的雕塑，人可以走进去，风不断改变它的形状。 https://www.youtube.com/watch?v=k7VeOZbUZyk
+- **Ghost Forest** — Maya Lin (2021): 被海平面上升杀死的树被种进曼哈顿的公园，把远方的气候损失带进城市。 https://www.youtube.com/watch?v=0DHpGPwHm2I
+- **Pulse Topology** — Rafael Lozano-Hemmer (2021): 成千上万个灯泡各自随一段录下的心跳闪烁，人走在一片由脉搏组成的地形里。 https://www.youtube.com/watch?v=5Zy39kMf_3o
 - **Connected** — Roelof Knol (2020): 地面上的光线把房间里的陌生人连在一起，每个人的私人空间变成了共享空间。 https://www.youtube.com/watch?v=ArFcUEoxKfo
 - **Kitchen Timers in Augmented Reality** — Morten Just (2018): 倒计时直接浮在正在计时的锅上方。 https://www.youtube.com/watch?v=3c114LvhJIA
 - **LUMOS** — Matt DesLauriers (2018): 冷蓝色的灯塔一感受到你的体温，就立刻变暖。 https://vimeo.com/261406016
@@ -283,9 +291,15 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Laplacian Vision** — Yuta Itoh (2016): 空中的一条线提前画出球将要飞到哪里，让人看见下一刻。 https://www.youtube.com/watch?v=2GD7KQOHiMs
 - **Parsing our Silent Language** — Kat Sullivan (2016): 肢体语言有了实时字幕：每个人身上浮现“感兴趣”或“不感兴趣”。 https://vimeo.com/165629185
 - **Treehugger: Wawona** — Marshmallow Laser Feast (2016): 拥抱一棵树就是交互方式，由此看见树里流动的水。 https://www.youtube.com/watch?v=if0wfysmoMU
+- **Caress of the Gaze** — Behnaz Farahi (2015): 别人看向你哪里，衣服的那一处就会起伏，目光变成了看得见的东西。 https://vimeo.com/152363295
+- **Ice Watch** — Olafur Eliasson (2014): 格陵兰的冰块在城市广场上融化，人们可以用手摸到气候变化。 https://www.youtube.com/watch?v=qd-JRGBKSXA
 - **Thermal Touch** — Metaio (Thomas Alt & Peter Meier) (2014): 指尖在任何表面上留下的余温就是一次点击。 https://www.youtube.com/watch?v=K2XL0qnu4Z4
 - **Ballet Rotoscope** — Masahiko Sato + EUPHRATES (2011): 在芭蕾舞者身上描出的发光曲线和几何图形，揭示了每个姿态里隐藏的几何。 https://www.youtube.com/watch?v=yzJk6ww3LD0
+- **Immaterials: Light painting WiFi** — Timo Arnall (2011): 扛着一根灯杆走过街道，把看不见的 WiFi 信号画成一道发光的墙。 https://www.youtube.com/watch?v=cxdjfOkPu-E
+- **Pulse Room** — Rafael Lozano-Hemmer (2006): 你的心跳变成一只闪烁的灯泡，挂在之前访客留下的几百只灯泡之间。 https://www.youtube.com/watch?v=R3benqCGVLI
+- **Wind Wand** — Len Lye (2000): 一根会弯的细长杆，让整座城市看见风在哪里。 https://www.youtube.com/watch?v=HH2gjPPi0XQ
 - **Boundary Functions** — Scott Snibbe (1998): 地面上人与人之间画出的线标出每个人的个人空间，人越多，空间越小。 https://www.youtube.com/watch?v=5wA3lKcDrlM
+- **Smoke Machine (Mouvements de l'air)** — Étienne-Jules Marey (1901): 一缕缕烟线，让物体周围看不见的气流显现出来。 https://www.youtube.com/watch?v=95XOEN4f8EE
 
 ### 声音进入空间
 
@@ -293,22 +307,28 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 
 - **Ultrasound VR** — Universal Everything (Matt Pyke) (2026): 绘画就是作曲：你在空中画下的每一笔都变成声音，并从你落笔的位置响起。 https://www.youtube.com/watch?v=95_WMsapSuA
 - **Audio Personas** — Sean Follmer (2025): 每个人身上都带着一段专属声音，你还没转头就能听出谁在附近。 https://www.youtube.com/watch?v=l8lis-JPIzA
+- **Sonify Anything** — Laura Schütz (2025): 虚拟的球撞到玻璃、木头还是金属，就发出对应材质的声音。 https://www.youtube.com/watch?v=tN6JE3kNUbk
 - **CON/TOUCH #2** — Samuele Albani (2023): 一件乐器，只有两个人互相触碰肩膀时才会发出声音。 https://vimeo.com/862691895
+- **World Ensemble** — Koki Ibukuro (asus4) (2023): 点一下街上的楼，每栋楼就成了一首曲子里的一件乐器。 https://www.youtube.com/watch?v=adra9QppRO0
 - **Live Music with My Clothes in AR** — Lucas Rizzotto (2022): 衣服变成乐器：拍打衣服的不同部位就能演奏音乐。 https://www.youtube.com/watch?v=Vpr1i3-Ekl4
 - **I Turned My Girlfriend into a Musical Instrument** — Lucas Rizzotto (2021): 舞者身体的每个动作都奏出一个音，人本身就成了乐器。 https://www.youtube.com/watch?v=R2KZ34OZlwk
 - **Piano&Dancer** — Instituto Stocos (Muriel Romero, Pablo Palacio & Daniel Bisig) (2021): 一架没有钢琴师的钢琴自己弹奏，回应一位从不触碰它的舞者。 https://www.youtube.com/watch?v=_3gEitmSdis
 - **Audio in AR space** — Zach Lieberman (2017): 每个声音都留在它发出的位置，沿原路走回去就能再次听到。 https://vimeo.com/290238447
 - **Hidden Stories** — Red Paper Heart (2015): 把杯子贴在墙纸上，就能偷听日常物件的秘密故事。 https://vimeo.com/132444721
+- **cloud piano** — David Bowen (2014): 飘过的云按下真实钢琴的琴键，天空在弹奏音乐。 https://vimeo.com/101857804
 - **Ishin-Den-Shin** — Ivan Poupyrev (2013): 用手指碰一下对方的耳朵，悄悄话就顺着身体传过去，信息只靠触碰传递。 https://www.youtube.com/watch?v=Iw1FhmY1sIU
+- **Voice Tunnel** — Rafael Lozano-Hemmer (2013): 你的声音变成一道光波，沿着真实的隧道一路跑远。 https://www.youtube.com/watch?v=jmRnLUVt4kE
 - **Moc** — Lab212 (Béatrice Lartigue, Nicolas Guichard et al.) (2010): 吹口哨，树就从你的气息里长出来；一停下，它也停下。 https://vimeo.com/11989814
 - **Messa di Voce (installation)** — Golan Levin, Zach Lieberman (2005): 你的声音从嘴里长出看得见的形状，你还能用身体推动它们。 https://vimeo.com/221802940
 - **The Voices of Oakland** — Blair MacIntyre — Georgia Tech Augmented Environments Lab (2005): 走进墓园，在每座坟前听安葬在那里的人讲自己的故事。 https://www.youtube.com/watch?v=mHoe2NfTV7U
 - **Touching (e-touching)** — Palindrome (Robert Wechsler), Frieder Weiss (2004): 两位舞者皮肤相触就会发声，每一次触碰都能被听见。 https://www.youtube.com/watch?v=FfjU-lbHdvo
+- **Very Nervous System** — David Rokeby (1986): 在空房间里，你身体的每个动作都立刻变成音乐。 https://www.youtube.com/watch?v=qdvyuvfKVU0
 
 ### 身体变形
 
 你的身体被改变、延伸、交换，或变成别的东西。
 
+- **Generative Muscle Stimulation** — Pedro Lopes (2026): 向 AI 求助，它不用说话，而是通过肌肉电刺激直接带着你的手去做。 https://www.youtube.com/watch?v=pJM2Z8mmwAw
 - **Morphing Identity** — Shunichi Kasahara (2023): 你的脸实时地慢慢变成对面那个人的脸。 https://www.youtube.com/watch?v=rfmIuaV9Ny0
 - **Electrical Head Actuation** — Jun Nishida, Pedro Lopes (2022): 界面不再画箭头提示你往哪看，而是直接帮你把头转过去。 https://www.youtube.com/watch?v=vqpH9gNGpts
 - **Parallel Ping-Pong** — Shunichi Kasahara (2022): 一个意识，两个身体：一个人同时打两场乒乓球。 https://www.youtube.com/watch?v=q1XAmaMdEiE
@@ -326,6 +346,7 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Eyeshine** — Golan Levin, Kyle McDonald (2011): 捕捉你眼中的反光再显示给你看，你的眼睛像夜行动物一样发亮。 https://vimeo.com/29356492
 - **Sandbox (Relational Architecture 17)** — Rafael Lozano-Hemmer (2010): 你伸进小沙盒的手，被投影成覆盖整片海滩的巨手。 https://www.youtube.com/watch?v=GotOBu_14fc
 - **The Salt Satyagraha Online: Gandhi's March to Dandi** — Joseph DeLappe (2008): 在跑步机上走完 240 英里，带着化身在 Second Life 里重走甘地的食盐进军。 https://www.youtube.com/watch?v=34SxiWwOvHw
+- **Finger Gloves and body extensions** — Rebecca Horn (1972): 手指长达一米的手套，让你从远处就能摸到房间。 https://www.youtube.com/watch?v=6uEkq3IBIf0
 
 ### 影子与镜子
 
@@ -334,20 +355,27 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **AR Sundial** — Max van Leeuwen (2025): 一个被真实太阳照亮的虚拟日晷，投下的影子报出真实的时间。 https://x.com/maksvanleeuwen/status/1953056369818439790
 - **Chameleon** — Universal Everything (Matt Pyke) (2024): 街头的数字生物像变色龙一样，模仿路人的动作和样子。 https://www.youtube.com/watch?v=EkGLZ_Ck_-w
 - **Prototype: Someone - a random mirror** — Universal Everything (Matt Pyke) (2024): 一面从不照出你自己的镜子，镜中永远是另一个人在跟着你动。 https://www.youtube.com/watch?v=OS3rX7QU468
+- **The Building (Liberty Science Center)** — Leandro Erlich (2023): 躺在铺在地上的楼房立面上，头顶的大镜子里你就挂在了楼外墙上。 https://www.youtube.com/watch?v=heWqEr-MqEI
 - **Just your shadow** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2022): 舞者和自己的影子讨价还价，而影子并不肯乖乖跟随。 https://www.youtube.com/watch?v=iWfpUCYw3Kg
 - **CMY Shadows Mirror** — Daniel Rozin (2021): 青、品红、黄三色影子在墙上叠加，混合成你的彩色镜像。 https://vimeo.com/1198095563
 - **Antivanity Mirror** — Neil Mendoza (2020): 一面每当你想照自己时就扭头躲开的镜子。 https://vimeo.com/398041909
 - **Painted Mirror** — Theo Watson, Emily Gobeille (2020): 一面会画你的镜子：你站得越久越静，画像就越清晰。 https://vimeo.com/416474904
+- **Fabric Mirror** — Daniel Rozin (2019): 一条条布翻出浅色或深色的一面，织出站在面前的人的柔软影像。 https://vimeo.com/317577759
 - **Fragment Shadow** — Shunichi Kasahara (2019): 一个人同时投下好几道彩色影子，让最日常的影子变得陌生。 https://vimeo.com/322671485
 - **Hello, Shadow!** — Joon Moon (Joon Y. Moon / 문준용) (2019): 拿着灯绕着雕塑转，墙上的影子却变成物体本身不可能投出的形状。 https://www.youtube.com/watch?v=RbwEf1QGA8U
 - **Floating by shadow offset** — Shengzhi Wu (2018): 只移动影子，物体就像离开了桌面，一眼看出最廉价的深度线索。 https://x.com/Wu_Shengzhi/status/1059284500159578113
 - **Move Mirror** — Irene Alvarado, Google Creative Lab (2018): 你的姿势就是搜索词，每一帧都找出一个摆着同样姿势的陌生人。 https://www.youtube.com/watch?v=JvzkFJW6LIU
+- **Echo (Flip-Discs)** — BREAKFAST (Andrew Zolty) (2016): 一面翻转圆片墙哗啦啦地翻出你的剪影，还留着你刚才动作的渐渐消失的回声。 https://www.youtube.com/watch?v=3kYKPIh3TCk
 - **Elephant Walk** — Michael Flückiger (2015): 夜里骑车，车的影子是一头跟着你速度行走的大象。 https://vimeo.com/142179343
 - **Penguins Mirror** — Daniel Rozin (2015): 几百只玩具企鹅转身露出黑背或白肚，拼出你的身影。 https://www.youtube.com/watch?v=QlrnjjfLkTI
+- **PomPom Mirror** — Daniel Rozin (2015): 一面由毛绒球组成的镜子，用柔软的毛球映出你移动的轮廓。 https://vimeo.com/128375543
 - **shadow (drone with a spotlight)** — MIKIKO / ELEVENPLAY, Daito Manabe / Rhizomatiks (2015): 聚光灯由无人机携带，它们一飞，舞者的影子就分裂、旋转。 https://www.youtube.com/watch?v=hX2TneyE41Q
 - **Parade** — Dpt. (2014): 推一下灯，两只瘫软瓷瓶的影子就开始跳舞。 https://vimeo.com/96615251
 - **ZEROTIME** — Children of the Light (Christopher Gabriel & Arnout Hulskamp) (2014): 房间一片漆黑，直到你的手机手电照到反光管；你照出去多少光，就只能收回多少光。 https://vimeo.com/129778294
+- **Dalston House (Bâtiment)** — Leandro Erlich (2013): 房屋立面平铺在地上，上方斜挂一面大镜子，躺在上面的人在镜中就像挂在楼上攀爬。 https://www.youtube.com/watch?v=AFF3BAnSNn4
+- **Vestige** — Rob Mulholland (2012): 用镜子做成的人形映出周围的树林，几乎消失在森林里。 https://www.youtube.com/watch?v=gf4BOH9vod4
 - **Augmented Shadow** — Joon Moon (Joon Y. Moon / 문준용) (2010): 普通的白色积木投下影子，影子里长出小房子、树和小人，过着自己的生活。 https://www.youtube.com/watch?v=0arZMuPK58w
+- **Shadow works** — Kumi Yamashita (2010): 墙上几块抽象的碎片，投下的影子却是一张清晰的人脸。 https://www.youtube.com/watch?v=65BRB3kuvv8
 - **Your uncertain shadow (colour)** — Olafur Eliasson (2010): 五盏彩色灯把一个影子拆成一排彩色影子，跟着你一起移动。 https://www.youtube.com/watch?v=PeBH6fTQNSc
 - **Audience** — Random International (Hannes Koch & Florian Ortkrass), Chris O'Shea (2008): 一群镜子齐刷刷转向盯着你，观众变成了被观看的人。 https://www.youtube.com/watch?v=JuKi35j3Dwk
 - **Under Scan (Relational Architecture 11)** — Rafael Lozano-Hemmer (2005): 陌生人的影像出现在你的影子里抬头看你，路过的影子变成了一次相遇。 https://www.youtube.com/watch?v=Bfn14sLJmyU
@@ -355,66 +383,108 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Shadow (Screen Series)** — Scott Snibbe (2002): 你走开之后，影子留在原地，重复你刚才的动作。 https://www.youtube.com/watch?v=pdxYv-_70-s
 - **Body Movies (Relational Architecture 6)** — Rafael Lozano-Hemmer (2001): 建筑立面上的肖像只在路人的巨大影子里显现，你的影子就是窗口。 https://www.youtube.com/watch?v=g-CNxFiXZDY
 - **Text Rain (with Romy Achituv)** — Camille Utterback (1999): 诗句的字母像雨一样落下，堆在你的身影上，阅读变成了身体动作。 https://www.youtube.com/watch?v=GYvyuL-Mkjg
+- **Lunch with a Helmet On** — Shigeo Fukuda (福田繁雄) (1987): 一团刀叉勺，投下的影子却是一辆摩托车。 https://www.youtube.com/watch?v=aFUGx-DaKz4
+- **TV Buddha** — Nam June Paik (白南准) (1974): 一尊佛像坐在电视前，看着屏幕里实时的自己。 https://www.youtube.com/watch?v=MVwR1n0IZAs
 
 ### 窗与传送门
 
 一个画框、一扇门或一个洞，通向另一个地方。
 
 - **A picture frame that is a window** — Ian Curtis (2026): 墙上的画框其实是一扇窗，往里看，墙后藏着另一个立体世界。 https://x.com/XRarchitect/status/2052418499516170377
+- **Unbounded: Object–Boundary Interaction in Mixed Reality** — Zhuoyue Lyu (2026): 一个球滚下真实的桌子，又穿过真实的地板继续往下掉，好像每个表面都只是一条可以关掉的边界。 https://www.youtube.com/watch?v=FL3hmRgtYUM
 - **Mixed Reality Door for Meta Quest 3** — Takashi Yoshinaga (2023): 打开家里真实的门，门后是一个虚拟世界。 https://www.youtube.com/watch?v=VW7ELpkVmIQ
 - **AR Portal Gun** — Max van Leeuwen (2022): 在真实的墙上打出两个传送门，透过一个门，从另一个门的位置看自己的房间。 https://x.com/maksvanleeuwen/status/1556715819316412418
 - **Depth lines on paper** — Roelof Knol (2022): 一张白纸卡变成桌面上的一个洞，推动纸卡，洞也跟着移动。 https://x.com/CurieuxExplorer/status/1544719441790992385
+- **La Ferita (The Wound)** — JR (2021): 在闭馆博物馆的石墙上贴出一道“裂口”，让人看见里面的大厅。 https://www.youtube.com/watch?v=P-FWZ5-tyws
 - **A Futuristic Portal to My Best Friend** — Lucas Rizzotto (2020): 封控期间，墙上的一扇传送门通向朋友家，两人成了虚拟室友。 https://www.youtube.com/watch?v=713T4x89kMk
 - **AR Cut & Paste** — Cyril Diagne (2020): 用手机对准真实物体把它“剪”下来，再对准电脑屏幕把它“贴”进去。 https://x.com/cyrildiagne/status/1259441154606669824
 - **'Hole in the head' occlusion effect** — Luke Hurd (2019): 头上开了一个洞，里面藏着一个微小的世界。 https://www.youtube.com/watch?v=j7klMWrJFHs
+- **The Secret of the Great Pyramid** — JR (2019): 贴在平整广场上的纸，让卢浮宫金字塔看起来像是从一个深深的采石坑里升起。 https://www.youtube.com/watch?v=rsnpm1_IXbw
 - **The Ring Brought to Life in AR** — Abhishek Singh (2018): 《午夜凶铃》里的女孩从你家电视里爬进客厅。 https://www.youtube.com/watch?v=g_WBVi-bu9Q
 - **Augmented Reality's A-ha Moment (Take On Me AR portal)** — Trixi Studios (Chip Sineni) (2017): 穿过一扇门进入铅笔素描世界，连自己的手也变成线条。 https://www.youtube.com/watch?v=ZBdRAdSosv4
+- **Descension** — Anish Kapoor (2017): 一个黑色漩涡在地面上旋转，好像地板正在往地底下流走。 https://www.youtube.com/watch?v=p8knuUS4w-Q
 - **The Bottomless Pit** — Mark Skwarek, Will Pappenheimer (2012): 圣何塞广场上的一个虚拟洞口直通地球另一端，人们往里扔东西，让它们掉到对跖点。 https://www.youtube.com/watch?v=LuWh7DNtc9U
 - **Delicate Boundaries** — Chris Sugrue (2007): 光做的小虫从屏幕里爬出来，爬到触碰屏幕的手上，画面逃出了边框。 https://vimeo.com/1007230
 - **Head Tracking for Desktop VR Displays** — Johnny Chung Lee (2007): 追踪观看者的头部，一台普通电视就变成一扇后面真有纵深的窗。 https://www.youtube.com/watch?v=Jd3-eiid-Uw
 - **Out of Bounds** — Chris O'Shea (2007): 用一支 X 光手电照向墙壁，就能看到墙后隐藏的空间。 https://vimeo.com/1333176
 - **levelHead** — Julian Oliver (2007): 几个房间藏在你手中的方块里，倾斜真实的方块就能带小人穿过它们。 https://www.youtube.com/watch?v=UJYKSFANuaQ
+- **Sky Mirror** — Anish Kapoor (2001): 一面巨大的碟形镜子，把天空搬到了地面上。 https://www.youtube.com/watch?v=Ee1nAvEZTwY
+- **Swimming Pool** — Leandro Erlich (1999): 往泳池里看，池底站着人，衣服没湿，呼吸如常。 https://www.youtube.com/watch?v=NT7gjhHq9d0
 
 ### 时间与痕迹
 
 过去停留在原地、重新播放，或留下看得见的痕迹。
 
+- **Replaying a broadcast basketball play on a real court in XR** — Stijn Spanhove (2025): 昨晚电视里的那一球，在你脚下的球场上以 3D 重新打一遍。 https://x.com/stspanho/status/1992980633652478223
+- **The Gates in augmented reality (Bloomberg Connects)** — Christo and Jeanne-Claude (2025): 一件早已拆除的作品，回到它当年所在的中央公园小径上。 https://www.youtube.com/watch?v=ncGYO75uATA
+- **Entomographies** — Xavi Bou (2024): 昆虫飞过的路径，在空中留下一条发光的线。 https://vimeo.com/1050040741
 - **Hand-frame photos left in space** — Aidan Wolf (2024): 用手指比个取景框就能拍照，照片留在拍摄的地方，等下一个人来发现。 https://x.com/Aidan_Wolf/status/1838941247148278146
 - **Paris 1924** — Paris AR Studio (Snap) (2024): 举起手机，你脚下的这条街就回到了整整一百年前。 https://www.youtube.com/watch?v=XqI0etsPbKo
 - **Project Revival** — Anrick Bregman (Studio ANRK), Nexus Studios (2024): 站在残破的文物前，就在它所在的位置看到它完整的样子。 https://www.youtube.com/watch?v=nr9tFXYf0Iw
+- **Schiphol People's Clock** — Maarten Baas (2024): 巨大时钟的指针是一个接一个的真人，用身体摆出时间。 https://www.youtube.com/watch?v=WqxXsbquzOE
 - **Spatial Vacuuming** — Daniel Beauchamp (Pushmatrix) (2024): 吸尘时，吸过的地面被实时涂上颜色，漏掉的角落一眼就看出来。 https://x.com/pushmatrix/status/1749797146961006716
+- **Clo(o)k: Human-Time Interactions Through a Clock That "Looks"** — Zhuoyue Lyu (2023): 一只会看人的钟：你不看它时时间变快，有人聊天时时间停下。 https://www.youtube.com/watch?v=A3jYe0NNDAk
 - **Echoes** — Torin Blankensmith (2023): 你摆出的每个姿势，都会召唤出之前站在这里的人做过的最相似的姿势。 https://x.com/blankensmithing/status/1737307286572298738
+- **This Fragile Earth: Day to Night** — Stephen Wilkes (2023): 一张照片装下一整天，一边是白昼，另一边是黑夜。 https://www.youtube.com/watch?v=IlTY4KNGzAY
 - **Real-Time Body Clones** — Max van Leeuwen (2022): 你一边移动，身后一边留下被定格的立体分身。 https://x.com/maksvanleeuwen/status/1527804730629574656
 - **SUPER SLIT SCAN** — Kitasenju Design (Takayuki Watanabe) (2022): 时间被铺展在画面上，移动的人变成被拉伸的、由自身动作构成的雕塑。 https://www.youtube.com/watch?v=y3HyKMhGeTI
+- **Murmurations** — Xavi Bou (2020): 把每只椋鸟的轨迹描出来，整个鸟群变成天空中一件流动的雕塑。 https://www.youtube.com/watch?v=hScBionqFBA
+- **SlitScanCam: realtime slit-scan camera** — Keijiro Takahashi (2020): 实时画面的每一条切片来自不同时刻，走动的人被时间拉长、扭曲。 https://vimeo.com/494895371
 - **The Life** — Marina Abramović (2019): 艺术家的全息分身在房间里为你表演，行为艺术从此可以脱离表演者本人存在。 https://www.youtube.com/watch?v=VeajXYdTEiE
 - **Time Travel in AR** — Nathan Gitter (2018): 每天都被重新涂鸦的墙在原处显出过去的样子，手机成了看向过去的窗口。 https://x.com/nathangitter/status/1020733723183124480
 - **AR Wormhole** — Jonas Jongejan, Google Creative Lab (2017): 穿过一道传送门，看到的是十秒钟前的同一个地方。 https://www.youtube.com/watch?v=Xo0_B3pNNnA
+- **Another Time (Margate)** — Antony Gormley (2017): 海里一个孤零零的铁人，每天被潮水淹没，又被潮水露出来。 https://www.youtube.com/watch?v=3fUZA7ylRJk
 - **Light Capsules x Neon Museum** — Craig Winslow (2017): 投影模仿出光芒，让坏掉的霓虹招牌看起来重新亮起。 https://vimeo.com/207339810
+- **A pound of flesh for 50p** — Alex Chinneck (2016): 一栋用蜡砖砌成的房子，在一个月里像蜡烛一样慢慢融化。 https://www.youtube.com/watch?v=5X144p9qA1w
+- **Ornithographies** — Xavi Bou (2016): 把鸟飞行的每一帧叠进一张图里，画出了翅膀在空中留下的、原本看不见的形状。 https://vimeo.com/561365138
+- **Schiphol Clock** — Maarten Baas (2016): 机场巨大的时钟里有一个人，每分钟亲手重画一次指针。 https://www.youtube.com/watch?v=e_3KY2gWDwg
+- **Lichtgrenze** — Christopher Bauder / WHITEvoid (2014): 一排发光气球在城市中重新画出已消失的柏林墙，然后让它飘向夜空。 https://www.youtube.com/watch?v=Sq0Ecpakna4
 - **Exit Glacier Augmented Reality Terminus Project** — Nathan Shafer (2012): 在阿拉斯加空荡荡的山谷里，Exit Glacier 的冰重新升起，回到几十年前冰川边缘所在的位置。 https://www.youtube.com/watch?v=PQac4zosOVw
 - **Carnation Rain (Largo do Carmo)** — Tamiko Thiel (2011): 虚拟康乃馨落在康乃馨革命发生的广场上，在原地标记这段历史。 https://www.youtube.com/watch?v=VxBEr_bq_0k
+- **Please Empty Your Pockets** — Rafael Lozano-Hemmer (2010): 你放上传送带的东西被取走了，它的影像却留在带上，和之前所有人的物品在一起。 https://www.youtube.com/watch?v=arK7V_jDlNI
+- **Bird Watching (small brains series)** — Dennis Hlynsky (2009): 每只鸟都留下轨迹，平常的飞行变成天空中的线条画。 https://www.youtube.com/watch?v=BA5iOn_toVQ
+- **Day to Night** — Stephen Wilkes (2009): 一张城市照片从左边的白天一路过渡到右边的夜晚。 https://www.youtube.com/watch?v=afev0ZjAhUA
 - **Time remap – Anamorphose temporelle** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2009): 画面的每一行都来自不同的时刻，于是运动的身体扭成了自己过去的雕塑。 https://vimeo.com/7878518
+- **Footprints of History** — Cai Guo-Qiang (蔡国强) (2008): 烟花组成的巨大脚印一步一步走过城市，走向体育场。 https://www.youtube.com/watch?v=kiRyECW2UXk
 - **Daisies** — Theo Watson (2005): 花朵在你脚下枯萎，你离开后又重新长出，你的存在留下看得见的痕迹。 https://vimeo.com/463536634
 - **Liquid Time Series** — Camille Utterback (2002): 你离画面越近，那一块就越退回过去，距离变成了时间。 https://www.youtube.com/watch?v=qSHmx45AF_k
+- **Siluetas** — Ana Mendieta (1973): 她把身体的轮廓压进泥土和水里，人走了，轮廓还在。 https://www.youtube.com/watch?v=xyS5gsw-A5Q
+- **A Line Made by Walking** — Richard Long (1967): 在草地上来回走，草上就留下了一条线。 https://www.youtube.com/watch?v=5eVaZRaQWRQ
 
 ### 改写现实
 
 把已经存在的东西抹去、替换或重新标注，往往带着观点。
 
+- **La Caverne du Pont Neuf** — JR (2026): 巴黎最古老的桥消失在一座岩洞里。 https://www.youtube.com/watch?v=RngYQyEu54k
 - **Ad Block** — Stijn Spanhove (2025): 给街道装上广告拦截：眼前的广告牌直接被遮掉。 https://www.youtube.com/watch?v=KLiEm74cw9Q
+- **EARLL** — Makeability Lab — Jon E. Froehlich & Jaewook Lee (2024): 拿起一件日常物品，它在你正在学的语言里的名字就出现在眼前。 https://www.youtube.com/watch?v=AjdQsxkPVkU
 - **Head-tracked Subtitles** — Jason Orlosky (2024): 给现实生活加字幕，像电影字幕那样出现在说话的人下方。 https://www.youtube.com/watch?v=Oc91ouDpgio
 - **Integrating Real-World Distractions into Virtual Reality** — Yujie Tao, Pedro Lopes (2022): 真实风扇吹来的风变成了虚拟世界里的风，而不是打破沉浸感。 https://www.youtube.com/watch?v=PO8ZlQGYMY8
 - **Reality Channels (Liquid City)** — Keiichi Matsuda (2022): 像换电视频道一样切换城市：同一条街，每换一次就换一身皮肤。 https://www.youtube.com/watch?v=0tyswdePMmA
 - **Reverse AR** — Russ Maschmeyer, Shopify Spatial Commerce Team (2022): 把增强现实反过来用：商品是真实的，周围的房间却是虚拟的。 https://x.com/russ_maschmeyer/status/1562450155080597505
 - **Summer Snow** — Ninsky (2022): 阳光明媚的夏日街道突然被大雪覆盖。 https://x.com/Ninsky_AR/status/1556994932363214852
+- **Eiffel Tower anamorphosis (Trocadéro)** — JR (2021): 站在一个特定位置看，地上一张平面拼贴变成悬崖，埃菲尔铁塔就立在崖边。 https://www.youtube.com/watch?v=ptUCuYhYL1c
+- **Floor Pit (AR 100 Days, Day 45)** — Satoshi Hattori (2021): 真实的地板碎成方块掉下去，脚下出现一个深坑。 https://x.com/shmdevelop/status/1368503261515247617
+- **L'Arc de Triomphe, Wrapped** — Christo and Jeanne-Claude (2021): 用布把纪念碑包起来，熟悉的地标一下子变得陌生。 https://www.youtube.com/watch?v=NUXIn9Fj7GI
 - **Squarepusher 'Terminal Slam' music video** — Daito Manabe / Rhizomatiks (2020): 透过眼镜，涩谷的广告牌被抹去、换成音乐影像，这是做减法而不是做加法的 AR。 https://www.youtube.com/watch?v=GlhV-OKHecI
 - **Landmarkers** — Snap Inc. (Snapchat Lenses) (2019): 镜头里真实的埃菲尔铁塔融化或喷出彩虹，地标变成了玩具。 https://www.youtube.com/watch?v=jNs9kdSAOCA
 - **Notable Women** — Nexus Studios (2019): AR 把历史上杰出女性的肖像印到美元上，追问谁才配出现在钞票上。 https://www.youtube.com/watch?v=DuxXeeGg-T0
+- **Cercles concentriques excentriques (Carcassonne)** — Felice Varini (2018): 画在整座中世纪古城上的黄色碎片，只在一个位置看过去，会拼成完美的同心圆。 https://www.youtube.com/watch?v=Iybcb-pKLQY
 - **ARKit re-code of Jeffrey Shaw's Golden Calf** — Golan Levin (2017): 空的底座上立着一头只有通过手机才能看到的金牛。 https://vimeo.com/269478756
+- **Giants: Kikito** — JR (2017): 一个巨大的幼儿从美墨边境墙上探头张望，把一堵墙变成了一次好奇的注视。 https://www.youtube.com/watch?v=M_LMgzMnG7Q
+- **Mirage** — Doug Aitken (2017): 一栋贴满镜子的房子，消失在它所映照的沙漠里。 https://www.youtube.com/watch?v=Gn3BUue9nEc
 - **SUN** — Random Studio (2017): 拍一拍巨大的弹力球，太阳就随之升起、落下。 https://vimeo.com/212766197
+- **Support** — Lorenzo Quinn (2017): 一双巨手从运河里伸出来，托住一栋正在下沉的威尼斯建筑。 https://www.youtube.com/watch?v=OJjvUjczmgE
+- **JR au Louvre** — JR (2016): 卢浮宫金字塔被贴上身后宫殿的照片，从某个位置看去，它就消失了。 https://www.youtube.com/watch?v=M9VkFxEwINY
+- **Safe Passage (Konzerthaus Berlin)** — Ai Weiwei (艾未未) (2016): 难民留下的救生衣包裹住柏林音乐厅的立柱，把海上逃亡带到了地标建筑上。 https://www.youtube.com/watch?v=8faWQdQ_JgY
 - **Halo Content** — Jason Orlosky, Kiyoshi Kiyokawa (2015): 有人走进视野时，通知会自动让开，在对方脸周围围成一圈光环。 https://www.youtube.com/watch?v=9Vbs1oLpk38
 - **Level of Confidence** — Rafael Lozano-Hemmer (2015): 人脸识别在每位观众脸上寻找 43 名失踪学生，把监控变成纪念。 https://vimeo.com/953969845
 - **Queen Victoria** — Krzysztof Wodiczko (2014): 一座殖民时代的雕像换上当地居民的脸和声音，讲述他们的故事。 https://www.youtube.com/watch?v=oRmT13QlY78
+- **Les Voyageurs** — Bruno Catalano (2013): 旅人的身体缺了一大块，身后的港口从空洞中透出来。 https://www.youtube.com/watch?v=bZJ2sE-xyik
+- **Discovering Columbus** — Tatzu Nishi (2012): 在六层楼高的雕像周围搭一间客厅，你可以坐在沙发上与它平视。 https://www.youtube.com/watch?v=rF76AmzRGxs
 - **Mao Wants This Dollar!** — Geoffrey Alan Rhodes (2011): 透过手机看任何一张美元，它都会变成一张欠条，毛泽东宣布美国欠中国一美元。 https://www.youtube.com/watch?v=ex-EHCLcm7I
+- **Your rainbow panorama** — Olafur Eliasson (2011): 沿着一圈彩色玻璃走，城市的颜色随每一步变化。 https://www.youtube.com/watch?v=ZsMCfOW0SRA
+- **Nimbus** — Berndnaut Smilde (2010): 一朵真正的云在空房间中央飘浮片刻。 https://www.youtube.com/watch?v=I_Uu8epvcw0
 - **The Great Firewall and Sunken City** — Lily & Honglei (Lily Xiying Yang & Honglei Li) (2010): “防火长城”变成一堵真的墙，挡住了布鲁克林的一条街，只要透过手机看就能看到。 https://www.youtube.com/watch?v=BD3BvwFIPuU
 - **The Leak in Your Hometown** — Mark Skwarek (2010): 对准任何 BP 标志，原油就从里面喷涌而出，品牌变成了它自己的漏油现场。 https://www.youtube.com/watch?v=V6-BbqANr04
 - **We AR in MoMA** — Sander Veenhof, Mark Skwarek (2010): 一场未经邀请的 AR 展览挂进了 MoMA，说明虚拟空间里没人能决定谁来展出。 https://www.youtube.com/watch?v=b9T2LVM7ynM
@@ -422,13 +492,21 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **erasAR: Statue of Liberty erased** — Mark Skwarek (2010): 把手机对准自由岛，自由女神像消失了，只剩下空空的底座。 https://www.youtube.com/watch?v=afaggs_RJ7U
 - **de-surveillance** — Sander Veenhof (2009): 举起一块蓝色的东西，你就从警方监控摄像头的画面里消失了。 https://www.youtube.com/watch?v=SBxdBHO9Ozo
 - **The Artvertiser** — Julian Oliver (2008): 透过望远镜看，街头广告被换成艺术作品，广告可以被你关掉。 https://www.youtube.com/watch?v=z4a8n8hotI4
+- **Rubber Duck** — Florentijn Hofman (2007): 把洗澡用的橡皮鸭放大到楼房那么高，整个港口就成了浴缸。 https://www.youtube.com/watch?v=G4-2UUz4Px4
+- **Morphovision** — Toshio Iwai (岩井俊雄) (2005): 扫描的光让一座旋转的实心小房子像橡皮一样弯曲、融化。 https://www.youtube.com/watch?v=GbXeybKgIyY
+- **RedBall Project** — Kurt Perschke (2001): 一个巨大的红球，每天被塞进城市里不同的缝隙。 https://www.youtube.com/watch?v=kNSpgFoUR6E
 - **Tijuana Projection** — Krzysztof Wodiczko (2001): 工厂女工的实时面孔和声音占满巨大的公共球幕，平时无人倾听的人接管了一座地标。 https://www.youtube.com/watch?v=dI_85KyAFWk
+- **Zerseher / De-viewer** — ART+COM Studios (Joachim Sauter) (1992): 你的目光落在画上哪里，哪里就被抹花、溶解。 https://vimeo.com/386256001
 
 ### 让物件活过来
 
 纸、画和日常物件变得可以交互，或者活了过来。
 
+- **Bringing Everyday Objects to Life with AI-Powered Talking Characters** — Fabrice Matulic (Preferred Networks) (2025): 每件家居物品都长出一张脸，性格由它本身是什么来决定。 https://www.youtube.com/watch?v=RkRc7TRDPDQ
+- **Bringing an action figure to life in AR** — Stijn Spanhove (2025): 给玩偶拍张照，一个活过来的它就在真玩偶旁边走来走去。 https://x.com/stspanho/status/1910708661279773101
+- **Myaku Myaku AR** — Koki Ibukuro (asus4) (2025): 一瓶花变成布满眼睛、晃来晃去的团子，房间其余部分保持原样。 https://github.com/user-attachments/assets/03961874-421f-41bc-a1d8-f9e0e07b4fe4
 - **Sketched Reality** — Ryo Suzuki — Programmable Reality Lab (2022): 纸上画的弹簧能把真实的小机器人弹开，机器人也能推动画出来的东西。 https://www.youtube.com/watch?v=xy-IeVgoEpY
+- **plant drone** — David Bowen (2022): 一株活的植物驾驶无人机，它的飞行轨迹被画在夜空里。 https://vimeo.com/709247945
 - **+Panic** — Schnelle Bunte Bilder (with kling klang klong) (2021): 投影出来的鱼只在你动作平缓时才靠近；一着急，恐慌就在鱼群里蔓延。 https://vimeo.com/654523297
 - **Faune** — Adrien M & Claire B (Adrien Mondot & Claire Bardainne) (2021): 城墙上的海报里藏着动物，只有停下来用手机看，它们才会出来。 https://vimeo.com/566519444
 - **Lune** — Julie Curtiss, Acute Art (2021): 无论你怎么绕着走，画中的女人总是转过身去背对你。 https://vimeo.com/812460459
@@ -437,23 +515,34 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Bosch AR** — Anrick Bregman (Studio ANRK) (2020): 五百年前博斯画中的怪物走出画布，来到你的街道上。 https://www.youtube.com/watch?v=iznOf-dOIbw
 - **Earth Speakr** — Olafur Eliasson (2020): 孩子把自己的脸和声音借给树木与河流，让地球开口说话。 https://www.youtube.com/watch?v=oneExExNwZw
 - **ElaMorph Projection** — Ishikawa Watanabe Laboratory (University of Tokyo) (2020): 仅靠投影，就让一个坚硬的物体看起来像橡胶一样有弹性。 https://www.youtube.com/watch?v=uWq-a52X-7g
+- **Rubens Cupid** — Skullmapping (Filip Sterckx & Antoon Verbeeck) (2020): 丘比特从 Rubens 的画里飞出来，掠过旅客头顶，再指向原作所在的地方。 https://www.youtube.com/watch?v=JREE37Q5cNM
 - **AR eyedropper for smart lights** — Shengzhi Wu (2019): 用滴管从任何真实物体上吸取颜色，再挤进台灯，整个世界就成了调色盘。 https://x.com/Wu_Shengzhi/status/1113284624355135489
 - **Bringing Tattoos to Life Using AR** — Abhishek Singh (2019): 对准一个纹身，它就动起来，讲出纹身背后的个人故事。 https://www.youtube.com/watch?v=ojnAHSCNFLk
 - **DoodleLens** — Aidan Wolf (2019): 纸上的涂鸦从纸面上揭下来，在房间里活了过来。 https://x.com/Aidan_Wolf/status/1124997833159929856
 - **Pull a sticky note out of an iPad** — Shengzhi Wu (2019): 捏住平板上的草图，像从书里抽出一页纸一样把它拉进房间，孩子一看就懂。 https://x.com/Wu_Shengzhi/status/1127773999876976640
+- **My Room Is Another Fish Bowl** — Philippe Parreno (2018): 气球做的鱼在头的高度漂浮，还会轻轻撞到你，整个房间变成了鱼缸。 https://www.youtube.com/watch?v=B21g3MFnpUI
+- **Please Feed the Lions** — Es Devlin (2018): 给 Trafalgar Square 的狮子喂一个词，它就吼出一句诗。 https://www.youtube.com/watch?v=SpZ-k9woZ14
+- **Drifter** — Studio DRIFT (2017): 一块沉重的混凝土方块像云一样慢慢飘过房间。 https://www.youtube.com/watch?v=2QJ-Zn-yXs4
 - **HotStepper** — Nexus Studios (2017): 一个小人在真实街道上走在你前面带路。 https://www.youtube.com/watch?v=kR7RBUhnQmU
 - **InstaSaber** — Hart Woolery (2020CV) (2017): 一张卷起来的纸在手中变成发光的光剑。 https://www.youtube.com/watch?v=MWd7shj59PA
 - **Magic Sudoku** — Brad Dwyer (2017): 对准纸上的数独，答案直接写进空格里。 https://x.com/braddwyer/status/910030265006923776
 - **Enthusiast Overlay** — Cyril Diagne (2016): 悬挂的网球被画上潦草的卡通脸和身体，带着无尽的热情蹦来蹦去。 https://vimeo.com/224709486
+- **Gallery Invasion** — Skullmapping (Filip Sterckx & Antoon Verbeeck) (2016): 画里的角色逃出画框，在展厅的墙上四处乱跑。 https://www.youtube.com/watch?v=APpw6ZKIQ3I
+- **Le Petit Chef** — Skullmapping (Filip Sterckx & Antoon Verbeeck) (2015): 一个投影出来的小厨师，就在你的餐盘上给你做菜。 https://www.youtube.com/watch?v=yBJEP4lsRFY
+- **Study for Fifteen Points** — Random International (Hannes Koch & Florian Ortkrass) (2015): 只要十五个移动的光点，就能看出一个正在走路的人。 https://www.youtube.com/watch?v=qnkxo7CWACs
 - **Waterlily Invasion** — Tamiko Thiel (2014): 这些睡莲以你的目光为食，你透过手机看得越久，它们就长得越大，直到把你吞没。 https://www.youtube.com/watch?v=B1wVL_YSodE
 - **Reality Editor: Programming Smarter Objects** — Valentin Heun, MIT Fluid Interfaces — Pattie Maes & Pranav Mistry (2013): 在手机画面里从一个实物拉一条线到另一个实物，它们就被连接起来。 https://vimeo.com/74073989
 - **Sketch Aquarium** — teamLab (2013): 孩子在纸上涂色的鱼被扫描进去，在共享的水族馆里游走。 https://www.youtube.com/watch?v=AnAqB7LZUb8
+- **Strandbeest evolution (archive)** — Theo Jansen (2013): 用塑料管做成的生物，只靠风力就在沙滩上行走。 https://www.youtube.com/watch?v=MYGJ9jrbpvg
 - **Augmented Reality Sandbox** — Oliver Kreylos (2012): 用手堆沙，等高线和水流立刻跟着变化，塑造地形就是推动沙子。 https://www.youtube.com/watch?v=j9JXtTj0mzE
 - **Super Mario Brush** — Cyril Diagne (2012): 孩子在纸上画的超级马里奥关卡，直接变成马里奥真正在上面跑的关卡。 https://vimeo.com/46281850
 - **LightSpace** — Microsoft Research — Hrvoje Benko & Andy Wilson (2010): 把投影照片从桌上捧起，托在手里，再倒到墙上，数据像液体一样可以搬运。 https://www.youtube.com/watch?v=xx5kBqxyaHE
+- **Grandfather Clock (Real Time)** — Maarten Baas (2009): 一个人住在落地钟里，每分钟亲手擦掉再画出指针。 https://www.youtube.com/watch?v=aYD-CDMhnmI
+- **Little People** — Slinkachu (2006): 几个微缩小人把街边的下水口或薯片袋变成一整个故事场景。 https://www.youtube.com/watch?v=VqTSqUOHTtg
 - **Wildlife** — Karolina Sobecka (2006): 投影出的老虎沿着街边建筑与行驶的汽车并肩奔跑，车停它也停。 https://vimeo.com/6400445
 - **Pedestrian** — OpenEndedGroup (Marc Downie, Shelley Eshkar, Paul Kaiser) (2002): 一座住满小小行人的城市，出现在你脚下的路面里。 https://vimeo.com/186079084
 - **Pick-and-Drop** — Jun Rekimoto (1997): 用笔在一块屏幕上拿起文件，放到另一块屏幕上，数据被当作实物对待。 https://www.youtube.com/watch?v=rFw9aMubL-Y
+- **Surface Tension** — Rafael Lozano-Hemmer (1992): 墙上一只巨大的眼睛，你走到哪里它就盯到哪里。 https://www.youtube.com/watch?v=JXLoLPkzdto
 
 ### 空间书写
 
@@ -466,8 +555,14 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Weird Cuts** — Zach Lieberman, Molmol Kuo (2019): 从相机画面里剪下形状挂在半空，在空间里做拼贴。 https://www.youtube.com/watch?v=fU0iFi0PXxI
 - **Just a Line** — Google Creative Lab (2018): 只能在空中画一条白线，正是这个限制让任何人一看就懂什么是空间绘画。 https://www.youtube.com/watch?v=IOKwGCQJVCw
 - **Stenciling in Augmented Reality** — Morten Just (2018): 把参考图投到纸上，任何人都能照着描出一幅好画。 https://www.youtube.com/watch?v=KjWL_zHOysM
+- **A Walk through the Line** — Chiharu Shiota (塩田千春) (2017): 线在整栋建筑里穿梭打结，让你走进一幅画在空中的画里。 https://www.youtube.com/watch?v=5UmbVYwyiqQ
 - **Invisible Highway** — Judith Amores, Anna Fusté (2017): 在增强现实中画一条路，真实的玩具车就沿着它开。 https://www.youtube.com/watch?v=9ZhqsuWF96I
+- **Water Light Graffiti** — Antonin Fourneau (2012): 用清水在墙上画，笔迹就会发光，水干了便慢慢消失。 https://vimeo.com/47080920
+- **Making Future Magic: iPad light painting** — BERG (Jack Schulze, Matt Webb, Timo Arnall) (2010): 挥动的 iPad 成了画笔，在空中画出立体的文字。 https://www.youtube.com/watch?v=C-dVnG8drxs
 - **The EyeWriter** — Zach Lieberman, Theo Watson, Chris Sugrue (2009): 一位瘫痪的涂鸦艺术家用眼睛画画，作品实时出现在城市建筑上。 https://www.youtube.com/watch?v=84H-xLrLvvk
+- **bit.fall** — Julius Popp (2006): 落下的水滴拼出文字，只在下落的那一瞬间存在。 https://www.youtube.com/watch?v=gg9LWsfqqrk
+- **Pencil Mask (Bleistiftmaske)** — Rebecca Horn (1972): 一副插满铅笔的面具，让头的每一次移动都在墙上留下一道线。 https://www.youtube.com/watch?v=Eh9JH7daSbg
+- **Picasso Light Drawings** — Gjon Mili (1949): 毕加索拿着灯在空中作画，画在一次曝光里悬停在空中。 https://www.youtube.com/watch?v=X-i9eqlRzks
 
 ### 一起玩
 
@@ -479,7 +574,9 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **The Floor Is Lava!** — Figmin XR (Overlay) (2023): 把童年游戏变成真的：地板真的变成岩浆，只有家具上才安全。 https://www.youtube.com/watch?v=aOXpbDBwNyM
 - **Touch Grass lens** — Aidan Wolf (2023): 把网络梗当真：这个滤镜确认你真的摸到了草，并给你出去过的证明。 https://x.com/Aidan_Wolf/status/1701565816385179877
 - **Hot Potato multiplayer lens** — Aidan Wolf (2021): 朋友们用手机互相传一个滴答作响的虚拟土豆，直到它在某人手里爆炸，规则人人都懂。 https://x.com/Aidan_Wolf/status/1395445443333476352
+- **Real World Splatoon (AR 100 Days, Day 39)** — Satoshi Hattori (2021): 像 Splatoon 一样，把颜料弹打在自己房间真实的墙面和家具上。 https://x.com/shmdevelop/status/1361732615988932612
 - **Fort Builder** — FIELD (FIELD.IO / FIELD.SYSTEMS), SPACE10 (IKEA's research and design lab) (2020): 用自家靠垫和椅子的数字复制品搭一座堡垒，再让它轰然倒塌，什么都不会摔坏。 https://vimeo.com/554339068
+- **Beyond Walls** — Saype (Guillaume Legros) (2019): 巨大的手在一座又一座城市的草地上彼此相握，连成一条环绕世界的链。 https://www.youtube.com/watch?v=GbX3m2mG644
 - **Musical Chairs Against the Avengers in AR** — Abhishek Singh (2019): 抢椅子游戏里的对手是真人大小的虚拟复仇者，抢的却是真椅子。 https://www.youtube.com/watch?v=mqd_6gdXgpk
 - **Bot Party** — Phoenix Perry (2017): 玩家只有肌肤相触才能让小机器人互传消息，身体成了网线。 https://vimeo.com/252776298
 - **CyberSnake – Holographic Snake** — Lucas Rizzotto (2017): 你就是那条蛇，在家里走动并躲开自己越来越长的尾巴。 https://www.youtube.com/watch?v=1SprJQz_pGU
@@ -492,6 +589,7 @@ Adrien Mondot 原本是计算机研究者和杂耍艺人，在 2000 年代中期
 - **Face Raiders** — Nintendo (2011): 你自己的脸变成敌人，从房间墙壁里破墙而出。 https://www.youtube.com/watch?v=bh-YrWvdUCs
 - **Hand from Above** — Chris O'Shea (2009): 一只巨手伸进广场大屏幕的实时画面，把路人像玩具一样拎起来。 https://vimeo.com/7042266
 - **Subtitled Public** — Rafael Lozano-Hemmer (2005): 每位访客身上都投着一个动词，要摆脱它，只能去触碰别人。 https://vimeo.com/1089123902
+- **The obliteration room** — Yayoi Kusama (草間彌生) (2002): 每位观众贴上几颗彩色圆点，直到白色房间被圆点淹没。 https://www.youtube.com/watch?v=-xNzr-fJHQw
 
 ## 视觉特效（附源代码）
 
