@@ -2,14 +2,14 @@
 
 > A catalog of the most creative augmented-reality creators, from the first pioneers to today, and their AR works, compiled by Reality Design Lab as idea material for teaching. Each work lists its video, core idea, key technique and a classroom exercise.
 
-711 creators, 2991 works (352 visual effects, 373 with source code), updated 2026-09-27. Bilingual (English / Simplified Chinese).
+711 creators, 2991 works (352 visual effects, 373 with source code), updated 2026-09-28. Bilingual (English / Simplified Chinese).
 
 ## Full catalog
 
-- [English catalog](https://inspire.reality.design/inspire.md): key creator tours, then every creator with all works
-- [Chinese catalog](https://inspire.reality.design/inspire.zh.md): 中文版完整目录
-- [Raw data (JSON)](https://inspire.reality.design/data/entries.json)
+- [English catalog](https://augmented.reality.design/inspire.md): key creator tours, then every creator with all works
+- [Chinese catalog](https://augmented.reality.design/inspire.zh.md): 中文版完整目录
+- [Raw data (JSON)](https://augmented.reality.design/data/entries.json)
 
 ## Website
 
-- [https://inspire.reality.design](https://inspire.reality.design): playable videos, guided tours, starring and SKILL.md export
+- [https://augmented.reality.design](https://augmented.reality.design): playable videos, guided tours, starring and SKILL.md export

@@ -2,7 +2,7 @@
 
 A catalog of the most creative augmented-reality creators, from the first pioneers to today, and their AR works, compiled by Reality Design Lab as idea material for teaching. Each work lists its video, core idea, key technique and a classroom exercise.
 
-https://inspire.reality.design · 2026-09-27 · 711 creators · 2991 works
+https://augmented.reality.design · 2026-09-28 · 711 creators · 2991 works
 
 ## How an AI assistant should use this file
 

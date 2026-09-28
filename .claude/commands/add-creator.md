@@ -49,6 +49,6 @@ Read `data/SCHEMA.md` first. It defines the JSON format, the interaction vocabul
 
 11. **Publish** (skip with `--no-push`).
     `git add data/raw data/salient data/overrides.json data/key_creators.json data/entries.* data/leads*.json data/dropped.json data/video_cache.json inspire.md inspire.zh.md llms.txt index.html`
-    `git commit -m "feat(data): add <Creator Name> (<n> works)"` then `git push`. GitHub Pages redeploys https://inspire.reality.design in about a minute.
+    `git commit -m "feat(data): add <Creator Name> (<n> works)"` then `git push`. GitHub Pages redeploys https://augmented.reality.design in about a minute.
 
 12. **Report** in the user's language: creator(s) added, number of works, notable pieces, new leads found, anything left out and why, and the live URL.

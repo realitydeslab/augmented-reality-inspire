@@ -40,4 +40,4 @@ Input: `$ARGUMENTS`
 7. **Publish** (skip with `--no-push`).
    `git add data/salient data/entries.* inspire.md inspire.zh.md llms.txt index.html && git commit -m "feat(salient): <n> added, <m> removed" && git push`
 
-8. **Report** in the user's language: which works were added (title, creator, the one-line reason), which were removed and why, and the new total. Link: https://inspire.reality.design/#view=salient
+8. **Report** in the user's language: which works were added (title, creator, the one-line reason), which were removed and why, and the new total. Link: https://augmented.reality.design/#view=salient

@@ -2,7 +2,7 @@
 
 从早期先驱到今天最有创意的增强现实创作者及其 AR 作品目录，由 Reality Design Lab 整理，作为教学的点子库。每件作品都列出视频、核心点子、关键技术和一个课堂练习。
 
-https://inspire.reality.design · 2026-09-27 · 711 位创作者 · 2991 件作品
+https://augmented.reality.design · 2026-09-28 · 711 位创作者 · 2991 件作品
 
 ## AI 助手应如何使用这个文件
 

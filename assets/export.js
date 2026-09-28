@@ -1,7 +1,7 @@
 /* Reality Design Inspire — language-aware field access and Markdown export (SKILL.md / README.md). */
 (() => {
   "use strict";
-  const SITE = "https://inspire.reality.design";
+  const SITE = "https://augmented.reality.design";
 
   /* Pick the field for the current language; content is fully translated at build time. */
   const text = {

@@ -5,7 +5,7 @@ llms_txt(data)         -> short index pointing to the full files.
 """
 from collections import defaultdict
 
-SITE = "https://inspire.reality.design"
+SITE = "https://augmented.reality.design"
 
 IX = {
     "hand-body": ("Hands & Body", "手势与身体"), "face": ("Face", "面部"), "voice-sound": ("Voice & Sound", "声音"),
