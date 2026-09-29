@@ -175,6 +175,10 @@ main { padding: 22px clamp(16px, 4vw, 56px) 60px; min-height: 60vh; }
 .strip { align-items: flex-start; display: flex; gap: 14px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x proximity; scrollbar-width: thin; }
 .strip .cardwrap { flex: 0 0 min(240px, 70vw); scroll-snap-align: start; }
 .strip .card__title { font-size: 18px; }
+/* progressive-list sentinels (app.js lazy()): invisible; in strips it overlaps the last ~3 cards so the next chunk loads before the end */
+.more { height: 1px; pointer-events: none; }
+.grid > .more { grid-column: 1 / -1; }
+.strip > .more { flex: 0 0 720px; margin-left: -720px; }
 
 /* ---------- modules ---------- */
 .module { border-top: 1px solid var(--line); padding: 30px 0; }

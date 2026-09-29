@@ -15,7 +15,34 @@
   const KEYS = DATA.keys || { groups: [], creators: [] };
   const keysById = Object.fromEntries(KEYS.creators.map((k) => [k.id, k]));
   const isKeyCreator = (cid) => !!creatorsById[cid]?.key;
+  const worksByCreator = {};
+  DATA.works.forEach((w) => w.creator_ids.forEach((c) => (worksByCreator[c] ||= []).push(w)));
   const $ = (s, el = document) => el.querySelector(s);
+
+  /* ---------- long text (data/details.js): loaded on first need, merged into works/creators ---------- */
+  let detailsLoaded = false;
+  let detailsPromise = null;
+  function loadDetails() {
+    if (detailsLoaded) return Promise.resolve(true);
+    if (detailsPromise) return detailsPromise;
+    detailsPromise = new Promise((resolve) => {
+      const s = document.createElement("script");
+      const base = document.querySelector('script[src*="data/entries.js"]')?.getAttribute("src") || "data/entries.js";
+      s.src = base.replace("entries.js", "details.js");
+      s.onload = () => {
+        const d = window.INSPIRE_DETAILS || { works: {}, creators: {} };
+        Object.entries(d.works).forEach(([id, x]) => worksById[id] && Object.assign(worksById[id], x));
+        Object.entries(d.creators).forEach(([id, x]) => creatorsById[id] && Object.assign(creatorsById[id], x));
+        delete window.INSPIRE_DETAILS;
+        hayCache.clear();
+        detailsLoaded = true;
+        resolve(true);
+      };
+      s.onerror = () => { detailsPromise = null; s.remove(); resolve(false); };
+      document.head.append(s);
+    });
+    return detailsPromise;
+  }
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
   /* ---------- per-viewer storage (never required for the page to work) ---------- */
@@ -77,9 +104,15 @@
 
   /* ---------- filtering ---------- */
   const creatorNames = (w) => w.creator_ids.map((id) => creatorsById[id]?.name || id);
+  const hayCache = new Map();
   function haystack(w) {
-    return [w.title, w.description, w.description_zh, w.idea_zh, w.idea_en, w.technique, w.technique_zh, w.exercise_zh, w.exercise_en,
-      ...(w.tech || []), ...creatorNames(w), w.year].join(" ").toLowerCase();
+    let h = hayCache.get(w.id);
+    if (h === undefined) {
+      h = [w.title, w.description, w.description_zh, w.idea_zh, w.idea_en, w.technique, w.technique_zh, w.exercise_zh, w.exercise_en,
+        ...(w.tech || []), ...creatorNames(w), w.year].join(" ").toLowerCase();
+      hayCache.set(w.id, h);
+    }
+    return h;
   }
   function matches(w, { ignoreIx = false } = {}) {
     if (state.creator && !w.creator_ids.includes(state.creator)) return false;
@@ -130,6 +163,38 @@
     </div>`;
   }
 
+  /* ---------- progressive lists: render a first chunk, append the rest as a sentinel scrolls into view ---------- */
+  const lazyJobs = new Map();
+  let lazySeq = 0;
+  function lazy(list, fn, chunk = 24) {
+    if (!moreIO || list.length <= chunk) return list.map((x) => fn(x)).join("");
+    const id = ++lazySeq; // capture first: fn may call lazy() itself (creator rows -> strips)
+    lazyJobs.set(id, { list, fn, chunk, i: chunk });
+    return list.slice(0, chunk).map((x) => fn(x)).join("") + `<div class="more" data-more="${id}" aria-hidden="true"></div>`;
+  }
+  const moreIO = "IntersectionObserver" in window ? new IntersectionObserver((entries) => {
+    entries.forEach((e) => { if (e.isIntersecting) grow(e.target); });
+  }, { rootMargin: "0px 0px 1200px 0px" }) : null;
+  function grow(el) {
+    const id = +el.dataset.more;
+    const job = lazyJobs.get(id);
+    moreIO.unobserve(el);
+    if (!job) { el.remove(); return; }
+    const next = job.list.slice(job.i, job.i + job.chunk);
+    job.i += next.length;
+    el.insertAdjacentHTML("beforebegin", next.map((x) => job.fn(x)).join(""));
+    if (job.i >= job.list.length) { lazyJobs.delete(id); el.remove(); }
+    watchMore(); // re-observing fires again at once if the sentinel is still in range
+    lazyVideos();
+  }
+  function watchMore() {
+    if (moreIO) document.querySelectorAll("[data-more]").forEach((el) => moreIO.observe(el));
+  }
+  function resetLazy() {
+    moreIO?.disconnect();
+    lazyJobs.clear();
+  }
+
   /* ---------- static text ---------- */
   function applyStatic() {
     document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
@@ -167,18 +232,19 @@
   /* ---------- views ---------- */
   function renderWorks() {
     currentList = sorted(DATA.works.filter((w) => matches(w)));
-    $("#grid").innerHTML = currentList.map(card).join("");
+    $("#grid").innerHTML = lazy(currentList, card);
     $("#worksCount").textContent = S().n_works(currentList.length);
     return currentList.length;
   }
   function renderCreators() {
     const q = state.q.toLowerCase();
+    const hit = new Set(DATA.works.filter((w) => matches(w)));
     const rows = DATA.creators
-      .map((c) => ({ c, works: sorted(DATA.works.filter((w) => w.creator_ids.includes(c.id) && matches(w))) }))
+      .map((c) => ({ c, works: sorted((worksByCreator[c.id] || []).filter((w) => hit.has(w))) }))
       .filter(({ c, works }) => works.length || (q && [c.name, c.bio, c.bio_zh, c.role].join(" ").toLowerCase().includes(q)))
       .sort((a, b) => (!!b.c.key - !!a.c.key) || b.works.length - a.works.length || a.c.name.localeCompare(b.c.name));
     currentList = rows.flatMap((r) => r.works);
-    $("#creatorList").innerHTML = rows.map(({ c, works }) => {
+    $("#creatorList").innerHTML = lazy(rows, ({ c, works }) => {
       const t = TX.creator(c, lang);
       const links = Object.entries(c.links || {}).filter(([, u]) => u).map(([k, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(k)} ↗</a>`).join("");
       const via = c.discovered_via && c.discovered_via !== "seed" && creatorsById[c.discovered_via]
@@ -193,8 +259,8 @@
           <div class="links">${links}</div>
           ${via ? `<div class="web">${via}</div>` : ""}
           ${conn ? `<div class="web">${esc(S().connected)} ${conn}</div>` : ""}
-        </div><div class="strip">${works.map(card).join("")}</div></article>`;
-    }).join("");
+        </div><div class="strip">${lazy(works, card, 8)}</div></article>`;
+    }, 8);
     return rows.length;
   }
   function renderModules() {
@@ -211,7 +277,7 @@
           <h2 class="module__title">${esc(lang === "zh" ? zh : en)}</h2>
           <button class="module__all" data-module="${k}">${esc(S().all_n(works.length))}</button></div>
         <p class="module__desc">${esc(lang === "zh" ? dZh : dEn)}</p>
-        <div class="strip">${works.map(card).join("")}</div></section>`;
+        <div class="strip">${lazy(works, card, 8)}</div></section>`;
     }).join("");
     return n;
   }
@@ -237,7 +303,7 @@
     const section = (c, works) => works.length ? `<section class="scat" id="${prefix}-${esc(c.id)}">
         <div class="scat__head"><h3 class="scat__title">${esc(catName(c))}</h3><span class="scat__n mono">${works.length}</span></div>
         <p class="scat__desc">${esc(lang === "zh" ? c.desc_zh : c.desc_en)}</p>
-        <div class="grid">${works.map((w) => card(w, useWhy)).join("")}</div></section>` : "";
+        <div class="grid">${lazy(works, (w) => card(w, useWhy), 12)}</div></section>` : "";
     let list;
     if (!current) {
       list = [...cats.flatMap((c) => byCat(c.id)), ...other];
@@ -287,13 +353,14 @@
           <button class="btn mono" data-export="copy">${esc(S().copy_md)}</button>
           <button class="btn btn--quiet mono" data-export="clear">${esc(S().clear_stars)}</button></div>` : `<p class="starred__empty">${esc(S().starred_empty)}</p>`}
       </div>`;
-    $("#starGrid").innerHTML = list.map(card).join("");
+    $("#starGrid").innerHTML = lazy(list, card);
+    if (list.length) loadDetails(); // export needs the long text; fetch it before the button is pressed
     return 1;
   }
 
   /* ---------- Key Creators ---------- */
   function keyStats(k) {
-    const works = DATA.works.filter((w) => w.creator_ids.some((c) => k.creator_ids.includes(c)));
+    const works = [...new Set(k.creator_ids.flatMap((c) => worksByCreator[c] || []))];
     const ys = works.map((w) => w.year).filter(Boolean);
     return { works, span: ys.length ? `${Math.min(...ys)}–${Math.max(...ys)}` : "" };
   }
@@ -372,10 +439,19 @@
     $("#codeOnly").setAttribute("aria-pressed", state.codeOnly);
     $("#starCount").textContent = stars.size ? stars.size : "";
     renderChips();
+    resetLazy();
+    // drop the DOM of hidden views; switching back re-renders them anyway
+    document.querySelectorAll(".view:not(.is-on) > *").forEach((el) => { if (el.innerHTML) el.innerHTML = ""; });
     const r = { keys: renderKeys, salient: renderSalient, ai: renderAi, vfx: renderVfx, related: renderRelated, works: renderWorks, creators: renderCreators, modules: renderModules, starred: renderStarred }[state.view];
     $("#empty").hidden = r() > 0;
+    watchMore();
     lazyVideos();
     writeHash();
+    // bios (Creators) and full-text search need the long text: render now, re-render once it arrives
+    if (!detailsLoaded && (state.view === "creators" || state.q)) {
+      const snap = `${state.view}|${state.q}`;
+      loadDetails().then((ok) => { if (ok && snap === `${state.view}|${state.q}`) render(); });
+    }
   }
 
   const io = "IntersectionObserver" in window ? new IntersectionObserver((entries) => {
@@ -412,6 +488,10 @@
     fillInfo(w, fromTour);
     if (!$("#player").open) $("#player").showModal();
     writeHash(w.id);
+    if (!detailsLoaded) {
+      $("#playerInfo").dataset.work = w.id;
+      loadDetails().then((ok) => { if (ok && $("#player").open && $("#playerInfo").dataset.work === w.id) fillInfo(w, fromTour); });
+    }
   }
   function fillInfo(w, fromTour) {
     const t = TX.work(w, lang);
@@ -471,7 +551,8 @@
     toast(S().downloaded(name));
   }
   let clearArmed = false;
-  function doExport(kind) {
+  async function doExport(kind) {
+    if (kind !== "clear") await loadDetails();
     const list = DATA.works.filter((w) => stars.has(w.id));
     if (kind === "skill") download("SKILL.md", window.InspireExport.skillMd(list, DATA, lang));
     if (kind === "readme") download("README.md", window.InspireExport.readmeMd(list, DATA, lang));
@@ -514,6 +595,7 @@
   $("#keyOnly").addEventListener("click", () => { state.keyOnly = !state.keyOnly; render(); });
   $("#salientOnly").addEventListener("click", () => { state.salientOnly = !state.salientOnly; render(); });
   $("#codeOnly").addEventListener("click", () => { state.codeOnly = !state.codeOnly; render(); });
+  $("#q").addEventListener("focus", () => loadDetails(), { once: true }); // full-text search: start fetching before the first keystroke
   let qTimer;
   $("#q").addEventListener("input", (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 160); });
   $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; render(); });

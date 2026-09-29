@@ -4,7 +4,8 @@
 - Merges creators by id (unions links / connections).
 - Dedupes works by video (platform + id), unioning creator_ids.
 - Verifies every video (cached in data/video_cache.json) and drops dead ones.
-- Writes data/entries.json, data/entries.js (window.INSPIRE) and data/leads.json.
+- Writes data/entries.json (full), data/entries.js (window.INSPIRE, card fields),
+  data/details.js (window.INSPIRE_DETAILS, long text loaded on demand) and data/leads.json.
 
 Usage: python3 tools/build_data.py [--recheck]
 """
@@ -259,6 +260,34 @@ def verify(works: dict, recheck: bool) -> dict:
     return cache
 
 
+# Long text the cards never show: split into data/details.js, loaded on demand (player, search, Creators, export).
+DETAIL_WORK_FIELDS = ("description", "description_zh", "technique", "technique_zh", "exercise_en", "exercise_zh",
+                      "tech", "source_url", "found_via")
+DETAIL_CREATOR_FIELDS = ("bio", "bio_zh", "why", "why_zh")
+SITE_OMIT_FIELDS = ("batch", "batches")  # build bookkeeping, unused by the site
+
+
+def write_site_data(data: dict) -> None:
+    """data/entries.js (window.INSPIRE, card-level fields) + data/details.js (window.INSPIRE_DETAILS, long text)."""
+    def split(items: list, fields: tuple) -> tuple[list, dict]:
+        core, details = [], {}
+        for x in items:
+            core.append({k: v for k, v in x.items() if k not in fields and k not in SITE_OMIT_FIELDS})
+            d = {k: x[k] for k in fields if x.get(k)}
+            if d:
+                details[x["id"]] = d
+        return core, details
+
+    works, work_details = split(data["works"], DETAIL_WORK_FIELDS)
+    for w in works:
+        w["video"] = {k: v for k, v in w["video"].items() if k != "video_title"}
+    creators, creator_details = split(data["creators"], DETAIL_CREATOR_FIELDS)
+    core = {**data, "works": works, "creators": creators}
+    details = {"works": work_details, "creators": creator_details}
+    (ROOT / "data" / "entries.js").write_text("window.INSPIRE = " + json.dumps(core, ensure_ascii=False) + ";\n")
+    (ROOT / "data" / "details.js").write_text("window.INSPIRE_DETAILS = " + json.dumps(details, ensure_ascii=False) + ";\n")
+
+
 def write_markdown(data: dict) -> None:
     """Plain-Markdown catalog for AI assistants: llms.txt, inspire.md (EN), inspire.zh.md (ZH)."""
     sys.path.insert(0, str(Path(__file__).parent))
@@ -359,7 +388,7 @@ def main() -> None:
             "salient_categories": cats, "vfx_categories": vfx_cats, "related_categories": related_cats,
             "ai_categories": ai_cats}
     (ROOT / "data" / "entries.json").write_text(json.dumps(data, indent=1, ensure_ascii=False))
-    (ROOT / "data" / "entries.js").write_text("window.INSPIRE = " + json.dumps(data, ensure_ascii=False) + ";\n")
+    write_site_data(data)
     (ROOT / "data" / "leads.json").write_text(json.dumps(open_leads, indent=1, ensure_ascii=False))
     (ROOT / "data" / "leads_checked.json").write_text(json.dumps(checked_leads, indent=1, ensure_ascii=False))
     (ROOT / "data" / "dropped.json").write_text(json.dumps(dropped, indent=1, ensure_ascii=False))

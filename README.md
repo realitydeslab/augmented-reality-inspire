@@ -80,7 +80,7 @@ YouTube embeds need `http://`; they do not play from `file://`.
 | `data/related_categories.json`, `data/related/*.json` | The 10 Related Art categories; a work joins with `related_cat` in its batch or via a mapping file (`{ "work-id": "cat" }`, `null` removes) |
 | `data/key_creators.json` | Key Creators, groups and guided tours |
 | `data/overrides.json` | Manual curation: merge creators, hide or patch works, lead status, confirmed non-duplicates |
-| `data/entries.json`, `data/entries.js` | Built dataset used by the site |
+| `data/entries.json`, `data/entries.js`, `data/details.js` | Built dataset: `entries.json` is complete; the site loads `entries.js` (card fields) up front and `details.js` (descriptions, techniques, exercises, bios) only when a work is opened, on search, the Creators tab or export |
 | `data/sources/pinterest.json` | Pinterest pins used as discovery leads, each marked traced / untraced / not_ar / duplicate (only traced pins become works, with `found_via`) |
 | `data/leads.json` | People found but not yet researched |
 | `data/leads_checked.json` | Leads already covered or checked (no video, not AR, duplicate) |
